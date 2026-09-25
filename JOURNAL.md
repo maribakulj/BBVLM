@@ -834,3 +834,46 @@ de repère avec 1,9 % de CER mesuré sur 5 pages ; ONB permettra une mesure plus
 sérieuse de l'écart VLM / CTC sur cette écriture.
 
 Conservé pour cet usage, écarté pour la géométrie.
+
+---
+
+## Itération 16 — la mesure qui renverse la conclusion précédente
+
+### Une injustice dans mon protocole
+
+J'avais conclu que « le VLM gagne sur le Fraktur » en comparant churro à
+**CATMuS-Print**, un modèle d'imprimé **latin**, sur de l'allemand gothique.
+C'est un hors-domaine que j'avais moi-même fabriqué, pas une propriété de
+l'écriture.
+
+Le test honnête est contre `german_print`, fait pour cette matière. Sur les
+mêmes 90 lignes du corpus autrichien :
+
+| moteur | CER | temps |
+|---|---|---|
+| kraken **german_print** (assorti) | **1,25 %** | 9 s |
+| kraken catmus-print (non assorti) | 27,55 % | 5 s |
+
+Pages : 1,06 %, **0,00 %**, 2,70 %.
+
+**Un CTC assorti lit le Fraktur à 1,25 %.** L'écart de 22 points entre les deux
+modèles kraken n'a rien à voir avec l'écriture : il tient entièrement à
+l'adéquation du modèle à la matière.
+
+### Ce que ça fait à la conclusion de l'itération 14
+
+Elle était formulée ainsi : *« l'architecture se justifie là où le recognizer
+disponible est hors de son domaine — Fraktur, graphies anciennes »*. Le mot
+« Fraktur » y est **faux** : ce n'est pas l'écriture qui met un CTC en échec,
+c'est l'absence de modèle assorti.
+
+Formulation corrigée : **l'architecture ne se justifie que lorsqu'aucun modèle
+assorti n'existe pour la matière traitée.** C'est nettement plus restrictif —
+et vérifiable avant d'engager quoi que ce soit : il suffit de chercher s'il
+existe un modèle pour l'écriture visée.
+
+C'est exactement la conclusion de `hans` H7, que j'ai mis deux jours à
+retrouver par un autre chemin :
+
+> *« Post-correction ou ré-OCRisation ? Cela dépend entièrement de savoir si
+> l'on dispose d'un recognizer assorti à son matériel. »*

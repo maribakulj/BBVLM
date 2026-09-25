@@ -42,15 +42,19 @@ def cer(ref: list[str], hyp: list[str]) -> float:
     return 100*lev(A, B)/max(1, len(A))
 
 
-def lire_kraken(pages, n_lignes=40):
+MODELES = {
+    'latin': '~/Library/Application Support/htrmopo/d96caf7a-122e-5576-ab2b-a246c4e64221/catmus-print-fondue-large.mlmodel',
+    'german': '~/Library/Application Support/htrmopo/71d9d381-c404-53dc-97a2-a33024db3f57/german_print.mlmodel',
+}
+
+
+def lire_kraken(pages, n_lignes=40, modele='latin'):
     """Le recognizer classique, texte ET temps."""
     from kraken import rpred
     from kraken.lib import models
     from kraken.containers import Segmentation, BaselineLine
     from PIL import Image
-    m = models.load_any(os.path.expanduser(
-        '~/Library/Application Support/htrmopo/d96caf7a-122e-5576-ab2b-a246c4e64221/'
-        'catmus-print-fondue-large.mlmodel'))
+    m = models.load_any(os.path.expanduser(MODELES[modele]))
     out = {}
     for p in pages:
         im = Image.fromarray(p.gray).convert('L')
@@ -99,7 +103,11 @@ if __name__ == '__main__':
              if p.corpus == corp][:3]
     print(f"corpus {corp} — {len(pages)} pages, {n} lignes chacune\n")
     qui = sys.argv[3] if len(sys.argv) > 3 else 'kraken'
-    r = lire_kraken(pages, n) if qui == 'kraken' else lire_churro(pages, n)
+    if qui.startswith('kraken'):
+        mod = qui.split(':')[1] if ':' in qui else 'latin'
+        r = lire_kraken(pages, n, mod)
+    else:
+        r = lire_churro(pages, n)
     tot_c = 0.0; tot_s = 0.0
     print(f"{'page':>22}{'CER':>9}{'lignes':>8}{'secondes':>10}")
     print('-'*50)

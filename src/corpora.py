@@ -64,6 +64,26 @@ def load_page_xml(xml: str, image: str, corpus: str, name: str) -> Page | None:
     return Page(name, corpus, image, lines) if lines else None
 
 
+def load_page_xml_lignes(xml: str, image: str, corpus: str, name: str) -> Page | None:
+    """PAGE XML dont l'annotation s'arrête à la ligne (pas de <Word>).
+    Les `word_boxes` sont VIDES : ce corpus ne peut servir qu'à mesurer le TEXTE,
+    et `gt_is_geometric` le rejettera de lui-même pour la géométrie."""
+    try:
+        r = etree.parse(xml).getroot()
+    except Exception:
+        return None
+    ns = r.tag.split('}')[0].strip('{'); N = {'p': ns}
+    lines: list[Line] = []
+    for tl in r.findall('.//p:TextLine', N):
+        c = tl.find('p:Coords', N)
+        u = tl.find('p:TextEquiv/p:Unicode', N)
+        if c is None or u is None or not u.text: continue
+        t = u.text.strip()
+        if not t: continue
+        lines.append(Line(t, t.split(), _box(c.get('points')), []))
+    return Page(name, corpus, image, lines) if lines else None
+
+
 def load_alto(xml: str, image: str, corpus: str, name: str) -> Page | None:
     """ALTO avec <String HPOS WIDTH VPOS HEIGHT>."""
     try:
@@ -137,6 +157,16 @@ def all_pages(limit_per_corpus: int | None = None, only_geometric: bool = True,
         p = load_page_xml(ref, img, 'OCR17', os.path.basename(d)[:24])
         if p: out.append(p); n += 1
         if limit_per_corpus and n >= limit_per_corpus: break
+    # ONB AustrianNewspapers — Fraktur, PAGE XML SANS Word : texte au niveau ligne.
+    # Inutilisable pour la géométrie, précieux pour le texte.
+    n = 0
+    base = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'corpora', 'onb')
+    for x in sorted(glob.glob(f'{base}/*.xml')):
+        img = next((x[:-4]+e for e in ('.jpg', '.png', '.tif') if os.path.exists(x[:-4]+e)), None)
+        if not img: continue
+        p = load_page_xml_lignes(x, img, 'ONB', os.path.basename(x)[:-4][:18])
+        if p: out.append(p); n += 1
+        if n >= (limit_per_corpus or 8): break
     # ATR Newseye — presse française, PAGE XML avec Word + Coords
     n = 0
     for x in sorted(glob.glob(f'{HOME}/Downloads/ATR_TrainingSet_BnF_Newseye_M2+/*.xml')):
