@@ -134,6 +134,22 @@ def all_pages(limit_per_corpus: int | None = None, only_geometric: bool = True) 
         p = load_page_xml(ref, img, 'OCR17', os.path.basename(d)[:24])
         if p: out.append(p); n += 1
         if limit_per_corpus and n >= limit_per_corpus: break
+    # ATR Newseye — presse française, PAGE XML avec Word + Coords
+    n = 0
+    for x in sorted(glob.glob(f'{HOME}/Downloads/ATR_TrainingSet_BnF_Newseye_M2+/*.xml')):
+        img = next((x[:-4]+e for e in ('.tif', '.jpg', '.png') if os.path.exists(x[:-4]+e)), None)
+        if not img: continue
+        p = load_page_xml(x, img, 'Newseye', os.path.basename(x)[:-4][:20])
+        if p: out.append(p); n += 1
+        if n >= (limit_per_corpus or 12): break
+    # BNL complet — même famille que le sous-ensemble cinoc, testé à part
+    n = 0
+    for x in sorted(glob.glob(f'{HOME}/Downloads/bnl-ground-truth-newspapers-before-1878-raw/*/*.xml')):
+        img = x[:-4] + '.png'
+        if not os.path.exists(img): continue
+        p = load_alto(x, img, 'BNLfull', os.path.basename(os.path.dirname(x))+'/'+os.path.basename(x)[:-4])
+        if p: out.append(p); n += 1
+        if n >= (limit_per_corpus or 40): break
     # Presse française 1900, VT vérifiée à la main (786 String)
     pp = f'{os.path.dirname(os.path.dirname(os.path.abspath(__file__)))}/corpora/petitparisien'
     if os.path.exists(f'{pp}/page.alto.xml'):

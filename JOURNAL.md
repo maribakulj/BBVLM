@@ -395,3 +395,52 @@ Ligne de base proportionnelle, pour mémoire : 86,0 % et 3,38c.
 C'est la même leçon qu'une couche plus haut, où deux lecteurs indépendants
 valaient mieux qu'un seul : ici **deux placeurs indépendants**, dont les
 domaines d'échec ne se recouvrent pas.
+
+---
+
+## Itération 7 — 2026-09-25
+
+### B9 · un vrai corpus de remplacement, et une confirmation gênante
+
+| corpus | encre boîte | encre blanc | blancs vides | pages valides |
+|---|---|---|---|---|
+| Petit Parisien | 0,543 | 0,018 | 55 % | 1/1 |
+| BnF | 0,316 | 0,000 | 99 % | 1/1 |
+| **Newseye** | 0,272 | **0,013** | **64 %** | **7/8** |
+| BNL (37 p.) | 0,175 | 0,175 | 8 % | 0/8 |
+| **BNLfull (1814 p.)** | 0,176 | **0,179** | **9 %** | **0/8** |
+
+**BNLfull confirme sur 1814 pages ce que les 37 laissaient soupçonner** : les
+boîtes de mots de cette vérité terrain ne sont pas géométriques, quel que soit
+l'échantillon. Ce n'est pas un tirage malheureux, c'est une propriété du corpus.
+Newseye — presse française, PAGE XML avec `Word` et coordonnées — le remplace.
+
+### Revue de littérature tardive, et ce qu'elle corrige
+
+Question du mainteneur : *« es-tu sûr de ne pas enfoncer des portes ouvertes ? »*
+Vérification faite, **la réponse est en partie non**, et elle aurait dû venir
+avant l'implémentation.
+
+Le problème porte un nom — *ground-truth alignment*, **alignement forcé
+transcription-image** — et une méthode établie : alignement au niveau ligne,
+puis **alignement forcé au niveau caractère** pour produire les boîtes.
+
+| brique | statut réel |
+|---|---|
+| B1 blancs en bande verticale | repris de Tesseract, cité |
+| **B6/B19 alignement CTC** | **méthode standard — réimplémentée, pas inventée** |
+| B20 composition en cascade | ingénierie courante |
+| B3 DTW sur gabarit rendu | variante peu documentée (le rendu synthétique sert d'ordinaire à *fabriquer* des données à boîtes connues, pas à *aligner*) |
+
+Outils existants vérifiés : **Transkribus Text2Image** aligne au niveau
+**ligne**, pas au mot ; **Aletheia** est semi-manuel ; `ketos align` n'existe pas
+dans kraken.
+
+**Ce qui reste propre à ce travail n'est donc pas la méthode mais la mesure :**
+critère gelé avant toute expérience, filtre de validité de la vérité terrain
+— qui vient d'écarter 1814 pages —, notation par distribution, et le constat que
+CTC et DTW échouent sur des ensembles de lignes disjoints, ce qui justifie leur
+composition.
+
+À corriger dans le README : ne pas présenter comme une trouvaille ce qui est
+l'application d'une méthode documentée.

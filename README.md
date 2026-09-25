@@ -16,7 +16,23 @@ s'effondrent hors de leur domaine d'entraînement.
 
 BBVLM occupe cet interstice : **le VLM lit, la géométrie place.**
 
-## Approche retenue — DTW sur gabarit rendu
+## Situation dans la littérature
+
+Le problème porte un nom — *ground-truth alignment*, alignement forcé
+transcription-image — et sa méthode établie est l'**alignement forcé au niveau
+caractère**. Le composant principal de BBVLM (les `cuts` d'un recognizer CTC)
+en est une **application, pas une invention**.
+
+Les outils existants ne couvrent pas exactement ce besoin : Transkribus
+*Text2Image* aligne au niveau **ligne** et non au mot, Aletheia est semi-manuel,
+et kraken n'expose pas de sous-commande d'alignement.
+
+Ce que ce dépôt apporte tient donc moins à la méthode qu'à **la mesure** : un
+critère gelé avant toute expérience, un filtre de validité appliqué à chaque
+vérité terrain, et la composition de deux aligneurs dont les domaines d'échec ne
+se recouvrent pas.
+
+## Approche retenue — CTC pour les coupures, DTW sur gabarit rendu en repli
 
 Le texte est connu (c'est la sortie du VLM). On le **rend** dans une fonte à
 l'échelle de la ligne, on calcule le profil d'encre du rendu, et on l'aligne sur
