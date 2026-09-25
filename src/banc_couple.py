@@ -84,8 +84,8 @@ def lire_churro(pages, n_lignes=40):
         x0 = min(l.line_box[0] for l in lines); x1 = max(l.line_box[2] for l in lines)
         y0 = min(l.line_box[1] for l in lines); y1 = max(l.line_box[3] for l in lines)
         t = time.time()
-        got, q = V.block_robuste(be, lambda d, n, j=0: pil.crop((x0, y0, x1, y1)),
-                                 0, len(lines), essais=2)
+        got, q = V.block_robuste(be, lambda d, n, j=0: pil.crop(
+            (x0, max(0, y0+j), x1, y1+j)), 0, len(lines), essais=4)
         out[p.name] = {'hyp': got, 'ref': [l.text for l in lines], 's': time.time()-t}
     return out
 
@@ -93,7 +93,10 @@ def lire_churro(pages, n_lignes=40):
 if __name__ == '__main__':
     corp = sys.argv[1] if len(sys.argv) > 1 else 'Newseye'
     n = int(sys.argv[2]) if len(sys.argv) > 2 else 40
-    pages = [p for p in corpora.all_pages(max_lignes=n) if p.corpus == corp][:3]
+    # Pour la mesure de TEXTE, la validité géométrique de la VT n'a pas lieu
+    # d'être exigée : BNL a un texte juste et des boîtes fausses.
+    pages = [p for p in corpora.all_pages(max_lignes=n, only_geometric=False)
+             if p.corpus == corp][:3]
     print(f"corpus {corp} — {len(pages)} pages, {n} lignes chacune\n")
     qui = sys.argv[3] if len(sys.argv) > 3 else 'kraken'
     r = lire_kraken(pages, n) if qui == 'kraken' else lire_churro(pages, n)

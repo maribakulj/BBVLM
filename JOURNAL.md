@@ -714,3 +714,56 @@ dit **quand** employer BBVLM.
 Reste à mesurer l'écart sur les corpus où le VLM était bon, avec le même
 protocole couplé. C'est la prochaine étape, et elle vaut mieux qu'une itération
 de plus sur les boîtes.
+
+---
+
+## Itération 14 — le domaine de validité, mesuré
+
+Même protocole couplé, sur les corpus où le VLM était censé briller.
+
+### Fraktur / imprimé ancien — le CTC hors domaine
+
+| page | kraken CATMuS-Print | churro VLM |
+|---|---|---|
+| 0000 | 40,40 % | **26,86 %** |
+| 0001 | 55,25 % | **20,55 %** |
+| 0002 (français, non Fraktur) | 37,90 % | *451 %* — dérive |
+| moyenne des deux pages fiables | **47,8 %** | **23,7 %** |
+
+**Kraken s'effondre à 44,5 % sur cette matière** — c'est exactement le
+hors-domaine que `hans` avait identifié en réfutant H1. Churro y fait **deux
+fois mieux**.
+
+### Presse française des années 1930 — le CTC chez lui
+
+| page | kraken | churro |
+|---|---|---|
+| 0400970-002 | **6,89 %** | 17,89 % |
+| 0250199-004 | **13,17 %** | 13,80 % |
+| moyenne | **9,28 %** | ~15,8 % |
+
+### Le résultat central du projet
+
+```
+                    kraken CTC    churro VLM    qui gagne
+Fraktur / ancien       47,8 %        23,7 %      VLM ×2
+presse 1930             9,3 %        15,8 %      CTC
+presse 1900 (col. 2)       —          0,0 %      VLM
+```
+
+**L'architecture BBVLM a un domaine de validité, et il est identifiable
+d'avance** : elle se justifie là où le recognizer disponible est hors de son
+domaine d'entraînement — Fraktur, graphies anciennes, écritures rares — et
+**pas** sur de l'imprimé mécanique récent, où un CTC bien assorti lit mieux,
+95 fois plus vite, et fournit les boîtes sans plomberie.
+
+C'est une conclusion utilisable : elle dit **quand** employer cette chaîne.
+
+### Réserve honnête sur la stabilité
+
+Sur 5 pages mesurées avec le VLM, **2 ont dérivé** malgré le mécanisme
+anti-boucle porté à 4 tentatives — troncature de fin de ligne, puis répétition
+d'une ligne antérieure. C'est le défaut structurel du VLM, déjà rencontré à
+chaque étape de ce travail, et il n'est pas résolu. Un système de production
+devrait le détecter (le compte de lignes et le coût d'alignement le permettent)
+plutôt que l'ignorer.
