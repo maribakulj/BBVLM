@@ -1095,3 +1095,71 @@ d'annoncer un chiffre ferme. Et l'accord de deux lecteurs ne prouve pas la
 justesse — deux lecteurs peuvent se tromper pareil sur une abréviation d'époque.
 C'est pour ça que l'accord vaut *présomption*, et que la provenance doit dire
 quelles lignes ont été vues par un humain et lesquelles ne l'ont pas été.
+
+## B38 — double lecture : écartée, mais elle a révélé un défaut de normalisation
+
+Piste explorée puis abandonnée : elle répondait à une question hors projet (le
+texte doit venir du VLM seul, pas d'un consensus d'OCR). Ce qu'elle laisse :
+
+Kraken catmus-print sur les 1035 lignes d'une page du *Temps* (139 ms/ligne),
+confronté à l'OCR Gallica : 50,0 % d'accord. En arbitrant 16 désaccords à
+l'aveugle, 5 sur 16 n'étaient **pas** des désaccords de lecture mais d'encodage —
+Gallica aplatit le `SUBS_TYPE` d'ALTO en doublant le tiret de césure (`Raf--`),
+kraken sort le `¬` philologique. Ma fonction `norm` ne les canonisait pas.
+
+Corrigé dans `src/double_lecture.py` (césure en fin de ligne, espace fine française
+avant la ponctuation haute — sans toucher à la casse, aux accents ni à l'identité
+des signes). Accord 50,0 % → **65,7 %** sur les mêmes 1035 lignes, sans qu'aucun
+lecteur ne change. 46 % des désaccords restants portent sur un seul caractère.
+
+**Leçon** : j'ai failli conclure « les deux lecteurs divergent » là où ils lisaient
+la même chose. Toute mesure d'accord entre outils patrimoniaux doit d'abord
+prouver que sa normalisation ne compte pas des conventions.
+
+## B39 — l'œil du VLM comme juge binaire des boîtes : instrument faible
+
+24 mots de BnF et PetitParisien, boîtes de `connexe` en surimpression, VT cachée,
+échantillon stratifié sur l'erreur réelle (seuils absolus : <0,10 / 0,10-0,50 / ≥0,50).
+Jugement binaire bon/mauvais.
+
+- accord avec la VT : **19/24 = 79 %**
+- rappel 62 % (3 mauvaises boîtes laissées passer), précision 71 %
+- erreur médiane de ce que je valide 0,14 car., de ce que j'accuse 0,67 car.
+
+Les populations se séparent, mais rater 4 mauvaises boîtes sur 10 interdit de
+certifier quoi que ce soit. **Causes** : la planche est affichée réduite de moitié,
+et surtout un verdict binaire jette toute l'information métrique.
+
+## B40 — lire les frontières sur une règle graduée : percée
+
+Au lieu de juger, relever. On surimprime une règle graduée sur la bande de ligne
+et le VLM lit les graduations où le mot commence et finit — *Set-of-Mark
+prompting* (Yang et al. 2023), documenté, pas une trouvaille. La tâche passe
+d'une estimation de coordonnées (où les VLM sont mauvais, c'est le verrou du
+projet) à une lecture (où ils sont bons).
+
+9 mots, échantillon stratifié sur l'erreur de `connexe`. Aucune boîte n'est
+montrée — la lecture ne peut pas copier le moteur. 3 mots tronqués par un défaut
+de découpe (marge bornée par `line_box` au lieu de l'image ; corrigé).
+
+Sur les 6 mots mesurables :
+
+| | erreur médiane | pire cas | ≤ 0,5 car. |
+|---|---|---|---|
+| `connexe` | 0,69 car. | 1,14 | 50 % |
+| **VLM sur règle** | **0,08 car.** | **0,28** | **100 %** |
+
+Et sur les trois mots où `connexe` est le plus faux (1,01 / 1,14 / 1,05), le VLM
+est à 0,04 / 0,05 / 0,07. Il corrige précisément là où le moteur échoue.
+
+**Réserves** : 6 mots, c'est un indice, pas une mesure — il faut 100 mots avant
+d'annoncer un chiffre. L'échantillon sur-représente volontairement les échecs de
+`connexe` (1/3 tiré au-dessus de 0,5 car.), donc les 50 % de `connexe` ne sont pas
+son taux réel (96,65 % sur corpus complet) ; en revanche cela ne biaise pas la
+mesure du VLM, qui lit l'image et pas la sortie du moteur. Et neuf lectures ont
+coûté neuf regards : à l'échelle d'une page ce n'est pas tenable en aveugle.
+
+**Suite (B41)** : `connexe` a-t-il un signal interne qui prédit ses propres
+échecs ? S'il existe, la chaîne devient praticable — le moteur place tout, le
+signal désigne les boîtes douteuses, le VLM ne remesure que celles-là sur règle.
+C'est là que se joue « des boîtes parfaites ».
