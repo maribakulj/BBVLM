@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>ONB_aze_18950706_3.jpg</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="OCRP_VLM_FRESH">
+      <ocrProcessingStep>
+        <processingSoftware>
+          <softwareName>Claude Opus 5 (lecture) + connexe (géométrie)</softwareName>
+        </processingSoftware>
+        <processingStepDescription>VT semi-automatique : texte lu par un VLM de frontière à l'aveugle (CER 0,00 %), géométrie des mots par projection d'encre. Géométrie NON VALIDÉE sur cette écriture.</processingStepDescription>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="2479" HEIGHT="3508">
+      <PrintSpace ID="PS1" HPOS="756" VPOS="266" WIDTH="639" HEIGHT="209">
+        <TextBlock ID="B1" HPOS="756" VPOS="266" WIDTH="639" HEIGHT="209">
+          <TextLine ID="L001" HPOS="757" VPOS="266" WIDTH="636" HEIGHT="35">
+            <String ID="L001_W01" CONTENT="wie" HPOS="757" VPOS="277" WIDTH="36" HEIGHT="19"/>
+            <SP HPOS="793" VPOS="277" WIDTH="16"/>
+            <String ID="L001_W02" CONTENT="mit" HPOS="809" VPOS="275" WIDTH="31" HEIGHT="20"/>
+            <SP HPOS="840" VPOS="275" WIDTH="22"/>
+            <String ID="L001_W03" CONTENT="einer" HPOS="862" VPOS="274" WIDTH="43" HEIGHT="20"/>
+            <SP HPOS="905" VPOS="274" WIDTH="18"/>
+            <String ID="L001_W04" CONTENT="beſonderen" HPOS="923" VPOS="274" WIDTH="98" HEIGHT="21"/>
+            <SP HPOS="1021" VPOS="274" WIDTH="18"/>
+            <String ID="L001_W05" CONTENT="Eigenſchaft," HPOS="1039" VPOS="271" WIDTH="110" HEIGHT="24"/>
+            <SP HPOS="1149" VPOS="271" WIDTH="15"/>
+            <String ID="L001_W06" CONTENT="für" HPOS="1164" VPOS="271" WIDTH="37" HEIGHT="21"/>
+            <SP HPOS="1201" VPOS="271" WIDTH="1"/>
+            <String ID="L001_W07" CONTENT="welche" HPOS="1200" VPOS="270" WIDTH="67" HEIGHT="22"/>
+            <SP HPOS="1267" VPOS="270" WIDTH="19"/>
+            <String ID="L001_W08" CONTENT="Prag" HPOS="1286" VPOS="269" WIDTH="62" HEIGHT="24"/>
+            <SP HPOS="1348" VPOS="269" WIDTH="1"/>
+            <String ID="L001_W09" CONTENT="und" HPOS="1347" VPOS="266" WIDTH="46" HEIGHT="35"/>
+          </TextLine>
+          <TextLine ID="L002" HPOS="756" VPOS="285" WIDTH="637" HEIGHT="35">
+            <String ID="L002_W01" CONTENT="Böhmen" HPOS="756" VPOS="285" WIDTH="82" HEIGHT="35"/>
+            <SP HPOS="838" VPOS="285" WIDTH="1"/>
+            <String ID="L002_W02" CONTENT="verdienen," HPOS="837" VPOS="297" WIDTH="105" HEIGHT="20"/>
+            <SP HPOS="942" VPOS="297" WIDTH="2"/>
+            <String ID="L002_W03" CONTENT="im" HPOS="944" VPOS="285" WIDTH="28" HEIGHT="29"/>
+            <SP HPOS="972" VPOS="285" WIDTH="1"/>
+            <String ID="L002_W04" CONTENT="Ausnahmszuſtand" HPOS="971" VPOS="285" WIDTH="179" HEIGHT="31"/>
+            <SP HPOS="1150" VPOS="285" WIDTH="3"/>
+            <String ID="L002_W05" CONTENT="gehalten" HPOS="1153" VPOS="293" WIDTH="87" HEIGHT="25"/>
+            <SP HPOS="1240" VPOS="293" WIDTH="1"/>
+            <String ID="L002_W06" CONTENT="zu" HPOS="1239" VPOS="298" WIDTH="34" HEIGHT="17"/>
+            <SP HPOS="1273" VPOS="298" WIDTH="1"/>
+            <String ID="L002_W07" CONTENT="werden," HPOS="1272" VPOS="293" WIDTH="94" HEIGHT="24"/>
+            <SP HPOS="1366" VPOS="293" WIDTH="1"/>
+            <String ID="L002_W08" CONTENT="iſt" HPOS="1365" VPOS="291" WIDTH="28" HEIGHT="20"/>
+          </TextLine>
+          <TextLine ID="L003" HPOS="756" VPOS="309" WIDTH="637" HEIGHT="36">
+            <String ID="L003_W01" CONTENT="unbegreiflich." HPOS="756" VPOS="309" WIDTH="181" HEIGHT="34"/>
+            <SP HPOS="937" VPOS="309" WIDTH="14"/>
+            <String ID="L003_W02" CONTENT="Und" HPOS="951" VPOS="317" WIDTH="64" HEIGHT="20"/>
+            <SP HPOS="1015" VPOS="317" WIDTH="1"/>
+            <String ID="L003_W03" CONTENT="dieſe" HPOS="1014" VPOS="317" WIDTH="34" HEIGHT="20"/>
+            <SP HPOS="1048" VPOS="317" WIDTH="10"/>
+            <String ID="L003_W04" CONTENT="Kontrapoſition" HPOS="1058" VPOS="315" WIDTH="144" HEIGHT="26"/>
+            <SP HPOS="1202" VPOS="315" WIDTH="10"/>
+            <String ID="L003_W05" CONTENT="des" HPOS="1212" VPOS="315" WIDTH="46" HEIGHT="26"/>
+            <SP HPOS="1258" VPOS="315" WIDTH="4"/>
+            <String ID="L003_W06" CONTENT="Patriotismus" HPOS="1262" VPOS="314" WIDTH="131" HEIGHT="31"/>
+          </TextLine>
+          <TextLine ID="L004" HPOS="757" VPOS="331" WIDTH="636" HEIGHT="36">
+            <String ID="L004_W01" CONTENT="des" HPOS="757" VPOS="331" WIDTH="29" HEIGHT="30"/>
+            <SP HPOS="786" VPOS="331" WIDTH="3"/>
+            <String ID="L004_W02" CONTENT="Grafen" HPOS="789" VPOS="331" WIDTH="79" HEIGHT="32"/>
+            <SP HPOS="868" VPOS="331" WIDTH="1"/>
+            <String ID="L004_W03" CONTENT="Thun" HPOS="867" VPOS="331" WIDTH="65" HEIGHT="31"/>
+            <SP HPOS="932" VPOS="331" WIDTH="1"/>
+            <String ID="L004_W04" CONTENT="gegen" HPOS="931" VPOS="333" WIDTH="61" HEIGHT="32"/>
+            <SP HPOS="992" VPOS="333" WIDTH="12"/>
+            <String ID="L004_W05" CONTENT="unſeren" HPOS="1004" VPOS="339" WIDTH="67" HEIGHT="25"/>
+            <SP HPOS="1071" VPOS="339" WIDTH="1"/>
+            <String ID="L004_W06" CONTENT="Patriotismus" HPOS="1070" VPOS="338" WIDTH="134" HEIGHT="25"/>
+            <SP HPOS="1204" VPOS="338" WIDTH="5"/>
+            <String ID="L004_W07" CONTENT="iſt" HPOS="1209" VPOS="337" WIDTH="26" HEIGHT="21"/>
+            <SP HPOS="1235" VPOS="337" WIDTH="1"/>
+            <String ID="L004_W08" CONTENT="geradezu" HPOS="1234" VPOS="338" WIDTH="82" HEIGHT="29"/>
+            <SP HPOS="1316" VPOS="338" WIDTH="3"/>
+            <String ID="L004_W09" CONTENT="beleidi-" HPOS="1319" VPOS="335" WIDTH="74" HEIGHT="32" SUBS_TYPE="HypPart1" SUBS_CONTENT="beleidigend"/>
+          </TextLine>
+          <TextLine ID="L005" HPOS="757" VPOS="354" WIDTH="637" HEIGHT="36">
+            <String ID="L005_W01" CONTENT="gend." HPOS="757" VPOS="354" WIDTH="57" HEIGHT="34" SUBS_TYPE="HypPart2" SUBS_CONTENT="beleidigend"/>
+            <SP HPOS="814" VPOS="354" WIDTH="1"/>
+            <String ID="L005_W02" CONTENT="(Lebhafte" HPOS="813" VPOS="354" WIDTH="98" HEIGHT="31"/>
+            <SP HPOS="911" VPOS="354" WIDTH="1"/>
+            <String ID="L005_W03" CONTENT="Zuſtimmung" HPOS="910" VPOS="354" WIDTH="131" HEIGHT="31"/>
+            <SP HPOS="1041" VPOS="354" WIDTH="1"/>
+            <String ID="L005_W04" CONTENT="bei" HPOS="1040" VPOS="361" WIDTH="32" HEIGHT="19"/>
+            <SP HPOS="1072" VPOS="361" WIDTH="7"/>
+            <String ID="L005_W05" CONTENT="den" HPOS="1079" VPOS="361" WIDTH="38" HEIGHT="19"/>
+            <SP HPOS="1117" VPOS="361" WIDTH="4"/>
+            <String ID="L005_W06" CONTENT="Jungtſchechen.)" HPOS="1121" VPOS="360" WIDTH="151" HEIGHT="30"/>
+            <SP HPOS="1272" VPOS="360" WIDTH="1"/>
+            <String ID="L005_W07" CONTENT="Wir" HPOS="1271" VPOS="358" WIDTH="49" HEIGHT="20"/>
+            <SP HPOS="1320" VPOS="358" WIDTH="1"/>
+            <String ID="L005_W08" CONTENT="nehmen" HPOS="1319" VPOS="358" WIDTH="75" HEIGHT="32"/>
+          </TextLine>
+          <TextLine ID="L006" HPOS="757" VPOS="377" WIDTH="636" HEIGHT="33">
+            <String ID="L006_W01" CONTENT="von" HPOS="757" VPOS="377" WIDTH="40" HEIGHT="29"/>
+            <SP HPOS="797" VPOS="377" WIDTH="1"/>
+            <String ID="L006_W02" CONTENT="niemandem" HPOS="796" VPOS="377" WIDTH="116" HEIGHT="28"/>
+            <SP HPOS="912" VPOS="377" WIDTH="1"/>
+            <String ID="L006_W03" CONTENT="eine" HPOS="911" VPOS="377" WIDTH="48" HEIGHT="26"/>
+            <SP HPOS="959" VPOS="377" WIDTH="3"/>
+            <String ID="L006_W04" CONTENT="Belehrung" HPOS="962" VPOS="377" WIDTH="109" HEIGHT="29"/>
+            <SP HPOS="1071" VPOS="377" WIDTH="1"/>
+            <String ID="L006_W05" CONTENT="über" HPOS="1070" VPOS="383" WIDTH="51" HEIGHT="19"/>
+            <SP HPOS="1121" VPOS="383" WIDTH="4"/>
+            <String ID="L006_W06" CONTENT="den" HPOS="1125" VPOS="377" WIDTH="43" HEIGHT="24"/>
+            <SP HPOS="1168" VPOS="377" WIDTH="1"/>
+            <String ID="L006_W07" CONTENT="Patriotismus" HPOS="1167" VPOS="381" WIDTH="136" HEIGHT="27"/>
+            <SP HPOS="1303" VPOS="381" WIDTH="1"/>
+            <String ID="L006_W08" CONTENT="an," HPOS="1302" VPOS="386" WIDTH="43" HEIGHT="24"/>
+            <SP HPOS="1345" VPOS="386" WIDTH="5"/>
+            <String ID="L006_W09" CONTENT="auch" HPOS="1350" VPOS="380" WIDTH="43" HEIGHT="30"/>
+          </TextLine>
+          <TextLine ID="L007" HPOS="757" VPOS="396" WIDTH="637" HEIGHT="38">
+            <String ID="L007_W01" CONTENT="nicht" HPOS="757" VPOS="396" WIDTH="42" HEIGHT="34"/>
+            <SP HPOS="799" VPOS="396" WIDTH="12"/>
+            <String ID="L007_W02" CONTENT="von" HPOS="811" VPOS="414" WIDTH="35" HEIGHT="13"/>
+            <SP HPOS="846" VPOS="414" WIDTH="1"/>
+            <String ID="L007_W03" CONTENT="einem" HPOS="845" VPOS="408" WIDTH="64" HEIGHT="18"/>
+            <SP HPOS="909" VPOS="408" WIDTH="1"/>
+            <String ID="L007_W04" CONTENT="Patrioten" HPOS="908" VPOS="407" WIDTH="106" HEIGHT="21"/>
+            <SP HPOS="1014" VPOS="407" WIDTH="1"/>
+            <String ID="L007_W05" CONTENT="von" HPOS="1013" VPOS="396" WIDTH="51" HEIGHT="28"/>
+            <SP HPOS="1064" VPOS="396" WIDTH="1"/>
+            <String ID="L007_W06" CONTENT="vorgeſtern." HPOS="1063" VPOS="400" WIDTH="110" HEIGHT="34"/>
+            <SP HPOS="1173" VPOS="400" WIDTH="3"/>
+            <String ID="L007_W07" CONTENT="(Zuſtimmung" HPOS="1176" VPOS="404" WIDTH="135" HEIGHT="30"/>
+            <SP HPOS="1311" VPOS="404" WIDTH="1"/>
+            <String ID="L007_W08" CONTENT="bei" HPOS="1310" VPOS="402" WIDTH="39" HEIGHT="19"/>
+            <SP HPOS="1349" VPOS="402" WIDTH="6"/>
+            <String ID="L007_W09" CONTENT="den" HPOS="1355" VPOS="403" WIDTH="39" HEIGHT="17"/>
+          </TextLine>
+          <TextLine ID="L008" HPOS="757" VPOS="420" WIDTH="637" HEIGHT="39">
+            <String ID="L008_W01" CONTENT="Jungtſchechen." HPOS="757" VPOS="420" WIDTH="138" HEIGHT="36"/>
+            <SP HPOS="895" VPOS="420" WIDTH="6"/>
+            <String ID="L008_W02" CONTENT="—" HPOS="901" VPOS="439" WIDTH="15" HEIGHT="3"/>
+            <SP HPOS="916" VPOS="439" WIDTH="1"/>
+            <String ID="L008_W03" CONTENT="Abgeordneter" HPOS="915" VPOS="429" WIDTH="135" HEIGHT="30"/>
+            <SP HPOS="1050" VPOS="429" WIDTH="1"/>
+            <String ID="L008_W04" CONTENT="Dr." HPOS="1049" VPOS="427" WIDTH="43" HEIGHT="20"/>
+            <SP HPOS="1092" VPOS="427" WIDTH="1"/>
+            <String ID="L008_W05" CONTENT="Brzorad:" HPOS="1091" VPOS="420" WIDTH="132" HEIGHT="39"/>
+            <SP HPOS="1223" VPOS="420" WIDTH="1"/>
+            <String ID="L008_W06" CONTENT="Aus" HPOS="1222" VPOS="422" WIDTH="76" HEIGHT="37"/>
+            <SP HPOS="1298" VPOS="422" WIDTH="1"/>
+            <String ID="L008_W07" CONTENT="Hanno-" HPOS="1297" VPOS="420" WIDTH="97" HEIGHT="39" SUBS_TYPE="HypPart1" SUBS_CONTENT="Hannover.)"/>
+          </TextLine>
+          <TextLine ID="L009" HPOS="757" VPOS="444" WIDTH="638" HEIGHT="31">
+            <String ID="L009_W01" CONTENT="ver.)" HPOS="757" VPOS="444" WIDTH="61" HEIGHT="30" SUBS_TYPE="HypPart2" SUBS_CONTENT="Hannover.)"/>
+            <SP HPOS="818" VPOS="444" WIDTH="1"/>
+            <String ID="L009_W02" CONTENT="Das" HPOS="817" VPOS="444" WIDTH="53" HEIGHT="27"/>
+            <SP HPOS="870" VPOS="444" WIDTH="1"/>
+            <String ID="L009_W03" CONTENT="böhmiſche" HPOS="869" VPOS="444" WIDTH="104" HEIGHT="28"/>
+            <SP HPOS="973" VPOS="444" WIDTH="1"/>
+            <String ID="L009_W04" CONTENT="Volk" HPOS="972" VPOS="450" WIDTH="55" HEIGHT="20"/>
+            <SP HPOS="1027" VPOS="450" WIDTH="1"/>
+            <String ID="L009_W05" CONTENT="hat" HPOS="1026" VPOS="451" WIDTH="43" HEIGHT="20"/>
+            <SP HPOS="1069" VPOS="451" WIDTH="4"/>
+            <String ID="L009_W06" CONTENT="nie" HPOS="1073" VPOS="449" WIDTH="40" HEIGHT="19"/>
+            <SP HPOS="1113" VPOS="449" WIDTH="9"/>
+            <String ID="L009_W07" CONTENT="eine" HPOS="1122" VPOS="444" WIDTH="49" HEIGHT="24"/>
+            <SP HPOS="1171" VPOS="444" WIDTH="1"/>
+            <String ID="L009_W08" CONTENT="Revolution" HPOS="1170" VPOS="448" WIDTH="117" HEIGHT="20"/>
+            <SP HPOS="1287" VPOS="448" WIDTH="11"/>
+            <String ID="L009_W09" CONTENT="gegen" HPOS="1298" VPOS="452" WIDTH="62" HEIGHT="23"/>
+            <SP HPOS="1360" VPOS="452" WIDTH="4"/>
+            <String ID="L009_W10" CONTENT="die" HPOS="1364" VPOS="446" WIDTH="31" HEIGHT="25"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

@@ -1021,3 +1021,77 @@ ici. Deux options réalistes :
 La seconde n'est pas un artifice : elle correspond exactement à l'usage visé —
 un humain (ou un agent) produit une VT sur quelques dizaines de pages, avec
 relecture.
+
+## B36 — gabarit Fraktur pour le DTW
+
+**Question** : le gabarit rendu en Times fausse-t-il la géométrie sur du Fraktur ?
+
+**Fait** : installé `fontes/UnifrakturCook-Bold.ttf` (Google Fonts, OFL).
+UnifrakturMaguntia n'est pas récupérable (pointeur LFS). Le choix de fonte n'est
+PAS un réglage : `dtw.py` rend le texte dans chaque famille disponible et retient
+celle qui minimise le coût DTW normalisé, ligne par ligne. Ajouter une fonte ne
+peut donc rien casser par construction — c'est ce qui rend la chose reproductible
+sur un document inconnu.
+
+**Mesuré** sur la bande Fraktur d'ONB_aze_18950706_3 (9 lignes, texte lu par moi
+à 0,00 % CER), sans VT géométrique donc sur trois quantités internes :
+
+| | encre dans les boîtes | encre dans les inter-mots | chevauchements |
+|---|---|---|---|
+| serif seul | 0,989 | 0,012 | 10 |
+| serif + Fraktur | 0,991 | 0,010 | **16** |
+
+Le gabarit Fraktur n'est retenu que sur 3 lignes sur 9. Là où il l'est, les
+chevauchements augmentent.
+
+**Cause** : le coût DTW n'est pas un bon mandataire de la qualité des boîtes. Il
+mesure la ressemblance des deux profils d'encre ; une fonte plus grasse ressemble
+mieux au Fraktur observé en densité tout en plaçant moins bien les frontières.
+On optimise la ressemblance et on note le placement — ce ne sont pas la même chose.
+
+**Conclusion** : hypothèse ÉCARTÉE. Le gabarit latin n'était pas la cause. Le
+mécanisme de sélection reste en place (il ne coûte rien et documente son choix),
+mais il ne faut pas lui faire dire ce qu'il ne mesure pas. Accessoirement, `dtw`
+fait 10 à 16 chevauchements là où `connexe` en fait 0 : le champion reste champion.
+
+**Reste ouvert** : la géométrie sur Fraktur demeure non mesurée faute de VT au mot
+sur cette écriture. Ce n'était pas un problème de fonte.
+
+## B37 — double lecture sur la visionneuse gt-presse-gallica
+
+**Constat** : `~/gt-presse-gallica` contient déjà l'atelier qui manquait — 28 pages
+du *Temps*, 24 680 lignes, chacune avec sa boîte (`boite`, à multiplier par
+`echelle`), son OCR Gallica et sa confiance. L'interface découpe la ligne, la
+grossit 2,1×, pré-remplit le champ avec l'OCR et fait relire l'humain. Actuellement
+**0 annotation** : parce qu'il faut relire les 24 680 lignes.
+
+**Protocole mesuré** : double lecture indépendante (pratique courante en production
+de VT, *double keying* ; ce n'est pas une trouvaille). Lecteur A = OCR Gallica.
+Lecteur B = moi, à l'aveugle sur les seules images de lignes. Accord caractère pour
+caractère ⇒ ligne validée sans humain. Désaccord ⇒ l'humain tranche.
+
+Échantillon stratifié de 18 lignes de `bpt6k2362495_f0001`, tirées 6 basses / 6
+médianes / 6 hautes confiances :
+
+- accord parfait **10/18**, désaccord 6, refus 2 (lignes sans texte que Gallica
+  transcrit quand même : « V-N y », « -yc- »)
+- CER de Gallica contre ma lecture : **6,72 %**
+- des 12 lignes à wc ≥ 0,9 : 10 accords, et les 2 écarts sont un point doublé et
+  un tiret doublé — artefacts d'encodage, pas des lectures divergentes
+- des 6 lignes à wc < 0,9 : 6 à relire
+
+Repondéré par la distribution réelle du corpus (67,5 % des lignes à wc ≥ 0,9) :
+
+> **taux de relecture humaine 32 à 44 %** — contre 100 % aujourd'hui.
+
+**Ce que ça change** : l'humain ne relit plus la page, il arbitre les désaccords.
+Le gain est d'un facteur 2 à 3, mesuré, pas estimé. Et la géométrie au mot arrive
+gratuitement : la ligne a déjà sa boîte, `connexe` y place les mots, la VT sort en
+ALTO au mot au lieu de texte au niveau ligne.
+
+**Limite** : la strate haute n'a que 12 lignes d'échantillon ; l'intervalle de
+confiance sur 2/12 est large. Il faut porter l'échantillon à ~100 lignes avant
+d'annoncer un chiffre ferme. Et l'accord de deux lecteurs ne prouve pas la
+justesse — deux lecteurs peuvent se tromper pareil sur une abréviation d'époque.
+C'est pour ça que l'accord vaut *présomption*, et que la provenance doit dire
+quelles lignes ont été vues par un humain et lesquelles ne l'ont pas été.
