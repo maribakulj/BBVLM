@@ -1,23 +1,34 @@
 {
- "iteration": 4,
+ "iteration": 6,
  "champion": {
-  "nom": "routage",
-  "err_p90": 0.0,
+  "nom": "compose",
+  "pct05": 98.46,
   "max": 8.99,
-  "pct05": 98.18,
-  "iou": 0.898,
+  "iou": 0.887,
+  "echecs": 0,
   "par_corpus": {
-   "PetitParisien": 99.12,
-   "BnF": 99.35,
-   "BNL": 34.43
-  },
-  "par_corpus_ok": [
-   "PetitParisien",
-   "BnF"
-  ],
-  "par_corpus_ko": [
-   "BNL"
-  ]
+   "PetitParisien": {
+    "pct05": 99.41,
+    "max": 1.32,
+    "iou": 0.828,
+    "echecs": 0,
+    "ok": true
+   },
+   "BnF": {
+    "pct05": 99.64,
+    "max": 1.96,
+    "iou": 0.915,
+    "echecs": 0,
+    "ok": true
+   },
+   "BNL": {
+    "pct05": 34.43,
+    "max": 8.99,
+    "iou": 0.0,
+    "echecs": 0,
+    "ok": false
+   }
+  }
  },
  "mesures": [
   {
@@ -155,14 +166,37 @@
     "BNL": 27.87
    },
    "note": "B17 ECARTE : degrade PARTOUT, affectation des mots redevenue proportionnelle"
+  },
+  {
+   "boxer": "ctc_kraken",
+   "pct05": 99.67,
+   "max": 7.46,
+   "iou": 0.635,
+   "echecs": 32,
+   "note": "B6 : meilleures frontieres, pire IoU"
+  },
+  {
+   "boxer": "ctc_span",
+   "pct05": 99.65,
+   "max": 7.48,
+   "iou": 0.893,
+   "echecs": 32,
+   "note": "B19 : IoU 0.635->0.829 sans deplacer une frontiere"
+  },
+  {
+   "boxer": "compose",
+   "pct05": 98.46,
+   "max": 8.99,
+   "iou": 0.887,
+   "echecs": 0,
+   "note": "B20 CHAMPION : tous seuils sur PP et BnF, 0 echec. Reste BNL 0015."
   }
  ],
  "backlog": [
-  "B6_ctc_kraken",
   "B9_corpus_basse_res",
+  "B21_ctc_sur_tableau",
   "B4_pas_fixe",
-  "B7_viterbi_largeurs",
-  "B8_arbitrage"
+  "B7_viterbi_largeurs"
  ],
  "fait": [
   "B1_bande_verticale",
@@ -175,9 +209,12 @@
   "B14_routage_dispersion",
   "B15_routage_texte",
   "B16_espaces_elastiques",
-  "B17_ancres"
+  "B17_ancres",
+  "B6_ctc_kraken",
+  "B19_ctc_separateurs",
+  "B20_composition"
  ],
- "prochaine": "B6_ctc_kraken",
+ "prochaine": "B9_corpus_basse_res",
  "note_vt": "BNL écartée comme VT géométrique (blancs non vides). Banc 1151 -> 660 lignes.",
  "github": "https://github.com/maribakulj/BBVLM"
 }

@@ -355,3 +355,43 @@ l'élargir.
 
 → **B19** : le CTC ne donne plus les boîtes mais les **séparateurs** ; l'encre
 entre deux séparateurs donne l'étendue. Chacun apporte ce qu'il sait faire.
+
+---
+
+## Itération 6 — 2026-09-25
+
+### B19 · CTC séparateurs + étendue par l'encre
+
+Le CTC cesse de donner les boîtes, il donne les séparateurs ; l'encre entre deux
+séparateurs donne l'étendue.
+
+| | ≤0,5c | pire cas PP | IoU PP | échecs |
+|---|---|---|---|---|
+| B6 boîtes du CTC | 99,67 % | 0,66c | 0,635 ❌ | 32 |
+| **B19 séparateurs** | 99,65 % | **0,66c** | **0,829** ✅ | 32 |
+
+L'IoU passe de 0,635 à 0,829 **sans déplacer une seule frontière**. Les trois
+seuils de précision sont franchis sur les deux corpus valides. Restent les 32
+lignes en échec.
+
+### B20 · composition — NOUVEAU CHAMPION
+
+Les échecs du CTC ne sont pas aléatoires. Exemple mesuré sur BnF :
+`bles. L r s personnes dont ces chemins des` — une ligne dégradée dont les
+jetons ne s'alignent sur aucune prédiction. Le DTW, lui, n'a pas de domaine et
+tient encore.
+
+On ne choisit donc pas : le CTC passe d'abord, le DTW reprend ce qu'il laisse.
+Aucun seuil assoupli — c'est la **couverture** qui est complétée.
+
+| corpus | ≤0,5c | pire cas | IoU | échecs | verdict |
+|---|---|---|---|---|---|
+| Petit Parisien | **99,41 %** | **1,32c** | **0,828** | **0** | ✅ ✅ ✅ ✅ |
+| BnF | **99,64 %** | **1,96c** | **0,915** | **0** | ✅ ✅ ✅ ✅ |
+| BNL 0015 | 34,43 % | 8,99c | 0,0 | 0 | ❌ |
+
+Ligne de base proportionnelle, pour mémoire : 86,0 % et 3,38c.
+
+C'est la même leçon qu'une couche plus haut, où deux lecteurs indépendants
+valaient mieux qu'un seul : ici **deux placeurs indépendants**, dont les
+domaines d'échec ne se recouvrent pas.
