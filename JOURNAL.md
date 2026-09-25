@@ -315,3 +315,29 @@ sépare vient elle aussi de l'observation.
 | B17 ancres | affectation des mots redevenue proportionnelle |
 
 Seul B15 (routage par le texte) a apporté un gain sans régression.
+
+---
+
+## Itération 5 — 2026-09-25
+
+### B6 · CTC kraken — la route mesurée par `hans`
+
+Deux modèles présents localement : `catmus-print-fondue-large` (celui de `hans`,
+99,9 % de frontières justes sur *Le Temps*) et **`german_print`** — précisément
+ce qui manquait à H1, où un recognizer d'imprimé français s'effondrait sur du
+Fraktur luxembourgeois.
+
+Principe : un CTC associe chaque symbole émis à une colonne de l'image ; les
+positions de caractères sont un **sous-produit de la reconnaissance**, pas un
+ajustement a posteriori. Ici le texte vient du VLM, pas du CTC : on aligne la
+prédiction du CTC sur le texte connu par distance d'édition et on transporte les
+frontières de mots à travers cet alignement. **Le CTC ne fournit que la
+géométrie, jamais le texte** — ce qui met la contamination hors jeu.
+
+Mise en œuvre : kraken vit dans son propre venv (Python 3.11), le banc dans
+celui de MLX. OpenCV installé côté kraken plutôt qu'un pont entre interpréteurs ;
+`src/run_kraken.py` exécute le même juge, sur les mêmes corpus.
+
+Premier essai sur une ligne : 10 mots, 10 boîtes, écarts de +1 à +12 px à gauche
+mais **−10 à −16 px à droite** — j'utilisais le *centre* de la coupe du dernier
+caractère au lieu de son bord. Corrigé.
