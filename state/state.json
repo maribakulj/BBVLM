@@ -1,11 +1,16 @@
 {
- "iteration": 2,
+ "iteration": 3,
  "champion": {
-  "nom": "dtw_snap",
+  "nom": "routage",
   "err_p90": 0.0,
   "max": 8.99,
   "pct05": 98.18,
   "iou": 0.898,
+  "par_corpus": {
+   "PetitParisien": 99.12,
+   "BnF": 99.35,
+   "BNL": 34.43
+  },
   "par_corpus_ok": [
    "PetitParisien",
    "BnF"
@@ -89,14 +94,52 @@
     "BNL": 32.79
    },
    "note": "B11 : PP et BnF passent TOUS les seuils. Reste BNL 0015 (tableau financier)"
+  },
+  {
+   "boxer": "dtw_adapt",
+   "pct05": 98.12,
+   "max": 8.99,
+   "par_corpus": {
+    "PetitParisien": 99.12,
+    "BnF": 99.28,
+    "BNL": 34.43
+   },
+   "note": "B12 ECARTE : BnF 1.84c -> 3.37c, au-dessus du seuil"
+  },
+  {
+   "boxer": "leaders",
+   "pct05": 98.12,
+   "max": 8.99,
+   "note": "B13 : detection image jamais declenchee (seuil 5px pour points de 7px)"
+  },
+  {
+   "boxer": "conditionnel",
+   "pct05": 98.18,
+   "max": 8.99,
+   "par_corpus": {
+    "PetitParisien": 99.12,
+    "BnF": 99.39,
+    "BNL": 32.79
+   },
+   "note": "B14 : dispersion des blancs = mauvais discriminant, sans effet"
+  },
+  {
+   "boxer": "routage",
+   "pct05": 98.18,
+   "max": 8.99,
+   "par_corpus": {
+    "PetitParisien": 99.12,
+    "BnF": 99.35,
+    "BNL": 34.43
+   },
+   "note": "B15 RETENU : routage par le texte, champion preserve + gain BNL, zero regression"
   }
  ],
  "backlog": [
-  "B12_espace_observe",
-  "B13_points_conduite",
+  "B16_espaces_elastiques",
   "B9_corpus_basse_res",
-  "B4_pas_fixe",
   "B6_ctc_kraken",
+  "B4_pas_fixe",
   "B7_viterbi_largeurs",
   "B8_arbitrage"
  ],
@@ -105,9 +148,13 @@
   "B10_pire_cas",
   "B3_dtw_gabarit",
   "B5_otsu_blancs",
-  "B11_recalage_encre"
+  "B11_recalage_encre",
+  "B12_espace_observe",
+  "B13_points_conduite",
+  "B14_routage_dispersion",
+  "B15_routage_texte"
  ],
- "prochaine": "B12_espace_observe",
+ "prochaine": "B16_espaces_elastiques",
  "note_vt": "BNL écartée comme VT géométrique (blancs non vides). Banc 1151 -> 660 lignes.",
  "github": "https://github.com/maribakulj/BBVLM"
 }

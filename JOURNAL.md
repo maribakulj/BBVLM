@@ -202,3 +202,71 @@ tableau a des blancs larges et très variables, et la bande de Sakoe-Chiba
 - **B13** — points de conduite (`Dép......`) : suite de composantes identiques
   régulièrement espacées ; le DTW les aligne mal car le rendu n'en produit pas le
   même nombre. À détecter et traiter comme un seul intervalle.
+
+---
+
+## Itération 3 — 2026-09-25
+
+Cible : la page BNL 0015, tableau financier, seul corpus restant sous le critère.
+
+### B12 · espace estimé + bande élargie — RÉGRESSION, écarté
+
+| | PP pire cas | BnF pire cas | BNL |
+|---|---|---|---|
+| B11 (champion) | 1,32c | **1,84c** | 32,79 % |
+| B12 | 1,62c | **3,37c** ❌ | 34,43 % |
+
+BnF passe au-dessus du seuil de 3c pour 1,6 point gagné sur BNL. C'est
+exactement le schéma que le critère interdit, et celui qui a réfuté H1 dans
+`hans`. Écarté comme remplaçant global.
+
+### B13 · points de conduite — n'a jamais déclenché
+
+Chiffres identiques à B12 au centième. Diagnostic : le motif est trouvé dans le
+**texte** sur 17 lignes sur 18 (`id.......`, `Dép......`), et **jamais dans
+l'image** — mon seuil « petite plage » valait 5 px pour des points qui en font 7
+à cette résolution. Détection côté image trop fragile.
+
+### B14 · routage par la dispersion des blancs — sans effet
+
+Reproduit exactement B11. La dispersion des blancs observés ne dépasse jamais le
+seuil sur les lignes de tableau : elles repartent vers le moteur de prose.
+Aucune régression, aucun gain. **Mauvais discriminant.**
+
+### B15 · routage par le TEXTE — retenu
+
+Le signal fiable était sous la main : la sortie du VLM **dit ce qu'elle est**.
+Points de conduite, majorité de jetons numériques, jetons très courts sans
+ponctuation de phrase.
+
+| corpus | lignes classées tabulaires |
+|---|---|
+| Petit Parisien | 2/104 |
+| BnF | 20/538 |
+| BNL | **17/18** |
+
+| | ≤0,5c | pire cas | IoU |
+|---|---|---|---|
+| Petit Parisien | 99,12 % | **1,32c** | 0,837 ✅ |
+| BnF | 99,35 % | **1,84c** | 0,919 ✅ |
+| BNL | 34,43 % | 8,99c | 0,0 ❌ |
+
+**Champion préservé, gain sur BNL, zéro régression.** C'est le même principe
+qu'une couche plus haut : le modèle lit, la géométrie place — ici le texte
+annonce la nature de la ligne, la géométrie s'y adapte.
+
+### Ce que l'overlay a montré
+
+Les colonnes du tableau sont séparées par des blancs **inégaux entre eux** :
+large après le nom de commune, étroit entre deux chiffres. Un `space_ratio`
+scalaire, même estimé sur l'observé, impose un vide uniforme et ne peut
+correspondre qu'à un seul des blancs réels. B12 était donc condamné par
+construction, pas par réglage.
+
+### B16 · espaces élastiques — en cours
+
+Cesser de deviner la largeur des vides : rendre le texte avec des espaces
+minimaux et élargir la bande de Sakoe-Chiba. Vide du gabarit et vide de l'image
+sont tous deux sans encre ; le chemin DTW les apparie à coût quasi nul et peut
+étirer arbitrairement — si la bande le lui permet. L'alignement découvre la
+largeur des blancs au lieu qu'on la lui impose.
