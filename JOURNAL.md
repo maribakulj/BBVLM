@@ -341,3 +341,17 @@ celui de MLX. OpenCV installé côté kraken plutôt qu'un pont entre interprét
 Premier essai sur une ligne : 10 mots, 10 boîtes, écarts de +1 à +12 px à gauche
 mais **−10 à −16 px à droite** — j'utilisais le *centre* de la coupe du dernier
 caractère au lieu de son bord. Corrigé.
+
+| | ≤0,5c | pire cas | IoU | échecs |
+|---|---|---|---|---|
+| champion `routage` | 98,18 % | 1,32c (PP) | **0,837** | 0 |
+| **B6 `ctc_kraken`** | **99,67 %** | **0,66c** (PP) | 0,635 ❌ | 32 |
+
+**Les meilleures frontières du banc, le pire IoU.** Diagnostic sur une ligne :
+« le » fait 11 px de large contre 29 dans la VT, « Bon » 40 contre 68. Les
+`cuts` de kraken sont des tranches au **centre** des caractères, pas leur
+étendue — et mon recalage sur l'encre ne pouvait que rétrécir une boîte, jamais
+l'élargir.
+
+→ **B19** : le CTC ne donne plus les boîtes mais les **séparateurs** ; l'encre
+entre deux séparateurs donne l'étendue. Chacun apporte ce qu'il sait faire.
