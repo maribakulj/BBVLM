@@ -877,3 +877,67 @@ retrouver par un autre chemin :
 
 > *« Post-correction ou ré-OCRisation ? Cela dépend entièrement de savoir si
 > l'on dispose d'un recognizer assorti à son matériel. »*
+
+---
+
+## Itération 17 — le recadrage qui donne sa raison d'être au projet
+
+### Hypothèse du mainteneur : un VLM de frontière ne se trompe pas
+
+Testée directement — je suis moi-même un VLM de frontière, donc je peux lire la
+page et me noter. Corpus autrichien, 12 lignes de Fraktur :
+
+```
+lignes identiques au caractère près : 12/12
+CER brut                            : 0,00 %
+CER normalisé                       : 0,00 %
+```
+
+ſ longs, tirets doubles obliques `⸗`, apostrophe de `Richter's` : tout y est.
+À comparer aux 1,25 % de `german_print`, pourtant assorti et excellent.
+
+### Ce que ça change — BBVLM n'est pas un concurrent d'OCR
+
+Jusqu'ici je mesurais BBVLM **contre** les moteurs classiques, et la conclusion
+était décourageante : un CTC assorti lit mieux, 95 fois plus vite, et donne les
+boîtes gratuitement.
+
+Mais la comparaison était mal posée. Un moteur classique et un VLM de frontière
+ne servent pas au même usage :
+
+| | production de masse | production de VÉRITÉ TERRAIN |
+|---|---|---|
+| ce qui compte | débit, coût | **exactitude** |
+| kraken assorti | ✅ 3 s/page, 1,25 % | insuffisant : 1,25 % n'est pas une VT |
+| VLM de frontière | ✗ lent, coûteux | ✅ 0,00 % mesuré |
+
+**Pour produire une vérité terrain, 1,25 % de CER ne suffit pas** — c'est
+précisément ce qu'une VT doit corriger. Et le coût par page n'a pas d'importance
+quand on annote quelques dizaines de pages une fois.
+
+### Et c'est exactement le goulot identifié en B29
+
+> *« La vérité terrain au mot est rare sur le patrimonial : la plupart des jeux
+> s'arrêtent à la ligne. »*
+
+Le manque que j'ai constaté — pas de VT au mot pour éprouver la géométrie —
+**est le problème que ce système résoudrait**. Un VLM de frontière donne le
+texte au caractère près ; le moteur géométrique de BBVLM lui rend des boîtes de
+mots à 0,47 caractère près. Ensemble : de l'ALTO de qualité VT, produit
+semi-automatiquement.
+
+**La moitié précieuse de ce dépôt est donc le moteur géométrique**, pas la
+comparaison de lecteurs. C'est lui qui n'a pas d'équivalent : Transkribus
+Text2Image aligne au niveau ligne, Aletheia est semi-manuel.
+
+### Réserves, à ne pas escamoter
+
+1. **12 lignes.** L'échantillon est minuscule et le crop était propre et bien
+   dimensionné. Rien ne dit que ça tient sur une page dégradée.
+2. **La dérive n'est pas testée à cette échelle.** Churro dérivait sur 2 pages
+   sur 5 ; un modèle de frontière dérive moins, mais « moins » n'est pas
+   « jamais », et une VT ne tolère pas une ligne inventée.
+3. **La géométrie ne vient toujours pas du VLM** — 367 px d'erreur mesurés sur
+   une frontière de bloc. Le moteur d'encre reste indispensable.
+4. **Un humain doit valider.** Un système de production de VT sans relecture
+   n'est pas une VT, c'est une sortie d'OCR de plus.

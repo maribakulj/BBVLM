@@ -1,5 +1,5 @@
 {
- "iteration": 15,
+ "iteration": 17,
  "champion": {
   "nom": "connexe",
   "pct05": 96.65,
@@ -212,10 +212,9 @@
   }
  ],
  "backlog": [
-  "B31_reichsanzeiger",
-  "B32_fraktur_synthetique",
-  "B28_forced_ctc_transformation_inverse",
-  "B30_detection_derive_vlm"
+  "B34_vt_production_bout_en_bout",
+  "B30_detection_derive",
+  "B28_forced_ctc_transformation_inverse"
  ],
  "fait": [
   "B1_bande_verticale",
@@ -239,7 +238,7 @@
   "B25_alignement_force",
   "B26_banc_couple"
  ],
- "prochaine": "B31_reichsanzeiger",
+ "prochaine": "B34_vt_production_bout_en_bout",
  "note_vt": "BNL écartée comme VT géométrique (blancs non vides). Banc 1151 -> 660 lignes.",
  "github": "https://github.com/maribakulj/BBVLM",
  "corpus": {
@@ -268,5 +267,6 @@
   "onb_austrian": "Fraktur reel, PAGE XML + images, 148 pages, MAIS 0 Word : annotation ligne seulement",
   "atr_newseye": "Word+Coords valides mais 127 pages toutes francaises",
   "constat": "La VT au mot est rare sur le patrimonial : les jeux s'arretent a la ligne car c'est ce dont un CTC a besoin pour s'entrainer."
- }
+ },
+ "recadrage_final": "BBVLM n'est pas un concurrent d'OCR mais un outil de PRODUCTION DE VERITE TERRAIN. Un CTC assorti lit a 1,25 % (insuffisant pour une VT) ; un VLM de frontiere a 0,00 % mesure sur 12 lignes de Fraktur. Le cout par page est sans importance quand on annote quelques dizaines de pages. La moitie precieuse du depot est le moteur geometrique, pas la comparaison de lecteurs."
 }
