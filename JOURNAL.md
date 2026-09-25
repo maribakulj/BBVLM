@@ -941,3 +941,35 @@ Text2Image aligne au niveau ligne, Aletheia est semi-manuel.
    une frontière de bloc. Le moteur d'encre reste indispensable.
 4. **Un humain doit valider.** Un système de production de VT sans relecture
    n'est pas une VT, c'est une sortie d'OCR de plus.
+
+---
+
+## Itération 18 — la chaîne de production de VT
+
+`src/produire.py` : image → kraken `blla` → texte VLM par blocs → boîtes →
+ALTO 4.4 + overlay + `provenance.json`.
+
+**Changement de détecteur de lignes.** La détection par pics d'encre que j'avais
+écrite suppose des lignes horizontales à pas régulier — hypothèse qui tombe sur
+du manuscrit ou une page gondolée. Pour un outil de vérité terrain, la
+robustesse prime sur l'élégance d'avoir tout écrit soi-même : `kraken blla`
+détecte des lignes de base et des polygones, et encaisse l'inclinaison.
+
+**Les trois propriétés d'une VT sont des exigences de code, pas des intentions :**
+
+1. *Elle refuse.* Deux contrôles sans référence — compte de mots incohérent, et
+   texte inajustable à l'encre. Une ligne qui échoue est retirée de l'ALTO et
+   consignée avec son motif. Le seuil se calibre sur le document traité.
+2. *Elle est relue.* L'overlay distingue les lignes écartées (rouge) des lignes
+   retenues (vert) et des mots (bleu).
+3. *Elle déclare sa provenance.* Modèle lecteur, moteur géométrique, lignes
+   détectées / retenues / écartées, **taux de relecture**, seuil employé, durée.
+
+**Rapatriements.** `alto.py` et `correct.py` venaient de `vlm-alto-fresh` ;
+`correct.py` a été réécrit pour ne dépendre que des modules d'ici. Son coût
+d'ajustement mesure désormais la dispersion des largeurs observées face aux
+largeurs attendues, normalisée par l'échelle estimée sur la ligne.
+
+Première page : 2479×3508, 24 lignes détectées par kraken. Quelques
+`TopologyException` du polygoniseur sur des lignes dégradées — sans effet sur la
+détection, mais à surveiller.
