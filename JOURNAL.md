@@ -464,3 +464,40 @@ laquelle un critère par corpus vaut mieux qu'une moyenne.
 Note de banc : un mode rapide (`BBVLM_MAX_LIGNES`) borne le nombre de lignes par
 page pour itérer — les pages Newseye portent 800 à 900 lignes et le CTC est lent.
 La validation finale se fera sans borne.
+
+---
+
+## Itération 9 — 2026-09-25
+
+### B22 · l'étendue verticale ne peut pas déborder la ligne
+
+Diagnostic Newseye : frontières justes à 97,9 % **mais IoU 0,610**. Les
+abscisses coïncidaient au pixel près (75 contre 74, 128 contre 128) ; les
+hauteurs non — **54 px prédits contre 31 dans la VT, 74 % de trop**.
+
+Cause : `ink.line_mask` élargit le crop de 12 % de la hauteur de ligne pour ne
+pas trancher hampes et jambages. Utile pour **trouver** l'encre du mot, néfaste
+pour **mesurer** son étendue : la marge capte l'encre des lignes voisines.
+
+Correction : deux masques pour deux usages. Le masque élargi donne les colonnes
+d'encre, un masque borné à la boîte de ligne donne l'étendue verticale.
+
+| corpus | IoU avant | IoU après |
+|---|---|---|
+| Petit Parisien | 0,827 | **0,933** |
+| BnF | 0,897 | **0,937** |
+| Newseye | 0,610 | **0,749** |
+
+Aucune frontière déplacée — c'était bien un problème de hauteur, pas de coupure.
+
+### État contre le critère
+
+| corpus | ≤0,5c | pire cas | IoU | verdict |
+|---|---|---|---|---|
+| BnF | 100,0 % | **0,47c** | **0,937** | ✅ ✅ ✅ |
+| Petit Parisien | 99,26 % | **1,32c** | **0,933** | ✅ ✅ ✅ |
+| Newseye | 97,87 % | 7,45c ❌ | 0,749 ❌ | échec |
+
+Newseye reste à 0,05 point d'IoU et surtout à 7,45c de pire cas. Les deux
+manques sont distincts : l'IoU est un problème d'étendue résiduelle, le pire cas
+un problème de placement sur quelques lignes.

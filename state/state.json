@@ -1,28 +1,27 @@
 {
- "iteration": 8,
+ "iteration": 9,
  "champion": {
-  "nom": "compose",
-  "pct05": 98.46,
-  "max": 8.99,
-  "iou": 0.887,
+  "nom": "serre",
+  "pct05": 96.65,
+  "iou": 0.795,
   "echecs": 0,
   "par_corpus": {
    "BnF": {
     "pct05": 100.0,
     "max": 0.47,
-    "iou": 0.897,
+    "iou": 0.937,
     "ok": true
    },
    "PetitParisien": {
     "pct05": 99.26,
     "max": 1.32,
-    "iou": 0.827,
+    "iou": 0.933,
     "ok": true
    },
    "Newseye": {
     "pct05": 97.87,
     "max": 7.45,
-    "iou": 0.61,
+    "iou": 0.749,
     "ok": false
    }
   }
@@ -187,13 +186,18 @@
    "iou": 0.887,
    "echecs": 0,
    "note": "B20 CHAMPION : tous seuils sur PP et BnF, 0 echec. Reste BNL 0015."
+  },
+  {
+   "boxer": "serre",
+   "pct05": 96.65,
+   "iou": 0.795,
+   "note": "B22 CHAMPION : etendue verticale bornee a la ligne. IoU PP 0.827->0.933, BnF 0.897->0.937, Newseye 0.610->0.749. Aucune frontiere deplacee."
   }
  ],
  "backlog": [
-  "B22_diagnostic_newseye",
-  "B23_tesseract_second_moteur",
-  "B21_ctc_sur_tableau",
-  "B7_viterbi_largeurs"
+  "B23_pire_cas_newseye",
+  "B24_tesseract_second_moteur",
+  "B21_ctc_sur_tableau"
  ],
  "fait": [
   "B1_bande_verticale",
@@ -209,9 +213,11 @@
   "B17_ancres",
   "B6_ctc_kraken",
   "B19_ctc_separateurs",
-  "B20_composition"
+  "B20_composition",
+  "B9_corpus_newseye",
+  "B22_etendue_bornee"
  ],
- "prochaine": "B22_diagnostic_newseye",
+ "prochaine": "B23_pire_cas_newseye",
  "note_vt": "BNL écartée comme VT géométrique (blancs non vides). Banc 1151 -> 660 lignes.",
  "github": "https://github.com/maribakulj/BBVLM",
  "corpus": {
