@@ -1,5 +1,5 @@
 {
- "iteration": 3,
+ "iteration": 4,
  "champion": {
   "nom": "routage",
   "err_p90": 0.0,
@@ -133,12 +133,33 @@
     "BNL": 34.43
    },
    "note": "B15 RETENU : routage par le texte, champion preserve + gain BNL, zero regression"
+  },
+  {
+   "boxer": "elastique",
+   "pct05": 98.04,
+   "max": 11.88,
+   "par_corpus": {
+    "PetitParisien": 99.12,
+    "BnF": 99.39,
+    "BNL": 24.59
+   },
+   "note": "B16 ECARTE : degrade BNL, bande large = divagation"
+  },
+  {
+   "boxer": "ancres",
+   "pct05": 97.75,
+   "max": 9.74,
+   "par_corpus": {
+    "PetitParisien": 98.83,
+    "BnF": 99.03,
+    "BNL": 27.87
+   },
+   "note": "B17 ECARTE : degrade PARTOUT, affectation des mots redevenue proportionnelle"
   }
  ],
  "backlog": [
-  "B16_espaces_elastiques",
-  "B9_corpus_basse_res",
   "B6_ctc_kraken",
+  "B9_corpus_basse_res",
   "B4_pas_fixe",
   "B7_viterbi_largeurs",
   "B8_arbitrage"
@@ -152,9 +173,11 @@
   "B12_espace_observe",
   "B13_points_conduite",
   "B14_routage_dispersion",
-  "B15_routage_texte"
+  "B15_routage_texte",
+  "B16_espaces_elastiques",
+  "B17_ancres"
  ],
- "prochaine": "B16_espaces_elastiques",
+ "prochaine": "B6_ctc_kraken",
  "note_vt": "BNL écartée comme VT géométrique (blancs non vides). Banc 1151 -> 660 lignes.",
  "github": "https://github.com/maribakulj/BBVLM"
 }

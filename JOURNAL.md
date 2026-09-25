@@ -270,3 +270,48 @@ minimaux et élargir la bande de Sakoe-Chiba. Vide du gabarit et vide de l'image
 sont tous deux sans encre ; le chemin DTW les apparie à coût quasi nul et peut
 étirer arbitrairement — si la bande le lui permet. L'alignement découvre la
 largeur des blancs au lieu qu'on la lui impose.
+
+### B16 · espaces élastiques — DÉGRADE, écarté
+
+BNL 34,43 → **24,59 %**, pire cas 8,99 → 11,88c. Élargir la bande de
+Sakoe-Chiba à 0,90 donne au DTW la liberté d'absorber les grands vides — et
+celle de divaguer. Le problème n'était pas la largeur de bande.
+
+### Vérification écartée : les mots sont bien sur une seule rangée
+
+Hypothèse testée avant d'aller plus loin : la « ligne » de tableau mélange-t-elle
+des rangées ? **Non** — étendue des centres y de 1 à 3 px, contre 7 à 15 px sur
+du Petit Parisien. Ce sont de vraies lignes visuelles.
+
+Mais leur géométrie dit autre chose : `Luxembourg` finit à x=100, le mot suivant
+commence à x=256. **Un vide de 250 px sur une ligne haute de 31 px** — 40 % de
+la largeur, 8 fois la hauteur. Le DTW doit comprimer 250 colonnes observées sur
+une dizaine de colonnes de gabarit.
+
+### B17 · ancres sur les vides certains — DÉGRADE PARTOUT, écarté
+
+| | PP pire cas | BnF pire cas | BNL |
+|---|---|---|---|
+| champion | **1,32c** | **1,84c** | 34,43 % |
+| B17 | 5,25c ❌ | 4,88c ❌ | 27,87 % ❌ |
+
+L'idée était juste — un vide de 250 px est une frontière certaine, autant
+l'imposer que la faire redécouvrir. **L'exécution ne l'était pas** : la
+répartition des mots entre segments se fait au prorata de leur largeur rendue.
+J'ai réintroduit la répartition proportionnelle — la ligne de base que tout ce
+travail existe pour battre — un cran plus haut, au niveau du segment.
+
+Leçon : une ancre géométrique ne vaut que si l'affectation des mots qu'elle
+sépare vient elle aussi de l'observation.
+
+### Bilan du cas tabulaire — cinq échecs, cinq causes distinctes
+
+| | cause identifiée |
+|---|---|
+| B12 espace estimé | un scalaire ne décrit pas des blancs inégaux |
+| B13 points de conduite | détection côté image trop fragile (seuil 5 px / points 7 px) |
+| B14 dispersion | mauvais discriminant, ne déclenche jamais |
+| B16 espaces élastiques | bande large = liberté de divaguer |
+| B17 ancres | affectation des mots redevenue proportionnelle |
+
+Seul B15 (routage par le texte) a apporté un gain sans régression.
