@@ -212,8 +212,9 @@
   }
  ],
  "backlog": [
-  "B27_couple_sur_corpus_favorables",
-  "B28_forced_ctc_transformation_inverse"
+  "B29_corpus_fraktur_boites_valides",
+  "B28_forced_ctc_transformation_inverse",
+  "B30_detection_derive_vlm"
  ],
  "fait": [
   "B1_bande_verticale",
@@ -237,7 +238,7 @@
   "B25_alignement_force",
   "B26_banc_couple"
  ],
- "prochaine": "B27_couple_sur_corpus_favorables",
+ "prochaine": "B29_corpus_fraktur_boites_valides",
  "note_vt": "BNL écartée comme VT géométrique (blancs non vides). Banc 1151 -> 660 lignes.",
  "github": "https://github.com/maribakulj/BBVLM",
  "corpus": {
@@ -260,5 +261,6 @@
   "kraken_s": 14,
   "churro_s": 1339,
   "verdict": "Sur Newseye le VLM NE lit PAS mieux. kraken seul est le bon choix. L'architecture ne se justifie pas partout."
- }
+ },
+ "limite_principale": "Les deux moities de la demonstration ne se recouvrent pas : le VLM est utile sur le Fraktur, ou aucune VT geometrique valide n'existe ici ; les boites sont mesurables sur l'imprime latin, ou un CTC assorti lit mieux que le VLM."
 }

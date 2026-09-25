@@ -767,3 +767,32 @@ d'une ligne antérieure. C'est le défaut structurel du VLM, déjà rencontré �
 chaque étape de ce travail, et il n'est pas résolu. Un système de production
 devrait le détecter (le compte de lignes et le coût d'alignement le permettent)
 plutôt que l'ignorer.
+
+---
+
+## Un trou dans la démonstration, à nommer
+
+La chaîne se justifie sur le Fraktur et l'imprimé ancien — c'est là que le VLM
+lit deux fois mieux qu'un CTC hors domaine.
+
+**Or c'est précisément là que je ne peux pas mesurer sa géométrie.** Les seuls
+corpus Fraktur disponibles ici (BNL, BNLfull) ont une vérité terrain dont les
+boîtes de mots ne délimitent rien — mesuré sur 1814 pages : 0,179 d'encre dans
+les blancs contre 0,176 dans les boîtes, 9 % de blancs vides.
+
+Le banc de boîtes ne porte donc que sur **PetitParisien, BnF et Newseye** — trois
+corpus d'imprimé latin où, justement, un CTC assorti lit mieux que le VLM.
+
+```
+                    VLM utile ?   boîtes mesurables ?
+Fraktur / ancien        OUI              NON
+imprimé latin récent    NON              OUI
+```
+
+**Les deux moitiés de la démonstration ne se recouvrent pas.** Ce n'est pas un
+défaut de la chaîne mais une lacune de corpus, et elle doit être comblée avant
+toute conclusion générale : il faut un corpus d'écriture hors domaine **avec des
+boîtes de mots géométriquement valides**.
+
+C'est la limite la plus sérieuse de ce travail à ce stade, et elle prime sur une
+itération de plus sur les boîtes.
