@@ -676,3 +676,41 @@ croit lire. C'est le seul candidat du banc dans ce cas, et il fait 99,26 % à
 Ce n'est donc pas une solution de repli mais **l'architecture la plus cohérente
 avec l'hypothèse de départ**. Le CTC sert surtout à établir la borne haute
 accessible avec un signal neuronal caractère↔image.
+
+### La mesure qui manquait — et elle ne soutient PAS la prémisse sur ce corpus
+
+Texte, mêmes pages, mêmes lignes :
+
+| page | lignes en entrée VLM | kraken CTC | churro VLM |
+|---|---|---|---|
+| 0250199-004 | 47 px | 13,17 % | 13,80 % |
+| 0253902-003 | **23,9 px** | 7,80 % | *286,34 %* |
+| 0400970-002 | 51,3 px | **6,89 %** | **17,89 %** |
+| moyenne | | **9,28 %** | 106,01 % |
+| temps | | **14 s** | 1 339 s |
+
+**À écarter :** la page à 286 % est un artefact du harnais — ses 40 premières
+lignes traversent plusieurs colonnes, le crop fait 4774 px de large et le
+redimensionnement écrase les lignes à 24 px. Mesure invalide.
+
+**À retenir :** sur 0400970, churro reçoit des lignes de 51 px — résolution
+comparable à celle où il atteignait 0 % sur le Petit Parisien — et fait
+**17,89 % contre 6,89 %**. L'avantage textuel du VLM, réel sur le Fraktur BNL
+(1,9 %) et sur la presse 1900 (0 %), **ne se transporte pas sur cette presse
+française des années 1930**.
+
+### Ce que ça fait à la prémisse du projet
+
+BBVLM repose sur : *le VLM lit mieux, donc il faut lui rendre la géométrie*.
+Sur Newseye, le VLM ne lit pas mieux — il lit deux fois et demie moins bien, et
+95 fois plus lentement. Sur ce corpus, **kraken seul est le bon choix** : il
+donne le texte ET les boîtes, sans plomberie.
+
+L'architecture ne se justifie donc pas partout. Elle se justifie là où l'écart
+textuel est réellement en faveur du VLM — Fraktur, presse 1900, graphies
+anciennes — et pas ailleurs. C'est une conclusion utilisable, pas un échec : elle
+dit **quand** employer BBVLM.
+
+Reste à mesurer l'écart sur les corpus où le VLM était bon, avec le même
+protocole couplé. C'est la prochaine étape, et elle vaut mieux qu'une itération
+de plus sur les boîtes.

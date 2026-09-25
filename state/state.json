@@ -1,5 +1,5 @@
 {
- "iteration": 11,
+ "iteration": 13,
  "champion": {
   "nom": "connexe",
   "pct05": 96.65,
@@ -203,11 +203,17 @@
    "boxer": "connexe",
    "iou": 0.839,
    "note": "B24 CHAMPION : filtre CC resserre 0.85->0.45. Newseye IoU 0.749->0.815 franchit le seuil. 11 seuils sur 12."
+  },
+  {
+   "boxer": "force_ctc",
+   "echecs": 82,
+   "pct05": 87.25,
+   "note": "B25 ECARTE : frames projetees lineairement sur la boite alors que kraken reconnait sur bande rectifiee avec padding"
   }
  ],
  "backlog": [
-  "B25_pire_cas_newseye",
-  "B26_tesseract_second_moteur"
+  "B27_couple_sur_corpus_favorables",
+  "B28_forced_ctc_transformation_inverse"
  ],
  "fait": [
   "B1_bande_verticale",
@@ -227,9 +233,11 @@
   "B9_corpus_newseye",
   "B22_etendue_bornee",
   "B23_profil_encre",
-  "B24_filtre_connexe"
+  "B24_filtre_connexe",
+  "B25_alignement_force",
+  "B26_banc_couple"
  ],
- "prochaine": "B25_pire_cas_newseye",
+ "prochaine": "B27_couple_sur_corpus_favorables",
  "note_vt": "BNL écartée comme VT géométrique (blancs non vides). Banc 1151 -> 660 lignes.",
  "github": "https://github.com/maribakulj/BBVLM",
  "corpus": {
@@ -244,5 +252,13 @@
   ],
   "preuve_ecart": "encre dans les blancs 0,179 contre 0,176 dans les boites ; 9 % de blancs vides, mesure sur 1814 pages"
  },
- "litterature": "alignement force transcription-image ; B6/B19 = reimplementation de la methode standard ; Text2Image aligne au niveau ligne ; Aletheia semi-manuel ; pas de ketos align"
+ "litterature": "alignement force transcription-image ; B6/B19 = reimplementation de la methode standard ; Text2Image aligne au niveau ligne ; Aletheia semi-manuel ; pas de ketos align",
+ "recadrage": "La question centrale n'est pas la qualite des boites mais : le gain textuel du VLM justifie-t-il une seconde brique geometrique ?",
+ "couple_newseye": {
+  "kraken_cer": 9.28,
+  "churro_cer_valide": 17.89,
+  "kraken_s": 14,
+  "churro_s": 1339,
+  "verdict": "Sur Newseye le VLM NE lit PAS mieux. kraken seul est le bon choix. L'architecture ne se justifie pas partout."
+ }
 }
