@@ -501,3 +501,48 @@ Aucune frontière déplacée — c'était bien un problème de hauteur, pas de c
 Newseye reste à 0,05 point d'IoU et surtout à 7,45c de pire cas. Les deux
 manques sont distincts : l'IoU est un problème d'étendue résiduelle, le pire cas
 un problème de placement sur quelques lignes.
+
+---
+
+## Itération 10 — 2026-09-25
+
+### Diagnostic Newseye — la boîte de ligne est trop lâche
+
+| page | IoU | largeur préd/VT | hauteur préd/VT |
+|---|---|---|---|
+| 0250199 | 0,587 | 1,13× | **1,30×** |
+| 0253902 | 0,738 | 1,07× | 1,00× |
+
+Mesure structurelle du corpus :
+
+```
+boîte de ligne médiane 43 px   mots médiane 27 px   ratio 1,5×
+28 chevauchements verticaux sur 40 lignes
+```
+
+Les boîtes de lignes Newseye font **une fois et demie la hauteur des mots** et
+se chevauchent. B22, qui borne l'étendue à la boîte de ligne, capte donc encore
+l'encre des voisines sur les pages les plus serrées.
+
+### B23 · étendue par le profil d'encre — DÉGRADE PARTOUT, écarté
+
+| corpus | IoU `serre` | IoU B23 |
+|---|---|---|
+| Petit Parisien | **0,933** | 0,723 ❌ |
+| BnF | **0,937** | 0,675 ❌ |
+| Newseye | **0,749** | 0,651 ❌ |
+
+Chercher la région dense contiguë autour du pic, arrêtée aux creux à 18 % du
+maximum, **coupe les hampes et les jambages** qui appartiennent au mot. Le
+remède est pire que le mal : une boîte de ligne trop lâche reste une meilleure
+borne qu'un profil trop serré.
+
+`serre` (B22) reste champion.
+
+### Ce que ça indique pour la suite
+
+Le bon levier n'est ni la boîte ni le profil, mais les **composantes connexes** :
+l'encre d'une ligne voisine forme des composantes distinctes, dont le centre est
+loin du centre de la ligne. `ink.line_mask` filtre déjà sur ce critère
+(`|Δy| > 0,85 × hauteur`) — c'est ce seuil qu'il faut resserrer, pas inventer un
+nouveau mécanisme.
