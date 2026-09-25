@@ -1,4 +1,12 @@
-# BBVLM — Boîtes au mot pour sorties VLM
+# BBVLM — Produire de la vérité terrain ALTO
+
+**But : fabriquer de l'ALTO au mot de qualité vérité-terrain**, en combinant un
+VLM de frontière (texte au caractère près) et un moteur géométrique (boîtes à
+0,47 caractère près). Voir [OBJECTIF.md](OBJECTIF.md).
+
+Ce n'est **pas** un concurrent des moteurs OCR : pour de la production de masse,
+un CTC assorti lit à 1,25 % en 3 s/page et fournit les boîtes. Mais 1,25 % est
+précisément ce qu'une vérité terrain doit corriger.
 
 **Reconstruire des boîtes ALTO au mot, *from scratch*, à partir d'une image de
 ligne et de son texte rendu par un VLM.** Pas de reconstruction naïve : le
