@@ -617,3 +617,62 @@ le      1300-1330  VT 1300-1330  (exact)
 Ce qui reste de BBVLM et qu'on garde : les positions CTC servent de
 **séparateurs**, pas de bords de glyphes (B19 : IoU 0,635 → 0,829 sans déplacer
 une frontière), et l'étendue vient de l'encre.
+
+---
+
+## Itération 13 — 2026-09-25 — recadrage : le VLM mérite-t-il cette plomberie ?
+
+### B25 · alignement forcé CTC — ÉCHOUE, cause identifiée
+
+| | échecs | ≤0,5c | pire cas |
+|---|---|---|---|
+| `ctc_span` (ancienne branche) | 32 | 99,65 % | 0,66c |
+| **B25 alignement forcé** | **82** | 87,25 % | 23,77c |
+
+La méthode est la bonne — imposer le texte plutôt que demander sa lecture au
+réseau — mais **mon implémentation projette les frames linéairement sur la boîte
+de ligne**, alors que kraken reconnaît sur une bande **rectifiée** avec un
+padding de 16 px. PERO applique la transformation inverse de son extraction ; je
+ne l'ai pas fait. Le test sur une ligne horizontale pleine largeur masquait
+exactement cette erreur.
+
+Leçon annexe : faire tourner un OCR pour n'en garder que les coordonnées oblige
+à **répliquer sa géométrie interne**. La plomberie coûte plus cher qu'elle n'en
+a l'air.
+
+### La question qu'on n'avait jamais posée
+
+Douze itérations à optimiser des boîtes sans mesurer **si le VLM méritait cette
+plomberie**. Les deux bancs étaient aveugles l'un à l'autre : celui des boîtes
+ignorait le texte, ceux du CER ignoraient les boîtes.
+
+La vraie question n'est pas « quelle méthode fait les meilleures boîtes » mais
+**« à quel moment le gain textuel du VLM justifie une seconde brique
+géométrique ? »** Si un recognizer lit à 2,1 % et donne déjà un bon ALTO, bâtir
+tout ceci pour 0,2 point serait absurde.
+
+`src/banc_couple.py` mesure désormais texte ET géométrie sur les mêmes lignes.
+
+**Premier résultat — kraken (CATMuS-Print) sur Newseye, 120 lignes :**
+
+| page | CER |
+|---|---|
+| 0250199-004 | 13,17 % |
+| 0253902-003 | 7,80 % |
+| 0400970-002 | 6,89 % |
+| **moyenne** | **9,28 %** en 14 s |
+
+C'est le régime « 8-15 % sur du patrimonial difficile » qui rendrait
+l'architecture défendable — à condition que le VLM fasse nettement mieux sur les
+mêmes lignes. Mesure en cours.
+
+### Une propriété du DTW que je n'avais pas formulée
+
+Le DTW sur gabarit rendu **n'effectue aucune seconde reconnaissance** : il reçoit
+image + texte et rend de la géométrie, sans jamais demander à un réseau ce qu'il
+croit lire. C'est le seul candidat du banc dans ce cas, et il fait 99,26 % à
+1,32c.
+
+Ce n'est donc pas une solution de repli mais **l'architecture la plus cohérente
+avec l'hypothèse de départ**. Le CTC sert surtout à établir la borne haute
+accessible avec un signal neuronal caractère↔image.
