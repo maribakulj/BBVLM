@@ -575,3 +575,45 @@ ne bouge pas (1,32c). Newseye franchit le seuil.
 
 **Onze seuils sur douze sont franchis.** Reste le pire cas de Newseye — et
 comme ses frontières sont justes à 97,9 %, il ne s'agit que de quelques lignes.
+
+---
+
+## Itération 12 — 2026-09-25
+
+### B25 · alignement forcé CTC — le défaut signalé était réel
+
+Critique reçue et **vérifiée dans le code** : `ctc.py` demandait d'abord au
+recognizer *quelle* transcription il préfère (`rec.prediction`), puis raccrochait
+cette lecture au texte du VLM par `difflib.SequenceMatcher`. Ce n'est pas de
+l'alignement forcé, c'est **l'appariement de deux lectures** — et quand elles
+divergent, il n'y a plus rien à quoi s'accrocher. D'où les 32 échecs, tous sur
+des lignes dégradées (`bles. L r s personnes dont ces chemins des`).
+
+L'alignement forcé ne pose jamais cette question. Il prend la matrice de
+probabilités, construit le graphe CTC de la transcription **imposée** — blank,
+c1, blank, c2… avec les transitions propres aux caractères répétés — et cherche
+par Viterbi le chemin qui explique le mieux CE texte. Le réseau peut n'avoir que
+0,42 sur un caractère : le chemin global s'en accommode là où un décodage glouton
+aurait produit autre chose.
+
+C'est la méthode de PERO (`core/force_alignment.py`), **documentée** — pas une
+trouvaille de ce dépôt. `kraken` expose `forward()`, donc la matrice est
+accessible ; seul mon usage était en cause.
+
+**Un piège rencontré :** le codec écarte silencieusement les caractères hors
+alphabet — le « é » de `Débats` n'est pas dans CATMuS-Print, et 21 caractères
+donnent 20 codes. Encoder le texte d'un bloc casse la correspondance
+position↔code. Il faut encoder caractère par caractère et garder la table.
+
+Premier essai, écarts à la vérité terrain :
+
+```
+le       917-945   VT 917-946    (1 px)
+Journal  959-1093  VT 959-1094   (1 px)
+des     1106-1154  VT 1106-1155  (1 px)
+le      1300-1330  VT 1300-1330  (exact)
+```
+
+Ce qui reste de BBVLM et qu'on garde : les positions CTC servent de
+**séparateurs**, pas de bords de glyphes (B19 : IoU 0,635 → 0,829 sans déplacer
+une frontière), et l'étendue vient de l'encre.
