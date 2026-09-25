@@ -5,7 +5,8 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'box
 import corpora, judge
 mod, cls = sys.argv[1].split(':')
 b = getattr(importlib.import_module(mod), cls)()
-r = judge.score(b, corpora.all_pages())
+mx = int(os.environ.get('BBVLM_MAX_LIGNES', '0')) or None
+r = judge.score(b, corpora.all_pages(max_lignes=mx))
 s = r.summary()
 print(f"\n═══ {b.name} ═══")
 print(f"  lignes {s['lignes']} (échec {s['lignes_en_echec']}) | frontières {s['frontieres']}")

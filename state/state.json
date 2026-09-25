@@ -1,5 +1,5 @@
 {
- "iteration": 6,
+ "iteration": 8,
  "champion": {
   "nom": "compose",
   "pct05": 98.46,
@@ -7,25 +7,22 @@
   "iou": 0.887,
   "echecs": 0,
   "par_corpus": {
-   "PetitParisien": {
-    "pct05": 99.41,
-    "max": 1.32,
-    "iou": 0.828,
-    "echecs": 0,
-    "ok": true
-   },
    "BnF": {
-    "pct05": 99.64,
-    "max": 1.96,
-    "iou": 0.915,
-    "echecs": 0,
+    "pct05": 100.0,
+    "max": 0.47,
+    "iou": 0.897,
     "ok": true
    },
-   "BNL": {
-    "pct05": 34.43,
-    "max": 8.99,
-    "iou": 0.0,
-    "echecs": 0,
+   "PetitParisien": {
+    "pct05": 99.26,
+    "max": 1.32,
+    "iou": 0.827,
+    "ok": true
+   },
+   "Newseye": {
+    "pct05": 97.87,
+    "max": 7.45,
+    "iou": 0.61,
     "ok": false
    }
   }
@@ -193,9 +190,9 @@
   }
  ],
  "backlog": [
-  "B9_corpus_basse_res",
+  "B22_diagnostic_newseye",
+  "B23_tesseract_second_moteur",
   "B21_ctc_sur_tableau",
-  "B4_pas_fixe",
   "B7_viterbi_largeurs"
  ],
  "fait": [
@@ -214,7 +211,20 @@
   "B19_ctc_separateurs",
   "B20_composition"
  ],
- "prochaine": "B9_corpus_basse_res",
+ "prochaine": "B22_diagnostic_newseye",
  "note_vt": "BNL écartée comme VT géométrique (blancs non vides). Banc 1151 -> 660 lignes.",
- "github": "https://github.com/maribakulj/BBVLM"
+ "github": "https://github.com/maribakulj/BBVLM",
+ "corpus": {
+  "valides": [
+   "PetitParisien",
+   "BnF",
+   "Newseye"
+  ],
+  "ecartes": [
+   "BNL",
+   "BNLfull"
+  ],
+  "preuve_ecart": "encre dans les blancs 0,179 contre 0,176 dans les boites ; 9 % de blancs vides, mesure sur 1814 pages"
+ },
+ "litterature": "alignement force transcription-image ; B6/B19 = reimplementation de la methode standard ; Text2Image aligne au niveau ligne ; Aletheia semi-manuel ; pas de ketos align"
 }

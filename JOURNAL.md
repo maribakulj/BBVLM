@@ -444,3 +444,23 @@ composition.
 
 À corriger dans le README : ne pas présenter comme une trouvaille ce qui est
 l'application d'une méthode documentée.
+
+### Le banc élargi corrige une impression trop favorable
+
+Champion `compose` sur 5 corpus (916 lignes, 4 899 frontières) :
+
+| corpus | ≤0,5c | pire cas | IoU | verdict |
+|---|---|---|---|---|
+| BnF | **100,0 %** | **0,47c** | 0,897 | ✅ ✅ ✅ |
+| Petit Parisien | 99,26 % | 1,32c | 0,827 | ✅ ✅ ✅ |
+| **Newseye** | 97,87 % | **7,45c** ❌ | **0,610** ❌ | échec |
+| BNL / BNLfull | 34,43 % | 8,99c ❌ | 0,0 ❌ | échec |
+
+**Ajouter un vrai troisième corpus fait tomber deux seuils.** Le champion
+généralisait moins bien que les deux premiers ne le laissaient croire — c'est
+exactement ce que la recherche de couverture devait révéler, et la raison pour
+laquelle un critère par corpus vaut mieux qu'une moyenne.
+
+Note de banc : un mode rapide (`BBVLM_MAX_LIGNES`) borne le nombre de lignes par
+page pour itérer — les pages Newseye portent 800 à 900 lignes et le CTC est lent.
+La validation finale se fera sans borne.

@@ -9,7 +9,7 @@ def get(name):
     return getattr(m, cls)()
 
 if __name__ == '__main__':
-    pages = corpora.all_pages()
+    pages = corpora.all_pages(max_lignes=int(os.environ.get('BBVLM_MAX_LIGNES','0')) or None)
     names = sys.argv[1:] or ['proportional:Proportional', 'inkgap:InkGapDP']
     res = {}
     for n in names:

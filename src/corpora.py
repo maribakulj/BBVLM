@@ -123,7 +123,10 @@ def gt_is_geometric(page: 'Page', thr_gap: float = 0.06, min_empty: float = 0.30
     return statistics.median(gaps) <= thr_gap and empty/len(gaps) >= min_empty
 
 
-def all_pages(limit_per_corpus: int | None = None, only_geometric: bool = True) -> list[Page]:
+def all_pages(limit_per_corpus: int | None = None, only_geometric: bool = True,
+              max_lignes: int | None = None) -> list[Page]:
+    """`max_lignes` borne le nombre de lignes par page — pour itérer vite sans
+    changer le critère. La validation finale se fait toujours sans borne."""
     out: list[Page] = []
     # XVIIe français, PAGE XML, boîtes de mots humaines
     n = 0
@@ -167,6 +170,8 @@ def all_pages(limit_per_corpus: int | None = None, only_geometric: bool = True) 
         p = load_alto(x, img, 'BNL', os.path.basename(x)[:-4])
         if p: out.append(p); n += 1
         if limit_per_corpus and n >= limit_per_corpus: break
+    if max_lignes:
+        for p in out: p.lines = p.lines[:max_lignes]
     if only_geometric:
         keep, rejected = [], {}
         for p in out:
