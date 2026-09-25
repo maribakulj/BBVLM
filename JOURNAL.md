@@ -796,3 +796,41 @@ boîtes de mots géométriquement valides**.
 
 C'est la limite la plus sérieuse de ce travail à ce stade, et elle prime sur une
 itération de plus sur les boîtes.
+
+---
+
+## Itération 15 — B29 : chercher un corpus Fraktur à boîtes de mots
+
+### Candidats examinés
+
+| corpus | format | boîtes de mots ? |
+|---|---|---|
+| ATR Newseye (déjà présent) | PAGE XML + Word/Coords ✅ | mais **127 pages toutes françaises** |
+| **AustrianNewspapers ONB** (UB-Mannheim) | PAGE XML + images ✅ | **313 TextLine, 0 Word** ❌ |
+| Reichsanzeiger-GT | PAGE XML, 490 679 mots annoncés | à vérifier |
+
+Le jeu autrichien est du vrai Fraktur — `Arbeiter⸗Zeitung`,
+`Schwarzſpanierſtr.`, avec ſ long et tiret double oblique — et il vient de la
+**même famille NewsEye** que mon corpus BnF, images comprises. Mais son
+annotation s'arrête à la ligne.
+
+### Le constat de fond
+
+**La vérité terrain au mot est rare sur le patrimonial.** La plupart des jeux —
+GT4HistOCR, AustrianNewspapers, la majorité des sorties Transkribus — s'arrêtent
+à la ligne, parce que c'est ce dont un recognizer CTC a besoin pour s'entraîner.
+Les boîtes de mots ne servent qu'à l'aval : ALTO, recherche plein texte,
+surlignage. Peu de producteurs les annotent.
+
+Ce n'est donc pas un manque de chance dans mes recherches, c'est une propriété
+du paysage documentaire — et elle explique pourquoi ce travail manque de terrain
+d'épreuve là où il serait le plus utile.
+
+### Ce que le corpus autrichien apporte malgré tout
+
+Il donne un **meilleur banc de TEXTE en Fraktur** que BNL : 148 pages, VT
+Transkribus révisée par l'université de Mannheim, images incluses. BNL servait
+de repère avec 1,9 % de CER mesuré sur 5 pages ; ONB permettra une mesure plus
+sérieuse de l'écart VLM / CTC sur cette écriture.
+
+Conservé pour cet usage, écarté pour la géométrie.

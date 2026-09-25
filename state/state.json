@@ -1,5 +1,5 @@
 {
- "iteration": 13,
+ "iteration": 15,
  "champion": {
   "nom": "connexe",
   "pct05": 96.65,
@@ -212,7 +212,8 @@
   }
  ],
  "backlog": [
-  "B29_corpus_fraktur_boites_valides",
+  "B31_reichsanzeiger",
+  "B32_fraktur_synthetique",
   "B28_forced_ctc_transformation_inverse",
   "B30_detection_derive_vlm"
  ],
@@ -238,7 +239,7 @@
   "B25_alignement_force",
   "B26_banc_couple"
  ],
- "prochaine": "B29_corpus_fraktur_boites_valides",
+ "prochaine": "B31_reichsanzeiger",
  "note_vt": "BNL écartée comme VT géométrique (blancs non vides). Banc 1151 -> 660 lignes.",
  "github": "https://github.com/maribakulj/BBVLM",
  "corpus": {
@@ -262,5 +263,10 @@
   "churro_s": 1339,
   "verdict": "Sur Newseye le VLM NE lit PAS mieux. kraken seul est le bon choix. L'architecture ne se justifie pas partout."
  },
- "limite_principale": "Les deux moities de la demonstration ne se recouvrent pas : le VLM est utile sur le Fraktur, ou aucune VT geometrique valide n'existe ici ; les boites sont mesurables sur l'imprime latin, ou un CTC assorti lit mieux que le VLM."
+ "limite_principale": "Les deux moities de la demonstration ne se recouvrent pas : le VLM est utile sur le Fraktur, ou aucune VT geometrique valide n'existe ici ; les boites sont mesurables sur l'imprime latin, ou un CTC assorti lit mieux que le VLM.",
+ "b29": {
+  "onb_austrian": "Fraktur reel, PAGE XML + images, 148 pages, MAIS 0 Word : annotation ligne seulement",
+  "atr_newseye": "Word+Coords valides mais 127 pages toutes francaises",
+  "constat": "La VT au mot est rare sur le patrimonial : les jeux s'arretent a la ligne car c'est ce dont un CTC a besoin pour s'entrainer."
+ }
 }
