@@ -1,28 +1,29 @@
 {
- "iteration": 9,
+ "iteration": 11,
  "champion": {
-  "nom": "serre",
+  "nom": "connexe",
   "pct05": 96.65,
-  "iou": 0.795,
+  "iou": 0.839,
   "echecs": 0,
   "par_corpus": {
    "BnF": {
     "pct05": 100.0,
     "max": 0.47,
-    "iou": 0.937,
+    "iou": 0.939,
     "ok": true
    },
    "PetitParisien": {
     "pct05": 99.26,
     "max": 1.32,
-    "iou": 0.933,
+    "iou": 0.875,
     "ok": true
    },
    "Newseye": {
     "pct05": 97.87,
     "max": 7.45,
-    "iou": 0.749,
-    "ok": false
+    "iou": 0.815,
+    "ok": false,
+    "manque": "pire cas seul"
    }
   }
  },
@@ -192,12 +193,21 @@
    "pct05": 96.65,
    "iou": 0.795,
    "note": "B22 CHAMPION : etendue verticale bornee a la ligne. IoU PP 0.827->0.933, BnF 0.897->0.937, Newseye 0.610->0.749. Aucune frontiere deplacee."
+  },
+  {
+   "boxer": "profil",
+   "iou": 0.655,
+   "note": "B23 ECARTE : profil coupe les hampes, IoU PP 0.933->0.723"
+  },
+  {
+   "boxer": "connexe",
+   "iou": 0.839,
+   "note": "B24 CHAMPION : filtre CC resserre 0.85->0.45. Newseye IoU 0.749->0.815 franchit le seuil. 11 seuils sur 12."
   }
  ],
  "backlog": [
-  "B23_pire_cas_newseye",
-  "B24_tesseract_second_moteur",
-  "B21_ctc_sur_tableau"
+  "B25_pire_cas_newseye",
+  "B26_tesseract_second_moteur"
  ],
  "fait": [
   "B1_bande_verticale",
@@ -215,9 +225,11 @@
   "B19_ctc_separateurs",
   "B20_composition",
   "B9_corpus_newseye",
-  "B22_etendue_bornee"
+  "B22_etendue_bornee",
+  "B23_profil_encre",
+  "B24_filtre_connexe"
  ],
- "prochaine": "B23_pire_cas_newseye",
+ "prochaine": "B25_pire_cas_newseye",
  "note_vt": "BNL écartée comme VT géométrique (blancs non vides). Banc 1151 -> 660 lignes.",
  "github": "https://github.com/maribakulj/BBVLM",
  "corpus": {

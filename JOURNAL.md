@@ -546,3 +546,32 @@ l'encre d'une ligne voisine forme des composantes distinctes, dont le centre est
 loin du centre de la ligne. `ink.line_mask` filtre déjà sur ce critère
 (`|Δy| > 0,85 × hauteur`) — c'est ce seuil qu'il faut resserrer, pas inventer un
 nouveau mécanisme.
+
+### B24 · resserrer le filtre existant — NOUVEAU CHAMPION
+
+Application de la leçon payée trois fois : régler le mécanisme en place plutôt
+qu'en ajouter un. `ink.line_mask` écartait déjà les composantes dont le centre
+s'éloigne de plus de 0,85 × la hauteur de ligne ; sur Newseye, dont les boîtes
+valent 1,5 fois la hauteur des mots, ce seuil laissait passer les voisines.
+Seuil porté à 0,45 — une hampe reste centrée même en dépassant, une ligne
+voisine non.
+
+| corpus | IoU `serre` | IoU **B24** | seuil |
+|---|---|---|---|
+| Newseye | 0,749 ❌ | **0,815** ✅ | 0,80 |
+| BnF | 0,937 | **0,939** ✅ | |
+| Petit Parisien | 0,933 | 0,875 ✅ | |
+
+Le Petit Parisien recule de 0,058 mais reste largement au-dessus ; son pire cas
+ne bouge pas (1,32c). Newseye franchit le seuil.
+
+### État contre le critère — un seul manque sur tout le banc
+
+| corpus | ≤0,5c | pire cas | IoU | échecs |
+|---|---|---|---|---|
+| BnF | 100,0 % ✅ | **0,47c** ✅ | 0,939 ✅ | 0 ✅ |
+| Petit Parisien | 99,26 % ✅ | **1,32c** ✅ | 0,875 ✅ | 0 ✅ |
+| Newseye | 97,87 % ✅ | **7,45c** ❌ | 0,815 ✅ | 0 ✅ |
+
+**Onze seuils sur douze sont franchis.** Reste le pire cas de Newseye — et
+comme ses frontières sont justes à 97,9 %, il ne s'agit que de quelques lignes.
