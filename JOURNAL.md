@@ -132,3 +132,73 @@ travail — une moyenne excellente masquait exactement ça.
 - **B10** — attaquer le pire cas plutôt que la médiane : identifier les lignes à
   erreur > 3c et les caractériser (mots très courts ? ponctuation isolée ?
   ligatures ?).
+
+---
+
+## Itération 2 — 2026-09-25
+
+### B10 · où est le pire cas
+
+Sur 3 516 frontières, **22** dépassent 3 caractères. Elles ne sont pas réparties :
+
+- 16/22 sur les pages BNL résiduelles
+- **55 % impliquent un mot de ≤ 2 caractères**
+- les pires sont des **tableaux** : «972»|«50», «457»|«25», «id.......»|«457»
+
+Ce ne sont pas des lignes de prose. Le pire cas est un problème de *matière*,
+pas de réglage.
+
+### B3 · DTW sur gabarit rendu — la percée
+
+Le texte est connu : on le rend dans une fonte à l'échelle de la ligne et on
+aligne son profil d'encre sur l'observé par DTW. Les frontières sont exactes
+dans le rendu ; le chemin les transporte.
+
+| | ≤0,5c | pire cas | IoU |
+|---|---|---|---|
+| band_gaps | 97,07 % | 8,99c | 0,897 |
+| **render_dtw** | **98,12 %** | **2,25c** (BnF) | 0,789 (PP) |
+
+Le pire cas de BnF passe de 5,93c à **2,25c** — sous le seuil pour la première
+fois. Mais l'IoU du Petit Parisien tombe à 0,789 : les intervalles viennent des
+avances de la fonte, approches latérales comprises.
+
+### B11 · recalage des boîtes sur l'encre
+
+On garde les frontières du DTW et on rétracte chaque boîte sur l'encre présente
+dans son intervalle.
+
+| corpus | ≤0,5c | pire cas | IoU | verdict |
+|---|---|---|---|---|
+| Petit Parisien | **99,12 %** | **1,32c** | **0,837** | ✅ ✅ ✅ |
+| BnF | **99,39 %** | **1,84c** | **0,919** | ✅ ✅ ✅ |
+| BNL 0015 | 32,79 % | 8,99c | 0,0 | ❌ |
+
+**Deux corpus sur trois passent tous les seuils gelés.**
+
+### B5 · Otsu sur les blancs — mesuré, écarté
+
+96,3 % ≤0,5c mais **pire cas 30,0c** sur le Petit Parisien, contre 1,32c pour
+B11. Contraindre les frontières à tomber sur un blanc de la classe haute casse
+les lignes où Otsu sépare mal. Écarté : le critère interdit d'aggraver le pire
+cas.
+
+### Ce qui reste, et pourquoi
+
+La page BNL 0015 est un **tableau financier** — `Luxembourg 141 Dép...... fr.
+12315 31`, colonnes chiffrées et points de conduite. Sa VT est géométriquement
+**valide** (0,018 d'encre dans les blancs, 51 % vides) : ce n'est pas une règle
+faussée, c'est un échec réel.
+
+**Cause identifiée** : le gabarit rend un espace uniforme entre les mots. Un
+tableau a des blancs larges et très variables, et la bande de Sakoe-Chiba
+(`band_frac=0.25`) interdit au DTW la déformation qu'il faudrait.
+
+### Ajouté au backlog
+
+- **B12** — estimer le ratio d'espace du gabarit sur les blancs observés au lieu
+  de la chasse de la fonte, et élargir la bande DTW quand la variance des blancs
+  est forte. Cible directe du cas tableau.
+- **B13** — points de conduite (`Dép......`) : suite de composantes identiques
+  régulièrement espacées ; le DTW les aligne mal car le rendu n'en produit pas le
+  même nombre. À détecter et traiter comme un seul intervalle.

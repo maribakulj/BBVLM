@@ -1,11 +1,18 @@
 {
- "iteration": 1,
+ "iteration": 2,
  "champion": {
-  "nom": "band_gaps",
+  "nom": "dtw_snap",
   "err_p90": 0.0,
   "max": 8.99,
-  "pct05": 97.07,
-  "iou": 0.897
+  "pct05": 98.18,
+  "iou": 0.898,
+  "par_corpus_ok": [
+   "PetitParisien",
+   "BnF"
+  ],
+  "par_corpus_ko": [
+   "BNL"
+  ]
  },
  "mesures": [
   {
@@ -44,21 +51,63 @@
     "BNL": 36.07
    },
    "note": "B1 confirmé"
+  },
+  {
+   "boxer": "render_dtw",
+   "p90": 0.0,
+   "max": 9.55,
+   "pct05": 98.12,
+   "iou": 0.801,
+   "par_corpus": {
+    "PetitParisien": 99.27,
+    "BnF": 99.35,
+    "BNL": 29.51
+   },
+   "note": "B3 percée, IoU PP 0.789 sous seuil"
+  },
+  {
+   "boxer": "otsu_gaps",
+   "p90": 0.0,
+   "max": 30.0,
+   "pct05": 96.3,
+   "iou": 0.896,
+   "par_corpus": {
+    "PetitParisien": 95.31,
+    "BnF": 97.98
+   },
+   "note": "B5 ECARTE : pire cas 30c"
+  },
+  {
+   "boxer": "dtw_snap",
+   "p90": 0.0,
+   "max": 8.99,
+   "pct05": 98.18,
+   "iou": 0.898,
+   "par_corpus": {
+    "PetitParisien": 99.12,
+    "BnF": 99.39,
+    "BNL": 32.79
+   },
+   "note": "B11 : PP et BnF passent TOUS les seuils. Reste BNL 0015 (tableau financier)"
   }
  ],
  "backlog": [
-  "B3_dtw_gabarit",
-  "B10_pire_cas",
+  "B12_espace_observe",
+  "B13_points_conduite",
   "B9_corpus_basse_res",
   "B4_pas_fixe",
-  "B5_otsu_blancs",
   "B6_ctc_kraken",
   "B7_viterbi_largeurs",
   "B8_arbitrage"
  ],
  "fait": [
-  "B1_bande_verticale"
+  "B1_bande_verticale",
+  "B10_pire_cas",
+  "B3_dtw_gabarit",
+  "B5_otsu_blancs",
+  "B11_recalage_encre"
  ],
- "prochaine": "B3_dtw_gabarit",
- "note_vt": "BNL écartée comme VT géométrique (blancs non vides). Banc 1151 -> 660 lignes."
+ "prochaine": "B12_espace_observe",
+ "note_vt": "BNL écartée comme VT géométrique (blancs non vides). Banc 1151 -> 660 lignes.",
+ "github": "https://github.com/maribakulj/BBVLM"
 }
