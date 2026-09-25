@@ -973,3 +973,51 @@ largeurs attendues, normalisée par l'échelle estimée sur la ligne.
 Première page : 2479×3508, 24 lignes détectées par kraken. Quelques
 `TopologyException` du polygoniseur sur des lignes dégradées — sans effet sur la
 détection, mais à surveiller.
+
+---
+
+## Itération 19 — qui sait lire du Fraktur, mesuré à l'aveugle
+
+### Une erreur de protocole à signaler d'abord
+
+Mon « 0,00 % » de l'itération 17 était **contaminé** : j'avais affiché la vérité
+terrain dans la même sortie avant de transcrire. Ce n'était pas une lecture à
+l'aveugle.
+
+Reprise propre : bande jamais montrée, VT écrite dans un fichier et non
+affichée, transcription, puis révélation. Résultat inchangé — **9 lignes sur 9
+exactes, CER 0,00 %** — mais cette fois il vaut quelque chose.
+
+### Le classement, sur la même bande
+
+| lecteur | exactes | CER normalisé | durée |
+|---|---|---|---|
+| **VLM de frontière** (Opus 5) | **9/9** | **0,00 %** | — |
+| kraken `german_print` (CTC assorti) | — | **1,25 %** | 3 s/page |
+| mistral-medium-latest | 3 | 4,60 % | 3 s |
+| mistral-small-latest | 4 | 4,72 % | 3 s |
+| mistral-large-latest | 5 | 10,35 % | 7 s |
+| mistral-ocr-latest | 0 | 184 % | 1 s |
+| churro-3B | — | dérive sur 2 pages sur 5 | 22 min/page |
+
+**Mistral ne suffit pas pour de la vérité terrain** — 4,6 % au mieux, soit
+presque quatre fois pire qu'un CTC assorti. Et `mistral-ocr-latest` rend du
+markdown de page entière, pas des lignes : il ne répond pas au besoin.
+
+Note : `mistral-large` fait **moins bien** que `medium` et `small` sur cette
+matière. Les modèles plus grands ne lisent pas mécaniquement mieux du Fraktur.
+
+### Conséquence pour la chaîne
+
+Le poste de lecteur exige une classe de modèle que l'API Mistral ne fournit pas
+ici. Deux options réalistes :
+
+1. **un modèle de frontière par API** — coûteux, mais le coût par page est sans
+   importance pour produire quelques dizaines de pages de VT ;
+2. **le modèle de la session lui-même** — c'est ce qui a produit les 0,00 %, et
+   c'est implémentable aujourd'hui : Claude lit les bandes, le moteur
+   géométrique place les boîtes.
+
+La seconde n'est pas un artifice : elle correspond exactement à l'usage visé —
+un humain (ou un agent) produit une VT sur quelques dizaines de pages, avec
+relecture.

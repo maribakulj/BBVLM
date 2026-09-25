@@ -1,0 +1,65 @@
+{
+ "image": "ONB_aze_18950706_2.jpg",
+ "taille": [
+  2479,
+  3508
+ ],
+ "lecture": "churro-3B",
+ "geometrie": "connexe",
+ "lignes_detectees": 24,
+ "lignes_retenues": 16,
+ "lignes_ecartees": 8,
+ "taux_relecture": 33.3,
+ "seuil_suspicion": 0.9,
+ "blocs": [
+  {
+   "bloc": "1-20",
+   "attendu": 20,
+   "obtenu": 12,
+   "qualite": 3.1,
+   "s": 937.0
+  },
+  {
+   "bloc": "21-24",
+   "attendu": 4,
+   "obtenu": 7,
+   "qualite": 2.25,
+   "s": 176.3
+  }
+ ],
+ "ecartees": [
+  {
+   "ligne": "L0013",
+   "motif": "aucun texte rendu"
+  },
+  {
+   "ligne": "L0014",
+   "motif": "aucun texte rendu"
+  },
+  {
+   "ligne": "L0015",
+   "motif": "aucun texte rendu"
+  },
+  {
+   "ligne": "L0016",
+   "motif": "aucun texte rendu"
+  },
+  {
+   "ligne": "L0017",
+   "motif": "aucun texte rendu"
+  },
+  {
+   "ligne": "L0018",
+   "motif": "aucun texte rendu"
+  },
+  {
+   "ligne": "L0019",
+   "motif": "aucun texte rendu"
+  },
+  {
+   "ligne": "L0020",
+   "motif": "aucun texte rendu"
+  }
+ ],
+ "secondes": 1309.4
+}

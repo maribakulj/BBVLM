@@ -1,0 +1,1425 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>ONB_aze_18950706_2.jpg</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="OCRP_VLM_FRESH">
+      <ocrProcessingStep>
+        <processingSoftware>
+          <softwareName>churro-3B + connexe</softwareName>
+        </processingSoftware>
+        <processingStepDescription>Vérité terrain semi-automatique : lignes par kraken, texte par VLM, géométrie des mots par projection d'encre. Les lignes douteuses sont ÉCARTÉES et consignées, jamais comblées. Relecture humaine requise.</processingStepDescription>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="2479" HEIGHT="3508">
+      <PrintSpace ID="PS1" HPOS="150" VPOS="295" WIDTH="1933" HEIGHT="399">
+        <TextBlock ID="B1" HPOS="150" VPOS="295" WIDTH="1933" HEIGHT="399">
+          <TextLine ID="L0001" HPOS="152" VPOS="296" WIDTH="1430" HEIGHT="54">
+            <String ID="L0001_W01" CONTENT="und" HPOS="152" VPOS="303" WIDTH="43" HEIGHT="47"/>
+            <SP HPOS="195" VPOS="303" WIDTH="1"/>
+            <String ID="L0001_W02" CONTENT="Antiliberalen" HPOS="194" VPOS="303" WIDTH="154" HEIGHT="40"/>
+            <SP HPOS="348" VPOS="303" WIDTH="1"/>
+            <String ID="L0001_W03" CONTENT="aus" HPOS="347" VPOS="305" WIDTH="50" HEIGHT="19"/>
+            <SP HPOS="397" VPOS="305" WIDTH="1"/>
+            <String ID="L0001_W04" CONTENT="ihren" HPOS="396" VPOS="301" WIDTH="65" HEIGHT="28"/>
+            <SP HPOS="461" VPOS="301" WIDTH="13"/>
+            <String ID="L0001_W05" CONTENT="Verstecken" HPOS="474" VPOS="299" WIDTH="103" HEIGHT="29"/>
+            <SP HPOS="577" VPOS="299" WIDTH="17"/>
+            <String ID="L0001_W06" CONTENT="in" HPOS="594" VPOS="306" WIDTH="9" HEIGHT="15"/>
+            <SP HPOS="603" VPOS="306" WIDTH="22"/>
+            <String ID="L0001_W07" CONTENT="die" HPOS="625" VPOS="299" WIDTH="30" HEIGHT="21"/>
+            <SP HPOS="655" VPOS="299" WIDTH="15"/>
+            <String ID="L0001_W08" CONTENT="Oeffentlichkeit" HPOS="670" VPOS="297" WIDTH="83" HEIGHT="28"/>
+            <SP HPOS="753" VPOS="297" WIDTH="1"/>
+            <String ID="L0001_W09" CONTENT="treiben." HPOS="752" VPOS="296" WIDTH="830" HEIGHT="54"/>
+          </TextLine>
+          <TextLine ID="L0002" HPOS="1786" VPOS="295" WIDTH="297" HEIGHT="37">
+            <String ID="L0002_W01" CONTENT="«" HPOS="1786" VPOS="297" WIDTH="2" HEIGHT="21"/>
+            <SP HPOS="1788" VPOS="297" WIDTH="1"/>
+            <String ID="L0002_W02" CONTENT="Die" HPOS="1786" VPOS="297" WIDTH="4" HEIGHT="21"/>
+            <SP HPOS="1790" VPOS="297" WIDTH="2"/>
+            <String ID="L0002_W03" CONTENT="Wiener" HPOS="1792" VPOS="302" WIDTH="8" HEIGHT="14"/>
+            <SP HPOS="1800" VPOS="302" WIDTH="1"/>
+            <String ID="L0002_W04" CONTENT="Liberalen" HPOS="1801" VPOS="300" WIDTH="28" HEIGHT="16"/>
+            <SP HPOS="1829" VPOS="300" WIDTH="1"/>
+            <String ID="L0002_W05" CONTENT="haben" HPOS="1828" VPOS="312" WIDTH="2" HEIGHT="4"/>
+            <SP HPOS="1830" VPOS="312" WIDTH="1"/>
+            <String ID="L0002_W06" CONTENT="noch" HPOS="1828" VPOS="312" WIDTH="2" HEIGHT="4"/>
+            <SP HPOS="1830" VPOS="312" WIDTH="1"/>
+            <String ID="L0002_W07" CONTENT="immer" HPOS="1828" VPOS="312" WIDTH="2" HEIGHT="4"/>
+            <SP HPOS="1830" VPOS="312" WIDTH="1"/>
+            <String ID="L0002_W08" CONTENT="kein" HPOS="1828" VPOS="312" WIDTH="2" HEIGHT="4"/>
+            <SP HPOS="1830" VPOS="312" WIDTH="1"/>
+            <String ID="L0002_W09" CONTENT="Programm" HPOS="1828" VPOS="303" WIDTH="7" HEIGHT="13"/>
+            <SP HPOS="1835" VPOS="303" WIDTH="1"/>
+            <String ID="L0002_W10" CONTENT="für" HPOS="1834" VPOS="310" WIDTH="2" HEIGHT="1"/>
+            <SP HPOS="1836" VPOS="310" WIDTH="1"/>
+            <String ID="L0002_W11" CONTENT="die" HPOS="1834" VPOS="302" WIDTH="13" HEIGHT="14"/>
+            <SP HPOS="1847" VPOS="302" WIDTH="2"/>
+            <String ID="L0002_W12" CONTENT="Wahlen," HPOS="1849" VPOS="302" WIDTH="10" HEIGHT="14"/>
+            <SP HPOS="1859" VPOS="302" WIDTH="1"/>
+            <String ID="L0002_W13" CONTENT="und" HPOS="1858" VPOS="318" WIDTH="2" HEIGHT="2"/>
+            <SP HPOS="1860" VPOS="318" WIDTH="1"/>
+            <String ID="L0002_W14" CONTENT="ihr" HPOS="1858" VPOS="318" WIDTH="2" HEIGHT="2"/>
+            <SP HPOS="1860" VPOS="318" WIDTH="1"/>
+            <String ID="L0002_W15" CONTENT="Versuch," HPOS="1858" VPOS="313" WIDTH="5" HEIGHT="7"/>
+            <SP HPOS="1863" VPOS="313" WIDTH="1"/>
+            <String ID="L0002_W16" CONTENT="sich" HPOS="1862" VPOS="314" WIDTH="1" HEIGHT="3"/>
+            <SP HPOS="1863" VPOS="314" WIDTH="1"/>
+            <String ID="L0002_W17" CONTENT="eine" HPOS="1862" VPOS="314" WIDTH="1" HEIGHT="3"/>
+            <SP HPOS="1863" VPOS="314" WIDTH="1"/>
+            <String ID="L0002_W18" CONTENT="neue" HPOS="1862" VPOS="314" WIDTH="1" HEIGHT="3"/>
+            <SP HPOS="1863" VPOS="314" WIDTH="1"/>
+            <String ID="L0002_W19" CONTENT="Organisation" HPOS="1862" VPOS="314" WIDTH="1" HEIGHT="3"/>
+            <SP HPOS="1863" VPOS="314" WIDTH="1"/>
+            <String ID="L0002_W20" CONTENT="zu" HPOS="1862" VPOS="314" WIDTH="1" HEIGHT="3"/>
+            <SP HPOS="1863" VPOS="314" WIDTH="22"/>
+            <String ID="L0002_W21" CONTENT="geben," HPOS="1885" VPOS="296" WIDTH="5" HEIGHT="17"/>
+            <SP HPOS="1890" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W22" CONTENT="in" HPOS="1889" VPOS="296" WIDTH="2" HEIGHT="18"/>
+            <SP HPOS="1891" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W23" CONTENT="welcher" HPOS="1889" VPOS="296" WIDTH="2" HEIGHT="18"/>
+            <SP HPOS="1891" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W24" CONTENT="die" HPOS="1889" VPOS="296" WIDTH="2" HEIGHT="18"/>
+            <SP HPOS="1891" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W25" CONTENT="Drahtzieher" HPOS="1889" VPOS="296" WIDTH="9" HEIGHT="20"/>
+            <SP HPOS="1898" VPOS="296" WIDTH="3"/>
+            <String ID="L0002_W26" CONTENT="von" HPOS="1901" VPOS="303" WIDTH="1" HEIGHT="2"/>
+            <SP HPOS="1902" VPOS="303" WIDTH="1"/>
+            <String ID="L0002_W27" CONTENT="der" HPOS="1901" VPOS="296" WIDTH="5" HEIGHT="20"/>
+            <SP HPOS="1906" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W28" CONTENT="Sorte" HPOS="1905" VPOS="313" WIDTH="2" HEIGHT="2"/>
+            <SP HPOS="1907" VPOS="313" WIDTH="1"/>
+            <String ID="L0002_W29" CONTENT="Dr." HPOS="1906" VPOS="328" WIDTH="2" HEIGHT="2"/>
+            <SP HPOS="1908" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W30" CONTENT="Richter's" HPOS="1907" VPOS="302" WIDTH="10" HEIGHT="14"/>
+            <SP HPOS="1917" VPOS="302" WIDTH="1"/>
+            <String ID="L0002_W31" CONTENT="unumschränkte" HPOS="1916" VPOS="327" WIDTH="2" HEIGHT="4"/>
+            <SP HPOS="1918" VPOS="327" WIDTH="1"/>
+            <String ID="L0002_W32" CONTENT="Gewalt" HPOS="1917" VPOS="327" WIDTH="4" HEIGHT="5"/>
+            <SP HPOS="1921" VPOS="327" WIDTH="3"/>
+            <String ID="L0002_W33" CONTENT="ausüben," HPOS="1924" VPOS="328" WIDTH="5" HEIGHT="4"/>
+            <SP HPOS="1929" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W34" CONTENT="ist" HPOS="1928" VPOS="328" WIDTH="3" HEIGHT="3"/>
+            <SP HPOS="1931" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W35" CONTENT="gescheitert." HPOS="1930" VPOS="328" WIDTH="4" HEIGHT="4"/>
+            <SP HPOS="1934" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W36" CONTENT="Dr." HPOS="1933" VPOS="329" WIDTH="1" HEIGHT="2"/>
+            <SP HPOS="1934" VPOS="329" WIDTH="1"/>
+            <String ID="L0002_W37" CONTENT="Richter" HPOS="1935" VPOS="296" WIDTH="4" HEIGHT="6"/>
+            <SP HPOS="1939" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W38" CONTENT="wollte" HPOS="1938" VPOS="296" WIDTH="2" HEIGHT="18"/>
+            <SP HPOS="1940" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W39" CONTENT="eine" HPOS="1938" VPOS="296" WIDTH="2" HEIGHT="18"/>
+            <SP HPOS="1940" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W40" CONTENT="hochnothpeinliche" HPOS="1938" VPOS="296" WIDTH="2" HEIGHT="18"/>
+            <SP HPOS="1940" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W41" CONTENT="Halsgerichtsordnung" HPOS="1938" VPOS="296" WIDTH="20" HEIGHT="20"/>
+            <SP HPOS="1958" VPOS="296" WIDTH="2"/>
+            <String ID="L0002_W42" CONTENT="für" HPOS="1960" VPOS="302" WIDTH="4" HEIGHT="13"/>
+            <SP HPOS="1964" VPOS="302" WIDTH="1"/>
+            <String ID="L0002_W43" CONTENT="alle" HPOS="1963" VPOS="302" WIDTH="7" HEIGHT="23"/>
+            <SP HPOS="1970" VPOS="302" WIDTH="2"/>
+            <String ID="L0002_W44" CONTENT="Kandidaten" HPOS="1972" VPOS="328" WIDTH="1" HEIGHT="4"/>
+            <SP HPOS="1973" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W45" CONTENT="dekretiren" HPOS="1972" VPOS="328" WIDTH="2" HEIGHT="4"/>
+            <SP HPOS="1974" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W46" CONTENT="lassen," HPOS="1972" VPOS="328" WIDTH="2" HEIGHT="4"/>
+            <SP HPOS="1974" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W47" CONTENT="nach" HPOS="1972" VPOS="328" WIDTH="2" HEIGHT="4"/>
+            <SP HPOS="1974" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W48" CONTENT="welcher" HPOS="1972" VPOS="328" WIDTH="2" HEIGHT="4"/>
+            <SP HPOS="1974" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W49" CONTENT="jeder" HPOS="1972" VPOS="328" WIDTH="2" HEIGHT="4"/>
+            <SP HPOS="1974" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W50" CONTENT="von" HPOS="1973" VPOS="327" WIDTH="2" HEIGHT="4"/>
+            <SP HPOS="1975" VPOS="327" WIDTH="1"/>
+            <String ID="L0002_W51" CONTENT="den" HPOS="1974" VPOS="321" WIDTH="9" HEIGHT="11"/>
+            <SP HPOS="1983" VPOS="321" WIDTH="1"/>
+            <String ID="L0002_W52" CONTENT="Liberalen" HPOS="1982" VPOS="321" WIDTH="5" HEIGHT="11"/>
+            <SP HPOS="1987" VPOS="321" WIDTH="1"/>
+            <String ID="L0002_W53" CONTENT="Gewählte" HPOS="1986" VPOS="328" WIDTH="1" HEIGHT="4"/>
+            <SP HPOS="1987" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W54" CONTENT="verpflichtet" HPOS="1986" VPOS="328" WIDTH="1" HEIGHT="4"/>
+            <SP HPOS="1987" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W55" CONTENT="wäre," HPOS="1986" VPOS="328" WIDTH="1" HEIGHT="4"/>
+            <SP HPOS="1987" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W56" CONTENT="bei" HPOS="1986" VPOS="328" WIDTH="1" HEIGHT="4"/>
+            <SP HPOS="1987" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W57" CONTENT="einem" HPOS="1986" VPOS="328" WIDTH="1" HEIGHT="4"/>
+            <SP HPOS="1987" VPOS="328" WIDTH="6"/>
+            <String ID="L0002_W58" CONTENT="Meinungsunterschied" HPOS="1993" VPOS="301" WIDTH="8" HEIGHT="14"/>
+            <SP HPOS="2001" VPOS="301" WIDTH="1"/>
+            <String ID="L0002_W59" CONTENT="mit" HPOS="2000" VPOS="304" WIDTH="1" HEIGHT="2"/>
+            <SP HPOS="2001" VPOS="304" WIDTH="1"/>
+            <String ID="L0002_W60" CONTENT="dem" HPOS="2002" VPOS="295" WIDTH="11" HEIGHT="20"/>
+            <SP HPOS="2013" VPOS="295" WIDTH="2"/>
+            <String ID="L0002_W61" CONTENT="Fortschrittsklub" HPOS="2015" VPOS="296" WIDTH="12" HEIGHT="19"/>
+            <SP HPOS="2027" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W62" CONTENT="sein" HPOS="2026" VPOS="302" WIDTH="3" HEIGHT="13"/>
+            <SP HPOS="2029" VPOS="302" WIDTH="1"/>
+            <String ID="L0002_W63" CONTENT="Mandat" HPOS="2028" VPOS="302" WIDTH="3" HEIGHT="5"/>
+            <SP HPOS="2031" VPOS="302" WIDTH="1"/>
+            <String ID="L0002_W64" CONTENT="niederzulegen." HPOS="2032" VPOS="301" WIDTH="6" HEIGHT="13"/>
+            <SP HPOS="2038" VPOS="301" WIDTH="1"/>
+            <String ID="L0002_W65" CONTENT="Dagegen" HPOS="2037" VPOS="301" WIDTH="10" HEIGHT="13"/>
+            <SP HPOS="2047" VPOS="301" WIDTH="1"/>
+            <String ID="L0002_W66" CONTENT="lehnte" HPOS="2046" VPOS="323" WIDTH="2" HEIGHT="5"/>
+            <SP HPOS="2048" VPOS="323" WIDTH="1"/>
+            <String ID="L0002_W67" CONTENT="sich" HPOS="2047" VPOS="320" WIDTH="5" HEIGHT="12"/>
+            <SP HPOS="2052" VPOS="320" WIDTH="1"/>
+            <String ID="L0002_W68" CONTENT="der" HPOS="2051" VPOS="320" WIDTH="3" HEIGHT="10"/>
+            <SP HPOS="2054" VPOS="320" WIDTH="1"/>
+            <String ID="L0002_W69" CONTENT="gewesene" HPOS="2053" VPOS="326" WIDTH="2" HEIGHT="6"/>
+            <SP HPOS="2055" VPOS="326" WIDTH="1"/>
+            <String ID="L0002_W70" CONTENT="Gemeinderath" HPOS="2054" VPOS="327" WIDTH="2" HEIGHT="5"/>
+            <SP HPOS="2056" VPOS="327" WIDTH="1"/>
+            <String ID="L0002_W71" CONTENT="Dr." HPOS="2055" VPOS="328" WIDTH="1" HEIGHT="3"/>
+            <SP HPOS="2056" VPOS="328" WIDTH="1"/>
+            <String ID="L0002_W72" CONTENT="Kielmansegg" HPOS="2057" VPOS="296" WIDTH="6" HEIGHT="16"/>
+            <SP HPOS="2063" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W73" CONTENT="aus" HPOS="2062" VPOS="296" WIDTH="2" HEIGHT="1"/>
+            <SP HPOS="2064" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W74" CONTENT="einer" HPOS="2062" VPOS="296" WIDTH="2" HEIGHT="1"/>
+            <SP HPOS="2064" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W75" CONTENT="Versammlung" HPOS="2062" VPOS="296" WIDTH="9" HEIGHT="14"/>
+            <SP HPOS="2071" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W76" CONTENT="der" HPOS="2070" VPOS="296" WIDTH="2" HEIGHT="7"/>
+            <SP HPOS="2072" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W77" CONTENT="und" HPOS="2070" VPOS="296" WIDTH="2" HEIGHT="7"/>
+            <SP HPOS="2072" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W78" CONTENT="Antiliberalen" HPOS="2070" VPOS="296" WIDTH="5" HEIGHT="15"/>
+            <SP HPOS="2075" VPOS="296" WIDTH="1"/>
+            <String ID="L0002_W79" CONTENT="aus" HPOS="2074" VPOS="304" WIDTH="1" HEIGHT="4"/>
+            <SP HPOS="2075" VPOS="304" WIDTH="1"/>
+            <String ID="L0002_W80" CONTENT="ihren" HPOS="2074" VPOS="304" WIDTH="1" HEIGHT="4"/>
+            <SP HPOS="2075" VPOS="304" WIDTH="1"/>
+            <String ID="L0002_W81" CONTENT="Verstecken" HPOS="2074" VPOS="304" WIDTH="1" HEIGHT="4"/>
+            <SP HPOS="2075" VPOS="304" WIDTH="3"/>
+            <String ID="L0002_W82" CONTENT="in" HPOS="2078" VPOS="301" WIDTH="4" HEIGHT="13"/>
+            <SP HPOS="2082" VPOS="301" WIDTH="1"/>
+            <String ID="L0002_W83" CONTENT="die" HPOS="2081" VPOS="311" WIDTH="2" HEIGHT="3"/>
+            <SP HPOS="2083" VPOS="311" WIDTH="1"/>
+            <String ID="L0002_W84" CONTENT="Oeffentlichkeit" HPOS="2081" VPOS="311" WIDTH="2" HEIGHT="3"/>
+            <SP HPOS="2083" VPOS="311" WIDTH="1"/>
+            <String ID="L0002_W85" CONTENT="treiben." HPOS="2081" VPOS="311" WIDTH="2" HEIGHT="3"/>
+          </TextLine>
+          <TextLine ID="L0003" HPOS="819" VPOS="309" WIDTH="641" HEIGHT="46">
+            <String ID="L0003_W01" CONTENT="«" HPOS="819" VPOS="332" WIDTH="2" HEIGHT="13"/>
+            <SP HPOS="821" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W02" CONTENT="Die" HPOS="819" VPOS="332" WIDTH="7" HEIGHT="14"/>
+            <SP HPOS="826" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W03" CONTENT="Wiener" HPOS="825" VPOS="331" WIDTH="7" HEIGHT="15"/>
+            <SP HPOS="832" VPOS="331" WIDTH="1"/>
+            <String ID="L0003_W04" CONTENT="Liberalen" HPOS="833" VPOS="332" WIDTH="22" HEIGHT="14"/>
+            <SP HPOS="855" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W05" CONTENT="haben" HPOS="854" VPOS="309" WIDTH="3" HEIGHT="8"/>
+            <SP HPOS="857" VPOS="309" WIDTH="1"/>
+            <String ID="L0003_W06" CONTENT="noch" HPOS="856" VPOS="309" WIDTH="1" HEIGHT="5"/>
+            <SP HPOS="857" VPOS="309" WIDTH="1"/>
+            <String ID="L0003_W07" CONTENT="immer" HPOS="856" VPOS="309" WIDTH="1" HEIGHT="5"/>
+            <SP HPOS="857" VPOS="309" WIDTH="8"/>
+            <String ID="L0003_W08" CONTENT="kein" HPOS="865" VPOS="325" WIDTH="7" HEIGHT="21"/>
+            <SP HPOS="872" VPOS="325" WIDTH="1"/>
+            <String ID="L0003_W09" CONTENT="Programm" HPOS="871" VPOS="331" WIDTH="6" HEIGHT="15"/>
+            <SP HPOS="877" VPOS="331" WIDTH="1"/>
+            <String ID="L0003_W10" CONTENT="für" HPOS="876" VPOS="314" WIDTH="1" HEIGHT="4"/>
+            <SP HPOS="877" VPOS="314" WIDTH="1"/>
+            <String ID="L0003_W11" CONTENT="die" HPOS="876" VPOS="314" WIDTH="1" HEIGHT="4"/>
+            <SP HPOS="877" VPOS="314" WIDTH="2"/>
+            <String ID="L0003_W12" CONTENT="Wahlen," HPOS="879" VPOS="313" WIDTH="7" HEIGHT="32"/>
+            <SP HPOS="886" VPOS="313" WIDTH="1"/>
+            <String ID="L0003_W13" CONTENT="und" HPOS="885" VPOS="332" WIDTH="8" HEIGHT="14"/>
+            <SP HPOS="893" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W14" CONTENT="ihr" HPOS="892" VPOS="342" WIDTH="1" HEIGHT="3"/>
+            <SP HPOS="893" VPOS="342" WIDTH="2"/>
+            <String ID="L0003_W15" CONTENT="Versuch," HPOS="895" VPOS="332" WIDTH="5" HEIGHT="13"/>
+            <SP HPOS="900" VPOS="332" WIDTH="13"/>
+            <String ID="L0003_W16" CONTENT="sich" HPOS="913" VPOS="325" WIDTH="19" HEIGHT="22"/>
+            <SP HPOS="932" VPOS="325" WIDTH="3"/>
+            <String ID="L0003_W17" CONTENT="eine" HPOS="935" VPOS="331" WIDTH="8" HEIGHT="15"/>
+            <SP HPOS="943" VPOS="331" WIDTH="1"/>
+            <String ID="L0003_W18" CONTENT="neue" HPOS="942" VPOS="331" WIDTH="9" HEIGHT="15"/>
+            <SP HPOS="951" VPOS="331" WIDTH="1"/>
+            <String ID="L0003_W19" CONTENT="Organisation" HPOS="950" VPOS="331" WIDTH="18" HEIGHT="15"/>
+            <SP HPOS="968" VPOS="331" WIDTH="1"/>
+            <String ID="L0003_W20" CONTENT="zu" HPOS="967" VPOS="332" WIDTH="7" HEIGHT="13"/>
+            <SP HPOS="974" VPOS="332" WIDTH="2"/>
+            <String ID="L0003_W21" CONTENT="geben," HPOS="976" VPOS="328" WIDTH="8" HEIGHT="18"/>
+            <SP HPOS="984" VPOS="328" WIDTH="1"/>
+            <String ID="L0003_W22" CONTENT="in" HPOS="983" VPOS="316" WIDTH="2" HEIGHT="2"/>
+            <SP HPOS="985" VPOS="316" WIDTH="1"/>
+            <String ID="L0003_W23" CONTENT="welcher" HPOS="983" VPOS="332" WIDTH="8" HEIGHT="14"/>
+            <SP HPOS="991" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W24" CONTENT="die" HPOS="990" VPOS="332" WIDTH="2" HEIGHT="12"/>
+            <SP HPOS="992" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W25" CONTENT="Drahtzieher" HPOS="990" VPOS="332" WIDTH="2" HEIGHT="12"/>
+            <SP HPOS="992" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W26" CONTENT="von" HPOS="991" VPOS="333" WIDTH="2" HEIGHT="4"/>
+            <SP HPOS="993" VPOS="333" WIDTH="1"/>
+            <String ID="L0003_W27" CONTENT="der" HPOS="992" VPOS="315" WIDTH="7" HEIGHT="30"/>
+            <SP HPOS="999" VPOS="315" WIDTH="1"/>
+            <String ID="L0003_W28" CONTENT="Sorte" HPOS="998" VPOS="332" WIDTH="9" HEIGHT="14"/>
+            <SP HPOS="1007" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W29" CONTENT="Dr." HPOS="1006" VPOS="309" WIDTH="2" HEIGHT="46"/>
+            <SP HPOS="1008" VPOS="309" WIDTH="1"/>
+            <String ID="L0003_W30" CONTENT="Richter's" HPOS="1006" VPOS="315" WIDTH="4" HEIGHT="3"/>
+            <SP HPOS="1010" VPOS="315" WIDTH="1"/>
+            <String ID="L0003_W31" CONTENT="unumschränkte" HPOS="1009" VPOS="315" WIDTH="17" HEIGHT="30"/>
+            <SP HPOS="1026" VPOS="315" WIDTH="1"/>
+            <String ID="L0003_W32" CONTENT="Gewalt" HPOS="1025" VPOS="332" WIDTH="4" HEIGHT="13"/>
+            <SP HPOS="1029" VPOS="332" WIDTH="3"/>
+            <String ID="L0003_W33" CONTENT="ausüben," HPOS="1032" VPOS="309" WIDTH="9" HEIGHT="37"/>
+            <SP HPOS="1041" VPOS="309" WIDTH="1"/>
+            <String ID="L0003_W34" CONTENT="ist" HPOS="1040" VPOS="316" WIDTH="2" HEIGHT="3"/>
+            <SP HPOS="1042" VPOS="316" WIDTH="1"/>
+            <String ID="L0003_W35" CONTENT="gescheitert." HPOS="1040" VPOS="316" WIDTH="9" HEIGHT="30"/>
+            <SP HPOS="1049" VPOS="316" WIDTH="1"/>
+            <String ID="L0003_W36" CONTENT="Dr." HPOS="1048" VPOS="332" WIDTH="8" HEIGHT="18"/>
+            <SP HPOS="1056" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W37" CONTENT="Richter" HPOS="1055" VPOS="326" WIDTH="5" HEIGHT="25"/>
+            <SP HPOS="1060" VPOS="326" WIDTH="1"/>
+            <String ID="L0003_W38" CONTENT="wollte" HPOS="1059" VPOS="326" WIDTH="2" HEIGHT="3"/>
+            <SP HPOS="1061" VPOS="326" WIDTH="1"/>
+            <String ID="L0003_W39" CONTENT="eine" HPOS="1059" VPOS="326" WIDTH="4" HEIGHT="8"/>
+            <SP HPOS="1063" VPOS="326" WIDTH="1"/>
+            <String ID="L0003_W40" CONTENT="hochnothpeinliche" HPOS="1062" VPOS="330" WIDTH="7" HEIGHT="16"/>
+            <SP HPOS="1069" VPOS="330" WIDTH="1"/>
+            <String ID="L0003_W41" CONTENT="Halsgerichtsordnung" HPOS="1068" VPOS="326" WIDTH="24" HEIGHT="20"/>
+            <SP HPOS="1092" VPOS="326" WIDTH="1"/>
+            <String ID="L0003_W42" CONTENT="für" HPOS="1091" VPOS="328" WIDTH="2" HEIGHT="17"/>
+            <SP HPOS="1093" VPOS="328" WIDTH="1"/>
+            <String ID="L0003_W43" CONTENT="alle" HPOS="1091" VPOS="326" WIDTH="8" HEIGHT="20"/>
+            <SP HPOS="1099" VPOS="326" WIDTH="1"/>
+            <String ID="L0003_W44" CONTENT="Kandidaten" HPOS="1098" VPOS="333" WIDTH="10" HEIGHT="15"/>
+            <SP HPOS="1108" VPOS="333" WIDTH="1"/>
+            <String ID="L0003_W45" CONTENT="dekretiren" HPOS="1107" VPOS="309" WIDTH="3" HEIGHT="10"/>
+            <SP HPOS="1110" VPOS="309" WIDTH="4"/>
+            <String ID="L0003_W46" CONTENT="lassen," HPOS="1114" VPOS="309" WIDTH="4" HEIGHT="10"/>
+            <SP HPOS="1118" VPOS="309" WIDTH="1"/>
+            <String ID="L0003_W47" CONTENT="nach" HPOS="1117" VPOS="333" WIDTH="3" HEIGHT="19"/>
+            <SP HPOS="1120" VPOS="333" WIDTH="1"/>
+            <String ID="L0003_W48" CONTENT="welcher" HPOS="1119" VPOS="332" WIDTH="5" HEIGHT="20"/>
+            <SP HPOS="1124" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W49" CONTENT="jeder" HPOS="1123" VPOS="333" WIDTH="8" HEIGHT="17"/>
+            <SP HPOS="1131" VPOS="333" WIDTH="1"/>
+            <String ID="L0003_W50" CONTENT="von" HPOS="1130" VPOS="332" WIDTH="8" HEIGHT="14"/>
+            <SP HPOS="1138" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W51" CONTENT="den" HPOS="1137" VPOS="343" WIDTH="5" HEIGHT="2"/>
+            <SP HPOS="1142" VPOS="343" WIDTH="16"/>
+            <String ID="L0003_W52" CONTENT="Liberalen" HPOS="1158" VPOS="326" WIDTH="12" HEIGHT="25"/>
+            <SP HPOS="1170" VPOS="326" WIDTH="4"/>
+            <String ID="L0003_W53" CONTENT="Gewählte" HPOS="1174" VPOS="328" WIDTH="14" HEIGHT="18"/>
+            <SP HPOS="1188" VPOS="328" WIDTH="1"/>
+            <String ID="L0003_W54" CONTENT="verpflichtet" HPOS="1187" VPOS="326" WIDTH="12" HEIGHT="25"/>
+            <SP HPOS="1199" VPOS="326" WIDTH="1"/>
+            <String ID="L0003_W55" CONTENT="wäre," HPOS="1198" VPOS="332" WIDTH="11" HEIGHT="14"/>
+            <SP HPOS="1209" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W56" CONTENT="bei" HPOS="1209" VPOS="332" WIDTH="13" HEIGHT="14"/>
+            <SP HPOS="1222" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W57" CONTENT="einem" HPOS="1221" VPOS="342" WIDTH="6" HEIGHT="7"/>
+            <SP HPOS="1227" VPOS="342" WIDTH="1"/>
+            <String ID="L0003_W58" CONTENT="Meinungsunterschied" HPOS="1226" VPOS="312" WIDTH="15" HEIGHT="13"/>
+            <SP HPOS="1241" VPOS="312" WIDTH="1"/>
+            <String ID="L0003_W59" CONTENT="mit" HPOS="1240" VPOS="316" WIDTH="2" HEIGHT="3"/>
+            <SP HPOS="1242" VPOS="316" WIDTH="9"/>
+            <String ID="L0003_W60" CONTENT="dem" HPOS="1251" VPOS="326" WIDTH="12" HEIGHT="20"/>
+            <SP HPOS="1263" VPOS="326" WIDTH="1"/>
+            <String ID="L0003_W61" CONTENT="Fortschrittsklub" HPOS="1262" VPOS="332" WIDTH="11" HEIGHT="14"/>
+            <SP HPOS="1273" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W62" CONTENT="sein" HPOS="1272" VPOS="333" WIDTH="7" HEIGHT="13"/>
+            <SP HPOS="1279" VPOS="333" WIDTH="1"/>
+            <String ID="L0003_W63" CONTENT="Mandat" HPOS="1278" VPOS="333" WIDTH="7" HEIGHT="13"/>
+            <SP HPOS="1285" VPOS="333" WIDTH="1"/>
+            <String ID="L0003_W64" CONTENT="niederzulegen." HPOS="1284" VPOS="333" WIDTH="11" HEIGHT="13"/>
+            <SP HPOS="1295" VPOS="333" WIDTH="1"/>
+            <String ID="L0003_W65" CONTENT="Dagegen" HPOS="1294" VPOS="309" WIDTH="17" HEIGHT="37"/>
+            <SP HPOS="1311" VPOS="309" WIDTH="1"/>
+            <String ID="L0003_W66" CONTENT="lehnte" HPOS="1310" VPOS="309" WIDTH="6" HEIGHT="16"/>
+            <SP HPOS="1316" VPOS="309" WIDTH="4"/>
+            <String ID="L0003_W67" CONTENT="sich" HPOS="1320" VPOS="309" WIDTH="3" HEIGHT="10"/>
+            <SP HPOS="1323" VPOS="309" WIDTH="1"/>
+            <String ID="L0003_W68" CONTENT="der" HPOS="1322" VPOS="327" WIDTH="2" HEIGHT="3"/>
+            <SP HPOS="1324" VPOS="327" WIDTH="1"/>
+            <String ID="L0003_W69" CONTENT="gewesene" HPOS="1323" VPOS="327" WIDTH="9" HEIGHT="19"/>
+            <SP HPOS="1332" VPOS="327" WIDTH="1"/>
+            <String ID="L0003_W70" CONTENT="Gemeinderath" HPOS="1331" VPOS="333" WIDTH="6" HEIGHT="10"/>
+            <SP HPOS="1337" VPOS="333" WIDTH="1"/>
+            <String ID="L0003_W71" CONTENT="Dr." HPOS="1336" VPOS="326" WIDTH="6" HEIGHT="20"/>
+            <SP HPOS="1342" VPOS="326" WIDTH="1"/>
+            <String ID="L0003_W72" CONTENT="Kielmansegg" HPOS="1341" VPOS="332" WIDTH="14" HEIGHT="14"/>
+            <SP HPOS="1355" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W73" CONTENT="aus" HPOS="1354" VPOS="309" WIDTH="6" HEIGHT="11"/>
+            <SP HPOS="1360" VPOS="309" WIDTH="3"/>
+            <String ID="L0003_W74" CONTENT="einer" HPOS="1363" VPOS="309" WIDTH="4" HEIGHT="11"/>
+            <SP HPOS="1367" VPOS="309" WIDTH="1"/>
+            <String ID="L0003_W75" CONTENT="Versammlung" HPOS="1366" VPOS="326" WIDTH="13" HEIGHT="24"/>
+            <SP HPOS="1379" VPOS="326" WIDTH="1"/>
+            <String ID="L0003_W76" CONTENT="der" HPOS="1378" VPOS="326" WIDTH="2" HEIGHT="20"/>
+            <SP HPOS="1380" VPOS="326" WIDTH="1"/>
+            <String ID="L0003_W77" CONTENT="und" HPOS="1379" VPOS="326" WIDTH="9" HEIGHT="20"/>
+            <SP HPOS="1388" VPOS="326" WIDTH="1"/>
+            <String ID="L0003_W78" CONTENT="Antiliberalen" HPOS="1387" VPOS="332" WIDTH="15" HEIGHT="15"/>
+            <SP HPOS="1402" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W79" CONTENT="aus" HPOS="1401" VPOS="333" WIDTH="8" HEIGHT="14"/>
+            <SP HPOS="1409" VPOS="333" WIDTH="2"/>
+            <String ID="L0003_W80" CONTENT="ihren" HPOS="1411" VPOS="328" WIDTH="7" HEIGHT="18"/>
+            <SP HPOS="1418" VPOS="328" WIDTH="1"/>
+            <String ID="L0003_W81" CONTENT="Verstecken" HPOS="1417" VPOS="332" WIDTH="14" HEIGHT="14"/>
+            <SP HPOS="1431" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W82" CONTENT="in" HPOS="1430" VPOS="325" WIDTH="5" HEIGHT="21"/>
+            <SP HPOS="1435" VPOS="325" WIDTH="1"/>
+            <String ID="L0003_W83" CONTENT="die" HPOS="1434" VPOS="343" WIDTH="2" HEIGHT="2"/>
+            <SP HPOS="1436" VPOS="343" WIDTH="1"/>
+            <String ID="L0003_W84" CONTENT="Oeffentlichkeit" HPOS="1435" VPOS="332" WIDTH="13" HEIGHT="14"/>
+            <SP HPOS="1448" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W85" CONTENT="treiben." HPOS="1447" VPOS="315" WIDTH="13" HEIGHT="30"/>
+          </TextLine>
+          <TextLine ID="L0004" HPOS="174" VPOS="337" WIDTH="573" HEIGHT="97">
+            <String ID="L0004_W01" CONTENT="«" HPOS="174" VPOS="398" WIDTH="2" HEIGHT="13"/>
+            <SP HPOS="176" VPOS="398" WIDTH="1"/>
+            <String ID="L0004_W02" CONTENT="Die" HPOS="175" VPOS="398" WIDTH="7" HEIGHT="13"/>
+            <SP HPOS="182" VPOS="398" WIDTH="1"/>
+            <String ID="L0004_W03" CONTENT="Wiener" HPOS="181" VPOS="398" WIDTH="8" HEIGHT="13"/>
+            <SP HPOS="189" VPOS="398" WIDTH="1"/>
+            <String ID="L0004_W04" CONTENT="Liberalen" HPOS="188" VPOS="397" WIDTH="8" HEIGHT="15"/>
+            <SP HPOS="196" VPOS="397" WIDTH="1"/>
+            <String ID="L0004_W05" CONTENT="haben" HPOS="195" VPOS="401" WIDTH="6" HEIGHT="17"/>
+            <SP HPOS="201" VPOS="401" WIDTH="1"/>
+            <String ID="L0004_W06" CONTENT="noch" HPOS="200" VPOS="397" WIDTH="4" HEIGHT="21"/>
+            <SP HPOS="204" VPOS="397" WIDTH="1"/>
+            <String ID="L0004_W07" CONTENT="immer" HPOS="203" VPOS="398" WIDTH="2" HEIGHT="20"/>
+            <SP HPOS="205" VPOS="398" WIDTH="1"/>
+            <String ID="L0004_W08" CONTENT="kein" HPOS="203" VPOS="398" WIDTH="2" HEIGHT="20"/>
+            <SP HPOS="205" VPOS="398" WIDTH="1"/>
+            <String ID="L0004_W09" CONTENT="Programm" HPOS="203" VPOS="398" WIDTH="4" HEIGHT="20"/>
+            <SP HPOS="207" VPOS="398" WIDTH="1"/>
+            <String ID="L0004_W10" CONTENT="für" HPOS="206" VPOS="409" WIDTH="2" HEIGHT="6"/>
+            <SP HPOS="208" VPOS="409" WIDTH="1"/>
+            <String ID="L0004_W11" CONTENT="die" HPOS="206" VPOS="399" WIDTH="4" HEIGHT="16"/>
+            <SP HPOS="210" VPOS="399" WIDTH="1"/>
+            <String ID="L0004_W12" CONTENT="Wahlen," HPOS="209" VPOS="340" WIDTH="9" HEIGHT="73"/>
+            <SP HPOS="218" VPOS="340" WIDTH="1"/>
+            <String ID="L0004_W13" CONTENT="und" HPOS="217" VPOS="340" WIDTH="2" HEIGHT="12"/>
+            <SP HPOS="219" VPOS="340" WIDTH="1"/>
+            <String ID="L0004_W14" CONTENT="ihr" HPOS="217" VPOS="340" WIDTH="2" HEIGHT="12"/>
+            <SP HPOS="219" VPOS="340" WIDTH="1"/>
+            <String ID="L0004_W15" CONTENT="Versuch," HPOS="217" VPOS="340" WIDTH="3" HEIGHT="31"/>
+            <SP HPOS="220" VPOS="340" WIDTH="1"/>
+            <String ID="L0004_W16" CONTENT="sich" HPOS="219" VPOS="342" WIDTH="2" HEIGHT="63"/>
+            <SP HPOS="221" VPOS="342" WIDTH="1"/>
+            <String ID="L0004_W17" CONTENT="eine" HPOS="219" VPOS="342" WIDTH="2" HEIGHT="63"/>
+            <SP HPOS="221" VPOS="342" WIDTH="1"/>
+            <String ID="L0004_W18" CONTENT="neue" HPOS="219" VPOS="342" WIDTH="2" HEIGHT="63"/>
+            <SP HPOS="221" VPOS="342" WIDTH="1"/>
+            <String ID="L0004_W19" CONTENT="Organisation" HPOS="219" VPOS="342" WIDTH="2" HEIGHT="63"/>
+            <SP HPOS="221" VPOS="342" WIDTH="1"/>
+            <String ID="L0004_W20" CONTENT="zu" HPOS="220" VPOS="348" WIDTH="2" HEIGHT="62"/>
+            <SP HPOS="222" VPOS="348" WIDTH="1"/>
+            <String ID="L0004_W21" CONTENT="geben," HPOS="220" VPOS="337" WIDTH="13" HEIGHT="74"/>
+            <SP HPOS="233" VPOS="337" WIDTH="1"/>
+            <String ID="L0004_W22" CONTENT="in" HPOS="232" VPOS="364" WIDTH="2" HEIGHT="46"/>
+            <SP HPOS="234" VPOS="364" WIDTH="1"/>
+            <String ID="L0004_W23" CONTENT="welcher" HPOS="232" VPOS="364" WIDTH="5" HEIGHT="47"/>
+            <SP HPOS="237" VPOS="364" WIDTH="1"/>
+            <String ID="L0004_W24" CONTENT="die" HPOS="236" VPOS="369" WIDTH="3" HEIGHT="41"/>
+            <SP HPOS="239" VPOS="369" WIDTH="1"/>
+            <String ID="L0004_W25" CONTENT="Drahtzieher" HPOS="238" VPOS="338" WIDTH="11" HEIGHT="74"/>
+            <SP HPOS="249" VPOS="338" WIDTH="1"/>
+            <String ID="L0004_W26" CONTENT="von" HPOS="248" VPOS="338" WIDTH="2" HEIGHT="73"/>
+            <SP HPOS="250" VPOS="338" WIDTH="1"/>
+            <String ID="L0004_W27" CONTENT="der" HPOS="248" VPOS="337" WIDTH="10" HEIGHT="74"/>
+            <SP HPOS="258" VPOS="337" WIDTH="1"/>
+            <String ID="L0004_W28" CONTENT="Sorte" HPOS="257" VPOS="338" WIDTH="6" HEIGHT="73"/>
+            <SP HPOS="263" VPOS="338" WIDTH="1"/>
+            <String ID="L0004_W29" CONTENT="Dr." HPOS="262" VPOS="338" WIDTH="3" HEIGHT="63"/>
+            <SP HPOS="265" VPOS="338" WIDTH="1"/>
+            <String ID="L0004_W30" CONTENT="Richter's" HPOS="264" VPOS="338" WIDTH="10" HEIGHT="73"/>
+            <SP HPOS="274" VPOS="338" WIDTH="1"/>
+            <String ID="L0004_W31" CONTENT="unumschränkte" HPOS="273" VPOS="365" WIDTH="2" HEIGHT="18"/>
+            <SP HPOS="275" VPOS="365" WIDTH="1"/>
+            <String ID="L0004_W32" CONTENT="Gewalt" HPOS="274" VPOS="363" WIDTH="11" HEIGHT="38"/>
+            <SP HPOS="285" VPOS="363" WIDTH="1"/>
+            <String ID="L0004_W33" CONTENT="ausüben," HPOS="284" VPOS="362" WIDTH="19" HEIGHT="52"/>
+            <SP HPOS="303" VPOS="362" WIDTH="1"/>
+            <String ID="L0004_W34" CONTENT="ist" HPOS="302" VPOS="369" WIDTH="8" HEIGHT="43"/>
+            <SP HPOS="310" VPOS="369" WIDTH="1"/>
+            <String ID="L0004_W35" CONTENT="gescheitert." HPOS="309" VPOS="368" WIDTH="11" HEIGHT="44"/>
+            <SP HPOS="320" VPOS="368" WIDTH="2"/>
+            <String ID="L0004_W36" CONTENT="Dr." HPOS="322" VPOS="368" WIDTH="6" HEIGHT="16"/>
+            <SP HPOS="328" VPOS="368" WIDTH="1"/>
+            <String ID="L0004_W37" CONTENT="Richter" HPOS="327" VPOS="372" WIDTH="2" HEIGHT="24"/>
+            <SP HPOS="329" VPOS="372" WIDTH="1"/>
+            <String ID="L0004_W38" CONTENT="wollte" HPOS="328" VPOS="371" WIDTH="2" HEIGHT="38"/>
+            <SP HPOS="330" VPOS="371" WIDTH="1"/>
+            <String ID="L0004_W39" CONTENT="eine" HPOS="328" VPOS="371" WIDTH="2" HEIGHT="38"/>
+            <SP HPOS="330" VPOS="371" WIDTH="1"/>
+            <String ID="L0004_W40" CONTENT="hochnothpeinliche" HPOS="328" VPOS="371" WIDTH="2" HEIGHT="38"/>
+            <SP HPOS="330" VPOS="371" WIDTH="1"/>
+            <String ID="L0004_W41" CONTENT="Halsgerichtsordnung" HPOS="328" VPOS="369" WIDTH="19" HEIGHT="43"/>
+            <SP HPOS="347" VPOS="369" WIDTH="1"/>
+            <String ID="L0004_W42" CONTENT="für" HPOS="346" VPOS="372" WIDTH="2" HEIGHT="38"/>
+            <SP HPOS="348" VPOS="372" WIDTH="1"/>
+            <String ID="L0004_W43" CONTENT="alle" HPOS="347" VPOS="370" WIDTH="2" HEIGHT="4"/>
+            <SP HPOS="349" VPOS="370" WIDTH="1"/>
+            <String ID="L0004_W44" CONTENT="Kandidaten" HPOS="347" VPOS="368" WIDTH="10" HEIGHT="43"/>
+            <SP HPOS="357" VPOS="368" WIDTH="1"/>
+            <String ID="L0004_W45" CONTENT="dekretiren" HPOS="356" VPOS="368" WIDTH="2" HEIGHT="34"/>
+            <SP HPOS="358" VPOS="368" WIDTH="1"/>
+            <String ID="L0004_W46" CONTENT="lassen," HPOS="356" VPOS="368" WIDTH="3" HEIGHT="34"/>
+            <SP HPOS="359" VPOS="368" WIDTH="10"/>
+            <String ID="L0004_W47" CONTENT="nach" HPOS="369" VPOS="424" WIDTH="3" HEIGHT="10"/>
+            <SP HPOS="372" VPOS="424" WIDTH="1"/>
+            <String ID="L0004_W48" CONTENT="welcher" HPOS="371" VPOS="392" WIDTH="4" HEIGHT="18"/>
+            <SP HPOS="375" VPOS="392" WIDTH="1"/>
+            <String ID="L0004_W49" CONTENT="jeder" HPOS="374" VPOS="363" WIDTH="18" HEIGHT="50"/>
+            <SP HPOS="392" VPOS="363" WIDTH="1"/>
+            <String ID="L0004_W50" CONTENT="von" HPOS="391" VPOS="367" WIDTH="2" HEIGHT="45"/>
+            <SP HPOS="393" VPOS="367" WIDTH="1"/>
+            <String ID="L0004_W51" CONTENT="den" HPOS="391" VPOS="367" WIDTH="12" HEIGHT="45"/>
+            <SP HPOS="403" VPOS="367" WIDTH="1"/>
+            <String ID="L0004_W52" CONTENT="Liberalen" HPOS="402" VPOS="362" WIDTH="8" HEIGHT="49"/>
+            <SP HPOS="410" VPOS="362" WIDTH="1"/>
+            <String ID="L0004_W53" CONTENT="Gewählte" HPOS="409" VPOS="362" WIDTH="16" HEIGHT="55"/>
+            <SP HPOS="425" VPOS="362" WIDTH="1"/>
+            <String ID="L0004_W54" CONTENT="verpflichtet" HPOS="424" VPOS="368" WIDTH="12" HEIGHT="43"/>
+            <SP HPOS="436" VPOS="368" WIDTH="5"/>
+            <String ID="L0004_W55" CONTENT="wäre," HPOS="441" VPOS="368" WIDTH="15" HEIGHT="43"/>
+            <SP HPOS="456" VPOS="368" WIDTH="1"/>
+            <String ID="L0004_W56" CONTENT="bei" HPOS="455" VPOS="362" WIDTH="7" HEIGHT="22"/>
+            <SP HPOS="462" VPOS="362" WIDTH="1"/>
+            <String ID="L0004_W57" CONTENT="einem" HPOS="461" VPOS="367" WIDTH="13" HEIGHT="17"/>
+            <SP HPOS="474" VPOS="367" WIDTH="1"/>
+            <String ID="L0004_W58" CONTENT="Meinungsunterschied" HPOS="473" VPOS="367" WIDTH="24" HEIGHT="43"/>
+            <SP HPOS="497" VPOS="367" WIDTH="1"/>
+            <String ID="L0004_W59" CONTENT="mit" HPOS="496" VPOS="395" WIDTH="16" HEIGHT="15"/>
+            <SP HPOS="512" VPOS="395" WIDTH="1"/>
+            <String ID="L0004_W60" CONTENT="dem" HPOS="511" VPOS="362" WIDTH="7" HEIGHT="47"/>
+            <SP HPOS="518" VPOS="362" WIDTH="1"/>
+            <String ID="L0004_W61" CONTENT="Fortschrittsklub" HPOS="517" VPOS="361" WIDTH="13" HEIGHT="49"/>
+            <SP HPOS="530" VPOS="361" WIDTH="1"/>
+            <String ID="L0004_W62" CONTENT="sein" HPOS="529" VPOS="368" WIDTH="9" HEIGHT="14"/>
+            <SP HPOS="538" VPOS="368" WIDTH="1"/>
+            <String ID="L0004_W63" CONTENT="Mandat" HPOS="537" VPOS="361" WIDTH="15" HEIGHT="48"/>
+            <SP HPOS="552" VPOS="361" WIDTH="1"/>
+            <String ID="L0004_W64" CONTENT="niederzulegen." HPOS="551" VPOS="367" WIDTH="50" HEIGHT="45"/>
+            <SP HPOS="601" VPOS="367" WIDTH="1"/>
+            <String ID="L0004_W65" CONTENT="Dagegen" HPOS="600" VPOS="367" WIDTH="8" HEIGHT="38"/>
+            <SP HPOS="608" VPOS="367" WIDTH="1"/>
+            <String ID="L0004_W66" CONTENT="lehnte" HPOS="607" VPOS="368" WIDTH="4" HEIGHT="39"/>
+            <SP HPOS="611" VPOS="368" WIDTH="1"/>
+            <String ID="L0004_W67" CONTENT="sich" HPOS="610" VPOS="377" WIDTH="2" HEIGHT="31"/>
+            <SP HPOS="612" VPOS="377" WIDTH="1"/>
+            <String ID="L0004_W68" CONTENT="der" HPOS="611" VPOS="367" WIDTH="6" HEIGHT="41"/>
+            <SP HPOS="617" VPOS="367" WIDTH="1"/>
+            <String ID="L0004_W69" CONTENT="gewesene" HPOS="616" VPOS="367" WIDTH="7" HEIGHT="41"/>
+            <SP HPOS="623" VPOS="367" WIDTH="1"/>
+            <String ID="L0004_W70" CONTENT="Gemeinderath" HPOS="622" VPOS="360" WIDTH="14" HEIGHT="52"/>
+            <SP HPOS="636" VPOS="360" WIDTH="1"/>
+            <String ID="L0004_W71" CONTENT="Dr." HPOS="635" VPOS="360" WIDTH="8" HEIGHT="48"/>
+            <SP HPOS="643" VPOS="360" WIDTH="1"/>
+            <String ID="L0004_W72" CONTENT="Kielmansegg" HPOS="642" VPOS="394" WIDTH="13" HEIGHT="14"/>
+            <SP HPOS="655" VPOS="394" WIDTH="1"/>
+            <String ID="L0004_W73" CONTENT="aus" HPOS="654" VPOS="387" WIDTH="9" HEIGHT="27"/>
+            <SP HPOS="663" VPOS="387" WIDTH="1"/>
+            <String ID="L0004_W74" CONTENT="einer" HPOS="662" VPOS="365" WIDTH="9" HEIGHT="48"/>
+            <SP HPOS="671" VPOS="365" WIDTH="1"/>
+            <String ID="L0004_W75" CONTENT="Versammlung" HPOS="671" VPOS="365" WIDTH="13" HEIGHT="15"/>
+            <SP HPOS="684" VPOS="365" WIDTH="1"/>
+            <String ID="L0004_W76" CONTENT="der" HPOS="683" VPOS="376" WIDTH="2" HEIGHT="2"/>
+            <SP HPOS="685" VPOS="376" WIDTH="1"/>
+            <String ID="L0004_W77" CONTENT="und" HPOS="683" VPOS="376" WIDTH="2" HEIGHT="2"/>
+            <SP HPOS="685" VPOS="376" WIDTH="1"/>
+            <String ID="L0004_W78" CONTENT="Antiliberalen" HPOS="683" VPOS="376" WIDTH="2" HEIGHT="2"/>
+            <SP HPOS="685" VPOS="376" WIDTH="1"/>
+            <String ID="L0004_W79" CONTENT="aus" HPOS="684" VPOS="366" WIDTH="6" HEIGHT="14"/>
+            <SP HPOS="690" VPOS="366" WIDTH="8"/>
+            <String ID="L0004_W80" CONTENT="ihren" HPOS="698" VPOS="365" WIDTH="5" HEIGHT="15"/>
+            <SP HPOS="703" VPOS="365" WIDTH="1"/>
+            <String ID="L0004_W81" CONTENT="Verstecken" HPOS="702" VPOS="364" WIDTH="15" HEIGHT="48"/>
+            <SP HPOS="717" VPOS="364" WIDTH="1"/>
+            <String ID="L0004_W82" CONTENT="in" HPOS="716" VPOS="364" WIDTH="2" HEIGHT="15"/>
+            <SP HPOS="718" VPOS="364" WIDTH="1"/>
+            <String ID="L0004_W83" CONTENT="die" HPOS="716" VPOS="364" WIDTH="2" HEIGHT="15"/>
+            <SP HPOS="718" VPOS="364" WIDTH="1"/>
+            <String ID="L0004_W84" CONTENT="Oeffentlichkeit" HPOS="717" VPOS="364" WIDTH="19" HEIGHT="48"/>
+            <SP HPOS="736" VPOS="364" WIDTH="7"/>
+            <String ID="L0004_W85" CONTENT="treiben." HPOS="743" VPOS="419" WIDTH="4" HEIGHT="14"/>
+          </TextLine>
+          <TextLine ID="L0005" HPOS="819" VPOS="336" WIDTH="640" HEIGHT="54">
+            <String ID="L0005_W01" CONTENT="«" HPOS="819" VPOS="356" WIDTH="2" HEIGHT="16"/>
+            <SP HPOS="821" VPOS="356" WIDTH="1"/>
+            <String ID="L0005_W02" CONTENT="Die" HPOS="819" VPOS="356" WIDTH="7" HEIGHT="17"/>
+            <SP HPOS="826" VPOS="356" WIDTH="1"/>
+            <String ID="L0005_W03" CONTENT="Wiener" HPOS="825" VPOS="359" WIDTH="7" HEIGHT="24"/>
+            <SP HPOS="832" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W04" CONTENT="Liberalen" HPOS="831" VPOS="353" WIDTH="21" HEIGHT="30"/>
+            <SP HPOS="852" VPOS="353" WIDTH="1"/>
+            <String ID="L0005_W05" CONTENT="haben" HPOS="851" VPOS="359" WIDTH="5" HEIGHT="14"/>
+            <SP HPOS="856" VPOS="359" WIDTH="2"/>
+            <String ID="L0005_W06" CONTENT="noch" HPOS="858" VPOS="359" WIDTH="4" HEIGHT="14"/>
+            <SP HPOS="862" VPOS="359" WIDTH="3"/>
+            <String ID="L0005_W07" CONTENT="immer" HPOS="865" VPOS="354" WIDTH="1" HEIGHT="8"/>
+            <SP HPOS="866" VPOS="354" WIDTH="1"/>
+            <String ID="L0005_W08" CONTENT="kein" HPOS="865" VPOS="352" WIDTH="7" HEIGHT="21"/>
+            <SP HPOS="872" VPOS="352" WIDTH="1"/>
+            <String ID="L0005_W09" CONTENT="Programm" HPOS="871" VPOS="359" WIDTH="8" HEIGHT="14"/>
+            <SP HPOS="879" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W10" CONTENT="für" HPOS="878" VPOS="354" WIDTH="6" HEIGHT="19"/>
+            <SP HPOS="884" VPOS="354" WIDTH="1"/>
+            <String ID="L0005_W11" CONTENT="die" HPOS="884" VPOS="359" WIDTH="6" HEIGHT="25"/>
+            <SP HPOS="890" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W12" CONTENT="Wahlen," HPOS="889" VPOS="359" WIDTH="17" HEIGHT="24"/>
+            <SP HPOS="906" VPOS="359" WIDTH="2"/>
+            <String ID="L0005_W13" CONTENT="und" HPOS="908" VPOS="359" WIDTH="6" HEIGHT="25"/>
+            <SP HPOS="914" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W14" CONTENT="ihr" HPOS="913" VPOS="341" WIDTH="3" HEIGHT="3"/>
+            <SP HPOS="916" VPOS="341" WIDTH="1"/>
+            <String ID="L0005_W15" CONTENT="Versuch," HPOS="915" VPOS="336" WIDTH="10" HEIGHT="54"/>
+            <SP HPOS="925" VPOS="336" WIDTH="1"/>
+            <String ID="L0005_W16" CONTENT="sich" HPOS="925" VPOS="359" WIDTH="8" HEIGHT="10"/>
+            <SP HPOS="933" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W17" CONTENT="eine" HPOS="932" VPOS="357" WIDTH="11" HEIGHT="19"/>
+            <SP HPOS="943" VPOS="357" WIDTH="1"/>
+            <String ID="L0005_W18" CONTENT="neue" HPOS="943" VPOS="359" WIDTH="7" HEIGHT="14"/>
+            <SP HPOS="950" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W19" CONTENT="Organisation" HPOS="949" VPOS="359" WIDTH="29" HEIGHT="14"/>
+            <SP HPOS="978" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W20" CONTENT="zu" HPOS="977" VPOS="336" WIDTH="12" HEIGHT="54"/>
+            <SP HPOS="989" VPOS="336" WIDTH="1"/>
+            <String ID="L0005_W21" CONTENT="geben," HPOS="990" VPOS="358" WIDTH="11" HEIGHT="26"/>
+            <SP HPOS="1001" VPOS="358" WIDTH="1"/>
+            <String ID="L0005_W22" CONTENT="in" HPOS="1000" VPOS="361" WIDTH="1" HEIGHT="3"/>
+            <SP HPOS="1001" VPOS="361" WIDTH="1"/>
+            <String ID="L0005_W23" CONTENT="welcher" HPOS="1002" VPOS="352" WIDTH="6" HEIGHT="21"/>
+            <SP HPOS="1008" VPOS="352" WIDTH="2"/>
+            <String ID="L0005_W24" CONTENT="die" HPOS="1010" VPOS="359" WIDTH="11" HEIGHT="14"/>
+            <SP HPOS="1021" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W25" CONTENT="Drahtzieher" HPOS="1022" VPOS="358" WIDTH="11" HEIGHT="15"/>
+            <SP HPOS="1033" VPOS="358" WIDTH="1"/>
+            <String ID="L0005_W26" CONTENT="von" HPOS="1032" VPOS="336" WIDTH="2" HEIGHT="54"/>
+            <SP HPOS="1034" VPOS="336" WIDTH="1"/>
+            <String ID="L0005_W27" CONTENT="der" HPOS="1032" VPOS="336" WIDTH="5" HEIGHT="54"/>
+            <SP HPOS="1037" VPOS="336" WIDTH="1"/>
+            <String ID="L0005_W28" CONTENT="Sorte" HPOS="1038" VPOS="370" WIDTH="10" HEIGHT="1"/>
+            <SP HPOS="1048" VPOS="370" WIDTH="1"/>
+            <String ID="L0005_W29" CONTENT="Dr." HPOS="1047" VPOS="337" WIDTH="14" HEIGHT="36"/>
+            <SP HPOS="1061" VPOS="337" WIDTH="1"/>
+            <String ID="L0005_W30" CONTENT="Richter's" HPOS="1060" VPOS="352" WIDTH="22" HEIGHT="21"/>
+            <SP HPOS="1082" VPOS="352" WIDTH="1"/>
+            <String ID="L0005_W31" CONTENT="unumschränkte" HPOS="1081" VPOS="341" WIDTH="44" HEIGHT="37"/>
+            <SP HPOS="1125" VPOS="341" WIDTH="1"/>
+            <String ID="L0005_W32" CONTENT="Gewalt" HPOS="1124" VPOS="346" WIDTH="7" HEIGHT="25"/>
+            <SP HPOS="1131" VPOS="346" WIDTH="1"/>
+            <String ID="L0005_W33" CONTENT="ausüben," HPOS="1130" VPOS="353" WIDTH="13" HEIGHT="27"/>
+            <SP HPOS="1143" VPOS="353" WIDTH="3"/>
+            <String ID="L0005_W34" CONTENT="ist" HPOS="1146" VPOS="359" WIDTH="7" HEIGHT="14"/>
+            <SP HPOS="1153" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W35" CONTENT="gescheitert." HPOS="1152" VPOS="359" WIDTH="5" HEIGHT="12"/>
+            <SP HPOS="1157" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W36" CONTENT="Dr." HPOS="1156" VPOS="367" WIDTH="2" HEIGHT="5"/>
+            <SP HPOS="1158" VPOS="367" WIDTH="1"/>
+            <String ID="L0005_W37" CONTENT="Richter" HPOS="1156" VPOS="357" WIDTH="28" HEIGHT="22"/>
+            <SP HPOS="1184" VPOS="357" WIDTH="1"/>
+            <String ID="L0005_W38" CONTENT="wollte" HPOS="1183" VPOS="337" WIDTH="13" HEIGHT="37"/>
+            <SP HPOS="1196" VPOS="337" WIDTH="1"/>
+            <String ID="L0005_W39" CONTENT="eine" HPOS="1195" VPOS="359" WIDTH="9" HEIGHT="14"/>
+            <SP HPOS="1204" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W40" CONTENT="hochnothpeinliche" HPOS="1203" VPOS="360" WIDTH="2" HEIGHT="2"/>
+            <SP HPOS="1205" VPOS="360" WIDTH="1"/>
+            <String ID="L0005_W41" CONTENT="Halsgerichtsordnung" HPOS="1204" VPOS="359" WIDTH="9" HEIGHT="15"/>
+            <SP HPOS="1213" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W42" CONTENT="für" HPOS="1212" VPOS="361" WIDTH="1" HEIGHT="2"/>
+            <SP HPOS="1213" VPOS="361" WIDTH="1"/>
+            <String ID="L0005_W43" CONTENT="alle" HPOS="1212" VPOS="359" WIDTH="8" HEIGHT="14"/>
+            <SP HPOS="1220" VPOS="359" WIDTH="2"/>
+            <String ID="L0005_W44" CONTENT="Kandidaten" HPOS="1222" VPOS="342" WIDTH="6" HEIGHT="31"/>
+            <SP HPOS="1228" VPOS="342" WIDTH="3"/>
+            <String ID="L0005_W45" CONTENT="dekretiren" HPOS="1231" VPOS="354" WIDTH="6" HEIGHT="19"/>
+            <SP HPOS="1237" VPOS="354" WIDTH="1"/>
+            <String ID="L0005_W46" CONTENT="lassen," HPOS="1236" VPOS="354" WIDTH="23" HEIGHT="23"/>
+            <SP HPOS="1259" VPOS="354" WIDTH="1"/>
+            <String ID="L0005_W47" CONTENT="nach" HPOS="1258" VPOS="336" WIDTH="4" HEIGHT="10"/>
+            <SP HPOS="1262" VPOS="336" WIDTH="1"/>
+            <String ID="L0005_W48" CONTENT="welcher" HPOS="1261" VPOS="336" WIDTH="9" HEIGHT="10"/>
+            <SP HPOS="1270" VPOS="336" WIDTH="5"/>
+            <String ID="L0005_W49" CONTENT="jeder" HPOS="1275" VPOS="362" WIDTH="7" HEIGHT="11"/>
+            <SP HPOS="1282" VPOS="362" WIDTH="1"/>
+            <String ID="L0005_W50" CONTENT="von" HPOS="1281" VPOS="360" WIDTH="2" HEIGHT="13"/>
+            <SP HPOS="1283" VPOS="360" WIDTH="1"/>
+            <String ID="L0005_W51" CONTENT="den" HPOS="1281" VPOS="360" WIDTH="8" HEIGHT="14"/>
+            <SP HPOS="1289" VPOS="360" WIDTH="1"/>
+            <String ID="L0005_W52" CONTENT="Liberalen" HPOS="1288" VPOS="353" WIDTH="13" HEIGHT="21"/>
+            <SP HPOS="1301" VPOS="353" WIDTH="4"/>
+            <String ID="L0005_W53" CONTENT="Gewählte" HPOS="1305" VPOS="359" WIDTH="10" HEIGHT="15"/>
+            <SP HPOS="1315" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W54" CONTENT="verpflichtet" HPOS="1314" VPOS="359" WIDTH="11" HEIGHT="15"/>
+            <SP HPOS="1325" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W55" CONTENT="wäre," HPOS="1324" VPOS="336" WIDTH="5" HEIGHT="10"/>
+            <SP HPOS="1329" VPOS="336" WIDTH="1"/>
+            <String ID="L0005_W56" CONTENT="bei" HPOS="1328" VPOS="360" WIDTH="16" HEIGHT="14"/>
+            <SP HPOS="1344" VPOS="360" WIDTH="1"/>
+            <String ID="L0005_W57" CONTENT="einem" HPOS="1343" VPOS="359" WIDTH="13" HEIGHT="15"/>
+            <SP HPOS="1356" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W58" CONTENT="Meinungsunterschied" HPOS="1355" VPOS="337" WIDTH="23" HEIGHT="42"/>
+            <SP HPOS="1378" VPOS="337" WIDTH="1"/>
+            <String ID="L0005_W59" CONTENT="mit" HPOS="1377" VPOS="343" WIDTH="2" HEIGHT="36"/>
+            <SP HPOS="1379" VPOS="343" WIDTH="1"/>
+            <String ID="L0005_W60" CONTENT="dem" HPOS="1377" VPOS="343" WIDTH="6" HEIGHT="36"/>
+            <SP HPOS="1383" VPOS="343" WIDTH="1"/>
+            <String ID="L0005_W61" CONTENT="Fortschrittsklub" HPOS="1382" VPOS="344" WIDTH="4" HEIGHT="24"/>
+            <SP HPOS="1386" VPOS="344" WIDTH="1"/>
+            <String ID="L0005_W62" CONTENT="sein" HPOS="1385" VPOS="336" WIDTH="7" HEIGHT="11"/>
+            <SP HPOS="1392" VPOS="336" WIDTH="3"/>
+            <String ID="L0005_W63" CONTENT="Mandat" HPOS="1395" VPOS="336" WIDTH="12" HEIGHT="11"/>
+            <SP HPOS="1407" VPOS="336" WIDTH="1"/>
+            <String ID="L0005_W64" CONTENT="niederzulegen." HPOS="1406" VPOS="359" WIDTH="20" HEIGHT="15"/>
+            <SP HPOS="1426" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W65" CONTENT="Dagegen" HPOS="1425" VPOS="359" WIDTH="11" HEIGHT="14"/>
+            <SP HPOS="1436" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W66" CONTENT="lehnte" HPOS="1435" VPOS="354" WIDTH="8" HEIGHT="19"/>
+            <SP HPOS="1443" VPOS="354" WIDTH="1"/>
+            <String ID="L0005_W67" CONTENT="sich" HPOS="1442" VPOS="359" WIDTH="7" HEIGHT="17"/>
+            <SP HPOS="1449" VPOS="359" WIDTH="1"/>
+            <String ID="L0005_W68" CONTENT="der" HPOS="1448" VPOS="358" WIDTH="11" HEIGHT="16"/>
+          </TextLine>
+          <TextLine ID="L0006" HPOS="153" VPOS="399" WIDTH="636" HEIGHT="48">
+            <String ID="L0006_W01" CONTENT="und" HPOS="153" VPOS="399" WIDTH="13" HEIGHT="40"/>
+            <SP HPOS="166" VPOS="399" WIDTH="1"/>
+            <String ID="L0006_W02" CONTENT="Antiliberalen" HPOS="165" VPOS="399" WIDTH="107" HEIGHT="47"/>
+            <SP HPOS="272" VPOS="399" WIDTH="1"/>
+            <String ID="L0006_W03" CONTENT="aus" HPOS="271" VPOS="399" WIDTH="26" HEIGHT="40"/>
+            <SP HPOS="297" VPOS="399" WIDTH="1"/>
+            <String ID="L0006_W04" CONTENT="ihren" HPOS="296" VPOS="399" WIDTH="61" HEIGHT="41"/>
+            <SP HPOS="357" VPOS="399" WIDTH="9"/>
+            <String ID="L0006_W05" CONTENT="Verstecken" HPOS="366" VPOS="399" WIDTH="83" HEIGHT="47"/>
+            <SP HPOS="449" VPOS="399" WIDTH="1"/>
+            <String ID="L0006_W06" CONTENT="in" HPOS="448" VPOS="407" WIDTH="21" HEIGHT="35"/>
+            <SP HPOS="469" VPOS="407" WIDTH="21"/>
+            <String ID="L0006_W07" CONTENT="die" HPOS="490" VPOS="416" WIDTH="30" HEIGHT="22"/>
+            <SP HPOS="520" VPOS="416" WIDTH="8"/>
+            <String ID="L0006_W08" CONTENT="Oeffentlichkeit" HPOS="528" VPOS="399" WIDTH="196" HEIGHT="48"/>
+            <SP HPOS="724" VPOS="399" WIDTH="1"/>
+            <String ID="L0006_W09" CONTENT="treiben." HPOS="723" VPOS="399" WIDTH="66" HEIGHT="41"/>
+          </TextLine>
+          <TextLine ID="L0007" HPOS="819" VPOS="415" WIDTH="632" HEIGHT="55">
+            <String ID="L0007_W01" CONTENT="«" HPOS="819" VPOS="443" WIDTH="2" HEIGHT="2"/>
+            <SP HPOS="821" VPOS="443" WIDTH="1"/>
+            <String ID="L0007_W02" CONTENT="Die" HPOS="819" VPOS="435" WIDTH="13" HEIGHT="21"/>
+            <SP HPOS="832" VPOS="435" WIDTH="1"/>
+            <String ID="L0007_W03" CONTENT="Wiener" HPOS="831" VPOS="442" WIDTH="7" HEIGHT="14"/>
+            <SP HPOS="838" VPOS="442" WIDTH="2"/>
+            <String ID="L0007_W04" CONTENT="Liberalen" HPOS="840" VPOS="442" WIDTH="16" HEIGHT="14"/>
+            <SP HPOS="856" VPOS="442" WIDTH="10"/>
+            <String ID="L0007_W05" CONTENT="haben" HPOS="866" VPOS="435" WIDTH="5" HEIGHT="14"/>
+            <SP HPOS="871" VPOS="435" WIDTH="1"/>
+            <String ID="L0007_W06" CONTENT="noch" HPOS="870" VPOS="435" WIDTH="8" HEIGHT="27"/>
+            <SP HPOS="878" VPOS="435" WIDTH="1"/>
+            <String ID="L0007_W07" CONTENT="immer" HPOS="877" VPOS="435" WIDTH="2" HEIGHT="21"/>
+            <SP HPOS="879" VPOS="435" WIDTH="1"/>
+            <String ID="L0007_W08" CONTENT="kein" HPOS="877" VPOS="435" WIDTH="9" HEIGHT="22"/>
+            <SP HPOS="886" VPOS="435" WIDTH="1"/>
+            <String ID="L0007_W09" CONTENT="Programm" HPOS="885" VPOS="442" WIDTH="20" HEIGHT="14"/>
+            <SP HPOS="905" VPOS="442" WIDTH="1"/>
+            <String ID="L0007_W10" CONTENT="für" HPOS="904" VPOS="442" WIDTH="4" HEIGHT="14"/>
+            <SP HPOS="908" VPOS="442" WIDTH="1"/>
+            <String ID="L0007_W11" CONTENT="die" HPOS="907" VPOS="437" WIDTH="8" HEIGHT="19"/>
+            <SP HPOS="915" VPOS="437" WIDTH="1"/>
+            <String ID="L0007_W12" CONTENT="Wahlen," HPOS="914" VPOS="442" WIDTH="9" HEIGHT="14"/>
+            <SP HPOS="923" VPOS="442" WIDTH="1"/>
+            <String ID="L0007_W13" CONTENT="und" HPOS="922" VPOS="441" WIDTH="2" HEIGHT="15"/>
+            <SP HPOS="924" VPOS="441" WIDTH="1"/>
+            <String ID="L0007_W14" CONTENT="ihr" HPOS="922" VPOS="441" WIDTH="2" HEIGHT="15"/>
+            <SP HPOS="924" VPOS="441" WIDTH="1"/>
+            <String ID="L0007_W15" CONTENT="Versuch," HPOS="922" VPOS="441" WIDTH="2" HEIGHT="15"/>
+            <SP HPOS="924" VPOS="441" WIDTH="1"/>
+            <String ID="L0007_W16" CONTENT="sich" HPOS="923" VPOS="441" WIDTH="2" HEIGHT="14"/>
+            <SP HPOS="925" VPOS="441" WIDTH="1"/>
+            <String ID="L0007_W17" CONTENT="eine" HPOS="923" VPOS="441" WIDTH="2" HEIGHT="14"/>
+            <SP HPOS="925" VPOS="441" WIDTH="1"/>
+            <String ID="L0007_W18" CONTENT="neue" HPOS="923" VPOS="441" WIDTH="2" HEIGHT="14"/>
+            <SP HPOS="925" VPOS="441" WIDTH="1"/>
+            <String ID="L0007_W19" CONTENT="Organisation" HPOS="923" VPOS="441" WIDTH="6" HEIGHT="14"/>
+            <SP HPOS="929" VPOS="441" WIDTH="1"/>
+            <String ID="L0007_W20" CONTENT="zu" HPOS="928" VPOS="441" WIDTH="2" HEIGHT="14"/>
+            <SP HPOS="930" VPOS="441" WIDTH="1"/>
+            <String ID="L0007_W21" CONTENT="geben," HPOS="928" VPOS="416" WIDTH="7" HEIGHT="40"/>
+            <SP HPOS="935" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W22" CONTENT="in" HPOS="934" VPOS="416" WIDTH="2" HEIGHT="44"/>
+            <SP HPOS="936" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W23" CONTENT="welcher" HPOS="934" VPOS="416" WIDTH="3" HEIGHT="45"/>
+            <SP HPOS="937" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W24" CONTENT="die" HPOS="936" VPOS="445" WIDTH="3" HEIGHT="17"/>
+            <SP HPOS="939" VPOS="445" WIDTH="1"/>
+            <String ID="L0007_W25" CONTENT="Drahtzieher" HPOS="938" VPOS="442" WIDTH="7" HEIGHT="20"/>
+            <SP HPOS="945" VPOS="442" WIDTH="1"/>
+            <String ID="L0007_W26" CONTENT="von" HPOS="944" VPOS="444" WIDTH="2" HEIGHT="16"/>
+            <SP HPOS="946" VPOS="444" WIDTH="1"/>
+            <String ID="L0007_W27" CONTENT="der" HPOS="945" VPOS="445" WIDTH="4" HEIGHT="13"/>
+            <SP HPOS="949" VPOS="445" WIDTH="1"/>
+            <String ID="L0007_W28" CONTENT="Sorte" HPOS="948" VPOS="416" WIDTH="11" HEIGHT="40"/>
+            <SP HPOS="959" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W29" CONTENT="Dr." HPOS="958" VPOS="416" WIDTH="7" HEIGHT="40"/>
+            <SP HPOS="965" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W30" CONTENT="Richter's" HPOS="965" VPOS="425" WIDTH="9" HEIGHT="31"/>
+            <SP HPOS="974" VPOS="425" WIDTH="1"/>
+            <String ID="L0007_W31" CONTENT="unumschränkte" HPOS="973" VPOS="435" WIDTH="11" HEIGHT="21"/>
+            <SP HPOS="984" VPOS="435" WIDTH="1"/>
+            <String ID="L0007_W32" CONTENT="Gewalt" HPOS="983" VPOS="436" WIDTH="15" HEIGHT="20"/>
+            <SP HPOS="998" VPOS="436" WIDTH="1"/>
+            <String ID="L0007_W33" CONTENT="ausüben," HPOS="997" VPOS="435" WIDTH="21" HEIGHT="21"/>
+            <SP HPOS="1018" VPOS="435" WIDTH="1"/>
+            <String ID="L0007_W34" CONTENT="ist" HPOS="1017" VPOS="415" WIDTH="13" HEIGHT="13"/>
+            <SP HPOS="1030" VPOS="415" WIDTH="1"/>
+            <String ID="L0007_W35" CONTENT="gescheitert." HPOS="1029" VPOS="442" WIDTH="14" HEIGHT="20"/>
+            <SP HPOS="1043" VPOS="442" WIDTH="1"/>
+            <String ID="L0007_W36" CONTENT="Dr." HPOS="1042" VPOS="442" WIDTH="19" HEIGHT="18"/>
+            <SP HPOS="1061" VPOS="442" WIDTH="1"/>
+            <String ID="L0007_W37" CONTENT="Richter" HPOS="1060" VPOS="416" WIDTH="19" HEIGHT="46"/>
+            <SP HPOS="1079" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W38" CONTENT="wollte" HPOS="1078" VPOS="416" WIDTH="8" HEIGHT="46"/>
+            <SP HPOS="1086" VPOS="416" WIDTH="3"/>
+            <String ID="L0007_W39" CONTENT="eine" HPOS="1089" VPOS="445" WIDTH="4" HEIGHT="11"/>
+            <SP HPOS="1093" VPOS="445" WIDTH="1"/>
+            <String ID="L0007_W40" CONTENT="hochnothveinliche" HPOS="1092" VPOS="442" WIDTH="5" HEIGHT="14"/>
+            <SP HPOS="1097" VPOS="442" WIDTH="1"/>
+            <String ID="L0007_W41" CONTENT="Halsgerichtsordnung" HPOS="1096" VPOS="416" WIDTH="34" HEIGHT="41"/>
+            <SP HPOS="1130" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W42" CONTENT="für" HPOS="1129" VPOS="416" WIDTH="8" HEIGHT="41"/>
+            <SP HPOS="1137" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W43" CONTENT="alle" HPOS="1136" VPOS="416" WIDTH="7" HEIGHT="40"/>
+            <SP HPOS="1143" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W44" CONTENT="Kandidaten" HPOS="1142" VPOS="426" WIDTH="8" HEIGHT="30"/>
+            <SP HPOS="1150" VPOS="426" WIDTH="1"/>
+            <String ID="L0007_W45" CONTENT="dekretiren" HPOS="1149" VPOS="442" WIDTH="3" HEIGHT="14"/>
+            <SP HPOS="1152" VPOS="442" WIDTH="1"/>
+            <String ID="L0007_W46" CONTENT="lassen," HPOS="1151" VPOS="442" WIDTH="8" HEIGHT="14"/>
+            <SP HPOS="1159" VPOS="442" WIDTH="1"/>
+            <String ID="L0007_W47" CONTENT="nach" HPOS="1158" VPOS="442" WIDTH="6" HEIGHT="14"/>
+            <SP HPOS="1164" VPOS="442" WIDTH="1"/>
+            <String ID="L0007_W48" CONTENT="welcher" HPOS="1163" VPOS="436" WIDTH="15" HEIGHT="20"/>
+            <SP HPOS="1178" VPOS="436" WIDTH="1"/>
+            <String ID="L0007_W49" CONTENT="jeder" HPOS="1178" VPOS="442" WIDTH="7" HEIGHT="15"/>
+            <SP HPOS="1185" VPOS="442" WIDTH="1"/>
+            <String ID="L0007_W50" CONTENT="von" HPOS="1184" VPOS="444" WIDTH="2" HEIGHT="11"/>
+            <SP HPOS="1186" VPOS="444" WIDTH="1"/>
+            <String ID="L0007_W51" CONTENT="den" HPOS="1185" VPOS="442" WIDTH="7" HEIGHT="14"/>
+            <SP HPOS="1192" VPOS="442" WIDTH="1"/>
+            <String ID="L0007_W52" CONTENT="Liberalen" HPOS="1192" VPOS="442" WIDTH="7" HEIGHT="14"/>
+            <SP HPOS="1199" VPOS="442" WIDTH="1"/>
+            <String ID="L0007_W53" CONTENT="Gewählte" HPOS="1198" VPOS="452" WIDTH="6" HEIGHT="7"/>
+            <SP HPOS="1204" VPOS="452" WIDTH="1"/>
+            <String ID="L0007_W54" CONTENT="verpflichtet" HPOS="1203" VPOS="416" WIDTH="8" HEIGHT="42"/>
+            <SP HPOS="1211" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W55" CONTENT="wäre," HPOS="1210" VPOS="416" WIDTH="7" HEIGHT="12"/>
+            <SP HPOS="1217" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W56" CONTENT="bei" HPOS="1217" VPOS="416" WIDTH="10" HEIGHT="18"/>
+            <SP HPOS="1227" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W57" CONTENT="einem" HPOS="1226" VPOS="416" WIDTH="8" HEIGHT="18"/>
+            <SP HPOS="1234" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W58" CONTENT="Meinungsunterschied" HPOS="1233" VPOS="416" WIDTH="40" HEIGHT="41"/>
+            <SP HPOS="1273" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W59" CONTENT="mit" HPOS="1272" VPOS="449" WIDTH="3" HEIGHT="2"/>
+            <SP HPOS="1275" VPOS="449" WIDTH="1"/>
+            <String ID="L0007_W60" CONTENT="dem" HPOS="1274" VPOS="415" WIDTH="5" HEIGHT="13"/>
+            <SP HPOS="1279" VPOS="415" WIDTH="1"/>
+            <String ID="L0007_W61" CONTENT="Fortschrittsklub" HPOS="1278" VPOS="416" WIDTH="8" HEIGHT="13"/>
+            <SP HPOS="1286" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W62" CONTENT="sein" HPOS="1285" VPOS="416" WIDTH="10" HEIGHT="12"/>
+            <SP HPOS="1295" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W63" CONTENT="Mandat" HPOS="1294" VPOS="416" WIDTH="13" HEIGHT="48"/>
+            <SP HPOS="1307" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W64" CONTENT="niederzulegen." HPOS="1306" VPOS="441" WIDTH="7" HEIGHT="15"/>
+            <SP HPOS="1313" VPOS="441" WIDTH="1"/>
+            <String ID="L0007_W65" CONTENT="Dagegen" HPOS="1312" VPOS="443" WIDTH="6" HEIGHT="14"/>
+            <SP HPOS="1318" VPOS="443" WIDTH="1"/>
+            <String ID="L0007_W66" CONTENT="lehnte" HPOS="1317" VPOS="416" WIDTH="9" HEIGHT="41"/>
+            <SP HPOS="1326" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W67" CONTENT="sich" HPOS="1325" VPOS="424" WIDTH="2" HEIGHT="30"/>
+            <SP HPOS="1327" VPOS="424" WIDTH="1"/>
+            <String ID="L0007_W68" CONTENT="der" HPOS="1325" VPOS="416" WIDTH="8" HEIGHT="41"/>
+            <SP HPOS="1333" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W69" CONTENT="gewesene" HPOS="1332" VPOS="416" WIDTH="17" HEIGHT="41"/>
+            <SP HPOS="1349" VPOS="416" WIDTH="15"/>
+            <String ID="L0007_W70" CONTENT="Gemeinderath" HPOS="1364" VPOS="423" WIDTH="6" HEIGHT="4"/>
+            <SP HPOS="1370" VPOS="423" WIDTH="1"/>
+            <String ID="L0007_W71" CONTENT="Dr." HPOS="1369" VPOS="423" WIDTH="8" HEIGHT="34"/>
+            <SP HPOS="1377" VPOS="423" WIDTH="1"/>
+            <String ID="L0007_W72" CONTENT="Kielmansegg" HPOS="1376" VPOS="417" WIDTH="14" HEIGHT="39"/>
+            <SP HPOS="1390" VPOS="417" WIDTH="1"/>
+            <String ID="L0007_W73" CONTENT="aus" HPOS="1389" VPOS="425" WIDTH="6" HEIGHT="32"/>
+            <SP HPOS="1395" VPOS="425" WIDTH="1"/>
+            <String ID="L0007_W74" CONTENT="einer" HPOS="1394" VPOS="443" WIDTH="2" HEIGHT="14"/>
+            <SP HPOS="1396" VPOS="443" WIDTH="1"/>
+            <String ID="L0007_W75" CONTENT="Versammlung" HPOS="1394" VPOS="418" WIDTH="12" HEIGHT="39"/>
+            <SP HPOS="1406" VPOS="418" WIDTH="1"/>
+            <String ID="L0007_W76" CONTENT="der" HPOS="1405" VPOS="417" WIDTH="2" HEIGHT="11"/>
+            <SP HPOS="1407" VPOS="417" WIDTH="1"/>
+            <String ID="L0007_W77" CONTENT="und" HPOS="1405" VPOS="417" WIDTH="2" HEIGHT="11"/>
+            <SP HPOS="1407" VPOS="417" WIDTH="1"/>
+            <String ID="L0007_W78" CONTENT="Antiliberalen" HPOS="1405" VPOS="437" WIDTH="11" HEIGHT="19"/>
+            <SP HPOS="1416" VPOS="437" WIDTH="1"/>
+            <String ID="L0007_W79" CONTENT="aus" HPOS="1415" VPOS="415" WIDTH="4" HEIGHT="53"/>
+            <SP HPOS="1419" VPOS="415" WIDTH="1"/>
+            <String ID="L0007_W80" CONTENT="ihren" HPOS="1418" VPOS="422" WIDTH="2" HEIGHT="44"/>
+            <SP HPOS="1420" VPOS="422" WIDTH="1"/>
+            <String ID="L0007_W81" CONTENT="Verstecken" HPOS="1419" VPOS="415" WIDTH="7" HEIGHT="55"/>
+            <SP HPOS="1426" VPOS="415" WIDTH="1"/>
+            <String ID="L0007_W82" CONTENT="in" HPOS="1425" VPOS="416" WIDTH="10" HEIGHT="13"/>
+            <SP HPOS="1435" VPOS="416" WIDTH="1"/>
+            <String ID="L0007_W83" CONTENT="die" HPOS="1434" VPOS="417" WIDTH="6" HEIGHT="10"/>
+            <SP HPOS="1440" VPOS="417" WIDTH="1"/>
+            <String ID="L0007_W84" CONTENT="Oeffentlichkeit" HPOS="1439" VPOS="420" WIDTH="9" HEIGHT="36"/>
+            <SP HPOS="1448" VPOS="420" WIDTH="1"/>
+            <String ID="L0007_W85" CONTENT="treiben." HPOS="1447" VPOS="445" WIDTH="4" HEIGHT="10"/>
+          </TextLine>
+          <TextLine ID="L0008" HPOS="153" VPOS="425" WIDTH="636" HEIGHT="55">
+            <String ID="L0008_W01" CONTENT="«" HPOS="153" VPOS="451" WIDTH="2" HEIGHT="13"/>
+            <SP HPOS="155" VPOS="451" WIDTH="1"/>
+            <String ID="L0008_W02" CONTENT="Die" HPOS="153" VPOS="426" WIDTH="11" HEIGHT="40"/>
+            <SP HPOS="164" VPOS="426" WIDTH="3"/>
+            <String ID="L0008_W03" CONTENT="Wiener" HPOS="167" VPOS="428" WIDTH="4" HEIGHT="38"/>
+            <SP HPOS="171" VPOS="428" WIDTH="1"/>
+            <String ID="L0008_W04" CONTENT="Liberalen" HPOS="170" VPOS="426" WIDTH="8" HEIGHT="40"/>
+            <SP HPOS="178" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W05" CONTENT="haben" HPOS="177" VPOS="426" WIDTH="18" HEIGHT="41"/>
+            <SP HPOS="195" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W06" CONTENT="noch" HPOS="194" VPOS="434" WIDTH="2" HEIGHT="6"/>
+            <SP HPOS="196" VPOS="434" WIDTH="1"/>
+            <String ID="L0008_W07" CONTENT="immer" HPOS="195" VPOS="435" WIDTH="4" HEIGHT="4"/>
+            <SP HPOS="199" VPOS="435" WIDTH="6"/>
+            <String ID="L0008_W08" CONTENT="kein" HPOS="205" VPOS="447" WIDTH="7" HEIGHT="21"/>
+            <SP HPOS="212" VPOS="447" WIDTH="1"/>
+            <String ID="L0008_W09" CONTENT="Programm" HPOS="211" VPOS="433" WIDTH="16" HEIGHT="35"/>
+            <SP HPOS="227" VPOS="433" WIDTH="1"/>
+            <String ID="L0008_W10" CONTENT="für" HPOS="226" VPOS="437" WIDTH="2" HEIGHT="21"/>
+            <SP HPOS="228" VPOS="437" WIDTH="1"/>
+            <String ID="L0008_W11" CONTENT="die" HPOS="226" VPOS="437" WIDTH="2" HEIGHT="21"/>
+            <SP HPOS="228" VPOS="437" WIDTH="1"/>
+            <String ID="L0008_W12" CONTENT="Wahlen," HPOS="227" VPOS="435" WIDTH="7" HEIGHT="32"/>
+            <SP HPOS="234" VPOS="435" WIDTH="1"/>
+            <String ID="L0008_W13" CONTENT="und" HPOS="233" VPOS="426" WIDTH="10" HEIGHT="41"/>
+            <SP HPOS="243" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W14" CONTENT="ihr" HPOS="242" VPOS="426" WIDTH="9" HEIGHT="20"/>
+            <SP HPOS="251" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W15" CONTENT="Versuch," HPOS="250" VPOS="426" WIDTH="7" HEIGHT="40"/>
+            <SP HPOS="257" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W16" CONTENT="sich" HPOS="256" VPOS="447" WIDTH="2" HEIGHT="19"/>
+            <SP HPOS="258" VPOS="447" WIDTH="1"/>
+            <String ID="L0008_W17" CONTENT="eine" HPOS="257" VPOS="426" WIDTH="12" HEIGHT="43"/>
+            <SP HPOS="269" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W18" CONTENT="neue" HPOS="268" VPOS="426" WIDTH="4" HEIGHT="39"/>
+            <SP HPOS="272" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W19" CONTENT="Organisation" HPOS="271" VPOS="426" WIDTH="14" HEIGHT="41"/>
+            <SP HPOS="285" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W20" CONTENT="zu" HPOS="284" VPOS="426" WIDTH="8" HEIGHT="41"/>
+            <SP HPOS="292" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W21" CONTENT="geben," HPOS="291" VPOS="426" WIDTH="12" HEIGHT="41"/>
+            <SP HPOS="303" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W22" CONTENT="in" HPOS="302" VPOS="426" WIDTH="2" HEIGHT="14"/>
+            <SP HPOS="304" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W23" CONTENT="welcher" HPOS="302" VPOS="426" WIDTH="8" HEIGHT="41"/>
+            <SP HPOS="310" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W24" CONTENT="die" HPOS="309" VPOS="426" WIDTH="15" HEIGHT="41"/>
+            <SP HPOS="324" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W25" CONTENT="Drahtzieher" HPOS="323" VPOS="426" WIDTH="28" HEIGHT="42"/>
+            <SP HPOS="351" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W26" CONTENT="von" HPOS="350" VPOS="436" WIDTH="9" HEIGHT="30"/>
+            <SP HPOS="359" VPOS="436" WIDTH="6"/>
+            <String ID="L0008_W27" CONTENT="der" HPOS="365" VPOS="426" WIDTH="4" HEIGHT="40"/>
+            <SP HPOS="369" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W28" CONTENT="Sorte" HPOS="368" VPOS="426" WIDTH="8" HEIGHT="20"/>
+            <SP HPOS="376" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W29" CONTENT="Dr." HPOS="375" VPOS="426" WIDTH="7" HEIGHT="27"/>
+            <SP HPOS="382" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W30" CONTENT="Richter's" HPOS="381" VPOS="426" WIDTH="7" HEIGHT="41"/>
+            <SP HPOS="388" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W31" CONTENT="unumschränkte" HPOS="387" VPOS="437" WIDTH="14" HEIGHT="30"/>
+            <SP HPOS="401" VPOS="437" WIDTH="1"/>
+            <String ID="L0008_W32" CONTENT="Gewalt" HPOS="400" VPOS="426" WIDTH="9" HEIGHT="40"/>
+            <SP HPOS="409" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W33" CONTENT="ausüben," HPOS="408" VPOS="426" WIDTH="17" HEIGHT="46"/>
+            <SP HPOS="425" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W34" CONTENT="ist" HPOS="424" VPOS="426" WIDTH="6" HEIGHT="44"/>
+            <SP HPOS="430" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W35" CONTENT="gescheitert." HPOS="429" VPOS="426" WIDTH="14" HEIGHT="41"/>
+            <SP HPOS="443" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W36" CONTENT="Dr." HPOS="442" VPOS="434" WIDTH="5" HEIGHT="32"/>
+            <SP HPOS="447" VPOS="434" WIDTH="1"/>
+            <String ID="L0008_W37" CONTENT="Richter" HPOS="448" VPOS="426" WIDTH="16" HEIGHT="40"/>
+            <SP HPOS="464" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W38" CONTENT="wollte" HPOS="463" VPOS="434" WIDTH="9" HEIGHT="32"/>
+            <SP HPOS="472" VPOS="434" WIDTH="1"/>
+            <String ID="L0008_W39" CONTENT="eine" HPOS="471" VPOS="448" WIDTH="5" HEIGHT="18"/>
+            <SP HPOS="476" VPOS="448" WIDTH="13"/>
+            <String ID="L0008_W40" CONTENT="hochnothveinliche" HPOS="489" VPOS="451" WIDTH="14" HEIGHT="15"/>
+            <SP HPOS="503" VPOS="451" WIDTH="1"/>
+            <String ID="L0008_W41" CONTENT="Halsgerichtsordnung" HPOS="504" VPOS="451" WIDTH="25" HEIGHT="14"/>
+            <SP HPOS="529" VPOS="451" WIDTH="1"/>
+            <String ID="L0008_W42" CONTENT="für" HPOS="528" VPOS="451" WIDTH="7" HEIGHT="14"/>
+            <SP HPOS="535" VPOS="451" WIDTH="1"/>
+            <String ID="L0008_W43" CONTENT="alle" HPOS="536" VPOS="451" WIDTH="12" HEIGHT="14"/>
+            <SP HPOS="548" VPOS="451" WIDTH="1"/>
+            <String ID="L0008_W44" CONTENT="Kandidaten" HPOS="547" VPOS="444" WIDTH="7" HEIGHT="26"/>
+            <SP HPOS="554" VPOS="444" WIDTH="1"/>
+            <String ID="L0008_W45" CONTENT="dekretiren" HPOS="553" VPOS="444" WIDTH="4" HEIGHT="12"/>
+            <SP HPOS="557" VPOS="444" WIDTH="1"/>
+            <String ID="L0008_W46" CONTENT="lassen," HPOS="556" VPOS="451" WIDTH="8" HEIGHT="13"/>
+            <SP HPOS="564" VPOS="451" WIDTH="1"/>
+            <String ID="L0008_W47" CONTENT="nach" HPOS="563" VPOS="445" WIDTH="2" HEIGHT="19"/>
+            <SP HPOS="565" VPOS="445" WIDTH="1"/>
+            <String ID="L0008_W48" CONTENT="welcher" HPOS="563" VPOS="445" WIDTH="2" HEIGHT="19"/>
+            <SP HPOS="565" VPOS="445" WIDTH="1"/>
+            <String ID="L0008_W49" CONTENT="jeder" HPOS="564" VPOS="444" WIDTH="7" HEIGHT="20"/>
+            <SP HPOS="571" VPOS="444" WIDTH="1"/>
+            <String ID="L0008_W50" CONTENT="von" HPOS="570" VPOS="444" WIDTH="5" HEIGHT="23"/>
+            <SP HPOS="575" VPOS="444" WIDTH="1"/>
+            <String ID="L0008_W51" CONTENT="den" HPOS="574" VPOS="426" WIDTH="11" HEIGHT="39"/>
+            <SP HPOS="585" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W52" CONTENT="Liberalen" HPOS="584" VPOS="445" WIDTH="8" HEIGHT="19"/>
+            <SP HPOS="592" VPOS="445" WIDTH="1"/>
+            <String ID="L0008_W53" CONTENT="Gewählte" HPOS="591" VPOS="445" WIDTH="7" HEIGHT="19"/>
+            <SP HPOS="598" VPOS="445" WIDTH="1"/>
+            <String ID="L0008_W54" CONTENT="verpflichtet" HPOS="597" VPOS="450" WIDTH="10" HEIGHT="14"/>
+            <SP HPOS="607" VPOS="450" WIDTH="1"/>
+            <String ID="L0008_W55" CONTENT="wäre," HPOS="606" VPOS="449" WIDTH="5" HEIGHT="14"/>
+            <SP HPOS="611" VPOS="449" WIDTH="1"/>
+            <String ID="L0008_W56" CONTENT="bei" HPOS="610" VPOS="445" WIDTH="12" HEIGHT="18"/>
+            <SP HPOS="622" VPOS="445" WIDTH="1"/>
+            <String ID="L0008_W57" CONTENT="einem" HPOS="621" VPOS="451" WIDTH="2" HEIGHT="12"/>
+            <SP HPOS="623" VPOS="451" WIDTH="1"/>
+            <String ID="L0008_W58" CONTENT="Meinungsunterschied" HPOS="622" VPOS="445" WIDTH="16" HEIGHT="28"/>
+            <SP HPOS="638" VPOS="445" WIDTH="1"/>
+            <String ID="L0008_W59" CONTENT="mit" HPOS="637" VPOS="452" WIDTH="2" HEIGHT="20"/>
+            <SP HPOS="639" VPOS="452" WIDTH="1"/>
+            <String ID="L0008_W60" CONTENT="dem" HPOS="637" VPOS="452" WIDTH="4" HEIGHT="20"/>
+            <SP HPOS="641" VPOS="452" WIDTH="1"/>
+            <String ID="L0008_W61" CONTENT="Fortschrittsklub" HPOS="640" VPOS="425" WIDTH="11" HEIGHT="55"/>
+            <SP HPOS="651" VPOS="425" WIDTH="1"/>
+            <String ID="L0008_W62" CONTENT="sein" HPOS="650" VPOS="443" WIDTH="9" HEIGHT="20"/>
+            <SP HPOS="659" VPOS="443" WIDTH="1"/>
+            <String ID="L0008_W63" CONTENT="Mandat" HPOS="658" VPOS="442" WIDTH="16" HEIGHT="22"/>
+            <SP HPOS="674" VPOS="442" WIDTH="1"/>
+            <String ID="L0008_W64" CONTENT="niederzulegen." HPOS="673" VPOS="448" WIDTH="11" HEIGHT="15"/>
+            <SP HPOS="684" VPOS="448" WIDTH="1"/>
+            <String ID="L0008_W65" CONTENT="Dagegen" HPOS="683" VPOS="447" WIDTH="6" HEIGHT="15"/>
+            <SP HPOS="689" VPOS="447" WIDTH="1"/>
+            <String ID="L0008_W66" CONTENT="lehnte" HPOS="688" VPOS="448" WIDTH="9" HEIGHT="14"/>
+            <SP HPOS="697" VPOS="448" WIDTH="1"/>
+            <String ID="L0008_W67" CONTENT="sich" HPOS="696" VPOS="448" WIDTH="7" HEIGHT="14"/>
+            <SP HPOS="703" VPOS="448" WIDTH="1"/>
+            <String ID="L0008_W68" CONTENT="der" HPOS="703" VPOS="452" WIDTH="4" HEIGHT="10"/>
+            <SP HPOS="707" VPOS="452" WIDTH="1"/>
+            <String ID="L0008_W69" CONTENT="gewesene" HPOS="706" VPOS="448" WIDTH="4" HEIGHT="14"/>
+            <SP HPOS="710" VPOS="448" WIDTH="1"/>
+            <String ID="L0008_W70" CONTENT="Gemeinderath" HPOS="709" VPOS="426" WIDTH="14" HEIGHT="36"/>
+            <SP HPOS="723" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W71" CONTENT="Dr." HPOS="722" VPOS="426" WIDTH="16" HEIGHT="36"/>
+            <SP HPOS="738" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W72" CONTENT="Kielmansegg" HPOS="737" VPOS="428" WIDTH="4" HEIGHT="12"/>
+            <SP HPOS="741" VPOS="428" WIDTH="2"/>
+            <String ID="L0008_W73" CONTENT="aus" HPOS="743" VPOS="448" WIDTH="7" HEIGHT="13"/>
+            <SP HPOS="750" VPOS="448" WIDTH="1"/>
+            <String ID="L0008_W74" CONTENT="einer" HPOS="749" VPOS="447" WIDTH="8" HEIGHT="14"/>
+            <SP HPOS="757" VPOS="447" WIDTH="1"/>
+            <String ID="L0008_W75" CONTENT="Versammlung" HPOS="758" VPOS="426" WIDTH="14" HEIGHT="35"/>
+            <SP HPOS="772" VPOS="426" WIDTH="1"/>
+            <String ID="L0008_W76" CONTENT="der" HPOS="771" VPOS="447" WIDTH="18" HEIGHT="14"/>
+          </TextLine>
+          <TextLine ID="L0009" HPOS="821" VPOS="446" WIDTH="638" HEIGHT="45">
+            <String ID="L0009_W01" CONTENT="und" HPOS="821" VPOS="446" WIDTH="71" HEIGHT="38"/>
+            <SP HPOS="892" VPOS="446" WIDTH="1"/>
+            <String ID="L0009_W02" CONTENT="Antiliberalen" HPOS="891" VPOS="446" WIDTH="162" HEIGHT="44"/>
+            <SP HPOS="1053" VPOS="446" WIDTH="1"/>
+            <String ID="L0009_W03" CONTENT="aus" HPOS="1052" VPOS="446" WIDTH="34" HEIGHT="44"/>
+            <SP HPOS="1086" VPOS="446" WIDTH="3"/>
+            <String ID="L0009_W04" CONTENT="ihren" HPOS="1089" VPOS="463" WIDTH="50" HEIGHT="27"/>
+            <SP HPOS="1139" VPOS="463" WIDTH="1"/>
+            <String ID="L0009_W05" CONTENT="Verstecken" HPOS="1138" VPOS="463" WIDTH="51" HEIGHT="21"/>
+            <SP HPOS="1189" VPOS="463" WIDTH="1"/>
+            <String ID="L0009_W06" CONTENT="in" HPOS="1188" VPOS="463" WIDTH="14" HEIGHT="21"/>
+            <SP HPOS="1202" VPOS="463" WIDTH="1"/>
+            <String ID="L0009_W07" CONTENT="die" HPOS="1201" VPOS="453" WIDTH="30" HEIGHT="35"/>
+            <SP HPOS="1231" VPOS="453" WIDTH="1"/>
+            <String ID="L0009_W08" CONTENT="Oeffentlichkeit" HPOS="1230" VPOS="446" WIDTH="140" HEIGHT="45"/>
+            <SP HPOS="1370" VPOS="446" WIDTH="1"/>
+            <String ID="L0009_W09" CONTENT="treiben." HPOS="1369" VPOS="463" WIDTH="90" HEIGHT="26"/>
+          </TextLine>
+          <TextLine ID="L0010" HPOS="152" VPOS="452" WIDTH="630" HEIGHT="55">
+            <String ID="L0010_W01" CONTENT="«" HPOS="152" VPOS="480" WIDTH="2" HEIGHT="12"/>
+            <SP HPOS="154" VPOS="480" WIDTH="1"/>
+            <String ID="L0010_W02" CONTENT="Die" HPOS="152" VPOS="480" WIDTH="2" HEIGHT="12"/>
+            <SP HPOS="154" VPOS="480" WIDTH="1"/>
+            <String ID="L0010_W03" CONTENT="Wiener" HPOS="153" VPOS="480" WIDTH="5" HEIGHT="13"/>
+            <SP HPOS="158" VPOS="480" WIDTH="1"/>
+            <String ID="L0010_W04" CONTENT="Liberalen" HPOS="157" VPOS="453" WIDTH="15" HEIGHT="41"/>
+            <SP HPOS="172" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W05" CONTENT="haben" HPOS="171" VPOS="453" WIDTH="3" HEIGHT="41"/>
+            <SP HPOS="174" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W06" CONTENT="noch" HPOS="173" VPOS="453" WIDTH="3" HEIGHT="39"/>
+            <SP HPOS="176" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W07" CONTENT="immer" HPOS="177" VPOS="453" WIDTH="13" HEIGHT="42"/>
+            <SP HPOS="190" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W08" CONTENT="kein" HPOS="189" VPOS="454" WIDTH="5" HEIGHT="41"/>
+            <SP HPOS="194" VPOS="454" WIDTH="1"/>
+            <String ID="L0010_W09" CONTENT="Programm" HPOS="193" VPOS="479" WIDTH="7" HEIGHT="16"/>
+            <SP HPOS="200" VPOS="479" WIDTH="1"/>
+            <String ID="L0010_W10" CONTENT="für" HPOS="199" VPOS="481" WIDTH="2" HEIGHT="12"/>
+            <SP HPOS="201" VPOS="481" WIDTH="1"/>
+            <String ID="L0010_W11" CONTENT="die" HPOS="199" VPOS="481" WIDTH="5" HEIGHT="17"/>
+            <SP HPOS="204" VPOS="481" WIDTH="1"/>
+            <String ID="L0010_W12" CONTENT="Wahlen," HPOS="204" VPOS="453" WIDTH="7" HEIGHT="44"/>
+            <SP HPOS="211" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W13" CONTENT="und" HPOS="210" VPOS="453" WIDTH="2" HEIGHT="15"/>
+            <SP HPOS="212" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W14" CONTENT="ihr" HPOS="211" VPOS="453" WIDTH="2" HEIGHT="14"/>
+            <SP HPOS="213" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W15" CONTENT="Versuch," HPOS="211" VPOS="453" WIDTH="5" HEIGHT="14"/>
+            <SP HPOS="216" VPOS="453" WIDTH="3"/>
+            <String ID="L0010_W16" CONTENT="sich" HPOS="219" VPOS="453" WIDTH="9" HEIGHT="42"/>
+            <SP HPOS="228" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W17" CONTENT="eine" HPOS="227" VPOS="453" WIDTH="11" HEIGHT="49"/>
+            <SP HPOS="238" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W18" CONTENT="neue" HPOS="237" VPOS="474" WIDTH="7" HEIGHT="21"/>
+            <SP HPOS="244" VPOS="474" WIDTH="10"/>
+            <String ID="L0010_W19" CONTENT="Organisation" HPOS="254" VPOS="453" WIDTH="27" HEIGHT="49"/>
+            <SP HPOS="281" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W20" CONTENT="zu" HPOS="280" VPOS="453" WIDTH="6" HEIGHT="45"/>
+            <SP HPOS="286" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W21" CONTENT="geben," HPOS="285" VPOS="453" WIDTH="11" HEIGHT="42"/>
+            <SP HPOS="296" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W22" CONTENT="in" HPOS="295" VPOS="453" WIDTH="8" HEIGHT="42"/>
+            <SP HPOS="303" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W23" CONTENT="welcher" HPOS="302" VPOS="453" WIDTH="7" HEIGHT="44"/>
+            <SP HPOS="309" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W24" CONTENT="die" HPOS="308" VPOS="453" WIDTH="8" HEIGHT="42"/>
+            <SP HPOS="316" VPOS="453" WIDTH="3"/>
+            <String ID="L0010_W25" CONTENT="Drahtzieher" HPOS="319" VPOS="462" WIDTH="14" HEIGHT="33"/>
+            <SP HPOS="333" VPOS="462" WIDTH="1"/>
+            <String ID="L0010_W26" CONTENT="von" HPOS="332" VPOS="460" WIDTH="3" HEIGHT="33"/>
+            <SP HPOS="335" VPOS="460" WIDTH="1"/>
+            <String ID="L0010_W27" CONTENT="der" HPOS="334" VPOS="453" WIDTH="10" HEIGHT="42"/>
+            <SP HPOS="344" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W28" CONTENT="Sorte" HPOS="343" VPOS="463" WIDTH="7" HEIGHT="32"/>
+            <SP HPOS="350" VPOS="463" WIDTH="1"/>
+            <String ID="L0010_W29" CONTENT="Dr." HPOS="349" VPOS="453" WIDTH="13" HEIGHT="42"/>
+            <SP HPOS="362" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W30" CONTENT="Richter's" HPOS="361" VPOS="463" WIDTH="10" HEIGHT="32"/>
+            <SP HPOS="371" VPOS="463" WIDTH="11"/>
+            <String ID="L0010_W31" CONTENT="unumschränkte" HPOS="382" VPOS="461" WIDTH="6" HEIGHT="6"/>
+            <SP HPOS="388" VPOS="461" WIDTH="1"/>
+            <String ID="L0010_W32" CONTENT="Gewalt" HPOS="387" VPOS="453" WIDTH="8" HEIGHT="14"/>
+            <SP HPOS="395" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W33" CONTENT="ausüben," HPOS="394" VPOS="453" WIDTH="16" HEIGHT="42"/>
+            <SP HPOS="410" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W34" CONTENT="ist" HPOS="409" VPOS="453" WIDTH="9" HEIGHT="42"/>
+            <SP HPOS="418" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W35" CONTENT="gescheitert." HPOS="417" VPOS="453" WIDTH="26" HEIGHT="42"/>
+            <SP HPOS="443" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W36" CONTENT="Dr." HPOS="442" VPOS="463" WIDTH="5" HEIGHT="3"/>
+            <SP HPOS="447" VPOS="463" WIDTH="1"/>
+            <String ID="L0010_W37" CONTENT="Richter" HPOS="448" VPOS="453" WIDTH="23" HEIGHT="41"/>
+            <SP HPOS="471" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W38" CONTENT="wollte" HPOS="470" VPOS="453" WIDTH="6" HEIGHT="41"/>
+            <SP HPOS="476" VPOS="453" WIDTH="2"/>
+            <String ID="L0010_W39" CONTENT="eine" HPOS="478" VPOS="479" WIDTH="4" HEIGHT="15"/>
+            <SP HPOS="482" VPOS="479" WIDTH="1"/>
+            <String ID="L0010_W40" CONTENT="hochnothveinliche" HPOS="481" VPOS="453" WIDTH="16" HEIGHT="46"/>
+            <SP HPOS="497" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W41" CONTENT="Halsgerichtsordnung" HPOS="496" VPOS="453" WIDTH="33" HEIGHT="41"/>
+            <SP HPOS="529" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W42" CONTENT="für" HPOS="528" VPOS="452" WIDTH="7" HEIGHT="55"/>
+            <SP HPOS="535" VPOS="452" WIDTH="1"/>
+            <String ID="L0010_W43" CONTENT="alle" HPOS="536" VPOS="476" WIDTH="15" HEIGHT="17"/>
+            <SP HPOS="551" VPOS="476" WIDTH="1"/>
+            <String ID="L0010_W44" CONTENT="Kandidaten" HPOS="550" VPOS="453" WIDTH="25" HEIGHT="40"/>
+            <SP HPOS="575" VPOS="453" WIDTH="1"/>
+            <String ID="L0010_W45" CONTENT="dekretiren" HPOS="574" VPOS="471" WIDTH="10" HEIGHT="21"/>
+            <SP HPOS="584" VPOS="471" WIDTH="1"/>
+            <String ID="L0010_W46" CONTENT="lassen," HPOS="583" VPOS="473" WIDTH="15" HEIGHT="19"/>
+            <SP HPOS="598" VPOS="473" WIDTH="1"/>
+            <String ID="L0010_W47" CONTENT="nach" HPOS="597" VPOS="476" WIDTH="4" HEIGHT="7"/>
+            <SP HPOS="601" VPOS="476" WIDTH="1"/>
+            <String ID="L0010_W48" CONTENT="welcher" HPOS="600" VPOS="479" WIDTH="5" HEIGHT="2"/>
+            <SP HPOS="605" VPOS="479" WIDTH="2"/>
+            <String ID="L0010_W49" CONTENT="jeder" HPOS="607" VPOS="452" WIDTH="3" HEIGHT="52"/>
+            <SP HPOS="610" VPOS="452" WIDTH="1"/>
+            <String ID="L0010_W50" CONTENT="von" HPOS="609" VPOS="452" WIDTH="2" HEIGHT="55"/>
+            <SP HPOS="611" VPOS="452" WIDTH="1"/>
+            <String ID="L0010_W51" CONTENT="den" HPOS="611" VPOS="452" WIDTH="7" HEIGHT="55"/>
+            <SP HPOS="618" VPOS="452" WIDTH="3"/>
+            <String ID="L0010_W52" CONTENT="Liberalen" HPOS="621" VPOS="479" WIDTH="7" HEIGHT="12"/>
+            <SP HPOS="628" VPOS="479" WIDTH="1"/>
+            <String ID="L0010_W53" CONTENT="Gewählte" HPOS="627" VPOS="476" WIDTH="6" HEIGHT="15"/>
+            <SP HPOS="633" VPOS="476" WIDTH="1"/>
+            <String ID="L0010_W54" CONTENT="verpflichtet" HPOS="632" VPOS="455" WIDTH="2" HEIGHT="8"/>
+            <SP HPOS="634" VPOS="455" WIDTH="1"/>
+            <String ID="L0010_W55" CONTENT="wäre," HPOS="632" VPOS="455" WIDTH="2" HEIGHT="8"/>
+            <SP HPOS="634" VPOS="455" WIDTH="1"/>
+            <String ID="L0010_W56" CONTENT="bei" HPOS="633" VPOS="470" WIDTH="8" HEIGHT="21"/>
+            <SP HPOS="641" VPOS="470" WIDTH="1"/>
+            <String ID="L0010_W57" CONTENT="einem" HPOS="640" VPOS="476" WIDTH="6" HEIGHT="15"/>
+            <SP HPOS="646" VPOS="476" WIDTH="1"/>
+            <String ID="L0010_W58" CONTENT="Meinungsunterschied" HPOS="646" VPOS="476" WIDTH="21" HEIGHT="15"/>
+            <SP HPOS="667" VPOS="476" WIDTH="1"/>
+            <String ID="L0010_W59" CONTENT="mit" HPOS="666" VPOS="454" WIDTH="2" HEIGHT="9"/>
+            <SP HPOS="668" VPOS="454" WIDTH="1"/>
+            <String ID="L0010_W60" CONTENT="dem" HPOS="667" VPOS="452" WIDTH="4" HEIGHT="11"/>
+            <SP HPOS="671" VPOS="452" WIDTH="1"/>
+            <String ID="L0010_W61" CONTENT="Fortschrittsklub" HPOS="670" VPOS="452" WIDTH="2" HEIGHT="55"/>
+            <SP HPOS="672" VPOS="452" WIDTH="1"/>
+            <String ID="L0010_W62" CONTENT="sein" HPOS="670" VPOS="452" WIDTH="3" HEIGHT="55"/>
+            <SP HPOS="673" VPOS="452" WIDTH="1"/>
+            <String ID="L0010_W63" CONTENT="Mandat" HPOS="674" VPOS="452" WIDTH="6" HEIGHT="55"/>
+            <SP HPOS="680" VPOS="452" WIDTH="1"/>
+            <String ID="L0010_W64" CONTENT="niederzulegen." HPOS="679" VPOS="452" WIDTH="10" HEIGHT="55"/>
+            <SP HPOS="689" VPOS="452" WIDTH="1"/>
+            <String ID="L0010_W65" CONTENT="Dagegen" HPOS="688" VPOS="469" WIDTH="9" HEIGHT="27"/>
+            <SP HPOS="697" VPOS="469" WIDTH="1"/>
+            <String ID="L0010_W66" CONTENT="lehnte" HPOS="696" VPOS="469" WIDTH="3" HEIGHT="27"/>
+            <SP HPOS="699" VPOS="469" WIDTH="1"/>
+            <String ID="L0010_W67" CONTENT="sich" HPOS="698" VPOS="475" WIDTH="5" HEIGHT="19"/>
+            <SP HPOS="703" VPOS="475" WIDTH="1"/>
+            <String ID="L0010_W68" CONTENT="der" HPOS="702" VPOS="476" WIDTH="7" HEIGHT="13"/>
+            <SP HPOS="709" VPOS="476" WIDTH="1"/>
+            <String ID="L0010_W69" CONTENT="gewesene" HPOS="708" VPOS="475" WIDTH="9" HEIGHT="14"/>
+            <SP HPOS="717" VPOS="475" WIDTH="1"/>
+            <String ID="L0010_W70" CONTENT="Gemeinderath" HPOS="716" VPOS="475" WIDTH="6" HEIGHT="14"/>
+            <SP HPOS="722" VPOS="475" WIDTH="1"/>
+            <String ID="L0010_W71" CONTENT="Dr." HPOS="721" VPOS="475" WIDTH="2" HEIGHT="14"/>
+            <SP HPOS="723" VPOS="475" WIDTH="1"/>
+            <String ID="L0010_W72" CONTENT="Kielmansegg" HPOS="722" VPOS="468" WIDTH="16" HEIGHT="32"/>
+            <SP HPOS="738" VPOS="468" WIDTH="1"/>
+            <String ID="L0010_W73" CONTENT="aus" HPOS="737" VPOS="474" WIDTH="13" HEIGHT="15"/>
+            <SP HPOS="750" VPOS="474" WIDTH="1"/>
+            <String ID="L0010_W74" CONTENT="einer" HPOS="749" VPOS="474" WIDTH="8" HEIGHT="15"/>
+            <SP HPOS="757" VPOS="474" WIDTH="1"/>
+            <String ID="L0010_W75" CONTENT="Versammlung" HPOS="756" VPOS="470" WIDTH="14" HEIGHT="19"/>
+            <SP HPOS="770" VPOS="470" WIDTH="1"/>
+            <String ID="L0010_W76" CONTENT="der" HPOS="769" VPOS="458" WIDTH="13" HEIGHT="36"/>
+          </TextLine>
+          <TextLine ID="L0011" HPOS="820" VPOS="473" WIDTH="639" HEIGHT="48">
+            <String ID="L0011_W01" CONTENT="und" HPOS="820" VPOS="491" WIDTH="41" HEIGHT="20"/>
+            <SP HPOS="861" VPOS="491" WIDTH="1"/>
+            <String ID="L0011_W02" CONTENT="Antiliberalen" HPOS="860" VPOS="490" WIDTH="116" HEIGHT="28"/>
+            <SP HPOS="976" VPOS="490" WIDTH="2"/>
+            <String ID="L0011_W03" CONTENT="aus" HPOS="978" VPOS="473" WIDTH="48" HEIGHT="44"/>
+            <SP HPOS="1026" VPOS="473" WIDTH="1"/>
+            <String ID="L0011_W04" CONTENT="ihren" HPOS="1025" VPOS="473" WIDTH="53" HEIGHT="48"/>
+            <SP HPOS="1078" VPOS="473" WIDTH="1"/>
+            <String ID="L0011_W05" CONTENT="Verstecken" HPOS="1078" VPOS="491" WIDTH="73" HEIGHT="21"/>
+            <SP HPOS="1151" VPOS="491" WIDTH="1"/>
+            <String ID="L0011_W06" CONTENT="in" HPOS="1150" VPOS="491" WIDTH="23" HEIGHT="21"/>
+            <SP HPOS="1173" VPOS="491" WIDTH="10"/>
+            <String ID="L0011_W07" CONTENT="die" HPOS="1183" VPOS="498" WIDTH="19" HEIGHT="20"/>
+            <SP HPOS="1202" VPOS="498" WIDTH="1"/>
+            <String ID="L0011_W08" CONTENT="Oeffentlichkeit" HPOS="1201" VPOS="473" WIDTH="197" HEIGHT="44"/>
+            <SP HPOS="1398" VPOS="473" WIDTH="15"/>
+            <String ID="L0011_W09" CONTENT="treiben." HPOS="1413" VPOS="490" WIDTH="46" HEIGHT="31"/>
+          </TextLine>
+          <TextLine ID="L0012" HPOS="151" VPOS="480" WIDTH="640" HEIGHT="55">
+            <String ID="L0012_W01" CONTENT="«" HPOS="151" VPOS="508" WIDTH="2" HEIGHT="13"/>
+            <SP HPOS="153" VPOS="508" WIDTH="1"/>
+            <String ID="L0012_W02" CONTENT="Die" HPOS="151" VPOS="481" WIDTH="23" HEIGHT="41"/>
+            <SP HPOS="174" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W03" CONTENT="Wiener" HPOS="173" VPOS="481" WIDTH="17" HEIGHT="41"/>
+            <SP HPOS="190" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W04" CONTENT="Liberalen" HPOS="189" VPOS="481" WIDTH="27" HEIGHT="41"/>
+            <SP HPOS="216" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W05" CONTENT="haben" HPOS="215" VPOS="481" WIDTH="16" HEIGHT="43"/>
+            <SP HPOS="231" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W06" CONTENT="noch" HPOS="230" VPOS="481" WIDTH="6" HEIGHT="42"/>
+            <SP HPOS="236" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W07" CONTENT="immer" HPOS="235" VPOS="481" WIDTH="9" HEIGHT="42"/>
+            <SP HPOS="244" VPOS="481" WIDTH="14"/>
+            <String ID="L0012_W08" CONTENT="kein" HPOS="258" VPOS="481" WIDTH="6" HEIGHT="21"/>
+            <SP HPOS="264" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W09" CONTENT="Programm" HPOS="263" VPOS="481" WIDTH="18" HEIGHT="44"/>
+            <SP HPOS="281" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W10" CONTENT="für" HPOS="280" VPOS="481" WIDTH="6" HEIGHT="44"/>
+            <SP HPOS="286" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W11" CONTENT="die" HPOS="285" VPOS="481" WIDTH="22" HEIGHT="41"/>
+            <SP HPOS="307" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W12" CONTENT="Wahlen," HPOS="306" VPOS="481" WIDTH="14" HEIGHT="41"/>
+            <SP HPOS="320" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W13" CONTENT="und" HPOS="319" VPOS="481" WIDTH="7" HEIGHT="48"/>
+            <SP HPOS="326" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W14" CONTENT="ihr" HPOS="325" VPOS="481" WIDTH="2" HEIGHT="48"/>
+            <SP HPOS="327" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W15" CONTENT="Versuch," HPOS="325" VPOS="481" WIDTH="7" HEIGHT="48"/>
+            <SP HPOS="332" VPOS="481" WIDTH="3"/>
+            <String ID="L0012_W16" CONTENT="sich" HPOS="335" VPOS="481" WIDTH="27" HEIGHT="42"/>
+            <SP HPOS="362" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W17" CONTENT="eine" HPOS="361" VPOS="490" WIDTH="8" HEIGHT="32"/>
+            <SP HPOS="369" VPOS="490" WIDTH="1"/>
+            <String ID="L0012_W18" CONTENT="neue" HPOS="368" VPOS="502" WIDTH="7" HEIGHT="25"/>
+            <SP HPOS="375" VPOS="502" WIDTH="1"/>
+            <String ID="L0012_W19" CONTENT="Organisation" HPOS="374" VPOS="501" WIDTH="9" HEIGHT="26"/>
+            <SP HPOS="383" VPOS="501" WIDTH="1"/>
+            <String ID="L0012_W20" CONTENT="zu" HPOS="382" VPOS="504" WIDTH="7" HEIGHT="18"/>
+            <SP HPOS="389" VPOS="504" WIDTH="1"/>
+            <String ID="L0012_W21" CONTENT="geben," HPOS="388" VPOS="489" WIDTH="14" HEIGHT="33"/>
+            <SP HPOS="402" VPOS="489" WIDTH="1"/>
+            <String ID="L0012_W22" CONTENT="in" HPOS="401" VPOS="483" WIDTH="2" HEIGHT="10"/>
+            <SP HPOS="403" VPOS="483" WIDTH="1"/>
+            <String ID="L0012_W23" CONTENT="welcher" HPOS="401" VPOS="481" WIDTH="13" HEIGHT="41"/>
+            <SP HPOS="414" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W24" CONTENT="die" HPOS="413" VPOS="481" WIDTH="12" HEIGHT="41"/>
+            <SP HPOS="425" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W25" CONTENT="Drahtzieher" HPOS="424" VPOS="481" WIDTH="13" HEIGHT="41"/>
+            <SP HPOS="437" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W26" CONTENT="von" HPOS="436" VPOS="509" WIDTH="4" HEIGHT="8"/>
+            <SP HPOS="440" VPOS="509" WIDTH="1"/>
+            <String ID="L0012_W27" CONTENT="der" HPOS="439" VPOS="507" WIDTH="5" HEIGHT="14"/>
+            <SP HPOS="444" VPOS="507" WIDTH="1"/>
+            <String ID="L0012_W28" CONTENT="Sorte" HPOS="443" VPOS="481" WIDTH="17" HEIGHT="40"/>
+            <SP HPOS="460" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W29" CONTENT="Dr." HPOS="459" VPOS="481" WIDTH="12" HEIGHT="40"/>
+            <SP HPOS="471" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W30" CONTENT="Richter's" HPOS="470" VPOS="481" WIDTH="14" HEIGHT="46"/>
+            <SP HPOS="484" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W31" CONTENT="unumschränkte" HPOS="483" VPOS="481" WIDTH="9" HEIGHT="47"/>
+            <SP HPOS="492" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W32" CONTENT="Gewalt" HPOS="491" VPOS="481" WIDTH="5" HEIGHT="18"/>
+            <SP HPOS="496" VPOS="481" WIDTH="2"/>
+            <String ID="L0012_W33" CONTENT="ausüben," HPOS="498" VPOS="481" WIDTH="14" HEIGHT="13"/>
+            <SP HPOS="512" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W34" CONTENT="ist" HPOS="511" VPOS="508" WIDTH="18" HEIGHT="2"/>
+            <SP HPOS="529" VPOS="508" WIDTH="1"/>
+            <String ID="L0012_W35" CONTENT="gescheitert." HPOS="528" VPOS="500" WIDTH="9" HEIGHT="25"/>
+            <SP HPOS="537" VPOS="500" WIDTH="1"/>
+            <String ID="L0012_W36" CONTENT="Dr." HPOS="536" VPOS="501" WIDTH="14" HEIGHT="19"/>
+            <SP HPOS="550" VPOS="501" WIDTH="1"/>
+            <String ID="L0012_W37" CONTENT="Richter" HPOS="549" VPOS="506" WIDTH="8" HEIGHT="14"/>
+            <SP HPOS="557" VPOS="506" WIDTH="1"/>
+            <String ID="L0012_W38" CONTENT="wollte" HPOS="556" VPOS="506" WIDTH="8" HEIGHT="13"/>
+            <SP HPOS="564" VPOS="506" WIDTH="1"/>
+            <String ID="L0012_W39" CONTENT="eine" HPOS="563" VPOS="480" WIDTH="12" HEIGHT="13"/>
+            <SP HPOS="575" VPOS="480" WIDTH="1"/>
+            <String ID="L0012_W40" CONTENT="hochnothveinliche" HPOS="574" VPOS="480" WIDTH="16" HEIGHT="55"/>
+            <SP HPOS="590" VPOS="480" WIDTH="1"/>
+            <String ID="L0012_W41" CONTENT="Halsgerichtsordnung" HPOS="589" VPOS="505" WIDTH="19" HEIGHT="14"/>
+            <SP HPOS="608" VPOS="505" WIDTH="1"/>
+            <String ID="L0012_W42" CONTENT="für" HPOS="607" VPOS="499" WIDTH="7" HEIGHT="20"/>
+            <SP HPOS="614" VPOS="499" WIDTH="1"/>
+            <String ID="L0012_W43" CONTENT="alle" HPOS="613" VPOS="498" WIDTH="9" HEIGHT="21"/>
+            <SP HPOS="622" VPOS="498" WIDTH="1"/>
+            <String ID="L0012_W44" CONTENT="Kandidaten" HPOS="623" VPOS="505" WIDTH="10" HEIGHT="14"/>
+            <SP HPOS="633" VPOS="505" WIDTH="1"/>
+            <String ID="L0012_W45" CONTENT="dekretiren" HPOS="632" VPOS="516" WIDTH="6" HEIGHT="1"/>
+            <SP HPOS="638" VPOS="516" WIDTH="1"/>
+            <String ID="L0012_W46" CONTENT="lassen," HPOS="637" VPOS="480" WIDTH="9" HEIGHT="55"/>
+            <SP HPOS="646" VPOS="480" WIDTH="1"/>
+            <String ID="L0012_W47" CONTENT="nach" HPOS="645" VPOS="480" WIDTH="7" HEIGHT="55"/>
+            <SP HPOS="652" VPOS="480" WIDTH="2"/>
+            <String ID="L0012_W48" CONTENT="welcher" HPOS="654" VPOS="480" WIDTH="2" HEIGHT="9"/>
+            <SP HPOS="656" VPOS="480" WIDTH="1"/>
+            <String ID="L0012_W49" CONTENT="jeder" HPOS="655" VPOS="480" WIDTH="5" HEIGHT="55"/>
+            <SP HPOS="660" VPOS="480" WIDTH="1"/>
+            <String ID="L0012_W50" CONTENT="von" HPOS="659" VPOS="480" WIDTH="2" HEIGHT="53"/>
+            <SP HPOS="661" VPOS="480" WIDTH="6"/>
+            <String ID="L0012_W51" CONTENT="den" HPOS="667" VPOS="499" WIDTH="12" HEIGHT="20"/>
+            <SP HPOS="679" VPOS="499" WIDTH="1"/>
+            <String ID="L0012_W52" CONTENT="Liberalen" HPOS="678" VPOS="500" WIDTH="8" HEIGHT="18"/>
+            <SP HPOS="686" VPOS="500" WIDTH="1"/>
+            <String ID="L0012_W53" CONTENT="Gewählte" HPOS="685" VPOS="481" WIDTH="17" HEIGHT="37"/>
+            <SP HPOS="702" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W54" CONTENT="verpflichtet" HPOS="701" VPOS="481" WIDTH="2" HEIGHT="27"/>
+            <SP HPOS="703" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W55" CONTENT="wäre," HPOS="701" VPOS="481" WIDTH="2" HEIGHT="27"/>
+            <SP HPOS="703" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W56" CONTENT="bei" HPOS="702" VPOS="503" WIDTH="7" HEIGHT="15"/>
+            <SP HPOS="709" VPOS="503" WIDTH="1"/>
+            <String ID="L0012_W57" CONTENT="einem" HPOS="708" VPOS="504" WIDTH="6" HEIGHT="23"/>
+            <SP HPOS="714" VPOS="504" WIDTH="1"/>
+            <String ID="L0012_W58" CONTENT="Meinungsunterschied" HPOS="715" VPOS="496" WIDTH="13" HEIGHT="21"/>
+            <SP HPOS="728" VPOS="496" WIDTH="1"/>
+            <String ID="L0012_W59" CONTENT="mit" HPOS="727" VPOS="493" WIDTH="2" HEIGHT="13"/>
+            <SP HPOS="729" VPOS="493" WIDTH="1"/>
+            <String ID="L0012_W60" CONTENT="dem" HPOS="728" VPOS="481" WIDTH="6" HEIGHT="36"/>
+            <SP HPOS="734" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W61" CONTENT="Fortschrittsklub" HPOS="735" VPOS="496" WIDTH="8" HEIGHT="21"/>
+            <SP HPOS="743" VPOS="496" WIDTH="1"/>
+            <String ID="L0012_W62" CONTENT="sein" HPOS="742" VPOS="501" WIDTH="6" HEIGHT="15"/>
+            <SP HPOS="748" VPOS="501" WIDTH="1"/>
+            <String ID="L0012_W63" CONTENT="Mandat" HPOS="747" VPOS="502" WIDTH="13" HEIGHT="15"/>
+            <SP HPOS="760" VPOS="502" WIDTH="1"/>
+            <String ID="L0012_W64" CONTENT="niederzulegen." HPOS="761" VPOS="489" WIDTH="18" HEIGHT="27"/>
+            <SP HPOS="779" VPOS="489" WIDTH="1"/>
+            <String ID="L0012_W65" CONTENT="Dagegen" HPOS="778" VPOS="481" WIDTH="7" HEIGHT="35"/>
+            <SP HPOS="785" VPOS="481" WIDTH="1"/>
+            <String ID="L0012_W66" CONTENT="lehnte" HPOS="784" VPOS="501" WIDTH="7" HEIGHT="15"/>
+          </TextLine>
+          <TextLine ID="L0021" HPOS="820" VPOS="614" WIDTH="635" HEIGHT="42">
+            <String ID="L0021_W01" CONTENT="Zulegen." HPOS="820" VPOS="614" WIDTH="110" HEIGHT="41"/>
+            <SP HPOS="930" VPOS="614" WIDTH="1"/>
+            <String ID="L0021_W02" CONTENT="Dagegen" HPOS="931" VPOS="614" WIDTH="102" HEIGHT="40"/>
+            <SP HPOS="1033" VPOS="614" WIDTH="2"/>
+            <String ID="L0021_W03" CONTENT="lehnte" HPOS="1035" VPOS="614" WIDTH="56" HEIGHT="42"/>
+            <SP HPOS="1091" VPOS="614" WIDTH="3"/>
+            <String ID="L0021_W04" CONTENT="sich" HPOS="1094" VPOS="614" WIDTH="69" HEIGHT="41"/>
+            <SP HPOS="1163" VPOS="614" WIDTH="1"/>
+            <String ID="L0021_W05" CONTENT="der" HPOS="1162" VPOS="614" WIDTH="56" HEIGHT="42"/>
+            <SP HPOS="1218" VPOS="614" WIDTH="2"/>
+            <String ID="L0021_W06" CONTENT="gewesene" HPOS="1220" VPOS="614" WIDTH="68" HEIGHT="36"/>
+            <SP HPOS="1288" VPOS="614" WIDTH="2"/>
+            <String ID="L0021_W07" CONTENT="Gemeinderath" HPOS="1290" VPOS="614" WIDTH="142" HEIGHT="41"/>
+            <SP HPOS="1432" VPOS="614" WIDTH="1"/>
+            <String ID="L0021_W08" CONTENT="Dr." HPOS="1431" VPOS="628" WIDTH="24" HEIGHT="22"/>
+          </TextLine>
+          <TextLine ID="L0022" HPOS="150" VPOS="619" WIDTH="635" HEIGHT="48">
+            <String ID="L0022_W01" CONTENT="Hackenberg" HPOS="150" VPOS="619" WIDTH="118" HEIGHT="47"/>
+            <SP HPOS="268" VPOS="619" WIDTH="2"/>
+            <String ID="L0022_W02" CONTENT="auf" HPOS="270" VPOS="619" WIDTH="44" HEIGHT="47"/>
+            <SP HPOS="314" VPOS="619" WIDTH="1"/>
+            <String ID="L0022_W03" CONTENT="und" HPOS="313" VPOS="619" WIDTH="51" HEIGHT="42"/>
+            <SP HPOS="364" VPOS="619" WIDTH="1"/>
+            <String ID="L0022_W04" CONTENT="setzte" HPOS="363" VPOS="619" WIDTH="66" HEIGHT="44"/>
+            <SP HPOS="429" VPOS="619" WIDTH="1"/>
+            <String ID="L0022_W05" CONTENT="auch" HPOS="428" VPOS="619" WIDTH="58" HEIGHT="46"/>
+            <SP HPOS="486" VPOS="619" WIDTH="1"/>
+            <String ID="L0022_W06" CONTENT="in" HPOS="485" VPOS="619" WIDTH="38" HEIGHT="40"/>
+            <SP HPOS="523" VPOS="619" WIDTH="1"/>
+            <String ID="L0022_W07" CONTENT="einer" HPOS="522" VPOS="619" WIDTH="67" HEIGHT="40"/>
+            <SP HPOS="589" VPOS="619" WIDTH="1"/>
+            <String ID="L0022_W08" CONTENT="Versammlung" HPOS="588" VPOS="619" WIDTH="160" HEIGHT="48"/>
+            <SP HPOS="748" VPOS="619" WIDTH="1"/>
+            <String ID="L0022_W09" CONTENT="den" HPOS="747" VPOS="634" WIDTH="38" HEIGHT="31"/>
+          </TextLine>
+          <TextLine ID="L0023" HPOS="820" VPOS="637" WIDTH="641" HEIGHT="46">
+            <String ID="L0023_W01" CONTENT="Beschluß" HPOS="820" VPOS="656" WIDTH="65" HEIGHT="25"/>
+            <SP HPOS="885" VPOS="656" WIDTH="1"/>
+            <String ID="L0023_W02" CONTENT="durch," HPOS="885" VPOS="637" WIDTH="64" HEIGHT="46"/>
+            <SP HPOS="949" VPOS="637" WIDTH="1"/>
+            <String ID="L0023_W03" CONTENT="daß" HPOS="948" VPOS="643" WIDTH="35" HEIGHT="35"/>
+            <SP HPOS="983" VPOS="643" WIDTH="1"/>
+            <String ID="L0023_W04" CONTENT="bei" HPOS="982" VPOS="637" WIDTH="62" HEIGHT="44"/>
+            <SP HPOS="1044" VPOS="637" WIDTH="1"/>
+            <String ID="L0023_W05" CONTENT="einem" HPOS="1043" VPOS="637" WIDTH="79" HEIGHT="44"/>
+            <SP HPOS="1122" VPOS="637" WIDTH="11"/>
+            <String ID="L0023_W06" CONTENT="Meinungsunterschied" HPOS="1133" VPOS="637" WIDTH="328" HEIGHT="46"/>
+          </TextLine>
+          <TextLine ID="L0024" HPOS="150" VPOS="644" WIDTH="635" HEIGHT="50">
+            <String ID="L0024_W01" CONTENT="und" HPOS="150" VPOS="644" WIDTH="78" HEIGHT="49"/>
+            <SP HPOS="228" VPOS="644" WIDTH="1"/>
+            <String ID="L0024_W02" CONTENT="Pflichtbewußtsein" HPOS="227" VPOS="644" WIDTH="225" HEIGHT="49"/>
+            <SP HPOS="452" VPOS="644" WIDTH="1"/>
+            <String ID="L0024_W03" CONTENT="ist" HPOS="451" VPOS="644" WIDTH="42" HEIGHT="44"/>
+            <SP HPOS="493" VPOS="644" WIDTH="2"/>
+            <String ID="L0024_W04" CONTENT="mit" HPOS="495" VPOS="644" WIDTH="49" HEIGHT="43"/>
+            <SP HPOS="544" VPOS="644" WIDTH="3"/>
+            <String ID="L0024_W05" CONTENT="jeder" HPOS="547" VPOS="644" WIDTH="68" HEIGHT="42"/>
+            <SP HPOS="615" VPOS="644" WIDTH="2"/>
+            <String ID="L0024_W06" CONTENT="politischen" HPOS="617" VPOS="644" WIDTH="107" HEIGHT="50"/>
+            <SP HPOS="724" VPOS="644" WIDTH="1"/>
+            <String ID="L0024_W07" CONTENT="An-" HPOS="723" VPOS="644" WIDTH="62" HEIGHT="44"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>
