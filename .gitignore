@@ -1,0 +1,10 @@
+# Corpus : volumineux et pas à nous de les redistribuer
+corpora/
+state/last_run.json
+state/pires.json
+__pycache__/
+*.pyc
+.venv/
+# jamais de clé
+.env
+*.key

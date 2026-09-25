@@ -1,0 +1,126 @@
+"""B3 — alignement DTW d'un gabarit rendu sur le profil d'encre observé.
+
+Fondement : les travaux d'alignement texte-image de documents historiques
+(Likforman-Sulem et al., survey IJDAR ; Kornfield et al.) alignent une image et
+sa transcription par *dynamic time warping* sur des profils simples — projection,
+profil de mot, transitions fond/encre — et y montrent que le DTW bat SSD et la
+distance euclidienne.
+
+Le retournement utile ici : le texte est CONNU (c'est la sortie du VLM). On le
+**rend** dans une fonte à l'échelle de la ligne, on calcule le profil d'encre du
+rendu, et on l'aligne sur le profil observé. Les frontières de mots sont exactes
+dans le rendu ; le chemin DTW les transporte vers l'image.
+
+Avantage décisif sur le CTC : aucun recognizer entraîné, donc aucun problème de
+domaine — c'est ce qui a fait échouer H1 sur du Fraktur.
+"""
+from __future__ import annotations
+import numpy as np
+from PIL import Image, ImageDraw, ImageFont
+import ink
+from band import core_band
+
+_CACHE: dict = {}
+
+
+def _font(px: int):
+    px = max(8, min(400, int(px)))
+    if px in _CACHE: return _CACHE[px]
+    f = None
+    for p in ('/System/Library/Fonts/Supplemental/Times New Roman.ttf',
+              '/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf',
+              '/System/Library/Fonts/Times.ttc'):
+        try:
+            f = ImageFont.truetype(p, px); break
+        except Exception:
+            continue
+    if f is None: f = ImageFont.load_default()
+    _CACHE[px] = f
+    return f
+
+
+def render_profile(words, px: int, space_ratio: float = 1.0):
+    """Rend le texte et renvoie (profil d'encre par colonne, frontières de mots).
+    Les frontières sont les milieux des espaces rendus — exactes par construction."""
+    f = _font(px)
+    sp = max(1.0, f.getlength(' ') * space_ratio)
+    widths = [max(1.0, f.getlength(w)) for w in words]
+    total = int(sum(widths) + sp*(len(words)-1)) + 4
+    h = int(px*1.8)
+    im = Image.new('L', (max(4, total), h), 255)
+    d = ImageDraw.Draw(im)
+    x = 2.0
+    spans = []
+    for i, (w, wd) in enumerate(zip(words, widths)):
+        d.text((x, px*0.25), w, font=f, fill=0)
+        spans.append((x, x+wd))
+        x += wd
+        if i < len(words)-1: x += sp
+    a = np.asarray(im)
+    prof = (a < 200).sum(axis=0).astype(float)
+    return prof, spans
+
+
+def dtw_path(a: np.ndarray, b: np.ndarray, band_frac: float = 0.25):
+    """Chemin DTW entre deux profils 1-D, avec bande de Sakoe-Chiba."""
+    n, m = len(a), len(b)
+    if n < 2 or m < 2: return None
+    a = (a - a.mean()) / (a.std() + 1e-6)
+    b = (b - b.mean()) / (b.std() + 1e-6)
+    w = max(8, int(max(n, m) * band_frac))
+    INF = 1e18
+    D = np.full((n+1, m+1), INF)
+    D[0, 0] = 0.0
+    for i in range(1, n+1):
+        j0 = max(1, int(i*m/n) - w); j1 = min(m, int(i*m/n) + w)
+        ai = a[i-1]
+        for j in range(j0, j1+1):
+            c = abs(ai - b[j-1])
+            D[i, j] = c + min(D[i-1, j], D[i, j-1], D[i-1, j-1])
+    if not np.isfinite(D[n, m]): return None
+    # remontée
+    i, j = n, m
+    map_ab = np.zeros(n, dtype=float)
+    cnt = np.zeros(n, dtype=float)
+    while i > 0 and j > 0:
+        map_ab[i-1] += j-1; cnt[i-1] += 1
+        step = int(np.argmin([D[i-1, j-1], D[i-1, j], D[i, j-1]]))
+        if step == 0: i, j = i-1, j-1
+        elif step == 1: i -= 1
+        else: j -= 1
+    cnt[cnt == 0] = 1
+    return map_ab/cnt
+
+
+class RenderDTW:
+    name = 'render_dtw'
+
+    def boxes(self, gray: np.ndarray, line):
+        mask, ox, oy = ink.line_mask(gray, line.line_box)
+        if mask.size <= 1: raise ValueError('masque vide')
+        a, b = core_band(mask)
+        obs = (mask[a:b+1, :] > 0).sum(axis=0).astype(float)
+        if obs.sum() <= 0: raise ValueError('pas d\'encre')
+        # échelle : hauteur du corps des minuscules ~ hauteur d'x de la fonte
+        px = max(8, int((b-a+1) / 0.46))
+        prof, spans = render_profile(line.words, px)
+        # on borne le rendu et l'observé à leur support d'encre
+        nz = np.nonzero(obs)[0]
+        o0, o1 = int(nz.min()), int(nz.max())
+        obs_c = obs[o0:o1+1]
+        nzp = np.nonzero(prof)[0]
+        p0, p1 = int(nzp.min()), int(nzp.max())
+        prof_c = prof[p0:p1+1]
+        path = dtw_path(prof_c, obs_c)
+        if path is None: raise ValueError('dtw échoue')
+        def to_obs(xr: float) -> float:
+            k = int(round(xr - p0))
+            k = max(0, min(len(path)-1, k))
+            return o0 + path[k]
+        out = []
+        for (sa, sb) in spans:
+            xa, xb = to_obs(sa), to_obs(sb)
+            if xb <= xa: xb = xa+1
+            ya, yb = ink.vertical_extent(mask, int(xa), int(xb))
+            out.append((ox+int(round(xa)), oy+ya, ox+int(round(xb)), oy+yb))
+        return out

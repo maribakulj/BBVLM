@@ -1,0 +1,64 @@
+{
+ "iteration": 1,
+ "champion": {
+  "nom": "band_gaps",
+  "err_p90": 0.0,
+  "max": 8.99,
+  "pct05": 97.07,
+  "iou": 0.897
+ },
+ "mesures": [
+  {
+   "boxer": "proportional",
+   "p90": 0.668,
+   "max": 3.38,
+   "pct05": 84.98,
+   "iou": 0.585,
+   "par_corpus": {
+    "PetitParisien": 86.66,
+    "BnF": 86.15,
+    "BNL": 83.55
+   }
+  },
+  {
+   "boxer": "inkgap_dp",
+   "p90": 3.539,
+   "max": 54.88,
+   "pct05": 64.73,
+   "iou": 0.585,
+   "par_corpus": {
+    "PetitParisien": 95.89,
+    "BnF": 97.19,
+    "BNL": 28.64
+   }
+  },
+  {
+   "boxer": "band_gaps",
+   "p90": 0.0,
+   "max": 8.99,
+   "pct05": 97.07,
+   "iou": 0.897,
+   "par_corpus": {
+    "PetitParisien": 98.53,
+    "BnF": 98.05,
+    "BNL": 36.07
+   },
+   "note": "B1 confirmé"
+  }
+ ],
+ "backlog": [
+  "B3_dtw_gabarit",
+  "B10_pire_cas",
+  "B9_corpus_basse_res",
+  "B4_pas_fixe",
+  "B5_otsu_blancs",
+  "B6_ctc_kraken",
+  "B7_viterbi_largeurs",
+  "B8_arbitrage"
+ ],
+ "fait": [
+  "B1_bande_verticale"
+ ],
+ "prochaine": "B3_dtw_gabarit",
+ "note_vt": "BNL écartée comme VT géométrique (blancs non vides). Banc 1151 -> 660 lignes."
+}
