@@ -1558,3 +1558,58 @@ qui franchit un filet, et un moteur qui fait confiance à son support.
 **Mesure en cours (B53)** : combien de lignes ont un support d'encre bien plus
 large que ne l'exige leur texte ? L'indice n'utilise que le texte et l'image,
 jamais la VT des mots — il est donc utilisable en production.
+
+## B53-B57 — l'encre étrangère, et pourquoi il ne fallait pas de détecteur
+
+**B53, prévalence.** Support d'encre rapporté à l'étendue du texte :
+
+| corpus | médiane | p99 | max | > 1,2× |
+|---|---|---|---|---|
+| Newseye | 1,00 | 1,18 | 15,87 | 70 / 7585 (0,9 %) |
+| BnF | 1,00 | 1,03 | 1,03 | 0 |
+| PetitParisien | 1,00 | 1,00 | 1,00 | 0 |
+
+Rare, mais c'est de là que vient toute la queue extrême.
+
+**B54, première version ÉCARTÉE.** Rogner d'après un seuil sur la largeur du
+support corrigeait bien le cas visé (boîtes à un pixel de la VT) et améliorait
+les 70 lignes suspectes, mais **dégradait BnF** : pire cas 1,84 → 9,04, 34
+frontières touchées là où B53 ne mesurait aucune pollution. Le seuil comparait le
+support à la largeur du gabarit *rendu en Times*, grandeur dépendante de la fonte
+et sans rapport avec le texte imprimé.
+
+**B55, le détecteur n'existe pas.** Cherché une règle sur deux grandeurs
+disponibles sans VT — support rapporté au nombre de caractères et à la hauteur du
+corps, et largeur du plus grand blanc interne. Les distributions se recouvrent :
+
+| règle | suspectes attrapées | saines abîmées |
+|---|---|---|
+| A=1,5 B=2,0 | 32 / 70 | 94 / 8157 |
+| A=2,0 B=2,0 | 22 / 70 | 46 / 8157 |
+| A=3,0 B=3,0 | 11 / 70 | 16 / 8157 |
+
+Aucun réglage ne donne une séparation exploitable. **Piste du détecteur abandonnée.**
+
+**B56, le principe qui marche : ne pas décider.** On propose au DTW les supports
+candidats — entier, et tronqué à chaque amas d'encre — et on garde celui dont le
+coût d'alignement normalisé est le plus faible. Le gabarit porte la forme du
+texte ; si l'encre étrangère le contrarie, le support rogné s'aligne mieux. Aucun
+seuil à régler, décision prise ligne par ligne sur une quantité que le moteur
+calcule déjà.
+
+| | `connexe` | `rogne` |
+|---|---|---|
+| Newseye, 175 frontières polluées | méd. 0,31 · p90 7,45 · max 33,31 · ≤0,5c 53,1 % | méd. 0,00 · p90 **2,40** · max 29,30 · ≤0,5c **73,7 %** |
+| BnF, contrôle (2773 frontières) | 99,4 % · max 1,84 | 99,4 % · max 1,84 — **1 frontière change sur 2773** |
+| PetitParisien, contrôle (682) | 99,1 % · max 1,32 | **682 / 682 identiques** |
+
+Et le cas qui avait tout déclenché :
+
+```
+VT      : ouvrier 2542-2671 | . 2692-2698
+connexe : ouvrier 2542-3330 | . 3353-3363   (second mot dans l'autre colonne)
+rogne   : ouvrier 2543-2670 | . 2692-2697   (à un pixel près)
+```
+
+**Banc complet en cours** — ces chiffres portent sur un sous-ensemble choisi, ils
+ne valent pas verdict tant que le corpus entier n'a pas parlé.
