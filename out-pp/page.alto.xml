@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>page.jpg</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="OCRP_VLM_FRESH">
+      <ocrProcessingStep>
+        <processingSoftware>
+          <softwareName>Claude Opus 5 (lecture) + connexe (géométrie) + comité de 5 moteurs (doute)</softwareName>
+        </processingSoftware>
+        <processingStepDescription>ALTO au mot. Texte lu à l'aveugle par un VLM de frontière, sans accès à la vérité terrain. Boîtes placées par projection d'encre (connexe). Les mots du décile le plus disputé par un comité de cinq moteurs portent a_remesurer et n'ont PAS été vérifiés : cette ALTO n'est pas une vérité terrain certifiée.</processingStepDescription>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="5060" HEIGHT="6708">
+      <PrintSpace ID="PS1" HPOS="916" VPOS="884" WIDTH="758" HEIGHT="587">
+        <TextBlock ID="B1" HPOS="916" VPOS="884" WIDTH="758" HEIGHT="587">
+          <TextLine ID="L0000" HPOS="917" VPOS="884" WIDTH="755" HEIGHT="46">
+            <String ID="L0000_W01" CONTENT="le" HPOS="917" VPOS="884" WIDTH="29" HEIGHT="30"/>
+            <SP HPOS="946" VPOS="884" WIDTH="13"/>
+            <String ID="L0000_W02" CONTENT="Journal" HPOS="959" VPOS="884" WIDTH="136" HEIGHT="31"/>
+            <SP HPOS="1095" VPOS="884" WIDTH="11"/>
+            <String ID="L0000_W03" CONTENT="des" HPOS="1106" VPOS="887" WIDTH="49" HEIGHT="30"/>
+            <SP HPOS="1155" VPOS="887" WIDTH="11"/>
+            <String ID="L0000_W04" CONTENT="Débats," HPOS="1166" VPOS="887" WIDTH="124" HEIGHT="38"/>
+            <SP HPOS="1290" VPOS="887" WIDTH="10"/>
+            <String ID="L0000_W05" CONTENT="le" HPOS="1300" VPOS="888" WIDTH="31" HEIGHT="31"/>
+            <SP HPOS="1331" VPOS="888" WIDTH="11"/>
+            <String ID="L0000_W06" CONTENT="Bon" HPOS="1342" VPOS="889" WIDTH="66" HEIGHT="30"/>
+            <SP HPOS="1408" VPOS="889" WIDTH="16"/>
+            <String ID="L0000_W07" CONTENT="sens," HPOS="1424" VPOS="899" WIDTH="76" HEIGHT="28"/>
+            <SP HPOS="1500" VPOS="899" WIDTH="16"/>
+            <String ID="L0000_W08" CONTENT="etc." HPOS="1516" VPOS="895" WIDTH="60" HEIGHT="27"/>
+            <SP HPOS="1576" VPOS="895" WIDTH="15"/>
+            <String ID="L0000_W09" CONTENT="On" HPOS="1591" VPOS="892" WIDTH="48" HEIGHT="32"/>
+            <SP HPOS="1639" VPOS="892" WIDTH="13"/>
+            <String ID="L0000_W10" CONTENT="y" HPOS="1652" VPOS="902" WIDTH="20" HEIGHT="28"/>
+          </TextLine>
+          <TextLine ID="L0001" HPOS="919" VPOS="926" WIDTH="752" HEIGHT="42">
+            <String ID="L0001_W01" CONTENT="trouve" HPOS="919" VPOS="926" WIDTH="112" HEIGHT="42"/>
+            <SP HPOS="1031" VPOS="926" WIDTH="10"/>
+            <String ID="L0001_W02" CONTENT="une" HPOS="1041" VPOS="933" WIDTH="60" HEIGHT="22"/>
+            <SP HPOS="1101" VPOS="933" WIDTH="13"/>
+            <String ID="L0001_W03" CONTENT="proclamation" HPOS="1114" VPOS="927" WIDTH="221" HEIGHT="37"/>
+            <SP HPOS="1335" VPOS="927" WIDTH="19"/>
+            <String ID="L0001_W04" CONTENT="que" HPOS="1354" VPOS="937" WIDTH="63" HEIGHT="29"/>
+            <SP HPOS="1417" VPOS="937" WIDTH="14"/>
+            <String ID="L0001_W05" CONTENT="Championnet," HPOS="1431" VPOS="928" WIDTH="240" HEIGHT="40"/>
+          </TextLine>
+          <TextLine ID="L0002" HPOS="918" VPOS="967" WIDTH="752" HEIGHT="39">
+            <String ID="L0002_W01" CONTENT="qui" HPOS="918" VPOS="971" WIDTH="55" HEIGHT="30"/>
+            <SP HPOS="973" VPOS="971" WIDTH="14"/>
+            <String ID="L0002_W02" CONTENT="doit" HPOS="987" VPOS="967" WIDTH="65" HEIGHT="26"/>
+            <SP HPOS="1052" VPOS="967" WIDTH="15"/>
+            <String ID="L0002_W03" CONTENT="mourir" HPOS="1067" VPOS="972" WIDTH="118" HEIGHT="22"/>
+            <SP HPOS="1185" VPOS="972" WIDTH="15"/>
+            <String ID="L0002_W04" CONTENT="huit" HPOS="1200" VPOS="967" WIDTH="72" HEIGHT="29"/>
+            <SP HPOS="1272" VPOS="967" WIDTH="10"/>
+            <String ID="L0002_W05" CONTENT="jours" HPOS="1282" VPOS="975" WIDTH="85" HEIGHT="28"/>
+            <SP HPOS="1367" VPOS="975" WIDTH="11"/>
+            <String ID="L0002_W06" CONTENT="après" HPOS="1378" VPOS="969" WIDTH="92" HEIGHT="37"/>
+            <SP HPOS="1470" VPOS="969" WIDTH="15"/>
+            <String ID="L0002_W07" CONTENT="à" HPOS="1485" VPOS="970" WIDTH="21" HEIGHT="27"/>
+            <SP HPOS="1506" VPOS="970" WIDTH="18"/>
+            <String ID="L0002_W08" CONTENT="Antibes," HPOS="1524" VPOS="970" WIDTH="146" HEIGHT="36"/>
+          </TextLine>
+          <TextLine ID="L0003" HPOS="917" VPOS="1002" WIDTH="757" HEIGHT="42">
+            <String ID="L0003_W01" CONTENT="adresse" HPOS="917" VPOS="1002" WIDTH="131" HEIGHT="30"/>
+            <SP HPOS="1048" VPOS="1002" WIDTH="15"/>
+            <String ID="L0003_W02" CONTENT="à" HPOS="1063" VPOS="1003" WIDTH="19" HEIGHT="28"/>
+            <SP HPOS="1082" VPOS="1003" WIDTH="10"/>
+            <String ID="L0003_W03" CONTENT="l'armée" HPOS="1092" VPOS="1003" WIDTH="129" HEIGHT="31"/>
+            <SP HPOS="1221" VPOS="1003" WIDTH="12"/>
+            <String ID="L0003_W04" CONTENT="d'Italie" HPOS="1233" VPOS="1005" WIDTH="121" HEIGHT="30"/>
+            <SP HPOS="1354" VPOS="1005" WIDTH="14"/>
+            <String ID="L0003_W05" CONTENT="pour" HPOS="1368" VPOS="1013" WIDTH="79" HEIGHT="31"/>
+            <SP HPOS="1447" VPOS="1013" WIDTH="11"/>
+            <String ID="L0003_W06" CONTENT="lui" HPOS="1458" VPOS="1006" WIDTH="43" HEIGHT="30"/>
+            <SP HPOS="1501" VPOS="1006" WIDTH="15"/>
+            <String ID="L0003_W07" CONTENT="annoncer" HPOS="1516" VPOS="1015" WIDTH="158" HEIGHT="24"/>
+          </TextLine>
+          <TextLine ID="L0004" HPOS="918" VPOS="1042" WIDTH="753" HEIGHT="41">
+            <String ID="L0004_W01" CONTENT="la" HPOS="918" VPOS="1042" WIDTH="28" HEIGHT="28"/>
+            <SP HPOS="946" VPOS="1042" WIDTH="15"/>
+            <String ID="L0004_W02" CONTENT="promulgation" HPOS="961" VPOS="1042" WIDTH="228" HEIGHT="39"/>
+            <SP HPOS="1189" VPOS="1042" WIDTH="14"/>
+            <String ID="L0004_W03" CONTENT="de" HPOS="1203" VPOS="1043" WIDTH="39" HEIGHT="31"/>
+            <SP HPOS="1242" VPOS="1043" WIDTH="18"/>
+            <String ID="L0004_W04" CONTENT="la" HPOS="1260" VPOS="1043" WIDTH="29" HEIGHT="31"/>
+            <SP HPOS="1289" VPOS="1043" WIDTH="12"/>
+            <String ID="L0004_W05" CONTENT="constitution" HPOS="1301" VPOS="1048" WIDTH="202" HEIGHT="28"/>
+            <SP HPOS="1503" VPOS="1048" WIDTH="14"/>
+            <String ID="L0004_W06" CONTENT="nouvelle," HPOS="1517" VPOS="1048" WIDTH="154" HEIGHT="35"/>
+          </TextLine>
+          <TextLine ID="L0005" HPOS="920" VPOS="1083" WIDTH="753" HEIGHT="40">
+            <String ID="L0005_W01" CONTENT="«" HPOS="920" VPOS="1092" WIDTH="16" HEIGHT="15"/>
+            <SP HPOS="936" VPOS="1092" WIDTH="11"/>
+            <String ID="L0005_W02" CONTENT="qui" HPOS="947" VPOS="1090" WIDTH="53" HEIGHT="28"/>
+            <SP HPOS="1000" VPOS="1090" WIDTH="10"/>
+            <String ID="L0005_W03" CONTENT="assurera" HPOS="1010" VPOS="1091" WIDTH="146" HEIGHT="21"/>
+            <SP HPOS="1156" VPOS="1091" WIDTH="14"/>
+            <String ID="L0005_W04" CONTENT="la" HPOS="1170" VPOS="1083" WIDTH="28" HEIGHT="29"/>
+            <SP HPOS="1198" VPOS="1083" WIDTH="11"/>
+            <String ID="L0005_W05" CONTENT="paix" HPOS="1209" VPOS="1083" WIDTH="70" HEIGHT="37"/>
+            <SP HPOS="1279" VPOS="1083" WIDTH="9"/>
+            <String ID="L0005_W06" CONTENT="au" HPOS="1288" VPOS="1093" WIDTH="40" HEIGHT="20"/>
+            <SP HPOS="1328" VPOS="1093" WIDTH="11"/>
+            <String ID="L0005_W07" CONTENT="dedans" HPOS="1339" VPOS="1083" WIDTH="119" HEIGHT="31"/>
+            <SP HPOS="1458" VPOS="1083" WIDTH="12"/>
+            <String ID="L0005_W08" CONTENT="par" HPOS="1470" VPOS="1094" WIDTH="55" HEIGHT="29"/>
+            <SP HPOS="1525" VPOS="1094" WIDTH="7"/>
+            <String ID="L0005_W09" CONTENT="l'empire" HPOS="1532" VPOS="1085" WIDTH="141" HEIGHT="38"/>
+          </TextLine>
+          <TextLine ID="L0006" HPOS="918" VPOS="1119" WIDTH="754" HEIGHT="41">
+            <String ID="L0006_W01" CONTENT="de" HPOS="918" VPOS="1119" WIDTH="43" HEIGHT="28"/>
+            <SP HPOS="961" VPOS="1119" WIDTH="10"/>
+            <String ID="L0006_W02" CONTENT="la" HPOS="971" VPOS="1119" WIDTH="29" HEIGHT="29"/>
+            <SP HPOS="1000" VPOS="1119" WIDTH="10"/>
+            <String ID="L0006_W03" CONTENT="loi" HPOS="1010" VPOS="1120" WIDTH="43" HEIGHT="28"/>
+            <SP HPOS="1053" VPOS="1120" WIDTH="9"/>
+            <String ID="L0006_W04" CONTENT="et" HPOS="1062" VPOS="1122" WIDTH="33" HEIGHT="27"/>
+            <SP HPOS="1095" VPOS="1122" WIDTH="13"/>
+            <String ID="L0006_W05" CONTENT="la" HPOS="1108" VPOS="1120" WIDTH="28" HEIGHT="29"/>
+            <SP HPOS="1136" VPOS="1120" WIDTH="10"/>
+            <String ID="L0006_W06" CONTENT="paix" HPOS="1146" VPOS="1128" WIDTH="69" HEIGHT="30"/>
+            <SP HPOS="1215" VPOS="1128" WIDTH="9"/>
+            <String ID="L0006_W07" CONTENT="au" HPOS="1224" VPOS="1130" WIDTH="40" HEIGHT="20"/>
+            <SP HPOS="1264" VPOS="1130" WIDTH="15"/>
+            <String ID="L0006_W08" CONTENT="dehors" HPOS="1279" VPOS="1121" WIDTH="115" HEIGHT="30"/>
+            <SP HPOS="1394" VPOS="1121" WIDTH="10"/>
+            <String ID="L0006_W09" CONTENT="par" HPOS="1404" VPOS="1131" WIDTH="55" HEIGHT="29"/>
+            <SP HPOS="1459" VPOS="1131" WIDTH="6"/>
+            <String ID="L0006_W10" CONTENT="la" HPOS="1465" VPOS="1123" WIDTH="29" HEIGHT="29"/>
+            <SP HPOS="1494" VPOS="1123" WIDTH="10"/>
+            <String ID="L0006_W11" CONTENT="victoire" HPOS="1504" VPOS="1122" WIDTH="128" HEIGHT="30"/>
+            <SP HPOS="1632" VPOS="1122" WIDTH="11"/>
+            <String ID="L0006_W12" CONTENT="»." HPOS="1643" VPOS="1135" WIDTH="29" HEIGHT="18"/>
+          </TextLine>
+          <TextLine ID="L0007" HPOS="919" VPOS="1163" WIDTH="755" HEIGHT="43">
+            <String ID="L0007_W01" CONTENT="C'est" HPOS="919" VPOS="1163" WIDTH="89" HEIGHT="25"/>
+            <SP HPOS="1008" VPOS="1163" WIDTH="13"/>
+            <String ID="L0007_W02" CONTENT="Masséna" HPOS="1021" VPOS="1163" WIDTH="149" HEIGHT="38"/>
+            <SP HPOS="1170" VPOS="1163" WIDTH="14"/>
+            <String ID="L0007_W03" CONTENT="qui" HPOS="1184" VPOS="1168" WIDTH="55" HEIGHT="30"/>
+            <SP HPOS="1239" VPOS="1168" WIDTH="21"/>
+            <String ID="L0007_W04" CONTENT="succédera" HPOS="1260" VPOS="1163" WIDTH="178" HEIGHT="27"/>
+            <SP HPOS="1438" VPOS="1163" WIDTH="14"/>
+            <String ID="L0007_W05" CONTENT="à" HPOS="1452" VPOS="1163" WIDTH="18" HEIGHT="27"/>
+            <SP HPOS="1470" VPOS="1163" WIDTH="16"/>
+            <String ID="L0007_W06" CONTENT="Champion-" HPOS="1486" VPOS="1163" WIDTH="188" HEIGHT="43" SUBS_TYPE="HypPart1" SUBS_CONTENT="Championnet"/>
+          </TextLine>
+          <TextLine ID="L0008" HPOS="918" VPOS="1202" WIDTH="756" HEIGHT="35">
+            <String ID="L0008_W01" CONTENT="net," HPOS="918" VPOS="1202" WIDTH="64" HEIGHT="31" SUBS_TYPE="HypPart2" SUBS_CONTENT="Championnet"/>
+            <SP HPOS="982" VPOS="1202" WIDTH="15"/>
+            <String ID="L0008_W02" CONTENT="disant" HPOS="997" VPOS="1202" WIDTH="107" HEIGHT="25"/>
+            <SP HPOS="1104" VPOS="1202" WIDTH="24"/>
+            <String ID="L0008_W03" CONTENT="aux" HPOS="1128" VPOS="1207" WIDTH="64" HEIGHT="21"/>
+            <SP HPOS="1192" VPOS="1207" WIDTH="24"/>
+            <String ID="L0008_W04" CONTENT="troupes" HPOS="1216" VPOS="1202" WIDTH="126" HEIGHT="35"/>
+            <SP HPOS="1342" VPOS="1202" WIDTH="24"/>
+            <String ID="L0008_W05" CONTENT=":" HPOS="1366" VPOS="1224" WIDTH="12" HEIGHT="3"/>
+            <SP HPOS="1378" VPOS="1224" WIDTH="11"/>
+            <String ID="L0008_W06" CONTENT="«" HPOS="1389" VPOS="1210" WIDTH="15" HEIGHT="16"/>
+            <SP HPOS="1404" VPOS="1210" WIDTH="23"/>
+            <String ID="L0008_W07" CONTENT="Soldats" HPOS="1427" VPOS="1202" WIDTH="128" HEIGHT="29"/>
+            <SP HPOS="1555" VPOS="1202" WIDTH="28"/>
+            <String ID="L0008_W08" CONTENT="de" HPOS="1583" VPOS="1202" WIDTH="39" HEIGHT="29"/>
+            <SP HPOS="1622" VPOS="1202" WIDTH="23"/>
+            <String ID="L0008_W09" CONTENT="la" HPOS="1645" VPOS="1210" WIDTH="29" HEIGHT="21"/>
+          </TextLine>
+          <TextLine ID="L0009" HPOS="918" VPOS="1235" WIDTH="753" HEIGHT="38">
+            <String ID="L0009_W01" CONTENT="brave" HPOS="918" VPOS="1235" WIDTH="97" HEIGHT="29"/>
+            <SP HPOS="1015" VPOS="1235" WIDTH="25"/>
+            <String ID="L0009_W02" CONTENT="armée" HPOS="1040" VPOS="1238" WIDTH="108" HEIGHT="28"/>
+            <SP HPOS="1148" VPOS="1238" WIDTH="26"/>
+            <String ID="L0009_W03" CONTENT="d'Italie," HPOS="1174" VPOS="1236" WIDTH="133" HEIGHT="35"/>
+            <SP HPOS="1307" VPOS="1236" WIDTH="30"/>
+            <String ID="L0009_W04" CONTENT="si" HPOS="1337" VPOS="1238" WIDTH="27" HEIGHT="29"/>
+            <SP HPOS="1364" VPOS="1238" WIDTH="23"/>
+            <String ID="L0009_W05" CONTENT="célèbre" HPOS="1387" VPOS="1239" WIDTH="125" HEIGHT="30"/>
+            <SP HPOS="1512" VPOS="1239" WIDTH="24"/>
+            <String ID="L0009_W06" CONTENT="par" HPOS="1536" VPOS="1248" WIDTH="56" HEIGHT="25"/>
+            <SP HPOS="1592" VPOS="1248" WIDTH="28"/>
+            <String ID="L0009_W07" CONTENT="ses" HPOS="1620" VPOS="1249" WIDTH="51" HEIGHT="20"/>
+          </TextLine>
+          <TextLine ID="L0010" HPOS="919" VPOS="1272" WIDTH="755" HEIGHT="39">
+            <String ID="L0010_W01" CONTENT="triomphes," HPOS="919" VPOS="1272" WIDTH="183" HEIGHT="39"/>
+            <SP HPOS="1102" VPOS="1272" WIDTH="29"/>
+            <String ID="L0010_W02" CONTENT="je" HPOS="1131" VPOS="1275" WIDTH="30" HEIGHT="36"/>
+            <SP HPOS="1161" VPOS="1275" WIDTH="31"/>
+            <String ID="L0010_W03" CONTENT="me" HPOS="1192" VPOS="1284" WIDTH="52" HEIGHT="21"/>
+            <SP HPOS="1244" VPOS="1284" WIDTH="31"/>
+            <String ID="L0010_W04" CONTENT="dévoue," HPOS="1275" VPOS="1277" WIDTH="135" HEIGHT="34"/>
+            <SP HPOS="1410" VPOS="1277" WIDTH="28"/>
+            <String ID="L0010_W05" CONTENT="en" HPOS="1438" VPOS="1286" WIDTH="40" HEIGHT="21"/>
+            <SP HPOS="1478" VPOS="1286" WIDTH="33"/>
+            <String ID="L0010_W06" CONTENT="acceptant" HPOS="1511" VPOS="1281" WIDTH="163" HEIGHT="30"/>
+          </TextLine>
+          <TextLine ID="L0011" HPOS="916" VPOS="1307" WIDTH="757" HEIGHT="44">
+            <String ID="L0011_W01" CONTENT="l'honneur" HPOS="916" VPOS="1312" WIDTH="164" HEIGHT="30"/>
+            <SP HPOS="1080" VPOS="1312" WIDTH="14"/>
+            <String ID="L0011_W02" CONTENT="de" HPOS="1094" VPOS="1314" WIDTH="43" HEIGHT="29"/>
+            <SP HPOS="1137" VPOS="1314" WIDTH="11"/>
+            <String ID="L0011_W03" CONTENT="vous" HPOS="1148" VPOS="1323" WIDTH="78" HEIGHT="22"/>
+            <SP HPOS="1226" VPOS="1323" WIDTH="16"/>
+            <String ID="L0011_W04" CONTENT="commander," HPOS="1242" VPOS="1317" WIDTH="217" HEIGHT="34"/>
+            <SP HPOS="1459" VPOS="1317" WIDTH="10"/>
+            <String ID="L0011_W05" CONTENT="aux" HPOS="1469" VPOS="1325" WIDTH="60" HEIGHT="21"/>
+            <SP HPOS="1529" VPOS="1325" WIDTH="13"/>
+            <String ID="L0011_W06" CONTENT="intérêts" HPOS="1542" VPOS="1307" WIDTH="131" HEIGHT="41"/>
+          </TextLine>
+          <TextLine ID="L0012" HPOS="918" VPOS="1352" WIDTH="755" HEIGHT="43">
+            <String ID="L0012_W01" CONTENT="du" HPOS="918" VPOS="1352" WIDTH="41" HEIGHT="29"/>
+            <SP HPOS="959" VPOS="1352" WIDTH="14"/>
+            <String ID="L0012_W02" CONTENT="pays" HPOS="973" VPOS="1361" WIDTH="77" HEIGHT="34"/>
+            <SP HPOS="1050" VPOS="1361" WIDTH="15"/>
+            <String ID="L0012_W03" CONTENT="et" HPOS="1065" VPOS="1354" WIDTH="31" HEIGHT="28"/>
+            <SP HPOS="1096" VPOS="1354" WIDTH="16"/>
+            <String ID="L0012_W04" CONTENT="je" HPOS="1112" VPOS="1354" WIDTH="27" HEIGHT="36"/>
+            <SP HPOS="1139" VPOS="1354" WIDTH="15"/>
+            <String ID="L0012_W05" CONTENT="cède" HPOS="1154" VPOS="1354" WIDTH="77" HEIGHT="29"/>
+            <SP HPOS="1231" VPOS="1354" WIDTH="12"/>
+            <String ID="L0012_W06" CONTENT="à" HPOS="1243" VPOS="1356" WIDTH="18" HEIGHT="28"/>
+            <SP HPOS="1261" VPOS="1356" WIDTH="14"/>
+            <String ID="L0012_W07" CONTENT="la" HPOS="1275" VPOS="1354" WIDTH="28" HEIGHT="30"/>
+            <SP HPOS="1303" VPOS="1354" WIDTH="13"/>
+            <String ID="L0012_W08" CONTENT="voix" HPOS="1316" VPOS="1355" WIDTH="70" HEIGHT="31"/>
+            <SP HPOS="1386" VPOS="1355" WIDTH="14"/>
+            <String ID="L0012_W09" CONTENT="d'un" HPOS="1400" VPOS="1355" WIDTH="74" HEIGHT="31"/>
+            <SP HPOS="1474" VPOS="1355" WIDTH="15"/>
+            <String ID="L0012_W10" CONTENT="héros" HPOS="1489" VPOS="1356" WIDTH="92" HEIGHT="30"/>
+            <SP HPOS="1581" VPOS="1356" WIDTH="16"/>
+            <String ID="L0012_W11" CONTENT="dont" HPOS="1597" VPOS="1357" WIDTH="76" HEIGHT="29"/>
+          </TextLine>
+          <TextLine ID="L0013" HPOS="916" VPOS="1391" WIDTH="758" HEIGHT="34">
+            <String ID="L0013_W01" CONTENT="l'amitié" HPOS="916" VPOS="1391" WIDTH="128" HEIGHT="30"/>
+            <SP HPOS="1044" VPOS="1391" WIDTH="23"/>
+            <String ID="L0013_W02" CONTENT="et" HPOS="1067" VPOS="1394" WIDTH="32" HEIGHT="27"/>
+            <SP HPOS="1099" VPOS="1394" WIDTH="19"/>
+            <String ID="L0013_W03" CONTENT="la" HPOS="1118" VPOS="1392" WIDTH="30" HEIGHT="30"/>
+            <SP HPOS="1148" VPOS="1392" WIDTH="28"/>
+            <String ID="L0013_W04" CONTENT="conflance" HPOS="1176" VPOS="1392" WIDTH="159" HEIGHT="32"/>
+            <SP HPOS="1335" VPOS="1392" WIDTH="25"/>
+            <String ID="L0013_W05" CONTENT="m'honorent" HPOS="1360" VPOS="1394" WIDTH="195" HEIGHT="31"/>
+            <SP HPOS="1555" VPOS="1394" WIDTH="22"/>
+            <String ID="L0013_W06" CONTENT="»." HPOS="1577" VPOS="1407" WIDTH="28" HEIGHT="17"/>
+            <SP HPOS="1605" VPOS="1407" WIDTH="26"/>
+            <String ID="L0013_W07" CONTENT="Le" HPOS="1631" VPOS="1396" WIDTH="43" HEIGHT="29"/>
+          </TextLine>
+          <TextLine ID="L0014" HPOS="916" VPOS="1430" WIDTH="758" HEIGHT="41">
+            <String ID="L0014_W01" CONTENT="général" HPOS="916" VPOS="1430" WIDTH="127" HEIGHT="37"/>
+            <SP HPOS="1043" VPOS="1430" WIDTH="16"/>
+            <String ID="L0014_W02" CONTENT="Brune" HPOS="1059" VPOS="1430" WIDTH="106" HEIGHT="31"/>
+            <SP HPOS="1165" VPOS="1430" WIDTH="14"/>
+            <String ID="L0014_W03" CONTENT="adresse" HPOS="1179" VPOS="1432" WIDTH="131" HEIGHT="30"/>
+            <SP HPOS="1310" VPOS="1432" WIDTH="21"/>
+            <String ID="L0014_W04" CONTENT="d'Angers" HPOS="1331" VPOS="1434" WIDTH="157" HEIGHT="37"/>
+            <SP HPOS="1488" VPOS="1434" WIDTH="23"/>
+            <String ID="L0014_W05" CONTENT="à" HPOS="1511" VPOS="1437" WIDTH="19" HEIGHT="28"/>
+            <SP HPOS="1530" VPOS="1437" WIDTH="16"/>
+            <String ID="L0014_W06" CONTENT="l'armée" HPOS="1546" VPOS="1434" WIDTH="128" HEIGHT="31"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

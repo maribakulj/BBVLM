@@ -1,0 +1,27 @@
+{
+ "image": "0015.png",
+ "corpus": "BNLfull",
+ "page": "101/0015",
+ "taille": [
+  749,
+  675
+ ],
+ "lecture": {
+  "par": "Claude Opus 5, à l'aveugle",
+  "lignes": 18,
+  "accord_avec_la_VT": "16 lignes sur 18 identiques ; 2 écarts — un choix d'encodage (guillemet de répétition) et une ERREUR DE LA VT (Esch-sur-I'Alzette pour l'Alzette)"
+ },
+ "geometrie": {
+  "moteur": "connexe",
+  "lignes_placees": 18,
+  "mots": 79
+ },
+ "doute": {
+  "methode": "désaccord d'un comité de 5 moteurs (Seung, Opper & Sompolinsky 1992)",
+  "seuil": "décile le plus disputé de CETTE page",
+  "mots_marques": 7,
+  "taux": 8.9
+ },
+ "ecartees": [],
+ "avertissement": "Les mots marqués a_remesurer n'ont pas été vérifiés au relevé sur règle. Cette ALTO est une PRODUCTION, pas une vérité terrain certifiée. La page choisie est petite (18 lignes) pour que sa lecture par le VLM soit intégralement vérifiable ; c'est aussi le corpus sur lequel le moteur géométrique échoue le plus (34,43 % des frontières sous 0,5 caractère au banc complet)."
+}

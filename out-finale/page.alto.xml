@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>0015.png</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="OCRP_VLM_FRESH">
+      <ocrProcessingStep>
+        <processingSoftware>
+          <softwareName>Claude Opus 5 (lecture) + connexe (géométrie) + comité de 5 moteurs (doute)</softwareName>
+        </processingSoftware>
+        <processingStepDescription>ALTO au mot. Texte lu à l'aveugle par un VLM de frontière, sans accès à la vérité terrain. Boîtes placées par projection d'encre (connexe). Les mots du décile le plus disputé par un comité de cinq moteurs portent a_remesurer et n'ont PAS été vérifiés : cette ALTO n'est pas une vérité terrain certifiée.</processingStepDescription>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="749" HEIGHT="675">
+      <PrintSpace ID="PS1" HPOS="3" VPOS="1" WIDTH="629" HEIGHT="566">
+        <TextBlock ID="B1" HPOS="3" VPOS="1" WIDTH="629" HEIGHT="566">
+          <TextLine ID="L0000" HPOS="7" VPOS="1" WIDTH="624" HEIGHT="34">
+            <String ID="L0000_W01" CONTENT="Luxembourg" HPOS="7" VPOS="1" WIDTH="199" HEIGHT="34"/>
+            <SP HPOS="206" VPOS="1" WIDTH="95"/>
+            <String ID="L0000_W02" CONTENT="141" HPOS="301" VPOS="4" WIDTH="45" HEIGHT="24"/>
+            <SP HPOS="346" VPOS="4" WIDTH="25"/>
+            <String ID="L0000_W03" CONTENT="Dép......" HPOS="371" VPOS="3" WIDTH="40" HEIGHT="25"/>
+            <SP HPOS="411" VPOS="3" WIDTH="4"/>
+            <String ID="L0000_W04" CONTENT="fr." HPOS="415" VPOS="12" WIDTH="49" HEIGHT="23"/>
+            <SP HPOS="464" VPOS="12" WIDTH="29"/>
+            <String ID="L0000_W05" CONTENT="12315" HPOS="493" VPOS="3" WIDTH="90" HEIGHT="26"/>
+            <SP HPOS="583" VPOS="3" WIDTH="24"/>
+            <String ID="L0000_W06" CONTENT="31" HPOS="607" VPOS="5" WIDTH="24" HEIGHT="24"/>
+          </TextLine>
+          <TextLine ID="L0001" HPOS="10" VPOS="37" WIDTH="622" HEIGHT="28">
+            <String ID="L0001_W01" CONTENT="Bascharage" HPOS="10" VPOS="37" WIDTH="193" HEIGHT="25"/>
+            <SP HPOS="203" VPOS="37" WIDTH="132"/>
+            <String ID="L0001_W02" CONTENT="5" HPOS="335" VPOS="40" WIDTH="15" HEIGHT="23"/>
+            <SP HPOS="350" VPOS="40" WIDTH="40"/>
+            <String ID="L0001_W03" CONTENT="id......." HPOS="390" VPOS="40" WIDTH="60" HEIGHT="24"/>
+            <SP HPOS="450" VPOS="40" WIDTH="10"/>
+            <String ID="L0001_W04" CONTENT="1118" HPOS="460" VPOS="58" WIDTH="62" HEIGHT="7"/>
+            <SP HPOS="522" VPOS="58" WIDTH="10"/>
+            <String ID="L0001_W05" CONTENT="75" HPOS="532" VPOS="43" WIDTH="100" HEIGHT="22"/>
+          </TextLine>
+          <TextLine ID="L0002" HPOS="11" VPOS="59" WIDTH="405" HEIGHT="36">
+            <String ID="L0002_W01" CONTENT="Bettembourg" HPOS="11" VPOS="59" WIDTH="154" HEIGHT="36"/>
+            <SP HPOS="165" VPOS="59" WIDTH="2"/>
+            <String ID="L0002_W02" CONTENT="4" HPOS="167" VPOS="61" WIDTH="5" HEIGHT="34"/>
+            <SP HPOS="172" VPOS="61" WIDTH="6"/>
+            <String ID="L0002_W03" CONTENT="id......." HPOS="178" VPOS="82" WIDTH="32" HEIGHT="13"/>
+            <SP HPOS="210" VPOS="82" WIDTH="127"/>
+            <String ID="L0002_W04" CONTENT="457" HPOS="337" VPOS="75" WIDTH="61" HEIGHT="20"/>
+            <SP HPOS="398" VPOS="75" WIDTH="4"/>
+            <String ID="L0002_W05" CONTENT="25" HPOS="402" VPOS="75" WIDTH="14" HEIGHT="20"/>
+          </TextLine>
+          <TextLine ID="L0003" HPOS="8" VPOS="91" WIDTH="531" HEIGHT="33">
+            <String ID="L0003_W01" CONTENT="Capellen" HPOS="8" VPOS="91" WIDTH="176" HEIGHT="33"/>
+            <SP HPOS="184" VPOS="91" WIDTH="8"/>
+            <String ID="L0003_W02" CONTENT="5" HPOS="192" VPOS="93" WIDTH="15" HEIGHT="14"/>
+            <SP HPOS="207" VPOS="93" WIDTH="130"/>
+            <String ID="L0003_W03" CONTENT="id......." HPOS="337" VPOS="91" WIDTH="61" HEIGHT="33"/>
+            <SP HPOS="398" VPOS="91" WIDTH="3"/>
+            <String ID="L0003_W04" CONTENT="620" HPOS="401" VPOS="91" WIDTH="138" HEIGHT="33"/>
+          </TextLine>
+          <TextLine ID="L0004" HPOS="9" VPOS="120" WIDTH="529" HEIGHT="25">
+            <String ID="L0004_W01" CONTENT="Clervaux" HPOS="9" VPOS="120" WIDTH="136" HEIGHT="25"/>
+            <SP HPOS="145" VPOS="120" WIDTH="191"/>
+            <String ID="L0004_W02" CONTENT="4" HPOS="336" VPOS="120" WIDTH="15" HEIGHT="15"/>
+            <SP HPOS="351" VPOS="120" WIDTH="37"/>
+            <String ID="L0004_W03" CONTENT="id......." HPOS="388" VPOS="120" WIDTH="78" HEIGHT="16"/>
+            <SP HPOS="466" VPOS="120" WIDTH="11"/>
+            <String ID="L0004_W04" CONTENT="210" HPOS="477" VPOS="130" WIDTH="61" HEIGHT="6"/>
+          </TextLine>
+          <TextLine ID="L0005" HPOS="7" VPOS="148" WIDTH="421" HEIGHT="43">
+            <String ID="L0005_W01" CONTENT="Dalheim" HPOS="7" VPOS="148" WIDTH="119" HEIGHT="43"/>
+            <SP HPOS="126" VPOS="148" WIDTH="4"/>
+            <String ID="L0005_W02" CONTENT="&quot;" HPOS="130" VPOS="153" WIDTH="16" HEIGHT="16"/>
+            <SP HPOS="146" VPOS="153" WIDTH="187"/>
+            <String ID="L0005_W03" CONTENT="id......." HPOS="333" VPOS="148" WIDTH="61" HEIGHT="37"/>
+            <SP HPOS="394" VPOS="148" WIDTH="4"/>
+            <String ID="L0005_W04" CONTENT="&quot;" HPOS="398" VPOS="148" WIDTH="30" HEIGHT="43"/>
+          </TextLine>
+          <TextLine ID="L0006" HPOS="8" VPOS="178" WIDTH="526" HEIGHT="33">
+            <String ID="L0006_W01" CONTENT="Esch-sur-l'Alzette" HPOS="8" VPOS="179" WIDTH="127" HEIGHT="25"/>
+            <SP HPOS="135" VPOS="179" WIDTH="24"/>
+            <String ID="L0006_W02" CONTENT="2" HPOS="159" VPOS="178" WIDTH="153" HEIGHT="33"/>
+            <SP HPOS="312" VPOS="178" WIDTH="23"/>
+            <String ID="L0006_W03" CONTENT="id......." HPOS="335" VPOS="181" WIDTH="129" HEIGHT="29"/>
+            <SP HPOS="464" VPOS="181" WIDTH="30"/>
+            <String ID="L0006_W04" CONTENT="245" HPOS="494" VPOS="200" WIDTH="40" HEIGHT="6"/>
+          </TextLine>
+          <TextLine ID="L0007" HPOS="8" VPOS="214" WIDTH="529" HEIGHT="28">
+            <String ID="L0007_W01" CONTENT="Esch-sur-la-Sûre" HPOS="8" VPOS="214" WIDTH="287" HEIGHT="26"/>
+            <SP HPOS="295" VPOS="214" WIDTH="39"/>
+            <String ID="L0007_W02" CONTENT="2" HPOS="334" VPOS="217" WIDTH="14" HEIGHT="22"/>
+            <SP HPOS="348" VPOS="217" WIDTH="39"/>
+            <String ID="L0007_W03" CONTENT="id......." HPOS="387" VPOS="216" WIDTH="26" HEIGHT="23"/>
+            <SP HPOS="413" VPOS="216" WIDTH="117"/>
+            <String ID="L0007_W04" CONTENT="70" HPOS="530" VPOS="235" WIDTH="7" HEIGHT="7"/>
+          </TextLine>
+          <TextLine ID="L0008" HPOS="5" VPOS="248" WIDTH="409" HEIGHT="24">
+            <String ID="L0008_W01" CONTENT="Ettelbruck" HPOS="5" VPOS="248" WIDTH="221" HEIGHT="24"/>
+            <SP HPOS="226" VPOS="248" WIDTH="1"/>
+            <String ID="L0008_W02" CONTENT="11" HPOS="225" VPOS="251" WIDTH="19" HEIGHT="21"/>
+            <SP HPOS="244" VPOS="251" WIDTH="3"/>
+            <String ID="L0008_W03" CONTENT="id......." HPOS="247" VPOS="258" WIDTH="24" HEIGHT="14"/>
+            <SP HPOS="271" VPOS="258" WIDTH="1"/>
+            <String ID="L0008_W04" CONTENT="972" HPOS="270" VPOS="253" WIDTH="80" HEIGHT="19"/>
+            <SP HPOS="350" VPOS="253" WIDTH="38"/>
+            <String ID="L0008_W05" CONTENT="50" HPOS="388" VPOS="250" WIDTH="26" HEIGHT="22"/>
+          </TextLine>
+          <TextLine ID="L0009" HPOS="5" VPOS="268" WIDTH="460" HEIGHT="34">
+            <String ID="L0009_W01" CONTENT="Grevenmacher" HPOS="5" VPOS="284" WIDTH="220" HEIGHT="18"/>
+            <SP HPOS="225" VPOS="284" WIDTH="1"/>
+            <String ID="L0009_W02" CONTENT="12" HPOS="224" VPOS="268" WIDTH="20" HEIGHT="7"/>
+            <SP HPOS="244" VPOS="268" WIDTH="74"/>
+            <String ID="L0009_W03" CONTENT="id......." HPOS="318" VPOS="288" WIDTH="31" HEIGHT="14"/>
+            <SP HPOS="349" VPOS="288" WIDTH="39"/>
+            <String ID="L0009_W04" CONTENT="234" HPOS="388" VPOS="269" WIDTH="28" HEIGHT="33"/>
+            <SP HPOS="416" VPOS="269" WIDTH="25"/>
+            <String ID="L0009_W05" CONTENT="55" HPOS="441" VPOS="271" WIDTH="24" HEIGHT="7"/>
+          </TextLine>
+          <TextLine ID="L0010" HPOS="3" VPOS="297" WIDTH="464" HEIGHT="37">
+            <String ID="L0010_W01" CONTENT="Hosingen" HPOS="3" VPOS="297" WIDTH="128" HEIGHT="37"/>
+            <SP HPOS="131" VPOS="297" WIDTH="4"/>
+            <String ID="L0010_W02" CONTENT="2" HPOS="135" VPOS="297" WIDTH="13" HEIGHT="12"/>
+            <SP HPOS="148" VPOS="297" WIDTH="5"/>
+            <String ID="L0010_W03" CONTENT="id......." HPOS="153" VPOS="297" WIDTH="44" HEIGHT="37"/>
+            <SP HPOS="197" VPOS="297" WIDTH="121"/>
+            <String ID="L0010_W04" CONTENT="281" HPOS="318" VPOS="297" WIDTH="78" HEIGHT="37"/>
+            <SP HPOS="396" VPOS="297" WIDTH="4"/>
+            <String ID="L0010_W05" CONTENT="30" HPOS="400" VPOS="297" WIDTH="67" HEIGHT="37"/>
+          </TextLine>
+          <TextLine ID="L0011" HPOS="9" VPOS="330" WIDTH="421" HEIGHT="33">
+            <String ID="L0011_W01" CONTENT="Larochette" HPOS="9" VPOS="330" WIDTH="208" HEIGHT="33"/>
+            <SP HPOS="217" VPOS="330" WIDTH="4"/>
+            <String ID="L0011_W02" CONTENT="3" HPOS="221" VPOS="330" WIDTH="12" HEIGHT="16"/>
+            <SP HPOS="233" VPOS="330" WIDTH="85"/>
+            <String ID="L0011_W03" CONTENT="id......." HPOS="318" VPOS="330" WIDTH="32" HEIGHT="18"/>
+            <SP HPOS="350" VPOS="330" WIDTH="38"/>
+            <String ID="L0011_W04" CONTENT="525" HPOS="388" VPOS="330" WIDTH="42" HEIGHT="20"/>
+          </TextLine>
+          <TextLine ID="L0012" HPOS="5" VPOS="360" WIDTH="534" HEIGHT="29">
+            <String ID="L0012_W01" CONTENT="Mersch" HPOS="5" VPOS="360" WIDTH="87" HEIGHT="20"/>
+            <SP HPOS="92" VPOS="360" WIDTH="4"/>
+            <String ID="L0012_W02" CONTENT="4" HPOS="96" VPOS="364" WIDTH="16" HEIGHT="25"/>
+            <SP HPOS="112" VPOS="364" WIDTH="5"/>
+            <String ID="L0012_W03" CONTENT="id......." HPOS="117" VPOS="365" WIDTH="33" HEIGHT="16"/>
+            <SP HPOS="150" VPOS="365" WIDTH="185"/>
+            <String ID="L0012_W04" CONTENT="232" HPOS="335" VPOS="361" WIDTH="75" HEIGHT="24"/>
+            <SP HPOS="410" VPOS="361" WIDTH="1"/>
+            <String ID="L0012_W05" CONTENT="50" HPOS="409" VPOS="361" WIDTH="130" HEIGHT="26"/>
+          </TextLine>
+          <TextLine ID="L0013" HPOS="18" VPOS="392" WIDTH="484" HEIGHT="31">
+            <String ID="L0013_W01" CONTENT="Redange" HPOS="18" VPOS="392" WIDTH="127" HEIGHT="26"/>
+            <SP HPOS="145" VPOS="392" WIDTH="4"/>
+            <String ID="L0013_W02" CONTENT="3" HPOS="149" VPOS="396" WIDTH="9" HEIGHT="23"/>
+            <SP HPOS="158" VPOS="396" WIDTH="5"/>
+            <String ID="L0013_W03" CONTENT="id......." HPOS="163" VPOS="399" WIDTH="187" HEIGHT="21"/>
+            <SP HPOS="350" VPOS="399" WIDTH="38"/>
+            <String ID="L0013_W04" CONTENT="620" HPOS="388" VPOS="396" WIDTH="114" HEIGHT="27"/>
+          </TextLine>
+          <TextLine ID="L0014" HPOS="5" VPOS="428" WIDTH="411" HEIGHT="25">
+            <String ID="L0014_W01" CONTENT="Remich" HPOS="5" VPOS="428" WIDTH="101" HEIGHT="25"/>
+            <SP HPOS="106" VPOS="428" WIDTH="2"/>
+            <String ID="L0014_W02" CONTENT="5" HPOS="108" VPOS="438" WIDTH="8" HEIGHT="15"/>
+            <SP HPOS="116" VPOS="438" WIDTH="221"/>
+            <String ID="L0014_W03" CONTENT="id......." HPOS="337" VPOS="438" WIDTH="15" HEIGHT="15"/>
+            <SP HPOS="352" VPOS="438" WIDTH="38"/>
+            <String ID="L0014_W04" CONTENT="507" HPOS="390" VPOS="432" WIDTH="26" HEIGHT="21"/>
+          </TextLine>
+          <TextLine ID="L0015" HPOS="7" VPOS="465" WIDTH="406" HEIGHT="19">
+            <String ID="L0015_W01" CONTENT="Vianden" HPOS="7" VPOS="465" WIDTH="116" HEIGHT="19"/>
+            <SP HPOS="123" VPOS="465" WIDTH="4"/>
+            <String ID="L0015_W02" CONTENT="2" HPOS="127" VPOS="474" WIDTH="13" HEIGHT="10"/>
+            <SP HPOS="140" VPOS="474" WIDTH="194"/>
+            <String ID="L0015_W03" CONTENT="id......." HPOS="334" VPOS="469" WIDTH="14" HEIGHT="15"/>
+            <SP HPOS="348" VPOS="469" WIDTH="39"/>
+            <String ID="L0015_W04" CONTENT="424" HPOS="387" VPOS="468" WIDTH="26" HEIGHT="16"/>
+          </TextLine>
+          <TextLine ID="L0016" HPOS="6" VPOS="483" WIDTH="530" HEIGHT="37">
+            <String ID="L0016_W01" CONTENT="Trois-Vierges" HPOS="6" VPOS="483" WIDTH="115" HEIGHT="37"/>
+            <SP HPOS="121" VPOS="483" WIDTH="6"/>
+            <String ID="L0016_W02" CONTENT="5" HPOS="127" VPOS="483" WIDTH="13" HEIGHT="9"/>
+            <SP HPOS="140" VPOS="483" WIDTH="193"/>
+            <String ID="L0016_W03" CONTENT="id......." HPOS="333" VPOS="483" WIDTH="61" HEIGHT="37"/>
+            <SP HPOS="394" VPOS="483" WIDTH="5"/>
+            <String ID="L0016_W04" CONTENT="861" HPOS="399" VPOS="483" WIDTH="15" HEIGHT="37"/>
+            <SP HPOS="414" VPOS="483" WIDTH="116"/>
+            <String ID="L0016_W05" CONTENT="25" HPOS="530" VPOS="488" WIDTH="6" HEIGHT="7"/>
+          </TextLine>
+          <TextLine ID="L0017" HPOS="512" VPOS="559" WIDTH="25" HEIGHT="8">
+            <String ID="L0017_W01" CONTENT="19694" HPOS="512" VPOS="559" WIDTH="6" HEIGHT="7"/>
+            <SP HPOS="518" VPOS="559" WIDTH="12"/>
+            <String ID="L0017_W02" CONTENT="74" HPOS="530" VPOS="559" WIDTH="7" HEIGHT="8"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

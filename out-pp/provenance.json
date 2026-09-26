@@ -1,0 +1,27 @@
+{
+ "image": "page.jpg",
+ "corpus": "PetitParisien",
+ "page": "col2",
+ "taille": [
+  5060,
+  6708
+ ],
+ "lecture": {
+  "par": "Claude Opus 5, à l'aveugle",
+  "lignes": 15,
+  "accord_avec_la_VT": "14 lignes sur 15 identiques à la VT ; CER 0.16 %"
+ },
+ "geometrie": {
+  "moteur": "connexe",
+  "lignes_placees": 15,
+  "mots": 115
+ },
+ "doute": {
+  "methode": "désaccord d'un comité de 5 moteurs (Seung, Opper & Sompolinsky 1992)",
+  "seuil": "décile le plus disputé de CETTE page",
+  "mots_marques": 12,
+  "taux": 10.4
+ },
+ "ecartees": [],
+ "avertissement": "Les mots marqués a_remesurer n'ont pas été vérifiés au relevé sur règle. Cette ALTO est une PRODUCTION, pas une vérité terrain certifiée. Bande de 15 lignes d'une colonne du Petit Parisien, taille choisie pour que la lecture par le VLM soit intégralement vérifiable ; c'est le corpus où le moteur tient les quatre seuils de CRITERE.md (99,12 % des frontières sous 0,5 caractère au banc complet)."
+}
