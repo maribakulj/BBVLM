@@ -1910,3 +1910,34 @@ géométrique n'existe pour l'écriture difficile.
 
 Tous les chiffres de `connexe` sur Newseye portaient donc sur un sixième du corpus
 disponible. Banc complet relancé sur ce périmètre.
+
+## B65 — la cascade EXÉCUTÉE se retourne : le quota par page est faux
+
+Premier passage réel du troisième étage, sur les 12 mots que le comité avait
+marqués dans `out-pp/`. Jusqu'ici la cascade n'avait jamais tourné : elle était
+validée sur un échantillon (B61) et les artefacts marquaient sans remesurer.
+
+| | médiane | max | ≤0,5c |
+|---|---|---|---|
+| `connexe` seul, sur les 12 mots marqués | **0,05** | **0,27** | **100 %** |
+| après mon relevé sur règle | 0,21 | 0,86 | 75 % |
+
+**Amélioré 2 mots, dégradé 10.**
+
+**Cause.** En B61, le décile disputé était tiré sur tout le corpus, dominé par
+Newseye où le moteur échoue : son seuil de désaccord allait de 5,29 à 33,83
+caractères, et l'erreur stricte médiane de `connexe` y valait 0,57. Ici le seuil
+du décile de CETTE page vaut 2,78 caractères et l'erreur médiane de `connexe` sur
+les mots ainsi désignés vaut 0,05 : **il n'y avait rien à corriger**. Un quota de
+10 % appliqué page par page force à remesurer des mots déjà justes, et sur un mot
+facile le relevé est moins précis que le moteur — ce que B60 disait déjà
+(médiane 0,12 contre 0,07).
+
+**Ce que ça apprend sur la méthode** : valider une cascade sur un échantillon
+choisi dans le régime favorable ne dit rien de son comportement en service. Il
+fallait l'exécuter. C'est le manque que l'utilisateur avait relevé, et l'exécution
+a immédiatement retourné le résultat.
+
+**Correction à mesurer (B66)** : router sur un seuil ABSOLU de désaccord, calibré
+une fois sur le corpus, et non sur un quantile par page. Une page propre ne doit
+alors rien envoyer au troisième étage.
