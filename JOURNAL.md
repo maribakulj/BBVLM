@@ -1330,3 +1330,34 @@ mesure, chaque itération de la boucle.
 de `connexe` (96,65 % ≤ 0,5 car, IoU 0,839, 0 échec). Une accélération qui change
 une sortie n'est pas une accélération. Tant que ce banc n'a pas rendu, la
 vectorisation est **non validée**.
+
+## B46 — la non-régression de B45, et un doute sur le chiffre du champion
+
+Le banc après vectorisation ne rend pas les chiffres enregistrés :
+
+| corpus | champion enregistré | après B45 |
+|---|---|---|
+| BnF | 100 % ≤0,5c, pire 0,47, IoU 0,939 | 99,35 %, pire 1,84, IoU 0,945 |
+| PetitParisien | 99,26 %, pire 1,32, IoU 0,875 | 99,12 %, pire 1,32, IoU 0,897 |
+| Newseye | 97,87 %, pire 7,45, IoU 0,815 | 94,77 %, pire 33,31, IoU 0,867 |
+
+Deux hypothèses : la vectorisation a changé le DP, ou le périmètre a changé.
+
+**La vectorisation est disculpée par mesure directe** : 60 paires de profils
+aléatoires (longueurs 20 à 260, amplitudes variées), chemin comparé à
+l'implémentation d'origine recopiée telle quelle. Écart maximal **0**. Les deux
+codes rendent le même chemin, bit pour bit.
+
+**Le périmètre, lui, a bougé** : le corpus compte aujourd'hui 9 pages Newseye et
+7586 lignes sur les 8263 du banc. Le chiffre global du champion (96,65 %) n'a
+donc pas été obtenu sur ce corpus-là. Mais BnF est une page unique de 538 lignes :
+si BnF bouge, c'est autre chose qu'un périmètre.
+
+**Vérification lancée** : le même banc avec le `dtw.py` du commit 33f35c3, soit
+avant toute modification de B36 et B45. Si BnF y donne aussi 99,35 %, alors c'est
+le chiffre enregistré dans `state.json` qui est faux ou daté, et non le code.
+
+**Leçon de méthode, à retenir** : un chiffre de référence qui ne porte pas la
+trace du périmètre sur lequel il a été obtenu n'est pas une référence. `state.json`
+enregistre `pct05` et `iou` sans le nombre de pages ni de lignes. À corriger —
+sinon toute non-régression future butera sur la même ambiguïté.
