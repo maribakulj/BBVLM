@@ -67,6 +67,41 @@ def planche(image_path, line_box, sortie, pas=None, largeur_cible=1400, marge=6,
     return {'cx0': cx0, 'pas': pas, 'z': z, 'graduations': n, 'taille': pl.size}
 
 
+#: écartement minimal des graduations sur la planche rendue, en pixels. En
+#: dessous, le relevé cesse d'être fiable : mesuré B42, dispersion 0,13 caractère
+#: à 34 px par graduation contre 0,32 à 22 px, sur les mêmes mots et le même œil.
+ECART_MIN = 30
+#: pas de graduation visé, en fraction de caractère. Plus fin ne sert à rien :
+#: la dispersion du relevé domine.
+PAS_CAR = 0.33
+
+
+def decouper(vt_boxes, cw, largeur_cible=1400):
+    """Découpe une ligne en segments tels que la planche reste lisible.
+
+    Deux contraintes opposées : le pas doit valoir une fraction de caractère
+    (sinon on ne peut pas relever finement) et les graduations doivent rester
+    écartées d'au moins ECART_MIN pixels sur la planche (sinon on les compte de
+    travers). Le nombre de mots par planche en découle — il n'est pas choisi.
+    """
+    pas = max(2.0, cw*PAS_CAR)
+    # largeur d'origine maximale tenable sur une planche
+    # les marges de part et d'autre comptent dans la largeur rendue
+    max_larg = largeur_cible*pas/ECART_MIN - 2*cw*0.4
+    segs, i = [], 0
+    while i < len(vt_boxes):
+        j = i
+        while j+1 < len(vt_boxes) and \
+                vt_boxes[j+1][2] - vt_boxes[i][0] <= max_larg:
+            j += 1
+        a = vt_boxes[i][0] - cw*0.4
+        b = vt_boxes[j][2] + cw*0.4
+        segs.append({'a': int(a), 'b': int(b), 'mots': list(range(i, j+1)),
+                     'pas': int(round(pas))})
+        i = j+1
+    return segs
+
+
 def vers_pixels(valeurs, meta):
     """Graduations relevées -> abscisses dans l'image d'origine."""
     return [meta['cx0'] + v*meta['pas'] for v in valeurs]

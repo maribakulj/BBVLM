@@ -1231,3 +1231,41 @@ peut imiter.
 **Ce que ça dit du projet** : le relevé sur règle est précis (0,13 caractère de
 dispersion) mais fragile au repère. C'est une erreur d'instrument, pas de mesure —
 donc réductible. À vérifier au prochain tir sur les mêmes lignes.
+
+## B42 bis — la contrainte de lisibilité de la règle, mesurée
+
+En comparant les deux segments de la même ligne, lus par le même œil :
+
+| | graduations | px par graduation sur la planche | dispersion du relevé |
+|---|---|---|---|
+| segment a | 41 | **34 px** | 0,13 car |
+| segment b | 64 | **22 px** | 0,32 car |
+
+Ce n'est ni la longueur des mots ni la densité de caractères : c'est
+l'**écartement des graduations sur la planche rendue**. En dessous d'environ
+30 px le comptage devient faux. `ECART_MIN = 30` et `PAS_CAR = 0,33` sont
+désormais des constantes nommées de `regle_ligne.py`, et `decouper()` en déduit
+le nombre de mots par planche — il n'est plus choisi à la main.
+
+Vérifié aussi, parce que l'hypothèse aurait tout changé : **la VT colle l'encre**
+(écart médian VT→encre 0,00 car à gauche, −0,04 à droite sur les 6 mots de la
+ligne). La métrique stricte mesure donc bien une justesse de boîte et non une
+convention d'annotation. Hypothèse écartée proprement.
+
+**Le vrai coût** : 4 planches pour 6 mots, soit un regard pour 1,5 mot. Le relevé
+sur règle ne peut donc pas remplacer le moteur — seulement le rattraper là où il
+échoue. Et B41 dit qu'on ne sait pas où.
+
+## B43 — le doute doit venir d'ailleurs que du moteur
+
+B41 a échoué pour une raison structurelle, pas conjoncturelle : ses sept indices
+décrivaient la géométrie locale de l'encre, c'est-à-dire *exactement ce dont
+`connexe` se sert pour décider*. Un indice calculé sur la décision ne peut pas
+être indépendant d'elle.
+
+Piste en cours : le **désaccord entre moteurs de natures différentes** (connexe,
+inkgap, proportional, serre, profil) comme signal. C'est le comité de requête de
+Seung, Opper & Sompolinsky (1992), standard en apprentissage actif — documenté,
+pas une trouvaille. Écart-type et étendue des bords proposés par le comité,
+notés en AUC contre le seuil de 0,5 caractère, puis taux de capture en routant
+5/10/20/30 % des mots vers la règle.
