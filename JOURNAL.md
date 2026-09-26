@@ -1866,3 +1866,47 @@ exactement la condition d'existence d'une cascade.
 | `connexe` | place toutes les boîtes | 119 ms/ligne | 99,35 % et 99,12 % sur BnF et PetitParisien |
 | comité de 5 moteurs | désigne les douteuses | 5 × le moteur | AUC 0,824, 56 % des fautes dans 20 % des mots |
 | VLM sur règle | remesure celles-là | ~0,5 planche/mot | 96,6 % contre 86,2 % sur le décile |
+
+## B62-B63 — la boucle avait été arrêtée trop tôt
+
+L'utilisateur relève que le système ne sort pas d'ALTO parfaits et qu'aucun corpus
+difficile n'a été éprouvé. Les deux sont exacts. La boucle s'était arrêtée sur la
+**lettre** de sa condition — un artefact produit et la géométrie mesurée — et non
+sur l'objectif, qui était des boîtes justes. Trois manques :
+
+1. `CRITERE.md` échoue sur deux corpus sur quatre.
+2. Le troisième étage n'a **jamais tourné** : les artefacts marquent les mots
+   `a_remesurer` sans les remesurer. La cascade est validée sur 35 mots, pas
+   exécutée.
+3. Le corpus tenait en quatre documents de presse latine imprimée.
+
+**B62 — BNL ne peut pas servir de règle, et le filtre avait raison.** 123 pages
+mesurées sur les 1814 disponibles :
+
+| | p10 | médiane | p90 |
+|---|---|---|---|
+| encre dans les blancs inter-mots | 0,133 | **0,167** | 0,197 |
+| part de blancs réellement vides | 0,04 | **0,09** | 0,23 |
+
+Le seuil du filtre est 0,06 d'encre et 30 % de blancs vides : 2 pages sur 123
+passent. En relâchant à 0,12 / 0,15 on n'en récupère que 7. Les boîtes de cette
+VT ne délimitent pas les mots — ce n'est pas une VT au mot, ce sont des boîtes
+grossières. **Piste fermée, définitivement.**
+
+**Le mur réel du projet, nommé.** Inventaire des 2442 XML du disque : la vérité
+terrain **au mot** n'existe que sur de la presse latine imprimée. Le manuscrit de
+Dresde (`Mscr.Dresd.K.80`, kurrent saxon de 1665, 10 pages) et le Fraktur d'ONB
+n'ont qu'un `String` par `TextLine` — annotation à la ligne. Aucune règle
+géométrique n'existe pour l'écriture difficile.
+
+**B63 — le corpus dur était là et n'était pas lu.** Le jeu ATR Newseye contient
+**127 pages** et le chargeur s'arrêtait à 12. Plafond levé :
+
+| | avant | après |
+|---|---|---|
+| pages Newseye | 9 | **65** |
+| lignes | 7 586 | **46 351** |
+| mots | ~32 000 | **308 426** |
+
+Tous les chiffres de `connexe` sur Newseye portaient donc sur un sixième du corpus
+disponible. Banc complet relancé sur ce périmètre.

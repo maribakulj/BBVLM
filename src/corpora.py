@@ -174,7 +174,7 @@ def all_pages(limit_per_corpus: int | None = None, only_geometric: bool = True,
         if not img: continue
         p = load_page_xml(x, img, 'Newseye', os.path.basename(x)[:-4][:20])
         if p: out.append(p); n += 1
-        if n >= (limit_per_corpus or 12): break
+        if n >= (limit_per_corpus or 200): break
     # BNL complet — même famille que le sous-ensemble cinoc, testé à part
     n = 0
     for x in sorted(glob.glob(f'{HOME}/Downloads/bnl-ground-truth-newspapers-before-1878-raw/*/*.xml')):
