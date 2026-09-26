@@ -1462,3 +1462,48 @@ moteur excellent ». Il faut le relire comme « le VLM bat un moteur dont on ign
 qu'il échouait ». L'écart reste réel — même règle des deux côtés — mais sa portée
 change : il ne s'agit plus de gratter les derniers pour cent, il s'agit de
 rattraper des échecs francs. À porter à ~100 mots avant d'en tirer quoi que ce soit.
+
+## B51 — l'aiguillage vers le moteur de tableau se déclenche sur de la prose
+
+Deux constats en lisant le chemin de décision de `connexe`, avant toute mesure.
+
+**`connexe` ne touche pas aux frontières horizontales.** Il reprend les boîtes de
+`Compose` et ne corrige que leur étendue verticale. Les chiffres de frontières
+qu'on lui attribue (≤0,5 car, pire cas, et donc la clause de non-régression)
+sont ceux de `Compose` ; la contribution propre de `connexe` est l'IoU. Le nom de
+« champion des boîtes » recouvre donc deux choses qu'il faut cesser de confondre.
+
+**`routage.est_tabulaire` a une troisième règle qui ne tient pas.** Après les
+points de conduite et la part de jetons numériques, elle déclare tabulaire toute
+ligne dont 70 % des mots font trois caractères ou moins et qui ne contient ni
+virgule, ni point-virgule, ni deux-points, ni guillemet fermant. Mesuré :
+
+| corpus | lignes routées vers le moteur de tableau | dont par la règle « mots courts » |
+|---|---|---|
+| Newseye | 191 / 7586 (2,5 %) | **90** |
+| BnF | 20 / 538 (3,7 %) | **17** |
+| PetitParisien | 2 / 104 | 2 |
+| BNLfull | 17 / 18 (94,4 %) | 0 — points de conduite, correct |
+
+Et voici ce que la règle attrape :
+
+```
+« punisse je rie vendrai pas mon âme »
+« De nombreux toast ont été po. tés par le »
+« Corse dont le nom a été mis en avant par »
+« de la sollicitude du gouvernement de la »
+« Le calcul est fondé sur ce que le 31 décem- »
+```
+
+C'est de la prose française ordinaire. La règle se déclenche parce que le
+français est fait de mots outils courts — *de, la, le, du, à, et, en, que, ce,
+par*. Le commentaire de B15 disait « le texte dit ce qu'il est » ; il le dit pour
+les points de conduite et les colonnes de chiffres, pas pour la brièveté des mots.
+
+Le moteur de destination, `DTWAdapt`, avait été mesuré en B12 comme dégradant le
+pire cas de BnF de 1,84 à 3,37 caractères — c'est pourquoi il avait été écarté
+comme moteur principal. Il reste atteint par cette porte dérobée.
+
+**Hypothèse à quantifier (B52, script prêt)** : ce mauvais aiguillage est un
+contributeur au fait que `connexe` fasse pire que le proportionnel sur Newseye.
+Le script compare les deux moteurs sur les seules lignes concernées.
