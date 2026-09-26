@@ -1697,3 +1697,43 @@ gagner le support rogné pour être préféré. L'augmenter ferait moins de rogn
 tort. Mais la régler sur Newseye reviendrait à l'ajuster sur le corpus qui sert à
 la noter — il faudrait un corpus de réglage distinct, qui n'existe pas ici.
 Inscrit au backlog plutôt que fait à moitié.
+
+## B60 — le relevé sur règle à 61 mots : B40 NE TIENT PAS
+
+B40 annonçait 0,08 caractère médian pour le VLM contre 0,69 pour `connexe`, sur
+**six** mots. Porté à **61 mots** (9 lignes entièrement relevées, 30 planches),
+échantillon équilibré moitié lignes où `connexe` est pris en défaut, moitié
+lignes propres :
+
+| métrique GELÉE (CRITERE.md) | médiane | p90 | max | ≤0,5c |
+|---|---|---|---|---|
+| VLM sur règle | 0,00 | 0,00 | **0,00** | 100 % |
+| `connexe` | 0,00 | 0,00 | 0,19 | 100 % |
+
+| métrique STRICTE | médiane | p90 | max | ≤0,5c |
+|---|---|---|---|---|
+| VLM sur règle | 0,12 | **0,29** | 1,81 | **95,1 %** |
+| `connexe` | **0,07** | 0,52 | **1,10** | 88,5 % |
+
+Tête-à-tête sur la stricte : VLM meilleur sur 18 mots, **pire sur 26**, égal sur 17.
+
+**Conclusion : le résultat de B40 ne tient pas.** Sur le critère gelé, les deux
+sont à égalité parfaite et le VLM n'apporte rien. Sur la stricte, il est plus
+régulier (moins de mauvais cas) mais moins précis sur le mot courant, et perd le
+tête-à-tête.
+
+**Cause de l'erreur de B40** : son échantillon avait été stratifié sur l'erreur de
+`connexe`, un tiers tiré au-dessus de 0,5 caractère. Sur six mots, cela revenait à
+choisir ses pires cas et à les comparer à un relevé neuf. Je l'avais écrit à
+l'époque — « l'échantillon sur-représente volontairement les échecs de `connexe`,
+en revanche cela ne biaise pas la mesure du VLM » — ce qui était vrai pour le VLM
+pris seul et faux pour la **comparaison**, qui est pourtant ce que j'en ai tiré.
+
+**Ce que ça coûte** : 0,48 planche par mot, soit une image à regarder pour deux
+mots. Pour un gain nul sur le critère gelé.
+
+**Ce qui reste vrai et utile** : le relevé est *régulier*. Son p90 (0,29) est
+meilleur que celui du moteur (0,52) et il produit moins de bords à plus de 0,5
+caractère. Il n'est donc pas un remplaçant du moteur mais un possible recours sur
+les cas que le moteur rate — à condition de savoir lesquels, ce que B41 a montré
+qu'on ne sait pas faire.

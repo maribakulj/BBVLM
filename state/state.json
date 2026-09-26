@@ -341,5 +341,43 @@
     "iou": 0.866
    }
   }
+ },
+ "b60": {
+  "titre": "relevé sur règle à 61 mots — B40 ne tient pas",
+  "gelee": {
+   "vlm": {
+    "med": 0.0,
+    "p90": 0.0,
+    "max": 0.0,
+    "pct05": 100.0
+   },
+   "connexe": {
+    "med": 0.0,
+    "p90": 0.0,
+    "max": 0.19,
+    "pct05": 100.0
+   }
+  },
+  "stricte": {
+   "vlm": {
+    "med": 0.12,
+    "p90": 0.29,
+    "max": 1.81,
+    "pct05": 95.1
+   },
+   "connexe": {
+    "med": 0.07,
+    "p90": 0.52,
+    "max": 1.1,
+    "pct05": 88.5
+   }
+  },
+  "tete_a_tete": {
+   "vlm_meilleur": 18,
+   "vlm_pire": 26,
+   "egal": 17
+  },
+  "cout": "0,48 planche par mot",
+  "perimetre": "9 lignes, 61 mots, BnF + PetitParisien + Newseye, moitié lignes en défaut"
  }
 }
