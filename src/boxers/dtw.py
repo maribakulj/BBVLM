@@ -45,10 +45,16 @@ def _familles():
 FAMILLES = _familles()
 # BBVLM_FONTES=serif restreint la sélection — sert à mesurer l'apport du choix
 # de gabarit, pas à régler la chaîne.
-_filtre = os.environ.get('BBVLM_FONTES')
-if _filtre:
+# Par défaut UNE seule famille. La sélection par coût DTW double le nombre
+# d'appels au DP — c'est-à-dire le coût de `connexe`, qui en dépend par
+# dtwsnap — et B36 a mesuré qu'elle n'améliore pas la géométrie (le coût DTW
+# mesure une ressemblance de profils, pas une justesse de frontière : le
+# gabarit Fraktur fait passer les chevauchements de 10 à 16). On garde le
+# mécanisme, désarmé : BBVLM_FONTES=toutes le rallume pour la mesurer.
+_filtre = os.environ.get('BBVLM_FONTES', 'serif')
+if _filtre and _filtre != 'toutes':
     _garde = {x.strip() for x in _filtre.split(',')}
-    FAMILLES = [f for f in FAMILLES if f[0] in _garde] or FAMILLES
+    FAMILLES = [f for f in FAMILLES if f[0] in _garde] or FAMILLES[-1:]
 
 
 def _font(px: int, fam: str | None = None):
@@ -104,10 +110,18 @@ def dtw_path(a: np.ndarray, b: np.ndarray, band_frac: float = 0.25,
     D[0, 0] = 0.0
     for i in range(1, n+1):
         j0 = max(1, int(i*m/n) - w); j1 = min(m, int(i*m/n) + w)
-        ai = a[i-1]
-        for j in range(j0, j1+1):
-            c = abs(ai - b[j-1])
-            D[i, j] = c + min(D[i-1, j], D[i, j-1], D[i-1, j-1])
+        if j1 < j0: continue
+        # Ce qui ne dépend que de la ligne précédente se calcule d'un coup ;
+        # seule la récurrence sur D[i, j-1] reste séquentielle. Sortie
+        # identique, l'ordre des opérations ne change pas.
+        cout = np.abs(a[i-1] - b[j0-1:j1])
+        haut = np.minimum(D[i-1, j0-1:j1], D[i-1, j0:j1+1])
+        ligne = D[i]
+        for t, j in enumerate(range(j0, j1+1)):
+            v = haut[t]
+            g = ligne[j-1]
+            if g < v: v = g
+            ligne[j] = cout[t] + v
     if not np.isfinite(D[n, m]):
         return (None, float('inf')) if with_cost else None
     cout = float(D[n, m]) / (n + m)

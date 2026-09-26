@@ -63,8 +63,15 @@ def line_mask(gray: np.ndarray, line_box, pad: float = 0.12) -> tuple[np.ndarray
             if max(0, max(sx-(x+w), x-(sx+sw))) <= s['h']*0.22 and \
                abs((y+h/2)-(sy+sh/2)) <= s['h']*0.75:
                 ks.add(k); break
-    for k in ks:
-        keep[lab == k] = 255
+    # Une table de correspondance, appliquée en un passage. La version naïve
+    # (`for k in ks: keep[lab == k] = 255`) rebalayait tout le tableau
+    # d'étiquettes une fois par composante retenue : 400 ms par ligne, soit
+    # l'essentiel du temps de TOUS les moteurs, qui appellent tous line_mask.
+    # Sortie rigoureusement identique.
+    table = np.zeros(n, np.uint8)
+    if ks:
+        table[np.fromiter(ks, dtype=np.int32, count=len(ks))] = 255
+    keep = table[lab]
     return keep, ax0, ay0
 
 

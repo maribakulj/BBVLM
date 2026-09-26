@@ -1295,3 +1295,38 @@ DTW multi-gabarit, lancé en B36 et sans résultat après plus d'une heure, a é
 arrêté : il n'est pas sur le chemin critique puisque `connexe` reste champion.
 Le multi-gabarit reste à vérifier sur un échantillon réduit avant d'être déclaré
 sans régression. À ne pas oublier : **c'est une vérification due, pas faite.**
+
+## B45 — le champion tournait deux fois trop lentement, et c'était ma faute
+
+En cherchant pourquoi B43 ne rendait rien après une heure, chronométrage des
+moteurs sur BnF : `connexe`, `serre` et `profil` à 380-400 ms par ligne, et
+**exactement le même temps** — signe d'une étape commune, pas d'un algorithme lent.
+
+Première hypothèse, fausse : `line_mask` repeignait le masque en balayant tout le
+tableau d'étiquettes une fois par composante retenue. Corrigé par une table de
+correspondance appliquée en un passage (sortie vérifiée rigoureusement
+identique), mais la fonction ne coûtait que 10 ms. **Ce n'était pas là.**
+
+Profilage au lieu de devinette. Le coût est dans `dtw_path`, atteint par
+`connexe` → `compose` → `routage` → `dtwsnap` → `dtw`. Et il était appelé **deux
+fois par ligne au lieu d'une** : c'est ma sélection multi-gabarit de B36 qui
+rendait le texte dans chaque fonte disponible. J'avais doublé le coût du champion
+pour un gabarit que B36 avait lui-même montré inutile.
+
+Deux corrections :
+
+1. **Gabarit unique par défaut.** Le mécanisme de sélection reste, désarmé ;
+   `BBVLM_FONTES=toutes` le rallume pour le mesurer. Ajouter une fonte ne doit
+   pas coûter au champion tant qu'on n'a pas montré qu'elle sert.
+2. **Vectorisation du DP.** La ligne de coût et les deux minima venant de la ligne
+   précédente se calculent d'un coup ; seule la récurrence sur `D[i, j-1]` reste
+   séquentielle. 8,9 millions d'appels Python à `min` et `abs` par douze lignes
+   disparaissent.
+
+**400 → 119 ms par ligne, 3,4×.** Tout le dépôt en profite : chaque banc, chaque
+mesure, chaque itération de la boucle.
+
+**Vérification en cours** : le banc doit retrouver exactement les chiffres connus
+de `connexe` (96,65 % ≤ 0,5 car, IoU 0,839, 0 échec). Une accélération qui change
+une sortie n'est pas une accélération. Tant que ce banc n'a pas rendu, la
+vectorisation est **non validée**.
