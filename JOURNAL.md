@@ -1613,3 +1613,30 @@ rogne   : ouvrier 2543-2670 | . 2692-2697   (à un pixel près)
 
 **Banc complet en cours** — ces chiffres portent sur un sous-ensemble choisi, ils
 ne valent pas verdict tant que le corpus entier n'a pas parlé.
+
+## B52 — le mauvais aiguillage est réel et ne coûte rien : on ne corrige pas
+
+B51 avait montré que `routage.est_tabulaire` déclare tabulaire de la prose
+française ordinaire (90 lignes de Newseye, 17 de BnF) à cause de sa règle
+« 70 % de mots de trois caractères ou moins ». L'hypothèse était que ce mauvais
+aiguillage contribuait aux échecs de Newseye, `DTWAdapt` ayant été mesuré en B12
+comme dégradant BnF de 1,84 à 3,37.
+
+Mesuré sur les seules lignes concernées, les deux moteurs comparés sur les mêmes
+frontières :
+
+| | moteur prose (DTWSnap) | moteur tableau (DTWAdapt) |
+|---|---|---|
+| Newseye, 90 lignes, 552 frontières | ≤0,5c 84,8 % · p90 0,97 · max 11,09 | ≤0,5c **85,5 %** · p90 1,05 · max **9,95** |
+| BnF, 17 lignes, 105 frontières | ≤0,5c **100 %** · max **0,00** | ≤0,5c 99,0 % · max 0,81 |
+
+**Hypothèse infirmée.** Sur Newseye le moteur reçu à tort fait légèrement mieux ;
+sur BnF il coûte une frontière, sur un corpus dont le pire cas global (1,84) vient
+d'ailleurs. Supprimer la règle dégraderait Newseye pour gagner un cas sur BnF.
+
+**Décision : ne rien changer.** La règle reste conceptuellement fausse — elle sera
+notée au backlog pour le jour où un corpus la rendra coûteuse — mais modifier du
+code sur une théorie que la mesure contredit serait exactement l'erreur que ce
+journal existe pour empêcher. B12 avait mesuré le coût de `DTWAdapt` comme moteur
+*principal*, sur toutes les lignes ; il ne se transporte pas à 107 lignes choisies
+par un motif textuel.
