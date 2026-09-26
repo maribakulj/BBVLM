@@ -1816,3 +1816,53 @@ une quantité que le moteur seul ne peut pas produire. La cause de l'échec de B
 relevé sur règle ne bat pas le moteur *en général*. Il ne devient un recours que
 si, **sur les mots que le comité désigne**, il fait mieux. C'est la mesure
 suivante — et elle doit porter sur ces mots-là, pas sur un tirage quelconque.
+
+## B61 — la cascade se valide : le VLM bat le moteur LÀ OÙ le comité doute
+
+B43 donne un signal de doute (AUC 0,824). B60 dit que le relevé sur règle ne bat
+pas le moteur en général. Restait la seule question qui compte : est-il meilleur
+**sur les mots que le comité désigne** ?
+
+Échantillon tiré exclusivement dans le **décile le plus disputé** (187 lignes sur
+1874). Ce décile est bien le bon : l'erreur stricte médiane de `connexe` y vaut
+**0,57 caractère contre 0,07 sur l'ensemble** — huit fois pire.
+
+Six lignes relevées entièrement, 35 mots, 20 planches. Deux lignes exclues : l'une
+parce que la découpe tronquait un mot, l'autre parce que son jeton de VT est un
+tilde combinant et que l'encre du segment appartient à la ligne du dessous.
+
+| métrique GELÉE (CRITERE.md), 29 mesures | médiane | p90 | max | ≤0,5c |
+|---|---|---|---|---|
+| VLM sur règle | 0,00 | **0,00** | 3,46 | **96,6 %** |
+| `connexe` | 0,00 | 0,63 | **1,03** | 86,2 % |
+| | | | VLM meilleur sur 7, pire sur 2, égal sur 20 | |
+
+| métrique STRICTE, 35 mesures | médiane | p90 | max | ≤0,5c |
+|---|---|---|---|---|
+| VLM sur règle | **0,20** | **0,61** | 8,52 | **82,9 %** |
+| `connexe` | 0,33 | 1,57 | **4,81** | 57,1 % |
+| | | | VLM meilleur sur 15, pire sur 14, égal sur 6 | |
+
+**B60 et B61 ne se contredisent pas, ils se complètent** : le relevé ne bat pas le
+moteur sur un tirage quelconque, et le bat sur le décile disputé. C'est
+exactement la condition d'existence d'une cascade.
+
+**Réserves, à ne pas masquer :**
+
+1. 35 mots, 6 lignes. C'est un indice fort, pas une mesure établie.
+2. Le pire cas du VLM est plus mauvais (3,46 contre 1,03 ; 8,52 contre 4,81). Il
+   vient des lignes dont le **texte de la VT est illisible** — `<o`, `»*`,
+   `'8tl*` pour un texte qui lit « 28 62 | 28 62 » — où mon placement était une
+   conjecture. Défaut de vérité terrain plutôt que de lecture, mais il compte.
+3. Le décile disputé est en grande partie composé de lignes tabulaires et de
+   lignes à texte dégradé. Le comité détecte donc aussi la mauvaise qualité du
+   TEXTE, pas seulement la difficulté géométrique. C'est utile mais ce n'est pas
+   ce qu'on croyait mesurer.
+
+**Architecture complète et mesurée, pour la première fois :**
+
+| étage | rôle | coût | mesure |
+|---|---|---|---|
+| `connexe` | place toutes les boîtes | 119 ms/ligne | 99,35 % et 99,12 % sur BnF et PetitParisien |
+| comité de 5 moteurs | désigne les douteuses | 5 × le moteur | AUC 0,824, 56 % des fautes dans 20 % des mots |
+| VLM sur règle | remesure celles-là | ~0,5 planche/mot | 96,6 % contre 86,2 % sur le décile |

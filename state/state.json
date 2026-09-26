@@ -390,5 +390,42 @@
   "faux_negatifs": 7,
   "lecture": "détecteur de fautes catégorielles (boîte sur la colonne voisine), pas instrument de mesure ; complémentaire de B41 qui montrait le défaut indétectable par les statistiques internes",
   "limite": "3 cas seulement au-dessus de 1 caractère"
+ },
+ "b61": {
+  "titre": "la cascade se valide sur le décile disputé",
+  "perimetre": "6 lignes, 35 mots, décile le plus disputé (187 lignes sur 1874), Newseye",
+  "gelee": {
+   "vlm": {
+    "med": 0.0,
+    "p90": 0.0,
+    "max": 3.46,
+    "pct05": 96.6
+   },
+   "connexe": {
+    "med": 0.0,
+    "p90": 0.63,
+    "max": 1.03,
+    "pct05": 86.2
+   }
+  },
+  "stricte": {
+   "vlm": {
+    "med": 0.2,
+    "p90": 0.61,
+    "max": 8.52,
+    "pct05": 82.9
+   },
+   "connexe": {
+    "med": 0.33,
+    "p90": 1.57,
+    "max": 4.81,
+    "pct05": 57.1
+   }
+  },
+  "reserves": [
+   "35 mots seulement",
+   "le pire cas du VLM vient des lignes dont le texte VT est illisible",
+   "le décile disputé est surtout tabulaire et dégradé : le comité détecte aussi la qualité du TEXTE"
+  ]
  }
 }
