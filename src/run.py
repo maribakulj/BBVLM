@@ -11,7 +11,17 @@ def get(name):
 if __name__ == '__main__':
     pages = corpora.all_pages(max_lignes=int(os.environ.get('BBVLM_MAX_LIGNES','0')) or None)
     names = sys.argv[1:] or ['proportional:Proportional', 'inkgap:InkGapDP']
-    res = {}
+    # Périmètre de la mesure. Un pct05 sans le nombre de pages et de lignes sur
+    # lesquelles il a été obtenu n'est pas une référence : la comparaison de B46
+    # a buté une heure là-dessus, le corpus ayant gagné des pages Newseye entre
+    # l'enregistrement du champion et sa vérification.
+    from collections import Counter
+    perimetre = {'pages': len(pages),
+                 'par_corpus': {c: {'pages': sum(1 for p in pages if p.corpus == c),
+                                    'lignes': sum(len(p.lines) for p in pages if p.corpus == c)}
+                                for c in sorted({p.corpus for p in pages})}}
+    print("périmètre :", json.dumps(perimetre['par_corpus'], ensure_ascii=False))
+    res = {'_perimetre': perimetre}
     for n in names:
         b = get(n)
         r = judge.score(b, pages)

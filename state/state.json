@@ -25,7 +25,9 @@
     "ok": false,
     "manque": "pire cas seul"
    }
-  }
+  },
+  "perimetre": "INCONNU — mesuré avant que run.py ne l'enregistre ; le corpus a depuis gagné des pages Newseye (9 pages, 7586 lignes au 26/09). Ne pas comparer un banc actuel à ces chiffres sans refaire la mesure.",
+  "avertissement": "Chiffres non reproduits au 26/09 : banc actuel BnF 99,35 %/1,84, PetitParisien 99,12 %/1,32, Newseye 94,77 %/33,31. Cause en cours de vérification (B46)."
  },
  "mesures": [
   {
