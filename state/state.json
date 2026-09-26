@@ -379,5 +379,16 @@
   },
   "cout": "0,48 planche par mot",
   "perimetre": "9 lignes, 61 mots, BnF + PetitParisien + Newseye, moitié lignes en défaut"
+ },
+ "b44": {
+  "titre": "dépistage visuel ligne par ligne",
+  "perimetre": "8 lignes, 57 boîtes, BnF + Newseye, 19 planches",
+  "precision": 100.0,
+  "rappel_0_5": 22.0,
+  "rappel_1_0": 66.7,
+  "faux_positifs": 0,
+  "faux_negatifs": 7,
+  "lecture": "détecteur de fautes catégorielles (boîte sur la colonne voisine), pas instrument de mesure ; complémentaire de B41 qui montrait le défaut indétectable par les statistiques internes",
+  "limite": "3 cas seulement au-dessus de 1 caractère"
  }
 }

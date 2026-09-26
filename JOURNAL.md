@@ -1737,3 +1737,46 @@ meilleur que celui du moteur (0,52) et il produit moins de bords à plus de 0,5
 caractère. Il n'est donc pas un remplaçant du moteur mais un possible recours sur
 les cas que le moteur rate — à condition de savoir lesquels, ce que B41 a montré
 qu'on ne sait pas faire.
+
+## B44 — le dépistage visuel : haute précision, faible rappel
+
+Huit lignes de BnF et Newseye, 57 boîtes numérotées sur 19 planches, chacune
+rendue à la résolution que `depistage.py` impose (110 px minimum par mot). Boîtes
+en surimpression, vérité terrain cachée. Consigne : nommer les numéros dont le
+rectangle ne colle pas son mot.
+
+```
+57 boîtes, 9 réellement fausses (>0,5 car, métrique stricte)
+  justesse   88 %
+  précision 100 %   (B39, vignettes réduites : 71 %)
+  rappel     22 %   (B39 : 62 %)
+  faux positifs 0, faux négatifs 7
+```
+
+Le rappel dépend de la grosseur de la faute :
+
+| seuil | boîtes fausses | repérées |
+|---|---|---|
+| > 0,5 car | 9 | 2 (22 %) |
+| > 1,0 car | 3 | 2 (**67 %**) |
+
+Les deux accusations portaient sur 1,17 et 1,77 caractère ; les boîtes validées
+ont une erreur médiane de 0,14. Les sept manquées sont toutes entre 0,54 et
+1,24 caractère.
+
+**Ce que ça dit, et c'est une caractérisation plutôt qu'un échec** : l'œil du VLM
+n'est pas un instrument de mesure, c'est un détecteur de fautes **catégorielles**.
+Il a vu une boîte posée sur le filet de colonne et le début d'un mot de la colonne
+voisine — précisément le défaut que B52 avait identifié comme source de toute la
+queue extrême de Newseye, et que B41 avait montré indétectable par les statistiques
+internes du moteur. Il ne voit pas un demi-caractère, ce qui est normal : à
+l'échelle d'une ligne entière, un demi-caractère fait quelques pixels.
+
+**Conséquence** : la cascade « dépistage puis relevé » ne tient pas au seuil de
+0,5 caractère du critère. En revanche l'œil est le bon outil pour le défaut que
+les chiffres ne savent pas trouver. Deux instruments, deux domaines — et c'est la
+première fois qu'on peut le dire avec des chiffres des deux côtés.
+
+**Limite à ne pas cacher** : 57 boîtes, 9 fausses, dont 3 au-dessus de 1 caractère.
+Le rappel de 67 % au-dessus de 1 caractère repose sur trois cas. Il faut une
+centaine de fautes grossières avant d'en faire un chiffre.
