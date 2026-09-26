@@ -1361,3 +1361,24 @@ le chiffre enregistré dans `state.json` qui est faux ou daté, et non le code.
 trace du périmètre sur lequel il a été obtenu n'est pas une référence. `state.json`
 enregistre `pct05` et `iou` sans le nombre de pages ni de lignes. À corriger —
 sinon toute non-régression future butera sur la même ambiguïté.
+
+## Incident — le commit B46 a annulé la vectorisation de B45
+
+Pour le banc de contrôle j'avais remplacé `src/boxers/dtw.py` par la version du
+commit 33f35c3. La restauration était écrite à la suite de la commande d'attente,
+laquelle a été mise en arrière-plan avant de l'atteindre : elle ne s'est jamais
+exécutée. Le `git add -A` du commit B46 a donc enregistré l'ancienne version
+par-dessus la nouvelle, sans que rien ne le signale — `git status` était propre,
+puisque le fichier correspondait bien à ce qui venait d'être committé.
+
+Détecté en vérifiant que le fichier courant contenait bien le code de B45 plutôt
+qu'en le supposant. Restauré depuis `git show 489ebc2:src/boxers/dtw.py`, vérifié
+identique à la sauvegarde `/tmp/dtw_apres.py`.
+
+**Deux règles qui en sortent :**
+
+1. Ne jamais faire tourner un banc sur une version de fichier différente de celle
+   du dépôt sans l'isoler — copie du module dans un répertoire temporaire, ou
+   `git stash`, jamais une substitution en place dans l'arbre de travail.
+2. `git add -A` après avoir substitué un fichier est un piège silencieux. Un
+   commit qui suit une manipulation de fichiers doit énumérer ses chemins.
