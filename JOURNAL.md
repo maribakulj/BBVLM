@@ -1163,3 +1163,71 @@ coûté neuf regards : à l'échelle d'une page ce n'est pas tenable en aveugle.
 échecs ? S'il existe, la chaîne devient praticable — le moteur place tout, le
 signal désigne les boîtes douteuses, le VLM ne remesure que celles-là sur règle.
 C'est là que se joue « des boîtes parfaites ».
+
+## B41 — `connexe` ne sait pas quand il se trompe : piste ÉCARTÉE
+
+21 100 mots (Newseye, PetitParisien, BnF), sept indices calculables sans VT :
+largeur observée sur largeur attendue, encre coupée au bord de la boîte, blanc
+disponible à gauche et à droite, creux interne le plus profond, densité, marge.
+
+| indice | AUC |
+|---|---|
+| droite | 0,651 |
+| marge | 0,627 |
+| r_larg | 0,611 |
+| dens | 0,608 |
+| gauche | 0,598 |
+| bord | 0,572 |
+| creux | 0,547 |
+| **combinaison (7)** | **0,663** |
+
+Router 20 % des mots ne rattrape que 42 % des mauvaises boîtes (le hasard en
+rattraperait 20 %). **Le routage par le doute ne tient pas.**
+
+**Cause** : ces indices décrivent la géométrie locale de l'encre — exactement ce
+dont `connexe` se sert déjà pour placer la boîte. Ils ne peuvent pas être
+indépendants de sa décision. Un signal utile devrait venir d'ailleurs : du texte
+(longueur attendue du mot), ou d'un second moteur de nature différente.
+
+## Correction de métrique — mes mesures B39 à B41 ne sont pas celles de CRITERE.md
+
+`judge.py` note la **frontière entre deux mots consécutifs** et la compte juste si
+elle tombe n'importe où dans le blanc de la VT. B39, B40 et B41 notaient l'écart
+de **chaque bord de boîte au bord du mot** — bien plus sévère. D'où « 25 % de mots
+au-dessus de 0,5 car » en B41 contre 96,65 % sous le seuil au banc : ce ne sont
+pas les mêmes grandeurs.
+
+Les comparaisons moi / `connexe` restent valides (même règle des deux côtés) mais
+aucun de ces chiffres n'est comparable au critère gelé. `src/regle_ligne.py` note
+désormais sous les deux, nommément.
+
+## B42 — relevé sur règle à l'échelle de la ligne : échec instructif
+
+Une planche par mot coûte un regard par mot : inutilisable. Ici la règle couvre
+la ligne, découpée en deux segments d'environ trois mots.
+
+Ligne de BnF, 6 mots. Sous la métrique gelée : moi 100 % ≤ 0,5 car (pire 0,35),
+`connexe` 100 % (pire 0,00). Sous la métrique stricte : moi médiane 0,42 car,
+`connexe` **0,04**. Le moteur écrase le VLM sur cette ligne.
+
+**Cause, mesurée** : l'erreur n'est pas dans l'œil mais dans le comptage.
+
+```
+segment a : biais -0,01 car, dispersion 0,13 car
+segment b : biais -0,41 car, dispersion 0,32 car
+            pas ajusté 10,07 px contre 10 déclaré  -> échelle juste à 0,7 %
+            origine ajustée 3269 contre 3259       -> décalée d'exactement 1 graduation
+```
+
+Sur la planche dense (64 graduations, un chiffre tous les 5) l'origine a été lue
+une graduation trop loin, et tout le segment a glissé. Le segment aéré est, lui,
+excellent : biais nul, dispersion 0,13 caractère.
+
+**Corrigé** : `planche()` chiffre chaque graduation tant que la place le permet
+(un sur deux au-delà de 34, un sur cinq au-delà de 70), répète les chiffres sous
+la bande, et marque l'origine d'une barre noire pleine qu'aucun trait rouge ne
+peut imiter.
+
+**Ce que ça dit du projet** : le relevé sur règle est précis (0,13 caractère de
+dispersion) mais fragile au repère. C'est une erreur d'instrument, pas de mesure —
+donc réductible. À vérifier au prochain tir sur les mêmes lignes.
