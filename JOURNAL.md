@@ -1382,3 +1382,44 @@ identique à la sauvegarde `/tmp/dtw_apres.py`.
    `git stash`, jamais une substitution en place dans l'arbre de travail.
 2. `git add -A` après avoir substitué un fichier est un piège silencieux. Un
    commit qui suit une manipulation de fichiers doit énumérer ses chemins.
+
+## B47-B48 — le chiffre du champion était mesuré sur un corpus tronqué
+
+**B47, comparaison directe.** Les 538 lignes de BnF, boîtes calculées deux fois :
+une fois avec le `dtw.py` du commit 33f35c3 chargé depuis un répertoire séparé,
+une fois avec celui d'aujourd'hui. Chaque exécution imprime le chemin du module
+qu'elle a réellement importé, pour que la comparaison ne repose pas sur une
+supposition.
+
+> **538 lignes identiques sur 538, zéro différence.**
+
+B36 et B45 n'ont rien changé à la géométrie. Le code est disculpé.
+
+**B48, la vraie cause.** `run.py` lit `BBVLM_MAX_LIGNES`, qui tronque le nombre de
+lignes notées par page. En le faisant varier sur BnF :
+
+| max_lignes | lignes notées | ≤0,5c | pire | IoU |
+|---|---|---|---|---|
+| 20 | 20 | 100 % | 0,02 | **0,939** |
+| 40 | 40 | 100 % | 0,39 | 0,941 |
+| 100 | 100 | 100 % | 0,39 | 0,940 |
+| aucune | **538** | **99,35 %** | **1,84** | 0,945 |
+| *champion enregistré* | *non consigné* | *100 %* | *0,47* | ***0,939*** |
+
+L'IoU du champion tombe exactement sur celui du banc tronqué à 20 lignes.
+
+> **Les chiffres du champion ont été obtenus sur quelques dizaines de lignes par
+> page, et présentés comme s'ils portaient sur le corpus.**
+
+Ce n'est pas un détail de comptabilité. CRITERE.md était réputé tenu sur onze
+seuils sur douze ; ce jugement reposait sur un banc tronqué. Sur le corpus
+complet, Newseye passe de 97,87 % à 94,77 % et son pire cas de 7,45 à 33,31
+caractères — il échoue alors trois critères sur quatre, et le banc compte une
+ligne en échec là où le champion en annonçait zéro.
+
+**Ce qui a permis de le voir** : avoir refusé de conclure d'un écart entre
+chiffres agrégés, et être allé comparer les sorties ligne à ligne. L'écart de
+chiffres était réel mais ne disait rien de sa cause.
+
+**Ce qui l'avait caché** : un chiffre de référence sans son périmètre. Corrigé —
+`run.py` imprime et enregistre désormais pages et lignes par corpus.
