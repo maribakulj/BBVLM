@@ -1269,3 +1269,29 @@ Seung, Opper & Sompolinsky (1992), standard en apprentissage actif — document�
 pas une trouvaille. Écart-type et étendue des bords proposés par le comité,
 notés en AUC contre le seuil de 0,5 caractère, puis taux de capture en routant
 5/10/20/30 % des mots vers la règle.
+
+## B44 — dépistage visuel à l'échelle de la ligne (préparé)
+
+`src/depistage.py`. B39 avait fait juger 24 vignettes sur une planche unique que
+l'afficheur réduisait de moitié : rappel 62 %. Ici une planche par ligne (ou par
+groupe de mots), boîtes numérotées, et deux garde-fous :
+
+- `HAUTEUR_MIN_MOT = 26` px : sous cette hauteur rendue, `planche()` renvoie
+  `None` au lieu d'une image. Refuser de montrer vaut mieux que recueillir un
+  avis sur du flou — c'est la même règle que le refus d'une ligne dans une VT.
+- `decouper(min_px_par_mot=110)` : chaque mot doit disposer d'au moins 110 px
+  rendus, sinon ses bords ne sont pas visibles. Le nombre de mots par planche en
+  découle, il n'est pas choisi.
+
+Le dépistage ne mesure pas, il TRIE. Ce qu'il désigne part au relevé sur règle,
+qui mesure. Cascade, pas remplacement. À mesurer : rappel et précision contre la
+VT, sur un échantillon moitié lignes sales moitié lignes propres.
+
+## Note d'exploitation — mémoire
+
+La machine a 16 Go et le banc à cinq moteurs sur trois pages par corpus l'a
+saturée (67 Mo libres, plusieurs tâches de fond tuées par le système). Le banc
+DTW multi-gabarit, lancé en B36 et sans résultat après plus d'une heure, a été
+arrêté : il n'est pas sur le chemin critique puisque `connexe` reste champion.
+Le multi-gabarit reste à vérifier sur un échantillon réduit avant d'être déclaré
+sans régression. À ne pas oublier : **c'est une vérification due, pas faite.**
