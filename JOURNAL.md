@@ -1640,3 +1640,35 @@ code sur une théorie que la mesure contredit serait exactement l'erreur que ce
 journal existe pour empêcher. B12 avait mesuré le coût de `DTWAdapt` comme moteur
 *principal*, sur toutes les lignes ; il ne se transporte pas à 107 lignes choisies
 par un motif textuel.
+
+## B57 — `rogne` au banc complet : ÉCARTÉ, et pourquoi
+
+| corpus | `connexe` | `rogne` |
+|---|---|---|
+| BnF (538 l.) | 99,35 / 1,84 / 0,945 | **identique** |
+| PetitParisien (104 l.) | 99,12 / 1,32 / 0,897 | **identique** |
+| Newseye (7586 l.) | 94,77 / 33,31 / 0,867 | 94,29 / **30,78** / 0,866 |
+| BNLfull (18 l.) | 34,43 / 8,99 / 0,000 | **27,87 / 17,75** / 0,000 |
+
+Le gain sur le pire cas de Newseye est réel (−2,53 caractères) mais s'accompagne
+d'une perte de 0,48 point sur les frontières, et surtout d'un **effondrement sur
+BNL** : pire cas presque doublé.
+
+**Cause.** BNL est un tableau financier. Un blanc large y est une structure de
+colonne, pas de la pollution. L'arbitrage par coût DTW préfère le support court
+parce que le gabarit est rendu comme une prose : le moteur coupe précisément ce
+qu'il fallait garder. Le mécanisme n'est pas faux, son domaine d'application l'est.
+
+**Ce que ça confirme sur la méthode** : le corpus de contrôle avait bien joué son
+rôle sur BnF et PetitParisien, où `rogne` est resté rigoureusement inerte. Mais je
+n'avais pas mis BNL dans le contrôle — je l'avais écarté mentalement comme « cas
+dur déjà connu ». Un corpus qu'on renonce à améliorer doit rester dans le contrôle,
+justement parce qu'on n'y regarde plus.
+
+## B58 — rognage réservé aux lignes non tabulaires
+
+`routage.est_tabulaire` reconnaît 17 des 18 lignes de BNL par leurs points de
+conduite (mesuré B51). On s'en sert comme garde : sur une ligne tabulaire, `rogne`
+rend la main à `connexe` sans toucher au support. Aucun nouveau mécanisme, aucun
+seuil supplémentaire — on réutilise un détecteur dont le domaine de validité est
+déjà mesuré. Banc complet en cours.

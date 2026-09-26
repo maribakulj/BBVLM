@@ -23,6 +23,13 @@ moteur calcule déjà.
 
 Prévalence de l'encre étrangère (B53) : 0,9 % des lignes de Newseye, 0 % de BnF
 et de PetitParisien.
+
+LIGNES TABULAIRES EXCLUES (B58). Le banc complet a montré que le rognage
+s'effondre sur BNL — pire cas de 8,99 à 17,75, frontières de 34,43 à 27,87 %.
+Cause : dans un tableau, un blanc large est une structure de colonne, pas de la
+pollution, et l'arbitrage DTW préfère le support court parce que le gabarit rendu
+est celui d'une prose. On réutilise donc `routage.est_tabulaire`, dont B51 a
+mesuré qu'il reconnaît 17 des 18 lignes de BNL par leurs points de conduite.
 """
 from __future__ import annotations
 import numpy as np
@@ -30,6 +37,7 @@ import ink
 from band import core_band
 from dtw import render_profile
 from connexe import Connexe
+from routage import est_tabulaire
 
 SEUIL_BLANC = 1.8   # un blanc plus large que ce multiple de l'espace rendu sépare deux amas
 GAIN_MIN = 0.02     # le support rogné doit gagner franchement, sinon on garde l'entier
@@ -86,6 +94,8 @@ class Rogne:
         return (x0, y0, min(x1, ox+meilleur[1]+2), y1)
 
     def boxes(self, gray: np.ndarray, line):
+        if est_tabulaire(line.words):
+            return self.base.boxes(gray, line)
         neuf = self._support_utile(gray, line)
         if neuf is None:
             return self.base.boxes(gray, line)
