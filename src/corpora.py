@@ -200,6 +200,25 @@ def all_pages(limit_per_corpus: int | None = None, only_geometric: bool = True,
         p = load_alto(x, img, 'BNL', os.path.basename(x)[:-4])
         if p: out.append(p); n += 1
         if limit_per_corpus and n >= limit_per_corpus: break
+    # Déduplication par CONTENU. Le sous-ensemble cinoc/37-GT-BNL est inclus
+    # dans le téléchargement BNL complet : la même page 0015 était chargée sous
+    # deux noms de corpus et comptait donc double dans le chiffre global, avec
+    # des mesures rigoureusement identiques (7,056 / 8,99 / 34,43 % / IoU 0,0)
+    # qui avaient l'air de deux confirmations indépendantes. Mesuré B49.
+    import hashlib
+    vus, garde, doublons = {}, [], []
+    for p_ in out:
+        try:
+            with open(p_.image_path, 'rb') as f:
+                cle = (os.path.getsize(p_.image_path), hashlib.md5(f.read(1 << 16)).hexdigest())
+        except OSError:
+            garde.append(p_); continue
+        if cle in vus:
+            doublons.append((p_.corpus, vus[cle])); continue
+        vus[cle] = p_.corpus; garde.append(p_)
+    if doublons:
+        print(f"[corpora] doublons de contenu écartés : {doublons}")
+    out = garde
     if max_lignes:
         for p in out: p.lines = p.lines[:max_lignes]
     if only_geometric:

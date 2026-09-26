@@ -2,32 +2,85 @@
  "iteration": 17,
  "champion": {
   "nom": "connexe",
-  "pct05": 96.65,
-  "iou": 0.839,
-  "echecs": 0,
+  "mesure": "2026-09-26, corpus complet, sans troncature",
+  "global": {
+   "lignes": 8263,
+   "frontieres": 45195,
+   "lignes_en_echec": 1,
+   "pct05": 94.96,
+   "iou_med": 0.877
+  },
   "par_corpus": {
    "BnF": {
-    "pct05": 100.0,
-    "max": 0.47,
-    "iou": 0.939,
+    "pct05": 99.35,
+    "max": 1.84,
+    "iou": 0.945,
+    "max_proportional": 3.38,
+    "perimetre": {
+     "pages": 1,
+     "lignes": 538
+    },
+    "seuils": {
+     "pct05_95": true,
+     "pire_3c": true,
+     "iou_80": true,
+     "pas_de_regression": true
+    },
     "ok": true
    },
    "PetitParisien": {
-    "pct05": 99.26,
+    "pct05": 99.12,
     "max": 1.32,
-    "iou": 0.875,
+    "iou": 0.897,
+    "max_proportional": 2.14,
+    "perimetre": {
+     "pages": 1,
+     "lignes": 104
+    },
+    "seuils": {
+     "pct05_95": true,
+     "pire_3c": true,
+     "iou_80": true,
+     "pas_de_regression": true
+    },
     "ok": true
    },
    "Newseye": {
-    "pct05": 97.87,
-    "max": 7.45,
-    "iou": 0.815,
-    "ok": false,
-    "manque": "pire cas seul"
+    "pct05": 94.77,
+    "max": 33.31,
+    "iou": 0.867,
+    "max_proportional": 28.6,
+    "perimetre": {
+     "pages": 9,
+     "lignes": 7586
+    },
+    "seuils": {
+     "pct05_95": false,
+     "pire_3c": false,
+     "iou_80": true,
+     "pas_de_regression": false
+    },
+    "ok": false
+   },
+   "BNLfull": {
+    "pct05": 34.43,
+    "max": 8.99,
+    "iou": 0.0,
+    "max_proportional": 2.79,
+    "perimetre": {
+     "pages": 1,
+     "lignes": 18
+    },
+    "seuils": {
+     "pct05_95": false,
+     "pire_3c": false,
+     "iou_80": false,
+     "pas_de_regression": false
+    },
+    "ok": false
    }
   },
-  "perimetre": "INCONNU — mesuré avant que run.py ne l'enregistre ; le corpus a depuis gagné des pages Newseye (9 pages, 7586 lignes au 26/09). Ne pas comparer un banc actuel à ces chiffres sans refaire la mesure.",
-  "avertissement": "Chiffres non reproduits au 26/09 : banc actuel BnF 99,35 %/1,84, PetitParisien 99,12 %/1,32, Newseye 94,77 %/33,31. Cause en cours de vérification (B46)."
+  "note": "Les chiffres antérieurs (96,65 % / IoU 0,839 / 0 échec) avaient été obtenus avec BBVLM_MAX_LIGNES, sur quelques dizaines de lignes par page. Sur le corpus complet, connexe échoue CRITERE.md sur Newseye et BNLfull, y compris la clause de non-régression contre le proportionnel — celle-là même qui avait fait réfuter hans H1."
  },
  "mesures": [
   {
@@ -241,7 +294,6 @@
   "B26_banc_couple"
  ],
  "prochaine": "B34_vt_production_bout_en_bout",
- "note_vt": "BNL écartée comme VT géométrique (blancs non vides). Banc 1151 -> 660 lignes.",
  "github": "https://github.com/maribakulj/BBVLM",
  "corpus": {
   "valides": [

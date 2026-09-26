@@ -1423,3 +1423,42 @@ chiffres était réel mais ne disait rien de sa cause.
 
 **Ce qui l'avait caché** : un chiffre de référence sans son périmètre. Corrigé —
 `run.py` imprime et enregistre désormais pages et lignes par corpus.
+
+## B49 — l'état réel du champion, et un doublon de corpus
+
+**Doublon.** BNL et BNLfull rendaient des chiffres rigoureusement identiques
+(7,056 / 8,99 / 34,43 % / IoU 0,0), ce qui avait l'air de deux confirmations
+indépendantes. Même md5 : le sous-ensemble `cinoc/corpus/37-GT-BNL` est
+entièrement contenu dans le téléchargement BNL complet. **37 pages comptaient
+double.** `all_pages()` déduplique désormais par contenu (taille + empreinte des
+64 premiers Kio) et annonce ce qu'elle écarte.
+
+Vérifié avant d'accuser la mesure : sur la page BNL, les boîtes de la VT collent
+l'encre et ne sont pas dégénérées. L'IoU médian de 0,0 est donc un vrai échec de
+`connexe` sur ce tableau financier, pas un décalage de coordonnées.
+
+**L'état réel de `connexe`**, corpus complet, sans troncature :
+
+| corpus | ≤0,5c ≥95 % | pire ≤3c | IoU ≥0,80 | vs proportionnel |
+|---|---|---|---|---|
+| BnF (538 l.) | 99,35 ✓ | 1,84 ✓ | 0,945 ✓ | 1,84 / 3,38 ✓ |
+| PetitParisien (104 l.) | 99,12 ✓ | 1,32 ✓ | 0,897 ✓ | 1,32 / 2,14 ✓ |
+| Newseye (7586 l.) | 94,77 ✗ | **33,31** ✗ | 0,867 ✓ | **33,31 / 28,60** ✗ |
+| BNLfull (18 l.) | 34,43 ✗ | 8,99 ✗ | 0,000 ✗ | **8,99 / 2,79** ✗ |
+
+> **9 seuils tenus sur 16. Deux corpus conformes sur quatre.**
+> Et non « onze sur douze », qui était le chiffre d'un banc tronqué.
+
+**Le plus grave** : `connexe` viole la clause de non-régression contre le
+proportionnel sur Newseye (33,31 contre 28,60) et sur BNLfull (8,99 contre 2,79).
+C'est exactement la clause qui avait fait réfuter `hans` H1 — « un gain moyen qui
+dégrade un corpus n'est pas un gain ». Le champion du dépôt tombe sur son propre
+critère, et personne ne l'avait vu parce que le banc s'arrêtait aux premières
+lignes de chaque page.
+
+**Conséquence pour B40.** La règle graduée donnait 0,08 caractère médian contre
+0,69 pour `connexe` sur six mots. Je lisais ce résultat comme « le VLM bat un
+moteur excellent ». Il faut le relire comme « le VLM bat un moteur dont on ignorait
+qu'il échouait ». L'écart reste réel — même règle des deux côtés — mais sa portée
+change : il ne s'agit plus de gratter les derniers pour cent, il s'agit de
+rattraper des échecs francs. À porter à ~100 mots avant d'en tirer quoi que ce soit.
