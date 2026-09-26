@@ -1672,3 +1672,28 @@ conduite (mesuré B51). On s'en sert comme garde : sur une ligne tabulaire, `rog
 rend la main à `connexe` sans toucher au support. Aucun nouveau mécanisme, aucun
 seuil supplémentaire — on réutilise un détecteur dont le domaine de validité est
 déjà mesuré. Banc complet en cours.
+
+## B58 — le garde tabulaire marche, mais `rogne` reste un échange
+
+| corpus | `connexe` | `rogne` sans garde | `rogne` + garde |
+|---|---|---|---|
+| BnF (538 l.) | 99,35 / 1,84 / 0,945 | identique | **identique** |
+| PetitParisien (104 l.) | 99,12 / 1,32 / 0,897 | identique | **identique** |
+| BNLfull (18 l.) | 34,43 / 8,99 / 0,000 | 27,87 / 17,75 / 0,000 | **34,43 / 8,99 / 0,000** |
+| Newseye (7586 l.) | 94,77 / 33,31 / 0,867 | 94,29 / 30,78 / 0,866 | 94,35 / **30,78** / 0,866 |
+
+Le garde fait exactement ce qu'on lui demandait : BNL revient au chiffre près, et
+le gain sur Newseye est conservé. Réutiliser un détecteur dont le domaine de
+validité était déjà mesuré (17 lignes de BNL sur 18) a coûté trois lignes de code
+et n'a introduit aucun réglage.
+
+**Mais le compte reste un échange** : pire cas −2,53 caractères, frontières
+−0,42 point. CRITERE.md place le taux de frontières en premier, et Newseye échoue
+de toute façon dans les deux cas. **`connexe` reste champion.** `rogne` est
+conservé dans le dépôt comme mécanisme validé et documenté, pas promu.
+
+**Piste laissée ouverte, non explorée** : `GAIN_MIN` (0,02) est la marge que doit
+gagner le support rogné pour être préféré. L'augmenter ferait moins de rognages à
+tort. Mais la régler sur Newseye reviendrait à l'ajuster sur le corpus qui sert à
+la noter — il faudrait un corpus de réglage distinct, qui n'existe pas ici.
+Inscrit au backlog plutôt que fait à moitié.
