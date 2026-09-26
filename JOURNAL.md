@@ -1507,3 +1507,54 @@ comme moteur principal. Il reste atteint par cette porte dérobée.
 **Hypothèse à quantifier (B52, script prêt)** : ce mauvais aiguillage est un
 contributeur au fait que `connexe` fasse pire que le proportionnel sur Newseye.
 Le script compare les deux moteurs sur les seules lignes concernées.
+
+## B50 — `connexe` contre le proportionnel sur Newseye : la clause tombe sur UNE frontière
+
+9629 frontières où au moins un des deux moteurs dépasse 0,5 caractère :
+
+| seuil | connexe | proportionnel |
+|---|---|---|
+| > 0,5 car | 2 168 | 8 699 |
+| > 1 car | 1 350 | 4 460 |
+| > 3 car | 464 | 991 |
+| > 10 car | 59 | 103 |
+| médiane | **0,00** | 0,94 |
+| p90 | **1,44** | 3,08 |
+| p99 | **7,90** | 10,26 |
+| max | 33,31 | **28,60** |
+
+`connexe` est meilleur sur 8125 frontières et pire sur 1403. Il domine à **tous**
+les quantiles, y compris p99. La clause de non-régression de CRITERE.md est
+violée par **une seule frontière sur 45 195**.
+
+CRITERE.md reste GELÉ — on ne rature pas un critère parce qu'on le rate. Mais le
+fait doit être dit avec sa distribution : un maximum sur 45 000 tirages n'est pas
+une statistique robuste, et le préambule du critère demandait justement de
+regarder p90 et p99. Ici les deux sont nettement favorables à `connexe`.
+
+**Hypothèse réfutée en chemin** : je pensais que les pires cas venaient d'une VT
+dégénérée (largeur de caractère estimée à 1 px, donc erreur normalisée énorme).
+Seulement 13 des 464 cas ont une largeur de caractère sous 10 px, et la
+corrélation entre `1/cw` et l'erreur n'est que de +0,137. Le pire cas est dans
+une plage de largeur parfaitement normale.
+
+## B52-B53 — la vraie cause du pire cas : de l'encre étrangère dans la boîte de ligne
+
+Le pire cas, regardé et non supposé. Page 0253902-003, ligne 468, texte
+« ouvrier . » — une fin de paragraphe.
+
+```
+boîte de ligne VT : 2541 -> 3364        (le filet de colonne est vers 3340)
+boîtes VT         : ouvrier 2542-2671 | . 2692-2698
+boîtes connexe    : ouvrier 2542-3330 | . 3353-3363
+```
+
+La boîte de ligne **déborde dans la colonne voisine**. L'encre du « d » de
+« dans » entre dans le support, le moteur étire son gabarit de deux mots sur
+toute l'étendue, et place le second mot dans l'autre colonne. Ce n'est ni un
+défaut de la VT des mots (elle est juste) ni du bruit : c'est une boîte de ligne
+qui franchit un filet, et un moteur qui fait confiance à son support.
+
+**Mesure en cours (B53)** : combien de lignes ont un support d'encre bien plus
+large que ne l'exige leur texte ? L'indice n'utilise que le texte et l'image,
+jamais la VT des mots — il est donc utilisable en production.
