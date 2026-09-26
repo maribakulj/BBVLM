@@ -1780,3 +1780,39 @@ première fois qu'on peut le dire avec des chiffres des deux côtés.
 **Limite à ne pas cacher** : 57 boîtes, 9 fausses, dont 3 au-dessus de 1 caractère.
 Le rappel de 67 % au-dessus de 1 caractère repose sur trois cas. Il faut une
 centaine de fautes grossières avant d'en faire un chiffre.
+
+## B43 — le doute existe, mais hors du moteur : AUC 0,824
+
+15 145 mots (BnF, PetitParisien, 2 pages Newseye), cinq moteurs de natures
+différentes placent les boîtes, et c'est leur **désaccord** qui sert de signal —
+comité de requête (Seung, Opper & Sompolinsky 1992), standard en apprentissage
+actif, documenté et non inventé ici.
+
+| indice | AUC |
+|---|---|
+| écart-type des bords gauches | 0,755 |
+| écart-type des bords droits | 0,759 |
+| étendue des bords gauches | 0,755 |
+| étendue des bords droits | 0,758 |
+| **max des deux étendues** | **0,824** |
+
+| part des mots routés | mauvaises boîtes rattrapées |
+|---|---|
+| 5 % | 17 % |
+| 10 % | 33 % |
+| **20 %** | **56 %** |
+| 30 % | 69 % |
+
+À comparer à B41, où sept indices calculés **à l'intérieur** de `connexe`
+plafonnaient à 0,663 et ne rattrapaient que 42 % en routant 20 %.
+
+**Ce qui distingue les deux, et c'est le point** : les indices de B41 décrivaient
+la géométrie locale de l'encre, celle dont `connexe` se sert pour décider — ils ne
+pouvaient pas être indépendants de sa décision. Le désaccord entre moteurs est
+une quantité que le moteur seul ne peut pas produire. La cause de l'échec de B41
+était la bonne, et sa correction fonctionne.
+
+**Ce que ça n'établit pas encore** : que la cascade soit utile. B60 a montré que le
+relevé sur règle ne bat pas le moteur *en général*. Il ne devient un recours que
+si, **sur les mots que le comité désigne**, il fait mieux. C'est la mesure
+suivante — et elle doit porter sur ces mots-là, pas sur un tirage quelconque.
