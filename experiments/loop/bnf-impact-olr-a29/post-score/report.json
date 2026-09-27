@@ -1,0 +1,169 @@
+{
+  "schema": "bbvlm.bnf-impact-olr-a29-post-score-audit/1",
+  "status": "post-score diagnostic; parameters and candidate unchanged",
+  "missed_reference_content": [
+    {
+      "token": "R046",
+      "source_type": "paragraph",
+      "bbox": [
+        1789.0,
+        4695.0,
+        2346.0,
+        4769.0
+      ],
+      "reference_text": "Savon Velouta, 70, rue Legendre, Paris. Le\npain 0 fr. 75 ou 0 fr. 85 e. par poste ; 7 fr. 60 les\n12 pains franco."
+    },
+    {
+      "token": "R053",
+      "source_type": "paragraph",
+      "bbox": [
+        91.0,
+        610.0,
+        655.0,
+        868.0
+      ],
+      "reference_text": "Immense choix d’articles pour cadeaux et\nœufs de Pâques aux Grands Magasins Du‑\nfayel, bijouterie, joaillerie, orfèvrerie, hor‑\nlogerie, bronzes, marbres, objets d’art, pe‑\ntits meubles, voyage, sport et jardin, photo‑\ngraphie, cycles, voitures d’enfants, mobi‑\nliers. Dimanche de Pâques, les Magasins\nseront fermés. Lundi de Pâques ils seront\nouverts le matin avec concert et cinémato‑\ngraphe à 9 h. ½ et à 10 h. ½."
+    },
+    {
+      "token": "R086",
+      "source_type": "paragraph",
+      "bbox": [
+        955.0,
+        2532.0,
+        1156.0,
+        2559.0
+      ],
+      "reference_text": "Charles Martel."
+    },
+    {
+      "token": "R179",
+      "source_type": "paragraph",
+      "bbox": [
+        1640.0,
+        1678.0,
+        1760.0,
+        1706.0
+      ],
+      "reference_text": "MARSIN."
+    },
+    {
+      "token": "R208",
+      "source_type": "paragraph",
+      "bbox": [
+        2222.0,
+        421.0,
+        2343.0,
+        453.0
+      ],
+      "reference_text": "L. Cama."
+    },
+    {
+      "token": "R209",
+      "source_type": "paragraph",
+      "bbox": [
+        3286.0,
+        674.0,
+        3494.0,
+        705.0
+      ],
+      "reference_text": "(L'Information)."
+    }
+  ],
+  "fragmentation": [
+    {
+      "reference_stream": 0,
+      "reference_regions": 13,
+      "predicted_fragment_sizes": [
+        5,
+        7
+      ],
+      "covered_regions": 12
+    },
+    {
+      "reference_stream": 1,
+      "reference_regions": 2,
+      "predicted_fragment_sizes": [
+        2
+      ],
+      "covered_regions": 2
+    },
+    {
+      "reference_stream": 2,
+      "reference_regions": 24,
+      "predicted_fragment_sizes": [
+        24
+      ],
+      "covered_regions": 24
+    },
+    {
+      "reference_stream": 3,
+      "reference_regions": 8,
+      "predicted_fragment_sizes": [
+        7
+      ],
+      "covered_regions": 7
+    },
+    {
+      "reference_stream": 4,
+      "reference_regions": 39,
+      "predicted_fragment_sizes": [
+        27,
+        11
+      ],
+      "covered_regions": 38
+    },
+    {
+      "reference_stream": 5,
+      "reference_regions": 33,
+      "predicted_fragment_sizes": [
+        32
+      ],
+      "covered_regions": 32
+    },
+    {
+      "reference_stream": 6,
+      "reference_regions": 8,
+      "predicted_fragment_sizes": [
+        8
+      ],
+      "covered_regions": 8
+    },
+    {
+      "reference_stream": 7,
+      "reference_regions": 26,
+      "predicted_fragment_sizes": [
+        26
+      ],
+      "covered_regions": 26
+    },
+    {
+      "reference_stream": 8,
+      "reference_regions": 10,
+      "predicted_fragment_sizes": [
+        10
+      ],
+      "covered_regions": 10
+    },
+    {
+      "reference_stream": 9,
+      "reference_regions": 8,
+      "predicted_fragment_sizes": [
+        7
+      ],
+      "covered_regions": 7
+    },
+    {
+      "reference_stream": 10,
+      "reference_regions": 102,
+      "predicted_fragment_sizes": [
+        69,
+        23,
+        9
+      ],
+      "covered_regions": 101
+    }
+  ],
+  "impure_merges": [],
+  "conclusion": "No cross-reference merge. Residual error is four excess pure fragments plus six role-convention omissions; OrderedGroup remains broader than proven article truth.",
+  "accepted_as_validation": false
+}

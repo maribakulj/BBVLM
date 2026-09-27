@@ -1,0 +1,73 @@
+{
+  "page": "0253902-001",
+  "oracle_inputs": false,
+  "unmatched_alto_to_predicted_page_lines": 0,
+  "frozen_config": {
+    "config": {
+      "mode": "vertical",
+      "margin": 0,
+      "min_area": 2,
+      "binarization": "otsu",
+      "max_shrink": 0.5
+    },
+    "development_gain": 0.02528365546475897,
+    "frozen_at_unix": 1790465021.245065,
+    "source_sha256": "715edfc76c3b22a99360e1bda022ebecdbaa4a4258a9a679f0dc3aec8ad1e45c"
+  },
+  "scores": {
+    "0.5": {
+      "native": {
+        "correct": 2231,
+        "reference": 3082,
+        "predicted": 3145,
+        "precision": 0.7093799682034976,
+        "recall": 0.7238805970149254,
+        "f1": 0.716556929500562
+      },
+      "refined": {
+        "correct": 2339,
+        "reference": 3082,
+        "predicted": 3145,
+        "precision": 0.7437201907790143,
+        "recall": 0.7589227774172616,
+        "f1": 0.7512445800546009
+      }
+    },
+    "0.75": {
+      "native": {
+        "correct": 549,
+        "reference": 3082,
+        "predicted": 3145,
+        "precision": 0.17456279809220987,
+        "recall": 0.17813108371187542,
+        "f1": 0.17632889031636423
+      },
+      "refined": {
+        "correct": 870,
+        "reference": 3082,
+        "predicted": 3145,
+        "precision": 0.2766295707472178,
+        "recall": 0.28228423101881894,
+        "f1": 0.2794282961297575
+      }
+    },
+    "0.9": {
+      "native": {
+        "correct": 11,
+        "reference": 3082,
+        "predicted": 3145,
+        "precision": 0.0034976152623211448,
+        "recall": 0.0035691109669046075,
+        "f1": 0.003533001445318773
+      },
+      "refined": {
+        "correct": 89,
+        "reference": 3082,
+        "predicted": 3145,
+        "precision": 0.028298887122416534,
+        "recall": 0.028877352368591822,
+        "f1": 0.02858519351212462
+      }
+    }
+  }
+}

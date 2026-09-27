@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "id": "Xccef03ca",
+      "image": "experiments/loop/routing-a21/input/Xccef03ca.png",
+      "original_image": "experiments/loop/reference-a18/input/Xccef03ca.png"
+    },
+    {
+      "id": "Xd16465de",
+      "image": "experiments/loop/routing-a21/input/Xd16465de.png",
+      "original_image": "experiments/loop/reference-a18/input/Xd16465de.png"
+    },
+    {
+      "id": "X4a736be3",
+      "image": "experiments/loop/routing-a21/input/X4a736be3.png",
+      "original_image": "experiments/loop/reference-a18/input/X4a736be3.png"
+    },
+    {
+      "id": "X3d7d7292",
+      "image": "experiments/loop/routing-a21/input/X3d7d7292.png",
+      "original_image": "experiments/loop/reference-a18/input/X3d7d7292.png"
+    },
+    {
+      "id": "Xedb93e2e",
+      "image": "experiments/loop/routing-a21/input/Xedb93e2e.png",
+      "original_image": "experiments/loop/reference-a18/input/Xedb93e2e.png"
+    },
+    {
+      "id": "Xf10b250b",
+      "image": "experiments/loop/routing-a21/input/Xf10b250b.png",
+      "original_image": "experiments/loop/reference-a18/input/Xf10b250b.png"
+    }
+  ],
+  "selection": "all Luna not_uncertain; no score or GT used for item selection",
+  "task": "Transcribe only the isolated target line in each mask; original image supplied for glyph context. No neighboring lines. Preserve visible historical spelling/case, long s, abbreviation marks and punctuation. Do not insert ellipses for line continuations. Use readable Unicode, flag glyph-encoding uncertainty rather than guessing private-use codes. JSON lines [{id,text,uncertain,reason}].",
+  "confound": "target polygon presentation and model changed together; not pure model ablation"
+}

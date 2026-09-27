@@ -1,0 +1,50 @@
+{
+  "schema": "bbvlm.ctc-fallback-a23-posthoc/1",
+  "status": "posthoc_on_consumed_data_not_frozen_candidate",
+  "measurements": {
+    "ink_clipped_to_line_bbox": {
+      "method": "ink_clipped_to_line_bbox",
+      "reference_words": 121,
+      "predicted_words": 121,
+      "matched_pairs": 121,
+      "mean_iou_matched": 0.6899352838149803,
+      "matches_iou50": 106,
+      "precision_iou50": 0.8760330578512396,
+      "recall_iou50": 0.8760330578512396,
+      "matches_iou80": 35,
+      "precision_iou80": 0.2892561983471074,
+      "recall_iou80": 0.2892561983471074,
+      "lines_all_words_iou80": 1
+    },
+    "hybrid_clipped_to_line_bbox": {
+      "method": "hybrid_clipped_to_line_bbox",
+      "reference_words": 121,
+      "predicted_words": 121,
+      "matched_pairs": 121,
+      "mean_iou_matched": 0.7021520107101309,
+      "matches_iou50": 106,
+      "precision_iou50": 0.8760330578512396,
+      "recall_iou50": 0.8760330578512396,
+      "matches_iou80": 39,
+      "precision_iou80": 0.32231404958677684,
+      "recall_iou80": 0.32231404958677684,
+      "lines_all_words_iou80": 2
+    },
+    "forced_separators_raw_otsu": {
+      "method": "forced_separators_raw_otsu",
+      "reference_words": 121,
+      "predicted_words": 121,
+      "matched_pairs": 121,
+      "mean_iou_matched": 0.7218591171729755,
+      "matches_iou50": 111,
+      "precision_iou50": 0.9173553719008265,
+      "recall_iou50": 0.9173553719008265,
+      "matches_iou80": 39,
+      "precision_iou80": 0.32231404958677684,
+      "recall_iou80": 0.32231404958677684,
+      "lines_all_words_iou80": 1
+    }
+  },
+  "interpretation": "Clipping ink spans to the oracle line rectangle and raw Otsu improve the diagnostic, but were observed after A23 scoring and cannot be promoted without a fresh holdout.",
+  "accepted_for_project_completion_gate": false
+}

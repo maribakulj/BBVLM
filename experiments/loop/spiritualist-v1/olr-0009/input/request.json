@@ -1,0 +1,44 @@
+{
+  "schema": "bbvlm.blind-olr-request/1",
+  "page": "0009",
+  "region_ids": [
+    "R0f4b1562ff",
+    "R1a24f9f87b",
+    "R21a57099b4",
+    "R262fb319e6",
+    "R307387ff23",
+    "R4da284335c",
+    "R6b05a06fbc",
+    "R8b5ca4cdb4",
+    "R90665540ac",
+    "Rb4ca520b94",
+    "Re61e14fed5",
+    "Reec568b27c"
+  ],
+  "images": [
+    "page-original.png",
+    "page-regions-blind.png"
+  ],
+  "instruction": "Infer reading order and semantic grouping only from the images. IDs are opaque. Return every ID exactly once in ordered_region_ids. Group regions that belong to one narrative/semantic unit; do not assume each region is an article. Assign each region one role from MASTHEAD, HEADER, TEXT, ADVERT, OTHER, UNKNOWN. Flag uncertainty explicitly.",
+  "response_schema": {
+    "ordered_region_ids": [
+      "opaque ID, each exactly once"
+    ],
+    "groups": [
+      {
+        "id": "G1",
+        "region_ids": [
+          "opaque IDs"
+        ],
+        "label": "short neutral description",
+        "uncertain": false
+      }
+    ],
+    "roles": {
+      "opaque ID": "MASTHEAD|HEADER|TEXT|ADVERT|OTHER|UNKNOWN"
+    },
+    "uncertain_region_ids": [],
+    "notes": "short string"
+  },
+  "leakage_control": "IDs are fixed hashes of source IDs; neither sequence, reading order, SSU nor text is present in the request JSON."
+}

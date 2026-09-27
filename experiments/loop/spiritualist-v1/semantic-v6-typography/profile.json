@@ -1,0 +1,32 @@
+{
+  "schema": "bbvlm.semantic-v6-typography-profile/1",
+  "selected_on": "frozen v6 development pages only",
+  "development_pages": [
+    "0001",
+    "0006",
+    "0020",
+    "0023",
+    "0030",
+    "0040",
+    "0046",
+    "0049"
+  ],
+  "classifier": {
+    "max_header_line_count": 2,
+    "min_median_line_height_page_ratio": 0.014,
+    "min_uppercase_ratio": 0.6
+  },
+  "decision": "HEADER iff STREAM, line_count <= max, and median line height OR uppercase ratio reaches threshold",
+  "text_policy": "OCR text is read only for uppercase ratio; diplomatic text is never changed",
+  "coarse_scope": "oracle STREAM membership during calibration; no VLM claim",
+  "order_config": {
+    "gap_ratio": 0.14,
+    "top_exclusion_ratio": 0.055,
+    "max_anchor_width_ratio": 0.55,
+    "min_anchor_width_ratio": 0.02,
+    "assign_by_overlap": true
+  },
+  "validation_page": "0004",
+  "validation_labels_not_read_during_selection": true,
+  "warning": "Distributed roles and SSU are provisional and cannot validate word geometry."
+}

@@ -1,0 +1,102 @@
+{
+  "schema": "bbvlm.blind-olr-request/2",
+  "pages": [
+    {
+      "page": "0003",
+      "allowed_tokens": [
+        "C4",
+        "C5",
+        "D7",
+        "F2",
+        "N8",
+        "P4",
+        "Q9",
+        "R8",
+        "T8",
+        "V5",
+        "W6",
+        "Z8"
+      ],
+      "images": [
+        "0003-original.png",
+        "0003-regions.png"
+      ]
+    },
+    {
+      "page": "0008",
+      "allowed_tokens": [
+        "B2",
+        "E2",
+        "E8",
+        "F5",
+        "F9",
+        "H2",
+        "H6",
+        "H9",
+        "J6",
+        "J7",
+        "J9",
+        "K3",
+        "K4",
+        "K6",
+        "L3",
+        "N2",
+        "N5",
+        "N6",
+        "P8",
+        "R2",
+        "R7",
+        "S7",
+        "T9",
+        "U8",
+        "V2",
+        "V3",
+        "V8",
+        "X2",
+        "X5",
+        "Y5"
+      ],
+      "images": [
+        "0008-original.png",
+        "0008-regions.png"
+      ]
+    }
+  ],
+  "passes": 1,
+  "instruction": "Inspect both the original and labelled image for every page. Infer region reading order, semantic/article-like grouping, and role only from the images. Tokens are random and opaque. For each page return every allowed token exactly once in ordered_tokens and exactly once across groups. Assign every token one role from MASTHEAD, HEADER, TEXT, ADVERT, OTHER, UNKNOWN. Use uncertain_tokens and group uncertain=true instead of inventing certainty. Return JSON only.",
+  "response_schema": {
+    "schema": "bbvlm.blind-olr-response/2",
+    "pages": [
+      {
+        "page": "page ID",
+        "ordered_tokens": [
+          "short token"
+        ],
+        "groups": [
+          {
+            "id": "G1",
+            "tokens": [
+              "short token"
+            ],
+            "label": "neutral description",
+            "uncertain": false
+          }
+        ],
+        "roles": {
+          "short token": "controlled role"
+        },
+        "uncertain_tokens": [],
+        "notes": "short string"
+      }
+    ]
+  },
+  "leakage_control": "Short tokens are deterministically shuffled per page and reveal neither source IDs, geometry order, reading order, text, role nor semantic unit.",
+  "binding_control": "The model never handles stable IDs; strict software validation binds tokens to them after the response, with no repair.",
+  "frozen_gates": {
+    "raw_structural_valid": true,
+    "reading_order_pair_accuracy_each_page_min": 0.9,
+    "semantic_group_pair_f1_each_page_min": 0.8,
+    "role_accuracy_each_page_min": 0.8
+  },
+  "reference_warning": "Distributed SSU/order/role labels are provisional, not independently adjudicated ground truth. These validation pages are consumed by this fixed protocol after scoring."
+}

@@ -1,0 +1,41 @@
+{
+  "requested_line_ids": [
+    "L09b731856f",
+    "L5910ec99c1",
+    "L6b26e27220",
+    "Ldaa7977eb9",
+    "L34b514795a"
+  ],
+  "lines": [
+    {
+      "id": "L09b731856f",
+      "text": "pandues contre lui, dans la basse foule",
+      "uncertain": false,
+      "notes": "La ligne précédente finit par « re- » ; la ligne cible commence par « pandues ». Aucun débordement de la boîte initiale."
+    },
+    {
+      "id": "L5910ec99c1",
+      "text": "Beuchard.",
+      "uncertain": true,
+      "notes": "Signature très floue ; lecture des lettres incertaine. Aucun débordement de la boîte initiale visible."
+    },
+    {
+      "id": "L6b26e27220",
+      "text": "toyenne Poisson. fit toutefois cette re-",
+      "uncertain": true,
+      "notes": "La ligne précédente finit par « ci- » ; la cible commence par « toyenne ». Ponctuation après « Poisson » peu nette, vraisemblablement un point. Aucun débordement de la boîte initiale."
+    },
+    {
+      "id": "Ldaa7977eb9",
+      "text": "conscients de satisfaire au vœu ardent",
+      "uncertain": false,
+      "notes": "La graphie « vœu » est visible. Aucun débordement de la boîte initiale."
+    },
+    {
+      "id": "L34b514795a",
+      "text": "gné par un médecin. Tout le monde",
+      "uncertain": false,
+      "notes": "La ligne précédente finit par « accompa- » ; la cible commence par « gné ». Aucun débordement de la boîte initiale."
+    }
+  ]
+}

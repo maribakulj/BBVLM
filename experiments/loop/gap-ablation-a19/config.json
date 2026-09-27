@@ -1,0 +1,9 @@
+{
+  "parameters": {
+    "min_gap_height_ratio": 0.1,
+    "gap_separation_ratio": 1.5
+  },
+  "frozen_before_measurement": true,
+  "selection": "mechanistic single setting, no tuning",
+  "reference_scope": "audit/development; four reserve books remain unopened"
+}

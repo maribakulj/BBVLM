@@ -1,0 +1,429 @@
+{
+  "schema": "bbvlm.sbb-blind-ocr-audit/1",
+  "reference": "external SBB original, no correction from our models",
+  "scope": "16 random oracle line crops from four audit works, not end-to-end",
+  "scores": {
+    "luna": {
+      "lines": 16,
+      "missing_lines": 0,
+      "exact_lines": 1,
+      "characters": 707,
+      "edits": 354,
+      "cer": 0.5007072135785007,
+      "cer_nfc_long_s": 0.49363507779349364,
+      "normalisation": "NFC and ſ→s only",
+      "per_line": [
+        {
+          "id": "X862b2b3c",
+          "reference": "Na",
+          "hypothesis": "Mich",
+          "characters": 3,
+          "edits": 4,
+          "normalised_characters": 3,
+          "normalised_edits": 4,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Xa8b61dbb",
+          "reference": "Alſo hat Gott ſein mat bewei",
+          "hypothesis": "Alſo hat Gott ſein macht beweist",
+          "characters": 30,
+          "edits": 4,
+          "normalised_characters": 30,
+          "normalised_edits": 4,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Xccef03ca",
+          "reference": "So antwoꝛt vns der Herre Gott/",
+          "hypothesis": "So antwortet uns der Herre Gott!",
+          "characters": 30,
+          "edits": 5,
+          "normalised_characters": 30,
+          "normalised_edits": 5,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Xd16465de",
+          "reference": "Wo ſon wir nu raht ſuen",
+          "hypothesis": "Wo ſollen wir nu rath ſuchen?",
+          "characters": 26,
+          "edits": 8,
+          "normalised_characters": 26,
+          "normalised_edits": 8,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "X464da681",
+          "reference": "den Augen meiner trumenden Phantae nir",
+          "hypothesis": "…hen Augen meiner träumenden Phantaſie nicht",
+          "characters": 41,
+          "edits": 8,
+          "normalised_characters": 41,
+          "normalised_edits": 8,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "X4a736be3",
+          "reference": "war unverſehens verſwunden. J ſah, daß",
+          "hypothesis": "war unversehens verschwunden. Ich sah, daß",
+          "characters": 40,
+          "edits": 8,
+          "normalised_characters": 40,
+          "normalised_edits": 5,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "X4fc0d3a8",
+          "reference": "ſe lage, zu liebkoſen, ſah i, daß i meine Hnde",
+          "hypothesis": "…ſe lage, zu liebkoſen, ſah ich, daß ich meine Hände",
+          "characters": 49,
+          "edits": 6,
+          "normalised_characters": 49,
+          "normalised_edits": 6,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "X5722a4ba",
+          "reference": "ge, die mir anfngli nit weit entfernt ſien,",
+          "hypothesis": "ge, die mir anfänglich nicht weit entfernt schien,",
+          "characters": 47,
+          "edits": 8,
+          "normalised_characters": 47,
+          "normalised_edits": 7,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "X3d7d7292",
+          "reference": "abgerien wirdt/ von dem menſen der da",
+          "hypothesis": "abgeriſſen wirdt/ von dem menſchen der da",
+          "characters": 39,
+          "edits": 4,
+          "normalised_characters": 39,
+          "normalised_edits": 4,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "X7ddb5a0a",
+          "reference": "leydet/ ſunder Got laet das vbel ill ligen/",
+          "hypothesis": "leyder/ſünder Göt laſſet das vbel still ligen/",
+          "characters": 45,
+          "edits": 8,
+          "normalised_characters": 45,
+          "normalised_edits": 8,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Xedb93e2e",
+          "reference": "vnd leyden auﬀ den euern menſen/ vñ der",
+          "hypothesis": "und leyden auff den euſſern menſchen/ von der",
+          "characters": 41,
+          "edits": 9,
+          "normalised_characters": 41,
+          "normalised_edits": 9,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "X790c67fe",
+          "reference": "vnd erhait/ pꝛeytet  das her auß vnd",
+          "hypothesis": "und sicherheit/pieget sich das herz auff ...",
+          "characters": 41,
+          "edits": 20,
+          "normalised_characters": 41,
+          "normalised_edits": 20,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Xae7c9ab9",
+          "reference": "blätter, genau bey den Köpfen der Achſelbeiner, und hilft zugleich mit denen Aufhebenden",
+          "hypothesis": "tigen fortſätzen der Halsgewerbe, und 8. des Rückens, endiget ſich … blätter, genau bey den Köpfen der Achſelbeiner, und hilft zugleich mit denen Aufhebenden …",
+          "characters": 88,
+          "edits": 71,
+          "normalised_characters": 88,
+          "normalised_edits": 71,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Xf10b250b",
+          "reference": "VI.",
+          "hypothesis": "VI.",
+          "characters": 3,
+          "edits": 0,
+          "normalised_characters": 3,
+          "normalised_edits": 0,
+          "missing": false,
+          "exact": true
+        },
+        {
+          "id": "X9234e71e",
+          "reference": "tigen fortſäzen der Halsgewerbe, und 8. des Ruckens, endiget ſich in den Gräten der Schulter⸗",
+          "hypothesis": "c. Das Münchs-Kappen-förmige Meußlein, entstehet aus dem Knackbein, und von allen gra… tigen fortſätzen der Halsgewerbe, und 8. des Rückens, endiget ſich in den Gräten der Schulter…",
+          "characters": 93,
+          "edits": 90,
+          "normalised_characters": 93,
+          "normalised_edits": 90,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Xf7e27fd8",
+          "reference": "27. Mſc. Das Münchs-Kappen-förmige Meuſlein, entſteht aus dem Knickbein, und von allen grä⸗",
+          "hypothesis": "27. Mſc. Das Münchs-Kappen-förmige Meußlein, entstehet aus dem Knackbein und von allen gra… tigen fortſätzen der Halsgewerbe, und 8. des Rückens, endiget ſich in den Gräten der Schulter…",
+          "characters": 91,
+          "edits": 101,
+          "normalised_characters": 91,
+          "normalised_edits": 100,
+          "missing": false,
+          "exact": false
+        }
+      ]
+    },
+    "luna_sol": {
+      "lines": 16,
+      "missing_lines": 0,
+      "exact_lines": 1,
+      "characters": 707,
+      "edits": 92,
+      "cer": 0.13012729844413012,
+      "cer_nfc_long_s": 0.12588401697312587,
+      "normalisation": "NFC and ſ→s only",
+      "per_line": [
+        {
+          "id": "X862b2b3c",
+          "reference": "Na",
+          "hypothesis": "M. ch.",
+          "characters": 3,
+          "edits": 6,
+          "normalised_characters": 3,
+          "normalised_edits": 6,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Xa8b61dbb",
+          "reference": "Alſo hat Gott ſein mat bewei",
+          "hypothesis": "Alſo hat Gott ſein macht beweiſt",
+          "characters": 30,
+          "edits": 4,
+          "normalised_characters": 30,
+          "normalised_edits": 4,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Xccef03ca",
+          "reference": "So antwoꝛt vns der Herre Gott/",
+          "hypothesis": "So antwortet uns der Herre Gott!",
+          "characters": 30,
+          "edits": 5,
+          "normalised_characters": 30,
+          "normalised_edits": 5,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Xd16465de",
+          "reference": "Wo ſon wir nu raht ſuen",
+          "hypothesis": "Wo ſollen wir nu rath ſuchen?",
+          "characters": 26,
+          "edits": 8,
+          "normalised_characters": 26,
+          "normalised_edits": 8,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "X464da681",
+          "reference": "den Augen meiner trumenden Phantae nir",
+          "hypothesis": "den Augen meiner träumenden Phantaſie nicht",
+          "characters": 41,
+          "edits": 6,
+          "normalised_characters": 41,
+          "normalised_edits": 6,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "X4a736be3",
+          "reference": "war unverſehens verſwunden. J ſah, daß",
+          "hypothesis": "war unversehens verschwunden. Ich sah, daß",
+          "characters": 40,
+          "edits": 8,
+          "normalised_characters": 40,
+          "normalised_edits": 5,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "X4fc0d3a8",
+          "reference": "ſe lage, zu liebkoſen, ſah i, daß i meine Hnde",
+          "hypothesis": "ſe lage, zu liebkoſen, ſah ich, daß ich meine Hände",
+          "characters": 49,
+          "edits": 5,
+          "normalised_characters": 49,
+          "normalised_edits": 5,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "X5722a4ba",
+          "reference": "ge, die mir anfngli nit weit entfernt ſien,",
+          "hypothesis": "ge, die mir anfänglich nicht weit entfernt ſchien,",
+          "characters": 47,
+          "edits": 7,
+          "normalised_characters": 47,
+          "normalised_edits": 7,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "X3d7d7292",
+          "reference": "abgerien wirdt/ von dem menſen der da",
+          "hypothesis": "abgeriſſen wirdt/ von dem menſchen der da",
+          "characters": 39,
+          "edits": 4,
+          "normalised_characters": 39,
+          "normalised_edits": 4,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "X7ddb5a0a",
+          "reference": "leydet/ ſunder Got laet das vbel ill ligen/",
+          "hypothesis": "leybet/ſunder Got laſſet das vbel ſtill liegen/",
+          "characters": 45,
+          "edits": 7,
+          "normalised_characters": 45,
+          "normalised_edits": 7,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Xedb93e2e",
+          "reference": "vnd leyden auﬀ den euern menſen/ vñ der",
+          "hypothesis": "und leyden auff den euſſern menſchen/ von der",
+          "characters": 41,
+          "edits": 9,
+          "normalised_characters": 41,
+          "normalised_edits": 9,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "X790c67fe",
+          "reference": "vnd erhait/ pꝛeytet  das her auß vnd",
+          "hypothesis": "vnd ſicherheit/preyet ſich das herz auff vnd",
+          "characters": 41,
+          "edits": 15,
+          "normalised_characters": 41,
+          "normalised_edits": 15,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Xae7c9ab9",
+          "reference": "blätter, genau bey den Köpfen der Achſelbeiner, und hilft zugleich mit denen Aufhebenden",
+          "hypothesis": "blätter, genau bey den Köpfen der Achſelbeine, und hilft zugleich mit denen Aufhebenden",
+          "characters": 88,
+          "edits": 1,
+          "normalised_characters": 88,
+          "normalised_edits": 1,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Xf10b250b",
+          "reference": "VI.",
+          "hypothesis": "VI.",
+          "characters": 3,
+          "edits": 0,
+          "normalised_characters": 3,
+          "normalised_edits": 0,
+          "missing": false,
+          "exact": true
+        },
+        {
+          "id": "X9234e71e",
+          "reference": "tigen fortſäzen der Halsgewerbe, und 8. des Ruckens, endiget ſich in den Gräten der Schulter⸗",
+          "hypothesis": "tigen fortſäzen der Halsgewerbe, und 8. des Rückens, endiget ſich in den Gräten der Schulter,",
+          "characters": 93,
+          "edits": 2,
+          "normalised_characters": 93,
+          "normalised_edits": 2,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Xf7e27fd8",
+          "reference": "27. Mſc. Das Münchs-Kappen-förmige Meuſlein, entſteht aus dem Knickbein, und von allen grä⸗",
+          "hypothesis": "27. Mſc. Das Münchs-Kappenförmige Meuſlem, entſteht aus dem Knackbein, und von allen grä",
+          "characters": 91,
+          "edits": 5,
+          "normalised_characters": 91,
+          "normalised_edits": 5,
+          "missing": false,
+          "exact": false
+        }
+      ]
+    }
+  },
+  "luna_uncertain": [
+    "X5722a4ba",
+    "X790c67fe",
+    "X9234e71e",
+    "X4fc0d3a8",
+    "X7ddb5a0a",
+    "X862b2b3c",
+    "Xa8b61dbb",
+    "Xae7c9ab9",
+    "X464da681",
+    "Xf7e27fd8"
+  ],
+  "input_response_sha256": "727a48ce6e04b7b6188e9f90c452e785e680e26159c48fe39f48955754562cce",
+  "passes": {
+    "luna": 1,
+    "sol": 1
+  },
+  "cost_observability": {
+    "luna_input_crops": 16,
+    "token_counts": null,
+    "billed_cost": null,
+    "note": "A pass is an agent reading task, not a measured backend forward or free inference",
+    "sol_target_crops": 10,
+    "sol_original_context_crops": 10
+  },
+  "reference_encoding": {
+    "private_use_characters": 29,
+    "lines_with_private_use": 11,
+    "policy": "Keep strict score; do not infer a favorable PUA mapping from model predictions. Obtain the authoritative OCR-D/MUFI mapping before a separate comparable convention score."
+  },
+  "accepted_for_project_completion_gate": false,
+  "sol_target_ids": [
+    "X464da681",
+    "X4fc0d3a8",
+    "X5722a4ba",
+    "X790c67fe",
+    "X7ddb5a0a",
+    "X862b2b3c",
+    "X9234e71e",
+    "Xa8b61dbb",
+    "Xae7c9ab9",
+    "Xf7e27fd8"
+  ],
+  "sol_selection": "Luna uncertainty only, not reference CER",
+  "comparison_confound": "Sol received polygon-isolated targets plus original context; model and presentation both changed",
+  "sol_response_sha256": "28f8ee4ef572bf9aac3859332248847b7946637118719756a3699bfaf97d6834"
+}

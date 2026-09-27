@@ -1,0 +1,578 @@
+{
+  "schema_version": "bbvlm.document/1",
+  "id": "onb-pilot",
+  "coordinate_system": "page_pixels_xyxy_half_open",
+  "nodes": [
+    {
+      "id": "P1",
+      "kind": "page",
+      "parent": null,
+      "page": "P1",
+      "bbox": [
+        0,
+        0,
+        2479,
+        3508
+      ],
+      "image": "../input/page.jpg",
+      "status": "automatic"
+    },
+    {
+      "id": "R01",
+      "bbox": [
+        163,
+        219,
+        278,
+        258
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic"
+    },
+    {
+      "id": "R02",
+      "bbox": [
+        497,
+        212,
+        704,
+        257
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic"
+    },
+    {
+      "id": "R03",
+      "bbox": [
+        1028,
+        211,
+        1293,
+        257
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic"
+    },
+    {
+      "id": "R04",
+      "bbox": [
+        1609,
+        210,
+        1798,
+        253
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic"
+    },
+    {
+      "id": "R05",
+      "bbox": [
+        1994,
+        214,
+        2115,
+        253
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic"
+    },
+    {
+      "id": "R06",
+      "bbox": [
+        128,
+        286,
+        800,
+        1304
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic"
+    },
+    {
+      "id": "R07",
+      "bbox": [
+        197,
+        1322,
+        740,
+        1375
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic"
+    },
+    {
+      "id": "R08",
+      "bbox": [
+        130,
+        1372,
+        800,
+        3372
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic"
+    },
+    {
+      "id": "R09",
+      "bbox": [
+        809,
+        285,
+        1468,
+        3057
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic"
+    },
+    {
+      "id": "R10",
+      "bbox": [
+        928,
+        3076,
+        1333,
+        3130
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic"
+    },
+    {
+      "id": "R11",
+      "bbox": [
+        812,
+        3134,
+        1452,
+        3362
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic"
+    },
+    {
+      "id": "R12",
+      "bbox": [
+        1482,
+        282,
+        2161,
+        1393
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic"
+    },
+    {
+      "id": "R13",
+      "bbox": [
+        1462,
+        1393,
+        2161,
+        3378
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic"
+    },
+    {
+      "id": "R01_L01",
+      "kind": "line",
+      "parent": "R01",
+      "page": "P1",
+      "bbox": [
+        178,
+        223,
+        270,
+        254
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R02_L01",
+      "kind": "line",
+      "parent": "R02",
+      "page": "P1",
+      "bbox": [
+        513,
+        222,
+        694,
+        253
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R03_L01",
+      "kind": "line",
+      "parent": "R03",
+      "page": "P1",
+      "bbox": [
+        1036,
+        223,
+        1284,
+        253
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R04_L01",
+      "kind": "line",
+      "parent": "R04",
+      "page": "P1",
+      "bbox": [
+        1622,
+        225,
+        1781,
+        248
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R05_L01",
+      "kind": "line",
+      "parent": "R05",
+      "page": "P1",
+      "bbox": [
+        2004,
+        223,
+        2103,
+        246
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R06_L01",
+      "kind": "line",
+      "parent": "R06",
+      "page": "P1",
+      "bbox": [
+        151,
+        293,
+        794,
+        331
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R06_L02",
+      "kind": "line",
+      "parent": "R06",
+      "page": "P1",
+      "bbox": [
+        149,
+        327,
+        286,
+        356
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R06_L03",
+      "kind": "line",
+      "parent": "R06",
+      "page": "P1",
+      "bbox": [
+        214,
+        352,
+        795,
+        389
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R07_L01",
+      "kind": "line",
+      "parent": "R07",
+      "page": "P1",
+      "bbox": [
+        213,
+        1326,
+        727,
+        1372
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R08_L01",
+      "kind": "line",
+      "parent": "R08",
+      "page": "P1",
+      "bbox": [
+        606,
+        1375,
+        776,
+        1397
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R08_L02",
+      "kind": "line",
+      "parent": "R08",
+      "page": "P1",
+      "bbox": [
+        210,
+        1398,
+        795,
+        1434
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R08_L03",
+      "kind": "line",
+      "parent": "R08",
+      "page": "P1",
+      "bbox": [
+        146,
+        1430,
+        796,
+        1458
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R09_L01",
+      "kind": "line",
+      "parent": "R09",
+      "page": "P1",
+      "bbox": [
+        818,
+        296,
+        1464,
+        323
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R09_L02",
+      "kind": "line",
+      "parent": "R09",
+      "page": "P1",
+      "bbox": [
+        818,
+        326,
+        1464,
+        352
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R09_L03",
+      "kind": "line",
+      "parent": "R09",
+      "page": "P1",
+      "bbox": [
+        817,
+        349,
+        1464,
+        380
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R10_L01",
+      "kind": "line",
+      "parent": "R10",
+      "page": "P1",
+      "bbox": [
+        934,
+        3078,
+        1325,
+        3128
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R11_L01",
+      "kind": "line",
+      "parent": "R11",
+      "page": "P1",
+      "bbox": [
+        1262,
+        3135,
+        1431,
+        3165
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R11_L02",
+      "kind": "line",
+      "parent": "R11",
+      "page": "P1",
+      "bbox": [
+        873,
+        3159,
+        1446,
+        3196
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R11_L03",
+      "kind": "line",
+      "parent": "R11",
+      "page": "P1",
+      "bbox": [
+        816,
+        3182,
+        1447,
+        3220
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R12_L01",
+      "kind": "line",
+      "parent": "R12",
+      "page": "P1",
+      "bbox": [
+        1486,
+        291,
+        2136,
+        324
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R12_L02",
+      "kind": "line",
+      "parent": "R12",
+      "page": "P1",
+      "bbox": [
+        1486,
+        317,
+        2132,
+        348
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R12_L03",
+      "kind": "line",
+      "parent": "R12",
+      "page": "P1",
+      "bbox": [
+        1486,
+        344,
+        2132,
+        372
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R13_L01",
+      "kind": "line",
+      "parent": "R13",
+      "page": "P1",
+      "bbox": [
+        1548,
+        1397,
+        1815,
+        1422
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R13_L02",
+      "kind": "line",
+      "parent": "R13",
+      "page": "P1",
+      "bbox": [
+        1551,
+        1420,
+        2136,
+        1448
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    },
+    {
+      "id": "R13_L03",
+      "kind": "line",
+      "parent": "R13",
+      "page": "P1",
+      "bbox": [
+        1488,
+        1447,
+        2137,
+        1472
+      ],
+      "text": "",
+      "status": "pending",
+      "needs_alignment": true
+    }
+  ],
+  "articles": [],
+  "reading_order": [],
+  "metadata": [],
+  "events": [
+    {
+      "action": "pilot_layout",
+      "source": "ONB PAGE segmentation",
+      "selection": "first three lines of every TextRegion",
+      "coverage": "25 selected lines only; not full page",
+      "reference_text_provided_to_models": false
+    }
+  ],
+  "proposals": []
+}

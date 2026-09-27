@@ -1,0 +1,341 @@
+{
+  "schema": "bbvlm.bnf-impact-archive-a26/1",
+  "source_page": "https://api.bnf.fr/fr/ocr-corrige-de-documents-de-presse-de-gallica",
+  "official_share": "https://transfert.bnf.fr/link/b72a8623-c428-4d1b-a916-e4384c2c4573",
+  "archive": "impact.zip",
+  "bytes": 211787980,
+  "sha256": "2c8a3e4564c9ffe42270aaf3d6a0d9498b8549b9222fc6d702b751610cc4641c",
+  "downloaded_unix": 1790527703.9500086,
+  "inspection_scope": "ZIP central-directory names/sizes/CRC only; member bytes unopened",
+  "members": [
+    {
+      "name": "IMPACT/",
+      "bytes": 0,
+      "compressed_bytes": 0,
+      "crc32": "00000000",
+      "is_dir": true
+    },
+    {
+      "name": "IMPACT/.DS_Store",
+      "bytes": 8196,
+      "compressed_bytes": 1203,
+      "crc32": "ffab618f",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/._.DS_Store",
+      "bytes": 4096,
+      "compressed_bytes": 145,
+      "crc32": "06d03142",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/._documents.xlsx",
+      "bytes": 4096,
+      "compressed_bytes": 189,
+      "crc32": "79715d28",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/ark.txt",
+      "bytes": 100,
+      "compressed_bytes": 53,
+      "crc32": "7fa5f6c5",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/documents.xlsx",
+      "bytes": 159842,
+      "compressed_bytes": 93948,
+      "crc32": "92b51611",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/",
+      "bytes": 0,
+      "compressed_bytes": 0,
+      "crc32": "00000000",
+      "is_dir": true
+    },
+    {
+      "name": "IMPACT/PAGE/00123451_5.xml",
+      "bytes": 393513,
+      "compressed_bytes": 51411,
+      "crc32": "9e13569b",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00123452_5.xml",
+      "bytes": 345030,
+      "compressed_bytes": 48570,
+      "crc32": "f5f16e30",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00123453_5.xml",
+      "bytes": 342254,
+      "compressed_bytes": 48364,
+      "crc32": "e4cd1f3a",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00123454_5.xml",
+      "bytes": 567215,
+      "compressed_bytes": 57380,
+      "crc32": "877f8a15",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00123531_5.xml",
+      "bytes": 414549,
+      "compressed_bytes": 50931,
+      "crc32": "4119f579",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00123532_5.xml",
+      "bytes": 493310,
+      "compressed_bytes": 61182,
+      "crc32": "5deb22e8",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00123533_5.xml",
+      "bytes": 423238,
+      "compressed_bytes": 55359,
+      "crc32": "9e4e6c00",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00123534_5.xml",
+      "bytes": 316317,
+      "compressed_bytes": 35439,
+      "crc32": "99623eb0",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00123643_5.xml",
+      "bytes": 256084,
+      "compressed_bytes": 38394,
+      "crc32": "d98d53b0",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00123644_5.xml",
+      "bytes": 271909,
+      "compressed_bytes": 41495,
+      "crc32": "33f994ba",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00123645_5.xml",
+      "bytes": 771049,
+      "compressed_bytes": 80157,
+      "crc32": "354c9ffb",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00123646_5.xml",
+      "bytes": 341758,
+      "compressed_bytes": 42814,
+      "crc32": "13a58345",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00196323_5.xml",
+      "bytes": 405629,
+      "compressed_bytes": 50489,
+      "crc32": "c8c1ae69",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00196324_5.xml",
+      "bytes": 454687,
+      "compressed_bytes": 60018,
+      "crc32": "b567d7cf",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00196325_5.xml",
+      "bytes": 626201,
+      "compressed_bytes": 72736,
+      "crc32": "ca206667",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/PAGE/00196326_5.xml",
+      "bytes": 716897,
+      "compressed_bytes": 76716,
+      "crc32": "dd35d693",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/readme.docx",
+      "bytes": 14291,
+      "compressed_bytes": 11423,
+      "crc32": "b9dbe5d2",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/",
+      "bytes": 0,
+      "compressed_bytes": 0,
+      "crc32": "00000000",
+      "is_dir": true
+    },
+    {
+      "name": "IMPACT/T/.DS_Store",
+      "bytes": 6148,
+      "compressed_bytes": 292,
+      "crc32": "fa247617",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/._.DS_Store",
+      "bytes": 4096,
+      "compressed_bytes": 145,
+      "crc32": "06d03142",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/._00123451.tif",
+      "bytes": 4096,
+      "compressed_bytes": 189,
+      "crc32": "85f7dc92",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/._00123452.tif",
+      "bytes": 4096,
+      "compressed_bytes": 189,
+      "crc32": "b593ad88",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/._00123646.tif",
+      "bytes": 4096,
+      "compressed_bytes": 189,
+      "crc32": "5846b149",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/00123451.tif",
+      "bytes": 14991604,
+      "compressed_bytes": 14427497,
+      "crc32": "98705b91",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/00123452.tif",
+      "bytes": 15089640,
+      "compressed_bytes": 14517777,
+      "crc32": "9bf8ac82",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/00123453.tif",
+      "bytes": 14899748,
+      "compressed_bytes": 14342219,
+      "crc32": "01357ec6",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/00123454.tif",
+      "bytes": 14692668,
+      "compressed_bytes": 14161101,
+      "crc32": "89efbce5",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/00123531.tif",
+      "bytes": 16409216,
+      "compressed_bytes": 15765703,
+      "crc32": "6546a226",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/00123532.tif",
+      "bytes": 16524178,
+      "compressed_bytes": 15875234,
+      "crc32": "4c1b0174",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/00123533.tif",
+      "bytes": 16338916,
+      "compressed_bytes": 15707672,
+      "crc32": "afa20414",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/00123534.tif",
+      "bytes": 16235084,
+      "compressed_bytes": 15602370,
+      "crc32": "a4929773",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/00123643.tif",
+      "bytes": 13518488,
+      "compressed_bytes": 13064498,
+      "crc32": "06e515bc",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/00123644.tif",
+      "bytes": 14176398,
+      "compressed_bytes": 13686242,
+      "crc32": "0de66816",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/00123645.tif",
+      "bytes": 13755788,
+      "compressed_bytes": 13290856,
+      "crc32": "d42223c4",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/00123646.tif",
+      "bytes": 12814552,
+      "compressed_bytes": 12486909,
+      "crc32": "21476767",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/196323.jpg",
+      "bytes": 9640788,
+      "compressed_bytes": 9620491,
+      "crc32": "c864c1e3",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/196324.jpg",
+      "bytes": 9779335,
+      "compressed_bytes": 9754980,
+      "crc32": "7aaad934",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/196325.jpg",
+      "bytes": 9065167,
+      "compressed_bytes": 9031841,
+      "crc32": "7bcd0963",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/196326.jpg",
+      "bytes": 9435283,
+      "compressed_bytes": 9408150,
+      "crc32": "ec4eb236",
+      "is_dir": false
+    },
+    {
+      "name": "IMPACT/T/Thumbs.db",
+      "bytes": 61952,
+      "compressed_bytes": 57720,
+      "crc32": "4ff4bdca",
+      "is_dir": false
+    }
+  ]
+}

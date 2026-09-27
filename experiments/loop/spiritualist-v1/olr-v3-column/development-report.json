@@ -1,0 +1,231 @@
+{
+  "schema": "bbvlm.column-order-calibration/1",
+  "scope": "oracle/reference TextBlock regions",
+  "candidates": [
+    {
+      "gap_ratio": 0.08,
+      "macro_pair_accuracy": 0.9992887624466572,
+      "total_inferred_columns": 15,
+      "pages": [
+        {
+          "page": "0009",
+          "known_regions": 6,
+          "pairs": 15,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 4
+        },
+        {
+          "page": "0038",
+          "known_regions": 38,
+          "pairs": 703,
+          "pair_accuracy": 0.9971550497866287,
+          "inferred_columns": 4
+        },
+        {
+          "page": "0041",
+          "known_regions": 12,
+          "pairs": 66,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 4
+        },
+        {
+          "page": "0043",
+          "known_regions": 11,
+          "pairs": 55,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 3
+        }
+      ]
+    },
+    {
+      "gap_ratio": 0.1,
+      "macro_pair_accuracy": 0.9992887624466572,
+      "total_inferred_columns": 15,
+      "pages": [
+        {
+          "page": "0009",
+          "known_regions": 6,
+          "pairs": 15,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 4
+        },
+        {
+          "page": "0038",
+          "known_regions": 38,
+          "pairs": 703,
+          "pair_accuracy": 0.9971550497866287,
+          "inferred_columns": 4
+        },
+        {
+          "page": "0041",
+          "known_regions": 12,
+          "pairs": 66,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 4
+        },
+        {
+          "page": "0043",
+          "known_regions": 11,
+          "pairs": 55,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 3
+        }
+      ]
+    },
+    {
+      "gap_ratio": 0.12,
+      "macro_pair_accuracy": 1.0,
+      "total_inferred_columns": 14,
+      "pages": [
+        {
+          "page": "0009",
+          "known_regions": 6,
+          "pairs": 15,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 4
+        },
+        {
+          "page": "0038",
+          "known_regions": 38,
+          "pairs": 703,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 3
+        },
+        {
+          "page": "0041",
+          "known_regions": 12,
+          "pairs": 66,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 4
+        },
+        {
+          "page": "0043",
+          "known_regions": 11,
+          "pairs": 55,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 3
+        }
+      ]
+    },
+    {
+      "gap_ratio": 0.14,
+      "macro_pair_accuracy": 1.0,
+      "total_inferred_columns": 13,
+      "pages": [
+        {
+          "page": "0009",
+          "known_regions": 6,
+          "pairs": 15,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 4
+        },
+        {
+          "page": "0038",
+          "known_regions": 38,
+          "pairs": 703,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 3
+        },
+        {
+          "page": "0041",
+          "known_regions": 12,
+          "pairs": 66,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 3
+        },
+        {
+          "page": "0043",
+          "known_regions": 11,
+          "pairs": 55,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 3
+        }
+      ]
+    },
+    {
+      "gap_ratio": 0.16,
+      "macro_pair_accuracy": 0.9896870554765291,
+      "total_inferred_columns": 11,
+      "pages": [
+        {
+          "page": "0009",
+          "known_regions": 6,
+          "pairs": 15,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 3
+        },
+        {
+          "page": "0038",
+          "known_regions": 38,
+          "pairs": 703,
+          "pair_accuracy": 0.9587482219061166,
+          "inferred_columns": 2
+        },
+        {
+          "page": "0041",
+          "known_regions": 12,
+          "pairs": 66,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 3
+        },
+        {
+          "page": "0043",
+          "known_regions": 11,
+          "pairs": 55,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 3
+        }
+      ]
+    },
+    {
+      "gap_ratio": 0.18,
+      "macro_pair_accuracy": 0.9445234708392602,
+      "total_inferred_columns": 10,
+      "pages": [
+        {
+          "page": "0009",
+          "known_regions": 6,
+          "pairs": 15,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 3
+        },
+        {
+          "page": "0038",
+          "known_regions": 38,
+          "pairs": 703,
+          "pair_accuracy": 0.7780938833570412,
+          "inferred_columns": 1
+        },
+        {
+          "page": "0041",
+          "known_regions": 12,
+          "pairs": 66,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 3
+        },
+        {
+          "page": "0043",
+          "known_regions": 11,
+          "pairs": 55,
+          "pair_accuracy": 1.0,
+          "inferred_columns": 3
+        }
+      ]
+    }
+  ],
+  "selected": {
+    "schema": "bbvlm.column-order-config/1",
+    "selected_on": "development_only",
+    "development_pages": [
+      "0009",
+      "0038",
+      "0041",
+      "0043"
+    ],
+    "gap_ratio": 0.14,
+    "top_exclusion_ratio": 0.055,
+    "max_anchor_width_ratio": 0.55,
+    "selection_rule": "max macro pair accuracy; then minimum total inferred columns; then smaller gap"
+  },
+  "warning": "Perfect development agreement only identifies this corpus convention; it is not evidence for complex non-columnar reading order."
+}

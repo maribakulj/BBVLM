@@ -1,0 +1,108 @@
+{
+  "engine": "PERO native forced alignment and crop projection",
+  "ids_bound_with_text_count_geometry_checks": true,
+  "recognition_recomputed": false,
+  "lines": [
+    {
+      "id": "Lc36a4a25c790",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "L7b271e677b86",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "L88b999822224",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "Lb01a93985411",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "La7d534d17d38",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "L94c4d34fa8c9",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "Lfe77be8da927",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "L28e45549776a",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "L608bc0b2f872",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "L04b49982e41d",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "Lcff75ec932d7",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "L46e327e6e071",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "L60998bba64c3",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "Laa83c03be97f",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "L95cfd64c7dc2",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "L4da467af4983",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "L1dd67eb2ef27",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "Lf6c8d9dc4505",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "L5fe027526bfb",
+      "native_confidence": 1.0,
+      "requires_review": false
+    },
+    {
+      "id": "L4b33ee83af5c",
+      "native_confidence": 1.0,
+      "requires_review": false
+    }
+  ],
+  "certified_ground_truth": false
+}

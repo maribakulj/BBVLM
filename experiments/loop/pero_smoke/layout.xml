@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-26T23:14:03.319611+00:00</Created>
+    <LastChange>2026-09-26T23:14:03.319611+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="ONB_aze_18950706_2.jpg" imageWidth="2479" imageHeight="3508">
+    <ReadingOrder>
+      <OrderedGroup id="reading_order">
+        <RegionRefIndexed regionRef="r1" index="0"/>
+        <RegionRefIndexed regionRef="r2" index="1"/>
+        <RegionRefIndexed regionRef="r3" index="2"/>
+        <RegionRefIndexed regionRef="r4" index="3"/>
+        <RegionRefIndexed regionRef="r5" index="4"/>
+        <RegionRefIndexed regionRef="r6" index="5"/>
+        <RegionRefIndexed regionRef="r7" index="6"/>
+        <RegionRefIndexed regionRef="r8" index="7"/>
+        <RegionRefIndexed regionRef="r9" index="8"/>
+        <RegionRefIndexed regionRef="r10" index="9"/>
+        <RegionRefIndexed regionRef="r11" index="10"/>
+        <RegionRefIndexed regionRef="r12" index="11"/>
+        <RegionRefIndexed regionRef="r13" index="12"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="r1" type="header">
+      <Coords points="163,219 277,221 278,258 164,258"/>
+      <TextLine id="r1l1" index="0" custom="heights_v2:[27.7,2.3]">
+        <Coords points="178,223 270,225 269,254 178,254"/>
+        <Baseline points="179,251 227,252 264,252"/>
+        <TextEquiv conf="0.941">
+          <Unicode>Seite 2</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r2" type="header">
+      <Coords points="500,212 704,216 701,257 497,254"/>
+      <TextLine id="r2l1" index="0" custom="heights_v2:[23.5,6.0]">
+        <Coords points="513,222 693,223 694,253 513,251"/>
+        <Baseline points="515,246 693,246"/>
+        <TextEquiv conf="0.600">
+          <Unicode>Wien, Santstag</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r3" type="header">
+      <Coords points="1030,211 1293,212 1291,257 1028,256"/>
+      <TextLine id="r3l1" index="0" custom="heights_v2:[25.0,3.9]">
+        <Coords points="1036,223 1096,223 1183,224 1215,224 1284,224 1284,253 1057,246 1036,246"/>
+        <Baseline points="1035,247 1280,249"/>
+        <TextEquiv conf="0.491">
+          <Unicode>Arbriier-Aeiiung.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r4" type="header">
+      <Coords points="1609,210 1796,210 1798,253 1611,253"/>
+      <TextLine id="r4l1" index="0" custom="heights_v2:[19.7,1.0]">
+        <Coords points="1622,227 1781,225 1781,248 1760,246 1622,247"/>
+        <Baseline points="1625,246 1639,246 1648,247 1705,246 1774,245"/>
+        <TextEquiv conf="0.261">
+          <Unicode>6. Suli 189o</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r5" type="header">
+      <Coords points="1995,214 2115,216 2114,253 1994,250"/>
+      <TextLine id="r5l1" index="0" custom="heights_v2:[20.0,2.0]">
+        <Coords points="2004,224 2103,223 2103,245 2004,246"/>
+        <Baseline points="2005,244 2099,243"/>
+        <TextEquiv conf="0.721">
+          <Unicode>Ner. 182</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r6" type="paragraph">
+      <Coords points="136,293 800,286 798,355 800,906 797,1032 798,1248 798,1299 131,1304 128,860"/>
+      <TextLine id="r6l1" index="0" custom="heights_v2:[28.1,5.5]">
+        <Coords points="151,293 794,294 793,325 394,331 355,326 151,326"/>
+        <Baseline points="152,324 191,323 394,322 789,317"/>
+        <TextEquiv conf="0.834">
+          <Unicode>und Antiliberalen aus ihren Verstecken in die Oeffentlich¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r6l2" index="1" custom="heights_v2:[21.9,3.9]">
+        <Coords points="152,331 192,327 285,331 286,355 149,356"/>
+        <Baseline points="153,351 185,352 276,352"/>
+        <TextEquiv conf="0.803">
+          <Unicode>keit treiben.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r6l3" index="2" custom="heights_v2:[24.9,4.0]">
+        <Coords points="214,362 795,352 795,352 795,383 214,389"/>
+        <Baseline points="219,385 258,385 358,384 489,383 572,381 730,379 791,378"/>
+        <TextEquiv conf="0.578">
+          <Unicode>Die Biener Liberalen haben noch innner kein</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r7" type="heading">
+      <Coords points="197,1322 740,1322 739,1370 591,1373 197,1375"/>
+      <TextLine id="r7l1" index="0" custom="heights_v2:[36.0,6.6]">
+        <Coords points="215,1327 725,1326 727,1367 570,1372 213,1371"/>
+        <Baseline points="219,1363 722,1362"/>
+        <TextEquiv conf="0.692">
+          <Unicode>Die Regierung und die Beamten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r8" type="paragraph">
+      <Coords points="130,1397 567,1393 594,1375 800,1372 797,2345 795,2637 794,2883 794,3127 799,3351 285,3370 134,3372 131,3015"/>
+      <TextLine id="r8l1" index="0" custom="heights_v2:[18.8,2.0]">
+        <Coords points="606,1377 776,1375 773,1397 606,1397"/>
+        <Baseline points="615,1396 637,1395 771,1394"/>
+        <TextEquiv conf="0.525">
+          <Unicode>Bien 5. Juli.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r8l2" index="1" custom="heights_v2:[24.7,7.1]">
+        <Coords points="210,1406 228,1404 793,1398 795,1432 213,1434"/>
+        <Baseline points="215,1427 469,1427 674,1425 793,1424"/>
+        <TextEquiv conf="0.874">
+          <Unicode>Graf Kielmansegg hat gestern erklärt, die Regierung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r8l3" index="2" custom="heights_v2:[21.2,5.1]">
+        <Coords points="148,1433 208,1435 769,1430 794,1430 796,1457 146,1458"/>
+        <Baseline points="149,1454 668,1453 746,1451 793,1451"/>
+        <TextEquiv conf="0.683">
+          <Unicode>jei „geradezu eifersüchtig“ darauf bedacht, die Sache der</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r9" type="paragraph">
+      <Coords points="810,3014 809,2596 815,1169 813,1142 814,289 1468,285 1468,833 1468,1472 1468,1874 1464,2484 1455,3057 812,3057"/>
+      <TextLine id="r9l1" index="0" custom="heights_v2:[20.9,4.3]">
+        <Coords points="818,299 1464,296 1463,323 818,323"/>
+        <Baseline points="819,318 857,318 902,319 963,319 1015,319 1143,319 1245,319 1335,319 1459,318"/>
+        <TextEquiv conf="0.955">
+          <Unicode>und nie wird das Purlament wirtliche Energie anwenden,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r9l2" index="1" custom="heights_v2:[16.8,6.0]">
+        <Coords points="818,327 1464,326 1462,351 818,352"/>
+        <Baseline points="818,345 850,345 900,346 1006,346 1138,345 1300,346 1353,346 1460,345 1463,344"/>
+        <TextEquiv conf="0.511">
+          <Unicode>um den Beamten ernitlich zu helfen, denn die Parteien</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r9l3" index="2" custom="heights_v2:[22.6,6.1]">
+        <Coords points="818,352 1462,349 1464,380 817,379"/>
+        <Baseline points="818,373 913,374 977,373 1032,373 1110,373 1323,374 1459,373"/>
+        <TextEquiv conf="0.990">
+          <Unicode>wünschen zwar eine billige Popularität, aber noch mehr</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r10" type="heading">
+      <Coords points="928,3076 1333,3077 1333,3130 929,3130"/>
+      <TextLine id="r10l1" index="0" custom="heights_v2:[39.0,6.1]">
+        <Coords points="934,3078 1325,3080 1323,3128 935,3120"/>
+        <Baseline points="937,3116 1148,3117 1320,3121"/>
+        <TextEquiv conf="0.369">
+          <Unicode>Oefterreichiſcher Reichsrath.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r11" type="paragraph">
+      <Coords points="813,3137 1151,3142 1259,3134 1452,3135 1448,3219 1446,3286 1442,3347 1439,3362 818,3361 816,3327 815,3291 812,3205"/>
+      <TextLine id="r11l1" index="0" custom="heights_v2:[22.9,2.5]">
+        <Coords points="1262,3135 1431,3139 1431,3165 1262,3160"/>
+        <Baseline points="1269,3158 1293,3158 1366,3160 1427,3163"/>
+        <TextEquiv conf="0.981">
+          <Unicode>Wien, 5. Juli.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r11l2" index="1" custom="heights_v2:[20.7,4.1]">
+        <Coords points="873,3161 889,3159 1446,3170 1446,3196 874,3183"/>
+        <Baseline points="878,3181 1320,3186 1445,3193"/>
+        <TextEquiv conf="0.952">
+          <Unicode>Wenn Graf Kielmansegg sich gestern darauf berief, daß</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r11l3" index="2" custom="heights_v2:[19.7,6.6]">
+        <Coords points="816,3192 874,3182 1420,3193 1447,3195 1445,3220 817,3210"/>
+        <Baseline points="818,3206 836,3206 874,3205 975,3206 1006,3206 1074,3206 1133,3207 1195,3207 1250,3208 1319,3211 1382,3213 1444,3215"/>
+        <TextEquiv conf="0.772">
+          <Unicode>er die Zustände in Prag nicht kenne und daher nicht selbst</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r12" type="paragraph">
+      <Coords points="1484,285 2156,282 2158,792 2161,1393 1484,1392 1482,798 1482,343"/>
+      <TextLine id="r12l1" index="0" custom="heights_v2:[23.6,5.9]">
+        <Coords points="1487,293 2135,291 2136,319 1486,324"/>
+        <Baseline points="1488,317 1609,317 1691,317 1820,316 1916,315 2042,314 2129,313"/>
+        <TextEquiv conf="0.577">
+          <Unicode>dar, und er brachte Thatsachen vor, die den edfen Graien</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r12l2" index="1" custom="heights_v2:[18.7,4.5]">
+        <Coords points="1486,322 2131,317 2132,342 1486,348"/>
+        <Baseline points="1486,341 1543,342 1582,342 1659,342 1719,342 1803,341 1866,340 2129,340"/>
+        <TextEquiv conf="0.468">
+          <Unicode>Thun in helles Licht ritcken. Dr. Kramarsch machte ni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r12l3" index="2" custom="heights_v2:[19.5,5.5]">
+        <Coords points="1486,346 2132,344 2132,368 1486,372"/>
+        <Baseline points="1487,367 1541,366 1644,365 1792,365 1875,364 1966,364 2041,363 2127,362"/>
+        <TextEquiv conf="0.566">
+          <Unicode>Recht darauf aufmerksam, wie ruhig das große</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r13" type="paragraph">
+      <Coords points="1484,1393 1554,1395 1813,1395 2161,1396 2160,1599 2137,2629 2132,3378 1496,3362 1462,3356 1464,3290 1467,3193 1471,3140 1484,1907 1486,1599"/>
+      <TextLine id="r13l1" index="0" custom="heights_v2:[18.2,4.9]">
+        <Coords points="1548,1422 1815,1420 1814,1397 1550,1397"/>
+        <Baseline points="1555,1415 1672,1416 1717,1416 1814,1417"/>
+        <TextEquiv conf="0.696">
+          <Unicode>Rachstehend der Bericht:</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r13l2" index="1" custom="heights_v2:[23.1,2.6]">
+        <Coords points="1551,1423 2136,1420 2136,1448 1551,1446"/>
+        <Baseline points="1556,1444 1839,1445 1943,1445 2133,1444"/>
+        <TextEquiv conf="0.697">
+          <Unicode>Abgeorduetenhaus. (406. Sitzung.) Präsident Frei-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r13l3" index="2" custom="heights_v2:[18.1,5.8]">
+        <Coords points="1488,1448 1670,1447 2136,1449 2137,1472 1488,1472"/>
+        <Baseline points="1492,1464 1527,1466 1548,1466 1583,1467 1792,1466 1832,1467 1911,1466 1958,1467 1997,1466 2044,1467 2078,1466 2132,1466"/>
+        <TextEquiv conf="0.743">
+          <Unicode>herr v. Chlumecky eröffnet die Sitzung um 10 Uhr 15 Mi-</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

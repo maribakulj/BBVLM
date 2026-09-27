@@ -1,0 +1,43 @@
+[
+  {
+    "region_id": "Rbadb3783",
+    "predicted_line_ids": [
+      "Lc36a4a25c790",
+      "L7b271e677b86",
+      "L88b999822224",
+      "Lb01a93985411",
+      "La7d534d17d38",
+      "L94c4d34fa8c9",
+      "Lfe77be8da927",
+      "L28e45549776a",
+      "L608bc0b2f872"
+    ],
+    "returned_text_lines": 9,
+    "rule": "equal-count physical top-to-bottom; not human verified"
+  },
+  {
+    "region_id": "Rba25d296",
+    "predicted_line_ids": [
+      "L04b49982e41d",
+      "Lcff75ec932d7",
+      "L46e327e6e071",
+      "L60998bba64c3",
+      "Laa83c03be97f",
+      "L95cfd64c7dc2"
+    ],
+    "returned_text_lines": 6,
+    "rule": "equal-count physical top-to-bottom; not human verified"
+  },
+  {
+    "region_id": "Rc94b31fb",
+    "predicted_line_ids": [
+      "L4da467af4983",
+      "L1dd67eb2ef27",
+      "Lf6c8d9dc4505",
+      "L5fe027526bfb",
+      "L4b33ee83af5c"
+    ],
+    "returned_text_lines": 5,
+    "rule": "equal-count physical top-to-bottom; not human verified"
+  }
+]

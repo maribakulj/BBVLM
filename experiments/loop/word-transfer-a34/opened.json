@@ -1,0 +1,176 @@
+{
+  "schema": "bbvlm.word-transfer-a34-opened/1",
+  "status": "opened_verified",
+  "opened_unix": 1790545801.6456444,
+  "split_sha256": "6a7d7b10b37d960194b6d1dc77fa7dab7275b69e4e25b4cf323a41ee95d28272",
+  "files": [
+    {
+      "kind": "xml",
+      "path": "data/drabnota_771639139/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000389.xml",
+      "bytes": 315095,
+      "git_blob": "514093daf896d1d717faaadbe18a233899cac534",
+      "sha256": "a67682e7126d06259026603fb937c1570fafe44ff60ef9c18e6a4e39b6c562fb"
+    },
+    {
+      "kind": "image",
+      "path": "data/drabnota_771639139/OCR-D-IMG/OCR-D-IMG_00000389.tif",
+      "bytes": 1223808,
+      "git_blob": "bedc34e1aa2b1551b755d93236715ecfb6cde400",
+      "sha256": "1def848e0c3fcfc6b8428cabfeb8adb768eead516f066bdebb5e85777cf70dca"
+    },
+    {
+      "kind": "xml",
+      "path": "data/drabnota_771639139/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000390.xml",
+      "bytes": 231591,
+      "git_blob": "816576d3beb0bdf36ce495d7ebf0b481a6f5f369",
+      "sha256": "f8eaa2403dc00bb4b0ab031649d8559ae232acd20ab5c08adf27dc75879cc8e1"
+    },
+    {
+      "kind": "image",
+      "path": "data/drabnota_771639139/OCR-D-IMG/OCR-D-IMG_00000390.tif",
+      "bytes": 1181778,
+      "git_blob": "bbdae950d46a003cbd1cc53a1584560f710c891e",
+      "sha256": "aebb4649b4624ed2a11c98cb5c473c5e01dc1ce0a34a149b634c6682d1ff299c"
+    },
+    {
+      "kind": "xml",
+      "path": "data/drabnota_771639139/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000391.xml",
+      "bytes": 258417,
+      "git_blob": "92684bd104f767fb37ab7c2cb41605745012f16e",
+      "sha256": "9295e1087b708686e52fd2c24c3a1fbaa02639c41e88a4b7d4a242a9a1876897"
+    },
+    {
+      "kind": "image",
+      "path": "data/drabnota_771639139/OCR-D-IMG/OCR-D-IMG_00000391.tif",
+      "bytes": 1186692,
+      "git_blob": "8e409b54f4bb9d5c9444ae77fc2f9fa06cdd6231",
+      "sha256": "f24ee03c8cf4eabf54ae05f3c903c6af9b9dee97cf5b3e79a90c8fc5cc5ddd64"
+    },
+    {
+      "kind": "xml",
+      "path": "data/drabnota_771639139/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000392.xml",
+      "bytes": 255231,
+      "git_blob": "cce5c85bfcea9b6fc7fe173ef08a5cf3f32f945c",
+      "sha256": "beea8b9610db7a35e5087ed9f79c2f03424960ddfc54ed555d18edc28887032d"
+    },
+    {
+      "kind": "image",
+      "path": "data/drabnota_771639139/OCR-D-IMG/OCR-D-IMG_00000392.tif",
+      "bytes": 1227616,
+      "git_blob": "eca1ecdbef90ded3cdcf507f4a850289895aa4ef",
+      "sha256": "5809d96cb161ef8cc11c2cff6249e172b8467a2d9f695c409c2c5af0e556fc37"
+    },
+    {
+      "kind": "xml",
+      "path": "data/goskeinf_781556694/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000032.xml",
+      "bytes": 577562,
+      "git_blob": "b93c5b237a59417752ff72bfe24d74c93725ff78",
+      "sha256": "77a55791d1fdadfdc3340ada315a276c6c8b640eb98a7d0050764181629f512f"
+    },
+    {
+      "kind": "image",
+      "path": "data/goskeinf_781556694/OCR-D-IMG/OCR-D-IMG_00000032.tif",
+      "bytes": 2167840,
+      "git_blob": "24b6b05b379ced9c2a6d042257c54b6fd6a53207",
+      "sha256": "5ab16c4e389bd4bc877449158ead43a2ac74f03e56cb81647335edc95a68b3a0"
+    },
+    {
+      "kind": "xml",
+      "path": "data/goskeinf_781556694/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000033.xml",
+      "bytes": 624153,
+      "git_blob": "1e5c0afb56d86ca3f2a7c114b612006635f267a1",
+      "sha256": "324e00ffe9ab097a05070ba47f73298781b286646859abb25c9838e7a55fac53"
+    },
+    {
+      "kind": "image",
+      "path": "data/goskeinf_781556694/OCR-D-IMG/OCR-D-IMG_00000033.tif",
+      "bytes": 2146508,
+      "git_blob": "c64b11f95a53e822c470df1f76b7eccfc35cebea",
+      "sha256": "e84ff9cb6896a705c0e7aa528e15e1458b274e6cebce518c26f09980c05ba6dc"
+    },
+    {
+      "kind": "xml",
+      "path": "data/goskeinf_781556694/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000034.xml",
+      "bytes": 583364,
+      "git_blob": "8c758fe00f56ac945ebf59bfae3701c758d1916f",
+      "sha256": "2e503b46778f7886f2964640bc2f6164270a3e0a02ed7d89168ab8797b4492ca"
+    },
+    {
+      "kind": "image",
+      "path": "data/goskeinf_781556694/OCR-D-IMG/OCR-D-IMG_00000034.tif",
+      "bytes": 2208292,
+      "git_blob": "3ed4b94e49137aa493ce003cb9088c7223b75bb9",
+      "sha256": "46cc5fa87143007dcada51167294424401f90ada8a6a7a17793278f42331b769"
+    },
+    {
+      "kind": "xml",
+      "path": "data/goskeinf_781556694/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000035.xml",
+      "bytes": 472534,
+      "git_blob": "95b6ba19adbc75c976bde3d9509e73a3095af0bf",
+      "sha256": "98da5ee873a99d8e7935c0ab22f0923d10bd56ac9e5a3a42c9aaa1ab1799e14a"
+    },
+    {
+      "kind": "image",
+      "path": "data/goskeinf_781556694/OCR-D-IMG/OCR-D-IMG_00000035.tif",
+      "bytes": 2084162,
+      "git_blob": "6fd717b10d91221c9f8e69cfc64f8e24f6ecc188",
+      "sha256": "b3414031382f5dcea61a10eab05011c87527d446e31a72d9f9af100bd98b1111"
+    },
+    {
+      "kind": "xml",
+      "path": "data/actevedef_718448162/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000024.xml",
+      "bytes": 929836,
+      "git_blob": "6f55e27d86de4688951a0f92bbaffc2d590e0afd",
+      "sha256": "2a12f190fa776df5d792f4150cf456350ac90a0612b868599f938f9943ff35d3"
+    },
+    {
+      "kind": "image",
+      "path": "data/actevedef_718448162/OCR-D-IMG/OCR-D-IMG_00000024.tif",
+      "bytes": 4688726,
+      "git_blob": "151ca9e4f9012232212347249f0a759d71312687",
+      "sha256": "2ba4d51912b60cdbaf33b556b26aa33bf15311490d4dfb8a7cdd1d860378f5f8"
+    },
+    {
+      "kind": "xml",
+      "path": "data/actevedef_718448162/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000025.xml",
+      "bytes": 930469,
+      "git_blob": "3112c59ed87978e80c8866fb92edf3358921891d",
+      "sha256": "4d21fce52fa760e2b987da8e4892ff704a6c6e57bf2a133c2201f5653cd9d33d"
+    },
+    {
+      "kind": "image",
+      "path": "data/actevedef_718448162/OCR-D-IMG/OCR-D-IMG_00000025.tif",
+      "bytes": 4749236,
+      "git_blob": "f32b5da2a1172a841aa80613d4dc74fb840df208",
+      "sha256": "39ad1618ef1785eecf18f727c791a781c3c5607bd91a94a69cb852f563ef229b"
+    },
+    {
+      "kind": "xml",
+      "path": "data/actevedef_718448162/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000026.xml",
+      "bytes": 1056323,
+      "git_blob": "c1f57440ebda351e39d2f0cdbea585b298dc17a8",
+      "sha256": "9eb5b9561439e91304b831645ba24ceaccf55904651e99480c43c479dcb6491a"
+    },
+    {
+      "kind": "image",
+      "path": "data/actevedef_718448162/OCR-D-IMG/OCR-D-IMG_00000026.tif",
+      "bytes": 4940880,
+      "git_blob": "f61a5d66764f2877877d40456221cf683fce2556",
+      "sha256": "6985f8447c403d1b9092234e9e7b35b134bf4d7860563e08e26e7f4c364ac64d"
+    },
+    {
+      "kind": "xml",
+      "path": "data/actevedef_718448162/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000027.xml",
+      "bytes": 1954806,
+      "git_blob": "69993bad3791ce647d42e86c52f2b4ed2391ab9d",
+      "sha256": "7b70178d0ea3dfe54a2c9afe0e12f1ee738363afc861e92fbff9a2459933d7aa"
+    },
+    {
+      "kind": "image",
+      "path": "data/actevedef_718448162/OCR-D-IMG/OCR-D-IMG_00000027.tif",
+      "bytes": 5008570,
+      "git_blob": "7c3917e89859027abc315eda214483010e2da396",
+      "sha256": "2667f36336be44e612cb6c02d157a04b010c75919b3fc4e4b894c8afbe4f197b"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema": "bbvlm.blind-olr-reference/1",
+  "page": "0009",
+  "rows": [
+    {
+      "id": "R262fb319e6",
+      "source_id": "tr_1743005289",
+      "reading_order": -1,
+      "semantic_unit": "ssu_masthead",
+      "role": "MASTHEAD"
+    },
+    {
+      "id": "R0f4b1562ff",
+      "source_id": "tr_1743005290",
+      "reading_order": -1,
+      "semantic_unit": "ssu_masthead",
+      "role": "MASTHEAD"
+    },
+    {
+      "id": "R6b05a06fbc",
+      "source_id": "tr_1743005288",
+      "reading_order": -1,
+      "semantic_unit": "ssu_masthead",
+      "role": "MASTHEAD"
+    },
+    {
+      "id": "Rb4ca520b94",
+      "source_id": "tr_1743005293",
+      "reading_order": -1,
+      "semantic_unit": "ssu_masthead",
+      "role": "MASTHEAD"
+    },
+    {
+      "id": "Re61e14fed5",
+      "source_id": "r",
+      "reading_order": -1,
+      "semantic_unit": "ssu_masthead",
+      "role": "MASTHEAD"
+    },
+    {
+      "id": "R4da284335c",
+      "source_id": "tr_1743005291",
+      "reading_order": 0,
+      "semantic_unit": "ssu_1_col_1",
+      "role": "HEADER"
+    },
+    {
+      "id": "R90665540ac",
+      "source_id": "tr_1743005285__text_0",
+      "reading_order": 1,
+      "semantic_unit": "ssu_1_col_1",
+      "role": "TEXT"
+    },
+    {
+      "id": "Reec568b27c",
+      "source_id": "tr_1743005287",
+      "reading_order": 2,
+      "semantic_unit": "ssu_1_col_2",
+      "role": "TEXT"
+    },
+    {
+      "id": "R307387ff23",
+      "source_id": "tr_1743005292",
+      "reading_order": 3,
+      "semantic_unit": "ssu_2_col_2",
+      "role": "HEADER"
+    },
+    {
+      "id": "R21a57099b4",
+      "source_id": "tr_1743005286",
+      "reading_order": 4,
+      "semantic_unit": "ssu_2_col_2",
+      "role": "TEXT"
+    },
+    {
+      "id": "R8b5ca4cdb4",
+      "source_id": "tr_1743005284",
+      "reading_order": 5,
+      "semantic_unit": "ssu_2_col_3",
+      "role": "TEXT"
+    },
+    {
+      "id": "R1a24f9f87b",
+      "source_id": "tr_1743005285__other_1",
+      "reading_order": -1,
+      "semantic_unit": "ssu_other_tr_1743005285",
+      "role": "OTHER"
+    }
+  ]
+}

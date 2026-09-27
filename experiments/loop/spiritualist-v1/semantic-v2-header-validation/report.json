@@ -1,0 +1,374 @@
+{
+  "schema": "bbvlm.role-filter-plus-cpu-structure-evaluation/1",
+  "page": "0029",
+  "split_role": "frozen_validation_consumed_after_this_evaluation",
+  "reader": "gpt-6-luna",
+  "passes": {
+    "vlm_role_filter": 1,
+    "vlm_grouping": 0,
+    "vlm_order": 0,
+    "cpu_structure": 1
+  },
+  "cost_note": "One authorized Luna pass; model latency/token billing unavailable. CPU structure time measured below.",
+  "raw_structural_valid": true,
+  "raw_structural_errors": [],
+  "repair_attempted": false,
+  "metrics": {
+    "regions": 27,
+    "reference_eligible": 23,
+    "predicted_eligible": 17,
+    "eligibility_true_positive": 16,
+    "eligibility_precision": 0.9411764705882353,
+    "eligibility_recall": 0.6956521739130435,
+    "eligibility_f1": 0.7999999999999999,
+    "contamination_region_ids": [
+      "R6526fb9a10f07139"
+    ],
+    "missing_eligible_region_ids": [
+      "R2897b8b70fbe4cc9",
+      "R467ae89131f520d0",
+      "R52daf68c7f68e4e9",
+      "R783ef0804757c6ec",
+      "R9e85aee0fc363c4d",
+      "Rb4f6174c7afb0c83",
+      "Rd1fbe759c69cfdec"
+    ],
+    "role_correct": 17,
+    "role_accuracy": 0.6296296296296297,
+    "role_confusion": [
+      {
+        "reference": "HEADER",
+        "predicted": "ADVERT",
+        "count": 2
+      },
+      {
+        "reference": "HEADER",
+        "predicted": "HEADER",
+        "count": 5
+      },
+      {
+        "reference": "HEADER",
+        "predicted": "MASTHEAD",
+        "count": 1
+      },
+      {
+        "reference": "HEADER",
+        "predicted": "OTHER",
+        "count": 1
+      },
+      {
+        "reference": "MASTHEAD",
+        "predicted": "MASTHEAD",
+        "count": 1
+      },
+      {
+        "reference": "MASTHEAD",
+        "predicted": "OTHER",
+        "count": 2
+      },
+      {
+        "reference": "OTHER",
+        "predicted": "TEXT",
+        "count": 1
+      },
+      {
+        "reference": "TEXT",
+        "predicted": "ADVERT",
+        "count": 3
+      },
+      {
+        "reference": "TEXT",
+        "predicted": "TEXT",
+        "count": 11
+      }
+    ],
+    "role_mismatches": [
+      {
+        "token": "Q8",
+        "region_id": "R2897b8b70fbe4cc9",
+        "source_id": "tr_1743005295__text_1",
+        "bbox": [
+          165.0,
+          229.0,
+          860.0,
+          937.0
+        ],
+        "reference_role": "TEXT",
+        "predicted_role": "ADVERT",
+        "reference_eligible": true,
+        "predicted_eligible": false
+      },
+      {
+        "token": "P8",
+        "region_id": "R467ae89131f520d0",
+        "source_id": "tr_1743005288__header_0",
+        "bbox": [
+          1778.0,
+          188.0,
+          2063.0,
+          260.0
+        ],
+        "reference_role": "HEADER",
+        "predicted_role": "ADVERT",
+        "reference_eligible": true,
+        "predicted_eligible": false
+      },
+      {
+        "token": "C9",
+        "region_id": "R52daf68c7f68e4e9",
+        "source_id": "tr_1743005299",
+        "bbox": [
+          1647.0,
+          353.0,
+          2229.0,
+          1202.0
+        ],
+        "reference_role": "TEXT",
+        "predicted_role": "ADVERT",
+        "reference_eligible": true,
+        "predicted_eligible": false
+      },
+      {
+        "token": "R7",
+        "region_id": "R6526fb9a10f07139",
+        "source_id": "tr_1743005310",
+        "bbox": [
+          1598.0,
+          3283.0,
+          2281.0,
+          3352.0
+        ],
+        "reference_role": "OTHER",
+        "predicted_role": "TEXT",
+        "reference_eligible": false,
+        "predicted_eligible": true
+      },
+      {
+        "token": "A6",
+        "region_id": "R783ef0804757c6ec",
+        "source_id": "tr_1743005303",
+        "bbox": [
+          218.0,
+          2340.0,
+          829.0,
+          2415.0
+        ],
+        "reference_role": "HEADER",
+        "predicted_role": "MASTHEAD",
+        "reference_eligible": true,
+        "predicted_eligible": false
+      },
+      {
+        "token": "E9",
+        "region_id": "R9e85aee0fc363c4d",
+        "source_id": "tr_1743005295__header_0",
+        "bbox": [
+          318.0,
+          186.0,
+          698.0,
+          234.0
+        ],
+        "reference_role": "HEADER",
+        "predicted_role": "ADVERT",
+        "reference_eligible": true,
+        "predicted_eligible": false
+      },
+      {
+        "token": "Z4",
+        "region_id": "Rb4f6174c7afb0c83",
+        "source_id": "tr_1743005288__text_1",
+        "bbox": [
+          1572.0,
+          245.0,
+          2259.0,
+          370.0
+        ],
+        "reference_role": "TEXT",
+        "predicted_role": "ADVERT",
+        "reference_eligible": true,
+        "predicted_eligible": false
+      },
+      {
+        "token": "N6",
+        "region_id": "Rb9c0db59c3ee4b64",
+        "source_id": "tr_1743005306",
+        "bbox": [
+          209.0,
+          114.0,
+          466.0,
+          170.0
+        ],
+        "reference_role": "MASTHEAD",
+        "predicted_role": "OTHER",
+        "reference_eligible": false,
+        "predicted_eligible": false
+      },
+      {
+        "token": "Z6",
+        "region_id": "Rc920e350a7af4fed",
+        "source_id": "tr_1743005304",
+        "bbox": [
+          2190.0,
+          116.0,
+          2224.0,
+          162.0
+        ],
+        "reference_role": "MASTHEAD",
+        "predicted_role": "OTHER",
+        "reference_eligible": false,
+        "predicted_eligible": false
+      },
+      {
+        "token": "H6",
+        "region_id": "Rd1fbe759c69cfdec",
+        "source_id": "tr_1743005307",
+        "bbox": [
+          351.0,
+          2452.0,
+          705.0,
+          2490.0
+        ],
+        "reference_role": "HEADER",
+        "predicted_role": "OTHER",
+        "reference_eligible": true,
+        "predicted_eligible": false
+      }
+    ],
+    "semantic_group_true_positive_pairs": 17,
+    "semantic_group_predicted_pairs": 21,
+    "semantic_group_reference_pairs": 29,
+    "semantic_group_pair_precision": 0.8095238095238095,
+    "semantic_group_pair_recall": 0.5862068965517241,
+    "semantic_group_pair_f1": 0.68,
+    "semantic_group_false_positive_pairs": 4,
+    "semantic_group_false_negative_pairs": 12,
+    "semantic_group_bcubed_precision": 0.9074074074074074,
+    "semantic_group_bcubed_recall": 0.7222222222222222,
+    "semantic_group_bcubed_f1": 0.8042929292929292,
+    "reference_semantic_units": 10,
+    "predicted_semantic_units": 15,
+    "predicted_groups": [
+      {
+        "kind": "MASTHEAD",
+        "region_ids": [
+          "R783ef0804757c6ec",
+          "Re40b9f6cdb33a8ec"
+        ]
+      },
+      {
+        "kind": "OTHER",
+        "region_ids": [
+          "Rb9c0db59c3ee4b64"
+        ]
+      },
+      {
+        "kind": "ADVERT",
+        "region_ids": [
+          "R9e85aee0fc363c4d"
+        ]
+      },
+      {
+        "kind": "ADVERT",
+        "region_ids": [
+          "R2897b8b70fbe4cc9"
+        ]
+      },
+      {
+        "kind": "OTHER",
+        "region_ids": [
+          "Rd1fbe759c69cfdec"
+        ]
+      },
+      {
+        "kind": "OTHER",
+        "region_ids": [
+          "Rc920e350a7af4fed"
+        ]
+      },
+      {
+        "kind": "ADVERT",
+        "region_ids": [
+          "R467ae89131f520d0"
+        ]
+      },
+      {
+        "kind": "ADVERT",
+        "region_ids": [
+          "Rb4f6174c7afb0c83"
+        ]
+      },
+      {
+        "kind": "ADVERT",
+        "region_ids": [
+          "R52daf68c7f68e4e9"
+        ]
+      },
+      {
+        "kind": "ARTICLE",
+        "region_ids": [
+          "R4337f2e91c97e86d",
+          "R83eca5edd032e9ce"
+        ]
+      },
+      {
+        "kind": "ARTICLE",
+        "region_ids": [
+          "R4575ad4eb842322b",
+          "R3b1241d27df4d1cb"
+        ]
+      },
+      {
+        "kind": "ARTICLE",
+        "region_ids": [
+          "R805454773b530887",
+          "R21a018e2e1cf4fc2"
+        ]
+      },
+      {
+        "kind": "ARTICLE",
+        "region_ids": [
+          "R1ab13ec2d83ee3f4",
+          "R499c4f83031b1e34"
+        ]
+      },
+      {
+        "kind": "ARTICLE",
+        "region_ids": [
+          "Rbc97f6bc6aa99634",
+          "R5363010806b75b57",
+          "R618a95d042e415ed",
+          "Re344a52d63ef1ac3",
+          "Re8f9fdea5d597bef"
+        ]
+      },
+      {
+        "kind": "ARTICLE",
+        "region_ids": [
+          "R640338ce7f4c8846",
+          "R5ed06fe7b5291c54",
+          "Ra3b43d4d01af6b80",
+          "R6526fb9a10f07139"
+        ]
+      }
+    ],
+    "combined_order_correct_reference_pairs": 120,
+    "combined_order_reference_pairs": 253,
+    "combined_order_pair_recall": 0.4743083003952569,
+    "cpu_order_and_grouping_runtime_seconds": 0.00013781699817627668,
+    "cpu_inferred_columns": 3,
+    "uncertain_region_ids": []
+  },
+  "frozen_gates": {
+    "raw_structural_valid": true,
+    "eligibility_precision_min": 0.9,
+    "eligibility_recall_min": 0.9,
+    "role_accuracy_min": 0.8,
+    "semantic_group_pair_f1_min": 0.8,
+    "combined_order_pair_recall_min": 0.95
+  },
+  "content_gate_passed": false,
+  "accepted_for_project_completion_gate": false,
+  "reference_warning": "Distributed role/order/SSU fields are provisional labels, not independently adjudicated truth. Page 0029 is consumed after scoring.",
+  "leakage_control": "Random visual tokens reveal no source ID, order, role or semantic unit. Validation labels and XML are outside the reader packet.",
+  "interpretation": "Agreement with provisional corpus labels on one page; no article or ground-truth certification."
+}

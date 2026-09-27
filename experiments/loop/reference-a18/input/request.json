@@ -1,0 +1,70 @@
+{
+  "task": "blind diplomatic OCR",
+  "items": [
+    {
+      "id": "X5722a4ba",
+      "image": "experiments/loop/reference-a18/input/X5722a4ba.png"
+    },
+    {
+      "id": "X790c67fe",
+      "image": "experiments/loop/reference-a18/input/X790c67fe.png"
+    },
+    {
+      "id": "X4a736be3",
+      "image": "experiments/loop/reference-a18/input/X4a736be3.png"
+    },
+    {
+      "id": "X9234e71e",
+      "image": "experiments/loop/reference-a18/input/X9234e71e.png"
+    },
+    {
+      "id": "X4fc0d3a8",
+      "image": "experiments/loop/reference-a18/input/X4fc0d3a8.png"
+    },
+    {
+      "id": "Xccef03ca",
+      "image": "experiments/loop/reference-a18/input/Xccef03ca.png"
+    },
+    {
+      "id": "X7ddb5a0a",
+      "image": "experiments/loop/reference-a18/input/X7ddb5a0a.png"
+    },
+    {
+      "id": "Xedb93e2e",
+      "image": "experiments/loop/reference-a18/input/Xedb93e2e.png"
+    },
+    {
+      "id": "X3d7d7292",
+      "image": "experiments/loop/reference-a18/input/X3d7d7292.png"
+    },
+    {
+      "id": "X862b2b3c",
+      "image": "experiments/loop/reference-a18/input/X862b2b3c.png"
+    },
+    {
+      "id": "Xa8b61dbb",
+      "image": "experiments/loop/reference-a18/input/Xa8b61dbb.png"
+    },
+    {
+      "id": "Xd16465de",
+      "image": "experiments/loop/reference-a18/input/Xd16465de.png"
+    },
+    {
+      "id": "Xae7c9ab9",
+      "image": "experiments/loop/reference-a18/input/Xae7c9ab9.png"
+    },
+    {
+      "id": "Xf10b250b",
+      "image": "experiments/loop/reference-a18/input/Xf10b250b.png"
+    },
+    {
+      "id": "X464da681",
+      "image": "experiments/loop/reference-a18/input/X464da681.png"
+    },
+    {
+      "id": "Xf7e27fd8",
+      "image": "experiments/loop/reference-a18/input/Xf7e27fd8.png"
+    }
+  ],
+  "instructions": "Inspect every crop. Preserve spelling, case, punctuation, printed hyphens, long s and diacritics. No editorial repair. One line per id. Return lines [{id,text,uncertain,reason}]. Never read reference/source/other files."
+}

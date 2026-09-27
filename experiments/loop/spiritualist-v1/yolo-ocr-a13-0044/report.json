@@ -1,0 +1,339 @@
+{
+  "schema": "bbvlm.predicted-paragraph-ocr/1",
+  "page": "0044",
+  "scoring_unit": "region, not TextLine; generic text_scores lines fields count 3 regions",
+  "scope": "consumed page, 3 short detector crops; not a representative or independent benchmark",
+  "reference_status": "distributed text provisional; differences require independent image adjudication",
+  "source_xml_sha256": "d3e0df22158f360ee271cd01fb40b7fa94271310bedb3204e620aa56350010e1",
+  "new_passes": {
+    "luna": 1,
+    "sol": 1,
+    "detector": 0
+  },
+  "cost_unavailable": [
+    "token counts",
+    "monetary cost",
+    "internal model inference latency"
+  ],
+  "scores": {
+    "luna": {
+      "lines": 3,
+      "missing_lines": 0,
+      "exact_lines": 0,
+      "characters": 1049,
+      "edits": 8,
+      "cer": 0.0076263107721639654,
+      "cer_nfc_long_s": 0.0076263107721639654,
+      "normalisation": "NFC and ſ→s only",
+      "per_line": [
+        {
+          "id": "Rbadb3783",
+          "reference": "A friend at Norwich has written to say that he places this alphabet on the table, and asks the spirits to tilt first the number of the horizontal line in which the letter is placed then to make a pause, and afterwards to tilt the number of the letter itself according to the position it occupies in the line. Thus the calling over of the alphabet by anybody present is rendered unnecessary. At some American circles the spirits have been taught to signal by means of the Morse alphabet, as follows :—",
+          "hypothesis": "A friend at Norwich has written to say that he places this alphabet on the table, and asks the spirits to tilt first the number of the horizontal line in which the letter is placed, then to make a pause, and afterwards to tilt the number of the letter itself according to the position it occupies in the line. Thus the calling over of the alphabet by anybody present is rendered unnecessary. At some American circles the spirits have been taught to signal by means of the Morse alphabet, as follows:—",
+          "characters": 500,
+          "edits": 2,
+          "normalised_characters": 500,
+          "normalised_edits": 2,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Rba25d296",
+          "reference": "SPIRITUALISM is gaining ground in Australia. The Melbourne Daily Telegraph of Oct. 12th last, reports that Mr. Nayler delivered a lecture on the subject at the Mechanics Institute, Melbourne, and that he asserted the King of Bavaria the Emperor Napoleon, and Queen Victoria, to be Spiri tualists.",
+          "hypothesis": "SPIRITUALISM is gaining ground in Australia. The Melbourne Daily Telegraph of Oct. 12th last, reports that Mr. Nayler delivered a lecture on the subject at the Mechanics’ Institute, Melbourne, and that he asserted the King of Bavaria, the Emperor Napoleon, and Queen Victoria, to be Spiri- tualists.",
+          "characters": 296,
+          "edits": 3,
+          "normalised_characters": 296,
+          "normalised_edits": 3,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Rc94b31fb",
+          "reference": "TABLE SIGNALS AND THE ALPHABET.—A few weeks ago we pointed out the saving in time that might be effected when receiving messages by means of raps or tilts, if the alphabet were written in the following way, and a particular method of signalling adopted:",
+          "hypothesis": "TABLE SIGNALS AND THE ALPHABET.—A few weeks ago we pointed out the saving in time that might be effected, when receiving messages by means of raps or tilts, if the alphabet were written in the following way, and a particular method of signalling adopted :—",
+          "characters": 253,
+          "edits": 3,
+          "normalised_characters": 253,
+          "normalised_edits": 3,
+          "missing": false,
+          "exact": false
+        }
+      ]
+    },
+    "luna_sol": {
+      "lines": 3,
+      "missing_lines": 0,
+      "exact_lines": 0,
+      "characters": 1049,
+      "edits": 7,
+      "cer": 0.00667302192564347,
+      "cer_nfc_long_s": 0.00667302192564347,
+      "normalisation": "NFC and ſ→s only",
+      "per_line": [
+        {
+          "id": "Rbadb3783",
+          "reference": "A friend at Norwich has written to say that he places this alphabet on the table, and asks the spirits to tilt first the number of the horizontal line in which the letter is placed then to make a pause, and afterwards to tilt the number of the letter itself according to the position it occupies in the line. Thus the calling over of the alphabet by anybody present is rendered unnecessary. At some American circles the spirits have been taught to signal by means of the Morse alphabet, as follows :—",
+          "hypothesis": "A friend at Norwich has written to say that he places this alphabet on the table, and asks the spirits to tilt first the number of the horizontal line in which the letter is placed, then to make a pause, and afterwards to tilt the number of the letter itself according to the position it occupies in the line. Thus the calling over of the alphabet by anybody present is rendered unnecessary. At some American circles the spirits have been taught to signal by means of the Morse alphabet, as follows :—",
+          "characters": 500,
+          "edits": 1,
+          "normalised_characters": 500,
+          "normalised_edits": 1,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Rba25d296",
+          "reference": "SPIRITUALISM is gaining ground in Australia. The Melbourne Daily Telegraph of Oct. 12th last, reports that Mr. Nayler delivered a lecture on the subject at the Mechanics Institute, Melbourne, and that he asserted the King of Bavaria the Emperor Napoleon, and Queen Victoria, to be Spiri tualists.",
+          "hypothesis": "SPIRITUALISM is gaining ground in Australia. The Melbourne Daily Telegraph of Oct. 12th last, reports that Mr. Nayler delivered a lecture on the subject at the Mechanics’ Institute, Melbourne, and that he asserted the King of Bavaria, the Emperor Napoleon, and Queen Victoria, to be Spiri- tualists.",
+          "characters": 296,
+          "edits": 3,
+          "normalised_characters": 296,
+          "normalised_edits": 3,
+          "missing": false,
+          "exact": false
+        },
+        {
+          "id": "Rc94b31fb",
+          "reference": "TABLE SIGNALS AND THE ALPHABET.—A few weeks ago we pointed out the saving in time that might be effected when receiving messages by means of raps or tilts, if the alphabet were written in the following way, and a particular method of signalling adopted:",
+          "hypothesis": "TABLE SIGNALS AND THE ALPHABET.—A few weeks ago we pointed out the saving in time that might be effected, when receiving messages by means of raps or tilts, if the alphabet were written in the following way, and a particular method of signalling adopted :—",
+          "characters": 253,
+          "edits": 3,
+          "normalised_characters": 253,
+          "normalised_edits": 3,
+          "missing": false,
+          "exact": false
+        }
+      ]
+    }
+  },
+  "reference_associations": [
+    {
+      "id": "Rbadb3783",
+      "lines": [
+        {
+          "id": "tr_1743005301_tl_1",
+          "bbox": [
+            896.0,
+            1219.0,
+            1577.0,
+            1258.0
+          ],
+          "text": "A friend at Norwich has written to say that he places this"
+        },
+        {
+          "id": "tr_1743005301_tl_2",
+          "bbox": [
+            896.0,
+            1253.0,
+            1575.0,
+            1282.0
+          ],
+          "text": "alphabet on the table, and asks the spirits to tilt first the"
+        },
+        {
+          "id": "tr_1743005301_tl_3",
+          "bbox": [
+            895.0,
+            1278.0,
+            1575.0,
+            1306.0
+          ],
+          "text": "number of the horizontal line in which the letter is placed"
+        },
+        {
+          "id": "tr_1743005301_tl_4",
+          "bbox": [
+            895.0,
+            1302.0,
+            1577.0,
+            1333.0
+          ],
+          "text": "then to make a pause, and afterwards to tilt the number of"
+        },
+        {
+          "id": "tr_1743005301_tl_5",
+          "bbox": [
+            895.0,
+            1322.0,
+            1574.0,
+            1353.0
+          ],
+          "text": "the letter itself according to the position it occupies in the"
+        },
+        {
+          "id": "tr_1743005301_tl_6",
+          "bbox": [
+            896.0,
+            1350.0,
+            1568.0,
+            1382.0
+          ],
+          "text": "line. Thus the calling over of the alphabet by anybody"
+        },
+        {
+          "id": "tr_1743005301_tl_7",
+          "bbox": [
+            899.0,
+            1371.0,
+            1573.0,
+            1408.0
+          ],
+          "text": "present is rendered unnecessary. At some American circles"
+        },
+        {
+          "id": "tr_1743005301_tl_8",
+          "bbox": [
+            896.0,
+            1400.0,
+            1572.0,
+            1431.0
+          ],
+          "text": "the spirits have been taught to signal by means of the Morse"
+        },
+        {
+          "id": "tr_1743005301_tl_9",
+          "bbox": [
+            895.0,
+            1426.0,
+            1154.0,
+            1466.0
+          ],
+          "text": "alphabet, as follows :—"
+        }
+      ]
+    },
+    {
+      "id": "Rba25d296",
+      "lines": [
+        {
+          "id": "tr_1743005304_tl_2",
+          "bbox": [
+            927.0,
+            295.0,
+            1507.0,
+            342.0
+          ],
+          "text": "SPIRITUALISM is gaining ground in Australia."
+        },
+        {
+          "id": "tr_1743005304_tl_1",
+          "bbox": [
+            1541.0,
+            301.0,
+            1585.0,
+            343.0
+          ],
+          "text": "The"
+        },
+        {
+          "id": "tr_1743005304_tl_3",
+          "bbox": [
+            905.0,
+            341.0,
+            1585.0,
+            371.0
+          ],
+          "text": "Melbourne Daily Telegraph of Oct. 12th last, reports that Mr."
+        },
+        {
+          "id": "tr_1743005304_tl_4",
+          "bbox": [
+            902.0,
+            361.0,
+            1578.0,
+            392.0
+          ],
+          "text": "Nayler delivered a lecture on the subject at the Mechanics"
+        },
+        {
+          "id": "tr_1743005304_tl_5",
+          "bbox": [
+            902.0,
+            386.0,
+            1578.0,
+            419.0
+          ],
+          "text": "Institute, Melbourne, and that he asserted the King of Bavaria"
+        },
+        {
+          "id": "tr_1743005304_tl_6",
+          "bbox": [
+            895.0,
+            410.0,
+            1580.0,
+            445.0
+          ],
+          "text": "the Emperor Napoleon, and Queen Victoria, to be Spiri"
+        },
+        {
+          "id": "tr_1743005304_tl_7",
+          "bbox": [
+            902.0,
+            436.0,
+            987.0,
+            475.0
+          ],
+          "text": "tualists."
+        }
+      ]
+    },
+    {
+      "id": "Rc94b31fb",
+      "lines": [
+        {
+          "id": "tr_1743005302_tl_1",
+          "bbox": [
+            923.0,
+            940.0,
+            1578.0,
+            973.0
+          ],
+          "text": "TABLE SIGNALS AND THE ALPHABET.—A few weeks ago"
+        },
+        {
+          "id": "tr_1743005302_tl_2",
+          "bbox": [
+            904.0,
+            968.0,
+            1575.0,
+            999.0
+          ],
+          "text": "we pointed out the saving in time that might be effected"
+        },
+        {
+          "id": "tr_1743005302_tl_3",
+          "bbox": [
+            902.0,
+            994.0,
+            1576.0,
+            1027.0
+          ],
+          "text": "when receiving messages by means of raps or tilts, if the"
+        },
+        {
+          "id": "tr_1743005302_tl_4",
+          "bbox": [
+            899.0,
+            1019.0,
+            1578.0,
+            1050.0
+          ],
+          "text": "alphabet were written in the following way, and a particular"
+        },
+        {
+          "id": "tr_1743005302_tl_5",
+          "bbox": [
+            898.0,
+            1045.0,
+            1236.0,
+            1082.0
+          ],
+          "text": "method of signalling adopted:"
+        }
+      ]
+    }
+  ],
+  "normalisation_before_scoring": "collapse whitespace only; no punctuation/case/hyphen folding",
+  "accepted_for_project_completion_gate": false
+}

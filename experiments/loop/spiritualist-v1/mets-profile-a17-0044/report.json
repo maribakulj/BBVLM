@@ -1,0 +1,73 @@
+{
+  "schema": "bbvlm.mets-profile-a17/1",
+  "status": "profile_export_complete_with_declared_limit",
+  "scope": "A16c consumed partial page; packaging/provenance only",
+  "input_graph_sha256": "a33cf57a545498ba0ac8b4023c92971f49523e1e2e57a7862b08f12ce39c7495",
+  "source_image_sha256_verified_before_export": "93bc1ec0515d949dc284d279932e5207a5bcabd8d0f7879584daf3bc089fc9fc",
+  "file_groups": {
+    "OCR": [
+      "FILE_P0001"
+    ],
+    "MASTER_IMAGE": [
+      "FILE_IMAGE_P0001"
+    ],
+    "DOCUMENT_GRAPH": [
+      "FILE_GRAPH"
+    ],
+    "RETRIEVAL_INDEX": [
+      "FILE_RETRIEVAL"
+    ]
+  },
+  "physical_page_fileids": [
+    [
+      "FILE_IMAGE_P0001",
+      "FILE_P0001"
+    ]
+  ],
+  "mods_identifier": "realigned.alto",
+  "premis_objects": 4,
+  "premis_events": 1,
+  "image_href_matches_graph": true,
+  "package": {
+    "pages": 1,
+    "lines": 20,
+    "lines_requiring_review": 20,
+    "schema_validated": true,
+    "certified_ground_truth": false,
+    "retrieval": {
+      "passages": 20,
+      "document_sha256": "ad678ca4982da48c9eb83c8b664df6bf824bdb240e0212b3f040d90869bf0bb2",
+      "unit": "line",
+      "semantic_retrieval": false
+    },
+    "mets_package_integrity": {
+      "files": 4,
+      "checksums_verified": 3,
+      "external_uris": 1,
+      "external_checksum_declarations": 1,
+      "unresolved_unchecksummed_local_uris": 0,
+      "all_idrefs_resolve": true,
+      "physical_pages_link_image_and_ocr": true
+    },
+    "mods_version": "3.8",
+    "premis_version": "3.0",
+    "embedded_profile_validation": {
+      "mets_core_xsd_valid": true,
+      "premis_3_xsd_valid": true,
+      "mods_3_8_local_profile_valid": true,
+      "mods_3_8_xsd_valid": false
+    }
+  },
+  "passes": {
+    "layout": 0,
+    "recognition": 0,
+    "vlm": 0
+  },
+  "accepted_for_project_completion_gate": false,
+  "limitations": [
+    "MODS 3.8 official XSD could not be retrieved through the upstream 403; local profile structure is checked but standalone MODS XSD validation remains false",
+    "the remote image checksum is verified against restored bytes during A17, but the portable package intentionally omits the public image bytes",
+    "the source graph has no independently sourced bibliographic title/date/authority record, so MODS contains only a local identifier and explicit automatic record provenance",
+    "METS/PREMIS validity and fixity do not certify OCR, geometry, OLR or metadata truth"
+  ]
+}

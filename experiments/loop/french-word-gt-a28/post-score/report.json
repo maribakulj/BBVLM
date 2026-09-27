@@ -1,0 +1,914 @@
+{
+  "schema": "bbvlm.french-word-gt-a28-post-score-audit/1",
+  "status": "diagnostic_after_validation; no retuning or reference edits",
+  "aggregate": {
+    "words": 1753,
+    "mean_iou": 0.8388192310987337,
+    "recall_iou50": 0.9343981745579008,
+    "recall_iou80": 0.6845407872219053,
+    "median_pred_gt_area_ratio": 1.0344827586206897,
+    "pred_inside_gt_rate": 0.21791215059897318
+  },
+  "by_work": {
+    "borrdisc_689809840": {
+      "words": 752,
+      "mean_iou": 0.8715367746183599,
+      "recall_iou50": 0.9561170212765957,
+      "recall_iou80": 0.7779255319148937,
+      "median_pred_gt_area_ratio": 1.0256410256410255,
+      "pred_inside_gt_rate": 0.22872340425531915
+    },
+    "catapabin_657601357": {
+      "words": 1001,
+      "mean_iou": 0.8142402173856879,
+      "recall_iou50": 0.9180819180819181,
+      "recall_iou80": 0.6143856143856143,
+      "median_pred_gt_area_ratio": 1.0769230769230769,
+      "pred_inside_gt_rate": 0.2097902097902098
+    }
+  },
+  "worst_40": [
+    {
+      "page": "00000272",
+      "work": "catapabin_657601357",
+      "line": "P00000272_l39",
+      "index": 3,
+      "text": "-",
+      "gt": [
+        757,
+        1590,
+        764,
+        1594
+      ],
+      "pred": [
+        745,
+        1565,
+        765,
+        1601
+      ],
+      "iou": 0.03888888888888889,
+      "pred_gt_area_ratio": 25.714285714285715,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l45",
+      "index": 5,
+      "text": "-",
+      "gt": [
+        977,
+        613,
+        991,
+        619
+      ],
+      "pred": [
+        963,
+        573,
+        992,
+        619
+      ],
+      "iou": 0.06296851574212893,
+      "pred_gt_area_ratio": 15.880952380952381,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000272",
+      "work": "catapabin_657601357",
+      "line": "P00000272_l20",
+      "index": 5,
+      "text": "-",
+      "gt": [
+        1084,
+        756,
+        1094,
+        766
+      ],
+      "pred": [
+        1073,
+        741,
+        1095,
+        781
+      ],
+      "iou": 0.11363636363636363,
+      "pred_gt_area_ratio": 8.8,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l1",
+      "index": 1,
+      "text": "-",
+      "gt": [
+        351,
+        179,
+        365,
+        187
+      ],
+      "pred": [
+        335,
+        167,
+        365,
+        194
+      ],
+      "iou": 0.1382716049382716,
+      "pred_gt_area_ratio": 7.232142857142857,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000272",
+      "work": "catapabin_657601357",
+      "line": "P00000272_l30",
+      "index": 1,
+      "text": "-",
+      "gt": [
+        282,
+        1157,
+        295,
+        1167
+      ],
+      "pred": [
+        269,
+        1147,
+        294,
+        1175
+      ],
+      "iou": 0.16901408450704225,
+      "pred_gt_area_ratio": 5.384615384615385,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l433",
+      "index": 2,
+      "text": "un",
+      "gt": [
+        529,
+        700,
+        563,
+        717
+      ],
+      "pred": [
+        516,
+        690,
+        560,
+        740
+      ],
+      "iou": 0.23411816970235452,
+      "pred_gt_area_ratio": 3.8062283737024223,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000272",
+      "work": "catapabin_657601357",
+      "line": "P00000272_l18",
+      "index": 1,
+      "text": "-",
+      "gt": [
+        300,
+        531,
+        315,
+        539
+      ],
+      "pred": [
+        286,
+        531,
+        310,
+        543
+      ],
+      "iou": 0.24390243902439024,
+      "pred_gt_area_ratio": 2.4,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000020",
+      "work": "borrdisc_689809840",
+      "line": "P00000020_l27",
+      "index": 8,
+      "text": "la",
+      "gt": [
+        997,
+        1383,
+        1023,
+        1411
+      ],
+      "pred": [
+        972,
+        1383,
+        1024,
+        1437
+      ],
+      "iou": 0.25925925925925924,
+      "pred_gt_area_ratio": 3.857142857142857,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l286",
+      "index": 1,
+      "text": "-",
+      "gt": [
+        320,
+        545,
+        333,
+        552
+      ],
+      "pred": [
+        307,
+        545,
+        333,
+        557
+      ],
+      "iou": 0.2916666666666667,
+      "pred_gt_area_ratio": 3.4285714285714284,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l341",
+      "index": 5,
+      "text": "un",
+      "gt": [
+        841,
+        964,
+        877,
+        980
+      ],
+      "pred": [
+        830,
+        940,
+        876,
+        980
+      ],
+      "iou": 0.3017241379310345,
+      "pred_gt_area_ratio": 3.1944444444444446,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l556",
+      "index": 8,
+      "text": "le",
+      "gt": [
+        1036,
+        1125,
+        1059,
+        1154
+      ],
+      "pred": [
+        1026,
+        1108,
+        1068,
+        1160
+      ],
+      "iou": 0.30540293040293043,
+      "pred_gt_area_ratio": 3.2743628185907045,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l56",
+      "index": 7,
+      "text": "à",
+      "gt": [
+        771,
+        740,
+        788,
+        766
+      ],
+      "pred": [
+        758,
+        729,
+        786,
+        771
+      ],
+      "iou": 0.31758957654723124,
+      "pred_gt_area_ratio": 2.660633484162896,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l169",
+      "index": 9,
+      "text": "cet",
+      "gt": [
+        1033,
+        840,
+        1072,
+        858
+      ],
+      "pred": [
+        1021,
+        815,
+        1072,
+        858
+      ],
+      "iou": 0.320109439124487,
+      "pred_gt_area_ratio": 3.123931623931624,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l665",
+      "index": 1,
+      "text": "à",
+      "gt": [
+        494,
+        1198,
+        511,
+        1223
+      ],
+      "pred": [
+        484,
+        1198,
+        511,
+        1246
+      ],
+      "iou": 0.3279320987654321,
+      "pred_gt_area_ratio": 3.0494117647058823,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l56",
+      "index": 12,
+      "text": "il",
+      "gt": [
+        1189,
+        729,
+        1208,
+        760
+      ],
+      "pred": [
+        1173,
+        729,
+        1208,
+        780
+      ],
+      "iou": 0.3299719887955182,
+      "pred_gt_area_ratio": 3.030560271646859,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l341",
+      "index": 7,
+      "text": "tous",
+      "gt": [
+        1017,
+        965,
+        1074,
+        985
+      ],
+      "pred": [
+        1009,
+        940,
+        1081,
+        987
+      ],
+      "iou": 0.33687943262411346,
+      "pred_gt_area_ratio": 2.968421052631579,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000020",
+      "work": "borrdisc_689809840",
+      "line": "P00000020_l16",
+      "index": 5,
+      "text": "de",
+      "gt": [
+        941,
+        990,
+        978,
+        1020
+      ],
+      "pred": [
+        927,
+        990,
+        986,
+        1045
+      ],
+      "iou": 0.3420647149460709,
+      "pred_gt_area_ratio": 2.9234234234234235,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000019",
+      "work": "borrdisc_689809840",
+      "line": "P00000019_l9",
+      "index": 1,
+      "text": "à",
+      "gt": [
+        227,
+        568,
+        254,
+        600
+      ],
+      "pred": [
+        206,
+        570,
+        248,
+        608
+      ],
+      "iou": 0.3442622950819672,
+      "pred_gt_area_ratio": 1.8472222222222223,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000020",
+      "work": "borrdisc_689809840",
+      "line": "P00000020_l12",
+      "index": 6,
+      "text": "les",
+      "gt": [
+        944,
+        648,
+        982,
+        676
+      ],
+      "pred": [
+        919,
+        648,
+        983,
+        696
+      ],
+      "iou": 0.3463541666666667,
+      "pred_gt_area_ratio": 2.887218045112782,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000273",
+      "work": "catapabin_657601357",
+      "line": "P00000273_l384",
+      "index": 9,
+      "text": "avoit",
+      "gt": [
+        819,
+        1049,
+        888,
+        1073
+      ],
+      "pred": [
+        796,
+        1048,
+        888,
+        1099
+      ],
+      "iou": 0.35294117647058826,
+      "pred_gt_area_ratio": 2.8333333333333335,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l226",
+      "index": 3,
+      "text": "très",
+      "gt": [
+        680,
+        866,
+        731,
+        892
+      ],
+      "pred": [
+        657,
+        861,
+        730,
+        911
+      ],
+      "iou": 0.35364526659412404,
+      "pred_gt_area_ratio": 2.7526395173453997,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000019",
+      "work": "borrdisc_689809840",
+      "line": "P00000019_l20",
+      "index": 7,
+      "text": "à",
+      "gt": [
+        903,
+        1115,
+        919,
+        1145
+      ],
+      "pred": [
+        880,
+        1116,
+        917,
+        1145
+      ],
+      "iou": 0.35396687009590233,
+      "pred_gt_area_ratio": 2.2354166666666666,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000273",
+      "work": "catapabin_657601357",
+      "line": "P00000273_l162",
+      "index": 8,
+      "text": "ci",
+      "gt": [
+        868,
+        884,
+        890,
+        906
+      ],
+      "pred": [
+        856,
+        883,
+        890,
+        923
+      ],
+      "iou": 0.3558823529411765,
+      "pred_gt_area_ratio": 2.809917355371901,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000020",
+      "work": "borrdisc_689809840",
+      "line": "P00000020_l8",
+      "index": 6,
+      "text": "en",
+      "gt": [
+        991,
+        454,
+        1027,
+        472
+      ],
+      "pred": [
+        987,
+        454,
+        1028,
+        498
+      ],
+      "iou": 0.35920177383592017,
+      "pred_gt_area_ratio": 2.7839506172839505,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l500",
+      "index": 6,
+      "text": "la",
+      "gt": [
+        873,
+        1080,
+        898,
+        1107
+      ],
+      "pred": [
+        860,
+        1068,
+        898,
+        1117
+      ],
+      "iou": 0.36251342642320084,
+      "pred_gt_area_ratio": 2.7585185185185184,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000272",
+      "work": "catapabin_657601357",
+      "line": "P00000272_l42",
+      "index": 3,
+      "text": "1720.",
+      "gt": [
+        627,
+        1730,
+        728,
+        1767
+      ],
+      "pred": [
+        593,
+        1696,
+        738,
+        1767
+      ],
+      "iou": 0.3629917435648373,
+      "pred_gt_area_ratio": 2.7548835964677547,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l282",
+      "index": 7,
+      "text": "toutes",
+      "gt": [
+        1009,
+        924,
+        1090,
+        943
+      ],
+      "pred": [
+        1009,
+        899,
+        1099,
+        946
+      ],
+      "iou": 0.3638297872340426,
+      "pred_gt_area_ratio": 2.7485380116959064,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000273",
+      "work": "catapabin_657601357",
+      "line": "P00000273_l277",
+      "index": 2,
+      "text": "premier",
+      "gt": [
+        428,
+        980,
+        537,
+        999
+      ],
+      "pred": [
+        428,
+        962,
+        539,
+        1013
+      ],
+      "iou": 0.3658364246599541,
+      "pred_gt_area_ratio": 2.7334620956059874,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000275",
+      "work": "catapabin_657601357",
+      "line": "P00000275_l30",
+      "index": 5,
+      "text": "un",
+      "gt": [
+        561,
+        1213,
+        594,
+        1229
+      ],
+      "pred": [
+        542,
+        1203,
+        595,
+        1230
+      ],
+      "iou": 0.3689727463312369,
+      "pred_gt_area_ratio": 2.710227272727273,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000272",
+      "work": "catapabin_657601357",
+      "line": "P00000272_l26",
+      "index": 2,
+      "text": "à",
+      "gt": [
+        691,
+        940,
+        707,
+        976
+      ],
+      "pred": [
+        672,
+        940,
+        704,
+        976
+      ],
+      "iou": 0.37142857142857144,
+      "pred_gt_area_ratio": 2.0,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000272",
+      "work": "catapabin_657601357",
+      "line": "P00000272_l42",
+      "index": 1,
+      "text": "1719.",
+      "gt": [
+        428,
+        1729,
+        531,
+        1764
+      ],
+      "pred": [
+        405,
+        1696,
+        545,
+        1765
+      ],
+      "iou": 0.37318840579710144,
+      "pred_gt_area_ratio": 2.679611650485437,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l215",
+      "index": 5,
+      "text": "le",
+      "gt": [
+        1022,
+        435,
+        1054,
+        472
+      ],
+      "pred": [
+        1004,
+        416,
+        1060,
+        472
+      ],
+      "iou": 0.37755102040816324,
+      "pred_gt_area_ratio": 2.6486486486486487,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000275",
+      "work": "catapabin_657601357",
+      "line": "P00000275_l29",
+      "index": 3,
+      "text": "&",
+      "gt": [
+        479,
+        1160,
+        509,
+        1193
+      ],
+      "pred": [
+        463,
+        1164,
+        502,
+        1201
+      ],
+      "iou": 0.37768969422423554,
+      "pred_gt_area_ratio": 1.4575757575757575,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l56",
+      "index": 8,
+      "text": "la",
+      "gt": [
+        805,
+        740,
+        831,
+        766
+      ],
+      "pred": [
+        786,
+        729,
+        829,
+        766
+      ],
+      "iou": 0.3797930614729154,
+      "pred_gt_area_ratio": 2.353550295857988,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000272",
+      "work": "catapabin_657601357",
+      "line": "P00000272_l35",
+      "index": 1,
+      "text": "-",
+      "gt": [
+        283,
+        1372,
+        297,
+        1383
+      ],
+      "pred": [
+        268,
+        1372,
+        296,
+        1385
+      ],
+      "iou": 0.38133333333333336,
+      "pred_gt_area_ratio": 2.3636363636363638,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000020",
+      "work": "borrdisc_689809840",
+      "line": "P00000020_l8",
+      "index": 7,
+      "text": "ren-",
+      "gt": [
+        1043,
+        457,
+        1110,
+        475
+      ],
+      "pred": [
+        1033,
+        457,
+        1110,
+        498
+      ],
+      "iou": 0.3820082356667723,
+      "pred_gt_area_ratio": 2.6177446102819237,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000274",
+      "work": "catapabin_657601357",
+      "line": "P00000274_l56",
+      "index": 4,
+      "text": "a",
+      "gt": [
+        629,
+        741,
+        649,
+        765
+      ],
+      "pred": [
+        628,
+        747,
+        645,
+        780
+      ],
+      "iou": 0.38247011952191234,
+      "pred_gt_area_ratio": 1.16875,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000273",
+      "work": "catapabin_657601357",
+      "line": "P00000273_l384",
+      "index": 6,
+      "text": "B.",
+      "gt": [
+        622,
+        1051,
+        648,
+        1080
+      ],
+      "pred": [
+        608,
+        1051,
+        649,
+        1099
+      ],
+      "iou": 0.383130081300813,
+      "pred_gt_area_ratio": 2.610079575596817,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000020",
+      "work": "borrdisc_689809840",
+      "line": "P00000020_l32",
+      "index": 1,
+      "text": "le",
+      "gt": [
+        461,
+        1648,
+        487,
+        1676
+      ],
+      "pred": [
+        444,
+        1633,
+        487,
+        1677
+      ],
+      "iou": 0.38477801268498946,
+      "pred_gt_area_ratio": 2.598901098901099,
+      "pred_inside_gt": false
+    },
+    {
+      "page": "00000272",
+      "work": "catapabin_657601357",
+      "line": "P00000272_l43",
+      "index": 1,
+      "text": "la",
+      "gt": [
+        393,
+        1768,
+        424,
+        1805
+      ],
+      "pred": [
+        370,
+        1768,
+        425,
+        1822
+      ],
+      "iou": 0.3861952861952862,
+      "pred_gt_area_ratio": 2.5893635571054925,
+      "pred_inside_gt": false
+    }
+  ],
+  "overlay": "experiments/loop/french-word-gt-a28/post-score/worst-40-overlay.jpg",
+  "interpretation": "A tight ink rectangle and the project Word polygon encode different conventions when padding, faint glyph parts, bleed-through, italics or neighboring marks are present. IoU disagreement alone does not prove either box visually perfect."
+}

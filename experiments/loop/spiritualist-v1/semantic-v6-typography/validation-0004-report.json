@@ -1,0 +1,32 @@
+{
+  "schema": "bbvlm.semantic-v6-typography-validation/1",
+  "page": "0004",
+  "scope": "conditional on distributed regions and oracle coarse STREAM membership",
+  "protocol_frozen_before_labels": "profile.json selected on development only",
+  "passes": {
+    "vlm": 0,
+    "cpu_typography_order_grouping": 1
+  },
+  "metrics": {
+    "fine_role_accuracy": 1.0,
+    "semantic_group_pair_precision": 1.0,
+    "semantic_group_pair_recall": 1.0,
+    "semantic_group_pair_f1": 1.0,
+    "order_pair_accuracy": 1.0
+  },
+  "counts": {
+    "stream_regions": 8,
+    "role_mismatches": 0,
+    "predicted_units": 6,
+    "reference_units": 6
+  },
+  "gates": {
+    "fine_role_accuracy_min": 0.8,
+    "semantic_group_pair_f1_min": 0.8,
+    "order_pair_accuracy_min": 0.95
+  },
+  "content_gate_passed": true,
+  "mismatches": [],
+  "accepted_for_project_completion_gate": false,
+  "warning": "Page 0004 is consumed for this conditional task; labels are provisional and word boxes remain rejected."
+}

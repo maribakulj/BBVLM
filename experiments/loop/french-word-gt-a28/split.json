@@ -1,0 +1,102 @@
+{
+  "schema": "bbvlm.french-word-gt-a28-split/1",
+  "status": "frozen_unopened",
+  "repository": "OCR-D/OCR-D-GT-VD-SBB",
+  "revision": "481f7235acfc1f78e88b3c2f22f551595c3f2032",
+  "selection": "all four pages of both works independently catalogued fre; tree metadata and paths only",
+  "works": [
+    "borrdisc_689809840",
+    "catapabin_657601357"
+  ],
+  "pages": [
+    {
+      "work": "borrdisc_689809840",
+      "page": "00000018",
+      "xml": "data/borrdisc_689809840/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000018.xml",
+      "image": "data/borrdisc_689809840/OCR-D-IMG/OCR-D-IMG_00000018.tif",
+      "xml_blob": "7c3b29775698e436baf1fa10071f2fcf4fc3919d",
+      "image_blob": "76453ea717b39a17166292672dffdab3b4f6fbe4",
+      "xml_size": 375057,
+      "image_size": 1003672
+    },
+    {
+      "work": "borrdisc_689809840",
+      "page": "00000019",
+      "xml": "data/borrdisc_689809840/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000019.xml",
+      "image": "data/borrdisc_689809840/OCR-D-IMG/OCR-D-IMG_00000019.tif",
+      "xml_blob": "2abf39a8ddba8c56eeef225b2f13bad1c0e646de",
+      "image_blob": "af7d383cd222b9f07b9ae686680715a4d793dc3a",
+      "xml_size": 390901,
+      "image_size": 1053818
+    },
+    {
+      "work": "borrdisc_689809840",
+      "page": "00000020",
+      "xml": "data/borrdisc_689809840/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000020.xml",
+      "image": "data/borrdisc_689809840/OCR-D-IMG/OCR-D-IMG_00000020.tif",
+      "xml_blob": "3b303601ea15f64a136a0e8418131720f79f4b7b",
+      "image_blob": "fcbf0e795760a585548aa31bcc7de629ddd4d510",
+      "xml_size": 367824,
+      "image_size": 946670
+    },
+    {
+      "work": "borrdisc_689809840",
+      "page": "00000021",
+      "xml": "data/borrdisc_689809840/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000021.xml",
+      "image": "data/borrdisc_689809840/OCR-D-IMG/OCR-D-IMG_00000021.tif",
+      "xml_blob": "5b424a66e33c2cbe60957c795bca6308b95a2416",
+      "image_blob": "c41d8ad3386a637b4eae2dd88cc4ac7f0eb335aa",
+      "xml_size": 354444,
+      "image_size": 1013302
+    },
+    {
+      "work": "catapabin_657601357",
+      "page": "00000272",
+      "xml": "data/catapabin_657601357/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000272.xml",
+      "image": "data/catapabin_657601357/OCR-D-IMG/OCR-D-IMG_00000272.tif",
+      "xml_blob": "4d7581ee0919cd767312ee218e028ea5e0297573",
+      "image_blob": "34dbec828b541795d165efb2c723019e56ce75f3",
+      "xml_size": 447258,
+      "image_size": 1172870
+    },
+    {
+      "work": "catapabin_657601357",
+      "page": "00000273",
+      "xml": "data/catapabin_657601357/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000273.xml",
+      "image": "data/catapabin_657601357/OCR-D-IMG/OCR-D-IMG_00000273.tif",
+      "xml_blob": "0934e21798a336839558003a962d61ecf85e331b",
+      "image_blob": "6b5517321db85742e1a123c9f047cb4042690015",
+      "xml_size": 533166,
+      "image_size": 1193142
+    },
+    {
+      "work": "catapabin_657601357",
+      "page": "00000274",
+      "xml": "data/catapabin_657601357/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000274.xml",
+      "image": "data/catapabin_657601357/OCR-D-IMG/OCR-D-IMG_00000274.tif",
+      "xml_blob": "1b0b58d9e1d9496aa7d9069172b596a447cccde3",
+      "image_blob": "6359a0dc93c5a17ca25f65d628fe83787e442523",
+      "xml_size": 554678,
+      "image_size": 1181014
+    },
+    {
+      "work": "catapabin_657601357",
+      "page": "00000275",
+      "xml": "data/catapabin_657601357/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000275.xml",
+      "image": "data/catapabin_657601357/OCR-D-IMG/OCR-D-IMG_00000275.tif",
+      "xml_blob": "2c717669ba6e702ff29a9be314da2f99a6861fb6",
+      "image_blob": "7d8d8b52521772449abb7c1cfd09c92f04743a21",
+      "xml_size": 502714,
+      "image_size": 1182326
+    }
+  ],
+  "created_unix": 1790528777.9923983,
+  "protocol_sha256": "e1abe68706bd16a468fb3b7289455aedd7411c5a660eea52009e0c6d5f1969a8",
+  "sealed_sha256": {
+    "protocol": "e1abe68706bd16a468fb3b7289455aedd7411c5a660eea52009e0c6d5f1969a8",
+    "opener": "04c2a86eed9e48fed2ba1902808d652648b0e6db8aef91c7109c75ea18391242",
+    "evaluator": "bd82ed5a78349dd6a0c6a059e8cee2acac2687a86b727b86de2f4476f375147d",
+    "candidate_core_a25": "d8f7b8c231684b7d2a4dd0f705834e9bc50ffbc70a46f5be6d416fdaae3dcb0b",
+    "tree": "c1d9d08adb3c070a7c1579395bedc2dbbb384e1d38d0c089953fcb5fa7b93dc0"
+  }
+}

@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-27T09:44:37.124849+00:00</Created>
+    <LastChange>2026-09-27T09:44:37.124849+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A15_0044" imageWidth="2479" imageHeight="3508">
+    <TextRegion id="Rbadb3783">
+      <Coords points="892,1228 1586,1228 1586,1456 892,1456"/>
+      <TextLine id="Lc36a4a25c790" index="0" custom="heights_v2:[19.0,6.8]">
+        <Coords points="896,1233 973,1233 1050,1231 1126,1231 1202,1229 1278,1229 1354,1229 1431,1228 1507,1229 1586,1229 1586,1255 1507,1255 1430,1254 1355,1255 1278,1255 1202,1255 1126,1257 1050,1257 974,1259 896,1259"/>
+        <Baseline points="896,1252 974,1252 1050,1250 1126,1250 1202,1248 1278,1248 1354,1248 1431,1247 1507,1248 1586,1248"/>
+        <TextEquiv conf="0.999">
+          <Unicode>A friend at Norwich has written to say that he places this</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="L7b271e677b86" index="1" custom="heights_v2:[18.7,6.8]">
+        <Coords points="896,1256 973,1256 1050,1255 1126,1255 1202,1253 1278,1253 1354,1253 1431,1253 1507,1253 1586,1253 1586,1278 1507,1278 1431,1278 1354,1278 1278,1278 1202,1278 1126,1280 1050,1280 974,1282 896,1282"/>
+        <Baseline points="896,1275 974,1275 1050,1273 1126,1273 1202,1272 1278,1272 1354,1272 1431,1272 1507,1272 1586,1272"/>
+        <TextEquiv conf="0.999">
+          <Unicode>alphabet on the table, and asks the spirits to tilt first the</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="L88b999822224" index="2" custom="heights_v2:[19.0,6.9]">
+        <Coords points="894,1281 972,1281 1048,1279 1124,1279 1200,1278 1275,1278 1351,1278 1427,1278 1504,1278 1583,1279 1583,1305 1503,1303 1427,1303 1351,1303 1275,1303 1200,1303 1124,1305 1048,1305 972,1307 894,1307"/>
+        <Baseline points="894,1300 972,1300 1048,1298 1124,1298 1200,1296 1275,1296 1351,1296 1427,1296 1503,1296 1583,1298"/>
+        <TextEquiv conf="0.995">
+          <Unicode>number of the horizontal line in which the letter is placed,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="Lb01a93985411" index="3" custom="heights_v2:[18.9,6.9]">
+        <Coords points="894,1306 972,1306 1048,1304 1124,1304 1200,1302 1277,1302 1353,1302 1429,1302 1505,1302 1585,1302 1585,1328 1505,1328 1429,1328 1353,1328 1277,1328 1200,1328 1124,1330 1048,1330 972,1332 894,1332"/>
+        <Baseline points="894,1325 972,1325 1048,1323 1124,1323 1200,1321 1277,1321 1353,1321 1429,1321 1505,1321 1585,1321"/>
+        <TextEquiv conf="0.971">
+          <Unicode>then to make a pause, and afterwards to tilt the number of</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="La7d534d17d38" index="4" custom="heights_v2:[18.8,6.9]">
+        <Coords points="894,1331 972,1331 1048,1329 1124,1329 1200,1327 1275,1327 1351,1326 1428,1326 1503,1327 1583,1327 1583,1353 1503,1353 1427,1351 1351,1351 1275,1353 1200,1353 1124,1355 1048,1355 972,1356 894,1356"/>
+        <Baseline points="894,1349 972,1349 1048,1348 1124,1348 1200,1346 1275,1346 1351,1345 1427,1345 1503,1346 1583,1346"/>
+        <TextEquiv conf="0.997">
+          <Unicode>the letter itself according to the position it occupies in the</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="L94c4d34fa8c9" index="5" custom="heights_v2:[18.7,6.9]">
+        <Coords points="892,1354 970,1354 1046,1354 1123,1352 1198,1352 1274,1351 1349,1352 1426,1351 1501,1352 1581,1351 1581,1376 1502,1378 1425,1376 1350,1378 1273,1376 1199,1378 1123,1378 1047,1380 970,1380 892,1380"/>
+        <Baseline points="892,1373 970,1373 1046,1373 1123,1371 1199,1371 1273,1369 1349,1371 1426,1369 1502,1371 1581,1369"/>
+        <TextEquiv conf="1.000">
+          <Unicode>line. Thus the calling over of the alphabet by anybody</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="Lfe77be8da927" index="6" custom="heights_v2:[18.6,6.9]">
+        <Coords points="893,1377 970,1379 1046,1379 1123,1377 1198,1377 1275,1376 1351,1377 1428,1376 1503,1377 1583,1376 1583,1401 1504,1403 1427,1401 1351,1403 1275,1401 1199,1403 1123,1403 1047,1404 970,1404 892,1403"/>
+        <Baseline points="892,1396 970,1397 1046,1397 1123,1396 1199,1396 1275,1394 1351,1396 1427,1394 1503,1396 1583,1394"/>
+        <TextEquiv conf="0.994">
+          <Unicode>present is rendered unnecessary. At some American circles</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="L28e45549776a" index="7" custom="heights_v2:[18.8,7.0]">
+        <Coords points="892,1404 970,1404 1046,1404 1123,1402 1198,1402 1273,1400 1349,1400 1426,1400 1502,1400 1582,1402 1581,1428 1502,1426 1426,1426 1349,1426 1273,1426 1199,1428 1123,1428 1047,1429 970,1429 892,1429"/>
+        <Baseline points="892,1422 970,1422 1046,1422 1123,1421 1199,1421 1273,1419 1349,1419 1426,1419 1502,1419 1581,1421"/>
+        <TextEquiv conf="0.999">
+          <Unicode>the spirits have been taught to signal by means of the Morse</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="L608bc0b2f872" index="8" custom="heights_v2:[18.3,6.8]">
+        <Coords points="892,1429 925,1429 952,1430 981,1431 1010,1429 1040,1429 1067,1429 1098,1427 1126,1427 1159,1427 1159,1452 1126,1452 1098,1452 1068,1454 1040,1454 1010,1454 982,1456 952,1456 924,1454 892,1454"/>
+        <Baseline points="892,1447 924,1447 952,1449 982,1449 1010,1447 1040,1447 1068,1447 1098,1446 1126,1446 1159,1446"/>
+        <TextEquiv conf="0.995">
+          <Unicode>alphabet, as follows :—</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="Rba25d296">
+      <Coords points="901,313 1593,313 1593,467 901,467"/>
+      <TextLine id="L04b49982e41d" index="0" custom="heights_v2:[19.5,6.9]">
+        <Coords points="922,320 998,318 1073,317 1146,317 1220,317 1293,315 1367,315 1441,313 1515,313 1593,313 1593,340 1515,340 1441,340 1368,341 1293,341 1220,343 1146,343 1073,343 999,345 922,346"/>
+        <Baseline points="922,339 998,338 1073,336 1146,336 1220,336 1293,334 1368,334 1441,333 1515,333 1593,333"/>
+        <TextEquiv conf="0.999">
+          <Unicode>SPIRITUALISM is gaining ground in Australia. The</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="Lcff75ec932d7" index="1" custom="heights_v2:[19.2,6.9]">
+        <Coords points="904,343 982,342 1058,342 1134,340 1209,340 1285,340 1361,340 1435,340 1512,338 1591,338 1591,365 1512,365 1436,366 1361,366 1285,366 1209,366 1134,366 1058,368 982,368 904,369"/>
+        <Baseline points="904,363 982,361 1058,361 1134,359 1209,359 1285,359 1361,359 1436,359 1512,358 1591,358"/>
+        <TextEquiv conf="0.925">
+          <Unicode>Melbourne Daily Telegraph of Oct. 12th last, reports that Mr.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="L46e327e6e071" index="2" custom="heights_v2:[19.0,6.8]">
+        <Coords points="902,368 980,367 1056,367 1133,367 1209,367 1283,367 1359,365 1436,363 1512,363 1591,363 1591,389 1512,389 1436,389 1360,391 1283,393 1209,393 1133,393 1056,393 980,393 903,394"/>
+        <Baseline points="902,387 980,386 1056,386 1133,386 1209,386 1283,386 1359,384 1436,382 1512,382 1591,382"/>
+        <TextEquiv conf="0.837">
+          <Unicode>Nayler delivered a lecture on the subject at the Mechanics'</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="L60998bba64c3" index="3" custom="heights_v2:[19.2,6.9]">
+        <Coords points="901,393 979,393 1054,393 1130,391 1207,390 1281,390 1358,388 1434,390 1510,390 1590,390 1590,416 1510,416 1434,416 1358,414 1282,416 1207,416 1131,418 1055,419 979,419 901,419"/>
+        <Baseline points="901,412 979,412 1055,412 1131,411 1207,409 1282,409 1358,407 1434,409 1510,409 1590,409"/>
+        <TextEquiv conf="0.619">
+          <Unicode>Institute, Melbourne, and that he asserted the King of Bavaria,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="Laa83c03be97f" index="4" custom="heights_v2:[19.4,6.9]">
+        <Coords points="901,416 979,416 1055,416 1130,416 1207,414 1282,414 1357,414 1434,413 1510,413 1590,413 1590,439 1510,439 1434,439 1358,441 1282,441 1207,441 1131,442 1055,442 979,442 901,442"/>
+        <Baseline points="901,435 979,435 1055,435 1131,435 1207,434 1282,434 1358,434 1434,432 1510,432 1590,432"/>
+        <TextEquiv conf="0.995">
+          <Unicode>the Emperor Napoleon, and Queen Victoria, to be Spiri-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="L95cfd64c7dc2" index="5" custom="heights_v2:[19.4,7.1]">
+        <Coords points="901,441 927,441 950,441 974,441 1002,441 1002,467 974,467 950,467 927,467 901,467"/>
+        <Baseline points="901,460 927,460 950,460 974,460 1002,460"/>
+        <TextEquiv conf="1.000">
+          <Unicode>tualists.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="Rc94b31fb">
+      <Coords points="899,943 1585,943 1585,1073 899,1073"/>
+      <TextLine id="L4da467af4983" index="0" custom="heights_v2:[19.2,7.0]">
+        <Coords points="924,948 998,948 1071,946 1144,946 1217,946 1290,945 1362,945 1436,943 1508,945 1585,945 1585,971 1508,971 1435,969 1363,971 1290,971 1217,972 1144,972 1071,972 999,974 924,974"/>
+        <Baseline points="924,967 998,967 1071,965 1144,965 1217,965 1290,964 1363,964 1436,962 1508,964 1585,964"/>
+        <TextEquiv conf="0.990">
+          <Unicode>TABLE SIGNALS AND THE ALPHABET.—A few weeks ago</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="L1dd67eb2ef27" index="1" custom="heights_v2:[19.0,6.9]">
+        <Coords points="899,973 976,973 1051,971 1127,971 1202,970 1278,970 1352,970 1429,968 1504,968 1583,970 1583,995 1503,994 1429,994 1353,995 1278,995 1202,995 1128,997 1051,997 977,999 899,999"/>
+        <Baseline points="899,992 977,992 1051,990 1128,990 1202,989 1278,989 1353,989 1429,987 1503,987 1583,989"/>
+        <TextEquiv conf="0.999">
+          <Unicode>we pointed out the saving in time that might be effected,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="Lf6c8d9dc4505" index="2" custom="heights_v2:[18.3,6.8]">
+        <Coords points="900,1000 978,998 1053,997 1129,995 1204,995 1278,995 1354,993 1429,993 1504,993 1583,995 1583,1020 1503,1018 1429,1018 1354,1018 1278,1020 1204,1020 1129,1020 1053,1022 979,1023 901,1025"/>
+        <Baseline points="901,1018 979,1017 1053,1015 1129,1013 1204,1013 1278,1013 1354,1012 1429,1012 1503,1012 1583,1013"/>
+        <TextEquiv conf="1.000">
+          <Unicode>when receiving messages by means of raps or tilts, if the</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="L5fe027526bfb" index="3" custom="heights_v2:[18.5,6.8]">
+        <Coords points="899,1023 977,1023 1051,1021 1128,1020 1202,1020 1278,1020 1353,1020 1429,1020 1503,1018 1583,1018 1583,1043 1503,1043 1429,1045 1353,1045 1278,1045 1202,1045 1128,1045 1052,1047 977,1048 899,1048"/>
+        <Baseline points="899,1041 977,1041 1051,1040 1128,1038 1202,1038 1278,1038 1353,1038 1429,1038 1503,1037 1583,1037"/>
+        <TextEquiv conf="0.998">
+          <Unicode>alphabet were written in the following way, and a particular</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="L4b33ee83af5c" index="4" custom="heights_v2:[18.9,6.9]">
+        <Coords points="899,1047 940,1047 980,1046 1020,1046 1060,1046 1098,1046 1138,1046 1177,1046 1216,1046 1259,1044 1260,1070 1217,1072 1177,1072 1138,1072 1098,1072 1060,1072 1020,1072 980,1072 941,1073 899,1073"/>
+        <Baseline points="899,1066 940,1066 980,1065 1020,1065 1060,1065 1098,1065 1138,1065 1177,1065 1217,1065 1260,1063"/>
+        <TextEquiv conf="0.982">
+          <Unicode>method of signalling adopted :—</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

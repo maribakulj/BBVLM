@@ -1,0 +1,41 @@
+{
+  "schema": "bbvlm.bnf-region-ocr-a30-sol/1",
+  "reader": "gpt-6-sol",
+  "inspected_paths": [
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T001.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T002.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T003.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T004.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T005.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T006.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T007.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T008.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T009.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T010.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T011.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T012.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T013.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T014.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T015.png",
+    "experiments/loop/bnf-region-ocr-a30/visual-input/T016.png"
+  ],
+  "transcriptions": {
+    "T001": "ARRONDISSEMENT DE SAINT-DENIS. — 1re Cir-\nconscription (canton de Pantin et de Noisy-\nle-Sec). — Le député sortant, M. Adrien Ve-\nber, socialiste unifié, a pour concurrents\nMM. Trouselle, radical socialiste ; Jacque-\nmin et Rimbault, socialistes indépendants.",
+    "T002": "Dans la soirée de jeudi, les quatre témoins\nse réunirent une première fois et ne purent\nse mettre d'accord.",
+    "T003": "Le Drame de l'Avenue Henri-Martin. — Les\npremières Opérations judiciaires",
+    "T004": "Malgré les instances de la famille, le\ncorps de la victime a été transporté, hier\nsoir, à la Morgue aux fins d'autopsie. La\nballe du revolver a traversé la joue et est\nallée se loger dans la carotide ; la mort a\nété foudroyante.",
+    "T005": "Le général Chomer est arrivé hier à Bel-\nfort. Il a fait donner cette nuit l'alerte aux\ngarnisons de Belfort, Lure, Héricourt et\nMontbéliard. A la première heure, les trou-\npes se mettaient en marche et se rencon-\ntraient près d'Héricourt où elles ont ma-\nnœuvré.",
+    "T006": "—Le Meurtrier sera défendu par Me Henri\nRobert.",
+    "T007": "C'est possible. Mais la lettre de M. l'abbé\nDemazures n'en est pas moins là. Le président\nde la Société de Saint-Denis vous a fait des pro-\npositions qui tendaient à procéder à une vente à\nl'amiable ?",
+    "T008": "« Le Sénat fera aboutir, sous l'impulsion\nattentive et énergique du gouvernement, la\nrefonte de nos lois fiscales, dont seul l'impôt\nsur le revenu permettra de relever les iné-\ngalités et de rechercher les injustices. Son\nprincipe, unanimement accepté, vaudra sur-\ntout par les moyens d'application qui doi-\nvent exclure toutes les mesures agressives\nde la liberté du foyer et du secret commer-\ncial.",
+    "T009": "5e Circonscription. — Les socialistes uni-\nfiés opposent M. Jean Martin à M. Coutant,\ndéputé sortant, socialiste indépendant.",
+    "T010": "M. Gaston Waché-de Roo a écrit, hier\nmatin, à Me Henri Robert afin de le prier\nde vouloir bien l'assister devant le juge\nd'instruction et présenter sa défense devant\nle jury.",
+    "T011": "Le prince Pignatelli d'Aragon, à la suite\nd'une discussion fort animée au sujet d'un\ncoup d'escrime, avait envoyé ses témoins,\nMM. de Merey et de Roumafort, à M. Max\nLinder.",
+    "T012": "La commission des inondations s'est réu-\nnie, hier matin au ministère de l'intérieur,\nsous la présidence de M. Alfred Picard.",
+    "T013": "Cet après-midi, Mme Faure, placée dans le bu-\nreau du gardien chef à la maison d'arrêt, a par-\nfaitement reconnu parmi les détenus, qui ont dé-\nfilé devant elle, Lamarque comme étant son\nagresseur.",
+    "T014": "Le parquet va instruire l'affaire. Une confron-\ntation officielle aura lieu incessamment.",
+    "T015": "M. Le Guennic et ses amis révolution-\nnaires mènent aussitôt grand vacarme. Ils\nprennent acte des paroles du secrétaire de\nl'organisation, qui avoue « qu'il y a du\nlinge sale à laver ».",
+    "T016": "Me Henri Robert a accepté cette délicate\nmission et accompagné de l'un de ses se-\ncrétaires, Me Albert Dusart, il s'est rendu\ndans l'après-midi à la prison de la Santé où\nune longue entrevue a eu lieu entre les\navocats et leur nouveau client, afin de\npréparer l'interrogatoire que fera subir au\nparricide, aujourd'hui samedi, M. le juge\nd'instruction Bouisson."
+  },
+  "uncertain_ids": ["T010"]
+}

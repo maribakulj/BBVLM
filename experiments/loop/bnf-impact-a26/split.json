@@ -1,0 +1,57 @@
+{
+  "schema": "bbvlm.bnf-impact-a26-split/1",
+  "status": "frozen_unopened",
+  "selection": "first PAGE XML lexicographically in each of four filename-prefix groups; manifest names only",
+  "archive_sha256": "2c8a3e4564c9ffe42270aaf3d6a0d9498b8549b9222fc6d702b751610cc4641c",
+  "archive_bytes": 211787980,
+  "created_unix": 1790527847.0110452,
+  "pages": [
+    {
+      "group": "0012345",
+      "page": "00123451",
+      "xml": "IMPACT/PAGE/00123451_5.xml",
+      "image": "IMPACT/T/00123451.tif",
+      "xml_bytes": 393513,
+      "xml_crc32": "9e13569b",
+      "image_bytes": 14991604,
+      "image_crc32": "98705b91"
+    },
+    {
+      "group": "0012353",
+      "page": "00123531",
+      "xml": "IMPACT/PAGE/00123531_5.xml",
+      "image": "IMPACT/T/00123531.tif",
+      "xml_bytes": 414549,
+      "xml_crc32": "4119f579",
+      "image_bytes": 16409216,
+      "image_crc32": "6546a226"
+    },
+    {
+      "group": "0012364",
+      "page": "00123643",
+      "xml": "IMPACT/PAGE/00123643_5.xml",
+      "image": "IMPACT/T/00123643.tif",
+      "xml_bytes": 256084,
+      "xml_crc32": "d98d53b0",
+      "image_bytes": 13518488,
+      "image_crc32": "06e515bc"
+    },
+    {
+      "group": "0019632",
+      "page": "00196323",
+      "xml": "IMPACT/PAGE/00196323_5.xml",
+      "image": "IMPACT/T/196323.jpg",
+      "xml_bytes": 405629,
+      "xml_crc32": "c8c1ae69",
+      "image_bytes": 9640788,
+      "image_crc32": "c864c1e3"
+    }
+  ],
+  "sealed_sha256": {
+    "protocol": "f1d5d65d5b0df5b11174f08c90368664060ee9f3720ac2a6a7a6516f5ee44f49",
+    "evaluator": "7f9988832960ae8168ed363a6a7b5f666319d6aa5abf942489a33d49143b15bd",
+    "candidate_core_a25": "d8f7b8c231684b7d2a4dd0f705834e9bc50ffbc70a46f5be6d416fdaae3dcb0b",
+    "extractor": "86a08eab25f6a3f4dd731881481447a117df570eb79e78f1df54c4f96b8bdcff",
+    "archive_manifest": "7665fcbec5b15cfedfcaaa95e97338555b88a382b3e3ee1314cf087ccbd2bdb1"
+  }
+}

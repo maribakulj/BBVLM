@@ -1,0 +1,311 @@
+{
+  "schema": "bbvlm.column-anchor-calibration/1",
+  "scope": "oracle/reference TextBlock regions; 0044 excluded from selection",
+  "selected": {
+    "min_anchor_width_ratio": 0.02,
+    "macro_pair_accuracy": 1.0,
+    "macro_narrow_bridge_pair_accuracy": 1.0,
+    "total_columns": 13,
+    "pages": [
+      {
+        "page": "0009",
+        "pair_accuracy": 1.0,
+        "narrow_bridge_pair_accuracy": 1.0,
+        "columns": 4
+      },
+      {
+        "page": "0038",
+        "pair_accuracy": 1.0,
+        "narrow_bridge_pair_accuracy": 1.0,
+        "columns": 3
+      },
+      {
+        "page": "0041",
+        "pair_accuracy": 1.0,
+        "narrow_bridge_pair_accuracy": 1.0,
+        "columns": 3
+      },
+      {
+        "page": "0043",
+        "pair_accuracy": 1.0,
+        "narrow_bridge_pair_accuracy": 1.0,
+        "columns": 3
+      }
+    ]
+  },
+  "config": {
+    "schema": "bbvlm.column-anchor-config/1",
+    "selected_on": "development_only",
+    "development_pages": [
+      "0009",
+      "0038",
+      "0041",
+      "0043"
+    ],
+    "gap_ratio": 0.14,
+    "top_exclusion_ratio": 0.055,
+    "max_anchor_width_ratio": 0.55,
+    "assign_by_overlap": true,
+    "min_anchor_width_ratio": 0.02,
+    "selection_rule": "maximum original macro pair accuracy; then synthetic narrow-bridge robustness; then smaller minimum width; then fewer columns"
+  },
+  "candidates": [
+    {
+      "min_anchor_width_ratio": 0.0,
+      "macro_pair_accuracy": 1.0,
+      "macro_narrow_bridge_pair_accuracy": 0.792250743566533,
+      "total_columns": 13,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 0.6666666666666666,
+          "columns": 4
+        },
+        {
+          "page": "0038",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 0.7780938833570412,
+          "columns": 3
+        },
+        {
+          "page": "0041",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 0.8333333333333334,
+          "columns": 3
+        },
+        {
+          "page": "0043",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 0.8909090909090909,
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "min_anchor_width_ratio": 0.01,
+      "macro_pair_accuracy": 1.0,
+      "macro_narrow_bridge_pair_accuracy": 0.792250743566533,
+      "total_columns": 13,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 0.6666666666666666,
+          "columns": 4
+        },
+        {
+          "page": "0038",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 0.7780938833570412,
+          "columns": 3
+        },
+        {
+          "page": "0041",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 0.8333333333333334,
+          "columns": 3
+        },
+        {
+          "page": "0043",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 0.8909090909090909,
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "min_anchor_width_ratio": 0.02,
+      "macro_pair_accuracy": 1.0,
+      "macro_narrow_bridge_pair_accuracy": 1.0,
+      "total_columns": 13,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 4
+        },
+        {
+          "page": "0038",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        },
+        {
+          "page": "0041",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        },
+        {
+          "page": "0043",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "min_anchor_width_ratio": 0.04,
+      "macro_pair_accuracy": 1.0,
+      "macro_narrow_bridge_pair_accuracy": 1.0,
+      "total_columns": 13,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 4
+        },
+        {
+          "page": "0038",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        },
+        {
+          "page": "0041",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        },
+        {
+          "page": "0043",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "min_anchor_width_ratio": 0.06,
+      "macro_pair_accuracy": 1.0,
+      "macro_narrow_bridge_pair_accuracy": 1.0,
+      "total_columns": 13,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 4
+        },
+        {
+          "page": "0038",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        },
+        {
+          "page": "0041",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        },
+        {
+          "page": "0043",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "min_anchor_width_ratio": 0.08,
+      "macro_pair_accuracy": 1.0,
+      "macro_narrow_bridge_pair_accuracy": 1.0,
+      "total_columns": 13,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 4
+        },
+        {
+          "page": "0038",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        },
+        {
+          "page": "0041",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        },
+        {
+          "page": "0043",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "min_anchor_width_ratio": 0.1,
+      "macro_pair_accuracy": 1.0,
+      "macro_narrow_bridge_pair_accuracy": 1.0,
+      "total_columns": 13,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 4
+        },
+        {
+          "page": "0038",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        },
+        {
+          "page": "0041",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        },
+        {
+          "page": "0043",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "min_anchor_width_ratio": 0.12,
+      "macro_pair_accuracy": 1.0,
+      "macro_narrow_bridge_pair_accuracy": 1.0,
+      "total_columns": 13,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 4
+        },
+        {
+          "page": "0038",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        },
+        {
+          "page": "0041",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        },
+        {
+          "page": "0043",
+          "pair_accuracy": 1.0,
+          "narrow_bridge_pair_accuracy": 1.0,
+          "columns": 3
+        }
+      ]
+    }
+  ],
+  "warning": "0044 is consumed and may only be reported as a posthoc diagnostic; validation must use 0050."
+}

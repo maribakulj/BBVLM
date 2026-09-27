@@ -1,0 +1,1666 @@
+{
+  "schema": "bbvlm.bnf-impact-olr-a27-prediction/1",
+  "reader": "gpt-6-luna",
+  "roles": {
+    "Q001": "BODY",
+    "Q002": "BODY",
+    "Q003": "TITLE",
+    "Q004": "BODY",
+    "Q005": "TITLE",
+    "Q006": "BODY",
+    "Q007": "BODY",
+    "Q008": "BODY",
+    "Q009": "BODY",
+    "Q010": "TITLE",
+    "Q011": "BODY",
+    "Q012": "NON_ARTICLE",
+    "Q013": "BODY",
+    "Q014": "BODY",
+    "Q015": "BODY",
+    "Q016": "BODY",
+    "Q017": "BODY",
+    "Q018": "BODY",
+    "Q019": "BODY",
+    "Q020": "BODY",
+    "Q021": "TITLE",
+    "Q022": "BODY",
+    "Q023": "TITLE",
+    "Q024": "BODY",
+    "Q025": "BODY",
+    "Q026": "BODY",
+    "Q027": "BODY",
+    "Q028": "BODY",
+    "Q029": "BODY",
+    "Q030": "BODY",
+    "Q031": "BODY",
+    "Q032": "BODY",
+    "Q033": "BODY",
+    "Q034": "BODY",
+    "Q035": "BODY",
+    "Q036": "BODY",
+    "Q037": "BODY",
+    "Q038": "BODY",
+    "Q039": "BODY",
+    "Q040": "TITLE",
+    "Q041": "TITLE",
+    "Q042": "BODY",
+    "Q043": "BODY",
+    "Q044": "BODY",
+    "Q045": "BODY",
+    "Q046": "BODY",
+    "Q047": "TITLE",
+    "Q048": "BODY",
+    "Q049": "BODY",
+    "Q050": "BODY",
+    "Q051": "TITLE",
+    "Q052": "TITLE",
+    "Q053": "BODY",
+    "Q054": "BODY",
+    "Q055": "TITLE",
+    "Q056": "BODY",
+    "Q057": "TITLE",
+    "Q058": "BODY",
+    "Q059": "BODY",
+    "Q060": "BODY",
+    "Q061": "BODY",
+    "Q062": "BODY",
+    "Q063": "BODY",
+    "Q064": "BODY",
+    "Q065": "BODY",
+    "Q066": "BODY",
+    "Q067": "BODY",
+    "Q068": "BODY",
+    "Q069": "BODY",
+    "Q070": "BODY",
+    "Q071": "BODY",
+    "Q072": "BODY",
+    "Q073": "BODY",
+    "Q074": "BODY",
+    "Q075": "BODY",
+    "Q076": "TITLE",
+    "Q077": "TITLE",
+    "Q078": "BODY",
+    "Q079": "TITLE",
+    "Q080": "BODY",
+    "Q081": "BODY",
+    "Q082": "BODY",
+    "Q083": "TITLE",
+    "Q084": "BODY",
+    "Q085": "TITLE",
+    "Q086": "BODY",
+    "Q087": "BODY",
+    "Q088": "BODY",
+    "Q089": "TITLE",
+    "Q090": "BODY",
+    "Q091": "BODY",
+    "Q092": "TITLE",
+    "Q093": "BODY",
+    "Q094": "BODY",
+    "Q095": "TITLE",
+    "Q096": "TITLE",
+    "Q097": "BODY",
+    "Q098": "BODY",
+    "Q099": "BODY",
+    "Q100": "BODY",
+    "Q101": "BODY",
+    "Q102": "TITLE",
+    "Q103": "TITLE",
+    "Q104": "BODY",
+    "Q105": "BODY",
+    "Q106": "BODY",
+    "Q107": "TITLE",
+    "Q108": "BODY",
+    "Q109": "BODY",
+    "Q110": "BODY",
+    "Q111": "BODY",
+    "Q112": "BODY",
+    "Q113": "BODY",
+    "Q114": "BODY",
+    "Q115": "BODY",
+    "Q116": "BODY",
+    "Q117": "BODY",
+    "Q118": "BODY",
+    "Q119": "BODY",
+    "Q120": "BODY",
+    "Q121": "BODY",
+    "Q122": "BODY",
+    "Q123": "BODY",
+    "Q124": "BODY",
+    "Q125": "BODY",
+    "Q126": "TITLE",
+    "Q127": "TITLE",
+    "Q128": "BODY",
+    "Q129": "BODY",
+    "Q130": "BODY",
+    "Q131": "BODY",
+    "Q132": "BODY",
+    "Q133": "TITLE",
+    "Q134": "BODY",
+    "Q135": "BODY",
+    "Q136": "BODY",
+    "Q137": "BODY",
+    "Q138": "BODY",
+    "Q139": "BODY",
+    "Q140": "BODY",
+    "Q141": "BODY",
+    "Q142": "BODY",
+    "Q143": "BODY",
+    "Q144": "BODY",
+    "Q145": "BODY",
+    "Q146": "BODY",
+    "Q147": "TITLE",
+    "Q148": "BODY",
+    "Q149": "BODY",
+    "Q150": "BODY",
+    "Q151": "BODY",
+    "Q152": "BODY",
+    "Q153": "BODY",
+    "Q154": "BODY",
+    "Q155": "BODY",
+    "Q156": "BODY",
+    "Q157": "BODY",
+    "Q158": "BODY",
+    "Q159": "BODY",
+    "Q160": "BODY",
+    "Q161": "BODY",
+    "Q162": "BODY",
+    "Q163": "BODY",
+    "Q164": "TITLE",
+    "Q165": "BODY",
+    "Q166": "BODY",
+    "Q167": "TITLE",
+    "Q168": "BODY",
+    "Q169": "BODY",
+    "Q170": "BODY",
+    "Q171": "BODY",
+    "Q172": "TITLE",
+    "Q173": "BODY",
+    "Q174": "TITLE",
+    "Q175": "BODY",
+    "Q176": "BODY",
+    "Q177": "BODY",
+    "Q178": "BODY",
+    "Q179": "BODY",
+    "Q180": "BODY",
+    "Q181": "BODY",
+    "Q182": "BODY",
+    "Q183": "BODY",
+    "Q184": "BODY",
+    "Q185": "BODY",
+    "Q186": "TITLE",
+    "Q187": "BODY",
+    "Q188": "TITLE",
+    "Q189": "BODY",
+    "Q190": "BODY",
+    "Q191": "BODY",
+    "Q192": "BODY",
+    "Q193": "TITLE",
+    "Q194": "BODY",
+    "Q195": "BODY",
+    "Q196": "BODY",
+    "Q197": "BODY",
+    "Q198": "BODY",
+    "Q199": "BODY",
+    "Q200": "TITLE",
+    "Q201": "BODY",
+    "Q202": "BODY",
+    "Q203": "BODY",
+    "Q204": "BODY",
+    "Q205": "BODY",
+    "Q206": "BODY",
+    "Q207": "BODY",
+    "Q208": "TITLE",
+    "Q209": "BODY",
+    "Q210": "BODY",
+    "Q211": "TITLE",
+    "Q212": "TITLE",
+    "Q213": "BODY",
+    "Q214": "BODY",
+    "Q215": "TITLE",
+    "Q216": "BODY",
+    "Q217": "TITLE",
+    "Q218": "BODY",
+    "Q219": "BODY",
+    "Q220": "BODY",
+    "Q221": "BODY",
+    "Q222": "TITLE",
+    "Q223": "BODY",
+    "Q224": "BODY",
+    "Q225": "BODY",
+    "Q226": "BODY",
+    "Q227": "TITLE",
+    "Q228": "BODY",
+    "Q229": "TITLE",
+    "Q230": "TITLE",
+    "Q231": "BODY",
+    "Q232": "BODY",
+    "Q233": "BODY",
+    "Q234": "BODY",
+    "Q235": "BODY"
+  },
+  "streams": [
+    {
+      "stream_id": "S1",
+      "region_tokens": [
+        "Q001"
+      ]
+    },
+    {
+      "stream_id": "S2",
+      "region_tokens": [
+        "Q002"
+      ]
+    },
+    {
+      "stream_id": "S3",
+      "region_tokens": [
+        "Q003"
+      ]
+    },
+    {
+      "stream_id": "S4",
+      "region_tokens": [
+        "Q004"
+      ]
+    },
+    {
+      "stream_id": "S5",
+      "region_tokens": [
+        "Q005"
+      ]
+    },
+    {
+      "stream_id": "S6",
+      "region_tokens": [
+        "Q006"
+      ]
+    },
+    {
+      "stream_id": "S7",
+      "region_tokens": [
+        "Q007"
+      ]
+    },
+    {
+      "stream_id": "S8",
+      "region_tokens": [
+        "Q008"
+      ]
+    },
+    {
+      "stream_id": "S9",
+      "region_tokens": [
+        "Q009"
+      ]
+    },
+    {
+      "stream_id": "S10",
+      "region_tokens": [
+        "Q010"
+      ]
+    },
+    {
+      "stream_id": "S11",
+      "region_tokens": [
+        "Q011"
+      ]
+    },
+    {
+      "stream_id": "S12",
+      "region_tokens": [
+        "Q013"
+      ]
+    },
+    {
+      "stream_id": "S13",
+      "region_tokens": [
+        "Q014"
+      ]
+    },
+    {
+      "stream_id": "S14",
+      "region_tokens": [
+        "Q015"
+      ]
+    },
+    {
+      "stream_id": "S15",
+      "region_tokens": [
+        "Q016"
+      ]
+    },
+    {
+      "stream_id": "S16",
+      "region_tokens": [
+        "Q017"
+      ]
+    },
+    {
+      "stream_id": "S17",
+      "region_tokens": [
+        "Q018"
+      ]
+    },
+    {
+      "stream_id": "S18",
+      "region_tokens": [
+        "Q019"
+      ]
+    },
+    {
+      "stream_id": "S19",
+      "region_tokens": [
+        "Q020"
+      ]
+    },
+    {
+      "stream_id": "S20",
+      "region_tokens": [
+        "Q021"
+      ]
+    },
+    {
+      "stream_id": "S21",
+      "region_tokens": [
+        "Q022"
+      ]
+    },
+    {
+      "stream_id": "S22",
+      "region_tokens": [
+        "Q023"
+      ]
+    },
+    {
+      "stream_id": "S23",
+      "region_tokens": [
+        "Q024"
+      ]
+    },
+    {
+      "stream_id": "S24",
+      "region_tokens": [
+        "Q025"
+      ]
+    },
+    {
+      "stream_id": "S25",
+      "region_tokens": [
+        "Q026"
+      ]
+    },
+    {
+      "stream_id": "S26",
+      "region_tokens": [
+        "Q027"
+      ]
+    },
+    {
+      "stream_id": "S27",
+      "region_tokens": [
+        "Q028"
+      ]
+    },
+    {
+      "stream_id": "S28",
+      "region_tokens": [
+        "Q029"
+      ]
+    },
+    {
+      "stream_id": "S29",
+      "region_tokens": [
+        "Q030"
+      ]
+    },
+    {
+      "stream_id": "S30",
+      "region_tokens": [
+        "Q031"
+      ]
+    },
+    {
+      "stream_id": "S31",
+      "region_tokens": [
+        "Q032"
+      ]
+    },
+    {
+      "stream_id": "S32",
+      "region_tokens": [
+        "Q033"
+      ]
+    },
+    {
+      "stream_id": "S33",
+      "region_tokens": [
+        "Q034"
+      ]
+    },
+    {
+      "stream_id": "S34",
+      "region_tokens": [
+        "Q035"
+      ]
+    },
+    {
+      "stream_id": "S35",
+      "region_tokens": [
+        "Q036"
+      ]
+    },
+    {
+      "stream_id": "S36",
+      "region_tokens": [
+        "Q037"
+      ]
+    },
+    {
+      "stream_id": "S37",
+      "region_tokens": [
+        "Q038"
+      ]
+    },
+    {
+      "stream_id": "S38",
+      "region_tokens": [
+        "Q039"
+      ]
+    },
+    {
+      "stream_id": "S39",
+      "region_tokens": [
+        "Q040"
+      ]
+    },
+    {
+      "stream_id": "S40",
+      "region_tokens": [
+        "Q041"
+      ]
+    },
+    {
+      "stream_id": "S41",
+      "region_tokens": [
+        "Q042"
+      ]
+    },
+    {
+      "stream_id": "S42",
+      "region_tokens": [
+        "Q043"
+      ]
+    },
+    {
+      "stream_id": "S43",
+      "region_tokens": [
+        "Q044"
+      ]
+    },
+    {
+      "stream_id": "S44",
+      "region_tokens": [
+        "Q045"
+      ]
+    },
+    {
+      "stream_id": "S45",
+      "region_tokens": [
+        "Q046"
+      ]
+    },
+    {
+      "stream_id": "S46",
+      "region_tokens": [
+        "Q047"
+      ]
+    },
+    {
+      "stream_id": "S47",
+      "region_tokens": [
+        "Q048"
+      ]
+    },
+    {
+      "stream_id": "S48",
+      "region_tokens": [
+        "Q049"
+      ]
+    },
+    {
+      "stream_id": "S49",
+      "region_tokens": [
+        "Q050"
+      ]
+    },
+    {
+      "stream_id": "S50",
+      "region_tokens": [
+        "Q051"
+      ]
+    },
+    {
+      "stream_id": "S51",
+      "region_tokens": [
+        "Q052"
+      ]
+    },
+    {
+      "stream_id": "S52",
+      "region_tokens": [
+        "Q053"
+      ]
+    },
+    {
+      "stream_id": "S53",
+      "region_tokens": [
+        "Q054"
+      ]
+    },
+    {
+      "stream_id": "S54",
+      "region_tokens": [
+        "Q055"
+      ]
+    },
+    {
+      "stream_id": "S55",
+      "region_tokens": [
+        "Q056"
+      ]
+    },
+    {
+      "stream_id": "S56",
+      "region_tokens": [
+        "Q057"
+      ]
+    },
+    {
+      "stream_id": "S57",
+      "region_tokens": [
+        "Q058"
+      ]
+    },
+    {
+      "stream_id": "S58",
+      "region_tokens": [
+        "Q059"
+      ]
+    },
+    {
+      "stream_id": "S59",
+      "region_tokens": [
+        "Q060"
+      ]
+    },
+    {
+      "stream_id": "S60",
+      "region_tokens": [
+        "Q061"
+      ]
+    },
+    {
+      "stream_id": "S61",
+      "region_tokens": [
+        "Q062"
+      ]
+    },
+    {
+      "stream_id": "S62",
+      "region_tokens": [
+        "Q063"
+      ]
+    },
+    {
+      "stream_id": "S63",
+      "region_tokens": [
+        "Q064"
+      ]
+    },
+    {
+      "stream_id": "S64",
+      "region_tokens": [
+        "Q065"
+      ]
+    },
+    {
+      "stream_id": "S65",
+      "region_tokens": [
+        "Q066"
+      ]
+    },
+    {
+      "stream_id": "S66",
+      "region_tokens": [
+        "Q067"
+      ]
+    },
+    {
+      "stream_id": "S67",
+      "region_tokens": [
+        "Q068"
+      ]
+    },
+    {
+      "stream_id": "S68",
+      "region_tokens": [
+        "Q069"
+      ]
+    },
+    {
+      "stream_id": "S69",
+      "region_tokens": [
+        "Q070"
+      ]
+    },
+    {
+      "stream_id": "S70",
+      "region_tokens": [
+        "Q071"
+      ]
+    },
+    {
+      "stream_id": "S71",
+      "region_tokens": [
+        "Q072"
+      ]
+    },
+    {
+      "stream_id": "S72",
+      "region_tokens": [
+        "Q073"
+      ]
+    },
+    {
+      "stream_id": "S73",
+      "region_tokens": [
+        "Q074"
+      ]
+    },
+    {
+      "stream_id": "S74",
+      "region_tokens": [
+        "Q075"
+      ]
+    },
+    {
+      "stream_id": "S75",
+      "region_tokens": [
+        "Q076"
+      ]
+    },
+    {
+      "stream_id": "S76",
+      "region_tokens": [
+        "Q077"
+      ]
+    },
+    {
+      "stream_id": "S77",
+      "region_tokens": [
+        "Q078"
+      ]
+    },
+    {
+      "stream_id": "S78",
+      "region_tokens": [
+        "Q079"
+      ]
+    },
+    {
+      "stream_id": "S79",
+      "region_tokens": [
+        "Q080"
+      ]
+    },
+    {
+      "stream_id": "S80",
+      "region_tokens": [
+        "Q081"
+      ]
+    },
+    {
+      "stream_id": "S81",
+      "region_tokens": [
+        "Q082"
+      ]
+    },
+    {
+      "stream_id": "S82",
+      "region_tokens": [
+        "Q083"
+      ]
+    },
+    {
+      "stream_id": "S83",
+      "region_tokens": [
+        "Q084"
+      ]
+    },
+    {
+      "stream_id": "S84",
+      "region_tokens": [
+        "Q085"
+      ]
+    },
+    {
+      "stream_id": "S85",
+      "region_tokens": [
+        "Q086"
+      ]
+    },
+    {
+      "stream_id": "S86",
+      "region_tokens": [
+        "Q087"
+      ]
+    },
+    {
+      "stream_id": "S87",
+      "region_tokens": [
+        "Q088"
+      ]
+    },
+    {
+      "stream_id": "S88",
+      "region_tokens": [
+        "Q089"
+      ]
+    },
+    {
+      "stream_id": "S89",
+      "region_tokens": [
+        "Q090"
+      ]
+    },
+    {
+      "stream_id": "S90",
+      "region_tokens": [
+        "Q091"
+      ]
+    },
+    {
+      "stream_id": "S91",
+      "region_tokens": [
+        "Q092"
+      ]
+    },
+    {
+      "stream_id": "S92",
+      "region_tokens": [
+        "Q093"
+      ]
+    },
+    {
+      "stream_id": "S93",
+      "region_tokens": [
+        "Q094"
+      ]
+    },
+    {
+      "stream_id": "S94",
+      "region_tokens": [
+        "Q095"
+      ]
+    },
+    {
+      "stream_id": "S95",
+      "region_tokens": [
+        "Q096"
+      ]
+    },
+    {
+      "stream_id": "S96",
+      "region_tokens": [
+        "Q097"
+      ]
+    },
+    {
+      "stream_id": "S97",
+      "region_tokens": [
+        "Q098"
+      ]
+    },
+    {
+      "stream_id": "S98",
+      "region_tokens": [
+        "Q099"
+      ]
+    },
+    {
+      "stream_id": "S99",
+      "region_tokens": [
+        "Q100"
+      ]
+    },
+    {
+      "stream_id": "S100",
+      "region_tokens": [
+        "Q101"
+      ]
+    },
+    {
+      "stream_id": "S101",
+      "region_tokens": [
+        "Q102"
+      ]
+    },
+    {
+      "stream_id": "S102",
+      "region_tokens": [
+        "Q103"
+      ]
+    },
+    {
+      "stream_id": "S103",
+      "region_tokens": [
+        "Q104"
+      ]
+    },
+    {
+      "stream_id": "S104",
+      "region_tokens": [
+        "Q105"
+      ]
+    },
+    {
+      "stream_id": "S105",
+      "region_tokens": [
+        "Q106"
+      ]
+    },
+    {
+      "stream_id": "S106",
+      "region_tokens": [
+        "Q107"
+      ]
+    },
+    {
+      "stream_id": "S107",
+      "region_tokens": [
+        "Q108"
+      ]
+    },
+    {
+      "stream_id": "S108",
+      "region_tokens": [
+        "Q109"
+      ]
+    },
+    {
+      "stream_id": "S109",
+      "region_tokens": [
+        "Q110"
+      ]
+    },
+    {
+      "stream_id": "S110",
+      "region_tokens": [
+        "Q111"
+      ]
+    },
+    {
+      "stream_id": "S111",
+      "region_tokens": [
+        "Q112"
+      ]
+    },
+    {
+      "stream_id": "S112",
+      "region_tokens": [
+        "Q113"
+      ]
+    },
+    {
+      "stream_id": "S113",
+      "region_tokens": [
+        "Q114"
+      ]
+    },
+    {
+      "stream_id": "S114",
+      "region_tokens": [
+        "Q115"
+      ]
+    },
+    {
+      "stream_id": "S115",
+      "region_tokens": [
+        "Q116"
+      ]
+    },
+    {
+      "stream_id": "S116",
+      "region_tokens": [
+        "Q117"
+      ]
+    },
+    {
+      "stream_id": "S117",
+      "region_tokens": [
+        "Q118"
+      ]
+    },
+    {
+      "stream_id": "S118",
+      "region_tokens": [
+        "Q119"
+      ]
+    },
+    {
+      "stream_id": "S119",
+      "region_tokens": [
+        "Q120"
+      ]
+    },
+    {
+      "stream_id": "S120",
+      "region_tokens": [
+        "Q121"
+      ]
+    },
+    {
+      "stream_id": "S121",
+      "region_tokens": [
+        "Q122"
+      ]
+    },
+    {
+      "stream_id": "S122",
+      "region_tokens": [
+        "Q123"
+      ]
+    },
+    {
+      "stream_id": "S123",
+      "region_tokens": [
+        "Q124"
+      ]
+    },
+    {
+      "stream_id": "S124",
+      "region_tokens": [
+        "Q125"
+      ]
+    },
+    {
+      "stream_id": "S125",
+      "region_tokens": [
+        "Q126"
+      ]
+    },
+    {
+      "stream_id": "S126",
+      "region_tokens": [
+        "Q127"
+      ]
+    },
+    {
+      "stream_id": "S127",
+      "region_tokens": [
+        "Q128"
+      ]
+    },
+    {
+      "stream_id": "S128",
+      "region_tokens": [
+        "Q129"
+      ]
+    },
+    {
+      "stream_id": "S129",
+      "region_tokens": [
+        "Q130"
+      ]
+    },
+    {
+      "stream_id": "S130",
+      "region_tokens": [
+        "Q131"
+      ]
+    },
+    {
+      "stream_id": "S131",
+      "region_tokens": [
+        "Q132"
+      ]
+    },
+    {
+      "stream_id": "S132",
+      "region_tokens": [
+        "Q133"
+      ]
+    },
+    {
+      "stream_id": "S133",
+      "region_tokens": [
+        "Q134"
+      ]
+    },
+    {
+      "stream_id": "S134",
+      "region_tokens": [
+        "Q135"
+      ]
+    },
+    {
+      "stream_id": "S135",
+      "region_tokens": [
+        "Q136"
+      ]
+    },
+    {
+      "stream_id": "S136",
+      "region_tokens": [
+        "Q137"
+      ]
+    },
+    {
+      "stream_id": "S137",
+      "region_tokens": [
+        "Q138"
+      ]
+    },
+    {
+      "stream_id": "S138",
+      "region_tokens": [
+        "Q139"
+      ]
+    },
+    {
+      "stream_id": "S139",
+      "region_tokens": [
+        "Q140"
+      ]
+    },
+    {
+      "stream_id": "S140",
+      "region_tokens": [
+        "Q141"
+      ]
+    },
+    {
+      "stream_id": "S141",
+      "region_tokens": [
+        "Q142"
+      ]
+    },
+    {
+      "stream_id": "S142",
+      "region_tokens": [
+        "Q143"
+      ]
+    },
+    {
+      "stream_id": "S143",
+      "region_tokens": [
+        "Q144"
+      ]
+    },
+    {
+      "stream_id": "S144",
+      "region_tokens": [
+        "Q145"
+      ]
+    },
+    {
+      "stream_id": "S145",
+      "region_tokens": [
+        "Q146"
+      ]
+    },
+    {
+      "stream_id": "S146",
+      "region_tokens": [
+        "Q147"
+      ]
+    },
+    {
+      "stream_id": "S147",
+      "region_tokens": [
+        "Q148"
+      ]
+    },
+    {
+      "stream_id": "S148",
+      "region_tokens": [
+        "Q149"
+      ]
+    },
+    {
+      "stream_id": "S149",
+      "region_tokens": [
+        "Q150"
+      ]
+    },
+    {
+      "stream_id": "S150",
+      "region_tokens": [
+        "Q151"
+      ]
+    },
+    {
+      "stream_id": "S151",
+      "region_tokens": [
+        "Q152"
+      ]
+    },
+    {
+      "stream_id": "S152",
+      "region_tokens": [
+        "Q153"
+      ]
+    },
+    {
+      "stream_id": "S153",
+      "region_tokens": [
+        "Q154"
+      ]
+    },
+    {
+      "stream_id": "S154",
+      "region_tokens": [
+        "Q155"
+      ]
+    },
+    {
+      "stream_id": "S155",
+      "region_tokens": [
+        "Q156"
+      ]
+    },
+    {
+      "stream_id": "S156",
+      "region_tokens": [
+        "Q157"
+      ]
+    },
+    {
+      "stream_id": "S157",
+      "region_tokens": [
+        "Q158"
+      ]
+    },
+    {
+      "stream_id": "S158",
+      "region_tokens": [
+        "Q159"
+      ]
+    },
+    {
+      "stream_id": "S159",
+      "region_tokens": [
+        "Q160"
+      ]
+    },
+    {
+      "stream_id": "S160",
+      "region_tokens": [
+        "Q161"
+      ]
+    },
+    {
+      "stream_id": "S161",
+      "region_tokens": [
+        "Q162"
+      ]
+    },
+    {
+      "stream_id": "S162",
+      "region_tokens": [
+        "Q163"
+      ]
+    },
+    {
+      "stream_id": "S163",
+      "region_tokens": [
+        "Q164"
+      ]
+    },
+    {
+      "stream_id": "S164",
+      "region_tokens": [
+        "Q165"
+      ]
+    },
+    {
+      "stream_id": "S165",
+      "region_tokens": [
+        "Q166"
+      ]
+    },
+    {
+      "stream_id": "S166",
+      "region_tokens": [
+        "Q167"
+      ]
+    },
+    {
+      "stream_id": "S167",
+      "region_tokens": [
+        "Q168"
+      ]
+    },
+    {
+      "stream_id": "S168",
+      "region_tokens": [
+        "Q169"
+      ]
+    },
+    {
+      "stream_id": "S169",
+      "region_tokens": [
+        "Q170"
+      ]
+    },
+    {
+      "stream_id": "S170",
+      "region_tokens": [
+        "Q171"
+      ]
+    },
+    {
+      "stream_id": "S171",
+      "region_tokens": [
+        "Q172"
+      ]
+    },
+    {
+      "stream_id": "S172",
+      "region_tokens": [
+        "Q173"
+      ]
+    },
+    {
+      "stream_id": "S173",
+      "region_tokens": [
+        "Q174"
+      ]
+    },
+    {
+      "stream_id": "S174",
+      "region_tokens": [
+        "Q175"
+      ]
+    },
+    {
+      "stream_id": "S175",
+      "region_tokens": [
+        "Q176"
+      ]
+    },
+    {
+      "stream_id": "S176",
+      "region_tokens": [
+        "Q177"
+      ]
+    },
+    {
+      "stream_id": "S177",
+      "region_tokens": [
+        "Q178"
+      ]
+    },
+    {
+      "stream_id": "S178",
+      "region_tokens": [
+        "Q179"
+      ]
+    },
+    {
+      "stream_id": "S179",
+      "region_tokens": [
+        "Q180"
+      ]
+    },
+    {
+      "stream_id": "S180",
+      "region_tokens": [
+        "Q181"
+      ]
+    },
+    {
+      "stream_id": "S181",
+      "region_tokens": [
+        "Q182"
+      ]
+    },
+    {
+      "stream_id": "S182",
+      "region_tokens": [
+        "Q183"
+      ]
+    },
+    {
+      "stream_id": "S183",
+      "region_tokens": [
+        "Q184"
+      ]
+    },
+    {
+      "stream_id": "S184",
+      "region_tokens": [
+        "Q185"
+      ]
+    },
+    {
+      "stream_id": "S185",
+      "region_tokens": [
+        "Q186"
+      ]
+    },
+    {
+      "stream_id": "S186",
+      "region_tokens": [
+        "Q187"
+      ]
+    },
+    {
+      "stream_id": "S187",
+      "region_tokens": [
+        "Q188"
+      ]
+    },
+    {
+      "stream_id": "S188",
+      "region_tokens": [
+        "Q189"
+      ]
+    },
+    {
+      "stream_id": "S189",
+      "region_tokens": [
+        "Q190"
+      ]
+    },
+    {
+      "stream_id": "S190",
+      "region_tokens": [
+        "Q191"
+      ]
+    },
+    {
+      "stream_id": "S191",
+      "region_tokens": [
+        "Q192"
+      ]
+    },
+    {
+      "stream_id": "S192",
+      "region_tokens": [
+        "Q193"
+      ]
+    },
+    {
+      "stream_id": "S193",
+      "region_tokens": [
+        "Q194"
+      ]
+    },
+    {
+      "stream_id": "S194",
+      "region_tokens": [
+        "Q195"
+      ]
+    },
+    {
+      "stream_id": "S195",
+      "region_tokens": [
+        "Q196"
+      ]
+    },
+    {
+      "stream_id": "S196",
+      "region_tokens": [
+        "Q197"
+      ]
+    },
+    {
+      "stream_id": "S197",
+      "region_tokens": [
+        "Q198"
+      ]
+    },
+    {
+      "stream_id": "S198",
+      "region_tokens": [
+        "Q199"
+      ]
+    },
+    {
+      "stream_id": "S199",
+      "region_tokens": [
+        "Q200"
+      ]
+    },
+    {
+      "stream_id": "S200",
+      "region_tokens": [
+        "Q201"
+      ]
+    },
+    {
+      "stream_id": "S201",
+      "region_tokens": [
+        "Q202"
+      ]
+    },
+    {
+      "stream_id": "S202",
+      "region_tokens": [
+        "Q203"
+      ]
+    },
+    {
+      "stream_id": "S203",
+      "region_tokens": [
+        "Q204"
+      ]
+    },
+    {
+      "stream_id": "S204",
+      "region_tokens": [
+        "Q205"
+      ]
+    },
+    {
+      "stream_id": "S205",
+      "region_tokens": [
+        "Q206"
+      ]
+    },
+    {
+      "stream_id": "S206",
+      "region_tokens": [
+        "Q207"
+      ]
+    },
+    {
+      "stream_id": "S207",
+      "region_tokens": [
+        "Q208"
+      ]
+    },
+    {
+      "stream_id": "S208",
+      "region_tokens": [
+        "Q209"
+      ]
+    },
+    {
+      "stream_id": "S209",
+      "region_tokens": [
+        "Q210"
+      ]
+    },
+    {
+      "stream_id": "S210",
+      "region_tokens": [
+        "Q211"
+      ]
+    },
+    {
+      "stream_id": "S211",
+      "region_tokens": [
+        "Q212"
+      ]
+    },
+    {
+      "stream_id": "S212",
+      "region_tokens": [
+        "Q213"
+      ]
+    },
+    {
+      "stream_id": "S213",
+      "region_tokens": [
+        "Q214"
+      ]
+    },
+    {
+      "stream_id": "S214",
+      "region_tokens": [
+        "Q215"
+      ]
+    },
+    {
+      "stream_id": "S215",
+      "region_tokens": [
+        "Q216"
+      ]
+    },
+    {
+      "stream_id": "S216",
+      "region_tokens": [
+        "Q217"
+      ]
+    },
+    {
+      "stream_id": "S217",
+      "region_tokens": [
+        "Q218"
+      ]
+    },
+    {
+      "stream_id": "S218",
+      "region_tokens": [
+        "Q219"
+      ]
+    },
+    {
+      "stream_id": "S219",
+      "region_tokens": [
+        "Q220"
+      ]
+    },
+    {
+      "stream_id": "S220",
+      "region_tokens": [
+        "Q221"
+      ]
+    },
+    {
+      "stream_id": "S221",
+      "region_tokens": [
+        "Q222"
+      ]
+    },
+    {
+      "stream_id": "S222",
+      "region_tokens": [
+        "Q223"
+      ]
+    },
+    {
+      "stream_id": "S223",
+      "region_tokens": [
+        "Q224"
+      ]
+    },
+    {
+      "stream_id": "S224",
+      "region_tokens": [
+        "Q225"
+      ]
+    },
+    {
+      "stream_id": "S225",
+      "region_tokens": [
+        "Q226"
+      ]
+    },
+    {
+      "stream_id": "S226",
+      "region_tokens": [
+        "Q227"
+      ]
+    },
+    {
+      "stream_id": "S227",
+      "region_tokens": [
+        "Q228"
+      ]
+    },
+    {
+      "stream_id": "S228",
+      "region_tokens": [
+        "Q229"
+      ]
+    },
+    {
+      "stream_id": "S229",
+      "region_tokens": [
+        "Q230"
+      ]
+    },
+    {
+      "stream_id": "S230",
+      "region_tokens": [
+        "Q231"
+      ]
+    },
+    {
+      "stream_id": "S231",
+      "region_tokens": [
+        "Q232"
+      ]
+    },
+    {
+      "stream_id": "S232",
+      "region_tokens": [
+        "Q233"
+      ]
+    },
+    {
+      "stream_id": "S233",
+      "region_tokens": [
+        "Q234"
+      ]
+    },
+    {
+      "stream_id": "S234",
+      "region_tokens": [
+        "Q235"
+      ]
+    }
+  ],
+  "uncertain_tokens": [
+    "Q003",
+    "Q010",
+    "Q040",
+    "Q047",
+    "Q076",
+    "Q102",
+    "Q126",
+    "Q133",
+    "Q167",
+    "Q172",
+    "Q188",
+    "Q193",
+    "Q208",
+    "Q215",
+    "Q217",
+    "Q222"
+  ],
+  "notes": "Lecture visuelle aveugle. Les colonnes très denses, les encadrés imbriqués, les chevauchements latéraux des panneaux et plusieurs intertitres mêlés au début d’un paragraphe rendent certains rattachements intercolonnes incertains; les régions éditoriales sont conservées sans imposer d’adjacence non lisible."
+}

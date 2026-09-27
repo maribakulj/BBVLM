@@ -1,0 +1,118 @@
+{
+  "lines": [
+    {
+      "id": "R632ec6675c",
+      "text": "ciū duxi. Nō quidem quod omnibus ſatis fecerim ſed ut/",
+      "uncertain": true,
+      "reason": "Le premier mot abrégé et le signe final ressemblant à une barre oblique sont légèrement difficiles à distinguer."
+    },
+    {
+      "id": "Re5a7e23177",
+      "text": "EPITOME",
+      "uncertain": false,
+      "reason": ""
+    },
+    {
+      "id": "R2922cb1c4d",
+      "text": "bb. Et eſt acatalectus .",
+      "uncertain": false,
+      "reason": ""
+    },
+    {
+      "id": "Rf190cd318e",
+      "text": "Anno ſupra ſeſquimilleſ. ſextodecimo .",
+      "uncertain": true,
+      "reason": "La finale abrégée de ſeſquimilleſ. est légèrement ambiguë."
+    },
+    {
+      "id": "R1a0177a41b",
+      "text": "ger verliebten Händel ziemlich berichtiget war ,",
+      "uncertain": false,
+      "reason": ""
+    },
+    {
+      "id": "R4612fb0db5",
+      "text": "mich zum Manne begehren würden. (Damals",
+      "uncertain": false,
+      "reason": ""
+    },
+    {
+      "id": "R387ec4e7d0",
+      "text": "er verdienet hatte , lebhaft und deutlich gnug zu",
+      "uncertain": false,
+      "reason": ""
+    },
+    {
+      "id": "R89b9dcb991",
+      "text": "verſtehen gab. Aber die Dame hatte ſich damit",
+      "uncertain": false,
+      "reason": ""
+    },
+    {
+      "id": "R1bea4bea15",
+      "text": "iā redditus ē eccleſiæ, iam ex ſeruo diaboli factus eſt",
+      "uncertain": true,
+      "reason": "Les deux macrons initiaux et la ligature ecclésiastique sont visibles, mais leur portée exacte est légèrement incertaine."
+    },
+    {
+      "id": "R379ddb80f4",
+      "text": "Quem uerè ſui pudet apud deum, leuius erubeſcet a-",
+      "uncertain": true,
+      "reason": "L'accent sur le e de uerè est pâle."
+    },
+    {
+      "id": "R477377d915",
+      "text": "rogans ut quod gratis largitus eſt pro ſua bonitate,",
+      "uncertain": false,
+      "reason": ""
+    },
+    {
+      "id": "Rdd0cda01dc",
+      "text": "hoc quod ſupereſt, ſi conferas ad id quod præceſſit?",
+      "uncertain": false,
+      "reason": ""
+    },
+    {
+      "id": "Rd6facdcad1",
+      "text": "ſolutum repetere: vt l.in contractibus. C. de",
+      "uncertain": false,
+      "reason": ""
+    },
+    {
+      "id": "R2820e61330",
+      "text": "tio.de fide inſtrum. & tenet Pet. de Anch. in",
+      "uncertain": false,
+      "reason": ""
+    },
+    {
+      "id": "Rd97daded21",
+      "text": "in l.1.§.ff.ad legem Falci. De quo maxime du-",
+      "uncertain": true,
+      "reason": "Le signe de section et les espacements de la référence juridique restent légèrement ambigus."
+    },
+    {
+      "id": "Rcf0da9fbab",
+      "text": "præſumptio cedit veritati.8.diſt. c. veritate.",
+      "uncertain": false,
+      "reason": ""
+    }
+  ],
+  "inspected_images": [
+    "experiments/loop/vlm-input-a24/input/R632ec6675c.png",
+    "experiments/loop/vlm-input-a24/input/Re5a7e23177.png",
+    "experiments/loop/vlm-input-a24/input/R2922cb1c4d.png",
+    "experiments/loop/vlm-input-a24/input/Rf190cd318e.png",
+    "experiments/loop/vlm-input-a24/input/R1a0177a41b.png",
+    "experiments/loop/vlm-input-a24/input/R4612fb0db5.png",
+    "experiments/loop/vlm-input-a24/input/R387ec4e7d0.png",
+    "experiments/loop/vlm-input-a24/input/R89b9dcb991.png",
+    "experiments/loop/vlm-input-a24/input/R1bea4bea15.png",
+    "experiments/loop/vlm-input-a24/input/R379ddb80f4.png",
+    "experiments/loop/vlm-input-a24/input/R477377d915.png",
+    "experiments/loop/vlm-input-a24/input/Rdd0cda01dc.png",
+    "experiments/loop/vlm-input-a24/input/Rd6facdcad1.png",
+    "experiments/loop/vlm-input-a24/input/R2820e61330.png",
+    "experiments/loop/vlm-input-a24/input/Rd97daded21.png",
+    "experiments/loop/vlm-input-a24/input/Rcf0da9fbab.png"
+  ]
+}

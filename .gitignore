@@ -8,3 +8,18 @@ __pycache__/
 # jamais de clé
 .env
 *.key
+# Downloaded public weights and large replay caches (recorded in checkpoint)
+models/
+experiments/loop/cache/
+experiments/loop/end-to-end/*/logits.npz
+experiments/loop/runner.lock
+# Public images, recognizer caches and runtime outputs are restored separately.
+*.npz
+*.sqlite
+*.log
+*.lock
+experiments/**/*.tif
+experiments/**/*.tiff
+experiments/**/*.zip
+experiments/**/cache.json
+experiments/**/*.stdout.json

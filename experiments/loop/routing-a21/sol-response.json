@@ -1,0 +1,54 @@
+{
+  "lines": [
+    {
+      "id": "Xccef03ca",
+      "text": "So antwort vns der Herre Gott/",
+      "uncertain": false,
+      "reason": ""
+    },
+    {
+      "id": "Xd16465de",
+      "text": "Wo ſolln wir nu raht ſuchen?",
+      "uncertain": true,
+      "reason": "The final punctuation and spelling of raht are slightly indistinct."
+    },
+    {
+      "id": "X4a736be3",
+      "text": "war underſehens verſchwunden. Ich ſah, daß",
+      "uncertain": true,
+      "reason": "The word read underſehens may instead begin unver-; the middle letterform is ambiguous."
+    },
+    {
+      "id": "X3d7d7292",
+      "text": "abgeriſſen wirdt/von dem menſchen der da",
+      "uncertain": true,
+      "reason": "The ending of wirdt and the stroke before von are slightly unclear."
+    },
+    {
+      "id": "Xedb93e2e",
+      "text": "vnd leyden auff den erſten menſchen/vñ der",
+      "uncertain": true,
+      "reason": "The mark over the short word before der is visible, but its exact letterform and abbreviation are uncertain."
+    },
+    {
+      "id": "Xf10b250b",
+      "text": "VI.",
+      "uncertain": false,
+      "reason": ""
+    }
+  ],
+  "inspected_images": [
+    "experiments/loop/routing-a21/input/Xccef03ca.png",
+    "experiments/loop/reference-a18/input/Xccef03ca.png",
+    "experiments/loop/routing-a21/input/Xd16465de.png",
+    "experiments/loop/reference-a18/input/Xd16465de.png",
+    "experiments/loop/routing-a21/input/X4a736be3.png",
+    "experiments/loop/reference-a18/input/X4a736be3.png",
+    "experiments/loop/routing-a21/input/X3d7d7292.png",
+    "experiments/loop/reference-a18/input/X3d7d7292.png",
+    "experiments/loop/routing-a21/input/Xedb93e2e.png",
+    "experiments/loop/reference-a18/input/Xedb93e2e.png",
+    "experiments/loop/routing-a21/input/Xf10b250b.png",
+    "experiments/loop/reference-a18/input/Xf10b250b.png"
+  ]
+}

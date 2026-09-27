@@ -1,0 +1,90 @@
+{
+  "schema": "bbvlm.sbb-reserve-open/1",
+  "revision": "481f7235acfc1f78e88b3c2f22f551595c3f2032",
+  "seed": 2026092722,
+  "selection": "four TextLine IDs sampled per pre-frozen reserve work; content not used for difficulty selection",
+  "pages": [
+    {
+      "work": "ferrepit_667769218",
+      "lines": 23,
+      "sampled": 4,
+      "words": 173
+    },
+    {
+      "work": "688357687_688358799_1771000800",
+      "lines": 30,
+      "sampled": 4,
+      "words": 195
+    },
+    {
+      "work": "erasexom_816221448",
+      "lines": 30,
+      "sampled": 4,
+      "words": 234
+    },
+    {
+      "work": "canitrac_789765837",
+      "lines": 28,
+      "sampled": 4,
+      "words": 222
+    }
+  ],
+  "files": [
+    {
+      "path": "data/ferrepit_667769218/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000028.xml",
+      "bytes": 389223,
+      "sha256": "89435d05a8d1b694e3b7a080c0ec3fc18fa3271442b92f13d8f23c730a63fdf7",
+      "git_blob_verified": true
+    },
+    {
+      "path": "data/ferrepit_667769218/OCR-D-IMG/OCR-D-IMG_00000028.tif",
+      "bytes": 1890736,
+      "sha256": "5ed7e025f58b5a33690a265fbf6b42646f490636ba7130b6dc7f2879e63cbe42",
+      "git_blob_verified": true
+    },
+    {
+      "path": "data/688357687_688358799_1771000800/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000082.xml",
+      "bytes": 242657,
+      "sha256": "b718797a108d9e0eea31946c2c68abb762a82f881dbaffaada439faf1ed3f04a",
+      "git_blob_verified": true
+    },
+    {
+      "path": "data/688357687_688358799_1771000800/OCR-D-IMG/OCR-D-IMG_00000082.tif",
+      "bytes": 1286662,
+      "sha256": "d708f89b144e984f8a46377f0d2a778547a4ddc918526ebdfb5d836b6ebea1a6",
+      "git_blob_verified": true
+    },
+    {
+      "path": "data/erasexom_816221448/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000029.xml",
+      "bytes": 495198,
+      "sha256": "446ebfa5d0b94ff4e8110436d25c6d805f638d45556985cbaaecbf419b75d09f",
+      "git_blob_verified": true
+    },
+    {
+      "path": "data/erasexom_816221448/OCR-D-IMG/OCR-D-IMG_00000029.tif",
+      "bytes": 1167406,
+      "sha256": "65f1b9a287cb911785536c2379260ed1541d21a19c0a7ac8bc1746f32786c89e",
+      "git_blob_verified": true
+    },
+    {
+      "path": "data/canitrac_789765837/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000116.xml",
+      "bytes": 413987,
+      "sha256": "858deb3cc0cd7e217deafc9789feb1de785098b9cc64bbdd613d2a38f59aca1a",
+      "git_blob_verified": true
+    },
+    {
+      "path": "data/canitrac_789765837/OCR-D-IMG/OCR-D-IMG_00000116.tif",
+      "bytes": 1099768,
+      "sha256": "7f33899562850465961f1144b5b196c6f5eaf3dc4fafb7bce1cbbeb7d2a9a292",
+      "git_blob_verified": true
+    }
+  ],
+  "sample_lines": 16,
+  "runtime_seconds": 20.302881743002217,
+  "protocol_sha256": "6eddd34d47fa558ec9e2a0e9cb396dadc35f67a2bedee4a947e91164ca8fe30b",
+  "cost": {
+    "layout": 0,
+    "recognition": 0,
+    "vlm": 0
+  }
+}

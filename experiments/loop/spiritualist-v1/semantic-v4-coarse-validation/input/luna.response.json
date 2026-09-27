@@ -1,0 +1,45 @@
+{
+  "schema": "bbvlm.blind-coarse-faceted-response/1",
+  "page": "0044",
+  "coarse_roles": {
+    "A3": "STREAM",
+    "A4": "STREAM",
+    "D4": "STREAM",
+    "E3": "MASTHEAD",
+    "E8": "STREAM",
+    "J2": "STREAM",
+    "J8": "MASTHEAD",
+    "L4": "STREAM",
+    "L5": "STREAM",
+    "N3": "STREAM",
+    "S2": "MASTHEAD",
+    "S7": "STREAM",
+    "W5": "STREAM"
+  },
+  "editorial_genres": {
+    "A3": "NOTICE",
+    "A4": "NOTICE",
+    "D4": "NOTICE",
+    "E3": "MASTHEAD",
+    "E8": "ARTICLE",
+    "J2": "NOTICE",
+    "J8": "MASTHEAD",
+    "L4": "NOTICE",
+    "L5": "NOTICE",
+    "N3": "NOTICE",
+    "S2": "MASTHEAD",
+    "S7": "ARTICLE",
+    "W5": "NOTICE"
+  },
+  "uncertain_coarse_tokens": [],
+  "uncertain_genre_tokens": [
+    "A3",
+    "A4",
+    "D4",
+    "L5",
+    "L4",
+    "N3",
+    "W5"
+  ],
+  "notes": "No advertisements are visible; notices and articles fill the reading columns."
+}

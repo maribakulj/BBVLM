@@ -1,0 +1,28 @@
+{
+  "schema": "bbvlm.bnf-impact-olr-a29-split/1",
+  "status": "frozen_unopened",
+  "selection": "third PAGE XML lexicographically in first filename-prefix group; manifest names only",
+  "archive_sha256": "2c8a3e4564c9ffe42270aaf3d6a0d9498b8549b9222fc6d702b751610cc4641c",
+  "archive_bytes": 211787980,
+  "page": {
+    "group": "0012345",
+    "page": "00123453",
+    "xml": "IMPACT/PAGE/00123453_5.xml",
+    "image": "IMPACT/T/00123453.tif",
+    "xml_bytes": 342254,
+    "xml_crc32": "e4cd1f3a",
+    "image_bytes": 14899748,
+    "image_crc32": "01357ec6"
+  },
+  "opaque_token_seed": "bbvlm-a29-frozen-seed-v1",
+  "created_unix": 1790530827.5389404,
+  "sealed_sha256": {
+    "protocol": "604c9bb4913f6a3b091c09263a07e76a569075368b5a75826b920ad8adebb6ac",
+    "prompt": "70897654d6b1458ad197b40003ced02737598d8e6f74a45c9c7b6b05f9e0555e",
+    "preparer": "eb4ab80947e705f8de6c77b63102847d1c6743e5c0952c2ad719a86f82cf3e5d",
+    "evaluator": "a7420d649a5ef83666e504cbd1c88b287191089edbba2b73deda149fe3c17a87",
+    "merger": "51bfdb9ba81ae4c8d204a24592a9f9f324e2adb755ed4b49391a8bd3df34b055",
+    "development": "9c1ebcee383ea1324e4aecef77696cc528ed04c7772e4ce64252c5c0d08142cc",
+    "archive_manifest": "7665fcbec5b15cfedfcaaa95e97338555b88a382b3e3ee1314cf087ccbd2bdb1"
+  }
+}

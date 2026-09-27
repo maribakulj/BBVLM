@@ -1,0 +1,41 @@
+{
+  "schema": "bbvlm.blind-coarse-faceted-response/1",
+  "page": "0010",
+  "coarse_roles": {
+    "B3": "STREAM",
+    "B5": "STREAM",
+    "C9": "MASTHEAD",
+    "E8": "STREAM",
+    "H3": "STREAM",
+    "R7": "STREAM",
+    "R8": "MASTHEAD",
+    "T5": "STREAM",
+    "T8": "STREAM",
+    "W2": "MASTHEAD",
+    "W5": "STREAM",
+    "Y2": "STREAM",
+    "Z3": "STREAM",
+    "Z5": "STREAM",
+    "Z7": "STREAM"
+  },
+  "editorial_genres": {
+    "B3": "ARTICLE",
+    "B5": "ARTICLE",
+    "C9": "MASTHEAD",
+    "E8": "ARTICLE",
+    "H3": "ARTICLE",
+    "R7": "ARTICLE",
+    "R8": "MASTHEAD",
+    "T5": "ARTICLE",
+    "T8": "ARTICLE",
+    "W2": "MASTHEAD",
+    "W5": "ARTICLE",
+    "Y2": "ARTICLE",
+    "Z3": "ARTICLE",
+    "Z5": "NOTICE",
+    "Z7": "ARTICLE"
+  },
+  "uncertain_coarse_tokens": [],
+  "uncertain_genre_tokens": [],
+  "notes": "Readable page content; masthead fragments are the page number, title, and date."
+}

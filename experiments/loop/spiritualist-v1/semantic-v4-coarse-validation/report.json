@@ -1,0 +1,163 @@
+{
+  "schema": "bbvlm.coarse-role-plus-cpu-structure-evaluation/1",
+  "page": "0044",
+  "split_role": "frozen_validation_consumed_after_this_evaluation",
+  "reader": "gpt-6-luna",
+  "passes": {
+    "vlm_coarse_roles_and_genre": 1,
+    "vlm_order": 0,
+    "vlm_grouping": 0,
+    "cpu_structure": 1
+  },
+  "raw_structural_valid": true,
+  "raw_structural_errors": [],
+  "repair_attempted": false,
+  "metrics": {
+    "regions": 13,
+    "reference_eligible": 10,
+    "predicted_eligible": 10,
+    "eligibility_true_positive": 10,
+    "eligibility_precision": 1.0,
+    "eligibility_recall": 1.0,
+    "eligibility_f1": 1.0,
+    "contamination_region_ids": [],
+    "missing_eligible_region_ids": [],
+    "coarse_role_correct": 13,
+    "coarse_role_accuracy": 1.0,
+    "coarse_role_confusion": [
+      {
+        "reference": "MASTHEAD",
+        "predicted": "MASTHEAD",
+        "count": 3
+      },
+      {
+        "reference": "STREAM",
+        "predicted": "STREAM",
+        "count": 10
+      }
+    ],
+    "fine_physical_role_correct": 13,
+    "fine_physical_role_accuracy": 1.0,
+    "fine_physical_role_confusion": [
+      {
+        "reference": "HEADER",
+        "predicted": "HEADER",
+        "count": 1
+      },
+      {
+        "reference": "MASTHEAD",
+        "predicted": "MASTHEAD",
+        "count": 3
+      },
+      {
+        "reference": "TEXT",
+        "predicted": "TEXT",
+        "count": 9
+      }
+    ],
+    "role_mismatches": [],
+    "semantic_group_pair_precision": 1.0,
+    "semantic_group_pair_recall": 1.0,
+    "semantic_group_pair_f1": 1.0,
+    "semantic_group_false_positive_pairs": 0,
+    "semantic_group_false_negative_pairs": 0,
+    "semantic_group_bcubed_precision": 1.0,
+    "semantic_group_bcubed_recall": 1.0,
+    "semantic_group_bcubed_f1": 1.0,
+    "reference_semantic_units": 4,
+    "predicted_semantic_units": 4,
+    "combined_order_correct_reference_pairs": 38,
+    "combined_order_reference_pairs": 45,
+    "combined_order_pair_recall": 0.8444444444444444,
+    "cpu_runtime_seconds": 7.81700000516139e-05,
+    "cpu_inferred_columns": 2,
+    "editorial_genre_counts": {
+      "ARTICLE": 2,
+      "MASTHEAD": 3,
+      "NOTICE": 8
+    },
+    "editorial_unit_proposals": [
+      {
+        "unit": "U1",
+        "region_ids": [
+          "R90dfa867fc916182",
+          "R74d302e0132963a2",
+          "R2c328058bcff9363"
+        ],
+        "genre_labels": [
+          "MASTHEAD"
+        ],
+        "proposed_genre": "MASTHEAD",
+        "needs_review": false
+      },
+      {
+        "unit": "U2",
+        "region_ids": [
+          "R2651392dfa17e2ce",
+          "R90e55680e5b8c1f3"
+        ],
+        "genre_labels": [
+          "ARTICLE",
+          "NOTICE"
+        ],
+        "proposed_genre": "UNKNOWN",
+        "needs_review": true
+      },
+      {
+        "unit": "U3",
+        "region_ids": [
+          "Rd2c23874a4d5300c"
+        ],
+        "genre_labels": [
+          "ARTICLE"
+        ],
+        "proposed_genre": "ARTICLE",
+        "needs_review": false
+      },
+      {
+        "unit": "U4",
+        "region_ids": [
+          "R01ab2798f099e561",
+          "R532e519d0f4bec3d",
+          "R8a458c9ea6f6cc6e",
+          "R540b4e23c3d643fb",
+          "Rc626ca48a8f02b6d",
+          "Re931a3ad8597ab9e",
+          "R3e2b7a42010f0526"
+        ],
+        "genre_labels": [
+          "NOTICE"
+        ],
+        "proposed_genre": "NOTICE",
+        "needs_review": false
+      }
+    ],
+    "uncertain_coarse_region_ids": [],
+    "uncertain_genre_region_ids": [
+      "R532e519d0f4bec3d",
+      "R8a458c9ea6f6cc6e",
+      "Re931a3ad8597ab9e",
+      "R3e2b7a42010f0526",
+      "R90e55680e5b8c1f3",
+      "R01ab2798f099e561",
+      "Rc626ca48a8f02b6d"
+    ]
+  },
+  "frozen_gates": {
+    "raw_structural_valid": true,
+    "eligibility_precision_min": 0.9,
+    "eligibility_recall_min": 0.9,
+    "coarse_role_accuracy_min": 0.8,
+    "fine_physical_role_accuracy_min": 0.8,
+    "semantic_group_pair_f1_min": 0.8,
+    "combined_order_pair_recall_min": 0.95
+  },
+  "content_gate_passed": false,
+  "editorial_genre_scored": false,
+  "editorial_genre_status": "proposals_with_provenance_only",
+  "accepted_for_project_completion_gate": false,
+  "reference_warning": "Physical role/order/SSU are provisional corpus labels. Editorial genre has no adjudicated reference and is not scored. Page 0044 is consumed after scoring.",
+  "leakage_control": "Random tokens reveal no source ID, order, physical role, genre or semantic unit. XML, binding and reference are outside the reader packet.",
+  "cost_note": "One authorized Luna pass; token billing unavailable. CPU runtime measured.",
+  "interpretation": "Agreement with provisional coarse/fine physical role, order and SSU labels on one page; genre is not ground truth."
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "bbvlm.blind-olr-response/2",
+  "pages": [
+    {
+      "page": "0003",
+      "ordered_tokens": ["V5", "C4", "F2", "P4", "T8", "R8", "C5", "Q9", "Z8", "D7", "N8", "W6"],
+      "groups": [
+        {"id": "G1", "tokens": ["V5", "C4", "F2"], "label": "issue header", "uncertain": false},
+        {"id": "G2", "tokens": ["P4", "T8", "R8"], "label": "continuing article across columns", "uncertain": false},
+        {"id": "G3", "tokens": ["C5", "Q9"], "label": "Private Seances article", "uncertain": false},
+        {"id": "G4", "tokens": ["Z8", "D7", "N8", "W6"], "label": "Cavendish Rooms meeting article", "uncertain": true}
+      ],
+      "roles": {
+        "V5": "OTHER", "C4": "MASTHEAD", "F2": "OTHER", "P4": "TEXT", "T8": "TEXT", "R8": "TEXT",
+        "C5": "HEADER", "Q9": "TEXT", "Z8": "TEXT", "D7": "HEADER", "N8": "HEADER", "W6": "TEXT"
+      },
+      "uncertain_tokens": ["Z8"],
+      "notes": "The page has a three-column article continuing into a separate right-column report, followed by a new Cavendish Rooms item in the left column. The small region Z8 is hard to distinguish from the preceding text transition."
+    },
+    {
+      "page": "0008",
+      "ordered_tokens": ["P8", "U8", "X5", "J7", "X2", "Y5", "J9", "F9", "L3", "E8", "H6", "N5", "F5", "V8", "S7", "V2", "H2", "R2", "R7", "T9", "E2", "H9", "N2", "K3", "K6", "J6", "K4", "N6", "B2", "V3"],
+      "groups": [
+        {"id": "G1", "tokens": ["P8", "U8", "X5", "J7"], "label": "issue header", "uncertain": true},
+        {"id": "G2", "tokens": ["X2", "Y5", "J9", "F9", "L3", "E8", "H6"], "label": "Facts for Non-Spiritualists article", "uncertain": false},
+        {"id": "G3", "tokens": ["N5", "F5"], "label": "How to Form Spirit Circles article", "uncertain": false},
+        {"id": "G4", "tokens": ["V8"], "label": "Professor Olive notice", "uncertain": false},
+        {"id": "G5", "tokens": ["S7"], "label": "Truthseeker notice", "uncertain": false},
+        {"id": "G6", "tokens": ["V2"], "label": "Newspaper Press notice", "uncertain": false},
+        {"id": "G7", "tokens": ["H2", "R2", "R7"], "label": "Female Medical Society notice", "uncertain": false},
+        {"id": "G8", "tokens": ["T9"], "label": "E. T. Everitt clothing establishment notice", "uncertain": false},
+        {"id": "G9", "tokens": ["E2"], "label": "Joseph Barker autobiography notice", "uncertain": false},
+        {"id": "G10", "tokens": ["H9"], "label": "Human Nature periodical notice", "uncertain": false},
+        {"id": "G11", "tokens": ["N2"], "label": "Progressive Library notice", "uncertain": false},
+        {"id": "G12", "tokens": ["K3"], "label": "Spiritualist Magazine notice", "uncertain": false},
+        {"id": "G13", "tokens": ["K6"], "label": "Banner of Light notice", "uncertain": false},
+        {"id": "G14", "tokens": ["J6"], "label": "Spiritualist book and periodical notice", "uncertain": true},
+        {"id": "G15", "tokens": ["K4", "N6"], "label": "contents list", "uncertain": false},
+        {"id": "G16", "tokens": ["B2"], "label": "Gardener's Magazine notice", "uncertain": false},
+        {"id": "G17", "tokens": ["V3"], "label": "printer and publisher information", "uncertain": false}
+      ],
+      "roles": {
+        "B2": "ADVERT", "E2": "ADVERT", "E8": "TEXT", "F5": "TEXT", "F9": "TEXT", "H2": "HEADER", "H6": "TEXT", "H9": "ADVERT",
+        "J6": "ADVERT", "J7": "OTHER", "J9": "TEXT", "K3": "ADVERT", "K4": "HEADER", "K6": "ADVERT", "L3": "TEXT", "N2": "ADVERT",
+        "N5": "HEADER", "N6": "TEXT", "P8": "OTHER", "R2": "ADVERT", "R7": "ADVERT", "S7": "HEADER", "T9": "ADVERT", "U8": "OTHER",
+        "V2": "ADVERT", "V3": "OTHER", "V8": "ADVERT", "X2": "HEADER", "X5": "MASTHEAD", "Y5": "HEADER"
+      },
+      "uncertain_tokens": ["P8", "U8", "J6"],
+      "notes": "The large article flows down the left and middle columns before a separate Spirit Circles section. Numerous small notices occupy the remaining columns; the precise identity of one small notice region and the page-header split are uncertain."
+    }
+  ]
+}

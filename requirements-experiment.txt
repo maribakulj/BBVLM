@@ -1,0 +1,12 @@
+# Python 3.12; install CPU torch separately using the PyTorch CPU index.
+# pip install torch==2.14.0+cpu torchvision==0.29.0+cpu --index-url https://download.pytorch.org/whl/cpu
+pero-ocr==0.7.0
+numpy==1.26.4
+# Headless 4.8 is used because the 4.10 GUI wheel can SIGBUS on the managed
+# AVX-512 CPU runtime; BBVLM does not use any HighGUI feature.
+opencv-python-headless==4.8.1.78
+lxml
+Pillow
+scipy
+huggingface_hub==2.0.0
+pyarrow==22.0.0

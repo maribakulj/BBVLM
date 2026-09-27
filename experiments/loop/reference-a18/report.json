@@ -1,0 +1,101 @@
+{
+  "schema": "bbvlm.sbb-audit/1",
+  "pages": [
+    {
+      "work": "hermhyst_816125724",
+      "lines": 33,
+      "words": 157,
+      "empty_lines": 0,
+      "words_outside_line_bbox": 0,
+      "adjacent_overlap_ge_25pct": 0,
+      "word_geometry_status": "present_unadjudicated"
+    },
+    {
+      "work": "chiamerk_766680207",
+      "lines": 29,
+      "words": 211,
+      "empty_lines": 0,
+      "words_outside_line_bbox": 0,
+      "adjacent_overlap_ge_25pct": 0,
+      "word_geometry_status": "present_unadjudicated"
+    },
+    {
+      "work": "brieetli_73862926X",
+      "lines": 27,
+      "words": 208,
+      "empty_lines": 0,
+      "words_outside_line_bbox": 0,
+      "adjacent_overlap_ge_25pct": 0,
+      "word_geometry_status": "present_unadjudicated"
+    },
+    {
+      "work": "CesiLAn_893988510",
+      "lines": 5,
+      "words": 47,
+      "empty_lines": 0,
+      "words_outside_line_bbox": 0,
+      "adjacent_overlap_ge_25pct": 0,
+      "word_geometry_status": "present_unadjudicated"
+    }
+  ],
+  "files": [
+    {
+      "path": "data/hermhyst_816125724/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000146.xml",
+      "bytes": 318490,
+      "sha256": "f46d90074fdde322f1704c6f5e384027eb1eb497f09cc9ee92784fa45f9bdeb0",
+      "git_blob_verified": true
+    },
+    {
+      "path": "data/hermhyst_816125724/OCR-D-IMG/OCR-D-IMG_00000146.tif",
+      "bytes": 1109408,
+      "sha256": "d3d688c48129dd0ae6eb1a29432b6fc4bf04317e8e8360f2d64f17ea8e32f15c",
+      "git_blob_verified": true
+    },
+    {
+      "path": "data/chiamerk_766680207/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000094.xml",
+      "bytes": 419885,
+      "sha256": "788cf1cfc0a40f4784f8cb68187d1184177a835ab5696ba358b12ed9dc2583ad",
+      "git_blob_verified": true
+    },
+    {
+      "path": "data/chiamerk_766680207/OCR-D-IMG/OCR-D-IMG_00000094.tif",
+      "bytes": 1764040,
+      "sha256": "ad2f847b4014d4e273fffe5934c5985cee76d3e301f87bce2514df948c540ff5",
+      "git_blob_verified": true
+    },
+    {
+      "path": "data/brieetli_73862926X/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000029.xml",
+      "bytes": 526463,
+      "sha256": "1707f2b571497bb52c6e9a82f6746f672618eff0629f852589e2edb0878f755c",
+      "git_blob_verified": true
+    },
+    {
+      "path": "data/brieetli_73862926X/OCR-D-IMG/OCR-D-IMG_00000029.tif",
+      "bytes": 1418406,
+      "sha256": "ff898466fae308e1227f2cc78995c6d6422874e7e71b39d9455d1a3a868a4951",
+      "git_blob_verified": true
+    },
+    {
+      "path": "data/CesiLAn_893988510/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000021.xml",
+      "bytes": 120207,
+      "sha256": "d891a31381b7cbc751e304f4165c20dc6212ab11d0c8dffbd2e92586e689e222",
+      "git_blob_verified": true
+    },
+    {
+      "path": "data/CesiLAn_893988510/OCR-D-IMG/OCR-D-IMG_00000021.tif",
+      "bytes": 5588742,
+      "sha256": "6edf2a4fb75838009314f5d94cc4f6d46158421c4fad863fac11764e32aab5bd",
+      "git_blob_verified": true
+    }
+  ],
+  "sample_lines": 16,
+  "reserve_pages_unopened": 4,
+  "runtime_seconds": 14.28478560700023,
+  "reference_transcription_claim": "provider GT followed by SBB post-correction/manual page inspection; not perfect truth",
+  "cost": {
+    "vlm": 0,
+    "recognition": 0,
+    "layout": 0
+  },
+  "accepted_for_project_completion_gate": false
+}

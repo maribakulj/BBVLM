@@ -1,0 +1,30 @@
+{
+  "pages": 1,
+  "lines": 20,
+  "lines_requiring_review": 20,
+  "schema_validated": true,
+  "certified_ground_truth": false,
+  "retrieval": {
+    "passages": 20,
+    "document_sha256": "ad678ca4982da48c9eb83c8b664df6bf824bdb240e0212b3f040d90869bf0bb2",
+    "unit": "line",
+    "semantic_retrieval": false
+  },
+  "mets_package_integrity": {
+    "files": 4,
+    "checksums_verified": 3,
+    "external_uris": 1,
+    "external_checksum_declarations": 1,
+    "unresolved_unchecksummed_local_uris": 0,
+    "all_idrefs_resolve": true,
+    "physical_pages_link_image_and_ocr": true
+  },
+  "mods_version": "3.8",
+  "premis_version": "3.0",
+  "embedded_profile_validation": {
+    "mets_core_xsd_valid": true,
+    "premis_3_xsd_valid": true,
+    "mods_3_8_local_profile_valid": true,
+    "mods_3_8_xsd_valid": false
+  }
+}

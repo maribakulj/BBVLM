@@ -1,0 +1,97 @@
+{
+  "requested_line_ids": [
+    "L09b731856f",
+    "L5910ec99c1",
+    "L6b26e27220",
+    "Ldaa7977eb9",
+    "L34b514795a"
+  ],
+  "rule": "Luna uncertain=true only; no reference read",
+  "lines": [
+    {
+      "id": "L09b731856f",
+      "original_bbox": [
+        2313.0,
+        1666.0,
+        3101.0,
+        1722.0
+      ],
+      "expanded_bbox": [
+        2243,
+        1651,
+        3171,
+        1737
+      ],
+      "candidate": "répandues contre lui, dans la basse foule",
+      "reason": "Le bord gauche du crop coupe le début du mot; « ré- » est restitué d’après le contexte visible de la page."
+    },
+    {
+      "id": "L5910ec99c1",
+      "original_bbox": [
+        4170.0,
+        654.0,
+        4293.0,
+        688.0
+      ],
+      "expanded_bbox": [
+        4100,
+        639,
+        4363,
+        703
+      ],
+      "candidate": "Beuchard.",
+      "reason": "Signature très floue dans le crop; lecture probable."
+    },
+    {
+      "id": "L6b26e27220",
+      "original_bbox": [
+        3954.0,
+        3142.0,
+        4755.0,
+        3186.0
+      ],
+      "expanded_bbox": [
+        3884,
+        3127,
+        4825,
+        3201
+      ],
+      "candidate": "toyenne Poisson. fit toutefois cette re-",
+      "reason": "Le début du mot est coupé au bord gauche; ponctuation et bas-de-casse après « Poisson » peu nets."
+    },
+    {
+      "id": "Ldaa7977eb9",
+      "original_bbox": [
+        2286.0,
+        5336.0,
+        3076.0,
+        5384.0
+      ],
+      "expanded_bbox": [
+        2216,
+        5321,
+        3146,
+        5399
+      ],
+      "candidate": "conscients de satisfaire au vœu ardent",
+      "reason": "La graphie imprimée du mot lu « vœu » est peu nette."
+    },
+    {
+      "id": "L34b514795a",
+      "original_bbox": [
+        3931.0,
+        6605.0,
+        4716.0,
+        6655.0
+      ],
+      "expanded_bbox": [
+        3861,
+        6590,
+        4786,
+        6670
+      ],
+      "candidate": "gné par un médecin. Tout le monde",
+      "reason": "Le bord gauche coupe le début du mot; seules les lettres finales « gné » sont visibles."
+    }
+  ]
+}

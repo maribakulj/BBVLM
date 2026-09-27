@@ -1,0 +1,18 @@
+{
+  "created_unix": 1790536253.7164965,
+  "source_sha256": "f9e7ce7d13766dfc9f764ddb115fd6eb7841368302230e2403af09a55c34d211",
+  "status": "posthoc development ablation on consumed A30; not independent validation",
+  "same_ids_and_targets": true,
+  "changes": [
+    "no polygon masking",
+    "no red overlay",
+    "separate unmasked context 65px above/below, 12px left/right"
+  ],
+  "unchanged": [
+    "same TIFF",
+    "same targets",
+    "minimum width 1200 cubic interpolation",
+    "same transcription contract except target designation"
+  ],
+  "new_vlm_tasks_planned": 1
+}

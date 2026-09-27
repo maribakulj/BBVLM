@@ -1,0 +1,13 @@
+{
+  "pages": 1,
+  "lines": 538,
+  "lines_requiring_review": 538,
+  "schema_validated": true,
+  "certified_ground_truth": false,
+  "retrieval": {
+    "passages": 519,
+    "document_sha256": "05abfccef32c6b8dfc462ce5358f4d5859f919fb69618de004b172cfb7169ce6",
+    "unit": "line",
+    "semantic_retrieval": false
+  }
+}

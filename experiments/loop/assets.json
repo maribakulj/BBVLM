@@ -1,0 +1,97 @@
+{
+  "downloads": [
+    {
+      "path": "models/pero.zip",
+      "url": "https://nextcloud.fit.vutbr.cz/s/NtAbHTNkZFpapdJ/download",
+      "extract_to": "models/pero",
+      "sha256": "cb38dd0792c7145b8ba4dd64df255980e4633f4ca1d406f7f230b9c174c0c70d",
+      "size": 363408419
+    },
+    {
+      "path": "corpora/newseye-validation.zip",
+      "url": "https://zenodo.org/api/records/4293602/files/ATR_ValidationSet_BnF_Newseye_M2%2B.zip/content",
+      "extract_to": "corpora/newseye-validation",
+      "sha256": "6862c17af69712508979413ce1012a1aa36c478f1b945b74ed42354033f791d0",
+      "size": 122053563
+    },
+    {
+      "path": "corpora/spiritualist/alto_xml/ocr_gt_labelled.zip",
+      "url": "https://huggingface.co/datasets/Jonnob/the-spiritualist-enriched/resolve/0f3ddfda24ecde8897ee9c0f575c59d7b95cf995/alto_xml/ocr_gt_labelled.zip",
+      "extract_to": "corpora/spiritualist/alto_xml",
+      "sha256": "ef42670d7f45adf16bc9dbca0c021b56f33881d41e238d1b369098eae428e47b",
+      "size": 5472671
+    },
+    {
+      "path": "corpora/spiritualist/enriched/annotations/gt_ssu_bboxes.parquet",
+      "url": "https://huggingface.co/datasets/Jonnob/the-spiritualist-enriched/resolve/0f3ddfda24ecde8897ee9c0f575c59d7b95cf995/annotations/gt_ssu_bboxes.parquet",
+      "sha256": "3468846ce50f436565e6c002938d91c96aa6c947bad7e64caf8678b09ef69db8",
+      "size": 1063098
+    },
+    {
+      "path": "corpora/spiritualist/companion/Spiritualist_Images/0009.png",
+      "url": "https://huggingface.co/datasets/NationalLibraryOfScotland/Spiritualist_Newspaper/resolve/57244e5d175380ebc110b0d8b130b2dff30aeadd/Spiritualist_Images/0009.png",
+      "sha256": "411c1d9e050164f1820681f20c230207ad5c252d3e50190bb1536a63d84b3147",
+      "size": 12827947
+    },
+    {
+      "path": "corpora/spiritualist/companion/Spiritualist_Images/0003.png",
+      "url": "https://huggingface.co/datasets/NationalLibraryOfScotland/Spiritualist_Newspaper/resolve/57244e5d175380ebc110b0d8b130b2dff30aeadd/Spiritualist_Images/0003.png",
+      "sha256": "ee3b26e7d087bf18304c764d3b20542895610202cf5cde956cac91ed67974966",
+      "size": 13248035
+    },
+    {
+      "path": "corpora/spiritualist/companion/Spiritualist_Images/0008.png",
+      "url": "https://huggingface.co/datasets/NationalLibraryOfScotland/Spiritualist_Newspaper/resolve/57244e5d175380ebc110b0d8b130b2dff30aeadd/Spiritualist_Images/0008.png",
+      "sha256": "bc09bfd97547a4f19cad169f5abc452ebdc6483aa743cc0157c67c2479baa9fc",
+      "size": 14252638
+    },
+    {
+      "path": "corpora/spiritualist/companion/Spiritualist_Images/0015.png",
+      "url": "https://huggingface.co/datasets/NationalLibraryOfScotland/Spiritualist_Newspaper/resolve/57244e5d175380ebc110b0d8b130b2dff30aeadd/Spiritualist_Images/0015.png",
+      "sha256": "623be105d8aba520566f8573cbda0dd6f1e3bed980652823c6e6b969313c79a0",
+      "size": 15153723
+    },
+    {
+      "path": "corpora/spiritualist/companion/Spiritualist_Images/0029.png",
+      "url": "https://huggingface.co/datasets/NationalLibraryOfScotland/Spiritualist_Newspaper/resolve/57244e5d175380ebc110b0d8b130b2dff30aeadd/Spiritualist_Images/0029.png",
+      "sha256": "e00e8c0ed3ca9760a2f8b5734aa6d787f0dae6ff1648d1b4d839e55b53ead824",
+      "size": 11748731
+    },
+    {
+      "path": "corpora/spiritualist/companion/Spiritualist_Images/0039.png",
+      "url": "https://huggingface.co/datasets/NationalLibraryOfScotland/Spiritualist_Newspaper/resolve/57244e5d175380ebc110b0d8b130b2dff30aeadd/Spiritualist_Images/0039.png",
+      "sha256": "d1f1105f80538a4413c45dec241c24ba521aaf3d8d1962bb4cef58ccf5e9c3ae",
+      "size": 14715333
+    },
+    {
+      "path": "corpora/spiritualist/companion/Spiritualist_Images/0044.png",
+      "url": "https://huggingface.co/datasets/NationalLibraryOfScotland/Spiritualist_Newspaper/resolve/57244e5d175380ebc110b0d8b130b2dff30aeadd/Spiritualist_Images/0044.png",
+      "sha256": "93bc1ec0515d949dc284d279932e5207a5bcabd8d0f7879584daf3bc089fc9fc",
+      "size": 13790674
+    },
+    {
+      "path": "models/doclayout-yolo/doclayout_yolo_docstructbench_imgsz1024.pt",
+      "url": "https://huggingface.co/juliozhao/DocLayout-YOLO-DocStructBench/resolve/8c3299a30b8ff29a1503c4431b035b93220f7b11/doclayout_yolo_docstructbench_imgsz1024.pt",
+      "sha256": "9a2ee0220fe3d9ad31b47e1d9f1282f46959a54e4618fce9cffcc9715b8286e2",
+      "size": 40709302
+    },
+    {
+      "path": "corpora/spiritualist/companion/Spiritualist_Images/0050.png",
+      "url": "https://huggingface.co/datasets/NationalLibraryOfScotland/Spiritualist_Newspaper/resolve/57244e5d175380ebc110b0d8b130b2dff30aeadd/Spiritualist_Images/0050.png",
+      "sha256": "6d4e247ac9c50da3bc74919264c3a7497ce749375f66363999e1af9e986024d4",
+      "size": 13387459
+    },
+    {
+      "path": "corpora/spiritualist/companion/Spiritualist_Images/0010.png",
+      "url": "https://huggingface.co/datasets/NationalLibraryOfScotland/Spiritualist_Newspaper/resolve/57244e5d175380ebc110b0d8b130b2dff30aeadd/Spiritualist_Images/0010.png",
+      "sha256": "8c4237a5ffae74d6d3dacf8c2453ec5174260692cb8968e45bb860c3ebf9a365",
+      "size": 13426072
+    }
+  ],
+  "private_repo_source": {
+    "repository": "maribakulj/BBVLM",
+    "commit": "60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec",
+    "method": "authenticated API text snapshot; not full upstream git history"
+  },
+  "excluded": "venv, public downloaded model and dataset archives, original corpus images; restore via this manifest"
+}

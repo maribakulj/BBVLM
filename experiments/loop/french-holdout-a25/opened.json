@@ -1,0 +1,66 @@
+{
+  "schema": "bbvlm.french-holdout-a25-opened/1",
+  "split_sha256": "3fccdee6f0d1f88b48492c8d21c38ec43b819da406b9a2fa82e820bc37c76a1f",
+  "protocol_sha256": "09c86ca9849c7e345ce467a5745fb001e1cadb2ea1f6bfb535e6d6d468fb410a",
+  "revision": "481f7235acfc1f78e88b3c2f22f551595c3f2032",
+  "opened_unix": 1790523680.7105923,
+  "files": [
+    {
+      "kind": "xml",
+      "path": "data/briedefra_788606417/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000130.xml",
+      "git_blob": "22d8b12a3722cc6408d4e7e9e979f9c40d7c5c55",
+      "sha256": "4970cf33d06a44825488cdd600610e43d1e096e2e10b1d781f45f98311a15cf0",
+      "bytes": 575439
+    },
+    {
+      "kind": "image",
+      "path": "data/briedefra_788606417/OCR-D-IMG/OCR-D-IMG_00000130.tif",
+      "git_blob": "8554705b0f4de927baab45388feba9da701db31b",
+      "sha256": "750e7560cba12bf6e7ad610f7df59c27dfb176e58e735b7325e3a50d7b912b93",
+      "bytes": 1865628
+    },
+    {
+      "kind": "xml",
+      "path": "data/briedefra_788606417/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000131.xml",
+      "git_blob": "c6b4ad7ce24c630a36dde6d476701a6529b72593",
+      "sha256": "e136351da7747f2a4d0f7bde2af8ebf476d4700fb6d12d225a2cb8de04874cc9",
+      "bytes": 599163
+    },
+    {
+      "kind": "image",
+      "path": "data/briedefra_788606417/OCR-D-IMG/OCR-D-IMG_00000131.tif",
+      "git_blob": "58d3554f91e896d19c2f53bf084dff16298f19ba",
+      "sha256": "7b2492019b7530ade7478842a4e3093f6ac7c30741ee22e9b38f70ea78ec6206",
+      "bytes": 1894778
+    },
+    {
+      "kind": "xml",
+      "path": "data/briedefra_788606417/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000132.xml",
+      "git_blob": "d2fde93f8445851c20490df6d2340456460d88ae",
+      "sha256": "8564377079acdc398fc7c0e7ccfdc6a002f3460b72866933951439e8b481365b",
+      "bytes": 380702
+    },
+    {
+      "kind": "image",
+      "path": "data/briedefra_788606417/OCR-D-IMG/OCR-D-IMG_00000132.tif",
+      "git_blob": "60f08dcac9d5d637269c7be5ed97e6da2585154c",
+      "sha256": "c3e8b8fc67b3a661486a683ed917da222d99e13bb0353005309943658f1fd67c",
+      "bytes": 1681652
+    },
+    {
+      "kind": "xml",
+      "path": "data/briedefra_788606417/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000133.xml",
+      "git_blob": "2bc7c689ad4067d17302ded8d8533c63a508a5f6",
+      "sha256": "c29e9f9dfd3052d25cfab6a94a475c42360f8c4f2682842fef9dffc1dffd6b1d",
+      "bytes": 612034
+    },
+    {
+      "kind": "image",
+      "path": "data/briedefra_788606417/OCR-D-IMG/OCR-D-IMG_00000133.tif",
+      "git_blob": "ac3a908b56f65a1ce695ad29fb2dacab761abb38",
+      "sha256": "9b457e47b37145346ca634dd8d21d1b629c6db2620270e87d61372350b096662",
+      "bytes": 1886778
+    }
+  ],
+  "status": "opened_verified"
+}

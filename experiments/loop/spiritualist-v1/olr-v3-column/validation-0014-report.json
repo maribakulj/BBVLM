@@ -1,0 +1,34 @@
+{
+  "schema": "bbvlm.column-order-evaluation/1",
+  "page": "0014",
+  "split_role": "frozen_validation_consumed_after_this_evaluation",
+  "scope": "oracle/reference TextBlock regions; no region detection claim",
+  "passes": {
+    "vlm": 0,
+    "geometry_cpu": 1
+  },
+  "runtime_seconds": 0.00010625399954733439,
+  "regions": 32,
+  "known_order_regions": 28,
+  "reference_excluded_regions_still_in_raw_proposal": 4,
+  "inferred_columns": 3,
+  "reading_order_correct_pairs": 378,
+  "reading_order_pairs": 378,
+  "reading_order_pair_accuracy": 1.0,
+  "baselines": {
+    "row_major_pair_accuracy": 0.791005291005291,
+    "global_x_then_y_pair_accuracy": 0.7936507936507936
+  },
+  "frozen_parameters": {
+    "gap_ratio": 0.14,
+    "top_exclusion_ratio": 0.055,
+    "max_anchor_width_ratio": 0.55
+  },
+  "gate": {
+    "threshold": 0.95,
+    "passed": true
+  },
+  "accepted_for_project_completion_gate": false,
+  "promotion_warning": "The raw proposal orders every supplied region. A separately validated role/eligibility filter is required before graph promotion.",
+  "reference_warning": "Agreement with provisional distributed order labels on one page; not independently adjudicated and not end-to-end."
+}

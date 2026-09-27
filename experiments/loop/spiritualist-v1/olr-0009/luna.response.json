@@ -1,0 +1,72 @@
+{
+  "ordered_region_ids": [
+    "R262fb319e6",
+    "R0f4b1562ff",
+    "R61e14fed5",
+    "Rb4ca520b94",
+    "R6b05a06fbc",
+    "R4da284335c",
+    "R90665540ac",
+    "R1a24f9f87b",
+    "Reec568b27c",
+    "R307387ff23",
+    "R21a57099b4",
+    "R8b5ca4cdb4"
+  ],
+  "groups": [
+    {
+      "id": "G1",
+      "region_ids": [
+        "R262fb319e6",
+        "R0f4b1562ff",
+        "R61e14fed5",
+        "Rb4ca520b94",
+        "R6b05a06fbc"
+      ],
+      "label": "Newspaper masthead and publication line",
+      "uncertain": false
+    },
+    {
+      "id": "G2",
+      "region_ids": [
+        "R4da284335c",
+        "R90665540ac",
+        "R1a24f9f87b",
+        "Reec568b27c"
+      ],
+      "label": "Faraday article and letter continuation",
+      "uncertain": true
+    },
+    {
+      "id": "G3",
+      "region_ids": [
+        "R307387ff23",
+        "R21a57099b4",
+        "R8b5ca4cdb4"
+      ],
+      "label": "Account of disturbances in the Wesley family",
+      "uncertain": true
+    }
+  ],
+  "roles": {
+    "R262fb319e6": "MASTHEAD",
+    "R0f4b1562ff": "HEADER",
+    "R61e14fed5": "HEADER",
+    "Rb4ca520b94": "HEADER",
+    "R6b05a06fbc": "HEADER",
+    "R4da284335c": "HEADER",
+    "R90665540ac": "TEXT",
+    "R1a24f9f87b": "TEXT",
+    "Reec568b27c": "TEXT",
+    "R307387ff23": "HEADER",
+    "R21a57099b4": "TEXT",
+    "R8b5ca4cdb4": "TEXT"
+  },
+  "uncertain_region_ids": [
+    "R1a24f9f87b",
+    "R307387ff23",
+    "R21a57099b4",
+    "R8b5ca4cdb4"
+  ],
+  "notes": "Reading order follows the masthead and publication line, then the Faraday article across the left and upper middle columns, followed by the Wesley-family account from the lower middle into the right column. The small lower-left region appears to be a footnote; the middle-column article boundary and continuation across columns are somewhat uncertain."
+}

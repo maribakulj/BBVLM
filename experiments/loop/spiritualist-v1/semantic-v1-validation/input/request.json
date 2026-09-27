@@ -1,0 +1,68 @@
+{
+  "schema": "bbvlm.blind-semantic-request/1",
+  "page": "0015",
+  "passes": 1,
+  "allowed_tokens": [
+    "B2",
+    "B5",
+    "D9",
+    "F9",
+    "G3",
+    "H4",
+    "J3",
+    "K3",
+    "K9",
+    "N2",
+    "N8",
+    "Q7",
+    "Q8",
+    "S2",
+    "S5",
+    "U6",
+    "U7",
+    "V4",
+    "V6",
+    "X9",
+    "Y3",
+    "Z5"
+  ],
+  "images": [
+    "0015-original.png",
+    "0015-regions.png"
+  ],
+  "instruction": "Inspect the original and labelled image. The CPU already computes physical reading order, so do not return an order. In one pass: (1) assign every token exactly one role from MASTHEAD, HEADER, TEXT, ADVERT, OTHER, UNKNOWN; (2) list the tokens eligible for the main reading stream; (3) partition every token exactly once into semantic units. Development-only corpus conventions: MASTHEAD and OTHER are excluded; HEADER and TEXT are included; a HEADER normally shares a unit with its following TEXT when they form one item; units observed in development do not cross columns; masthead fragments share one MASTHEAD unit; unrelated notices or adverts stay separate. These are provisional conventions, so mark uncertainty rather than forcing a confident semantic interpretation. Tokens are random and opaque. Return JSON only.",
+  "response_schema": {
+    "schema": "bbvlm.blind-semantic-response/1",
+    "page": "0015",
+    "eligible_tokens": [
+      "short token"
+    ],
+    "groups": [
+      {
+        "id": "G1",
+        "tokens": [
+          "short token"
+        ],
+        "kind": "ARTICLE|NOTICE|ADVERT|MASTHEAD|OTHER|UNKNOWN",
+        "label": "neutral description",
+        "uncertain": false
+      }
+    ],
+    "roles": {
+      "short token": "MASTHEAD|HEADER|TEXT|ADVERT|OTHER|UNKNOWN"
+    },
+    "uncertain_tokens": [],
+    "notes": "short string"
+  },
+  "leakage_control": "Random visual tokens reveal no source ID, order, role or semantic unit. Validation labels and XML are outside the reader packet.",
+  "binding_control": "Strict software validation binds tokens after response; no repair is permitted.",
+  "frozen_gates": {
+    "raw_structural_valid": true,
+    "eligibility_precision_min": 0.9,
+    "eligibility_recall_min": 0.9,
+    "role_accuracy_min": 0.8,
+    "semantic_group_pair_f1_min": 0.8,
+    "combined_order_pair_recall_min": 0.95
+  },
+  "reference_warning": "Distributed role/order/SSU fields are provisional labels, not independently adjudicated truth. Page 0015 is consumed after scoring."
+}

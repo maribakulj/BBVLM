@@ -1,0 +1,159 @@
+{
+  "schema": "bbvlm.word-transfer-a34-split/1",
+  "status": "frozen_unopened",
+  "protocol_sha256": "1166e0b435bfc093741fb9cf8309f3d0cce8827a691e41103796bc9e7645751f",
+  "repository": "OCR-D/OCR-D-GT-VD-SBB",
+  "revision": "481f7235acfc1f78e88b3c2f22f551595c3f2032",
+  "selection": "deterministic SHA-256 selection of three unconsumed four-page works",
+  "excluded_consumed_works": [
+    "688357687_688358799_1771000800",
+    "CesiLAn_893988510",
+    "borrdisc_689809840",
+    "briedefra_788606417",
+    "brieetli_73862926X",
+    "canitrac_789765837",
+    "catapabin_657601357",
+    "chiamerk_766680207",
+    "erasexom_816221448",
+    "ferrepit_667769218",
+    "hermhyst_816125724"
+  ],
+  "eligible_work_count": 54,
+  "works": [
+    "drabnota_771639139",
+    "goskeinf_781556694",
+    "actevedef_718448162"
+  ],
+  "pages": [
+    {
+      "work": "drabnota_771639139",
+      "page": "00000389",
+      "xml": "data/drabnota_771639139/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000389.xml",
+      "image": "data/drabnota_771639139/OCR-D-IMG/OCR-D-IMG_00000389.tif",
+      "xml_blob": "514093daf896d1d717faaadbe18a233899cac534",
+      "image_blob": "bedc34e1aa2b1551b755d93236715ecfb6cde400",
+      "xml_size": 315095,
+      "image_size": 1223808
+    },
+    {
+      "work": "drabnota_771639139",
+      "page": "00000390",
+      "xml": "data/drabnota_771639139/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000390.xml",
+      "image": "data/drabnota_771639139/OCR-D-IMG/OCR-D-IMG_00000390.tif",
+      "xml_blob": "816576d3beb0bdf36ce495d7ebf0b481a6f5f369",
+      "image_blob": "bbdae950d46a003cbd1cc53a1584560f710c891e",
+      "xml_size": 231591,
+      "image_size": 1181778
+    },
+    {
+      "work": "drabnota_771639139",
+      "page": "00000391",
+      "xml": "data/drabnota_771639139/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000391.xml",
+      "image": "data/drabnota_771639139/OCR-D-IMG/OCR-D-IMG_00000391.tif",
+      "xml_blob": "92684bd104f767fb37ab7c2cb41605745012f16e",
+      "image_blob": "8e409b54f4bb9d5c9444ae77fc2f9fa06cdd6231",
+      "xml_size": 258417,
+      "image_size": 1186692
+    },
+    {
+      "work": "drabnota_771639139",
+      "page": "00000392",
+      "xml": "data/drabnota_771639139/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000392.xml",
+      "image": "data/drabnota_771639139/OCR-D-IMG/OCR-D-IMG_00000392.tif",
+      "xml_blob": "cce5c85bfcea9b6fc7fe173ef08a5cf3f32f945c",
+      "image_blob": "eca1ecdbef90ded3cdcf507f4a850289895aa4ef",
+      "xml_size": 255231,
+      "image_size": 1227616
+    },
+    {
+      "work": "goskeinf_781556694",
+      "page": "00000032",
+      "xml": "data/goskeinf_781556694/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000032.xml",
+      "image": "data/goskeinf_781556694/OCR-D-IMG/OCR-D-IMG_00000032.tif",
+      "xml_blob": "b93c5b237a59417752ff72bfe24d74c93725ff78",
+      "image_blob": "24b6b05b379ced9c2a6d042257c54b6fd6a53207",
+      "xml_size": 577562,
+      "image_size": 2167840
+    },
+    {
+      "work": "goskeinf_781556694",
+      "page": "00000033",
+      "xml": "data/goskeinf_781556694/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000033.xml",
+      "image": "data/goskeinf_781556694/OCR-D-IMG/OCR-D-IMG_00000033.tif",
+      "xml_blob": "1e5c0afb56d86ca3f2a7c114b612006635f267a1",
+      "image_blob": "c64b11f95a53e822c470df1f76b7eccfc35cebea",
+      "xml_size": 624153,
+      "image_size": 2146508
+    },
+    {
+      "work": "goskeinf_781556694",
+      "page": "00000034",
+      "xml": "data/goskeinf_781556694/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000034.xml",
+      "image": "data/goskeinf_781556694/OCR-D-IMG/OCR-D-IMG_00000034.tif",
+      "xml_blob": "8c758fe00f56ac945ebf59bfae3701c758d1916f",
+      "image_blob": "3ed4b94e49137aa493ce003cb9088c7223b75bb9",
+      "xml_size": 583364,
+      "image_size": 2208292
+    },
+    {
+      "work": "goskeinf_781556694",
+      "page": "00000035",
+      "xml": "data/goskeinf_781556694/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000035.xml",
+      "image": "data/goskeinf_781556694/OCR-D-IMG/OCR-D-IMG_00000035.tif",
+      "xml_blob": "95b6ba19adbc75c976bde3d9509e73a3095af0bf",
+      "image_blob": "6fd717b10d91221c9f8e69cfc64f8e24f6ecc188",
+      "xml_size": 472534,
+      "image_size": 2084162
+    },
+    {
+      "work": "actevedef_718448162",
+      "page": "00000024",
+      "xml": "data/actevedef_718448162/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000024.xml",
+      "image": "data/actevedef_718448162/OCR-D-IMG/OCR-D-IMG_00000024.tif",
+      "xml_blob": "6f55e27d86de4688951a0f92bbaffc2d590e0afd",
+      "image_blob": "151ca9e4f9012232212347249f0a759d71312687",
+      "xml_size": 929836,
+      "image_size": 4688726
+    },
+    {
+      "work": "actevedef_718448162",
+      "page": "00000025",
+      "xml": "data/actevedef_718448162/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000025.xml",
+      "image": "data/actevedef_718448162/OCR-D-IMG/OCR-D-IMG_00000025.tif",
+      "xml_blob": "3112c59ed87978e80c8866fb92edf3358921891d",
+      "image_blob": "f32b5da2a1172a841aa80613d4dc74fb840df208",
+      "xml_size": 930469,
+      "image_size": 4749236
+    },
+    {
+      "work": "actevedef_718448162",
+      "page": "00000026",
+      "xml": "data/actevedef_718448162/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000026.xml",
+      "image": "data/actevedef_718448162/OCR-D-IMG/OCR-D-IMG_00000026.tif",
+      "xml_blob": "c1f57440ebda351e39d2f0cdbea585b298dc17a8",
+      "image_blob": "f61a5d66764f2877877d40456221cf683fce2556",
+      "xml_size": 1056323,
+      "image_size": 4940880
+    },
+    {
+      "work": "actevedef_718448162",
+      "page": "00000027",
+      "xml": "data/actevedef_718448162/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000027.xml",
+      "image": "data/actevedef_718448162/OCR-D-IMG/OCR-D-IMG_00000027.tif",
+      "xml_blob": "69993bad3791ce647d42e86c52f2b4ed2391ab9d",
+      "image_blob": "7c3917e89859027abc315eda214483010e2da396",
+      "xml_size": 1954806,
+      "image_size": 5008570
+    }
+  ],
+  "created_unix": 1790545678.9532762,
+  "sealed_sha256": {
+    "protocol": "1166e0b435bfc093741fb9cf8309f3d0cce8827a691e41103796bc9e7645751f",
+    "freeze": "0c70f6949ffe9620b44d6faf4caedd8602ba62e03ac9f94c1c876cc542fdb589",
+    "opener": "605ea76d7aad1daa640b0c8cc2f12967f9b3f86e98c3ab872c88c23f8e2bca59",
+    "evaluator": "d4975c755980af1aa381dfeb2b512323c4ddc59b65e62574af560831698e3287",
+    "core": "d8f7b8c231684b7d2a4dd0f705834e9bc50ffbc70a46f5be6d416fdaae3dcb0b",
+    "components": "7ff1324eb2fb6bdbe90af669d59423e0d19f6cb1c27f3179b12b57a67b203bf2",
+    "tree": "c1d9d08adb3c070a7c1579395bedc2dbbb384e1d38d0c089953fcb5fa7b93dc0"
+  }
+}

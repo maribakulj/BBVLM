@@ -1,0 +1,102 @@
+{
+  "schema": "bbvlm.blind-semantic-response/1",
+  "page": "0015",
+  "eligible_tokens": [
+    "N2",
+    "V4",
+    "B2",
+    "X9",
+    "Q7",
+    "Q8",
+    "B5",
+    "S5",
+    "H4",
+    "U6",
+    "D9",
+    "J3",
+    "V6",
+    "K9",
+    "F9",
+    "S2",
+    "N8",
+    "K3",
+    "Y3"
+  ],
+  "groups": [
+    {
+      "id": "G1",
+      "tokens": ["G3", "U7", "Z5"],
+      "kind": "MASTHEAD",
+      "label": "Running newspaper title, date, and page number",
+      "uncertain": false
+    },
+    {
+      "id": "G2",
+      "tokens": ["N2", "V4", "B2", "X9", "Q7", "Q8", "B5"],
+      "kind": "ARTICLE",
+      "label": "Facts and testimony concerning spiritualism, left column",
+      "uncertain": false
+    },
+    {
+      "id": "G3",
+      "tokens": ["S5"],
+      "kind": "ARTICLE",
+      "label": "Testimony and names of spiritualists, middle-left column",
+      "uncertain": true
+    },
+    {
+      "id": "G4",
+      "tokens": ["H4", "U6", "D9"],
+      "kind": "ARTICLE",
+      "label": "Further evidence and stages of public opinion, middle-right column",
+      "uncertain": true
+    },
+    {
+      "id": "G5",
+      "tokens": ["J3", "V6", "K9"],
+      "kind": "ARTICLE",
+      "label": "Mr. Home affidavit and related evidence",
+      "uncertain": true
+    },
+    {
+      "id": "G6",
+      "tokens": ["F9", "S2", "N8"],
+      "kind": "ARTICLE",
+      "label": "Uses of spiritualism and healing testimony",
+      "uncertain": true
+    },
+    {
+      "id": "G7",
+      "tokens": ["K3", "Y3"],
+      "kind": "ARTICLE",
+      "label": "Instructions for forming spirit circles",
+      "uncertain": false
+    }
+  ],
+  "roles": {
+    "B2": "HEADER",
+    "B5": "TEXT",
+    "D9": "TEXT",
+    "F9": "HEADER",
+    "G3": "MASTHEAD",
+    "H4": "TEXT",
+    "J3": "HEADER",
+    "K3": "HEADER",
+    "K9": "TEXT",
+    "N2": "HEADER",
+    "N8": "TEXT",
+    "Q7": "TEXT",
+    "Q8": "TEXT",
+    "S2": "TEXT",
+    "S5": "TEXT",
+    "U6": "TEXT",
+    "U7": "MASTHEAD",
+    "V4": "TEXT",
+    "V6": "TEXT",
+    "X9": "TEXT",
+    "Y3": "TEXT",
+    "Z5": "MASTHEAD"
+  },
+  "uncertain_tokens": ["S5", "H4", "U6", "D9", "J3", "V6", "K9", "S2", "N8"],
+  "notes": "The main uncertainty is where the long evidence compilation divides into column-level units, especially around the affidavit; the right-column account also appears to continue through an internal section before the separate spirit-circle heading."
+}

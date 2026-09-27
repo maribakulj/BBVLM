@@ -1,0 +1,1244 @@
+{
+  "schema": "bbvlm.ctc-fallback-a23/1",
+  "scope": "post-hoc diagnostic on 16 consumed A22 lines; oracle line polygons",
+  "model": {
+    "package": "pero-ocr==0.7.0",
+    "weights": "pero_eu_cz_print_newspapers_2022-09-26",
+    "archive_sha256": "cb38dd0792c7145b8ba4dd64df255980e4633f4ca1d406f7f230b9c174c0c70d",
+    "torch": "2.9.1+cpu",
+    "device": "cpu",
+    "threads": 4
+  },
+  "cost": {
+    "model_load_seconds": 0.10068232999765314,
+    "recognition_seconds": 1.806642207004188,
+    "recognized_lines": 16,
+    "recognizer_forwards": 16,
+    "forced_alignment_seconds": 0.13206051700399257,
+    "new_vlm_tasks": 0,
+    "total_wall_seconds": 5.899380861999816
+  },
+  "native_ocr": {
+    "characters": 671,
+    "edits": 80,
+    "cer_strict": 0.11922503725782414,
+    "per_line": [
+      {
+        "id": "R632ec6675c",
+        "reference": "ciũ duxi. Nõ quidem quod oibus ſatis fœcerim ſed ut/",
+        "hypothesis": "ciũ duxi. Nõ quidem quod omibus ſatis fœcerim ſed ut/",
+        "edits": 1
+      },
+      {
+        "id": "Re5a7e23177",
+        "reference": "EPITOME",
+        "hypothesis": "EPITOME",
+        "edits": 0
+      },
+      {
+        "id": "R2922cb1c4d",
+        "reference": "bb. Et e acataleus.",
+        "hypothesis": "ob. Et eſt acataléctus .",
+        "edits": 7
+      },
+      {
+        "id": "Rf190cd318e",
+        "reference": "Anno ſupra ſeſquimilleſ. ſextodecimo.",
+        "hypothesis": "Anno ſupra ſeſquimilleſ. ſextodecimo.",
+        "edits": 0
+      },
+      {
+        "id": "R1a0177a41b",
+        "reference": "ger verliebten Hndel ziemli bertiget war,",
+        "hypothesis": "ger verliebten Händel ziemlich berüchtiget war",
+        "edits": 7
+      },
+      {
+        "id": "R4612fb0db5",
+        "reference": "mi zum Manne begehren wrden. (Damals",
+        "hypothesis": "mich zum Manne begehren wurden. (Damals",
+        "edits": 3
+      },
+      {
+        "id": "R387ec4e7d0",
+        "reference": "er verdienet htte, lebhaft und deutli gnug zu",
+        "hypothesis": "er verdienet hätte, lebhaft und deutlich gnug zu",
+        "edits": 3
+      },
+      {
+        "id": "R89b9dcb991",
+        "reference": "verehen gab. Aber die Dame hatte  damit",
+        "hypothesis": "verſtehen gab. Aber die Dame hatte ſich damit",
+        "edits": 6
+      },
+      {
+        "id": "R1bea4bea15",
+        "reference": "iã reddit ẽ eccleæ, iam ex ſeruo diaboli faus eﬆ",
+        "hypothesis": "iã redditus ē eccleſiæ,iam ex ſeruo diaboli factus eśt",
+        "edits": 13
+      },
+      {
+        "id": "R379ddb80f4",
+        "reference": "Quem uere ſui pudet apud deum, leui erubeſcet a⸗",
+        "hypothesis": "Quem uer� ſui pudet apud deum,leuius erubeſæt a=",
+        "edits": 7
+      },
+      {
+        "id": "R477377d915",
+        "reference": "rogans ut quod gratis largit eﬆ pro ſua bonite,",
+        "hypothesis": "rogans ut quod gratis largitus eśt pro ſua bonitate,",
+        "edits": 6
+      },
+      {
+        "id": "Rdd0cda01dc",
+        "reference": "hoc quod ſupere  confer ad id quod præceit?",
+        "hypothesis": "hoc quod ſupereſt, ſi conferas ad id quod præœſſit:",
+        "edits": 11
+      },
+      {
+        "id": "Rd6facdcad1",
+        "reference": "ſolutum repetere: vt l. in contraib. C. de",
+        "hypothesis": "ſolutum repetere: vt l.in contractibus. C. de",
+        "edits": 5
+      },
+      {
+        "id": "R2820e61330",
+        "reference": "tio. de ﬁde inrum. & tenet Pet. de Anch. in",
+        "hypothesis": "tio. de fide inſtrum. & tenet Pet. de Anch. in",
+        "edits": 4
+      },
+      {
+        "id": "Rd97daded21",
+        "reference": "in l. 1. §. ﬀ. ad legem Falci. De quo maximè du-",
+        "hypothesis": "in l. 1. 6. ff. ad legem Falci. De quo maxime du-",
+        "edits": 4
+      },
+      {
+        "id": "Rcf0da9fbab",
+        "reference": "præſumptio cedit veritati. 8. di. c. veritate.",
+        "hypothesis": "pr�ſumptio cedit veritati. 8. diſt. c. veritate.",
+        "edits": 3
+      }
+    ],
+    "profiles": {
+      "strict": {
+        "characters": 671,
+        "edits": 80,
+        "cer": 0.11922503725782414
+      },
+      "glyph_decomposition_v1": {
+        "characters": 699,
+        "edits": 32,
+        "cer": 0.045779685264663805
+      }
+    }
+  },
+  "proxy": {
+    "R632ec6675c": {
+      "final": "ciū duxi. Nō quidem quod omnibus ſatis fœcerim ſed ut,",
+      "proxy": "ciū duxi. Nō quidem quod omnibus ſatis fœcerim ſed ut,",
+      "changes": []
+    },
+    "Re5a7e23177": {
+      "final": "EPITOME",
+      "proxy": "EPITOME",
+      "changes": []
+    },
+    "R2922cb1c4d": {
+      "final": "bb. Et eſt acatalectus.",
+      "proxy": "bb. Et eſt acatalectus.",
+      "changes": []
+    },
+    "Rf190cd318e": {
+      "final": "Anno ſupra ſeſquimilleſ. ſexodecimo.",
+      "proxy": "Anno ſupra ſeſquimilleſ. ſexodecimo.",
+      "changes": []
+    },
+    "R1a0177a41b": {
+      "final": "zur verliebten Händel ziemlich berüchtiget war,",
+      "proxy": "zur verliebten Händel ziemlich berüchtiget war,",
+      "changes": []
+    },
+    "R4612fb0db5": {
+      "final": "mich zum Manne begehren würden. (Damals",
+      "proxy": "mich zum Manne begehren würden. (Damals",
+      "changes": []
+    },
+    "R387ec4e7d0": {
+      "final": "er verdienet hätte, leibhafft und deutlich gnug zu",
+      "proxy": "er verdienet hätte, leibhafft und deutlich gnug zu",
+      "changes": []
+    },
+    "R89b9dcb991": {
+      "final": "verſehen gab. Aber die Dame hatte ſich damit",
+      "proxy": "verſehen gab. Aber die Dame hatte ſich damit",
+      "changes": []
+    },
+    "R1bea4bea15": {
+      "final": "iā redditus ē eccleſiæ, iam ex ſeruo diaboli factus eſt",
+      "proxy": "iā redditus ē eccleſiæ, iam ex ſeruo diaboli factus eſt",
+      "changes": []
+    },
+    "R379ddb80f4": {
+      "final": "Quem vere ſui pudet apud deum, levius erubeſcet a-",
+      "proxy": "Quem vere ſui pudet apud deum, levius erubeſcet a-",
+      "changes": []
+    },
+    "R477377d915": {
+      "final": "rogans ut quod gratis largitus eſt pro ſua bonitate,",
+      "proxy": "rogans ut quod gratis largitus eſt pro ſua bonitate,",
+      "changes": []
+    },
+    "Rdd0cda01dc": {
+      "final": "hoc quod ſuperest, ſi conferas ad id quod præceſſit?",
+      "proxy": "hoc quod ſuperest, ſi conferas ad id quod præceſſit?",
+      "changes": []
+    },
+    "Rd6facdcad1": {
+      "final": "ſolutum repetere: vt l. in contractibus. C. de",
+      "proxy": "ſolutum repetere: vt l. in contractibus. C. de",
+      "changes": []
+    },
+    "R2820e61330": {
+      "final": "tio. de fide inſtrum. & tenet Pet. de Arch. in",
+      "proxy": "tio. de fide inſtrum. & tenet Pet. de Arch. in",
+      "changes": []
+    },
+    "Rd97daded21": {
+      "final": "in l. 1. §. ff. ad legem Falci. De quo maxime du-",
+      "proxy": "in l. 1. §. ff. ad legem Falci. De quo maxime du-",
+      "changes": []
+    },
+    "Rcf0da9fbab": {
+      "final": "preſumptio cedit veritati. 8. diſt. c. veritate.",
+      "proxy": "preſumptio cedit veritati. 8. diſt. c. veritate.",
+      "changes": []
+    }
+  },
+  "measurements": {
+    "pero_native": {
+      "method": "pero_native_ocr_boxes",
+      "reference_words": 121,
+      "predicted_words": 119,
+      "matched_pairs": 118,
+      "mean_iou_matched": 0.5719283648956673,
+      "matches_iou50": 83,
+      "precision_iou50": 0.6974789915966386,
+      "recall_iou50": 0.6859504132231405,
+      "matches_iou80": 7,
+      "precision_iou80": 0.058823529411764705,
+      "recall_iou80": 0.05785123966942149,
+      "lines_all_words_iou80": 1,
+      "per_line": [
+        {
+          "id": "R632ec6675c",
+          "reference_words": 10,
+          "predicted_words": 10,
+          "matched_ious": [
+            0.6098919095971176,
+            0.7052103167734118,
+            0.47072396884914913,
+            0.6767424431676243,
+            0.683504062168845,
+            0.6905554133606348,
+            0.5348460291734197,
+            0.6078503752922357,
+            0.5794449527294907,
+            0.42785482443198586
+          ]
+        },
+        {
+          "id": "Re5a7e23177",
+          "reference_words": 1,
+          "predicted_words": 1,
+          "matched_ious": [
+            0.8995692586715031
+          ]
+        },
+        {
+          "id": "R2922cb1c4d",
+          "reference_words": 4,
+          "predicted_words": 5,
+          "matched_ious": [
+            0.815068493150685,
+            0.7245703669298653,
+            0.7153284671532847,
+            0.7768974145120934
+          ]
+        },
+        {
+          "id": "Rf190cd318e",
+          "reference_words": 4,
+          "predicted_words": 4,
+          "matched_ious": [
+            0.5954198473282443,
+            0.6945000770297335,
+            0.9467213114754098,
+            0.7421754746023602
+          ]
+        },
+        {
+          "id": "R1a0177a41b",
+          "reference_words": 6,
+          "predicted_words": 6,
+          "matched_ious": [
+            0.577259475218659,
+            0.6113132649685743,
+            0.8077581289218483,
+            0.7036793692509855,
+            0.7925121463275222,
+            0.5084674890236254
+          ]
+        },
+        {
+          "id": "R4612fb0db5",
+          "reference_words": 6,
+          "predicted_words": 6,
+          "matched_ious": [
+            0.6567726737338044,
+            0.4474885844748858,
+            0.6588380716934487,
+            0.6960840937969274,
+            0.6362573099415205,
+            0.7303877366997295
+          ]
+        },
+        {
+          "id": "R387ec4e7d0",
+          "reference_words": 8,
+          "predicted_words": 8,
+          "matched_ious": [
+            0.40175310445580714,
+            0.5966429298067142,
+            0.8172519604500511,
+            0.7560627674750356,
+            0.5977891156462585,
+            0.7171909290416971,
+            0.6154021417179312,
+            0.3430127041742287
+          ]
+        },
+        {
+          "id": "R89b9dcb991",
+          "reference_words": 8,
+          "predicted_words": 8,
+          "matched_ious": [
+            0.7341392849762347,
+            0.5998509687034277,
+            0.5676305065010674,
+            0.4176013805004314,
+            0.5635902788131802,
+            0.6432982201235017,
+            0.5064119340486783,
+            0.6481394253414979
+          ]
+        },
+        {
+          "id": "R1bea4bea15",
+          "reference_words": 10,
+          "predicted_words": 9,
+          "matched_ious": [
+            0.5675675675675675,
+            0.5534294234592445,
+            0.3476297968397291,
+            0.6247723132969034,
+            0.30751081399921354,
+            0.7664047151277014,
+            0.5724055902468035,
+            0.8119918699186992,
+            0.5154109589041096
+          ]
+        },
+        {
+          "id": "R379ddb80f4",
+          "reference_words": 9,
+          "predicted_words": 8,
+          "matched_ious": [
+            0.5742574257425742,
+            0.34161771351107095,
+            0.591187270501836,
+            0.6741632725340889,
+            0.6149296349173975,
+            0.3221551724137931,
+            0.7418593676262388,
+            0.33755274261603374
+          ]
+        },
+        {
+          "id": "R477377d915",
+          "reference_words": 9,
+          "predicted_words": 9,
+          "matched_ious": [
+            0.6197871226662014,
+            0.32142857142857145,
+            0.6639199529134785,
+            0.7178947368421053,
+            0.7798382598996096,
+            0.45751633986928103,
+            0.5379133409350056,
+            0.6625550660792952,
+            0.6287964004499438
+          ]
+        },
+        {
+          "id": "Rdd0cda01dc",
+          "reference_words": 9,
+          "predicted_words": 9,
+          "matched_ious": [
+            0.5630386211299074,
+            0.5654958276732001,
+            0.6631092529431181,
+            0.6565656565656566,
+            0.7155566241885069,
+            0.32428466617754953,
+            0.33611111111111114,
+            0.6122202056866304,
+            0.7596899224806202
+          ]
+        },
+        {
+          "id": "Rd6facdcad1",
+          "reference_words": 8,
+          "predicted_words": 7,
+          "matched_ious": [
+            0.6962420587918596,
+            0.5828156514723679,
+            0.3143283582089552,
+            0.21656483367277665,
+            0.6183866658923283,
+            0.4421052631578947,
+            0.5312895069532237
+          ]
+        },
+        {
+          "id": "R2820e61330",
+          "reference_words": 10,
+          "predicted_words": 10,
+          "matched_ious": [
+            0.54375,
+            0.4619324001365654,
+            0.722007722007722,
+            0.663109756097561,
+            0.29411764705882354,
+            0.36009959539371306,
+            0.44375,
+            0.4857142857142857,
+            0.5960181451612904,
+            0.3783783783783784
+          ]
+        },
+        {
+          "id": "Rd97daded21",
+          "reference_words": 12,
+          "predicted_words": 12,
+          "matched_ious": [
+            0.4651600753295669,
+            0.29906542056074764,
+            0.24408163265306124,
+            0.3483766233766234,
+            0.5409252669039146,
+            0.3702791461412151,
+            0.558041958041958,
+            0.4678281068524971,
+            0.37410071942446044,
+            0.43838136112814224,
+            0.5770750988142292,
+            0.49361702127659574
+          ]
+        },
+        {
+          "id": "Rcf0da9fbab",
+          "reference_words": 7,
+          "predicted_words": 7,
+          "matched_ious": [
+            0.8201892744479495,
+            0.5480314960629922,
+            0.5579872802095024,
+            0.42572062084257206,
+            0.6738070358760014,
+            0.2660753880266075,
+            0.5681649331352154
+          ]
+        }
+      ]
+    },
+    "vlm_forced_ctc": {
+      "method": "vlm_text_forced_pero_ctc",
+      "reference_words": 121,
+      "predicted_words": 121,
+      "matched_pairs": 121,
+      "mean_iou_matched": 0.5747399678752311,
+      "matches_iou50": 85,
+      "precision_iou50": 0.7024793388429752,
+      "recall_iou50": 0.7024793388429752,
+      "matches_iou80": 9,
+      "precision_iou80": 0.0743801652892562,
+      "recall_iou80": 0.0743801652892562,
+      "lines_all_words_iou80": 1,
+      "per_line": [
+        {
+          "id": "R632ec6675c",
+          "reference_words": 10,
+          "predicted_words": 10,
+          "matched_ious": [
+            0.6098919095971176,
+            0.7052103167734118,
+            0.47072396884914913,
+            0.6767424431676243,
+            0.683504062168845,
+            0.6905554133606348,
+            0.5348460291734197,
+            0.6078503752922357,
+            0.5794449527294907,
+            0.42785482443198586
+          ]
+        },
+        {
+          "id": "Re5a7e23177",
+          "reference_words": 1,
+          "predicted_words": 1,
+          "matched_ious": [
+            0.8995692586715031
+          ]
+        },
+        {
+          "id": "R2922cb1c4d",
+          "reference_words": 4,
+          "predicted_words": 4,
+          "matched_ious": [
+            0.815068493150685,
+            0.7245703669298653,
+            0.7153284671532847,
+            0.878500823723229
+          ]
+        },
+        {
+          "id": "Rf190cd318e",
+          "reference_words": 4,
+          "predicted_words": 4,
+          "matched_ious": [
+            0.5954198473282443,
+            0.6945000770297335,
+            0.9467213114754098,
+            0.7421754746023602
+          ]
+        },
+        {
+          "id": "R1a0177a41b",
+          "reference_words": 6,
+          "predicted_words": 6,
+          "matched_ious": [
+            0.577259475218659,
+            0.6113132649685743,
+            0.8077581289218483,
+            0.7036793692509855,
+            0.7925121463275222,
+            0.6441918705451743
+          ]
+        },
+        {
+          "id": "R4612fb0db5",
+          "reference_words": 6,
+          "predicted_words": 6,
+          "matched_ious": [
+            0.6567726737338044,
+            0.4474885844748858,
+            0.6588380716934487,
+            0.6960840937969274,
+            0.6362573099415205,
+            0.7303877366997295
+          ]
+        },
+        {
+          "id": "R387ec4e7d0",
+          "reference_words": 8,
+          "predicted_words": 8,
+          "matched_ious": [
+            0.40175310445580714,
+            0.5966429298067142,
+            0.8172519604500511,
+            0.7560627674750356,
+            0.5977891156462585,
+            0.7171909290416971,
+            0.6154021417179312,
+            0.3430127041742287
+          ]
+        },
+        {
+          "id": "R89b9dcb991",
+          "reference_words": 8,
+          "predicted_words": 8,
+          "matched_ious": [
+            0.7341392849762347,
+            0.5998509687034277,
+            0.5676305065010674,
+            0.4176013805004314,
+            0.5635902788131802,
+            0.6432982201235017,
+            0.5064119340486783,
+            0.6481394253414979
+          ]
+        },
+        {
+          "id": "R1bea4bea15",
+          "reference_words": 10,
+          "predicted_words": 10,
+          "matched_ious": [
+            0.5675675675675675,
+            0.5534294234592445,
+            0.3476297968397291,
+            0.8166666666666667,
+            0.3695090439276486,
+            0.30751081399921354,
+            0.7664047151277014,
+            0.5724055902468035,
+            0.8119918699186992,
+            0.5154109589041096
+          ]
+        },
+        {
+          "id": "R379ddb80f4",
+          "reference_words": 9,
+          "predicted_words": 9,
+          "matched_ious": [
+            0.5742574257425742,
+            0.34161771351107095,
+            0.591187270501836,
+            0.6741632725340889,
+            0.6149296349173975,
+            0.5847443960651508,
+            0.5265382014874915,
+            0.7418593676262388,
+            0.33755274261603374
+          ]
+        },
+        {
+          "id": "R477377d915",
+          "reference_words": 9,
+          "predicted_words": 9,
+          "matched_ious": [
+            0.6197871226662014,
+            0.32142857142857145,
+            0.6639199529134785,
+            0.7178947368421053,
+            0.7798382598996096,
+            0.45751633986928103,
+            0.5379133409350056,
+            0.6625550660792952,
+            0.6287964004499438
+          ]
+        },
+        {
+          "id": "Rdd0cda01dc",
+          "reference_words": 9,
+          "predicted_words": 9,
+          "matched_ious": [
+            0.5630386211299074,
+            0.5654958276732001,
+            0.6631092529431181,
+            0.6565656565656566,
+            0.7155566241885069,
+            0.32428466617754953,
+            0.33611111111111114,
+            0.6122202056866304,
+            0.7596899224806202
+          ]
+        },
+        {
+          "id": "Rd6facdcad1",
+          "reference_words": 8,
+          "predicted_words": 8,
+          "matched_ious": [
+            0.6962420587918596,
+            0.5828156514723679,
+            0.3143283582089552,
+            0.3437358661239258,
+            0.34095940959409593,
+            0.6183866658923283,
+            0.4421052631578947,
+            0.5312895069532237
+          ]
+        },
+        {
+          "id": "R2820e61330",
+          "reference_words": 10,
+          "predicted_words": 10,
+          "matched_ious": [
+            0.54375,
+            0.4619324001365654,
+            0.722007722007722,
+            0.663109756097561,
+            0.29411764705882354,
+            0.36009959539371306,
+            0.44375,
+            0.4857142857142857,
+            0.5960181451612904,
+            0.3783783783783784
+          ]
+        },
+        {
+          "id": "Rd97daded21",
+          "reference_words": 12,
+          "predicted_words": 12,
+          "matched_ious": [
+            0.4651600753295669,
+            0.29906542056074764,
+            0.24408163265306124,
+            0.3483766233766234,
+            0.5409252669039146,
+            0.3702791461412151,
+            0.558041958041958,
+            0.4678281068524971,
+            0.37410071942446044,
+            0.43838136112814224,
+            0.5770750988142292,
+            0.49361702127659574
+          ]
+        },
+        {
+          "id": "Rcf0da9fbab",
+          "reference_words": 7,
+          "predicted_words": 7,
+          "matched_ious": [
+            0.8201892744479495,
+            0.5480314960629922,
+            0.5579872802095024,
+            0.42572062084257206,
+            0.6738070358760014,
+            0.2660753880266075,
+            0.5681649331352154
+          ]
+        }
+      ]
+    },
+    "vlm_forced_ctc_ink": {
+      "method": "forced_ctc_separators_plus_ink",
+      "reference_words": 121,
+      "predicted_words": 121,
+      "matched_pairs": 121,
+      "mean_iou_matched": 0.6208984438883175,
+      "matches_iou50": 90,
+      "precision_iou50": 0.743801652892562,
+      "recall_iou50": 0.743801652892562,
+      "matches_iou80": 19,
+      "precision_iou80": 0.15702479338842976,
+      "recall_iou80": 0.15702479338842976,
+      "lines_all_words_iou80": 1,
+      "per_line": [
+        {
+          "id": "R632ec6675c",
+          "reference_words": 10,
+          "predicted_words": 10,
+          "matched_ious": [
+            0.7811447811447811,
+            0.4966119560307183,
+            0.5134843581445523,
+            0.6340124564551884,
+            0.8161616161616162,
+            0.7972642892037127,
+            0.8809523809523809,
+            0.6322357019064124,
+            0.46636363636363637,
+            0.43202764976958524
+          ]
+        },
+        {
+          "id": "Re5a7e23177",
+          "reference_words": 1,
+          "predicted_words": 1,
+          "matched_ious": [
+            0.8995692586715031
+          ]
+        },
+        {
+          "id": "R2922cb1c4d",
+          "reference_words": 4,
+          "predicted_words": 4,
+          "matched_ious": [
+            0.9444444444444444,
+            0.9092261904761905,
+            0.774482109227872,
+            0.7966666666666666
+          ]
+        },
+        {
+          "id": "Rf190cd318e",
+          "reference_words": 4,
+          "predicted_words": 4,
+          "matched_ious": [
+            0.931402800854498,
+            0.8060030523995252,
+            0.8431840516636249,
+            0.7006304657311369
+          ]
+        },
+        {
+          "id": "R1a0177a41b",
+          "reference_words": 6,
+          "predicted_words": 6,
+          "matched_ious": [
+            0.5835411471321695,
+            0.6492545806304768,
+            0.6882124809025737,
+            0.7894736842105263,
+            0.7535579174923437,
+            0.7289002557544757
+          ]
+        },
+        {
+          "id": "R4612fb0db5",
+          "reference_words": 6,
+          "predicted_words": 6,
+          "matched_ious": [
+            0.74,
+            0.44570819264261596,
+            0.8437004405286344,
+            0.7796610169491526,
+            0.5053883314752879,
+            0.7345175228036486
+          ]
+        },
+        {
+          "id": "R387ec4e7d0",
+          "reference_words": 8,
+          "predicted_words": 8,
+          "matched_ious": [
+            0.9354838709677419,
+            1.0,
+            0.7239504681365146,
+            0.7696456086286595,
+            0.5303066892055059,
+            0.7014588859416445,
+            0.605414273995078,
+            0.7138694638694638
+          ]
+        },
+        {
+          "id": "R89b9dcb991",
+          "reference_words": 8,
+          "predicted_words": 8,
+          "matched_ious": [
+            0.6644533807163565,
+            0.5003885003885004,
+            0.52,
+            0.4348607367475292,
+            0.6357744653272845,
+            0.7796610169491526,
+            0.7413793103448276,
+            0.5854856822010107
+          ]
+        },
+        {
+          "id": "R1bea4bea15",
+          "reference_words": 10,
+          "predicted_words": 10,
+          "matched_ious": [
+            0.6068515497553018,
+            0.5509259259259259,
+            0.49514563106796117,
+            0.6588064949839694,
+            0.4587488667271079,
+            0.6695515342250197,
+            0.9255782001373941,
+            0.46497584541062803,
+            0.714987714987715,
+            0.48158640226628896
+          ]
+        },
+        {
+          "id": "R379ddb80f4",
+          "reference_words": 9,
+          "predicted_words": 9,
+          "matched_ious": [
+            0.532174662453318,
+            0.33722438391699094,
+            0.49177877428998507,
+            0.6007237635705669,
+            0.5508684863523573,
+            0.5647956749880744,
+            0.45408163265306123,
+            0.6364535919255888,
+            0.3449675324675325
+          ]
+        },
+        {
+          "id": "R477377d915",
+          "reference_words": 9,
+          "predicted_words": 9,
+          "matched_ious": [
+            0.9644773830820342,
+            0.375,
+            0.5879593432369038,
+            0.5440765855604308,
+            0.6436152002738789,
+            0.4838709677419355,
+            0.6252913752913752,
+            0.8181818181818182,
+            0.5071471113758189
+          ]
+        },
+        {
+          "id": "Rdd0cda01dc",
+          "reference_words": 9,
+          "predicted_words": 9,
+          "matched_ious": [
+            0.6127659574468085,
+            0.5378521126760564,
+            0.5823188405797102,
+            0.7495835646862854,
+            0.587026709715292,
+            0.38293515358361774,
+            0.4255224544241885,
+            0.5061802833886042,
+            0.6018585858585859
+          ]
+        },
+        {
+          "id": "Rd6facdcad1",
+          "reference_words": 8,
+          "predicted_words": 8,
+          "matched_ious": [
+            0.6673662119622246,
+            0.8605520067494276,
+            0.42272179847450825,
+            0.5401563610518835,
+            0.5092592592592593,
+            0.5030947318686511,
+            0.46153846153846156,
+            0.7195918367346938
+          ]
+        },
+        {
+          "id": "R2820e61330",
+          "reference_words": 10,
+          "predicted_words": 10,
+          "matched_ious": [
+            0.9827586206896551,
+            0.6288343558282209,
+            0.7469553450608931,
+            0.6904761904761905,
+            0.50304114490161,
+            0.25115380487281314,
+            0.5568627450980392,
+            0.4830917874396135,
+            0.47375801282051283,
+            1.0
+          ]
+        },
+        {
+          "id": "Rd97daded21",
+          "reference_words": 12,
+          "predicted_words": 12,
+          "matched_ious": [
+            0.4105812220566319,
+            0.3270803270803271,
+            0.2735490009514748,
+            0.358974358974359,
+            0.5023065094823168,
+            0.5001648532805802,
+            0.5711796100642631,
+            0.33940006740815637,
+            0.5205047318611987,
+            0.3651464814255512,
+            0.45479651162790696,
+            0.43956043956043955
+          ]
+        },
+        {
+          "id": "Rcf0da9fbab",
+          "reference_words": 7,
+          "predicted_words": 7,
+          "matched_ious": [
+            0.6820452541874816,
+            0.6527319398606527,
+            0.5772617319787131,
+            0.9434889434889435,
+            0.5888888888888889,
+            0.9290322580645162,
+            0.475
+          ]
+        }
+      ]
+    },
+    "hybrid": {
+      "method": "a19_fast_else_forced_ctc_ink",
+      "reference_words": 121,
+      "predicted_words": 121,
+      "matched_pairs": 121,
+      "mean_iou_matched": 0.6361745310438909,
+      "matches_iou50": 91,
+      "precision_iou50": 0.7520661157024794,
+      "recall_iou50": 0.7520661157024794,
+      "matches_iou80": 24,
+      "precision_iou80": 0.19834710743801653,
+      "recall_iou80": 0.19834710743801653,
+      "lines_all_words_iou80": 2,
+      "per_line": [
+        {
+          "id": "R632ec6675c",
+          "reference_words": 10,
+          "predicted_words": 10,
+          "matched_ious": [
+            0.7811447811447811,
+            0.4966119560307183,
+            0.5134843581445523,
+            0.6340124564551884,
+            0.8161616161616162,
+            0.7972642892037127,
+            0.8809523809523809,
+            0.6322357019064124,
+            0.46636363636363637,
+            0.43202764976958524
+          ]
+        },
+        {
+          "id": "Re5a7e23177",
+          "reference_words": 1,
+          "predicted_words": 1,
+          "matched_ious": [
+            1.0
+          ]
+        },
+        {
+          "id": "R2922cb1c4d",
+          "reference_words": 4,
+          "predicted_words": 4,
+          "matched_ious": [
+            0.9444444444444444,
+            0.9092261904761905,
+            0.774482109227872,
+            0.7966666666666666
+          ]
+        },
+        {
+          "id": "Rf190cd318e",
+          "reference_words": 4,
+          "predicted_words": 4,
+          "matched_ious": [
+            0.931402800854498,
+            0.8060030523995252,
+            0.8431840516636249,
+            0.7006304657311369
+          ]
+        },
+        {
+          "id": "R1a0177a41b",
+          "reference_words": 6,
+          "predicted_words": 6,
+          "matched_ious": [
+            0.5835411471321695,
+            0.6492545806304768,
+            0.6882124809025737,
+            0.7894736842105263,
+            0.7535579174923437,
+            0.7289002557544757
+          ]
+        },
+        {
+          "id": "R4612fb0db5",
+          "reference_words": 6,
+          "predicted_words": 6,
+          "matched_ious": [
+            0.8961303462321792,
+            0.9736842105263158,
+            0.9743589743589743,
+            1.0,
+            0.975,
+            0.9777777777777777
+          ]
+        },
+        {
+          "id": "R387ec4e7d0",
+          "reference_words": 8,
+          "predicted_words": 8,
+          "matched_ious": [
+            0.9354838709677419,
+            1.0,
+            0.7239504681365146,
+            0.7696456086286595,
+            0.5303066892055059,
+            0.7014588859416445,
+            0.605414273995078,
+            0.7138694638694638
+          ]
+        },
+        {
+          "id": "R89b9dcb991",
+          "reference_words": 8,
+          "predicted_words": 8,
+          "matched_ious": [
+            0.6644533807163565,
+            0.5003885003885004,
+            0.52,
+            0.4348607367475292,
+            0.6357744653272845,
+            0.7796610169491526,
+            0.7413793103448276,
+            0.5854856822010107
+          ]
+        },
+        {
+          "id": "R1bea4bea15",
+          "reference_words": 10,
+          "predicted_words": 10,
+          "matched_ious": [
+            0.6068515497553018,
+            0.5509259259259259,
+            0.49514563106796117,
+            0.6588064949839694,
+            0.4587488667271079,
+            0.6695515342250197,
+            0.9255782001373941,
+            0.46497584541062803,
+            0.714987714987715,
+            0.48158640226628896
+          ]
+        },
+        {
+          "id": "R379ddb80f4",
+          "reference_words": 9,
+          "predicted_words": 9,
+          "matched_ious": [
+            0.532174662453318,
+            0.33722438391699094,
+            0.49177877428998507,
+            0.6007237635705669,
+            0.5508684863523573,
+            0.5647956749880744,
+            0.45408163265306123,
+            0.6364535919255888,
+            0.3449675324675325
+          ]
+        },
+        {
+          "id": "R477377d915",
+          "reference_words": 9,
+          "predicted_words": 9,
+          "matched_ious": [
+            0.9644773830820342,
+            0.375,
+            0.5879593432369038,
+            0.5440765855604308,
+            0.6436152002738789,
+            0.4838709677419355,
+            0.6252913752913752,
+            0.8181818181818182,
+            0.5071471113758189
+          ]
+        },
+        {
+          "id": "Rdd0cda01dc",
+          "reference_words": 9,
+          "predicted_words": 9,
+          "matched_ious": [
+            0.6127659574468085,
+            0.5378521126760564,
+            0.5823188405797102,
+            0.7495835646862854,
+            0.587026709715292,
+            0.38293515358361774,
+            0.4255224544241885,
+            0.5061802833886042,
+            0.6018585858585859
+          ]
+        },
+        {
+          "id": "Rd6facdcad1",
+          "reference_words": 8,
+          "predicted_words": 8,
+          "matched_ious": [
+            0.6673662119622246,
+            0.8605520067494276,
+            0.42272179847450825,
+            0.5401563610518835,
+            0.5092592592592593,
+            0.5030947318686511,
+            0.46153846153846156,
+            0.7195918367346938
+          ]
+        },
+        {
+          "id": "R2820e61330",
+          "reference_words": 10,
+          "predicted_words": 10,
+          "matched_ious": [
+            0.9827586206896551,
+            0.6288343558282209,
+            0.7469553450608931,
+            0.6904761904761905,
+            0.50304114490161,
+            0.25115380487281314,
+            0.5568627450980392,
+            0.4830917874396135,
+            0.47375801282051283,
+            1.0
+          ]
+        },
+        {
+          "id": "Rd97daded21",
+          "reference_words": 12,
+          "predicted_words": 12,
+          "matched_ious": [
+            0.4105812220566319,
+            0.3270803270803271,
+            0.2735490009514748,
+            0.358974358974359,
+            0.5023065094823168,
+            0.5001648532805802,
+            0.5711796100642631,
+            0.33940006740815637,
+            0.5205047318611987,
+            0.3651464814255512,
+            0.45479651162790696,
+            0.43956043956043955
+          ]
+        },
+        {
+          "id": "Rcf0da9fbab",
+          "reference_words": 7,
+          "predicted_words": 7,
+          "matched_ious": [
+            0.6820452541874816,
+            0.6527319398606527,
+            0.5772617319787131,
+            0.9434889434889435,
+            0.5888888888888889,
+            0.9290322580645162,
+            0.475
+          ]
+        }
+      ]
+    }
+  },
+  "cache_paths": {
+    "ferrepit_667769218": "experiments/loop/ctc-fallback-a23/recognition/ferrepit_667769218",
+    "688357687_688358799_1771000800": "experiments/loop/ctc-fallback-a23/recognition/688357687_688358799_1771000800",
+    "erasexom_816221448": "experiments/loop/ctc-fallback-a23/recognition/erasexom_816221448",
+    "canitrac_789765837": "experiments/loop/ctc-fallback-a23/recognition/canitrac_789765837"
+  },
+  "invariants": {
+    "protocol_frozen_before_run": true,
+    "final_sol_text_unchanged": true,
+    "all_forced_word_counts_equal_sol_tokens": true,
+    "protected_inputs_unchanged": true
+  },
+  "reference_status": "external SBB GT, provider+SBB post-correction/manual page inspection; not perfect adjudicated truth",
+  "limitations": [
+    "A22 was opened and scored previously, so this cannot be an independent validation",
+    "line polygons and token counts are oracle-conditional",
+    "proxy text guides geometry only and is not output",
+    "one-to-one geometry matching does not certify word identity",
+    "synthetic horizontal baselines may disadvantage PERO"
+  ],
+  "accepted_for_project_completion_gate": false,
+  "protected_input_sha256": {
+    "experiments/loop/ctc-fallback-a23/PROTOCOL.md": "d441622efd8624c1c38d98d075abe8173673b0cb2ee4176e8697153f1b41aaf1",
+    "experiments/loop/reserve-a22/private-reference.json": "ed3d258856ee838bb4e2f6d5c2526109b6a581d51de932a23574be07f4ed1743",
+    "experiments/loop/reserve-a22/sol-response.json": "252a769e474dc442772d4c6e7b372d0a9cf21e435ad39705c7a3fe9038f5fd9f",
+    "experiments/loop/reserve-a22/report.json": "48c113477de928db31f1e51ed8171c5ce1de6b87435a802836a333c9b4d6651b",
+    "experiments/loop/reference-a18/source/data/688357687_688358799_1771000800/OCR-D-IMG/OCR-D-IMG_00000082.tif": "d708f89b144e984f8a46377f0d2a778547a4ddc918526ebdfb5d836b6ebea1a6",
+    "experiments/loop/reference-a18/source/data/canitrac_789765837/OCR-D-IMG/OCR-D-IMG_00000116.tif": "7f33899562850465961f1144b5b196c6f5eaf3dc4fafb7bce1cbbeb7d2a9a292",
+    "experiments/loop/reference-a18/source/data/erasexom_816221448/OCR-D-IMG/OCR-D-IMG_00000029.tif": "65f1b9a287cb911785536c2379260ed1541d21a19c0a7ac8bc1746f32786c89e",
+    "experiments/loop/reference-a18/source/data/ferrepit_667769218/OCR-D-IMG/OCR-D-IMG_00000028.tif": "5ed7e025f58b5a33690a265fbf6b42646f490636ba7130b6dc7f2879e63cbe42"
+  }
+}

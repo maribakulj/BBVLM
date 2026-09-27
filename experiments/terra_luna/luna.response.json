@@ -1,0 +1,79 @@
+{
+  "requested_line_ids": [
+    "R01_L01", "R02_L01", "R03_L01", "R04_L01", "R05_L01",
+    "R06_L01", "R06_L02", "R06_L03", "R07_L01", "R08_L01",
+    "R08_L02", "R08_L03", "R09_L01", "R09_L02", "R09_L03",
+    "R10_L01", "R11_L01", "R11_L02", "R11_L03", "R12_L01",
+    "R12_L02", "R12_L03", "R13_L01", "R13_L02", "R13_L03"
+  ],
+  "lines": [
+    {"id":"R01_L01","text":"Seite 2","uncertain":false,"notes":""},
+    {"id":"R02_L01","text":"Wien, Samstag","uncertain":false,"notes":""},
+    {"id":"R03_L01","text":"Arbeiter-Zeitung.","uncertain":false,"notes":""},
+    {"id":"R04_L01","text":"6. Juli 1895","uncertain":false,"notes":""},
+    {"id":"R05_L01","text":"Nr. 182","uncertain":false,"notes":""},
+    {"id":"R06_L01","text":"und Antiliberalen aus ihren Verſtecken in die Oeffentlich-","uncertain":false,"notes":""},
+    {"id":"R06_L02","text":"keit treiben.","uncertain":false,"notes":""},
+    {"id":"R06_L03","text":"Die Wiener Liberalen haben noch immer kein","uncertain":false,"notes":""},
+    {"id":"R07_L01","text":"Die Regierung und die Beamten.","uncertain":false,"notes":""},
+    {"id":"R08_L01","text":"Wien 5. Juli.","uncertain":false,"notes":""},
+    {"id":"R08_L02","text":"Graf Kielmansegg hat gestern erklärt, die Regierung","uncertain":false,"notes":""},
+    {"id":"R08_L03","text":"ſei „geradezu eiferſüchtig“ darauf bedacht, die Sache der","uncertain":false,"notes":""},
+    {"id":"R09_L01","text":"und wie wird das Parlament wirkliche Energie anwenden,","uncertain":false,"notes":""},
+    {"id":"R09_L02","text":"um den Beamten ernstlich zu helfen, denn die Parteien","uncertain":false,"notes":""},
+    {"id":"R09_L03","text":"wünſchen zwar eine billige Popularität, aber noch mehr","uncertain":false,"notes":""},
+    {"id":"R10_L01","text":"Oesterreichischer Reichsrath.","uncertain":false,"notes":""},
+    {"id":"R11_L01","text":"Wien, 5. Juli.","uncertain":false,"notes":""},
+    {"id":"R11_L02","text":"Wenn Graf Kielmansegg ſich gestern darauf berief, daß","uncertain":false,"notes":""},
+    {"id":"R11_L03","text":"er die Zustände in Prag nicht kenne und daher nicht ſelbſt","uncertain":false,"notes":""},
+    {"id":"R12_L01","text":"bar, und er brachte Thatsachen vor, die den edlen Grafen","uncertain":true,"notes":"The final word is partly clipped at the right edge; read as Grafen from the visible letters and context."},
+    {"id":"R12_L02","text":"Thun in helles Licht rücken. Dr. Kramarisch machte mit","uncertain":false,"notes":""},
+    {"id":"R12_L03","text":"Recht darauf aufmerksam, wie ruhig das große","uncertain":false,"notes":""},
+    {"id":"R13_L01","text":"Nachstehend der Bericht:","uncertain":false,"notes":""},
+    {"id":"R13_L02","text":"Abgeordnetenhaus. (406. Sitzung.) Präsident Frei-","uncertain":false,"notes":""},
+    {"id":"R13_L03","text":"herr v. Chlumecky eröffnet die Sitzung um 10 Uhr 15 Mi-","uncertain":false,"notes":""}
+  ],
+  "regions": [
+    {"id":"R01","role":"header"},
+    {"id":"R02","role":"header"},
+    {"id":"R03","role":"header"},
+    {"id":"R04","role":"header"},
+    {"id":"R05","role":"header"},
+    {"id":"R06","role":"body"},
+    {"id":"R07","role":"title"},
+    {"id":"R08","role":"body"},
+    {"id":"R09","role":"body"},
+    {"id":"R10","role":"title"},
+    {"id":"R11","role":"body"},
+    {"id":"R12","role":"body"},
+    {"id":"R13","role":"body"}
+  ],
+  "reading_order": [
+    {"before":"R01","after":"R02"},
+    {"before":"R02","after":"R03"},
+    {"before":"R03","after":"R04"},
+    {"before":"R04","after":"R05"},
+    {"before":"R06","after":"R07"},
+    {"before":"R07","after":"R08"},
+    {"before":"R08","after":"R09"},
+    {"before":"R09","after":"R10"},
+    {"before":"R10","after":"R11"},
+    {"before":"R11","after":"R12"},
+    {"before":"R12","after":"R13"}
+  ],
+  "articles": [
+    {"id":"A1","title":"","regions":["R06"]},
+    {"id":"A2","title":"Die Regierung und die Beamten.","regions":["R07","R08","R09"]},
+    {"id":"A3","title":"Oesterreichischer Reichsrath.","regions":["R10","R11","R12","R13"]}
+  ],
+  "metadata": [
+    {"field":"page_number","value":"2","category":"observed","evidence":["R01_L01"]},
+    {"field":"publication","value":"Arbeiter-Zeitung.","category":"observed","evidence":["R03_L01"]},
+    {"field":"place","value":"Wien","category":"observed","evidence":["R02_L01"]},
+    {"field":"weekday","value":"Samstag","category":"observed","evidence":["R02_L01"]},
+    {"field":"publication_date","value":"6. Juli 1895","category":"observed","evidence":["R04_L01"]},
+    {"field":"issue_number","value":"182","category":"observed","evidence":["R05_L01"]},
+    {"field":"article_date","value":"Wien 5. Juli.","category":"observed","evidence":["R08_L01"]},
+    {"field":"article_date","value":"Wien, 5. Juli.","category":"observed","evidence":["R11_L01"]}
+  ]
+}

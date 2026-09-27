@@ -1,0 +1,164 @@
+{
+  "schema": "bbvlm.blind-olr-evaluation/2",
+  "split_role": "frozen_validation_consumed_after_this_evaluation",
+  "reader": "gpt-6-luna",
+  "passes": 1,
+  "transport": "short_random_visual_tokens_strictly_bound_to_stable_ids_after_response",
+  "raw_structural_valid": true,
+  "raw_structural_errors": [],
+  "repair_attempted": false,
+  "pages": [
+    {
+      "page": "0003",
+      "regions": 12,
+      "known_order_regions": 8,
+      "unknown_or_unordered_regions": 4,
+      "reading_order_correct_pairs": 16,
+      "reading_order_pairs": 28,
+      "reading_order_pair_accuracy_known_subset": 0.5714285714285714,
+      "semantic_group_true_positive_pairs": 5,
+      "semantic_group_predicted_pairs": 13,
+      "semantic_group_reference_pairs": 6,
+      "semantic_group_pair_precision": 0.38461538461538464,
+      "semantic_group_pair_recall": 0.8333333333333334,
+      "semantic_group_pair_f1": 0.5263157894736842,
+      "reference_semantic_units": 7,
+      "predicted_semantic_units": 4,
+      "role_correct": 7,
+      "roles": 12,
+      "role_accuracy": 0.5833333333333334,
+      "role_confusion": [
+        {
+          "reference": "HEADER",
+          "predicted": "HEADER",
+          "count": 2
+        },
+        {
+          "reference": "MASTHEAD",
+          "predicted": "MASTHEAD",
+          "count": 1
+        },
+        {
+          "reference": "MASTHEAD",
+          "predicted": "OTHER",
+          "count": 2
+        },
+        {
+          "reference": "OTHER",
+          "predicted": "TEXT",
+          "count": 1
+        },
+        {
+          "reference": "TEXT",
+          "predicted": "HEADER",
+          "count": 1
+        },
+        {
+          "reference": "TEXT",
+          "predicted": "TEXT",
+          "count": 4
+        },
+        {
+          "reference": "UNKNOWN",
+          "predicted": "TEXT",
+          "count": 1
+        }
+      ],
+      "uncertain_region_ids": [
+        "R35089da41d57b1a9"
+      ],
+      "page_gate_passed": false
+    },
+    {
+      "page": "0008",
+      "regions": 30,
+      "known_order_regions": 27,
+      "unknown_or_unordered_regions": 3,
+      "reading_order_correct_pairs": 311,
+      "reading_order_pairs": 351,
+      "reading_order_pair_accuracy_known_subset": 0.886039886039886,
+      "semantic_group_true_positive_pairs": 11,
+      "semantic_group_predicted_pairs": 32,
+      "semantic_group_reference_pairs": 14,
+      "semantic_group_pair_precision": 0.34375,
+      "semantic_group_pair_recall": 0.7857142857142857,
+      "semantic_group_pair_f1": 0.4782608695652174,
+      "reference_semantic_units": 21,
+      "predicted_semantic_units": 17,
+      "role_correct": 23,
+      "roles": 30,
+      "role_accuracy": 0.7666666666666667,
+      "role_confusion": [
+        {
+          "reference": "ADVERT",
+          "predicted": "ADVERT",
+          "count": 12
+        },
+        {
+          "reference": "ADVERT",
+          "predicted": "HEADER",
+          "count": 2
+        },
+        {
+          "reference": "HEADER",
+          "predicted": "HEADER",
+          "count": 3
+        },
+        {
+          "reference": "HEADER",
+          "predicted": "OTHER",
+          "count": 1
+        },
+        {
+          "reference": "MASTHEAD",
+          "predicted": "MASTHEAD",
+          "count": 1
+        },
+        {
+          "reference": "MASTHEAD",
+          "predicted": "OTHER",
+          "count": 2
+        },
+        {
+          "reference": "TEXT",
+          "predicted": "HEADER",
+          "count": 1
+        },
+        {
+          "reference": "TEXT",
+          "predicted": "OTHER",
+          "count": 1
+        },
+        {
+          "reference": "TEXT",
+          "predicted": "TEXT",
+          "count": 7
+        }
+      ],
+      "uncertain_region_ids": [
+        "R01e36327680ac655",
+        "Ra202a30717de3a84",
+        "Rd7925a29b7060405"
+      ],
+      "page_gate_passed": false
+    }
+  ],
+  "aggregate": {
+    "reading_order_pair_accuracy_micro": 0.862796833773087,
+    "semantic_group_pair_precision_micro": 0.35555555555555557,
+    "semantic_group_pair_recall_micro": 0.8,
+    "semantic_group_pair_f1_micro": 0.4923076923076923,
+    "role_accuracy_micro": 0.7142857142857143
+  },
+  "frozen_gates": {
+    "raw_structural_valid": true,
+    "reading_order_pair_accuracy_each_page_min": 0.9,
+    "semantic_group_pair_f1_each_page_min": 0.8,
+    "role_accuracy_each_page_min": 0.8
+  },
+  "content_gate_passed": false,
+  "accepted_for_project_completion_gate": false,
+  "reference_warning": "Distributed SSU/order/role labels are provisional, not independently adjudicated ground truth. These validation pages are consumed by this fixed protocol after scoring.",
+  "leakage_control": "Short tokens are deterministically shuffled per page and reveal neither source IDs, geometry order, reading order, text, role nor semantic unit.",
+  "binding_control": "The model never handles stable IDs; strict software validation binds tokens to them after the response, with no repair."
+}

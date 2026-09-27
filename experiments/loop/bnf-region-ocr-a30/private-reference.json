@@ -1,0 +1,165 @@
+{
+  "schema": "bbvlm.bnf-region-ocr-a30-private/1",
+  "items": {
+    "T014": {
+      "source_id": "r1266",
+      "reference": "Le parquet va instruire l'effaire. Une confron‑\ntation officielle aura lieu incessamment.",
+      "crop_bbox": [
+        3043,
+        3901,
+        3645,
+        3980
+      ]
+    },
+    "T008": {
+      "source_id": "r442",
+      "reference": "« Lé Sénat fera aboutir, sous l'impulsion\nattentive et énergique du gouvernement, la\nrefonte de nos lois fiscales, dont seul l'impôt\nsur le revenu permettra de relever les iné‑\ngalités et de rechercher les injustices. Son\nprincipe, unanimement accepté, vaudra sur‑\ntout par les moyens d'application qui doi‑\nvent exclure toutes les mesures agressives\nde la liberté du foyer et du secret commer‑\ncial.",
+      "crop_bbox": [
+        125,
+        4294,
+        757,
+        4586
+      ]
+    },
+    "T006": {
+      "source_id": "r872",
+      "reference": "Le Meurtrier sera défendu par Me Henri\nRobert",
+      "crop_bbox": [
+        1897,
+        3487,
+        2480,
+        3584
+      ]
+    },
+    "T012": {
+      "source_id": "r810",
+      "reference": "La commission des inondations s'est réu‑\nnie, hier matin au ministère de l'intérieur,\nsous la présidence de M. Alfred Picard.",
+      "crop_bbox": [
+        1904,
+        2186,
+        2486,
+        2306
+      ]
+    },
+    "T013": {
+      "source_id": "r1262",
+      "reference": "Cet après‑midi, Mlle Fabre, placée dans le bu‑\nreau du gardien chef à la maison d'arrêt, a par‑\nfaitement reconnu parmi les détenus, qui ont dé‑\nfilé devant elle, Lamarque comme étant son\nagresseur.",
+      "crop_bbox": [
+        3044,
+        3791,
+        3645,
+        3931
+      ]
+    },
+    "T001": {
+      "source_id": "r1726",
+      "reference": "ARRONDISSEMENT DE SAINT‑DENIS. — 1re Cir‑\nconscription (canton de Pantin et de Noisy‑\nle‑Sec). — Le député sortant, M. Adrien Ve‑\nber, socialiste unifié, a pour concurrents\nMM. Trouselle, radical socialiste ; Jacque‑\nmin et Rimbault, socialistes indépendants.",
+      "crop_bbox": [
+        749,
+        3170,
+        1334,
+        3361
+      ]
+    },
+    "T009": {
+      "source_id": "r1430",
+      "reference": "3° Circonscription. — Les socialistes uni‑\nfiés opposent M. Jean Martin à M. Coutant,\ndéputé sortant, socialiste indépendant.",
+      "crop_bbox": [
+        1329,
+        135,
+        1912,
+        238
+      ]
+    },
+    "T005": {
+      "source_id": "r624",
+      "reference": "Le général Chomer est arrivé hier à Bel‑\nfort. Il a fait donner cette nuit l'alerte aux\ngarnisons de Belfort, Lure, Héricourt et\nMontbéliard. A la première heure, les trou‑\npes se mettaient en marche et se rencon‑\ntraient près d'Héricourt où elles ont ma‑\nnœuvré.",
+      "crop_bbox": [
+        1330,
+        1737,
+        1913,
+        1949
+      ]
+    },
+    "T010": {
+      "source_id": "r876",
+      "reference": "M. Gaston Waché de Roo a écrit, hier\nmatin, à Me Henri Robert afin de le prier\nde vouloir bien l'assister devant le juge\nd'instruction et présenter sa défense devant\nle jury.",
+      "crop_bbox": [
+        1897,
+        3553,
+        2479,
+        3719
+      ]
+    },
+    "T007": {
+      "source_id": "r710",
+      "reference": "— Cest possible. Mais la lettre de M. l'abbé\nDemazures n'en est pas moins là. Le président\nde la Société de Saint‑Denis vous a fait des pro‑\npositions qui tendaient à procéder à une vente à\nl'amiable ?",
+      "crop_bbox": [
+        1320,
+        4117,
+        1900,
+        4262
+      ]
+    },
+    "T015": {
+      "source_id": "r296",
+      "reference": "M. Le Guennic et ses amis révolution‑\nnaires mènent aussitôt grand vacarme. Ils\nprennent acte des paroles du secrétaire de\nl'organisation, qui avoue « qu'il y a du\nlinge sale à laver ».",
+      "crop_bbox": [
+        152,
+        891,
+        765,
+        1060
+      ]
+    },
+    "T003": {
+      "source_id": "r844",
+      "reference": "Le Drame de l'Avenue Henri‑Martin. — Les\npremières Opérations judicia�es",
+      "crop_bbox": [
+        1904,
+        2874,
+        2485,
+        2976
+      ]
+    },
+    "T011": {
+      "source_id": "r1122",
+      "reference": "Le prince Pignatelli d'Aragon, à la suite\nd'une discussion fort animée au sujet d'un\ncoup d'escrime, avait envoyé ses témoins,\nMM. de Merey et de Roumefort, à M. Max\nLinder.",
+      "crop_bbox": [
+        3051,
+        497,
+        3646,
+        658
+      ]
+    },
+    "T004": {
+      "source_id": "r860",
+      "reference": "Malgré les instances de la famille, le\ncorps de la victime a été transporté, hier\nsoir, à la Morgue aux fins d'autopsie. La\nballe du revolver a traversé la joue et est\nallée se loger dans la carotide ; la mort a\nété foudroyante.",
+      "crop_bbox": [
+        1901,
+        3139,
+        2485,
+        3316
+      ]
+    },
+    "T016": {
+      "source_id": "r880",
+      "reference": "Me Henri Robert a accepté cette délicate\nmission et accompagné de l'un de ses se‑\ncrétaires, Me Albert Dusart, il s'est rendu\ndans l'après‑midi à la prison de la Santé où\nune longue entrevue a eu lieu entre les\navocats et leur nouveau client, afin de\npréparer l'interrogatoire que fera subir au\nparricide, aujourd'hui samedi, M. le juge\nd'instruction Bouissou.",
+      "crop_bbox": [
+        1894,
+        3682,
+        2479,
+        3943
+      ]
+    },
+    "T002": {
+      "source_id": "r1130",
+      "reference": "Dans la soirée de jeudi, les quatre témoins\nse réunirent une première fois et ne purent\nse mettre d'accord.",
+      "crop_bbox": [
+        3051,
+        706,
+        3646,
+        809
+      ]
+    }
+  }
+}

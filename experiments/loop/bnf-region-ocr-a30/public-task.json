@@ -1,0 +1,105 @@
+{
+  "schema": "bbvlm.bnf-region-ocr-a30-task/1",
+  "page": "00123532",
+  "items": [
+    {
+      "id": "T001",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T001.png",
+      "sha256": "1bbdb2858cb753c2e78c5d3d1c4c22606c1e68cd1a8bc8135e7395a2f5dc0df1"
+    },
+    {
+      "id": "T002",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T002.png",
+      "sha256": "8fa7c135a717bcb626ad4d194ac10deb77326ebf13937b3b628aa60d9b976d00"
+    },
+    {
+      "id": "T003",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T003.png",
+      "sha256": "54c164b3f24383899a63708a38aa82c1865a09cca6c7ed84594d229abace1baa"
+    },
+    {
+      "id": "T004",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T004.png",
+      "sha256": "f4a2113f176f0b4e910b4e475161d12400b235af0a6ca7f2b5b74649355689db"
+    },
+    {
+      "id": "T005",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T005.png",
+      "sha256": "99e30146d365f75d09cdbef770df8cda7f437658da8742bf765535f4678d85b6"
+    },
+    {
+      "id": "T006",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T006.png",
+      "sha256": "72eeaac0aa387484dbebbd9a6628992040e4014501dad095e7c136afcebd32c8"
+    },
+    {
+      "id": "T007",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T007.png",
+      "sha256": "7b9684f3abfe9c74b5bd999f5460ce08a4b74c9bce8c9882804dead51f07914f"
+    },
+    {
+      "id": "T008",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T008.png",
+      "sha256": "6323a4d928ea4198194c315b81320182a8e1902660db0cf91f55fe1849a27070"
+    },
+    {
+      "id": "T009",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T009.png",
+      "sha256": "a93b1dcbb9d114c9183569fd801f2e2bd186e1cb33c8a4f3fea49a0c3ac2fe13"
+    },
+    {
+      "id": "T010",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T010.png",
+      "sha256": "3d824d98249fc18658e88a9209203c03c9946f98b4f0596ddb62f19ec451f0f0"
+    },
+    {
+      "id": "T011",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T011.png",
+      "sha256": "59c4c46ea0b3ddc7e25aed98faa512fe89ffcdb4358d25e03e46e397ef6b87c3"
+    },
+    {
+      "id": "T012",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T012.png",
+      "sha256": "622001a679adb7b288414a412f59d451075337194fdcebab872f57959271f4d3"
+    },
+    {
+      "id": "T013",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T013.png",
+      "sha256": "186fbac06fb32263d150cb3fe0a529db0fad53b517143165a72be261f08267d6"
+    },
+    {
+      "id": "T014",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T014.png",
+      "sha256": "9782b19f12a594cab0ece67b55b9ba4a50a8816573c11080c259152543d8240a"
+    },
+    {
+      "id": "T015",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T015.png",
+      "sha256": "c4dcd1e2706fa2c3846a3e13ed351c4330379814c0b9c21802479c26e816d350"
+    },
+    {
+      "id": "T016",
+      "image": "experiments/loop/bnf-region-ocr-a30/visual-input/T016.png",
+      "sha256": "67528564bb2767dbf605bd4d2f6c0ee04c6dd2e491bcbdce8810200afe05614d"
+    }
+  ],
+  "expected_ids": [
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T006",
+    "T007",
+    "T008",
+    "T009",
+    "T010",
+    "T011",
+    "T012",
+    "T013",
+    "T014",
+    "T015",
+    "T016"
+  ],
+  "output_path": "experiments/loop/bnf-region-ocr-a30/candidate/luna.json"
+}

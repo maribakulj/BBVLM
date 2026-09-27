@@ -1,0 +1,1393 @@
+{
+  "schema": "bbvlm.loop-checkpoint/1",
+  "updated_unix": 1790519661.63782,
+  "status": "in_progress",
+  "phases": [
+    {
+      "id": "recognition_cache",
+      "complete": true,
+      "script": "scripts/cache_newseye_pero.py",
+      "result": "cache/752234-003/run.json"
+    },
+    {
+      "id": "geometry_g01",
+      "complete": true,
+      "script": "scripts/run_geometry_loop.py",
+      "result": "geometry-g01/heldout.json"
+    },
+    {
+      "id": "native_end_to_end",
+      "complete": true,
+      "script": "scripts/run_pero_end_to_end.py",
+      "result": "end-to-end/752234-003/run.json"
+    },
+    {
+      "id": "end_to_end_evaluation",
+      "complete": true,
+      "script": "scripts/evaluate_end_to_end.py",
+      "result": "end-to-end/summary.json"
+    },
+    {
+      "id": "end_to_end_words",
+      "complete": true,
+      "script": "scripts/evaluate_end_to_end_words.py",
+      "result": "end-to-end/word-summary.json"
+    },
+    {
+      "id": "reference_audit_sample",
+      "complete": true,
+      "script": "scripts/prepare_reference_audit.py",
+      "result": "reference-audit-v1/input/request.json"
+    },
+    {
+      "id": "reference_structural_audit",
+      "complete": true,
+      "script": "scripts/audit_newseye_reference.py",
+      "result": "reference-audit-v1/structural-audit.json"
+    },
+    {
+      "id": "reference_blind_audit",
+      "complete": true,
+      "script": "scripts/evaluate_reference_audit.py",
+      "result": "reference-audit-v1/report.json"
+    },
+    {
+      "id": "cev_diagnostic",
+      "complete": true,
+      "script": "scripts/evaluate_cev.py",
+      "result": "cev-v1/report.json"
+    },
+    {
+      "id": "spiritualist_reference_audit",
+      "complete": true,
+      "script": "scripts/audit_spiritualist_reference.py",
+      "result": "spiritualist-v1/reference-audit.json"
+    },
+    {
+      "id": "spiritualist_normalized_import",
+      "complete": true,
+      "script": "scripts/evaluate_spiritualist_import.py",
+      "result": "spiritualist-v1/import-0009/report.json"
+    },
+    {
+      "id": "spiritualist_olr_prepare",
+      "complete": true,
+      "script": "scripts/prepare_spiritualist_olr.py",
+      "result": "spiritualist-v1/olr-0009/input/request.json"
+    },
+    {
+      "id": "spiritualist_olr_evaluate",
+      "complete": true,
+      "script": "scripts/evaluate_spiritualist_olr.py",
+      "result": "spiritualist-v1/olr-0009/report.json"
+    },
+    {
+      "id": "spiritualist_olr_v2_prepare",
+      "complete": true,
+      "script": "scripts/prepare_spiritualist_olr_v2.py",
+      "result": "spiritualist-v1/olr-v2-validation/input/request.json"
+    },
+    {
+      "id": "spiritualist_olr_v2_evaluate",
+      "complete": true,
+      "script": "scripts/evaluate_spiritualist_olr_v2.py",
+      "result": "spiritualist-v1/olr-v2-validation/report.json"
+    },
+    {
+      "id": "spiritualist_olr_v3_calibrate",
+      "complete": true,
+      "script": "scripts/calibrate_spiritualist_column_order.py",
+      "result": "spiritualist-v1/olr-v3-column/development-report.json"
+    },
+    {
+      "id": "spiritualist_olr_v3_evaluate",
+      "complete": true,
+      "script": "scripts/evaluate_spiritualist_column_order.py",
+      "result": "spiritualist-v1/olr-v3-column/validation-0014-report.json"
+    },
+    {
+      "id": "spiritualist_semantic_v1_conventions",
+      "complete": true,
+      "script": "scripts/audit_spiritualist_semantic_conventions.py",
+      "result": "spiritualist-v1/semantic-v1/development-conventions.json"
+    },
+    {
+      "id": "spiritualist_semantic_v1_prepare",
+      "complete": true,
+      "script": "scripts/prepare_spiritualist_semantic_v1.py",
+      "result": "spiritualist-v1/semantic-v1-validation/input/request.json"
+    },
+    {
+      "id": "spiritualist_semantic_v1_evaluate",
+      "complete": true,
+      "script": "scripts/evaluate_spiritualist_semantic_v1.py",
+      "result": "spiritualist-v1/semantic-v1-validation/report.json"
+    },
+    {
+      "id": "spiritualist_semantic_v2_calibrate",
+      "complete": true,
+      "script": "scripts/calibrate_spiritualist_header_units.py",
+      "result": "spiritualist-v1/semantic-v2-header/development-report.json"
+    },
+    {
+      "id": "spiritualist_semantic_v2_prepare",
+      "complete": true,
+      "script": "scripts/prepare_spiritualist_role_filter_v2.py",
+      "result": "spiritualist-v1/semantic-v2-header-validation/input/request.json"
+    },
+    {
+      "id": "spiritualist_semantic_v2_evaluate",
+      "complete": true,
+      "script": "scripts/evaluate_spiritualist_role_filter_v2.py",
+      "result": "spiritualist-v1/semantic-v2-header-validation/report.json"
+    },
+    {
+      "id": "spiritualist_semantic_v3_prepare",
+      "complete": true,
+      "script": "scripts/prepare_spiritualist_faceted_v3.py",
+      "result": "spiritualist-v1/semantic-v3-faceted-validation/input/request.json"
+    },
+    {
+      "id": "spiritualist_semantic_v3_evaluate",
+      "complete": true,
+      "script": "scripts/evaluate_spiritualist_faceted_v3.py",
+      "result": "spiritualist-v1/semantic-v3-faceted-validation/report.json"
+    },
+    {
+      "id": "spiritualist_semantic_v4_calibrate",
+      "complete": true,
+      "script": "scripts/calibrate_spiritualist_header_geometry.py",
+      "result": "spiritualist-v1/semantic-v4-coarse/development-report.json"
+    },
+    {
+      "id": "spiritualist_semantic_v4_prepare",
+      "complete": true,
+      "script": "scripts/prepare_spiritualist_coarse_v4.py",
+      "result": "spiritualist-v1/semantic-v4-coarse-validation/input/request.json"
+    },
+    {
+      "id": "spiritualist_semantic_v4_evaluate",
+      "complete": true,
+      "script": "scripts/evaluate_spiritualist_coarse_v4.py",
+      "result": "spiritualist-v1/semantic-v4-coarse-validation/report.json"
+    },
+    {
+      "id": "doclayout_yolo_pilot",
+      "complete": true,
+      "script": "scripts/evaluate_doclayout_yolo_pilot.py",
+      "result": "spiritualist-v1/doclayout-yolo-pilot-0044/report.json"
+    },
+    {
+      "id": "spiritualist_olr_v4_calibrate",
+      "complete": true,
+      "script": "scripts/calibrate_spiritualist_column_anchors_v4.py",
+      "result": "spiritualist-v1/olr-v4-column-anchors/development-report.json"
+    },
+    {
+      "id": "spiritualist_semantic_v5_prepare",
+      "complete": true,
+      "script": "scripts/prepare_spiritualist_coarse_v5.py",
+      "result": "spiritualist-v1/semantic-v5-coarse-order-validation/input/request.json"
+    },
+    {
+      "id": "spiritualist_semantic_v5_evaluate",
+      "complete": true,
+      "script": "scripts/evaluate_spiritualist_coarse_v5.py",
+      "result": "spiritualist-v1/semantic-v5-coarse-order-validation/report.json"
+    },
+    {
+      "id": "spiritualist_semantic_v6_split",
+      "complete": true,
+      "script": "scripts/freeze_spiritualist_semantic_v6_split.py",
+      "result": "spiritualist-v1/semantic-v6-typography/split.json"
+    },
+    {
+      "id": "spiritualist_semantic_v6_calibrate",
+      "complete": true,
+      "script": "scripts/calibrate_spiritualist_typography_v6.py",
+      "result": "spiritualist-v1/semantic-v6-typography/development-report.json"
+    },
+    {
+      "id": "spiritualist_semantic_v6_evaluate",
+      "complete": true,
+      "script": "scripts/evaluate_spiritualist_typography_v6.py",
+      "result": "spiritualist-v1/semantic-v6-typography/validation-0004-report.json"
+    },
+    {
+      "id": "spiritualist_semantic_v6_prepare",
+      "complete": true,
+      "script": "scripts/prepare_spiritualist_coarse_v6.py",
+      "result": "spiritualist-v1/semantic-v6-full-validation/input/request.json"
+    },
+    {
+      "id": "spiritualist_semantic_v6_full_evaluate",
+      "complete": true,
+      "script": "scripts/evaluate_spiritualist_coarse_v6.py",
+      "result": "spiritualist-v1/semantic-v6-full-validation/report.json"
+    },
+    {
+      "id": "yolo_columns_a12",
+      "complete": true,
+      "script": "scripts/evaluate_yolo_columns.py",
+      "result": "spiritualist-v1/yolo-columns-a12-0044/report.json"
+    },
+    {
+      "id": "yolo_ocr_a13_prepare",
+      "complete": true,
+      "script": "scripts/prepare_yolo_ocr.py",
+      "result": "spiritualist-v1/yolo-ocr-a13-0044/input/request.json"
+    },
+    {
+      "id": "yolo_ocr_a13_evaluate",
+      "complete": true,
+      "script": "scripts/evaluate_yolo_ocr.py",
+      "result": "spiritualist-v1/yolo-ocr-a13-0044/report.json"
+    },
+    {
+      "id": "column_lines_a14",
+      "complete": true,
+      "script": "scripts/run_column_line_ablation.py",
+      "result": "spiritualist-v1/column-lines-a14-0044/report.json"
+    },
+    {
+      "id": "predicted_alignment_a15",
+      "complete": true,
+      "script": "scripts/run_predicted_vlm_alignment.py",
+      "result": "spiritualist-v1/predicted-alignment-a15-0044/report.json"
+    },
+    {
+      "id": "ink_extension_a16c",
+      "complete": true,
+      "script": "scripts/evaluate_ink_extension_a16.py",
+      "result": "spiritualist-v1/ink-extension-a16c-0044/report.json"
+    },
+    {
+      "id": "mets_profile_a17",
+      "complete": true,
+      "script": "scripts/evaluate_mets_profile_a17.py",
+      "result": "spiritualist-v1/mets-profile-a17-0044/report.json"
+    },
+    {
+      "id": "sbb_reference_a18",
+      "complete": true,
+      "script": "scripts/audit_sbb_reference_a18.py",
+      "result": "reference-a18/report.json"
+    },
+    {
+      "id": "sbb_blind_ocr_a18",
+      "complete": true,
+      "script": "scripts/evaluate_sbb_blind_a18.py",
+      "result": "reference-a18/ocr-report.json"
+    },
+    {
+      "id": "no_recognizer_a19",
+      "complete": true,
+      "script": "scripts/evaluate_gap_ablation_a19.py",
+      "result": "gap-ablation-a19/report.json"
+    },
+    {
+      "id": "ocr_conventions_a20",
+      "complete": true,
+      "script": "scripts/evaluate_ocr_conventions_a20.py",
+      "result": "conventions-a20/report.json"
+    },
+    {
+      "id": "routing_a21_prepare",
+      "complete": true,
+      "script": "scripts/prepare_routing_a21.py",
+      "result": "routing-a21/input/request.json"
+    },
+    {
+      "id": "routing_a21_evaluate",
+      "complete": true,
+      "script": "scripts/evaluate_routing_a21.py",
+      "result": "routing-a21/report.json"
+    },
+    {
+      "id": "sbb_reserve_a22_prepare",
+      "complete": true,
+      "script": "scripts/prepare_sbb_reserve_a22.py",
+      "result": "reserve-a22/opened.json"
+    },
+    {
+      "id": "sbb_reserve_a22_evaluate",
+      "complete": true,
+      "script": "scripts/evaluate_sbb_reserve_a22.py",
+      "result": "reserve-a22/report.json"
+    }
+  ],
+  "completion_gates": {
+    "geometry_independent_validation": false,
+    "end_to_end_layout_and_word_coverage": false,
+    "frontier_transcription_comparison": false,
+    "article_structure_and_metadata_reference": false,
+    "retrieval_with_evidence_evaluation": false,
+    "alto_mets_validation_and_provenance": false,
+    "reference_annotation_audit": false
+  },
+  "evidence": {
+    "conditional_word_geometry": true,
+    "newseye_random_audit": {
+      "sample_size": 45,
+      "triage_signal_rate": 0.5333333333333333,
+      "wilson95": [
+        0.3907720886241046,
+        0.6706509605798527
+      ],
+      "status": "reference_rejected_for_superiority_claims_pending_adjudication"
+    },
+    "newseye_structural_audit": {
+      "pages": 8,
+      "lines": 5493,
+      "words": 14365,
+      "empty_line_texts": 12,
+      "line_word_text_mismatches": 0,
+      "non_nfc_lines": 0,
+      "control_or_format_characters": 121,
+      "lines_with_recoverable_utf8_latin1_sequences": 60
+    },
+    "spiritualist_reference_audit": {
+      "files": 49,
+      "words": 175548,
+      "xsd_valid_pages": 0,
+      "word_overlap_ge_25pct_rate": 0.8767744434570601,
+      "words_outside_line_rate": 0.11689680315355344,
+      "semantic_units": 425,
+      "decision": {
+        "text": "candidate after independent spot adjudication",
+        "word_geometry": "reject as independent GT until inferred-box provenance and overlap defects are resolved",
+        "olr_articles": "usable as proposed labels only; audit order and SSU conventions before scoring",
+        "alto_profile": "distributed XML is not assumed schema-valid; normalize through a provenance-preserving projection"
+      }
+    },
+    "spiritualist_blind_olr_development": {
+      "raw_structural_valid": false,
+      "reading_order_pair_accuracy_diagnostic": 1.0,
+      "semantic_group_pair_f1_diagnostic": 0.7741935483870968,
+      "role_accuracy_diagnostic": 0.5833333333333334,
+      "accepted_for_gate": false
+    },
+    "spiritualist_blind_olr_validation_v2": {
+      "pages": [
+        "0003",
+        "0008"
+      ],
+      "raw_structural_valid": true,
+      "aggregate": {
+        "reading_order_pair_accuracy_micro": 0.862796833773087,
+        "semantic_group_pair_precision_micro": 0.35555555555555557,
+        "semantic_group_pair_recall_micro": 0.8,
+        "semantic_group_pair_f1_micro": 0.4923076923076923,
+        "role_accuracy_micro": 0.7142857142857143
+      },
+      "content_gate_passed": false,
+      "accepted_for_project_completion_gate": false
+    },
+    "spiritualist_column_order_validation_v3": {
+      "page": "0014",
+      "scope": "oracle/reference TextBlock regions; no region detection claim",
+      "vlm_passes": 0,
+      "reading_order_pair_accuracy": 1.0,
+      "gate_passed": true,
+      "accepted_for_project_completion_gate": false
+    },
+    "spiritualist_semantic_validation_v1": {
+      "page": "0015",
+      "raw_structural_valid": true,
+      "eligibility_f1": 1.0,
+      "role_accuracy": 0.9090909090909091,
+      "semantic_group_pair_f1": 0.7586206896551724,
+      "semantic_group_bcubed_f1": 0.8696369636963697,
+      "combined_order_pair_recall": 1.0,
+      "content_gate_passed": false,
+      "accepted_for_project_completion_gate": false
+    },
+    "spiritualist_semantic_validation_v2_header": {
+      "page": "0029",
+      "raw_structural_valid": true,
+      "eligibility_f1": 0.7999999999999999,
+      "role_accuracy": 0.6296296296296297,
+      "semantic_group_pair_f1": 0.68,
+      "semantic_group_bcubed_f1": 0.8042929292929292,
+      "combined_order_pair_recall": 0.4743083003952569,
+      "content_gate_passed": false,
+      "accepted_for_project_completion_gate": false
+    },
+    "spiritualist_semantic_validation_v3_faceted": {
+      "page": "0039",
+      "raw_structural_valid": true,
+      "eligibility_f1": 1.0,
+      "physical_role_accuracy": 0.625,
+      "semantic_group_pair_f1": 0.5909090909090909,
+      "semantic_group_bcubed_f1": 0.7636363636363638,
+      "combined_order_pair_recall": 1.0,
+      "editorial_genre_scored": false,
+      "content_gate_passed": false,
+      "accepted_for_project_completion_gate": false
+    },
+    "spiritualist_semantic_validation_v4_coarse": {
+      "page": "0044",
+      "raw_structural_valid": true,
+      "eligibility_f1": 1.0,
+      "coarse_role_accuracy": 1.0,
+      "fine_physical_role_accuracy": 1.0,
+      "semantic_group_pair_f1": 1.0,
+      "semantic_group_bcubed_f1": 1.0,
+      "combined_order_pair_recall": 0.8444444444444444,
+      "editorial_genre_scored": false,
+      "content_gate_passed": false,
+      "accepted_for_project_completion_gate": false
+    },
+    "spiritualist_semantic_validation_v5_coarse_order": {
+      "page": "0050",
+      "raw_structural_valid": true,
+      "eligibility_f1": 1.0,
+      "coarse_role_accuracy": 1.0,
+      "fine_physical_role_accuracy": 0.9166666666666666,
+      "semantic_group_pair_f1": 0.7333333333333334,
+      "semantic_group_bcubed_f1": 0.8750000000000001,
+      "combined_order_pair_recall": 1.0,
+      "editorial_genre_scored": false,
+      "content_gate_passed": false,
+      "accepted_for_project_completion_gate": false
+    },
+    "doclayout_yolo_consumed_page_diagnostic": {
+      "page": "0044",
+      "runtime_seconds": 2.3647824970030342,
+      "reference_regions": 13,
+      "predictions": 25,
+      "reference_union_coverage": 0.9592110018168047,
+      "iou50_recall": 0.5384615384615384,
+      "accepted_for_project_completion_gate": false
+    },
+    "spiritualist_semantic_validation_v6_typography": {
+      "page": "0004",
+      "scope": "conditional on distributed regions and oracle coarse STREAM membership",
+      "vlm_passes": 0,
+      "fine_role_accuracy": 1.0,
+      "semantic_group_pair_f1": 1.0,
+      "order_pair_accuracy": 1.0,
+      "content_gate_passed": true,
+      "accepted_for_project_completion_gate": false
+    },
+    "spiritualist_semantic_validation_v6_full": {
+      "page": "0010",
+      "reader": "gpt-6-luna",
+      "raw_structural_valid": true,
+      "eligibility_precision": 0.9166666666666666,
+      "eligibility_recall": 1.0,
+      "coarse_role_accuracy": 0.9333333333333333,
+      "fine_physical_role_accuracy": 0.9333333333333333,
+      "semantic_group_pair_f1": 0.8571428571428572,
+      "combined_order_pair_recall": 1.0,
+      "content_gate_passed": true,
+      "accepted_for_project_completion_gate": false
+    },
+    "yolo_columns_a12": {
+      "status": "posthoc_consumed_page_not_independent_validation",
+      "cost": {
+        "new_vlm_passes": 0,
+        "new_detector_passes": 0,
+        "cached_detector_seconds": 2.3647824970030342,
+        "column_postprocessing_seconds": 0.00023027399583952501
+      },
+      "metrics": {
+        "predicted_columns": 3,
+        "reference_columns": 3,
+        "column_pair_correct": 45,
+        "column_pair_total": 45,
+        "column_pair_accuracy": 1.0,
+        "column_span_iou": [
+          0.9812912867206729,
+          0.9687959775840937,
+          0.9880256831388102
+        ],
+        "reference_region_order_correct": 45,
+        "reference_region_order_pairs": 45,
+        "reference_region_order_accuracy": 1.0,
+        "line_rectangles_probed": 415,
+        "tight_span_lines_not_contained": 142,
+        "core_tile_lines_not_contained": 73,
+        "context_tile_lines_not_contained": 3,
+        "retained_detections": 25,
+        "spanning_detection_count": 0
+      },
+      "accepted_for_project_completion_gate": false
+    },
+    "yolo_ocr_a13": {
+      "scope": "consumed page, 3 short detector crops; not a representative or independent benchmark",
+      "new_passes": {
+        "luna": 1,
+        "sol": 1,
+        "detector": 0
+      },
+      "accepted_for_project_completion_gate": false,
+      "scores": {
+        "luna": {
+          "lines": 3,
+          "missing_lines": 0,
+          "exact_lines": 0,
+          "characters": 1049,
+          "edits": 8,
+          "cer": 0.0076263107721639654,
+          "cer_nfc_long_s": 0.0076263107721639654,
+          "normalisation": "NFC and \u017f\u2192s only"
+        },
+        "luna_sol": {
+          "lines": 3,
+          "missing_lines": 0,
+          "exact_lines": 0,
+          "characters": 1049,
+          "edits": 7,
+          "cer": 0.00667302192564347,
+          "cer_nfc_long_s": 0.00667302192564347,
+          "normalisation": "NFC and \u017f\u2192s only"
+        }
+      }
+    },
+    "column_lines_a14": {
+      "schema": "bbvlm.column-line-ablation/1",
+      "page": "0044",
+      "scope": "consumed-page diagnostic; provisional source line rectangles, not certified word geometry",
+      "raw_detected_lines": 416,
+      "native_detected_regions": 8,
+      "metrics": {
+        "native_regions": {
+          "output_fragments": 416,
+          "missing_raw_lines": 0,
+          "raw_lines_with_multiple_fragments": 0,
+          "raw_lines_losing_polygon_area_gt_1pct": 17,
+          "mean_fraction_raw_polygon_lost": 0.003706155945429458,
+          "reference_lines": 418,
+          "matched_iou05": 385,
+          "reference_line_recall_iou05": 0.9210526315789473,
+          "prediction_precision_iou05": 0.9254807692307693
+        },
+        "column_core_clipped": {
+          "output_fragments": 496,
+          "missing_raw_lines": 0,
+          "raw_lines_with_multiple_fragments": 80,
+          "raw_lines_losing_polygon_area_gt_1pct": 0,
+          "mean_fraction_raw_polygon_lost": 9.53243524643323e-05,
+          "reference_lines": 418,
+          "matched_iou05": 385,
+          "reference_line_recall_iou05": 0.9210526315789473,
+          "prediction_precision_iou05": 0.7762096774193549
+        },
+        "column_context_clipped": {
+          "output_fragments": 635,
+          "missing_raw_lines": 0,
+          "raw_lines_with_multiple_fragments": 217,
+          "raw_lines_losing_polygon_area_gt_1pct": 0,
+          "mean_fraction_raw_polygon_lost": 0.0,
+          "reference_lines": 418,
+          "matched_iou05": 385,
+          "reference_line_recall_iou05": 0.9210526315789473,
+          "prediction_precision_iou05": 0.6062992125984252
+        },
+        "whole_line_routing": {
+          "output_fragments": 416,
+          "missing_raw_lines": 0,
+          "raw_lines_with_multiple_fragments": 0,
+          "raw_lines_losing_polygon_area_gt_1pct": 0,
+          "mean_fraction_raw_polygon_lost": 0.0,
+          "reference_lines": 418,
+          "matched_iou05": 385,
+          "reference_line_recall_iou05": 0.9210526315789473,
+          "prediction_precision_iou05": 0.9254807692307693
+        }
+      },
+      "routing": {
+        "seconds": 0.021031048003351316,
+        "context_not_containing_line": 0,
+        "ambiguous_owner": 0,
+        "review_reasons": {}
+      },
+      "cost": {
+        "model_load_seconds": 0.19970603899855632,
+        "shared_detection_seconds": 8.299545059999218,
+        "cnn_forward_count": 2,
+        "new_vlm_calls": 0,
+        "new_yolo_calls": 0
+      },
+      "limitations": [
+        "same raw detections isolate assignment, not separate independently trained systems",
+        "raw polygon loss is an introduced geometric loss, not measured loss of text ink",
+        "no new OCR or word alignment in A14; source line boxes provisional",
+        "whole-line preservation is an invariant, not proof detection was correct"
+      ],
+      "accepted_for_project_completion_gate": false
+    },
+    "predicted_alignment_a15": {
+      "schema": "bbvlm.predicted-vlm-alignment/1",
+      "status": "integration_complete_not_verified_gt",
+      "scope": "20 predicted lines / 3 short crops of consumed0044; not full page or independent comparison",
+      "reference_inputs": false,
+      "aligned_lines": 20,
+      "word_boxes": 184,
+      "text_preserved": true,
+      "alignment_seconds": 1.2405879500001902,
+      "native_alignment_review_flags": 0,
+      "cost": {
+        "ocr_load_seconds": 0.058239468999090604,
+        "recognition_seconds": 3.319803097001568,
+        "recognized_lines": 20,
+        "new_vlm_passes": 0,
+        "new_layout_passes": 0
+      },
+      "package": {
+        "pages": 1,
+        "lines": 20,
+        "lines_requiring_review": 20,
+        "schema_validated": true,
+        "certified_ground_truth": false,
+        "retrieval": {
+          "passages": 20,
+          "document_sha256": "e7005ba451a5f03f5b1a2d1cfc52e2fa591144c86a143ca99f836a0f05d982b6",
+          "unit": "line",
+          "semantic_retrieval": false
+        }
+      },
+      "limitations": [
+        "equal-count order binding may still pair text incorrectly; needs image adjudication",
+        "XSD and zero fallback flags do not validate word box boundaries",
+        "METS institutional MODS/PREMIS profile and image fileSec references remain pending",
+        "all imported nodes remain automatic; all line reviews remain open"
+      ],
+      "accepted_for_project_completion_gate": false
+    },
+    "ink_extension_a16a": {
+      "schema": "bbvlm.ink-extension-report/1",
+      "status": "diagnostic_complete_not_ground_truth",
+      "scope": "consumed A15 partial-page diagnostic; never an independent gate",
+      "reference_inputs": false,
+      "parameters": {
+        "schema": "bbvlm.ink-extension-config/1",
+        "candidate": "A16",
+        "binarization": "otsu",
+        "min_component_area": 2,
+        "max_gap_height_ratio": 0.75,
+        "margin_pixels": 0,
+        "selection": "single a-priori setting; no grid search",
+        "scope": "consumed A15 partial-page diagnostic; never an independent gate"
+      },
+      "lines": 20,
+      "words": 184,
+      "changed_words": 179,
+      "changed_terminal_punctuation_words": 18,
+      "terminal_punctuation_words": 23,
+      "native_line_foreground_coverage": 0.8995277108433735,
+      "candidate_line_foreground_coverage": 1.0,
+      "coverage_gain_points": 10.04722891566265,
+      "added_rectangle_pixels": 30849,
+      "added_foreground_pixels": 5212,
+      "added_area_foreground_precision": 0.1689519919608415,
+      "native_adjacent_word_overlaps": 0,
+      "candidate_adjacent_word_overlaps": 0,
+      "containment_invariant": true,
+      "text_and_id_invariant": true,
+      "new_layout_passes": 0,
+      "new_recognition_passes": 0,
+      "new_vlm_passes": 0,
+      "package": {
+        "pages": 1,
+        "lines": 20,
+        "lines_requiring_review": 20,
+        "schema_validated": true,
+        "certified_ground_truth": false,
+        "retrieval": {
+          "passages": 20,
+          "document_sha256": "1005161c5bc03d1ca7b5e9a16e546dad21379f57236e4d28132df26f1645b5e9",
+          "unit": "line",
+          "semantic_retrieval": false
+        }
+      },
+      "accepted_for_project_completion_gate": false,
+      "limitations": [
+        "0044 and A15 are consumed diagnostics, not an independent validation set",
+        "foreground coverage measures thresholded ink, not semantic ownership or exact box truth",
+        "rectangles necessarily include background and may absorb nearby rule/noise",
+        "visual or independent geometry adjudication is required before promotion"
+      ]
+    },
+    "ink_extension_a16b": {
+      "schema": "bbvlm.ink-extension-report/1",
+      "status": "diagnostic_complete_not_ground_truth",
+      "scope": "consumed A15 partial-page diagnostic; never an independent gate",
+      "reference_inputs": false,
+      "parameters": {
+        "schema": "bbvlm.ink-extension-config/1",
+        "candidate": "A16b",
+        "binarization": "otsu",
+        "min_component_area": 2,
+        "max_gap_height_ratio": 0.35,
+        "margin_pixels": 0,
+        "external_centroids_only": true,
+        "selection": "single mechanistic correction after A16a over-expansion; no grid search",
+        "scope": "consumed A15 partial-page diagnostic; never an independent gate"
+      },
+      "lines": 20,
+      "words": 184,
+      "changed_words": 72,
+      "changed_terminal_punctuation_words": 4,
+      "terminal_punctuation_words": 23,
+      "native_line_foreground_coverage": 0.8995277108433735,
+      "candidate_line_foreground_coverage": 0.9517879518072289,
+      "coverage_gain_points": 5.226024096385542,
+      "added_rectangle_pixels": 14283,
+      "added_foreground_pixels": 2711,
+      "added_area_foreground_precision": 0.18980606315199888,
+      "native_adjacent_word_overlaps": 0,
+      "candidate_adjacent_word_overlaps": 0,
+      "containment_invariant": true,
+      "text_and_id_invariant": true,
+      "new_layout_passes": 0,
+      "new_recognition_passes": 0,
+      "new_vlm_passes": 0,
+      "package": {
+        "pages": 1,
+        "lines": 20,
+        "lines_requiring_review": 20,
+        "schema_validated": true,
+        "certified_ground_truth": false,
+        "retrieval": {
+          "passages": 20,
+          "document_sha256": "4c4e3f02e592ae3dc3293be121947e7e257cf0fd7bd183fcfdcdcbc39bc12ccd",
+          "unit": "line",
+          "semantic_retrieval": false
+        }
+      },
+      "accepted_for_project_completion_gate": false,
+      "limitations": [
+        "0044 and A15 are consumed diagnostics, not an independent validation set",
+        "foreground coverage measures thresholded ink, not semantic ownership or exact box truth",
+        "rectangles necessarily include background and may absorb nearby rule/noise",
+        "visual or independent geometry adjudication is required before promotion"
+      ]
+    },
+    "ink_extension_a16c": {
+      "schema": "bbvlm.ink-extension-report/1",
+      "status": "diagnostic_complete_not_ground_truth",
+      "scope": "consumed A15 partial-page diagnostic; never an independent gate",
+      "reference_inputs": false,
+      "parameters": {
+        "schema": "bbvlm.ink-extension-config/1",
+        "candidate": "A16c",
+        "binarization": "otsu",
+        "min_component_area": 2,
+        "max_gap_height_ratio": 0.35,
+        "margin_pixels": 0,
+        "external_centroids_only": true,
+        "edge_punctuation_only": true,
+        "selection": "edge-punctuation routing after A16a/A16b over-expansion; no grid search",
+        "scope": "consumed A15 partial-page diagnostic; never an independent gate"
+      },
+      "lines": 20,
+      "words": 184,
+      "changed_words": 4,
+      "changed_terminal_punctuation_words": 4,
+      "terminal_punctuation_words": 23,
+      "native_line_foreground_coverage": 0.8995277108433735,
+      "candidate_line_foreground_coverage": 0.9010506024096385,
+      "coverage_gain_points": 0.15228915662650602,
+      "added_rectangle_pixels": 1195,
+      "added_foreground_pixels": 79,
+      "added_area_foreground_precision": 0.06610878661087866,
+      "native_adjacent_word_overlaps": 0,
+      "candidate_adjacent_word_overlaps": 0,
+      "containment_invariant": true,
+      "text_and_id_invariant": true,
+      "new_layout_passes": 0,
+      "new_recognition_passes": 0,
+      "new_vlm_passes": 0,
+      "package": {
+        "pages": 1,
+        "lines": 20,
+        "lines_requiring_review": 20,
+        "schema_validated": true,
+        "certified_ground_truth": false,
+        "retrieval": {
+          "passages": 20,
+          "document_sha256": "1cee3e45e494602c0c86d4130add7dc0fa62c5050066691262ffea8e387a2853",
+          "unit": "line",
+          "semantic_retrieval": false
+        }
+      },
+      "accepted_for_project_completion_gate": false,
+      "limitations": [
+        "0044 and A15 are consumed diagnostics, not an independent validation set",
+        "foreground coverage measures thresholded ink, not semantic ownership or exact box truth",
+        "rectangles necessarily include background and may absorb nearby rule/noise",
+        "visual or independent geometry adjudication is required before promotion"
+      ]
+    },
+    "mets_profile_a17": {
+      "schema": "bbvlm.mets-profile-a17/1",
+      "status": "profile_export_complete_with_declared_limit",
+      "scope": "A16c consumed partial page; packaging/provenance only",
+      "file_groups": {
+        "OCR": [
+          "FILE_P0001"
+        ],
+        "MASTER_IMAGE": [
+          "FILE_IMAGE_P0001"
+        ],
+        "DOCUMENT_GRAPH": [
+          "FILE_GRAPH"
+        ],
+        "RETRIEVAL_INDEX": [
+          "FILE_RETRIEVAL"
+        ]
+      },
+      "physical_page_fileids": [
+        [
+          "FILE_IMAGE_P0001",
+          "FILE_P0001"
+        ]
+      ],
+      "mods_identifier": "realigned.alto",
+      "premis_objects": 4,
+      "premis_events": 1,
+      "image_href_matches_graph": true,
+      "package": {
+        "pages": 1,
+        "lines": 20,
+        "lines_requiring_review": 20,
+        "schema_validated": true,
+        "certified_ground_truth": false,
+        "retrieval": {
+          "passages": 20,
+          "document_sha256": "ad678ca4982da48c9eb83c8b664df6bf824bdb240e0212b3f040d90869bf0bb2",
+          "unit": "line",
+          "semantic_retrieval": false
+        },
+        "mets_package_integrity": {
+          "files": 4,
+          "checksums_verified": 3,
+          "external_uris": 1,
+          "external_checksum_declarations": 1,
+          "unresolved_unchecksummed_local_uris": 0,
+          "all_idrefs_resolve": true,
+          "physical_pages_link_image_and_ocr": true
+        },
+        "mods_version": "3.8",
+        "premis_version": "3.0",
+        "embedded_profile_validation": {
+          "mets_core_xsd_valid": true,
+          "premis_3_xsd_valid": true,
+          "mods_3_8_local_profile_valid": true,
+          "mods_3_8_xsd_valid": false
+        }
+      },
+      "passes": {
+        "layout": 0,
+        "recognition": 0,
+        "vlm": 0
+      },
+      "accepted_for_project_completion_gate": false,
+      "limitations": [
+        "MODS 3.8 official XSD could not be retrieved through the upstream 403; local profile structure is checked but standalone MODS XSD validation remains false",
+        "the remote image checksum is verified against restored bytes during A17, but the portable package intentionally omits the public image bytes",
+        "the source graph has no independently sourced bibliographic title/date/authority record, so MODS contains only a local identifier and explicit automatic record provenance",
+        "METS/PREMIS validity and fixity do not certify OCR, geometry, OLR or metadata truth"
+      ]
+    },
+    "sbb_reference_a18": {
+      "schema": "bbvlm.sbb-audit/1",
+      "pages": [
+        {
+          "work": "hermhyst_816125724",
+          "lines": 33,
+          "words": 157,
+          "empty_lines": 0,
+          "words_outside_line_bbox": 0,
+          "adjacent_overlap_ge_25pct": 0,
+          "word_geometry_status": "present_unadjudicated"
+        },
+        {
+          "work": "chiamerk_766680207",
+          "lines": 29,
+          "words": 211,
+          "empty_lines": 0,
+          "words_outside_line_bbox": 0,
+          "adjacent_overlap_ge_25pct": 0,
+          "word_geometry_status": "present_unadjudicated"
+        },
+        {
+          "work": "brieetli_73862926X",
+          "lines": 27,
+          "words": 208,
+          "empty_lines": 0,
+          "words_outside_line_bbox": 0,
+          "adjacent_overlap_ge_25pct": 0,
+          "word_geometry_status": "present_unadjudicated"
+        },
+        {
+          "work": "CesiLAn_893988510",
+          "lines": 5,
+          "words": 47,
+          "empty_lines": 0,
+          "words_outside_line_bbox": 0,
+          "adjacent_overlap_ge_25pct": 0,
+          "word_geometry_status": "present_unadjudicated"
+        }
+      ],
+      "sample_lines": 16,
+      "reserve_pages_unopened": 4,
+      "runtime_seconds": 14.28478560700023,
+      "reference_transcription_claim": "provider GT followed by SBB post-correction/manual page inspection; not perfect truth",
+      "cost": {
+        "vlm": 0,
+        "recognition": 0,
+        "layout": 0
+      },
+      "accepted_for_project_completion_gate": false
+    },
+    "sbb_blind_ocr_a18": {
+      "schema": "bbvlm.sbb-blind-ocr-audit/1",
+      "reference": "external SBB original, no correction from our models",
+      "scope": "16 random oracle line crops from four audit works, not end-to-end",
+      "scores": {
+        "luna": {
+          "lines": 16,
+          "missing_lines": 0,
+          "exact_lines": 1,
+          "characters": 707,
+          "edits": 354,
+          "cer": 0.5007072135785007,
+          "cer_nfc_long_s": 0.49363507779349364,
+          "normalisation": "NFC and \u017f\u2192s only"
+        },
+        "luna_sol": {
+          "lines": 16,
+          "missing_lines": 0,
+          "exact_lines": 1,
+          "characters": 707,
+          "edits": 92,
+          "cer": 0.13012729844413012,
+          "cer_nfc_long_s": 0.12588401697312587,
+          "normalisation": "NFC and \u017f\u2192s only"
+        }
+      },
+      "luna_uncertain": [
+        "X5722a4ba",
+        "X790c67fe",
+        "X9234e71e",
+        "X4fc0d3a8",
+        "X7ddb5a0a",
+        "X862b2b3c",
+        "Xa8b61dbb",
+        "Xae7c9ab9",
+        "X464da681",
+        "Xf7e27fd8"
+      ],
+      "input_response_sha256": "727a48ce6e04b7b6188e9f90c452e785e680e26159c48fe39f48955754562cce",
+      "passes": {
+        "luna": 1,
+        "sol": 1
+      },
+      "cost_observability": {
+        "luna_input_crops": 16,
+        "token_counts": null,
+        "billed_cost": null,
+        "note": "A pass is an agent reading task, not a measured backend forward or free inference",
+        "sol_target_crops": 10,
+        "sol_original_context_crops": 10
+      },
+      "reference_encoding": {
+        "private_use_characters": 29,
+        "lines_with_private_use": 11,
+        "policy": "Keep strict score; do not infer a favorable PUA mapping from model predictions. Obtain the authoritative OCR-D/MUFI mapping before a separate comparable convention score."
+      },
+      "accepted_for_project_completion_gate": false,
+      "sol_target_ids": [
+        "X464da681",
+        "X4fc0d3a8",
+        "X5722a4ba",
+        "X790c67fe",
+        "X7ddb5a0a",
+        "X862b2b3c",
+        "X9234e71e",
+        "Xa8b61dbb",
+        "Xae7c9ab9",
+        "Xf7e27fd8"
+      ],
+      "sol_selection": "Luna uncertainty only, not reference CER",
+      "comparison_confound": "Sol received polygon-isolated targets plus original context; model and presentation both changed",
+      "sol_response_sha256": "28f8ee4ef572bf9aac3859332248847b7946637118719756a3699bfaf97d6834"
+    },
+    "no_recognizer_a19": {
+      "schema": "bbvlm.no-recognizer-ablation/1",
+      "config": {
+        "min_gap_height_ratio": 0.1,
+        "gap_separation_ratio": 1.5
+      },
+      "sbb_conditional_geometry": {
+        "lines": 94,
+        "compatible_lines": 94,
+        "tokenization_incompatible_lines": 0,
+        "proposed_lines": 50,
+        "reference_words_compatible": 623,
+        "emitted_words_compatible": 294,
+        "emitted_words_iou_lt50": 9,
+        "proposed_lines_with_any_iou_lt50": 3,
+        "proposed_lines_all_words_iou_ge80": 46,
+        "mean_iou_emitted": 0.945306561307908,
+        "word_recall_iou50_including_abstentions": 0.45746388443017655,
+        "word_recall_iou80_including_abstentions": 0.45264847512038525,
+        "cpu_seconds": 0.05199933196854545
+      },
+      "predicted_vlm_lines_diagnostic": {
+        "lines": 20,
+        "proposed_lines": 18,
+        "cpu_seconds": 0.007921744014311116,
+        "word_geometry_ground_truth_available": false
+      },
+      "new_passes": {
+        "vlm": 0,
+        "layout": 0,
+        "recognizer": 0
+      },
+      "accepted_for_project_completion_gate": false,
+      "cost_warning": "No recognizer was invoked. Actual end-to-end cost saving is not measured: fallback batch costs and VLM latency/tokens require a controlled run.",
+      "limitations": [
+        "SBB line geometry and text are oracle inputs, not end-to-end",
+        "source polygon vertex extents are compared as continuous rectangles; pixel-tight proposals use half-open pixel bounds; one-pixel convention differences are not adjudicated",
+        "SBB word conventions require visual audit; no PERO baseline rerun on this corpus",
+        "word count/gap separation does not validate transcription or word ownership",
+        "unmatched tokenization reported separately; cannot hide it in a global recall",
+        "all inspected pages are development/audit; reserve remains unseen"
+      ],
+      "source_code_sha256": "94891dd8538845f61ad558e316d0d05b90f1173772c9ad4d85e8a44c8c3d371a"
+    },
+    "ocr_conventions_a20": {
+      "schema": "bbvlm.ocr-conventions-a20/1",
+      "scope": "Consumed 16 A18 oracle line crops, four audit works; diagnostic only",
+      "unit": "Unicode code points, including spaces and punctuation; not grapheme CER",
+      "reference_status": "External original SBB GT unchanged; not independently adjudicated",
+      "profile_limits": {
+        "strict": "Original code points, no normalization",
+        "glyph_decomposition_v1": "NFC + documented ligatures and e-above decomposition. Loses ligature identity; retains long s, punctuation, abbreviations and e-above distinction. Not level-3 exactness.",
+        "dinglehopper_sbb_compatibility_codepoints": "Pinned dictionary compatibility view; folds e-above to umlaut, hyphen variants and apostrophe, includes upstream uncertain q& mapping. Not diplomatic and not the dinglehopper grapheme metric."
+      },
+      "transform_sha256": "f341b04ad142141072f03a193e628a82fcf0a9693072b6c48206492e52b54b45",
+      "retained_pua_policy": "Never delete or guess a mapping; F1E8 retained in all profiles",
+      "cost": {
+        "new_vlm_tasks": 0,
+        "new_neural_forwards": 0,
+        "cpu_wall_seconds": 0.08294427799410187,
+        "historical_inference_cost": "See A18; not zero"
+      },
+      "invariants": {
+        "reference_predictions_unchanged": true,
+        "reserve_bytes_absent": true,
+        "strict_scores_reproduced": true
+      },
+      "accepted_for_project_completion_gate": false,
+      "scores": {
+        "luna": {
+          "strict": {
+            "lines": 16,
+            "characters": 707,
+            "edits": 354,
+            "cer": 0.5007072135785007,
+            "exact_lines": 1
+          },
+          "glyph_decomposition_v1": {
+            "lines": 16,
+            "characters": 736,
+            "edits": 311,
+            "cer": 0.422554347826087,
+            "exact_lines": 2
+          },
+          "dinglehopper_sbb_compatibility_codepoints": {
+            "lines": 16,
+            "characters": 733,
+            "edits": 305,
+            "cer": 0.41609822646657574,
+            "exact_lines": 2
+          }
+        },
+        "luna_sol": {
+          "strict": {
+            "lines": 16,
+            "characters": 707,
+            "edits": 92,
+            "cer": 0.13012729844413012,
+            "exact_lines": 1
+          },
+          "glyph_decomposition_v1": {
+            "lines": 16,
+            "characters": 736,
+            "edits": 45,
+            "cer": 0.06114130434782609,
+            "exact_lines": 3
+          },
+          "dinglehopper_sbb_compatibility_codepoints": {
+            "lines": 16,
+            "characters": 733,
+            "edits": 39,
+            "cer": 0.05320600272851296,
+            "exact_lines": 5
+          }
+        }
+      }
+    },
+    "routing_a21": {
+      "schema": "bbvlm.routing-ablation-a21/1",
+      "comparisons": {
+        "strict": {
+          "improved_ids": [
+            "X4a736be3",
+            "Xccef03ca",
+            "Xd16465de"
+          ],
+          "regressed_ids": [
+            "X3d7d7292"
+          ],
+          "unchanged_ids": [
+            "Xedb93e2e",
+            "Xf10b250b"
+          ],
+          "non_escalated_disagreement_lines_before": 5,
+          "non_escalated_lines": 6,
+          "warning": "Reference agreement; not human-adjudicated correctness"
+        },
+        "glyph_decomposition_v1": {
+          "improved_ids": [
+            "X4a736be3",
+            "Xccef03ca",
+            "Xd16465de"
+          ],
+          "regressed_ids": [
+            "X3d7d7292",
+            "Xedb93e2e"
+          ],
+          "unchanged_ids": [
+            "Xf10b250b"
+          ],
+          "non_escalated_disagreement_lines_before": 4,
+          "non_escalated_lines": 6,
+          "warning": "Reference agreement; not human-adjudicated correctness"
+        }
+      },
+      "scope": "All six not-uncertain Luna outputs on consumed A18 audit; selection based on uncertainty flag, global motivation post-hoc",
+      "confounds": [
+        "reader model",
+        "polygon-isolated presentation",
+        "more explicit historical-convention prompt"
+      ],
+      "cost": {
+        "new_vlm_tasks": 1,
+        "new_reader": "gpt-6-sol",
+        "interrupted_and_resumed_agent_turns": 1,
+        "target_images_inspected": 6,
+        "total_images_inspected": 12,
+        "new_tokens": null,
+        "new_billed_cost": null,
+        "cumulative_reading_tasks_a18_a21": 3,
+        "note": "Task count is not backend-forward count; 16 Luna + 16 Sol target reads cumulatively"
+      },
+      "sol_uncertain_ids": [
+        "Xd16465de",
+        "X4a736be3",
+        "X3d7d7292",
+        "Xedb93e2e"
+      ],
+      "response_sha256": "f8c965eb4057e7039ac0bd68e958d1140b279629428d3ca29ba24da59d063f6d",
+      "request_sha256": "bae2ad3a5be3b24bc08fa096abed5d92b45e79540a2d35a2152471e811f55924",
+      "agent_prompt_sha256": "07b79e77475ec0aaa4fdaa3c8bd7ef5aa2db6200dfc29e119a4892efac127d90",
+      "input_image_sha256": {
+        "experiments/loop/routing-a21/input/Xccef03ca.png": "33f344c14d770f168d2bda3c4e3eb0cc81a71c4fe5bfbb401be27082e1e0e1d3",
+        "experiments/loop/reference-a18/input/Xccef03ca.png": "390e451e14cb824917a38cc08089b7b21e87a255d0f20acf8c9ff7dac44898c7",
+        "experiments/loop/routing-a21/input/Xd16465de.png": "acf5979e625e410c779ce1bf8a3bebde9c823f8057edfaf77818ab552865619d",
+        "experiments/loop/reference-a18/input/Xd16465de.png": "f1299a05b077222c14d21ada098c06404f1763f8dd192b546a0ec6fc4b55f833",
+        "experiments/loop/routing-a21/input/X4a736be3.png": "372a2cec42900a4e6fd18eb227b54d6eda8afbd89b4080de07cded40d608db8b",
+        "experiments/loop/reference-a18/input/X4a736be3.png": "7c2982cc70b6fc5d72ba61efef9333e7bc0be72854b73b5f314fa1538715047c",
+        "experiments/loop/routing-a21/input/X3d7d7292.png": "33b7dc58e509ab0404a5f92dd923c8c87a0bef9a01a7c2e4a2bb1bd4e265c114",
+        "experiments/loop/reference-a18/input/X3d7d7292.png": "081c6ac753d619f8d72d5847dfcae890d2d5eb70653c89feff1cf209d2739cf0",
+        "experiments/loop/routing-a21/input/Xedb93e2e.png": "aba88bb3c20103e259170dda89b80098c50186c153ebbccdcea4e4df87ceecc8",
+        "experiments/loop/reference-a18/input/Xedb93e2e.png": "b564ffa4ff005d7689f45d4e1c91ca14d7da485d1e6e63e5a836677dda7f2882",
+        "experiments/loop/routing-a21/input/Xf10b250b.png": "335ec45f9ee06ce5b58e68cb5fc81959f876d05735d1c426a25258fdb52248b0",
+        "experiments/loop/reference-a18/input/Xf10b250b.png": "75a8c132327d1709485ea6d421612aa7c6c098ce0683b6ad49d5bae74a89f94f"
+      },
+      "invariants": {
+        "original_predictions_reference_unchanged": true,
+        "reserve_bytes_absent": true,
+        "exact_id_coverage": true,
+        "all_targets_visually_inspected": true
+      },
+      "decision": "Do not certify using reader self-confidence alone; preserve disagreements and review queue. No automatic production escalation policy inferred from six consumed lines.",
+      "accepted_for_project_completion_gate": false,
+      "scores": {
+        "strict": {
+          "before": {
+            "lines": 16,
+            "characters": 707,
+            "edits": 92,
+            "cer": 0.13012729844413012,
+            "exact_lines": 1
+          },
+          "after": {
+            "lines": 16,
+            "characters": 707,
+            "edits": 84,
+            "cer": 0.1188118811881188,
+            "exact_lines": 1
+          },
+          "six_luna": {
+            "lines": 6,
+            "characters": 179,
+            "edits": 34,
+            "cer": 0.18994413407821228,
+            "exact_lines": 1
+          },
+          "six_sol": {
+            "lines": 6,
+            "characters": 179,
+            "edits": 26,
+            "cer": 0.1452513966480447,
+            "exact_lines": 1
+          }
+        },
+        "glyph_decomposition_v1": {
+          "before": {
+            "lines": 16,
+            "characters": 736,
+            "edits": 45,
+            "cer": 0.06114130434782609,
+            "exact_lines": 3
+          },
+          "after": {
+            "lines": 16,
+            "characters": 736,
+            "edits": 38,
+            "cer": 0.051630434782608696,
+            "exact_lines": 2
+          },
+          "six_luna": {
+            "lines": 6,
+            "characters": 188,
+            "edits": 16,
+            "cer": 0.0851063829787234,
+            "exact_lines": 2
+          },
+          "six_sol": {
+            "lines": 6,
+            "characters": 188,
+            "edits": 9,
+            "cer": 0.047872340425531915,
+            "exact_lines": 1
+          }
+        }
+      }
+    },
+    "sbb_reserve_a22": {
+      "scope": "16 lines from four work-disjoint pre-frozen reserve pages; now consumed",
+      "reader": "gpt-6-sol",
+      "ocr_scores": {
+        "strict": {
+          "lines": 16,
+          "characters": 671,
+          "edits": 78,
+          "cer": 0.11624441132637854,
+          "exact_lines": 1,
+          "reference_words": 121,
+          "word_edits": 42,
+          "wer_whitespace_tokens": 0.34710743801652894
+        },
+        "glyph_decomposition_v1": {
+          "lines": 16,
+          "characters": 699,
+          "edits": 34,
+          "cer": 0.04864091559370529,
+          "exact_lines": 3,
+          "reference_words": 121,
+          "word_edits": 25,
+          "wer_whitespace_tokens": 0.2066115702479339
+        }
+      },
+      "geometry": {
+        "lines": 16,
+        "proposed_lines": 2,
+        "abstained_lines": 14,
+        "token_count_equal_lines": 16,
+        "reference_words": 121,
+        "predicted_words": 7,
+        "mean_iou_one_to_one_emitted": 0.9709930441278924,
+        "matches_iou50": 7,
+        "precision_iou50": 1.0,
+        "recall_iou50": 0.05785123966942149,
+        "matches_iou80": 7,
+        "precision_iou80": 1.0,
+        "recall_iou80": 0.05785123966942149,
+        "emitted_matched_words_iou_lt50": 0,
+        "proposed_lines_all_reference_words_iou_ge80": 2,
+        "cpu_seconds": 0.005788388014480006
+      },
+      "development_reserve_geometry_comparison": {
+        "a19_audit_proposed_lines": 50,
+        "a19_audit_lines": 94,
+        "a19_audit_rate": 0.5319148936170213,
+        "a19_audit_wilson95": [
+          0.4317826374815637,
+          0.6295410597764227
+        ],
+        "a22_reserve_proposed_lines": 2,
+        "a22_reserve_lines": 16,
+        "a22_reserve_rate": 0.125,
+        "a22_reserve_wilson95": [
+          0.03497748774324047,
+          0.36022827265758695
+        ],
+        "fisher_exact_two_sided_p": 0.002617222069356725,
+        "interpretation": "Exploratory domain-shift warning: frozen fast-path coverage fell sharply; small reserve n and sampled-line scope prevent a universal rate claim."
+      },
+      "cost": {
+        "new_vlm_tasks": 1,
+        "target_images": 16,
+        "context_images": 16,
+        "total_images_inspected": 32,
+        "tokens": null,
+        "billed_cost": null,
+        "new_recognizer_forwards": 0,
+        "new_layout_forwards": 0,
+        "cpu_wall_seconds": 0.23195361999387387
+      },
+      "invariants": {
+        "protocol_frozen_before_open": true,
+        "exact_id_coverage": true,
+        "all_required_images_inspected": true,
+        "protected_inputs_unchanged": true,
+        "no_oracle_reader_mixture": true,
+        "source_git_blobs_verified": true
+      },
+      "accepted_for_project_completion_gate": false
+    }
+  },
+  "model_policy": {
+    "primary": "luna",
+    "escalation": "sol",
+    "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
+  },
+  "next_research": [
+    "A22 reserve consumed: one Sol task yields strict CER 11.62%, frozen decomposition v1 CER 4.86%, not zero. Frozen no-recognizer boxes are precise on 7 emissions (IoU80 precision 1.0) but recall 5.79%; coverage fell 53.2% development to 12.5% reserve. Keep as fast path; measure batched CTC/PERO fallback on newly frozen external material, never retune A22.",
+    "A19: no-recognizer projection proposes 50/94 oracle lines (294/623 words), IoU 0.945 on emitted words but misses/false routing remain; 18/20 cached predicted VLM lines proposed. Not yet safe or cheaper end-to-end. Compare CTC baseline and hybrid on frozen reserve after development-only router work.",
+    "User priority: minimal PERO stages, joint OCR/semantic/evidence VLM pass, selective CTC only. See ARCHITECTURE_A19.md; do not justify VLM by wrapping full PERO or by counting cached inference as free.",
+    "French references: BnF manually corrected non-NewsEye press sets (Europeana/internal/IMPACT), primary catalogue read; bytes not downloaded yet. Do not confuse Gallica machine ALTO with GT.",
+    "A10/A11 use source regions AND source line geometry/text for typography; 0004/0010 consumed, NOT image-only end-to-end tests",
+    "Candidate OCR-only: OCR-D-GT-VD-SBB (348 pages, level 3, manual inspection, claimed 99.95% capture; mainly books/German-Latin)",
+    "Evaluate VLM on predicted French crops, not only oracle German lines",
+    "Measure geometry with predicted text and lines; protect ascenders/descenders in G02 before freezing a new split",
+    "Freeze a new diverse independent holdout before testing detector/refinement changes",
+    "A14: retain whole predicted lines, reject imposed overlapping column regions (635 fragments from 416 raw lines); validate on diverse untouched pages after freezing",
+    "A16: additive ink recovers visible terminal punctuation on consumed 0044, but A16a changes 179/184 and A16b 72/184 words; keep A16c four-token edge-punctuation proposal in review and validate on a newly frozen independent set before promotion",
+    "Audit readable footnote convention on 0010, freeze abstention/review policy on development only, then test untouched page without retuning",
+    "Evaluate the column-order fast path on predicted regions and add an ambiguity router before any general claim",
+    "Freeze any revised semantic OLR protocol before using 0044/0050; never retune on consumed 0003/0008/0014/0015/0029/0039",
+    "A17: METS links image+ALTO and verifies local fixity; obtain/cache official MODS 3.8 XSD (upstream currently 403), then validate sourced bibliographic fields on a non-consumed document",
+    "Evaluate retrieval with independently authored queries and relevance/evidence judgments",
+    "Measure routing quality, passes, latency and token cost; preserve abstention"
+  ],
+  "stop_rule": "Only mark success when independent evidence supports every gate; no claim of perfect ground truth from model agreement."
+}

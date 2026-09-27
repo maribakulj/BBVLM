@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bbvlm="https://github.com/maribakulj/BBVLM/ns/1" OBJID="realigned.alto">
+  <mets:dmdSec ID="DMD_DOCUMENT">
+    <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="BBVLM-EVIDENCE-1">
+      <mets:xmlData>
+        <bbvlm:metadata/>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="OCR">
+      <mets:file ID="FILE_P0001" MIMETYPE="application/xml">
+        <mets:FLocat LOCTYPE="URL" xlink:href="P0001.alto.xml"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="DOCUMENT_GRAPH">
+      <mets:file ID="FILE_GRAPH" MIMETYPE="application/json">
+        <mets:FLocat LOCTYPE="URL" xlink:href="document.json"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="RETRIEVAL_INDEX">
+      <mets:file ID="FILE_RETRIEVAL" MIMETYPE="application/vnd.sqlite3">
+        <mets:FLocat LOCTYPE="URL" xlink:href="retrieval.sqlite"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div TYPE="document" DMDID="DMD_DOCUMENT">
+      <mets:div ID="PHYS_P0001" TYPE="page">
+        <mets:fptr FILEID="FILE_P0001"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div TYPE="document" DMDID="DMD_DOCUMENT"/>
+  </mets:structMap>
+</mets:mets>

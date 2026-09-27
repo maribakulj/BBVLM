@@ -1,0 +1,9 @@
+# Install after requirements-experiment.txt without replacing pinned NumPy/OpenCV:
+#   python -m pip install --no-deps -r requirements-layout-pilot.txt
+doclayout-yolo==0.0.4
+thop==0.1.1.post2209072238
+psutil==7.2.2
+py-cpuinfo==9.0.0
+requests==2.34.2
+urllib3==2.8.0
+certifi==2026.7.22

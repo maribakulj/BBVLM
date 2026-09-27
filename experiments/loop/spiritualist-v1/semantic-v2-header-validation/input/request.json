@@ -1,0 +1,89 @@
+{
+  "schema": "bbvlm.blind-role-filter-request/1",
+  "page": "0029",
+  "passes": 1,
+  "allowed_tokens": [
+    "A6",
+    "C8",
+    "C9",
+    "D5",
+    "E9",
+    "F7",
+    "F8",
+    "G4",
+    "G8",
+    "G9",
+    "H6",
+    "L4",
+    "N6",
+    "P4",
+    "P7",
+    "P8",
+    "Q8",
+    "R3",
+    "R7",
+    "S9",
+    "U3",
+    "U8",
+    "V5",
+    "V6",
+    "W8",
+    "Z4",
+    "Z6"
+  ],
+  "images": [
+    "0029-original-reader-1200.jpg",
+    "0029-regions-reader-1200.jpg"
+  ],
+  "transport_note": "Downscaled inspection derivatives only; source pixels, hidden reference, prompt, model policy and frozen gates are unchanged after two pre-inference upload timeouts that produced no response.",
+  "instruction": "Inspect both the original and labelled image. In this single pass, assign every token exactly one role from MASTHEAD, HEADER, TEXT, ADVERT, OTHER, UNKNOWN, and list the tokens eligible for the main reading stream. Do not infer or return reading order, semantic units, groups, articles, or transcriptions: frozen CPU logic handles them. Development-only convention: MASTHEAD and OTHER are excluded; HEADER and TEXT are included. ADVERT had no development example, so classify it visually and mark genuine uncertainty. Tokens are random and opaque. Return JSON only.",
+  "response_schema": {
+    "schema": "bbvlm.blind-role-filter-response/1",
+    "page": "0029",
+    "eligible_tokens": [
+      "short token"
+    ],
+    "roles": {
+      "short token": "MASTHEAD|HEADER|TEXT|ADVERT|OTHER|UNKNOWN"
+    },
+    "uncertain_tokens": [],
+    "notes": "short string"
+  },
+  "leakage_control": "Random visual tokens reveal no source ID, order, role or semantic unit. Validation labels and XML are outside the reader packet.",
+  "binding_control": "Strict software validation binds tokens after response; no repair is permitted.",
+  "frozen_cpu_grouping": {
+    "schema": "bbvlm.header-unit-config/1",
+    "selected_on": "development_only",
+    "development_pages": [
+      "0009",
+      "0038",
+      "0041",
+      "0043"
+    ],
+    "merge_overlapping_headers": true,
+    "order_config": {
+      "schema": "bbvlm.column-order-config/1",
+      "selected_on": "development_only",
+      "development_pages": [
+        "0009",
+        "0038",
+        "0041",
+        "0043"
+      ],
+      "gap_ratio": 0.14,
+      "top_exclusion_ratio": 0.055,
+      "max_anchor_width_ratio": 0.55,
+      "selection_rule": "max macro pair accuracy; then minimum total inferred columns; then smaller gap"
+    },
+    "selection_rule": "maximum macro pair F1; ties prefer not merging overlapping headers"
+  },
+  "frozen_gates": {
+    "raw_structural_valid": true,
+    "eligibility_precision_min": 0.9,
+    "eligibility_recall_min": 0.9,
+    "role_accuracy_min": 0.8,
+    "semantic_group_pair_f1_min": 0.8,
+    "combined_order_pair_recall_min": 0.95
+  },
+  "reference_warning": "Distributed role/order/SSU fields are provisional labels, not independently adjudicated truth. Page 0029 is consumed after scoring."
+}

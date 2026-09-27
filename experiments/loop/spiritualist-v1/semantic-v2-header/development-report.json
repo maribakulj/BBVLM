@@ -1,0 +1,125 @@
+{
+  "schema": "bbvlm.header-unit-calibration/1",
+  "scope": "oracle regions, roles and eligibility",
+  "candidates": [
+    {
+      "merge_overlapping_headers": false,
+      "macro_pair_f1": 0.9665760869565218,
+      "pages": [
+        {
+          "page": "0009",
+          "reference_units": 6,
+          "predicted_units": 6,
+          "pair_precision": 1.0,
+          "pair_recall": 1.0,
+          "pair_f1": 1.0,
+          "false_positive_pairs": 0,
+          "false_negative_pairs": 0
+        },
+        {
+          "page": "0038",
+          "reference_units": 10,
+          "predicted_units": 11,
+          "pair_precision": 1.0,
+          "pair_recall": 0.9827586206896551,
+          "pair_f1": 0.9913043478260869,
+          "false_positive_pairs": 0,
+          "false_negative_pairs": 3
+        },
+        {
+          "page": "0041",
+          "reference_units": 8,
+          "predicted_units": 8,
+          "pair_precision": 1.0,
+          "pair_recall": 1.0,
+          "pair_f1": 1.0,
+          "false_positive_pairs": 0,
+          "false_negative_pairs": 0
+        },
+        {
+          "page": "0043",
+          "reference_units": 8,
+          "predicted_units": 9,
+          "pair_precision": 1.0,
+          "pair_recall": 0.7777777777777778,
+          "pair_f1": 0.8750000000000001,
+          "false_positive_pairs": 0,
+          "false_negative_pairs": 2
+        }
+      ]
+    },
+    {
+      "merge_overlapping_headers": true,
+      "macro_pair_f1": 1.0,
+      "pages": [
+        {
+          "page": "0009",
+          "reference_units": 6,
+          "predicted_units": 6,
+          "pair_precision": 1.0,
+          "pair_recall": 1.0,
+          "pair_f1": 1.0,
+          "false_positive_pairs": 0,
+          "false_negative_pairs": 0
+        },
+        {
+          "page": "0038",
+          "reference_units": 10,
+          "predicted_units": 10,
+          "pair_precision": 1.0,
+          "pair_recall": 1.0,
+          "pair_f1": 1.0,
+          "false_positive_pairs": 0,
+          "false_negative_pairs": 0
+        },
+        {
+          "page": "0041",
+          "reference_units": 8,
+          "predicted_units": 8,
+          "pair_precision": 1.0,
+          "pair_recall": 1.0,
+          "pair_f1": 1.0,
+          "false_positive_pairs": 0,
+          "false_negative_pairs": 0
+        },
+        {
+          "page": "0043",
+          "reference_units": 8,
+          "predicted_units": 8,
+          "pair_precision": 1.0,
+          "pair_recall": 1.0,
+          "pair_f1": 1.0,
+          "false_positive_pairs": 0,
+          "false_negative_pairs": 0
+        }
+      ]
+    }
+  ],
+  "selected": {
+    "schema": "bbvlm.header-unit-config/1",
+    "selected_on": "development_only",
+    "development_pages": [
+      "0009",
+      "0038",
+      "0041",
+      "0043"
+    ],
+    "merge_overlapping_headers": true,
+    "order_config": {
+      "schema": "bbvlm.column-order-config/1",
+      "selected_on": "development_only",
+      "development_pages": [
+        "0009",
+        "0038",
+        "0041",
+        "0043"
+      ],
+      "gap_ratio": 0.14,
+      "top_exclusion_ratio": 0.055,
+      "max_anchor_width_ratio": 0.55,
+      "selection_rule": "max macro pair accuracy; then minimum total inferred columns; then smaller gap"
+    },
+    "selection_rule": "maximum macro pair F1; ties prefer not merging overlapping headers"
+  },
+  "warning": "Development agreement learns this corpus convention only; validation must use predicted roles and an untouched page."
+}

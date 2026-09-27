@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>A25_00000020</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-09-27T17:08:21.992320</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_A25_00000020" PHYSICAL_IMG_NR="1" HEIGHT="2114" WIDTH="1227">
+      <TopMargin HEIGHT="277" WIDTH="1227" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="2114" WIDTH="357" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="2114" WIDTH="0" VPOS="0" HPOS="1227"/>
+      <BottomMargin HEIGHT="0" WIDTH="1227" VPOS="2114" HPOS="0"/>
+      <PrintSpace HEIGHT="1837" WIDTH="870" VPOS="277" HPOS="357">
+        <TextBlock ID="block_REG_A25_00000020" HEIGHT="1435" WIDTH="759" VPOS="277" HPOS="357">
+          <TextLine BASELINE="393" VPOS="347" HPOS="357" HEIGHT="58" WIDTH="751" ID="P00000020_l5">
+            <String CONTENT="pourrez" HEIGHT="58" WIDTH="124" VPOS="346" HPOS="357" WC="1" ID="P00000020_l5_W0001"/>
+            <SP WIDTH="4" VPOS="346" HPOS="481"/>
+            <String CONTENT="être" HEIGHT="58" WIDTH="65" VPOS="346" HPOS="485" WC="1" ID="P00000020_l5_W0002"/>
+            <SP WIDTH="4" VPOS="346" HPOS="550"/>
+            <String CONTENT="honorés," HEIGHT="58" WIDTH="160" VPOS="346" HPOS="558" WC="1" ID="P00000020_l5_W0003"/>
+            <SP WIDTH="4" VPOS="346" HPOS="719"/>
+            <String CONTENT="feront" HEIGHT="58" WIDTH="106" VPOS="346" HPOS="730" WC="1" ID="P00000020_l5_W0004"/>
+            <SP WIDTH="4" VPOS="346" HPOS="836"/>
+            <String CONTENT="toujours" HEIGHT="58" WIDTH="135" VPOS="346" HPOS="847" WC="1" ID="P00000020_l5_W0005"/>
+            <SP WIDTH="4" VPOS="346" HPOS="982"/>
+            <String CONTENT="réglées" HEIGHT="58" WIDTH="113" VPOS="346" HPOS="993" WC="1" ID="P00000020_l5_W0006"/>
+          </TextLine>
+          <TextLine BASELINE="438" VPOS="397" HPOS="358" HEIGHT="51" WIDTH="751" ID="P00000020_l7">
+            <String CONTENT="ſur" HEIGHT="51" WIDTH="41" VPOS="397" HPOS="358" WC="1" ID="P00000020_l7_W0001"/>
+            <SP WIDTH="4" VPOS="397" HPOS="399"/>
+            <String CONTENT="vos" HEIGHT="51" WIDTH="51" VPOS="397" HPOS="418" WC="1" ID="P00000020_l7_W0002"/>
+            <SP WIDTH="4" VPOS="397" HPOS="470"/>
+            <String CONTENT="qualités" HEIGHT="51" WIDTH="118" VPOS="397" HPOS="495" WC="1" ID="P00000020_l7_W0003"/>
+            <SP WIDTH="4" VPOS="397" HPOS="614"/>
+            <String CONTENT="perſonnelles." HEIGHT="51" WIDTH="211" VPOS="397" HPOS="633" WC="1" ID="P00000020_l7_W0004"/>
+            <SP WIDTH="4" VPOS="397" HPOS="845"/>
+            <String CONTENT="Nous" HEIGHT="51" WIDTH="89" VPOS="397" HPOS="883" WC="1" ID="P00000020_l7_W0005"/>
+            <SP WIDTH="4" VPOS="397" HPOS="973"/>
+            <String CONTENT="ſuivons" HEIGHT="51" WIDTH="121" VPOS="397" HPOS="986" WC="1" ID="P00000020_l7_W0006"/>
+          </TextLine>
+          <TextLine BASELINE="487" VPOS="445" HPOS="358" HEIGHT="53" WIDTH="752" ID="P00000020_l8">
+            <String CONTENT="vos" HEIGHT="53" WIDTH="50" VPOS="444" HPOS="358" WC="1" ID="P00000020_l8_W0001"/>
+            <SP WIDTH="4" VPOS="444" HPOS="408"/>
+            <String CONTENT="progrès" HEIGHT="53" WIDTH="130" VPOS="444" HPOS="414" WC="1" ID="P00000020_l8_W0002"/>
+            <SP WIDTH="4" VPOS="444" HPOS="544"/>
+            <String CONTENT="d'un" HEIGHT="53" WIDTH="66" VPOS="444" HPOS="558" WC="1" ID="P00000020_l8_W0003"/>
+            <SP WIDTH="4" VPOS="444" HPOS="625"/>
+            <String CONTENT="oil" HEIGHT="53" WIDTH="56" VPOS="444" HPOS="645" WC="1" ID="P00000020_l8_W0004"/>
+            <SP WIDTH="4" VPOS="444" HPOS="701"/>
+            <String CONTENT="attentif." HEIGHT="53" WIDTH="136" VPOS="444" HPOS="708" WC="1" ID="P00000020_l8_W0005"/>
+            <SP WIDTH="4" VPOS="444" HPOS="845"/>
+            <String CONTENT="Nous" HEIGHT="53" WIDTH="90" VPOS="444" HPOS="882" WC="1" ID="P00000020_l8_W0006"/>
+            <SP WIDTH="4" VPOS="444" HPOS="972"/>
+            <String CONTENT="en" HEIGHT="53" WIDTH="33" VPOS="444" HPOS="988" WC="1" ID="P00000020_l8_W0007"/>
+            <SP WIDTH="4" VPOS="444" HPOS="1022"/>
+            <String CONTENT="ren-" HEIGHT="53" WIDTH="73" VPOS="444" HPOS="1035" WC="1" ID="P00000020_l8_W0008"/>
+          </TextLine>
+          <TextLine BASELINE="531" VPOS="492" HPOS="360" HEIGHT="49" WIDTH="749" ID="P00000020_l9">
+            <String CONTENT="dons" HEIGHT="49" WIDTH="70" VPOS="491" HPOS="360" WC="1" ID="P00000020_l9_W0001"/>
+            <SP WIDTH="4" VPOS="491" HPOS="430"/>
+            <String CONTENT="un" HEIGHT="49" WIDTH="36" VPOS="491" HPOS="446" WC="1" ID="P00000020_l9_W0002"/>
+            <SP WIDTH="4" VPOS="491" HPOS="483"/>
+            <String CONTENT="compte" HEIGHT="49" WIDTH="116" VPOS="491" HPOS="510" WC="1" ID="P00000020_l9_W0003"/>
+            <SP WIDTH="4" VPOS="491" HPOS="627"/>
+            <String CONTENT="fidele" HEIGHT="49" WIDTH="92" VPOS="491" HPOS="649" WC="1" ID="P00000020_l9_W0004"/>
+            <SP WIDTH="4" VPOS="491" HPOS="741"/>
+            <String CONTENT="&amp;" HEIGHT="49" WIDTH="18" VPOS="491" HPOS="763" WC="1" ID="P00000020_l9_W0005"/>
+            <SP WIDTH="4" VPOS="491" HPOS="781"/>
+            <String CONTENT="impartial" HEIGHT="49" WIDTH="156" VPOS="491" HPOS="812" WC="1" ID="P00000020_l9_W0006"/>
+            <SP WIDTH="4" VPOS="491" HPOS="969"/>
+            <String CONTENT="à" HEIGHT="49" WIDTH="15" VPOS="491" HPOS="981" WC="1" ID="P00000020_l9_W0007"/>
+            <SP WIDTH="4" VPOS="491" HPOS="997"/>
+            <String CONTENT="SON" HEIGHT="49" WIDTH="70" VPOS="491" HPOS="1024" WC="1" ID="P00000020_l9_W0008"/>
+          </TextLine>
+          <TextLine BASELINE="581" VPOS="542" HPOS="357" HEIGHT="49" WIDTH="752" ID="P00000020_l10">
+            <String CONTENT="EXCELLENCE," HEIGHT="49" WIDTH="286" VPOS="541" HPOS="357" WC="1" ID="P00000020_l10_W0001"/>
+            <SP WIDTH="4" VPOS="541" HPOS="643"/>
+            <String CONTENT="ſpécialement" HEIGHT="49" WIDTH="203" VPOS="541" HPOS="670" WC="1" ID="P00000020_l10_W0002"/>
+            <SP WIDTH="4" VPOS="541" HPOS="874"/>
+            <String CONTENT="chargée" HEIGHT="49" WIDTH="123" VPOS="541" HPOS="907" WC="1" ID="P00000020_l10_W0003"/>
+            <SP WIDTH="4" VPOS="541" HPOS="1031"/>
+            <String CONTENT="de" HEIGHT="49" WIDTH="36" VPOS="541" HPOS="1071" WC="1" ID="P00000020_l10_W0004"/>
+          </TextLine>
+          <TextLine BASELINE="639" VPOS="595" HPOS="358" HEIGHT="55" WIDTH="751" ID="P00000020_l11">
+            <String CONTENT="porter" HEIGHT="55" WIDTH="93" VPOS="595" HPOS="358" WC="1" ID="P00000020_l11_W0001"/>
+            <SP WIDTH="4" VPOS="595" HPOS="451"/>
+            <String CONTENT="la" HEIGHT="55" WIDTH="31" VPOS="595" HPOS="461" WC="1" ID="P00000020_l11_W0002"/>
+            <SP WIDTH="4" VPOS="595" HPOS="492"/>
+            <String CONTENT="vérité" HEIGHT="55" WIDTH="82" VPOS="595" HPOS="506" WC="1" ID="P00000020_l11_W0003"/>
+            <SP WIDTH="4" VPOS="595" HPOS="589"/>
+            <String CONTENT="aux" HEIGHT="55" WIDTH="55" VPOS="595" HPOS="606" WC="1" ID="P00000020_l11_W0004"/>
+            <SP WIDTH="4" VPOS="595" HPOS="662"/>
+            <String CONTENT="pieds" HEIGHT="55" WIDTH="86" VPOS="595" HPOS="682" WC="1" ID="P00000020_l11_W0005"/>
+            <SP WIDTH="4" VPOS="595" HPOS="769"/>
+            <String CONTENT="du" HEIGHT="55" WIDTH="34" VPOS="595" HPOS="790" WC="1" ID="P00000020_l11_W0006"/>
+            <SP WIDTH="4" VPOS="595" HPOS="824"/>
+            <String CONTENT="trône;" HEIGHT="55" WIDTH="114" VPOS="595" HPOS="848" WC="1" ID="P00000020_l11_W0007"/>
+            <SP WIDTH="4" VPOS="595" HPOS="962"/>
+            <String CONTENT="&amp;" HEIGHT="55" WIDTH="17" VPOS="595" HPOS="983" WC="1" ID="P00000020_l11_W0008"/>
+            <SP WIDTH="4" VPOS="595" HPOS="1000"/>
+            <String CONTENT="vous" HEIGHT="55" WIDTH="76" VPOS="595" HPOS="1031" WC="1" ID="P00000020_l11_W0009"/>
+          </TextLine>
+          <TextLine BASELINE="686" VPOS="644" HPOS="358" HEIGHT="52" WIDTH="751" ID="P00000020_l12">
+            <String CONTENT="n'ignorez" HEIGHT="52" WIDTH="147" VPOS="644" HPOS="358" WC="1" ID="P00000020_l12_W0001"/>
+            <SP WIDTH="4" VPOS="644" HPOS="505"/>
+            <String CONTENT="pas" HEIGHT="52" WIDTH="49" VPOS="644" HPOS="525" WC="1" ID="P00000020_l12_W0002"/>
+            <SP WIDTH="4" VPOS="644" HPOS="574"/>
+            <String CONTENT="que" HEIGHT="52" WIDTH="55" VPOS="644" HPOS="597" WC="1" ID="P00000020_l12_W0003"/>
+            <SP WIDTH="4" VPOS="644" HPOS="652"/>
+            <String CONTENT="les" HEIGHT="52" WIDTH="45" VPOS="644" HPOS="669" WC="1" ID="P00000020_l12_W0004"/>
+            <SP WIDTH="4" VPOS="644" HPOS="714"/>
+            <String CONTENT="bienfaits" HEIGHT="52" WIDTH="137" VPOS="644" HPOS="734" WC="1" ID="P00000020_l12_W0005"/>
+            <SP WIDTH="4" VPOS="644" HPOS="872"/>
+            <String CONTENT="&amp;" HEIGHT="52" WIDTH="19" VPOS="644" HPOS="888" WC="1" ID="P00000020_l12_W0006"/>
+            <SP WIDTH="4" VPOS="644" HPOS="908"/>
+            <String CONTENT="les" HEIGHT="52" WIDTH="49" VPOS="644" HPOS="931" WC="1" ID="P00000020_l12_W0007"/>
+            <SP WIDTH="4" VPOS="644" HPOS="980"/>
+            <String CONTENT="faveurs" HEIGHT="52" WIDTH="117" VPOS="644" HPOS="990" WC="1" ID="P00000020_l12_W0008"/>
+          </TextLine>
+          <TextLine BASELINE="732" VPOS="695" HPOS="360" HEIGHT="46" WIDTH="749" ID="P00000020_l14">
+            <String CONTENT="du" HEIGHT="46" WIDTH="28" VPOS="695" HPOS="360" WC="1" ID="P00000020_l14_W0001"/>
+            <SP WIDTH="4" VPOS="695" HPOS="388"/>
+            <String CONTENT="RO" HEIGHT="46" WIDTH="51" VPOS="695" HPOS="409" WC="1" ID="P00000020_l14_W0002"/>
+            <SP WIDTH="4" VPOS="695" HPOS="461"/>
+            <String CONTENT="I" HEIGHT="46" WIDTH="14" VPOS="695" HPOS="475" WC="1" ID="P00000020_l14_W0003"/>
+            <SP WIDTH="4" VPOS="695" HPOS="489"/>
+            <String CONTENT="ne" HEIGHT="46" WIDTH="40" VPOS="695" HPOS="501" WC="1" ID="P00000020_l14_W0004"/>
+            <SP WIDTH="4" VPOS="695" HPOS="541"/>
+            <String CONTENT="furent" HEIGHT="46" WIDTH="103" VPOS="695" HPOS="553" WC="1" ID="P00000020_l14_W0005"/>
+            <SP WIDTH="4" VPOS="695" HPOS="657"/>
+            <String CONTENT="jamais" HEIGHT="46" WIDTH="103" VPOS="695" HPOS="663" WC="1" ID="P00000020_l14_W0006"/>
+            <SP WIDTH="4" VPOS="695" HPOS="767"/>
+            <String CONTENT="que" HEIGHT="46" WIDTH="57" VPOS="695" HPOS="793" WC="1" ID="P00000020_l14_W0007"/>
+            <SP WIDTH="4" VPOS="695" HPOS="850"/>
+            <String CONTENT="la" HEIGHT="46" WIDTH="28" VPOS="695" HPOS="868" WC="1" ID="P00000020_l14_W0008"/>
+            <SP WIDTH="4" VPOS="695" HPOS="897"/>
+            <String CONTENT="récompenſe" HEIGHT="46" WIDTH="187" VPOS="695" HPOS="920" WC="1" ID="P00000020_l14_W0009"/>
+          </TextLine>
+          <TextLine BASELINE="782" VPOS="752" HPOS="359" HEIGHT="38" WIDTH="354" ID="P00000020_l15">
+            <String CONTENT="du" HEIGHT="38" WIDTH="31" VPOS="751" HPOS="359" WC="1" ID="P00000020_l15_W0001"/>
+            <SP WIDTH="4" VPOS="751" HPOS="390"/>
+            <String CONTENT="VRAI" HEIGHT="38" WIDTH="103" VPOS="751" HPOS="419" WC="1" ID="P00000020_l15_W0002"/>
+            <SP WIDTH="4" VPOS="751" HPOS="522"/>
+            <String CONTENT="MERITE." HEIGHT="38" WIDTH="172" VPOS="751" HPOS="539" WC="1" ID="P00000020_l15_W0003"/>
+          </TextLine>
+          <TextLine BASELINE="882" VPOS="840" HPOS="408" HEIGHT="53" WIDTH="703" ID="P00000020_l20">
+            <String CONTENT="Il" HEIGHT="53" WIDTH="20" VPOS="839" HPOS="408" WC="1" ID="P00000020_l20_W0001"/>
+            <SP WIDTH="4" VPOS="839" HPOS="428"/>
+            <String CONTENT="vous" HEIGHT="53" WIDTH="70" VPOS="839" HPOS="438" WC="1" ID="P00000020_l20_W0002"/>
+            <SP WIDTH="4" VPOS="839" HPOS="508"/>
+            <String CONTENT="importe" HEIGHT="53" WIDTH="137" VPOS="839" HPOS="518" WC="1" ID="P00000020_l20_W0003"/>
+            <SP WIDTH="4" VPOS="839" HPOS="655"/>
+            <String CONTENT="donc" HEIGHT="53" WIDTH="76" VPOS="839" HPOS="668" WC="1" ID="P00000020_l20_W0004"/>
+            <SP WIDTH="4" VPOS="839" HPOS="745"/>
+            <String CONTENT="bien" HEIGHT="53" WIDTH="73" VPOS="839" HPOS="752" WC="1" ID="P00000020_l20_W0005"/>
+            <SP WIDTH="4" VPOS="839" HPOS="825"/>
+            <String CONTENT="de" HEIGHT="53" WIDTH="36" VPOS="839" HPOS="845" WC="1" ID="P00000020_l20_W0006"/>
+            <SP WIDTH="4" VPOS="839" HPOS="882"/>
+            <String CONTENT="vous" HEIGHT="53" WIDTH="76" VPOS="839" HPOS="899" WC="1" ID="P00000020_l20_W0007"/>
+            <SP WIDTH="4" VPOS="839" HPOS="976"/>
+            <String CONTENT="instrui-" HEIGHT="53" WIDTH="120" VPOS="839" HPOS="989" WC="1" ID="P00000020_l20_W0008"/>
+          </TextLine>
+          <TextLine BASELINE="931" VPOS="890" HPOS="359" HEIGHT="51" WIDTH="752" ID="P00000020_l21">
+            <String CONTENT="re!" HEIGHT="51" WIDTH="44" VPOS="890" HPOS="359" WC="1" ID="P00000020_l21_W0001"/>
+            <SP WIDTH="4" VPOS="890" HPOS="403"/>
+            <String CONTENT="Et" HEIGHT="51" WIDTH="44" VPOS="890" HPOS="423" WC="1" ID="P00000020_l21_W0002"/>
+            <SP WIDTH="4" VPOS="890" HPOS="468"/>
+            <String CONTENT="combien" HEIGHT="51" WIDTH="134" VPOS="890" HPOS="474" WC="1" ID="P00000020_l21_W0003"/>
+            <SP WIDTH="4" VPOS="890" HPOS="609"/>
+            <String CONTENT="n'étes-vous" HEIGHT="51" WIDTH="192" VPOS="890" HPOS="628" WC="1" ID="P00000020_l21_W0004"/>
+            <SP WIDTH="4" VPOS="890" HPOS="821"/>
+            <String CONTENT="pas" HEIGHT="51" WIDTH="51" VPOS="890" HPOS="830" WC="1" ID="P00000020_l21_W0005"/>
+            <SP WIDTH="4" VPOS="890" HPOS="882"/>
+            <String CONTENT="plus" HEIGHT="51" WIDTH="70" VPOS="890" HPOS="894" WC="1" ID="P00000020_l21_W0006"/>
+            <SP WIDTH="4" VPOS="890" HPOS="965"/>
+            <String CONTENT="intéreffé" HEIGHT="51" WIDTH="138" VPOS="890" HPOS="971" WC="1" ID="P00000020_l21_W0007"/>
+          </TextLine>
+          <TextLine BASELINE="988" VPOS="953" HPOS="358" HEIGHT="44" WIDTH="359" ID="P00000020_l22">
+            <String CONTENT="à" HEIGHT="44" WIDTH="8" VPOS="952" HPOS="358" WC="1" ID="P00000020_l22_W0001"/>
+            <SP WIDTH="4" VPOS="952" HPOS="366"/>
+            <String CONTENT="acquérir" HEIGHT="44" WIDTH="135" VPOS="952" HPOS="382" WC="1" ID="P00000020_l22_W0002"/>
+            <SP WIDTH="4" VPOS="952" HPOS="518"/>
+            <String CONTENT="des" HEIGHT="44" WIDTH="44" VPOS="952" HPOS="535" WC="1" ID="P00000020_l22_W0003"/>
+            <SP WIDTH="4" VPOS="952" HPOS="580"/>
+            <String CONTENT="vertus?" HEIGHT="44" WIDTH="119" VPOS="952" HPOS="596" WC="1" ID="P00000020_l22_W0004"/>
+          </TextLine>
+          <TextLine BASELINE="1034" VPOS="990" HPOS="410" HEIGHT="55" WIDTH="702" ID="P00000020_l16">
+            <String CONTENT="Apprenez," HEIGHT="55" WIDTH="176" VPOS="990" HPOS="410" WC="1" ID="P00000020_l16_W0001"/>
+            <SP WIDTH="4" VPOS="990" HPOS="586"/>
+            <String CONTENT="que," HEIGHT="55" WIDTH="79" VPOS="990" HPOS="614" WC="1" ID="P00000020_l16_W0002"/>
+            <SP WIDTH="4" VPOS="990" HPOS="694"/>
+            <String CONTENT="si" HEIGHT="55" WIDTH="38" VPOS="990" HPOS="711" WC="1" ID="P00000020_l16_W0003"/>
+            <SP WIDTH="4" VPOS="990" HPOS="750"/>
+            <String CONTENT="les" HEIGHT="55" WIDTH="48" VPOS="990" HPOS="757" WC="1" ID="P00000020_l16_W0004"/>
+            <SP WIDTH="4" VPOS="990" HPOS="805"/>
+            <String CONTENT="dons" HEIGHT="55" WIDTH="72" VPOS="990" HPOS="829" WC="1" ID="P00000020_l16_W0005"/>
+            <SP WIDTH="4" VPOS="990" HPOS="902"/>
+            <String CONTENT="de" HEIGHT="55" WIDTH="41" VPOS="990" HPOS="934" WC="1" ID="P00000020_l16_W0006"/>
+            <SP WIDTH="4" VPOS="990" HPOS="975"/>
+            <String CONTENT="l'eſprit" HEIGHT="55" WIDTH="114" VPOS="990" HPOS="996" WC="1" ID="P00000020_l16_W0007"/>
+          </TextLine>
+          <TextLine BASELINE="1078" VPOS="1040" HPOS="361" HEIGHT="47" WIDTH="752" ID="P00000020_l17">
+            <String CONTENT="méritent" HEIGHT="47" WIDTH="133" VPOS="1040" HPOS="361" WC="1" ID="P00000020_l17_W0001"/>
+            <SP WIDTH="4" VPOS="1040" HPOS="494"/>
+            <String CONTENT="d'être" HEIGHT="47" WIDTH="91" VPOS="1040" HPOS="505" WC="1" ID="P00000020_l17_W0002"/>
+            <SP WIDTH="4" VPOS="1040" HPOS="597"/>
+            <String CONTENT="cultivés," HEIGHT="47" WIDTH="136" VPOS="1040" HPOS="615" WC="1" ID="P00000020_l17_W0003"/>
+            <SP WIDTH="4" VPOS="1040" HPOS="751"/>
+            <String CONTENT="ce" HEIGHT="47" WIDTH="35" VPOS="1040" HPOS="766" WC="1" ID="P00000020_l17_W0004"/>
+            <SP WIDTH="4" VPOS="1040" HPOS="801"/>
+            <String CONTENT="n'eſt" HEIGHT="47" WIDTH="79" VPOS="1040" HPOS="813" WC="1" ID="P00000020_l17_W0005"/>
+            <SP WIDTH="4" VPOS="1040" HPOS="893"/>
+            <String CONTENT="que" HEIGHT="47" WIDTH="53" VPOS="1040" HPOS="910" WC="1" ID="P00000020_l17_W0006"/>
+            <SP WIDTH="4" VPOS="1040" HPOS="964"/>
+            <String CONTENT="par" HEIGHT="47" WIDTH="53" VPOS="1040" HPOS="975" WC="1" ID="P00000020_l17_W0007"/>
+            <SP WIDTH="4" VPOS="1040" HPOS="1029"/>
+            <String CONTENT="rap-" HEIGHT="47" WIDTH="70" VPOS="1040" HPOS="1041" WC="1" ID="P00000020_l17_W0008"/>
+          </TextLine>
+          <TextLine BASELINE="1136" VPOS="1090" HPOS="361" HEIGHT="57" WIDTH="751" ID="P00000020_l18">
+            <String CONTENT="port" HEIGHT="57" WIDTH="64" VPOS="1090" HPOS="361" WC="1" ID="P00000020_l18_W0001"/>
+            <SP WIDTH="4" VPOS="1090" HPOS="425"/>
+            <String CONTENT="aux" HEIGHT="57" WIDTH="53" VPOS="1090" HPOS="439" WC="1" ID="P00000020_l18_W0002"/>
+            <SP WIDTH="4" VPOS="1090" HPOS="493"/>
+            <String CONTENT="qualités" HEIGHT="57" WIDTH="125" VPOS="1090" HPOS="518" WC="1" ID="P00000020_l18_W0003"/>
+            <SP WIDTH="4" VPOS="1090" HPOS="644"/>
+            <String CONTENT="du" HEIGHT="57" WIDTH="35" VPOS="1090" HPOS="658" WC="1" ID="P00000020_l18_W0004"/>
+            <SP WIDTH="4" VPOS="1090" HPOS="694"/>
+            <String CONTENT="cœur," HEIGHT="57" WIDTH="107" VPOS="1090" HPOS="719" WC="1" ID="P00000020_l18_W0005"/>
+            <SP WIDTH="4" VPOS="1090" HPOS="827"/>
+            <String CONTENT="qui" HEIGHT="57" WIDTH="53" VPOS="1090" HPOS="852" WC="1" ID="P00000020_l18_W0006"/>
+            <SP WIDTH="4" VPOS="1090" HPOS="906"/>
+            <String CONTENT="ſeules" HEIGHT="57" WIDTH="93" VPOS="1090" HPOS="924" WC="1" ID="P00000020_l18_W0007"/>
+            <SP WIDTH="4" VPOS="1090" HPOS="1017"/>
+            <String CONTENT="nous" HEIGHT="57" WIDTH="78" VPOS="1090" HPOS="1032" WC="1" ID="P00000020_l18_W0008"/>
+          </TextLine>
+          <TextLine BASELINE="1177" VPOS="1142" HPOS="361" HEIGHT="44" WIDTH="613" ID="P00000020_l19">
+            <String CONTENT="font" HEIGHT="44" WIDTH="60" VPOS="1141" HPOS="361" WC="1" ID="P00000020_l19_W0001"/>
+            <SP WIDTH="4" VPOS="1141" HPOS="421"/>
+            <String CONTENT="faire" HEIGHT="44" WIDTH="72" VPOS="1141" HPOS="435" WC="1" ID="P00000020_l19_W0002"/>
+            <SP WIDTH="4" VPOS="1141" HPOS="507"/>
+            <String CONTENT="un" HEIGHT="44" WIDTH="30" VPOS="1141" HPOS="524" WC="1" ID="P00000020_l19_W0003"/>
+            <SP WIDTH="4" VPOS="1141" HPOS="554"/>
+            <String CONTENT="bon" HEIGHT="44" WIDTH="60" VPOS="1141" HPOS="571" WC="1" ID="P00000020_l19_W0004"/>
+            <SP WIDTH="4" VPOS="1141" HPOS="632"/>
+            <String CONTENT="uſage" HEIGHT="44" WIDTH="85" VPOS="1141" HPOS="651" WC="1" ID="P00000020_l19_W0005"/>
+            <SP WIDTH="4" VPOS="1141" HPOS="737"/>
+            <String CONTENT="de" HEIGHT="44" WIDTH="36" VPOS="1141" HPOS="754" WC="1" ID="P00000020_l19_W0006"/>
+            <SP WIDTH="4" VPOS="1141" HPOS="790"/>
+            <String CONTENT="nos" HEIGHT="44" WIDTH="55" VPOS="1141" HPOS="801" WC="1" ID="P00000020_l19_W0007"/>
+            <SP WIDTH="4" VPOS="1141" HPOS="856"/>
+            <String CONTENT="talens." HEIGHT="44" WIDTH="105" VPOS="1141" HPOS="867" WC="1" ID="P00000020_l19_W0008"/>
+          </TextLine>
+          <TextLine BASELINE="1224" VPOS="1185" HPOS="413" HEIGHT="49" WIDTH="699" ID="P00000020_l23">
+            <String CONTENT="On" HEIGHT="49" WIDTH="40" VPOS="1184" HPOS="413" WC="1" ID="P00000020_l23_W0001"/>
+            <SP WIDTH="4" VPOS="1184" HPOS="453"/>
+            <String CONTENT="ſe" HEIGHT="49" WIDTH="24" VPOS="1184" HPOS="471" WC="1" ID="P00000020_l23_W0002"/>
+            <SP WIDTH="4" VPOS="1184" HPOS="496"/>
+            <String CONTENT="fait" HEIGHT="49" WIDTH="58" VPOS="1184" HPOS="508" WC="1" ID="P00000020_l23_W0003"/>
+            <SP WIDTH="4" VPOS="1184" HPOS="567"/>
+            <String CONTENT="admirer" HEIGHT="49" WIDTH="123" VPOS="1184" HPOS="579" WC="1" ID="P00000020_l23_W0004"/>
+            <SP WIDTH="4" VPOS="1184" HPOS="703"/>
+            <String CONTENT="par" HEIGHT="49" WIDTH="49" VPOS="1184" HPOS="728" WC="1" ID="P00000020_l23_W0005"/>
+            <SP WIDTH="4" VPOS="1184" HPOS="777"/>
+            <String CONTENT="ceux-ci." HEIGHT="49" WIDTH="151" VPOS="1184" HPOS="795" WC="1" ID="P00000020_l23_W0006"/>
+            <SP WIDTH="4" VPOS="1184" HPOS="947"/>
+            <String CONTENT="Mais" HEIGHT="49" WIDTH="74" VPOS="1184" HPOS="990" WC="1" ID="P00000020_l23_W0007"/>
+            <SP WIDTH="4" VPOS="1184" HPOS="1064"/>
+            <String CONTENT="il" HEIGHT="49" WIDTH="27" VPOS="1184" HPOS="1083" WC="1" ID="P00000020_l23_W0008"/>
+          </TextLine>
+          <TextLine BASELINE="1281" VPOS="1235" HPOS="362" HEIGHT="58" WIDTH="751" ID="P00000020_l24">
+            <String CONTENT="n'appartient" HEIGHT="58" WIDTH="186" VPOS="1234" HPOS="362" WC="1" ID="P00000020_l24_W0001"/>
+            <SP WIDTH="4" VPOS="1234" HPOS="548"/>
+            <String CONTENT="qu'aux" HEIGHT="58" WIDTH="106" VPOS="1234" HPOS="559" WC="1" ID="P00000020_l24_W0002"/>
+            <SP WIDTH="4" VPOS="1234" HPOS="665"/>
+            <String CONTENT="vertus" HEIGHT="58" WIDTH="98" VPOS="1234" HPOS="676" WC="1" ID="P00000020_l24_W0003"/>
+            <SP WIDTH="4" VPOS="1234" HPOS="775"/>
+            <String CONTENT="de" HEIGHT="58" WIDTH="43" VPOS="1234" HPOS="786" WC="1" ID="P00000020_l24_W0004"/>
+            <SP WIDTH="4" VPOS="1234" HPOS="830"/>
+            <String CONTENT="nous" HEIGHT="58" WIDTH="84" VPOS="1234" HPOS="833" WC="1" ID="P00000020_l24_W0005"/>
+            <SP WIDTH="4" VPOS="1234" HPOS="918"/>
+            <String CONTENT="rendre" HEIGHT="58" WIDTH="113" VPOS="1234" HPOS="914" WC="1" ID="P00000020_l24_W0006"/>
+            <SP WIDTH="4" VPOS="1234" HPOS="1027"/>
+            <String CONTENT="heu-" HEIGHT="58" WIDTH="80" VPOS="1234" HPOS="1031" WC="1" ID="P00000020_l24_W0007"/>
+          </TextLine>
+          <TextLine BASELINE="1323" VPOS="1283" HPOS="362" HEIGHT="50" WIDTH="751" ID="P00000020_l25">
+            <String CONTENT="reux" HEIGHT="50" WIDTH="65" VPOS="1283" HPOS="362" WC="1" ID="P00000020_l25_W0001"/>
+            <SP WIDTH="4" VPOS="1283" HPOS="427"/>
+            <String CONTENT="&amp;" HEIGHT="50" WIDTH="15" VPOS="1283" HPOS="446" WC="1" ID="P00000020_l25_W0002"/>
+            <SP WIDTH="4" VPOS="1283" HPOS="462"/>
+            <String CONTENT="d'aſſurer" HEIGHT="50" WIDTH="134" VPOS="1283" HPOS="487" WC="1" ID="P00000020_l25_W0003"/>
+            <SP WIDTH="4" VPOS="1283" HPOS="622"/>
+            <String CONTENT="en" HEIGHT="50" WIDTH="31" VPOS="1283" HPOS="638" WC="1" ID="P00000020_l25_W0004"/>
+            <SP WIDTH="4" VPOS="1283" HPOS="669"/>
+            <String CONTENT="même" HEIGHT="50" WIDTH="91" VPOS="1283" HPOS="697" WC="1" ID="P00000020_l25_W0005"/>
+            <SP WIDTH="4" VPOS="1283" HPOS="788"/>
+            <String CONTENT="temps" HEIGHT="50" WIDTH="97" VPOS="1283" HPOS="807" WC="1" ID="P00000020_l25_W0006"/>
+            <SP WIDTH="4" VPOS="1283" HPOS="904"/>
+            <String CONTENT="le" HEIGHT="50" WIDTH="31" VPOS="1283" HPOS="917" WC="1" ID="P00000020_l25_W0007"/>
+            <SP WIDTH="4" VPOS="1283" HPOS="948"/>
+            <String CONTENT="bonheur" HEIGHT="50" WIDTH="138" VPOS="1283" HPOS="967" WC="1" ID="P00000020_l25_W0008"/>
+          </TextLine>
+          <TextLine BASELINE="1381" VPOS="1336" HPOS="363" HEIGHT="56" WIDTH="751" ID="P00000020_l26">
+            <String CONTENT="public." HEIGHT="56" WIDTH="112" VPOS="1336" HPOS="363" WC="1" ID="P00000020_l26_W0001"/>
+            <SP WIDTH="4" VPOS="1336" HPOS="475"/>
+            <String CONTENT="Nous" HEIGHT="56" WIDTH="95" VPOS="1336" HPOS="507" WC="1" ID="P00000020_l26_W0002"/>
+            <SP WIDTH="4" VPOS="1336" HPOS="602"/>
+            <String CONTENT="ne" HEIGHT="56" WIDTH="42" VPOS="1336" HPOS="609" WC="1" ID="P00000020_l26_W0003"/>
+            <SP WIDTH="4" VPOS="1336" HPOS="651"/>
+            <String CONTENT="ſommes" HEIGHT="56" WIDTH="133" VPOS="1336" HPOS="655" WC="1" ID="P00000020_l26_W0004"/>
+            <SP WIDTH="4" VPOS="1336" HPOS="789"/>
+            <String CONTENT="même" HEIGHT="56" WIDTH="98" VPOS="1336" HPOS="796" WC="1" ID="P00000020_l26_W0005"/>
+            <SP WIDTH="4" VPOS="1336" HPOS="894"/>
+            <String CONTENT="rien" HEIGHT="56" WIDTH="63" VPOS="1336" HPOS="905" WC="1" ID="P00000020_l26_W0006"/>
+            <SP WIDTH="4" VPOS="1336" HPOS="968"/>
+            <String CONTENT="que" HEIGHT="56" WIDTH="59" VPOS="1336" HPOS="989" WC="1" ID="P00000020_l26_W0007"/>
+            <SP WIDTH="4" VPOS="1336" HPOS="1049"/>
+            <String CONTENT="par" HEIGHT="56" WIDTH="56" VPOS="1336" HPOS="1056" WC="1" ID="P00000020_l26_W0008"/>
+          </TextLine>
+          <TextLine BASELINE="1426" VPOS="1382" HPOS="365" HEIGHT="55" WIDTH="749" ID="P00000020_l27">
+            <String CONTENT="elles" HEIGHT="55" WIDTH="62" VPOS="1382" HPOS="365" WC="1" ID="P00000020_l27_W0001"/>
+            <SP WIDTH="4" VPOS="1382" HPOS="427"/>
+            <String CONTENT=";" HEIGHT="55" WIDTH="17" VPOS="1382" HPOS="430" WC="1" ID="P00000020_l27_W0002"/>
+            <SP WIDTH="4" VPOS="1382" HPOS="448"/>
+            <String CONTENT="&amp;" HEIGHT="55" WIDTH="17" VPOS="1382" HPOS="468" WC="1" ID="P00000020_l27_W0003"/>
+            <SP WIDTH="4" VPOS="1382" HPOS="486"/>
+            <String CONTENT="le" HEIGHT="55" WIDTH="34" VPOS="1382" HPOS="506" WC="1" ID="P00000020_l27_W0004"/>
+            <SP WIDTH="4" VPOS="1382" HPOS="541"/>
+            <String CONTENT="génie" HEIGHT="55" WIDTH="90" VPOS="1382" HPOS="552" WC="1" ID="P00000020_l27_W0005"/>
+            <SP WIDTH="4" VPOS="1382" HPOS="642"/>
+            <String CONTENT="," HEIGHT="55" WIDTH="17" VPOS="1382" HPOS="645" WC="1" ID="P00000020_l27_W0006"/>
+            <SP WIDTH="4" VPOS="1382" HPOS="662"/>
+            <String CONTENT="ſans" HEIGHT="55" WIDTH="65" VPOS="1382" HPOS="676" WC="1" ID="P00000020_l27_W0007"/>
+            <SP WIDTH="4" VPOS="1382" HPOS="742"/>
+            <String CONTENT="la" HEIGHT="55" WIDTH="31" VPOS="1382" HPOS="749" WC="1" ID="P00000020_l27_W0008"/>
+            <SP WIDTH="4" VPOS="1382" HPOS="780"/>
+            <String CONTENT="droiture" HEIGHT="55" WIDTH="135" VPOS="1382" HPOS="794" WC="1" ID="P00000020_l27_W0009"/>
+            <SP WIDTH="4" VPOS="1382" HPOS="929"/>
+            <String CONTENT="&amp;" HEIGHT="55" WIDTH="20" VPOS="1382" HPOS="936" WC="1" ID="P00000020_l27_W0010"/>
+            <SP WIDTH="4" VPOS="1382" HPOS="957"/>
+            <String CONTENT="la" HEIGHT="55" WIDTH="27" VPOS="1382" HPOS="988" WC="1" ID="P00000020_l27_W0011"/>
+            <SP WIDTH="4" VPOS="1382" HPOS="1016"/>
+            <String CONTENT="pro-" HEIGHT="55" WIDTH="76" VPOS="1382" HPOS="1036" WC="1" ID="P00000020_l27_W0012"/>
+          </TextLine>
+          <TextLine BASELINE="1475" VPOS="1433" HPOS="365" HEIGHT="52" WIDTH="749" ID="P00000020_l28">
+            <String CONTENT="bité" HEIGHT="52" WIDTH="52" VPOS="1433" HPOS="365" WC="1" ID="P00000020_l28_W0001"/>
+            <SP WIDTH="4" VPOS="1433" HPOS="417"/>
+            <String CONTENT="," HEIGHT="52" WIDTH="16" VPOS="1433" HPOS="427" WC="1" ID="P00000020_l28_W0002"/>
+            <SP WIDTH="4" VPOS="1433" HPOS="443"/>
+            <String CONTENT="ſeroit" HEIGHT="52" WIDTH="91" VPOS="1433" HPOS="456" WC="1" ID="P00000020_l28_W0003"/>
+            <SP WIDTH="4" VPOS="1433" HPOS="547"/>
+            <String CONTENT="de" HEIGHT="52" WIDTH="42" VPOS="1433" HPOS="557" WC="1" ID="P00000020_l28_W0004"/>
+            <SP WIDTH="4" VPOS="1433" HPOS="600"/>
+            <String CONTENT="tous" HEIGHT="52" WIDTH="71" VPOS="1433" HPOS="609" WC="1" ID="P00000020_l28_W0005"/>
+            <SP WIDTH="4" VPOS="1433" HPOS="681"/>
+            <String CONTENT="les" HEIGHT="52" WIDTH="48" VPOS="1433" HPOS="685" WC="1" ID="P00000020_l28_W0006"/>
+            <SP WIDTH="4" VPOS="1433" HPOS="734"/>
+            <String CONTENT="préſens," HEIGHT="52" WIDTH="133" VPOS="1433" HPOS="747" WC="1" ID="P00000020_l28_W0007"/>
+            <SP WIDTH="4" VPOS="1433" HPOS="881"/>
+            <String CONTENT="que" HEIGHT="52" WIDTH="58" VPOS="1433" HPOS="900" WC="1" ID="P00000020_l28_W0008"/>
+            <SP WIDTH="4" VPOS="1433" HPOS="959"/>
+            <String CONTENT="la" HEIGHT="52" WIDTH="32" VPOS="1433" HPOS="962" WC="1" ID="P00000020_l28_W0009"/>
+            <SP WIDTH="4" VPOS="1433" HPOS="995"/>
+            <String CONTENT="nature" HEIGHT="52" WIDTH="104" VPOS="1433" HPOS="1008" WC="1" ID="P00000020_l28_W0010"/>
+          </TextLine>
+          <TextLine BASELINE="1529" VPOS="1480" HPOS="365" HEIGHT="61" WIDTH="749" ID="P00000020_l29">
+            <String CONTENT="pourroit" HEIGHT="61" WIDTH="130" VPOS="1480" HPOS="365" WC="1" ID="P00000020_l29_W0001"/>
+            <SP WIDTH="4" VPOS="1480" HPOS="495"/>
+            <String CONTENT="nous" HEIGHT="61" WIDTH="84" VPOS="1480" HPOS="503" WC="1" ID="P00000020_l29_W0002"/>
+            <SP WIDTH="4" VPOS="1480" HPOS="587"/>
+            <String CONTENT="faire" HEIGHT="61" WIDTH="76" VPOS="1480" HPOS="602" WC="1" ID="P00000020_l29_W0003"/>
+            <SP WIDTH="4" VPOS="1480" HPOS="679"/>
+            <String CONTENT="," HEIGHT="61" WIDTH="19" VPOS="1480" HPOS="683" WC="1" ID="P00000020_l29_W0004"/>
+            <SP WIDTH="4" VPOS="1480" HPOS="702"/>
+            <String CONTENT="le" HEIGHT="61" WIDTH="38" VPOS="1480" HPOS="714" WC="1" ID="P00000020_l29_W0005"/>
+            <SP WIDTH="4" VPOS="1480" HPOS="752"/>
+            <String CONTENT="plus" HEIGHT="61" WIDTH="72" VPOS="1480" HPOS="756" WC="1" ID="P00000020_l29_W0006"/>
+            <SP WIDTH="4" VPOS="1480" HPOS="829"/>
+            <String CONTENT="dangereux" HEIGHT="61" WIDTH="168" VPOS="1480" HPOS="844" WC="1" ID="P00000020_l29_W0007"/>
+            <SP WIDTH="4" VPOS="1480" HPOS="1013"/>
+            <String CONTENT="&amp;" HEIGHT="61" WIDTH="19" VPOS="1480" HPOS="1036" WC="1" ID="P00000020_l29_W0008"/>
+            <SP WIDTH="4" VPOS="1480" HPOS="1055"/>
+            <String CONTENT="le" HEIGHT="61" WIDTH="34" VPOS="1480" HPOS="1078" WC="1" ID="P00000020_l29_W0009"/>
+          </TextLine>
+          <TextLine BASELINE="1580" VPOS="1545" HPOS="366" HEIGHT="44" WIDTH="198" ID="P00000020_l30">
+            <String CONTENT="plus" HEIGHT="44" WIDTH="59" VPOS="1544" HPOS="366" WC="1" ID="P00000020_l30_W0001"/>
+            <SP WIDTH="4" VPOS="1544" HPOS="425"/>
+            <String CONTENT="funeste." HEIGHT="44" WIDTH="126" VPOS="1544" HPOS="436" WC="1" ID="P00000020_l30_W0002"/>
+          </TextLine>
+          <TextLine BASELINE="1625" VPOS="1573" HPOS="415" HEIGHT="65" WIDTH="700" ID="P00000020_l31">
+            <String CONTENT="Qu'est-ce" HEIGHT="65" WIDTH="159" VPOS="1573" HPOS="415" WC="1" ID="P00000020_l31_W0001"/>
+            <SP WIDTH="4" VPOS="1573" HPOS="574"/>
+            <String CONTENT="en" HEIGHT="65" WIDTH="36" VPOS="1573" HPOS="582" WC="1" ID="P00000020_l31_W0002"/>
+            <SP WIDTH="4" VPOS="1573" HPOS="619"/>
+            <String CONTENT="effet" HEIGHT="65" WIDTH="81" VPOS="1573" HPOS="635" WC="1" ID="P00000020_l31_W0003"/>
+            <SP WIDTH="4" VPOS="1573" HPOS="717"/>
+            <String CONTENT="qu'un" HEIGHT="65" WIDTH="94" VPOS="1573" HPOS="721" WC="1" ID="P00000020_l31_W0004"/>
+            <SP WIDTH="4" VPOS="1573" HPOS="815"/>
+            <String CONTENT="homme" HEIGHT="65" WIDTH="126" VPOS="1573" HPOS="827" WC="1" ID="P00000020_l31_W0005"/>
+            <SP WIDTH="4" VPOS="1573" HPOS="954"/>
+            <String CONTENT="à" HEIGHT="65" WIDTH="20" VPOS="1573" HPOS="966" WC="1" ID="P00000020_l31_W0006"/>
+            <SP WIDTH="4" VPOS="1573" HPOS="987"/>
+            <String CONTENT="talens," HEIGHT="65" WIDTH="110" VPOS="1573" HPOS="1003" WC="1" ID="P00000020_l31_W0007"/>
+          </TextLine>
+          <TextLine BASELINE="1671" VPOS="1633" HPOS="367" HEIGHT="48" WIDTH="749" ID="P00000020_l32">
+            <String CONTENT="dont" HEIGHT="48" WIDTH="69" VPOS="1632" HPOS="367" WC="1" ID="P00000020_l32_W0001"/>
+            <SP WIDTH="4" VPOS="1632" HPOS="436"/>
+            <String CONTENT="le" HEIGHT="48" WIDTH="33" VPOS="1632" HPOS="451" WC="1" ID="P00000020_l32_W0002"/>
+            <SP WIDTH="4" VPOS="1632" HPOS="484"/>
+            <String CONTENT="cœur" HEIGHT="48" WIDTH="78" VPOS="1632" HPOS="505" WC="1" ID="P00000020_l32_W0003"/>
+            <SP WIDTH="4" VPOS="1632" HPOS="584"/>
+            <String CONTENT="est" HEIGHT="48" WIDTH="45" VPOS="1632" HPOS="611" WC="1" ID="P00000020_l32_W0004"/>
+            <SP WIDTH="4" VPOS="1632" HPOS="656"/>
+            <String CONTENT="pervers" HEIGHT="48" WIDTH="117" VPOS="1632" HPOS="680" WC="1" ID="P00000020_l32_W0005"/>
+            <SP WIDTH="4" VPOS="1632" HPOS="798"/>
+            <String CONTENT="&amp;" HEIGHT="48" WIDTH="18" VPOS="1632" HPOS="825" WC="1" ID="P00000020_l32_W0006"/>
+            <SP WIDTH="4" VPOS="1632" HPOS="843"/>
+            <String CONTENT="inſensible" HEIGHT="48" WIDTH="153" VPOS="1632" HPOS="882" WC="1" ID="P00000020_l32_W0007"/>
+            <SP WIDTH="4" VPOS="1632" HPOS="1036"/>
+            <String CONTENT="aux" HEIGHT="48" WIDTH="57" VPOS="1632" HPOS="1057" WC="1" ID="P00000020_l32_W0008"/>
+          </TextLine>
+          <TextLine BASELINE="303" VPOS="277" HPOS="364" HEIGHT="33" WIDTH="42" ID="P00000020_l1">
+            <String CONTENT="16" HEIGHT="33" WIDTH="31" VPOS="276" HPOS="364" WC="0.99" ID="P00000020_l1_W0001"/>
+          </TextLine>
+          <TextLine BASELINE="1707" VPOS="1685" HPOS="1036" HEIGHT="27" WIDTH="79" ID="P00000020_l34">
+            <String CONTENT="char-" HEIGHT="27" WIDTH="78" VPOS="1685" HPOS="1036" WC="1" ID="P00000020_l34_W0001"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

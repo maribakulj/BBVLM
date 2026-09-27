@@ -1,0 +1,18 @@
+{
+  "schema": "bbvlm.spiritualist-import-evaluation/1",
+  "page": "0009",
+  "split_role": "development",
+  "source_alto_sha256": "b70187ffc8971a439360db3b77a4a292d193fcca8b41798d8d3af62610d54727",
+  "source_image_sha256": "411c1d9e050164f1820681f20c230207ad5c252d3e50190bb1536a63d84b3147",
+  "quarantined_word_boxes": 2507,
+  "lines_exported_unaligned": 268,
+  "semantic_units": 6,
+  "articles_invented": 0,
+  "reading_order_edges": 5,
+  "alto44_valid": true,
+  "mets1121_valid": true,
+  "mets_area_refs": 12,
+  "mets_area_refs_resolve_to_alto": true,
+  "pass_count": 0,
+  "decision": "SSU/order can enter the evidence graph; word geometry must be regenerated and independently validated."
+}

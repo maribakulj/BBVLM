@@ -1,0 +1,75 @@
+{
+  "schema": "bbvlm.sbb-reference-split/1",
+  "repository": "OCR-D/OCR-D-GT-VD-SBB",
+  "revision": "481f7235acfc1f78e88b3c2f22f551595c3f2032",
+  "seed": 2026092718,
+  "selection": "filenames only; distinct works",
+  "created_unix": 1790510126.1217873,
+  "pages": [
+    {
+      "work": "hermhyst_816125724",
+      "role": "audit",
+      "xml": "data/hermhyst_816125724/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000146.xml",
+      "image": "data/hermhyst_816125724/OCR-D-IMG/OCR-D-IMG_00000146.tif",
+      "xml_blob": "663a41949920e867283f6ff89278e596b79b5ee9",
+      "image_blob": "c5df85ff0213d79675befca54d09caa5a3b06abc"
+    },
+    {
+      "work": "chiamerk_766680207",
+      "role": "audit",
+      "xml": "data/chiamerk_766680207/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000094.xml",
+      "image": "data/chiamerk_766680207/OCR-D-IMG/OCR-D-IMG_00000094.tif",
+      "xml_blob": "c2cfe1b1f46e915624fefb6ba244add3b5cb6a80",
+      "image_blob": "3314299ddb19c82d15771d208a94c6d2062304e0"
+    },
+    {
+      "work": "brieetli_73862926X",
+      "role": "audit",
+      "xml": "data/brieetli_73862926X/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000029.xml",
+      "image": "data/brieetli_73862926X/OCR-D-IMG/OCR-D-IMG_00000029.tif",
+      "xml_blob": "ef41b207cb973db1167aa6d2255ec071b41e49d6",
+      "image_blob": "3ae755872974dba1965be60735928eac7219c591"
+    },
+    {
+      "work": "CesiLAn_893988510",
+      "role": "audit",
+      "xml": "data/CesiLAn_893988510/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000021.xml",
+      "image": "data/CesiLAn_893988510/OCR-D-IMG/OCR-D-IMG_00000021.tif",
+      "xml_blob": "ea89a07a176b2f322dec683adb8c096ab2aa1c12",
+      "image_blob": "4ccc5b0e301206eb491debcebc4c48d34b1d55a4"
+    },
+    {
+      "work": "ferrepit_667769218",
+      "role": "reserve",
+      "xml": "data/ferrepit_667769218/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000028.xml",
+      "image": "data/ferrepit_667769218/OCR-D-IMG/OCR-D-IMG_00000028.tif",
+      "xml_blob": "586fae69358e9ac65c8e8c036a0305c231d8d213",
+      "image_blob": "41977917ca3d3efe23e49044b252e4ea3305a47d"
+    },
+    {
+      "work": "688357687_688358799_1771000800",
+      "role": "reserve",
+      "xml": "data/688357687_688358799_1771000800/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000082.xml",
+      "image": "data/688357687_688358799_1771000800/OCR-D-IMG/OCR-D-IMG_00000082.tif",
+      "xml_blob": "dd609b0c775f8e735cec6229a46a5dc3ee7aa51d",
+      "image_blob": "892f6646c33c11a0f51810383ef0e3f0146e83e2"
+    },
+    {
+      "work": "erasexom_816221448",
+      "role": "reserve",
+      "xml": "data/erasexom_816221448/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000029.xml",
+      "image": "data/erasexom_816221448/OCR-D-IMG/OCR-D-IMG_00000029.tif",
+      "xml_blob": "2acf7899506a3558a5087fab34949b4ae32c13e8",
+      "image_blob": "8d26fc8d2121137dfd273f27050adf80eefddd36"
+    },
+    {
+      "work": "canitrac_789765837",
+      "role": "reserve",
+      "xml": "data/canitrac_789765837/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000116.xml",
+      "image": "data/canitrac_789765837/OCR-D-IMG/OCR-D-IMG_00000116.tif",
+      "xml_blob": "7418c7672d3ac2d29518b65399a3276fdd2f0d42",
+      "image_blob": "83101e984ff761777ba4bf855cd74a65ce6d5dbd"
+    }
+  ],
+  "reserve_policy": "no download/inspection until experiment and conventions frozen"
+}

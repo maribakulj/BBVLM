@@ -1,0 +1,239 @@
+{
+  "schema": "bbvlm.detector-column-windows/1",
+  "windows": [
+    {
+      "id": "C1",
+      "core_bbox": [
+        0.0,
+        0.0,
+        890.5663452148438,
+        3508.0
+      ],
+      "context_bbox": [
+        0.0,
+        0.0,
+        900.4823452148438,
+        3508.0
+      ]
+    },
+    {
+      "id": "C2",
+      "core_bbox": [
+        890.5663452148438,
+        0.0,
+        1592.8909912109375,
+        3508.0
+      ],
+      "context_bbox": [
+        880.6503452148437,
+        0.0,
+        1602.8069912109374,
+        3508.0
+      ]
+    },
+    {
+      "id": "C3",
+      "core_bbox": [
+        1592.8909912109375,
+        0.0,
+        2479.0,
+        3508.0
+      ],
+      "context_bbox": [
+        1582.9749912109376,
+        0.0,
+        2479.0,
+        3508.0
+      ]
+    }
+  ],
+  "anchor_spans_x": [
+    [
+      190.62892150878906,
+      888.3270263671875
+    ],
+    [
+      892.8056640625,
+      1591.521484375
+    ],
+    [
+      1594.260498046875,
+      2293.18359375
+    ]
+  ],
+  "anchor_ids": [
+    "D000",
+    "D001",
+    "D002",
+    "D003",
+    "D004",
+    "D005",
+    "D006",
+    "D007",
+    "D008",
+    "D009",
+    "D010",
+    "D011",
+    "D012",
+    "D013",
+    "D014",
+    "D015",
+    "D016",
+    "D021"
+  ],
+  "region_column_memberships": {
+    "D000": [
+      "C2"
+    ],
+    "D001": [
+      "C1"
+    ],
+    "D002": [
+      "C1"
+    ],
+    "D003": [
+      "C1"
+    ],
+    "D004": [
+      "C3"
+    ],
+    "D005": [
+      "C2"
+    ],
+    "D006": [
+      "C3"
+    ],
+    "D007": [
+      "C3"
+    ],
+    "D008": [
+      "C1"
+    ],
+    "D009": [
+      "C1"
+    ],
+    "D010": [
+      "C2"
+    ],
+    "D011": [
+      "C2"
+    ],
+    "D012": [
+      "C2"
+    ],
+    "D013": [
+      "C1"
+    ],
+    "D014": [
+      "C1"
+    ],
+    "D015": [
+      "C2"
+    ],
+    "D016": [
+      "C2"
+    ],
+    "D017": [
+      "C2"
+    ],
+    "D018": [
+      "C3"
+    ],
+    "D019": [
+      "C2"
+    ],
+    "D020": [
+      "C1"
+    ],
+    "D021": [
+      "C1"
+    ],
+    "D022": [
+      "C2"
+    ],
+    "D023": [
+      "C2"
+    ],
+    "D024": [
+      "C2"
+    ]
+  },
+  "spanning_region_ids": [],
+  "retained_detection_ids": [
+    "D000",
+    "D001",
+    "D002",
+    "D003",
+    "D004",
+    "D005",
+    "D006",
+    "D007",
+    "D008",
+    "D009",
+    "D010",
+    "D011",
+    "D012",
+    "D013",
+    "D014",
+    "D015",
+    "D016",
+    "D017",
+    "D018",
+    "D019",
+    "D020",
+    "D021",
+    "D022",
+    "D023",
+    "D024"
+  ],
+  "review": [
+    {
+      "id": "D017",
+      "reason": "non_body_detector_class",
+      "action": "retain; class is not permission to delete content"
+    },
+    {
+      "id": "D018",
+      "reason": "non_body_detector_class",
+      "action": "retain; class is not permission to delete content"
+    },
+    {
+      "id": "D019",
+      "reason": "non_body_detector_class",
+      "action": "retain; class is not permission to delete content"
+    },
+    {
+      "id": "D020",
+      "reason": "non_body_detector_class",
+      "action": "retain; class is not permission to delete content"
+    },
+    {
+      "id": "D022",
+      "reason": "non_body_detector_class",
+      "action": "retain; class is not permission to delete content"
+    },
+    {
+      "id": "D023",
+      "reason": "non_body_detector_class",
+      "action": "retain; class is not permission to delete content"
+    },
+    {
+      "id": "D024",
+      "reason": "non_body_detector_class",
+      "action": "retain; class is not permission to delete content"
+    }
+  ],
+  "requires_layout_review": false,
+  "parameters": {
+    "order": {
+      "gap_ratio": 0.14,
+      "top_exclusion_ratio": 0.055,
+      "max_anchor_width_ratio": 0.55,
+      "min_anchor_width_ratio": 0.02,
+      "assign_by_overlap": true
+    },
+    "context_margin_ratio": 0.004
+  },
+  "status": "proposal_not_verified",
+  "word_boxes": null
+}

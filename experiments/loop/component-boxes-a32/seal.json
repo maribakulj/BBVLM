@@ -1,0 +1,34 @@
+{
+  "status": "consumed_development",
+  "parameters": {
+    "band_height_fraction": 0.4,
+    "band_start_min_fraction": 0.15,
+    "band_start_max_fraction": 0.5,
+    "min_area_height_squared": 0.001,
+    "core_min_height_fraction": 0.2,
+    "core_min_overlap_fraction": 0.2,
+    "satellite_max_horizontal_gap_fraction": 0.3,
+    "satellite_max_vertical_gap_fraction": 0.25
+  },
+  "implementation_sha256": "9ded89299ba0eca55697865ffaa754ca7e00755cc79d97b1b8ba1defdd6eaed1",
+  "evaluator_sha256": "9982674369856b566356a34c619baa9a317b34afc29c3fcc57ebcf46eac00771",
+  "input_sha256": {
+    "experiments/loop/french-word-gt-a28/output/boxes.json": "87f0a7772acc64a2301279c5e0860be10e67fa19bb5925ebadc9233eaff774cd",
+    "experiments/loop/french-word-gt-a28/source/data/borrdisc_689809840/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000018.xml": "d37ae50535e33a08d00c1a514ca41ee7af5df8f62116624953717fc62fde40bd",
+    "experiments/loop/french-word-gt-a28/source/data/borrdisc_689809840/OCR-D-IMG/OCR-D-IMG_00000018.tif": "5863682c0bbb250a8a6e8d7289353ce1f1843f886e7041f67771ca49e23c270b",
+    "experiments/loop/french-word-gt-a28/source/data/borrdisc_689809840/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000019.xml": "7314336bbac56de76a2ba9939331d82aec256f37b400f93341614e3f6fe2eb1b",
+    "experiments/loop/french-word-gt-a28/source/data/borrdisc_689809840/OCR-D-IMG/OCR-D-IMG_00000019.tif": "cc3dd1e69aca4f01c139e451e51f2eec0411f43d03178e832de1da157973ff2d",
+    "experiments/loop/french-word-gt-a28/source/data/borrdisc_689809840/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000020.xml": "23e52d790816b8b740e34d028d67c5894b882ea8f40bee2758daf98c6f0cf504",
+    "experiments/loop/french-word-gt-a28/source/data/borrdisc_689809840/OCR-D-IMG/OCR-D-IMG_00000020.tif": "5ff74cab0ee53e44dd0ede5f55e3f25f3d2d3a48b959d498cbc370ef4e74d01f",
+    "experiments/loop/french-word-gt-a28/source/data/borrdisc_689809840/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000021.xml": "53d83fb3f859fd3983cd9c2bd2e3a20a73b704ae5f86240c4769c7ea698b3e5a",
+    "experiments/loop/french-word-gt-a28/source/data/borrdisc_689809840/OCR-D-IMG/OCR-D-IMG_00000021.tif": "8d910106f4ae25f3affce62ef9953f65474f99b3ce3e5f71e5dd6f02b8705501",
+    "experiments/loop/french-word-gt-a28/source/data/catapabin_657601357/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000272.xml": "2cfda592b2bd4878ee15c4b7f2b9b5a63680c9b35c447bb9e581cb0ae75272a6",
+    "experiments/loop/french-word-gt-a28/source/data/catapabin_657601357/OCR-D-IMG/OCR-D-IMG_00000272.tif": "03d50669e7bb4f3ff777e5b416ff6baf66dae4fd19117b6289ba64e37bad2cc4",
+    "experiments/loop/french-word-gt-a28/source/data/catapabin_657601357/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000273.xml": "b389428023dd0022d318fc4ff7b213e11d6186d1b2043b0fbcaf77616e1e8e5b",
+    "experiments/loop/french-word-gt-a28/source/data/catapabin_657601357/OCR-D-IMG/OCR-D-IMG_00000273.tif": "e9c19968a7eb607252fcc7d4add3f2797547bcbd8bb7df49141c45bf4b13f342",
+    "experiments/loop/french-word-gt-a28/source/data/catapabin_657601357/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000274.xml": "d57b0377d853ca9ff359d5acbf8c55959921784658eb04c301d5f18cc6c8f86b",
+    "experiments/loop/french-word-gt-a28/source/data/catapabin_657601357/OCR-D-IMG/OCR-D-IMG_00000274.tif": "d2f1420d623ba33fc5dfb7b1c9b59b9710b1edea43d5fa4ee643c6bf3ba71dad",
+    "experiments/loop/french-word-gt-a28/source/data/catapabin_657601357/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000275.xml": "4b855c631c9ed0961205d5ea0d4eef32a0acd5c93c9f6804b0e23dc35e51e910",
+    "experiments/loop/french-word-gt-a28/source/data/catapabin_657601357/OCR-D-IMG/OCR-D-IMG_00000275.tif": "c93e681a77b4e5c0c4cab0c898de4190fb004f249aabee464b8ca3d846df08d3"
+  }
+}

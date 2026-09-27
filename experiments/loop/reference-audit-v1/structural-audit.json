@@ -1,0 +1,1919 @@
+{
+  "schema": "bbvlm.reference-structural-audit/1",
+  "scope": "internal XML consistency and Unicode hygiene; not visual truth",
+  "pages": [
+    {
+      "page": "0253902-001",
+      "xml": "corpora/newseye-validation/ATR_ValidationSet_BnF_Newseye_M2+/0253902-001.xml",
+      "lines": 491,
+      "words": 3082,
+      "lines_with_words": 491,
+      "empty_line_texts": [],
+      "line_word_text_mismatches": [],
+      "non_nfc_line_ids": [],
+      "control_or_format_characters": [],
+      "encoding_repair_candidates": []
+    },
+    {
+      "page": "0401692-003",
+      "xml": "corpora/newseye-validation/ATR_ValidationSet_BnF_Newseye_M2+/0401692-003.xml",
+      "lines": 881,
+      "words": 5385,
+      "lines_with_words": 881,
+      "empty_line_texts": [],
+      "line_word_text_mismatches": [],
+      "non_nfc_line_ids": [],
+      "control_or_format_characters": [],
+      "encoding_repair_candidates": []
+    },
+    {
+      "page": "752234-003",
+      "xml": "corpora/newseye-validation/ATR_ValidationSet_BnF_Newseye_M2+/752234-003.xml",
+      "lines": 964,
+      "words": 5898,
+      "lines_with_words": 964,
+      "empty_line_texts": [],
+      "line_word_text_mismatches": [],
+      "non_nfc_line_ids": [],
+      "control_or_format_characters": [
+        {
+          "line": "tl_99",
+          "codepoint": "U+0096",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_110",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_147",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_222",
+          "codepoint": "U+0082",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_222",
+          "codepoint": "U+0096",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_300",
+          "codepoint": "U+0096",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_399",
+          "codepoint": "U+0096",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_426",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_426",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_453",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_453",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_466",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_466",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_477",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_489",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_489",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_503",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_503",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_506",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_506",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_509",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_509",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_512",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_512",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_513",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_514",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_514",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_514",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_523",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_523",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_524",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_524",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_524",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_525",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_525",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_537",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_537",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_544",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_546",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_548",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_548",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_555",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_555",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_557",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_557",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_563",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_563",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_568",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_568",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_573",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_573",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_573",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_573",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_574",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_577",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_577",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_578",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_578",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_582",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_582",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_583",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_587",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_587",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_589",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_593",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_593",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_593",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_593",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_594",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_594",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_595",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_595",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_596",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_596",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_596",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_596",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_598",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_598",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_599",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_599",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_599",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_599",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_600",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_600",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_601",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_601",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_601",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_601",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_603",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_603",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_604",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_604",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_605",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_605",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_606",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_606",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_607",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_607",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_607",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_607",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_610",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_610",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_616",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_616",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_618",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_618",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_620",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_620",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_621",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_621",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_623",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_623",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_625",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_625",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_834",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_899",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_899",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_900",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_900",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_921",
+          "codepoint": "U+0080",
+          "name": "UNNAMED"
+        },
+        {
+          "line": "tl_921",
+          "codepoint": "U+0094",
+          "name": "UNNAMED"
+        }
+      ],
+      "encoding_repair_candidates": [
+        {
+          "line": "tl_99",
+          "original": "service.-' â ",
+          "proposal": "service.-' ■",
+          "repairs": [
+            {
+              "offset": 11,
+              "before": "â ",
+              "after": "■",
+              "after_codepoint": "U+25A0"
+            }
+          ]
+        },
+        {
+          "line": "tl_110",
+          "original": "tion a exprime 1 espoir «â¢ que dams l'avenir,",
+          "proposal": "tion a exprime 1 espoir «• que dams l'avenir,",
+          "repairs": [
+            {
+              "offset": 25,
+              "before": "â¢",
+              "after": "•",
+              "after_codepoint": "U+2022"
+            }
+          ]
+        },
+        {
+          "line": "tl_147",
+          "original": "â¢Gaivet a rejeté les torts sur des voisins que,",
+          "proposal": "•Gaivet a rejeté les torts sur des voisins que,",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â¢",
+              "after": "•",
+              "after_codepoint": "U+2022"
+            }
+          ]
+        },
+        {
+          "line": "tl_222",
+          "original": "â¬«rétill«t â { (AutfldiîJjS} et -Mlle r.rnmh^Jih (Vo-",
+          "proposal": "€«rétill«t ■{ (AutfldiîJjS} et -Mlle r.rnmh^Jih (Vo-",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â¬",
+              "after": "€",
+              "after_codepoint": "U+20AC"
+            },
+            {
+              "offset": 13,
+              "before": "â ",
+              "after": "■",
+              "after_codepoint": "U+25A0"
+            }
+          ]
+        },
+        {
+          "line": "tl_300",
+          "original": "re Louys, avec, pour principale interprète, â ",
+          "proposal": "re Louys, avec, pour principale interprète, ■",
+          "repairs": [
+            {
+              "offset": 44,
+              "before": "â ",
+              "after": "■",
+              "after_codepoint": "U+25A0"
+            }
+          ]
+        },
+        {
+          "line": "tl_399",
+          "original": "â 3 fr. 50.",
+          "proposal": "■3 fr. 50.",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â ",
+              "after": "■",
+              "after_codepoint": "U+25A0"
+            }
+          ]
+        },
+        {
+          "line": "tl_426",
+          "original": "Les Coupes des Aéronautcs. â Comme",
+          "proposal": "Les Coupes des Aéronautcs. — Comme",
+          "repairs": [
+            {
+              "offset": 27,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_453",
+          "original": "Le « Clément-Bayard â Une note com-",
+          "proposal": "Le « Clément-Bayard — Une note com-",
+          "repairs": [
+            {
+              "offset": 20,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_466",
+          "original": "La Coupe Gordon BenneU. â M. Cori-",
+          "proposal": "La Coupe Gordon BenneU. — M. Cori-",
+          "repairs": [
+            {
+              "offset": 24,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_477",
+          "original": "â¢niir en Amérique et voler à tous les mee-",
+          "proposal": "•niir en Amérique et voler à tous les mee-",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â¢",
+              "after": "•",
+              "after_codepoint": "U+2022"
+            }
+          ]
+        },
+        {
+          "line": "tl_489",
+          "original": "Au Palais des Sports. â Hier,, au Vêl'",
+          "proposal": "Au Palais des Sports. — Hier,, au Vêl'",
+          "repairs": [
+            {
+              "offset": 22,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_503",
+          "original": "ûoiwi â Oevoissoiix-Delagîï, noufeseau-Govea",
+          "proposal": "ûoiwi — Oevoissoiix-Delagîï, noufeseau-Govea",
+          "repairs": [
+            {
+              "offset": 6,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_506",
+          "original": "Léon George!. â Denjou-Heller, Dupuy-Pollerdt",
+          "proposal": "Léon George!. — Denjou-Heller, Dupuy-Pollerdt",
+          "repairs": [
+            {
+              "offset": 14,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_509",
+          "original": "Germain, de là Flèche. â Ilommey-Morel, Mas-",
+          "proposal": "Germain, de là Flèche. — Ilommey-Morel, Mas-",
+          "repairs": [
+            {
+              "offset": 23,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_512",
+          "original": "Lapize. â Ledoe-Ruinart, Devaux-Decaup, Dus-",
+          "proposal": "Lapize. — Ledoe-Ruinart, Devaux-Decaup, Dus-",
+          "repairs": [
+            {
+              "offset": 8,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_513",
+          "original": "'^â¢Sunar, (iuif-Boutrgeois, Gampe-Trin, Jaeck-",
+          "proposal": "'^•Sunar, (iuif-Boutrgeois, Gampe-Trin, Jaeck-",
+          "repairs": [
+            {
+              "offset": 2,
+              "before": "â¢",
+              "after": "•",
+              "after_codepoint": "U+2022"
+            }
+          ]
+        },
+        {
+          "line": "tl_514",
+          "original": "Seigneur. ââ¢ Clir-éJienChaudron, Michaud-P,",
+          "proposal": "Seigneur. —• Clir-éJienChaudron, Michaud-P,",
+          "repairs": [
+            {
+              "offset": 10,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            },
+            {
+              "offset": 13,
+              "before": "â¢",
+              "after": "•",
+              "after_codepoint": "U+2022"
+            }
+          ]
+        },
+        {
+          "line": "tl_523",
+          "original": "Uiet, Onàisgûrd. â Deuxième série : Moretti, Pol-",
+          "proposal": "Uiet, Onàisgûrd. — Deuxième série : Moretti, Pol-",
+          "repairs": [
+            {
+              "offset": 17,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_524",
+          "original": ":Tr^ Gostar. ââ¢ Troisième série : Dupuy,",
+          "proposal": ":Tr^ Gostar. —• Troisième série : Dupuy,",
+          "repairs": [
+            {
+              "offset": 13,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            },
+            {
+              "offset": 16,
+              "before": "â¢",
+              "after": "•",
+              "after_codepoint": "U+2022"
+            }
+          ]
+        },
+        {
+          "line": "tl_525",
+          "original": "IwlUcti, Boutelîier, P. Didier. â Quatrième sé-",
+          "proposal": "IwlUcti, Boutelîier, P. Didier. — Quatrième sé-",
+          "repairs": [
+            {
+              "offset": 32,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_537",
+          "original": "Aéronattliquc, â L'h.vdrfï-aérnplane du com-",
+          "proposal": "Aéronattliquc, — L'h.vdrfï-aérnplane du com-",
+          "repairs": [
+            {
+              "offset": 15,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_544",
+          "original": "â¢et I appareil, pria dans un tourbillon, fut préci-",
+          "proposal": "•et I appareil, pria dans un tourbillon, fut préci-",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â¢",
+              "after": "•",
+              "after_codepoint": "U+2022"
+            }
+          ]
+        },
+        {
+          "line": "tl_546",
+          "original": "â¢tuent l'iiydro-aéropiane purent se sauver en «ia-",
+          "proposal": "•tuent l'iiydro-aéropiane purent se sauver en «ia-",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â¢",
+              "after": "•",
+              "after_codepoint": "U+2022"
+            }
+          ]
+        },
+        {
+          "line": "tl_548",
+          "original": "â Naine confrère The Sportsman, de Lon-",
+          "proposal": "— Naine confrère The Sportsman, de Lon-",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_555",
+          "original": "â Le dirigeable h'iet, construit par l'in-",
+          "proposal": "— Le dirigeable h'iet, construit par l'in-",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_557",
+          "original": "ilenri. â ALBERT UEC.",
+          "proposal": "ilenri. — ALBERT UEC.",
+          "repairs": [
+            {
+              "offset": 8,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_563",
+          "original": "â r. 3« . 15 50",
+          "proposal": "— r. 3« . 15 50",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_568",
+          "original": "â P. 19» »sa",
+          "proposal": "— P. 19» »sa",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_573",
+          "original": "â â P. K» ia E",
+          "proposal": "— — P. K» ia E",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            },
+            {
+              "offset": 4,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_574",
+          "original": "â¢Sara 29 . « «",
+          "proposal": "•Sara 29 . « «",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â¢",
+              "after": "•",
+              "after_codepoint": "U+2022"
+            }
+          ]
+        },
+        {
+          "line": "tl_577",
+          "original": "Lieu tel ..G. 13 â¢ g â¢",
+          "proposal": "Lieu tel ..G. 13 • g •",
+          "repairs": [
+            {
+              "offset": 17,
+              "before": "â¢",
+              "after": "•",
+              "after_codepoint": "U+2022"
+            },
+            {
+              "offset": 23,
+              "before": "â¢",
+              "after": "•",
+              "after_codepoint": "U+2022"
+            }
+          ]
+        },
+        {
+          "line": "tl_578",
+          "original": "â P. ta 50 11 .",
+          "proposal": "— P. ta 50 11 .",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_582",
+          "original": "â .........P. M » 24 59",
+          "proposal": "— .........P. M » 24 59",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_583",
+          "original": "JojfKux DrfEe P. 58 â¢ 36 .",
+          "proposal": "JojfKux DrfEe P. 58 • 36 .",
+          "repairs": [
+            {
+              "offset": 20,
+              "before": "â¢",
+              "after": "•",
+              "after_codepoint": "U+2022"
+            }
+          ]
+        },
+        {
+          "line": "tl_587",
+          "original": "â P. 14 50 C 5»",
+          "proposal": "— P. 14 50 C 5»",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_589",
+          "original": "Le Tocsin p. si . 9 â¢",
+          "proposal": "Le Tocsin p. si . 9 •",
+          "repairs": [
+            {
+              "offset": 20,
+              "before": "â¢",
+              "after": "•",
+              "after_codepoint": "U+2022"
+            }
+          ]
+        },
+        {
+          "line": "tl_593",
+          "original": "PIUX IRIS (fai trot jponté. â 3.008 fr. â",
+          "proposal": "PIUX IRIS (fai trot jponté. — 3.008 fr. —",
+          "repairs": [
+            {
+              "offset": 28,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            },
+            {
+              "offset": 42,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_594",
+          "original": "«.400 m.) J/OSTIA â Hippohfte.",
+          "proposal": "«.400 m.) J/OSTIA — Hippohfte.",
+          "repairs": [
+            {
+              "offset": 18,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_595",
+          "original": "PRrx DE BRETAGNE (Au trot attelé. â",
+          "proposal": "PRrx DE BRETAGNE (Au trot attelé. —",
+          "repairs": [
+            {
+              "offset": 34,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_596",
+          "original": "3.000 fr. â 2.400 m.) mtlOXDELLE â Uer-",
+          "proposal": "3.000 fr. — 2.400 m.) mtlOXDELLE — Uer-",
+          "repairs": [
+            {
+              "offset": 10,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            },
+            {
+              "offset": 35,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_598",
+          "original": "PRTX îffîGKIl (Au tpot monté. â 3.000 fr.",
+          "proposal": "PRTX îffîGKIl (Au tpot monté. — 3.000 fr.",
+          "repairs": [
+            {
+              "offset": 30,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_599",
+          "original": "â 2.800 m.} GALATHEE â Onetteur.",
+          "proposal": "— 2.800 m.} GALATHEE — Onetteur.",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            },
+            {
+              "offset": 23,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_600",
+          "original": "PRIX DBS BTSFSta» ^An tmt atteM. â",
+          "proposal": "PRIX DBS BTSFSta» ^An tmt atteM. —",
+          "repairs": [
+            {
+              "offset": 33,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_601",
+          "original": "5:080 fr. â 2.S00 m.) N/RIA'DCLK â",
+          "proposal": "5:080 fr. — 2.S00 m.) N/RIA'DCLK —",
+          "repairs": [
+            {
+              "offset": 10,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            },
+            {
+              "offset": 35,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_603",
+          "original": "1%TX DEMINE (.Vu trot monté. â 10.000",
+          "proposal": "1%TX DEMINE (.Vu trot monté. — 10.000",
+          "repairs": [
+            {
+              "offset": 29,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_604",
+          "original": "fr. â Si.é00 ai.j ECU 11 IF, OLRY-KOEDEBEIl",
+          "proposal": "fr. — Si.é00 ai.j ECU 11 IF, OLRY-KOEDEBEIl",
+          "repairs": [
+            {
+              "offset": 4,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_605",
+          "original": "â Hanoliûu.",
+          "proposal": "— Hanoliûu.",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_606",
+          "original": "i'iilX DE BERN'AY (Au l«)t attelé. â",
+          "proposal": "i'iilX DE BERN'AY (Au l«)t attelé. —",
+          "repairs": [
+            {
+              "offset": 35,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_607",
+          "original": "2,000 Ir. â £.«0 m.) GCENSTIA â Gondo-",
+          "proposal": "2,000 Ir. — £.«0 m.) GCENSTIA — Gondo-",
+          "repairs": [
+            {
+              "offset": 10,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            },
+            {
+              "offset": 32,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_610",
+          "original": "S.OOO fr. â 3.0U0 ra.) UC'ILL.WME TELL -",
+          "proposal": "S.OOO fr. — 3.0U0 ra.) UC'ILL.WME TELL -",
+          "repairs": [
+            {
+              "offset": 10,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_616",
+          "original": "â L. Vaiès : Le Mysticisme: au théâtre ; Foiyeuç-",
+          "proposal": "— L. Vaiès : Le Mysticisme: au théâtre ; Foiyeuç-",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_618",
+          "original": "U. P, Zola, 4j, rue Plancliat. â M. Atgel : Louis",
+          "proposal": "U. P, Zola, 4j, rue Plancliat. — M. Atgel : Louis",
+          "repairs": [
+            {
+              "offset": 31,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_620",
+          "original": "U. P. Gervaisicnne. â Cours de diction.",
+          "proposal": "U. P. Gervaisicnne. — Cours de diction.",
+          "repairs": [
+            {
+              "offset": 20,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_621",
+          "original": "Soirées ouvrières de Monlreuil. â Causerie",
+          "proposal": "Soirées ouvrières de Monlreuil. — Causerie",
+          "repairs": [
+            {
+              "offset": 32,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_623",
+          "original": ". O. P. de Meaftx. â -M. r.ollin, profcsseur : Vic-",
+          "proposal": ". O. P. de Meaftx. — -M. r.ollin, profcsseur : Vic-",
+          "repairs": [
+            {
+              "offset": 19,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_625",
+          "original": "U. P.. (U Nmtewi-4é$JMe(iuic, â Les divers",
+          "proposal": "U. P.. (U Nmtewi-4é$JMe(iuic, — Les divers",
+          "repairs": [
+            {
+              "offset": 30,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_834",
+          "original": "â¢plus tard, ayant rencontré le cantonier Tai-",
+          "proposal": "•plus tard, ayant rencontré le cantonier Tai-",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â¢",
+              "after": "•",
+              "after_codepoint": "U+2022"
+            }
+          ]
+        },
+        {
+          "line": "tl_899",
+          "original": "La Séance de Nuit. â Le Rapport de la",
+          "proposal": "La Séance de Nuit. — Le Rapport de la",
+          "repairs": [
+            {
+              "offset": 19,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_900",
+          "original": "Commission da Budget.âl# Cas Guérard",
+          "proposal": "Commission da Budget.—l# Cas Guérard",
+          "repairs": [
+            {
+              "offset": 21,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        },
+        {
+          "line": "tl_921",
+          "original": "â- Le conseil d\"aetounistratiun, dit-il, n'a pas",
+          "proposal": "—- Le conseil d\"aetounistratiun, dit-il, n'a pas",
+          "repairs": [
+            {
+              "offset": 0,
+              "before": "â",
+              "after": "—",
+              "after_codepoint": "U+2014"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "Ce-soir_7635415_D0000002",
+      "xml": "corpora/newseye-validation/ATR_ValidationSet_BnF_Newseye_M2+/Ce-soir_7635415_D0000002.xml",
+      "lines": 1290,
+      "words": 0,
+      "lines_with_words": 0,
+      "empty_line_texts": [
+        "r4668",
+        "r4694",
+        "r4719",
+        "r6531",
+        "r5187",
+        "r1789"
+      ],
+      "line_word_text_mismatches": [],
+      "non_nfc_line_ids": [],
+      "control_or_format_characters": [],
+      "encoding_repair_candidates": []
+    },
+    {
+      "page": "Marianne_7644869_D0000002",
+      "xml": "corpora/newseye-validation/ATR_ValidationSet_BnF_Newseye_M2+/Marianne_7644869_D0000002.xml",
+      "lines": 628,
+      "words": 0,
+      "lines_with_words": 0,
+      "empty_line_texts": [
+        "r3",
+        "r828"
+      ],
+      "line_word_text_mismatches": [],
+      "non_nfc_line_ids": [],
+      "control_or_format_characters": [],
+      "encoding_repair_candidates": []
+    },
+    {
+      "page": "Paris-Soir_7636525_D0000002",
+      "xml": "corpora/newseye-validation/ATR_ValidationSet_BnF_Newseye_M2+/Paris-Soir_7636525_D0000002.xml",
+      "lines": 999,
+      "words": 0,
+      "lines_with_words": 0,
+      "empty_line_texts": [
+        "r3187",
+        "r3204",
+        "r6930"
+      ],
+      "line_word_text_mismatches": [],
+      "non_nfc_line_ids": [],
+      "control_or_format_characters": [],
+      "encoding_repair_candidates": []
+    },
+    {
+      "page": "Regards_7635838_D0000005",
+      "xml": "corpora/newseye-validation/ATR_ValidationSet_BnF_Newseye_M2+/Regards_7635838_D0000005.xml",
+      "lines": 187,
+      "words": 0,
+      "lines_with_words": 0,
+      "empty_line_texts": [],
+      "line_word_text_mismatches": [],
+      "non_nfc_line_ids": [],
+      "control_or_format_characters": [],
+      "encoding_repair_candidates": []
+    },
+    {
+      "page": "Regards_7639182_D0000004",
+      "xml": "corpora/newseye-validation/ATR_ValidationSet_BnF_Newseye_M2+/Regards_7639182_D0000004.xml",
+      "lines": 53,
+      "words": 0,
+      "lines_with_words": 0,
+      "empty_line_texts": [
+        "r8"
+      ],
+      "line_word_text_mismatches": [],
+      "non_nfc_line_ids": [],
+      "control_or_format_characters": [],
+      "encoding_repair_candidates": []
+    }
+  ],
+  "totals": {
+    "pages": 8,
+    "lines": 5493,
+    "words": 14365,
+    "empty_line_texts": 12,
+    "line_word_text_mismatches": 0,
+    "non_nfc_lines": 0,
+    "control_or_format_characters": 121,
+    "lines_with_recoverable_utf8_latin1_sequences": 60
+  },
+  "unusual_characters": [
+    {
+      "char": "\t",
+      "codepoint": "U+0009",
+      "name": "UNNAMED",
+      "count": 1
+    },
+    {
+      "char": "",
+      "codepoint": "U+0080",
+      "name": "UNNAMED",
+      "count": 65
+    },
+    {
+      "char": "",
+      "codepoint": "U+0082",
+      "name": "UNNAMED",
+      "count": 1
+    },
+    {
+      "char": "",
+      "codepoint": "U+0094",
+      "name": "UNNAMED",
+      "count": 51
+    },
+    {
+      "char": "",
+      "codepoint": "U+0096",
+      "name": "UNNAMED",
+      "count": 4
+    },
+    {
+      "char": " ",
+      "codepoint": "U+00A0",
+      "name": "NO-BREAK SPACE",
+      "count": 4
+    },
+    {
+      "char": "¡",
+      "codepoint": "U+00A1",
+      "name": "INVERTED EXCLAMATION MARK",
+      "count": 5
+    },
+    {
+      "char": "¢",
+      "codepoint": "U+00A2",
+      "name": "CENT SIGN",
+      "count": 14
+    },
+    {
+      "char": "£",
+      "codepoint": "U+00A3",
+      "name": "POUND SIGN",
+      "count": 6
+    },
+    {
+      "char": "§",
+      "codepoint": "U+00A7",
+      "name": "SECTION SIGN",
+      "count": 2
+    },
+    {
+      "char": "©",
+      "codepoint": "U+00A9",
+      "name": "COPYRIGHT SIGN",
+      "count": 4
+    },
+    {
+      "char": "«",
+      "codepoint": "U+00AB",
+      "name": "LEFT-POINTING DOUBLE ANGLE QUOTATION MARK",
+      "count": 175
+    },
+    {
+      "char": "¬",
+      "codepoint": "U+00AC",
+      "name": "NOT SIGN",
+      "count": 716
+    },
+    {
+      "char": "®",
+      "codepoint": "U+00AE",
+      "name": "REGISTERED SIGN",
+      "count": 3
+    },
+    {
+      "char": "°",
+      "codepoint": "U+00B0",
+      "name": "DEGREE SIGN",
+      "count": 5
+    },
+    {
+      "char": "»",
+      "codepoint": "U+00BB",
+      "name": "RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK",
+      "count": 150
+    },
+    {
+      "char": "À",
+      "codepoint": "U+00C0",
+      "name": "LATIN CAPITAL LETTER A WITH GRAVE",
+      "count": 3
+    },
+    {
+      "char": "Â",
+      "codepoint": "U+00C2",
+      "name": "LATIN CAPITAL LETTER A WITH CIRCUMFLEX",
+      "count": 1
+    },
+    {
+      "char": "Ç",
+      "codepoint": "U+00C7",
+      "name": "LATIN CAPITAL LETTER C WITH CEDILLA",
+      "count": 6
+    },
+    {
+      "char": "È",
+      "codepoint": "U+00C8",
+      "name": "LATIN CAPITAL LETTER E WITH GRAVE",
+      "count": 5
+    },
+    {
+      "char": "É",
+      "codepoint": "U+00C9",
+      "name": "LATIN CAPITAL LETTER E WITH ACUTE",
+      "count": 16
+    },
+    {
+      "char": "Ê",
+      "codepoint": "U+00CA",
+      "name": "LATIN CAPITAL LETTER E WITH CIRCUMFLEX",
+      "count": 1
+    },
+    {
+      "char": "Ë",
+      "codepoint": "U+00CB",
+      "name": "LATIN CAPITAL LETTER E WITH DIAERESIS",
+      "count": 2
+    },
+    {
+      "char": "Î",
+      "codepoint": "U+00CE",
+      "name": "LATIN CAPITAL LETTER I WITH CIRCUMFLEX",
+      "count": 5
+    },
+    {
+      "char": "Ï",
+      "codepoint": "U+00CF",
+      "name": "LATIN CAPITAL LETTER I WITH DIAERESIS",
+      "count": 2
+    },
+    {
+      "char": "Û",
+      "codepoint": "U+00DB",
+      "name": "LATIN CAPITAL LETTER U WITH CIRCUMFLEX",
+      "count": 3
+    },
+    {
+      "char": "à",
+      "codepoint": "U+00E0",
+      "name": "LATIN SMALL LETTER A WITH GRAVE",
+      "count": 692
+    },
+    {
+      "char": "á",
+      "codepoint": "U+00E1",
+      "name": "LATIN SMALL LETTER A WITH ACUTE",
+      "count": 1
+    },
+    {
+      "char": "â",
+      "codepoint": "U+00E2",
+      "name": "LATIN SMALL LETTER A WITH CIRCUMFLEX",
+      "count": 187
+    },
+    {
+      "char": "å",
+      "codepoint": "U+00E5",
+      "name": "LATIN SMALL LETTER A WITH RING ABOVE",
+      "count": 1
+    },
+    {
+      "char": "ç",
+      "codepoint": "U+00E7",
+      "name": "LATIN SMALL LETTER C WITH CEDILLA",
+      "count": 94
+    },
+    {
+      "char": "è",
+      "codepoint": "U+00E8",
+      "name": "LATIN SMALL LETTER E WITH GRAVE",
+      "count": 575
+    },
+    {
+      "char": "é",
+      "codepoint": "U+00E9",
+      "name": "LATIN SMALL LETTER E WITH ACUTE",
+      "count": 3362
+    },
+    {
+      "char": "ê",
+      "codepoint": "U+00EA",
+      "name": "LATIN SMALL LETTER E WITH CIRCUMFLEX",
+      "count": 213
+    },
+    {
+      "char": "ë",
+      "codepoint": "U+00EB",
+      "name": "LATIN SMALL LETTER E WITH DIAERESIS",
+      "count": 10
+    },
+    {
+      "char": "î",
+      "codepoint": "U+00EE",
+      "name": "LATIN SMALL LETTER I WITH CIRCUMFLEX",
+      "count": 117
+    },
+    {
+      "char": "ï",
+      "codepoint": "U+00EF",
+      "name": "LATIN SMALL LETTER I WITH DIAERESIS",
+      "count": 44
+    },
+    {
+      "char": "ò",
+      "codepoint": "U+00F2",
+      "name": "LATIN SMALL LETTER O WITH GRAVE",
+      "count": 1
+    },
+    {
+      "char": "ô",
+      "codepoint": "U+00F4",
+      "name": "LATIN SMALL LETTER O WITH CIRCUMFLEX",
+      "count": 72
+    },
+    {
+      "char": "ù",
+      "codepoint": "U+00F9",
+      "name": "LATIN SMALL LETTER U WITH GRAVE",
+      "count": 67
+    },
+    {
+      "char": "ú",
+      "codepoint": "U+00FA",
+      "name": "LATIN SMALL LETTER U WITH ACUTE",
+      "count": 1
+    },
+    {
+      "char": "û",
+      "codepoint": "U+00FB",
+      "name": "LATIN SMALL LETTER U WITH CIRCUMFLEX",
+      "count": 49
+    },
+    {
+      "char": "ü",
+      "codepoint": "U+00FC",
+      "name": "LATIN SMALL LETTER U WITH DIAERESIS",
+      "count": 3
+    },
+    {
+      "char": "ō",
+      "codepoint": "U+014D",
+      "name": "LATIN SMALL LETTER O WITH MACRON",
+      "count": 1
+    },
+    {
+      "char": "Œ",
+      "codepoint": "U+0152",
+      "name": "LATIN CAPITAL LIGATURE OE",
+      "count": 1
+    },
+    {
+      "char": "œ",
+      "codepoint": "U+0153",
+      "name": "LATIN SMALL LIGATURE OE",
+      "count": 39
+    },
+    {
+      "char": "ǫ",
+      "codepoint": "U+01EB",
+      "name": "LATIN SMALL LETTER O WITH OGONEK",
+      "count": 1
+    },
+    {
+      "char": "ǹ",
+      "codepoint": "U+01F9",
+      "name": "LATIN SMALL LETTER N WITH GRAVE",
+      "count": 1
+    },
+    {
+      "char": "̃",
+      "codepoint": "U+0303",
+      "name": "COMBINING TILDE",
+      "count": 36
+    },
+    {
+      "char": "̄",
+      "codepoint": "U+0304",
+      "name": "COMBINING MACRON",
+      "count": 1
+    },
+    {
+      "char": "ҫ",
+      "codepoint": "U+04AB",
+      "name": "CYRILLIC SMALL LETTER ES WITH DESCENDER",
+      "count": 2
+    },
+    {
+      "char": "–",
+      "codepoint": "U+2013",
+      "name": "EN DASH",
+      "count": 2
+    },
+    {
+      "char": "—",
+      "codepoint": "U+2014",
+      "name": "EM DASH",
+      "count": 102
+    },
+    {
+      "char": "•",
+      "codepoint": "U+2022",
+      "name": "BULLET",
+      "count": 10
+    },
+    {
+      "char": "€",
+      "codepoint": "U+20AC",
+      "name": "EURO SIGN",
+      "count": 1
+    },
+    {
+      "char": "●",
+      "codepoint": "U+25CF",
+      "name": "BLACK CIRCLE",
+      "count": 4
+    },
+    {
+      "char": "♦",
+      "codepoint": "U+2666",
+      "name": "BLACK DIAMOND SUIT",
+      "count": 30
+    }
+  ]
+}

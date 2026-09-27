@@ -1,0 +1,156 @@
+"""Development ink refinement of existing word cells; no recognition or GT input."""
+from __future__ import annotations
+
+import cv2
+import numpy as np
+
+
+PARAMETERS = {
+    "band_height_fraction": .4,
+    "band_start_min_fraction": .15,
+    "band_start_max_fraction": .5,
+    "min_area_height_squared": .001,
+    "core_min_height_fraction": .2,
+    "core_min_overlap_fraction": .2,
+    "satellite_max_horizontal_gap_fraction": .3,
+    "satellite_max_vertical_gap_fraction": .25,
+}
+
+TEXT_RESCUE_PARAMETERS = {
+    "maximum_area_height_squared": .08,
+    "maximum_horizontal_gap_fraction": .40,
+    "ctc_margin_fraction": .15,
+    "vertical_above_band_fraction": .20,
+    "vertical_below_band_fraction": .45,
+}
+LEADING_PUNCTUATION = set("('`\"«‹[{—–-")
+TRAILING_PUNCTUATION = set(").,;:?!…'`\"»›]}—–-*")
+
+
+def selected_ink(ink: np.ndarray, mode: str) -> tuple[np.ndarray, dict]:
+    """Retain whole components, including stems outside the inferred body band.
+
+    The band is a projection heuristic, not a detected baseline. Satellites
+    attach only to original core components, never recursively to other noise.
+    """
+    if mode not in {"area", "body", "satellites"}:
+        raise ValueError(mode)
+    h, w = ink.shape
+    if h == 0 or w == 0:
+        return ink.astype(bool), {"empty": True}
+    n, labels, stats, _ = cv2.connectedComponentsWithStats((ink > 0).astype("uint8"), 8)
+    minimum = max(2, int(np.ceil(PARAMETERS["min_area_height_squared"] * h*h)))
+    viable = [i for i in range(1, n) if stats[i, cv2.CC_STAT_AREA] >= minimum]
+    band_h = max(1, round(PARAMETERS["band_height_fraction"] * h))
+    mass = (ink > 0).sum(axis=1)
+    sums = np.convolve(mass, np.ones(band_h), mode="valid")
+    lo = min(len(sums)-1, round(PARAMETERS["band_start_min_fraction"] * h))
+    hi = min(len(sums)-1, round(PARAMETERS["band_start_max_fraction"] * h))
+    top = lo + int(np.argmax(sums[lo:hi+1]))
+    bottom = top + band_h
+    core = []
+    for i in viable:
+        x, y, bw, bh, area = stats[i]
+        overlap = max(0, min(y+bh, bottom)-max(y, top))
+        if bh >= PARAMETERS["core_min_height_fraction"] * h and overlap >= PARAMETERS["core_min_overlap_fraction"] * bh:
+            core.append(i)
+    kept = set(viable if mode == "area" else core)
+    if mode == "satellites":
+        dx = int(PARAMETERS["satellite_max_horizontal_gap_fraction"]*h)
+        dy = int(PARAMETERS["satellite_max_vertical_gap_fraction"]*h)
+        near_core = cv2.dilate(np.isin(labels, core).astype("uint8"),
+                               np.ones((2*dy+1, 2*dx+1), dtype="uint8")) > 0
+        for i in viable:
+            if i in kept:
+                continue
+            x, y, bw, bh, area = stats[i]
+            # Punctuation in the body band is not required to be tall.
+            if top <= y + bh/2 <= bottom:
+                kept.add(i)
+                continue
+            if np.any(near_core[labels == i]):
+                kept.add(i)
+    return np.isin(labels, list(kept)), {
+        "components": n-1, "kept_components": len(kept), "core_components": len(core),
+        "minimum_area": minimum, "body_band": [top, bottom],
+        "removed_ink_pixels": int(np.count_nonzero(ink)-np.count_nonzero(np.isin(labels, list(kept)))),
+    }
+
+
+def refine_cells(gray: np.ndarray, line_bbox: list[int], forced: list[list[int]], mode: str):
+    x0, y0, x1, y1 = line_bbox
+    crop = gray[y0:y1, x0:x1]
+    if not crop.size:
+        return [list(b) for b in forced], {"fallback_cells": len(forced), "empty": True}
+    _, ink = cv2.threshold(crop, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+    mask, diagnostic = selected_ink(ink, mode)
+    separators = [x0] + [int(round((a[2]+b[0])/2)) for a, b in zip(forced, forced[1:])] + [x1]
+    result, fallback = [], 0
+    for i, box in enumerate(forced):
+        a, b = max(0, separators[i]-x0), min(crop.shape[1], separators[i+1]-x0)
+        ys, xs = np.nonzero(mask[:, a:b]) if b > a else ([], [])
+        if len(xs):
+            result.append([x0+a+int(min(xs)), y0+int(min(ys)), x0+a+int(max(xs))+1, y0+int(max(ys))+1])
+        else:
+            # Conservative fallback to unfiltered ink in this same cell.
+            ys, xs = np.nonzero(ink[:, a:b]) if b > a else ([], [])
+            result.append([x0+a+int(min(xs)), y0+int(min(ys)), x0+a+int(max(xs))+1, y0+int(max(ys))+1] if len(xs) else list(box))
+            fallback += 1
+    return result, {**diagnostic, "fallback_cells": fallback}
+
+
+def refine_cells_text(gray: np.ndarray, line_bbox: list[int], forced: list[dict],
+                      leading: bool = False, minimum_rescue_area: int = 2,
+                      trailing_punctuation: set[str] | None = None):
+    """A33: rescue at most one removed component at announced token edges."""
+    boxes = [list(w["bbox"]) for w in forced]
+    result, diagnostic = refine_cells(gray, line_bbox, boxes, "satellites")
+    x0, y0, x1, y1 = line_bbox
+    crop = gray[y0:y1, x0:x1]
+    if not crop.size:
+        return result, {**diagnostic, "rescues": []}
+    _, ink = cv2.threshold(crop, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+    kept, selection = selected_ink(ink, "satellites")
+    n, labels, stats, _ = cv2.connectedComponentsWithStats((ink > 0).astype("uint8"), 8)
+    removed = [i for i in range(1, n) if not np.any(kept[labels == i])]
+    h = crop.shape[0]
+    band_top, band_bottom = selection["body_band"]
+    min_y = band_top - TEXT_RESCUE_PARAMETERS["vertical_above_band_fraction"]*h
+    max_y = band_bottom + TEXT_RESCUE_PARAMETERS["vertical_below_band_fraction"]*h
+    max_area = TEXT_RESCUE_PARAMETERS["maximum_area_height_squared"]*h*h
+    max_gap = TEXT_RESCUE_PARAMETERS["maximum_horizontal_gap_fraction"]*h
+    margin = TEXT_RESCUE_PARAMETERS["ctc_margin_fraction"]*h
+    rescues = []
+    trailing_punctuation = TRAILING_PUNCTUATION if trailing_punctuation is None else trailing_punctuation
+    for wi, (word, original, candidate) in enumerate(zip(forced, boxes, result)):
+        text = word["text"]
+        requests = []
+        if leading and text and text[0] in LEADING_PUNCTUATION:
+            requests.append("leading")
+        if text and text[-1] in trailing_punctuation:
+            requests.append("trailing")
+        for side in requests:
+            choices = []
+            for ci in removed:
+                x, y, cw, ch, area = stats[ci]
+                cx, cy = x+cw/2+x0, y+ch/2+y0
+                if area < minimum_rescue_area or area > max_area or cy-y0 < min_y or cy-y0 > max_y:
+                    continue
+                if side == "trailing":
+                    gap = x+x0-candidate[2]
+                    inside_ctc = cx <= original[2]+margin
+                else:
+                    gap = candidate[0]-(x+cw+x0)
+                    inside_ctc = cx >= original[0]-margin
+                if 0 <= gap <= max_gap and inside_ctc:
+                    choices.append((gap, abs(cy-(y0+band_bottom)), ci))
+            if choices:
+                _, _, ci = min(choices)
+                x, y, cw, ch, area = stats[ci]
+                component = [int(x0+x), int(y0+y), int(x0+x+cw), int(y0+y+ch)]
+                candidate[:] = [min(candidate[0], component[0]), min(candidate[1], component[1]),
+                                max(candidate[2], component[2]), max(candidate[3], component[3])]
+                removed.remove(ci)
+                rescues.append({"word_index": wi, "side": side, "component": component,
+                                "text": text, "area": int(area)})
+    return result, {**diagnostic, "rescues": rescues}

@@ -1,0 +1,107 @@
+{
+  "schema": "bbvlm.bnf-impact-olr-a29-report/1",
+  "page": "00123453",
+  "scope": "oracle BnF TextRegion polygons; one blind Luna visual pass plus frozen CPU continuation merger",
+  "counts": {
+    "regions": 274,
+    "reference_streams": 11,
+    "reference_content_regions": 273
+  },
+  "eligibility": {
+    "true_positive": 267,
+    "predicted": 267,
+    "reference": 273,
+    "precision": 1.0,
+    "recall": 0.978021978021978,
+    "f1": 0.9888888888888888
+  },
+  "raw_vlm": {
+    "stream_pair": {
+      "true_positive": 4007,
+      "predicted": 4007,
+      "reference": 7229,
+      "precision": 1.0,
+      "recall": 0.5542951998893346,
+      "f1": 0.7132431470274119
+    },
+    "within_stream_order": {
+      "correct": 4000,
+      "covered_reference_pairs": 4007,
+      "reference_pairs": 7229,
+      "accuracy_on_covered": 0.9982530571499876,
+      "end_to_end_recall": 0.5533268778530918
+    },
+    "streams": 17
+  },
+  "merged": {
+    "stream_pair": {
+      "true_positive": 4285,
+      "predicted": 4285,
+      "reference": 7229,
+      "precision": 1.0,
+      "recall": 0.5927514179001245,
+      "f1": 0.7443112732325864
+    },
+    "within_stream_order": {
+      "correct": 4278,
+      "covered_reference_pairs": 4285,
+      "reference_pairs": 7229,
+      "accuracy_on_covered": 0.9983663943990665,
+      "end_to_end_recall": 0.5917830958638816
+    },
+    "streams": 15
+  },
+  "geometry_oracle_role_baseline": {
+    "stream_pair": {
+      "true_positive": 930,
+      "predicted": 939,
+      "reference": 7229,
+      "precision": 0.9904153354632588,
+      "recall": 0.12864849910084383,
+      "f1": 0.22771792360430954
+    },
+    "within_stream_order": {
+      "correct": 930,
+      "covered_reference_pairs": 930,
+      "reference_pairs": 7229,
+      "accuracy_on_covered": 1.0,
+      "end_to_end_recall": 0.12864849910084383
+    },
+    "streams": 73
+  },
+  "candidate_integrity": {
+    "unknown_tokens": [],
+    "duplicate_stream_tokens": [],
+    "uncertain_tokens": []
+  },
+  "gate_conditions": {
+    "exact_role_coverage": true,
+    "no_unknown_tokens": true,
+    "no_duplicate_stream_tokens": true,
+    "stream_contract_matches_roles": true,
+    "eligibility_f1_ge_098": true,
+    "merged_stream_pair_f1_ge_090": false,
+    "merged_order_recall_ge_090": false,
+    "merged_strictly_better_raw": true,
+    "merged_strictly_better_geometry": true
+  },
+  "conditional_gate_passed": false,
+  "cost": {
+    "new_vlm_tasks": 1,
+    "reader": "gpt-6-luna",
+    "cpu_merger_seconds_included_in_evaluator": 0.05331431300146505
+  },
+  "accepted_for_project_completion_gate": false,
+  "reference_status": "official BnF manually produced region/order evidence; OrderedGroup is not explicit article ID or perfect-truth certificate",
+  "limitations": [
+    "One page and oracle region polygons.",
+    "No OCR or word boxes scored.",
+    "OrderedGroup semantics may be broader than articles."
+  ],
+  "invariants": {
+    "sealed_before_open": true,
+    "nonempty_reference_fail_closed": true,
+    "reader_denied_xml_mapping_and_a27": true,
+    "opened_files_sha256_verified": true
+  }
+}

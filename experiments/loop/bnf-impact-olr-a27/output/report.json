@@ -1,0 +1,107 @@
+{
+  "schema": "bbvlm.bnf-impact-olr-a27-report/1",
+  "page": "00123452",
+  "scope": "conditional on oracle BnF TextRegion polygons; one blind gpt-6-luna visual pass",
+  "counts": {
+    "regions": 235,
+    "reference_ordered_streams": 13,
+    "reference_content_regions": 234,
+    "predicted_streams": 234
+  },
+  "candidate": {
+    "eligibility": {
+      "true_positive": 234,
+      "predicted": 234,
+      "reference": 234,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "stream_pair": {
+      "true_positive": 0,
+      "predicted": 0,
+      "reference": 3222,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "within_stream_order": {
+      "correct": 0,
+      "covered_reference_pairs": 0,
+      "reference_pairs": 3222,
+      "accuracy_on_covered": 0.0,
+      "end_to_end_recall": 0.0
+    },
+    "uncertain_tokens": [
+      "Q003",
+      "Q010",
+      "Q040",
+      "Q047",
+      "Q076",
+      "Q102",
+      "Q126",
+      "Q133",
+      "Q167",
+      "Q172",
+      "Q188",
+      "Q193",
+      "Q208",
+      "Q215",
+      "Q217",
+      "Q222"
+    ],
+    "unknown_tokens": [],
+    "duplicate_stream_tokens": []
+  },
+  "geometry_oracle_role_baseline": {
+    "stream_pair": {
+      "true_positive": 1089,
+      "predicted": 1089,
+      "reference": 3222,
+      "precision": 1.0,
+      "recall": 0.33798882681564246,
+      "f1": 0.5052192066805846
+    },
+    "within_stream_order": {
+      "correct": 1089,
+      "covered_reference_pairs": 1089,
+      "reference_pairs": 3222,
+      "accuracy_on_covered": 1.0,
+      "end_to_end_recall": 0.33798882681564246
+    },
+    "predicted_streams": 50,
+    "warning": "optimistic baseline uses reference PAGE region roles but never reference stream IDs/order"
+  },
+  "gate_conditions": {
+    "exact_role_coverage": true,
+    "no_unknown_tokens": true,
+    "no_duplicate_stream_tokens": true,
+    "stream_contract_matches_roles": true,
+    "eligibility_f1_ge_098": true,
+    "stream_pair_f1_ge_090": false,
+    "within_stream_order_accuracy_ge_098": false,
+    "stream_pair_f1_strictly_better_geometry_oracle_roles": false
+  },
+  "conditional_gate_passed": false,
+  "cost": {
+    "new_vlm_tasks": 1,
+    "primary_reader": "gpt-6-luna",
+    "evaluator_seconds": 0.04638085800979752
+  },
+  "reference_status": "official BnF manually produced region/order evidence; OrderedGroup is not an explicit article ID and is not independently adjudicated perfect truth",
+  "accepted_for_project_completion_gate": false,
+  "limitations": [
+    "Oracle TextRegion polygons; not end-to-end region detection.",
+    "One validation page only.",
+    "PAGE OrderedGroup is not explicit article truth.",
+    "No word boxes or OCR scored.",
+    "Reference is external manual GT, not a perfect-truth certificate."
+  ],
+  "invariants": {
+    "sealed_before_open": true,
+    "nonempty_reference_fail_closed": true,
+    "opaque_tokens": true,
+    "reader_denied_reference_xml_and_mapping": true,
+    "opened_files_sha256_verified": true
+  }
+}

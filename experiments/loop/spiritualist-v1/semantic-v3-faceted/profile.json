@@ -1,0 +1,33 @@
+{
+  "schema": "bbvlm.faceted-semantic-profile/1",
+  "frozen_before_validation": "2026-09-27",
+  "selected_on": [
+    "development pages 0009, 0038, 0041, 0043",
+    "post-score convention audit of consumed page 0029"
+  ],
+  "validation_page": "0039",
+  "physical_roles": ["MASTHEAD", "HEADER", "TEXT", "OTHER", "UNKNOWN"],
+  "editorial_genres": ["ARTICLE", "ADVERT", "NOTICE", "MASTHEAD", "OTHER", "UNKNOWN"],
+  "axis_policy": {
+    "physical_role": "describes the block's visible layout function; advertisement headings and bodies remain HEADER/TEXT",
+    "editorial_genre": "describes subject/function independently; it cannot remove a region from the physical reading stream",
+    "stream_membership": "derived by software: HEADER and TEXT included; MASTHEAD, OTHER and UNKNOWN excluded",
+    "semantic_units": "derived by the frozen header-boundary CPU rule from physical roles only",
+    "genre_truth_status": "proposal only: the distributed corpus has no independently adjudicated editorial genre labels"
+  },
+  "export_policy": {
+    "physical": "ALTO regions plus physical METS structure",
+    "logical": "separate METS logical divisions; genre retained with provenance and confidence status",
+    "advertising": "readable unit retained for OCR and retrieval even when excluded from a news-article view"
+  },
+  "frozen_gates": {
+    "raw_structural_valid": true,
+    "eligibility_precision_min": 0.9,
+    "eligibility_recall_min": 0.9,
+    "physical_role_accuracy_min": 0.8,
+    "semantic_group_pair_f1_min": 0.8,
+    "combined_order_pair_recall_min": 0.95
+  },
+  "non_gate_fields": ["editorial_genre_agreement"],
+  "reference_warning": "Source physical roles/order/SSU remain provisional; editorial genres have no independent reference."
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "bbvlm.header-unit-config/1",
+  "selected_on": "development_only",
+  "development_pages": [
+    "0009",
+    "0038",
+    "0041",
+    "0043"
+  ],
+  "merge_overlapping_headers": true,
+  "order_config": {
+    "schema": "bbvlm.column-order-config/1",
+    "selected_on": "development_only",
+    "development_pages": [
+      "0009",
+      "0038",
+      "0041",
+      "0043"
+    ],
+    "gap_ratio": 0.14,
+    "top_exclusion_ratio": 0.055,
+    "max_anchor_width_ratio": 0.55,
+    "selection_rule": "max macro pair accuracy; then minimum total inferred columns; then smaller gap"
+  },
+  "selection_rule": "maximum macro pair F1; ties prefer not merging overlapping headers"
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "bbvlm.column-line-ablation/1",
+  "page": "0044",
+  "scope": "consumed-page diagnostic; provisional source line rectangles, not certified word geometry",
+  "raw_detected_lines": 416,
+  "native_detected_regions": 8,
+  "metrics": {
+    "native_regions": {
+      "output_fragments": 416,
+      "missing_raw_lines": 0,
+      "raw_lines_with_multiple_fragments": 0,
+      "raw_lines_losing_polygon_area_gt_1pct": 17,
+      "mean_fraction_raw_polygon_lost": 0.003706155945429458,
+      "reference_lines": 418,
+      "matched_iou05": 385,
+      "reference_line_recall_iou05": 0.9210526315789473,
+      "prediction_precision_iou05": 0.9254807692307693
+    },
+    "column_core_clipped": {
+      "output_fragments": 496,
+      "missing_raw_lines": 0,
+      "raw_lines_with_multiple_fragments": 80,
+      "raw_lines_losing_polygon_area_gt_1pct": 0,
+      "mean_fraction_raw_polygon_lost": 9.53243524643323e-05,
+      "reference_lines": 418,
+      "matched_iou05": 385,
+      "reference_line_recall_iou05": 0.9210526315789473,
+      "prediction_precision_iou05": 0.7762096774193549
+    },
+    "column_context_clipped": {
+      "output_fragments": 635,
+      "missing_raw_lines": 0,
+      "raw_lines_with_multiple_fragments": 217,
+      "raw_lines_losing_polygon_area_gt_1pct": 0,
+      "mean_fraction_raw_polygon_lost": 0.0,
+      "reference_lines": 418,
+      "matched_iou05": 385,
+      "reference_line_recall_iou05": 0.9210526315789473,
+      "prediction_precision_iou05": 0.6062992125984252
+    },
+    "whole_line_routing": {
+      "output_fragments": 416,
+      "missing_raw_lines": 0,
+      "raw_lines_with_multiple_fragments": 0,
+      "raw_lines_losing_polygon_area_gt_1pct": 0,
+      "mean_fraction_raw_polygon_lost": 0.0,
+      "reference_lines": 418,
+      "matched_iou05": 385,
+      "reference_line_recall_iou05": 0.9210526315789473,
+      "prediction_precision_iou05": 0.9254807692307693
+    }
+  },
+  "routing": {
+    "seconds": 0.021031048003351316,
+    "context_not_containing_line": 0,
+    "ambiguous_owner": 0,
+    "review_reasons": {}
+  },
+  "cost": {
+    "model_load_seconds": 0.19970603899855632,
+    "shared_detection_seconds": 8.299545059999218,
+    "cnn_forward_count": 2,
+    "new_vlm_calls": 0,
+    "new_yolo_calls": 0
+  },
+  "raw_detection_sha256": "ec75cd5b5a4d93530ac2f489e1baeffc7e39943bd670628f2ab6b225f34a8504",
+  "reference_xml_sha256": "d3e0df22158f360ee271cd01fb40b7fa94271310bedb3204e620aa56350010e1",
+  "limitations": [
+    "same raw detections isolate assignment, not separate independently trained systems",
+    "raw polygon loss is an introduced geometric loss, not measured loss of text ink",
+    "no new OCR or word alignment in A14; source line boxes provisional",
+    "whole-line preservation is an invariant, not proof detection was correct"
+  ],
+  "accepted_for_project_completion_gate": false
+}

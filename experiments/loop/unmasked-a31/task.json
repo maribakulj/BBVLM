@@ -1,0 +1,181 @@
+{
+  "items": [
+    {
+      "id": "T001",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T001-target.png",
+        "sha256": "4eeb6de2c998cc406cab9407438e25dc79d23007da2198b17744ecc806c8db19"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T001-context.png",
+        "sha256": "0398d7a923d81fa24620d8f29440baa6906fe12cff21883f54d222b24fda83aa"
+      }
+    },
+    {
+      "id": "T002",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T002-target.png",
+        "sha256": "5f50a45b642afb83fa46c5776d0190c585a668a41f7f38bc6b89cb0c87cb2212"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T002-context.png",
+        "sha256": "b9708ae23fceedd864c8f07189e89d9893dbfe7757562c1e8d2b543b298c29a2"
+      }
+    },
+    {
+      "id": "T003",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T003-target.png",
+        "sha256": "2fbf2af5cdf37067e7279e3d9a159368277fafd7cc7722688ab756fe1761249d"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T003-context.png",
+        "sha256": "20c9c02121addc352cace3ae94dcb15bfa1761d2f558e74968bac03276bd085c"
+      }
+    },
+    {
+      "id": "T004",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T004-target.png",
+        "sha256": "69ba5ef677b27fdd193e29200cc8bb1b5edf29653faef64f74e7d855cc196844"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T004-context.png",
+        "sha256": "1b0447a0267b1a733ed6209ede63843cdfdbf48ea40ebcb4c5a142a8a0aa9129"
+      }
+    },
+    {
+      "id": "T005",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T005-target.png",
+        "sha256": "8895de70df4592bb8c7566d7a52428aae36b1042e102601872f328522c3cc29f"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T005-context.png",
+        "sha256": "bff2ff6fe736ebe8652385ea24abd4a7e532370e56838a1920454e21c5b4e239"
+      }
+    },
+    {
+      "id": "T006",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T006-target.png",
+        "sha256": "849bfeef393ac77beefc348fa42edaf3bc8796664e44acbcb32f32560f9204ac"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T006-context.png",
+        "sha256": "1b060d998c02f6d4c1f6cb2ff58a8ddc887907c50aa5c05bd98a49e798be69e2"
+      }
+    },
+    {
+      "id": "T007",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T007-target.png",
+        "sha256": "46af1790e8a12d5568cd9a44543708abd57a0fbb43a1c8cbb34fee7782e45a7e"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T007-context.png",
+        "sha256": "434b5287024664acb5f938ca642a2fccc3c12aafef61464955a780ded99d2b1e"
+      }
+    },
+    {
+      "id": "T008",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T008-target.png",
+        "sha256": "12e7c985a4c58adca0b7d70f544f176a6661da83c038975a3ff94538f378889b"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T008-context.png",
+        "sha256": "0b7485558cbc444447dba96589b89e3d258612bfd2020189d1dc477c4ef7f5c7"
+      }
+    },
+    {
+      "id": "T009",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T009-target.png",
+        "sha256": "7a4e1ea52828be0d01c5c05df3fa48d1debdabfbc2960b0f50fbba7e94b00f47"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T009-context.png",
+        "sha256": "2ed475b32597bf170b1c64d2728952b0a2573eeb1855225f0599f1c9c3d5673f"
+      }
+    },
+    {
+      "id": "T010",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T010-target.png",
+        "sha256": "acb49987780f03b24f97afb5cf4d1c6a79183fa711452ec405b706dc27673896"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T010-context.png",
+        "sha256": "e76c0ae63973c8d99933128144dad593902cd6da4cb5f58fd489a51fa838e5d3"
+      }
+    },
+    {
+      "id": "T011",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T011-target.png",
+        "sha256": "5b921591d6ed4e853ccb314679a0e22b0f3f176dd6f04b34e484d49b693ad014"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T011-context.png",
+        "sha256": "223dec79683c6b45ca969a4f530627d1314cfe9238132cfd30448b3f9813081b"
+      }
+    },
+    {
+      "id": "T012",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T012-target.png",
+        "sha256": "6a6cc20d94e76efcebd5a3e19e6575851c45e778845669a84fb21ad0c9fa7df9"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T012-context.png",
+        "sha256": "0669d0ed0b0f3693b545969d6aa4ef8d8ad94a9b76461a0b1812e003899bae5b"
+      }
+    },
+    {
+      "id": "T013",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T013-target.png",
+        "sha256": "f066df52510436b7dc947608ecccd84929222ea79cb411b6168f93489024d618"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T013-context.png",
+        "sha256": "2821c6a0d316286c7db75f718546f2888a62b333227b7c0c579c1a2d401dbdb1"
+      }
+    },
+    {
+      "id": "T014",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T014-target.png",
+        "sha256": "25df2d10b626572f2de8231809897c5640695364459c6f730f5ed960ae3f13fb"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T014-context.png",
+        "sha256": "0660fea7d023a07d6d5defc61d5dd7bff6e48ffde83ee02b86dd44b8bdc1e158"
+      }
+    },
+    {
+      "id": "T015",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T015-target.png",
+        "sha256": "195d53a2fc1ccac7fd59a2a28a29e69a14d2f08dd6c67e251166d556b5c36d1c"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T015-context.png",
+        "sha256": "3bce80ba9ad5f668ebcfb92a746fb9d3252bdc05071b654df4791414da18f806"
+      }
+    },
+    {
+      "id": "T016",
+      "target": {
+        "path": "experiments/loop/unmasked-a31/input/T016-target.png",
+        "sha256": "dc038458e6616c9f72f33946481c7d4144020c88aecfffc690c5d0898ff84b09"
+      },
+      "context": {
+        "path": "experiments/loop/unmasked-a31/input/T016-context.png",
+        "sha256": "d69ede3952241f22bcd33aaf8eb23d9c11e2008dce9bec463564f6ba47cc3b57"
+      }
+    }
+  ],
+  "output": "experiments/loop/unmasked-a31/sol.json"
+}

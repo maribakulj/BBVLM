@@ -1,0 +1,1326 @@
+{
+  "schema_version": "bbvlm.document/1",
+  "id": "onb-pilot",
+  "coordinate_system": "page_pixels_xyxy_half_open",
+  "nodes": [
+    {
+      "id": "P1",
+      "kind": "page",
+      "parent": null,
+      "page": "P1",
+      "bbox": [
+        0,
+        0,
+        2479,
+        3508
+      ],
+      "image": "../input/page.jpg",
+      "status": "automatic"
+    },
+    {
+      "id": "R01",
+      "bbox": [
+        163,
+        219,
+        278,
+        258
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic",
+      "role": "header",
+      "role_source": "terra"
+    },
+    {
+      "id": "R02",
+      "bbox": [
+        497,
+        212,
+        704,
+        257
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic",
+      "role": "header",
+      "role_source": "terra"
+    },
+    {
+      "id": "R03",
+      "bbox": [
+        1028,
+        211,
+        1293,
+        257
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic",
+      "role": "header",
+      "role_source": "terra"
+    },
+    {
+      "id": "R04",
+      "bbox": [
+        1609,
+        210,
+        1798,
+        253
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic",
+      "role": "header",
+      "role_source": "terra"
+    },
+    {
+      "id": "R05",
+      "bbox": [
+        1994,
+        214,
+        2115,
+        253
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic",
+      "role": "header",
+      "role_source": "terra"
+    },
+    {
+      "id": "R06",
+      "bbox": [
+        128,
+        286,
+        800,
+        1304
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic",
+      "role": "body",
+      "role_source": "terra"
+    },
+    {
+      "id": "R07",
+      "bbox": [
+        197,
+        1322,
+        740,
+        1375
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic",
+      "role": "title",
+      "role_source": "terra"
+    },
+    {
+      "id": "R08",
+      "bbox": [
+        130,
+        1372,
+        800,
+        3372
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic",
+      "role": "body",
+      "role_source": "terra"
+    },
+    {
+      "id": "R09",
+      "bbox": [
+        809,
+        285,
+        1468,
+        3057
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic",
+      "role": "body",
+      "role_source": "terra"
+    },
+    {
+      "id": "R10",
+      "bbox": [
+        928,
+        3076,
+        1333,
+        3130
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic",
+      "role": "title",
+      "role_source": "terra"
+    },
+    {
+      "id": "R11",
+      "bbox": [
+        812,
+        3134,
+        1452,
+        3362
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic",
+      "role": "body",
+      "role_source": "terra"
+    },
+    {
+      "id": "R12",
+      "bbox": [
+        1482,
+        282,
+        2161,
+        1393
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic",
+      "role": "body",
+      "role_source": "terra"
+    },
+    {
+      "id": "R13",
+      "bbox": [
+        1462,
+        1393,
+        2161,
+        3378
+      ],
+      "kind": "region",
+      "parent": "P1",
+      "page": "P1",
+      "status": "automatic",
+      "role": "body",
+      "role_source": "terra"
+    },
+    {
+      "id": "R01_L01",
+      "kind": "line",
+      "parent": "R01",
+      "page": "P1",
+      "bbox": [
+        178,
+        223,
+        270,
+        254
+      ],
+      "text": "Seite 2",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R02_L01",
+      "kind": "line",
+      "parent": "R02",
+      "page": "P1",
+      "bbox": [
+        513,
+        222,
+        694,
+        253
+      ],
+      "text": "Wien, Samstag",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R03_L01",
+      "kind": "line",
+      "parent": "R03",
+      "page": "P1",
+      "bbox": [
+        1036,
+        223,
+        1284,
+        253
+      ],
+      "text": "Arbeiter-Zeitung.",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R04_L01",
+      "kind": "line",
+      "parent": "R04",
+      "page": "P1",
+      "bbox": [
+        1622,
+        225,
+        1781,
+        248
+      ],
+      "text": "6. Juli 1895",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R05_L01",
+      "kind": "line",
+      "parent": "R05",
+      "page": "P1",
+      "bbox": [
+        2004,
+        223,
+        2103,
+        246
+      ],
+      "text": "Nr. 182",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R06_L01",
+      "kind": "line",
+      "parent": "R06",
+      "page": "P1",
+      "bbox": [
+        151,
+        293,
+        794,
+        331
+      ],
+      "text": "und Antiliberalen aus ihren Verstecken in die Oeffentlich-",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R06_L02",
+      "kind": "line",
+      "parent": "R06",
+      "page": "P1",
+      "bbox": [
+        149,
+        327,
+        286,
+        356
+      ],
+      "text": "keit treiben.",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R06_L03",
+      "kind": "line",
+      "parent": "R06",
+      "page": "P1",
+      "bbox": [
+        214,
+        352,
+        795,
+        389
+      ],
+      "text": "Die Wiener Liberalen haben noch immer kein",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R07_L01",
+      "kind": "line",
+      "parent": "R07",
+      "page": "P1",
+      "bbox": [
+        213,
+        1326,
+        727,
+        1372
+      ],
+      "text": "Die Regierung und die Beamten.",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R08_L01",
+      "kind": "line",
+      "parent": "R08",
+      "page": "P1",
+      "bbox": [
+        606,
+        1375,
+        776,
+        1397
+      ],
+      "text": "Wien 5. Juli.",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R08_L02",
+      "kind": "line",
+      "parent": "R08",
+      "page": "P1",
+      "bbox": [
+        210,
+        1398,
+        795,
+        1434
+      ],
+      "text": "Graf Kielmansegg hat gestern erklärt, die Regierung",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R08_L03",
+      "kind": "line",
+      "parent": "R08",
+      "page": "P1",
+      "bbox": [
+        146,
+        1430,
+        796,
+        1458
+      ],
+      "text": "sei „geradezu eifersüchtig“ darauf bedacht, die Sache der",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R09_L01",
+      "kind": "line",
+      "parent": "R09",
+      "page": "P1",
+      "bbox": [
+        818,
+        296,
+        1464,
+        323
+      ],
+      "text": "und nie wird das Parlament wirkliche Energie anwenden,",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R09_L02",
+      "kind": "line",
+      "parent": "R09",
+      "page": "P1",
+      "bbox": [
+        818,
+        326,
+        1464,
+        352
+      ],
+      "text": "um den Beamten ernstlich zu helfen, denn die Parteien",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R09_L03",
+      "kind": "line",
+      "parent": "R09",
+      "page": "P1",
+      "bbox": [
+        817,
+        349,
+        1464,
+        380
+      ],
+      "text": "wünschen zwar eine billige Popularität, aber noch mehr",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R10_L01",
+      "kind": "line",
+      "parent": "R10",
+      "page": "P1",
+      "bbox": [
+        934,
+        3078,
+        1325,
+        3128
+      ],
+      "text": "Oesterreichischer Reichsrath.",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R11_L01",
+      "kind": "line",
+      "parent": "R11",
+      "page": "P1",
+      "bbox": [
+        1262,
+        3135,
+        1431,
+        3165
+      ],
+      "text": "Wien, 5. Juli.",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R11_L02",
+      "kind": "line",
+      "parent": "R11",
+      "page": "P1",
+      "bbox": [
+        873,
+        3159,
+        1446,
+        3196
+      ],
+      "text": "Wenn Graf Kielmansegg sich gestern darauf berief, daß",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R11_L03",
+      "kind": "line",
+      "parent": "R11",
+      "page": "P1",
+      "bbox": [
+        816,
+        3182,
+        1447,
+        3220
+      ],
+      "text": "er die Zustände in Prag nicht kenne und daher nicht selbst",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R12_L01",
+      "kind": "line",
+      "parent": "R12",
+      "page": "P1",
+      "bbox": [
+        1486,
+        291,
+        2136,
+        324
+      ],
+      "text": "dar, und er brachte Thatsachen vor, die den edlen Grafen",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R12_L02",
+      "kind": "line",
+      "parent": "R12",
+      "page": "P1",
+      "bbox": [
+        1486,
+        317,
+        2132,
+        348
+      ],
+      "text": "Thun in helles Licht rücken. Dr. Kramarsch machte mit",
+      "status": "ambiguous",
+      "needs_alignment": true,
+      "issues": [
+        "model_uncertainty"
+      ]
+    },
+    {
+      "id": "R12_L03",
+      "kind": "line",
+      "parent": "R12",
+      "page": "P1",
+      "bbox": [
+        1486,
+        344,
+        2132,
+        372
+      ],
+      "text": "Recht darauf aufmerksam, wie ruhig das große",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R13_L01",
+      "kind": "line",
+      "parent": "R13",
+      "page": "P1",
+      "bbox": [
+        1548,
+        1397,
+        1815,
+        1422
+      ],
+      "text": "Nachstehend der Bericht:",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R13_L02",
+      "kind": "line",
+      "parent": "R13",
+      "page": "P1",
+      "bbox": [
+        1551,
+        1420,
+        2136,
+        1448
+      ],
+      "text": "Abgeordnetenhaus. (406. Sitzung.) Präsident Frei-",
+      "status": "automatic",
+      "needs_alignment": true
+    },
+    {
+      "id": "R13_L03",
+      "kind": "line",
+      "parent": "R13",
+      "page": "P1",
+      "bbox": [
+        1488,
+        1447,
+        2137,
+        1472
+      ],
+      "text": "herr v. Chlumecky eröffnet die Sitzung um 10 Uhr 15 Mi-",
+      "status": "automatic",
+      "needs_alignment": true
+    }
+  ],
+  "articles": [
+    {
+      "id": "A1",
+      "title": "Die Regierung und die Beamten.",
+      "regions": [
+        "R07",
+        "R08"
+      ],
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "id": "A2",
+      "title": "Österreichischer Reichsrath.",
+      "regions": [
+        "R10",
+        "R11"
+      ],
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "id": "A3",
+      "title": "Abgeordnetenhaus. (406. Sitzung.)",
+      "regions": [
+        "R13"
+      ],
+      "status": "automatic",
+      "source": "terra"
+    }
+  ],
+  "reading_order": [
+    {
+      "before": "R01",
+      "after": "R02",
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "before": "R02",
+      "after": "R03",
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "before": "R03",
+      "after": "R04",
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "before": "R04",
+      "after": "R05",
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "before": "R06",
+      "after": "R07",
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "before": "R07",
+      "after": "R08",
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "before": "R09",
+      "after": "R10",
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "before": "R10",
+      "after": "R11",
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "before": "R12",
+      "after": "R13",
+      "status": "automatic",
+      "source": "terra"
+    }
+  ],
+  "metadata": [
+    {
+      "field": "page",
+      "value": "Seite 2",
+      "category": "observed",
+      "evidence": [
+        "R01_L01"
+      ],
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "field": "place",
+      "value": "Wien",
+      "category": "observed",
+      "evidence": [
+        "R02_L01"
+      ],
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "field": "day",
+      "value": "Samstag",
+      "category": "observed",
+      "evidence": [
+        "R02_L01"
+      ],
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "field": "publication",
+      "value": "Arbeiter-Zeitung.",
+      "category": "observed",
+      "evidence": [
+        "R03_L01"
+      ],
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "field": "date",
+      "value": "6. Juli 1895",
+      "category": "observed",
+      "evidence": [
+        "R04_L01"
+      ],
+      "status": "automatic",
+      "source": "terra"
+    },
+    {
+      "field": "issue",
+      "value": "Nr. 182",
+      "category": "observed",
+      "evidence": [
+        "R05_L01"
+      ],
+      "status": "automatic",
+      "source": "terra"
+    }
+  ],
+  "events": [
+    {
+      "action": "pilot_layout",
+      "source": "ONB PAGE segmentation",
+      "selection": "first three lines of every TextRegion",
+      "coverage": "25 selected lines only; not full page",
+      "reference_text_provided_to_models": false
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R01_L01",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R02_L01",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R03_L01",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R04_L01",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R05_L01",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R06_L01",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R06_L02",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R06_L03",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R07_L01",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R08_L01",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R08_L02",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R08_L03",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R09_L01",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R09_L02",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R09_L03",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R10_L01",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R11_L01",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R11_L02",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R11_L03",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R12_L01",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R12_L02",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R12_L03",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R13_L01",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R13_L02",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra",
+      "line": "R13_L03",
+      "previous_text": "",
+      "previous_words": []
+    },
+    {
+      "action": "replace_transcription",
+      "model": "terra targeted retry",
+      "line": "R10_L01",
+      "previous_text": "Österreichischer Reichsrath.",
+      "previous_words": []
+    }
+  ],
+  "proposals": [
+    {
+      "model": "terra",
+      "sha256": "c0e5b15859778d663d8008e05f3244c5352a8d5054b7e29a8886d1ed65b7632f",
+      "response": {
+        "requested_line_ids": [
+          "R01_L01",
+          "R02_L01",
+          "R03_L01",
+          "R04_L01",
+          "R05_L01",
+          "R06_L01",
+          "R06_L02",
+          "R06_L03",
+          "R07_L01",
+          "R08_L01",
+          "R08_L02",
+          "R08_L03",
+          "R09_L01",
+          "R09_L02",
+          "R09_L03",
+          "R10_L01",
+          "R11_L01",
+          "R11_L02",
+          "R11_L03",
+          "R12_L01",
+          "R12_L02",
+          "R12_L03",
+          "R13_L01",
+          "R13_L02",
+          "R13_L03"
+        ],
+        "lines": [
+          {
+            "id": "R01_L01",
+            "text": "Seite 2",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R02_L01",
+            "text": "Wien, Samstag",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R03_L01",
+            "text": "Arbeiter-Zeitung.",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R04_L01",
+            "text": "6. Juli 1895",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R05_L01",
+            "text": "Nr. 182",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R06_L01",
+            "text": "und Antiliberalen aus ihren Verstecken in die Oeffentlich-",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R06_L02",
+            "text": "keit treiben.",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R06_L03",
+            "text": "Die Wiener Liberalen haben noch immer kein",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R07_L01",
+            "text": "Die Regierung und die Beamten.",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R08_L01",
+            "text": "Wien 5. Juli.",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R08_L02",
+            "text": "Graf Kielmansegg hat gestern erklärt, die Regierung",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R08_L03",
+            "text": "sei „geradezu eifersüchtig“ darauf bedacht, die Sache der",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R09_L01",
+            "text": "und nie wird das Parlament wirkliche Energie anwenden,",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R09_L02",
+            "text": "um den Beamten ernstlich zu helfen, denn die Parteien",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R09_L03",
+            "text": "wünschen zwar eine billige Popularität, aber noch mehr",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R10_L01",
+            "text": "Österreichischer Reichsrath.",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R11_L01",
+            "text": "Wien, 5. Juli.",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R11_L02",
+            "text": "Wenn Graf Kielmansegg sich gestern darauf berief, daß",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R11_L03",
+            "text": "er die Zustände in Prag nicht kenne und daher nicht selbst",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R12_L01",
+            "text": "dar, und er brachte Thatsachen vor, die den edlen Grafen",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R12_L02",
+            "text": "Thun in helles Licht rücken. Dr. Kramarsch machte mit",
+            "uncertain": true,
+            "notes": "The spelling of the surname after Dr. is unclear in the image."
+          },
+          {
+            "id": "R12_L03",
+            "text": "Recht darauf aufmerksam, wie ruhig das große",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R13_L01",
+            "text": "Nachstehend der Bericht:",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R13_L02",
+            "text": "Abgeordnetenhaus. (406. Sitzung.) Präsident Frei-",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R13_L03",
+            "text": "herr v. Chlumecky eröffnet die Sitzung um 10 Uhr 15 Mi-",
+            "uncertain": false,
+            "notes": ""
+          }
+        ],
+        "regions": [
+          {
+            "id": "R01",
+            "role": "header"
+          },
+          {
+            "id": "R02",
+            "role": "header"
+          },
+          {
+            "id": "R03",
+            "role": "header"
+          },
+          {
+            "id": "R04",
+            "role": "header"
+          },
+          {
+            "id": "R05",
+            "role": "header"
+          },
+          {
+            "id": "R06",
+            "role": "body"
+          },
+          {
+            "id": "R07",
+            "role": "title"
+          },
+          {
+            "id": "R08",
+            "role": "body"
+          },
+          {
+            "id": "R09",
+            "role": "body"
+          },
+          {
+            "id": "R10",
+            "role": "title"
+          },
+          {
+            "id": "R11",
+            "role": "body"
+          },
+          {
+            "id": "R12",
+            "role": "body"
+          },
+          {
+            "id": "R13",
+            "role": "body"
+          }
+        ],
+        "reading_order": [
+          {
+            "before": "R01",
+            "after": "R02"
+          },
+          {
+            "before": "R02",
+            "after": "R03"
+          },
+          {
+            "before": "R03",
+            "after": "R04"
+          },
+          {
+            "before": "R04",
+            "after": "R05"
+          },
+          {
+            "before": "R06",
+            "after": "R07"
+          },
+          {
+            "before": "R07",
+            "after": "R08"
+          },
+          {
+            "before": "R09",
+            "after": "R10"
+          },
+          {
+            "before": "R10",
+            "after": "R11"
+          },
+          {
+            "before": "R12",
+            "after": "R13"
+          }
+        ],
+        "articles": [
+          {
+            "id": "A1",
+            "title": "Die Regierung und die Beamten.",
+            "regions": [
+              "R07",
+              "R08"
+            ]
+          },
+          {
+            "id": "A2",
+            "title": "Österreichischer Reichsrath.",
+            "regions": [
+              "R10",
+              "R11"
+            ]
+          },
+          {
+            "id": "A3",
+            "title": "Abgeordnetenhaus. (406. Sitzung.)",
+            "regions": [
+              "R13"
+            ]
+          }
+        ],
+        "metadata": [
+          {
+            "field": "page",
+            "value": "Seite 2",
+            "category": "observed",
+            "evidence": [
+              "R01_L01"
+            ]
+          },
+          {
+            "field": "place",
+            "value": "Wien",
+            "category": "observed",
+            "evidence": [
+              "R02_L01"
+            ]
+          },
+          {
+            "field": "day",
+            "value": "Samstag",
+            "category": "observed",
+            "evidence": [
+              "R02_L01"
+            ]
+          },
+          {
+            "field": "publication",
+            "value": "Arbeiter-Zeitung.",
+            "category": "observed",
+            "evidence": [
+              "R03_L01"
+            ]
+          },
+          {
+            "field": "date",
+            "value": "6. Juli 1895",
+            "category": "observed",
+            "evidence": [
+              "R04_L01"
+            ]
+          },
+          {
+            "field": "issue",
+            "value": "Nr. 182",
+            "category": "observed",
+            "evidence": [
+              "R05_L01"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "model": "terra targeted retry",
+      "sha256": "8760b4ef58f2d0c0772c7afeda12b4fe02cc0880092c2e43391928fe1d7affdd",
+      "response": {
+        "requested_line_ids": [
+          "R09_L01",
+          "R10_L01",
+          "R12_L01",
+          "R12_L02"
+        ],
+        "lines": [
+          {
+            "id": "R09_L01",
+            "text": "und nie wird das Parlament wirkliche Energie anwenden,",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R10_L01",
+            "text": "Oesterreichischer Reichsrath.",
+            "uncertain": false,
+            "notes": "Printed with Oe rather than an umlauted Ö."
+          },
+          {
+            "id": "R12_L01",
+            "text": "dar, und er brachte Thatsachen vor, die den edlen Grafen",
+            "uncertain": false,
+            "notes": ""
+          },
+          {
+            "id": "R12_L02",
+            "text": "Thun in helles Licht rücken. Dr. Kramarsch machte mit",
+            "uncertain": false,
+            "notes": ""
+          }
+        ]
+      }
+    }
+  ]
+}

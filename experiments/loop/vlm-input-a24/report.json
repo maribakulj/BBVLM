@@ -1,0 +1,598 @@
+{
+  "schema": "bbvlm.vlm-input-ablation-a24/1",
+  "scope": "post-hoc diagnostic on consumed A22 reserve",
+  "reader": "gpt-6-sol",
+  "new_vlm_tasks": 1,
+  "images": 16,
+  "scores": {
+    "strict": {
+      "a22_native_crop": {
+        "characters": 671,
+        "edits": 78,
+        "cer": 0.11624441132637854,
+        "exact_lines": 1,
+        "per_line": [
+          {
+            "id": "R632ec6675c",
+            "characters": 53,
+            "edits": 7,
+            "exact": false,
+            "reference_view": "ciũ duxi. Nõ quidem quod oibus ſatis fœcerim ſed ut/",
+            "hypothesis_view": "ciū duxi. Nō quidem quod omnibus ſatis fœcerim ſed ut,"
+          },
+          {
+            "id": "Re5a7e23177",
+            "characters": 7,
+            "edits": 0,
+            "exact": true,
+            "reference_view": "EPITOME",
+            "hypothesis_view": "EPITOME"
+          },
+          {
+            "id": "R2922cb1c4d",
+            "characters": 21,
+            "edits": 4,
+            "exact": false,
+            "reference_view": "bb. Et e acataleus.",
+            "hypothesis_view": "bb. Et eſt acatalectus."
+          },
+          {
+            "id": "Rf190cd318e",
+            "characters": 37,
+            "edits": 1,
+            "exact": false,
+            "reference_view": "Anno ſupra ſeſquimilleſ. ſextodecimo.",
+            "hypothesis_view": "Anno ſupra ſeſquimilleſ. ſexodecimo."
+          },
+          {
+            "id": "R1a0177a41b",
+            "characters": 45,
+            "edits": 8,
+            "exact": false,
+            "reference_view": "ger verliebten Hndel ziemli bertiget war,",
+            "hypothesis_view": "zur verliebten Händel ziemlich berüchtiget war,"
+          },
+          {
+            "id": "R4612fb0db5",
+            "characters": 38,
+            "edits": 3,
+            "exact": false,
+            "reference_view": "mi zum Manne begehren wrden. (Damals",
+            "hypothesis_view": "mich zum Manne begehren würden. (Damals"
+          },
+          {
+            "id": "R387ec4e7d0",
+            "characters": 47,
+            "edits": 5,
+            "exact": false,
+            "reference_view": "er verdienet htte, lebhaft und deutli gnug zu",
+            "hypothesis_view": "er verdienet hätte, leibhafft und deutlich gnug zu"
+          },
+          {
+            "id": "R89b9dcb991",
+            "characters": 42,
+            "edits": 5,
+            "exact": false,
+            "reference_view": "verehen gab. Aber die Dame hatte  damit",
+            "hypothesis_view": "verſehen gab. Aber die Dame hatte ſich damit"
+          },
+          {
+            "id": "R1bea4bea15",
+            "characters": 53,
+            "edits": 10,
+            "exact": false,
+            "reference_view": "iã reddit ẽ eccleæ, iam ex ſeruo diaboli faus eﬆ",
+            "hypothesis_view": "iā redditus ē eccleſiæ, iam ex ſeruo diaboli factus eſt"
+          },
+          {
+            "id": "R379ddb80f4",
+            "characters": 49,
+            "edits": 5,
+            "exact": false,
+            "reference_view": "Quem uere ſui pudet apud deum, leui erubeſcet a⸗",
+            "hypothesis_view": "Quem vere ſui pudet apud deum, levius erubeſcet a-"
+          },
+          {
+            "id": "R477377d915",
+            "characters": 49,
+            "edits": 6,
+            "exact": false,
+            "reference_view": "rogans ut quod gratis largit eﬆ pro ſua bonite,",
+            "hypothesis_view": "rogans ut quod gratis largitus eſt pro ſua bonitate,"
+          },
+          {
+            "id": "Rdd0cda01dc",
+            "characters": 47,
+            "edits": 9,
+            "exact": false,
+            "reference_view": "hoc quod ſupere  confer ad id quod præceit?",
+            "hypothesis_view": "hoc quod ſuperest, ſi conferas ad id quod præceſſit?"
+          },
+          {
+            "id": "Rd6facdcad1",
+            "characters": 44,
+            "edits": 4,
+            "exact": false,
+            "reference_view": "ſolutum repetere: vt l. in contraib. C. de",
+            "hypothesis_view": "ſolutum repetere: vt l. in contractibus. C. de"
+          },
+          {
+            "id": "R2820e61330",
+            "characters": 44,
+            "edits": 5,
+            "exact": false,
+            "reference_view": "tio. de ﬁde inrum. & tenet Pet. de Anch. in",
+            "hypothesis_view": "tio. de fide inſtrum. & tenet Pet. de Arch. in"
+          },
+          {
+            "id": "Rd97daded21",
+            "characters": 48,
+            "edits": 3,
+            "exact": false,
+            "reference_view": "in l. 1. §. ﬀ. ad legem Falci. De quo maximè du-",
+            "hypothesis_view": "in l. 1. §. ff. ad legem Falci. De quo maxime du-"
+          },
+          {
+            "id": "Rcf0da9fbab",
+            "characters": 47,
+            "edits": 3,
+            "exact": false,
+            "reference_view": "præſumptio cedit veritati. 8. di. c. veritate.",
+            "hypothesis_view": "preſumptio cedit veritati. 8. diſt. c. veritate."
+          }
+        ]
+      },
+      "a24_multiscale_composite": {
+        "characters": 671,
+        "edits": 82,
+        "cer": 0.12220566318926974,
+        "exact_lines": 1,
+        "per_line": [
+          {
+            "id": "R632ec6675c",
+            "characters": 53,
+            "edits": 5,
+            "exact": false,
+            "reference_view": "ciũ duxi. Nõ quidem quod oibus ſatis fœcerim ſed ut/",
+            "hypothesis_view": "ciū duxi. Nō quidem quod omnibus ſatis fecerim ſed ut/"
+          },
+          {
+            "id": "Re5a7e23177",
+            "characters": 7,
+            "edits": 0,
+            "exact": true,
+            "reference_view": "EPITOME",
+            "hypothesis_view": "EPITOME"
+          },
+          {
+            "id": "R2922cb1c4d",
+            "characters": 21,
+            "edits": 5,
+            "exact": false,
+            "reference_view": "bb. Et e acataleus.",
+            "hypothesis_view": "bb. Et eſt acatalectus ."
+          },
+          {
+            "id": "Rf190cd318e",
+            "characters": 37,
+            "edits": 1,
+            "exact": false,
+            "reference_view": "Anno ſupra ſeſquimilleſ. ſextodecimo.",
+            "hypothesis_view": "Anno ſupra ſeſquimilleſ. ſextodecimo ."
+          },
+          {
+            "id": "R1a0177a41b",
+            "characters": 45,
+            "edits": 7,
+            "exact": false,
+            "reference_view": "ger verliebten Hndel ziemli bertiget war,",
+            "hypothesis_view": "ger verliebten Händel ziemlich berichtiget war ,"
+          },
+          {
+            "id": "R4612fb0db5",
+            "characters": 38,
+            "edits": 3,
+            "exact": false,
+            "reference_view": "mi zum Manne begehren wrden. (Damals",
+            "hypothesis_view": "mich zum Manne begehren würden. (Damals"
+          },
+          {
+            "id": "R387ec4e7d0",
+            "characters": 47,
+            "edits": 4,
+            "exact": false,
+            "reference_view": "er verdienet htte, lebhaft und deutli gnug zu",
+            "hypothesis_view": "er verdienet hatte , lebhaft und deutlich gnug zu"
+          },
+          {
+            "id": "R89b9dcb991",
+            "characters": 42,
+            "edits": 6,
+            "exact": false,
+            "reference_view": "verehen gab. Aber die Dame hatte  damit",
+            "hypothesis_view": "verſtehen gab. Aber die Dame hatte ſich damit"
+          },
+          {
+            "id": "R1bea4bea15",
+            "characters": 53,
+            "edits": 12,
+            "exact": false,
+            "reference_view": "iã reddit ẽ eccleæ, iam ex ſeruo diaboli faus eﬆ",
+            "hypothesis_view": "iā redditus ē eccleſiæ, iam ex ſeruo diaboli factus eſt"
+          },
+          {
+            "id": "R379ddb80f4",
+            "characters": 49,
+            "edits": 4,
+            "exact": false,
+            "reference_view": "Quem uere ſui pudet apud deum, leui erubeſcet a⸗",
+            "hypothesis_view": "Quem uerè ſui pudet apud deum, leuius erubeſcet a-"
+          },
+          {
+            "id": "R477377d915",
+            "characters": 49,
+            "edits": 6,
+            "exact": false,
+            "reference_view": "rogans ut quod gratis largit eﬆ pro ſua bonite,",
+            "hypothesis_view": "rogans ut quod gratis largitus eſt pro ſua bonitate,"
+          },
+          {
+            "id": "Rdd0cda01dc",
+            "characters": 47,
+            "edits": 9,
+            "exact": false,
+            "reference_view": "hoc quod ſupere  confer ad id quod præceit?",
+            "hypothesis_view": "hoc quod ſupereſt, ſi conferas ad id quod præceſſit?"
+          },
+          {
+            "id": "Rd6facdcad1",
+            "characters": 44,
+            "edits": 5,
+            "exact": false,
+            "reference_view": "ſolutum repetere: vt l. in contraib. C. de",
+            "hypothesis_view": "ſolutum repetere: vt l.in contractibus. C. de"
+          },
+          {
+            "id": "R2820e61330",
+            "characters": 44,
+            "edits": 5,
+            "exact": false,
+            "reference_view": "tio. de ﬁde inrum. & tenet Pet. de Anch. in",
+            "hypothesis_view": "tio.de fide inſtrum. & tenet Pet. de Anch. in"
+          },
+          {
+            "id": "Rd97daded21",
+            "characters": 48,
+            "edits": 6,
+            "exact": false,
+            "reference_view": "in l. 1. §. ﬀ. ad legem Falci. De quo maximè du-",
+            "hypothesis_view": "in l.1.§.ff.ad legem Falci. De quo maxime du-"
+          },
+          {
+            "id": "Rcf0da9fbab",
+            "characters": 47,
+            "edits": 4,
+            "exact": false,
+            "reference_view": "præſumptio cedit veritati. 8. di. c. veritate.",
+            "hypothesis_view": "præſumptio cedit veritati.8.diſt. c. veritate."
+          }
+        ]
+      }
+    },
+    "glyph_decomposition_v1": {
+      "a22_native_crop": {
+        "characters": 699,
+        "edits": 34,
+        "cer": 0.04864091559370529,
+        "exact_lines": 3,
+        "per_line": [
+          {
+            "id": "R632ec6675c",
+            "characters": 53,
+            "edits": 5,
+            "exact": false,
+            "reference_view": "ciũ duxi. Nõ quidem quod oibus ſatis fœcerim ſed ut/",
+            "hypothesis_view": "ciū duxi. Nō quidem quod omnibus ſatis fœcerim ſed ut,"
+          },
+          {
+            "id": "Re5a7e23177",
+            "characters": 7,
+            "edits": 0,
+            "exact": true,
+            "reference_view": "EPITOME",
+            "hypothesis_view": "EPITOME"
+          },
+          {
+            "id": "R2922cb1c4d",
+            "characters": 23,
+            "edits": 0,
+            "exact": true,
+            "reference_view": "bb. Et eſt acatalectus.",
+            "hypothesis_view": "bb. Et eſt acatalectus."
+          },
+          {
+            "id": "Rf190cd318e",
+            "characters": 37,
+            "edits": 1,
+            "exact": false,
+            "reference_view": "Anno ſupra ſeſquimilleſ. ſextodecimo.",
+            "hypothesis_view": "Anno ſupra ſeſquimilleſ. ſexodecimo."
+          },
+          {
+            "id": "R1a0177a41b",
+            "characters": 49,
+            "edits": 6,
+            "exact": false,
+            "reference_view": "ger verliebten Haͤndel ziemlich beruͤchtiget war,",
+            "hypothesis_view": "zur verliebten Händel ziemlich berüchtiget war,"
+          },
+          {
+            "id": "R4612fb0db5",
+            "characters": 40,
+            "edits": 2,
+            "exact": false,
+            "reference_view": "mich zum Manne begehren wuͤrden. (Damals",
+            "hypothesis_view": "mich zum Manne begehren würden. (Damals"
+          },
+          {
+            "id": "R387ec4e7d0",
+            "characters": 49,
+            "edits": 4,
+            "exact": false,
+            "reference_view": "er verdienet haͤtte, lebhaft und deutlich gnug zu",
+            "hypothesis_view": "er verdienet hätte, leibhafft und deutlich gnug zu"
+          },
+          {
+            "id": "R89b9dcb991",
+            "characters": 45,
+            "edits": 1,
+            "exact": false,
+            "reference_view": "verſtehen gab. Aber die Dame hatte ſich damit",
+            "hypothesis_view": "verſehen gab. Aber die Dame hatte ſich damit"
+          },
+          {
+            "id": "R1bea4bea15",
+            "characters": 55,
+            "edits": 3,
+            "exact": false,
+            "reference_view": "iã redditus ẽ eccleſiæ, iam ex ſeruo diaboli factus est",
+            "hypothesis_view": "iā redditus ē eccleſiæ, iam ex ſeruo diaboli factus eſt"
+          },
+          {
+            "id": "R379ddb80f4",
+            "characters": 50,
+            "edits": 3,
+            "exact": false,
+            "reference_view": "Quem uere ſui pudet apud deum, leuius erubeſcet a⸗",
+            "hypothesis_view": "Quem vere ſui pudet apud deum, levius erubeſcet a-"
+          },
+          {
+            "id": "R477377d915",
+            "characters": 51,
+            "edits": 3,
+            "exact": false,
+            "reference_view": "rogans ut quod gratis largitus est pro ſua bonite,",
+            "hypothesis_view": "rogans ut quod gratis largitus eſt pro ſua bonitate,"
+          },
+          {
+            "id": "Rdd0cda01dc",
+            "characters": 51,
+            "edits": 2,
+            "exact": false,
+            "reference_view": "hoc quod ſupereſt ſi conferas ad id quod præceſſit?",
+            "hypothesis_view": "hoc quod ſuperest, ſi conferas ad id quod præceſſit?"
+          },
+          {
+            "id": "Rd6facdcad1",
+            "characters": 46,
+            "edits": 0,
+            "exact": true,
+            "reference_view": "ſolutum repetere: vt l. in contractibus. C. de",
+            "hypothesis_view": "ſolutum repetere: vt l. in contractibus. C. de"
+          },
+          {
+            "id": "R2820e61330",
+            "characters": 46,
+            "edits": 1,
+            "exact": false,
+            "reference_view": "tio. de fide inſtrum. & tenet Pet. de Anch. in",
+            "hypothesis_view": "tio. de fide inſtrum. & tenet Pet. de Arch. in"
+          },
+          {
+            "id": "Rd97daded21",
+            "characters": 49,
+            "edits": 1,
+            "exact": false,
+            "reference_view": "in l. 1. §. ff. ad legem Falci. De quo maximè du-",
+            "hypothesis_view": "in l. 1. §. ff. ad legem Falci. De quo maxime du-"
+          },
+          {
+            "id": "Rcf0da9fbab",
+            "characters": 48,
+            "edits": 2,
+            "exact": false,
+            "reference_view": "præſumptio cedit veritati. 8. diſi. c. veritate.",
+            "hypothesis_view": "preſumptio cedit veritati. 8. diſt. c. veritate."
+          }
+        ]
+      },
+      "a24_multiscale_composite": {
+        "characters": 699,
+        "edits": 35,
+        "cer": 0.05007153075822604,
+        "exact_lines": 2,
+        "per_line": [
+          {
+            "id": "R632ec6675c",
+            "characters": 53,
+            "edits": 5,
+            "exact": false,
+            "reference_view": "ciũ duxi. Nõ quidem quod oibus ſatis fœcerim ſed ut/",
+            "hypothesis_view": "ciū duxi. Nō quidem quod omnibus ſatis fecerim ſed ut/"
+          },
+          {
+            "id": "Re5a7e23177",
+            "characters": 7,
+            "edits": 0,
+            "exact": true,
+            "reference_view": "EPITOME",
+            "hypothesis_view": "EPITOME"
+          },
+          {
+            "id": "R2922cb1c4d",
+            "characters": 23,
+            "edits": 1,
+            "exact": false,
+            "reference_view": "bb. Et eſt acatalectus.",
+            "hypothesis_view": "bb. Et eſt acatalectus ."
+          },
+          {
+            "id": "Rf190cd318e",
+            "characters": 37,
+            "edits": 1,
+            "exact": false,
+            "reference_view": "Anno ſupra ſeſquimilleſ. ſextodecimo.",
+            "hypothesis_view": "Anno ſupra ſeſquimilleſ. ſextodecimo ."
+          },
+          {
+            "id": "R1a0177a41b",
+            "characters": 49,
+            "edits": 5,
+            "exact": false,
+            "reference_view": "ger verliebten Haͤndel ziemlich beruͤchtiget war,",
+            "hypothesis_view": "ger verliebten Händel ziemlich berichtiget war ,"
+          },
+          {
+            "id": "R4612fb0db5",
+            "characters": 40,
+            "edits": 2,
+            "exact": false,
+            "reference_view": "mich zum Manne begehren wuͤrden. (Damals",
+            "hypothesis_view": "mich zum Manne begehren würden. (Damals"
+          },
+          {
+            "id": "R387ec4e7d0",
+            "characters": 49,
+            "edits": 2,
+            "exact": false,
+            "reference_view": "er verdienet haͤtte, lebhaft und deutlich gnug zu",
+            "hypothesis_view": "er verdienet hatte , lebhaft und deutlich gnug zu"
+          },
+          {
+            "id": "R89b9dcb991",
+            "characters": 45,
+            "edits": 0,
+            "exact": true,
+            "reference_view": "verſtehen gab. Aber die Dame hatte ſich damit",
+            "hypothesis_view": "verſtehen gab. Aber die Dame hatte ſich damit"
+          },
+          {
+            "id": "R1bea4bea15",
+            "characters": 55,
+            "edits": 3,
+            "exact": false,
+            "reference_view": "iã redditus ẽ eccleſiæ, iam ex ſeruo diaboli factus est",
+            "hypothesis_view": "iā redditus ē eccleſiæ, iam ex ſeruo diaboli factus eſt"
+          },
+          {
+            "id": "R379ddb80f4",
+            "characters": 50,
+            "edits": 2,
+            "exact": false,
+            "reference_view": "Quem uere ſui pudet apud deum, leuius erubeſcet a⸗",
+            "hypothesis_view": "Quem uerè ſui pudet apud deum, leuius erubeſcet a-"
+          },
+          {
+            "id": "R477377d915",
+            "characters": 51,
+            "edits": 3,
+            "exact": false,
+            "reference_view": "rogans ut quod gratis largitus est pro ſua bonite,",
+            "hypothesis_view": "rogans ut quod gratis largitus eſt pro ſua bonitate,"
+          },
+          {
+            "id": "Rdd0cda01dc",
+            "characters": 51,
+            "edits": 1,
+            "exact": false,
+            "reference_view": "hoc quod ſupereſt ſi conferas ad id quod præceſſit?",
+            "hypothesis_view": "hoc quod ſupereſt, ſi conferas ad id quod præceſſit?"
+          },
+          {
+            "id": "Rd6facdcad1",
+            "characters": 46,
+            "edits": 1,
+            "exact": false,
+            "reference_view": "ſolutum repetere: vt l. in contractibus. C. de",
+            "hypothesis_view": "ſolutum repetere: vt l.in contractibus. C. de"
+          },
+          {
+            "id": "R2820e61330",
+            "characters": 46,
+            "edits": 1,
+            "exact": false,
+            "reference_view": "tio. de fide inſtrum. & tenet Pet. de Anch. in",
+            "hypothesis_view": "tio.de fide inſtrum. & tenet Pet. de Anch. in"
+          },
+          {
+            "id": "Rd97daded21",
+            "characters": 49,
+            "edits": 5,
+            "exact": false,
+            "reference_view": "in l. 1. §. ff. ad legem Falci. De quo maximè du-",
+            "hypothesis_view": "in l.1.§.ff.ad legem Falci. De quo maxime du-"
+          },
+          {
+            "id": "Rcf0da9fbab",
+            "characters": 48,
+            "edits": 3,
+            "exact": false,
+            "reference_view": "præſumptio cedit veritati. 8. diſi. c. veritate.",
+            "hypothesis_view": "præſumptio cedit veritati.8.diſt. c. veritate."
+          }
+        ]
+      }
+    }
+  },
+  "uncertain_ids": [
+    "R1bea4bea15",
+    "R379ddb80f4",
+    "R632ec6675c",
+    "Rd97daded21",
+    "Rf190cd318e"
+  ],
+  "invariants": {
+    "exact_id_coverage": true,
+    "all_composites_inspected": true,
+    "protected_inputs_hashed": true
+  },
+  "limitations": [
+    "same model is stochastic and conditions were not randomized in parallel",
+    "A22 is consumed; result cannot select a final configuration",
+    "composites use oracle target line boxes",
+    "no raw Claude/Gemini outputs or exact prompts/settings were available for direct comparison"
+  ],
+  "accepted_for_project_completion_gate": false,
+  "protected_input_sha256": {
+    "experiments/loop/reserve-a22/private-reference.json": "ed3d258856ee838bb4e2f6d5c2526109b6a581d51de932a23574be07f4ed1743",
+    "experiments/loop/reserve-a22/sol-response.json": "252a769e474dc442772d4c6e7b372d0a9cf21e435ad39705c7a3fe9038f5fd9f",
+    "experiments/loop/vlm-input-a24/PROTOCOL.md": "0ece8067b37207de712ea8127da3d7f38d7a2d0ebb1e669d6f5c72881470f04b",
+    "experiments/loop/vlm-input-a24/input/request.json": "67bb3130b8b117ed3fccebae13010520e3e1bb632bdae4eba0a9ac71a2fb1084",
+    "experiments/loop/vlm-input-a24/input/R1bea4bea15.png": "bf62f267b188cc845a5d5744593134bd6b1033b218ebc7e390234733d961e7a3",
+    "experiments/loop/vlm-input-a24/input/R632ec6675c.png": "1a7aa14852ec13b3e05d6630a84aa454842640f0ac0cdcc04eb793f337af2999",
+    "experiments/loop/vlm-input-a24/input/Rf190cd318e.png": "5432aa999cdc69c0d521bbec9bca1ef4143c88f3d66885c2742966f284d39b22",
+    "experiments/loop/vlm-input-a24/input/R477377d915.png": "bffcdc25509043a4055e04d771bbc635c118eca0456a1e5aa537fb743f27ea54",
+    "experiments/loop/vlm-input-a24/input/Rd6facdcad1.png": "d5eaed2a29593c5f18ebf444b91c6342c13dd099e5a0848382d66ffed6cbdfc7",
+    "experiments/loop/vlm-input-a24/input/R89b9dcb991.png": "d8ea7d65e100dd163b31b9dac51b6f2bf414781cb919a8f54a058e1070e1c603",
+    "experiments/loop/vlm-input-a24/input/R2820e61330.png": "17c6fab5f03c7a106668f6089334753aad861b6290b6b93c050341b34fcd6201",
+    "experiments/loop/vlm-input-a24/input/Rcf0da9fbab.png": "51dbe087b7f46f78252a2cbfe47ce4f33cf3a8b30d4431bba636dbc97cf9e583",
+    "experiments/loop/vlm-input-a24/input/Rdd0cda01dc.png": "6a85759394b344e1e22e1c6a0c137073b5ff2a14641ace5b2b31c5eec741289e",
+    "experiments/loop/vlm-input-a24/input/R379ddb80f4.png": "49f23e97d1c7505a28cd87bd91ee0a66e8b360ac2b73dbf9c8f382a1f0b0d439",
+    "experiments/loop/vlm-input-a24/input/R1a0177a41b.png": "3cc10361d7e273e1209b1d2cb6a7813fd520415f389b6affb75b5b5603569ab8",
+    "experiments/loop/vlm-input-a24/input/Rd97daded21.png": "97d11949c0e1ae6ddab2bf69d1a952873ce70999c5573574eb2ab4a4e3cd5020",
+    "experiments/loop/vlm-input-a24/input/R4612fb0db5.png": "971373b0b5acfe4b1d019e4a948dc7e5b34f202142749c717621bf865703cd7e",
+    "experiments/loop/vlm-input-a24/input/R2922cb1c4d.png": "65725dc5c27dd9d6a23335affec09f9f97b5b933e135d121b3f9d8109a3b0345",
+    "experiments/loop/vlm-input-a24/input/Re5a7e23177.png": "f75f4babd614a73f12485d0e986551d42d8e3206a8925015d85d7f08e65a95b2",
+    "experiments/loop/vlm-input-a24/input/R387ec4e7d0.png": "6ae052b6226d4a7284b0bb7073ceb250e70eff9c0707a140eed672f7e63f03a7"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "schema": "bbvlm.coarse-role-plus-frozen-typography-evaluation/1",
+  "page": "0010",
+  "split_role": "frozen_validation_consumed_after_this_evaluation",
+  "reader": "gpt-6-luna",
+  "passes": {
+    "vlm_coarse_roles_and_genre": 1,
+    "vlm_order": 0,
+    "vlm_grouping": 0,
+    "cpu_structure": 1
+  },
+  "raw_structural_valid": true,
+  "raw_structural_errors": [],
+  "repair_attempted": false,
+  "metrics": {
+    "regions": 15,
+    "reference_eligible": 11,
+    "predicted_eligible": 12,
+    "eligibility_true_positive": 11,
+    "eligibility_precision": 0.9166666666666666,
+    "eligibility_recall": 1.0,
+    "eligibility_f1": 0.9565217391304348,
+    "contamination_region_ids": [
+      "R4827d3cab4d04700"
+    ],
+    "missing_eligible_region_ids": [],
+    "coarse_role_correct": 14,
+    "coarse_role_accuracy": 0.9333333333333333,
+    "coarse_role_confusion": [
+      {
+        "reference": "MASTHEAD",
+        "predicted": "MASTHEAD",
+        "count": 3
+      },
+      {
+        "reference": "OTHER",
+        "predicted": "STREAM",
+        "count": 1
+      },
+      {
+        "reference": "STREAM",
+        "predicted": "STREAM",
+        "count": 11
+      }
+    ],
+    "fine_physical_role_correct": 14,
+    "fine_physical_role_accuracy": 0.9333333333333333,
+    "fine_physical_role_confusion": [
+      {
+        "reference": "HEADER",
+        "predicted": "HEADER",
+        "count": 4
+      },
+      {
+        "reference": "MASTHEAD",
+        "predicted": "MASTHEAD",
+        "count": 3
+      },
+      {
+        "reference": "OTHER",
+        "predicted": "TEXT",
+        "count": 1
+      },
+      {
+        "reference": "TEXT",
+        "predicted": "TEXT",
+        "count": 7
+      }
+    ],
+    "role_mismatches": [
+      {
+        "token": "Z5",
+        "region_id": "R4827d3cab4d04700",
+        "source_id": "tr_1743005282",
+        "bbox": [
+          1624.0,
+          3284.0,
+          2304.0,
+          3371.0
+        ],
+        "reference_role": "OTHER",
+        "reference_coarse_role": "OTHER",
+        "predicted_coarse_role": "STREAM",
+        "predicted_fine_role": "TEXT"
+      }
+    ],
+    "semantic_group_pair_precision": 0.9,
+    "semantic_group_pair_recall": 0.8181818181818182,
+    "semantic_group_pair_f1": 0.8571428571428572,
+    "semantic_group_false_positive_pairs": 1,
+    "semantic_group_false_negative_pairs": 2,
+    "semantic_group_bcubed_precision": 0.9333333333333333,
+    "semantic_group_bcubed_recall": 0.9111111111111111,
+    "semantic_group_bcubed_f1": 0.9220883534136545,
+    "reference_semantic_units": 7,
+    "predicted_semantic_units": 7,
+    "combined_order_correct_reference_pairs": 55,
+    "combined_order_reference_pairs": 55,
+    "combined_order_pair_recall": 1.0,
+    "cpu_runtime_seconds": 0.0001629859980312176,
+    "cpu_inferred_columns": 3,
+    "editorial_genre_counts": {
+      "ARTICLE": 11,
+      "MASTHEAD": 3,
+      "NOTICE": 1
+    },
+    "editorial_unit_proposals": [
+      {
+        "unit": "U1",
+        "region_ids": [
+          "Re6207637b3f7729f",
+          "Rad251c2eaa617ad7",
+          "R5db764d8ec4948d7"
+        ],
+        "genre_labels": [
+          "MASTHEAD"
+        ],
+        "proposed_genre": "MASTHEAD",
+        "needs_review": false
+      },
+      {
+        "unit": "U2",
+        "region_ids": [
+          "Re7a8977d0a6fcd35",
+          "R6ce443c86fbceac5",
+          "R78b4df16f8be5975"
+        ],
+        "genre_labels": [
+          "ARTICLE"
+        ],
+        "proposed_genre": "ARTICLE",
+        "needs_review": false
+      },
+      {
+        "unit": "U3",
+        "region_ids": [
+          "Rb07e54a1075859f8",
+          "R012dc4d9f07b8751"
+        ],
+        "genre_labels": [
+          "ARTICLE"
+        ],
+        "proposed_genre": "ARTICLE",
+        "needs_review": false
+      },
+      {
+        "unit": "U4",
+        "region_ids": [
+          "R84e174c2bef3633e"
+        ],
+        "genre_labels": [
+          "ARTICLE"
+        ],
+        "proposed_genre": "ARTICLE",
+        "needs_review": false
+      },
+      {
+        "unit": "U5",
+        "region_ids": [
+          "R0841eb20e7d1193d",
+          "R77e34fd239989fd0"
+        ],
+        "genre_labels": [
+          "ARTICLE"
+        ],
+        "proposed_genre": "ARTICLE",
+        "needs_review": false
+      },
+      {
+        "unit": "U6",
+        "region_ids": [
+          "R2bb64cb5ba1e3e79",
+          "R91c315e5429aa937"
+        ],
+        "genre_labels": [
+          "ARTICLE"
+        ],
+        "proposed_genre": "ARTICLE",
+        "needs_review": false
+      },
+      {
+        "unit": "U7",
+        "region_ids": [
+          "Rf03aae5361091a4e",
+          "R4827d3cab4d04700"
+        ],
+        "genre_labels": [
+          "ARTICLE",
+          "NOTICE"
+        ],
+        "proposed_genre": "UNKNOWN",
+        "needs_review": true
+      }
+    ],
+    "uncertain_coarse_region_ids": [],
+    "uncertain_genre_region_ids": []
+  },
+  "frozen_gates": {
+    "raw_structural_valid": true,
+    "eligibility_precision_min": 0.9,
+    "eligibility_recall_min": 0.9,
+    "coarse_role_accuracy_min": 0.8,
+    "fine_physical_role_accuracy_min": 0.8,
+    "semantic_group_pair_f1_min": 0.8,
+    "combined_order_pair_recall_min": 0.95
+  },
+  "content_gate_passed": true,
+  "editorial_genre_scored": false,
+  "editorial_genre_status": "proposals_with_provenance_only",
+  "accepted_for_project_completion_gate": false,
+  "reference_warning": "Page 0010 is consumed after this one fixed evaluation; labels are provisional and word boxes remain rejected.",
+  "leakage_control": "Random tokens reveal no source ID, order, physical role, genre or semantic unit. XML, binding and reference are outside the reader packet.",
+  "cost_note": "One authorized Luna pass; token billing unavailable. CPU runtime measured.",
+  "interpretation": "Agreement with provisional coarse/fine physical role, order and SSU labels on one page; genre is not ground truth.",
+  "fine_role_method": "A10 internal line count, median line height and uppercase ratio; frozen before 0010"
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "bbvlm.bnf-region-ocr-a30-opened/1",
+  "opened_unix": 1790534312.3419464,
+  "split_sha256": "98368b7eefc2358bda2a9ab912912157282543641b63805c6f3ebc7924d645be",
+  "files": [
+    {
+      "name": "IMPACT/PAGE/00123532_5.xml",
+      "bytes": 493310,
+      "crc32": "5deb22e8",
+      "sha256": "8bb8c747bae7b8cae9e9783a29274711d1049f7b70289a887cbad60b2c06bc71"
+    },
+    {
+      "name": "IMPACT/T/00123532.tif",
+      "bytes": 16524178,
+      "crc32": "4c1b0174",
+      "sha256": "f9e7ce7d13766dfc9f764ddb115fd6eb7841368302230e2403af09a55c34d211"
+    }
+  ],
+  "eligible_regions": 16,
+  "selected_regions": 16
+}

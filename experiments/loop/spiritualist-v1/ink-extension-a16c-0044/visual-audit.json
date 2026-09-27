@@ -1,0 +1,18 @@
+{
+  "schema": "bbvlm.visual-audit/1",
+  "page": "0044",
+  "scope": "three A15 consumed-region overlays; diagnostic only",
+  "images_inspected": [
+    "P0001_R0001.overlay.jpg",
+    "P0001_R0002.overlay.jpg",
+    "P0001_R0003.overlay.jpg"
+  ],
+  "observations": [
+    "the two terminal :— tokens visibly extend beyond the native CTC boxes and are contained by A16c",
+    "the candidate also extends the edge punctuation of Bavaria, and tualists.",
+    "no adjacent word-box overlap is visible or reported",
+    "the inspection cannot establish pixel-perfect boundaries or semantic ownership"
+  ],
+  "decision": "retain A16c as an automatic review proposal; do not promote or open a gate",
+  "independent_adjudication": false
+}

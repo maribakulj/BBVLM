@@ -1,0 +1,179 @@
+{
+  "schema": "bbvlm.bnf-impact-a26/1",
+  "scope": "one manifest-selected page from each of four BnF/IMPACT filename groups; oracle line polygons/text/token order",
+  "source_claim": "BnF: French press pages, manual transcription and zone identification, PAGE XML",
+  "page_metadata": {
+    "00123451": {
+      "xml_root": "PcGts",
+      "namespace": "http://schema.primaresearch.org/PAGE/gts/pagecontent/2010-03-19",
+      "image_width": "3618",
+      "image_height": "4860",
+      "lines": 0,
+      "words": 0
+    },
+    "00123531": {
+      "xml_root": "PcGts",
+      "namespace": "http://schema.primaresearch.org/PAGE/gts/pagecontent/2010-03-19",
+      "image_width": "3683",
+      "image_height": "4934",
+      "lines": 0,
+      "words": 0
+    },
+    "00123643": {
+      "xml_root": "PcGts",
+      "namespace": "http://schema.primaresearch.org/PAGE/gts/pagecontent/2010-03-19",
+      "image_width": "3665",
+      "image_height": "4927",
+      "lines": 0,
+      "words": 0
+    },
+    "00196323": {
+      "xml_root": "PcGts",
+      "namespace": "http://schema.primaresearch.org/PAGE/gts/pagecontent/2010-03-19",
+      "image_width": "5310",
+      "image_height": "7391",
+      "lines": 0,
+      "words": 0
+    }
+  },
+  "counts": {
+    "pages": 0,
+    "lines": 0,
+    "reference_words": 0
+  },
+  "observed_language_probe": {
+    "first_24_lines_french_function_word_hits": 0,
+    "classified": "not-established"
+  },
+  "reference_status": "official BnF corrected OCR ground truth; manual transcription and zones; not independently adjudicated perfect truth",
+  "reference_pua": {},
+  "model": {
+    "package": "pero-ocr==0.7.0",
+    "weights": "pero_eu_cz_print_newspapers_2022-09-26",
+    "archive_sha256": "cb38dd0792c7145b8ba4dd64df255980e4633f4ca1d406f7f230b9c174c0c70d",
+    "torch": "2.9.1+cpu",
+    "opencv": "4.11.0",
+    "device": "cpu",
+    "threads": 4
+  },
+  "cost": {
+    "model_load_seconds": 0.18482583500735927,
+    "recognition_seconds": 0.0,
+    "recognized_lines": 0,
+    "recognizer_forwards": 0,
+    "forced_alignment_seconds": 0.0,
+    "new_vlm_tasks": 0,
+    "total_wall_seconds": 3.9836868369893637
+  },
+  "native_ocr": {
+    "strict": {
+      "characters": 0,
+      "edits": 0,
+      "cer": null,
+      "exact_lines": 0,
+      "per_line": []
+    },
+    "glyph_decomposition_v1": {
+      "characters": 0,
+      "edits": 0,
+      "cer": null,
+      "exact_lines": 0,
+      "per_line": []
+    }
+  },
+  "measurements": {
+    "pero_native": {
+      "method": "pero_native",
+      "matching": "hungarian_geometry",
+      "reference_words": 0,
+      "predicted_words": 0,
+      "matched_pairs": 0,
+      "mean_iou_matched": null,
+      "matches_iou50": 0,
+      "precision_iou50": null,
+      "recall_iou50": null,
+      "matches_iou80": 0,
+      "precision_iou80": null,
+      "recall_iou80": null,
+      "mean_abs_horizontal_boundary_error_normalized": null,
+      "mean_abs_vertical_boundary_error_normalized": null,
+      "lines_all_words_iou80": 0,
+      "per_line": []
+    },
+    "reference_forced_ctc": {
+      "method": "reference_forced_ctc",
+      "matching": "index",
+      "reference_words": 0,
+      "predicted_words": 0,
+      "matched_pairs": 0,
+      "mean_iou_matched": null,
+      "matches_iou50": 0,
+      "precision_iou50": null,
+      "recall_iou50": null,
+      "matches_iou80": 0,
+      "precision_iou80": null,
+      "recall_iou80": null,
+      "mean_abs_horizontal_boundary_error_normalized": null,
+      "mean_abs_vertical_boundary_error_normalized": null,
+      "lines_all_words_iou80": 0,
+      "per_line": []
+    },
+    "ctc_raw_otsu_v1": {
+      "method": "ctc_raw_otsu_v1",
+      "matching": "index",
+      "reference_words": 0,
+      "predicted_words": 0,
+      "matched_pairs": 0,
+      "mean_iou_matched": null,
+      "matches_iou50": 0,
+      "precision_iou50": null,
+      "recall_iou50": null,
+      "matches_iou80": 0,
+      "precision_iou80": null,
+      "recall_iou80": null,
+      "mean_abs_horizontal_boundary_error_normalized": null,
+      "mean_abs_vertical_boundary_error_normalized": null,
+      "lines_all_words_iou80": 0,
+      "per_line": []
+    }
+  },
+  "per_page_measurements": {},
+  "candidate_page_conditions": {},
+  "candidate_conditional_gate_passed": true,
+  "fallback_cells": 0,
+  "proxy": {},
+  "invariants": {
+    "protocol_evaluator_split_frozen_before_member_open": true,
+    "archive_sha256_verified": true,
+    "selected_member_crc_and_size_verified": true,
+    "all_line_text_equals_joined_word_text": true,
+    "protected_inputs_unchanged": true
+  },
+  "limitations": [
+    "Oracle line polygons, reference text and token order: not end-to-end layout.",
+    "Four filename groups are treated as document clusters; internal workbook metadata was not used for selection.",
+    "External manual GT is not independently adjudicated perfect truth.",
+    "Synthetic horizontal baselines may disadvantage PERO."
+  ],
+  "accepted_for_project_completion_gate": false,
+  "protected_input_sha256": {
+    "experiments/loop/bnf-impact-a26/split.json": "93be0b0f63b8c0965e45da8cd699a34ef59b4ae3b4d354ea4fd2978c25e181e1",
+    "experiments/loop/bnf-impact-a26/opened.json": "d006903b8bd53a171a83fe3b131ecbff56f7660d88599c5f70051f1c2f004a49",
+    "experiments/loop/bnf-impact-a26/PROTOCOL.md": "f1d5d65d5b0df5b11174f08c90368664060ee9f3720ac2a6a7a6516f5ee44f49",
+    "scripts/evaluate_bnf_impact_a26.py": "7f9988832960ae8168ed363a6a7b5f666319d6aa5abf942489a33d49143b15bd",
+    "scripts/evaluate_french_holdout_a25.py": "d8f7b8c231684b7d2a4dd0f705834e9bc50ffbc70a46f5be6d416fdaae3dcb0b",
+    "scripts/open_bnf_impact_a26.py": "86a08eab25f6a3f4dd731881481447a117df570eb79e78f1df54c4f96b8bdcff",
+    "experiments/loop/bnf-impact-a26/source/archive-manifest.json": "7665fcbec5b15cfedfcaaa95e97338555b88a382b3e3ee1314cf087ccbd2bdb1",
+    "experiments/loop/bnf-impact-a26/opened/IMPACT/PAGE/00123451_5.xml": "279f16e1d9090cd7f9639635aa111898e6363f949391d4697477855b54050168",
+    "experiments/loop/bnf-impact-a26/opened/IMPACT/T/00123451.tif": "33e8fa36a5d432bc285af3a98ab67b06f0b04a7666f188244d4d5c1b712e32fe",
+    "experiments/loop/bnf-impact-a26/opened/IMPACT/PAGE/00123531_5.xml": "9baf502284fe11a6e3de7011ae59debd52e554399614e7b43ec6734ee4280fdb",
+    "experiments/loop/bnf-impact-a26/opened/IMPACT/T/00123531.tif": "9682108d8f315a6b75c36bd704e07d0cd37af309977cfa26262abc861e7432fa",
+    "experiments/loop/bnf-impact-a26/opened/IMPACT/PAGE/00123643_5.xml": "8eaa19cb9d87dec69fc28af43629447c1350b70625e58ea182cbc0536bd8c147",
+    "experiments/loop/bnf-impact-a26/opened/IMPACT/T/00123643.tif": "3c9acb4721abe98f3e8a4187e55d6a83c40c7dc50a8fad9328968b2358cd1362",
+    "experiments/loop/bnf-impact-a26/opened/IMPACT/PAGE/00196323_5.xml": "0a0f9247b6913b397f0303d0fc37a1bdb3613f52b03e74c252dba4bed9202c4c",
+    "experiments/loop/bnf-impact-a26/opened/IMPACT/T/196323.jpg": "6a9e252dce5fea96df1475d4c67490b0f12317ca24fc1b6dc5f69f1759dcffe9",
+    "experiments/loop/bnf-impact-a26/opened/IMPACT/documents.xlsx": "9cca792e64dd1682d1552002daa67f0e057c4736d3b40dbb56b5a40f99d069c6",
+    "experiments/loop/bnf-impact-a26/opened/IMPACT/ark.txt": "934da6697ebad88d2f4560af8dfac64666897cfe38a6a6a8090c309921e5e19d",
+    "experiments/loop/bnf-impact-a26/opened/IMPACT/readme.docx": "b5470278bccaa6667a511c1ffaf1da429356908d7388af86fcdafa624e31da82"
+  }
+}

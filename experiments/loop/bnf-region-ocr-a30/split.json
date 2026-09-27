@@ -1,0 +1,27 @@
+{
+  "schema": "bbvlm.bnf-region-ocr-a30-split/1",
+  "status": "frozen_unopened",
+  "selection": "second PAGE XML in second filename-prefix group; manifest names only",
+  "archive_sha256": "2c8a3e4564c9ffe42270aaf3d6a0d9498b8549b9222fc6d702b751610cc4641c",
+  "page": {
+    "group": "0012353",
+    "page": "00123532",
+    "xml": "IMPACT/PAGE/00123532_5.xml",
+    "image": "IMPACT/T/00123532.tif",
+    "xml_bytes": 493310,
+    "xml_crc32": "5deb22e8",
+    "image_bytes": 16524178,
+    "image_crc32": "4c1b0174"
+  },
+  "selection_seed": "bbvlm-a30-regions-v1",
+  "opaque_seed": "bbvlm-a30-opaque-v1",
+  "created_unix": 1790534310.7420774,
+  "sealed_sha256": {
+    "protocol": "265b2c256b6c63806b24e4b9718e399cca883f8274cf6e9a62eca01f69b486e1",
+    "prompt": "14f7f086baf8d5424a0494d2e25e74f34fb7841ccd0339f1b198b974835cd32d",
+    "preparer": "1485ead879f2e0b3b1625db21ecaf71e642399b671845e4f2e5001a8bb8a6642",
+    "evaluator": "8267f964348ce68f708da92c5918fda98825f039cf657490c2759649a1e6e898",
+    "metrics": "e9828b090ea8f0886b411cef14ee9329036cb0a00beb7b000a2950fd7921c641",
+    "archive_manifest": "7665fcbec5b15cfedfcaaa95e97338555b88a382b3e3ee1314cf087ccbd2bdb1"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "bbvlm.blind-region-ocr/1",
+  "created_unix": 1790500304.8319805,
+  "page_consumed": true,
+  "selection": "seed 2026092713, 3 random plain-text detections with height 80..260px; short-region diagnostic, not representative",
+  "source_image_sha256": "93bc1ec0515d949dc284d279932e5207a5bcabd8d0f7879584daf3bc089fc9fc",
+  "detector_report_sha256": "c325e3501e7863a9c04e3e7fd31b5a876ae412d622785674c2a2cbfe54266d0a",
+  "reference_used_for_selection_or_crops": false,
+  "regions": [
+    {
+      "id": "Rbadb3783",
+      "image": "Rbadb3783.png",
+      "bbox": [
+        895,
+        1226,
+        1587,
+        1455
+      ],
+      "detector_bbox": [
+        899.8936157226562,
+        1228.4791259765625,
+        1582.6519775390625,
+        1452.5035400390625
+      ],
+      "detector_index": 10,
+      "sha256": "49008d7941b809dc58ab88df5245e6a3dc07cf2c6f58303f1d7c01acdb73df05"
+    },
+    {
+      "id": "Rba25d296",
+      "image": "Rba25d296.png",
+      "bbox": [
+        904,
+        309,
+        1596,
+        470
+      ],
+      "detector_bbox": [
+        908.513671875,
+        311.7716064453125,
+        1591.521484375,
+        467.5355224609375
+      ],
+      "detector_index": 11,
+      "sha256": "aef67fe5f99d17665e11129e7563da886aa0e170d1db8541b824c8bccc0c1536"
+    },
+    {
+      "id": "Rc94b31fb",
+      "image": "Rc94b31fb.png",
+      "bbox": [
+        900,
+        941,
+        1590,
+        1075
+      ],
+      "detector_bbox": [
+        904.1875610351562,
+        943.8485717773438,
+        1585.37255859375,
+        1072.14892578125
+      ],
+      "detector_index": 16,
+      "sha256": "98e120cb4299553353d28b537231012595414cc8d590808b807874330cbe3857"
+    }
+  ],
+  "contract": {
+    "regions": [
+      {
+        "id": "exact request ID",
+        "text": "diplomatic transcription with physical line breaks",
+        "uncertain": "boolean",
+        "notes": "visible ambiguities only"
+      }
+    ]
+  },
+  "conventions": "Preserve spelling, case, punctuation and visible line-end hyphens; no dehyphenation or silent correction. Mark unreadable characters with replacement character. Do not include neighboring fragments outside intended block.",
+  "score_policy": "Reference lines selected by center in detector bbox; order by source y; collapse whitespace in both strings only; separate raw strings retained. No case, punctuation or hyphen folding. Source reference provisional.",
+  "escalation_policy": "uncertain regions or nonzero edit distance may receive a blind Sol reread, never reference text or corrections; post-score routing labelled oracle-assisted diagnostic"
+}

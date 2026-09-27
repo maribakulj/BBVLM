@@ -1,0 +1,96 @@
+{
+  "schema": "bbvlm.semantic-plus-cpu-order-evaluation/1",
+  "page": "0015",
+  "split_role": "frozen_validation_consumed_after_this_evaluation",
+  "reader": "gpt-6-luna",
+  "passes": {
+    "vlm_semantic": 1,
+    "cpu_geometry_order": 1
+  },
+  "raw_structural_valid": true,
+  "cost_note": "One authorized Luna pass; model latency and token billing are not exposed to this evaluator. CPU order time is measured below.",
+  "raw_structural_errors": [],
+  "repair_attempted": false,
+  "metrics": {
+    "regions": 22,
+    "reference_eligible": 19,
+    "predicted_eligible": 19,
+    "eligibility_true_positive": 19,
+    "eligibility_precision": 1.0,
+    "eligibility_recall": 1.0,
+    "eligibility_f1": 1.0,
+    "contamination_region_ids": [],
+    "missing_eligible_region_ids": [],
+    "role_correct": 20,
+    "role_accuracy": 0.9090909090909091,
+    "role_confusion": [
+      {
+        "reference": "HEADER",
+        "predicted": "HEADER",
+        "count": 4
+      },
+      {
+        "reference": "HEADER",
+        "predicted": "TEXT",
+        "count": 1
+      },
+      {
+        "reference": "MASTHEAD",
+        "predicted": "MASTHEAD",
+        "count": 3
+      },
+      {
+        "reference": "TEXT",
+        "predicted": "HEADER",
+        "count": 1
+      },
+      {
+        "reference": "TEXT",
+        "predicted": "TEXT",
+        "count": 13
+      }
+    ],
+    "semantic_group_true_positive_pairs": 22,
+    "semantic_group_predicted_pairs": 34,
+    "semantic_group_reference_pairs": 24,
+    "semantic_group_pair_precision": 0.6470588235294118,
+    "semantic_group_pair_recall": 0.9166666666666666,
+    "semantic_group_pair_f1": 0.7586206896551724,
+    "semantic_group_false_positive_pairs": 12,
+    "semantic_group_false_negative_pairs": 2,
+    "semantic_group_bcubed_precision": 0.8095238095238095,
+    "semantic_group_bcubed_recall": 0.9393939393939394,
+    "semantic_group_bcubed_f1": 0.8696369636963697,
+    "reference_semantic_units": 8,
+    "predicted_semantic_units": 7,
+    "combined_order_correct_reference_pairs": 171,
+    "combined_order_reference_pairs": 171,
+    "combined_order_pair_recall": 1.0,
+    "cpu_order_runtime_seconds": 9.025299732456915e-05,
+    "cpu_inferred_columns": 4,
+    "uncertain_region_ids": [
+      "R10c0615ac6f29d98",
+      "R46904a7e6defdf78",
+      "R16f2d8805b7c7d73",
+      "R54887e1087533a95",
+      "R88595db9bdfcdaae",
+      "R7c990b95ea7d4e84",
+      "Rad76fc0c7dd6f6c4",
+      "R9bccedb7f03ad1ae",
+      "R07554a0074fae0d8"
+    ]
+  },
+  "frozen_gates": {
+    "raw_structural_valid": true,
+    "eligibility_precision_min": 0.9,
+    "eligibility_recall_min": 0.9,
+    "role_accuracy_min": 0.8,
+    "semantic_group_pair_f1_min": 0.8,
+    "combined_order_pair_recall_min": 0.95
+  },
+  "content_gate_passed": false,
+  "accepted_for_project_completion_gate": false,
+  "reference_warning": "Distributed role/order/SSU fields are provisional labels, not independently adjudicated truth. Page 0015 is consumed after scoring.",
+  "leakage_control": "Random visual tokens reveal no source ID, order, role or semantic unit. Validation labels and XML are outside the reader packet.",
+  "interpretation": "Role/SSU agreement is measured against provisional corpus labels. Passing would validate this frozen transport/policy on one page, not establish article truth."
+}

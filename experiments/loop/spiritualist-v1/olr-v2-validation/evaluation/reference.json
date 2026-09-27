@@ -1,0 +1,303 @@
+{
+  "schema": "bbvlm.blind-olr-reference/2",
+  "pages": {
+    "0003": [
+      {
+        "id": "R70d9f937fce3f464",
+        "source_id": "tr_1743005283",
+        "reading_order": -1,
+        "semantic_unit": "ssu_masthead",
+        "role": "MASTHEAD"
+      },
+      {
+        "id": "Rded7430b6c267f7b",
+        "source_id": "tr_1743005285",
+        "reading_order": -1,
+        "semantic_unit": "ssu_masthead",
+        "role": "MASTHEAD"
+      },
+      {
+        "id": "Rdc8093e8ce48e7e4",
+        "source_id": "tr_1743005282",
+        "reading_order": -1,
+        "semantic_unit": "ssu_masthead",
+        "role": "MASTHEAD"
+      },
+      {
+        "id": "R47b880ea1496a698",
+        "source_id": "tr_1743005278__text_0",
+        "reading_order": 0,
+        "semantic_unit": "ssu_1_col_1",
+        "role": "TEXT"
+      },
+      {
+        "id": "R35089da41d57b1a9",
+        "source_id": "tr_1743005278__unknown_1",
+        "reading_order": 1,
+        "semantic_unit": "ssu_1_col_1",
+        "role": "UNKNOWN"
+      },
+      {
+        "id": "R38025756969b642e",
+        "source_id": "tr_1743005284__header_0",
+        "reading_order": 2,
+        "semantic_unit": "ssu_2_col_1",
+        "role": "HEADER"
+      },
+      {
+        "id": "Rfd7ad74a4aaaea64",
+        "source_id": "tr_1743005284__text_1",
+        "reading_order": 3,
+        "semantic_unit": "ssu_2_col_1",
+        "role": "TEXT"
+      },
+      {
+        "id": "R448b6357cf16f8d0",
+        "source_id": "tr_1743005281",
+        "reading_order": 4,
+        "semantic_unit": "ssu_2_col_2",
+        "role": "TEXT"
+      },
+      {
+        "id": "R651e33b6aa9e5c9f",
+        "source_id": "tr_1743005280",
+        "reading_order": 5,
+        "semantic_unit": "ssu_2_col_3",
+        "role": "TEXT"
+      },
+      {
+        "id": "R58b730770f107dfe",
+        "source_id": "tr_1743005279__header_0",
+        "reading_order": 6,
+        "semantic_unit": "ssu_3_col_3",
+        "role": "HEADER"
+      },
+      {
+        "id": "R52f773415280ec2f",
+        "source_id": "tr_1743005279__text_1",
+        "reading_order": 7,
+        "semantic_unit": "ssu_3_col_3",
+        "role": "TEXT"
+      },
+      {
+        "id": "R896066124ae5b608",
+        "source_id": "tr_1743005286",
+        "reading_order": -1,
+        "semantic_unit": "ssu_other_tr_1743005286",
+        "role": "OTHER"
+      }
+    ],
+    "0008": [
+      {
+        "id": "R1d68950634627427",
+        "source_id": "tr_1743005289",
+        "reading_order": -1,
+        "semantic_unit": "ssu_masthead",
+        "role": "MASTHEAD"
+      },
+      {
+        "id": "R944e03fe4a132745",
+        "source_id": "tr_1743005282",
+        "reading_order": -1,
+        "semantic_unit": "ssu_masthead",
+        "role": "MASTHEAD"
+      },
+      {
+        "id": "R01e36327680ac655",
+        "source_id": "tr_1743005287",
+        "reading_order": -1,
+        "semantic_unit": "ssu_masthead",
+        "role": "MASTHEAD"
+      },
+      {
+        "id": "Ra202a30717de3a84",
+        "source_id": "tr_1743005276__header_0",
+        "reading_order": 0,
+        "semantic_unit": "ssu_1_col_1",
+        "role": "HEADER"
+      },
+      {
+        "id": "R53821287122a911a",
+        "source_id": "tr_1743005276__text_1",
+        "reading_order": 1,
+        "semantic_unit": "ssu_1_col_1",
+        "role": "TEXT"
+      },
+      {
+        "id": "R561698a10f3b624b",
+        "source_id": "tr_1743005277__header_0",
+        "reading_order": 2,
+        "semantic_unit": "ssu_2_col_1",
+        "role": "HEADER"
+      },
+      {
+        "id": "R6129abf6f3002545",
+        "source_id": "tr_1743005277__text_1",
+        "reading_order": 3,
+        "semantic_unit": "ssu_2_col_1",
+        "role": "TEXT"
+      },
+      {
+        "id": "Raa97e1d47bdfa7b1",
+        "source_id": "tr_1743005270",
+        "reading_order": 4,
+        "semantic_unit": "ssu_2_col_1",
+        "role": "TEXT"
+      },
+      {
+        "id": "Rb700d08bae89299e",
+        "source_id": "tr_1743005265",
+        "reading_order": 5,
+        "semantic_unit": "ssu_2_col_1",
+        "role": "TEXT"
+      },
+      {
+        "id": "Rf60d56cbc1f2d2f6",
+        "source_id": "tr_1743005271",
+        "reading_order": 6,
+        "semantic_unit": "ssu_2_col_2",
+        "role": "TEXT"
+      },
+      {
+        "id": "R78f0f6f3594367c6",
+        "source_id": "tr_1743005264__header_0",
+        "reading_order": 7,
+        "semantic_unit": "ssu_3_col_2",
+        "role": "HEADER"
+      },
+      {
+        "id": "Rae9a0677541ace5e",
+        "source_id": "tr_1743005264__text_1",
+        "reading_order": 8,
+        "semantic_unit": "ssu_3_col_2",
+        "role": "TEXT"
+      },
+      {
+        "id": "R679de35a2fde01e4",
+        "source_id": "tr_1743005273",
+        "reading_order": 9,
+        "semantic_unit": "ssu_3_col_3",
+        "role": "TEXT"
+      },
+      {
+        "id": "R3e400ba0d1213eb1",
+        "source_id": "tr_1743005288",
+        "reading_order": 10,
+        "semantic_unit": "ssu_4_col_3",
+        "role": "ADVERT"
+      },
+      {
+        "id": "Rf453a2dd4355151d",
+        "source_id": "tr_1743005283",
+        "reading_order": 11,
+        "semantic_unit": "ssu_5_col_3",
+        "role": "ADVERT"
+      },
+      {
+        "id": "Re4c897cb947a27af",
+        "source_id": "tr_1743005281",
+        "reading_order": 12,
+        "semantic_unit": "ssu_6_col_3",
+        "role": "ADVERT"
+      },
+      {
+        "id": "R189288d65589e853",
+        "source_id": "tr_1743005272",
+        "reading_order": 13,
+        "semantic_unit": "ssu_7_col_3",
+        "role": "ADVERT"
+      },
+      {
+        "id": "Rff8e636b9087ad98",
+        "source_id": "tr_1743005285",
+        "reading_order": 14,
+        "semantic_unit": "ssu_8_col_3",
+        "role": "ADVERT"
+      },
+      {
+        "id": "R4f7dc48d36ee08c4",
+        "source_id": "tr_1743005286",
+        "reading_order": 15,
+        "semantic_unit": "ssu_9_col_3",
+        "role": "ADVERT"
+      },
+      {
+        "id": "R77e4effc3f21cde9",
+        "source_id": "tr_1743005274",
+        "reading_order": 16,
+        "semantic_unit": "ssu_10_col_4",
+        "role": "ADVERT"
+      },
+      {
+        "id": "Rcf8985f5e42dc324",
+        "source_id": "tr_1743005278",
+        "reading_order": 17,
+        "semantic_unit": "ssu_11_col_4",
+        "role": "ADVERT"
+      },
+      {
+        "id": "R51d0f780039678e7",
+        "source_id": "tr_1743005269",
+        "reading_order": 18,
+        "semantic_unit": "ssu_12_col_4",
+        "role": "ADVERT"
+      },
+      {
+        "id": "R04dbabb5fb153fa7",
+        "source_id": "tr_1743005284",
+        "reading_order": 19,
+        "semantic_unit": "ssu_13_col_4",
+        "role": "ADVERT"
+      },
+      {
+        "id": "R50a8ea7672edc5f4",
+        "source_id": "tr_1743005266",
+        "reading_order": 20,
+        "semantic_unit": "ssu_14_col_4",
+        "role": "ADVERT"
+      },
+      {
+        "id": "Rd78372f2308ef80f",
+        "source_id": "tr_1743005267",
+        "reading_order": 21,
+        "semantic_unit": "ssu_15_col_4",
+        "role": "ADVERT"
+      },
+      {
+        "id": "Rd7925a29b7060405",
+        "source_id": "tr_1743005275",
+        "reading_order": 22,
+        "semantic_unit": "ssu_16_col_4",
+        "role": "ADVERT"
+      },
+      {
+        "id": "Rd9d9c77179c0ef8e",
+        "source_id": "tr_1743005279",
+        "reading_order": 23,
+        "semantic_unit": "ssu_17_col_4",
+        "role": "ADVERT"
+      },
+      {
+        "id": "R570accd44edad6fa",
+        "source_id": "tr_1743005280",
+        "reading_order": 24,
+        "semantic_unit": "ssu_18_col_4",
+        "role": "HEADER"
+      },
+      {
+        "id": "Rcc1a789d55e03d68",
+        "source_id": "tr_1743005268",
+        "reading_order": 25,
+        "semantic_unit": "ssu_18_col_4",
+        "role": "TEXT"
+      },
+      {
+        "id": "R20a8b01dddb31d05",
+        "source_id": "tr_1743005290",
+        "reading_order": 26,
+        "semantic_unit": "ssu_18_col_4",
+        "role": "TEXT"
+      }
+    ]
+  }
+}

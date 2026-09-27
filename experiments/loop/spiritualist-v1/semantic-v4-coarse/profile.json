@@ -1,0 +1,34 @@
+{
+  "schema": "bbvlm.coarse-faceted-semantic-profile/1",
+  "frozen_before_validation": "2026-09-27",
+  "selected_on": [
+    "development pages 0009, 0038, 0041, 0043",
+    "A07 failure analysis on consumed page 0039 was used only to remove HEADER/TEXT from the model contract"
+  ],
+  "validation_page": "0044",
+  "coarse_roles": ["STREAM", "MASTHEAD", "OTHER", "UNKNOWN"],
+  "editorial_genres": ["ARTICLE", "ADVERT", "NOTICE", "MASTHEAD", "OTHER", "UNKNOWN"],
+  "axis_policy": {
+    "coarse_role": "STREAM means readable HEADER or TEXT; MASTHEAD, OTHER and UNKNOWN stay outside the main reading stream",
+    "fine_role": "frozen CPU rule: a STREAM block is HEADER iff block_height / page_height <= 0.020, otherwise TEXT",
+    "editorial_genre": "independent proposal that cannot remove readable content",
+    "semantic_units": "frozen header-boundary CPU rule after fine-role refinement",
+    "genre_truth_status": "proposal only: the distributed corpus has no independently adjudicated editorial genre labels"
+  },
+  "height_config": {
+    "source": "semantic-v4-coarse/config.json",
+    "max_header_height_page_ratio": 0.02,
+    "selection": "maximum macro SSU pair F1 on development only, then fine-role accuracy, then smaller threshold"
+  },
+  "frozen_gates": {
+    "raw_structural_valid": true,
+    "eligibility_precision_min": 0.9,
+    "eligibility_recall_min": 0.9,
+    "coarse_role_accuracy_min": 0.8,
+    "fine_physical_role_accuracy_min": 0.8,
+    "semantic_group_pair_f1_min": 0.8,
+    "combined_order_pair_recall_min": 0.95
+  },
+  "non_gate_fields": ["editorial_genre_agreement"],
+  "reference_warning": "Source physical roles/order/SSU remain provisional; editorial genres have no independent reference. This page cannot validate word geometry."
+}

@@ -1,0 +1,14 @@
+{
+  "scope": "all A22 emitted boxes; post-score audit derivative",
+  "lines": [
+    "Re5a7e23177",
+    "R4612fb0db5"
+  ],
+  "words": 7,
+  "overlay_sha256": "0763fc116edbdb66f39d6ac86215e057491d5fb0e00ff0bd3b52b7a4b503bf00",
+  "colors": {
+    "source_word_boxes": "green",
+    "candidate_boxes": "purple"
+  },
+  "root_visual_observation": "All seven proposals are inside/plausibly coincident with source word boxes; last six exhibit small ink-tight versus polygon margins consistent with measured IoU. This is not independent human adjudication of source perfection."
+}

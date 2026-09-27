@@ -1,0 +1,57 @@
+{
+  "items": [
+    {
+      "id": "X862b2b3c",
+      "image": "experiments/loop/reference-a18/sol-input/X862b2b3c.png",
+      "original_image": "experiments/loop/reference-a18/input/X862b2b3c.png"
+    },
+    {
+      "id": "Xa8b61dbb",
+      "image": "experiments/loop/reference-a18/sol-input/Xa8b61dbb.png",
+      "original_image": "experiments/loop/reference-a18/input/Xa8b61dbb.png"
+    },
+    {
+      "id": "X464da681",
+      "image": "experiments/loop/reference-a18/sol-input/X464da681.png",
+      "original_image": "experiments/loop/reference-a18/input/X464da681.png"
+    },
+    {
+      "id": "X4fc0d3a8",
+      "image": "experiments/loop/reference-a18/sol-input/X4fc0d3a8.png",
+      "original_image": "experiments/loop/reference-a18/input/X4fc0d3a8.png"
+    },
+    {
+      "id": "X5722a4ba",
+      "image": "experiments/loop/reference-a18/sol-input/X5722a4ba.png",
+      "original_image": "experiments/loop/reference-a18/input/X5722a4ba.png"
+    },
+    {
+      "id": "X7ddb5a0a",
+      "image": "experiments/loop/reference-a18/sol-input/X7ddb5a0a.png",
+      "original_image": "experiments/loop/reference-a18/input/X7ddb5a0a.png"
+    },
+    {
+      "id": "X790c67fe",
+      "image": "experiments/loop/reference-a18/sol-input/X790c67fe.png",
+      "original_image": "experiments/loop/reference-a18/input/X790c67fe.png"
+    },
+    {
+      "id": "Xae7c9ab9",
+      "image": "experiments/loop/reference-a18/sol-input/Xae7c9ab9.png",
+      "original_image": "experiments/loop/reference-a18/input/Xae7c9ab9.png"
+    },
+    {
+      "id": "X9234e71e",
+      "image": "experiments/loop/reference-a18/sol-input/X9234e71e.png",
+      "original_image": "experiments/loop/reference-a18/input/X9234e71e.png"
+    },
+    {
+      "id": "Xf7e27fd8",
+      "image": "experiments/loop/reference-a18/sol-input/Xf7e27fd8.png",
+      "original_image": "experiments/loop/reference-a18/input/Xf7e27fd8.png"
+    }
+  ],
+  "selection": "all Luna uncertain; no score or GT used for routing",
+  "task": "Transcribe only the isolated target line in each mask; original image supplied for glyph context. No neighboring lines. Preserve visible historical spelling/case, long s, abbreviation marks and punctuation. Do not insert ellipses for line continuations. Use readable Unicode, flag glyph-encoding uncertainty rather than guessing private-use codes. JSON lines [{id,text,uncertain,reason}].",
+  "confound": "target polygon presentation and model changed together; not pure model ablation"
+}

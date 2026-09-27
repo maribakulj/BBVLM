@@ -1,0 +1,86 @@
+{
+  "schema": "bbvlm.sbb-reserve-blind/1",
+  "items": [
+    {
+      "id": "R2820e61330",
+      "image": "experiments/loop/reserve-a22/input/R2820e61330.png",
+      "original_image": "experiments/loop/reserve-a22/input/R2820e61330-context.png"
+    },
+    {
+      "id": "Rcf0da9fbab",
+      "image": "experiments/loop/reserve-a22/input/Rcf0da9fbab.png",
+      "original_image": "experiments/loop/reserve-a22/input/Rcf0da9fbab-context.png"
+    },
+    {
+      "id": "R89b9dcb991",
+      "image": "experiments/loop/reserve-a22/input/R89b9dcb991.png",
+      "original_image": "experiments/loop/reserve-a22/input/R89b9dcb991-context.png"
+    },
+    {
+      "id": "R1bea4bea15",
+      "image": "experiments/loop/reserve-a22/input/R1bea4bea15.png",
+      "original_image": "experiments/loop/reserve-a22/input/R1bea4bea15-context.png"
+    },
+    {
+      "id": "Rd6facdcad1",
+      "image": "experiments/loop/reserve-a22/input/Rd6facdcad1.png",
+      "original_image": "experiments/loop/reserve-a22/input/Rd6facdcad1-context.png"
+    },
+    {
+      "id": "R632ec6675c",
+      "image": "experiments/loop/reserve-a22/input/R632ec6675c.png",
+      "original_image": "experiments/loop/reserve-a22/input/R632ec6675c-context.png"
+    },
+    {
+      "id": "R4612fb0db5",
+      "image": "experiments/loop/reserve-a22/input/R4612fb0db5.png",
+      "original_image": "experiments/loop/reserve-a22/input/R4612fb0db5-context.png"
+    },
+    {
+      "id": "R1a0177a41b",
+      "image": "experiments/loop/reserve-a22/input/R1a0177a41b.png",
+      "original_image": "experiments/loop/reserve-a22/input/R1a0177a41b-context.png"
+    },
+    {
+      "id": "Rdd0cda01dc",
+      "image": "experiments/loop/reserve-a22/input/Rdd0cda01dc.png",
+      "original_image": "experiments/loop/reserve-a22/input/Rdd0cda01dc-context.png"
+    },
+    {
+      "id": "Rd97daded21",
+      "image": "experiments/loop/reserve-a22/input/Rd97daded21.png",
+      "original_image": "experiments/loop/reserve-a22/input/Rd97daded21-context.png"
+    },
+    {
+      "id": "Rf190cd318e",
+      "image": "experiments/loop/reserve-a22/input/Rf190cd318e.png",
+      "original_image": "experiments/loop/reserve-a22/input/Rf190cd318e-context.png"
+    },
+    {
+      "id": "R477377d915",
+      "image": "experiments/loop/reserve-a22/input/R477377d915.png",
+      "original_image": "experiments/loop/reserve-a22/input/R477377d915-context.png"
+    },
+    {
+      "id": "R2922cb1c4d",
+      "image": "experiments/loop/reserve-a22/input/R2922cb1c4d.png",
+      "original_image": "experiments/loop/reserve-a22/input/R2922cb1c4d-context.png"
+    },
+    {
+      "id": "Re5a7e23177",
+      "image": "experiments/loop/reserve-a22/input/Re5a7e23177.png",
+      "original_image": "experiments/loop/reserve-a22/input/Re5a7e23177-context.png"
+    },
+    {
+      "id": "R387ec4e7d0",
+      "image": "experiments/loop/reserve-a22/input/R387ec4e7d0.png",
+      "original_image": "experiments/loop/reserve-a22/input/R387ec4e7d0-context.png"
+    },
+    {
+      "id": "R379ddb80f4",
+      "image": "experiments/loop/reserve-a22/input/R379ddb80f4.png",
+      "original_image": "experiments/loop/reserve-a22/input/R379ddb80f4-context.png"
+    }
+  ],
+  "task": "Transcribe only the isolated target line. Preserve visible historical spelling, case, punctuation, printed hyphens, long s ſ, r rotunda ꝛ and abbreviation marks. Do not modernize or expand. Readable ligatures may be decomposed; encode a visible e-above as combining U+0364. Use original_image only as glyph context. Flag uncertainty rather than inventing private-use codes. Return JSON lines [{id,text,uncertain,reason}]."
+}

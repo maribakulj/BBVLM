@@ -1,0 +1,48 @@
+{
+  "schema": "bbvlm.olr-continuation-a29-development/1",
+  "status": "development_on_consumed_a27",
+  "parameters": {
+    "max_gap_width_ratio": 0.007,
+    "min_horizontal_overlap": 0.6
+  },
+  "counts": {
+    "reference_streams": 13,
+    "raw_streams": 34,
+    "merged_streams": 13
+  },
+  "raw": {
+    "stream_pair": {
+      "true_positive": 1350,
+      "predicted": 1350,
+      "reference": 3222,
+      "precision": 1.0,
+      "recall": 0.41899441340782123,
+      "f1": 0.5905511811023623
+    },
+    "order": {
+      "correct": 1350,
+      "covered_reference_pairs": 1350,
+      "reference_pairs": 3222,
+      "accuracy_on_covered": 1.0,
+      "end_to_end_recall": 0.41899441340782123
+    }
+  },
+  "merged": {
+    "stream_pair": {
+      "true_positive": 3222,
+      "predicted": 3222,
+      "reference": 3222,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "order": {
+      "correct": 3222,
+      "covered_reference_pairs": 3222,
+      "reference_pairs": 3222,
+      "accuracy_on_covered": 1.0,
+      "end_to_end_recall": 1.0
+    }
+  },
+  "accepted_as_validation": false
+}

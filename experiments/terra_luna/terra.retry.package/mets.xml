@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bbvlm="https://github.com/maribakulj/BBVLM/ns/1" OBJID="onb-pilot">
+  <mets:dmdSec ID="DMD_DOCUMENT">
+    <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="BBVLM-EVIDENCE-1">
+      <mets:xmlData>
+        <bbvlm:metadata>
+          <bbvlm:field name="page" category="observed" status="automatic" source="terra">
+            <bbvlm:value>Seite 2</bbvlm:value>
+            <bbvlm:evidence ref="R01_L01"/>
+          </bbvlm:field>
+          <bbvlm:field name="place" category="observed" status="automatic" source="terra">
+            <bbvlm:value>Wien</bbvlm:value>
+            <bbvlm:evidence ref="R02_L01"/>
+          </bbvlm:field>
+          <bbvlm:field name="day" category="observed" status="automatic" source="terra">
+            <bbvlm:value>Samstag</bbvlm:value>
+            <bbvlm:evidence ref="R02_L01"/>
+          </bbvlm:field>
+          <bbvlm:field name="publication" category="observed" status="automatic" source="terra">
+            <bbvlm:value>Arbeiter-Zeitung.</bbvlm:value>
+            <bbvlm:evidence ref="R03_L01"/>
+          </bbvlm:field>
+          <bbvlm:field name="date" category="observed" status="automatic" source="terra">
+            <bbvlm:value>6. Juli 1895</bbvlm:value>
+            <bbvlm:evidence ref="R04_L01"/>
+          </bbvlm:field>
+          <bbvlm:field name="issue" category="observed" status="automatic" source="terra">
+            <bbvlm:value>Nr. 182</bbvlm:value>
+            <bbvlm:evidence ref="R05_L01"/>
+          </bbvlm:field>
+        </bbvlm:metadata>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="OCR">
+      <mets:file ID="FILE_P1" MIMETYPE="application/xml">
+        <mets:FLocat LOCTYPE="URL" xlink:href="P1.alto.xml"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="DOCUMENT_GRAPH">
+      <mets:file ID="FILE_GRAPH" MIMETYPE="application/json">
+        <mets:FLocat LOCTYPE="URL" xlink:href="document.json"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div TYPE="document" DMDID="DMD_DOCUMENT">
+      <mets:div ID="PHYS_P1" TYPE="page">
+        <mets:fptr FILEID="FILE_P1"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div TYPE="document" DMDID="DMD_DOCUMENT">
+      <mets:div ID="LOG_A1" TYPE="article" LABEL="Die Regierung und die Beamten.">
+        <mets:fptr>
+          <mets:area FILEID="FILE_P1" BETYPE="IDREF" BEGIN="R07"/>
+        </mets:fptr>
+        <mets:fptr>
+          <mets:area FILEID="FILE_P1" BETYPE="IDREF" BEGIN="R08"/>
+        </mets:fptr>
+      </mets:div>
+      <mets:div ID="LOG_A2" TYPE="article" LABEL="Österreichischer Reichsrath.">
+        <mets:fptr>
+          <mets:area FILEID="FILE_P1" BETYPE="IDREF" BEGIN="R10"/>
+        </mets:fptr>
+        <mets:fptr>
+          <mets:area FILEID="FILE_P1" BETYPE="IDREF" BEGIN="R11"/>
+        </mets:fptr>
+      </mets:div>
+      <mets:div ID="LOG_A3" TYPE="article" LABEL="Abgeordnetenhaus. (406. Sitzung.)">
+        <mets:fptr>
+          <mets:area FILEID="FILE_P1" BETYPE="IDREF" BEGIN="R13"/>
+        </mets:fptr>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+</mets:mets>

@@ -1,0 +1,38 @@
+{
+  "schema": "bbvlm.blind-coarse-faceted-response/1",
+  "page": "0050",
+  "coarse_roles": {
+    "B2": "STREAM",
+    "F3": "STREAM",
+    "F7": "STREAM",
+    "J4": "MASTHEAD",
+    "K3": "STREAM",
+    "K8": "STREAM",
+    "M8": "MASTHEAD",
+    "R4": "STREAM",
+    "V4": "MASTHEAD",
+    "W5": "STREAM",
+    "X5": "STREAM",
+    "X6": "STREAM"
+  },
+  "editorial_genres": {
+    "B2": "NOTICE",
+    "F3": "NOTICE",
+    "F7": "OTHER",
+    "J4": "MASTHEAD",
+    "K3": "ARTICLE",
+    "K8": "NOTICE",
+    "M8": "MASTHEAD",
+    "R4": "NOTICE",
+    "V4": "MASTHEAD",
+    "W5": "NOTICE",
+    "X5": "ARTICLE",
+    "X6": "NOTICE"
+  },
+  "uncertain_coarse_tokens": [],
+  "uncertain_genre_tokens": [
+    "F7",
+    "X6"
+  ],
+  "notes": "The center column is a meeting report; left-column lower items are brief notices."
+}

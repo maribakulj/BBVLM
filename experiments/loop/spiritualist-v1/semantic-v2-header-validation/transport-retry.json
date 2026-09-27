@@ -1,0 +1,22 @@
+{
+  "schema": "bbvlm.transport-retry/1",
+  "page": "0029",
+  "reason": "Two reader invocations ended with a 504 file-retrieval timeout and produced no model response.",
+  "change": "Only the two reader images were downscaled from 2479x3508 PNG, first to 1800x2547 JPEG quality 92 and then to 1200x1698 JPEG quality 88 (both 4:4:4); the source images remain intact.",
+  "sha256": {
+    "0029-original.png": "e00e8c0ed3ca9760a2f8b5734aa6d787f0dae6ff1648d1b4d839e55b53ead824",
+    "0029-regions.png": "64770cb85a62d9e9fb84b5ee5a9357c9a1c66e02b013aac85999f5693c15d533",
+    "0029-original-reader-1200.jpg": "b70c18f32a58b0dd1ab87d3231090d6ba6d5ec87c614c9a65696a9e173e306e7",
+    "0029-regions-reader-1200.jpg": "f14b43f5d02335e0ef3db610153066bbea97d5f06f31f475b1102af06a9867d4"
+  },
+  "unchanged": [
+    "reader model family",
+    "one-pass policy",
+    "prompt semantics",
+    "opaque token binding",
+    "hidden reference",
+    "frozen CPU configuration",
+    "frozen gates"
+  ],
+  "response_before_retry": null
+}

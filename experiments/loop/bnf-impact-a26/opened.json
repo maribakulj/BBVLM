@@ -1,0 +1,74 @@
+{
+  "schema": "bbvlm.bnf-impact-a26-opened/1",
+  "status": "opened_verified",
+  "split_sha256": "93be0b0f63b8c0965e45da8cd699a34ef59b4ae3b4d354ea4fd2978c25e181e1",
+  "opened_unix": 1790527852.6279452,
+  "files": [
+    {
+      "name": "IMPACT/PAGE/00123451_5.xml",
+      "bytes": 393513,
+      "crc32": "9e13569b",
+      "sha256": "279f16e1d9090cd7f9639635aa111898e6363f949391d4697477855b54050168"
+    },
+    {
+      "name": "IMPACT/T/00123451.tif",
+      "bytes": 14991604,
+      "crc32": "98705b91",
+      "sha256": "33e8fa36a5d432bc285af3a98ab67b06f0b04a7666f188244d4d5c1b712e32fe"
+    },
+    {
+      "name": "IMPACT/PAGE/00123531_5.xml",
+      "bytes": 414549,
+      "crc32": "4119f579",
+      "sha256": "9baf502284fe11a6e3de7011ae59debd52e554399614e7b43ec6734ee4280fdb"
+    },
+    {
+      "name": "IMPACT/T/00123531.tif",
+      "bytes": 16409216,
+      "crc32": "6546a226",
+      "sha256": "9682108d8f315a6b75c36bd704e07d0cd37af309977cfa26262abc861e7432fa"
+    },
+    {
+      "name": "IMPACT/PAGE/00123643_5.xml",
+      "bytes": 256084,
+      "crc32": "d98d53b0",
+      "sha256": "8eaa19cb9d87dec69fc28af43629447c1350b70625e58ea182cbc0536bd8c147"
+    },
+    {
+      "name": "IMPACT/T/00123643.tif",
+      "bytes": 13518488,
+      "crc32": "06e515bc",
+      "sha256": "3c9acb4721abe98f3e8a4187e55d6a83c40c7dc50a8fad9328968b2358cd1362"
+    },
+    {
+      "name": "IMPACT/PAGE/00196323_5.xml",
+      "bytes": 405629,
+      "crc32": "c8c1ae69",
+      "sha256": "0a0f9247b6913b397f0303d0fc37a1bdb3613f52b03e74c252dba4bed9202c4c"
+    },
+    {
+      "name": "IMPACT/T/196323.jpg",
+      "bytes": 9640788,
+      "crc32": "c864c1e3",
+      "sha256": "6a9e252dce5fea96df1475d4c67490b0f12317ca24fc1b6dc5f69f1759dcffe9"
+    },
+    {
+      "name": "IMPACT/documents.xlsx",
+      "bytes": 159842,
+      "crc32": "92b51611",
+      "sha256": "9cca792e64dd1682d1552002daa67f0e057c4736d3b40dbb56b5a40f99d069c6"
+    },
+    {
+      "name": "IMPACT/ark.txt",
+      "bytes": 100,
+      "crc32": "7fa5f6c5",
+      "sha256": "934da6697ebad88d2f4560af8dfac64666897cfe38a6a6a8090c309921e5e19d"
+    },
+    {
+      "name": "IMPACT/readme.docx",
+      "bytes": 14291,
+      "crc32": "b9dbe5d2",
+      "sha256": "b5470278bccaa6667a511c1ffaf1da429356908d7388af86fcdafa624e31da82"
+    }
+  ]
+}

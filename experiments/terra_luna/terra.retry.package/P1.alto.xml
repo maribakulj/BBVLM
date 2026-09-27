@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>../input/page.jpg</fileName>
+    </sourceImageInformation>
+    <Processing ID="BBVLM_PROCESS">
+      <processingStepDescription>BBVLM draft projection. Unaligned lines have one tagged String without word geometry. Consult document.json and review.json; not certified ground truth.</processingStepDescription>
+      <processingSoftware>
+        <softwareName>BBVLM document/1</softwareName>
+      </processingSoftware>
+    </Processing>
+  </Description>
+  <Tags>
+    <OtherTag ID="STATUS_ambiguous" LABEL="ambiguous" TYPE="validation_status"/>
+    <OtherTag ID="STATUS_automatic" LABEL="automatic" TYPE="validation_status"/>
+    <OtherTag ID="UNALIGNED" LABEL="line_without_word_alignment" TYPE="geometry_status"/>
+    <RoleTag ID="ROLE_1" LABEL="header"/>
+    <RoleTag ID="ROLE_2" LABEL="header"/>
+    <RoleTag ID="ROLE_3" LABEL="header"/>
+    <RoleTag ID="ROLE_4" LABEL="header"/>
+    <RoleTag ID="ROLE_5" LABEL="header"/>
+    <RoleTag ID="ROLE_6" LABEL="body"/>
+    <RoleTag ID="ROLE_7" LABEL="title"/>
+    <RoleTag ID="ROLE_8" LABEL="body"/>
+    <RoleTag ID="ROLE_9" LABEL="body"/>
+    <RoleTag ID="ROLE_10" LABEL="title"/>
+    <RoleTag ID="ROLE_11" LABEL="body"/>
+    <RoleTag ID="ROLE_12" LABEL="body"/>
+    <RoleTag ID="ROLE_13" LABEL="body"/>
+  </Tags>
+  <Layout>
+    <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="2479" HEIGHT="3508">
+      <PrintSpace ID="P1_PS" HPOS="0" VPOS="0" WIDTH="2479" HEIGHT="3508">
+        <TextBlock ID="R01" TAGREFS="STATUS_automatic ROLE_1" HPOS="163" VPOS="219" WIDTH="115" HEIGHT="39">
+          <TextLine ID="R01_L01" TAGREFS="STATUS_automatic" HPOS="178" VPOS="223" WIDTH="92" HEIGHT="31">
+            <String ID="R01_L01_UNALIGNED" CONTENT="Seite 2" TAGREFS="UNALIGNED"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="R02" TAGREFS="STATUS_automatic ROLE_2" HPOS="497" VPOS="212" WIDTH="207" HEIGHT="45">
+          <TextLine ID="R02_L01" TAGREFS="STATUS_automatic" HPOS="513" VPOS="222" WIDTH="181" HEIGHT="31">
+            <String ID="R02_L01_UNALIGNED" CONTENT="Wien, Samstag" TAGREFS="UNALIGNED"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="R03" TAGREFS="STATUS_automatic ROLE_3" HPOS="1028" VPOS="211" WIDTH="265" HEIGHT="46">
+          <TextLine ID="R03_L01" TAGREFS="STATUS_automatic" HPOS="1036" VPOS="223" WIDTH="248" HEIGHT="30">
+            <String ID="R03_L01_UNALIGNED" CONTENT="Arbeiter-Zeitung." TAGREFS="UNALIGNED"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="R04" TAGREFS="STATUS_automatic ROLE_4" HPOS="1609" VPOS="210" WIDTH="189" HEIGHT="43">
+          <TextLine ID="R04_L01" TAGREFS="STATUS_automatic" HPOS="1622" VPOS="225" WIDTH="159" HEIGHT="23">
+            <String ID="R04_L01_UNALIGNED" CONTENT="6. Juli 1895" TAGREFS="UNALIGNED"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="R05" TAGREFS="STATUS_automatic ROLE_5" HPOS="1994" VPOS="214" WIDTH="121" HEIGHT="39">
+          <TextLine ID="R05_L01" TAGREFS="STATUS_automatic" HPOS="2004" VPOS="223" WIDTH="99" HEIGHT="23">
+            <String ID="R05_L01_UNALIGNED" CONTENT="Nr. 182" TAGREFS="UNALIGNED"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="R06" TAGREFS="STATUS_automatic ROLE_6" HPOS="128" VPOS="286" WIDTH="672" HEIGHT="1018">
+          <TextLine ID="R06_L01" TAGREFS="STATUS_automatic" HPOS="151" VPOS="293" WIDTH="643" HEIGHT="38">
+            <String ID="R06_L01_UNALIGNED" CONTENT="und Antiliberalen aus ihren Verstecken in die Oeffentlich-" TAGREFS="UNALIGNED"/>
+          </TextLine>
+          <TextLine ID="R06_L02" TAGREFS="STATUS_automatic" HPOS="149" VPOS="327" WIDTH="137" HEIGHT="29">
+            <String ID="R06_L02_UNALIGNED" CONTENT="keit treiben." TAGREFS="UNALIGNED"/>
+          </TextLine>
+          <TextLine ID="R06_L03" TAGREFS="STATUS_automatic" HPOS="214" VPOS="352" WIDTH="581" HEIGHT="37">
+            <String ID="R06_L03_UNALIGNED" CONTENT="Die Wiener Liberalen haben noch immer kein" TAGREFS="UNALIGNED"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="R07" TAGREFS="STATUS_automatic ROLE_7" HPOS="197" VPOS="1322" WIDTH="543" HEIGHT="53">
+          <TextLine ID="R07_L01" TAGREFS="STATUS_automatic" HPOS="213" VPOS="1326" WIDTH="514" HEIGHT="46">
+            <String ID="R07_L01_UNALIGNED" CONTENT="Die Regierung und die Beamten." TAGREFS="UNALIGNED"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="R08" TAGREFS="STATUS_automatic ROLE_8" HPOS="130" VPOS="1372" WIDTH="670" HEIGHT="2000">
+          <TextLine ID="R08_L01" TAGREFS="STATUS_automatic" HPOS="606" VPOS="1375" WIDTH="170" HEIGHT="22">
+            <String ID="R08_L01_UNALIGNED" CONTENT="Wien 5. Juli." TAGREFS="UNALIGNED"/>
+          </TextLine>
+          <TextLine ID="R08_L02" TAGREFS="STATUS_automatic" HPOS="210" VPOS="1398" WIDTH="585" HEIGHT="36">
+            <String ID="R08_L02_UNALIGNED" CONTENT="Graf Kielmansegg hat gestern erklärt, die Regierung" TAGREFS="UNALIGNED"/>
+          </TextLine>
+          <TextLine ID="R08_L03" TAGREFS="STATUS_automatic" HPOS="146" VPOS="1430" WIDTH="650" HEIGHT="28">
+            <String ID="R08_L03_UNALIGNED" CONTENT="sei „geradezu eifersüchtig“ darauf bedacht, die Sache der" TAGREFS="UNALIGNED"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="R09" TAGREFS="STATUS_automatic ROLE_9" HPOS="809" VPOS="285" WIDTH="659" HEIGHT="2772">
+          <TextLine ID="R09_L01" TAGREFS="STATUS_automatic" HPOS="818" VPOS="296" WIDTH="646" HEIGHT="27">
+            <String ID="R09_L01_UNALIGNED" CONTENT="und nie wird das Parlament wirkliche Energie anwenden," TAGREFS="UNALIGNED"/>
+          </TextLine>
+          <TextLine ID="R09_L02" TAGREFS="STATUS_automatic" HPOS="818" VPOS="326" WIDTH="646" HEIGHT="26">
+            <String ID="R09_L02_UNALIGNED" CONTENT="um den Beamten ernstlich zu helfen, denn die Parteien" TAGREFS="UNALIGNED"/>
+          </TextLine>
+          <TextLine ID="R09_L03" TAGREFS="STATUS_automatic" HPOS="817" VPOS="349" WIDTH="647" HEIGHT="31">
+            <String ID="R09_L03_UNALIGNED" CONTENT="wünschen zwar eine billige Popularität, aber noch mehr" TAGREFS="UNALIGNED"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="R10" TAGREFS="STATUS_automatic ROLE_10" HPOS="928" VPOS="3076" WIDTH="405" HEIGHT="54">
+          <TextLine ID="R10_L01" TAGREFS="STATUS_automatic" HPOS="934" VPOS="3078" WIDTH="391" HEIGHT="50">
+            <String ID="R10_L01_UNALIGNED" CONTENT="Oesterreichischer Reichsrath." TAGREFS="UNALIGNED"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="R11" TAGREFS="STATUS_automatic ROLE_11" HPOS="812" VPOS="3134" WIDTH="640" HEIGHT="228">
+          <TextLine ID="R11_L01" TAGREFS="STATUS_automatic" HPOS="1262" VPOS="3135" WIDTH="169" HEIGHT="30">
+            <String ID="R11_L01_UNALIGNED" CONTENT="Wien, 5. Juli." TAGREFS="UNALIGNED"/>
+          </TextLine>
+          <TextLine ID="R11_L02" TAGREFS="STATUS_automatic" HPOS="873" VPOS="3159" WIDTH="573" HEIGHT="37">
+            <String ID="R11_L02_UNALIGNED" CONTENT="Wenn Graf Kielmansegg sich gestern darauf berief, daß" TAGREFS="UNALIGNED"/>
+          </TextLine>
+          <TextLine ID="R11_L03" TAGREFS="STATUS_automatic" HPOS="816" VPOS="3182" WIDTH="631" HEIGHT="38">
+            <String ID="R11_L03_UNALIGNED" CONTENT="er die Zustände in Prag nicht kenne und daher nicht selbst" TAGREFS="UNALIGNED"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="R12" TAGREFS="STATUS_automatic ROLE_12" HPOS="1482" VPOS="282" WIDTH="679" HEIGHT="1111">
+          <TextLine ID="R12_L01" TAGREFS="STATUS_automatic" HPOS="1486" VPOS="291" WIDTH="650" HEIGHT="33">
+            <String ID="R12_L01_UNALIGNED" CONTENT="dar, und er brachte Thatsachen vor, die den edlen Grafen" TAGREFS="UNALIGNED"/>
+          </TextLine>
+          <TextLine ID="R12_L02" TAGREFS="STATUS_ambiguous" HPOS="1486" VPOS="317" WIDTH="646" HEIGHT="31">
+            <String ID="R12_L02_UNALIGNED" CONTENT="Thun in helles Licht rücken. Dr. Kramarsch machte mit" TAGREFS="UNALIGNED"/>
+          </TextLine>
+          <TextLine ID="R12_L03" TAGREFS="STATUS_automatic" HPOS="1486" VPOS="344" WIDTH="646" HEIGHT="28">
+            <String ID="R12_L03_UNALIGNED" CONTENT="Recht darauf aufmerksam, wie ruhig das große" TAGREFS="UNALIGNED"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="R13" TAGREFS="STATUS_automatic ROLE_13" HPOS="1462" VPOS="1393" WIDTH="699" HEIGHT="1985">
+          <TextLine ID="R13_L01" TAGREFS="STATUS_automatic" HPOS="1548" VPOS="1397" WIDTH="267" HEIGHT="25">
+            <String ID="R13_L01_UNALIGNED" CONTENT="Nachstehend der Bericht:" TAGREFS="UNALIGNED"/>
+          </TextLine>
+          <TextLine ID="R13_L02" TAGREFS="STATUS_automatic" HPOS="1551" VPOS="1420" WIDTH="585" HEIGHT="28">
+            <String ID="R13_L02_UNALIGNED" CONTENT="Abgeordnetenhaus. (406. Sitzung.) Präsident Frei-" TAGREFS="UNALIGNED"/>
+          </TextLine>
+          <TextLine ID="R13_L03" TAGREFS="STATUS_automatic" HPOS="1488" VPOS="1447" WIDTH="649" HEIGHT="25">
+            <String ID="R13_L03_UNALIGNED" CONTENT="herr v. Chlumecky eröffnet die Sitzung um 10 Uhr 15 Mi-" TAGREFS="UNALIGNED"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

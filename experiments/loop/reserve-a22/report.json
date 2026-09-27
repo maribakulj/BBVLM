@@ -1,0 +1,1020 @@
+{
+  "schema": "bbvlm.sbb-reserve-a22/1",
+  "scope": "16 lines from four work-disjoint pre-frozen reserve pages; now consumed",
+  "reader": "gpt-6-sol",
+  "ocr_scores": {
+    "strict": {
+      "lines": 16,
+      "characters": 671,
+      "edits": 78,
+      "cer": 0.11624441132637854,
+      "exact_lines": 1,
+      "per_line": [
+        {
+          "id": "R632ec6675c",
+          "work": "ferrepit_667769218",
+          "characters": 53,
+          "edits": 7,
+          "exact": false,
+          "reference_view": "ciũ duxi. Nõ quidem quod oibus ſatis fœcerim ſed ut/",
+          "hypothesis_view": "ciū duxi. Nō quidem quod omnibus ſatis fœcerim ſed ut,"
+        },
+        {
+          "id": "Re5a7e23177",
+          "work": "ferrepit_667769218",
+          "characters": 7,
+          "edits": 0,
+          "exact": true,
+          "reference_view": "EPITOME",
+          "hypothesis_view": "EPITOME"
+        },
+        {
+          "id": "R2922cb1c4d",
+          "work": "ferrepit_667769218",
+          "characters": 21,
+          "edits": 4,
+          "exact": false,
+          "reference_view": "bb. Et e acataleus.",
+          "hypothesis_view": "bb. Et eſt acatalectus."
+        },
+        {
+          "id": "Rf190cd318e",
+          "work": "ferrepit_667769218",
+          "characters": 37,
+          "edits": 1,
+          "exact": false,
+          "reference_view": "Anno ſupra ſeſquimilleſ. ſextodecimo.",
+          "hypothesis_view": "Anno ſupra ſeſquimilleſ. ſexodecimo."
+        },
+        {
+          "id": "R1a0177a41b",
+          "work": "688357687_688358799_1771000800",
+          "characters": 45,
+          "edits": 8,
+          "exact": false,
+          "reference_view": "ger verliebten Hndel ziemli bertiget war,",
+          "hypothesis_view": "zur verliebten Händel ziemlich berüchtiget war,"
+        },
+        {
+          "id": "R4612fb0db5",
+          "work": "688357687_688358799_1771000800",
+          "characters": 38,
+          "edits": 3,
+          "exact": false,
+          "reference_view": "mi zum Manne begehren wrden. (Damals",
+          "hypothesis_view": "mich zum Manne begehren würden. (Damals"
+        },
+        {
+          "id": "R387ec4e7d0",
+          "work": "688357687_688358799_1771000800",
+          "characters": 47,
+          "edits": 5,
+          "exact": false,
+          "reference_view": "er verdienet htte, lebhaft und deutli gnug zu",
+          "hypothesis_view": "er verdienet hätte, leibhafft und deutlich gnug zu"
+        },
+        {
+          "id": "R89b9dcb991",
+          "work": "688357687_688358799_1771000800",
+          "characters": 42,
+          "edits": 5,
+          "exact": false,
+          "reference_view": "verehen gab. Aber die Dame hatte  damit",
+          "hypothesis_view": "verſehen gab. Aber die Dame hatte ſich damit"
+        },
+        {
+          "id": "R1bea4bea15",
+          "work": "erasexom_816221448",
+          "characters": 53,
+          "edits": 10,
+          "exact": false,
+          "reference_view": "iã reddit ẽ eccleæ, iam ex ſeruo diaboli faus eﬆ",
+          "hypothesis_view": "iā redditus ē eccleſiæ, iam ex ſeruo diaboli factus eſt"
+        },
+        {
+          "id": "R379ddb80f4",
+          "work": "erasexom_816221448",
+          "characters": 49,
+          "edits": 5,
+          "exact": false,
+          "reference_view": "Quem uere ſui pudet apud deum, leui erubeſcet a⸗",
+          "hypothesis_view": "Quem vere ſui pudet apud deum, levius erubeſcet a-"
+        },
+        {
+          "id": "R477377d915",
+          "work": "erasexom_816221448",
+          "characters": 49,
+          "edits": 6,
+          "exact": false,
+          "reference_view": "rogans ut quod gratis largit eﬆ pro ſua bonite,",
+          "hypothesis_view": "rogans ut quod gratis largitus eſt pro ſua bonitate,"
+        },
+        {
+          "id": "Rdd0cda01dc",
+          "work": "erasexom_816221448",
+          "characters": 47,
+          "edits": 9,
+          "exact": false,
+          "reference_view": "hoc quod ſupere  confer ad id quod præceit?",
+          "hypothesis_view": "hoc quod ſuperest, ſi conferas ad id quod præceſſit?"
+        },
+        {
+          "id": "Rd6facdcad1",
+          "work": "canitrac_789765837",
+          "characters": 44,
+          "edits": 4,
+          "exact": false,
+          "reference_view": "ſolutum repetere: vt l. in contraib. C. de",
+          "hypothesis_view": "ſolutum repetere: vt l. in contractibus. C. de"
+        },
+        {
+          "id": "R2820e61330",
+          "work": "canitrac_789765837",
+          "characters": 44,
+          "edits": 5,
+          "exact": false,
+          "reference_view": "tio. de ﬁde inrum. & tenet Pet. de Anch. in",
+          "hypothesis_view": "tio. de fide inſtrum. & tenet Pet. de Arch. in"
+        },
+        {
+          "id": "Rd97daded21",
+          "work": "canitrac_789765837",
+          "characters": 48,
+          "edits": 3,
+          "exact": false,
+          "reference_view": "in l. 1. §. ﬀ. ad legem Falci. De quo maximè du-",
+          "hypothesis_view": "in l. 1. §. ff. ad legem Falci. De quo maxime du-"
+        },
+        {
+          "id": "Rcf0da9fbab",
+          "work": "canitrac_789765837",
+          "characters": 47,
+          "edits": 3,
+          "exact": false,
+          "reference_view": "præſumptio cedit veritati. 8. di. c. veritate.",
+          "hypothesis_view": "preſumptio cedit veritati. 8. diſt. c. veritate."
+        }
+      ],
+      "reference_words": 121,
+      "word_edits": 42,
+      "wer_whitespace_tokens": 0.34710743801652894
+    },
+    "glyph_decomposition_v1": {
+      "lines": 16,
+      "characters": 699,
+      "edits": 34,
+      "cer": 0.04864091559370529,
+      "exact_lines": 3,
+      "per_line": [
+        {
+          "id": "R632ec6675c",
+          "work": "ferrepit_667769218",
+          "characters": 53,
+          "edits": 5,
+          "exact": false,
+          "reference_view": "ciũ duxi. Nõ quidem quod oibus ſatis fœcerim ſed ut/",
+          "hypothesis_view": "ciū duxi. Nō quidem quod omnibus ſatis fœcerim ſed ut,"
+        },
+        {
+          "id": "Re5a7e23177",
+          "work": "ferrepit_667769218",
+          "characters": 7,
+          "edits": 0,
+          "exact": true,
+          "reference_view": "EPITOME",
+          "hypothesis_view": "EPITOME"
+        },
+        {
+          "id": "R2922cb1c4d",
+          "work": "ferrepit_667769218",
+          "characters": 23,
+          "edits": 0,
+          "exact": true,
+          "reference_view": "bb. Et eſt acatalectus.",
+          "hypothesis_view": "bb. Et eſt acatalectus."
+        },
+        {
+          "id": "Rf190cd318e",
+          "work": "ferrepit_667769218",
+          "characters": 37,
+          "edits": 1,
+          "exact": false,
+          "reference_view": "Anno ſupra ſeſquimilleſ. ſextodecimo.",
+          "hypothesis_view": "Anno ſupra ſeſquimilleſ. ſexodecimo."
+        },
+        {
+          "id": "R1a0177a41b",
+          "work": "688357687_688358799_1771000800",
+          "characters": 49,
+          "edits": 6,
+          "exact": false,
+          "reference_view": "ger verliebten Haͤndel ziemlich beruͤchtiget war,",
+          "hypothesis_view": "zur verliebten Händel ziemlich berüchtiget war,"
+        },
+        {
+          "id": "R4612fb0db5",
+          "work": "688357687_688358799_1771000800",
+          "characters": 40,
+          "edits": 2,
+          "exact": false,
+          "reference_view": "mich zum Manne begehren wuͤrden. (Damals",
+          "hypothesis_view": "mich zum Manne begehren würden. (Damals"
+        },
+        {
+          "id": "R387ec4e7d0",
+          "work": "688357687_688358799_1771000800",
+          "characters": 49,
+          "edits": 4,
+          "exact": false,
+          "reference_view": "er verdienet haͤtte, lebhaft und deutlich gnug zu",
+          "hypothesis_view": "er verdienet hätte, leibhafft und deutlich gnug zu"
+        },
+        {
+          "id": "R89b9dcb991",
+          "work": "688357687_688358799_1771000800",
+          "characters": 45,
+          "edits": 1,
+          "exact": false,
+          "reference_view": "verſtehen gab. Aber die Dame hatte ſich damit",
+          "hypothesis_view": "verſehen gab. Aber die Dame hatte ſich damit"
+        },
+        {
+          "id": "R1bea4bea15",
+          "work": "erasexom_816221448",
+          "characters": 55,
+          "edits": 3,
+          "exact": false,
+          "reference_view": "iã redditus ẽ eccleſiæ, iam ex ſeruo diaboli factus est",
+          "hypothesis_view": "iā redditus ē eccleſiæ, iam ex ſeruo diaboli factus eſt"
+        },
+        {
+          "id": "R379ddb80f4",
+          "work": "erasexom_816221448",
+          "characters": 50,
+          "edits": 3,
+          "exact": false,
+          "reference_view": "Quem uere ſui pudet apud deum, leuius erubeſcet a⸗",
+          "hypothesis_view": "Quem vere ſui pudet apud deum, levius erubeſcet a-"
+        },
+        {
+          "id": "R477377d915",
+          "work": "erasexom_816221448",
+          "characters": 51,
+          "edits": 3,
+          "exact": false,
+          "reference_view": "rogans ut quod gratis largitus est pro ſua bonite,",
+          "hypothesis_view": "rogans ut quod gratis largitus eſt pro ſua bonitate,"
+        },
+        {
+          "id": "Rdd0cda01dc",
+          "work": "erasexom_816221448",
+          "characters": 51,
+          "edits": 2,
+          "exact": false,
+          "reference_view": "hoc quod ſupereſt ſi conferas ad id quod præceſſit?",
+          "hypothesis_view": "hoc quod ſuperest, ſi conferas ad id quod præceſſit?"
+        },
+        {
+          "id": "Rd6facdcad1",
+          "work": "canitrac_789765837",
+          "characters": 46,
+          "edits": 0,
+          "exact": true,
+          "reference_view": "ſolutum repetere: vt l. in contractibus. C. de",
+          "hypothesis_view": "ſolutum repetere: vt l. in contractibus. C. de"
+        },
+        {
+          "id": "R2820e61330",
+          "work": "canitrac_789765837",
+          "characters": 46,
+          "edits": 1,
+          "exact": false,
+          "reference_view": "tio. de fide inſtrum. & tenet Pet. de Anch. in",
+          "hypothesis_view": "tio. de fide inſtrum. & tenet Pet. de Arch. in"
+        },
+        {
+          "id": "Rd97daded21",
+          "work": "canitrac_789765837",
+          "characters": 49,
+          "edits": 1,
+          "exact": false,
+          "reference_view": "in l. 1. §. ff. ad legem Falci. De quo maximè du-",
+          "hypothesis_view": "in l. 1. §. ff. ad legem Falci. De quo maxime du-"
+        },
+        {
+          "id": "Rcf0da9fbab",
+          "work": "canitrac_789765837",
+          "characters": 48,
+          "edits": 2,
+          "exact": false,
+          "reference_view": "præſumptio cedit veritati. 8. diſi. c. veritate.",
+          "hypothesis_view": "preſumptio cedit veritati. 8. diſt. c. veritate."
+        }
+      ],
+      "reference_words": 121,
+      "word_edits": 25,
+      "wer_whitespace_tokens": 0.2066115702479339
+    }
+  },
+  "geometry": {
+    "lines": 16,
+    "proposed_lines": 2,
+    "abstained_lines": 14,
+    "token_count_equal_lines": 16,
+    "reference_words": 121,
+    "predicted_words": 7,
+    "mean_iou_one_to_one_emitted": 0.9709930441278924,
+    "matches_iou50": 7,
+    "precision_iou50": 1.0,
+    "recall_iou50": 0.05785123966942149,
+    "matches_iou80": 7,
+    "precision_iou80": 1.0,
+    "recall_iou80": 0.05785123966942149,
+    "emitted_matched_words_iou_lt50": 0,
+    "proposed_lines_all_reference_words_iou_ge80": 2,
+    "cpu_seconds": 0.005788388014480006,
+    "per_line": [
+      {
+        "id": "R632ec6675c",
+        "work": "ferrepit_667769218",
+        "reference_words": 10,
+        "predicted_words": 0,
+        "hypothesis_tokens": 10,
+        "reference_tokens": 10,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "abstain",
+          "boxes": [],
+          "tokens": [
+            "ciū",
+            "duxi.",
+            "Nō",
+            "quidem",
+            "quod",
+            "omnibus",
+            "ſatis",
+            "fœcerim",
+            "ſed",
+            "ut,"
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 8,
+          "max_unselected_gap": 8,
+          "separation_ratio": 1.0,
+          "reason": "ambiguous_gap_partition"
+        },
+        "matched_ious": [],
+        "cpu_seconds": 0.0006255129992496222
+      },
+      {
+        "id": "Re5a7e23177",
+        "work": "ferrepit_667769218",
+        "reference_words": 1,
+        "predicted_words": 1,
+        "hypothesis_tokens": 1,
+        "reference_tokens": 1,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "proposal_requires_review",
+          "boxes": [
+            [
+              941,
+              257,
+              1206,
+              306
+            ]
+          ],
+          "tokens": [
+            "EPITOME"
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "reason": "separated_gaps"
+        },
+        "matched_ious": [
+          1.0
+        ],
+        "cpu_seconds": 0.0003181280044373125
+      },
+      {
+        "id": "R2922cb1c4d",
+        "work": "ferrepit_667769218",
+        "reference_words": 4,
+        "predicted_words": 0,
+        "hypothesis_tokens": 4,
+        "reference_tokens": 4,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "abstain",
+          "boxes": [],
+          "tokens": [
+            "bb.",
+            "Et",
+            "eſt",
+            "acatalectus."
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 10,
+          "max_unselected_gap": 9,
+          "separation_ratio": 1.1111111111111112,
+          "reason": "ambiguous_gap_partition"
+        },
+        "matched_ious": [],
+        "cpu_seconds": 0.0001869200059445575
+      },
+      {
+        "id": "Rf190cd318e",
+        "work": "ferrepit_667769218",
+        "reference_words": 4,
+        "predicted_words": 0,
+        "hypothesis_tokens": 4,
+        "reference_tokens": 4,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "abstain",
+          "boxes": [],
+          "tokens": [
+            "Anno",
+            "ſupra",
+            "ſeſquimilleſ.",
+            "ſexodecimo."
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 9,
+          "max_unselected_gap": 8,
+          "separation_ratio": 1.125,
+          "reason": "ambiguous_gap_partition"
+        },
+        "matched_ious": [],
+        "cpu_seconds": 0.0006879040010971949
+      },
+      {
+        "id": "R1a0177a41b",
+        "work": "688357687_688358799_1771000800",
+        "reference_words": 6,
+        "predicted_words": 0,
+        "hypothesis_tokens": 6,
+        "reference_tokens": 6,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "abstain",
+          "boxes": [],
+          "tokens": [
+            "zur",
+            "verliebten",
+            "Händel",
+            "ziemlich",
+            "berüchtiget",
+            "war,"
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 17,
+          "max_unselected_gap": 13,
+          "separation_ratio": 1.3076923076923077,
+          "reason": "ambiguous_gap_partition"
+        },
+        "matched_ious": [],
+        "cpu_seconds": 0.0005462890039780177
+      },
+      {
+        "id": "R4612fb0db5",
+        "work": "688357687_688358799_1771000800",
+        "reference_words": 6,
+        "predicted_words": 6,
+        "hypothesis_tokens": 6,
+        "reference_tokens": 6,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "proposal_requires_review",
+          "boxes": [
+            [
+              294,
+              1123,
+              378,
+              1163
+            ],
+            [
+              395,
+              1131,
+              462,
+              1168
+            ],
+            [
+              479,
+              1119,
+              606,
+              1157
+            ],
+            [
+              625,
+              1116,
+              767,
+              1162
+            ],
+            [
+              786,
+              1112,
+              922,
+              1151
+            ],
+            [
+              986,
+              1113,
+              1157,
+              1157
+            ]
+          ],
+          "tokens": [
+            "mich",
+            "zum",
+            "Manne",
+            "begehren",
+            "würden.",
+            "(Damals"
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 17,
+          "max_unselected_gap": 8,
+          "separation_ratio": 2.125,
+          "reason": "separated_gaps"
+        },
+        "matched_ious": [
+          0.8961303462321792,
+          0.9736842105263158,
+          0.9743589743589743,
+          1.0,
+          0.975,
+          0.9777777777777777
+        ],
+        "cpu_seconds": 0.0005518079997273162
+      },
+      {
+        "id": "R387ec4e7d0",
+        "work": "688357687_688358799_1771000800",
+        "reference_words": 8,
+        "predicted_words": 0,
+        "hypothesis_tokens": 8,
+        "reference_tokens": 8,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "abstain",
+          "boxes": [],
+          "tokens": [
+            "er",
+            "verdienet",
+            "hätte,",
+            "leibhafft",
+            "und",
+            "deutlich",
+            "gnug",
+            "zu"
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 15,
+          "max_unselected_gap": 14,
+          "separation_ratio": 1.0714285714285714,
+          "reason": "ambiguous_gap_partition"
+        },
+        "matched_ious": [],
+        "cpu_seconds": 0.00024323799880221486
+      },
+      {
+        "id": "R89b9dcb991",
+        "work": "688357687_688358799_1771000800",
+        "reference_words": 8,
+        "predicted_words": 0,
+        "hypothesis_tokens": 8,
+        "reference_tokens": 8,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "abstain",
+          "boxes": [],
+          "tokens": [
+            "verſehen",
+            "gab.",
+            "Aber",
+            "die",
+            "Dame",
+            "hatte",
+            "ſich",
+            "damit"
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 18,
+          "max_unselected_gap": 13,
+          "separation_ratio": 1.3846153846153846,
+          "reason": "ambiguous_gap_partition"
+        },
+        "matched_ious": [],
+        "cpu_seconds": 0.0003376220047357492
+      },
+      {
+        "id": "R1bea4bea15",
+        "work": "erasexom_816221448",
+        "reference_words": 10,
+        "predicted_words": 0,
+        "hypothesis_tokens": 10,
+        "reference_tokens": 10,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "abstain",
+          "boxes": [],
+          "tokens": [
+            "iā",
+            "redditus",
+            "ē",
+            "eccleſiæ,",
+            "iam",
+            "ex",
+            "ſeruo",
+            "diaboli",
+            "factus",
+            "eſt"
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 2,
+          "max_unselected_gap": 2,
+          "separation_ratio": 1.0,
+          "reason": "word_gap_too_small"
+        },
+        "matched_ious": [],
+        "cpu_seconds": 0.0003862649973598309
+      },
+      {
+        "id": "R379ddb80f4",
+        "work": "erasexom_816221448",
+        "reference_words": 9,
+        "predicted_words": 0,
+        "hypothesis_tokens": 9,
+        "reference_tokens": 9,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "abstain",
+          "boxes": [],
+          "tokens": [
+            "Quem",
+            "vere",
+            "ſui",
+            "pudet",
+            "apud",
+            "deum,",
+            "levius",
+            "erubeſcet",
+            "a-"
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 4,
+          "max_unselected_gap": 4,
+          "separation_ratio": 1.0,
+          "reason": "word_gap_too_small"
+        },
+        "matched_ious": [],
+        "cpu_seconds": 0.00021848599863005802
+      },
+      {
+        "id": "R477377d915",
+        "work": "erasexom_816221448",
+        "reference_words": 9,
+        "predicted_words": 0,
+        "hypothesis_tokens": 9,
+        "reference_tokens": 9,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "abstain",
+          "boxes": [],
+          "tokens": [
+            "rogans",
+            "ut",
+            "quod",
+            "gratis",
+            "largitus",
+            "eſt",
+            "pro",
+            "ſua",
+            "bonitate,"
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 4,
+          "max_unselected_gap": 3,
+          "separation_ratio": 1.3333333333333333,
+          "reason": "word_gap_too_small"
+        },
+        "matched_ious": [],
+        "cpu_seconds": 0.00024604200007161126
+      },
+      {
+        "id": "Rdd0cda01dc",
+        "work": "erasexom_816221448",
+        "reference_words": 9,
+        "predicted_words": 0,
+        "hypothesis_tokens": 9,
+        "reference_tokens": 9,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "abstain",
+          "boxes": [],
+          "tokens": [
+            "hoc",
+            "quod",
+            "ſuperest,",
+            "ſi",
+            "conferas",
+            "ad",
+            "id",
+            "quod",
+            "præceſſit?"
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 6,
+          "max_unselected_gap": 4,
+          "separation_ratio": 1.5,
+          "reason": "word_gap_too_small"
+        },
+        "matched_ious": [],
+        "cpu_seconds": 0.00021466099860845134
+      },
+      {
+        "id": "Rd6facdcad1",
+        "work": "canitrac_789765837",
+        "reference_words": 8,
+        "predicted_words": 0,
+        "hypothesis_tokens": 8,
+        "reference_tokens": 8,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "abstain",
+          "boxes": [],
+          "tokens": [
+            "ſolutum",
+            "repetere:",
+            "vt",
+            "l.",
+            "in",
+            "contractibus.",
+            "C.",
+            "de"
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 6,
+          "max_unselected_gap": 4,
+          "separation_ratio": 1.5,
+          "reason": "word_gap_too_small"
+        },
+        "matched_ious": [],
+        "cpu_seconds": 0.0005460820029838942
+      },
+      {
+        "id": "R2820e61330",
+        "work": "canitrac_789765837",
+        "reference_words": 10,
+        "predicted_words": 0,
+        "hypothesis_tokens": 10,
+        "reference_tokens": 10,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "abstain",
+          "boxes": [],
+          "tokens": [
+            "tio.",
+            "de",
+            "fide",
+            "inſtrum.",
+            "&",
+            "tenet",
+            "Pet.",
+            "de",
+            "Arch.",
+            "in"
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 3,
+          "max_unselected_gap": 2,
+          "separation_ratio": 1.5,
+          "reason": "word_gap_too_small"
+        },
+        "matched_ious": [],
+        "cpu_seconds": 0.00024683599622221664
+      },
+      {
+        "id": "Rd97daded21",
+        "work": "canitrac_789765837",
+        "reference_words": 12,
+        "predicted_words": 0,
+        "hypothesis_tokens": 12,
+        "reference_tokens": 12,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "abstain",
+          "boxes": [],
+          "tokens": [
+            "in",
+            "l.",
+            "1.",
+            "§.",
+            "ff.",
+            "ad",
+            "legem",
+            "Falci.",
+            "De",
+            "quo",
+            "maxime",
+            "du-"
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 4,
+          "max_unselected_gap": 3,
+          "separation_ratio": 1.3333333333333333,
+          "reason": "word_gap_too_small"
+        },
+        "matched_ious": [],
+        "cpu_seconds": 0.00022689300385536626
+      },
+      {
+        "id": "Rcf0da9fbab",
+        "work": "canitrac_789765837",
+        "reference_words": 7,
+        "predicted_words": 0,
+        "hypothesis_tokens": 7,
+        "reference_tokens": 7,
+        "token_count_equal": true,
+        "prediction": {
+          "method": "projection_gap_no_recognizer_a19",
+          "status": "abstain",
+          "boxes": [],
+          "tokens": [
+            "preſumptio",
+            "cedit",
+            "veritati.",
+            "8.",
+            "diſt.",
+            "c.",
+            "veritate."
+          ],
+          "certified": false,
+          "recognizer_forwards": 0,
+          "min_selected_gap": 6,
+          "max_unselected_gap": 4,
+          "separation_ratio": 1.5,
+          "reason": "word_gap_too_small"
+        },
+        "matched_ious": [],
+        "cpu_seconds": 0.00020570099877659231
+      }
+    ]
+  },
+  "geometry_config": {
+    "min_gap_height_ratio": 0.1,
+    "gap_separation_ratio": 1.5
+  },
+  "development_reserve_geometry_comparison": {
+    "a19_audit_proposed_lines": 50,
+    "a19_audit_lines": 94,
+    "a19_audit_rate": 0.5319148936170213,
+    "a19_audit_wilson95": [
+      0.4317826374815637,
+      0.6295410597764227
+    ],
+    "a22_reserve_proposed_lines": 2,
+    "a22_reserve_lines": 16,
+    "a22_reserve_rate": 0.125,
+    "a22_reserve_wilson95": [
+      0.03497748774324047,
+      0.36022827265758695
+    ],
+    "fisher_exact_two_sided_p": 0.002617222069356725,
+    "interpretation": "Exploratory domain-shift warning: frozen fast-path coverage fell sharply; small reserve n and sampled-line scope prevent a universal rate claim."
+  },
+  "reference_status": "External SBB GT, provider plus SBB post-correction/manual page inspection; not independently adjudicated perfect truth",
+  "reference_pua": {
+    "U+E42C": 2,
+    "U+E72B": 2,
+    "U+EADA": 4,
+    "U+EBA2": 4,
+    "U+EBA6": 1,
+    "U+EEC5": 3,
+    "U+F502": 5,
+    "U+F519": 1,
+    "U+F532": 1,
+    "U+F534": 4,
+    "U+F537": 1
+  },
+  "uncertain_ids": [
+    "R1a0177a41b",
+    "R1bea4bea15",
+    "R2922cb1c4d",
+    "R387ec4e7d0",
+    "R632ec6675c",
+    "Rd97daded21",
+    "Rdd0cda01dc",
+    "Rf190cd318e"
+  ],
+  "cost": {
+    "new_vlm_tasks": 1,
+    "target_images": 16,
+    "context_images": 16,
+    "total_images_inspected": 32,
+    "tokens": null,
+    "billed_cost": null,
+    "new_recognizer_forwards": 0,
+    "new_layout_forwards": 0,
+    "cpu_wall_seconds": 0.23195361999387387
+  },
+  "invariants": {
+    "protocol_frozen_before_open": true,
+    "exact_id_coverage": true,
+    "all_required_images_inspected": true,
+    "protected_inputs_unchanged": true,
+    "no_oracle_reader_mixture": true,
+    "source_git_blobs_verified": true
+  },
+  "limitations": [
+    "Oracle line polygons: word geometry is conditional, not end-to-end layout",
+    "One-to-one IoU matching is geometry-only; it does not certify token identity",
+    "Source polygon vertex extents and half-open pixel boxes retain a one-pixel convention difference",
+    "Reserve is consumed after this report and cannot be reused as independent validation",
+    "No PERO baseline was run on these exact reserve lines in this task"
+  ],
+  "accepted_for_project_completion_gate": false,
+  "source_sha256": {
+    "gap_alignment": "94891dd8538845f61ad558e316d0d05b90f1173772c9ad4d85e8a44c8c3d371a",
+    "ocr_conventions": "f341b04ad142141072f03a193e628a82fcf0a9693072b6c48206492e52b54b45",
+    "agent_prompt": "c3d53118504a2ae8af8e4fec4b6fe1540312601aaefc40d0493a7e0d7fb307ff",
+    "response": "252a769e474dc442772d4c6e7b372d0a9cf21e435ad39705c7a3fe9038f5fd9f"
+  },
+  "protected_input_sha256": {
+    "experiments/loop/reserve-a22/PROTOCOL.md": "6eddd34d47fa558ec9e2a0e9cb396dadc35f67a2bedee4a947e91164ca8fe30b",
+    "experiments/loop/reserve-a22/opened.json": "ae9db8c5d0654774b92831da3e1f54f8f5974baf379155fc4dfdef15fb8fcc76",
+    "experiments/loop/reserve-a22/private-reference.json": "ed3d258856ee838bb4e2f6d5c2526109b6a581d51de932a23574be07f4ed1743",
+    "experiments/loop/reserve-a22/input/request.json": "952af2a61d1a11bb5b91ab0414cad3b60b85e80d78b6f83fa27c0ebf38e9309a",
+    "experiments/loop/reserve-a22/AGENT_PROMPT.txt": "c3d53118504a2ae8af8e4fec4b6fe1540312601aaefc40d0493a7e0d7fb307ff",
+    "experiments/loop/reserve-a22/input/R2820e61330-context.png": "af764237d853f4964af5d1fa6ead4aa44bf761e29bfa1391cc9ff6df2dfb7528",
+    "experiments/loop/reserve-a22/input/R387ec4e7d0-context.png": "866efb0b926dc381def12fbda0a787d587aa487099157fd644d92bfe61502892",
+    "experiments/loop/reserve-a22/input/R1a0177a41b-context.png": "d8e7d6361893c53b25c85e22d430e37385de46ed7545767940cfe4b26f0cf4f2",
+    "experiments/loop/reserve-a22/input/Rd97daded21-context.png": "f76a3f31cdc69546df5dd1b272794aef6570f4d7e925721c607fda5204532bbc",
+    "experiments/loop/reserve-a22/input/R89b9dcb991.png": "4e3a38d7d6a53e507f9f392313f47f3a8b57101a9944889f001b42ab64bcbafc",
+    "experiments/loop/reserve-a22/input/R379ddb80f4-context.png": "b2f13f6fa046e1a63efb81ec21bab67bbfa534d2ab8022977b3eb023e79acba7",
+    "experiments/loop/reserve-a22/input/R387ec4e7d0.png": "150a2ed9ab45f51f9df95852c475db7aa3287b20528b95d2617550f370462f73",
+    "experiments/loop/reserve-a22/input/R89b9dcb991-context.png": "d4978beb60d7736f4442b7d51124d6c6797bf61f349ff3489a40db2b0ea6877d",
+    "experiments/loop/reserve-a22/input/Rd6facdcad1.png": "e87bf8ee0e29b91a34d8c8e5c4ba7d255f64855b4e6f822fea5a23b156e568ae",
+    "experiments/loop/reserve-a22/input/Rcf0da9fbab-context.png": "6139e50c26016d976a3ba85c7b899a691897850d3c8f12d903803f888f8ee51a",
+    "experiments/loop/reserve-a22/input/R1a0177a41b.png": "2db1333509d05875b9329b247db681ea44a783f274c8c0ebc1fdb440de75571f",
+    "experiments/loop/reserve-a22/input/Re5a7e23177-context.png": "a6144963ec2ddfaab3519c7ddc901f889f3ccaef79c315a0e2ba49547a9ecf1e",
+    "experiments/loop/reserve-a22/input/R477377d915.png": "4e3b46c02459b026a9b923b45c16b99948e000ed9d4f908f87ba6f81b9a92f35",
+    "experiments/loop/reserve-a22/input/R632ec6675c.png": "11a70a28c1244d1273dbf1e9c6ba46220e38c462b7a66dbd945b0b37c5a94922",
+    "experiments/loop/reserve-a22/input/R2820e61330.png": "91708799053993dd6003bcca6e1e4ebac79389889d0c33280929bf95d0593700",
+    "experiments/loop/reserve-a22/input/Re5a7e23177.png": "a483ac3be2e07c06d8527913243938f8df18d243696bd7a3143dcfc8e7e07500",
+    "experiments/loop/reserve-a22/input/R4612fb0db5.png": "dcc3f3a40ad077d1ec5e1f3bb9d2e180d62a64fa358286c0d1755d48f6b6ab24",
+    "experiments/loop/reserve-a22/input/R1bea4bea15-context.png": "1a3fdd79956dd9f02924c17496830f42a52a412aaa387632624924d818d28ef0",
+    "experiments/loop/reserve-a22/input/Rcf0da9fbab.png": "64aaebe3b79ac2b753a967c8ef1f41fa88f80c2b9b273b3e6aa754cc6d16e45b",
+    "experiments/loop/reserve-a22/input/R2922cb1c4d-context.png": "9dba50705fd3018bbb17627125a848f5dc1012257ef25581ac014036cfaa6621",
+    "experiments/loop/reserve-a22/input/Rf190cd318e-context.png": "cc883cb07ed60e3df3df6c87b484f3e3e518f727aeea237234c1bc7ce01a5bb5",
+    "experiments/loop/reserve-a22/input/R1bea4bea15.png": "c8a3ca8064ef8a92fe851fd670bbd6ec9afc033d05fd7edf537509785044ce62",
+    "experiments/loop/reserve-a22/input/Rd6facdcad1-context.png": "ced711c2880b57b4a19c980af5dadaaa6433df05d7e4a81cc446f4ca66cc100c",
+    "experiments/loop/reserve-a22/input/Rf190cd318e.png": "d2ec0e584d4e4da4f7138f463ed062d6cf97f5ad19004c9192942c8e9f078c7c",
+    "experiments/loop/reserve-a22/input/R379ddb80f4.png": "790ccd3f016a017d481ac91859b9bd7a9c0070782e626c5b3cb43339790556f3",
+    "experiments/loop/reserve-a22/input/Rdd0cda01dc-context.png": "172feac31f2b826229518a0c0e2c766fa9da0fc861ac04b538bf40f99ff04321",
+    "experiments/loop/reserve-a22/input/R632ec6675c-context.png": "f0a293c1c5514aa44cb0e4bb9366cb9be7d022bc5c2f3bc866caae6f1b70f211",
+    "experiments/loop/reserve-a22/input/Rdd0cda01dc.png": "ac520de3a044e2281f2cf0f97ab5212dfc70b70f6ba8364416995e78a9d50676",
+    "experiments/loop/reserve-a22/input/R4612fb0db5-context.png": "af9a15d9f2fcbc2b0481b7412855fb413150ce7f1df08ddd4bef1a59edb8643e",
+    "experiments/loop/reserve-a22/input/R477377d915-context.png": "1814063712ab6d7549fdda462b603638a96537ba0caac4ec9d88ac285d9b8f9f",
+    "experiments/loop/reserve-a22/input/R2922cb1c4d.png": "5bf326e44659a82bea2567b1ed6f4827218a0438c4dc12ab0d8d2ab70d438fc7",
+    "experiments/loop/reserve-a22/input/Rd97daded21.png": "f1b33c843a6c4d5d0f44d5ff02fecd245ef19592250a7d3cfa1a124ef88133f7",
+    "experiments/loop/reference-a18/source/data/ferrepit_667769218/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000028.xml": "89435d05a8d1b694e3b7a080c0ec3fc18fa3271442b92f13d8f23c730a63fdf7",
+    "experiments/loop/reference-a18/source/data/ferrepit_667769218/OCR-D-IMG/OCR-D-IMG_00000028.tif": "5ed7e025f58b5a33690a265fbf6b42646f490636ba7130b6dc7f2879e63cbe42",
+    "experiments/loop/reference-a18/source/data/688357687_688358799_1771000800/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000082.xml": "b718797a108d9e0eea31946c2c68abb762a82f881dbaffaada439faf1ed3f04a",
+    "experiments/loop/reference-a18/source/data/688357687_688358799_1771000800/OCR-D-IMG/OCR-D-IMG_00000082.tif": "d708f89b144e984f8a46377f0d2a778547a4ddc918526ebdfb5d836b6ebea1a6",
+    "experiments/loop/reference-a18/source/data/erasexom_816221448/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000029.xml": "446ebfa5d0b94ff4e8110436d25c6d805f638d45556985cbaaecbf419b75d09f",
+    "experiments/loop/reference-a18/source/data/erasexom_816221448/OCR-D-IMG/OCR-D-IMG_00000029.tif": "65f1b9a287cb911785536c2379260ed1541d21a19c0a7ac8bc1746f32786c89e",
+    "experiments/loop/reference-a18/source/data/canitrac_789765837/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000116.xml": "858deb3cc0cd7e217deafc9789feb1de785098b9cc64bbdd613d2a38f59aca1a",
+    "experiments/loop/reference-a18/source/data/canitrac_789765837/OCR-D-IMG/OCR-D-IMG_00000116.tif": "7f33899562850465961f1144b5b196c6f5eaf3dc4fafb7bce1cbbeb7d2a9a292"
+  }
+}

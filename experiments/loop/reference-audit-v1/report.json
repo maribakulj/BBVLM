@@ -1,0 +1,3853 @@
+{
+  "schema": "bbvlm.reference-audit/1",
+  "sample": "15 uniformly sampled non-empty TextLines per page; fixed seed 20260927; no text or OCR difficulty used",
+  "sample_size": 45,
+  "reader": "gpt-6-luna; one blind pass; no reference or PERO text exposed",
+  "profiles": {
+    "strict": "NFC-unmodified diplomatic strings",
+    "typographic": "NFC; apostrophe/dash families folded; long s→s",
+    "ir": "typographic profile; lowercase; punctuation→space; whitespace collapsed"
+  },
+  "comparisons": {
+    "strict": {
+      "distributed_vs_luna": {
+        "lines": 45,
+        "exact_lines": 14,
+        "characters": 1710,
+        "edits": 105,
+        "cer": 0.06140350877192982,
+        "per_line": [
+          {
+            "id": "A361adde199f",
+            "left": "qu'il n'y ait r:er faire ? Se peut-il que",
+            "right": "qu’il n’y ait rien à faire? Se peut-il que",
+            "edits": 7,
+            "characters": 41,
+            "rate": 0.17073170731707318
+          },
+          {
+            "id": "A40c75336e8a",
+            "left": "Il est inutile de dire que cette unité, il la voulut",
+            "right": "Il est inutile de dire que cette unité, il la voulut",
+            "edits": 0,
+            "characters": 52,
+            "rate": 0.0
+          },
+          {
+            "id": "A5d5568ef844",
+            "left": "rades *n leur recommandant dans ces",
+            "right": "rades en leur recommandant dans ces",
+            "edits": 1,
+            "characters": 35,
+            "rate": 0.02857142857142857
+          },
+          {
+            "id": "A19c519a0bee",
+            "left": "tement la vie de Jean Jaurès.",
+            "right": "tement la vie de Jean Jaurès.",
+            "edits": 0,
+            "characters": 29,
+            "rate": 0.0
+          },
+          {
+            "id": "A2f42313bb83",
+            "left": "48â>>7 votanti. Il s'était présenté sur. la liste ré»",
+            "right": "48.067 votants. Il s’était présenté sur la liste ré-",
+            "edits": 7,
+            "characters": 53,
+            "rate": 0.1320754716981132
+          },
+          {
+            "id": "A9fe3293e3a3",
+            "left": "Jean Jaurès est né à Castrés, le 3 septem-",
+            "right": "Jean Jaurès est né à Castres, le 3 septem-",
+            "edits": 1,
+            "characters": 42,
+            "rate": 0.023809523809523808
+          },
+          {
+            "id": "A233a93f55f9",
+            "left": "robuâte, sa puissance de travail sans limite, et",
+            "right": "robuste, sa puissance de travail sans limite, et",
+            "edits": 1,
+            "characters": 48,
+            "rate": 0.020833333333333332
+          },
+          {
+            "id": "A6d004756d4d",
+            "left": "grandes douleurs:.",
+            "right": "grandes douleurs.",
+            "edits": 1,
+            "characters": 18,
+            "rate": 0.05555555555555555
+          },
+          {
+            "id": "A14056b29ea0",
+            "left": "Pour l'histoire, Jean Jaurès, gloire",
+            "right": "Pour l’histoire, Jean Jaurès, gloire",
+            "edits": 1,
+            "characters": 36,
+            "rate": 0.027777777777777776
+          },
+          {
+            "id": "Abf53223e8e1",
+            "left": "Sa campagne contre, l'expédition ma-",
+            "right": "Sa campagne contre l’expédition ma-",
+            "edits": 2,
+            "characters": 36,
+            "rate": 0.05555555555555555
+          },
+          {
+            "id": "Ad92445bd85b",
+            "left": "au nom de mes collègues devant la",
+            "right": "au nom de mes collègues devant la",
+            "edits": 0,
+            "characters": 33,
+            "rate": 0.0
+          },
+          {
+            "id": "A1b927fe26e0",
+            "left": "Ses camarades de \"l'Ecole normale ont souvent",
+            "right": "Ses camarades de l’École normale ont souvent",
+            "edits": 3,
+            "characters": 45,
+            "rate": 0.06666666666666667
+          },
+          {
+            "id": "Afe4c02aa3e8",
+            "left": "tives qui ne sauraient résumer complè-",
+            "right": "tives qui ne sauraient résumer complè-",
+            "edits": 0,
+            "characters": 38,
+            "rate": 0.0
+          },
+          {
+            "id": "A8230d6f70bc",
+            "left": "En 1880, le scrutin d'arrondissement étant réta-",
+            "right": "En 1889, le scrutin d’arrondissement étant réta-",
+            "edits": 2,
+            "characters": 48,
+            "rate": 0.041666666666666664
+          },
+          {
+            "id": "Aaf0626b7f4c",
+            "left": "quenté. On entrait, on sortait, nous ne",
+            "right": "quenté. On entrait, on sortait, nous ne",
+            "edits": 0,
+            "characters": 39,
+            "rate": 0.0
+          },
+          {
+            "id": "Aaf4b23b2603",
+            "left": "d'une carte d'atlas sous une feuille de pa-",
+            "right": "d’une carte d’atlas sous une feuille de pa-",
+            "edits": 2,
+            "characters": 43,
+            "rate": 0.046511627906976744
+          },
+          {
+            "id": "A6bbd0884db6",
+            "left": "seul n'est communiste. C'est donc bien",
+            "right": "Seul n’est communiste. C’est donc bien",
+            "edits": 3,
+            "characters": 38,
+            "rate": 0.07894736842105263
+          },
+          {
+            "id": "Ac4aa7938e2b",
+            "left": "moins à la dissolution du Landtag, c'est-à-",
+            "right": "moins à la dissolution du Landtag, c’est-à-",
+            "edits": 1,
+            "characters": 43,
+            "rate": 0.023255813953488372
+          },
+          {
+            "id": "Ad67c6d55f4b",
+            "left": "POIL' DE CAROTTE",
+            "right": "POIL DE CAROTTE",
+            "edits": 1,
+            "characters": 16,
+            "rate": 0.0625
+          },
+          {
+            "id": "A2607602d758",
+            "left": "de Guillaume Il est \"président de la Répu-",
+            "right": "de Guillaume II est président de la Répu-",
+            "edits": 2,
+            "characters": 42,
+            "rate": 0.047619047619047616
+          },
+          {
+            "id": "A44abf7e6466",
+            "left": "Ça dépend. La version va mieux que le",
+            "right": "Ça dépend. La version va mieux que le",
+            "edits": 0,
+            "characters": 37,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab80e0c264e4",
+            "left": "frontière polonaise, le Welt am Abend con-",
+            "right": "frontière polonaise, le Welt am Abend con-",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "A85044b80638",
+            "left": "AVIS AUX CLUBS",
+            "right": "AVIS AUX CLUBS",
+            "edits": 0,
+            "characters": 14,
+            "rate": 0.0
+          },
+          {
+            "id": "A368f6eccc25",
+            "left": "est couché et, se haussant sur la pointe",
+            "right": "est couché et, se haussant sur la pointe",
+            "edits": 0,
+            "characters": 40,
+            "rate": 0.0
+          },
+          {
+            "id": "Af412c29907c",
+            "left": "de Paris.",
+            "right": "de Paris.",
+            "edits": 0,
+            "characters": 9,
+            "rate": 0.0
+          },
+          {
+            "id": "A010196005e7",
+            "left": "ler ce que'les syndicalistes anglais ne s'é-",
+            "right": "1er à ce que les syndicalistes anglais ne s’é-",
+            "edits": 5,
+            "characters": 44,
+            "rate": 0.11363636363636363
+          },
+          {
+            "id": "Acb2486271c4",
+            "left": "Il a- de nouveau .affirmé que Ta paix du",
+            "right": "Il a de nouveau affirmé que la paix du",
+            "edits": 3,
+            "characters": 40,
+            "rate": 0.075
+          },
+          {
+            "id": "A389d3a03ea3",
+            "left": "A Moscou, la journée du Premier Mai",
+            "right": "A Moscou, la journée du Premier Mai",
+            "edits": 0,
+            "characters": 35,
+            "rate": 0.0
+          },
+          {
+            "id": "Abfff3088c42",
+            "left": "i.oD] et les travailleurs bulgares. Lorsqu'ils",
+            "right": "l’objet les travailleurs bulgares. Lorsqu’ils",
+            "edits": 6,
+            "characters": 46,
+            "rate": 0.13043478260869565
+          },
+          {
+            "id": "A8196da08108",
+            "left": "i thurg, que l'on commence à appeler, imi-",
+            "right": "bourg, que l’on commence à appeler, imi-",
+            "edits": 5,
+            "characters": 42,
+            "rate": 0.11904761904761904
+          },
+          {
+            "id": "Acf3493efcb2",
+            "left": "LG Eeifrèsies Cheminots",
+            "right": "Le Congrès des Cheminots",
+            "edits": 7,
+            "characters": 23,
+            "rate": 0.30434782608695654
+          },
+          {
+            "id": "Ae69a5af53af",
+            "left": "qui accompagneront sur l'affiche la magni-",
+            "right": "qui accompagnèrent sur l’affiche la magni-",
+            "edits": 3,
+            "characters": 42,
+            "rate": 0.07142857142857142
+          },
+          {
+            "id": "A0080b7b82be",
+            "left": "â¢Gaivet a rejeté les torts sur des voisins que,",
+            "right": "Calvet a rejeté les torts sur des voisins que,",
+            "edits": 5,
+            "characters": 49,
+            "rate": 0.10204081632653061
+          },
+          {
+            "id": "Ac2dbc120cb2",
+            "left": "L. Cams.",
+            "right": "L. Cams.",
+            "edits": 0,
+            "characters": 8,
+            "rate": 0.0
+          },
+          {
+            "id": "A4b427ed4c41",
+            "left": "il est de soa devoir cependant de vous rappe-",
+            "right": "Il est de son devoir cependant de vous rappe-",
+            "edits": 2,
+            "characters": 45,
+            "rate": 0.044444444444444446
+          },
+          {
+            "id": "A7f6e90239fc",
+            "left": "turmdtTOuges, oui met aux voix le principe",
+            "right": "trompeuses, on met aux voix le principe",
+            "edits": 9,
+            "characters": 42,
+            "rate": 0.21428571428571427
+          },
+          {
+            "id": "A83fca1b6467",
+            "left": "se groupaient rue Montmartre et, entourant",
+            "right": "se groupaient rue Montmartre et, entourant",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab1bea4f18de",
+            "left": "ril ot, Froyoîs, la pièce slave du Théâtre des",
+            "right": "ril et Froyer, la pièce slave du Théâtre des",
+            "edits": 5,
+            "characters": 46,
+            "rate": 0.10869565217391304
+          },
+          {
+            "id": "Ad50745af3ad",
+            "left": "avril. MM. Beyïe, Pugèro e* Delwye inter-",
+            "right": "avril, MM. Béyle, Fougère et Delvoye inter-",
+            "edits": 9,
+            "characters": 41,
+            "rate": 0.21951219512195122
+          },
+          {
+            "id": "A4feebdca602",
+            "left": "ports qui n'ont, pas dépassé 2 1/4 0/0.",
+            "right": "ports qui n’ont pas dépassé 2 1/4 0/0.",
+            "edits": 2,
+            "characters": 39,
+            "rate": 0.05128205128205128
+          },
+          {
+            "id": "A90446a8ea23",
+            "left": "ment de la population et recherche tes prin-",
+            "right": "ment de la population et recherche les prin-",
+            "edits": 1,
+            "characters": 44,
+            "rate": 0.022727272727272728
+          },
+          {
+            "id": "A03d2a12a76f",
+            "left": "La Coupe Chaules, pour les ballons jus-",
+            "right": "La Coupe Charles, pour les ballons jus-",
+            "edits": 1,
+            "characters": 39,
+            "rate": 0.02564102564102564
+          },
+          {
+            "id": "A6a411860da2",
+            "left": "tions du Syndicat national des ouvriers des",
+            "right": "tions du syndicat national des ouvriers des",
+            "edits": 1,
+            "characters": 43,
+            "rate": 0.023255813953488372
+          },
+          {
+            "id": "Ab5bdf5500ee",
+            "left": "qu'à 900'mètpee cubes, avec distance imni-",
+            "right": "qu’à 900 mètres cubes, avec distance mini-",
+            "edits": 6,
+            "characters": 42,
+            "rate": 0.14285714285714285
+          },
+          {
+            "id": "A56efd5c427f",
+            "left": "discussion théorique extrêmement confuse.",
+            "right": "discussion théorique extrêmement confuse.",
+            "edits": 0,
+            "characters": 41,
+            "rate": 0.0
+          }
+        ]
+      },
+      "distributed_vs_pero": {
+        "lines": 45,
+        "exact_lines": 15,
+        "characters": 1710,
+        "edits": 86,
+        "cer": 0.050292397660818715,
+        "per_line": [
+          {
+            "id": "A361adde199f",
+            "left": "qu'il n'y ait r:er faire ? Se peut-il que",
+            "right": "qu'il n'y ait rien à faire ? Se peut-il que",
+            "edits": 4,
+            "characters": 41,
+            "rate": 0.0975609756097561
+          },
+          {
+            "id": "A40c75336e8a",
+            "left": "Il est inutile de dire que cette unité, il la voulut",
+            "right": "Il est inutile de dire que cette unité, il la voulut",
+            "edits": 0,
+            "characters": 52,
+            "rate": 0.0
+          },
+          {
+            "id": "A5d5568ef844",
+            "left": "rades *n leur recommandant dans ces",
+            "right": "rades en lear recommandant dans ces",
+            "edits": 2,
+            "characters": 35,
+            "rate": 0.05714285714285714
+          },
+          {
+            "id": "A19c519a0bee",
+            "left": "tement la vie de Jean Jaurès.",
+            "right": "tement la vie de Jean Jaurès.",
+            "edits": 0,
+            "characters": 29,
+            "rate": 0.0
+          },
+          {
+            "id": "A2f42313bb83",
+            "left": "48â>>7 votanti. Il s'était présenté sur. la liste ré»",
+            "right": "48.087 votants. Il s'était présenté sur la liste ré-",
+            "edits": 6,
+            "characters": 53,
+            "rate": 0.11320754716981132
+          },
+          {
+            "id": "A9fe3293e3a3",
+            "left": "Jean Jaurès est né à Castrés, le 3 septem-",
+            "right": "Jean Jaurès est né à Castres, le 3 septem-",
+            "edits": 1,
+            "characters": 42,
+            "rate": 0.023809523809523808
+          },
+          {
+            "id": "A233a93f55f9",
+            "left": "robuâte, sa puissance de travail sans limite, et",
+            "right": "robuste, sa puissance de travail sans limite, et",
+            "edits": 1,
+            "characters": 48,
+            "rate": 0.020833333333333332
+          },
+          {
+            "id": "A6d004756d4d",
+            "left": "grandes douleurs:.",
+            "right": "grandes douleurs.",
+            "edits": 1,
+            "characters": 18,
+            "rate": 0.05555555555555555
+          },
+          {
+            "id": "A14056b29ea0",
+            "left": "Pour l'histoire, Jean Jaurès, gloire",
+            "right": "Pour l'histoire, Jean Jaurès, gloire",
+            "edits": 0,
+            "characters": 36,
+            "rate": 0.0
+          },
+          {
+            "id": "Abf53223e8e1",
+            "left": "Sa campagne contre, l'expédition ma-",
+            "right": "Sa campagne contre l'expédition ma-",
+            "edits": 1,
+            "characters": 36,
+            "rate": 0.027777777777777776
+          },
+          {
+            "id": "Ad92445bd85b",
+            "left": "au nom de mes collègues devant la",
+            "right": "au nom de mes collègues devant la",
+            "edits": 0,
+            "characters": 33,
+            "rate": 0.0
+          },
+          {
+            "id": "A1b927fe26e0",
+            "left": "Ses camarades de \"l'Ecole normale ont souvent",
+            "right": "Ses camarades de l'Ecole normale ont souvent",
+            "edits": 1,
+            "characters": 45,
+            "rate": 0.022222222222222223
+          },
+          {
+            "id": "Afe4c02aa3e8",
+            "left": "tives qui ne sauraient résumer complè-",
+            "right": "tives qui ne sauraient résumer complè-",
+            "edits": 0,
+            "characters": 38,
+            "rate": 0.0
+          },
+          {
+            "id": "A8230d6f70bc",
+            "left": "En 1880, le scrutin d'arrondissement étant réta-",
+            "right": "En 1889, le scrutin d'arrondissement étant réta-",
+            "edits": 1,
+            "characters": 48,
+            "rate": 0.020833333333333332
+          },
+          {
+            "id": "Aaf0626b7f4c",
+            "left": "quenté. On entrait, on sortait, nous ne",
+            "right": "quenté. On entrait, on sortait, nous ne",
+            "edits": 0,
+            "characters": 39,
+            "rate": 0.0
+          },
+          {
+            "id": "Aaf4b23b2603",
+            "left": "d'une carte d'atlas sous une feuille de pa-",
+            "right": "d'une carte d'atlas sous une feuïlle de pa-",
+            "edits": 1,
+            "characters": 43,
+            "rate": 0.023255813953488372
+          },
+          {
+            "id": "A6bbd0884db6",
+            "left": "seul n'est communiste. C'est donc bien",
+            "right": "seul n'est communiste. C'est donc bien",
+            "edits": 0,
+            "characters": 38,
+            "rate": 0.0
+          },
+          {
+            "id": "Ac4aa7938e2b",
+            "left": "moins à la dissolution du Landtag, c'est-à-",
+            "right": "moins à la dissolution du Landtag, c'est-à-",
+            "edits": 0,
+            "characters": 43,
+            "rate": 0.0
+          },
+          {
+            "id": "Ad67c6d55f4b",
+            "left": "POIL' DE CAROTTE",
+            "right": "POIL DE CAROTTE",
+            "edits": 1,
+            "characters": 16,
+            "rate": 0.0625
+          },
+          {
+            "id": "A2607602d758",
+            "left": "de Guillaume Il est \"président de la Répu-",
+            "right": "de Guillaume II est président de la Répu-",
+            "edits": 2,
+            "characters": 42,
+            "rate": 0.047619047619047616
+          },
+          {
+            "id": "A44abf7e6466",
+            "left": "Ça dépend. La version va mieux que le",
+            "right": "Ca dépend. La version va mieux que le",
+            "edits": 1,
+            "characters": 37,
+            "rate": 0.02702702702702703
+          },
+          {
+            "id": "Ab80e0c264e4",
+            "left": "frontière polonaise, le Welt am Abend con-",
+            "right": "frontière polonaise, le Welt am Abend con-",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "A85044b80638",
+            "left": "AVIS AUX CLUBS",
+            "right": "AVIS AUX ČLUBS",
+            "edits": 1,
+            "characters": 14,
+            "rate": 0.07142857142857142
+          },
+          {
+            "id": "A368f6eccc25",
+            "left": "est couché et, se haussant sur la pointe",
+            "right": "est couché et, se haussant sur la pointe",
+            "edits": 0,
+            "characters": 40,
+            "rate": 0.0
+          },
+          {
+            "id": "Af412c29907c",
+            "left": "de Paris.",
+            "right": "de Paris.",
+            "edits": 0,
+            "characters": 9,
+            "rate": 0.0
+          },
+          {
+            "id": "A010196005e7",
+            "left": "ler ce que'les syndicalistes anglais ne s'é-",
+            "right": "ler à ce que les syndicalistes anglais ne s'é-",
+            "edits": 3,
+            "characters": 44,
+            "rate": 0.06818181818181818
+          },
+          {
+            "id": "Acb2486271c4",
+            "left": "Il a- de nouveau .affirmé que Ta paix du",
+            "right": "Il a de nouveau affirmé que la paix du",
+            "edits": 3,
+            "characters": 40,
+            "rate": 0.075
+          },
+          {
+            "id": "A389d3a03ea3",
+            "left": "A Moscou, la journée du Premier Mai",
+            "right": "A Moscou, la journée du Premier Mai",
+            "edits": 0,
+            "characters": 35,
+            "rate": 0.0
+          },
+          {
+            "id": "Abfff3088c42",
+            "left": "i.oD] et les travailleurs bulgares. Lorsqu'ils",
+            "right": "l'objet les travailleurs bulgares. Lorsqu'ils",
+            "edits": 5,
+            "characters": 46,
+            "rate": 0.10869565217391304
+          },
+          {
+            "id": "A8196da08108",
+            "left": "i thurg, que l'on commence à appeler, imi-",
+            "right": "burg, que l'on commence à appeler, imi-",
+            "edits": 4,
+            "characters": 42,
+            "rate": 0.09523809523809523
+          },
+          {
+            "id": "Acf3493efcb2",
+            "left": "LG Eeifrèsies Cheminots",
+            "right": "Le Congres des Cheminots",
+            "edits": 8,
+            "characters": 23,
+            "rate": 0.34782608695652173
+          },
+          {
+            "id": "Ae69a5af53af",
+            "left": "qui accompagneront sur l'affiche la magni-",
+            "right": "qui accompagneront sur l'affiche la magni-",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "A0080b7b82be",
+            "left": "â¢Gaivet a rejeté les torts sur des voisins que,",
+            "right": "Calvet a rejeté les torts sur des voisins que,",
+            "edits": 5,
+            "characters": 49,
+            "rate": 0.10204081632653061
+          },
+          {
+            "id": "Ac2dbc120cb2",
+            "left": "L. Cams.",
+            "right": "L. Cams.",
+            "edits": 0,
+            "characters": 8,
+            "rate": 0.0
+          },
+          {
+            "id": "A4b427ed4c41",
+            "left": "il est de soa devoir cependant de vous rappe-",
+            "right": "Il est de son devoir cependant de vous rappe-",
+            "edits": 2,
+            "characters": 45,
+            "rate": 0.044444444444444446
+          },
+          {
+            "id": "A7f6e90239fc",
+            "left": "turmdtTOuges, oui met aux voix le principe",
+            "right": "tumultueuses, on met aux voix le principe",
+            "edits": 8,
+            "characters": 42,
+            "rate": 0.19047619047619047
+          },
+          {
+            "id": "A83fca1b6467",
+            "left": "se groupaient rue Montmartre et, entourant",
+            "right": "se groupaient rue Montmartre et, entourant",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab1bea4f18de",
+            "left": "ril ot, Froyoîs, la pièce slave du Théâtre des",
+            "right": "ril et Froyez, la pièce slave du Théâtre des",
+            "edits": 5,
+            "characters": 46,
+            "rate": 0.10869565217391304
+          },
+          {
+            "id": "Ad50745af3ad",
+            "left": "avril. MM. Beyïe, Pugèro e* Delwye inter-",
+            "right": "avril. MM. Beyle, Fugère et Delvoye inter-",
+            "edits": 6,
+            "characters": 41,
+            "rate": 0.14634146341463414
+          },
+          {
+            "id": "A4feebdca602",
+            "left": "ports qui n'ont, pas dépassé 2 1/4 0/0.",
+            "right": "ports qui n'ont pas dépassé 2 1/4 0/0.",
+            "edits": 1,
+            "characters": 39,
+            "rate": 0.02564102564102564
+          },
+          {
+            "id": "A90446a8ea23",
+            "left": "ment de la population et recherche tes prin-",
+            "right": "ment de la population et recherche les prin-",
+            "edits": 1,
+            "characters": 44,
+            "rate": 0.022727272727272728
+          },
+          {
+            "id": "A03d2a12a76f",
+            "left": "La Coupe Chaules, pour les ballons jus-",
+            "right": "La Coupe Charles, pour les ballons jus-",
+            "edits": 1,
+            "characters": 39,
+            "rate": 0.02564102564102564
+          },
+          {
+            "id": "A6a411860da2",
+            "left": "tions du Syndicat national des ouvriers des",
+            "right": "tions du syndicat national des ouvriers des",
+            "edits": 1,
+            "characters": 43,
+            "rate": 0.023255813953488372
+          },
+          {
+            "id": "Ab5bdf5500ee",
+            "left": "qu'à 900'mètpee cubes, avec distance imni-",
+            "right": "quü 900 metres cubes, avec distance mini-",
+            "edits": 8,
+            "characters": 42,
+            "rate": 0.19047619047619047
+          },
+          {
+            "id": "A56efd5c427f",
+            "left": "discussion théorique extrêmement confuse.",
+            "right": "dicussion théorique extrêmement confuse.",
+            "edits": 1,
+            "characters": 41,
+            "rate": 0.024390243902439025
+          }
+        ]
+      },
+      "luna_vs_pero": {
+        "lines": 45,
+        "exact_lines": 22,
+        "characters": 1696,
+        "edits": 45,
+        "cer": 0.02653301886792453,
+        "per_line": [
+          {
+            "id": "A361adde199f",
+            "left": "qu’il n’y ait rien à faire? Se peut-il que",
+            "right": "qu'il n'y ait rien à faire ? Se peut-il que",
+            "edits": 3,
+            "characters": 42,
+            "rate": 0.07142857142857142
+          },
+          {
+            "id": "A40c75336e8a",
+            "left": "Il est inutile de dire que cette unité, il la voulut",
+            "right": "Il est inutile de dire que cette unité, il la voulut",
+            "edits": 0,
+            "characters": 52,
+            "rate": 0.0
+          },
+          {
+            "id": "A5d5568ef844",
+            "left": "rades en leur recommandant dans ces",
+            "right": "rades en lear recommandant dans ces",
+            "edits": 1,
+            "characters": 35,
+            "rate": 0.02857142857142857
+          },
+          {
+            "id": "A19c519a0bee",
+            "left": "tement la vie de Jean Jaurès.",
+            "right": "tement la vie de Jean Jaurès.",
+            "edits": 0,
+            "characters": 29,
+            "rate": 0.0
+          },
+          {
+            "id": "A2f42313bb83",
+            "left": "48.067 votants. Il s’était présenté sur la liste ré-",
+            "right": "48.087 votants. Il s'était présenté sur la liste ré-",
+            "edits": 2,
+            "characters": 52,
+            "rate": 0.038461538461538464
+          },
+          {
+            "id": "A9fe3293e3a3",
+            "left": "Jean Jaurès est né à Castres, le 3 septem-",
+            "right": "Jean Jaurès est né à Castres, le 3 septem-",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "A233a93f55f9",
+            "left": "robuste, sa puissance de travail sans limite, et",
+            "right": "robuste, sa puissance de travail sans limite, et",
+            "edits": 0,
+            "characters": 48,
+            "rate": 0.0
+          },
+          {
+            "id": "A6d004756d4d",
+            "left": "grandes douleurs.",
+            "right": "grandes douleurs.",
+            "edits": 0,
+            "characters": 17,
+            "rate": 0.0
+          },
+          {
+            "id": "A14056b29ea0",
+            "left": "Pour l’histoire, Jean Jaurès, gloire",
+            "right": "Pour l'histoire, Jean Jaurès, gloire",
+            "edits": 1,
+            "characters": 36,
+            "rate": 0.027777777777777776
+          },
+          {
+            "id": "Abf53223e8e1",
+            "left": "Sa campagne contre l’expédition ma-",
+            "right": "Sa campagne contre l'expédition ma-",
+            "edits": 1,
+            "characters": 35,
+            "rate": 0.02857142857142857
+          },
+          {
+            "id": "Ad92445bd85b",
+            "left": "au nom de mes collègues devant la",
+            "right": "au nom de mes collègues devant la",
+            "edits": 0,
+            "characters": 33,
+            "rate": 0.0
+          },
+          {
+            "id": "A1b927fe26e0",
+            "left": "Ses camarades de l’École normale ont souvent",
+            "right": "Ses camarades de l'Ecole normale ont souvent",
+            "edits": 2,
+            "characters": 44,
+            "rate": 0.045454545454545456
+          },
+          {
+            "id": "Afe4c02aa3e8",
+            "left": "tives qui ne sauraient résumer complè-",
+            "right": "tives qui ne sauraient résumer complè-",
+            "edits": 0,
+            "characters": 38,
+            "rate": 0.0
+          },
+          {
+            "id": "A8230d6f70bc",
+            "left": "En 1889, le scrutin d’arrondissement étant réta-",
+            "right": "En 1889, le scrutin d'arrondissement étant réta-",
+            "edits": 1,
+            "characters": 48,
+            "rate": 0.020833333333333332
+          },
+          {
+            "id": "Aaf0626b7f4c",
+            "left": "quenté. On entrait, on sortait, nous ne",
+            "right": "quenté. On entrait, on sortait, nous ne",
+            "edits": 0,
+            "characters": 39,
+            "rate": 0.0
+          },
+          {
+            "id": "Aaf4b23b2603",
+            "left": "d’une carte d’atlas sous une feuille de pa-",
+            "right": "d'une carte d'atlas sous une feuïlle de pa-",
+            "edits": 3,
+            "characters": 43,
+            "rate": 0.06976744186046512
+          },
+          {
+            "id": "A6bbd0884db6",
+            "left": "Seul n’est communiste. C’est donc bien",
+            "right": "seul n'est communiste. C'est donc bien",
+            "edits": 3,
+            "characters": 38,
+            "rate": 0.07894736842105263
+          },
+          {
+            "id": "Ac4aa7938e2b",
+            "left": "moins à la dissolution du Landtag, c’est-à-",
+            "right": "moins à la dissolution du Landtag, c'est-à-",
+            "edits": 1,
+            "characters": 43,
+            "rate": 0.023255813953488372
+          },
+          {
+            "id": "Ad67c6d55f4b",
+            "left": "POIL DE CAROTTE",
+            "right": "POIL DE CAROTTE",
+            "edits": 0,
+            "characters": 15,
+            "rate": 0.0
+          },
+          {
+            "id": "A2607602d758",
+            "left": "de Guillaume II est président de la Répu-",
+            "right": "de Guillaume II est président de la Répu-",
+            "edits": 0,
+            "characters": 41,
+            "rate": 0.0
+          },
+          {
+            "id": "A44abf7e6466",
+            "left": "Ça dépend. La version va mieux que le",
+            "right": "Ca dépend. La version va mieux que le",
+            "edits": 1,
+            "characters": 37,
+            "rate": 0.02702702702702703
+          },
+          {
+            "id": "Ab80e0c264e4",
+            "left": "frontière polonaise, le Welt am Abend con-",
+            "right": "frontière polonaise, le Welt am Abend con-",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "A85044b80638",
+            "left": "AVIS AUX CLUBS",
+            "right": "AVIS AUX ČLUBS",
+            "edits": 1,
+            "characters": 14,
+            "rate": 0.07142857142857142
+          },
+          {
+            "id": "A368f6eccc25",
+            "left": "est couché et, se haussant sur la pointe",
+            "right": "est couché et, se haussant sur la pointe",
+            "edits": 0,
+            "characters": 40,
+            "rate": 0.0
+          },
+          {
+            "id": "Af412c29907c",
+            "left": "de Paris.",
+            "right": "de Paris.",
+            "edits": 0,
+            "characters": 9,
+            "rate": 0.0
+          },
+          {
+            "id": "A010196005e7",
+            "left": "1er à ce que les syndicalistes anglais ne s’é-",
+            "right": "ler à ce que les syndicalistes anglais ne s'é-",
+            "edits": 2,
+            "characters": 46,
+            "rate": 0.043478260869565216
+          },
+          {
+            "id": "Acb2486271c4",
+            "left": "Il a de nouveau affirmé que la paix du",
+            "right": "Il a de nouveau affirmé que la paix du",
+            "edits": 0,
+            "characters": 38,
+            "rate": 0.0
+          },
+          {
+            "id": "A389d3a03ea3",
+            "left": "A Moscou, la journée du Premier Mai",
+            "right": "A Moscou, la journée du Premier Mai",
+            "edits": 0,
+            "characters": 35,
+            "rate": 0.0
+          },
+          {
+            "id": "Abfff3088c42",
+            "left": "l’objet les travailleurs bulgares. Lorsqu’ils",
+            "right": "l'objet les travailleurs bulgares. Lorsqu'ils",
+            "edits": 2,
+            "characters": 45,
+            "rate": 0.044444444444444446
+          },
+          {
+            "id": "A8196da08108",
+            "left": "bourg, que l’on commence à appeler, imi-",
+            "right": "burg, que l'on commence à appeler, imi-",
+            "edits": 2,
+            "characters": 40,
+            "rate": 0.05
+          },
+          {
+            "id": "Acf3493efcb2",
+            "left": "Le Congrès des Cheminots",
+            "right": "Le Congres des Cheminots",
+            "edits": 1,
+            "characters": 24,
+            "rate": 0.041666666666666664
+          },
+          {
+            "id": "Ae69a5af53af",
+            "left": "qui accompagnèrent sur l’affiche la magni-",
+            "right": "qui accompagneront sur l'affiche la magni-",
+            "edits": 3,
+            "characters": 42,
+            "rate": 0.07142857142857142
+          },
+          {
+            "id": "A0080b7b82be",
+            "left": "Calvet a rejeté les torts sur des voisins que,",
+            "right": "Calvet a rejeté les torts sur des voisins que,",
+            "edits": 0,
+            "characters": 46,
+            "rate": 0.0
+          },
+          {
+            "id": "Ac2dbc120cb2",
+            "left": "L. Cams.",
+            "right": "L. Cams.",
+            "edits": 0,
+            "characters": 8,
+            "rate": 0.0
+          },
+          {
+            "id": "A4b427ed4c41",
+            "left": "Il est de son devoir cependant de vous rappe-",
+            "right": "Il est de son devoir cependant de vous rappe-",
+            "edits": 0,
+            "characters": 45,
+            "rate": 0.0
+          },
+          {
+            "id": "A7f6e90239fc",
+            "left": "trompeuses, on met aux voix le principe",
+            "right": "tumultueuses, on met aux voix le principe",
+            "edits": 6,
+            "characters": 39,
+            "rate": 0.15384615384615385
+          },
+          {
+            "id": "A83fca1b6467",
+            "left": "se groupaient rue Montmartre et, entourant",
+            "right": "se groupaient rue Montmartre et, entourant",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab1bea4f18de",
+            "left": "ril et Froyer, la pièce slave du Théâtre des",
+            "right": "ril et Froyez, la pièce slave du Théâtre des",
+            "edits": 1,
+            "characters": 44,
+            "rate": 0.022727272727272728
+          },
+          {
+            "id": "Ad50745af3ad",
+            "left": "avril, MM. Béyle, Fougère et Delvoye inter-",
+            "right": "avril. MM. Beyle, Fugère et Delvoye inter-",
+            "edits": 3,
+            "characters": 43,
+            "rate": 0.06976744186046512
+          },
+          {
+            "id": "A4feebdca602",
+            "left": "ports qui n’ont pas dépassé 2 1/4 0/0.",
+            "right": "ports qui n'ont pas dépassé 2 1/4 0/0.",
+            "edits": 1,
+            "characters": 38,
+            "rate": 0.02631578947368421
+          },
+          {
+            "id": "A90446a8ea23",
+            "left": "ment de la population et recherche les prin-",
+            "right": "ment de la population et recherche les prin-",
+            "edits": 0,
+            "characters": 44,
+            "rate": 0.0
+          },
+          {
+            "id": "A03d2a12a76f",
+            "left": "La Coupe Charles, pour les ballons jus-",
+            "right": "La Coupe Charles, pour les ballons jus-",
+            "edits": 0,
+            "characters": 39,
+            "rate": 0.0
+          },
+          {
+            "id": "A6a411860da2",
+            "left": "tions du syndicat national des ouvriers des",
+            "right": "tions du syndicat national des ouvriers des",
+            "edits": 0,
+            "characters": 43,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab5bdf5500ee",
+            "left": "qu’à 900 mètres cubes, avec distance mini-",
+            "right": "quü 900 metres cubes, avec distance mini-",
+            "edits": 3,
+            "characters": 42,
+            "rate": 0.07142857142857142
+          },
+          {
+            "id": "A56efd5c427f",
+            "left": "discussion théorique extrêmement confuse.",
+            "right": "dicussion théorique extrêmement confuse.",
+            "edits": 1,
+            "characters": 41,
+            "rate": 0.024390243902439025
+          }
+        ]
+      }
+    },
+    "typographic": {
+      "distributed_vs_luna": {
+        "lines": 45,
+        "exact_lines": 17,
+        "characters": 1710,
+        "edits": 87,
+        "cer": 0.05087719298245614,
+        "per_line": [
+          {
+            "id": "A361adde199f",
+            "left": "qu'il n'y ait r:er faire ? Se peut-il que",
+            "right": "qu'il n'y ait rien à faire? Se peut-il que",
+            "edits": 5,
+            "characters": 41,
+            "rate": 0.12195121951219512
+          },
+          {
+            "id": "A40c75336e8a",
+            "left": "Il est inutile de dire que cette unité, il la voulut",
+            "right": "Il est inutile de dire que cette unité, il la voulut",
+            "edits": 0,
+            "characters": 52,
+            "rate": 0.0
+          },
+          {
+            "id": "A5d5568ef844",
+            "left": "rades *n leur recommandant dans ces",
+            "right": "rades en leur recommandant dans ces",
+            "edits": 1,
+            "characters": 35,
+            "rate": 0.02857142857142857
+          },
+          {
+            "id": "A19c519a0bee",
+            "left": "tement la vie de Jean Jaurès.",
+            "right": "tement la vie de Jean Jaurès.",
+            "edits": 0,
+            "characters": 29,
+            "rate": 0.0
+          },
+          {
+            "id": "A2f42313bb83",
+            "left": "48â>>7 votanti. Il s'était présenté sur. la liste ré»",
+            "right": "48.067 votants. Il s'était présenté sur la liste ré-",
+            "edits": 6,
+            "characters": 53,
+            "rate": 0.11320754716981132
+          },
+          {
+            "id": "A9fe3293e3a3",
+            "left": "Jean Jaurès est né à Castrés, le 3 septem-",
+            "right": "Jean Jaurès est né à Castres, le 3 septem-",
+            "edits": 1,
+            "characters": 42,
+            "rate": 0.023809523809523808
+          },
+          {
+            "id": "A233a93f55f9",
+            "left": "robuâte, sa puissance de travail sans limite, et",
+            "right": "robuste, sa puissance de travail sans limite, et",
+            "edits": 1,
+            "characters": 48,
+            "rate": 0.020833333333333332
+          },
+          {
+            "id": "A6d004756d4d",
+            "left": "grandes douleurs:.",
+            "right": "grandes douleurs.",
+            "edits": 1,
+            "characters": 18,
+            "rate": 0.05555555555555555
+          },
+          {
+            "id": "A14056b29ea0",
+            "left": "Pour l'histoire, Jean Jaurès, gloire",
+            "right": "Pour l'histoire, Jean Jaurès, gloire",
+            "edits": 0,
+            "characters": 36,
+            "rate": 0.0
+          },
+          {
+            "id": "Abf53223e8e1",
+            "left": "Sa campagne contre, l'expédition ma-",
+            "right": "Sa campagne contre l'expédition ma-",
+            "edits": 1,
+            "characters": 36,
+            "rate": 0.027777777777777776
+          },
+          {
+            "id": "Ad92445bd85b",
+            "left": "au nom de mes collègues devant la",
+            "right": "au nom de mes collègues devant la",
+            "edits": 0,
+            "characters": 33,
+            "rate": 0.0
+          },
+          {
+            "id": "A1b927fe26e0",
+            "left": "Ses camarades de \"l'Ecole normale ont souvent",
+            "right": "Ses camarades de l'École normale ont souvent",
+            "edits": 2,
+            "characters": 45,
+            "rate": 0.044444444444444446
+          },
+          {
+            "id": "Afe4c02aa3e8",
+            "left": "tives qui ne sauraient résumer complè-",
+            "right": "tives qui ne sauraient résumer complè-",
+            "edits": 0,
+            "characters": 38,
+            "rate": 0.0
+          },
+          {
+            "id": "A8230d6f70bc",
+            "left": "En 1880, le scrutin d'arrondissement étant réta-",
+            "right": "En 1889, le scrutin d'arrondissement étant réta-",
+            "edits": 1,
+            "characters": 48,
+            "rate": 0.020833333333333332
+          },
+          {
+            "id": "Aaf0626b7f4c",
+            "left": "quenté. On entrait, on sortait, nous ne",
+            "right": "quenté. On entrait, on sortait, nous ne",
+            "edits": 0,
+            "characters": 39,
+            "rate": 0.0
+          },
+          {
+            "id": "Aaf4b23b2603",
+            "left": "d'une carte d'atlas sous une feuille de pa-",
+            "right": "d'une carte d'atlas sous une feuille de pa-",
+            "edits": 0,
+            "characters": 43,
+            "rate": 0.0
+          },
+          {
+            "id": "A6bbd0884db6",
+            "left": "seul n'est communiste. C'est donc bien",
+            "right": "Seul n'est communiste. C'est donc bien",
+            "edits": 1,
+            "characters": 38,
+            "rate": 0.02631578947368421
+          },
+          {
+            "id": "Ac4aa7938e2b",
+            "left": "moins à la dissolution du Landtag, c'est-à-",
+            "right": "moins à la dissolution du Landtag, c'est-à-",
+            "edits": 0,
+            "characters": 43,
+            "rate": 0.0
+          },
+          {
+            "id": "Ad67c6d55f4b",
+            "left": "POIL' DE CAROTTE",
+            "right": "POIL DE CAROTTE",
+            "edits": 1,
+            "characters": 16,
+            "rate": 0.0625
+          },
+          {
+            "id": "A2607602d758",
+            "left": "de Guillaume Il est \"président de la Répu-",
+            "right": "de Guillaume II est président de la Répu-",
+            "edits": 2,
+            "characters": 42,
+            "rate": 0.047619047619047616
+          },
+          {
+            "id": "A44abf7e6466",
+            "left": "Ça dépend. La version va mieux que le",
+            "right": "Ça dépend. La version va mieux que le",
+            "edits": 0,
+            "characters": 37,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab80e0c264e4",
+            "left": "frontière polonaise, le Welt am Abend con-",
+            "right": "frontière polonaise, le Welt am Abend con-",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "A85044b80638",
+            "left": "AVIS AUX CLUBS",
+            "right": "AVIS AUX CLUBS",
+            "edits": 0,
+            "characters": 14,
+            "rate": 0.0
+          },
+          {
+            "id": "A368f6eccc25",
+            "left": "est couché et, se haussant sur la pointe",
+            "right": "est couché et, se haussant sur la pointe",
+            "edits": 0,
+            "characters": 40,
+            "rate": 0.0
+          },
+          {
+            "id": "Af412c29907c",
+            "left": "de Paris.",
+            "right": "de Paris.",
+            "edits": 0,
+            "characters": 9,
+            "rate": 0.0
+          },
+          {
+            "id": "A010196005e7",
+            "left": "ler ce que'les syndicalistes anglais ne s'é-",
+            "right": "1er à ce que les syndicalistes anglais ne s'é-",
+            "edits": 4,
+            "characters": 44,
+            "rate": 0.09090909090909091
+          },
+          {
+            "id": "Acb2486271c4",
+            "left": "Il a- de nouveau .affirmé que Ta paix du",
+            "right": "Il a de nouveau affirmé que la paix du",
+            "edits": 3,
+            "characters": 40,
+            "rate": 0.075
+          },
+          {
+            "id": "A389d3a03ea3",
+            "left": "A Moscou, la journée du Premier Mai",
+            "right": "A Moscou, la journée du Premier Mai",
+            "edits": 0,
+            "characters": 35,
+            "rate": 0.0
+          },
+          {
+            "id": "Abfff3088c42",
+            "left": "i.oD] et les travailleurs bulgares. Lorsqu'ils",
+            "right": "l'objet les travailleurs bulgares. Lorsqu'ils",
+            "edits": 5,
+            "characters": 46,
+            "rate": 0.10869565217391304
+          },
+          {
+            "id": "A8196da08108",
+            "left": "i thurg, que l'on commence à appeler, imi-",
+            "right": "bourg, que l'on commence à appeler, imi-",
+            "edits": 4,
+            "characters": 42,
+            "rate": 0.09523809523809523
+          },
+          {
+            "id": "Acf3493efcb2",
+            "left": "LG Eeifrèsies Cheminots",
+            "right": "Le Congrès des Cheminots",
+            "edits": 7,
+            "characters": 23,
+            "rate": 0.30434782608695654
+          },
+          {
+            "id": "Ae69a5af53af",
+            "left": "qui accompagneront sur l'affiche la magni-",
+            "right": "qui accompagnèrent sur l'affiche la magni-",
+            "edits": 2,
+            "characters": 42,
+            "rate": 0.047619047619047616
+          },
+          {
+            "id": "A0080b7b82be",
+            "left": "â¢Gaivet a rejeté les torts sur des voisins que,",
+            "right": "Calvet a rejeté les torts sur des voisins que,",
+            "edits": 5,
+            "characters": 49,
+            "rate": 0.10204081632653061
+          },
+          {
+            "id": "Ac2dbc120cb2",
+            "left": "L. Cams.",
+            "right": "L. Cams.",
+            "edits": 0,
+            "characters": 8,
+            "rate": 0.0
+          },
+          {
+            "id": "A4b427ed4c41",
+            "left": "il est de soa devoir cependant de vous rappe-",
+            "right": "Il est de son devoir cependant de vous rappe-",
+            "edits": 2,
+            "characters": 45,
+            "rate": 0.044444444444444446
+          },
+          {
+            "id": "A7f6e90239fc",
+            "left": "turmdtTOuges, oui met aux voix le principe",
+            "right": "trompeuses, on met aux voix le principe",
+            "edits": 9,
+            "characters": 42,
+            "rate": 0.21428571428571427
+          },
+          {
+            "id": "A83fca1b6467",
+            "left": "se groupaient rue Montmartre et, entourant",
+            "right": "se groupaient rue Montmartre et, entourant",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab1bea4f18de",
+            "left": "ril ot, Froyoîs, la pièce slave du Théâtre des",
+            "right": "ril et Froyer, la pièce slave du Théâtre des",
+            "edits": 5,
+            "characters": 46,
+            "rate": 0.10869565217391304
+          },
+          {
+            "id": "Ad50745af3ad",
+            "left": "avril. MM. Beyïe, Pugèro e* Delwye inter-",
+            "right": "avril, MM. Béyle, Fougère et Delvoye inter-",
+            "edits": 9,
+            "characters": 41,
+            "rate": 0.21951219512195122
+          },
+          {
+            "id": "A4feebdca602",
+            "left": "ports qui n'ont, pas dépassé 2 1/4 0/0.",
+            "right": "ports qui n'ont pas dépassé 2 1/4 0/0.",
+            "edits": 1,
+            "characters": 39,
+            "rate": 0.02564102564102564
+          },
+          {
+            "id": "A90446a8ea23",
+            "left": "ment de la population et recherche tes prin-",
+            "right": "ment de la population et recherche les prin-",
+            "edits": 1,
+            "characters": 44,
+            "rate": 0.022727272727272728
+          },
+          {
+            "id": "A03d2a12a76f",
+            "left": "La Coupe Chaules, pour les ballons jus-",
+            "right": "La Coupe Charles, pour les ballons jus-",
+            "edits": 1,
+            "characters": 39,
+            "rate": 0.02564102564102564
+          },
+          {
+            "id": "A6a411860da2",
+            "left": "tions du Syndicat national des ouvriers des",
+            "right": "tions du syndicat national des ouvriers des",
+            "edits": 1,
+            "characters": 43,
+            "rate": 0.023255813953488372
+          },
+          {
+            "id": "Ab5bdf5500ee",
+            "left": "qu'à 900'mètpee cubes, avec distance imni-",
+            "right": "qu'à 900 mètres cubes, avec distance mini-",
+            "edits": 5,
+            "characters": 42,
+            "rate": 0.11904761904761904
+          },
+          {
+            "id": "A56efd5c427f",
+            "left": "discussion théorique extrêmement confuse.",
+            "right": "discussion théorique extrêmement confuse.",
+            "edits": 0,
+            "characters": 41,
+            "rate": 0.0
+          }
+        ]
+      },
+      "distributed_vs_pero": {
+        "lines": 45,
+        "exact_lines": 15,
+        "characters": 1710,
+        "edits": 86,
+        "cer": 0.050292397660818715,
+        "per_line": [
+          {
+            "id": "A361adde199f",
+            "left": "qu'il n'y ait r:er faire ? Se peut-il que",
+            "right": "qu'il n'y ait rien à faire ? Se peut-il que",
+            "edits": 4,
+            "characters": 41,
+            "rate": 0.0975609756097561
+          },
+          {
+            "id": "A40c75336e8a",
+            "left": "Il est inutile de dire que cette unité, il la voulut",
+            "right": "Il est inutile de dire que cette unité, il la voulut",
+            "edits": 0,
+            "characters": 52,
+            "rate": 0.0
+          },
+          {
+            "id": "A5d5568ef844",
+            "left": "rades *n leur recommandant dans ces",
+            "right": "rades en lear recommandant dans ces",
+            "edits": 2,
+            "characters": 35,
+            "rate": 0.05714285714285714
+          },
+          {
+            "id": "A19c519a0bee",
+            "left": "tement la vie de Jean Jaurès.",
+            "right": "tement la vie de Jean Jaurès.",
+            "edits": 0,
+            "characters": 29,
+            "rate": 0.0
+          },
+          {
+            "id": "A2f42313bb83",
+            "left": "48â>>7 votanti. Il s'était présenté sur. la liste ré»",
+            "right": "48.087 votants. Il s'était présenté sur la liste ré-",
+            "edits": 6,
+            "characters": 53,
+            "rate": 0.11320754716981132
+          },
+          {
+            "id": "A9fe3293e3a3",
+            "left": "Jean Jaurès est né à Castrés, le 3 septem-",
+            "right": "Jean Jaurès est né à Castres, le 3 septem-",
+            "edits": 1,
+            "characters": 42,
+            "rate": 0.023809523809523808
+          },
+          {
+            "id": "A233a93f55f9",
+            "left": "robuâte, sa puissance de travail sans limite, et",
+            "right": "robuste, sa puissance de travail sans limite, et",
+            "edits": 1,
+            "characters": 48,
+            "rate": 0.020833333333333332
+          },
+          {
+            "id": "A6d004756d4d",
+            "left": "grandes douleurs:.",
+            "right": "grandes douleurs.",
+            "edits": 1,
+            "characters": 18,
+            "rate": 0.05555555555555555
+          },
+          {
+            "id": "A14056b29ea0",
+            "left": "Pour l'histoire, Jean Jaurès, gloire",
+            "right": "Pour l'histoire, Jean Jaurès, gloire",
+            "edits": 0,
+            "characters": 36,
+            "rate": 0.0
+          },
+          {
+            "id": "Abf53223e8e1",
+            "left": "Sa campagne contre, l'expédition ma-",
+            "right": "Sa campagne contre l'expédition ma-",
+            "edits": 1,
+            "characters": 36,
+            "rate": 0.027777777777777776
+          },
+          {
+            "id": "Ad92445bd85b",
+            "left": "au nom de mes collègues devant la",
+            "right": "au nom de mes collègues devant la",
+            "edits": 0,
+            "characters": 33,
+            "rate": 0.0
+          },
+          {
+            "id": "A1b927fe26e0",
+            "left": "Ses camarades de \"l'Ecole normale ont souvent",
+            "right": "Ses camarades de l'Ecole normale ont souvent",
+            "edits": 1,
+            "characters": 45,
+            "rate": 0.022222222222222223
+          },
+          {
+            "id": "Afe4c02aa3e8",
+            "left": "tives qui ne sauraient résumer complè-",
+            "right": "tives qui ne sauraient résumer complè-",
+            "edits": 0,
+            "characters": 38,
+            "rate": 0.0
+          },
+          {
+            "id": "A8230d6f70bc",
+            "left": "En 1880, le scrutin d'arrondissement étant réta-",
+            "right": "En 1889, le scrutin d'arrondissement étant réta-",
+            "edits": 1,
+            "characters": 48,
+            "rate": 0.020833333333333332
+          },
+          {
+            "id": "Aaf0626b7f4c",
+            "left": "quenté. On entrait, on sortait, nous ne",
+            "right": "quenté. On entrait, on sortait, nous ne",
+            "edits": 0,
+            "characters": 39,
+            "rate": 0.0
+          },
+          {
+            "id": "Aaf4b23b2603",
+            "left": "d'une carte d'atlas sous une feuille de pa-",
+            "right": "d'une carte d'atlas sous une feuïlle de pa-",
+            "edits": 1,
+            "characters": 43,
+            "rate": 0.023255813953488372
+          },
+          {
+            "id": "A6bbd0884db6",
+            "left": "seul n'est communiste. C'est donc bien",
+            "right": "seul n'est communiste. C'est donc bien",
+            "edits": 0,
+            "characters": 38,
+            "rate": 0.0
+          },
+          {
+            "id": "Ac4aa7938e2b",
+            "left": "moins à la dissolution du Landtag, c'est-à-",
+            "right": "moins à la dissolution du Landtag, c'est-à-",
+            "edits": 0,
+            "characters": 43,
+            "rate": 0.0
+          },
+          {
+            "id": "Ad67c6d55f4b",
+            "left": "POIL' DE CAROTTE",
+            "right": "POIL DE CAROTTE",
+            "edits": 1,
+            "characters": 16,
+            "rate": 0.0625
+          },
+          {
+            "id": "A2607602d758",
+            "left": "de Guillaume Il est \"président de la Répu-",
+            "right": "de Guillaume II est président de la Répu-",
+            "edits": 2,
+            "characters": 42,
+            "rate": 0.047619047619047616
+          },
+          {
+            "id": "A44abf7e6466",
+            "left": "Ça dépend. La version va mieux que le",
+            "right": "Ca dépend. La version va mieux que le",
+            "edits": 1,
+            "characters": 37,
+            "rate": 0.02702702702702703
+          },
+          {
+            "id": "Ab80e0c264e4",
+            "left": "frontière polonaise, le Welt am Abend con-",
+            "right": "frontière polonaise, le Welt am Abend con-",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "A85044b80638",
+            "left": "AVIS AUX CLUBS",
+            "right": "AVIS AUX ČLUBS",
+            "edits": 1,
+            "characters": 14,
+            "rate": 0.07142857142857142
+          },
+          {
+            "id": "A368f6eccc25",
+            "left": "est couché et, se haussant sur la pointe",
+            "right": "est couché et, se haussant sur la pointe",
+            "edits": 0,
+            "characters": 40,
+            "rate": 0.0
+          },
+          {
+            "id": "Af412c29907c",
+            "left": "de Paris.",
+            "right": "de Paris.",
+            "edits": 0,
+            "characters": 9,
+            "rate": 0.0
+          },
+          {
+            "id": "A010196005e7",
+            "left": "ler ce que'les syndicalistes anglais ne s'é-",
+            "right": "ler à ce que les syndicalistes anglais ne s'é-",
+            "edits": 3,
+            "characters": 44,
+            "rate": 0.06818181818181818
+          },
+          {
+            "id": "Acb2486271c4",
+            "left": "Il a- de nouveau .affirmé que Ta paix du",
+            "right": "Il a de nouveau affirmé que la paix du",
+            "edits": 3,
+            "characters": 40,
+            "rate": 0.075
+          },
+          {
+            "id": "A389d3a03ea3",
+            "left": "A Moscou, la journée du Premier Mai",
+            "right": "A Moscou, la journée du Premier Mai",
+            "edits": 0,
+            "characters": 35,
+            "rate": 0.0
+          },
+          {
+            "id": "Abfff3088c42",
+            "left": "i.oD] et les travailleurs bulgares. Lorsqu'ils",
+            "right": "l'objet les travailleurs bulgares. Lorsqu'ils",
+            "edits": 5,
+            "characters": 46,
+            "rate": 0.10869565217391304
+          },
+          {
+            "id": "A8196da08108",
+            "left": "i thurg, que l'on commence à appeler, imi-",
+            "right": "burg, que l'on commence à appeler, imi-",
+            "edits": 4,
+            "characters": 42,
+            "rate": 0.09523809523809523
+          },
+          {
+            "id": "Acf3493efcb2",
+            "left": "LG Eeifrèsies Cheminots",
+            "right": "Le Congres des Cheminots",
+            "edits": 8,
+            "characters": 23,
+            "rate": 0.34782608695652173
+          },
+          {
+            "id": "Ae69a5af53af",
+            "left": "qui accompagneront sur l'affiche la magni-",
+            "right": "qui accompagneront sur l'affiche la magni-",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "A0080b7b82be",
+            "left": "â¢Gaivet a rejeté les torts sur des voisins que,",
+            "right": "Calvet a rejeté les torts sur des voisins que,",
+            "edits": 5,
+            "characters": 49,
+            "rate": 0.10204081632653061
+          },
+          {
+            "id": "Ac2dbc120cb2",
+            "left": "L. Cams.",
+            "right": "L. Cams.",
+            "edits": 0,
+            "characters": 8,
+            "rate": 0.0
+          },
+          {
+            "id": "A4b427ed4c41",
+            "left": "il est de soa devoir cependant de vous rappe-",
+            "right": "Il est de son devoir cependant de vous rappe-",
+            "edits": 2,
+            "characters": 45,
+            "rate": 0.044444444444444446
+          },
+          {
+            "id": "A7f6e90239fc",
+            "left": "turmdtTOuges, oui met aux voix le principe",
+            "right": "tumultueuses, on met aux voix le principe",
+            "edits": 8,
+            "characters": 42,
+            "rate": 0.19047619047619047
+          },
+          {
+            "id": "A83fca1b6467",
+            "left": "se groupaient rue Montmartre et, entourant",
+            "right": "se groupaient rue Montmartre et, entourant",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab1bea4f18de",
+            "left": "ril ot, Froyoîs, la pièce slave du Théâtre des",
+            "right": "ril et Froyez, la pièce slave du Théâtre des",
+            "edits": 5,
+            "characters": 46,
+            "rate": 0.10869565217391304
+          },
+          {
+            "id": "Ad50745af3ad",
+            "left": "avril. MM. Beyïe, Pugèro e* Delwye inter-",
+            "right": "avril. MM. Beyle, Fugère et Delvoye inter-",
+            "edits": 6,
+            "characters": 41,
+            "rate": 0.14634146341463414
+          },
+          {
+            "id": "A4feebdca602",
+            "left": "ports qui n'ont, pas dépassé 2 1/4 0/0.",
+            "right": "ports qui n'ont pas dépassé 2 1/4 0/0.",
+            "edits": 1,
+            "characters": 39,
+            "rate": 0.02564102564102564
+          },
+          {
+            "id": "A90446a8ea23",
+            "left": "ment de la population et recherche tes prin-",
+            "right": "ment de la population et recherche les prin-",
+            "edits": 1,
+            "characters": 44,
+            "rate": 0.022727272727272728
+          },
+          {
+            "id": "A03d2a12a76f",
+            "left": "La Coupe Chaules, pour les ballons jus-",
+            "right": "La Coupe Charles, pour les ballons jus-",
+            "edits": 1,
+            "characters": 39,
+            "rate": 0.02564102564102564
+          },
+          {
+            "id": "A6a411860da2",
+            "left": "tions du Syndicat national des ouvriers des",
+            "right": "tions du syndicat national des ouvriers des",
+            "edits": 1,
+            "characters": 43,
+            "rate": 0.023255813953488372
+          },
+          {
+            "id": "Ab5bdf5500ee",
+            "left": "qu'à 900'mètpee cubes, avec distance imni-",
+            "right": "quü 900 metres cubes, avec distance mini-",
+            "edits": 8,
+            "characters": 42,
+            "rate": 0.19047619047619047
+          },
+          {
+            "id": "A56efd5c427f",
+            "left": "discussion théorique extrêmement confuse.",
+            "right": "dicussion théorique extrêmement confuse.",
+            "edits": 1,
+            "characters": 41,
+            "rate": 0.024390243902439025
+          }
+        ]
+      },
+      "luna_vs_pero": {
+        "lines": 45,
+        "exact_lines": 28,
+        "characters": 1696,
+        "edits": 27,
+        "cer": 0.015919811320754717,
+        "per_line": [
+          {
+            "id": "A361adde199f",
+            "left": "qu'il n'y ait rien à faire? Se peut-il que",
+            "right": "qu'il n'y ait rien à faire ? Se peut-il que",
+            "edits": 1,
+            "characters": 42,
+            "rate": 0.023809523809523808
+          },
+          {
+            "id": "A40c75336e8a",
+            "left": "Il est inutile de dire que cette unité, il la voulut",
+            "right": "Il est inutile de dire que cette unité, il la voulut",
+            "edits": 0,
+            "characters": 52,
+            "rate": 0.0
+          },
+          {
+            "id": "A5d5568ef844",
+            "left": "rades en leur recommandant dans ces",
+            "right": "rades en lear recommandant dans ces",
+            "edits": 1,
+            "characters": 35,
+            "rate": 0.02857142857142857
+          },
+          {
+            "id": "A19c519a0bee",
+            "left": "tement la vie de Jean Jaurès.",
+            "right": "tement la vie de Jean Jaurès.",
+            "edits": 0,
+            "characters": 29,
+            "rate": 0.0
+          },
+          {
+            "id": "A2f42313bb83",
+            "left": "48.067 votants. Il s'était présenté sur la liste ré-",
+            "right": "48.087 votants. Il s'était présenté sur la liste ré-",
+            "edits": 1,
+            "characters": 52,
+            "rate": 0.019230769230769232
+          },
+          {
+            "id": "A9fe3293e3a3",
+            "left": "Jean Jaurès est né à Castres, le 3 septem-",
+            "right": "Jean Jaurès est né à Castres, le 3 septem-",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "A233a93f55f9",
+            "left": "robuste, sa puissance de travail sans limite, et",
+            "right": "robuste, sa puissance de travail sans limite, et",
+            "edits": 0,
+            "characters": 48,
+            "rate": 0.0
+          },
+          {
+            "id": "A6d004756d4d",
+            "left": "grandes douleurs.",
+            "right": "grandes douleurs.",
+            "edits": 0,
+            "characters": 17,
+            "rate": 0.0
+          },
+          {
+            "id": "A14056b29ea0",
+            "left": "Pour l'histoire, Jean Jaurès, gloire",
+            "right": "Pour l'histoire, Jean Jaurès, gloire",
+            "edits": 0,
+            "characters": 36,
+            "rate": 0.0
+          },
+          {
+            "id": "Abf53223e8e1",
+            "left": "Sa campagne contre l'expédition ma-",
+            "right": "Sa campagne contre l'expédition ma-",
+            "edits": 0,
+            "characters": 35,
+            "rate": 0.0
+          },
+          {
+            "id": "Ad92445bd85b",
+            "left": "au nom de mes collègues devant la",
+            "right": "au nom de mes collègues devant la",
+            "edits": 0,
+            "characters": 33,
+            "rate": 0.0
+          },
+          {
+            "id": "A1b927fe26e0",
+            "left": "Ses camarades de l'École normale ont souvent",
+            "right": "Ses camarades de l'Ecole normale ont souvent",
+            "edits": 1,
+            "characters": 44,
+            "rate": 0.022727272727272728
+          },
+          {
+            "id": "Afe4c02aa3e8",
+            "left": "tives qui ne sauraient résumer complè-",
+            "right": "tives qui ne sauraient résumer complè-",
+            "edits": 0,
+            "characters": 38,
+            "rate": 0.0
+          },
+          {
+            "id": "A8230d6f70bc",
+            "left": "En 1889, le scrutin d'arrondissement étant réta-",
+            "right": "En 1889, le scrutin d'arrondissement étant réta-",
+            "edits": 0,
+            "characters": 48,
+            "rate": 0.0
+          },
+          {
+            "id": "Aaf0626b7f4c",
+            "left": "quenté. On entrait, on sortait, nous ne",
+            "right": "quenté. On entrait, on sortait, nous ne",
+            "edits": 0,
+            "characters": 39,
+            "rate": 0.0
+          },
+          {
+            "id": "Aaf4b23b2603",
+            "left": "d'une carte d'atlas sous une feuille de pa-",
+            "right": "d'une carte d'atlas sous une feuïlle de pa-",
+            "edits": 1,
+            "characters": 43,
+            "rate": 0.023255813953488372
+          },
+          {
+            "id": "A6bbd0884db6",
+            "left": "Seul n'est communiste. C'est donc bien",
+            "right": "seul n'est communiste. C'est donc bien",
+            "edits": 1,
+            "characters": 38,
+            "rate": 0.02631578947368421
+          },
+          {
+            "id": "Ac4aa7938e2b",
+            "left": "moins à la dissolution du Landtag, c'est-à-",
+            "right": "moins à la dissolution du Landtag, c'est-à-",
+            "edits": 0,
+            "characters": 43,
+            "rate": 0.0
+          },
+          {
+            "id": "Ad67c6d55f4b",
+            "left": "POIL DE CAROTTE",
+            "right": "POIL DE CAROTTE",
+            "edits": 0,
+            "characters": 15,
+            "rate": 0.0
+          },
+          {
+            "id": "A2607602d758",
+            "left": "de Guillaume II est président de la Répu-",
+            "right": "de Guillaume II est président de la Répu-",
+            "edits": 0,
+            "characters": 41,
+            "rate": 0.0
+          },
+          {
+            "id": "A44abf7e6466",
+            "left": "Ça dépend. La version va mieux que le",
+            "right": "Ca dépend. La version va mieux que le",
+            "edits": 1,
+            "characters": 37,
+            "rate": 0.02702702702702703
+          },
+          {
+            "id": "Ab80e0c264e4",
+            "left": "frontière polonaise, le Welt am Abend con-",
+            "right": "frontière polonaise, le Welt am Abend con-",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "A85044b80638",
+            "left": "AVIS AUX CLUBS",
+            "right": "AVIS AUX ČLUBS",
+            "edits": 1,
+            "characters": 14,
+            "rate": 0.07142857142857142
+          },
+          {
+            "id": "A368f6eccc25",
+            "left": "est couché et, se haussant sur la pointe",
+            "right": "est couché et, se haussant sur la pointe",
+            "edits": 0,
+            "characters": 40,
+            "rate": 0.0
+          },
+          {
+            "id": "Af412c29907c",
+            "left": "de Paris.",
+            "right": "de Paris.",
+            "edits": 0,
+            "characters": 9,
+            "rate": 0.0
+          },
+          {
+            "id": "A010196005e7",
+            "left": "1er à ce que les syndicalistes anglais ne s'é-",
+            "right": "ler à ce que les syndicalistes anglais ne s'é-",
+            "edits": 1,
+            "characters": 46,
+            "rate": 0.021739130434782608
+          },
+          {
+            "id": "Acb2486271c4",
+            "left": "Il a de nouveau affirmé que la paix du",
+            "right": "Il a de nouveau affirmé que la paix du",
+            "edits": 0,
+            "characters": 38,
+            "rate": 0.0
+          },
+          {
+            "id": "A389d3a03ea3",
+            "left": "A Moscou, la journée du Premier Mai",
+            "right": "A Moscou, la journée du Premier Mai",
+            "edits": 0,
+            "characters": 35,
+            "rate": 0.0
+          },
+          {
+            "id": "Abfff3088c42",
+            "left": "l'objet les travailleurs bulgares. Lorsqu'ils",
+            "right": "l'objet les travailleurs bulgares. Lorsqu'ils",
+            "edits": 0,
+            "characters": 45,
+            "rate": 0.0
+          },
+          {
+            "id": "A8196da08108",
+            "left": "bourg, que l'on commence à appeler, imi-",
+            "right": "burg, que l'on commence à appeler, imi-",
+            "edits": 1,
+            "characters": 40,
+            "rate": 0.025
+          },
+          {
+            "id": "Acf3493efcb2",
+            "left": "Le Congrès des Cheminots",
+            "right": "Le Congres des Cheminots",
+            "edits": 1,
+            "characters": 24,
+            "rate": 0.041666666666666664
+          },
+          {
+            "id": "Ae69a5af53af",
+            "left": "qui accompagnèrent sur l'affiche la magni-",
+            "right": "qui accompagneront sur l'affiche la magni-",
+            "edits": 2,
+            "characters": 42,
+            "rate": 0.047619047619047616
+          },
+          {
+            "id": "A0080b7b82be",
+            "left": "Calvet a rejeté les torts sur des voisins que,",
+            "right": "Calvet a rejeté les torts sur des voisins que,",
+            "edits": 0,
+            "characters": 46,
+            "rate": 0.0
+          },
+          {
+            "id": "Ac2dbc120cb2",
+            "left": "L. Cams.",
+            "right": "L. Cams.",
+            "edits": 0,
+            "characters": 8,
+            "rate": 0.0
+          },
+          {
+            "id": "A4b427ed4c41",
+            "left": "Il est de son devoir cependant de vous rappe-",
+            "right": "Il est de son devoir cependant de vous rappe-",
+            "edits": 0,
+            "characters": 45,
+            "rate": 0.0
+          },
+          {
+            "id": "A7f6e90239fc",
+            "left": "trompeuses, on met aux voix le principe",
+            "right": "tumultueuses, on met aux voix le principe",
+            "edits": 6,
+            "characters": 39,
+            "rate": 0.15384615384615385
+          },
+          {
+            "id": "A83fca1b6467",
+            "left": "se groupaient rue Montmartre et, entourant",
+            "right": "se groupaient rue Montmartre et, entourant",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab1bea4f18de",
+            "left": "ril et Froyer, la pièce slave du Théâtre des",
+            "right": "ril et Froyez, la pièce slave du Théâtre des",
+            "edits": 1,
+            "characters": 44,
+            "rate": 0.022727272727272728
+          },
+          {
+            "id": "Ad50745af3ad",
+            "left": "avril, MM. Béyle, Fougère et Delvoye inter-",
+            "right": "avril. MM. Beyle, Fugère et Delvoye inter-",
+            "edits": 3,
+            "characters": 43,
+            "rate": 0.06976744186046512
+          },
+          {
+            "id": "A4feebdca602",
+            "left": "ports qui n'ont pas dépassé 2 1/4 0/0.",
+            "right": "ports qui n'ont pas dépassé 2 1/4 0/0.",
+            "edits": 0,
+            "characters": 38,
+            "rate": 0.0
+          },
+          {
+            "id": "A90446a8ea23",
+            "left": "ment de la population et recherche les prin-",
+            "right": "ment de la population et recherche les prin-",
+            "edits": 0,
+            "characters": 44,
+            "rate": 0.0
+          },
+          {
+            "id": "A03d2a12a76f",
+            "left": "La Coupe Charles, pour les ballons jus-",
+            "right": "La Coupe Charles, pour les ballons jus-",
+            "edits": 0,
+            "characters": 39,
+            "rate": 0.0
+          },
+          {
+            "id": "A6a411860da2",
+            "left": "tions du syndicat national des ouvriers des",
+            "right": "tions du syndicat national des ouvriers des",
+            "edits": 0,
+            "characters": 43,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab5bdf5500ee",
+            "left": "qu'à 900 mètres cubes, avec distance mini-",
+            "right": "quü 900 metres cubes, avec distance mini-",
+            "edits": 3,
+            "characters": 42,
+            "rate": 0.07142857142857142
+          },
+          {
+            "id": "A56efd5c427f",
+            "left": "discussion théorique extrêmement confuse.",
+            "right": "dicussion théorique extrêmement confuse.",
+            "edits": 1,
+            "characters": 41,
+            "rate": 0.024390243902439025
+          }
+        ]
+      }
+    },
+    "ir": {
+      "distributed_vs_luna": {
+        "lines": 45,
+        "exact_lines": 23,
+        "characters": 1640,
+        "edits": 66,
+        "cer": 0.04024390243902439,
+        "per_line": [
+          {
+            "id": "A361adde199f",
+            "left": "qu il n y ait r er faire se peut il que",
+            "right": "qu il n y ait rien à faire se peut il que",
+            "edits": 4,
+            "characters": 39,
+            "rate": 0.10256410256410256
+          },
+          {
+            "id": "A40c75336e8a",
+            "left": "il est inutile de dire que cette unité il la voulut",
+            "right": "il est inutile de dire que cette unité il la voulut",
+            "edits": 0,
+            "characters": 51,
+            "rate": 0.0
+          },
+          {
+            "id": "A5d5568ef844",
+            "left": "rades n leur recommandant dans ces",
+            "right": "rades en leur recommandant dans ces",
+            "edits": 1,
+            "characters": 34,
+            "rate": 0.029411764705882353
+          },
+          {
+            "id": "A19c519a0bee",
+            "left": "tement la vie de jean jaurès",
+            "right": "tement la vie de jean jaurès",
+            "edits": 0,
+            "characters": 28,
+            "rate": 0.0
+          },
+          {
+            "id": "A2f42313bb83",
+            "left": "48â 7 votanti il s était présenté sur la liste ré",
+            "right": "48 067 votants il s était présenté sur la liste ré",
+            "edits": 4,
+            "characters": 49,
+            "rate": 0.08163265306122448
+          },
+          {
+            "id": "A9fe3293e3a3",
+            "left": "jean jaurès est né à castrés le 3 septem",
+            "right": "jean jaurès est né à castres le 3 septem",
+            "edits": 1,
+            "characters": 40,
+            "rate": 0.025
+          },
+          {
+            "id": "A233a93f55f9",
+            "left": "robuâte sa puissance de travail sans limite et",
+            "right": "robuste sa puissance de travail sans limite et",
+            "edits": 1,
+            "characters": 46,
+            "rate": 0.021739130434782608
+          },
+          {
+            "id": "A6d004756d4d",
+            "left": "grandes douleurs",
+            "right": "grandes douleurs",
+            "edits": 0,
+            "characters": 16,
+            "rate": 0.0
+          },
+          {
+            "id": "A14056b29ea0",
+            "left": "pour l histoire jean jaurès gloire",
+            "right": "pour l histoire jean jaurès gloire",
+            "edits": 0,
+            "characters": 34,
+            "rate": 0.0
+          },
+          {
+            "id": "Abf53223e8e1",
+            "left": "sa campagne contre l expédition ma",
+            "right": "sa campagne contre l expédition ma",
+            "edits": 0,
+            "characters": 34,
+            "rate": 0.0
+          },
+          {
+            "id": "Ad92445bd85b",
+            "left": "au nom de mes collègues devant la",
+            "right": "au nom de mes collègues devant la",
+            "edits": 0,
+            "characters": 33,
+            "rate": 0.0
+          },
+          {
+            "id": "A1b927fe26e0",
+            "left": "ses camarades de l ecole normale ont souvent",
+            "right": "ses camarades de l école normale ont souvent",
+            "edits": 1,
+            "characters": 44,
+            "rate": 0.022727272727272728
+          },
+          {
+            "id": "Afe4c02aa3e8",
+            "left": "tives qui ne sauraient résumer complè",
+            "right": "tives qui ne sauraient résumer complè",
+            "edits": 0,
+            "characters": 37,
+            "rate": 0.0
+          },
+          {
+            "id": "A8230d6f70bc",
+            "left": "en 1880 le scrutin d arrondissement étant réta",
+            "right": "en 1889 le scrutin d arrondissement étant réta",
+            "edits": 1,
+            "characters": 46,
+            "rate": 0.021739130434782608
+          },
+          {
+            "id": "Aaf0626b7f4c",
+            "left": "quenté on entrait on sortait nous ne",
+            "right": "quenté on entrait on sortait nous ne",
+            "edits": 0,
+            "characters": 36,
+            "rate": 0.0
+          },
+          {
+            "id": "Aaf4b23b2603",
+            "left": "d une carte d atlas sous une feuille de pa",
+            "right": "d une carte d atlas sous une feuille de pa",
+            "edits": 0,
+            "characters": 42,
+            "rate": 0.0
+          },
+          {
+            "id": "A6bbd0884db6",
+            "left": "seul n est communiste c est donc bien",
+            "right": "seul n est communiste c est donc bien",
+            "edits": 0,
+            "characters": 37,
+            "rate": 0.0
+          },
+          {
+            "id": "Ac4aa7938e2b",
+            "left": "moins à la dissolution du landtag c est à",
+            "right": "moins à la dissolution du landtag c est à",
+            "edits": 0,
+            "characters": 41,
+            "rate": 0.0
+          },
+          {
+            "id": "Ad67c6d55f4b",
+            "left": "poil de carotte",
+            "right": "poil de carotte",
+            "edits": 0,
+            "characters": 15,
+            "rate": 0.0
+          },
+          {
+            "id": "A2607602d758",
+            "left": "de guillaume il est président de la répu",
+            "right": "de guillaume ii est président de la répu",
+            "edits": 1,
+            "characters": 40,
+            "rate": 0.025
+          },
+          {
+            "id": "A44abf7e6466",
+            "left": "ça dépend la version va mieux que le",
+            "right": "ça dépend la version va mieux que le",
+            "edits": 0,
+            "characters": 36,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab80e0c264e4",
+            "left": "frontière polonaise le welt am abend con",
+            "right": "frontière polonaise le welt am abend con",
+            "edits": 0,
+            "characters": 40,
+            "rate": 0.0
+          },
+          {
+            "id": "A85044b80638",
+            "left": "avis aux clubs",
+            "right": "avis aux clubs",
+            "edits": 0,
+            "characters": 14,
+            "rate": 0.0
+          },
+          {
+            "id": "A368f6eccc25",
+            "left": "est couché et se haussant sur la pointe",
+            "right": "est couché et se haussant sur la pointe",
+            "edits": 0,
+            "characters": 39,
+            "rate": 0.0
+          },
+          {
+            "id": "Af412c29907c",
+            "left": "de paris",
+            "right": "de paris",
+            "edits": 0,
+            "characters": 8,
+            "rate": 0.0
+          },
+          {
+            "id": "A010196005e7",
+            "left": "ler ce que les syndicalistes anglais ne s é",
+            "right": "1er à ce que les syndicalistes anglais ne s é",
+            "edits": 3,
+            "characters": 43,
+            "rate": 0.06976744186046512
+          },
+          {
+            "id": "Acb2486271c4",
+            "left": "il a de nouveau affirmé que ta paix du",
+            "right": "il a de nouveau affirmé que la paix du",
+            "edits": 1,
+            "characters": 38,
+            "rate": 0.02631578947368421
+          },
+          {
+            "id": "A389d3a03ea3",
+            "left": "a moscou la journée du premier mai",
+            "right": "a moscou la journée du premier mai",
+            "edits": 0,
+            "characters": 34,
+            "rate": 0.0
+          },
+          {
+            "id": "Abfff3088c42",
+            "left": "i od et les travailleurs bulgares lorsqu ils",
+            "right": "l objet les travailleurs bulgares lorsqu ils",
+            "edits": 3,
+            "characters": 44,
+            "rate": 0.06818181818181818
+          },
+          {
+            "id": "A8196da08108",
+            "left": "i thurg que l on commence à appeler imi",
+            "right": "bourg que l on commence à appeler imi",
+            "edits": 4,
+            "characters": 39,
+            "rate": 0.10256410256410256
+          },
+          {
+            "id": "Acf3493efcb2",
+            "left": "lg eeifrèsies cheminots",
+            "right": "le congrès des cheminots",
+            "edits": 7,
+            "characters": 23,
+            "rate": 0.30434782608695654
+          },
+          {
+            "id": "Ae69a5af53af",
+            "left": "qui accompagneront sur l affiche la magni",
+            "right": "qui accompagnèrent sur l affiche la magni",
+            "edits": 2,
+            "characters": 41,
+            "rate": 0.04878048780487805
+          },
+          {
+            "id": "A0080b7b82be",
+            "left": "â gaivet a rejeté les torts sur des voisins que",
+            "right": "calvet a rejeté les torts sur des voisins que",
+            "edits": 4,
+            "characters": 47,
+            "rate": 0.0851063829787234
+          },
+          {
+            "id": "Ac2dbc120cb2",
+            "left": "l cams",
+            "right": "l cams",
+            "edits": 0,
+            "characters": 6,
+            "rate": 0.0
+          },
+          {
+            "id": "A4b427ed4c41",
+            "left": "il est de soa devoir cependant de vous rappe",
+            "right": "il est de son devoir cependant de vous rappe",
+            "edits": 1,
+            "characters": 44,
+            "rate": 0.022727272727272728
+          },
+          {
+            "id": "A7f6e90239fc",
+            "left": "turmdttouges oui met aux voix le principe",
+            "right": "trompeuses on met aux voix le principe",
+            "edits": 9,
+            "characters": 41,
+            "rate": 0.21951219512195122
+          },
+          {
+            "id": "A83fca1b6467",
+            "left": "se groupaient rue montmartre et entourant",
+            "right": "se groupaient rue montmartre et entourant",
+            "edits": 0,
+            "characters": 41,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab1bea4f18de",
+            "left": "ril ot froyoîs la pièce slave du théâtre des",
+            "right": "ril et froyer la pièce slave du théâtre des",
+            "edits": 4,
+            "characters": 44,
+            "rate": 0.09090909090909091
+          },
+          {
+            "id": "Ad50745af3ad",
+            "left": "avril mm beyïe pugèro e delwye inter",
+            "right": "avril mm béyle fougère et delvoye inter",
+            "edits": 8,
+            "characters": 36,
+            "rate": 0.2222222222222222
+          },
+          {
+            "id": "A4feebdca602",
+            "left": "ports qui n ont pas dépassé 2 1 4 0 0",
+            "right": "ports qui n ont pas dépassé 2 1 4 0 0",
+            "edits": 0,
+            "characters": 37,
+            "rate": 0.0
+          },
+          {
+            "id": "A90446a8ea23",
+            "left": "ment de la population et recherche tes prin",
+            "right": "ment de la population et recherche les prin",
+            "edits": 1,
+            "characters": 43,
+            "rate": 0.023255813953488372
+          },
+          {
+            "id": "A03d2a12a76f",
+            "left": "la coupe chaules pour les ballons jus",
+            "right": "la coupe charles pour les ballons jus",
+            "edits": 1,
+            "characters": 37,
+            "rate": 0.02702702702702703
+          },
+          {
+            "id": "A6a411860da2",
+            "left": "tions du syndicat national des ouvriers des",
+            "right": "tions du syndicat national des ouvriers des",
+            "edits": 0,
+            "characters": 43,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab5bdf5500ee",
+            "left": "qu à 900 mètpee cubes avec distance imni",
+            "right": "qu à 900 mètres cubes avec distance mini",
+            "edits": 4,
+            "characters": 40,
+            "rate": 0.1
+          },
+          {
+            "id": "A56efd5c427f",
+            "left": "discussion théorique extrêmement confuse",
+            "right": "discussion théorique extrêmement confuse",
+            "edits": 0,
+            "characters": 40,
+            "rate": 0.0
+          }
+        ]
+      },
+      "distributed_vs_pero": {
+        "lines": 45,
+        "exact_lines": 21,
+        "characters": 1640,
+        "edits": 68,
+        "cer": 0.041463414634146344,
+        "per_line": [
+          {
+            "id": "A361adde199f",
+            "left": "qu il n y ait r er faire se peut il que",
+            "right": "qu il n y ait rien à faire se peut il que",
+            "edits": 4,
+            "characters": 39,
+            "rate": 0.10256410256410256
+          },
+          {
+            "id": "A40c75336e8a",
+            "left": "il est inutile de dire que cette unité il la voulut",
+            "right": "il est inutile de dire que cette unité il la voulut",
+            "edits": 0,
+            "characters": 51,
+            "rate": 0.0
+          },
+          {
+            "id": "A5d5568ef844",
+            "left": "rades n leur recommandant dans ces",
+            "right": "rades en lear recommandant dans ces",
+            "edits": 2,
+            "characters": 34,
+            "rate": 0.058823529411764705
+          },
+          {
+            "id": "A19c519a0bee",
+            "left": "tement la vie de jean jaurès",
+            "right": "tement la vie de jean jaurès",
+            "edits": 0,
+            "characters": 28,
+            "rate": 0.0
+          },
+          {
+            "id": "A2f42313bb83",
+            "left": "48â 7 votanti il s était présenté sur la liste ré",
+            "right": "48 087 votants il s était présenté sur la liste ré",
+            "edits": 4,
+            "characters": 49,
+            "rate": 0.08163265306122448
+          },
+          {
+            "id": "A9fe3293e3a3",
+            "left": "jean jaurès est né à castrés le 3 septem",
+            "right": "jean jaurès est né à castres le 3 septem",
+            "edits": 1,
+            "characters": 40,
+            "rate": 0.025
+          },
+          {
+            "id": "A233a93f55f9",
+            "left": "robuâte sa puissance de travail sans limite et",
+            "right": "robuste sa puissance de travail sans limite et",
+            "edits": 1,
+            "characters": 46,
+            "rate": 0.021739130434782608
+          },
+          {
+            "id": "A6d004756d4d",
+            "left": "grandes douleurs",
+            "right": "grandes douleurs",
+            "edits": 0,
+            "characters": 16,
+            "rate": 0.0
+          },
+          {
+            "id": "A14056b29ea0",
+            "left": "pour l histoire jean jaurès gloire",
+            "right": "pour l histoire jean jaurès gloire",
+            "edits": 0,
+            "characters": 34,
+            "rate": 0.0
+          },
+          {
+            "id": "Abf53223e8e1",
+            "left": "sa campagne contre l expédition ma",
+            "right": "sa campagne contre l expédition ma",
+            "edits": 0,
+            "characters": 34,
+            "rate": 0.0
+          },
+          {
+            "id": "Ad92445bd85b",
+            "left": "au nom de mes collègues devant la",
+            "right": "au nom de mes collègues devant la",
+            "edits": 0,
+            "characters": 33,
+            "rate": 0.0
+          },
+          {
+            "id": "A1b927fe26e0",
+            "left": "ses camarades de l ecole normale ont souvent",
+            "right": "ses camarades de l ecole normale ont souvent",
+            "edits": 0,
+            "characters": 44,
+            "rate": 0.0
+          },
+          {
+            "id": "Afe4c02aa3e8",
+            "left": "tives qui ne sauraient résumer complè",
+            "right": "tives qui ne sauraient résumer complè",
+            "edits": 0,
+            "characters": 37,
+            "rate": 0.0
+          },
+          {
+            "id": "A8230d6f70bc",
+            "left": "en 1880 le scrutin d arrondissement étant réta",
+            "right": "en 1889 le scrutin d arrondissement étant réta",
+            "edits": 1,
+            "characters": 46,
+            "rate": 0.021739130434782608
+          },
+          {
+            "id": "Aaf0626b7f4c",
+            "left": "quenté on entrait on sortait nous ne",
+            "right": "quenté on entrait on sortait nous ne",
+            "edits": 0,
+            "characters": 36,
+            "rate": 0.0
+          },
+          {
+            "id": "Aaf4b23b2603",
+            "left": "d une carte d atlas sous une feuille de pa",
+            "right": "d une carte d atlas sous une feuïlle de pa",
+            "edits": 1,
+            "characters": 42,
+            "rate": 0.023809523809523808
+          },
+          {
+            "id": "A6bbd0884db6",
+            "left": "seul n est communiste c est donc bien",
+            "right": "seul n est communiste c est donc bien",
+            "edits": 0,
+            "characters": 37,
+            "rate": 0.0
+          },
+          {
+            "id": "Ac4aa7938e2b",
+            "left": "moins à la dissolution du landtag c est à",
+            "right": "moins à la dissolution du landtag c est à",
+            "edits": 0,
+            "characters": 41,
+            "rate": 0.0
+          },
+          {
+            "id": "Ad67c6d55f4b",
+            "left": "poil de carotte",
+            "right": "poil de carotte",
+            "edits": 0,
+            "characters": 15,
+            "rate": 0.0
+          },
+          {
+            "id": "A2607602d758",
+            "left": "de guillaume il est président de la répu",
+            "right": "de guillaume ii est président de la répu",
+            "edits": 1,
+            "characters": 40,
+            "rate": 0.025
+          },
+          {
+            "id": "A44abf7e6466",
+            "left": "ça dépend la version va mieux que le",
+            "right": "ca dépend la version va mieux que le",
+            "edits": 1,
+            "characters": 36,
+            "rate": 0.027777777777777776
+          },
+          {
+            "id": "Ab80e0c264e4",
+            "left": "frontière polonaise le welt am abend con",
+            "right": "frontière polonaise le welt am abend con",
+            "edits": 0,
+            "characters": 40,
+            "rate": 0.0
+          },
+          {
+            "id": "A85044b80638",
+            "left": "avis aux clubs",
+            "right": "avis aux člubs",
+            "edits": 1,
+            "characters": 14,
+            "rate": 0.07142857142857142
+          },
+          {
+            "id": "A368f6eccc25",
+            "left": "est couché et se haussant sur la pointe",
+            "right": "est couché et se haussant sur la pointe",
+            "edits": 0,
+            "characters": 39,
+            "rate": 0.0
+          },
+          {
+            "id": "Af412c29907c",
+            "left": "de paris",
+            "right": "de paris",
+            "edits": 0,
+            "characters": 8,
+            "rate": 0.0
+          },
+          {
+            "id": "A010196005e7",
+            "left": "ler ce que les syndicalistes anglais ne s é",
+            "right": "ler à ce que les syndicalistes anglais ne s é",
+            "edits": 2,
+            "characters": 43,
+            "rate": 0.046511627906976744
+          },
+          {
+            "id": "Acb2486271c4",
+            "left": "il a de nouveau affirmé que ta paix du",
+            "right": "il a de nouveau affirmé que la paix du",
+            "edits": 1,
+            "characters": 38,
+            "rate": 0.02631578947368421
+          },
+          {
+            "id": "A389d3a03ea3",
+            "left": "a moscou la journée du premier mai",
+            "right": "a moscou la journée du premier mai",
+            "edits": 0,
+            "characters": 34,
+            "rate": 0.0
+          },
+          {
+            "id": "Abfff3088c42",
+            "left": "i od et les travailleurs bulgares lorsqu ils",
+            "right": "l objet les travailleurs bulgares lorsqu ils",
+            "edits": 3,
+            "characters": 44,
+            "rate": 0.06818181818181818
+          },
+          {
+            "id": "A8196da08108",
+            "left": "i thurg que l on commence à appeler imi",
+            "right": "burg que l on commence à appeler imi",
+            "edits": 4,
+            "characters": 39,
+            "rate": 0.10256410256410256
+          },
+          {
+            "id": "Acf3493efcb2",
+            "left": "lg eeifrèsies cheminots",
+            "right": "le congres des cheminots",
+            "edits": 8,
+            "characters": 23,
+            "rate": 0.34782608695652173
+          },
+          {
+            "id": "Ae69a5af53af",
+            "left": "qui accompagneront sur l affiche la magni",
+            "right": "qui accompagneront sur l affiche la magni",
+            "edits": 0,
+            "characters": 41,
+            "rate": 0.0
+          },
+          {
+            "id": "A0080b7b82be",
+            "left": "â gaivet a rejeté les torts sur des voisins que",
+            "right": "calvet a rejeté les torts sur des voisins que",
+            "edits": 4,
+            "characters": 47,
+            "rate": 0.0851063829787234
+          },
+          {
+            "id": "Ac2dbc120cb2",
+            "left": "l cams",
+            "right": "l cams",
+            "edits": 0,
+            "characters": 6,
+            "rate": 0.0
+          },
+          {
+            "id": "A4b427ed4c41",
+            "left": "il est de soa devoir cependant de vous rappe",
+            "right": "il est de son devoir cependant de vous rappe",
+            "edits": 1,
+            "characters": 44,
+            "rate": 0.022727272727272728
+          },
+          {
+            "id": "A7f6e90239fc",
+            "left": "turmdttouges oui met aux voix le principe",
+            "right": "tumultueuses on met aux voix le principe",
+            "edits": 8,
+            "characters": 41,
+            "rate": 0.1951219512195122
+          },
+          {
+            "id": "A83fca1b6467",
+            "left": "se groupaient rue montmartre et entourant",
+            "right": "se groupaient rue montmartre et entourant",
+            "edits": 0,
+            "characters": 41,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab1bea4f18de",
+            "left": "ril ot froyoîs la pièce slave du théâtre des",
+            "right": "ril et froyez la pièce slave du théâtre des",
+            "edits": 4,
+            "characters": 44,
+            "rate": 0.09090909090909091
+          },
+          {
+            "id": "Ad50745af3ad",
+            "left": "avril mm beyïe pugèro e delwye inter",
+            "right": "avril mm beyle fugère et delvoye inter",
+            "edits": 6,
+            "characters": 36,
+            "rate": 0.16666666666666666
+          },
+          {
+            "id": "A4feebdca602",
+            "left": "ports qui n ont pas dépassé 2 1 4 0 0",
+            "right": "ports qui n ont pas dépassé 2 1 4 0 0",
+            "edits": 0,
+            "characters": 37,
+            "rate": 0.0
+          },
+          {
+            "id": "A90446a8ea23",
+            "left": "ment de la population et recherche tes prin",
+            "right": "ment de la population et recherche les prin",
+            "edits": 1,
+            "characters": 43,
+            "rate": 0.023255813953488372
+          },
+          {
+            "id": "A03d2a12a76f",
+            "left": "la coupe chaules pour les ballons jus",
+            "right": "la coupe charles pour les ballons jus",
+            "edits": 1,
+            "characters": 37,
+            "rate": 0.02702702702702703
+          },
+          {
+            "id": "A6a411860da2",
+            "left": "tions du syndicat national des ouvriers des",
+            "right": "tions du syndicat national des ouvriers des",
+            "edits": 0,
+            "characters": 43,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab5bdf5500ee",
+            "left": "qu à 900 mètpee cubes avec distance imni",
+            "right": "quü 900 metres cubes avec distance mini",
+            "edits": 7,
+            "characters": 40,
+            "rate": 0.175
+          },
+          {
+            "id": "A56efd5c427f",
+            "left": "discussion théorique extrêmement confuse",
+            "right": "dicussion théorique extrêmement confuse",
+            "edits": 1,
+            "characters": 40,
+            "rate": 0.025
+          }
+        ]
+      },
+      "luna_vs_pero": {
+        "lines": 45,
+        "exact_lines": 30,
+        "characters": 1642,
+        "edits": 24,
+        "cer": 0.014616321559074299,
+        "per_line": [
+          {
+            "id": "A361adde199f",
+            "left": "qu il n y ait rien à faire se peut il que",
+            "right": "qu il n y ait rien à faire se peut il que",
+            "edits": 0,
+            "characters": 41,
+            "rate": 0.0
+          },
+          {
+            "id": "A40c75336e8a",
+            "left": "il est inutile de dire que cette unité il la voulut",
+            "right": "il est inutile de dire que cette unité il la voulut",
+            "edits": 0,
+            "characters": 51,
+            "rate": 0.0
+          },
+          {
+            "id": "A5d5568ef844",
+            "left": "rades en leur recommandant dans ces",
+            "right": "rades en lear recommandant dans ces",
+            "edits": 1,
+            "characters": 35,
+            "rate": 0.02857142857142857
+          },
+          {
+            "id": "A19c519a0bee",
+            "left": "tement la vie de jean jaurès",
+            "right": "tement la vie de jean jaurès",
+            "edits": 0,
+            "characters": 28,
+            "rate": 0.0
+          },
+          {
+            "id": "A2f42313bb83",
+            "left": "48 067 votants il s était présenté sur la liste ré",
+            "right": "48 087 votants il s était présenté sur la liste ré",
+            "edits": 1,
+            "characters": 50,
+            "rate": 0.02
+          },
+          {
+            "id": "A9fe3293e3a3",
+            "left": "jean jaurès est né à castres le 3 septem",
+            "right": "jean jaurès est né à castres le 3 septem",
+            "edits": 0,
+            "characters": 40,
+            "rate": 0.0
+          },
+          {
+            "id": "A233a93f55f9",
+            "left": "robuste sa puissance de travail sans limite et",
+            "right": "robuste sa puissance de travail sans limite et",
+            "edits": 0,
+            "characters": 46,
+            "rate": 0.0
+          },
+          {
+            "id": "A6d004756d4d",
+            "left": "grandes douleurs",
+            "right": "grandes douleurs",
+            "edits": 0,
+            "characters": 16,
+            "rate": 0.0
+          },
+          {
+            "id": "A14056b29ea0",
+            "left": "pour l histoire jean jaurès gloire",
+            "right": "pour l histoire jean jaurès gloire",
+            "edits": 0,
+            "characters": 34,
+            "rate": 0.0
+          },
+          {
+            "id": "Abf53223e8e1",
+            "left": "sa campagne contre l expédition ma",
+            "right": "sa campagne contre l expédition ma",
+            "edits": 0,
+            "characters": 34,
+            "rate": 0.0
+          },
+          {
+            "id": "Ad92445bd85b",
+            "left": "au nom de mes collègues devant la",
+            "right": "au nom de mes collègues devant la",
+            "edits": 0,
+            "characters": 33,
+            "rate": 0.0
+          },
+          {
+            "id": "A1b927fe26e0",
+            "left": "ses camarades de l école normale ont souvent",
+            "right": "ses camarades de l ecole normale ont souvent",
+            "edits": 1,
+            "characters": 44,
+            "rate": 0.022727272727272728
+          },
+          {
+            "id": "Afe4c02aa3e8",
+            "left": "tives qui ne sauraient résumer complè",
+            "right": "tives qui ne sauraient résumer complè",
+            "edits": 0,
+            "characters": 37,
+            "rate": 0.0
+          },
+          {
+            "id": "A8230d6f70bc",
+            "left": "en 1889 le scrutin d arrondissement étant réta",
+            "right": "en 1889 le scrutin d arrondissement étant réta",
+            "edits": 0,
+            "characters": 46,
+            "rate": 0.0
+          },
+          {
+            "id": "Aaf0626b7f4c",
+            "left": "quenté on entrait on sortait nous ne",
+            "right": "quenté on entrait on sortait nous ne",
+            "edits": 0,
+            "characters": 36,
+            "rate": 0.0
+          },
+          {
+            "id": "Aaf4b23b2603",
+            "left": "d une carte d atlas sous une feuille de pa",
+            "right": "d une carte d atlas sous une feuïlle de pa",
+            "edits": 1,
+            "characters": 42,
+            "rate": 0.023809523809523808
+          },
+          {
+            "id": "A6bbd0884db6",
+            "left": "seul n est communiste c est donc bien",
+            "right": "seul n est communiste c est donc bien",
+            "edits": 0,
+            "characters": 37,
+            "rate": 0.0
+          },
+          {
+            "id": "Ac4aa7938e2b",
+            "left": "moins à la dissolution du landtag c est à",
+            "right": "moins à la dissolution du landtag c est à",
+            "edits": 0,
+            "characters": 41,
+            "rate": 0.0
+          },
+          {
+            "id": "Ad67c6d55f4b",
+            "left": "poil de carotte",
+            "right": "poil de carotte",
+            "edits": 0,
+            "characters": 15,
+            "rate": 0.0
+          },
+          {
+            "id": "A2607602d758",
+            "left": "de guillaume ii est président de la répu",
+            "right": "de guillaume ii est président de la répu",
+            "edits": 0,
+            "characters": 40,
+            "rate": 0.0
+          },
+          {
+            "id": "A44abf7e6466",
+            "left": "ça dépend la version va mieux que le",
+            "right": "ca dépend la version va mieux que le",
+            "edits": 1,
+            "characters": 36,
+            "rate": 0.027777777777777776
+          },
+          {
+            "id": "Ab80e0c264e4",
+            "left": "frontière polonaise le welt am abend con",
+            "right": "frontière polonaise le welt am abend con",
+            "edits": 0,
+            "characters": 40,
+            "rate": 0.0
+          },
+          {
+            "id": "A85044b80638",
+            "left": "avis aux clubs",
+            "right": "avis aux člubs",
+            "edits": 1,
+            "characters": 14,
+            "rate": 0.07142857142857142
+          },
+          {
+            "id": "A368f6eccc25",
+            "left": "est couché et se haussant sur la pointe",
+            "right": "est couché et se haussant sur la pointe",
+            "edits": 0,
+            "characters": 39,
+            "rate": 0.0
+          },
+          {
+            "id": "Af412c29907c",
+            "left": "de paris",
+            "right": "de paris",
+            "edits": 0,
+            "characters": 8,
+            "rate": 0.0
+          },
+          {
+            "id": "A010196005e7",
+            "left": "1er à ce que les syndicalistes anglais ne s é",
+            "right": "ler à ce que les syndicalistes anglais ne s é",
+            "edits": 1,
+            "characters": 45,
+            "rate": 0.022222222222222223
+          },
+          {
+            "id": "Acb2486271c4",
+            "left": "il a de nouveau affirmé que la paix du",
+            "right": "il a de nouveau affirmé que la paix du",
+            "edits": 0,
+            "characters": 38,
+            "rate": 0.0
+          },
+          {
+            "id": "A389d3a03ea3",
+            "left": "a moscou la journée du premier mai",
+            "right": "a moscou la journée du premier mai",
+            "edits": 0,
+            "characters": 34,
+            "rate": 0.0
+          },
+          {
+            "id": "Abfff3088c42",
+            "left": "l objet les travailleurs bulgares lorsqu ils",
+            "right": "l objet les travailleurs bulgares lorsqu ils",
+            "edits": 0,
+            "characters": 44,
+            "rate": 0.0
+          },
+          {
+            "id": "A8196da08108",
+            "left": "bourg que l on commence à appeler imi",
+            "right": "burg que l on commence à appeler imi",
+            "edits": 1,
+            "characters": 37,
+            "rate": 0.02702702702702703
+          },
+          {
+            "id": "Acf3493efcb2",
+            "left": "le congrès des cheminots",
+            "right": "le congres des cheminots",
+            "edits": 1,
+            "characters": 24,
+            "rate": 0.041666666666666664
+          },
+          {
+            "id": "Ae69a5af53af",
+            "left": "qui accompagnèrent sur l affiche la magni",
+            "right": "qui accompagneront sur l affiche la magni",
+            "edits": 2,
+            "characters": 41,
+            "rate": 0.04878048780487805
+          },
+          {
+            "id": "A0080b7b82be",
+            "left": "calvet a rejeté les torts sur des voisins que",
+            "right": "calvet a rejeté les torts sur des voisins que",
+            "edits": 0,
+            "characters": 45,
+            "rate": 0.0
+          },
+          {
+            "id": "Ac2dbc120cb2",
+            "left": "l cams",
+            "right": "l cams",
+            "edits": 0,
+            "characters": 6,
+            "rate": 0.0
+          },
+          {
+            "id": "A4b427ed4c41",
+            "left": "il est de son devoir cependant de vous rappe",
+            "right": "il est de son devoir cependant de vous rappe",
+            "edits": 0,
+            "characters": 44,
+            "rate": 0.0
+          },
+          {
+            "id": "A7f6e90239fc",
+            "left": "trompeuses on met aux voix le principe",
+            "right": "tumultueuses on met aux voix le principe",
+            "edits": 6,
+            "characters": 38,
+            "rate": 0.15789473684210525
+          },
+          {
+            "id": "A83fca1b6467",
+            "left": "se groupaient rue montmartre et entourant",
+            "right": "se groupaient rue montmartre et entourant",
+            "edits": 0,
+            "characters": 41,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab1bea4f18de",
+            "left": "ril et froyer la pièce slave du théâtre des",
+            "right": "ril et froyez la pièce slave du théâtre des",
+            "edits": 1,
+            "characters": 43,
+            "rate": 0.023255813953488372
+          },
+          {
+            "id": "Ad50745af3ad",
+            "left": "avril mm béyle fougère et delvoye inter",
+            "right": "avril mm beyle fugère et delvoye inter",
+            "edits": 2,
+            "characters": 39,
+            "rate": 0.05128205128205128
+          },
+          {
+            "id": "A4feebdca602",
+            "left": "ports qui n ont pas dépassé 2 1 4 0 0",
+            "right": "ports qui n ont pas dépassé 2 1 4 0 0",
+            "edits": 0,
+            "characters": 37,
+            "rate": 0.0
+          },
+          {
+            "id": "A90446a8ea23",
+            "left": "ment de la population et recherche les prin",
+            "right": "ment de la population et recherche les prin",
+            "edits": 0,
+            "characters": 43,
+            "rate": 0.0
+          },
+          {
+            "id": "A03d2a12a76f",
+            "left": "la coupe charles pour les ballons jus",
+            "right": "la coupe charles pour les ballons jus",
+            "edits": 0,
+            "characters": 37,
+            "rate": 0.0
+          },
+          {
+            "id": "A6a411860da2",
+            "left": "tions du syndicat national des ouvriers des",
+            "right": "tions du syndicat national des ouvriers des",
+            "edits": 0,
+            "characters": 43,
+            "rate": 0.0
+          },
+          {
+            "id": "Ab5bdf5500ee",
+            "left": "qu à 900 mètres cubes avec distance mini",
+            "right": "quü 900 metres cubes avec distance mini",
+            "edits": 3,
+            "characters": 40,
+            "rate": 0.075
+          },
+          {
+            "id": "A56efd5c427f",
+            "left": "discussion théorique extrêmement confuse",
+            "right": "dicussion théorique extrêmement confuse",
+            "edits": 1,
+            "characters": 40,
+            "rate": 0.025
+          }
+        ]
+      }
+    }
+  },
+  "triage_categories": {
+    "luna_pero_closer_than_distributed": 9,
+    "all_agree": 13,
+    "all_disagree_or_no_clear_pair": 2,
+    "luna_pero_agree_against_distributed": 15,
+    "distributed_luna_agree_against_pero": 4,
+    "distributed_pero_agree_against_luna": 2
+  },
+  "triage_signal_lines": 24,
+  "triage_signal_rate": 0.5333333333333333,
+  "triage_signal_wilson95": [
+    0.3907720886241046,
+    0.6706509605798527
+  ],
+  "uncertain_reader_lines": 4,
+  "interpretation": "Pairwise agreement only prioritizes independent human review; it cannot decide which text is true.",
+  "lines": [
+    {
+      "id": "A361adde199f",
+      "page": "0253902-001",
+      "source_line_id": "tl_484",
+      "category": "luna_pero_closer_than_distributed",
+      "distributed": "qu'il n'y ait r:er faire ? Se peut-il que",
+      "luna": "qu’il n’y ait rien à faire? Se peut-il que",
+      "pero": "qu'il n'y ait rien à faire ? Se peut-il que",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A40c75336e8a",
+      "page": "0253902-001",
+      "source_line_id": "tl_143",
+      "category": "all_agree",
+      "distributed": "Il est inutile de dire que cette unité, il la voulut",
+      "luna": "Il est inutile de dire que cette unité, il la voulut",
+      "pero": "Il est inutile de dire que cette unité, il la voulut",
+      "luna_uncertain": true,
+      "notes": "Le signe diacritique éventuel sur la dernière voyelle de « voulut » est peu net; lecture ici sans accent circonflexe."
+    },
+    {
+      "id": "A5d5568ef844",
+      "page": "0253902-001",
+      "source_line_id": "tl_270",
+      "category": "all_disagree_or_no_clear_pair",
+      "distributed": "rades *n leur recommandant dans ces",
+      "luna": "rades en leur recommandant dans ces",
+      "pero": "rades en lear recommandant dans ces",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A19c519a0bee",
+      "page": "0253902-001",
+      "source_line_id": "tl_181",
+      "category": "all_agree",
+      "distributed": "tement la vie de Jean Jaurès.",
+      "luna": "tement la vie de Jean Jaurès.",
+      "pero": "tement la vie de Jean Jaurès.",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A2f42313bb83",
+      "page": "0253902-001",
+      "source_line_id": "tl_82",
+      "category": "luna_pero_closer_than_distributed",
+      "distributed": "48â>>7 votanti. Il s'était présenté sur. la liste ré»",
+      "luna": "48.067 votants. Il s’était présenté sur la liste ré-",
+      "pero": "48.087 votants. Il s'était présenté sur la liste ré-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A9fe3293e3a3",
+      "page": "0253902-001",
+      "source_line_id": "tl_57",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "Jean Jaurès est né à Castrés, le 3 septem-",
+      "luna": "Jean Jaurès est né à Castres, le 3 septem-",
+      "pero": "Jean Jaurès est né à Castres, le 3 septem-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A233a93f55f9",
+      "page": "0253902-001",
+      "source_line_id": "tl_60",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "robuâte, sa puissance de travail sans limite, et",
+      "luna": "robuste, sa puissance de travail sans limite, et",
+      "pero": "robuste, sa puissance de travail sans limite, et",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A6d004756d4d",
+      "page": "0253902-001",
+      "source_line_id": "tl_274",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "grandes douleurs:.",
+      "luna": "grandes douleurs.",
+      "pero": "grandes douleurs.",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A14056b29ea0",
+      "page": "0253902-001",
+      "source_line_id": "tl_228",
+      "category": "all_agree",
+      "distributed": "Pour l'histoire, Jean Jaurès, gloire",
+      "luna": "Pour l’histoire, Jean Jaurès, gloire",
+      "pero": "Pour l'histoire, Jean Jaurès, gloire",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Abf53223e8e1",
+      "page": "0253902-001",
+      "source_line_id": "tl_206",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "Sa campagne contre, l'expédition ma-",
+      "luna": "Sa campagne contre l’expédition ma-",
+      "pero": "Sa campagne contre l'expédition ma-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Ad92445bd85b",
+      "page": "0253902-001",
+      "source_line_id": "tl_369",
+      "category": "all_agree",
+      "distributed": "au nom de mes collègues devant la",
+      "luna": "au nom de mes collègues devant la",
+      "pero": "au nom de mes collègues devant la",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A1b927fe26e0",
+      "page": "0253902-001",
+      "source_line_id": "tl_75",
+      "category": "all_disagree_or_no_clear_pair",
+      "distributed": "Ses camarades de \"l'Ecole normale ont souvent",
+      "luna": "Ses camarades de l’École normale ont souvent",
+      "pero": "Ses camarades de l'Ecole normale ont souvent",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Afe4c02aa3e8",
+      "page": "0253902-001",
+      "source_line_id": "tl_180",
+      "category": "all_agree",
+      "distributed": "tives qui ne sauraient résumer complè-",
+      "luna": "tives qui ne sauraient résumer complè-",
+      "pero": "tives qui ne sauraient résumer complè-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A8230d6f70bc",
+      "page": "0253902-001",
+      "source_line_id": "tl_115",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "En 1880, le scrutin d'arrondissement étant réta-",
+      "luna": "En 1889, le scrutin d’arrondissement étant réta-",
+      "pero": "En 1889, le scrutin d'arrondissement étant réta-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Aaf0626b7f4c",
+      "page": "0253902-001",
+      "source_line_id": "tl_423",
+      "category": "all_agree",
+      "distributed": "quenté. On entrait, on sortait, nous ne",
+      "luna": "quenté. On entrait, on sortait, nous ne",
+      "pero": "quenté. On entrait, on sortait, nous ne",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Aaf4b23b2603",
+      "page": "0401692-003",
+      "source_line_id": "tl_683",
+      "category": "distributed_luna_agree_against_pero",
+      "distributed": "d'une carte d'atlas sous une feuille de pa-",
+      "luna": "d’une carte d’atlas sous une feuille de pa-",
+      "pero": "d'une carte d'atlas sous une feuïlle de pa-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A6bbd0884db6",
+      "page": "0401692-003",
+      "source_line_id": "tl_479",
+      "category": "distributed_pero_agree_against_luna",
+      "distributed": "seul n'est communiste. C'est donc bien",
+      "luna": "Seul n’est communiste. C’est donc bien",
+      "pero": "seul n'est communiste. C'est donc bien",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Ac4aa7938e2b",
+      "page": "0401692-003",
+      "source_line_id": "tl_302",
+      "category": "all_agree",
+      "distributed": "moins à la dissolution du Landtag, c'est-à-",
+      "luna": "moins à la dissolution du Landtag, c’est-à-",
+      "pero": "moins à la dissolution du Landtag, c'est-à-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Ad67c6d55f4b",
+      "page": "0401692-003",
+      "source_line_id": "tl_263",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "POIL' DE CAROTTE",
+      "luna": "POIL DE CAROTTE",
+      "pero": "POIL DE CAROTTE",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A2607602d758",
+      "page": "0401692-003",
+      "source_line_id": "tl_10",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "de Guillaume Il est \"président de la Répu-",
+      "luna": "de Guillaume II est président de la Répu-",
+      "pero": "de Guillaume II est président de la Répu-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A44abf7e6466",
+      "page": "0401692-003",
+      "source_line_id": "tl_139",
+      "category": "distributed_luna_agree_against_pero",
+      "distributed": "Ça dépend. La version va mieux que le",
+      "luna": "Ça dépend. La version va mieux que le",
+      "pero": "Ca dépend. La version va mieux que le",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Ab80e0c264e4",
+      "page": "0401692-003",
+      "source_line_id": "tl_362",
+      "category": "all_agree",
+      "distributed": "frontière polonaise, le Welt am Abend con-",
+      "luna": "frontière polonaise, le Welt am Abend con-",
+      "pero": "frontière polonaise, le Welt am Abend con-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A85044b80638",
+      "page": "0401692-003",
+      "source_line_id": "tl_850",
+      "category": "distributed_luna_agree_against_pero",
+      "distributed": "AVIS AUX CLUBS",
+      "luna": "AVIS AUX CLUBS",
+      "pero": "AVIS AUX ČLUBS",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A368f6eccc25",
+      "page": "0401692-003",
+      "source_line_id": "tl_554",
+      "category": "all_agree",
+      "distributed": "est couché et, se haussant sur la pointe",
+      "luna": "est couché et, se haussant sur la pointe",
+      "pero": "est couché et, se haussant sur la pointe",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Af412c29907c",
+      "page": "0401692-003",
+      "source_line_id": "tl_779",
+      "category": "all_agree",
+      "distributed": "de Paris.",
+      "luna": "de Paris.",
+      "pero": "de Paris.",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A010196005e7",
+      "page": "0401692-003",
+      "source_line_id": "tl_645",
+      "category": "luna_pero_closer_than_distributed",
+      "distributed": "ler ce que'les syndicalistes anglais ne s'é-",
+      "luna": "1er à ce que les syndicalistes anglais ne s’é-",
+      "pero": "ler à ce que les syndicalistes anglais ne s'é-",
+      "luna_uncertain": true,
+      "notes": "Le premier caractère de la ligne est ambigu (chiffre « 1 » ou lettre « l »)."
+    },
+    {
+      "id": "Acb2486271c4",
+      "page": "0401692-003",
+      "source_line_id": "tl_632",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "Il a- de nouveau .affirmé que Ta paix du",
+      "luna": "Il a de nouveau affirmé que la paix du",
+      "pero": "Il a de nouveau affirmé que la paix du",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A389d3a03ea3",
+      "page": "0401692-003",
+      "source_line_id": "tl_203",
+      "category": "all_agree",
+      "distributed": "A Moscou, la journée du Premier Mai",
+      "luna": "A Moscou, la journée du Premier Mai",
+      "pero": "A Moscou, la journée du Premier Mai",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Abfff3088c42",
+      "page": "0401692-003",
+      "source_line_id": "tl_655",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "i.oD] et les travailleurs bulgares. Lorsqu'ils",
+      "luna": "l’objet les travailleurs bulgares. Lorsqu’ils",
+      "pero": "l'objet les travailleurs bulgares. Lorsqu'ils",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A8196da08108",
+      "page": "0401692-003",
+      "source_line_id": "tl_15",
+      "category": "luna_pero_closer_than_distributed",
+      "distributed": "i thurg, que l'on commence à appeler, imi-",
+      "luna": "bourg, que l’on commence à appeler, imi-",
+      "pero": "burg, que l'on commence à appeler, imi-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Acf3493efcb2",
+      "page": "752234-003",
+      "source_line_id": "tl_898",
+      "category": "luna_pero_closer_than_distributed",
+      "distributed": "LG Eeifrèsies Cheminots",
+      "luna": "Le Congrès des Cheminots",
+      "pero": "Le Congres des Cheminots",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Ae69a5af53af",
+      "page": "752234-003",
+      "source_line_id": "tl_518",
+      "category": "distributed_pero_agree_against_luna",
+      "distributed": "qui accompagneront sur l'affiche la magni-",
+      "luna": "qui accompagnèrent sur l’affiche la magni-",
+      "pero": "qui accompagneront sur l'affiche la magni-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A0080b7b82be",
+      "page": "752234-003",
+      "source_line_id": "tl_147",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "â¢Gaivet a rejeté les torts sur des voisins que,",
+      "luna": "Calvet a rejeté les torts sur des voisins que,",
+      "pero": "Calvet a rejeté les torts sur des voisins que,",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Ac2dbc120cb2",
+      "page": "752234-003",
+      "source_line_id": "tl_535",
+      "category": "all_agree",
+      "distributed": "L. Cams.",
+      "luna": "L. Cams.",
+      "pero": "L. Cams.",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A4b427ed4c41",
+      "page": "752234-003",
+      "source_line_id": "tl_924",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "il est de soa devoir cependant de vous rappe-",
+      "luna": "Il est de son devoir cependant de vous rappe-",
+      "pero": "Il est de son devoir cependant de vous rappe-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A7f6e90239fc",
+      "page": "752234-003",
+      "source_line_id": "tl_953",
+      "category": "luna_pero_closer_than_distributed",
+      "distributed": "turmdtTOuges, oui met aux voix le principe",
+      "luna": "trompeuses, on met aux voix le principe",
+      "pero": "tumultueuses, on met aux voix le principe",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A83fca1b6467",
+      "page": "752234-003",
+      "source_line_id": "tl_73",
+      "category": "all_agree",
+      "distributed": "se groupaient rue Montmartre et, entourant",
+      "luna": "se groupaient rue Montmartre et, entourant",
+      "pero": "se groupaient rue Montmartre et, entourant",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Ab1bea4f18de",
+      "page": "752234-003",
+      "source_line_id": "tl_291",
+      "category": "luna_pero_closer_than_distributed",
+      "distributed": "ril ot, Froyoîs, la pièce slave du Théâtre des",
+      "luna": "ril et Froyer, la pièce slave du Théâtre des",
+      "pero": "ril et Froyez, la pièce slave du Théâtre des",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Ad50745af3ad",
+      "page": "752234-003",
+      "source_line_id": "tl_211",
+      "category": "luna_pero_closer_than_distributed",
+      "distributed": "avril. MM. Beyïe, Pugèro e* Delwye inter-",
+      "luna": "avril, MM. Béyle, Fougère et Delvoye inter-",
+      "pero": "avril. MM. Beyle, Fugère et Delvoye inter-",
+      "luna_uncertain": true,
+      "notes": "Le nom « Béyle » est peu lisible; transcription selon les lettres visibles."
+    },
+    {
+      "id": "A4feebdca602",
+      "page": "752234-003",
+      "source_line_id": "tl_637",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "ports qui n'ont, pas dépassé 2 1/4 0/0.",
+      "luna": "ports qui n’ont pas dépassé 2 1/4 0/0.",
+      "pero": "ports qui n'ont pas dépassé 2 1/4 0/0.",
+      "luna_uncertain": true,
+      "notes": "La ponctuation des chiffres à la fin est peu nette; transcription littérale proposée : « 2 1/4 0/0. »"
+    },
+    {
+      "id": "A90446a8ea23",
+      "page": "752234-003",
+      "source_line_id": "tl_792",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "ment de la population et recherche tes prin-",
+      "luna": "ment de la population et recherche les prin-",
+      "pero": "ment de la population et recherche les prin-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A03d2a12a76f",
+      "page": "752234-003",
+      "source_line_id": "tl_439",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "La Coupe Chaules, pour les ballons jus-",
+      "luna": "La Coupe Charles, pour les ballons jus-",
+      "pero": "La Coupe Charles, pour les ballons jus-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A6a411860da2",
+      "page": "752234-003",
+      "source_line_id": "tl_117",
+      "category": "luna_pero_agree_against_distributed",
+      "distributed": "tions du Syndicat national des ouvriers des",
+      "luna": "tions du syndicat national des ouvriers des",
+      "pero": "tions du syndicat national des ouvriers des",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "Ab5bdf5500ee",
+      "page": "752234-003",
+      "source_line_id": "tl_436",
+      "category": "luna_pero_closer_than_distributed",
+      "distributed": "qu'à 900'mètpee cubes, avec distance imni-",
+      "luna": "qu’à 900 mètres cubes, avec distance mini-",
+      "pero": "quü 900 metres cubes, avec distance mini-",
+      "luna_uncertain": false,
+      "notes": ""
+    },
+    {
+      "id": "A56efd5c427f",
+      "page": "752234-003",
+      "source_line_id": "tl_122",
+      "category": "distributed_luna_agree_against_pero",
+      "distributed": "discussion théorique extrêmement confuse.",
+      "luna": "discussion théorique extrêmement confuse.",
+      "pero": "dicussion théorique extrêmement confuse.",
+      "luna_uncertain": false,
+      "notes": ""
+    }
+  ]
+}

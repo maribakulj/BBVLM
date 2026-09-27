@@ -1,0 +1,6378 @@
+{
+  "schema": "bbvlm.no-recognizer-ablation/1",
+  "config": {
+    "min_gap_height_ratio": 0.1,
+    "gap_separation_ratio": 1.5
+  },
+  "sbb_conditional_geometry": {
+    "lines": 94,
+    "compatible_lines": 94,
+    "tokenization_incompatible_lines": 0,
+    "proposed_lines": 50,
+    "reference_words_compatible": 623,
+    "emitted_words_compatible": 294,
+    "emitted_words_iou_lt50": 9,
+    "proposed_lines_with_any_iou_lt50": 3,
+    "proposed_lines_all_words_iou_ge80": 46,
+    "mean_iou_emitted": 0.945306561307908,
+    "word_recall_iou50_including_abstentions": 0.45746388443017655,
+    "word_recall_iou80_including_abstentions": 0.45264847512038525,
+    "cpu_seconds": 0.05199933196854545
+  },
+  "predicted_vlm_lines_diagnostic": {
+    "lines": 20,
+    "proposed_lines": 18,
+    "cpu_seconds": 0.007921744014311116,
+    "word_geometry_ground_truth_available": false
+  },
+  "new_passes": {
+    "vlm": 0,
+    "layout": 0,
+    "recognizer": 0
+  },
+  "accepted_for_project_completion_gate": false,
+  "cost_warning": "No recognizer was invoked. Actual end-to-end cost saving is not measured: fallback batch costs and VLM latency/tokens require a controlled run.",
+  "limitations": [
+    "SBB line geometry and text are oracle inputs, not end-to-end",
+    "source polygon vertex extents are compared as continuous rectangles; pixel-tight proposals use half-open pixel bounds; one-pixel convention differences are not adjudicated",
+    "SBB word conventions require visual audit; no PERO baseline rerun on this corpus",
+    "word count/gap separation does not validate transcription or word ownership",
+    "unmatched tokenization reported separately; cannot hide it in a global recall",
+    "all inspected pages are development/audit; reserve remains unseen"
+  ],
+  "source_code_sha256": "94891dd8538845f61ad558e316d0d05b90f1173772c9ad4d85e8a44c8c3d371a",
+  "per_line_sbb": [
+    {
+      "work": "hermhyst_816125724",
+      "line": "l14",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "So",
+          "antwoꝛt",
+          "vns",
+          "der",
+          "Herre",
+          "Gott/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 8,
+        "max_unselected_gap": 6,
+        "separation_ratio": 1.3333333333333333,
+        "reason": "ambiguous_gap_partition"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0006201889991643839
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l15",
+      "tokens": 7,
+      "word_reference_count": 7,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            331,
+            211,
+            409,
+            246
+          ],
+          [
+            420,
+            203,
+            502,
+            248
+          ],
+          [
+            509,
+            203,
+            606,
+            245
+          ],
+          [
+            616,
+            200,
+            684,
+            240
+          ],
+          [
+            693,
+            200,
+            761,
+            240
+          ],
+          [
+            776,
+            196,
+            923,
+            239
+          ],
+          [
+            931,
+            193,
+            999,
+            234
+          ]
+        ],
+        "tokens": [
+          "Vnd",
+          "halﬀ",
+          "dur",
+          "di",
+          "auß",
+          "maner",
+          "not/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 7,
+        "max_unselected_gap": 4,
+        "separation_ratio": 1.75,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.958974358974359,
+        0.9878048780487805,
+        0.9661266568483063,
+        0.9606617647058824,
+        0.9852941176470589,
+        0.9700996677740864,
+        0.9523809523809523
+      ],
+      "cpu_seconds": 0.0006835429958300665
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l16",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            378,
+            257,
+            452,
+            293
+          ],
+          [
+            458,
+            252,
+            535,
+            292
+          ],
+          [
+            546,
+            261,
+            609,
+            287
+          ],
+          [
+            620,
+            258,
+            664,
+            286
+          ],
+          [
+            682,
+            242,
+            753,
+            287
+          ],
+          [
+            769,
+            241,
+            898,
+            288
+          ]
+        ],
+        "tokens": [
+          "Wo",
+          "ſon",
+          "wir",
+          "nu",
+          "raht",
+          "ſuen"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 6,
+        "max_unselected_gap": 4,
+        "separation_ratio": 1.5,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9088913282107574,
+        0.9623376623376624,
+        0.9615384615384616,
+        0.9423701298701299,
+        0.9509107749305341,
+        0.9787234042553191
+      ],
+      "cpu_seconds": 0.000496868000482209
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l17",
+      "tokens": 1,
+      "word_reference_count": 1,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            562,
+            309,
+            591,
+            338
+          ]
+        ],
+        "tokens": [
+          "3."
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0
+      ],
+      "cpu_seconds": 0.00014928799646440893
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l18",
+      "tokens": 5,
+      "word_reference_count": 5,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "Spañ",
+          "dein",
+          "Bogen/",
+          "Eliſa",
+          "ſpꝛa/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 7,
+        "max_unselected_gap": 6,
+        "separation_ratio": 1.1666666666666667,
+        "reason": "ambiguous_gap_partition"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0002861850007320754
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l19",
+      "tokens": 5,
+      "word_reference_count": 5,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            333,
+            402,
+            404,
+            440
+          ],
+          [
+            413,
+            394,
+            500,
+            440
+          ],
+          [
+            509,
+            393,
+            586,
+            434
+          ],
+          [
+            595,
+            388,
+            700,
+            430
+          ],
+          [
+            707,
+            387,
+            811,
+            432
+          ]
+        ],
+        "tokens": [
+          "Ein",
+          "Pfeil",
+          "ſoltu",
+          "dꝛauﬀ",
+          "legen/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 7,
+        "max_unselected_gap": 4,
+        "separation_ratio": 1.75,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9599703484062269,
+        0.9770114942528736,
+        0.9629394995248653,
+        0.9904761904761905,
+        0.9777777777777777
+      ],
+      "cpu_seconds": 0.00045496799430111423
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l20",
+      "tokens": 7,
+      "word_reference_count": 7,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "Thus",
+          "fener",
+          "auﬀ/",
+          "mer",
+          "was",
+          "i",
+          "ſag/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 5,
+        "max_unselected_gap": 4,
+        "separation_ratio": 1.25,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0002546739997342229
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l21",
+      "tokens": 4,
+      "word_reference_count": 4,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            334,
+            490,
+            478,
+            536
+          ],
+          [
+            487,
+            492,
+            560,
+            526
+          ],
+          [
+            575,
+            493,
+            708,
+            533
+          ],
+          [
+            723,
+            481,
+            893,
+            527
+          ]
+        ],
+        "tokens": [
+          "Seuß",
+          "dem",
+          "morgen",
+          "entgegen/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.8,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9654153118533846,
+        0.9572925060435133,
+        0.9924812030075187,
+        0.9782608695652174
+      ],
+      "cpu_seconds": 0.000430785003118217
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l22",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "Da",
+          "nu",
+          "ſoß",
+          "der",
+          "knig",
+          "Joꝛas."
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 7,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.4,
+        "reason": "ambiguous_gap_partition"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0002078709949273616
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l23",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            334,
+            588,
+            468,
+            638
+          ],
+          [
+            478,
+            588,
+            525,
+            625
+          ],
+          [
+            534,
+            588,
+            583,
+            620
+          ],
+          [
+            594,
+            582,
+            678,
+            628
+          ],
+          [
+            686,
+            587,
+            746,
+            617
+          ],
+          [
+            756,
+            575,
+            856,
+            623
+          ],
+          [
+            864,
+            572,
+            899,
+            620
+          ],
+          [
+            912,
+            576,
+            990,
+            617
+          ]
+        ],
+        "tokens": [
+          "Spꝛa",
+          "er/",
+          "ein",
+          "Pfeil",
+          "des",
+          "Heils",
+          "i",
+          "das/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 8,
+        "max_unselected_gap": 4,
+        "separation_ratio": 2.0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9925373134328358,
+        0.9787234042553191,
+        0.9795918367346939,
+        0.9880952380952381,
+        0.9354838709677419,
+        0.969375,
+        0.9511904761904761,
+        1.0
+      ],
+      "cpu_seconds": 0.0005333660010364838
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l24",
+      "tokens": 4,
+      "word_reference_count": 4,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            376,
+            639,
+            448,
+            678
+          ],
+          [
+            457,
+            634,
+            568,
+            681
+          ],
+          [
+            585,
+            629,
+            696,
+            676
+          ],
+          [
+            715,
+            627,
+            874,
+            674
+          ]
+        ],
+        "tokens": [
+          "Die",
+          "Syrer",
+          "wiru",
+          "ſlagen."
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 4,
+        "separation_ratio": 2.25,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9861111111111112,
+        0.924062049062049,
+        0.969906076289055,
+        0.9787234042553191
+      ],
+      "cpu_seconds": 0.00042509099876042455
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l25",
+      "tokens": 1,
+      "word_reference_count": 1,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            564,
+            691,
+            599,
+            716
+          ]
+        ],
+        "tokens": [
+          "4."
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0
+      ],
+      "cpu_seconds": 0.00012886299373349175
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l26",
+      "tokens": 7,
+      "word_reference_count": 7,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "Ferner",
+          "ſpꝛa",
+          "er/",
+          "Nim",
+          "in",
+          "dein",
+          "Hend/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 6,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.2,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0003193360025761649
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l27",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "Die",
+          "Pfeil",
+          "vnd",
+          "die",
+          "Erd",
+          "ſlage/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 4,
+        "max_unselected_gap": 4,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00019291899661766365
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l28",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            282,
+            833,
+            361,
+            872
+          ],
+          [
+            371,
+            827,
+            485,
+            869
+          ],
+          [
+            495,
+            821,
+            597,
+            865
+          ],
+          [
+            606,
+            823,
+            675,
+            862
+          ],
+          [
+            684,
+            818,
+            751,
+            855
+          ],
+          [
+            760,
+            814,
+            878,
+            860
+          ]
+        ],
+        "tokens": [
+          "Der",
+          "Knig",
+          "ſlug",
+          "dꝛey",
+          "mal",
+          "behend"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 6,
+        "separation_ratio": 1.5,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9493670886075949,
+        0.9912280701754386,
+        0.9772727272727273,
+        0.9602378298030472,
+        0.9584509883017346,
+        0.9699705232129698
+      ],
+      "cpu_seconds": 0.00042992499948013574
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l29",
+      "tokens": 3,
+      "word_reference_count": 3,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            331,
+            877,
+            419,
+            918
+          ],
+          [
+            430,
+            876,
+            535,
+            918
+          ],
+          [
+            552,
+            869,
+            681,
+            916
+          ]
+        ],
+        "tokens": [
+          "Eliſa",
+          "zoꝛnig",
+          "ſpꝛae/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 11,
+        "max_unselected_gap": 5,
+        "separation_ratio": 2.2,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0,
+        0.9668934240362812,
+        0.9787234042553191
+      ],
+      "cpu_seconds": 0.0002978819975396618
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l30",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "Ah",
+          "betu",
+          "fnﬀ",
+          "oder",
+          "ſes",
+          "mal"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 4,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.3333333333333333,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00019192799663869664
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l31",
+      "tokens": 4,
+      "word_reference_count": 4,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "Geſlagen/",
+          "wrd",
+          "dieſelbige",
+          "zal"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 5,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0002482650015735999
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l32",
+      "tokens": 5,
+      "word_reference_count": 5,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "Dein",
+          "eg",
+          "au",
+          "han",
+          "erreiet."
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 7,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.4,
+        "reason": "ambiguous_gap_partition"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00021698300406569615
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l33",
+      "tokens": 1,
+      "word_reference_count": 1,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            563,
+            1068,
+            594,
+            1098
+          ]
+        ],
+        "tokens": [
+          "5."
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0
+      ],
+      "cpu_seconds": 0.00010730400390457362
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l34",
+      "tokens": 5,
+      "word_reference_count": 5,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            282,
+            1111,
+            440,
+            1157
+          ],
+          [
+            451,
+            1100,
+            626,
+            1148
+          ],
+          [
+            635,
+            1106,
+            691,
+            1138
+          ],
+          [
+            707,
+            1098,
+            809,
+            1143
+          ],
+          [
+            818,
+            1096,
+            938,
+            1140
+          ]
+        ],
+        "tokens": [
+          "Darna",
+          "entſlieﬀ",
+          "der",
+          "heilge",
+          "Mar/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.8,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9936708860759493,
+        0.9735714285714285,
+        0.9341517857142857,
+        0.9681917211328976,
+        1.0
+      ],
+      "cpu_seconds": 0.0004697719996329397
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l35",
+      "tokens": 5,
+      "word_reference_count": 5,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            329,
+            1164,
+            409,
+            1199
+          ],
+          [
+            418,
+            1158,
+            514,
+            1193
+          ],
+          [
+            527,
+            1157,
+            584,
+            1191
+          ],
+          [
+            593,
+            1148,
+            676,
+            1194
+          ],
+          [
+            685,
+            1147,
+            818,
+            1191
+          ]
+        ],
+        "tokens": [
+          "Vnd",
+          "wurd",
+          "ins",
+          "grab",
+          "geleget/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.8,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9875,
+        0.9613095238095238,
+        0.8823529411764706,
+        0.9546883184913567,
+        0.9772727272727273
+      ],
+      "cpu_seconds": 0.0003996110026491806
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l36",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            281,
+            1214,
+            356,
+            1253
+          ],
+          [
+            365,
+            1206,
+            394,
+            1253
+          ],
+          [
+            404,
+            1204,
+            465,
+            1243
+          ],
+          [
+            475,
+            1203,
+            614,
+            1237
+          ],
+          [
+            623,
+            1197,
+            678,
+            1238
+          ],
+          [
+            687,
+            1194,
+            819,
+            1241
+          ]
+        ],
+        "tokens": [
+          "Der",
+          "ſo",
+          "viel",
+          "wunder",
+          "hat",
+          "gethan/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 4,
+        "separation_ratio": 2.25,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9866666666666667,
+        0.9449743213499633,
+        0.9583858764186634,
+        0.9636055861193398,
+        0.9818181818181818,
+        0.9787234042553191
+      ],
+      "cpu_seconds": 0.0004965830012224615
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l37",
+      "tokens": 4,
+      "word_reference_count": 4,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "Lang",
+          "darna",
+          "s",
+          "zutreget/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 7,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.4,
+        "reason": "ambiguous_gap_partition"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0005679669993696734
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l38",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "Das",
+          "in",
+          "ſein",
+          "grab",
+          "geleget",
+          "wurd/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 8,
+        "max_unselected_gap": 6,
+        "separation_ratio": 1.3333333333333333,
+        "reason": "ambiguous_gap_partition"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0002812309976434335
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l39",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            324,
+            1356,
+            394,
+            1394
+          ],
+          [
+            404,
+            1349,
+            605,
+            1388
+          ],
+          [
+            620,
+            1341,
+            682,
+            1387
+          ],
+          [
+            693,
+            1343,
+            788,
+            1389
+          ],
+          [
+            794,
+            1359,
+            795,
+            1360
+          ],
+          [
+            807,
+            1336,
+            936,
+            1378
+          ]
+        ],
+        "tokens": [
+          "Ein",
+          "Todter/",
+          "vnd",
+          "ſein",
+          "gbein",
+          "anrrt/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 6,
+        "max_unselected_gap": 4,
+        "separation_ratio": 1.5,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9857142857142858,
+        0.6230386528893992,
+        0.0,
+        0.0,
+        0.0,
+        0.9534883720930233
+      ],
+      "cpu_seconds": 0.0004476609974517487
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l40",
+      "tokens": 4,
+      "word_reference_count": 4,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            362,
+            1405,
+            441,
+            1440
+          ],
+          [
+            450,
+            1404,
+            574,
+            1436
+          ],
+          [
+            588,
+            1393,
+            702,
+            1431
+          ],
+          [
+            716,
+            1392,
+            843,
+            1425
+          ]
+        ],
+        "tokens": [
+          "Vnd",
+          "daruon",
+          "lebend",
+          "wurde."
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.8,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9873417721518988,
+        0.9534883720930233,
+        0.9224376731301939,
+        0.9696969696969697
+      ],
+      "cpu_seconds": 0.00037719099782407284
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l41",
+      "tokens": 1,
+      "word_reference_count": 1,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            556,
+            1458,
+            589,
+            1479
+          ]
+        ],
+        "tokens": [
+          "6."
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0
+      ],
+      "cpu_seconds": 0.0001197929959744215
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l42",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            277,
+            1502,
+            351,
+            1545
+          ],
+          [
+            365,
+            1500,
+            424,
+            1543
+          ],
+          [
+            435,
+            1492,
+            527,
+            1531
+          ],
+          [
+            537,
+            1488,
+            600,
+            1531
+          ],
+          [
+            610,
+            1486,
+            714,
+            1527
+          ],
+          [
+            726,
+            1478,
+            853,
+            1520
+          ]
+        ],
+        "tokens": [
+          "Alſo",
+          "hat",
+          "Gott",
+          "ſein",
+          "mat",
+          "bewei"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 10,
+        "max_unselected_gap": 6,
+        "separation_ratio": 1.6666666666666667,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9864864864864865,
+        0.9601891998423334,
+        0.9637681159420289,
+        0.9841269841269841,
+        0.9662288930581614,
+        0.9921875
+      ],
+      "cpu_seconds": 0.0005890449974685907
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l43",
+      "tokens": 4,
+      "word_reference_count": 4,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            327,
+            1545,
+            443,
+            1586
+          ],
+          [
+            455,
+            1540,
+            515,
+            1584
+          ],
+          [
+            527,
+            1538,
+            649,
+            1581
+          ],
+          [
+            658,
+            1530,
+            865,
+            1577
+          ]
+        ],
+        "tokens": [
+          "Dur",
+          "ſein",
+          "heilgen",
+          "Pꝛopheten/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.8,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.967973722028331,
+        0.9446969696969697,
+        0.9687380861608845,
+        0.9361702127659575
+      ],
+      "cpu_seconds": 0.00041407300159335136
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l44",
+      "tokens": 5,
+      "word_reference_count": 5,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            273,
+            1600,
+            347,
+            1640
+          ],
+          [
+            357,
+            1597,
+            402,
+            1638
+          ],
+          [
+            412,
+            1589,
+            536,
+            1638
+          ],
+          [
+            547,
+            1587,
+            611,
+            1621
+          ],
+          [
+            623,
+            1579,
+            765,
+            1628
+          ]
+        ],
+        "tokens": [
+          "Der",
+          "ſey",
+          "gelobet",
+          "vnd",
+          "gepꝛei/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 10,
+        "max_unselected_gap": 4,
+        "separation_ratio": 2.5,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9864864864864865,
+        0.9539295392953929,
+        0.9919354838709677,
+        0.9554227941176471,
+        0.9728803882386526
+      ],
+      "cpu_seconds": 0.0005214569973759353
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l45",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "Wolt",
+          "Gott",
+          "das",
+          "wir",
+          "au",
+          "iheten"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 7,
+        "separation_ratio": 1.2857142857142858,
+        "reason": "ambiguous_gap_partition"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00032964999991236255
+    },
+    {
+      "work": "hermhyst_816125724",
+      "line": "l46",
+      "tokens": 1,
+      "word_reference_count": 1,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            925,
+            1665,
+            1022,
+            1712
+          ]
+        ],
+        "tokens": [
+          "Na"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0
+      ],
+      "cpu_seconds": 0.00014063100388739258
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l1",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            317,
+            281,
+            375,
+            315
+          ],
+          [
+            393,
+            276,
+            504,
+            323
+          ],
+          [
+            525,
+            281,
+            641,
+            320
+          ],
+          [
+            665,
+            282,
+            866,
+            322
+          ],
+          [
+            892,
+            283,
+            1062,
+            336
+          ],
+          [
+            1087,
+            292,
+            1170,
+            338
+          ]
+        ],
+        "tokens": [
+          "den",
+          "Augen",
+          "meiner",
+          "trumenden",
+          "Phantae",
+          "nir"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 18,
+        "max_unselected_gap": 5,
+        "separation_ratio": 3.6,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9827586206896551,
+        1.0,
+        1.0,
+        0.9707800048297512,
+        0.9941520467836257,
+        0.9583333333333334
+      ],
+      "cpu_seconds": 0.0009211659998982213
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l44",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            313,
+            335,
+            405,
+            377
+          ],
+          [
+            421,
+            338,
+            585,
+            384
+          ],
+          [
+            645,
+            339,
+            749,
+            384
+          ],
+          [
+            768,
+            343,
+            797,
+            389
+          ],
+          [
+            817,
+            343,
+            906,
+            390
+          ],
+          [
+            925,
+            344,
+            975,
+            381
+          ],
+          [
+            998,
+            343,
+            1041,
+            388
+          ],
+          [
+            1068,
+            351,
+            1170,
+            386
+          ]
+        ],
+        "tokens": [
+          "lange",
+          "ausgeſezt.",
+          "Nit",
+          "ſo",
+          "lange",
+          "als",
+          "i",
+          "davon"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 16,
+        "max_unselected_gap": 4,
+        "separation_ratio": 4.0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0,
+        0.9939024390243902,
+        0.9615384615384616,
+        1.0,
+        1.0,
+        1.0,
+        0.9772727272727273,
+        0.9627831715210357
+      ],
+      "cpu_seconds": 0.0013668690007762052
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l88",
+      "tokens": 7,
+      "word_reference_count": 7,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            313,
+            387,
+            440,
+            436
+          ],
+          [
+            457,
+            393,
+            557,
+            438
+          ],
+          [
+            573,
+            395,
+            616,
+            439
+          ],
+          [
+            633,
+            405,
+            693,
+            434
+          ],
+          [
+            711,
+            409,
+            829,
+            435
+          ],
+          [
+            842,
+            400,
+            1057,
+            446
+          ],
+          [
+            1067,
+            400,
+            1168,
+            449
+          ]
+        ],
+        "tokens": [
+          "ſpree,",
+          "ſritt",
+          "i",
+          "aus",
+          "meiner",
+          "eingebildeten",
+          "Erg⸗"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 10,
+        "max_unselected_gap": 5,
+        "separation_ratio": 2.0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0,
+        0.9782608695652174,
+        0.9772727272727273,
+        1.0,
+        0.9393653785736726,
+        0.9953703703703703,
+        1.0
+      ],
+      "cpu_seconds": 0.0006004999959259294
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l139",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            311,
+            454,
+            392,
+            492
+          ],
+          [
+            415,
+            457,
+            487,
+            493
+          ],
+          [
+            514,
+            449,
+            698,
+            499
+          ],
+          [
+            724,
+            455,
+            801,
+            502
+          ],
+          [
+            818,
+            466,
+            853,
+            501
+          ],
+          [
+            874,
+            459,
+            1002,
+            503
+          ],
+          [
+            1018,
+            459,
+            1075,
+            496
+          ],
+          [
+            1107,
+            461,
+            1169,
+            496
+          ]
+        ],
+        "tokens": [
+          "zung",
+          "zum",
+          "Sreen,",
+          "ohne",
+          "zu",
+          "weißen,",
+          "wie",
+          "mir"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 16,
+        "max_unselected_gap": 5,
+        "separation_ratio": 3.2,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9743589743589743,
+        0.9722222222222222,
+        0.9945945945945946,
+        0.987012987012987,
+        1.0,
+        0.9777777777777777,
+        0.9736842105263158,
+        0.9841269841269841
+      ],
+      "cpu_seconds": 0.0006174619993544184
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l182",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            312,
+            503,
+            451,
+            551
+          ],
+          [
+            470,
+            508,
+            540,
+            541
+          ],
+          [
+            559,
+            508,
+            618,
+            553
+          ],
+          [
+            634,
+            508,
+            677,
+            551
+          ],
+          [
+            693,
+            511,
+            740,
+            546
+          ],
+          [
+            748,
+            509,
+            876,
+            555
+          ],
+          [
+            892,
+            517,
+            992,
+            550
+          ],
+          [
+            1005,
+            513,
+            1167,
+            562
+          ]
+        ],
+        "tokens": [
+          "geſah,",
+          "oder",
+          "daß",
+          "i",
+          "die",
+          "Urſae",
+          "davon",
+          "erforſen"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 8,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.6,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9726872246696036,
+        1.0,
+        0.9833333333333333,
+        0.9550619834710744,
+        1.0,
+        0.9787234042553191,
+        0.9705882352941176,
+        1.0
+      ],
+      "cpu_seconds": 0.0006443250022130087
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l232",
+      "tokens": 7,
+      "word_reference_count": 7,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            311,
+            558,
+            431,
+            596
+          ],
+          [
+            490,
+            561,
+            656,
+            611
+          ],
+          [
+            675,
+            566,
+            735,
+            612
+          ],
+          [
+            753,
+            566,
+            795,
+            608
+          ],
+          [
+            806,
+            568,
+            881,
+            610
+          ],
+          [
+            892,
+            570,
+            1037,
+            619
+          ],
+          [
+            1046,
+            576,
+            1168,
+            619
+          ]
+        ],
+        "tokens": [
+          "konnte.",
+          "Whrend",
+          "daß",
+          "i",
+          "mi",
+          "ungefehr",
+          "herum⸗"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.8,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9655701754385965,
+        1.0,
+        1.0,
+        0.9767441860465116,
+        0.9767441860465116,
+        0.9795918367346939,
+        0.9694428917458543
+      ],
+      "cpu_seconds": 0.0007944200042402372
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l275",
+      "tokens": 7,
+      "word_reference_count": 7,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            311,
+            617,
+            434,
+            663
+          ],
+          [
+            459,
+            627,
+            514,
+            654
+          ],
+          [
+            539,
+            620,
+            586,
+            656
+          ],
+          [
+            611,
+            623,
+            714,
+            668
+          ],
+          [
+            732,
+            621,
+            927,
+            669
+          ],
+          [
+            944,
+            627,
+            1068,
+            668
+          ],
+          [
+            1088,
+            626,
+            1167,
+            674
+          ]
+        ],
+        "tokens": [
+          "drehte,",
+          "um",
+          "ein",
+          "weiſes",
+          "Kaninen,",
+          "weles",
+          "mi"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 17,
+        "max_unselected_gap": 8,
+        "separation_ratio": 2.125,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.984,
+        1.0,
+        0.9791666666666666,
+        0.9782608695652174,
+        0.9948979591836735,
+        1.0,
+        1.0
+      ],
+      "cpu_seconds": 0.0006895519982208498
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l321",
+      "tokens": 10,
+      "word_reference_count": 10,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            309,
+            670,
+            445,
+            715
+          ],
+          [
+            460,
+            674,
+            511,
+            708
+          ],
+          [
+            526,
+            673,
+            563,
+            710
+          ],
+          [
+            583,
+            683,
+            616,
+            710
+          ],
+          [
+            626,
+            686,
+            661,
+            721
+          ],
+          [
+            678,
+            680,
+            798,
+            716
+          ],
+          [
+            808,
+            676,
+            918,
+            720
+          ],
+          [
+            929,
+            682,
+            988,
+            725
+          ],
+          [
+            1001,
+            686,
+            1068,
+            719
+          ],
+          [
+            1080,
+            685,
+            1167,
+            722
+          ]
+        ],
+        "tokens": [
+          "dnte,",
+          "als",
+          "ob",
+          "es",
+          "zu",
+          "meinen",
+          "Fßen",
+          "auf",
+          "dem",
+          "Gra⸗"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 10,
+        "max_unselected_gap": 4,
+        "separation_ratio": 2.5,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0,
+        1.0,
+        0.9736842105263158,
+        0.9642857142857143,
+        0.9722222222222222,
+        1.0,
+        1.0,
+        1.0,
+        0.9705882352941176,
+        0.9886363636363636
+      ],
+      "cpu_seconds": 0.0007692700019106269
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l370",
+      "tokens": 10,
+      "word_reference_count": 10,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            309,
+            727,
+            339,
+            771
+          ],
+          [
+            355,
+            726,
+            434,
+            770
+          ],
+          [
+            449,
+            737,
+            485,
+            772
+          ],
+          [
+            497,
+            728,
+            649,
+            776
+          ],
+          [
+            667,
+            733,
+            717,
+            778
+          ],
+          [
+            727,
+            732,
+            782,
+            778
+          ],
+          [
+            800,
+            735,
+            860,
+            780
+          ],
+          [
+            877,
+            735,
+            919,
+            775
+          ],
+          [
+            938,
+            747,
+            1036,
+            772
+          ],
+          [
+            1051,
+            738,
+            1166,
+            784
+          ]
+        ],
+        "tokens": [
+          "ſe",
+          "lage,",
+          "zu",
+          "liebkoſen,",
+          "ſah",
+          "i,",
+          "daß",
+          "i",
+          "meine",
+          "Hnde"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 10,
+        "max_unselected_gap": 6,
+        "separation_ratio": 1.6666666666666667,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.946236559139785,
+        0.9875,
+        1.0,
+        0.9731892757102841,
+        0.9381663113006397,
+        0.9821428571428571,
+        0.9836065573770492,
+        0.975609756097561,
+        0.9797979797979798,
+        0.9913793103448276
+      ],
+      "cpu_seconds": 0.0007774229961796664
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l420",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            310,
+            780,
+            373,
+            827
+          ],
+          [
+            386,
+            785,
+            442,
+            820
+          ],
+          [
+            459,
+            787,
+            605,
+            832
+          ],
+          [
+            629,
+            788,
+            753,
+            827
+          ],
+          [
+            770,
+            791,
+            853,
+            828
+          ],
+          [
+            872,
+            796,
+            983,
+            830
+          ],
+          [
+            1001,
+            792,
+            1101,
+            831
+          ],
+          [
+            1116,
+            807,
+            1165,
+            842
+          ]
+        ],
+        "tokens": [
+          "auf",
+          "den",
+          "zottigten",
+          "Ren",
+          "eines",
+          "wilden",
+          "Lwen",
+          "ge⸗"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 13,
+        "max_unselected_gap": 5,
+        "separation_ratio": 2.6,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9638671875,
+        0.9722222222222222,
+        0.9782608695652174,
+        0.9672,
+        1.0,
+        1.0,
+        0.975,
+        0.9527777777777777
+      ],
+      "cpu_seconds": 0.0007801149986335076
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l469",
+      "tokens": 10,
+      "word_reference_count": 10,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            308,
+            838,
+            372,
+            884
+          ],
+          [
+            394,
+            840,
+            499,
+            887
+          ],
+          [
+            521,
+            847,
+            573,
+            880
+          ],
+          [
+            596,
+            844,
+            652,
+            890
+          ],
+          [
+            671,
+            848,
+            703,
+            882
+          ],
+          [
+            728,
+            850,
+            776,
+            883
+          ],
+          [
+            791,
+            847,
+            882,
+            896
+          ],
+          [
+            899,
+            850,
+            1037,
+            896
+          ],
+          [
+            1061,
+            853,
+            1111,
+            888
+          ],
+          [
+            1135,
+            865,
+            1165,
+            889
+          ]
+        ],
+        "tokens": [
+          "legt",
+          "hatte,",
+          "der",
+          "",
+          "in",
+          "die",
+          "Hhe",
+          "ritete,",
+          "als",
+          "er"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 15,
+        "max_unselected_gap": 10,
+        "separation_ratio": 1.5,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0,
+        0.9791666666666666,
+        0.9705882352941176,
+        0.9787234042553191,
+        0.9714285714285714,
+        1.0,
+        0.9693478260869566,
+        1.0,
+        1.0,
+        0.9290322580645162
+      ],
+      "cpu_seconds": 0.0008269020036095753
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l517",
+      "tokens": 10,
+      "word_reference_count": 10,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "fhlte,",
+          "der",
+          "i",
+          "ihm,",
+          "wie",
+          "wohl",
+          "nur",
+          "ganz",
+          "ſate,",
+          "ſei⸗"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 7,
+        "separation_ratio": 1.2857142857142858,
+        "reason": "ambiguous_gap_partition"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00036980999720981345
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l567",
+      "tokens": 7,
+      "word_reference_count": 7,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "ne",
+          "vordere",
+          "Tazen",
+          "berhrte;",
+          "zwey",
+          "feurige",
+          "Blie"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 12,
+        "max_unselected_gap": 9,
+        "separation_ratio": 1.3333333333333333,
+        "reason": "ambiguous_gap_partition"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00032962100522127
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l615",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            306,
+            1006,
+            432,
+            1051
+          ],
+          [
+            451,
+            1015,
+            512,
+            1043
+          ],
+          [
+            528,
+            1010,
+            624,
+            1053
+          ],
+          [
+            634,
+            1009,
+            746,
+            1056
+          ],
+          [
+            762,
+            1012,
+            823,
+            1058
+          ],
+          [
+            840,
+            1015,
+            921,
+            1050
+          ],
+          [
+            939,
+            1015,
+            1087,
+            1063
+          ],
+          [
+            1106,
+            1021,
+            1164,
+            1056
+          ]
+        ],
+        "tokens": [
+          "ſoßen",
+          "aus",
+          "ſeinen",
+          "Augen",
+          "auf",
+          "mein",
+          "Gete,",
+          "mit"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 10,
+        "max_unselected_gap": 5,
+        "separation_ratio": 2.0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0,
+        0.9838709677419355,
+        1.0,
+        1.0,
+        1.0,
+        0.9722222222222222,
+        0.9932885906040269,
+        1.0
+      ],
+      "cpu_seconds": 0.0005653710031765513
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l662",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            304,
+            1060,
+            404,
+            1107
+          ],
+          [
+            419,
+            1065,
+            596,
+            1112
+          ],
+          [
+            613,
+            1066,
+            792,
+            1115
+          ],
+          [
+            809,
+            1069,
+            906,
+            1118
+          ],
+          [
+            925,
+            1084,
+            956,
+            1109
+          ],
+          [
+            970,
+            1075,
+            1023,
+            1120
+          ],
+          [
+            1046,
+            1086,
+            1088,
+            1111
+          ],
+          [
+            1115,
+            1077,
+            1163,
+            1112
+          ]
+        ],
+        "tokens": [
+          "ſeinen",
+          "gedreheten",
+          "Swanze",
+          "ſlug",
+          "er",
+          "",
+          "an",
+          "die"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 14,
+        "max_unselected_gap": 4,
+        "separation_ratio": 3.5,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0,
+        0.9791666666666666,
+        0.969218802089121,
+        0.9897959183673469,
+        0.9615384615384616,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cpu_seconds": 0.0005996140025672503
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l710",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            305,
+            1115,
+            418,
+            1164
+          ],
+          [
+            434,
+            1121,
+            512,
+            1164
+          ],
+          [
+            521,
+            1121,
+            595,
+            1158
+          ],
+          [
+            609,
+            1126,
+            727,
+            1167
+          ],
+          [
+            743,
+            1138,
+            774,
+            1166
+          ],
+          [
+            785,
+            1128,
+            915,
+            1173
+          ],
+          [
+            925,
+            1140,
+            981,
+            1166
+          ],
+          [
+            989,
+            1130,
+            1163,
+            1174
+          ]
+        ],
+        "tokens": [
+          "Seite,",
+          "mi",
+          "aber",
+          "mate",
+          "er",
+          "zuglei",
+          "vor",
+          "Sreen"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 8,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.6,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.98,
+        1.0,
+        0.9608680184987549,
+        1.0,
+        0.8571428571428571,
+        0.9777777777777777,
+        0.9629629629629629,
+        1.0
+      ],
+      "cpu_seconds": 0.0006671569935861044
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l756",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            303,
+            1174,
+            412,
+            1220
+          ],
+          [
+            423,
+            1180,
+            486,
+            1212
+          ],
+          [
+            500,
+            1178,
+            659,
+            1218
+          ],
+          [
+            717,
+            1181,
+            777,
+            1218
+          ],
+          [
+            793,
+            1183,
+            836,
+            1224
+          ],
+          [
+            854,
+            1183,
+            908,
+            1224
+          ],
+          [
+            918,
+            1186,
+            1034,
+            1228
+          ],
+          [
+            1047,
+            1186,
+            1160,
+            1230
+          ]
+        ],
+        "tokens": [
+          "zittern",
+          "und",
+          "erarren.",
+          "Da",
+          "i",
+          "bey",
+          "dieſem",
+          "furt⸗"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 10,
+        "max_unselected_gap": 5,
+        "separation_ratio": 2.0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.990909090909091,
+        0.9393939393939394,
+        1.0,
+        1.0,
+        0.9772727272727273,
+        1.0,
+        0.9108433734939759,
+        0.9777777777777777
+      ],
+      "cpu_seconds": 0.0005999060012982227
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l803",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            303,
+            1227,
+            400,
+            1267
+          ],
+          [
+            424,
+            1229,
+            552,
+            1270
+          ],
+          [
+            574,
+            1230,
+            718,
+            1280
+          ],
+          [
+            745,
+            1243,
+            778,
+            1272
+          ],
+          [
+            796,
+            1237,
+            899,
+            1283
+          ],
+          [
+            918,
+            1239,
+            984,
+            1275
+          ],
+          [
+            994,
+            1240,
+            1066,
+            1285
+          ],
+          [
+            1092,
+            1250,
+            1161,
+            1280
+          ]
+        ],
+        "tokens": [
+          "baren",
+          "Anbli",
+          "beſorgte,",
+          "es",
+          "mgte",
+          "mir",
+          "no",
+          "was"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 10,
+        "max_unselected_gap": 5,
+        "separation_ratio": 2.0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0,
+        0.9921875,
+        1.0,
+        1.0,
+        0.9693126022913257,
+        0.9104477611940298,
+        0.9863013698630136,
+        0.9857142857142858
+      ],
+      "cpu_seconds": 0.0006589740005438216
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l848",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            302,
+            1286,
+            493,
+            1333
+          ],
+          [
+            518,
+            1288,
+            683,
+            1337
+          ],
+          [
+            701,
+            1292,
+            783,
+            1341
+          ],
+          [
+            814,
+            1294,
+            857,
+            1335
+          ],
+          [
+            882,
+            1295,
+            909,
+            1340
+          ],
+          [
+            934,
+            1296,
+            1161,
+            1345
+          ]
+        ],
+        "tokens": [
+          "ſlimmers",
+          "begegnen,",
+          "ieß",
+          "i",
+          "ſo",
+          "eingeſlafen,"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 18,
+        "max_unselected_gap": 5,
+        "separation_ratio": 3.6,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0,
+        1.0,
+        0.9024390243902439,
+        0.9072737368128817,
+        0.9642857142857143,
+        0.98
+      ],
+      "cpu_seconds": 0.0006331320037133992
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l894",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            301,
+            1344,
+            363,
+            1380
+          ],
+          [
+            372,
+            1344,
+            415,
+            1389
+          ],
+          [
+            427,
+            1356,
+            505,
+            1391
+          ],
+          [
+            521,
+            1347,
+            568,
+            1383
+          ],
+          [
+            577,
+            1358,
+            656,
+            1395
+          ],
+          [
+            667,
+            1350,
+            822,
+            1400
+          ],
+          [
+            830,
+            1351,
+            1069,
+            1400
+          ],
+          [
+            1087,
+            1363,
+            1160,
+            1401
+          ]
+        ],
+        "tokens": [
+          "wie",
+          "i",
+          "war,",
+          "ein",
+          "ganz",
+          "entſeli",
+          "Zettergeſrey",
+          "aus,"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 8,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.6,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0,
+        0.9545454545454546,
+        0.9871794871794872,
+        1.0,
+        1.0,
+        0.9935483870967742,
+        0.98,
+        0.9743589743589743
+      ],
+      "cpu_seconds": 0.0007107780038495548
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l945",
+      "tokens": 7,
+      "word_reference_count": 7,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            300,
+            1402,
+            366,
+            1434
+          ],
+          [
+            384,
+            1403,
+            484,
+            1437
+          ],
+          [
+            497,
+            1403,
+            543,
+            1438
+          ],
+          [
+            551,
+            1401,
+            667,
+            1448
+          ],
+          [
+            683,
+            1408,
+            840,
+            1454
+          ],
+          [
+            897,
+            1409,
+            1010,
+            1446
+          ],
+          [
+            1025,
+            1409,
+            1159,
+            1454
+          ]
+        ],
+        "tokens": [
+          "und",
+          "wollte",
+          "die",
+          "Flut",
+          "ergreifen.",
+          "Meine",
+          "Herber⸗"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 8,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.6,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9552238805970149,
+        0.9714285714285714,
+        0.9515366430260047,
+        0.9401709401709402,
+        0.9936708860759493,
+        1.0,
+        1.0
+      ],
+      "cpu_seconds": 0.0005815229960717261
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l992",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            299,
+            1465,
+            351,
+            1500
+          ],
+          [
+            369,
+            1456,
+            416,
+            1492
+          ],
+          [
+            433,
+            1458,
+            497,
+            1496
+          ],
+          [
+            513,
+            1460,
+            690,
+            1506
+          ],
+          [
+            710,
+            1462,
+            790,
+            1506
+          ],
+          [
+            806,
+            1466,
+            876,
+            1501
+          ],
+          [
+            897,
+            1466,
+            1027,
+            1510
+          ],
+          [
+            1051,
+            1466,
+            1158,
+            1512
+          ]
+        ],
+        "tokens": [
+          "ge,",
+          "die",
+          "mir",
+          "anfngli",
+          "nit",
+          "weit",
+          "entfernt",
+          "ſien,"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 16,
+        "max_unselected_gap": 6,
+        "separation_ratio": 2.6666666666666665,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9811320754716981,
+        0.972972972972973,
+        0.9743589743589743,
+        1.0,
+        1.0,
+        0.9326227636086791,
+        0.9699809127190699,
+        0.9787234042553191
+      ],
+      "cpu_seconds": 0.000620593003986869
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l1041",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "war",
+          "unverſehens",
+          "verſwunden.",
+          "J",
+          "ſah,",
+          "daß"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 24,
+        "max_unselected_gap": 23,
+        "separation_ratio": 1.0434782608695652,
+        "reason": "ambiguous_gap_partition"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00029658600396942347
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l1083",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "gleifas",
+          "unverſehens",
+          "die",
+          "Erglikeiten",
+          "des",
+          "H⸗"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 4,
+        "max_unselected_gap": 4,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00034555500315036625
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l1133",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            298,
+            1626,
+            369,
+            1666
+          ],
+          [
+            379,
+            1632,
+            567,
+            1671
+          ],
+          [
+            585,
+            1634,
+            646,
+            1665
+          ],
+          [
+            656,
+            1631,
+            818,
+            1668
+          ],
+          [
+            833,
+            1642,
+            947,
+            1674
+          ],
+          [
+            966,
+            1635,
+            1022,
+            1669
+          ],
+          [
+            1034,
+            1643,
+            1069,
+            1671
+          ],
+          [
+            1077,
+            1643,
+            1155,
+            1671
+          ]
+        ],
+        "tokens": [
+          "gels",
+          "vergangen,",
+          "und",
+          "verndert",
+          "waren,",
+          "wie",
+          "es",
+          "etwa"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 8,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.6,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.975609756097561,
+        0.9691762138570649,
+        1.0,
+        0.9736842105263158,
+        0.991304347826087,
+        0.9543859649122807,
+        0.8163265306122449,
+        0.975
+      ],
+      "cpu_seconds": 0.000544798000191804
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l1183",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "zu",
+          "geſehen",
+          "pﬂegt,",
+          "wenn",
+          "ein",
+          "theatraliſer",
+          "Aftritt",
+          "in"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 5,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0003831930007436313
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l1234",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "ein",
+          "frterlies",
+          "deres",
+          "Gehlze",
+          "verwandelt",
+          "wird."
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 5,
+        "max_unselected_gap": 4,
+        "separation_ratio": 1.25,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00035287599894218147
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l1285",
+      "tokens": 1,
+      "word_reference_count": 1,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            1088,
+            1801,
+            1157,
+            1842
+          ]
+        ],
+        "tokens": [
+          "Wo"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.971830985915493
+      ],
+      "cpu_seconds": 0.0001234299998031929
+    },
+    {
+      "work": "chiamerk_766680207",
+      "line": "l5",
+      "tokens": 1,
+      "word_reference_count": 1,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            315,
+            195,
+            353,
+            228
+          ]
+        ],
+        "tokens": [
+          "88"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        1.0
+      ],
+      "cpu_seconds": 0.0001312080057687126
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l2",
+      "tokens": 9,
+      "word_reference_count": 9,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "nuß/",
+          "foꝛt/",
+          "vnd",
+          "not",
+          "i/",
+          "das",
+          "ſein",
+          "her",
+          "zuſaen"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 2,
+        "max_unselected_gap": 2,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0006318259984254837
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l3",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            163,
+            197,
+            380,
+            246
+          ],
+          [
+            386,
+            197,
+            461,
+            235
+          ],
+          [
+            475,
+            197,
+            513,
+            236
+          ],
+          [
+            527,
+            197,
+            689,
+            236
+          ],
+          [
+            703,
+            202,
+            857,
+            246
+          ],
+          [
+            873,
+            197,
+            1002,
+            236
+          ]
+        ],
+        "tokens": [
+          "geſpannen/",
+          "vnd",
+          "in",
+          "einander",
+          "gezogen",
+          "wirdt/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 6,
+        "max_unselected_gap": 3,
+        "separation_ratio": 2.0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9755737856023596,
+        0.960701754385965,
+        0.9499670836076366,
+        0.9683444127888572,
+        0.9772727272727273,
+        1.0
+      ],
+      "cpu_seconds": 0.001604321994818747
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l4",
+      "tokens": 9,
+      "word_reference_count": 9,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "das",
+          "jm",
+          "glei",
+          "bange/",
+          "vñ",
+          "ſier",
+          "die",
+          "weyte",
+          "welt"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0004934199969284236
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l5",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            161,
+            311,
+            205,
+            349
+          ],
+          [
+            213,
+            310,
+            299,
+            352
+          ],
+          [
+            314,
+            302,
+            431,
+            342
+          ],
+          [
+            440,
+            300,
+            530,
+            353
+          ],
+          [
+            538,
+            299,
+            706,
+            341
+          ],
+          [
+            714,
+            301,
+            805,
+            351
+          ],
+          [
+            813,
+            304,
+            850,
+            342
+          ],
+          [
+            864,
+            300,
+            1001,
+            353
+          ]
+        ],
+        "tokens": [
+          "zu",
+          "enge",
+          "wirdt.",
+          "Alſo",
+          "widerũb/",
+          "au",
+          "in",
+          "freden"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 8,
+        "max_unselected_gap": 3,
+        "separation_ratio": 2.6666666666666665,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9072737368128817,
+        0.9648394241417497,
+        0.9666666666666667,
+        0.978021978021978,
+        0.9703798185941043,
+        0.989010989010989,
+        0.7425320056899004,
+        0.9811320754716981
+      ],
+      "cpu_seconds": 0.0009366769954795018
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l6",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "vnd",
+          "erhait/",
+          "pꝛeytet",
+          "",
+          "das",
+          "her",
+          "auß",
+          "vnd"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0006788119935663417
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l7",
+      "tokens": 7,
+      "word_reference_count": 7,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            161,
+            411,
+            271,
+            449
+          ],
+          [
+            279,
+            405,
+            377,
+            454
+          ],
+          [
+            385,
+            408,
+            569,
+            459
+          ],
+          [
+            578,
+            406,
+            647,
+            449
+          ],
+          [
+            656,
+            417,
+            731,
+            446
+          ],
+          [
+            737,
+            406,
+            818,
+            447
+          ],
+          [
+            826,
+            410,
+            1000,
+            460
+          ]
+        ],
+        "tokens": [
+          "wirdt",
+          "nit",
+          "geenget.",
+          "Vil",
+          "mer",
+          "aber",
+          "geſit"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 6,
+        "max_unselected_gap": 3,
+        "separation_ratio": 2.0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9648325358851675,
+        0.9795918367346939,
+        0.9945652173913043,
+        0.9855072463768116,
+        0.9526436781609195,
+        0.9635651912074676,
+        1.0
+      ],
+      "cpu_seconds": 0.0007531369992648251
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l8",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "es",
+          "dur",
+          "die",
+          "frede",
+          "des",
+          "heyligen",
+          "geys/",
+          "dann"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 2,
+        "separation_ratio": 1.5,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0005489220056915656
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l9",
+      "tokens": 5,
+      "word_reference_count": 5,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "dur",
+          "natiirlie/",
+          "menſlie",
+          "fred.",
+          "Weyter"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 4,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.3333333333333333,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0004673020011978224
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l10",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "ſpꝛit",
+          "ſant",
+          "Paulus.",
+          "Wir",
+          "leyden",
+          "verfolgung/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 4,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.3333333333333333,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.000452681997558102
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l11",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "aber",
+          "wir",
+          "werden",
+          "nit",
+          "verlaen/",
+          "Vnd",
+          "ob",
+          "es"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 4,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.3333333333333333,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00044282599992584437
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l12",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "glei",
+          "alſo",
+          "ſeynet/",
+          "als",
+          "hab",
+          "Got",
+          "jr",
+          "vergeen/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0004039429986733012
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l15",
+      "tokens": 10,
+      "word_reference_count": 10,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "ja",
+          "als",
+          "hab",
+          "er",
+          "e",
+          "verlaen/",
+          "do",
+          "wirde",
+          "jnen",
+          "ge⸗"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00040504000207874924
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l16",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "holﬀen/",
+          "das",
+          "e",
+          "nit",
+          "vmb",
+          "kuen.",
+          "Dann",
+          "alſo"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00044712299859384075
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l13",
+      "tokens": 9,
+      "word_reference_count": 9,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "geet",
+          "es",
+          "allen",
+          "glaubigen/",
+          "das",
+          "e",
+          "ein",
+          "zeyt",
+          "lang"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0006083970001782291
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l14",
+      "tokens": 5,
+      "word_reference_count": 5,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "verlaen/",
+          "vnd",
+          "do",
+          "erlſet",
+          "werden."
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00032810599805088714
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l17",
+      "tokens": 6,
+      "word_reference_count": 6,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "¶",
+          "Sihe/",
+          "alſo",
+          "felt",
+          "manigfeltig",
+          "bekiimernuß"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 5,
+        "max_unselected_gap": 5,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0004097820055903867
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l19",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "vnd",
+          "leyden",
+          "auﬀ",
+          "den",
+          "euern",
+          "menſen/",
+          "vñ",
+          "der"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0005789630013168789
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l20",
+      "tokens": 7,
+      "word_reference_count": 7,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "innerli",
+          "newe",
+          "menſ/",
+          "eet",
+          "do",
+          "wol",
+          "zufri⸗"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 7,
+        "max_unselected_gap": 6,
+        "separation_ratio": 1.1666666666666667,
+        "reason": "ambiguous_gap_partition"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0005653600019286387
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l21",
+      "tokens": 9,
+      "word_reference_count": 9,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "den/",
+          "Es",
+          "kan",
+          "Got",
+          "au",
+          "wol",
+          "tren/",
+          "ob",
+          "glei"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0004168049999861978
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l22",
+      "tokens": 10,
+      "word_reference_count": 10,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            169,
+            1148,
+            242,
+            1188
+          ],
+          [
+            258,
+            1149,
+            376,
+            1198
+          ],
+          [
+            389,
+            1151,
+            437,
+            1189
+          ],
+          [
+            443,
+            1145,
+            572,
+            1197
+          ],
+          [
+            586,
+            1157,
+            619,
+            1185
+          ],
+          [
+            627,
+            1146,
+            698,
+            1187
+          ],
+          [
+            712,
+            1150,
+            778,
+            1187
+          ],
+          [
+            792,
+            1148,
+            888,
+            1199
+          ],
+          [
+            903,
+            1150,
+            939,
+            1199
+          ],
+          [
+            947,
+            1151,
+            1009,
+            1192
+          ]
+        ],
+        "tokens": [
+          "das",
+          "leyden",
+          "daſey/",
+          "Ia",
+          "er",
+          "kan",
+          "den",
+          "gey",
+          "ſo",
+          "vol"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 6,
+        "max_unselected_gap": 3,
+        "separation_ratio": 2.0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.9616438356164384,
+        0.9795918367346939,
+        0.31281083862116277,
+        0.43828264758497315,
+        0.935064935064935,
+        0.9618687736173136,
+        0.9848484848484849,
+        0.9701797385620915,
+        0.9722222222222222,
+        0.9523809523809523
+      ],
+      "cpu_seconds": 0.0007851539994589984
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l23",
+      "tokens": 7,
+      "word_reference_count": 7,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "troes",
+          "maen/",
+          "das",
+          "nr",
+          "der",
+          "euerlie",
+          "mẽſ"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 4,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.3333333333333333,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00048676200094632804
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l24",
+      "tokens": 5,
+      "word_reference_count": 5,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "das",
+          "leyden",
+          "empﬁndt.",
+          "Menſlie",
+          "vernunﬀt"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 5,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.6666666666666667,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0004675550007959828
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l25",
+      "tokens": 10,
+      "word_reference_count": 10,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "helt",
+          "das",
+          "allain",
+          "ﬁir",
+          "tro/",
+          "ſo",
+          "das",
+          "vbel",
+          "vñ",
+          "leyden"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0004448260006029159
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l26",
+      "tokens": 7,
+      "word_reference_count": 7,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "abgerien",
+          "wirdt/",
+          "von",
+          "dem",
+          "menſen",
+          "der",
+          "da"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00046527499944204465
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l27",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "leydet/",
+          "ſunder",
+          "Got",
+          "laet",
+          "das",
+          "vbel",
+          "ill",
+          "ligen/"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 2,
+        "separation_ratio": 1.5,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0004121899983147159
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l28",
+      "tokens": 9,
+      "word_reference_count": 9,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "das",
+          "es",
+          "die",
+          "perſon",
+          "dꝛut/",
+          "vñ",
+          "nimbts",
+          "nit",
+          "hyn⸗"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0004137899959459901
+    },
+    {
+      "work": "brieetli_73862926X",
+      "line": "l18",
+      "tokens": 8,
+      "word_reference_count": 8,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "wegk/",
+          "Hat",
+          "aber",
+          "ein",
+          "ander",
+          "weyſe/",
+          "vnd",
+          "mat"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.00042767599370563403
+    },
+    {
+      "work": "CesiLAn_893988510",
+      "line": "l1",
+      "tokens": 13,
+      "word_reference_count": 13,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "27.",
+          "Mſc.",
+          "Das",
+          "Münchs-Kappen-förmige",
+          "Meuſlein,",
+          "entſteht",
+          "aus",
+          "dem",
+          "Knickbein,",
+          "und",
+          "von",
+          "allen",
+          "grä⸗"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 7,
+        "max_unselected_gap": 6,
+        "separation_ratio": 1.1666666666666667,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.002456595997500699
+    },
+    {
+      "work": "CesiLAn_893988510",
+      "line": "l419",
+      "tokens": 15,
+      "word_reference_count": 15,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "tigen",
+          "fortſäzen",
+          "der",
+          "Halsgewerbe,",
+          "und",
+          "8.",
+          "des",
+          "Ruckens,",
+          "endiget",
+          "ſich",
+          "in",
+          "den",
+          "Gräten",
+          "der",
+          "Schulter⸗"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 6,
+        "max_unselected_gap": 6,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0021835649968124926
+    },
+    {
+      "work": "CesiLAn_893988510",
+      "line": "l175",
+      "tokens": 13,
+      "word_reference_count": 13,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "blätter,",
+          "genau",
+          "bey",
+          "den",
+          "Köpfen",
+          "der",
+          "Achſelbeiner,",
+          "und",
+          "hilft",
+          "zugleich",
+          "mit",
+          "denen",
+          "Aufhebenden"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "ious": [],
+      "cpu_seconds": 0.0014174739990266971
+    },
+    {
+      "work": "CesiLAn_893988510",
+      "line": "l222",
+      "tokens": 5,
+      "word_reference_count": 5,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            273,
+            472,
+            568,
+            548
+          ],
+          [
+            584,
+            444,
+            910,
+            540
+          ],
+          [
+            944,
+            446,
+            1015,
+            498
+          ],
+          [
+            1037,
+            426,
+            1381,
+            501
+          ],
+          [
+            1400,
+            469,
+            1405,
+            478
+          ]
+        ],
+        "tokens": [
+          "Meuſlein",
+          "zu",
+          "Emporhebung",
+          "der",
+          "Schulterblätter."
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 16,
+        "max_unselected_gap": 7,
+        "separation_ratio": 2.2857142857142856,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.6813559322033899,
+        0.0,
+        0.0,
+        0.0,
+        0.0016304347826086956
+      ],
+      "cpu_seconds": 0.001535531999252271
+    },
+    {
+      "work": "CesiLAn_893988510",
+      "line": "l415",
+      "tokens": 1,
+      "word_reference_count": 1,
+      "tokenization_compatible": true,
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            2391,
+            4099,
+            2533,
+            4155
+          ]
+        ],
+        "tokens": [
+          "VI."
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "reason": "separated_gaps"
+      },
+      "ious": [
+        0.993006993006993
+      ],
+      "cpu_seconds": 0.00019646500004455447
+    }
+  ],
+  "per_line_predicted": [
+    {
+      "line": "P0001_R0001_L0001",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "A",
+          "friend",
+          "at",
+          "Norwich",
+          "has",
+          "written",
+          "to",
+          "say",
+          "that",
+          "he",
+          "places",
+          "this"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 7,
+        "max_unselected_gap": 7,
+        "separation_ratio": 1.0,
+        "reason": "ambiguous_gap_partition"
+      },
+      "cpu_seconds": 0.00037676400097552687
+    },
+    {
+      "line": "P0001_R0001_L0002",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            904,
+            1261,
+            996,
+            1282
+          ],
+          [
+            1010,
+            1266,
+            1035,
+            1278
+          ],
+          [
+            1051,
+            1259,
+            1084,
+            1277
+          ],
+          [
+            1098,
+            1258,
+            1158,
+            1280
+          ],
+          [
+            1167,
+            1258,
+            1207,
+            1276
+          ],
+          [
+            1222,
+            1258,
+            1265,
+            1275
+          ],
+          [
+            1281,
+            1258,
+            1315,
+            1275
+          ],
+          [
+            1330,
+            1253,
+            1395,
+            1279
+          ],
+          [
+            1409,
+            1259,
+            1429,
+            1274
+          ],
+          [
+            1443,
+            1253,
+            1477,
+            1274
+          ],
+          [
+            1490,
+            1257,
+            1532,
+            1275
+          ],
+          [
+            1547,
+            1258,
+            1581,
+            1276
+          ]
+        ],
+        "tokens": [
+          "alphabet",
+          "on",
+          "the",
+          "table,",
+          "and",
+          "asks",
+          "the",
+          "spirits",
+          "to",
+          "tilt",
+          "first",
+          "the"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 3,
+        "separation_ratio": 3.0,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.0004012580029666424
+    },
+    {
+      "line": "P0001_R0001_L0003",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            903,
+            1281,
+            985,
+            1303
+          ],
+          [
+            998,
+            1285,
+            1018,
+            1302
+          ],
+          [
+            1029,
+            1285,
+            1062,
+            1302
+          ],
+          [
+            1074,
+            1279,
+            1185,
+            1302
+          ],
+          [
+            1196,
+            1283,
+            1236,
+            1301
+          ],
+          [
+            1250,
+            1283,
+            1271,
+            1300
+          ],
+          [
+            1284,
+            1278,
+            1349,
+            1300
+          ],
+          [
+            1363,
+            1281,
+            1396,
+            1299
+          ],
+          [
+            1409,
+            1282,
+            1468,
+            1299
+          ],
+          [
+            1480,
+            1281,
+            1498,
+            1299
+          ],
+          [
+            1506,
+            1282,
+            1580,
+            1304
+          ]
+        ],
+        "tokens": [
+          "number",
+          "of",
+          "the",
+          "horizontal",
+          "line",
+          "in",
+          "which",
+          "the",
+          "letter",
+          "is",
+          "placed,"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 8,
+        "max_unselected_gap": 3,
+        "separation_ratio": 2.6666666666666665,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.000569242998608388
+    },
+    {
+      "line": "P0001_R0001_L0004",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            902,
+            1310,
+            950,
+            1328
+          ],
+          [
+            960,
+            1312,
+            980,
+            1327
+          ],
+          [
+            989,
+            1309,
+            1046,
+            1327
+          ],
+          [
+            1056,
+            1314,
+            1068,
+            1326
+          ],
+          [
+            1075,
+            1313,
+            1141,
+            1331
+          ],
+          [
+            1151,
+            1307,
+            1190,
+            1326
+          ],
+          [
+            1203,
+            1307,
+            1318,
+            1325
+          ],
+          [
+            1333,
+            1308,
+            1353,
+            1324
+          ],
+          [
+            1368,
+            1306,
+            1401,
+            1323
+          ],
+          [
+            1416,
+            1306,
+            1450,
+            1324
+          ],
+          [
+            1463,
+            1302,
+            1546,
+            1324
+          ],
+          [
+            1559,
+            1302,
+            1581,
+            1325
+          ]
+        ],
+        "tokens": [
+          "then",
+          "to",
+          "make",
+          "a",
+          "pause,",
+          "and",
+          "afterwards",
+          "to",
+          "tilt",
+          "the",
+          "number",
+          "of"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 7,
+        "max_unselected_gap": 3,
+        "separation_ratio": 2.3333333333333335,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.00042487199971219525
+    },
+    {
+      "line": "P0001_R0001_L0005",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            902,
+            1334,
+            936,
+            1352
+          ],
+          [
+            945,
+            1334,
+            1004,
+            1352
+          ],
+          [
+            1016,
+            1334,
+            1070,
+            1352
+          ],
+          [
+            1075,
+            1329,
+            1190,
+            1355
+          ],
+          [
+            1202,
+            1334,
+            1223,
+            1350
+          ],
+          [
+            1236,
+            1332,
+            1270,
+            1350
+          ],
+          [
+            1279,
+            1331,
+            1365,
+            1353
+          ],
+          [
+            1378,
+            1331,
+            1394,
+            1348
+          ],
+          [
+            1407,
+            1331,
+            1496,
+            1353
+          ],
+          [
+            1512,
+            1331,
+            1534,
+            1349
+          ],
+          [
+            1546,
+            1332,
+            1579,
+            1349
+          ]
+        ],
+        "tokens": [
+          "the",
+          "letter",
+          "itself",
+          "according",
+          "to",
+          "the",
+          "position",
+          "it",
+          "occupies",
+          "in",
+          "the"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 5,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.6666666666666667,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.0005421160021796823
+    },
+    {
+      "line": "P0001_R0001_L0006",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            902,
+            1359,
+            948,
+            1377
+          ],
+          [
+            974,
+            1359,
+            1025,
+            1377
+          ],
+          [
+            1041,
+            1358,
+            1076,
+            1376
+          ],
+          [
+            1093,
+            1357,
+            1166,
+            1379
+          ],
+          [
+            1178,
+            1352,
+            1229,
+            1374
+          ],
+          [
+            1246,
+            1357,
+            1267,
+            1374
+          ],
+          [
+            1279,
+            1351,
+            1317,
+            1374
+          ],
+          [
+            1334,
+            1355,
+            1427,
+            1378
+          ],
+          [
+            1444,
+            1351,
+            1470,
+            1378
+          ],
+          [
+            1486,
+            1356,
+            1578,
+            1378
+          ]
+        ],
+        "tokens": [
+          "line.",
+          "Thus",
+          "the",
+          "calling",
+          "over",
+          "of",
+          "the",
+          "alphabet",
+          "by",
+          "anybody"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 12,
+        "max_unselected_gap": 3,
+        "separation_ratio": 4.0,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.00043806199391838163
+    },
+    {
+      "line": "P0001_R0001_L0007",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            902,
+            1385,
+            980,
+            1404
+          ],
+          [
+            993,
+            1383,
+            1010,
+            1401
+          ],
+          [
+            1024,
+            1383,
+            1119,
+            1401
+          ],
+          [
+            1132,
+            1377,
+            1267,
+            1403
+          ],
+          [
+            1292,
+            1381,
+            1320,
+            1398
+          ],
+          [
+            1332,
+            1377,
+            1384,
+            1398
+          ],
+          [
+            1393,
+            1376,
+            1497,
+            1398
+          ],
+          [
+            1511,
+            1376,
+            1579,
+            1398
+          ]
+        ],
+        "tokens": [
+          "present",
+          "is",
+          "rendered",
+          "unnecessary.",
+          "At",
+          "some",
+          "American",
+          "circles"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 3,
+        "separation_ratio": 3.0,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.0004549350051092915
+    },
+    {
+      "line": "P0001_R0001_L0008",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            902,
+            1404,
+            935,
+            1426
+          ],
+          [
+            945,
+            1408,
+            1011,
+            1430
+          ],
+          [
+            1023,
+            1408,
+            1072,
+            1425
+          ],
+          [
+            1081,
+            1407,
+            1131,
+            1425
+          ],
+          [
+            1139,
+            1406,
+            1211,
+            1429
+          ],
+          [
+            1220,
+            1408,
+            1240,
+            1423
+          ],
+          [
+            1249,
+            1401,
+            1314,
+            1427
+          ],
+          [
+            1327,
+            1405,
+            1354,
+            1427
+          ],
+          [
+            1362,
+            1410,
+            1429,
+            1423
+          ],
+          [
+            1439,
+            1405,
+            1459,
+            1422
+          ],
+          [
+            1472,
+            1405,
+            1506,
+            1422
+          ],
+          [
+            1514,
+            1405,
+            1578,
+            1423
+          ]
+        ],
+        "tokens": [
+          "the",
+          "spirits",
+          "have",
+          "been",
+          "taught",
+          "to",
+          "signal",
+          "by",
+          "means",
+          "of",
+          "the",
+          "Morse"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 8,
+        "max_unselected_gap": 3,
+        "separation_ratio": 2.6666666666666665,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.0005778630002168939
+    },
+    {
+      "line": "P0001_R0001_L0009",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            902,
+            1430,
+            1001,
+            1455
+          ],
+          [
+            1011,
+            1438,
+            1031,
+            1450
+          ],
+          [
+            1040,
+            1432,
+            1115,
+            1449
+          ],
+          [
+            1124,
+            1437,
+            1153,
+            1449
+          ]
+        ],
+        "tokens": [
+          "alphabet,",
+          "as",
+          "follows",
+          ":—"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 3,
+        "separation_ratio": 3.0,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.0002896630030591041
+    },
+    {
+      "line": "P0001_R0002_L0001",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            936,
+            321,
+            1092,
+            341
+          ],
+          [
+            1110,
+            319,
+            1127,
+            338
+          ],
+          [
+            1148,
+            319,
+            1232,
+            344
+          ],
+          [
+            1255,
+            317,
+            1334,
+            343
+          ],
+          [
+            1357,
+            317,
+            1378,
+            336
+          ],
+          [
+            1397,
+            316,
+            1507,
+            337
+          ],
+          [
+            1546,
+            315,
+            1588,
+            334
+          ]
+        ],
+        "tokens": [
+          "SPIRITUALISM",
+          "is",
+          "gaining",
+          "ground",
+          "in",
+          "Australia.",
+          "The"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 18,
+        "max_unselected_gap": 3,
+        "separation_ratio": 6.0,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.0003190400020685047
+    },
+    {
+      "line": "P0001_R0002_L0002",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            911,
+            348,
+            1020,
+            366
+          ],
+          [
+            1030,
+            347,
+            1091,
+            368
+          ],
+          [
+            1102,
+            340,
+            1206,
+            367
+          ],
+          [
+            1215,
+            340,
+            1236,
+            363
+          ],
+          [
+            1250,
+            340,
+            1291,
+            363
+          ],
+          [
+            1302,
+            344,
+            1347,
+            363
+          ],
+          [
+            1356,
+            345,
+            1400,
+            367
+          ],
+          [
+            1410,
+            346,
+            1486,
+            367
+          ],
+          [
+            1494,
+            343,
+            1537,
+            361
+          ],
+          [
+            1551,
+            342,
+            1587,
+            360
+          ]
+        ],
+        "tokens": [
+          "Melbourne",
+          "Daily",
+          "Telegraph",
+          "of",
+          "Oct.",
+          "12th",
+          "last,",
+          "reports",
+          "that",
+          "Mr."
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 8,
+        "max_unselected_gap": 3,
+        "separation_ratio": 2.6666666666666665,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.00041808000241871923
+    },
+    {
+      "line": "P0001_R0002_L0003",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            909,
+            373,
+            982,
+            395
+          ],
+          [
+            996,
+            367,
+            1095,
+            390
+          ],
+          [
+            1108,
+            376,
+            1119,
+            389
+          ],
+          [
+            1131,
+            367,
+            1204,
+            389
+          ],
+          [
+            1213,
+            376,
+            1238,
+            387
+          ],
+          [
+            1252,
+            370,
+            1286,
+            387
+          ],
+          [
+            1298,
+            369,
+            1374,
+            392
+          ],
+          [
+            1388,
+            364,
+            1408,
+            386
+          ],
+          [
+            1421,
+            363,
+            1454,
+            386
+          ],
+          [
+            1469,
+            367,
+            1587,
+            386
+          ]
+        ],
+        "tokens": [
+          "Nayler",
+          "delivered",
+          "a",
+          "lecture",
+          "on",
+          "the",
+          "subject",
+          "at",
+          "the",
+          "Mechanics’"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 3,
+        "separation_ratio": 3.0,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.00039706900133751333
+    },
+    {
+      "line": "P0001_R0002_L0004",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            909,
+            393,
+            1008,
+            419
+          ],
+          [
+            1016,
+            397,
+            1136,
+            417
+          ],
+          [
+            1143,
+            396,
+            1182,
+            413
+          ],
+          [
+            1189,
+            395,
+            1232,
+            412
+          ],
+          [
+            1241,
+            394,
+            1265,
+            412
+          ],
+          [
+            1271,
+            388,
+            1356,
+            412
+          ],
+          [
+            1364,
+            394,
+            1397,
+            411
+          ],
+          [
+            1408,
+            393,
+            1463,
+            416
+          ],
+          [
+            1468,
+            393,
+            1489,
+            411
+          ],
+          [
+            1498,
+            391,
+            1586,
+            417
+          ]
+        ],
+        "tokens": [
+          "Institute,",
+          "Melbourne,",
+          "and",
+          "that",
+          "he",
+          "asserted",
+          "the",
+          "King",
+          "of",
+          "Bavaria,"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 5,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.6666666666666667,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.000488322002638597
+    },
+    {
+      "line": "P0001_R0002_L0005",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            907,
+            421,
+            940,
+            439
+          ],
+          [
+            960,
+            416,
+            1053,
+            443
+          ],
+          [
+            1070,
+            416,
+            1177,
+            443
+          ],
+          [
+            1195,
+            420,
+            1234,
+            437
+          ],
+          [
+            1254,
+            419,
+            1319,
+            440
+          ],
+          [
+            1336,
+            418,
+            1429,
+            440
+          ],
+          [
+            1448,
+            413,
+            1468,
+            435
+          ],
+          [
+            1484,
+            418,
+            1509,
+            435
+          ],
+          [
+            1527,
+            415,
+            1586,
+            439
+          ]
+        ],
+        "tokens": [
+          "the",
+          "Emperor",
+          "Napoleon,",
+          "and",
+          "Queen",
+          "Victoria,",
+          "to",
+          "be",
+          "Spiri-"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 16,
+        "max_unselected_gap": 4,
+        "separation_ratio": 4.0,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.0004055760000483133
+    },
+    {
+      "line": "P0001_R0002_L0006",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            907,
+            441,
+            1002,
+            464
+          ]
+        ],
+        "tokens": [
+          "tualists."
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 9.772599878488109e-05
+    },
+    {
+      "line": "P0001_R0003_L0001",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            931,
+            950,
+            1005,
+            971
+          ],
+          [
+            1020,
+            949,
+            1111,
+            969
+          ],
+          [
+            1125,
+            954,
+            1169,
+            968
+          ],
+          [
+            1183,
+            953,
+            1228,
+            967
+          ],
+          [
+            1240,
+            947,
+            1413,
+            967
+          ],
+          [
+            1422,
+            945,
+            1462,
+            966
+          ],
+          [
+            1471,
+            947,
+            1537,
+            966
+          ],
+          [
+            1547,
+            953,
+            1584,
+            972
+          ]
+        ],
+        "tokens": [
+          "TABLE",
+          "SIGNALS",
+          "AND",
+          "THE",
+          "ALPHABET.—A",
+          "few",
+          "weeks",
+          "ago"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 9,
+        "max_unselected_gap": 3,
+        "separation_ratio": 3.0,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.00031722999847261235
+    },
+    {
+      "line": "P0001_R0003_L0002",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            906,
+            983,
+            935,
+            995
+          ],
+          [
+            948,
+            977,
+            1030,
+            999
+          ],
+          [
+            1045,
+            978,
+            1079,
+            994
+          ],
+          [
+            1093,
+            977,
+            1125,
+            994
+          ],
+          [
+            1139,
+            975,
+            1209,
+            996
+          ],
+          [
+            1221,
+            975,
+            1242,
+            993
+          ],
+          [
+            1257,
+            975,
+            1305,
+            992
+          ],
+          [
+            1319,
+            974,
+            1362,
+            992
+          ],
+          [
+            1375,
+            974,
+            1439,
+            995
+          ],
+          [
+            1454,
+            974,
+            1479,
+            992
+          ],
+          [
+            1492,
+            969,
+            1582,
+            996
+          ]
+        ],
+        "tokens": [
+          "we",
+          "pointed",
+          "out",
+          "the",
+          "saving",
+          "in",
+          "time",
+          "that",
+          "might",
+          "be",
+          "effected,"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 12,
+        "max_unselected_gap": 3,
+        "separation_ratio": 4.0,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.000381377998564858
+    },
+    {
+      "line": "P0001_R0003_L0003",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "abstain",
+        "boxes": [],
+        "tokens": [
+          "when",
+          "receiving",
+          "messages",
+          "by",
+          "means",
+          "of",
+          "raps",
+          "or",
+          "tilts,",
+          "if",
+          "the"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 3,
+        "max_unselected_gap": 3,
+        "separation_ratio": 1.0,
+        "reason": "word_gap_too_small"
+      },
+      "cpu_seconds": 0.00016943399532465264
+    },
+    {
+      "line": "P0001_R0003_L0004",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            906,
+            1027,
+            998,
+            1049
+          ],
+          [
+            1007,
+            1031,
+            1057,
+            1044
+          ],
+          [
+            1064,
+            1021,
+            1146,
+            1043
+          ],
+          [
+            1156,
+            1020,
+            1179,
+            1042
+          ],
+          [
+            1193,
+            1020,
+            1226,
+            1042
+          ],
+          [
+            1235,
+            1024,
+            1338,
+            1046
+          ],
+          [
+            1347,
+            1020,
+            1396,
+            1046
+          ],
+          [
+            1406,
+            1023,
+            1446,
+            1041
+          ],
+          [
+            1455,
+            1028,
+            1466,
+            1041
+          ],
+          [
+            1474,
+            1018,
+            1582,
+            1045
+          ]
+        ],
+        "tokens": [
+          "alphabet",
+          "were",
+          "written",
+          "in",
+          "the",
+          "following",
+          "way,",
+          "and",
+          "a",
+          "particular"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 7,
+        "max_unselected_gap": 3,
+        "separation_ratio": 2.3333333333333335,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.0004237020038999617
+    },
+    {
+      "line": "P0001_R0003_L0005",
+      "prediction": {
+        "method": "projection_gap_no_recognizer_a19",
+        "status": "proposal_requires_review",
+        "boxes": [
+          [
+            905,
+            1047,
+            984,
+            1069
+          ],
+          [
+            996,
+            1051,
+            1016,
+            1068
+          ],
+          [
+            1024,
+            1050,
+            1132,
+            1073
+          ],
+          [
+            1141,
+            1049,
+            1226,
+            1072
+          ],
+          [
+            1236,
+            1055,
+            1261,
+            1066
+          ]
+        ],
+        "tokens": [
+          "method",
+          "of",
+          "signalling",
+          "adopted",
+          ":—"
+        ],
+        "certified": false,
+        "recognizer_forwards": 0,
+        "min_selected_gap": 8,
+        "max_unselected_gap": 3,
+        "separation_ratio": 2.6666666666666665,
+        "reason": "separated_gaps"
+      },
+      "cpu_seconds": 0.000429411004006397
+    }
+  ]
+}

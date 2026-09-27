@@ -1,0 +1,12 @@
+{
+  "config": {
+    "mode": "vertical",
+    "margin": 0,
+    "min_area": 2,
+    "binarization": "otsu",
+    "max_shrink": 0.5
+  },
+  "development_gain": 0.02528365546475897,
+  "frozen_at_unix": 1790465021.245065,
+  "source_sha256": "715edfc76c3b22a99360e1bda022ebecdbaa4a4258a9a679f0dc3aec8ad1e45c"
+}

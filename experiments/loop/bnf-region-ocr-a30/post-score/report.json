@@ -1,0 +1,259 @@
+{
+  "schema": "bbvlm.bnf-region-ocr-a30-post-score-audit/1",
+  "status": "diagnostic_after_scoring; sealed strict metric, references and candidates unchanged",
+  "candidates": {
+    "luna": {
+      "reader": "gpt-6-luna",
+      "corrected_retrieval_view": {
+        "characters": 2962,
+        "edits": 25,
+        "cer": 0.008440243079000676,
+        "exact_regions": 6,
+        "per_region": [
+          {
+            "id": "T001",
+            "characters": 251,
+            "edits": 1,
+            "exact": false
+          },
+          {
+            "id": "T002",
+            "characters": 107,
+            "edits": 0,
+            "exact": true
+          },
+          {
+            "id": "T003",
+            "characters": 72,
+            "edits": 2,
+            "exact": false
+          },
+          {
+            "id": "T004",
+            "characters": 228,
+            "edits": 0,
+            "exact": true
+          },
+          {
+            "id": "T005",
+            "characters": 255,
+            "edits": 0,
+            "exact": true
+          },
+          {
+            "id": "T006",
+            "characters": 45,
+            "edits": 3,
+            "exact": false
+          },
+          {
+            "id": "T007",
+            "characters": 199,
+            "edits": 5,
+            "exact": false
+          },
+          {
+            "id": "T008",
+            "characters": 392,
+            "edits": 1,
+            "exact": false
+          },
+          {
+            "id": "T009",
+            "characters": 123,
+            "edits": 2,
+            "exact": false
+          },
+          {
+            "id": "T010",
+            "characters": 174,
+            "edits": 5,
+            "exact": false
+          },
+          {
+            "id": "T011",
+            "characters": 173,
+            "edits": 2,
+            "exact": false
+          },
+          {
+            "id": "T012",
+            "characters": 123,
+            "edits": 0,
+            "exact": true
+          },
+          {
+            "id": "T013",
+            "characters": 192,
+            "edits": 0,
+            "exact": true
+          },
+          {
+            "id": "T014",
+            "characters": 87,
+            "edits": 1,
+            "exact": false
+          },
+          {
+            "id": "T015",
+            "characters": 183,
+            "edits": 0,
+            "exact": true
+          },
+          {
+            "id": "T016",
+            "characters": 358,
+            "edits": 3,
+            "exact": false
+          }
+        ]
+      },
+      "single_codepoint_substitutions": {
+        "U+2011->U+002D": 24,
+        "U+00E9->U+0065": 1,
+        "U+006F->U+0065": 1,
+        "U+004D->U+004E": 1,
+        "U+0065->U+0063": 1,
+        "U+0065->U+0061": 1
+      },
+      "reference_replacement_character_ids": [
+        "T003"
+      ]
+    },
+    "sol": {
+      "reader": "gpt-6-sol",
+      "corrected_retrieval_view": {
+        "characters": 2962,
+        "edits": 17,
+        "cer": 0.005739365293720459,
+        "exact_regions": 6,
+        "per_region": [
+          {
+            "id": "T001",
+            "characters": 251,
+            "edits": 0,
+            "exact": true
+          },
+          {
+            "id": "T002",
+            "characters": 107,
+            "edits": 0,
+            "exact": true
+          },
+          {
+            "id": "T003",
+            "characters": 72,
+            "edits": 2,
+            "exact": false
+          },
+          {
+            "id": "T004",
+            "characters": 228,
+            "edits": 0,
+            "exact": true
+          },
+          {
+            "id": "T005",
+            "characters": 255,
+            "edits": 0,
+            "exact": true
+          },
+          {
+            "id": "T006",
+            "characters": 45,
+            "edits": 2,
+            "exact": false
+          },
+          {
+            "id": "T007",
+            "characters": 199,
+            "edits": 3,
+            "exact": false
+          },
+          {
+            "id": "T008",
+            "characters": 392,
+            "edits": 1,
+            "exact": false
+          },
+          {
+            "id": "T009",
+            "characters": 123,
+            "edits": 2,
+            "exact": false
+          },
+          {
+            "id": "T010",
+            "characters": 174,
+            "edits": 1,
+            "exact": false
+          },
+          {
+            "id": "T011",
+            "characters": 173,
+            "edits": 1,
+            "exact": false
+          },
+          {
+            "id": "T012",
+            "characters": 123,
+            "edits": 0,
+            "exact": true
+          },
+          {
+            "id": "T013",
+            "characters": 192,
+            "edits": 3,
+            "exact": false
+          },
+          {
+            "id": "T014",
+            "characters": 87,
+            "edits": 1,
+            "exact": false
+          },
+          {
+            "id": "T015",
+            "characters": 183,
+            "edits": 0,
+            "exact": true
+          },
+          {
+            "id": "T016",
+            "characters": 358,
+            "edits": 1,
+            "exact": false
+          }
+        ]
+      },
+      "single_codepoint_substitutions": {
+        "U+2011->U+002D": 25,
+        "U+0065->U+0061": 2,
+        "U+00E9->U+0065": 1,
+        "U+0020->U+002D": 1,
+        "U+0062->U+0075": 1,
+        "U+0075->U+006E": 1
+      },
+      "reference_replacement_character_ids": [
+        "T003"
+      ]
+    }
+  },
+  "reference_flags": {
+    "replacement_character": [
+      "T003"
+    ],
+    "visual_adjudication_needed": [
+      "T006",
+      "T007",
+      "T008",
+      "T014"
+    ],
+    "reason": "Manual transcription is a strong reference, not axiomatic truth; flags are hypotheses and are not corrections."
+  },
+  "interpretation": [
+    "The primary strict score remains the sealed score and includes Unicode hyphen-codepoint disagreements.",
+    "The corrected retrieval view maps dash variants before joining line-end hyphenation; it is a post-score diagnostic only.",
+    "Neither model agreement nor a lower normalized CER adjudicates disputed source/reference readings."
+  ]
+}

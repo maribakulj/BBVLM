@@ -1,0 +1,70 @@
+{
+  "schema": "bbvlm.bnf-impact-olr-a27-sol-escalation/1",
+  "status": "post-hoc targeted escalation after Luna structural abstention; not preregistered independent validation",
+  "scope": "same opaque visual inputs; Sol denied GT, mapping and Luna output; oracle TextRegion polygons",
+  "counts": {
+    "regions": 235,
+    "reference_ordered_streams": 13,
+    "predicted_streams": 34
+  },
+  "candidate": {
+    "eligibility": {
+      "true_positive": 234,
+      "predicted": 234,
+      "reference": 234,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "stream_pair": {
+      "true_positive": 1350,
+      "predicted": 1350,
+      "reference": 3222,
+      "precision": 1.0,
+      "recall": 0.41899441340782123,
+      "f1": 0.5905511811023623
+    },
+    "within_stream_order": {
+      "correct": 1350,
+      "covered_reference_pairs": 1350,
+      "reference_pairs": 3222,
+      "accuracy_on_covered": 1.0,
+      "end_to_end_recall": 0.41899441340782123
+    },
+    "exact_role_coverage": true,
+    "stream_contract_matches_roles": true,
+    "unknown_tokens": [],
+    "duplicate_stream_tokens": [],
+    "uncertain_tokens": [
+      "Q149",
+      "Q034",
+      "Q057",
+      "Q164",
+      "Q082",
+      "Q229",
+      "Q174",
+      "Q089",
+      "Q005",
+      "Q172",
+      "Q147"
+    ]
+  },
+  "comparison": {
+    "luna_stream_pair_f1": 0.0,
+    "geometry_oracle_role_stream_pair_f1": 0.5052192066805846,
+    "sol_stream_pair_f1": 0.5905511811023623,
+    "sol_end_to_end_order_pair_recall": 0.41899441340782123
+  },
+  "cost": {
+    "new_vlm_tasks": 1,
+    "reader": "gpt-6-sol",
+    "token_and_billing_cost": "not exposed"
+  },
+  "accepted_for_project_completion_gate": false,
+  "limitations": [
+    "Post-hoc prompt correction after Luna singleton failure.",
+    "One page; oracle region polygons.",
+    "OrderedGroup is not explicit article truth.",
+    "No OCR or word boxes scored."
+  ]
+}

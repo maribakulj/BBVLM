@@ -1,0 +1,445 @@
+{
+  "schema": "bbvlm.spiritualist-semantic-conventions/1",
+  "split": "development_only",
+  "pages": [
+    "0009",
+    "0038",
+    "0041",
+    "0043"
+  ],
+  "role_eligibility": {
+    "HEADER": {
+      "regions": 19,
+      "eligible": 19,
+      "eligibility_rate": 1.0
+    },
+    "MASTHEAD": {
+      "regions": 17,
+      "eligible": 0,
+      "eligibility_rate": 0.0
+    },
+    "OTHER": {
+      "regions": 2,
+      "eligible": 0,
+      "eligibility_rate": 0.0
+    },
+    "TEXT": {
+      "regions": 48,
+      "eligible": 48,
+      "eligibility_rate": 1.0
+    }
+  },
+  "semantic_units": 32,
+  "group_size_histogram": {
+    "1": 10,
+    "2": 11,
+    "3": 7,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "18": 1
+  },
+  "group_role_mix_histogram": {
+    "HEADER+TEXT": 17,
+    "MASTHEAD": 4,
+    "OTHER": 2,
+    "TEXT": 9
+  },
+  "groups_with_header_and_text": 17,
+  "cross_column_groups": 0,
+  "observed_invariants": {
+    "masthead_and_other_excluded_from_reading_stream": true,
+    "header_text_and_advert_included_when_present": true,
+    "semantic_units_may_span_columns": false,
+    "headers_may_share_a_unit_with_text": true
+  },
+  "violations": [],
+  "page_details": [
+    {
+      "page": "0009",
+      "regions": 12,
+      "semantic_units": 6,
+      "groups": [
+        {
+          "source_semantic_unit": "ssu_1_col_1",
+          "members": 2,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "1"
+          ],
+          "eligible_members": 2
+        },
+        {
+          "source_semantic_unit": "ssu_1_col_2",
+          "members": 1,
+          "roles": [
+            "TEXT"
+          ],
+          "columns": [
+            "2"
+          ],
+          "eligible_members": 1
+        },
+        {
+          "source_semantic_unit": "ssu_2_col_2",
+          "members": 2,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "2"
+          ],
+          "eligible_members": 2
+        },
+        {
+          "source_semantic_unit": "ssu_2_col_3",
+          "members": 1,
+          "roles": [
+            "TEXT"
+          ],
+          "columns": [
+            "3"
+          ],
+          "eligible_members": 1
+        },
+        {
+          "source_semantic_unit": "ssu_masthead",
+          "members": 5,
+          "roles": [
+            "MASTHEAD"
+          ],
+          "columns": [],
+          "eligible_members": 0
+        },
+        {
+          "source_semantic_unit": "ssu_other_tr_1743005285",
+          "members": 1,
+          "roles": [
+            "OTHER"
+          ],
+          "columns": [],
+          "eligible_members": 0
+        }
+      ]
+    },
+    {
+      "page": "0038",
+      "regions": 41,
+      "semantic_units": 10,
+      "groups": [
+        {
+          "source_semantic_unit": "ssu_1_col_1",
+          "members": 3,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "1"
+          ],
+          "eligible_members": 3
+        },
+        {
+          "source_semantic_unit": "ssu_2_col_1",
+          "members": 3,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "1"
+          ],
+          "eligible_members": 3
+        },
+        {
+          "source_semantic_unit": "ssu_3_col_1",
+          "members": 4,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "1"
+          ],
+          "eligible_members": 4
+        },
+        {
+          "source_semantic_unit": "ssu_4_col_1",
+          "members": 2,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "1"
+          ],
+          "eligible_members": 2
+        },
+        {
+          "source_semantic_unit": "ssu_5_col_1",
+          "members": 2,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "1"
+          ],
+          "eligible_members": 2
+        },
+        {
+          "source_semantic_unit": "ssu_5_col_2",
+          "members": 1,
+          "roles": [
+            "TEXT"
+          ],
+          "columns": [
+            "2"
+          ],
+          "eligible_members": 1
+        },
+        {
+          "source_semantic_unit": "ssu_6_col_2",
+          "members": 3,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "2"
+          ],
+          "eligible_members": 3
+        },
+        {
+          "source_semantic_unit": "ssu_7_col_3",
+          "members": 18,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "3"
+          ],
+          "eligible_members": 18
+        },
+        {
+          "source_semantic_unit": "ssu_8_col_3",
+          "members": 2,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "3"
+          ],
+          "eligible_members": 2
+        },
+        {
+          "source_semantic_unit": "ssu_masthead",
+          "members": 3,
+          "roles": [
+            "MASTHEAD"
+          ],
+          "columns": [],
+          "eligible_members": 0
+        }
+      ]
+    },
+    {
+      "page": "0041",
+      "regions": 18,
+      "semantic_units": 8,
+      "groups": [
+        {
+          "source_semantic_unit": "ssu_1_col_1",
+          "members": 1,
+          "roles": [
+            "TEXT"
+          ],
+          "columns": [
+            "1"
+          ],
+          "eligible_members": 1
+        },
+        {
+          "source_semantic_unit": "ssu_1_col_2",
+          "members": 1,
+          "roles": [
+            "TEXT"
+          ],
+          "columns": [
+            "2"
+          ],
+          "eligible_members": 1
+        },
+        {
+          "source_semantic_unit": "ssu_2_col_2",
+          "members": 2,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "2"
+          ],
+          "eligible_members": 2
+        },
+        {
+          "source_semantic_unit": "ssu_2_col_3",
+          "members": 1,
+          "roles": [
+            "TEXT"
+          ],
+          "columns": [
+            "3"
+          ],
+          "eligible_members": 1
+        },
+        {
+          "source_semantic_unit": "ssu_3_col_3",
+          "members": 2,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "3"
+          ],
+          "eligible_members": 2
+        },
+        {
+          "source_semantic_unit": "ssu_4_col_3",
+          "members": 3,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "3"
+          ],
+          "eligible_members": 3
+        },
+        {
+          "source_semantic_unit": "ssu_5_col_3",
+          "members": 2,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "3"
+          ],
+          "eligible_members": 2
+        },
+        {
+          "source_semantic_unit": "ssu_masthead",
+          "members": 6,
+          "roles": [
+            "MASTHEAD"
+          ],
+          "columns": [],
+          "eligible_members": 0
+        }
+      ]
+    },
+    {
+      "page": "0043",
+      "regions": 15,
+      "semantic_units": 8,
+      "groups": [
+        {
+          "source_semantic_unit": "ssu_1_col_1",
+          "members": 1,
+          "roles": [
+            "TEXT"
+          ],
+          "columns": [
+            "1"
+          ],
+          "eligible_members": 1
+        },
+        {
+          "source_semantic_unit": "ssu_2_col_1",
+          "members": 2,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "1"
+          ],
+          "eligible_members": 2
+        },
+        {
+          "source_semantic_unit": "ssu_3_col_1",
+          "members": 3,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "1"
+          ],
+          "eligible_members": 3
+        },
+        {
+          "source_semantic_unit": "ssu_3_col_2",
+          "members": 1,
+          "roles": [
+            "TEXT"
+          ],
+          "columns": [
+            "2"
+          ],
+          "eligible_members": 1
+        },
+        {
+          "source_semantic_unit": "ssu_3_col_3",
+          "members": 2,
+          "roles": [
+            "TEXT"
+          ],
+          "columns": [
+            "3"
+          ],
+          "eligible_members": 2
+        },
+        {
+          "source_semantic_unit": "ssu_4_col_3",
+          "members": 2,
+          "roles": [
+            "HEADER",
+            "TEXT"
+          ],
+          "columns": [
+            "3"
+          ],
+          "eligible_members": 2
+        },
+        {
+          "source_semantic_unit": "ssu_masthead",
+          "members": 3,
+          "roles": [
+            "MASTHEAD"
+          ],
+          "columns": [],
+          "eligible_members": 0
+        },
+        {
+          "source_semantic_unit": "ssu_other_tr_1743005266",
+          "members": 1,
+          "roles": [
+            "OTHER"
+          ],
+          "columns": [],
+          "eligible_members": 0
+        }
+      ]
+    }
+  ],
+  "warning": "These are corpus conventions inferred from provisional enriched labels, not independently adjudicated truth."
+}

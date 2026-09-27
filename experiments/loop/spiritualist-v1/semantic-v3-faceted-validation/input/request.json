@@ -1,0 +1,100 @@
+{
+  "schema": "bbvlm.blind-faceted-request/1",
+  "page": "0039",
+  "passes": 1,
+  "allowed_tokens": [
+    "A6",
+    "F6",
+    "G3",
+    "H6",
+    "H9",
+    "K4",
+    "K5",
+    "K6",
+    "L9",
+    "M9",
+    "N3",
+    "N4",
+    "Q2",
+    "R3",
+    "R4",
+    "R8",
+    "S5",
+    "U2",
+    "U8",
+    "V4",
+    "W7",
+    "X3",
+    "Y2",
+    "Z4"
+  ],
+  "images": [
+    "0039-original-reader.jpg",
+    "0039-regions-reader.jpg"
+  ],
+  "instruction": "Inspect both images. For every opaque token, return two independent labels. physical_roles describes visible/source layout: MASTHEAD, HEADER, TEXT, OTHER, or UNKNOWN. A heading inside an advertisement is physically HEADER and its prose is TEXT. editorial_genres describes function: ARTICLE, ADVERT, NOTICE, MASTHEAD, OTHER, or UNKNOWN. Thus one token may be physical HEADER and editorial ADVERT. Page-title/date/page-number fragments belong to the physical MASTHEAD convention; ordinary section/item headings are HEADER. Do not return eligibility, order, groups, articles, or transcription: frozen software derives stream membership, order and units from physical roles only. Mark uncertainty separately for each axis. Tokens are random. Return JSON only.",
+  "response_schema": {
+    "schema": "bbvlm.blind-faceted-response/1",
+    "page": "0039",
+    "physical_roles": {
+      "short token": "MASTHEAD|HEADER|TEXT|OTHER|UNKNOWN"
+    },
+    "editorial_genres": {
+      "short token": "ARTICLE|ADVERT|NOTICE|MASTHEAD|OTHER|UNKNOWN"
+    },
+    "uncertain_physical_tokens": [],
+    "uncertain_genre_tokens": [],
+    "notes": "short string"
+  },
+  "frozen_profile": {
+    "schema": "bbvlm.faceted-semantic-profile/1",
+    "frozen_before_validation": "2026-09-27",
+    "selected_on": [
+      "development pages 0009, 0038, 0041, 0043",
+      "post-score convention audit of consumed page 0029"
+    ],
+    "validation_page": "0039",
+    "physical_roles": [
+      "MASTHEAD",
+      "HEADER",
+      "TEXT",
+      "OTHER",
+      "UNKNOWN"
+    ],
+    "editorial_genres": [
+      "ARTICLE",
+      "ADVERT",
+      "NOTICE",
+      "MASTHEAD",
+      "OTHER",
+      "UNKNOWN"
+    ],
+    "axis_policy": {
+      "physical_role": "describes the block's visible layout function; advertisement headings and bodies remain HEADER/TEXT",
+      "editorial_genre": "describes subject/function independently; it cannot remove a region from the physical reading stream",
+      "stream_membership": "derived by software: HEADER and TEXT included; MASTHEAD, OTHER and UNKNOWN excluded",
+      "semantic_units": "derived by the frozen header-boundary CPU rule from physical roles only",
+      "genre_truth_status": "proposal only: the distributed corpus has no independently adjudicated editorial genre labels"
+    },
+    "export_policy": {
+      "physical": "ALTO regions plus physical METS structure",
+      "logical": "separate METS logical divisions; genre retained with provenance and confidence status",
+      "advertising": "readable unit retained for OCR and retrieval even when excluded from a news-article view"
+    },
+    "frozen_gates": {
+      "raw_structural_valid": true,
+      "eligibility_precision_min": 0.9,
+      "eligibility_recall_min": 0.9,
+      "physical_role_accuracy_min": 0.8,
+      "semantic_group_pair_f1_min": 0.8,
+      "combined_order_pair_recall_min": 0.95
+    },
+    "non_gate_fields": [
+      "editorial_genre_agreement"
+    ],
+    "reference_warning": "Source physical roles/order/SSU remain provisional; editorial genres have no independent reference."
+  },
+  "leakage_control": "Random tokens reveal no source ID, order, role, genre or semantic unit. XML, binding and reference are outside the reader packet.",
+  "binding_control": "Strict software validation binds both complete maps; no repair is permitted.",
+  "reference_warning": "Physical role/order/SSU are provisional corpus labels. Editorial genre has no adjudicated reference and is not scored. Page 0039 is consumed after scoring."
+}

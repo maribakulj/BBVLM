@@ -1,0 +1,11 @@
+{
+  "source_xml": "corpora/newseye-validation/ATR_ValidationSet_BnF_Newseye_M2+/0253902-001.xml",
+  "image": "corpora/newseye-validation/ATR_ValidationSet_BnF_Newseye_M2+/0253902-001.tif",
+  "xml_sha256": "d06d54ee2d3627d4283df8287b804d49d52c7e7138a132012cfa6bb856961fbb",
+  "image_sha256": "adab5e51d669934fe8b7d6d9f535ce06d0cf32e5617e12902726b72659ce5762",
+  "lines": 491,
+  "reference_lines_missing_from_pero": [],
+  "seconds": 32.373745243000485,
+  "threads": 4,
+  "layout_input": "reference line polygons and baselines; no word coordinates"
+}

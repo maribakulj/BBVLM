@@ -1,0 +1,1000 @@
+{
+  "schema": "bbvlm.header-geometry-calibration/1",
+  "scope": "development-only oracle coarse stream membership and regions",
+  "selected": {
+    "max_header_height_page_ratio": 0.02,
+    "macro_pair_f1": 0.9694055944055944,
+    "macro_stream_role_accuracy": 0.9016148325358851,
+    "pages": [
+      {
+        "page": "0009",
+        "pair_f1": 0.923076923076923,
+        "stream_role_accuracy": 0.8333333333333334,
+        "predicted_units": 5,
+        "reference_units": 6
+      },
+      {
+        "page": "0038",
+        "pair_f1": 1.0,
+        "stream_role_accuracy": 0.9473684210526315,
+        "predicted_units": 10,
+        "reference_units": 10
+      },
+      {
+        "page": "0041",
+        "pair_f1": 0.9545454545454545,
+        "stream_role_accuracy": 0.9166666666666666,
+        "predicted_units": 7,
+        "reference_units": 8
+      },
+      {
+        "page": "0043",
+        "pair_f1": 1.0,
+        "stream_role_accuracy": 0.9090909090909091,
+        "predicted_units": 8,
+        "reference_units": 8
+      }
+    ]
+  },
+  "config": {
+    "schema": "bbvlm.header-geometry-config/1",
+    "selected_on": "development_only",
+    "development_pages": [
+      "0009",
+      "0038",
+      "0041",
+      "0043"
+    ],
+    "max_header_height_page_ratio": 0.02,
+    "coarse_role_contract": "VLM supplies STREAM versus MASTHEAD/OTHER/UNKNOWN; CPU splits STREAM into HEADER/TEXT",
+    "selection_rule": "maximum macro SSU pair F1, then macro HEADER/TEXT accuracy, then smaller threshold"
+  },
+  "candidates": [
+    {
+      "max_header_height_page_ratio": 0.008,
+      "macro_pair_f1": 0.7113492850433148,
+      "macro_stream_role_accuracy": 0.6832137161084529,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 0.923076923076923,
+          "stream_role_accuracy": 0.6666666666666666,
+          "predicted_units": 5,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.7499999999999999,
+          "stream_role_accuracy": 0.7631578947368421,
+          "predicted_units": 4,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.626865671641791,
+          "stream_role_accuracy": 0.6666666666666666,
+          "predicted_units": 4,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 0.5454545454545454,
+          "stream_role_accuracy": 0.6363636363636364,
+          "predicted_units": 5,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.01,
+      "macro_pair_f1": 0.727120313080698,
+      "macro_stream_role_accuracy": 0.689792663476874,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 0.923076923076923,
+          "stream_role_accuracy": 0.6666666666666666,
+          "predicted_units": 5,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.8130841121495327,
+          "stream_role_accuracy": 0.7894736842105263,
+          "predicted_units": 5,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.626865671641791,
+          "stream_role_accuracy": 0.6666666666666666,
+          "predicted_units": 4,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 0.5454545454545454,
+          "stream_role_accuracy": 0.6363636363636364,
+          "predicted_units": 5,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.012,
+      "macro_pair_f1": 0.7602623285215757,
+      "macro_stream_role_accuracy": 0.7029505582137161,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 0.923076923076923,
+          "stream_role_accuracy": 0.6666666666666666,
+          "predicted_units": 5,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.9456521739130436,
+          "stream_role_accuracy": 0.8421052631578947,
+          "predicted_units": 7,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.626865671641791,
+          "stream_role_accuracy": 0.6666666666666666,
+          "predicted_units": 4,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 0.5454545454545454,
+          "stream_role_accuracy": 0.6363636363636364,
+          "predicted_units": 5,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.014,
+      "macro_pair_f1": 0.7622054494268765,
+      "macro_stream_role_accuracy": 0.7161084529505581,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 0.923076923076923,
+          "stream_role_accuracy": 0.6666666666666666,
+          "predicted_units": 5,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.9534246575342465,
+          "stream_role_accuracy": 0.8947368421052632,
+          "predicted_units": 8,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.626865671641791,
+          "stream_role_accuracy": 0.6666666666666666,
+          "predicted_units": 4,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 0.5454545454545454,
+          "stream_role_accuracy": 0.6363636363636364,
+          "predicted_units": 5,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.016,
+      "macro_pair_f1": 0.8874856486796785,
+      "macro_stream_role_accuracy": 0.8456937799043063,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 0.923076923076923,
+          "stream_role_accuracy": 0.8333333333333334,
+          "predicted_units": 5,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 0.9736842105263158,
+          "predicted_units": 10,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.626865671641791,
+          "stream_role_accuracy": 0.6666666666666666,
+          "predicted_units": 4,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 0.9090909090909091,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.018,
+      "macro_pair_f1": 0.9216783216783216,
+      "macro_stream_role_accuracy": 0.8665271132376395,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 0.923076923076923,
+          "stream_role_accuracy": 0.8333333333333334,
+          "predicted_units": 5,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 0.9736842105263158,
+          "predicted_units": 10,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.7636363636363637,
+          "stream_role_accuracy": 0.75,
+          "predicted_units": 5,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 0.9090909090909091,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.02,
+      "macro_pair_f1": 0.9694055944055944,
+      "macro_stream_role_accuracy": 0.9016148325358851,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 0.923076923076923,
+          "stream_role_accuracy": 0.8333333333333334,
+          "predicted_units": 5,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 0.9473684210526315,
+          "predicted_units": 10,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9545454545454545,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 7,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 0.9090909090909091,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.022,
+      "macro_pair_f1": 0.8983723840734911,
+      "macro_stream_role_accuracy": 0.8950358851674641,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 0.923076923076923,
+          "stream_role_accuracy": 0.8333333333333334,
+          "predicted_units": 5,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.7158671586715868,
+          "stream_role_accuracy": 0.9210526315789473,
+          "predicted_units": 11,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9545454545454545,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 7,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 0.9090909090909091,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.024,
+      "macro_pair_f1": 0.886072261072261,
+      "macro_stream_role_accuracy": 0.888456937799043,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 0.923076923076923,
+          "stream_role_accuracy": 0.8333333333333334,
+          "predicted_units": 5,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.6666666666666666,
+          "stream_role_accuracy": 0.8947368421052632,
+          "predicted_units": 12,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9545454545454545,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 7,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 0.9090909090909091,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.026,
+      "macro_pair_f1": 0.886072261072261,
+      "macro_stream_role_accuracy": 0.9111842105263158,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 0.923076923076923,
+          "stream_role_accuracy": 0.8333333333333334,
+          "predicted_units": 5,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.6666666666666666,
+          "stream_role_accuracy": 0.8947368421052632,
+          "predicted_units": 12,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9545454545454545,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 7,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.028,
+      "macro_pair_f1": 0.886072261072261,
+      "macro_stream_role_accuracy": 0.9046052631578947,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 0.923076923076923,
+          "stream_role_accuracy": 0.8333333333333334,
+          "predicted_units": 5,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.6666666666666666,
+          "stream_role_accuracy": 0.868421052631579,
+          "predicted_units": 12,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9545454545454545,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 7,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.03,
+      "macro_pair_f1": 0.8974358974358974,
+      "macro_stream_role_accuracy": 0.9254385964912281,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 0.923076923076923,
+          "stream_role_accuracy": 0.8333333333333334,
+          "predicted_units": 5,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.6666666666666666,
+          "stream_role_accuracy": 0.868421052631579,
+          "predicted_units": 12,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.032,
+      "macro_pair_f1": 0.9166666666666666,
+      "macro_stream_role_accuracy": 0.9671052631578947,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.6666666666666666,
+          "stream_role_accuracy": 0.868421052631579,
+          "predicted_units": 12,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.034,
+      "macro_pair_f1": 0.9074803149606299,
+      "macro_stream_role_accuracy": 0.9473684210526316,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.6299212598425197,
+          "stream_role_accuracy": 0.7894736842105263,
+          "predicted_units": 14,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.036,
+      "macro_pair_f1": 0.8813559322033898,
+      "macro_stream_role_accuracy": 0.9276315789473684,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.5254237288135594,
+          "stream_role_accuracy": 0.7105263157894737,
+          "predicted_units": 15,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.038,
+      "macro_pair_f1": 0.8357142857142857,
+      "macro_stream_role_accuracy": 0.9078947368421053,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.34285714285714286,
+          "stream_role_accuracy": 0.631578947368421,
+          "predicted_units": 17,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.04,
+      "macro_pair_f1": 0.8234126984126984,
+      "macro_stream_role_accuracy": 0.8673245614035088,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.3888888888888889,
+          "stream_role_accuracy": 0.5526315789473685,
+          "predicted_units": 16,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9047619047619048,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.042,
+      "macro_pair_f1": 0.8234126984126984,
+      "macro_stream_role_accuracy": 0.8607456140350878,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.3888888888888889,
+          "stream_role_accuracy": 0.5263157894736842,
+          "predicted_units": 16,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9047619047619048,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.044,
+      "macro_pair_f1": 0.8234126984126984,
+      "macro_stream_role_accuracy": 0.8607456140350878,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.3888888888888889,
+          "stream_role_accuracy": 0.5263157894736842,
+          "predicted_units": 16,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9047619047619048,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.046,
+      "macro_pair_f1": 0.8234126984126984,
+      "macro_stream_role_accuracy": 0.8607456140350878,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.3888888888888889,
+          "stream_role_accuracy": 0.5263157894736842,
+          "predicted_units": 16,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9047619047619048,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.048,
+      "macro_pair_f1": 0.8234126984126984,
+      "macro_stream_role_accuracy": 0.8607456140350878,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.3888888888888889,
+          "stream_role_accuracy": 0.5263157894736842,
+          "predicted_units": 16,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9047619047619048,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.05,
+      "macro_pair_f1": 0.8234126984126984,
+      "macro_stream_role_accuracy": 0.8607456140350878,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.3888888888888889,
+          "stream_role_accuracy": 0.5263157894736842,
+          "predicted_units": 16,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9047619047619048,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.052,
+      "macro_pair_f1": 0.8234126984126984,
+      "macro_stream_role_accuracy": 0.8607456140350878,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.3888888888888889,
+          "stream_role_accuracy": 0.5263157894736842,
+          "predicted_units": 16,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9047619047619048,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.054,
+      "macro_pair_f1": 0.8234126984126984,
+      "macro_stream_role_accuracy": 0.8607456140350878,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.3888888888888889,
+          "stream_role_accuracy": 0.5263157894736842,
+          "predicted_units": 16,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9047619047619048,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.056,
+      "macro_pair_f1": 0.8234126984126984,
+      "macro_stream_role_accuracy": 0.8607456140350878,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.3888888888888889,
+          "stream_role_accuracy": 0.5263157894736842,
+          "predicted_units": 16,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9047619047619048,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.058,
+      "macro_pair_f1": 0.8234126984126984,
+      "macro_stream_role_accuracy": 0.8607456140350878,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.3888888888888889,
+          "stream_role_accuracy": 0.5263157894736842,
+          "predicted_units": 16,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9047619047619048,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    },
+    {
+      "max_header_height_page_ratio": 0.06,
+      "macro_pair_f1": 0.8234126984126984,
+      "macro_stream_role_accuracy": 0.8541666666666666,
+      "pages": [
+        {
+          "page": "0009",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 6,
+          "reference_units": 6
+        },
+        {
+          "page": "0038",
+          "pair_f1": 0.3888888888888889,
+          "stream_role_accuracy": 0.5,
+          "predicted_units": 16,
+          "reference_units": 10
+        },
+        {
+          "page": "0041",
+          "pair_f1": 0.9047619047619048,
+          "stream_role_accuracy": 0.9166666666666666,
+          "predicted_units": 8,
+          "reference_units": 8
+        },
+        {
+          "page": "0043",
+          "pair_f1": 1.0,
+          "stream_role_accuracy": 1.0,
+          "predicted_units": 8,
+          "reference_units": 8
+        }
+      ]
+    }
+  ],
+  "warning": "Do not score consumed page 0039 as independent validation; next validation must use 0044 or 0050."
+}

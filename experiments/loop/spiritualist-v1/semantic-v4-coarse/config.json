@@ -1,0 +1,13 @@
+{
+  "schema": "bbvlm.header-geometry-config/1",
+  "selected_on": "development_only",
+  "development_pages": [
+    "0009",
+    "0038",
+    "0041",
+    "0043"
+  ],
+  "max_header_height_page_ratio": 0.02,
+  "coarse_role_contract": "VLM supplies STREAM versus MASTHEAD/OTHER/UNKNOWN; CPU splits STREAM into HEADER/TEXT",
+  "selection_rule": "maximum macro SSU pair F1, then macro HEADER/TEXT accuracy, then smaller threshold"
+}

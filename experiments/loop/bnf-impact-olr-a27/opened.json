@@ -1,0 +1,30 @@
+{
+  "schema": "bbvlm.bnf-impact-olr-a27-opened/1",
+  "opened_unix": 1790528452.646664,
+  "split_sha256": "b275ebf3df28a0b4867886b7924c8f4027ddc54e83b08b8f2b2ee492847900db",
+  "files": [
+    {
+      "name": "IMPACT/PAGE/00123452_5.xml",
+      "bytes": 345030,
+      "crc32": "f5f16e30",
+      "sha256": "72b946ef4a36bf372b891b5af19e26022a9ea94b08ab27b3ace873d8712d4105"
+    },
+    {
+      "name": "IMPACT/T/00123452.tif",
+      "bytes": 15089640,
+      "crc32": "9bf8ac82",
+      "sha256": "145abe557a0044f646bafed41ebb189aaa8c8b571b1a13f27bb56f20df6bc141"
+    }
+  ],
+  "text_regions": 235,
+  "visual_sha256": {
+    "column-1.jpg": "3a74ab3e29e12f639574888a884a67197b87a5fd90a653ce0b56fa62dbc17d59",
+    "column-2.jpg": "73bdd57dc1b9f005b0a4a6c789c21831089beb080fb5f69796ef31d54144e09f",
+    "column-3.jpg": "7ff7dd5ef9c80e0a0a4f2b61db32b3107939a9d7ac2f253db389dc89c7ec4c9d",
+    "column-4.jpg": "31a8c014b17b1d78d36cf7c5fddedeb25c0fa641f76889e2c79e63596a2a6dd2",
+    "column-5.jpg": "2135a4073aecc67282f8ebaa3a46579f6216a932c805884878a255b816e4f321",
+    "column-6.jpg": "d13d196874832d042abf28225954618bcda5d6ccdbbe321ebb98e5ba4fa8a745",
+    "page-labelled.jpg": "7ed41136ad9610a3a8e9dfc9e3da8d1dbebcf2bee2c663d8c196ae937cbc20ae",
+    "page-raw.jpg": "64dc331817302b209be6f992010b57e9f5736ac778f3a735770385a270d95b6f"
+  }
+}

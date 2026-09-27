@@ -1,0 +1,65 @@
+{
+  "schema": "bbvlm.blind-olr-evaluation/1",
+  "page": "0009",
+  "split_role": "development",
+  "reader": "gpt-6-luna",
+  "passes": 1,
+  "raw_structural_valid": false,
+  "raw_structural_errors": [
+    "ordered_region_ids must cover every opaque ID exactly once",
+    "groups must cover every opaque ID exactly once",
+    "roles must cover every opaque ID with a controlled value"
+  ],
+  "diagnostic_id_repair": {
+    "R61e14fed5": "Re61e14fed5"
+  },
+  "diagnostic_scores_accepted_for_gate": false,
+  "known_order_regions": 6,
+  "unknown_or_unordered_regions": 6,
+  "reading_order_pair_accuracy_known_subset": 1.0,
+  "reading_order_correct_pairs": 15,
+  "reading_order_pairs": 15,
+  "semantic_group_pair_precision": 0.631578947368421,
+  "semantic_group_pair_recall": 1.0,
+  "semantic_group_pair_f1": 0.7741935483870968,
+  "reference_semantic_units": 6,
+  "predicted_semantic_units": 3,
+  "role_accuracy": 0.5833333333333334,
+  "role_correct": 7,
+  "roles": 12,
+  "role_confusion": [
+    {
+      "reference": "HEADER",
+      "predicted": "HEADER",
+      "count": 2
+    },
+    {
+      "reference": "MASTHEAD",
+      "predicted": "HEADER",
+      "count": 4
+    },
+    {
+      "reference": "MASTHEAD",
+      "predicted": "MASTHEAD",
+      "count": 1
+    },
+    {
+      "reference": "OTHER",
+      "predicted": "TEXT",
+      "count": 1
+    },
+    {
+      "reference": "TEXT",
+      "predicted": "TEXT",
+      "count": 4
+    }
+  ],
+  "uncertain_region_ids": [
+    "R1a24f9f87b",
+    "R307387ff23",
+    "R21a57099b4",
+    "R8b5ca4cdb4"
+  ],
+  "reference_warning": "Agreement is measured against manually enriched distributed SSU/role/order labels on one development page. Negative source orders are excluded from order scoring; labels are not independent adjudication.",
+  "leakage_control": "IDs are fixed hashes of source IDs; neither sequence, reading order, SSU nor text is present in the request JSON."
+}

@@ -1,0 +1,30 @@
+{
+  "requested_line_ids": [
+    "R09_L01",
+    "R10_L01",
+    "R12_L01",
+    "R12_L02"
+  ],
+  "candidates": [
+    {
+      "id": "R09_L01",
+      "A": "und nie wird das Parlament wirkliche Energie anwenden,",
+      "B": "und wie wird das Parlament wirkliche Energie anwenden,"
+    },
+    {
+      "id": "R10_L01",
+      "A": "Österreichischer Reichsrath.",
+      "B": "Oesterreichischer Reichsrath."
+    },
+    {
+      "id": "R12_L01",
+      "A": "dar, und er brachte Thatsachen vor, die den edlen Grafen",
+      "B": "bar, und er brachte Thatsachen vor, die den edlen Grafen"
+    },
+    {
+      "id": "R12_L02",
+      "A": "Thun in helles Licht rücken. Dr. Kramarsch machte mit",
+      "B": "Thun in helles Licht rücken. Dr. Kramarisch machte mit"
+    }
+  ]
+}

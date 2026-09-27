@@ -1,0 +1,79 @@
+{
+  "type": "exploratory_pilot",
+  "reference_lines": 25,
+  "reference_characters": 916,
+  "selection": "first three lines per region; 25 of 354 page lines",
+  "geometry": "reference line/region crops, no word-box evaluation",
+  "reading_order_caveat": "sequential region IDs reveal source order; do not interpret as a blind order benchmark",
+  "retry_selection": "4 disagreements after NFC + ſ→s; no reference used",
+  "models": {
+    "terra": {
+      "model": "gpt-5.6-terra",
+      "reasoning_effort": "high",
+      "first": {
+        "lines": 25,
+        "missing_lines": 0,
+        "exact_lines": 11,
+        "characters": 916,
+        "edits": 23,
+        "cer": 0.025109170305676855,
+        "cer_nfc_long_s": 0.0054585152838427945,
+        "normalisation": "NFC and ſ→s only"
+      },
+      "after_targeted_retry": {
+        "lines": 25,
+        "missing_lines": 0,
+        "exact_lines": 11,
+        "characters": 916,
+        "edits": 21,
+        "cer": 0.02292576419213974,
+        "cer_nfc_long_s": 0.0032751091703056767,
+        "normalisation": "NFC and ſ→s only"
+      },
+      "content_regions_with_article_assignment": 5,
+      "content_regions_total": 8,
+      "article_accuracy": "not scored; no independently adjudicated article reference",
+      "uncertain_lines_first": [
+        "R12_L02"
+      ],
+      "uncertain_lines_retry": [],
+      "metadata_fields": 6,
+      "runtime_and_token_cost": "not available from sub-agent interface",
+      "response_sha256": "0d88222257314c66de9d93ef0877d37c19fdf68fe35dbebfa72a7bea5f28ba94"
+    },
+    "luna": {
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high",
+      "first": {
+        "lines": 25,
+        "missing_lines": 0,
+        "exact_lines": 12,
+        "characters": 916,
+        "edits": 17,
+        "cer": 0.018558951965065504,
+        "cer_nfc_long_s": 0.006550218340611353,
+        "normalisation": "NFC and ſ→s only"
+      },
+      "after_targeted_retry": {
+        "lines": 25,
+        "missing_lines": 0,
+        "exact_lines": 13,
+        "characters": 916,
+        "edits": 13,
+        "cer": 0.014192139737991267,
+        "cer_nfc_long_s": 0.0054585152838427945,
+        "normalisation": "NFC and ſ→s only"
+      },
+      "content_regions_with_article_assignment": 8,
+      "content_regions_total": 8,
+      "article_accuracy": "not scored; no independently adjudicated article reference",
+      "uncertain_lines_first": [
+        "R12_L01"
+      ],
+      "uncertain_lines_retry": [],
+      "metadata_fields": 8,
+      "runtime_and_token_cost": "not available from sub-agent interface",
+      "response_sha256": "4eb29a18f1dfb024dde69384eb0ba87f6338a0cbf1d07b052a3afa09200a7741"
+    }
+  }
+}

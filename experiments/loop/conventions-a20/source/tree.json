@@ -1,0 +1,1234 @@
+{
+  "sha": "1efb382a54c98cf2c6d716d134c57a2d1325a6b6",
+  "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/1efb382a54c98cf2c6d716d134c57a2d1325a6b6",
+  "tree": [
+    {
+      "path": ".coveragerc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5398e234296f145cc96780b2d7a1c2601f732ab7",
+      "size": 42,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/5398e234296f145cc96780b2d7a1c2601f732ab7"
+    },
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8312db127812defaffbf722a41871220cf8f57d",
+      "size": 50,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/a8312db127812defaffbf722a41871220cf8f57d"
+    },
+    {
+      "path": ".drone.jsonnet",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2468bbaf0751c739aac1af859950465850796027",
+      "size": 489,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/2468bbaf0751c739aac1af859950465850796027"
+    },
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6959d7042a6f5f632dfc4b0a55d9c861daf98224",
+      "size": 524,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/6959d7042a6f5f632dfc4b0a55d9c861daf98224"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "949cc2c2488ba5c05d04f458c826d43aa8aaf2ec",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/949cc2c2488ba5c05d04f458c826d43aa8aaf2ec"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50e8ef75a413e3b4a57f839ccd155088a1d21358",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/50e8ef75a413e3b4a57f839ccd155088a1d21358"
+    },
+    {
+      "path": ".github/workflows/release-check-version-tag",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7348a420274765473945d6d0a704b113f15abeaf",
+      "size": 541,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/7348a420274765473945d6d0a704b113f15abeaf"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f51bd71b78cdb03974d30b10fa2a9d33bd62f12",
+      "size": 1761,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/3f51bd71b78cdb03974d30b10fa2a9d33bd62f12"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db089d014e1b72239231ac2b6a608e3dc573e31a",
+      "size": 1641,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/db089d014e1b72239231ac2b6a608e3dc573e31a"
+    },
+    {
+      "path": ".github/workflows/test_report.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5579d8c9787660a579dcdaf846ea88e2ba922b6f",
+      "size": 408,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/5579d8c9787660a579dcdaf846ea88e2ba922b6f"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66d66bc8e275adeb41c8f22855785b14340d913e",
+      "size": 343,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/66d66bc8e275adeb41c8f22855785b14340d913e"
+    },
+    {
+      "path": ".gitlab-ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdcb93ab7f132b8ddff6dbfadcef0467053a526b",
+      "size": 417,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/bdcb93ab7f132b8ddff6dbfadcef0467053a526b"
+    },
+    {
+      "path": ".gitlab",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d26888a7b4588e42d46384554de02ed210f60a13",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/d26888a7b4588e42d46384554de02ed210f60a13"
+    },
+    {
+      "path": ".gitlab/mirror.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3591a2cbcd1348ae0b04f5484c23f7e4005952d",
+      "size": 1056,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/f3591a2cbcd1348ae0b04f5484c23f7e4005952d"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b52cc7b9b4abe503d4b52a9d6a033be92ed8fb2",
+      "size": 1075,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/8b52cc7b9b4abe503d4b52a9d6a033be92ed8fb2"
+    },
+    {
+      "path": ".screenshots",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3ea40557b4b71a79d54b230422d38e7e7353fdb",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/a3ea40557b4b71a79d54b230422d38e7e7353fdb"
+    },
+    {
+      "path": ".screenshots/dinglehopper.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df8bc04bf3fc9fff5c7b5532f941b1d5e5c53535",
+      "size": 271075,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/df8bc04bf3fc9fff5c7b5532f941b1d5e5c53535"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7064efc737257d180455fc4b6bfd3ed046e29ea5",
+      "size": 1699,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/7064efc737257d180455fc4b6bfd3ed046e29ea5"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "221c7067470b4cbbd761e3372e496bc490715b23",
+      "size": 11373,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/221c7067470b4cbbd761e3372e496bc490715b23"
+    },
+    {
+      "path": "Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37293113fc37c93587ca20c1a16ae098d8ff6c75",
+      "size": 713,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/37293113fc37c93587ca20c1a16ae098d8ff6c75"
+    },
+    {
+      "path": "README-DEV.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ec432f639f86f7a77135d32b083bb4ed87e3698",
+      "size": 1108,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/3ec432f639f86f7a77135d32b083bb4ed87e3698"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a40db796e17ee6164e23f38b28665cd5d6782bee",
+      "size": 5721,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/a40db796e17ee6164e23f38b28665cd5d6782bee"
+    },
+    {
+      "path": "ocrd-tool.json",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "9acdddeba95e276a1e5e88a60613d84018e4888d",
+      "size": 31,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/9acdddeba95e276a1e5e88a60613d84018e4888d"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8edf5a6820b8ca4dfe33695ac5d52c24a5fe3cf7",
+      "size": 2925,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/8edf5a6820b8ca4dfe33695ac5d52c24a5fe3cf7"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9f748a0dbfc56b4e9d0d2521f292b6c29ad1315",
+      "size": 109,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/f9f748a0dbfc56b4e9d0d2521f292b6c29ad1315"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "653ec594807e41413be537be587cb81cfc1017c9",
+      "size": 151,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/653ec594807e41413be537be587cb81cfc1017c9"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e55515d060299a6c7ca430f5e0541b35f9bf07d",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/9e55515d060299a6c7ca430f5e0541b35f9bf07d"
+    },
+    {
+      "path": "src/dinglehopper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4375715b0131801b50aafa93cf48bd75820ad747",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/4375715b0131801b50aafa93cf48bd75820ad747"
+    },
+    {
+      "path": "src/dinglehopper/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e79b6929dc10fe44af9f19e6e2626e54a6938e8",
+      "size": 750,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/2e79b6929dc10fe44af9f19e6e2626e54a6938e8"
+    },
+    {
+      "path": "src/dinglehopper/align.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d1f2900c4c94f21d8997881cb225cbb4e5ecfed",
+      "size": 1736,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/5d1f2900c4c94f21d8997881cb225cbb4e5ecfed"
+    },
+    {
+      "path": "src/dinglehopper/character_error_rate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88a88f8f48d254fe35dfcfaa7393a55c73cf2f99",
+      "size": 1471,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/88a88f8f48d254fe35dfcfaa7393a55c73cf2f99"
+    },
+    {
+      "path": "src/dinglehopper/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d3c075dbf60d9d8c1b19f05501e342171a9fc32",
+      "size": 9470,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/2d3c075dbf60d9d8c1b19f05501e342171a9fc32"
+    },
+    {
+      "path": "src/dinglehopper/cli_extract.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fce032bc751f32bfe7f9ae01c080effa49e8559",
+      "size": 1052,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/5fce032bc751f32bfe7f9ae01c080effa49e8559"
+    },
+    {
+      "path": "src/dinglehopper/cli_line_dirs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0160f87092492003d6a2a63ee93e675acdf96f4f",
+      "size": 8447,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/0160f87092492003d6a2a63ee93e675acdf96f4f"
+    },
+    {
+      "path": "src/dinglehopper/cli_summarize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c49911b943ac3c33601f94af985fb2b0a0e45901",
+      "size": 3507,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/c49911b943ac3c33601f94af985fb2b0a0e45901"
+    },
+    {
+      "path": "src/dinglehopper/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27081d4e108f3fd7705173c3c8f9cee401d19c49",
+      "size": 35,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/27081d4e108f3fd7705173c3c8f9cee401d19c49"
+    },
+    {
+      "path": "src/dinglehopper/edit_distance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec564aee4c5eb33f3e590427f66bc8f2143b162d",
+      "size": 1638,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/ec564aee4c5eb33f3e590427f66bc8f2143b162d"
+    },
+    {
+      "path": "src/dinglehopper/extracted_text.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acfbf78ef514d11db34604b32fe055c7e5462c28",
+      "size": 12195,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/acfbf78ef514d11db34604b32fe055c7e5462c28"
+    },
+    {
+      "path": "src/dinglehopper/notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a69ffe00bfac23d3615755c2409b91a12935f1ed",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/a69ffe00bfac23d3615755c2409b91a12935f1ed"
+    },
+    {
+      "path": "src/dinglehopper/notebooks/Levenshtein.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9671d702d53ede53d845f2da197c6052e56ee49",
+      "size": 25282,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/b9671d702d53ede53d845f2da197c6052e56ee49"
+    },
+    {
+      "path": "src/dinglehopper/notebooks/Unicode normalization and Character segmentation.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "696fb4f2148532c51e141c329141b63969cdc4d4",
+      "size": 19732,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/696fb4f2148532c51e141c329141b63969cdc4d4"
+    },
+    {
+      "path": "src/dinglehopper/ocr_files.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdcaf5414cc484e4d37645aba97e25889bc2ecc7",
+      "size": 7074,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/fdcaf5414cc484e4d37645aba97e25889bc2ecc7"
+    },
+    {
+      "path": "src/dinglehopper/ocrd-tool.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad48e51fb59b276b33668b70bf954de31ef5d435",
+      "size": 1068,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/ad48e51fb59b276b33668b70bf954de31ef5d435"
+    },
+    {
+      "path": "src/dinglehopper/ocrd_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d7da8e0579e16b9a4a803c779510e92e7f33c07",
+      "size": 2753,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/2d7da8e0579e16b9a4a803c779510e92e7f33c07"
+    },
+    {
+      "path": "src/dinglehopper/templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ae1581f6da4e32591178bf3c8ae213b053beb67",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/6ae1581f6da4e32591178bf3c8ae213b053beb67"
+    },
+    {
+      "path": "src/dinglehopper/templates/report.html.j2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "435b98a4893d6e458eae3b82a66b00012d4be4f4",
+      "size": 2696,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/435b98a4893d6e458eae3b82a66b00012d4be4f4"
+    },
+    {
+      "path": "src/dinglehopper/templates/report.html.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f47cee724627713bdd0c7c7a54412a0f4c32073e",
+      "size": 1291,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/f47cee724627713bdd0c7c7a54412a0f4c32073e"
+    },
+    {
+      "path": "src/dinglehopper/templates/report.json.j2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64dd8d4583d5303fef09ab0c105ffd41c51da797",
+      "size": 365,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/64dd8d4583d5303fef09ab0c105ffd41c51da797"
+    },
+    {
+      "path": "src/dinglehopper/templates/summary.html.j2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e61e8081d23027423c6e9084072550671624b1d2",
+      "size": 3759,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/e61e8081d23027423c6e9084072550671624b1d2"
+    },
+    {
+      "path": "src/dinglehopper/templates/summary.json.j2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb45f4e2513493cd0a6fa3fa3f462e2cf8d5db2c",
+      "size": 331,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/bb45f4e2513493cd0a6fa3fa3f462e2cf8d5db2c"
+    },
+    {
+      "path": "src/dinglehopper/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8dc1baacc9da2cc1748b39280d0705c9ae9d9390",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/8dc1baacc9da2cc1748b39280d0705c9ae9d9390"
+    },
+    {
+      "path": "src/dinglehopper/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/dinglehopper/tests/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c581a655418b61f1a41b37ee41225bab8662cb9",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/6c581a655418b61f1a41b37ee41225bab8662cb9"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/00000119.tif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b831bd04d4e233bee3667f610a65a0484268c6c9",
+      "size": 1119904,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/b831bd04d4e233bee3667f610a65a0484268c6c9"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/actevedef_718448162",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4f39bdf7fe7a4fb2d4a509d716a4bdc3bedad4f",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/d4f39bdf7fe7a4fb2d4a509d716a4bdc3bedad4f"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/actevedef_718448162/OCR-D-GT-PAGE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ffcb242bcaa19a6e33be83ff1ac34a323179e157",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/ffcb242bcaa19a6e33be83ff1ac34a323179e157"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/actevedef_718448162/OCR-D-GT-PAGE/00000024.page.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "062a0d2c686d93f309af37d20fdd4ed37690a856",
+      "size": 927146,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/062a0d2c686d93f309af37d20fdd4ed37690a856"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/actevedef_718448162/OCR-D-OCR-CALAMARI",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df19ba2a7d41320ff317eeecbe29387f029799dc",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/df19ba2a7d41320ff317eeecbe29387f029799dc"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/actevedef_718448162/OCR-D-OCR-CALAMARI/OCR-D-OCR-CALAMARI_0001.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e3489d2fe92402c3add6c23d288eecdc2b6754b",
+      "size": 157221,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/3e3489d2fe92402c3add6c23d288eecdc2b6754b"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/actevedef_718448162/OCR-D-OCR-TESS",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c8d54073b38e37ef4711808947dad37a233a8013",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/c8d54073b38e37ef4711808947dad37a233a8013"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/actevedef_718448162/OCR-D-OCR-TESS/OCR-D-OCR-TESS_0001.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec51b6f9d5981ae9566b3646cea57a61cc2a1dba",
+      "size": 156669,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/ec51b6f9d5981ae9566b3646cea57a61cc2a1dba"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/actevedef_718448162/mets.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed7c4f4dd81314ef94cf2de3837d2d39dfa6c83e",
+      "size": 21418,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/ed7c4f4dd81314ef94cf2de3837d2d39dfa6c83e"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/bigger-texts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "63a758786a4a18745a71b0384e8f0d1c7e5691aa",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/63a758786a4a18745a71b0384e8f0d1c7e5691aa"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/bigger-texts/00008228",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "daecd9c75821d4f2bed139e4bb3efdc4643ef2f6",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/daecd9c75821d4f2bed139e4bb3efdc4643ef2f6"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/bigger-texts/00008228/00008228-00236534.gt4hist.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e1ce5fd66f3043d35cd8299fa5f2fd1d0cd42c1",
+      "size": 2011246,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/6e1ce5fd66f3043d35cd8299fa5f2fd1d0cd42c1"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/bigger-texts/00008228/00008228.gt.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d21e8b8b9a492ac2f5b0702d4325f425822a59d1",
+      "size": 700384,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/d21e8b8b9a492ac2f5b0702d4325f425822a59d1"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/brochrnx_73075507X",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "abbe45318b8f6a2dac3e02f062e6108b2c39beff",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/abbe45318b8f6a2dac3e02f062e6108b2c39beff"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/brochrnx_73075507X/00000139.gt.page.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e57619e895f6f34fe60c99a67d381ee9c4770b5",
+      "size": 365282,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/2e57619e895f6f34fe60c99a67d381ee9c4770b5"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/brochrnx_73075507X/00000139.ocrd-tess.ocr.page.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b60d0f75a53df886944dc777e0d4a2fac59993d1",
+      "size": 13798,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/b60d0f75a53df886944dc777e0d4a2fac59993d1"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/directory-test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ebf8dd1a6ec4a94ac01110b3e21cd9a9f628f43",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/2ebf8dd1a6ec4a94ac01110b3e21cd9a9f628f43"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/directory-test/gt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b165cadb66df4a1bd781f60626bcaf2aaa57871f",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/b165cadb66df4a1bd781f60626bcaf2aaa57871f"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/directory-test/gt/1.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0dc1835858921db0753ed76e313e7f3eb357f81",
+      "size": 144671,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/c0dc1835858921db0753ed76e313e7f3eb357f81"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/directory-test/gt/2.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0dc1835858921db0753ed76e313e7f3eb357f81",
+      "size": 144671,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/c0dc1835858921db0753ed76e313e7f3eb357f81"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/directory-test/ocr",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f4f27b68f6cc8b70ef7ab306c9fb3c54640613f",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/2f4f27b68f6cc8b70ef7ab306c9fb3c54640613f"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/directory-test/ocr/1.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e6264752a75427c872539500effb377a94fd4dd",
+      "size": 144669,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/0e6264752a75427c872539500effb377a94fd4dd"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/directory-test/ocr/2.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e6264752a75427c872539500effb377a94fd4dd",
+      "size": 144669,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/0e6264752a75427c872539500effb377a94fd4dd"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/directory-test/ocr/3-has-no-gt.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e6264752a75427c872539500effb377a94fd4dd",
+      "size": 144669,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/0e6264752a75427c872539500effb377a94fd4dd"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/levels-are-different.page.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f512b2cc73f15cd194cead022f01d97b9f827695",
+      "size": 18169,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/f512b2cc73f15cd194cead022f01d97b9f827695"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dc7e2ed0c356d6f2fe712f63e14af487181b10cc",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/dc7e2ed0c356d6f2fe712f63e14af487181b10cc"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/basic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cfc777b71ec3abc380751fd22fab8788825e0b99",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/cfc777b71ec3abc380751fd22fab8788825e0b99"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/basic/gt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e962aa55452e5163f3bf7bd390db9f4bc0de3319",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/e962aa55452e5163f3bf7bd390db9f4bc0de3319"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/basic/gt/a.gt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "484ba93ef5b0aed5b72af8f4e9dc4cfd10ef1a81",
+      "size": 16,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/484ba93ef5b0aed5b72af8f4e9dc4cfd10ef1a81"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/basic/gt/b.gt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc9bd6aec9cebd0cdd88f12438892e8b0dbc3f47",
+      "size": 14,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/fc9bd6aec9cebd0cdd88f12438892e8b0dbc3f47"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/basic/ocr",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "710e92b9a36dabde5a9bb434ae5e062b835a77b2",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/710e92b9a36dabde5a9bb434ae5e062b835a77b2"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/basic/ocr/a.some-ocr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27cf4bf389f717e4d49056f6ffcd75fdf43d5988",
+      "size": 15,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/27cf4bf389f717e4d49056f6ffcd75fdf43d5988"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/basic/ocr/b.some-ocr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bc0e4092be532b821b36f0776800dbc2bc34dc6",
+      "size": 15,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/0bc0e4092be532b821b36f0776800dbc2bc34dc6"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/merged",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0287383d1486c081423e75ac2a37b4be6618a0b4",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/0287383d1486c081423e75ac2a37b4be6618a0b4"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/merged/a",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e8a2cbc14d1ef88305d616cb9c3580cb47167b3",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/0e8a2cbc14d1ef88305d616cb9c3580cb47167b3"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/merged/a/a.dummy.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/merged/a/a.gt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "484ba93ef5b0aed5b72af8f4e9dc4cfd10ef1a81",
+      "size": 16,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/484ba93ef5b0aed5b72af8f4e9dc4cfd10ef1a81"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/merged/a/a.some-ocr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27cf4bf389f717e4d49056f6ffcd75fdf43d5988",
+      "size": 15,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/27cf4bf389f717e4d49056f6ffcd75fdf43d5988"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/merged/b",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9562d83bae0335cd874bb932ccf46647e1613363",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/9562d83bae0335cd874bb932ccf46647e1613363"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/merged/b/b.dummy.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/merged/b/b.gt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc9bd6aec9cebd0cdd88f12438892e8b0dbc3f47",
+      "size": 14,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/fc9bd6aec9cebd0cdd88f12438892e8b0dbc3f47"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/merged/b/b.some-ocr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bc0e4092be532b821b36f0776800dbc2bc34dc6",
+      "size": 15,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/0bc0e4092be532b821b36f0776800dbc2bc34dc6"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/subdirs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ceb7a8392f09beb4e8cc0153d900f453825c6924",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/ceb7a8392f09beb4e8cc0153d900f453825c6924"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/subdirs/gt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a3b5a76c6c7bcd1b4928112e339b15e2406c951",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/3a3b5a76c6c7bcd1b4928112e339b15e2406c951"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/subdirs/gt/a",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aa086dcd3362b687ece643ead75293ace22e4d33",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/aa086dcd3362b687ece643ead75293ace22e4d33"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/subdirs/gt/a/a.gt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "484ba93ef5b0aed5b72af8f4e9dc4cfd10ef1a81",
+      "size": 16,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/484ba93ef5b0aed5b72af8f4e9dc4cfd10ef1a81"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/subdirs/gt/b",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8fdbcdc24085ea6307f6e2d0f40a47dc2c21453d",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/8fdbcdc24085ea6307f6e2d0f40a47dc2c21453d"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/subdirs/gt/b/b.gt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc9bd6aec9cebd0cdd88f12438892e8b0dbc3f47",
+      "size": 14,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/fc9bd6aec9cebd0cdd88f12438892e8b0dbc3f47"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/subdirs/ocr",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72ceba677aebd97d6e9b999bb8c22235509c07b9",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/72ceba677aebd97d6e9b999bb8c22235509c07b9"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/subdirs/ocr/a",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd34b1b1bc53c13c6ec739afd7d8f196cd67de21",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/dd34b1b1bc53c13c6ec739afd7d8f196cd67de21"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/subdirs/ocr/a/a.some-ocr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27cf4bf389f717e4d49056f6ffcd75fdf43d5988",
+      "size": 15,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/27cf4bf389f717e4d49056f6ffcd75fdf43d5988"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/subdirs/ocr/b",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd10aa1ace60baf50380bbdf5538664110127906",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/dd10aa1ace60baf50380bbdf5538664110127906"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/line_dirs/subdirs/ocr/b/b.some-ocr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bc0e4092be532b821b36f0776800dbc2bc34dc6",
+      "size": 15,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/0bc0e4092be532b821b36f0776800dbc2bc34dc6"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/lorem-ipsum",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "52c6ec970cf0a8500c3842018a79fc5e33a00807",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/52c6ec970cf0a8500c3842018a79fc5e33a00807"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/lorem-ipsum/lorem-ipsum-scan-bad.gt.page.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c28161b10ed2ffa3670babadebb7298f40c00cfe",
+      "size": 2425,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/c28161b10ed2ffa3670babadebb7298f40c00cfe"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/lorem-ipsum/lorem-ipsum-scan-bad.ocr.tesseract.alto.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fd83777508df070f7b60f9952812dcd6bddf326",
+      "size": 15588,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/1fd83777508df070f7b60f9952812dcd6bddf326"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/lorem-ipsum/lorem-ipsum-scan-bad.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da97e0e4de4bb19edf10b0f209b697b5f56bdbdd",
+      "size": 52268,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/da97e0e4de4bb19edf10b0f209b697b5f56bdbdd"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/lorem-ipsum/lorem-ipsum-scan-bad.tif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42b3d23be8e7bf2299e1b09d499b44d46f15515a",
+      "size": 17551106,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/42b3d23be8e7bf2299e1b09d499b44d46f15515a"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/lorem-ipsum/lorem-ipsum-scan.gt.page.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c28161b10ed2ffa3670babadebb7298f40c00cfe",
+      "size": 2425,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/c28161b10ed2ffa3670babadebb7298f40c00cfe"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/lorem-ipsum/lorem-ipsum-scan.ocr.tesseract.alto.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4a79a017282b98d407f4e2de8fdc658283d64b7",
+      "size": 15447,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/d4a79a017282b98d407f4e2de8fdc658283d64b7"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/lorem-ipsum/lorem-ipsum-scan.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38564d7a7e3503e1c5d3468a6aa06f4cb1a370ec",
+      "size": 33517,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/38564d7a7e3503e1c5d3468a6aa06f4cb1a370ec"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/lorem-ipsum/lorem-ipsum-scan.tif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39f11d63c5e077489c62df4eabce3579a4699a11",
+      "size": 8847992,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/39f11d63c5e077489c62df4eabce3579a4699a11"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/lorem-ipsum/lorem-ipsum.odt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce93bfdb441b51db46fa59595e3f73ef091ea3f5",
+      "size": 9910,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/ce93bfdb441b51db46fa59595e3f73ef091ea3f5"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/mixed-regions.page.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e2a11793b9adbaa186d1235fb9209f6be59b5ca",
+      "size": 13346,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/0e2a11793b9adbaa186d1235fb9209f6be59b5ca"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/order.page.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1e058fd86b51088c3f9fce6c5a1cc91fd4d72dc",
+      "size": 195863,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/a1e058fd86b51088c3f9fce6c5a1cc91fd4d72dc"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/table-order",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "001f22c6afbd88f6b6d5833e22607b5cf3ffba3b",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/001f22c6afbd88f6b6d5833e22607b5cf3ffba3b"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/table-order/table-no-reading-order.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "769ced54f83ea2275610ba6e6095ed468920616d",
+      "size": 4663,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/769ced54f83ea2275610ba6e6095ed468920616d"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/table-order/table-order-0001.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d91dde966d522a5c10e4f120a6c56c32c1131071",
+      "size": 5322,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/d91dde966d522a5c10e4f120a6c56c32c1131071"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/table-order/table-order-0002.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3985e59f106a7f795d306a8cfa0678d2d3b9a1b8",
+      "size": 5322,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/3985e59f106a7f795d306a8cfa0678d2d3b9a1b8"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/table-order/table-region.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62e0c10a8430403b29fcd252d114de6f9b9288a8",
+      "size": 6022,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/62e0c10a8430403b29fcd252d114de6f9b9288a8"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/table-order/table-unordered.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "240e08f1e80f72df723eea11142035c6f103aa78",
+      "size": 5173,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/240e08f1e80f72df723eea11142035c6f103aa78"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/test-fake-ocr.page2018.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e6264752a75427c872539500effb377a94fd4dd",
+      "size": 144669,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/0e6264752a75427c872539500effb377a94fd4dd"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/test-gt.page2018.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0dc1835858921db0753ed76e313e7f3eb357f81",
+      "size": 144671,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/c0dc1835858921db0753ed76e313e7f3eb357f81"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/test.alto1.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35aa19ae506e42949b36854525cd158c47083f7b",
+      "size": 1418574,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/35aa19ae506e42949b36854525cd158c47083f7b"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/test.alto2.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39dd592c58afa28cf516b21953829ff762422b7f",
+      "size": 35488,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/39dd592c58afa28cf516b21953829ff762422b7f"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/test.alto3.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69865605a5da6656cfbf9e40fc2103c93ca92958",
+      "size": 3015,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/69865605a5da6656cfbf9e40fc2103c93ca92958"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/test.page2018.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0dc1835858921db0753ed76e313e7f3eb357f81",
+      "size": 144671,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/c0dc1835858921db0753ed76e313e7f3eb357f81"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/test.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "102374bdb1e8efca5e66cded18fd8f30571654a5",
+      "size": 592,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/102374bdb1e8efca5e66cded18fd8f30571654a5"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/unused-larex-indexed-textequiv-jkamlah",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "474f84d36a11659d830ba3dfd47be11e1fe8f303",
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/trees/474f84d36a11659d830ba3dfd47be11e1fe8f303"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/unused-larex-indexed-textequiv-jkamlah/462875_0008.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85bfdd40b14058cdf9a9ba73fe38e170618d8878",
+      "size": 436696,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/85bfdd40b14058cdf9a9ba73fe38e170618d8878"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/unused-larex-indexed-textequiv-jkamlah/OCR-D-GT_0008.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "853e88b92db8df9128d34b4a69df0dd36ba976a1",
+      "size": 14482,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/853e88b92db8df9128d34b4a69df0dd36ba976a1"
+    },
+    {
+      "path": "src/dinglehopper/tests/data/unused-larex-indexed-textequiv-jkamlah/OCR-D-OCR-TESS_0008.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86fa3bc38de9e407689205e5a9735ccc6f71eafa",
+      "size": 108035,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/86fa3bc38de9e407689205e5a9735ccc6f71eafa"
+    },
+    {
+      "path": "src/dinglehopper/tests/extracted_text_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a6d99d2821aaaa940c8ffa9b333e3424b651bc1",
+      "size": 5089,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/1a6d99d2821aaaa940c8ffa9b333e3424b651bc1"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_align.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d1e7abea8950dd144730df762d60ba838a08790",
+      "size": 5014,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/5d1e7abea8950dd144730df762d60ba838a08790"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_character_error_rate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "970f7408b7466b0544972d5c86920f4310d62625",
+      "size": 1409,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/970f7408b7466b0544972d5c86920f4310d62625"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_edit_distance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be427a8013282a4bf99c46b2957cb2a21cf8a70a",
+      "size": 688,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/be427a8013282a4bf99c46b2957cb2a21cf8a70a"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_editops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "666d8b9408ffc42e623adae2f9bbfdcb2d12161b",
+      "size": 856,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/666d8b9408ffc42e623adae2f9bbfdcb2d12161b"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_integ_align.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b011ee5a3e6d13d430d86607127e69d3235d9d91",
+      "size": 944,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/b011ee5a3e6d13d430d86607127e69d3235d9d91"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_integ_bigger_texts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd3871f978d5af0238f51bea3499d778d07b2905",
+      "size": 774,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/fd3871f978d5af0238f51bea3499d778d07b2905"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_integ_character_error_rate_ocr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7755e2d80fcbb55381b7c5db4cc41e2c1c41b9ed",
+      "size": 1707,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/7755e2d80fcbb55381b7c5db4cc41e2c1c41b9ed"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_integ_cli_dir.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65e59d9419794afa5f68306125f507f99d75f750",
+      "size": 1455,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/65e59d9419794afa5f68306125f507f99d75f750"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_integ_cli_line_dirs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90cbabfec97444d114bb6bf51c23534e2f62bf16",
+      "size": 2091,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/90cbabfec97444d114bb6bf51c23534e2f62bf16"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_integ_cli_valid_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fed0d28a0d2c110d89d85d2099dac454c64c2b18",
+      "size": 2008,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/fed0d28a0d2c110d89d85d2099dac454c64c2b18"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_integ_differences.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "452e085dc21b74cb23448b6fc32e1277a5495c88",
+      "size": 983,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/452e085dc21b74cb23448b6fc32e1277a5495c88"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_integ_edit_distance_ocr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e01ac7639ad719e9e8e6b8b47d318af3a8c0d5c8",
+      "size": 1518,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/e01ac7639ad719e9e8e6b8b47d318af3a8c0d5c8"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_integ_empty_files.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c90ed12fdeb77130938d15452eb21bd69d45748",
+      "size": 958,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/5c90ed12fdeb77130938d15452eb21bd69d45748"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_integ_ocrd_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbda5f44005f56f1e41c780ccd48ee3ed3393763",
+      "size": 1297,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/fbda5f44005f56f1e41c780ccd48ee3ed3393763"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_integ_summarize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ea8f70f812039623ad545cec3a7f9e22269106d",
+      "size": 3485,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/7ea8f70f812039623ad545cec3a7f9e22269106d"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_integ_table_extraction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "868308c717417811351349ce75bcb69dab44187e",
+      "size": 745,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/868308c717417811351349ce75bcb69dab44187e"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_integ_word_error_rate_ocr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a57ed296f317269e0726f5d2bbc711937b7dc50",
+      "size": 2026,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/8a57ed296f317269e0726f5d2bbc711937b7dc50"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_line_dirs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03966e1ba143f13ddefeacce68e6c3e5506bf565",
+      "size": 1938,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/03966e1ba143f13ddefeacce68e6c3e5506bf565"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_ocr_files.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c2a5000b51147ec455335f9c0a116e418f5d492",
+      "size": 6987,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/0c2a5000b51147ec455335f9c0a116e418f5d492"
+    },
+    {
+      "path": "src/dinglehopper/tests/test_word_error_rate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "311ffff7ef831fe1d4a46b3f4bf0882e6db0ffc2",
+      "size": 2018,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/311ffff7ef831fe1d4a46b3f4bf0882e6db0ffc2"
+    },
+    {
+      "path": "src/dinglehopper/tests/util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e44ddc017ee49c093d1da9b49d180d31378b6e84",
+      "size": 855,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/e44ddc017ee49c093d1da9b49d180d31378b6e84"
+    },
+    {
+      "path": "src/dinglehopper/word_error_rate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2db504d402b9b7bcfe5ba0012048f82f5ae0662",
+      "size": 3431,
+      "url": "https://api.github.com/repos/qurator-spk/dinglehopper/git/blobs/f2db504d402b9b7bcfe5ba0012048f82f5ae0662"
+    }
+  ],
+  "truncated": false
+}

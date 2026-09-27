@@ -1,0 +1,91 @@
+{
+  "schema": "bbvlm.blind-coarse-faceted-request/1",
+  "page": "0050",
+  "passes": 1,
+  "allowed_tokens": [
+    "B2",
+    "F3",
+    "F7",
+    "J4",
+    "K3",
+    "K8",
+    "M8",
+    "R4",
+    "V4",
+    "W5",
+    "X5",
+    "X6"
+  ],
+  "images": [
+    "0050-original-reader.jpg",
+    "0050-regions-reader.jpg"
+  ],
+  "instruction": "Inspect both images. For every opaque token, return two independent labels. coarse_roles describes visible/source layout: STREAM for every ordinary readable heading or body block, including advertisements and notices; MASTHEAD only for page-title/date/page-number fragments; OTHER for ornaments/non-reading elements; UNKNOWN if genuinely unreadable. Do not distinguish HEADER from TEXT: frozen software does that from geometry. editorial_genres describes function: ARTICLE, ADVERT, NOTICE, MASTHEAD, OTHER, or UNKNOWN. Genre never controls STREAM membership. Do not return eligibility, order, groups, articles, transcription, or fine physical roles. Mark uncertainty separately for each axis. Tokens are random. Return JSON only.",
+  "response_schema": {
+    "schema": "bbvlm.blind-coarse-faceted-response/1",
+    "page": "0050",
+    "coarse_roles": {
+      "short token": "STREAM|MASTHEAD|OTHER|UNKNOWN"
+    },
+    "editorial_genres": {
+      "short token": "ARTICLE|ADVERT|NOTICE|MASTHEAD|OTHER|UNKNOWN"
+    },
+    "uncertain_coarse_tokens": [],
+    "uncertain_genre_tokens": [],
+    "notes": "short string"
+  },
+  "frozen_profile": {
+    "schema": "bbvlm.coarse-faceted-semantic-profile/2",
+    "frozen_before_validation": "2026-09-27",
+    "selected_on": [
+      "development pages 0009, 0038, 0041, 0043",
+      "A08 consumed page 0044 defined the narrow-bridge failure class but contributed no validation score to parameter selection"
+    ],
+    "validation_page": "0050",
+    "coarse_roles": [
+      "STREAM",
+      "MASTHEAD",
+      "OTHER",
+      "UNKNOWN"
+    ],
+    "editorial_genres": [
+      "ARTICLE",
+      "ADVERT",
+      "NOTICE",
+      "MASTHEAD",
+      "OTHER",
+      "UNKNOWN"
+    ],
+    "axis_policy": {
+      "coarse_role": "STREAM means every ordinary readable heading or body block",
+      "fine_role": "STREAM is HEADER iff block_height / page_height <= 0.020, otherwise TEXT",
+      "editorial_genre": "independent proposal that cannot remove content",
+      "semantic_units": "frozen header-boundary rule after role refinement"
+    },
+    "height_config": {
+      "source": "semantic-v4-coarse/config.json",
+      "max_header_height_page_ratio": 0.02
+    },
+    "order_config": {
+      "source": "olr-v4-column-anchors/config.json",
+      "min_anchor_width_page_ratio": 0.02,
+      "assign_by_overlap": true
+    },
+    "frozen_gates": {
+      "raw_structural_valid": true,
+      "eligibility_precision_min": 0.9,
+      "eligibility_recall_min": 0.9,
+      "coarse_role_accuracy_min": 0.8,
+      "fine_physical_role_accuracy_min": 0.8,
+      "semantic_group_pair_f1_min": 0.8,
+      "combined_order_pair_recall_min": 0.95
+    },
+    "non_gate_fields": [
+      "editorial_genre_agreement"
+    ],
+    "reference_warning": "Source roles/order/SSU remain provisional; genre is unadjudicated; this page cannot validate word geometry."
+  },
+  "leakage_control": "Random tokens reveal no source ID, order, physical role, genre or semantic unit. XML, binding and reference are outside the reader packet.",
+  "binding_control": "Strict software validation binds both complete maps; no repair is permitted.",
+  "reference_warning": "Physical role/order/SSU are provisional corpus labels. Editorial genre has no adjudicated reference and is not scored. Page 0050 is consumed after scoring."
+}

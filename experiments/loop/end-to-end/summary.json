@@ -1,0 +1,44 @@
+[
+  {
+    "page": "0253902-001",
+    "reference_lines": 491,
+    "predicted_lines": 538,
+    "matched_at_iou_05": 460,
+    "line_recall": 0.9368635437881874,
+    "line_precision": 0.8550185873605948,
+    "potential_merges": 0,
+    "potential_splits": 8,
+    "matched_and_missing_reference_cer": 0.07883794111036188,
+    "unmatched_prediction_characters": 756,
+    "coverage_penalized_cer": 0.12131939761744212,
+    "warning": "CER sums geometrically matched line errors plus missing and extra text; it is not reading-order-sensitive page CER"
+  },
+  {
+    "page": "0401692-003",
+    "reference_lines": 881,
+    "predicted_lines": 923,
+    "matched_at_iou_05": 868,
+    "line_recall": 0.985244040862656,
+    "line_precision": 0.9404117009750813,
+    "potential_merges": 0,
+    "potential_splits": 3,
+    "matched_and_missing_reference_cer": 0.04736646193932626,
+    "unmatched_prediction_characters": 740,
+    "coverage_penalized_cer": 0.07032073949996898,
+    "warning": "CER sums geometrically matched line errors plus missing and extra text; it is not reading-order-sensitive page CER"
+  },
+  {
+    "page": "752234-003",
+    "reference_lines": 964,
+    "predicted_lines": 978,
+    "matched_at_iou_05": 954,
+    "line_recall": 0.9896265560165975,
+    "line_precision": 0.9754601226993865,
+    "potential_merges": 2,
+    "potential_splits": 12,
+    "matched_and_missing_reference_cer": 0.10064009310445156,
+    "unmatched_prediction_characters": 281,
+    "coverage_penalized_cer": 0.10881582775676463,
+    "warning": "CER sums geometrically matched line errors plus missing and extra text; it is not reading-order-sensitive page CER"
+  }
+]

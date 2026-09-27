@@ -1,0 +1,10 @@
+{
+  "schema": "bbvlm.ink-extension-config/1",
+  "candidate": "A16",
+  "binarization": "otsu",
+  "min_component_area": 2,
+  "max_gap_height_ratio": 0.75,
+  "margin_pixels": 0,
+  "selection": "single a-priori setting; no grid search",
+  "scope": "consumed A15 partial-page diagnostic; never an independent gate"
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "bbvlm.french-holdout-a25-split/1",
+  "repository": "OCR-D/OCR-D-GT-VD-SBB",
+  "revision": "481f7235acfc1f78e88b3c2f22f551595c3f2032",
+  "selection": "tree paths only; all four pages of previously unused work briedefra_788606417",
+  "protocol_sha256": "09c86ca9849c7e345ce467a5745fb001e1cadb2ea1f6bfb535e6d6d468fb410a",
+  "tree_sha256": "c1d9d08adb3c070a7c1579395bedc2dbbb384e1d38d0c089953fcb5fa7b93dc0",
+  "created_unix": 1790523572.6469095,
+  "pages": [
+    {
+      "work": "briedefra_788606417",
+      "page": "00000130",
+      "xml": "data/briedefra_788606417/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000130.xml",
+      "image": "data/briedefra_788606417/OCR-D-IMG/OCR-D-IMG_00000130.tif",
+      "xml_blob": "22d8b12a3722cc6408d4e7e9e979f9c40d7c5c55",
+      "image_blob": "8554705b0f4de927baab45388feba9da701db31b",
+      "xml_size": 575439,
+      "image_size": 1865628
+    },
+    {
+      "work": "briedefra_788606417",
+      "page": "00000131",
+      "xml": "data/briedefra_788606417/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000131.xml",
+      "image": "data/briedefra_788606417/OCR-D-IMG/OCR-D-IMG_00000131.tif",
+      "xml_blob": "c6b4ad7ce24c630a36dde6d476701a6529b72593",
+      "image_blob": "58d3554f91e896d19c2f53bf084dff16298f19ba",
+      "xml_size": 599163,
+      "image_size": 1894778
+    },
+    {
+      "work": "briedefra_788606417",
+      "page": "00000132",
+      "xml": "data/briedefra_788606417/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000132.xml",
+      "image": "data/briedefra_788606417/OCR-D-IMG/OCR-D-IMG_00000132.tif",
+      "xml_blob": "d2fde93f8445851c20490df6d2340456460d88ae",
+      "image_blob": "60f08dcac9d5d637269c7be5ed97e6da2585154c",
+      "xml_size": 380702,
+      "image_size": 1681652
+    },
+    {
+      "work": "briedefra_788606417",
+      "page": "00000133",
+      "xml": "data/briedefra_788606417/OCR-D-GT-PAGE/OCR-D-GT-PAGE_00000133.xml",
+      "image": "data/briedefra_788606417/OCR-D-IMG/OCR-D-IMG_00000133.tif",
+      "xml_blob": "2bc7c689ad4067d17302ded8d8533c63a508a5f6",
+      "image_blob": "ac3a908b56f65a1ce695ad29fb2dacab761abb38",
+      "xml_size": 612034,
+      "image_size": 1886778
+    }
+  ],
+  "status": "frozen_unopened"
+}

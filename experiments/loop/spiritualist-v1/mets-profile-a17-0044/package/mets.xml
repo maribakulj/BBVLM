@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:premis="http://www.loc.gov/premis/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bbvlm="https://github.com/maribakulj/BBVLM/ns/1" OBJID="realigned.alto">
+  <mets:dmdSec ID="DMD_MODS">
+    <mets:mdWrap MDTYPE="MODS" MDTYPEVERSION="3.8">
+      <mets:xmlData>
+        <mods:mods version="3.8">
+          <mods:identifier type="local">realigned.alto</mods:identifier>
+          <mods:recordInfo>
+            <mods:recordContentSource>BBVLM automatic projection</mods:recordContentSource>
+            <mods:recordOrigin>Generated from evidence-typed document metadata; not a cataloguing authority record.</mods:recordOrigin>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="DMD_EVIDENCE">
+    <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="BBVLM-EVIDENCE-1">
+      <mets:xmlData>
+        <bbvlm:metadata/>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec ID="AMD_PACKAGE">
+    <mets:digiprovMD ID="AMD_PREMIS">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="PREMIS:3.0" MDTYPEVERSION="3.0">
+        <mets:xmlData>
+          <premis:premis version="3.0">
+            <premis:object xsi:type="premis:file">
+              <premis:objectIdentifier>
+                <premis:objectIdentifierType>BBVLM METS file ID</premis:objectIdentifierType>
+                <premis:objectIdentifierValue>FILE_P0001</premis:objectIdentifierValue>
+              </premis:objectIdentifier>
+              <premis:objectCharacteristics>
+                <premis:fixity>
+                  <premis:messageDigestAlgorithm>SHA-256</premis:messageDigestAlgorithm>
+                  <premis:messageDigest>11e3c433d0764faf4a07bbcbe61cc6069cf0f03b00f58b4d00443576e537e6ae</premis:messageDigest>
+                </premis:fixity>
+                <premis:size>37933</premis:size>
+                <premis:format>
+                  <premis:formatDesignation>
+                    <premis:formatName>application/xml</premis:formatName>
+                  </premis:formatDesignation>
+                </premis:format>
+              </premis:objectCharacteristics>
+              <premis:originalName>P0001.alto.xml</premis:originalName>
+            </premis:object>
+            <premis:object xsi:type="premis:file">
+              <premis:objectIdentifier>
+                <premis:objectIdentifierType>BBVLM METS file ID</premis:objectIdentifierType>
+                <premis:objectIdentifierValue>FILE_GRAPH</premis:objectIdentifierValue>
+              </premis:objectIdentifier>
+              <premis:objectCharacteristics>
+                <premis:fixity>
+                  <premis:messageDigestAlgorithm>SHA-256</premis:messageDigestAlgorithm>
+                  <premis:messageDigest>96afc103215a664a2b21558f29ba7be3fd1ac8f88bca99db28c2dd0221504543</premis:messageDigest>
+                </premis:fixity>
+                <premis:size>202229</premis:size>
+                <premis:format>
+                  <premis:formatDesignation>
+                    <premis:formatName>application/json</premis:formatName>
+                  </premis:formatDesignation>
+                </premis:format>
+              </premis:objectCharacteristics>
+              <premis:originalName>document.json</premis:originalName>
+            </premis:object>
+            <premis:object xsi:type="premis:file">
+              <premis:objectIdentifier>
+                <premis:objectIdentifierType>BBVLM METS file ID</premis:objectIdentifierType>
+                <premis:objectIdentifierValue>FILE_RETRIEVAL</premis:objectIdentifierValue>
+              </premis:objectIdentifier>
+              <premis:objectCharacteristics>
+                <premis:fixity>
+                  <premis:messageDigestAlgorithm>SHA-256</premis:messageDigestAlgorithm>
+                  <premis:messageDigest>ced28f0c58e1df00d7e7b233832fd54870366e6b0e92050546c560ed13f16c0c</premis:messageDigest>
+                </premis:fixity>
+                <premis:size>49152</premis:size>
+                <premis:format>
+                  <premis:formatDesignation>
+                    <premis:formatName>application/vnd.sqlite3</premis:formatName>
+                  </premis:formatDesignation>
+                </premis:format>
+              </premis:objectCharacteristics>
+              <premis:originalName>retrieval.sqlite</premis:originalName>
+            </premis:object>
+            <premis:object xsi:type="premis:file">
+              <premis:objectIdentifier>
+                <premis:objectIdentifierType>BBVLM METS file ID</premis:objectIdentifierType>
+                <premis:objectIdentifierValue>FILE_IMAGE_P0001</premis:objectIdentifierValue>
+              </premis:objectIdentifier>
+              <premis:objectCharacteristics>
+                <premis:fixity>
+                  <premis:messageDigestAlgorithm>SHA-256</premis:messageDigestAlgorithm>
+                  <premis:messageDigest>93bc1ec0515d949dc284d279932e5207a5bcabd8d0f7879584daf3bc089fc9fc</premis:messageDigest>
+                </premis:fixity>
+                <premis:size>13790674</premis:size>
+                <premis:format>
+                  <premis:formatDesignation>
+                    <premis:formatName>image/png</premis:formatName>
+                  </premis:formatDesignation>
+                </premis:format>
+              </premis:objectCharacteristics>
+              <premis:originalName>https://huggingface.co/datasets/NationalLibraryOfScotland/Spiritualist_Newspaper/resolve/57244e5d175380ebc110b0d8b130b2dff30aeadd/Spiritualist_Images/0044.png</premis:originalName>
+            </premis:object>
+            <premis:event>
+              <premis:eventIdentifier>
+                <premis:eventIdentifierType>BBVLM event</premis:eventIdentifierType>
+                <premis:eventIdentifierValue>BBVLM_PACKAGE_EXPORT</premis:eventIdentifierValue>
+              </premis:eventIdentifier>
+              <premis:eventType>metadata extraction</premis:eventType>
+              <premis:eventDateTime>2026-09-27T11:43:16.122659+00:00</premis:eventDateTime>
+              <premis:eventDetailInformation>
+                <premis:eventDetail>Automatic ALTO/METS package export; validation does not certify ground truth.</premis:eventDetail>
+              </premis:eventDetailInformation>
+            </premis:event>
+            <premis:agent>
+              <premis:agentIdentifier>
+                <premis:agentIdentifierType>software name</premis:agentIdentifierType>
+                <premis:agentIdentifierValue>BBVLM document/1</premis:agentIdentifierValue>
+              </premis:agentIdentifier>
+              <premis:agentName>BBVLM</premis:agentName>
+              <premis:agentType>software</premis:agentType>
+            </premis:agent>
+          </premis:premis>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="OCR">
+      <mets:file ID="FILE_P0001" MIMETYPE="application/xml" ADMID="AMD_PREMIS" SIZE="37933" CHECKSUM="11e3c433d0764faf4a07bbcbe61cc6069cf0f03b00f58b4d00443576e537e6ae" CHECKSUMTYPE="SHA-256">
+        <mets:FLocat LOCTYPE="URL" xlink:href="P0001.alto.xml"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="MASTER_IMAGE">
+      <mets:file ID="FILE_IMAGE_P0001" MIMETYPE="image/png" CHECKSUM="93bc1ec0515d949dc284d279932e5207a5bcabd8d0f7879584daf3bc089fc9fc" CHECKSUMTYPE="SHA-256" SIZE="13790674">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://huggingface.co/datasets/NationalLibraryOfScotland/Spiritualist_Newspaper/resolve/57244e5d175380ebc110b0d8b130b2dff30aeadd/Spiritualist_Images/0044.png"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="DOCUMENT_GRAPH">
+      <mets:file ID="FILE_GRAPH" MIMETYPE="application/json" ADMID="AMD_PREMIS" SIZE="202229" CHECKSUM="96afc103215a664a2b21558f29ba7be3fd1ac8f88bca99db28c2dd0221504543" CHECKSUMTYPE="SHA-256">
+        <mets:FLocat LOCTYPE="URL" xlink:href="document.json"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="RETRIEVAL_INDEX">
+      <mets:file ID="FILE_RETRIEVAL" MIMETYPE="application/vnd.sqlite3" ADMID="AMD_PREMIS" SIZE="49152" CHECKSUM="ced28f0c58e1df00d7e7b233832fd54870366e6b0e92050546c560ed13f16c0c" CHECKSUMTYPE="SHA-256">
+        <mets:FLocat LOCTYPE="URL" xlink:href="retrieval.sqlite"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div TYPE="document" DMDID="DMD_MODS DMD_EVIDENCE">
+      <mets:div ID="PHYS_P0001" TYPE="page">
+        <mets:fptr FILEID="FILE_IMAGE_P0001"/>
+        <mets:fptr FILEID="FILE_P0001"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div TYPE="document" DMDID="DMD_MODS DMD_EVIDENCE"/>
+  </mets:structMap>
+</mets:mets>

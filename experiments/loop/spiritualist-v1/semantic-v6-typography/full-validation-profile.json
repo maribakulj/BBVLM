@@ -1,0 +1,43 @@
+{
+  "schema": "bbvlm.coarse-faceted-semantic-profile/3",
+  "frozen_before_validation": "2026-09-27",
+  "selected_on": [
+    "v6 development pages 0001, 0006, 0020, 0023, 0030, 0040, 0046, 0049",
+    "conditional page 0004 tested only the frozen CPU typography/order path and is consumed"
+  ],
+  "validation_page": "0010",
+  "coarse_roles": ["STREAM", "MASTHEAD", "OTHER", "UNKNOWN"],
+  "editorial_genres": ["ARTICLE", "ADVERT", "NOTICE", "MASTHEAD", "OTHER", "UNKNOWN"],
+  "axis_policy": {
+    "coarse_role": "Luna returns STREAM for every ordinary readable heading/body block",
+    "fine_role": "frozen A10 line-count/line-height/uppercase rule separates HEADER from TEXT",
+    "editorial_genre": "independent proposal that cannot remove content",
+    "semantic_units": "frozen header-boundary rule"
+  },
+  "height_config": {
+    "source": "semantic-v4-coarse/config.json",
+    "max_header_height_page_ratio": 0.02,
+    "compatibility_only": true
+  },
+  "typography_config": {
+    "source": "semantic-v6-typography/profile.json",
+    "max_header_line_count": 2,
+    "min_median_line_height_page_ratio": 0.014,
+    "min_uppercase_ratio": 0.6
+  },
+  "order_config": {
+    "source": "olr-v4-column-anchors/config.json",
+    "min_anchor_width_page_ratio": 0.02,
+    "assign_by_overlap": true
+  },
+  "frozen_gates": {
+    "raw_structural_valid": true,
+    "eligibility_precision_min": 0.9,
+    "eligibility_recall_min": 0.9,
+    "coarse_role_accuracy_min": 0.8,
+    "fine_physical_role_accuracy_min": 0.8,
+    "semantic_group_pair_f1_min": 0.8,
+    "combined_order_pair_recall_min": 0.95
+  },
+  "reference_warning": "Source roles/order/SSU are provisional; genre is unadjudicated; 0010 cannot validate word geometry."
+}

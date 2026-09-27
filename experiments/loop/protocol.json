@@ -1,0 +1,419 @@
+{
+  "version": 1,
+  "status": "in_progress",
+  "objective": "Measured improvement over native PERO word boxes, frontier-quality image-grounded transcription, evidence-backed OLR/metadata/retrieval and coherent ALTO/METS exports",
+  "model_policy": {
+    "primary": "luna",
+    "escalation": "sol",
+    "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
+  },
+  "geometry_experiment": {
+    "dataset": "NewsEye BnF ATR validation, Zenodo 4293602",
+    "development_pages": [
+      "0253902-001"
+    ],
+    "heldout_pages": [
+      "0401692-003",
+      "752234-003"
+    ],
+    "inputs": "Same reference text, polygons and baselines for all geometry methods. Word boxes withheld from construction, used only by evaluator.",
+    "baseline": "pero-ocr 0.7.0 native ALTO exporter, public eu/cz print-newspapers model 2022-09-26, CPU",
+    "candidate_family": "Constrained foreground refinement of native aligned boxes, calibrated on development only",
+    "selection": "Choose on development mean IoU subject to no increase in p95 horizontal-boundary error or missing-word rate",
+    "heldout_gate": "Higher mean IoU on each heldout page, no worse p95 horizontal-boundary error and no additional missing words. Report p99/worst and conventions separately.",
+    "scope_warning": "Passing this small conditional benchmark is not an end-to-end or cross-domain superiority claim. After inspecting heldout scores, never retune on those same pages and call them unseen."
+  },
+  "completion_gates": {
+    "geometry_independent_validation": false,
+    "end_to_end_layout_and_word_coverage": false,
+    "frontier_transcription_comparison": false,
+    "article_structure_and_metadata_reference": false,
+    "retrieval_with_evidence_evaluation": false,
+    "alto_mets_validation_and_provenance": false,
+    "reference_annotation_audit": false
+  },
+  "stop_policy": "Do not declare success until every gate has independent evidence. Checkpoint after each experiment; if resources or evidence are unavailable, record the precise blocker and retain pending work.",
+  "reference_warning": "2026-09-27: a fixed-seed blind sample of 45 French lines found Luna and PERO mutually closer than either to the distributed transcription on 24/45 lines (triage only, not truth). A model-independent structural scan found 121 C1 controls and 60 lines containing locally reversible UTF-8-as-Latin-1 mojibake. Scores measure agreement with noisy distributed annotations, not certified truth. Originals remain unchanged; independent human adjudication is required.",
+  "reference_audit": {
+    "status": "distributed_reference_rejected_for_superiority_claims_pending_independent_adjudication",
+    "blind_sample_lines": 45,
+    "luna_pero_closer_than_distributed": 24,
+    "triage_signal_wilson95": [
+      0.390772,
+      0.670651
+    ],
+    "c1_controls": 121,
+    "recoverable_mojibake_lines": 60,
+    "alternative_validation_candidates": [
+      "Jonnob/the-spiritualist-enriched (historical newspaper, manually corrected word-level transcription; English, 49 pages)",
+      "SBB/OCR-D-GT-VD-SBB (PAGE XML with provider GT and SBB post-correction; mostly German/Latin books, 348 pages)"
+    ]
+  },
+  "spiritualist_experiment": {
+    "dataset_revision": "Jonnob/the-spiritualist-enriched@0f3ddfda24ecde8897ee9c0f575c59d7b95cf995",
+    "image_revision": "NationalLibraryOfScotland/Spiritualist_Newspaper@57244e5d175380ebc110b0d8b130b2dff30aeadd",
+    "split_seed": 2026092702,
+    "development_pages": ["0009", "0038", "0041", "0043"],
+    "validation_pages": ["0003", "0008", "0014", "0015", "0029", "0039", "0044", "0050"],
+    "selection": "filenames only, before downloading or inspecting page images",
+    "word_geometry_status": "rejected_as_independent_ground_truth: 87.68% of words overlap the adjacent word by >=25% of the smaller width and 11.69% leave the line box",
+    "text_status": "candidate after an independent random transcription audit",
+    "olr_ssu_status": "provisional manually enriched labels; development pilot only",
+    "xsd_status": "0/49 distributed ALTO files validate because five custom TextBlock attributes are outside ALTO 4.4; normalize without discarding source XML"
+  },
+  "spiritualist_olr_v2": {
+    "protocol_frozen_before_inference": "2026-09-27",
+    "pages": ["0003", "0008"],
+    "split_role": "validation; consumed after this one fixed evaluation",
+    "reader": "gpt-6-luna",
+    "passes": 1,
+    "transport": "short random visual tokens; strict software binding to stable IDs after response; no repair",
+    "transport_retry": "Two pre-inference file-retrieval timeouts produced no response; the completed pass used 1200x1698 inspection derivatives. Source images, prompt, reader family and gates were unchanged.",
+    "gates_each_page": {
+      "raw_structural_valid": true,
+      "reading_order_pair_accuracy_min": 0.9,
+      "semantic_group_pair_f1_min": 0.8,
+      "role_accuracy_min": 0.8
+    },
+    "reference_scope": "distributed SSU/order/role labels are provisional; never use these pages for word-box superiority"
+  },
+  "spiritualist_olr_v3_column": {
+    "protocol_frozen_before_validation": "2026-09-27",
+    "development_pages": ["0009", "0038", "0041", "0043"],
+    "validation_page": "0014",
+    "scope": "reading order conditioned on distributed TextBlock regions; no detection, role, SSU or article claim",
+    "method": "geometry-only column anchors, left-to-right columns and top-to-bottom regions",
+    "parameters": {
+      "gap_ratio": 0.14,
+      "top_exclusion_ratio": 0.055,
+      "max_anchor_width_ratio": 0.55
+    },
+    "selection": "six gap ratios on development only; maximum macro pair accuracy, then minimum total columns, then smaller gap",
+    "passes": {"vlm": 0, "geometry_cpu": 1},
+    "validation_gate": {"reading_order_pair_accuracy_min": 0.95},
+    "reference_scope": "distributed order labels are provisional and not independently adjudicated; page 0014 is consumed after evaluation"
+  },
+  "spiritualist_semantic_v1": {
+    "protocol_frozen_before_validation": "2026-09-27",
+    "development_pages": ["0009", "0038", "0041", "0043"],
+    "validation_page": "0015",
+    "split_role": "validation; consumed after this one fixed evaluation",
+    "reader": "gpt-6-luna",
+    "passes": {"vlm_semantic": 1, "cpu_geometry_order": 1},
+    "task_split": "VLM assigns roles, reading-stream eligibility and semantic units; frozen A04 geometry supplies order",
+    "transport": "short random visual tokens; strict software binding to stable IDs after response; no repair",
+    "development_conventions": {
+      "masthead_and_other_excluded": true,
+      "header_and_text_included": true,
+      "header_may_share_semantic_unit_with_following_text": true,
+      "semantic_units_crossed_columns_in_development": false
+    },
+    "gates": {
+      "raw_structural_valid": true,
+      "eligibility_precision_min": 0.9,
+      "eligibility_recall_min": 0.9,
+      "role_accuracy_min": 0.8,
+      "semantic_group_pair_f1_min": 0.8,
+      "combined_order_pair_recall_min": 0.95
+    },
+    "reference_scope": "distributed role/order/SSU labels are provisional; never use page 0015 for word-box superiority"
+  },
+  "spiritualist_semantic_v2_header": {
+    "protocol_frozen_before_validation": "2026-09-27",
+    "development_pages": ["0009", "0038", "0041", "0043"],
+    "validation_page": "0029",
+    "split_role": "validation; consumed after this one fixed evaluation",
+    "reader": "gpt-6-luna",
+    "passes": {"vlm_role_filter": 1, "cpu_geometry_order_and_grouping": 1},
+    "task_split": "VLM assigns only roles and reading-stream eligibility; frozen CPU logic supplies order and semantic units",
+    "grouping_rule": "within each inferred column a HEADER opens a unit; vertically overlapping consecutive HEADER regions remain one multi-block title; pre-header text is a continuation unit; excluded regions stay separate except shared masthead",
+    "development_macro_pair_f1_oracle_roles": 1.0,
+    "transport": "short random visual tokens; strict software binding to stable IDs after response; no repair",
+    "gates": {
+      "raw_structural_valid": true,
+      "eligibility_precision_min": 0.9,
+      "eligibility_recall_min": 0.9,
+      "role_accuracy_min": 0.8,
+      "semantic_group_pair_f1_min": 0.8,
+      "combined_order_pair_recall_min": 0.95
+    },
+    "result": {
+      "raw_structural_valid": true,
+      "eligibility_precision": 0.9411764705882353,
+      "eligibility_recall": 0.6956521739130435,
+      "role_accuracy": 0.6296296296296297,
+      "semantic_group_pair_f1": 0.68,
+      "combined_order_pair_recall": 0.4743083003952569,
+      "content_gate_passed": false
+    },
+    "reference_scope": "distributed role/order/SSU labels are provisional; source role labels are physical HEADER/TEXT and have no ADVERT class; never use page 0029 for word-box superiority"
+  },
+  "spiritualist_semantic_v3_faceted": {
+    "protocol_frozen_before_validation": "2026-09-27",
+    "development_pages": ["0009", "0038", "0041", "0043"],
+    "diagnostic_source_page_consumed": "0029",
+    "validation_page": "0039",
+    "split_role": "validation; consumed after one fixed evaluation",
+    "reader": "gpt-6-luna",
+    "passes": {"vlm_faceted_roles": 1, "cpu_geometry_order_and_grouping": 1},
+    "task_split": "VLM assigns independent physical role and editorial genre; frozen software derives stream membership, order and semantic units",
+    "physical_roles": ["MASTHEAD", "HEADER", "TEXT", "OTHER", "UNKNOWN"],
+    "editorial_genres": ["ARTICLE", "ADVERT", "NOTICE", "MASTHEAD", "OTHER", "UNKNOWN"],
+    "stream_rule": "HEADER and TEXT included regardless of genre; MASTHEAD, OTHER and UNKNOWN excluded",
+    "genre_evaluation": "descriptive proposal only; not scored because the corpus has no adjudicated editorial genre reference",
+    "gates": {
+      "raw_structural_valid": true,
+      "eligibility_precision_min": 0.9,
+      "eligibility_recall_min": 0.9,
+      "physical_role_accuracy_min": 0.8,
+      "semantic_group_pair_f1_min": 0.8,
+      "combined_order_pair_recall_min": 0.95
+    },
+    "result": {
+      "raw_structural_valid": true,
+      "eligibility_precision": 1.0,
+      "eligibility_recall": 1.0,
+      "physical_role_accuracy": 0.625,
+      "semantic_group_pair_f1": 0.5909090909090909,
+      "combined_order_pair_recall": 1.0,
+      "editorial_genre_scored": false,
+      "content_gate_passed": false
+    },
+    "reference_scope": "distributed physical role/order/SSU labels are provisional; page 0039 is never a word-box superiority test"
+  },
+  "spiritualist_semantic_v4_coarse_header": {
+    "status": "validation_complete_gate_failed_on_order_only",
+    "protocol_frozen_before_validation": "2026-09-27",
+    "development_pages": ["0009", "0038", "0041", "0043"],
+    "validation_page": "0044",
+    "split_role": "validation; consumed after one fixed evaluation",
+    "reader": "gpt-6-luna",
+    "passes": {"vlm_coarse_roles_and_genre": 1, "cpu_geometry_role_order_grouping": 1},
+    "method": "VLM coarse STREAM/MASTHEAD/OTHER/UNKNOWN; CPU separates HEADER from TEXT by normalized block height",
+    "selected_max_header_height_page_ratio": 0.02,
+    "development_macro_pair_f1": 0.9694055944055944,
+    "development_macro_stream_role_accuracy": 0.9016148325358851,
+    "transport": "short random visual tokens; strict software binding to stable IDs after response; no repair",
+    "gates": {
+      "raw_structural_valid": true,
+      "eligibility_precision_min": 0.9,
+      "eligibility_recall_min": 0.9,
+      "coarse_role_accuracy_min": 0.8,
+      "fine_physical_role_accuracy_min": 0.8,
+      "semantic_group_pair_f1_min": 0.8,
+      "combined_order_pair_recall_min": 0.95
+    },
+    "genre_evaluation": "descriptive proposal only; not scored because the corpus has no adjudicated editorial genre reference",
+    "result": {
+      "raw_structural_valid": true,
+      "eligibility_precision": 1.0,
+      "eligibility_recall": 1.0,
+      "coarse_role_accuracy": 1.0,
+      "fine_physical_role_accuracy": 1.0,
+      "semantic_group_pair_f1": 1.0,
+      "semantic_group_bcubed_f1": 1.0,
+      "combined_order_pair_recall": 0.8444444444444444,
+      "content_gate_passed": false
+    },
+    "warning": "0039 was inspected before this calibration report and cannot validate it; 0044 cannot validate word geometry"
+  },
+  "spiritualist_semantic_v5_coarse_order": {
+    "status": "validation_complete_gate_failed_on_multiline_header",
+    "protocol_frozen_before_validation": "2026-09-27",
+    "development_pages": ["0009", "0038", "0041", "0043"],
+    "diagnostic_page_consumed": "0044",
+    "validation_page": "0050",
+    "reader": "gpt-6-luna",
+    "passes": {"vlm_coarse_roles_and_genre": 1, "cpu_geometry_role_order_grouping": 1},
+    "height_ratio": 0.02,
+    "order_method": "ignore anchors narrower than 2% page width; assign all regions by maximum horizontal overlap with inferred column spans",
+    "development_macro_order_pair_accuracy": 1.0,
+    "development_narrow_bridge_stress_accuracy": 1.0,
+    "gates": {
+      "raw_structural_valid": true,
+      "eligibility_precision_min": 0.9,
+      "eligibility_recall_min": 0.9,
+      "coarse_role_accuracy_min": 0.8,
+      "fine_physical_role_accuracy_min": 0.8,
+      "semantic_group_pair_f1_min": 0.8,
+      "combined_order_pair_recall_min": 0.95
+    },
+    "result": {
+      "raw_structural_valid": true,
+      "eligibility_precision": 1.0,
+      "eligibility_recall": 1.0,
+      "coarse_role_accuracy": 1.0,
+      "fine_physical_role_accuracy": 0.9166666666666666,
+      "semantic_group_pair_f1": 0.7333333333333334,
+      "semantic_group_bcubed_f1": 0.8750000000000001,
+      "combined_order_pair_recall": 1.0,
+      "content_gate_passed": false
+    },
+    "warning": "0050 is the last frozen Spiritualist validation page and is consumed after one fixed score; it is not word-box ground truth"
+  },
+  "spiritualist_semantic_v6_typography": {
+    "status": "conditional_validation_passed_on_first_frozen_page",
+    "split_seed": 2026092710,
+    "development_pages": ["0001", "0006", "0020", "0023", "0030", "0040", "0046", "0049"],
+    "validation_pages": ["0004", "0010", "0011", "0016", "0018", "0027", "0035", "0042"],
+    "reserve_pages": 21,
+    "selection": "filenames only; no image, text, role, order or difficulty inspected",
+    "features": "internal line count, median line height normalized by page and uppercase ratio; no validation labels during selection",
+    "classifier": {
+      "max_header_line_count": 2,
+      "min_median_line_height_page_ratio": 0.014,
+      "min_uppercase_ratio": 0.6,
+      "logic": "HEADER iff STREAM and short and (large internal line or uppercase); otherwise TEXT"
+    },
+    "development_result": {
+      "macro_semantic_group_pair_f1": 0.9575838810100311,
+      "macro_fine_role_accuracy": 0.9888833992094862
+    },
+    "conditional_validation": {
+      "page": "0004",
+      "vlm_passes": 0,
+      "oracle_coarse_stream_membership": true,
+      "fine_role_accuracy": 1.0,
+      "semantic_group_pair_f1": 1.0,
+      "order_pair_accuracy": 1.0,
+      "content_gate_passed": true,
+      "accepted_for_project_completion_gate": false
+    },
+    "next_page": "0010 for a blind full coarse Luna pass with the rule frozen",
+    "warning": "0004 is consumed for this conditional task; roles and SSU are provisional; word boxes remain rejected"
+  },
+  "spiritualist_semantic_v6_full": {
+    "status": "one_pass_validation_passed_provisional_content_gates",
+    "protocol_frozen_before_validation": "2026-09-27",
+    "validation_page": "0010",
+    "reader": "gpt-6-luna",
+    "passes": {"vlm_coarse_roles_and_genre": 1, "cpu_typography_order_grouping": 1},
+    "transport": "15 random visual tokens, complete strict maps, no repair",
+    "task_split": "Luna assigns STREAM/MASTHEAD/OTHER and non-gating genre; frozen CPU A10 assigns HEADER/TEXT, order and SSU",
+    "result": {
+      "raw_structural_valid": true,
+      "eligibility_precision": 0.9166666666666666,
+      "eligibility_recall": 1.0,
+      "coarse_role_accuracy": 0.9333333333333333,
+      "fine_physical_role_accuracy": 0.9333333333333333,
+      "semantic_group_pair_f1": 0.8571428571428572,
+      "semantic_group_bcubed_f1": 0.9220883534136545,
+      "combined_order_pair_recall": 1.0,
+      "content_gate_passed": true,
+      "accepted_for_project_completion_gate": false
+    },
+    "posthoc_convention_conflict": "One readable editorial footnote was STREAM/NOTICE for Luna but OTHER/-1 in the source; score unchanged, retain for retrieval and send main-stream status to review.",
+    "warning": "0010 is consumed; source roles and SSU are provisional; genre is not scored; source line geometry AND text enter CPU typography, so this is not image-only end-to-end validation"
+  },
+  "yolo_columns_a12": {
+    "page": "0044",
+    "scope": "consumed-page diagnostic using cached real detector predictions",
+    "anchors": "plain text class only; preserve all detections including abandon",
+    "parameters": "frozen A09 order config; context_margin_ratio=0.004, not retuned",
+    "reference_used_in_proposal": false,
+    "result": {"columns": 3, "column_pair_correct": 45, "column_pairs": 45, "line_rectangles_probed": 415, "tight_span_not_contained": 142, "core_not_contained": 73, "context_not_contained": 3},
+    "warning": "order score uses source region y; line rectangles are provisional, not actual ink; no generalization claim"
+  },
+  "yolo_ocr_a13": {
+    "page": "0044",
+    "scope": "consumed-page short predicted paragraph diagnostic",
+    "selection_seed": 2026092713,
+    "selection": "3 random plain-text predictions with height 80..260px; no source XML",
+    "readers": "one Luna pass; blind Sol reread of non-exact regions",
+    "score": "collapse whitespace only, preserve punctuation/case/hyphens; report raw text too",
+    "routing_warning": "nonzero CER escalation uses reference, oracle-assisted diagnosis not deployment policy",
+    "accepted_for_project_completion_gate": false
+  },
+  "column_lines_a14": {
+    "page": "0044",
+    "scope": "consumed-page assignment ablation on shared real raw PERO detection",
+    "parameters": "PERO 0.7.0 CPU; downsample5 adaptive, detection_threshold0.2, line_end_weight1, vertical_connection3, smooth=false; A12 column windows unchanged; owner_fraction_min0.8",
+    "reference_in_inference_or_routing": false,
+    "raw_lines": 416,
+    "output_fragments": {"native_regions":416,"column_core_clipped":496,"column_context_clipped":635,"whole_line_routing":416},
+    "reference_matches_iou05_all_variants": 385,
+    "reference_lines": 418,
+    "decision": "retain whole-line routing for further validation; reject naive overlapping-region assignment",
+    "warning": "reference line rectangles provisional; no word-box superiority or independent validation"
+  },
+  "predicted_alignment_a15": {
+    "page": "0044",
+    "scope": "partial-page integration; same 3 A13 short crops, no new VLM inference",
+    "inputs": "A14 predicted lines; A13 saved Sol diplomatic text; no source XML",
+    "binding": "strict equal counts per region then physical baseline order; fail on mismatch",
+    "result": {"lines":20,"word_boxes":184,"diplomatic_text_preserved":true,"xsd_valid":true,"native_fallback_flags":0},
+    "visual_warning": "terminal em-dashes protrude beyond native word boxes; confidence/fallback does not establish glyph completeness",
+    "accepted_for_project_completion_gate": false
+  },
+  "ink_extension_a16": {
+    "page": "0044",
+    "scope": "post-hoc diagnostic on the consumed A15 partial page; no independent geometry reference",
+    "source": "A15 native PERO CTC word boxes and thresholded source-image ink inside predicted line polygons",
+    "a16a": {"rule":"all nearby components in horizontal ownership cell","changed_words":179,"foreground_coverage":1.0,"decision":"reject as systematic over-expansion"},
+    "a16b": {"rule":"only components with centroids outside native word box","changed_words":72,"foreground_coverage":0.9517879518072289,"decision":"reject for automatic promotion; still broad and unvalidated"},
+    "a16c": {"rule":"A16b only for a token with Unicode punctuation on an edge","changed_words":4,"foreground_coverage":0.9010506024096385,"adjacent_overlaps":0,"decision":"retain as review proposal only"},
+    "invariants": "additive only; native box containment; stable IDs and diplomatic text; ALTO/METS XSD; no new detector, OCR or VLM pass",
+    "warning": "thresholded ink coverage is not exact word ownership; all three settings were observed on consumed data and require a newly frozen, independently adjudicated validation set"
+  },
+  "mets_profile_a17": {
+    "status": "profile_export_complete_with_declared_mods_xsd_gap",
+    "page": "0044",
+    "scope": "packaging and provenance on consumed A16c partial page; no OCR/geometry/OLR claim",
+    "file_groups": ["OCR", "MASTER_IMAGE", "DOCUMENT_GRAPH", "RETRIEVAL_INDEX"],
+    "physical_page_links": ["source image", "page ALTO"],
+    "fixity": {"local_sha256_verified": 3, "remote_image_sha256_verified_before_export": true, "premis_objects": 4},
+    "validation": {"alto_4_4_xsd": true, "mets_1_12_core_xsd": true, "premis_3_xsd": true, "mods_3_8_local_profile": true, "mods_3_8_xsd": false},
+    "metadata_policy": "MODS receives only a local identifier plus explicitly sourced graph metadata; typed BBVLM evidence remains a separate dmdSec",
+    "passes": {"layout":0,"recognition":0,"vlm":0},
+    "warning": "official MODS 3.8 XSD retrieval returned HTTP 403; do not call the profile fully XSD-validated or open the project gate"
+  },
+  "implementation_checks": {
+    "alto44_mets1121_xsd_validation": true,
+    "full_institutional_metadata_profile": false,
+    "offline_tests_passed": 60,
+    "offline_tests_skipped": 1
+  },
+  "sbb_reference_a18": {
+    "repository": "OCR-D/OCR-D-GT-VD-SBB",
+    "revision": "481f7235acfc1f78e88b3c2f22f551595c3f2032",
+    "split": "reference-a18/split.json; 4 audit works and 4 unopened reserve works; filenames only, seed 2026092718",
+    "audit": {"pages":4,"lines":94,"words":623,"word_overlap_ge25pct":0,"words_outside_line_bbox":0},
+    "reference_status": "credible external candidate: SBB provider and institutional manual checks; 4 local visual panels inspected, not exhaustive human adjudication",
+    "ocr_policy": "16 blind oracle line crops; Luna primary; Sol only on 10 declared uncertainties with polygon isolation. Keep original GT and raw CER. Private-use glyph conventions need authoritative mapping before a comparable normalized score.",
+    "reserve_policy": "No download or inspection until method/conventions frozen; no training-contamination claim for public pretrained models",
+    "accepted_for_project_completion_gate": false
+  },
+  "ocr_conventions_a20": {
+    "profiles": ["strict", "glyph_decomposition_v1", "dinglehopper_sbb_compatibility_codepoints"],
+    "unit": "Unicode code points, including whitespace and punctuation",
+    "source_policy": "OCR-D coding descriptions and pinned dinglehopper; unknown PUA retained; never normalize from predictions",
+    "reference_and_export_policy": "immutable diplomatic original; evaluation views separate",
+    "accepted_for_project_completion_gate": false
+  },
+  "routing_a21": {
+    "selection": "all six Luna outputs with uncertain false, including exact lines",
+    "reader": "gpt-6-sol",
+    "scope": "post-hoc diagnostic on consumed audit; no reserve access or independent claim",
+    "goal": "measure false confidence and marginal cost; preserve regressions",
+    "accepted_for_project_completion_gate": false
+  },
+  "sbb_reserve_a22": {
+    "status": "completed_reserve_consumed",
+    "scope": "4 work-disjoint frozen SBB pages; 16 ID-sampled lines; one blind Sol task",
+    "ocr": {"strict_cer":0.11624441132637854,"decomposed_v1_cer":0.04864091559370529,"decomposed_exact_lines":3,"lines":16},
+    "geometry": {"method":"A19 frozen projection-gap without recognizer","proposed_lines":2,"lines":16,"predicted_words":7,"reference_words":121,"mean_iou_emitted":0.9709930441278924,"precision_iou80":1.0,"recall_iou80":0.05785123966942149},
+    "cost": {"vlm_tasks":1,"target_images":16,"context_images":16,"recognizer_forwards":0,"layout_forwards":0,"tokens":null,"billing":null},
+    "decision": "high-precision CPU fast path only; CTC/PERO fallback needed for 14/16 lines; no retuning on consumed reserve",
+    "accepted_for_project_completion_gate": false
+  },
+  "minimal_stages_a19": {
+    "architecture": "ARCHITECTURE_A19.md",
+    "objective": "VLM joint reading with evidence-linked semantics; minimal geometry stages; recognizer only for genuinely ambiguous alignment, not full PERO plus VLM by default",
+    "prototype": "projection gaps, token count from final text; min_gap_height_ratio=.10, gap_separation_ratio=1.5; no tuning",
+    "scope": "94 SBB oracle lines and 20 consumed predicted VLM lines, no independent superiority test",
+    "result": {"sbb_proposed_lines":50,"sbb_lines":94,"emitted_words":294,"reference_words":623,"mean_iou_emitted":0.945306561307908,"total_word_recall_iou50":0.45746388443017655,"predicted_vlm_lines_proposed":18,"predicted_vlm_lines":20},
+    "decision": "retain ablation, reject automatic geometry promotion: confident wrong partitions remain",
+    "economic_gate": "compare actual marginal latency/tokens/CTC fallback and human verification cost; cache replays are not first-run savings",
+    "accepted_for_project_completion_gate": false
+  }
+}

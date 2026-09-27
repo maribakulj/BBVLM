@@ -1,0 +1,644 @@
+{
+  "schema": "bbvlm.unmasked-a31-report/1",
+  "status": "posthoc consumed-data input ablation, blind new reader; not independent validation",
+  "primary_metric": "normalized CER using unchanged A30 post-score retrieval function, not verified Gallica/Exalead rules",
+  "scores": {
+    "masked_a30_sol": {
+      "normalized": {
+        "characters": 2962,
+        "edits": 17,
+        "cer": 0.005739365293720459,
+        "exact_regions": 6,
+        "per_region": [
+          {
+            "id": "T001",
+            "characters": 251,
+            "edits": 0,
+            "exact": true,
+            "reference": "arrondissement de saint-denis. - 1re circonscription (canton de pantin et de noisyle-sec). - le député sortant, m. adrien veber, socialiste unifié, a pour concurrents mm. trouselle, radical socialiste ; jacquemin et rimbault, socialistes indépendants.",
+            "hypothesis": "arrondissement de saint-denis. - 1re circonscription (canton de pantin et de noisyle-sec). - le député sortant, m. adrien veber, socialiste unifié, a pour concurrents mm. trouselle, radical socialiste ; jacquemin et rimbault, socialistes indépendants."
+          },
+          {
+            "id": "T002",
+            "characters": 107,
+            "edits": 0,
+            "exact": true,
+            "reference": "dans la soirée de jeudi, les quatre témoins se réunirent une première fois et ne purent se mettre d'accord.",
+            "hypothesis": "dans la soirée de jeudi, les quatre témoins se réunirent une première fois et ne purent se mettre d'accord."
+          },
+          {
+            "id": "T003",
+            "characters": 72,
+            "edits": 2,
+            "exact": false,
+            "reference": "le drame de l'avenue henri-martin. - les premières opérations judicia�es",
+            "hypothesis": "le drame de l'avenue henri-martin. - les premières opérations judiciaires"
+          },
+          {
+            "id": "T004",
+            "characters": 228,
+            "edits": 0,
+            "exact": true,
+            "reference": "malgré les instances de la famille, le corps de la victime a été transporté, hier soir, à la morgue aux fins d'autopsie. la balle du revolver a traversé la joue et est allée se loger dans la carotide ; la mort a été foudroyante.",
+            "hypothesis": "malgré les instances de la famille, le corps de la victime a été transporté, hier soir, à la morgue aux fins d'autopsie. la balle du revolver a traversé la joue et est allée se loger dans la carotide ; la mort a été foudroyante."
+          },
+          {
+            "id": "T005",
+            "characters": 255,
+            "edits": 0,
+            "exact": true,
+            "reference": "le général chomer est arrivé hier à belfort. il a fait donner cette nuit l'alerte aux garnisons de belfort, lure, héricourt et montbéliard. a la première heure, les troupes se mettaient en marche et se rencontraient près d'héricourt où elles ont manœuvré.",
+            "hypothesis": "le général chomer est arrivé hier à belfort. il a fait donner cette nuit l'alerte aux garnisons de belfort, lure, héricourt et montbéliard. a la première heure, les troupes se mettaient en marche et se rencontraient près d'héricourt où elles ont manœuvré."
+          },
+          {
+            "id": "T006",
+            "characters": 45,
+            "edits": 2,
+            "exact": false,
+            "reference": "le meurtrier sera défendu par me henri robert",
+            "hypothesis": "-le meurtrier sera défendu par me henri robert."
+          },
+          {
+            "id": "T007",
+            "characters": 199,
+            "edits": 3,
+            "exact": false,
+            "reference": "- cest possible. mais la lettre de m. l'abbé demazures n'en est pas moins là. le président de la société de saint-denis vous a fait des propositions qui tendaient à procéder à une vente à l'amiable ?",
+            "hypothesis": "c'est possible. mais la lettre de m. l'abbé demazures n'en est pas moins là. le président de la société de saint-denis vous a fait des propositions qui tendaient à procéder à une vente à l'amiable ?"
+          },
+          {
+            "id": "T008",
+            "characters": 392,
+            "edits": 1,
+            "exact": false,
+            "reference": "« lé sénat fera aboutir, sous l'impulsion attentive et énergique du gouvernement, la refonte de nos lois fiscales, dont seul l'impôt sur le revenu permettra de relever les inégalités et de rechercher les injustices. son principe, unanimement accepté, vaudra surtout par les moyens d'application qui doivent exclure toutes les mesures agressives de la liberté du foyer et du secret commercial.",
+            "hypothesis": "« le sénat fera aboutir, sous l'impulsion attentive et énergique du gouvernement, la refonte de nos lois fiscales, dont seul l'impôt sur le revenu permettra de relever les inégalités et de rechercher les injustices. son principe, unanimement accepté, vaudra surtout par les moyens d'application qui doivent exclure toutes les mesures agressives de la liberté du foyer et du secret commercial."
+          },
+          {
+            "id": "T009",
+            "characters": 123,
+            "edits": 2,
+            "exact": false,
+            "reference": "3° circonscription. - les socialistes unifiés opposent m. jean martin à m. coutant, député sortant, socialiste indépendant.",
+            "hypothesis": "5e circonscription. - les socialistes unifiés opposent m. jean martin à m. coutant, député sortant, socialiste indépendant."
+          },
+          {
+            "id": "T010",
+            "characters": 174,
+            "edits": 1,
+            "exact": false,
+            "reference": "m. gaston waché de roo a écrit, hier matin, à me henri robert afin de le prier de vouloir bien l'assister devant le juge d'instruction et présenter sa défense devant le jury.",
+            "hypothesis": "m. gaston waché-de roo a écrit, hier matin, à me henri robert afin de le prier de vouloir bien l'assister devant le juge d'instruction et présenter sa défense devant le jury."
+          },
+          {
+            "id": "T011",
+            "characters": 173,
+            "edits": 1,
+            "exact": false,
+            "reference": "le prince pignatelli d'aragon, à la suite d'une discussion fort animée au sujet d'un coup d'escrime, avait envoyé ses témoins, mm. de merey et de roumefort, à m. max linder.",
+            "hypothesis": "le prince pignatelli d'aragon, à la suite d'une discussion fort animée au sujet d'un coup d'escrime, avait envoyé ses témoins, mm. de merey et de roumafort, à m. max linder."
+          },
+          {
+            "id": "T012",
+            "characters": 123,
+            "edits": 0,
+            "exact": true,
+            "reference": "la commission des inondations s'est réunie, hier matin au ministère de l'intérieur, sous la présidence de m. alfred picard.",
+            "hypothesis": "la commission des inondations s'est réunie, hier matin au ministère de l'intérieur, sous la présidence de m. alfred picard."
+          },
+          {
+            "id": "T013",
+            "characters": 192,
+            "edits": 3,
+            "exact": false,
+            "reference": "cet après-midi, mlle fabre, placée dans le bureau du gardien chef à la maison d'arrêt, a parfaitement reconnu parmi les détenus, qui ont défilé devant elle, lamarque comme étant son agresseur.",
+            "hypothesis": "cet après-midi, mme faure, placée dans le bureau du gardien chef à la maison d'arrêt, a parfaitement reconnu parmi les détenus, qui ont défilé devant elle, lamarque comme étant son agresseur."
+          },
+          {
+            "id": "T014",
+            "characters": 87,
+            "edits": 1,
+            "exact": false,
+            "reference": "le parquet va instruire l'effaire. une confrontation officielle aura lieu incessamment.",
+            "hypothesis": "le parquet va instruire l'affaire. une confrontation officielle aura lieu incessamment."
+          },
+          {
+            "id": "T015",
+            "characters": 183,
+            "edits": 0,
+            "exact": true,
+            "reference": "m. le guennic et ses amis révolutionnaires mènent aussitôt grand vacarme. ils prennent acte des paroles du secrétaire de l'organisation, qui avoue « qu'il y a du linge sale à laver ».",
+            "hypothesis": "m. le guennic et ses amis révolutionnaires mènent aussitôt grand vacarme. ils prennent acte des paroles du secrétaire de l'organisation, qui avoue « qu'il y a du linge sale à laver »."
+          },
+          {
+            "id": "T016",
+            "characters": 358,
+            "edits": 1,
+            "exact": false,
+            "reference": "me henri robert a accepté cette délicate mission et accompagné de l'un de ses secrétaires, me albert dusart, il s'est rendu dans l'après-midi à la prison de la santé où une longue entrevue a eu lieu entre les avocats et leur nouveau client, afin de préparer l'interrogatoire que fera subir au parricide, aujourd'hui samedi, m. le juge d'instruction bouissou.",
+            "hypothesis": "me henri robert a accepté cette délicate mission et accompagné de l'un de ses secrétaires, me albert dusart, il s'est rendu dans l'après-midi à la prison de la santé où une longue entrevue a eu lieu entre les avocats et leur nouveau client, afin de préparer l'interrogatoire que fera subir au parricide, aujourd'hui samedi, m. le juge d'instruction bouisson."
+          }
+        ]
+      },
+      "strict_secondary": {
+        "characters": 3004,
+        "edits": 44,
+        "cer": 0.014647137150466045,
+        "exact_regions": 2,
+        "per_region": [
+          {
+            "id": "T001",
+            "characters": 259,
+            "edits": 6,
+            "exact": false,
+            "reference": "ARRONDISSEMENT DE SAINT‑DENIS. — 1re Cir‑\nconscription (canton de Pantin et de Noisy‑\nle‑Sec). — Le député sortant, M. Adrien Ve‑\nber, socialiste unifié, a pour concurrents\nMM. Trouselle, radical socialiste ; Jacque‑\nmin et Rimbault, socialistes indépendants.",
+            "hypothesis": "ARRONDISSEMENT DE SAINT-DENIS. — 1re Cir-\nconscription (canton de Pantin et de Noisy-\nle-Sec). — Le député sortant, M. Adrien Ve-\nber, socialiste unifié, a pour concurrents\nMM. Trouselle, radical socialiste ; Jacque-\nmin et Rimbault, socialistes indépendants."
+          },
+          {
+            "id": "T002",
+            "characters": 107,
+            "edits": 0,
+            "exact": true,
+            "reference": "Dans la soirée de jeudi, les quatre témoins\nse réunirent une première fois et ne purent\nse mettre d'accord.",
+            "hypothesis": "Dans la soirée de jeudi, les quatre témoins\nse réunirent une première fois et ne purent\nse mettre d'accord."
+          },
+          {
+            "id": "T003",
+            "characters": 72,
+            "edits": 3,
+            "exact": false,
+            "reference": "Le Drame de l'Avenue Henri‑Martin. — Les\npremières Opérations judicia�es",
+            "hypothesis": "Le Drame de l'Avenue Henri-Martin. — Les\npremières Opérations judiciaires"
+          },
+          {
+            "id": "T004",
+            "characters": 228,
+            "edits": 0,
+            "exact": true,
+            "reference": "Malgré les instances de la famille, le\ncorps de la victime a été transporté, hier\nsoir, à la Morgue aux fins d'autopsie. La\nballe du revolver a traversé la joue et est\nallée se loger dans la carotide ; la mort a\nété foudroyante.",
+            "hypothesis": "Malgré les instances de la famille, le\ncorps de la victime a été transporté, hier\nsoir, à la Morgue aux fins d'autopsie. La\nballe du revolver a traversé la joue et est\nallée se loger dans la carotide ; la mort a\nété foudroyante."
+          },
+          {
+            "id": "T005",
+            "characters": 263,
+            "edits": 4,
+            "exact": false,
+            "reference": "Le général Chomer est arrivé hier à Bel‑\nfort. Il a fait donner cette nuit l'alerte aux\ngarnisons de Belfort, Lure, Héricourt et\nMontbéliard. A la première heure, les trou‑\npes se mettaient en marche et se rencon‑\ntraient près d'Héricourt où elles ont ma‑\nnœuvré.",
+            "hypothesis": "Le général Chomer est arrivé hier à Bel-\nfort. Il a fait donner cette nuit l'alerte aux\ngarnisons de Belfort, Lure, Héricourt et\nMontbéliard. A la première heure, les trou-\npes se mettaient en marche et se rencon-\ntraient près d'Héricourt où elles ont ma-\nnœuvré."
+          },
+          {
+            "id": "T006",
+            "characters": 45,
+            "edits": 2,
+            "exact": false,
+            "reference": "Le Meurtrier sera défendu par Me Henri\nRobert",
+            "hypothesis": "—Le Meurtrier sera défendu par Me Henri\nRobert."
+          },
+          {
+            "id": "T007",
+            "characters": 201,
+            "edits": 5,
+            "exact": false,
+            "reference": "— Cest possible. Mais la lettre de M. l'abbé\nDemazures n'en est pas moins là. Le président\nde la Société de Saint‑Denis vous a fait des pro‑\npositions qui tendaient à procéder à une vente à\nl'amiable ?",
+            "hypothesis": "C'est possible. Mais la lettre de M. l'abbé\nDemazures n'en est pas moins là. Le président\nde la Société de Saint-Denis vous a fait des pro-\npositions qui tendaient à procéder à une vente à\nl'amiable ?"
+          },
+          {
+            "id": "T008",
+            "characters": 400,
+            "edits": 5,
+            "exact": false,
+            "reference": "« Lé Sénat fera aboutir, sous l'impulsion\nattentive et énergique du gouvernement, la\nrefonte de nos lois fiscales, dont seul l'impôt\nsur le revenu permettra de relever les iné‑\ngalités et de rechercher les injustices. Son\nprincipe, unanimement accepté, vaudra sur‑\ntout par les moyens d'application qui doi‑\nvent exclure toutes les mesures agressives\nde la liberté du foyer et du secret commer‑\ncial.",
+            "hypothesis": "« Le Sénat fera aboutir, sous l'impulsion\nattentive et énergique du gouvernement, la\nrefonte de nos lois fiscales, dont seul l'impôt\nsur le revenu permettra de relever les iné-\ngalités et de rechercher les injustices. Son\nprincipe, unanimement accepté, vaudra sur-\ntout par les moyens d'application qui doi-\nvent exclure toutes les mesures agressives\nde la liberté du foyer et du secret commer-\ncial."
+          },
+          {
+            "id": "T009",
+            "characters": 125,
+            "edits": 3,
+            "exact": false,
+            "reference": "3° Circonscription. — Les socialistes uni‑\nfiés opposent M. Jean Martin à M. Coutant,\ndéputé sortant, socialiste indépendant.",
+            "hypothesis": "5e Circonscription. — Les socialistes uni-\nfiés opposent M. Jean Martin à M. Coutant,\ndéputé sortant, socialiste indépendant."
+          },
+          {
+            "id": "T010",
+            "characters": 174,
+            "edits": 1,
+            "exact": false,
+            "reference": "M. Gaston Waché de Roo a écrit, hier\nmatin, à Me Henri Robert afin de le prier\nde vouloir bien l'assister devant le juge\nd'instruction et présenter sa défense devant\nle jury.",
+            "hypothesis": "M. Gaston Waché-de Roo a écrit, hier\nmatin, à Me Henri Robert afin de le prier\nde vouloir bien l'assister devant le juge\nd'instruction et présenter sa défense devant\nle jury."
+          },
+          {
+            "id": "T011",
+            "characters": 173,
+            "edits": 1,
+            "exact": false,
+            "reference": "Le prince Pignatelli d'Aragon, à la suite\nd'une discussion fort animée au sujet d'un\ncoup d'escrime, avait envoyé ses témoins,\nMM. de Merey et de Roumefort, à M. Max\nLinder.",
+            "hypothesis": "Le prince Pignatelli d'Aragon, à la suite\nd'une discussion fort animée au sujet d'un\ncoup d'escrime, avait envoyé ses témoins,\nMM. de Merey et de Roumafort, à M. Max\nLinder."
+          },
+          {
+            "id": "T012",
+            "characters": 125,
+            "edits": 1,
+            "exact": false,
+            "reference": "La commission des inondations s'est réu‑\nnie, hier matin au ministère de l'intérieur,\nsous la présidence de M. Alfred Picard.",
+            "hypothesis": "La commission des inondations s'est réu-\nnie, hier matin au ministère de l'intérieur,\nsous la présidence de M. Alfred Picard."
+          },
+          {
+            "id": "T013",
+            "characters": 198,
+            "edits": 7,
+            "exact": false,
+            "reference": "Cet après‑midi, Mlle Fabre, placée dans le bu‑\nreau du gardien chef à la maison d'arrêt, a par‑\nfaitement reconnu parmi les détenus, qui ont dé‑\nfilé devant elle, Lamarque comme étant son\nagresseur.",
+            "hypothesis": "Cet après-midi, Mme Faure, placée dans le bu-\nreau du gardien chef à la maison d'arrêt, a par-\nfaitement reconnu parmi les détenus, qui ont dé-\nfilé devant elle, Lamarque comme étant son\nagresseur."
+          },
+          {
+            "id": "T014",
+            "characters": 89,
+            "edits": 2,
+            "exact": false,
+            "reference": "Le parquet va instruire l'effaire. Une confron‑\ntation officielle aura lieu incessamment.",
+            "hypothesis": "Le parquet va instruire l'affaire. Une confron-\ntation officielle aura lieu incessamment."
+          },
+          {
+            "id": "T015",
+            "characters": 185,
+            "edits": 1,
+            "exact": false,
+            "reference": "M. Le Guennic et ses amis révolution‑\nnaires mènent aussitôt grand vacarme. Ils\nprennent acte des paroles du secrétaire de\nl'organisation, qui avoue « qu'il y a du\nlinge sale à laver ».",
+            "hypothesis": "M. Le Guennic et ses amis révolution-\nnaires mènent aussitôt grand vacarme. Ils\nprennent acte des paroles du secrétaire de\nl'organisation, qui avoue « qu'il y a du\nlinge sale à laver »."
+          },
+          {
+            "id": "T016",
+            "characters": 360,
+            "edits": 3,
+            "exact": false,
+            "reference": "Me Henri Robert a accepté cette délicate\nmission et accompagné de l'un de ses se‑\ncrétaires, Me Albert Dusart, il s'est rendu\ndans l'après‑midi à la prison de la Santé où\nune longue entrevue a eu lieu entre les\navocats et leur nouveau client, afin de\npréparer l'interrogatoire que fera subir au\nparricide, aujourd'hui samedi, M. le juge\nd'instruction Bouissou.",
+            "hypothesis": "Me Henri Robert a accepté cette délicate\nmission et accompagné de l'un de ses se-\ncrétaires, Me Albert Dusart, il s'est rendu\ndans l'après-midi à la prison de la Santé où\nune longue entrevue a eu lieu entre les\navocats et leur nouveau client, afin de\npréparer l'interrogatoire que fera subir au\nparricide, aujourd'hui samedi, M. le juge\nd'instruction Bouisson."
+          }
+        ]
+      }
+    },
+    "unmasked_context_a31_sol": {
+      "normalized": {
+        "characters": 2962,
+        "edits": 16,
+        "cer": 0.0054017555705604325,
+        "exact_regions": 7,
+        "per_region": [
+          {
+            "id": "T001",
+            "characters": 251,
+            "edits": 0,
+            "exact": true,
+            "reference": "arrondissement de saint-denis. - 1re circonscription (canton de pantin et de noisyle-sec). - le député sortant, m. adrien veber, socialiste unifié, a pour concurrents mm. trouselle, radical socialiste ; jacquemin et rimbault, socialistes indépendants.",
+            "hypothesis": "arrondissement de saint-denis. - 1re circonscription (canton de pantin et de noisyle-sec). - le député sortant, m. adrien veber, socialiste unifié, a pour concurrents mm. trouselle, radical socialiste ; jacquemin et rimbault, socialistes indépendants."
+          },
+          {
+            "id": "T002",
+            "characters": 107,
+            "edits": 0,
+            "exact": true,
+            "reference": "dans la soirée de jeudi, les quatre témoins se réunirent une première fois et ne purent se mettre d'accord.",
+            "hypothesis": "dans la soirée de jeudi, les quatre témoins se réunirent une première fois et ne purent se mettre d'accord."
+          },
+          {
+            "id": "T003",
+            "characters": 72,
+            "edits": 2,
+            "exact": false,
+            "reference": "le drame de l'avenue henri-martin. - les premières opérations judicia�es",
+            "hypothesis": "le drame de l'avenue henri-martin. - les premières opérations judiciaires"
+          },
+          {
+            "id": "T004",
+            "characters": 228,
+            "edits": 0,
+            "exact": true,
+            "reference": "malgré les instances de la famille, le corps de la victime a été transporté, hier soir, à la morgue aux fins d'autopsie. la balle du revolver a traversé la joue et est allée se loger dans la carotide ; la mort a été foudroyante.",
+            "hypothesis": "malgré les instances de la famille, le corps de la victime a été transporté, hier soir, à la morgue aux fins d'autopsie. la balle du revolver a traversé la joue et est allée se loger dans la carotide ; la mort a été foudroyante."
+          },
+          {
+            "id": "T005",
+            "characters": 255,
+            "edits": 0,
+            "exact": true,
+            "reference": "le général chomer est arrivé hier à belfort. il a fait donner cette nuit l'alerte aux garnisons de belfort, lure, héricourt et montbéliard. a la première heure, les troupes se mettaient en marche et se rencontraient près d'héricourt où elles ont manœuvré.",
+            "hypothesis": "le général chomer est arrivé hier à belfort. il a fait donner cette nuit l'alerte aux garnisons de belfort, lure, héricourt et montbéliard. a la première heure, les troupes se mettaient en marche et se rencontraient près d'héricourt où elles ont manœuvré."
+          },
+          {
+            "id": "T006",
+            "characters": 45,
+            "edits": 2,
+            "exact": false,
+            "reference": "le meurtrier sera défendu par me henri robert",
+            "hypothesis": "- le meurtrier sera défendu par me henri robert"
+          },
+          {
+            "id": "T007",
+            "characters": 199,
+            "edits": 1,
+            "exact": false,
+            "reference": "- cest possible. mais la lettre de m. l'abbé demazures n'en est pas moins là. le président de la société de saint-denis vous a fait des propositions qui tendaient à procéder à une vente à l'amiable ?",
+            "hypothesis": "- c'est possible. mais la lettre de m. l'abbé demazures n'en est pas moins là. le président de la société de saint-denis vous a fait des propositions qui tendaient à procéder à une vente à l'amiable ?"
+          },
+          {
+            "id": "T008",
+            "characters": 392,
+            "edits": 1,
+            "exact": false,
+            "reference": "« lé sénat fera aboutir, sous l'impulsion attentive et énergique du gouvernement, la refonte de nos lois fiscales, dont seul l'impôt sur le revenu permettra de relever les inégalités et de rechercher les injustices. son principe, unanimement accepté, vaudra surtout par les moyens d'application qui doivent exclure toutes les mesures agressives de la liberté du foyer et du secret commercial.",
+            "hypothesis": "« le sénat fera aboutir, sous l'impulsion attentive et énergique du gouvernement, la refonte de nos lois fiscales, dont seul l'impôt sur le revenu permettra de relever les inégalités et de rechercher les injustices. son principe, unanimement accepté, vaudra surtout par les moyens d'application qui doivent exclure toutes les mesures agressives de la liberté du foyer et du secret commercial."
+          },
+          {
+            "id": "T009",
+            "characters": 123,
+            "edits": 1,
+            "exact": false,
+            "reference": "3° circonscription. - les socialistes unifiés opposent m. jean martin à m. coutant, député sortant, socialiste indépendant.",
+            "hypothesis": "3e circonscription. - les socialistes unifiés opposent m. jean martin à m. coutant, député sortant, socialiste indépendant."
+          },
+          {
+            "id": "T010",
+            "characters": 174,
+            "edits": 5,
+            "exact": false,
+            "reference": "m. gaston waché de roo a écrit, hier matin, à me henri robert afin de le prier de vouloir bien l'assister devant le juge d'instruction et présenter sa défense devant le jury.",
+            "hypothesis": "m. gaston-woëché-de roe a écrit, hier matin, à me henri robert afin de le prier de vouloir bien l'assister devant le juge d'instruction et présenter sa défense devant le jury."
+          },
+          {
+            "id": "T011",
+            "characters": 173,
+            "edits": 2,
+            "exact": false,
+            "reference": "le prince pignatelli d'aragon, à la suite d'une discussion fort animée au sujet d'un coup d'escrime, avait envoyé ses témoins, mm. de merey et de roumefort, à m. max linder.",
+            "hypothesis": "le prince pignatelli d'aragon, à la suite d'une discussion fort animée au sujet d'un coup d'escrime, avait envoyé ses témoins, mm. de mercy et de roumafort, à m. max linder."
+          },
+          {
+            "id": "T012",
+            "characters": 123,
+            "edits": 0,
+            "exact": true,
+            "reference": "la commission des inondations s'est réunie, hier matin au ministère de l'intérieur, sous la présidence de m. alfred picard.",
+            "hypothesis": "la commission des inondations s'est réunie, hier matin au ministère de l'intérieur, sous la présidence de m. alfred picard."
+          },
+          {
+            "id": "T013",
+            "characters": 192,
+            "edits": 0,
+            "exact": true,
+            "reference": "cet après-midi, mlle fabre, placée dans le bureau du gardien chef à la maison d'arrêt, a parfaitement reconnu parmi les détenus, qui ont défilé devant elle, lamarque comme étant son agresseur.",
+            "hypothesis": "cet après-midi, mlle fabre, placée dans le bureau du gardien chef à la maison d'arrêt, a parfaitement reconnu parmi les détenus, qui ont défilé devant elle, lamarque comme étant son agresseur."
+          },
+          {
+            "id": "T014",
+            "characters": 87,
+            "edits": 1,
+            "exact": false,
+            "reference": "le parquet va instruire l'effaire. une confrontation officielle aura lieu incessamment.",
+            "hypothesis": "le parquet va instruire l'affaire. une confrontation officielle aura lieu incessamment."
+          },
+          {
+            "id": "T015",
+            "characters": 183,
+            "edits": 0,
+            "exact": true,
+            "reference": "m. le guennic et ses amis révolutionnaires mènent aussitôt grand vacarme. ils prennent acte des paroles du secrétaire de l'organisation, qui avoue « qu'il y a du linge sale à laver ».",
+            "hypothesis": "m. le guennic et ses amis révolutionnaires mènent aussitôt grand vacarme. ils prennent acte des paroles du secrétaire de l'organisation, qui avoue « qu'il y a du linge sale à laver »."
+          },
+          {
+            "id": "T016",
+            "characters": 358,
+            "edits": 1,
+            "exact": false,
+            "reference": "me henri robert a accepté cette délicate mission et accompagné de l'un de ses secrétaires, me albert dusart, il s'est rendu dans l'après-midi à la prison de la santé où une longue entrevue a eu lieu entre les avocats et leur nouveau client, afin de préparer l'interrogatoire que fera subir au parricide, aujourd'hui samedi, m. le juge d'instruction bouissou.",
+            "hypothesis": "me henri robert a accepté cette délicate mission et accompagné de l'un de ses secrétaires, me albert dusart, il s'est rendu dans l'après-midi à la prison de la santé où une longue entrevue a eu lieu entre les avocats et leur nouveau client, afin de préparer l'interrogatoire que fera subir au parricide, aujourd'hui samedi, m. le juge d'instruction bouisson."
+          }
+        ]
+      },
+      "strict_secondary": {
+        "characters": 3004,
+        "edits": 43,
+        "cer": 0.014314247669773635,
+        "exact_regions": 2,
+        "per_region": [
+          {
+            "id": "T001",
+            "characters": 259,
+            "edits": 6,
+            "exact": false,
+            "reference": "ARRONDISSEMENT DE SAINT‑DENIS. — 1re Cir‑\nconscription (canton de Pantin et de Noisy‑\nle‑Sec). — Le député sortant, M. Adrien Ve‑\nber, socialiste unifié, a pour concurrents\nMM. Trouselle, radical socialiste ; Jacque‑\nmin et Rimbault, socialistes indépendants.",
+            "hypothesis": "ARRONDISSEMENT DE SAINT-DENIS. — 1re Cir-\nconscription (canton de Pantin et de Noisy-\nle-Sec). — Le député sortant, M. Adrien Ve-\nber, socialiste unifié, a pour concurrents\nMM. Trouselle, radical socialiste ; Jacque-\nmin et Rimbault, socialistes indépendants."
+          },
+          {
+            "id": "T002",
+            "characters": 107,
+            "edits": 0,
+            "exact": true,
+            "reference": "Dans la soirée de jeudi, les quatre témoins\nse réunirent une première fois et ne purent\nse mettre d'accord.",
+            "hypothesis": "Dans la soirée de jeudi, les quatre témoins\nse réunirent une première fois et ne purent\nse mettre d'accord."
+          },
+          {
+            "id": "T003",
+            "characters": 72,
+            "edits": 3,
+            "exact": false,
+            "reference": "Le Drame de l'Avenue Henri‑Martin. — Les\npremières Opérations judicia�es",
+            "hypothesis": "Le Drame de l'Avenue Henri-Martin. — Les\npremières Opérations judiciaires"
+          },
+          {
+            "id": "T004",
+            "characters": 228,
+            "edits": 0,
+            "exact": true,
+            "reference": "Malgré les instances de la famille, le\ncorps de la victime a été transporté, hier\nsoir, à la Morgue aux fins d'autopsie. La\nballe du revolver a traversé la joue et est\nallée se loger dans la carotide ; la mort a\nété foudroyante.",
+            "hypothesis": "Malgré les instances de la famille, le\ncorps de la victime a été transporté, hier\nsoir, à la Morgue aux fins d'autopsie. La\nballe du revolver a traversé la joue et est\nallée se loger dans la carotide ; la mort a\nété foudroyante."
+          },
+          {
+            "id": "T005",
+            "characters": 263,
+            "edits": 4,
+            "exact": false,
+            "reference": "Le général Chomer est arrivé hier à Bel‑\nfort. Il a fait donner cette nuit l'alerte aux\ngarnisons de Belfort, Lure, Héricourt et\nMontbéliard. A la première heure, les trou‑\npes se mettaient en marche et se rencon‑\ntraient près d'Héricourt où elles ont ma‑\nnœuvré.",
+            "hypothesis": "Le général Chomer est arrivé hier à Bel-\nfort. Il a fait donner cette nuit l'alerte aux\ngarnisons de Belfort, Lure, Héricourt et\nMontbéliard. A la première heure, les trou-\npes se mettaient en marche et se rencon-\ntraient près d'Héricourt où elles ont ma-\nnœuvré."
+          },
+          {
+            "id": "T006",
+            "characters": 45,
+            "edits": 2,
+            "exact": false,
+            "reference": "Le Meurtrier sera défendu par Me Henri\nRobert",
+            "hypothesis": "— Le Meurtrier sera défendu par Me Henri\nRobert"
+          },
+          {
+            "id": "T007",
+            "characters": 201,
+            "edits": 3,
+            "exact": false,
+            "reference": "— Cest possible. Mais la lettre de M. l'abbé\nDemazures n'en est pas moins là. Le président\nde la Société de Saint‑Denis vous a fait des pro‑\npositions qui tendaient à procéder à une vente à\nl'amiable ?",
+            "hypothesis": "— C'est possible. Mais la lettre de M. l'abbé\nDemazures n'en est pas moins là. Le président\nde la Société de Saint-Denis vous a fait des pro-\npositions qui tendaient à procéder à une vente à\nl'amiable ?"
+          },
+          {
+            "id": "T008",
+            "characters": 400,
+            "edits": 5,
+            "exact": false,
+            "reference": "« Lé Sénat fera aboutir, sous l'impulsion\nattentive et énergique du gouvernement, la\nrefonte de nos lois fiscales, dont seul l'impôt\nsur le revenu permettra de relever les iné‑\ngalités et de rechercher les injustices. Son\nprincipe, unanimement accepté, vaudra sur‑\ntout par les moyens d'application qui doi‑\nvent exclure toutes les mesures agressives\nde la liberté du foyer et du secret commer‑\ncial.",
+            "hypothesis": "« Le Sénat fera aboutir, sous l'impulsion\nattentive et énergique du gouvernement, la\nrefonte de nos lois fiscales, dont seul l'impôt\nsur le revenu permettra de relever les iné-\ngalités et de rechercher les injustices. Son\nprincipe, unanimement accepté, vaudra sur-\ntout par les moyens d'application qui doi-\nvent exclure toutes les mesures agressives\nde la liberté du foyer et du secret commer-\ncial."
+          },
+          {
+            "id": "T009",
+            "characters": 125,
+            "edits": 2,
+            "exact": false,
+            "reference": "3° Circonscription. — Les socialistes uni‑\nfiés opposent M. Jean Martin à M. Coutant,\ndéputé sortant, socialiste indépendant.",
+            "hypothesis": "3e Circonscription. — Les socialistes uni-\nfiés opposent M. Jean Martin à M. Coutant,\ndéputé sortant, socialiste indépendant."
+          },
+          {
+            "id": "T010",
+            "characters": 174,
+            "edits": 5,
+            "exact": false,
+            "reference": "M. Gaston Waché de Roo a écrit, hier\nmatin, à Me Henri Robert afin de le prier\nde vouloir bien l'assister devant le juge\nd'instruction et présenter sa défense devant\nle jury.",
+            "hypothesis": "M. Gaston-Woëché-de Roe a écrit, hier\nmatin, à Me Henri Robert afin de le prier\nde vouloir bien l'assister devant le juge\nd'instruction et présenter sa défense devant\nle jury."
+          },
+          {
+            "id": "T011",
+            "characters": 173,
+            "edits": 2,
+            "exact": false,
+            "reference": "Le prince Pignatelli d'Aragon, à la suite\nd'une discussion fort animée au sujet d'un\ncoup d'escrime, avait envoyé ses témoins,\nMM. de Merey et de Roumefort, à M. Max\nLinder.",
+            "hypothesis": "Le prince Pignatelli d'Aragon, à la suite\nd'une discussion fort animée au sujet d'un\ncoup d'escrime, avait envoyé ses témoins,\nMM. de Mercy et de Roumafort, à M. Max\nLinder."
+          },
+          {
+            "id": "T012",
+            "characters": 125,
+            "edits": 1,
+            "exact": false,
+            "reference": "La commission des inondations s'est réu‑\nnie, hier matin au ministère de l'intérieur,\nsous la présidence de M. Alfred Picard.",
+            "hypothesis": "La commission des inondations s'est réu-\nnie, hier matin au ministère de l'intérieur,\nsous la présidence de M. Alfred Picard."
+          },
+          {
+            "id": "T013",
+            "characters": 198,
+            "edits": 4,
+            "exact": false,
+            "reference": "Cet après‑midi, Mlle Fabre, placée dans le bu‑\nreau du gardien chef à la maison d'arrêt, a par‑\nfaitement reconnu parmi les détenus, qui ont dé‑\nfilé devant elle, Lamarque comme étant son\nagresseur.",
+            "hypothesis": "Cet après-midi, Mlle Fabre, placée dans le bu-\nreau du gardien chef à la maison d'arrêt, a par-\nfaitement reconnu parmi les détenus, qui ont dé-\nfilé devant elle, Lamarque comme étant son\nagresseur."
+          },
+          {
+            "id": "T014",
+            "characters": 89,
+            "edits": 2,
+            "exact": false,
+            "reference": "Le parquet va instruire l'effaire. Une confron‑\ntation officielle aura lieu incessamment.",
+            "hypothesis": "Le parquet va instruire l'affaire. Une confron-\ntation officielle aura lieu incessamment."
+          },
+          {
+            "id": "T015",
+            "characters": 185,
+            "edits": 1,
+            "exact": false,
+            "reference": "M. Le Guennic et ses amis révolution‑\nnaires mènent aussitôt grand vacarme. Ils\nprennent acte des paroles du secrétaire de\nl'organisation, qui avoue « qu'il y a du\nlinge sale à laver ».",
+            "hypothesis": "M. Le Guennic et ses amis révolution-\nnaires mènent aussitôt grand vacarme. Ils\nprennent acte des paroles du secrétaire de\nl'organisation, qui avoue « qu'il y a du\nlinge sale à laver »."
+          },
+          {
+            "id": "T016",
+            "characters": 360,
+            "edits": 3,
+            "exact": false,
+            "reference": "Me Henri Robert a accepté cette délicate\nmission et accompagné de l'un de ses se‑\ncrétaires, Me Albert Dusart, il s'est rendu\ndans l'après‑midi à la prison de la Santé où\nune longue entrevue a eu lieu entre les\navocats et leur nouveau client, afin de\npréparer l'interrogatoire que fera subir au\nparricide, aujourd'hui samedi, M. le juge\nd'instruction Bouissou.",
+            "hypothesis": "Me Henri Robert a accepté cette délicate\nmission et accompagné de l'un de ses se-\ncrétaires, Me Albert Dusart, il s'est rendu\ndans l'après-midi à la prison de la Santé où\nune longue entrevue a eu lieu entre les\navocats et leur nouveau client, afin de\npréparer l'interrogatoire que fera subir au\nparricide, aujourd'hui samedi, M. le juge\nd'instruction Bouisson."
+          }
+        ]
+      }
+    }
+  },
+  "changes": [
+    {
+      "id": "T006",
+      "edits_before": 2,
+      "edits_after": 2,
+      "reference": "Le Meurtrier sera défendu par Me Henri\nRobert",
+      "before": "—Le Meurtrier sera défendu par Me Henri\nRobert.",
+      "after": "— Le Meurtrier sera défendu par Me Henri\nRobert"
+    },
+    {
+      "id": "T007",
+      "edits_before": 3,
+      "edits_after": 1,
+      "reference": "— Cest possible. Mais la lettre de M. l'abbé\nDemazures n'en est pas moins là. Le président\nde la Société de Saint‑Denis vous a fait des pro‑\npositions qui tendaient à procéder à une vente à\nl'amiable ?",
+      "before": "C'est possible. Mais la lettre de M. l'abbé\nDemazures n'en est pas moins là. Le président\nde la Société de Saint-Denis vous a fait des pro-\npositions qui tendaient à procéder à une vente à\nl'amiable ?",
+      "after": "— C'est possible. Mais la lettre de M. l'abbé\nDemazures n'en est pas moins là. Le président\nde la Société de Saint-Denis vous a fait des pro-\npositions qui tendaient à procéder à une vente à\nl'amiable ?"
+    },
+    {
+      "id": "T009",
+      "edits_before": 2,
+      "edits_after": 1,
+      "reference": "3° Circonscription. — Les socialistes uni‑\nfiés opposent M. Jean Martin à M. Coutant,\ndéputé sortant, socialiste indépendant.",
+      "before": "5e Circonscription. — Les socialistes uni-\nfiés opposent M. Jean Martin à M. Coutant,\ndéputé sortant, socialiste indépendant.",
+      "after": "3e Circonscription. — Les socialistes uni-\nfiés opposent M. Jean Martin à M. Coutant,\ndéputé sortant, socialiste indépendant."
+    },
+    {
+      "id": "T010",
+      "edits_before": 1,
+      "edits_after": 5,
+      "reference": "M. Gaston Waché de Roo a écrit, hier\nmatin, à Me Henri Robert afin de le prier\nde vouloir bien l'assister devant le juge\nd'instruction et présenter sa défense devant\nle jury.",
+      "before": "M. Gaston Waché-de Roo a écrit, hier\nmatin, à Me Henri Robert afin de le prier\nde vouloir bien l'assister devant le juge\nd'instruction et présenter sa défense devant\nle jury.",
+      "after": "M. Gaston-Woëché-de Roe a écrit, hier\nmatin, à Me Henri Robert afin de le prier\nde vouloir bien l'assister devant le juge\nd'instruction et présenter sa défense devant\nle jury."
+    },
+    {
+      "id": "T011",
+      "edits_before": 1,
+      "edits_after": 2,
+      "reference": "Le prince Pignatelli d'Aragon, à la suite\nd'une discussion fort animée au sujet d'un\ncoup d'escrime, avait envoyé ses témoins,\nMM. de Merey et de Roumefort, à M. Max\nLinder.",
+      "before": "Le prince Pignatelli d'Aragon, à la suite\nd'une discussion fort animée au sujet d'un\ncoup d'escrime, avait envoyé ses témoins,\nMM. de Merey et de Roumafort, à M. Max\nLinder.",
+      "after": "Le prince Pignatelli d'Aragon, à la suite\nd'une discussion fort animée au sujet d'un\ncoup d'escrime, avait envoyé ses témoins,\nMM. de Mercy et de Roumafort, à M. Max\nLinder."
+    },
+    {
+      "id": "T013",
+      "edits_before": 3,
+      "edits_after": 0,
+      "reference": "Cet après‑midi, Mlle Fabre, placée dans le bu‑\nreau du gardien chef à la maison d'arrêt, a par‑\nfaitement reconnu parmi les détenus, qui ont dé‑\nfilé devant elle, Lamarque comme étant son\nagresseur.",
+      "before": "Cet après-midi, Mme Faure, placée dans le bu-\nreau du gardien chef à la maison d'arrêt, a par-\nfaitement reconnu parmi les détenus, qui ont dé-\nfilé devant elle, Lamarque comme étant son\nagresseur.",
+      "after": "Cet après-midi, Mlle Fabre, placée dans le bu-\nreau du gardien chef à la maison d'arrêt, a par-\nfaitement reconnu parmi les détenus, qui ont dé-\nfilé devant elle, Lamarque comme étant son\nagresseur."
+    }
+  ],
+  "improved_ids": [
+    "T007",
+    "T009",
+    "T013"
+  ],
+  "regressed_ids": [
+    "T010",
+    "T011"
+  ],
+  "uncertain_ids": [
+    "T001",
+    "T006",
+    "T010",
+    "T011",
+    "T016"
+  ],
+  "cost": {
+    "new_vlm_tasks": 1,
+    "input_images": 32,
+    "baseline_input_images": 16,
+    "evaluator_seconds": 0.6088661060057348,
+    "tokens_and_billing": "not exposed by subagent interface"
+  },
+  "invariants": {
+    "exact_ids": true,
+    "all_images_declared_inspected": true,
+    "input_image_hashes_verified": true,
+    "old_reference_sha256": "42b93ad9d8f5798e75768c9c12ae14ea19b94937f139ebe7ac0c17e555807602",
+    "old_sol_sha256": "c1b9334a94f2a680ec2f17b82f0fc95d92a094916c137c8d9f46213c146b0934",
+    "new_sol_sha256": "b6e5652154a90e99543f521c13c31fb9e428b422b2b375c7e9e049ede371fe17",
+    "reader_denied_prior_outputs_and_reference": true
+  },
+  "limitations": [
+    "Joint intervention: no mask, no overlay, added context, adapted target instruction.",
+    "One stochastic pass per condition: cannot isolate causality from run-to-run variation.",
+    "Reference anomalies remain unchanged; agreements/disagreements are not adjudicated truth.",
+    "Reference-based crop geometry remains oracle; not end-to-end."
+  ],
+  "accepted_for_project_completion_gate": false
+}

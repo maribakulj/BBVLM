@@ -1,0 +1,70 @@
+{
+  "schema": "bbvlm.cev-diagnostic/1",
+  "method": "SpACER; arXiv:2604.06160",
+  "results": [
+    {
+      "page": "0253902-001",
+      "reference_words": 3082,
+      "reference_words_missed_by_predicted_line_polygons": 29,
+      "reference_words_covered_more_than_once": 0,
+      "characters": {
+        "Q_reference": 15205,
+        "R_parsing_only": 15126,
+        "S_star_ocr_on_reference_lines": 15066,
+        "S_end_to_end": 15413
+      },
+      "spacer": {
+        "ocr_only_d_Sstar_Q": 0.027162117724432753,
+        "parsing_only_d_R_Q": 0.005195659322591253,
+        "interaction_d_S_R": 0.028394816871611793,
+        "total_d_S_Q": 0.028806313712594542
+      },
+      "approximation": "reference word centre inside predicted line polygon; no character positions",
+      "reference_warning": "distributed NewsEye text contains audited corruption; values are diagnostic only",
+      "normalization": "NFC, long-s fold, casefold, whitespace removed; punctuation retained"
+    },
+    {
+      "page": "0401692-003",
+      "reference_words": 5385,
+      "reference_words_missed_by_predicted_line_polygons": 18,
+      "reference_words_covered_more_than_once": 0,
+      "characters": {
+        "Q_reference": 27734,
+        "R_parsing_only": 27689,
+        "S_star_ocr_on_reference_lines": 27558,
+        "S_end_to_end": 28051
+      },
+      "spacer": {
+        "ocr_only_d_Sstar_Q": 0.016658253407370014,
+        "parsing_only_d_R_Q": 0.001622557150068508,
+        "interaction_d_S_R": 0.016613095453068005,
+        "total_d_S_Q": 0.01638782721569193
+      },
+      "approximation": "reference word centre inside predicted line polygon; no character positions",
+      "reference_warning": "distributed NewsEye text contains audited corruption; values are diagnostic only",
+      "normalization": "NFC, long-s fold, casefold, whitespace removed; punctuation retained"
+    },
+    {
+      "page": "752234-003",
+      "reference_words": 5898,
+      "reference_words_missed_by_predicted_line_polygons": 38,
+      "reference_words_covered_more_than_once": 4,
+      "characters": {
+        "Q_reference": 29432,
+        "R_parsing_only": 29400,
+        "S_star_ocr_on_reference_lines": 29339,
+        "S_end_to_end": 29305
+      },
+      "spacer": {
+        "ocr_only_d_Sstar_Q": 0.0383935852133732,
+        "parsing_only_d_R_Q": 0.0016648545800489263,
+        "interaction_d_S_R": 0.039047619047619046,
+        "total_d_S_Q": 0.04019434628975265
+      },
+      "approximation": "reference word centre inside predicted line polygon; no character positions",
+      "reference_warning": "distributed NewsEye text contains audited corruption; values are diagnostic only",
+      "normalization": "NFC, long-s fold, casefold, whitespace removed; punctuation retained"
+    }
+  ],
+  "certified_ground_truth": false
+}

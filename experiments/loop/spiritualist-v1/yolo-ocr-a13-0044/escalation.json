@@ -1,0 +1,7 @@
+{
+  "reader": "gpt-6-sol",
+  "ids": ["Rbadb3783", "Rba25d296", "Rc94b31fb"],
+  "reason": "Each sampled region has nonzero edits against distributed reference after Luna; user explicitly authorized Sol when CER is nonzero",
+  "routing_scope": "oracle-assisted diagnostic, not deployable routing: reference score selected escalation",
+  "reader_blinding": "Only original image crops and transcription convention; no Luna text, reference, corrections or scores"
+}
