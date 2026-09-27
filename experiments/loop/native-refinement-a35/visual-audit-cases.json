@@ -1,0 +1,242 @@
+[
+  {
+    "dataset": "word-transfer-a34",
+    "line": "P00000027_l744",
+    "page": "00000027",
+    "reference_index": 3,
+    "prediction_index": 3,
+    "reference_text": "I",
+    "predicted_text": "Ist",
+    "reference": [
+      627,
+      768,
+      689,
+      819
+    ],
+    "native": [
+      626,
+      767,
+      687,
+      825
+    ],
+    "refined": [
+      604,
+      768,
+      689,
+      826
+    ],
+    "old_iou": 0.8406593406593407,
+    "new_iou": 0.6413793103448275,
+    "delta": -0.19928003031451313
+  },
+  {
+    "dataset": "word-transfer-a34",
+    "line": "P00000035_l11",
+    "page": "00000035",
+    "reference_index": 1,
+    "prediction_index": 1,
+    "reference_text": "ĳ",
+    "predicted_text": "ij",
+    "reference": [
+      724,
+      1889,
+      761,
+      1947
+    ],
+    "native": [
+      718,
+      1888,
+      752,
+      1946
+    ],
+    "refined": [
+      695,
+      1894,
+      755,
+      1947
+    ],
+    "old_iou": 0.6328310864393338,
+    "new_iou": 0.4461037197936465,
+    "delta": -0.18672736664568734
+  },
+  {
+    "dataset": "word-transfer-a34",
+    "line": "P00000024_l868",
+    "page": "00000024",
+    "reference_index": 10,
+    "prediction_index": 10,
+    "reference_text": "1.",
+    "predicted_text": "I.",
+    "reference": [
+      1722,
+      895,
+      1751,
+      920
+    ],
+    "native": [
+      1716,
+      877,
+      1753,
+      931
+    ],
+    "refined": [
+      1694,
+      878,
+      1758,
+      932
+    ],
+    "old_iou": 0.36286286286286284,
+    "new_iou": 0.2097800925925926,
+    "delta": -0.15308277027027026
+  },
+  {
+    "dataset": "word-transfer-a34",
+    "line": "P00000027_l3183",
+    "page": "00000027",
+    "reference_index": 9,
+    "prediction_index": 10,
+    "reference_text": "Hr.",
+    "predicted_text": "Hr.",
+    "reference": [
+      1567,
+      2199,
+      1635,
+      2249
+    ],
+    "native": [
+      1567,
+      2185,
+      1640,
+      2254
+    ],
+    "refined": [
+      1554,
+      2186,
+      1648,
+      2255
+    ],
+    "old_iou": 0.6750049632717887,
+    "new_iou": 0.5242059821153253,
+    "delta": -0.1507989811564634
+  },
+  {
+    "dataset": "french-word-gt-a28",
+    "line": "P00000273_l392",
+    "page": "00000273",
+    "reference_index": 1,
+    "prediction_index": 1,
+    "reference_text": "4",
+    "predicted_text": "4",
+    "reference": [
+      638,
+      1866,
+      661,
+      1920
+    ],
+    "native": [
+      632,
+      1865,
+      653,
+      1919
+    ],
+    "refined": [
+      602,
+      1877,
+      661,
+      1920
+    ],
+    "old_iou": 0.5028462998102466,
+    "new_iou": 0.35448028673835125,
+    "delta": -0.1483660130718954
+  },
+  {
+    "dataset": "word-transfer-a34",
+    "line": "P00000024_l1523",
+    "page": "00000024",
+    "reference_index": 1,
+    "prediction_index": 1,
+    "reference_text": "O.",
+    "predicted_text": "O.",
+    "reference": [
+      763,
+      1235,
+      808,
+      1269
+    ],
+    "native": [
+      762,
+      1234,
+      808,
+      1271
+    ],
+    "refined": [
+      749,
+      1235,
+      808,
+      1269
+    ],
+    "old_iou": 0.8989424206815512,
+    "new_iou": 0.7627118644067796,
+    "delta": -0.13623055627477154
+  },
+  {
+    "dataset": "word-transfer-a34",
+    "line": "P00000024_l2860",
+    "page": "00000024",
+    "reference_index": 7,
+    "prediction_index": 7,
+    "reference_text": "dieſe",
+    "predicted_text": "dieſe",
+    "reference": [
+      1311,
+      2176,
+      1392,
+      2226
+    ],
+    "native": [
+      1303,
+      2167,
+      1392,
+      2229
+    ],
+    "refined": [
+      1291,
+      2167,
+      1400,
+      2229
+    ],
+    "old_iou": 0.7339615802827111,
+    "new_iou": 0.5992897306895532,
+    "delta": -0.13467184959315792
+  },
+  {
+    "dataset": "word-transfer-a34",
+    "line": "P00000026_l599",
+    "page": "00000026",
+    "reference_index": 15,
+    "prediction_index": 15,
+    "reference_text": "Slagen,",
+    "predicted_text": "(chlagen,",
+    "reference": [
+      2045,
+      2299,
+      2255,
+      2341
+    ],
+    "native": [
+      2041,
+      2299,
+      2253,
+      2341
+    ],
+    "refined": [
+      2045,
+      2299,
+      2224,
+      2341
+    ],
+    "old_iou": 0.9719626168224299,
+    "new_iou": 0.8523809523809524,
+    "delta": -0.11958166444147755
+  }
+]

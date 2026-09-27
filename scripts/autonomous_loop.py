@@ -94,7 +94,9 @@ phases=[('recognition_cache','scripts/cache_newseye_pero.py','cache/752234-003/r
         ('text_punctuation_a33','scripts/evaluate_text_punctuation_a33.py','text-punctuation-a33/report.json'),
         ('word_transfer_a34_freeze','scripts/freeze_word_transfer_a34.py','word-transfer-a34/split.json'),
         ('word_transfer_a34_open','scripts/open_word_transfer_a34.py','word-transfer-a34/opened.json'),
-        ('word_transfer_a34_evaluate','scripts/evaluate_word_transfer_a34.py','word-transfer-a34/output/report.json')]
+        ('word_transfer_a34_evaluate','scripts/evaluate_word_transfer_a34.py','word-transfer-a34/output/report.json'),
+        ('native_refinement_a35','scripts/evaluate_native_refinement_a35.py','native-refinement-a35/report.json'),
+        ('native_refinement_a35_audit','scripts/audit_native_refinement_a35.py','native-refinement-a35/regressions-clean.png')]
 
 def checkpoint():
     p=json.loads((BASE/'protocol.json').read_text());gates=dict(p['completion_gates'])
@@ -368,11 +370,17 @@ def checkpoint():
           'candidate_work_conditions':o['candidate_work_conditions'],
           'cost':o['cost'],'invariants':o['invariants'],'limitations':o['limitations'],
           'accepted_for_project_completion_gate':False}
+    native_a35=BASE/'native-refinement-a35/report.json'
+    if native_a35.exists():
+        o=json.loads(native_a35.read_text())
+        evidence['native_refinement_a35']={**{k:v for k,v in o.items() if k!='datasets'},
+          'datasets':{k:{a:b for a,b in v.items() if a!='by_page'} for k,v in o['datasets'].items()}}
     state={'schema':'bbvlm.loop-checkpoint/1','updated_unix':time.time(),'status':'in_progress',
       'phases':[{'id':name,'complete':(BASE/result).exists(),'script':script,'result':result} for name,script,result in phases],
       'completion_gates':gates,'evidence':evidence,
       'model_policy':p['model_policy'],
-      'next_research':['A34 independent geometry transfer on 12 unopened SBB pages (4759 words): A32 beats PERO native in every work and globally (mean IoU .812303 vs .654863; IoU80 .589410 vs .190376), but is not perfect and uses oracle lines/text/order. Frozen conservative A34 fails: 1/7 changed words improves, 6 regress, mean delta all -.000087. Keep A32, reject A34. Adapter was mechanically amended after open/before scores, so no pristine implementation-freeze claim. Next geometry hypothesis must use CTC character spans or attachment confidence and a new independent set, not retune consumed A34.',
+      'next_research':['A35 consumed diagnostic: unchanged A32 with recognized text preserves most oracle-text gain (French IoU80 .806617 vs native .110667; German/Latin .559571 vs .190376). Joint exact-text+IoU80 remains .732459/.420887. No new inference; remaining oracle line geometry and visual punctuation/neighbor-ink failures prevent promotion. Next test predicted lines on a newly frozen diverse reference set. Do not retune consumed A28/A34. VLM value must be measured in lexical/OLR/semantic output rather than attributed to this cheap geometry stage.',
+        'A34 independent geometry transfer on 12 unopened SBB pages (4759 words): A32 beats PERO native in every work and globally (mean IoU .812303 vs .654863; IoU80 .589410 vs .190376), but is not perfect and uses oracle lines/text/order. Frozen conservative A34 fails: 1/7 changed words improves, 6 regress, mean delta all -.000087. Keep A32, reject A34. Adapter was mechanically amended after open/before scores, so no pristine implementation-freeze claim. Next geometry hypothesis must use CTC character spans or attachment confidence and a new independent set, not retune consumed A34.',
         'Schema audit: inspected DAHN, TAPUS and Reichsanzeiger-GT examples contain lines/text tokens but no geometric Word nodes. Never synthesize word-box GT from token counts; seek genuine French Word polygons or independent human adjudication.',
         'A33 consumed A28 development rejects naive text-guided punctuation rescue: 4/11 changed words improve, 7 regress; mean IoU .893795->.893394 and IoU80 .817456->.816885, 1.467 s CPU. Keep A32, not A33. Post-score only: gains have area 27-69 px; six losses 5-15 and the seventh is star-triggered. Freeze area-minimum/no-star rule before any independent validation; never present a tuned A28 score.',
         'A32 consumed A28 development: component+satellite filter increases mean IoU .83882->.89379 and IoU80 recall .68454->.81746 in .726 s extra CPU, but regresses 15 words including three visually confirmed punctuation losses. Keep as development candidate only; investigate text-aware punctuation/component attachment without deleting faint detached marks, then freeze new independent data. See component-boxes-a32/RESULTS.md. No new VLM/OCR inference in A32.',

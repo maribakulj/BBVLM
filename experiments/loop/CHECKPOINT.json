@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790546336.6696835,
+  "updated_unix": 1790549092.1156476,
   "status": "in_progress",
   "phases": [
     {
@@ -530,6 +530,18 @@
       "complete": true,
       "script": "scripts/evaluate_word_transfer_a34.py",
       "result": "word-transfer-a34/output/report.json"
+    },
+    {
+      "id": "native_refinement_a35",
+      "complete": true,
+      "script": "scripts/evaluate_native_refinement_a35.py",
+      "result": "native-refinement-a35/report.json"
+    },
+    {
+      "id": "native_refinement_a35_audit",
+      "complete": true,
+      "script": "scripts/audit_native_refinement_a35.py",
+      "result": "native-refinement-a35/regressions-clean.png"
     }
   ],
   "completion_gates": {
@@ -2693,6 +2705,277 @@
         "External corrected GT is not independently adjudicated perfect truth."
       ],
       "accepted_for_project_completion_gate": false
+    },
+    "native_refinement_a35": {
+      "schema": "bbvlm.native-refinement-a35/1",
+      "status": "consumed_diagnostic_completed",
+      "hypothesis": "A32 gain persists without oracle transcription or oracle token count",
+      "scope": "Native recognized text and boxes; still oracle lines and synthetic baselines",
+      "invariants": {
+        "protected_inputs_unchanged": true,
+        "native_text_order_cardinality_preserved": true,
+        "no_gt_word_boxes_or_text_in_refiner": true,
+        "no_new_inference": true,
+        "no_reference_replacement": true
+      },
+      "total_seconds": 7.476852755004074,
+      "accepted_for_project_completion_gate": false,
+      "datasets": {
+        "french-word-gt-a28": {
+          "counts": {
+            "pages": 8,
+            "lines": 261,
+            "reference_words": 1753,
+            "recognized_words": 1761,
+            "lines_token_count_differs": 28,
+            "empty_recognized_lines": 0
+          },
+          "geometry": {
+            "native": {
+              "method": "native",
+              "matching": "hungarian_geometry",
+              "reference_words": 1753,
+              "predicted_words": 1761,
+              "matched_pairs": 1736,
+              "mean_iou_matched": 0.5825908232464287,
+              "matches_iou50": 1208,
+              "precision_iou50": 0.6859738784781374,
+              "recall_iou50": 0.6891043924700513,
+              "matches_iou80": 194,
+              "precision_iou80": 0.11016467915956843,
+              "recall_iou80": 0.11066742726754136,
+              "mean_abs_horizontal_boundary_error_normalized": 0.10498966003177221,
+              "mean_abs_vertical_boundary_error_normalized": 0.2657156118290232,
+              "lines_all_words_iou80": 20
+            },
+            "native_otsu": {
+              "method": "native_otsu",
+              "matching": "hungarian_geometry",
+              "reference_words": 1753,
+              "predicted_words": 1761,
+              "matched_pairs": 1736,
+              "mean_iou_matched": 0.8366012922075547,
+              "matches_iou50": 1618,
+              "precision_iou50": 0.9187961385576378,
+              "recall_iou50": 0.9229891614375356,
+              "matches_iou80": 1182,
+              "precision_iou80": 0.6712095400340715,
+              "recall_iou80": 0.6742726754135767,
+              "mean_abs_horizontal_boundary_error_normalized": 0.04674801141815808,
+              "mean_abs_vertical_boundary_error_normalized": 0.079560374772391,
+              "lines_all_words_iou80": 76
+            },
+            "native_a32": {
+              "method": "native_a32",
+              "matching": "hungarian_geometry",
+              "reference_words": 1753,
+              "predicted_words": 1761,
+              "matched_pairs": 1736,
+              "mean_iou_matched": 0.8920254279945864,
+              "matches_iou50": 1691,
+              "precision_iou50": 0.9602498580352072,
+              "recall_iou50": 0.9646320593268682,
+              "matches_iou80": 1414,
+              "precision_iou80": 0.8029528676888131,
+              "recall_iou80": 0.8066172276098118,
+              "mean_abs_horizontal_boundary_error_normalized": 0.03877912800071138,
+              "mean_abs_vertical_boundary_error_normalized": 0.034906295989639555,
+              "lines_all_words_iou80": 97
+            },
+            "oracle_text_a32": {
+              "method": "oracle_text_a32",
+              "matching": "hungarian_geometry",
+              "reference_words": 1753,
+              "predicted_words": 1753,
+              "matched_pairs": 1753,
+              "mean_iou_matched": 0.8937945973244559,
+              "matches_iou50": 1713,
+              "precision_iou50": 0.9771819737592699,
+              "recall_iou50": 0.9771819737592699,
+              "matches_iou80": 1433,
+              "precision_iou80": 0.8174557900741586,
+              "recall_iou80": 0.8174557900741586,
+              "mean_abs_horizontal_boundary_error_normalized": 0.03700796011404506,
+              "mean_abs_vertical_boundary_error_normalized": 0.03917832033537794,
+              "lines_all_words_iou80": 103
+            }
+          },
+          "joint_text_geometry": {
+            "native": {
+              "reference_words": 1753,
+              "exact_text_assigned": 1558,
+              "exact_text_and_iou50": 1062,
+              "exact_text_and_iou80": 166,
+              "recall_exact_text_and_iou50": 0.6058185966913862,
+              "recall_exact_text_and_iou80": 0.09469480889903023,
+              "text_convention": "glyph_decomposition_v1; diagnostic, not Gallica normalization"
+            },
+            "native_otsu": {
+              "reference_words": 1753,
+              "exact_text_assigned": 1558,
+              "exact_text_and_iou50": 1458,
+              "exact_text_and_iou80": 1069,
+              "recall_exact_text_and_iou50": 0.8317170564746149,
+              "recall_exact_text_and_iou80": 0.609811751283514,
+              "text_convention": "glyph_decomposition_v1; diagnostic, not Gallica normalization"
+            },
+            "native_a32": {
+              "reference_words": 1753,
+              "exact_text_assigned": 1558,
+              "exact_text_and_iou50": 1527,
+              "exact_text_and_iou80": 1284,
+              "recall_exact_text_and_iou50": 0.8710781517398745,
+              "recall_exact_text_and_iou80": 0.7324586423274386,
+              "text_convention": "glyph_decomposition_v1; diagnostic, not Gallica normalization"
+            }
+          },
+          "fixed_native_assignment": {
+            "pairs": 1736,
+            "improved": 1679,
+            "regressed": 55,
+            "regressions_over_0_1": 3,
+            "mean_delta_iou": 0.30932816800817386
+          },
+          "cost": {
+            "incremental_cpu_seconds": {
+              "native_otsu": 0.05305826899711974,
+              "native_a32": 0.6912894349952694
+            },
+            "new_vlm_passes": 0,
+            "new_recognizer_forwards": 0,
+            "historical_recognizer_seconds": 36.33636499600834,
+            "historical_recognizer_forwards": 261,
+            "warning": "Recognition cache remains a paid computational prerequisite; native ALTO export cost not separately metered."
+          }
+        },
+        "word-transfer-a34": {
+          "counts": {
+            "pages": 12,
+            "lines": 515,
+            "reference_words": 4759,
+            "recognized_words": 4768,
+            "lines_token_count_differs": 134,
+            "empty_recognized_lines": 1
+          },
+          "geometry": {
+            "native": {
+              "method": "native",
+              "matching": "hungarian_geometry",
+              "reference_words": 4759,
+              "predicted_words": 4768,
+              "matched_pairs": 4687,
+              "mean_iou_matched": 0.6548625570359435,
+              "matches_iou50": 3871,
+              "precision_iou50": 0.8118708053691275,
+              "recall_iou50": 0.8134061777684387,
+              "matches_iou80": 906,
+              "precision_iou80": 0.19001677852348994,
+              "recall_iou80": 0.19037612943895776,
+              "mean_abs_horizontal_boundary_error_normalized": 0.11865446298288045,
+              "mean_abs_vertical_boundary_error_normalized": 0.1698388663284513,
+              "lines_all_words_iou80": 35
+            },
+            "native_otsu": {
+              "method": "native_otsu",
+              "matching": "hungarian_geometry",
+              "reference_words": 4759,
+              "predicted_words": 4768,
+              "matched_pairs": 4687,
+              "mean_iou_matched": 0.7786138853929166,
+              "matches_iou50": 4359,
+              "precision_iou50": 0.9142197986577181,
+              "recall_iou50": 0.9159487287245219,
+              "matches_iou80": 2363,
+              "precision_iou80": 0.49559563758389263,
+              "recall_iou80": 0.4965328850598865,
+              "mean_abs_horizontal_boundary_error_normalized": 0.09141346805081302,
+              "mean_abs_vertical_boundary_error_normalized": 0.09036690905309733,
+              "lines_all_words_iou80": 94
+            },
+            "native_a32": {
+              "method": "native_a32",
+              "matching": "hungarian_geometry",
+              "reference_words": 4759,
+              "predicted_words": 4768,
+              "matched_pairs": 4687,
+              "mean_iou_matched": 0.8032982044933228,
+              "matches_iou50": 4442,
+              "precision_iou50": 0.9316275167785235,
+              "recall_iou50": 0.9333893675141837,
+              "matches_iou80": 2663,
+              "precision_iou80": 0.558515100671141,
+              "recall_iou80": 0.5595713385164951,
+              "mean_abs_horizontal_boundary_error_normalized": 0.08751394049034235,
+              "mean_abs_vertical_boundary_error_normalized": 0.07251340989186596,
+              "lines_all_words_iou80": 103
+            },
+            "oracle_text_a32": {
+              "method": "oracle_text_a32",
+              "matching": "hungarian_geometry",
+              "reference_words": 4759,
+              "predicted_words": 4759,
+              "matched_pairs": 4759,
+              "mean_iou_matched": 0.8123059121796972,
+              "matches_iou50": 4551,
+              "precision_iou50": 0.9562933389367514,
+              "recall_iou50": 0.9562933389367514,
+              "matches_iou80": 2805,
+              "precision_iou80": 0.5894095398192898,
+              "recall_iou80": 0.5894095398192898,
+              "mean_abs_horizontal_boundary_error_normalized": 0.061396027023081445,
+              "mean_abs_vertical_boundary_error_normalized": 0.07280833513645005,
+              "lines_all_words_iou80": 113
+            }
+          },
+          "joint_text_geometry": {
+            "native": {
+              "reference_words": 4759,
+              "exact_text_assigned": 3535,
+              "exact_text_and_iou50": 2878,
+              "exact_text_and_iou80": 540,
+              "recall_exact_text_and_iou50": 0.6047488968270646,
+              "recall_exact_text_and_iou80": 0.11346921622189536,
+              "text_convention": "glyph_decomposition_v1; diagnostic, not Gallica normalization"
+            },
+            "native_otsu": {
+              "reference_words": 4759,
+              "exact_text_assigned": 3534,
+              "exact_text_and_iou50": 3309,
+              "exact_text_and_iou80": 1762,
+              "recall_exact_text_and_iou50": 0.695314141626392,
+              "recall_exact_text_and_iou80": 0.37024584996848076,
+              "text_convention": "glyph_decomposition_v1; diagnostic, not Gallica normalization"
+            },
+            "native_a32": {
+              "reference_words": 4759,
+              "exact_text_assigned": 3534,
+              "exact_text_and_iou50": 3373,
+              "exact_text_and_iou80": 2003,
+              "recall_exact_text_and_iou50": 0.7087623450304685,
+              "recall_exact_text_and_iou80": 0.42088674091195627,
+              "text_convention": "glyph_decomposition_v1; diagnostic, not Gallica normalization"
+            }
+          },
+          "fixed_native_assignment": {
+            "pairs": 4687,
+            "improved": 4109,
+            "regressed": 567,
+            "regressions_over_0_1": 17,
+            "mean_delta_iou": 0.14835671919523805
+          },
+          "cost": {
+            "incremental_cpu_seconds": {
+              "native_otsu": 0.12199937700643204,
+              "native_a32": 3.5926174390042434
+            },
+            "new_vlm_passes": 0,
+            "new_recognizer_forwards": 0,
+            "historical_recognizer_seconds": 10.873897594996379,
+            "historical_recognizer_forwards": 515,
+            "warning": "Recognition cache remains a paid computational prerequisite; native ALTO export cost not separately metered."
+          }
+        }
+      }
     }
   },
   "model_policy": {
@@ -2701,6 +2984,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A35 consumed diagnostic: unchanged A32 with recognized text preserves most oracle-text gain (French IoU80 .806617 vs native .110667; German/Latin .559571 vs .190376). Joint exact-text+IoU80 remains .732459/.420887. No new inference; remaining oracle line geometry and visual punctuation/neighbor-ink failures prevent promotion. Next test predicted lines on a newly frozen diverse reference set. Do not retune consumed A28/A34. VLM value must be measured in lexical/OLR/semantic output rather than attributed to this cheap geometry stage.",
     "A34 independent geometry transfer on 12 unopened SBB pages (4759 words): A32 beats PERO native in every work and globally (mean IoU .812303 vs .654863; IoU80 .589410 vs .190376), but is not perfect and uses oracle lines/text/order. Frozen conservative A34 fails: 1/7 changed words improves, 6 regress, mean delta all -.000087. Keep A32, reject A34. Adapter was mechanically amended after open/before scores, so no pristine implementation-freeze claim. Next geometry hypothesis must use CTC character spans or attachment confidence and a new independent set, not retune consumed A34.",
     "Schema audit: inspected DAHN, TAPUS and Reichsanzeiger-GT examples contain lines/text tokens but no geometric Word nodes. Never synthesize word-box GT from token counts; seek genuine French Word polygons or independent human adjudication.",
     "A33 consumed A28 development rejects naive text-guided punctuation rescue: 4/11 changed words improve, 7 regress; mean IoU .893795->.893394 and IoU80 .817456->.816885, 1.467 s CPU. Keep A32, not A33. Post-score only: gains have area 27-69 px; six losses 5-15 and the seventh is star-triggered. Freeze area-minimum/no-star rule before any independent validation; never present a tuned A28 score.",

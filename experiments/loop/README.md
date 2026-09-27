@@ -440,3 +440,8 @@ livresque, pas français ni presse. Une réparation mécanique de l'adaptateur,
 effectuée après ouverture mais avant tout score, empêche en outre de qualifier
 l'évaluateur entier de gel parfait. 88 phases; sept gates toujours faux. Voir
 `word-transfer-a34/RESULTS.md`.
+
+
+## A35: recognized-word refinement
+
+2026-09-27: `scripts/evaluate_native_refinement_a35.py` applies unchanged A32 to cached native recognized words. On consumed French A28, recall IoU≥0.8 improves 11.07% → 80.66%; on consumed German/Latin A34, 19.04% → 55.96%. Reference transcription/token count are removed from the refiner; reference line rectangles and synthetic baselines remain. No new OCR/VLM inference or CER improvement. Joint exact-text+IoU≥0.8 recall is 73.25% / 42.09%, and visual audit confirms neighboring-ink/punctuation failures. All project gates stay false. See `experiments/loop/native-refinement-a35/RESULTS.md`, `SOURCES.md`, `PROTOCOL.md` and raw measurements. Next: predicted lines plus an unopened reference set, without retuning these consumed pages.

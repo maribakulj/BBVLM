@@ -506,3 +506,8 @@ mécaniques de l'adaptateur ont été nécessaires avant le premier rapport. Le
 rapport expose donc honnêtement
 `evaluation_adapter_amended_after_open_before_scores=true` et aucun gate projet
 n'est accordé.
+
+
+## A35: remove reference transcription, retain line-oracle limitation
+
+2026-09-27: `scripts/evaluate_native_refinement_a35.py` applies unchanged A32 to cached native recognized words. On consumed French A28, recall IoU≥0.8 improves 11.07% → 80.66%; on consumed German/Latin A34, 19.04% → 55.96%. Reference transcription/token count are removed from the refiner; reference line rectangles and synthetic baselines remain. No new OCR/VLM inference or CER improvement. Joint exact-text+IoU≥0.8 recall is 73.25% / 42.09%, and visual audit confirms neighboring-ink/punctuation failures. All project gates stay false. See `experiments/loop/native-refinement-a35/RESULTS.md`, `SOURCES.md`, `PROTOCOL.md` and raw measurements. Next: predicted lines plus an unopened reference set, without retuning these consumed pages.
