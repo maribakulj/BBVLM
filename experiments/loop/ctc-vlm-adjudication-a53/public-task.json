@@ -1,0 +1,97 @@
+{
+  "schema": "bbvlm.ctc-vlm-adjudication-task/1",
+  "seed": 2026092801,
+  "instructions": "Inspect every image at high/original resolution. Choose A or B only when it exactly matches the visible print. If both differ, return NEITHER plus an exact diplomatic transcription. Preserve long-s, diacritics, punctuation, abbreviations and historical spelling.",
+  "items": [
+    {
+      "id": "R1a0177a41b",
+      "image": "experiments/loop/vlm-input-a24/input/R1a0177a41b.png",
+      "option_A": "ger verliebten Händel ziemlich berüchtiget war",
+      "option_B": "zur verliebten Händel ziemlich berüchtiget war,"
+    },
+    {
+      "id": "R1bea4bea15",
+      "image": "experiments/loop/vlm-input-a24/input/R1bea4bea15.png",
+      "option_A": "iā redditus ē eccleſiæ, iam ex ſeruo diaboli factus eſt",
+      "option_B": "iã redditus ē eccleſiæ,iam ex ſeruo diaboli factus eśt"
+    },
+    {
+      "id": "R2820e61330",
+      "image": "experiments/loop/vlm-input-a24/input/R2820e61330.png",
+      "option_A": "tio. de fide inſtrum. & tenet Pet. de Anch. in",
+      "option_B": "tio. de fide inſtrum. & tenet Pet. de Arch. in"
+    },
+    {
+      "id": "R2922cb1c4d",
+      "image": "experiments/loop/vlm-input-a24/input/R2922cb1c4d.png",
+      "option_A": "ob. Et eſt acataléctus .",
+      "option_B": "bb. Et eſt acatalectus."
+    },
+    {
+      "id": "R379ddb80f4",
+      "image": "experiments/loop/vlm-input-a24/input/R379ddb80f4.png",
+      "option_A": "Quem vere ſui pudet apud deum, levius erubeſcet a-",
+      "option_B": "Quem uer� ſui pudet apud deum,leuius erubeſæt a="
+    },
+    {
+      "id": "R387ec4e7d0",
+      "image": "experiments/loop/vlm-input-a24/input/R387ec4e7d0.png",
+      "option_A": "er verdienet hätte, lebhaft und deutlich gnug zu",
+      "option_B": "er verdienet hätte, leibhafft und deutlich gnug zu"
+    },
+    {
+      "id": "R4612fb0db5",
+      "image": "experiments/loop/vlm-input-a24/input/R4612fb0db5.png",
+      "option_A": "mich zum Manne begehren würden. (Damals",
+      "option_B": "mich zum Manne begehren wurden. (Damals"
+    },
+    {
+      "id": "R477377d915",
+      "image": "experiments/loop/vlm-input-a24/input/R477377d915.png",
+      "option_A": "rogans ut quod gratis largitus eśt pro ſua bonitate,",
+      "option_B": "rogans ut quod gratis largitus eſt pro ſua bonitate,"
+    },
+    {
+      "id": "R632ec6675c",
+      "image": "experiments/loop/vlm-input-a24/input/R632ec6675c.png",
+      "option_A": "ciũ duxi. Nõ quidem quod omibus ſatis fœcerim ſed ut/",
+      "option_B": "ciū duxi. Nō quidem quod omnibus ſatis fœcerim ſed ut,"
+    },
+    {
+      "id": "R89b9dcb991",
+      "image": "experiments/loop/vlm-input-a24/input/R89b9dcb991.png",
+      "option_A": "verſtehen gab. Aber die Dame hatte ſich damit",
+      "option_B": "verſehen gab. Aber die Dame hatte ſich damit"
+    },
+    {
+      "id": "Rcf0da9fbab",
+      "image": "experiments/loop/vlm-input-a24/input/Rcf0da9fbab.png",
+      "option_A": "preſumptio cedit veritati. 8. diſt. c. veritate.",
+      "option_B": "pr�ſumptio cedit veritati. 8. diſt. c. veritate."
+    },
+    {
+      "id": "Rd6facdcad1",
+      "image": "experiments/loop/vlm-input-a24/input/Rd6facdcad1.png",
+      "option_A": "ſolutum repetere: vt l.in contractibus. C. de",
+      "option_B": "ſolutum repetere: vt l. in contractibus. C. de"
+    },
+    {
+      "id": "Rd97daded21",
+      "image": "experiments/loop/vlm-input-a24/input/Rd97daded21.png",
+      "option_A": "in l. 1. 6. ff. ad legem Falci. De quo maxime du-",
+      "option_B": "in l. 1. §. ff. ad legem Falci. De quo maxime du-"
+    },
+    {
+      "id": "Rdd0cda01dc",
+      "image": "experiments/loop/vlm-input-a24/input/Rdd0cda01dc.png",
+      "option_A": "hoc quod ſuperest, ſi conferas ad id quod præceſſit?",
+      "option_B": "hoc quod ſupereſt, ſi conferas ad id quod præœſſit:"
+    },
+    {
+      "id": "Rf190cd318e",
+      "image": "experiments/loop/vlm-input-a24/input/Rf190cd318e.png",
+      "option_A": "Anno ſupra ſeſquimilleſ. ſextodecimo.",
+      "option_B": "Anno ſupra ſeſquimilleſ. ſexodecimo."
+    }
+  ]
+}

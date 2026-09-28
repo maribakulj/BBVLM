@@ -1,0 +1,247 @@
+{
+  "schema": "bbvlm.ctc-vlm-adjudication-private/1",
+  "source_scope": "Consumed A23 lines; development diagnostic only",
+  "reader_must_not_receive_this_file": true,
+  "items": [
+    {
+      "id": "R1a0177a41b",
+      "reference": "ger verliebten Hndel ziemli bertiget war,",
+      "options": {
+        "A": "ger verliebten Händel ziemlich berüchtiget war",
+        "B": "zur verliebten Händel ziemlich berüchtiget war,"
+      },
+      "provenance": {
+        "A": "ctc",
+        "B": "vlm"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": 0.012362529188905205,
+        "B": 0.1871790225360909
+      }
+    },
+    {
+      "id": "R1bea4bea15",
+      "reference": "iã reddit ẽ eccleæ, iam ex ſeruo diaboli faus eﬆ",
+      "options": {
+        "A": "iā redditus ē eccleſiæ, iam ex ſeruo diaboli factus eſt",
+        "B": "iã redditus ē eccleſiæ,iam ex ſeruo diaboli factus eśt"
+      },
+      "provenance": {
+        "A": "vlm",
+        "B": "ctc"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": null,
+        "B": 0.05710098946011775
+      }
+    },
+    {
+      "id": "R2820e61330",
+      "reference": "tio. de ﬁde inrum. & tenet Pet. de Anch. in",
+      "options": {
+        "A": "tio. de fide inſtrum. & tenet Pet. de Anch. in",
+        "B": "tio. de fide inſtrum. & tenet Pet. de Arch. in"
+      },
+      "provenance": {
+        "A": "ctc",
+        "B": "vlm"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": 0.029080328779552172,
+        "B": 0.1258516398973215
+      }
+    },
+    {
+      "id": "R2922cb1c4d",
+      "reference": "bb. Et e acataleus.",
+      "options": {
+        "A": "ob. Et eſt acataléctus .",
+        "B": "bb. Et eſt acatalectus."
+      },
+      "provenance": {
+        "A": "ctc",
+        "B": "vlm"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": 0.07005396762039912,
+        "B": 0.08981065563241625
+      }
+    },
+    {
+      "id": "R379ddb80f4",
+      "reference": "Quem uere ſui pudet apud deum, leui erubeſcet a⸗",
+      "options": {
+        "A": "Quem vere ſui pudet apud deum, levius erubeſcet a-",
+        "B": "Quem uer� ſui pudet apud deum,leuius erubeſæt a="
+      },
+      "provenance": {
+        "A": "vlm",
+        "B": "ctc"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": 0.48478188164356895,
+        "B": 0.0706034314680827
+      }
+    },
+    {
+      "id": "R387ec4e7d0",
+      "reference": "er verdienet htte, lebhaft und deutli gnug zu",
+      "options": {
+        "A": "er verdienet hätte, lebhaft und deutlich gnug zu",
+        "B": "er verdienet hätte, leibhafft und deutlich gnug zu"
+      },
+      "provenance": {
+        "A": "ctc",
+        "B": "vlm"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": 0.019592913483586126,
+        "B": 0.19989366025051408
+      }
+    },
+    {
+      "id": "R4612fb0db5",
+      "reference": "mi zum Manne begehren wrden. (Damals",
+      "options": {
+        "A": "mich zum Manne begehren würden. (Damals",
+        "B": "mich zum Manne begehren wurden. (Damals"
+      },
+      "provenance": {
+        "A": "vlm",
+        "B": "ctc"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": 0.03172727381495357,
+        "B": 0.020838056557453875
+      }
+    },
+    {
+      "id": "R477377d915",
+      "reference": "rogans ut quod gratis largit eﬆ pro ſua bonite,",
+      "options": {
+        "A": "rogans ut quod gratis largitus eśt pro ſua bonitate,",
+        "B": "rogans ut quod gratis largitus eſt pro ſua bonitate,"
+      },
+      "provenance": {
+        "A": "ctc",
+        "B": "vlm"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": 0.02166371102592036,
+        "B": 0.1109494421020502
+      }
+    },
+    {
+      "id": "R632ec6675c",
+      "reference": "ciũ duxi. Nõ quidem quod oibus ſatis fœcerim ſed ut/",
+      "options": {
+        "A": "ciũ duxi. Nõ quidem quod omibus ſatis fœcerim ſed ut/",
+        "B": "ciū duxi. Nō quidem quod omnibus ſatis fœcerim ſed ut,"
+      },
+      "provenance": {
+        "A": "ctc",
+        "B": "vlm"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": 0.023167397954274912,
+        "B": null
+      }
+    },
+    {
+      "id": "R89b9dcb991",
+      "reference": "verehen gab. Aber die Dame hatte  damit",
+      "options": {
+        "A": "verſtehen gab. Aber die Dame hatte ſich damit",
+        "B": "verſehen gab. Aber die Dame hatte ſich damit"
+      },
+      "provenance": {
+        "A": "ctc",
+        "B": "vlm"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": 0.029808338360999265,
+        "B": 0.08551221405440719
+      }
+    },
+    {
+      "id": "Rcf0da9fbab",
+      "reference": "præſumptio cedit veritati. 8. di. c. veritate.",
+      "options": {
+        "A": "preſumptio cedit veritati. 8. diſt. c. veritate.",
+        "B": "pr�ſumptio cedit veritati. 8. diſt. c. veritate."
+      },
+      "provenance": {
+        "A": "vlm",
+        "B": "ctc"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": 0.10553246112768315,
+        "B": 0.04271515869866937
+      }
+    },
+    {
+      "id": "Rd6facdcad1",
+      "reference": "ſolutum repetere: vt l. in contraib. C. de",
+      "options": {
+        "A": "ſolutum repetere: vt l.in contractibus. C. de",
+        "B": "ſolutum repetere: vt l. in contractibus. C. de"
+      },
+      "provenance": {
+        "A": "ctc",
+        "B": "vlm"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": 0.04719281373518096,
+        "B": 0.05148802057421944
+      }
+    },
+    {
+      "id": "Rd97daded21",
+      "reference": "in l. 1. §. ﬀ. ad legem Falci. De quo maximè du-",
+      "options": {
+        "A": "in l. 1. 6. ff. ad legem Falci. De quo maxime du-",
+        "B": "in l. 1. §. ff. ad legem Falci. De quo maxime du-"
+      },
+      "provenance": {
+        "A": "ctc",
+        "B": "vlm"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": 0.06412518925684076,
+        "B": 0.08967441564997466
+      }
+    },
+    {
+      "id": "Rdd0cda01dc",
+      "reference": "hoc quod ſupere  confer ad id quod præceit?",
+      "options": {
+        "A": "hoc quod ſuperest, ſi conferas ad id quod præceſſit?",
+        "B": "hoc quod ſupereſt, ſi conferas ad id quod præœſſit:"
+      },
+      "provenance": {
+        "A": "vlm",
+        "B": "ctc"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": 0.16366258787645296,
+        "B": 0.07517020431690807
+      }
+    },
+    {
+      "id": "Rf190cd318e",
+      "reference": "Anno ſupra ſeſquimilleſ. ſextodecimo.",
+      "options": {
+        "A": "Anno ſupra ſeſquimilleſ. ſextodecimo.",
+        "B": "Anno ſupra ſeſquimilleſ. ſexodecimo."
+      },
+      "provenance": {
+        "A": "ctc",
+        "B": "vlm"
+      },
+      "ctc_viterbi_nll_per_frame": {
+        "A": 0.022779902069678358,
+        "B": 0.11861030301859583
+      }
+    }
+  ]
+}

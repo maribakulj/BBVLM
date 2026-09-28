@@ -1,0 +1,25 @@
+{
+  "schema": "bbvlm.a53-postscore-audit/1",
+  "reader": "gpt-6-sol",
+  "scope": "post-score, not independent validation",
+  "items": [
+    {
+      "id": "R2922cb1c4d",
+      "text": "bb.Et eſt acatalectus .",
+      "uncertain": true,
+      "reason": "Une annotation manuscrite recouvre partiellement le mot acatalectus ; lecture des caractères imprimés néanmoins vraisemblable."
+    },
+    {
+      "id": "R89b9dcb991",
+      "text": "verſtehen gab. Aber die Dame hatte ſich damit",
+      "uncertain": false,
+      "reason": "Ligne imprimée entièrement lisible dans l'agrandissement."
+    },
+    {
+      "id": "Rf190cd318e",
+      "text": "Anno ſupra ſeſquimilleſ. ſextodecimo.",
+      "uncertain": false,
+      "reason": "Ligne imprimée entièrement lisible ; abréviation ſeſquimilleſ. conservée."
+    }
+  ]
+}

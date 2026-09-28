@@ -1,0 +1,111 @@
+{
+  "schema": "bbvlm.ctc-vlm-adjudication-response/1",
+  "reader": "gpt-6-luna",
+  "items": [
+    {
+      "id": "R1a0177a41b",
+      "choice": "NEITHER",
+      "text": "ger verliebten Händel ziemlich berüchtiget war,",
+      "uncertain": false,
+      "reason": "The print begins ‘ger’ and ends with a comma; neither option has both."
+    },
+    {
+      "id": "R1bea4bea15",
+      "choice": "A",
+      "text": "iā redditus ē eccleſiæ, iam ex ſeruo diaboli factus eſt",
+      "uncertain": false,
+      "reason": "The macron abbreviations, long s, spacing, and final eſt match A."
+    },
+    {
+      "id": "R2820e61330",
+      "choice": "A",
+      "text": "tio. de fide inſtrum. & tenet Pet. de Anch. in",
+      "uncertain": false,
+      "reason": "The printed surname is Anch."
+    },
+    {
+      "id": "R2922cb1c4d",
+      "choice": "NEITHER",
+      "text": "bb. Et eſt acataléctus .",
+      "uncertain": true,
+      "reason": "The print has ‘bb.’, an acute accent in acataléctus, and a spaced final period."
+    },
+    {
+      "id": "R379ddb80f4",
+      "choice": "A",
+      "text": "Quem vere ſui pudet apud deum, levius erubeſcet a-",
+      "uncertain": false,
+      "reason": "The visible reading matches A, including vere and the line-end hyphen."
+    },
+    {
+      "id": "R387ec4e7d0",
+      "choice": "A",
+      "text": "er verdienet hätte, lebhaft und deutlich gnug zu",
+      "uncertain": false,
+      "reason": "The word is lebhaft, not leibhafft."
+    },
+    {
+      "id": "R4612fb0db5",
+      "choice": "A",
+      "text": "mich zum Manne begehren würden. (Damals",
+      "uncertain": false,
+      "reason": "The printed word is würden, with an umlaut."
+    },
+    {
+      "id": "R477377d915",
+      "choice": "B",
+      "text": "rogans ut quod gratis largitus eſt pro ſua bonitate,",
+      "uncertain": false,
+      "reason": "The printed ending is eſt."
+    },
+    {
+      "id": "R632ec6675c",
+      "choice": "NEITHER",
+      "text": "ciū duxi. Nō quidem quod omibus ſatis fœcerim ſed ut/",
+      "uncertain": true,
+      "reason": "The print shows macrons over u and o, ‘omibus’, and a slash after ut."
+    },
+    {
+      "id": "R89b9dcb991",
+      "choice": "B",
+      "text": "verſehen gab. Aber die Dame hatte ſich damit",
+      "uncertain": false,
+      "reason": "The word is verſehen."
+    },
+    {
+      "id": "Rcf0da9fbab",
+      "choice": "NEITHER",
+      "text": "præſumptio cedit veritati. 8. diſt. c. veritate.",
+      "uncertain": true,
+      "reason": "The initial word visibly has the æ ligature, absent from A; B has a replacement character."
+    },
+    {
+      "id": "Rd6facdcad1",
+      "choice": "B",
+      "text": "ſolutum repetere: vt l. in contractibus. C. de",
+      "uncertain": false,
+      "reason": "There is a space after ‘l.’ in the print."
+    },
+    {
+      "id": "Rd97daded21",
+      "choice": "B",
+      "text": "in l. 1. §. ff. ad legem Falci. De quo maxime du-",
+      "uncertain": false,
+      "reason": "The character after ‘1.’ is the section sign (§)."
+    },
+    {
+      "id": "Rdd0cda01dc",
+      "choice": "NEITHER",
+      "text": "hoc quod ſupereſt, ſi conferas ad id quod præceſſit?",
+      "uncertain": true,
+      "reason": "The medial long s and question mark differ from both options."
+    },
+    {
+      "id": "Rf190cd318e",
+      "choice": "B",
+      "text": "Anno ſupra ſeſquimilleſ. ſexodecimo.",
+      "uncertain": false,
+      "reason": "The print reads ſexodecimo, without t."
+    }
+  ]
+}

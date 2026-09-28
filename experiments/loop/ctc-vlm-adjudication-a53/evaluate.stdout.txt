@@ -1,0 +1,5 @@
+vlm strict=11.480%(76) diplomatic=4.913%(34) retrieval_fold_v1=2.757%(15)
+ctc strict=11.631%(77) diplomatic=4.624%(32) retrieval_fold_v1=2.206%(12)
+luna_adjudicated strict=10.574%(70) diplomatic=3.902%(27) retrieval_fold_v1=1.471%(8)
+{"lines": 15, "reference_winner_or_tie": 7, "exact_candidate_regressions": 3, "neither": 5, "uncertain": 4}
+{"noninferior_to_best_complete_strict": true, "no_exact_candidate_regression": false, "passed": false}
