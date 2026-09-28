@@ -4,10 +4,10 @@
 script, sur les fichiers qu'il prépare) :
   prepare DOSSIER      vues (page, bandes, moitiés ×1,6) + segmentation kraken
   [VLM] deux lectures indépendantes → DOSSIER/lu_a.txt, DOSSIER/lu_b.txt
-                        (consigne outils/consigne_P5.md)
+                        (consigne outils/consigne_P6.md)
   arbitrage DOSSIER    p2 (OCR-D, R1, R2) sur A et B, lignes resserrées,
                         recadrage des seules lignes en désaccord → DOSSIER/p3/taches.json
-  [VLM] arbitre → DOSSIER/p3/verdicts.json
+  [VLM] arbitre (outils/consigne_arbitre_P3.md) → DOSSIER/p3/verdicts.json
   final DOSSIER        texte P3 → ALTO (blocs typés, ReadingOrder, lignes non
                         placées marquées) validé XSD → DOSSIER/page.alto.xml
 Aucune étape ne lit une référence. Les évaluations (cer, bilan_adj, olr,
