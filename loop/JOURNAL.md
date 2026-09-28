@@ -363,3 +363,11 @@ trop bruité pour les juger — conforme à astra A53 (CTC utile comme
 contradiction grossière, pas comme juge). Le désaccord entre deux lectures VLM
 reste le seul détecteur efficace de ces erreurs ; pas de passe ciblée par
 Tesseract. Le mode économe garde donc son coût en qualité (~5 %).
+
+## Recherche O10-O13 (16 pages neuves, ALTO de la chaîne actuelle) — 2026-09-28
+
+Rappel des occurrences (terme + boîte IoU ≥ 0,5) : ≥ 0,95 sur 6 pages
+(erobdefoa 1,00, backhart 0,99, branchri 0,98), 0,85-0,93 sur 7, 0,80
+herrkurt, 0,77 852691769 (0,09 avant l'ancrage S05 : ALTO reconstruit), 0,63
+heptaldai (lignes inclinées : boîtes). Toutes les lignes d'O10-O11 sont
+désormais placées.
