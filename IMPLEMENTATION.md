@@ -723,3 +723,8 @@ coordonnées natives, puis hache `candidates.json` avant XML. Le scoreur calcule
 une matrice d'IoU de rectangles et utilise l'algorithme hongrois pour empêcher
 qu'une proposition soit créditée plusieurs fois. Les seuils IoU50 et IoU70 sont
 séparés. A75 ne relance aucun modèle et reste un développement consommé.
+
+## A77 — attribution des composantes
+
+A77 consumed pixel attribution: old rectangle multi-contact841 versus197 substantial pixel multi-contacts; neither is certified fusion.1924 annotations overlap on14.69% predicted pixels; visual witness confirms horizontal fragments on spaced words. Restricted oracle merge still recalls only76.83% on1924.0.87s CPU, zero inference/Test. A78: frozen image-only bounded horizontal merger on consumed data, penalize new merges, then new holdout; all gates false.
+Voir experiments/loop/next-a77/RESULTS.md. A76 reste rejeté (commit 7aa5224).

@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790610746.3875945,
+  "updated_unix": 1790611350.8972332,
   "status": "in_progress",
   "phases": [
     {
@@ -890,6 +890,12 @@
       "script": "scripts/evaluate_textline_transfer_a76.py",
       "result": "next-a76/report.json",
       "complete": true
+    },
+    {
+      "id": "textline_component_attribution_a77",
+      "complete": true,
+      "script": "scripts/diagnose_textline_components_a77.py",
+      "result": "next-a77/report.json"
     }
   ],
   "completion_gates": {
@@ -24199,6 +24205,11 @@
       "ocr_calls": 0,
       "vlm_calls": 0,
       "global_completion": false
+    },
+    "textline_component_attribution_a77": {
+      "report": "next-a77/report.json",
+      "results": "next-a77/RESULTS.md",
+      "global_completion": false
     }
   },
   "model_policy": {
@@ -24207,6 +24218,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A77 consumed pixel attribution: old rectangle multi-contact841 versus197 substantial pixel multi-contacts; neither is certified fusion.1924 annotations overlap on14.69% predicted pixels; visual witness confirms horizontal fragments on spaced words. Restricted oracle merge still recalls only76.83% on1924.0.87s CPU, zero inference/Test. A78: frozen image-only bounded horizontal merger on consumed data, penalize new merges, then new holdout; all gates false.",
     "A76 frozen transfer rejects the unchanged A75 component rectangles on4 new Training pages/1103 lines: IoU50 P/R72.74/86.13%, IoU70 P/R64.78/76.70%, mean IoU.6962. The1924 page falls to58.80/83.54%; every scientific threshold except zero Test fails. Do not retune A76 or lower criteria. A77 must attribute fragmentation/fusion/convention on consumed A76, then freeze a true peak/valley or centerline separator on new non-Test data, or pivot to distinct OLR.84 real CPU tiles/109.53s, zero OCR/VLM, all global gates false.",
     "A75 consumed development passes its aggregate frozen instance gate:1402 candidates/1406 lines, IoU50 P/R97.36/97.08%, IoU70 P/R94.58/94.31%, mean assigned IoU.8097, zero inference. But the1617 page precision is only74.42%; no promotion. A76 must apply the unchanged component rule to a new non-Test freeze and preregister a per-page precision floor, without hiding heterogeneity in aggregates. Claude/master unchanged, all global gates false.",
     "A74 frozen transfer validates the dense Eynollah signal on4 new Training pages/1406 lines across1617-1924:1406/1406 lines hit,98.32% mask pixels inside line union and84.09% union coverage; every page precision-like >=97.40%. Real cost84 tiles/93.19s CPU, zero OCR/VLM/Test. This is not boxes; A75 must preserve the mask via principled line separation/centerlines grounded in current Eynollah code, freeze before score, and avoid A73 rectangle retuning. Claude/master unchanged, all seven global gates false.",

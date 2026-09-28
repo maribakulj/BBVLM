@@ -1,0 +1,144 @@
+[
+  {
+    "id": "region_1704903157889_716_tl_5",
+    "bbox": [
+      213.0,
+      872.0,
+      1309.0,
+      926.0
+    ],
+    "substantial_components": [
+      71,
+      74,
+      75,
+      76
+    ],
+    "edge_components": [
+      74,
+      75,
+      76
+    ],
+    "contained_owner_components": [
+      74,
+      75,
+      76
+    ],
+    "covered_fraction": 0.744621141253508
+  },
+  {
+    "id": "region_1704903165201_719_tl_57",
+    "bbox": [
+      178.0,
+      3203.0,
+      1277.0,
+      3269.0
+    ],
+    "substantial_components": [
+      383,
+      398,
+      400
+    ],
+    "edge_components": [
+      398,
+      400
+    ],
+    "contained_owner_components": [
+      398
+    ],
+    "covered_fraction": 0.8061588812853318
+  },
+  {
+    "id": "region_1704903192331_723_tl_18",
+    "bbox": [
+      1331.0,
+      1083.0,
+      2435.0,
+      1123.0
+    ],
+    "substantial_components": [
+      100,
+      106,
+      107
+    ],
+    "edge_components": [
+      100,
+      106,
+      107
+    ],
+    "contained_owner_components": [
+      106,
+      107
+    ],
+    "covered_fraction": 0.7364678566245828
+  },
+  {
+    "id": "region_1704903192331_723_tl_19",
+    "bbox": [
+      1330.0,
+      1115.0,
+      2436.0,
+      1155.0
+    ],
+    "substantial_components": [
+      106,
+      107,
+      114
+    ],
+    "edge_components": [
+      106,
+      107,
+      114
+    ],
+    "contained_owner_components": [
+      114
+    ],
+    "covered_fraction": 0.8066761363636363
+  },
+  {
+    "id": "region_1704903192331_723_tl_47",
+    "bbox": [
+      1320.0,
+      2011.0,
+      2417.0,
+      2054.0
+    ],
+    "substantial_components": [
+      228,
+      232,
+      233
+    ],
+    "edge_components": [
+      228,
+      232,
+      233
+    ],
+    "contained_owner_components": [
+      232,
+      233
+    ],
+    "covered_fraction": 0.7373623270262638
+  },
+  {
+    "id": "region_1704903298597_752_tl_6",
+    "bbox": [
+      2426.0,
+      3483.0,
+      3529.0,
+      3525.0
+    ],
+    "substantial_components": [
+      438,
+      441,
+      442
+    ],
+    "edge_components": [
+      441,
+      442
+    ],
+    "contained_owner_components": [
+      441,
+      442
+    ],
+    "covered_fraction": 0.7633858826871183
+  }
+]

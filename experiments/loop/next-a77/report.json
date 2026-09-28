@@ -1,0 +1,230 @@
+{
+  "schema": "bbvlm.a77.diagnostic/1",
+  "status": "consumed_oracle_attribution",
+  "pages": {
+    "no_title_1626-07-07_0002": {
+      "candidates": 40,
+      "references": 34,
+      "old_bbox_iou10_multiple_refs": 32,
+      "pixel_substantial_multiple_refs": 0,
+      "pixel_no_substantial_ref": 6,
+      "contained80_candidates": 38,
+      "refs_multiple_components_ge5pct": 0,
+      "refs_no_predicted_pixels": 0,
+      "predicted_pixels_in_multiple_refs_fraction": 0.015197928193989716,
+      "baseline": {
+        "candidates": 40,
+        "reference_lines": 34,
+        "matched_pairs": 34,
+        "mean_assigned_iou": 0.8864192739698242,
+        "iou50": {
+          "true_matches": 34,
+          "precision": 0.85,
+          "recall": 1.0,
+          "f1": 0.9189189189189189
+        },
+        "iou70": {
+          "true_matches": 33,
+          "precision": 0.825,
+          "recall": 0.9705882352941176,
+          "f1": 0.8918918918918919
+        },
+        "candidate_merges_iou_gt10": 32,
+        "reference_fragments_iou_gt10": 30
+      },
+      "oracle_grouped": {
+        "candidates": 34,
+        "reference_lines": 34,
+        "matched_pairs": 34,
+        "mean_assigned_iou": 0.8864192739698243,
+        "iou50": {
+          "true_matches": 34,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "iou70": {
+          "true_matches": 33,
+          "precision": 0.9705882352941176,
+          "recall": 0.9705882352941176,
+          "f1": 0.9705882352941176
+        },
+        "candidate_merges_iou_gt10": 32,
+        "reference_fragments_iou_gt10": 30
+      }
+    },
+    "Schwaebischer_Merkur_1785-11-14_0002": {
+      "candidates": 92,
+      "references": 91,
+      "old_bbox_iou10_multiple_refs": 28,
+      "pixel_substantial_multiple_refs": 2,
+      "pixel_no_substantial_ref": 4,
+      "contained80_candidates": 85,
+      "refs_multiple_components_ge5pct": 2,
+      "refs_no_predicted_pixels": 0,
+      "predicted_pixels_in_multiple_refs_fraction": 0.0048086930401085885,
+      "baseline": {
+        "candidates": 92,
+        "reference_lines": 91,
+        "matched_pairs": 91,
+        "mean_assigned_iou": 0.7432893687851092,
+        "iou50": {
+          "true_matches": 86,
+          "precision": 0.9347826086956522,
+          "recall": 0.945054945054945,
+          "f1": 0.9398907103825138
+        },
+        "iou70": {
+          "true_matches": 81,
+          "precision": 0.8804347826086957,
+          "recall": 0.8901098901098901,
+          "f1": 0.8852459016393442
+        },
+        "candidate_merges_iou_gt10": 28,
+        "reference_fragments_iou_gt10": 25
+      },
+      "oracle_grouped": {
+        "candidates": 85,
+        "reference_lines": 91,
+        "matched_pairs": 85,
+        "mean_assigned_iou": 0.778264096269713,
+        "iou50": {
+          "true_matches": 85,
+          "precision": 1.0,
+          "recall": 0.9340659340659341,
+          "f1": 0.9659090909090909
+        },
+        "iou70": {
+          "true_matches": 81,
+          "precision": 0.9529411764705882,
+          "recall": 0.8901098901098901,
+          "f1": 0.9204545454545454
+        },
+        "candidate_merges_iou_gt10": 26,
+        "reference_fragments_iou_gt10": 23
+      }
+    },
+    "Koelnische_Zeitung_1866-06_1866-09_0261": {
+      "candidates": 708,
+      "references": 650,
+      "old_bbox_iou10_multiple_refs": 537,
+      "pixel_substantial_multiple_refs": 68,
+      "pixel_no_substantial_ref": 136,
+      "contained80_candidates": 526,
+      "refs_multiple_components_ge5pct": 415,
+      "refs_no_predicted_pixels": 0,
+      "predicted_pixels_in_multiple_refs_fraction": 0.09238745772176621,
+      "baseline": {
+        "candidates": 708,
+        "reference_lines": 650,
+        "matched_pairs": 650,
+        "mean_assigned_iou": 0.704346317189377,
+        "iou50": {
+          "true_matches": 556,
+          "precision": 0.7853107344632768,
+          "recall": 0.8553846153846154,
+          "f1": 0.8188512518409427
+        },
+        "iou70": {
+          "true_matches": 511,
+          "precision": 0.7217514124293786,
+          "recall": 0.7861538461538462,
+          "f1": 0.7525773195876289
+        },
+        "candidate_merges_iou_gt10": 537,
+        "reference_fragments_iou_gt10": 549
+      },
+      "oracle_grouped": {
+        "candidates": 524,
+        "reference_lines": 650,
+        "matched_pairs": 524,
+        "mean_assigned_iou": 0.8218629958360982,
+        "iou50": {
+          "true_matches": 524,
+          "precision": 1.0,
+          "recall": 0.8061538461538461,
+          "f1": 0.8926746166950595
+        },
+        "iou70": {
+          "true_matches": 507,
+          "precision": 0.9675572519083969,
+          "recall": 0.78,
+          "f1": 0.8637137989778535
+        },
+        "candidate_merges_iou_gt10": 489,
+        "reference_fragments_iou_gt10": 475
+      }
+    },
+    "Koelnische_Zeitung_1924_0036": {
+      "candidates": 466,
+      "references": 328,
+      "old_bbox_iou10_multiple_refs": 244,
+      "pixel_substantial_multiple_refs": 127,
+      "pixel_no_substantial_ref": 172,
+      "contained80_candidates": 261,
+      "refs_multiple_components_ge5pct": 237,
+      "refs_no_predicted_pixels": 0,
+      "predicted_pixels_in_multiple_refs_fraction": 0.14689766643724483,
+      "baseline": {
+        "candidates": 466,
+        "reference_lines": 328,
+        "matched_pairs": 328,
+        "mean_assigned_iou": 0.6473122006889225,
+        "iou50": {
+          "true_matches": 274,
+          "precision": 0.5879828326180258,
+          "recall": 0.8353658536585366,
+          "f1": 0.690176322418136
+        },
+        "iou70": {
+          "true_matches": 221,
+          "precision": 0.4742489270386266,
+          "recall": 0.6737804878048781,
+          "f1": 0.5566750629722922
+        },
+        "candidate_merges_iou_gt10": 244,
+        "reference_fragments_iou_gt10": 247
+      },
+      "oracle_grouped": {
+        "candidates": 255,
+        "reference_lines": 328,
+        "matched_pairs": 255,
+        "mean_assigned_iou": 0.76038358236973,
+        "iou50": {
+          "true_matches": 252,
+          "precision": 0.9882352941176471,
+          "recall": 0.7682926829268293,
+          "f1": 0.8644939965694682
+        },
+        "iou70": {
+          "true_matches": 219,
+          "precision": 0.8588235294117647,
+          "recall": 0.6676829268292683,
+          "f1": 0.7512864493996569
+        },
+        "candidate_merges_iou_gt10": 212,
+        "reference_fragments_iou_gt10": 205
+      }
+    }
+  },
+  "input_sha256": {
+    "experiments/loop/next-a76/candidates.json": "85f096ed907345998862a71ed534e02f752ffaf8d1c9e26fd1b8c56deda8630b",
+    "experiments/loop/next-a76/predictions.json": "ade40d0721bfb46deee5e27ba5de92453cbe7766b47425576541895af892c332",
+    "experiments/loop/next-a77/PROTOCOL.md": "30e7ae639fb69050ddd34bd9057061bcd5d34c954bb647444c782cfd1840038e",
+    "experiments/loop/next-a76/no_title_1626-07-07_0002-textline-mask.png": "2687b1879686fb1075bd4e0238a9b4e518df9b941c5c9963c7f165813b60823d",
+    "corpora/chronicling-germany/annotations/no_title_1626-07-07_0002.xml": "27ccbe7f9f1d4e18e2e2e477489f71f5a6a486f6e725fc1155a8c247e20c2670",
+    "experiments/loop/next-a76/Schwaebischer_Merkur_1785-11-14_0002-textline-mask.png": "91e304435fd3a9230bc63e5ece1e991629ee2844eb16b81b78b3c09a380f7160",
+    "corpora/chronicling-germany/annotations/Schwaebischer_Merkur_1785-11-14_0002.xml": "c7211f48571ab6d18902a91de9389817c5d3362a93fb6f2af7088ad2496905a3",
+    "experiments/loop/next-a76/Koelnische_Zeitung_1866-06_1866-09_0261-textline-mask.png": "a609e0f37cd4c775c663589bb035c6a264b9be71cb28f71b2f37058940e3a6f7",
+    "corpora/chronicling-germany/annotations/Koelnische_Zeitung_1866-06_1866-09_0261.xml": "86ee296cb64aedd269746063273354adad34cadef99d1507712d5c6ca040bb29",
+    "experiments/loop/next-a76/Koelnische_Zeitung_1924_0036-textline-mask.png": "d42f2eb4f7f29ec4d330bbc3ff888fdd07a4c99336414cffeb21b31f9bb1d867",
+    "corpora/chronicling-germany/annotations/Koelnische_Zeitung_1924_0036.xml": "41a143c2e63ddf00794e1a023ece3c916da958d2cbda35a3d7c67186f263abf2",
+    "corpora/chronicling-germany/images/Koelnische_Zeitung_1924_0036.jpg": "f46880ab90f4fa139968319ce8a1d50d3fd5ea6ea52c95dff7e7b3cbfbaa4c56"
+  },
+  "seconds": 0.8692668410003535,
+  "new_model_forwards": 0,
+  "ocr_calls": 0,
+  "vlm_calls": 0,
+  "test_pages_opened": 0,
+  "all_scientific_gates_passed": false
+}

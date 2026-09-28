@@ -669,7 +669,29 @@
       "ended_at": 1790610546.6815524
     },
     "a77_prepare": {
-      "status": "pending"
+      "status": "completed",
+      "started_at": 1790610903.7654817,
+      "fingerprint": "9793ecce5597071309fde0d37dc2008a443ab4d4f53a1a4f81ea843ddf66c676",
+      "actor": "codex-root",
+      "token": "5530a5ba45d744bdb235b583ccfeda9d",
+      "outputs": {
+        "experiments/loop/next-a77/PROTOCOL.md": "30e7ae639fb69050ddd34bd9057061bcd5d34c954bb647444c782cfd1840038e"
+      },
+      "ended_at": 1790611464.3456705
+    },
+    "a77_diagnose": {
+      "status": "completed",
+      "started_at": 1790611478.1016722,
+      "fingerprint": "3738d2bc3ae22ac724cb20f0e305518ffffcc004617aa099c6f4e2c05409c454",
+      "pid": 6,
+      "log": "experiments/loop/logs/a77_diagnose.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a77/report.json": "27eeb74667b028b9549af8ba4bf65eb294feb1a65b5b4768fdc8cc566a61b8bf",
+        "experiments/loop/next-a77/details.json": "2e7acf362921380347f1e1dba183b8810dfd45a586f5a78fa9b0a8487ad8199e",
+        "experiments/loop/next-a77/witnesses.json": "613b71402a887fc6963500e8a8fb8f9c7e5cddcc787b1140c23f102021510657"
+      },
+      "ended_at": 1790611479.5228086
     }
   },
   "a66_reference_append_recovery": {

@@ -145,3 +145,11 @@ Avant le nouveau gel indépendant, Claude est toujours à
 `d996faac71564a56ef7af1a99e8d22c16a3df37e` et master reste
 `60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Aucun fichier concurrent importé,
 aucun merge, aucune écriture sur main/master et aucun force-push.
+
+## A77 — 2026-09-28
+Contrôle direct des refs avant le diagnostic : Claude inchangé à
+`76056c5c1957e0de4232f0aef1f6cbc7f2893402`, Codex à
+`7aa5224b77f5e29f4d782e0fa89a433af74e555d`, master à
+`60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Aucun agent ni calcul antérieur actif.
+La réservation A77 existante a été reprise et acquittée, jamais dupliquée.
+Aucun merge, import concurrent ou écriture main/master.

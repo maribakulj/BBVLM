@@ -12,14 +12,13 @@
     "all_scientific_gates_passed": false
   },
   "predicted_crops_a66": {
-    "status": "completed_consumed_development",
+    "status": "completed_consumed_predicted_crop_diagnostic",
     "protocol": "next-a66/PROTOCOL.md",
     "report": "next-a66/report.json",
     "results": "next-a66/RESULTS.md",
     "model_forwards": 10,
     "test_pages_opened": 0,
-    "ocr_calls": 0,
-    "all_scientific_gates_passed": false
+    "global_completion": false
   },
   "objective": "Measured improvement over native PERO word boxes, frontier-quality image-grounded transcription, evidence-backed OLR/metadata/retrieval and coherent ALTO/METS exports",
   "model_policy": {
@@ -911,15 +910,6 @@
     "inference_calls": 0,
     "global_completion": false
   },
-  "predicted_crops_a66": {
-    "status": "completed_consumed_predicted_crop_diagnostic",
-    "protocol": "next-a66/PROTOCOL.md",
-    "report": "next-a66/report.json",
-    "results": "next-a66/RESULTS.md",
-    "model_forwards": 10,
-    "test_pages_opened": 0,
-    "global_completion": false
-  },
   "visual_clipping_a67": {
     "status": "completed_consumed_visual_diagnostic",
     "protocol": "next-a67/PROTOCOL.md",
@@ -1071,6 +1061,14 @@
     "local_gate_passed": false,
     "model_forwards": 84,
     "test_pages_opened": 0,
+    "global_completion": false
+  },
+  "textline_component_attribution_a77": {
+    "status": "completed_consumed_oracle_diagnostic",
+    "report": "next-a77/report.json",
+    "results": "next-a77/RESULTS.md",
+    "test_pages_opened": 0,
+    "new_model_forwards": 0,
     "global_completion": false
   }
 }

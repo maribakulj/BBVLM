@@ -205,3 +205,8 @@ Les composantes du masque complet, contrairement aux résidus A73, donnent
 94,58 %/94,31 % et IoU moyen 0,810. La page 1617 reste problématique avec
 74,42 % de précision ; le bon agrégat ne suffit donc pas à promouvoir la règle.
 Un transfert A76 inchangé devra imposer aussi une précision minimale par page.
+
+## A77 — attribution des composantes
+
+A77 consumed pixel attribution: old rectangle multi-contact841 versus197 substantial pixel multi-contacts; neither is certified fusion.1924 annotations overlap on14.69% predicted pixels; visual witness confirms horizontal fragments on spaced words. Restricted oracle merge still recalls only76.83% on1924.0.87s CPU, zero inference/Test. A78: frozen image-only bounded horizontal merger on consumed data, penalize new merges, then new holdout; all gates false.
+Voir experiments/loop/next-a77/RESULTS.md. A76 reste rejeté (commit 7aa5224).
