@@ -351,3 +351,15 @@ final 9). I01 (passe courte ciblée) apporte l'essentiel du gain
 (herbdulc −6). Mode économe ajouté à la chaîne (lecture A seule, I01 dans un
 appel court) ; mode qualité inchangé. Piste : cibler la seconde passe sur les
 lignes à risque plutôt que relire toute la page.
+
+## T01 — 2026-09-28 — Tesseract comme signal de lignes à risque — négatif
+
+Lecture A seule, 533 lignes des 16 pages O10-O13, 55 fausses (référence
+adjugée). Distance lecture ↔ OCR Tesseract de la ligne kraken ancrée :
+**AUC 0,57** ; revérifier les 20 % de lignes les plus contradictoires ne
+capte que 16/55 lignes fausses (30 % : 26/55). Les erreurs restantes sont
+fines (blancs, signes suscrits, ſ/s) et Tesseract (tessdata_best, Fraktur)
+trop bruité pour les juger — conforme à astra A53 (CTC utile comme
+contradiction grossière, pas comme juge). Le désaccord entre deux lectures VLM
+reste le seul détecteur efficace de ces erreurs ; pas de passe ciblée par
+Tesseract. Le mode économe garde donc son coût en qualité (~5 %).
