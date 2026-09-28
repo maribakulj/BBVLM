@@ -602,3 +602,9 @@ ran ten real DocLayout-YOLO CPU forwards. The rule reduces lines below 95%
 coverage only 184→160 (13.0%), missing its frozen 20% gate; fixed padding reaches
 79 but adds 6.4× more area and 82 contaminated boxes. Keep neither as a general
 policy. The 100 Test pages remain unopened; all seven project gates remain false.
+
+## A70 — deep-failure attribution
+Of 71 A69 lines below 50% single-box coverage, no line reaches 95% under the
+union of all detected text boxes, one reaches 50–95%, and 70 remain below 50%.
+Sixty-three have no ≥1% contributing box. Region merging is therefore rejected;
+the next step must distinguish detector miss from annotation/role convention.

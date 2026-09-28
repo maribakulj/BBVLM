@@ -953,5 +953,18 @@
     "test_pages_opened": 0,
     "local_gate_passed": false,
     "global_completion": false
+  },
+  "deep_failure_attribution_a70": {
+    "status": "completed_consumed_diagnostic",
+    "protocol": "next-a70/PROTOCOL.md",
+    "report": "next-a70/report-v2.json",
+    "results": "next-a70/RESULTS.md",
+    "deep_failures": 71,
+    "fragmented_recoverable": 0,
+    "fragmented_partial": 1,
+    "miss_or_convention": 70,
+    "new_model_forwards": 0,
+    "test_pages_opened": 0,
+    "global_completion": false
   }
 }

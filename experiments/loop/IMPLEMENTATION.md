@@ -50,3 +50,10 @@ face au padding fixe, mais échoue au gate de couverture : 184→160 lignes sous
 95 %, au lieu des ≤147 gelées. Le writer initial ayant échoué après les dix
 forwards sur une métadonnée OpenCV, `score_transfer_a69_retry.py` réutilise les
 artefacts scellés et fait zéro nouvelle inférence. Ne pas promouvoir cette règle.
+
+## A70
+`diagnose_deep_failures_a70.py` réutilise les boîtes A69 scellées et calcule,
+pour chaque ligne sous 50 %, la couverture de la meilleure boîte et de l'union
+des boîtes. Sur 71 résiduels, zéro est récupérable à 95 %, un seul est partiel
+et 70 restent sous 50 %. Le retry venv est distinct du job initial échoué avant
+calcul. Conclusion : ne pas implémenter une fusion de fragments globale.

@@ -1,0 +1,746 @@
+{
+  "status": "consumed_failure_attribution_not_validation",
+  "source_candidate_sha256": "0a82cf24edc50dbdb273bea769885a006592d4ed970f0a58f51e9385680de1b8",
+  "source_predictions_sha256": "dda33f5c68962ce71f0abb480451f8a622e8fd4c6e334b054ce704f8ce55038a",
+  "deep_failures": 71,
+  "categories": {
+    "miss_or_convention": 70,
+    "fragmented_partial": 1
+  },
+  "pages": {
+    "Reichs_Post_Reuter_1700-11-16_0001": 25,
+    "Leipziger_Zeitung_1748-10-29_0001": 2,
+    "Fraenkischer_Kurier_1834-10-15_0002": 5,
+    "Neue_Berliner_Musikzeitung_1866-07-18_0002": 15,
+    "Mode_und_Haus_Illustrirte_Kinderwelt_1889-09-15_0001": 2,
+    "Muenchner_Neueste_Nachrichten_1917-04-10_0001": 10,
+    "Koelnische_Zeitung_1924_0001": 11,
+    "Vossische_Zeitung_1933-03-04_0002": 1
+  },
+  "contributors_capped_at4": {
+    "0": 63,
+    "1": 6,
+    "2": 1,
+    "4": 1
+  },
+  "rows": [
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "line_1733231823816_1015",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "region_1726581838826_29_tl_0",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "line_1733232764560_1054",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "line_1733232532448_1037",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_0",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_1",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_2",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_3",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_4",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_5",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_6",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_7",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_8",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_9",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_10",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_11",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_12",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_13",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_14",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_15",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "line_1733233076555_1079",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_18",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_19",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583044906_215_tl_0",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.09912000167220585,
+      "union_coverage": 0.09912000167220585,
+      "contributors": [
+        {
+          "box_index": 0,
+          "coverage": 0.09912000167220585,
+          "class_name": "plain text"
+        }
+      ],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "line_1733232536442_1042",
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Leipziger_Zeitung_1748-10-29_0001",
+      "line_id": "l",
+      "xml_sha256": "a0613a6b9f2ccf1ac2c5a73591b09065a1550c75c3e6f48a5fd34a6f65f39693",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Leipziger_Zeitung_1748-10-29_0001",
+      "line_id": "l_44",
+      "xml_sha256": "a0613a6b9f2ccf1ac2c5a73591b09065a1550c75c3e6f48a5fd34a6f65f39693",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Fraenkischer_Kurier_1834-10-15_0002",
+      "line_id": "region_1722430490321_1225_tl_1",
+      "xml_sha256": "ab85ebb3bb9bb03735cdbe359e9d8e508613d5f8ca394eddcd9d5dfd9add953d",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Fraenkischer_Kurier_1834-10-15_0002",
+      "line_id": "region_1722430493666_1228_tl_1",
+      "xml_sha256": "ab85ebb3bb9bb03735cdbe359e9d8e508613d5f8ca394eddcd9d5dfd9add953d",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Fraenkischer_Kurier_1834-10-15_0002",
+      "line_id": "region_1722430504499_1237_tl_1",
+      "xml_sha256": "ab85ebb3bb9bb03735cdbe359e9d8e508613d5f8ca394eddcd9d5dfd9add953d",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Fraenkischer_Kurier_1834-10-15_0002",
+      "line_id": "region_1722430507153_1240_tl_1",
+      "xml_sha256": "ab85ebb3bb9bb03735cdbe359e9d8e508613d5f8ca394eddcd9d5dfd9add953d",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Fraenkischer_Kurier_1834-10-15_0002",
+      "line_id": "region_1722430499281_1231_tl_1",
+      "xml_sha256": "ab85ebb3bb9bb03735cdbe359e9d8e508613d5f8ca394eddcd9d5dfd9add953d",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436510023_2213_tl_1",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436507132_2210_tl_1",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436507132_2210_tl_2",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436507132_2210_tl_3",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436507132_2210_tl_4",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436507132_2210_tl_5",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436507132_2210_tl_6",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436507132_2210_tl_7",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436507132_2210_tl_8",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436507132_2210_tl_9",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436507132_2210_tl_10",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436507132_2210_tl_11",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436206959_2141_tl_1",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436209396_2144_tl_1",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+      "line_id": "region_1722436176697_2122_tl_1",
+      "xml_sha256": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Mode_und_Haus_Illustrirte_Kinderwelt_1889-09-15_0001",
+      "line_id": "line_1746355594247_433",
+      "xml_sha256": "3fc17ce9648975a375a6d639c7f5ecca09a81451ee35d8197e13acf6892d18e3",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Mode_und_Haus_Illustrirte_Kinderwelt_1889-09-15_0001",
+      "line_id": "region_1744792238657_1069_tl_1",
+      "xml_sha256": "3fc17ce9648975a375a6d639c7f5ecca09a81451ee35d8197e13acf6892d18e3",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Muenchner_Neueste_Nachrichten_1917-04-10_0001",
+      "line_id": "region_1726064413361_1983_tl_1",
+      "xml_sha256": "850fa047ddf92829bc1b441ec23ea744912b9a2f9812fa2cdc050a86c029434a",
+      "best_single_coverage": 0.03785742169841402,
+      "union_coverage": 0.03785742169841402,
+      "contributors": [
+        {
+          "box_index": 65,
+          "coverage": 0.03785742169841402,
+          "class_name": "plain text"
+        }
+      ],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Muenchner_Neueste_Nachrichten_1917-04-10_0001",
+      "line_id": "region_1726064413361_1983_tl_10",
+      "xml_sha256": "850fa047ddf92829bc1b441ec23ea744912b9a2f9812fa2cdc050a86c029434a",
+      "best_single_coverage": 0.26934188071998594,
+      "union_coverage": 0.31114974539271384,
+      "contributors": [
+        {
+          "box_index": 56,
+          "coverage": 0.26934188071998594,
+          "class_name": "plain text"
+        },
+        {
+          "box_index": 127,
+          "coverage": 0.041807864672727894,
+          "class_name": "plain text"
+        }
+      ],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Muenchner_Neueste_Nachrichten_1917-04-10_0001",
+      "line_id": "region_1726064620182_2038_tl_4",
+      "xml_sha256": "850fa047ddf92829bc1b441ec23ea744912b9a2f9812fa2cdc050a86c029434a",
+      "best_single_coverage": 0.12204012839732026,
+      "union_coverage": 0.12204012839732026,
+      "contributors": [
+        {
+          "box_index": 37,
+          "coverage": 0.12204012839732026,
+          "class_name": "plain text"
+        }
+      ],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Muenchner_Neueste_Nachrichten_1917-04-10_0001",
+      "line_id": "region_1726064590889_2031_tl_8",
+      "xml_sha256": "850fa047ddf92829bc1b441ec23ea744912b9a2f9812fa2cdc050a86c029434a",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Muenchner_Neueste_Nachrichten_1917-04-10_0001",
+      "line_id": "region_1726064590889_2031_tl_9",
+      "xml_sha256": "850fa047ddf92829bc1b441ec23ea744912b9a2f9812fa2cdc050a86c029434a",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Muenchner_Neueste_Nachrichten_1917-04-10_0001",
+      "line_id": "region_1726064840434_2117_tl_0",
+      "xml_sha256": "850fa047ddf92829bc1b441ec23ea744912b9a2f9812fa2cdc050a86c029434a",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Muenchner_Neueste_Nachrichten_1917-04-10_0001",
+      "line_id": "region_1726064792679_2106_tl_0",
+      "xml_sha256": "850fa047ddf92829bc1b441ec23ea744912b9a2f9812fa2cdc050a86c029434a",
+      "best_single_coverage": 0.46511627906976744,
+      "union_coverage": 0.46511627906976744,
+      "contributors": [
+        {
+          "box_index": 0,
+          "coverage": 0.46511627906976744,
+          "class_name": "plain text"
+        }
+      ],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Muenchner_Neueste_Nachrichten_1917-04-10_0001",
+      "line_id": "line_1732116373896_1113",
+      "xml_sha256": "850fa047ddf92829bc1b441ec23ea744912b9a2f9812fa2cdc050a86c029434a",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Muenchner_Neueste_Nachrichten_1917-04-10_0001",
+      "line_id": "region_1726063296596_1878_tl_0",
+      "xml_sha256": "850fa047ddf92829bc1b441ec23ea744912b9a2f9812fa2cdc050a86c029434a",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Muenchner_Neueste_Nachrichten_1917-04-10_0001",
+      "line_id": "line_1732116345562_1100",
+      "xml_sha256": "850fa047ddf92829bc1b441ec23ea744912b9a2f9812fa2cdc050a86c029434a",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_2",
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_3",
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_4",
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_5",
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_6",
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef",
+      "best_single_coverage": 0.01102564986950873,
+      "union_coverage": 0.01102564986950873,
+      "contributors": [
+        {
+          "box_index": 31,
+          "coverage": 0.01102564986950873,
+          "class_name": "plain text"
+        }
+      ],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "line_1737801530967_652",
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677245976_48_tl_1",
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_35",
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef",
+      "best_single_coverage": 0.28715909423792413,
+      "union_coverage": 0.28715909423792413,
+      "contributors": [
+        {
+          "box_index": 22,
+          "coverage": 0.28715909423792413,
+          "class_name": "plain text"
+        }
+      ],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679351778_38_tl_1",
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679351778_38_tl_2",
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679351778_38_tl_3",
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef",
+      "best_single_coverage": 0.0,
+      "union_coverage": 0.0,
+      "contributors": [],
+      "category": "miss_or_convention"
+    },
+    {
+      "page": "Vossische_Zeitung_1933-03-04_0002",
+      "line_id": "line_1746638215949_747",
+      "xml_sha256": "187edfdaaf5bcb26c982e877660577256c09bda855372dcf8220d9479be11ecb",
+      "best_single_coverage": 0.49,
+      "union_coverage": 0.7545387184660819,
+      "contributors": [
+        {
+          "box_index": 32,
+          "coverage": 0.4690254551257945,
+          "class_name": "plain text"
+        },
+        {
+          "box_index": 35,
+          "coverage": 0.49,
+          "class_name": "plain text"
+        },
+        {
+          "box_index": 37,
+          "coverage": 0.26371191135734146,
+          "class_name": "title"
+        },
+        {
+          "box_index": 48,
+          "coverage": 0.26453871846608196,
+          "class_name": "title"
+        }
+      ],
+      "category": "fragmented_partial"
+    }
+  ],
+  "new_model_forwards": 0,
+  "ocr_calls": 0,
+  "vlm_calls": 0,
+  "test_pages_opened": 0,
+  "seconds": 2.01094405099866,
+  "all_scientific_gates_passed": false,
+  "limitations": [
+    "A69 Training pages are consumed and A58 already audited their XML.",
+    "Union coverage can identify fragmentation but not semantic ownership.",
+    "PAGE line polygons and detector rectangles are not perfect ALTO truth."
+  ]
+}

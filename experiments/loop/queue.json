@@ -640,6 +640,35 @@
       "outputs": ["experiments/loop/next-a69/report-v2.json"],
       "argv": ["{python}", "scripts/score_transfer_a69_retry.py"],
       "timeout_seconds": 120
+    },
+    {
+      "id": "a70_diagnose",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": ["a70_prepare"],
+      "inputs": ["scripts/diagnose_deep_failures_a70.py", "scripts/evaluate_transfer_a69.py", "experiments/loop/next-a70/PROTOCOL.md", "experiments/loop/next-a69/split.json", "experiments/loop/next-a69/predictions.json", "experiments/loop/next-a69/candidates.json", "experiments/loop/chronicling-a58/audit.json"],
+      "outputs": ["experiments/loop/next-a70/report.json"],
+      "argv": ["{python}", "scripts/diagnose_deep_failures_a70.py"],
+      "timeout_seconds": 120
+    },
+    {
+      "id": "a71_prepare",
+      "kind": "external",
+      "resource": "orchestrator",
+      "deps": ["a70_diagnose_retry"],
+      "inputs": ["experiments/loop/next-a70/report-v2.json", "experiments/loop/next-a70/RESULTS.md"],
+      "outputs": ["experiments/loop/next-a71/PROTOCOL.md"],
+      "instructions": "Recheck Claude and remain on codex/autonomous-research-a34. Use A70 attribution to choose one structural repair only if a large share is genuinely recoverable by grouping; otherwise pivot to a distinct OLR/retrieval/metadata gate. Consult and separately summarize primary literature/code for the selected hypothesis. Never retune A69 or open Test. Commit/push/checkpoint then continue immediately."
+    },
+    {
+      "id": "a70_diagnose_retry",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": ["a70_prepare"],
+      "inputs": ["scripts/diagnose_deep_failures_a70.py", "scripts/evaluate_transfer_a69.py", "experiments/loop/next-a70/PROTOCOL.md", "experiments/loop/next-a69/split.json", "experiments/loop/next-a69/predictions.json", "experiments/loop/next-a69/candidates.json", "experiments/loop/chronicling-a58/audit.json"],
+      "outputs": ["experiments/loop/next-a70/report-v2.json"],
+      "argv": ["/workspace/scratch/cecc4cd83a9f/a66-venv/bin/python", "scripts/diagnose_deep_failures_a70.py"],
+      "timeout_seconds": 120
     }
   ]
 }

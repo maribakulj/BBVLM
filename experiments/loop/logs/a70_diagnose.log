@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/cecc4cd83a9f/BBVLM/scripts/diagnose_deep_failures_a70.py", line 6, in <module>
+    from shapely.geometry import box
+ModuleNotFoundError: No module named 'shapely'
