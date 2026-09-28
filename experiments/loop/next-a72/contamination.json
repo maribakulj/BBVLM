@@ -1,0 +1,42 @@
+{
+  "status": "posthoc_consumed_oracle_contamination_audit",
+  "input_report_sha256": "a7a992a2aa159c135c682abeb61d20d6a1ca53a06a4302fde20f84ed82ec5e6e",
+  "pages": [
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "mask_positive_pixels": 1863116,
+      "reference_union_pixels": 1766439,
+      "intersection_pixels": 1564492,
+      "mask_inside_reference_fraction": 0.8397179778392757,
+      "reference_covered_fraction": 0.8856756446160892,
+      "mask_outside_reference_fraction": 0.1602820221607243,
+      "zero_contributor_count": 24,
+      "zero_contributor_min_coverage": 0.8230198772111118,
+      "zero_contributor_median_coverage": 0.8473476405658857,
+      "zero_contributor_ge50pct": 24,
+      "zero_contributor_ge80pct": 24,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "mask_positive_pixels": 3596367,
+      "reference_union_pixels": 4119416,
+      "intersection_pixels": 3488305,
+      "mask_inside_reference_fraction": 0.9699524547967435,
+      "reference_covered_fraction": 0.8467960021517613,
+      "mask_outside_reference_fraction": 0.030047545203256507,
+      "zero_contributor_count": 9,
+      "zero_contributor_min_coverage": 0.6962212892072116,
+      "zero_contributor_median_coverage": 0.812189283741484,
+      "zero_contributor_ge50pct": 9,
+      "zero_contributor_ge80pct": 5,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    }
+  ],
+  "interpretation": "High line recall with bounded but non-zero mask spill; not box precision.",
+  "limitations": [
+    "This post-hoc audit uses the consumed PAGE polygons and cannot validate generalization.",
+    "Polygon union precision is not object detection precision or ALTO box accuracy."
+  ],
+  "all_scientific_gates_passed": false
+}

@@ -350,3 +350,13 @@ Digital Archives) : repérage seulement, pas de lecture scientifique revendiqué
   de convention.
 - **Sources :** https://doi.org/10.1145/3604951.3605513 ;
   https://github.com/qurator-spk/eynollah .
+
+### Note A72 sur l'implémentation et les poids (pas un nouvel article)
+
+Le 28 septembre 2026, le code réellement pertinent d'Eynollah 0.9.2 a été lu :
+`do_prediction_new_concept`, `textline_contours`, le model zoo et les métadonnées
+du wheel. L'archive officielle Zenodo 21381102 (15 juillet 2026) a été inspectée
+et seul le SavedModel de lignes a été extrait. Les paramètres reproduits, les
+six SHA-256, la licence et les limites sont consignés séparément dans
+`next-a72/SOURCE_NOTES.md`. Cette note ne change pas le niveau de lecture de
+l'article HIP 2023 ci-dessus : abstract et métadonnées seulement.

@@ -1,0 +1,5205 @@
+{
+  "status": "consumed_textline_stage_diagnostic",
+  "implementation": "Eynollah 0.9.2 native textline SavedModel only",
+  "backend": "tensorflow-cpu 2.16.2 tf.saved_model.load",
+  "model_file_sha256": {
+    "config.json": "aac06e8f74e82812db2d2534034a434bfb162a0022d62d6815a92cf4c7ac9585",
+    "fingerprint.pb": "e1757519fac1208e1f2c6625a79e433762d57db48d399db69a1466f2cf560e46",
+    "keras_metadata.pb": "3c3f53339a7f5b7db6c3407ded7ccaa32a3cdf165ee801d332fa7f704d333ca2",
+    "saved_model.pb": "9b799e2510b5b144a7b94328b7e3b49b45edb1a74ec5e1f27473d6ad1a993825",
+    "variables/variables.data-00000-of-00001": "5da57fd65ecbdaf49657318740121600583de9b57774b96a854dc8957e9d8a15",
+    "variables/variables.index": "aeb2d2d226f27e26de38eb40ab4599b12e2b5fec89dacc290cc2b625631f1b5b"
+  },
+  "signature_output": "activation_55",
+  "pages": [
+    "Reichs_Post_Reuter_1700-11-16_0001",
+    "Koelnische_Zeitung_1924_0001"
+  ],
+  "image_audit": {
+    "Reichs_Post_Reuter_1700-11-16_0001": {
+      "image_sha256": "1e31dac036124db1285329272ed6ed9088c6c9c8f5bec7845e8b55ad4c1eb8da",
+      "shape": [
+        2894,
+        2000
+      ],
+      "resized_shape": [
+        2894,
+        2000
+      ],
+      "mask_sha256": "c984f9c820ffcfd8cfa82d4fc7e4f1d6b5e7ef68719eb8921edc48dfab80aac7",
+      "tiles": 24,
+      "seconds": 26.84697914499702,
+      "positive_pixels": 1863116
+    },
+    "Koelnische_Zeitung_1924_0001": {
+      "image_sha256": "1c532b2211d158517849cf0c516d73eba05bdb90f5cdc05470f34c5218e80944",
+      "shape": [
+        7230,
+        4959
+      ],
+      "resized_shape": [
+        2916,
+        2000
+      ],
+      "mask_sha256": "5829e2c75b482334bf498ef3513fb205a09026d644961709e2382d27f7742c63",
+      "tiles": 24,
+      "seconds": 25.98721261699393,
+      "positive_pixels": 3596367
+    }
+  },
+  "all_lines": 642,
+  "all_lines_hit_ge1pct": 642,
+  "zero_contributor_lines": 33,
+  "zero_contributor_hit_ge1pct": 33,
+  "zero_contributor_hit_ratio": 1.0,
+  "local_gate_ge50pct": true,
+  "rows": [
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "line_1733231823816_1015",
+      "coverage": 0.910100231303007,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "region_1726581838826_29_tl_0",
+      "coverage": 0.955566036387543,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "line_1733232764560_1054",
+      "coverage": 0.9542951320496844,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "line_1733232532448_1037",
+      "coverage": 0.9996911483105813,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_0",
+      "coverage": 0.8773001608452492,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_1",
+      "coverage": 0.8304724827464166,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_2",
+      "coverage": 0.8325428136589978,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_3",
+      "coverage": 0.8478039117129637,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_4",
+      "coverage": 0.8489270386266095,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_5",
+      "coverage": 0.8395655243904271,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_6",
+      "coverage": 0.8288794274843736,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_7",
+      "coverage": 0.843390008008378,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_8",
+      "coverage": 0.8415762220049057,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_9",
+      "coverage": 0.8323820511263587,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_10",
+      "coverage": 0.8230198772111118,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_11",
+      "coverage": 0.8327411902837712,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_12",
+      "coverage": 0.8459589793675986,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_13",
+      "coverage": 0.8468913694188077,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_14",
+      "coverage": 0.8306176917292124,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_15",
+      "coverage": 0.8614519427402862,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "line_1733233076555_1079",
+      "coverage": 0.8564798444130127,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_18",
+      "coverage": 0.9141262150531163,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583031417_210_tl_19",
+      "coverage": 0.9379575864680636,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583044906_215_tl_0",
+      "coverage": 0.909697217675941,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583044906_214_tl_0",
+      "coverage": 0.9103246864799862,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583044906_214_tl_1",
+      "coverage": 0.9030509036644006,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583044906_214_tl_2",
+      "coverage": 0.9149751879574461,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "TextRegion_1726583044906_214_tl_3",
+      "coverage": 0.9443452010025896,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0001",
+      "line_id": "line_1733232536442_1042",
+      "coverage": 0.9574998451724779,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_1",
+      "coverage": 0.8689860320744957,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_2",
+      "coverage": 0.7192939445942633,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_3",
+      "coverage": 0.6962212892072116,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_4",
+      "coverage": 0.812189283741484,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_5",
+      "coverage": 0.7969551830311324,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_6",
+      "coverage": 0.7426470588235294,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_7",
+      "coverage": 0.7206189878711836,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_8",
+      "coverage": 0.7071428571428572,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_9",
+      "coverage": 0.783083771752327,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_10",
+      "coverage": 0.7555421201128577,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_11",
+      "coverage": 0.7350839585566273,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_12",
+      "coverage": 0.692555476020043,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_13",
+      "coverage": 0.7444767939715705,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691676998352_40_tl_14",
+      "coverage": 0.7905838041431261,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677258178_52_tl_1",
+      "coverage": 0.6844504021447722,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677258178_52_tl_2",
+      "coverage": 0.7117794486215538,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677258178_52_tl_3",
+      "coverage": 0.6964992389649924,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677258178_52_tl_4",
+      "coverage": 0.6749394673123487,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677258178_52_tl_5",
+      "coverage": 0.7661740558292283,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "line_1737801530967_652",
+      "coverage": 0.9619656169176936,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677245976_48_tl_1",
+      "coverage": 0.8676271307324728,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677271170_56_tl_1",
+      "coverage": 0.8301401726143111,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677271170_56_tl_2",
+      "coverage": 0.8777825211929011,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677155782_44_tl_1",
+      "coverage": 0.8082450832072617,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "line_1737801367730_617",
+      "coverage": 0.8836904241364233,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677155782_44_tl_4",
+      "coverage": 0.7195876288659794,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677155782_44_tl_5",
+      "coverage": 0.7544022242817423,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677155782_44_tl_6",
+      "coverage": 0.7569258266309205,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677155782_44_tl_7",
+      "coverage": 0.750661853188929,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677155782_44_tl_8",
+      "coverage": 0.652991452991453,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677155782_44_tl_9",
+      "coverage": 0.8513323983169705,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677155782_44_tl_10",
+      "coverage": 0.7441747572815534,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677155782_44_tl_11",
+      "coverage": 0.7341437632135307,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677155782_44_tl_12",
+      "coverage": 0.8181343543334494,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677155782_44_tl_13",
+      "coverage": 0.6563847429519072,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677155782_44_tl_14",
+      "coverage": 0.7081657632453227,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677155782_44_tl_15",
+      "coverage": 0.7755602240896359,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677282060_60_tl_1",
+      "coverage": 0.6583239595050618,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677282060_60_tl_2",
+      "coverage": 0.7279818004549886,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677282060_60_tl_3",
+      "coverage": 0.713490099009901,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677282060_60_tl_4",
+      "coverage": 0.7056843679880329,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677282060_60_tl_5",
+      "coverage": 0.8088500903070439,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677309190_64_tl_1",
+      "coverage": 0.895827499299916,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677309190_64_tl_2",
+      "coverage": 0.873199556813985,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677309190_64_tl_3",
+      "coverage": 0.8159779614325069,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_1",
+      "coverage": 0.8249370277078085,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_2",
+      "coverage": 0.8354851080148281,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_3",
+      "coverage": 0.764751552795031,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_4",
+      "coverage": 0.7780406345672141,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_5",
+      "coverage": 0.8061805367308214,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_6",
+      "coverage": 0.8157111952406706,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_7",
+      "coverage": 0.8204434829637642,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_8",
+      "coverage": 0.8290575209289766,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_9",
+      "coverage": 0.7976759199483537,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_10",
+      "coverage": 0.8277631578947369,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_11",
+      "coverage": 0.8162098973892713,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_12",
+      "coverage": 0.8115092580258425,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_13",
+      "coverage": 0.7856398227782121,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_14",
+      "coverage": 0.79021979451164,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_15",
+      "coverage": 0.7848516671042268,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_16",
+      "coverage": 0.8019006826395395,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_17",
+      "coverage": 0.8043770139634802,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_18",
+      "coverage": 0.7799113737075333,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_19",
+      "coverage": 0.7981737612461394,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_20",
+      "coverage": 0.8087820598898885,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_21",
+      "coverage": 0.7913533834586466,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_22",
+      "coverage": 0.8105390185036203,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_23",
+      "coverage": 0.7967892976588629,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_24",
+      "coverage": 0.8159443552701979,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_25",
+      "coverage": 0.8363465916700147,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_26",
+      "coverage": 0.8021354237059062,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_27",
+      "coverage": 0.8172427493047278,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_28",
+      "coverage": 0.7975045489992202,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_29",
+      "coverage": 0.8202433628318584,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_30",
+      "coverage": 0.7954098360655738,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_31",
+      "coverage": 0.7948100588550027,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_32",
+      "coverage": 0.8350346565847511,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_33",
+      "coverage": 0.7574236721037223,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_34",
+      "coverage": 0.8629673049368243,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_35",
+      "coverage": 0.7732115677321156,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_36",
+      "coverage": 0.8425318409880355,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_37",
+      "coverage": 0.8100599681801494,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_38",
+      "coverage": 0.806007198709197,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_39",
+      "coverage": 0.8184456220035327,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_40",
+      "coverage": 0.822608913370055,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_41",
+      "coverage": 0.8327272727272728,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_42",
+      "coverage": 0.837985911818419,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_43",
+      "coverage": 0.8298850574712644,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_44",
+      "coverage": 0.8085269338779678,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_45",
+      "coverage": 0.8039089623248039,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_46",
+      "coverage": 0.7968651245101757,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_47",
+      "coverage": 0.8249102103642894,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_48",
+      "coverage": 0.798644238011549,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_49",
+      "coverage": 0.8058690744920993,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_50",
+      "coverage": 0.8210380796782707,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_51",
+      "coverage": 0.8171923314780458,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_52",
+      "coverage": 0.8015476190476191,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_53",
+      "coverage": 0.8121204905345875,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_54",
+      "coverage": 0.8165269461077844,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_55",
+      "coverage": 0.806847465946742,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_56",
+      "coverage": 0.8351648351648352,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_57",
+      "coverage": 0.7937873357228196,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_58",
+      "coverage": 0.8025798525798525,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_59",
+      "coverage": 0.8096684383700329,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_60",
+      "coverage": 0.8056608541824615,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_61",
+      "coverage": 0.8371972542416786,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_62",
+      "coverage": 0.8035857639818036,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_63",
+      "coverage": 0.8196678091220669,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_64",
+      "coverage": 0.8157072154206825,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_65",
+      "coverage": 0.828036904151717,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_66",
+      "coverage": 0.8103274559193955,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_67",
+      "coverage": 0.8222222222222222,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_68",
+      "coverage": 0.8244979418735188,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_69",
+      "coverage": 0.8000479214088895,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_70",
+      "coverage": 0.8092597058114299,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_71",
+      "coverage": 0.7826920771904591,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_72",
+      "coverage": 0.7828404619875619,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_73",
+      "coverage": 0.8041445539550164,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_74",
+      "coverage": 0.7957178841309823,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677362825_69_tl_75",
+      "coverage": 0.8545317220543807,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677473420_74_tl_1",
+      "coverage": 0.8521047917599641,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_1",
+      "coverage": 0.8533068125310791,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_2",
+      "coverage": 0.7970554638913567,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_3",
+      "coverage": 0.8104757085020243,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_4",
+      "coverage": 0.8072615384615385,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_5",
+      "coverage": 0.8097367113760556,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_6",
+      "coverage": 0.8145239246012567,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_7",
+      "coverage": 0.8072047194678047,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_8",
+      "coverage": 0.819910514541387,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_9",
+      "coverage": 0.8067143915082695,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_10",
+      "coverage": 0.8289376386492482,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_11",
+      "coverage": 0.819868196241152,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_12",
+      "coverage": 0.8176652254478073,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_13",
+      "coverage": 0.807658725208931,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_14",
+      "coverage": 0.796875,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_15",
+      "coverage": 0.800374531835206,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_16",
+      "coverage": 0.807169187746282,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_17",
+      "coverage": 0.8162570888468809,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_18",
+      "coverage": 0.8013911315364551,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_19",
+      "coverage": 0.7959234095120444,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_20",
+      "coverage": 0.8057670702783672,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_21",
+      "coverage": 0.8019221168247629,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_22",
+      "coverage": 0.8087506197322757,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_23",
+      "coverage": 0.8330432620586773,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_24",
+      "coverage": 0.8139074486513239,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_25",
+      "coverage": 0.8071498054474708,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_26",
+      "coverage": 0.8016696180116367,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_27",
+      "coverage": 0.8626933232742361,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_28",
+      "coverage": 0.8178621659634318,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_29",
+      "coverage": 0.7953967446592065,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_30",
+      "coverage": 0.8068374003382459,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_31",
+      "coverage": 0.8141135972461274,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_32",
+      "coverage": 0.8230952083072689,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_33",
+      "coverage": 0.8404015056461731,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_34",
+      "coverage": 0.8059719535783365,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_35",
+      "coverage": 0.8207141980611118,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_36",
+      "coverage": 0.8362766740250184,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_37",
+      "coverage": 0.8198958074919375,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_38",
+      "coverage": 0.8106450821682609,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_39",
+      "coverage": 0.8225247524752475,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_40",
+      "coverage": 0.7970506466819776,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_41",
+      "coverage": 0.8023127075901095,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_42",
+      "coverage": 0.8236309817464232,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_43",
+      "coverage": 0.8077970297029703,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_44",
+      "coverage": 0.8116923076923077,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_45",
+      "coverage": 0.8147640980953567,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_46",
+      "coverage": 0.8032564450474898,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_47",
+      "coverage": 0.8088235294117647,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_48",
+      "coverage": 0.822435737459446,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_49",
+      "coverage": 0.8170212765957446,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_50",
+      "coverage": 0.80480370641307,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_51",
+      "coverage": 0.8159722222222222,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_52",
+      "coverage": 0.8233219844357976,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_53",
+      "coverage": 0.8314958656978201,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_54",
+      "coverage": 0.8362068965517241,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_55",
+      "coverage": 0.8169462470919554,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_56",
+      "coverage": 0.8246635140050927,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_57",
+      "coverage": 0.861922657291793,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_58",
+      "coverage": 0.8265832106038291,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_59",
+      "coverage": 0.7893164435946463,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_60",
+      "coverage": 0.8308234151080884,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_61",
+      "coverage": 0.8174717615957703,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_62",
+      "coverage": 0.8126452244099303,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_63",
+      "coverage": 0.819156896981791,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_64",
+      "coverage": 0.8061489072725028,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691677530283_82_tl_65",
+      "coverage": 0.8571962151394422,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679031855_22_tl_1",
+      "coverage": 0.8520609083749016,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679031855_22_tl_2",
+      "coverage": 0.8664787976382179,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "line_1737990978458_40",
+      "coverage": 0.8497393437595829,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_1",
+      "coverage": 0.875761421319797,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_2",
+      "coverage": 0.8089581786686464,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_3",
+      "coverage": 0.806467478175335,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_4",
+      "coverage": 0.7603579308654081,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_5",
+      "coverage": 0.7816987101484546,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_6",
+      "coverage": 0.8168444280985656,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_7",
+      "coverage": 0.8213231677324152,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_8",
+      "coverage": 0.819306330341984,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_9",
+      "coverage": 0.8365950458464486,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_10",
+      "coverage": 0.7864800100895447,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_11",
+      "coverage": 0.7881481481481482,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_12",
+      "coverage": 0.80926737633062,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_13",
+      "coverage": 0.7838364167478091,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_14",
+      "coverage": 0.7722178785509513,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_15",
+      "coverage": 0.7735132302855646,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_16",
+      "coverage": 0.8084296218487395,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_17",
+      "coverage": 0.8216351209253417,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_18",
+      "coverage": 0.8125491223473933,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_19",
+      "coverage": 0.8070609692548202,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_20",
+      "coverage": 0.7986699700091276,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_21",
+      "coverage": 0.7943781286099345,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_22",
+      "coverage": 0.8121315341281279,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_23",
+      "coverage": 0.7911976729480208,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_24",
+      "coverage": 0.7711321721311475,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_25",
+      "coverage": 0.7988812280473526,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_26",
+      "coverage": 0.7979015334947538,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_27",
+      "coverage": 0.7789757412398922,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_28",
+      "coverage": 0.7960862520254269,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_29",
+      "coverage": 0.7927619047619048,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_30",
+      "coverage": 0.7848672338231503,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_31",
+      "coverage": 0.7893221669719969,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_32",
+      "coverage": 0.807843137254902,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_33",
+      "coverage": 0.7937915742793792,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_34",
+      "coverage": 0.8059545573256724,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_35",
+      "coverage": 0.7963398692810457,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_36",
+      "coverage": 0.7940837495197849,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_37",
+      "coverage": 0.8022035676810073,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_38",
+      "coverage": 0.7904588587027167,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_39",
+      "coverage": 0.816225381505152,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_40",
+      "coverage": 0.779650902580934,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_41",
+      "coverage": 0.7659654868371332,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_42",
+      "coverage": 0.7774061687105165,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_43",
+      "coverage": 0.785218253968254,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_44",
+      "coverage": 0.793002915451895,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_45",
+      "coverage": 0.7737750346391233,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_46",
+      "coverage": 0.7845608507286334,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_47",
+      "coverage": 0.8555381400208987,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_48",
+      "coverage": 0.7386934673366834,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_49",
+      "coverage": 0.7900515044727568,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_50",
+      "coverage": 0.7981337889341569,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_51",
+      "coverage": 0.7957116548276769,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_52",
+      "coverage": 0.8389685567688462,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_53",
+      "coverage": 0.8413355408388521,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_54",
+      "coverage": 0.8294964914440478,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_55",
+      "coverage": 0.8591652428606297,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_56",
+      "coverage": 0.8431632161771786,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_57",
+      "coverage": 0.8382283834586466,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_58",
+      "coverage": 0.8475809385230993,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_59",
+      "coverage": 0.8367544071480318,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_60",
+      "coverage": 0.8501478415138971,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_15_tl_61",
+      "coverage": 0.8165887850467289,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972377131_14_tl_1",
+      "coverage": 0.8962946722210041,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_1",
+      "coverage": 0.9082685692444897,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_2",
+      "coverage": 0.7942381721097728,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_3",
+      "coverage": 0.7701741476575914,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_4",
+      "coverage": 0.8146509341199607,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_5",
+      "coverage": 0.8363774733637748,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_6",
+      "coverage": 0.7845370494439233,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_7",
+      "coverage": 0.8139019300991132,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_8",
+      "coverage": 0.809207094418362,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_9",
+      "coverage": 0.8190276503734766,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_10",
+      "coverage": 0.8104933437744715,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_11",
+      "coverage": 0.8103092783505155,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_12",
+      "coverage": 0.7937708279928224,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_13",
+      "coverage": 0.7847831536725997,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_14",
+      "coverage": 0.7901584439005539,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_15",
+      "coverage": 0.792488860598345,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_16",
+      "coverage": 0.795766366130929,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_17",
+      "coverage": 0.8052740971680956,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_18",
+      "coverage": 0.8284891332809636,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_19",
+      "coverage": 0.8043944942543251,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_20",
+      "coverage": 0.801192590713017,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_21",
+      "coverage": 0.8207857049008015,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_22",
+      "coverage": 0.800375,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_23",
+      "coverage": 0.8070507960576194,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_24",
+      "coverage": 0.7905779379585532,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_25",
+      "coverage": 0.7915021108538745,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_26",
+      "coverage": 0.7850991649269311,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_27",
+      "coverage": 0.8018710752274766,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_28",
+      "coverage": 0.7407310362897943,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_29",
+      "coverage": 0.7911734431291817,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_30",
+      "coverage": 0.7907007033081531,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_31",
+      "coverage": 0.8050659355007181,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_32",
+      "coverage": 0.7954456733897203,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_33",
+      "coverage": 0.7987503254360844,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_34",
+      "coverage": 0.8071586045908442,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_35",
+      "coverage": 0.8214426487977927,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_36",
+      "coverage": 0.8054651919323357,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_37",
+      "coverage": 0.8014828071072478,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_38",
+      "coverage": 0.8077275703994761,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_39",
+      "coverage": 0.7950037660055235,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_40",
+      "coverage": 0.7991083136637818,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_41",
+      "coverage": 0.7801632140615191,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_42",
+      "coverage": 0.7810499359795134,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_43",
+      "coverage": 0.7868350554917719,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_44",
+      "coverage": 0.7842260002556564,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_45",
+      "coverage": 0.7842271293375395,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_46",
+      "coverage": 0.8102329133256968,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_47",
+      "coverage": 0.8019957983193278,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_48",
+      "coverage": 0.7835577048751797,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_49",
+      "coverage": 0.7871422971383771,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_50",
+      "coverage": 0.7913009301716232,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_51",
+      "coverage": 0.807677191143718,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_52",
+      "coverage": 0.8076671464084784,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_53",
+      "coverage": 0.8112911657083115,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_54",
+      "coverage": 0.794855305466238,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_55",
+      "coverage": 0.810688989053445,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_56",
+      "coverage": 0.7727903164796369,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_57",
+      "coverage": 0.8291483303132281,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972480854_35_tl_58",
+      "coverage": 0.8360323886639676,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_41_tl_1",
+      "coverage": 0.9226620909425175,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_1",
+      "coverage": 0.8056325023084026,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_2",
+      "coverage": 0.7920663114268798,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_3",
+      "coverage": 0.7902754082378747,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_4",
+      "coverage": 0.7985744131743886,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_5",
+      "coverage": 0.8038953134510043,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_6",
+      "coverage": 0.8349194729136163,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_7",
+      "coverage": 0.7912446152054954,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_8",
+      "coverage": 0.8029966054079363,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_9",
+      "coverage": 0.8059031877213695,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_10",
+      "coverage": 0.8148367952522255,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_11",
+      "coverage": 0.8170444692183823,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_12",
+      "coverage": 0.7858672376873662,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_13",
+      "coverage": 0.7934757099272471,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_14",
+      "coverage": 0.798676293622142,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_15",
+      "coverage": 0.7948280761579994,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_16",
+      "coverage": 0.7941891718929989,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_17",
+      "coverage": 0.7893357788549719,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_18",
+      "coverage": 0.7800682773109243,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_19",
+      "coverage": 0.7968524590163935,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_20",
+      "coverage": 0.8148196721311476,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_21",
+      "coverage": 0.7958916655763444,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_22",
+      "coverage": 0.8101663828114765,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_23",
+      "coverage": 0.8187752970361666,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_24",
+      "coverage": 0.8168478972880912,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_25",
+      "coverage": 0.7683065638042241,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_26",
+      "coverage": 0.7845569620253164,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_27",
+      "coverage": 0.7583945435466947,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_28",
+      "coverage": 0.7630631748789872,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "TextRegion_1713972517207_40_tl_29",
+      "coverage": 0.8624822786441552,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678392964_3_tl_1",
+      "coverage": 0.8537758373695341,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "line_1738050756951_152",
+      "coverage": 0.9200338894681961,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678560822_10_tl_1",
+      "coverage": 0.8610061064262867,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_1",
+      "coverage": 0.8238083034341364,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_2",
+      "coverage": 0.7981167608286253,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_3",
+      "coverage": 0.8282246966095334,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_4",
+      "coverage": 0.7993362569633756,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_5",
+      "coverage": 0.7998295385364665,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_6",
+      "coverage": 0.8078908554572272,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_7",
+      "coverage": 0.8096367494694795,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_8",
+      "coverage": 0.7949142519219397,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_9",
+      "coverage": 0.7880794701986755,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_10",
+      "coverage": 0.8093435836782968,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_11",
+      "coverage": 0.8175147928994083,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_12",
+      "coverage": 0.8141891891891891,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_13",
+      "coverage": 0.7764063612627581,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_14",
+      "coverage": 0.8187878039748179,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_15",
+      "coverage": 0.7911475020766584,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_16",
+      "coverage": 0.8079510703363915,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_17",
+      "coverage": 0.8073739653875094,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_18",
+      "coverage": 0.8149216300940438,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_19",
+      "coverage": 0.8288401253918495,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_20",
+      "coverage": 0.8330009970089731,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_21",
+      "coverage": 0.8060489678348536,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_22",
+      "coverage": 0.8287069988137604,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_23",
+      "coverage": 0.8257852447041636,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_24",
+      "coverage": 0.8404346233671103,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_25",
+      "coverage": 0.8058030339513604,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_26",
+      "coverage": 0.8281419122068551,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_27",
+      "coverage": 0.826200977470497,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_28",
+      "coverage": 0.810784071234232,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_29",
+      "coverage": 0.8139621702339472,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_30",
+      "coverage": 0.7874501269495828,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_31",
+      "coverage": 0.7923613574553624,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_32",
+      "coverage": 0.8089820359281437,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_33",
+      "coverage": 0.7951705910619894,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_34",
+      "coverage": 0.8166111316796248,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_35",
+      "coverage": 0.8127949659150498,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_36",
+      "coverage": 0.7820684614447557,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_37",
+      "coverage": 0.8040607872446437,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_38",
+      "coverage": 0.8246138515196811,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_39",
+      "coverage": 0.82911629066434,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_40",
+      "coverage": 0.8025964571705897,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_41",
+      "coverage": 0.8181818181818182,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_42",
+      "coverage": 0.8107782990496812,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_43",
+      "coverage": 0.7899096385542169,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_44",
+      "coverage": 0.7911344853493614,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_45",
+      "coverage": 0.7953663118346901,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_46",
+      "coverage": 0.7969424238688201,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_47",
+      "coverage": 0.8095411950833638,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_48",
+      "coverage": 0.7948286229705351,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_49",
+      "coverage": 0.8126485972420352,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_50",
+      "coverage": 0.8182258259711969,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_51",
+      "coverage": 0.8155013684996267,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_52",
+      "coverage": 0.7986900642609985,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_53",
+      "coverage": 0.7971470019342359,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_54",
+      "coverage": 0.7922139957009792,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_55",
+      "coverage": 0.8115202333211812,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_56",
+      "coverage": 0.8295296936073635,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_57",
+      "coverage": 0.8206097253716301,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_58",
+      "coverage": 0.8399492707672797,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_59",
+      "coverage": 0.8244274809160306,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_60",
+      "coverage": 0.8231108930323847,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_61",
+      "coverage": 0.7951628825271471,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_62",
+      "coverage": 0.8095812718716061,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_63",
+      "coverage": 0.8397443929332163,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_64",
+      "coverage": 0.8408258001465917,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_65",
+      "coverage": 0.8261026753434563,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_66",
+      "coverage": 0.8300492610837439,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_67",
+      "coverage": 0.8284789644012945,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_68",
+      "coverage": 0.8115222249813757,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_69",
+      "coverage": 0.8130622304374615,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_70",
+      "coverage": 0.8171511277288627,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_71",
+      "coverage": 0.800453514739229,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_72",
+      "coverage": 0.827494883832912,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_73",
+      "coverage": 0.8203564166965674,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_74",
+      "coverage": 0.8296888666749969,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_75",
+      "coverage": 0.8518102372034956,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_76",
+      "coverage": 0.7993480622962694,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_77",
+      "coverage": 0.796298493296951,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_78",
+      "coverage": 0.8027161392021341,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_79",
+      "coverage": 0.820063306549793,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_80",
+      "coverage": 0.8370490981963928,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_81",
+      "coverage": 0.8209068010075566,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_82",
+      "coverage": 0.8122439141961919,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_83",
+      "coverage": 0.8176659264742167,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_84",
+      "coverage": 0.8055821753713465,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_85",
+      "coverage": 0.815323455005421,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_86",
+      "coverage": 0.806459721000377,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_87",
+      "coverage": 0.7974636329727713,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_88",
+      "coverage": 0.7973935079039459,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_89",
+      "coverage": 0.8022922636103151,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_90",
+      "coverage": 0.8033254156769596,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_91",
+      "coverage": 0.8146656905807711,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_92",
+      "coverage": 0.8213390170511534,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_93",
+      "coverage": 0.8119391824526421,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_94",
+      "coverage": 0.7981026514230114,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_95",
+      "coverage": 0.7987185686653772,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_96",
+      "coverage": 0.7841388453657948,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678573174_13_tl_97",
+      "coverage": 0.851548502687484,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_1",
+      "coverage": 0.797204512015694,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "line_1738051365217_273",
+      "coverage": 0.7809787849566056,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "line_1738051377777_277",
+      "coverage": 0.7859857482185273,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_6",
+      "coverage": 0.8139798488664988,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_7",
+      "coverage": 0.8046618914653393,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_8",
+      "coverage": 0.8124925068936578,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_9",
+      "coverage": 0.8075015124016939,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_10",
+      "coverage": 0.7715148465022648,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "line_1738051410899_287",
+      "coverage": 0.7900714202084065,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "line_1738051424488_292",
+      "coverage": 0.7923655292076345,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "line_1738051428681_297",
+      "coverage": 0.792303273980471,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_17",
+      "coverage": 0.7803599094267668,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_18",
+      "coverage": 0.7903448275862069,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "line_1738051452924_305",
+      "coverage": 0.7818471337579618,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_21",
+      "coverage": 0.8078996865203761,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_22",
+      "coverage": 0.815980024968789,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_23",
+      "coverage": 0.8225482819162278,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_24",
+      "coverage": 0.8005515858092015,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_25",
+      "coverage": 0.7730460921843687,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_26",
+      "coverage": 0.8138138138138138,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_27",
+      "coverage": 0.8059908748264233,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_28",
+      "coverage": 0.7945945945945946,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_29",
+      "coverage": 0.8254745866503368,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_30",
+      "coverage": 0.8187663729459395,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_31",
+      "coverage": 0.7691050779286074,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_32",
+      "coverage": 0.803057446554401,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_33",
+      "coverage": 0.7969122630852266,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_34",
+      "coverage": 0.8392408245349422,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_35",
+      "coverage": 0.8238820884336747,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_36",
+      "coverage": 0.789192546583851,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_37",
+      "coverage": 0.79867419592438,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_38",
+      "coverage": 0.8253828772282199,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_39",
+      "coverage": 0.8231241387949393,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_40",
+      "coverage": 0.8456149130489178,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_41",
+      "coverage": 0.8270257444536718,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_42",
+      "coverage": 0.8,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_43",
+      "coverage": 0.8006242197253434,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_44",
+      "coverage": 0.8342914271432142,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_45",
+      "coverage": 0.8238671826238921,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_46",
+      "coverage": 0.8311398063074249,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_47",
+      "coverage": 0.815770779067014,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_48",
+      "coverage": 0.797378277153558,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_49",
+      "coverage": 0.7975834578973593,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_50",
+      "coverage": 0.8066733316670832,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_51",
+      "coverage": 0.828366514158526,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_52",
+      "coverage": 0.795017793594306,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_53",
+      "coverage": 0.7966262770254218,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_54",
+      "coverage": 0.8073329390892963,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_55",
+      "coverage": 0.8221111805121799,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_56",
+      "coverage": 0.8123984501937258,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_57",
+      "coverage": 0.8045277507302824,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_58",
+      "coverage": 0.8004029868436648,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_59",
+      "coverage": 0.798719772403983,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_60",
+      "coverage": 0.8000476928579945,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_61",
+      "coverage": 0.8020520520520521,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_62",
+      "coverage": 0.8086836836836837,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_63",
+      "coverage": 0.7681365576102418,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_64",
+      "coverage": 0.7941104891701144,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_65",
+      "coverage": 0.780198262146616,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_66",
+      "coverage": 0.7987585350713843,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "line_1738051685046_360",
+      "coverage": 0.7957105200095854,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "line_1738051691686_365",
+      "coverage": 0.8021164021164021,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_71",
+      "coverage": 0.805824039653036,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_72",
+      "coverage": 0.8007860476541391,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "line_1738051697037_370",
+      "coverage": 0.782525149768283,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_75",
+      "coverage": 0.796875,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_76",
+      "coverage": 0.826076076076076,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_77",
+      "coverage": 0.8025396825396826,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_78",
+      "coverage": 0.8191877279014208,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_79",
+      "coverage": 0.833271991166728,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_80",
+      "coverage": 0.8248967551622419,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_81",
+      "coverage": 0.8053586447194521,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_82",
+      "coverage": 0.8143143143143143,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_83",
+      "coverage": 0.8301369863013699,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_84",
+      "coverage": 0.7976560631427888,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_85",
+      "coverage": 0.8065585414940215,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_86",
+      "coverage": 0.8085055832739368,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_87",
+      "coverage": 0.8122969257685578,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_88",
+      "coverage": 0.8173977328733366,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_89",
+      "coverage": 0.8103716095112917,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_90",
+      "coverage": 0.8007340753019181,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_91",
+      "coverage": 0.8093246401771436,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_92",
+      "coverage": 0.8106445890005913,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_93",
+      "coverage": 0.8028028028028028,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_94",
+      "coverage": 0.8215450213192876,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_95",
+      "coverage": 0.8330830830830831,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_96",
+      "coverage": 0.7978697052266535,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_97",
+      "coverage": 0.7915415415415415,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_98",
+      "coverage": 0.8257053291536051,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_99",
+      "coverage": 0.8173693086003373,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_100",
+      "coverage": 0.7977000123655249,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_101",
+      "coverage": 0.8090434369807737,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_102",
+      "coverage": 0.8115170278637771,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_103",
+      "coverage": 0.8060796645702306,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_104",
+      "coverage": 0.807879970724567,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_105",
+      "coverage": 0.7951531227393296,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_106",
+      "coverage": 0.8068898592916061,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_107",
+      "coverage": 0.8264227159320423,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691678712190_17_tl_108",
+      "coverage": 0.868603916614024,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_1",
+      "coverage": 0.864954128440367,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_2",
+      "coverage": 0.7943010884187355,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_3",
+      "coverage": 0.8183736809435134,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_4",
+      "coverage": 0.8072493635592193,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_5",
+      "coverage": 0.8117575015309246,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_6",
+      "coverage": 0.8103362391033624,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_7",
+      "coverage": 0.8056795634920635,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_8",
+      "coverage": 0.8197211155378487,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_9",
+      "coverage": 0.8007196922695123,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_10",
+      "coverage": 0.7972061657032755,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_11",
+      "coverage": 0.8077960284383428,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_12",
+      "coverage": 0.8190785516660652,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_13",
+      "coverage": 0.8020335849637961,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_14",
+      "coverage": 0.815639564992232,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_15",
+      "coverage": 0.814174378957623,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_16",
+      "coverage": 0.8048232651613666,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_17",
+      "coverage": 0.8167911775168979,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_18",
+      "coverage": 0.8145219266714594,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_19",
+      "coverage": 0.8248184322564488,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_20",
+      "coverage": 0.8287816435964585,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_21",
+      "coverage": 0.7997621878715815,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_22",
+      "coverage": 0.8109683559362361,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_23",
+      "coverage": 0.7993665489097332,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_24",
+      "coverage": 0.8120976557755375,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_25",
+      "coverage": 0.793045361569005,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_26",
+      "coverage": 0.8096856414613424,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_27",
+      "coverage": 0.7997389963222209,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_28",
+      "coverage": 0.8113252438734238,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_29",
+      "coverage": 0.8004700643245918,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_30",
+      "coverage": 0.8009044243461256,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_31",
+      "coverage": 0.7916716382293283,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_32",
+      "coverage": 0.8029411764705883,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_33",
+      "coverage": 0.7994171928120447,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_34",
+      "coverage": 0.8224655511811023,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_35",
+      "coverage": 0.8154522153057489,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_36",
+      "coverage": 0.795083932853717,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_37",
+      "coverage": 0.8002379535990481,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_38",
+      "coverage": 0.8055927051671733,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679278065_34_tl_39",
+      "coverage": 0.862434554973822,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679351778_38_tl_1",
+      "coverage": 0.8230836128711642,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679351778_38_tl_2",
+      "coverage": 0.7892835641180012,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679351778_38_tl_3",
+      "coverage": 0.8324697754749568,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": true,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679401303_42_tl_1",
+      "coverage": 0.8096676737160121,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679401303_42_tl_2",
+      "coverage": 0.9572908181077622,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_1",
+      "coverage": 0.8561186049337708,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_2",
+      "coverage": 0.8373834069710359,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_3",
+      "coverage": 0.821015585721468,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_4",
+      "coverage": 0.8069931835395102,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_5",
+      "coverage": 0.8195979899497488,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_6",
+      "coverage": 0.8221915054033677,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_7",
+      "coverage": 0.8171665202660309,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_8",
+      "coverage": 0.8280262518230432,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_9",
+      "coverage": 0.8388607101053454,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_10",
+      "coverage": 0.9467348097671777,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_11",
+      "coverage": 0.8123716322339012,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_12",
+      "coverage": 0.8109300330841809,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_13",
+      "coverage": 0.8018495684340321,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_14",
+      "coverage": 0.7879850114831379,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_15",
+      "coverage": 0.7868968779564806,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_16",
+      "coverage": 0.7950829748002458,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_17",
+      "coverage": 0.7881653934764157,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_18",
+      "coverage": 0.7870036101083032,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_19",
+      "coverage": 0.7955422736894534,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_20",
+      "coverage": 0.7712746858168761,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_21",
+      "coverage": 0.7776583034647551,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_22",
+      "coverage": 0.7739843367596672,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_23",
+      "coverage": 0.7902757619738752,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_24",
+      "coverage": 0.8112949371812415,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_25",
+      "coverage": 0.8080434246237355,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_26",
+      "coverage": 0.7883464943766452,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_27",
+      "coverage": 0.801094890510949,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_28",
+      "coverage": 0.7873254564983888,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_29",
+      "coverage": 0.8043023970497849,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_30",
+      "coverage": 0.8354630643787271,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0001",
+      "line_id": "region_1691679492130_46_tl_31",
+      "coverage": 0.8469350743561842,
+      "hit_ge1pct": true,
+      "a70_zero_contributor": false,
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef"
+    }
+  ],
+  "detector_forwards": 48,
+  "vlm_calls": 0,
+  "ocr_calls": 0,
+  "test_pages_opened": 0,
+  "seconds": 65.03533757900004,
+  "all_scientific_gates_passed": false,
+  "limitations": [
+    "Consumed pages and oracle-selected residuals.",
+    "A 1% mask hit is line recall, not an ALTO box.",
+    "PAGE line polygons and a single threshold are not perfect truth."
+  ]
+}

@@ -981,5 +981,22 @@
     "vlm_readers": 1,
     "test_pages_opened": 0,
     "global_completion": false
+  },
+  "eynollah_textline_a72": {
+    "status": "completed_consumed_textline_recall_diagnostic",
+    "protocol": "next-a72/PROTOCOL.md",
+    "protocol_amendment": "next-a72/PROTOCOL_AMENDMENT.md",
+    "report": "next-a72/report.json",
+    "contamination": "next-a72/contamination.json",
+    "results": "next-a72/RESULTS.md",
+    "pages": 2,
+    "lines": 642,
+    "zero_contributor_lines": 33,
+    "zero_contributor_hit_ge1pct": 33,
+    "detector_forwards": 48,
+    "cpu_seconds": 65.03533757900004,
+    "local_gate_passed": true,
+    "test_pages_opened": 0,
+    "global_completion": false
   }
 }

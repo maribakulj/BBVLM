@@ -172,3 +172,13 @@ aveugles aux alternatives. Ils s'accordent à 0 % dans la nouvelle vue retrieval
 également insensible aux accents, mais restent à 0,5168 % contre la référence
 immuable, qui contient plusieurs erreurs probables. Ce consensus ne remplace
 pas une adjudication humaine et ne constitue pas un CER indépendant.
+
+## A72 — rappel pixelwise ciblé
+
+Le seul modèle de lignes Eynollah 0.9.2, sans page/régions/OCR/OLR, récupère
+33/33 lignes sans contributeur YOLO sur deux pages consommées et touche 642/642
+lignes à au moins 1 %. La couverture minimale de ces 33 résidus est 69,62 %.
+Le coût observé est 65,04 s CPU pour 48 tuiles. L'audit oracle post-hoc mesure
+3,00 % à 16,03 % des pixels de masque hors de l'union des lignes PAGE selon la
+page. Ce résultat justifie une proposition dense sélective, pas des boîtes ALTO
+parfaites ni une promotion : une nouvelle validation diverse doit être gelée.

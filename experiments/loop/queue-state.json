@@ -460,7 +460,76 @@
       "ended_at": 1790605482.1234279
     },
     "a72_prepare": {
+      "status": "completed",
+      "started_at": 1790606100.6849973,
+      "fingerprint": "934d1f49fedd3fb0604f96a30fc9cb521f97d86088178199f2e82caccfc51070",
+      "actor": "codex-root",
+      "token": "1f287ba981c240878239901698e70ba0",
+      "outputs": {
+        "experiments/loop/next-a72/PROTOCOL.md": "dd91079e9c54506d951052ee58b03594f933d1290d67da4bf01de100363e97ec"
+      },
+      "ended_at": 1790606598.8125234
+    },
+    "a72_textline": {
+      "status": "failed",
+      "started_at": 1790606599.1063979,
+      "fingerprint": "dc987fce6fdd2c67d38e79e03e2f7a5f0ff3d3b84d63c939363c8b700baaef6c",
+      "pid": 7,
+      "log": "experiments/loop/logs/a72_textline.log",
+      "returncode": 1,
+      "reason": "command exited nonzero",
+      "ended_at": 1790606599.5041344
+    },
+    "a73_prepare": {
       "status": "pending"
+    },
+    "a72_textline_retry": {
+      "status": "failed",
+      "started_at": 1790606654.6014645,
+      "fingerprint": "d0cbe9e09b0b5d0179ccdb73b1d43afcbccc749fbb833427050a16b5a31f4084",
+      "pid": 6,
+      "log": "experiments/loop/logs/a72_textline_retry.log",
+      "returncode": 1,
+      "reason": "command exited nonzero",
+      "ended_at": 1790606661.9886558
+    },
+    "a72_textline_retry2": {
+      "status": "failed",
+      "started_at": 1790606692.373729,
+      "fingerprint": "eda7f054b5468361370819934814a4821b1742f896be6e2a7c78fac0db306734",
+      "pid": 6,
+      "log": "experiments/loop/logs/a72_textline_retry2.log",
+      "reason": "Policy layer killed the process after an unnecessary telemetry connection attempt; PID absent and no declared outputs existed on inspection. Retry3 disables ORT telemetry explicitly before local inference."
+    },
+    "a72_textline_retry3": {
+      "status": "failed",
+      "started_at": 1790606790.3884451,
+      "fingerprint": "3dda56199a98157daff0d31a9a381d44a964df87e01af4a7b8f4f58f23e734b3",
+      "pid": 5,
+      "log": "experiments/loop/logs/a72_textline_retry3.log",
+      "reason": "Second ONNX Runtime attempt was rejected after another unnecessary telemetry connection; recorded PID was absent and no declared output existed. Backend abandoned. Retry4 uses the matching native SavedModel through local TensorFlow CPU."
+    },
+    "a72_textline_retry4": {
+      "status": "completed",
+      "started_at": 1790607100.0,
+      "actor": "codex-root",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a72/report.json": "a7a992a2aa159c135c682abeb61d20d6a1ca53a06a4302fde20f84ed82ec5e6e",
+        "experiments/loop/next-a72/Reichs_Post_Reuter_1700-11-16_0001-textline-mask.png": "c984f9c820ffcfd8cfa82d4fc7e4f1d6b5e7ef68719eb8921edc48dfab80aac7",
+        "experiments/loop/next-a72/Koelnische_Zeitung_1924_0001-textline-mask.png": "5829e2c75b482334bf498ef3513fb205a09026d644961709e2382d27f7742c63"
+      },
+      "ended_at": 1790607681.0524507
+    },
+    "a72_contamination": {
+      "status": "completed",
+      "started_at": 1790607679.9,
+      "actor": "codex-root",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a72/contamination.json": "56f90e9b04bea1da0483ee663b0f5f8a8eea07bf4071014c2613ba3af9929c96"
+      },
+      "ended_at": 1790607681.0524507
     }
   },
   "a66_reference_append_recovery": {

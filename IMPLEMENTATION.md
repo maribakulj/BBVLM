@@ -674,3 +674,19 @@ consommées, elle réduit fortement l'aire ajoutée mais pas proportionnellement
 l'intrusion dans d'autres régions annotées. Elle reste donc un candidat de
 transfert, pas une valeur par défaut. Ne jamais interpréter sa connectivité
 comme une ownership d'article ou de région ALTO.
+
+## A72 — Eynollah limité au modèle de lignes
+
+`evaluate_eynollah_textline_keras_a72.py` charge uniquement le SavedModel
+officiel `modelens_textline_0_1__2_4_16092024`. Il vérifie les six fichiers,
+redimensionne à 2000 px, reproduit les tuiles 672 px et la fenêtre de recouvrement
+du code Eynollah, puis persiste le masque avant d'ouvrir les polygones PAGE.
+`analyze_eynollah_contamination_a72.py` calcule séparément l'intersection avec
+l'union oracle et marque cette mesure post-hoc. `fetch_eynollah_textline_a72.py`
+restaure seulement ce modèle depuis Zenodo par accès partiel à l'archive.
+
+Le résultat 33/33 sur les absences YOLO montre que le défaut A70 est accessible
+à un signal dense. Il ne faut pas convertir directement tout le masque en ALTO :
+la page 1700 a 16,03 % de pixels positifs hors union des lignes annotées. L'étape
+suivante doit produire des propositions de composantes/bandes uniquement dans
+les vides YOLO, puis mesurer rappel, contamination et coût sur un gel divers.

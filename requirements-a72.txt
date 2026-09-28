@@ -1,0 +1,5 @@
+# A72 native Eynollah textline stage, CPU-only. Public model is restored separately.
+tensorflow-cpu==2.16.2
+opencv-python-headless==4.11.0.86
+shapely==2.1.1
+remotezip==0.12.6

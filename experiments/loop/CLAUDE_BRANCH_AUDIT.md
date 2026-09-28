@@ -111,3 +111,16 @@ Avant l'audit visuel, Claude a été recontrôlé à
 `80d1c7ebb4ffa2a10f09b57e363ba8c9282b136c` et master à
 `60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Aucun fichier concurrent importé,
 aucun merge, aucune écriture sur master/main et aucun force-push.
+
+## A72 — 2026-09-28
+Avant l'hypothèse Eynollah ciblée, Claude était encore à
+`76056c5c1957e0de4232f0aef1f6cbc7f2893402`, inchangé. Le parent Codex était
+`d6fa389b6e4a2c26b5e3e1518cd9e565a60e8029` et master restait
+`60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Aucun code concurrent importé,
+aucun merge et aucune écriture hors `codex/autonomous-research-a34`.
+
+## A73 — 2026-09-28
+Après A72 et avant de définir son routeur, Claude a été recontrôlé au même head
+`76056c5c1957e0de4232f0aef1f6cbc7f2893402`. Il n'y a donc aucune nouveauté à
+examiner ou réutiliser. Master est toujours
+`60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`; aucun merge/main.

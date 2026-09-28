@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790605482.1234279,
+  "updated_unix": 1790607681.0524507,
   "status": "in_progress",
   "phases": [
     {
@@ -859,6 +859,12 @@
       "id": "ink_edge_repair_a68",
       "script": "scripts/evaluate_ink_edge_repair_a68.py",
       "result": "next-a68/report.json",
+      "complete": true
+    },
+    {
+      "id": "eynollah_textline_a72",
+      "script": "scripts/evaluate_eynollah_textline_keras_a72.py",
+      "result": "next-a72/report.json",
       "complete": true
     }
   ],
@@ -24081,6 +24087,23 @@
       "test_pages_opened": 0,
       "reference_modified": false,
       "global_completion": false
+    },
+    "eynollah_textline_a72": {
+      "status": "consumed_textline_stage_diagnostic_not_box_validation",
+      "pages": 2,
+      "lines": 642,
+      "all_lines_hit_ge1pct": 642,
+      "zero_contributor_lines": 33,
+      "zero_contributor_hit_ge1pct": 33,
+      "zero_contributor_min_coverage": 0.6962212892072116,
+      "model_forwards": 48,
+      "cpu_seconds": 65.03533757900004,
+      "mask_outside_reference_fraction_range": [0.030047545203256507, 0.1602820221607243],
+      "local_recall_gate_passed": true,
+      "test_pages_opened": 0,
+      "vlm_calls": 0,
+      "ocr_calls": 0,
+      "global_completion": false
     }
   },
   "model_policy": {
@@ -24089,6 +24112,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A72 bounded Eynollah textline stage passes its consumed recall gate:33/33 A70 zero-contributor lines and642/642 total lines touched, minimum residual coverage69.62%,48 tiles/65.04s CPU. Post-hoc oracle spill is3.00%-16.03%, so this is not box precision. A73 must derive image-only proposals only in YOLO-uncovered components and freeze a diverse validation before promotion; no full Eynollah, no Test, no CER claim. Claude/master unchanged, all seven gates false.",
     "A71 blind visual audit confirms visible printed text in11/12 opaque zero-contributor views, with1 ambiguous and0 plain non-text; only5/12 are safe for rectangular recall. This is oracle-selected consumed evidence from one reader, not box truth. A72 must run a bounded Eynollah/pixelwise line-recall pilot, record exact stages/weights/cost, and avoid full OCR or global padding. Test100 intact, Claude/master unchanged, all gates false.",
     "A70 attributes71 deep A69 failures:0 recoverable by union at95%,1 partial,70 remain below50%, including63 with no box contributing1%. Reject region fusion; failure is detector miss or convention. A71 must blind-inspect opaque zero-hit lines, then choose structural recall/Eynollah/CC or OLR without retuning A69. No new inference,100 Test intact, Claude/master unchanged, all gates false.",
     "A69 frozen transfer failed its local gate on10 diverse Training pages/1768 lines: ink crossing reduces <95% coverage184->160 only13.0% (required20%), while fixed padding reaches79 at6.4x added area and82 boxes >1% intrusion. No promotion. Ten real YOLO forwards, retry reused sealed predictions with zero inference,100 Test intact. Next a70_prepare classifies the71 <50% residuals as miss/fragment/parent/convention before a distinct structural repair; do not retune A69. Claude unchanged; original Codex branch only; all seven gates false.",

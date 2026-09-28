@@ -707,6 +707,75 @@
       "inputs": ["experiments/loop/next-a71/report.json", "experiments/loop/next-a71/RESULTS.md"],
       "outputs": ["experiments/loop/next-a72/PROTOCOL.md"],
       "instructions": "Recheck Claude and original Codex branch. Use A71 only as blind diagnostic: if visible misses dominate, justify a bounded Eynollah or lightweight pixel-recall ablation with measured cost; if conventions/nontext dominate, do not install it and pivot to OLR/retrieval. Read and separately summarize primary sources. Preserve Test, original GT and global gates; commit/push/checkpoint, continue immediately."
+    },
+    {
+      "id": "a72_textline",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": ["a72_prepare"],
+      "inputs": ["scripts/evaluate_eynollah_textline_a72.py", "experiments/loop/next-a72/PROTOCOL.md", "models/eynollah/modelens_textline_0_1__2_4_16092024.onnx", "experiments/loop/next-a69/assets.json", "experiments/loop/next-a70/report-v2.json", "experiments/loop/chronicling-a58/audit.json"],
+      "outputs": ["experiments/loop/next-a72/report-failed.json", "experiments/loop/next-a72/Reichs_Post_Reuter_1700-11-16_0001-textline-mask-failed.png", "experiments/loop/next-a72/Koelnische_Zeitung_1924_0001-textline-mask-failed.png"],
+      "argv": ["/workspace/scratch/cecc4cd83a9f/a72-venv/bin/python", "scripts/evaluate_eynollah_textline_a72.py"],
+      "timeout_seconds": 1200
+    },
+    {
+      "id": "a73_prepare",
+      "kind": "external",
+      "resource": "orchestrator",
+      "deps": ["a72_contamination"],
+      "inputs": ["experiments/loop/next-a72/report.json", "experiments/loop/next-a72/RESULTS.md"],
+      "outputs": ["experiments/loop/next-a73/PROTOCOL.md"],
+      "instructions": "Recheck Claude and original Codex branch. Interpret A72 as consumed line-mask recall only. If it passes, design an image-only selective routing signal and a future diverse frozen validation; if it fails, reject Eynollah cost and advance OLR/retrieval. Do not claim boxes or CER from mask hits. Commit/push/checkpoint and continue."
+    },
+    {
+      "id": "a72_textline_retry",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": ["a72_prepare"],
+      "inputs": ["scripts/evaluate_eynollah_textline_a72.py", "scripts/evaluate_crop_geometry_a65.py", "experiments/loop/next-a72/PROTOCOL.md", "models/eynollah/modelens_textline_0_1__2_4_16092024.onnx", "experiments/loop/next-a69/assets.json", "experiments/loop/next-a70/report-v2.json", "experiments/loop/chronicling-a58/audit.json"],
+      "outputs": ["experiments/loop/next-a72/report-retry-failed.json", "experiments/loop/next-a72/Reichs_Post_Reuter_1700-11-16_0001-textline-mask-retry-failed.png", "experiments/loop/next-a72/Koelnische_Zeitung_1924_0001-textline-mask-retry-failed.png"],
+      "argv": ["/workspace/scratch/cecc4cd83a9f/a72-venv/bin/python", "scripts/evaluate_eynollah_textline_a72.py"],
+      "timeout_seconds": 1200
+    },
+    {
+      "id": "a72_textline_retry2",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": ["a72_prepare"],
+      "inputs": ["scripts/evaluate_eynollah_textline_a72.py", "scripts/evaluate_crop_geometry_a65.py", "experiments/loop/next-a72/PROTOCOL.md", "models/eynollah/modelens_textline_0_1__2_4_16092024.onnx", "experiments/loop/next-a69/assets.json", "experiments/loop/next-a70/report-v2.json", "experiments/loop/chronicling-a58/audit.json"],
+      "outputs": ["experiments/loop/next-a72/report-retry2-interrupted.json", "experiments/loop/next-a72/Reichs_Post_Reuter_1700-11-16_0001-textline-mask-retry2-interrupted.png", "experiments/loop/next-a72/Koelnische_Zeitung_1924_0001-textline-mask-retry2-interrupted.png"],
+      "argv": ["/workspace/scratch/cecc4cd83a9f/a72-venv/bin/python", "scripts/evaluate_eynollah_textline_a72.py"],
+      "timeout_seconds": 1200
+    },
+    {
+      "id": "a72_textline_retry3",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": ["a72_prepare"],
+      "inputs": ["scripts/evaluate_eynollah_textline_a72.py", "scripts/evaluate_crop_geometry_a65.py", "experiments/loop/next-a72/PROTOCOL.md", "models/eynollah/modelens_textline_0_1__2_4_16092024.onnx", "experiments/loop/next-a69/assets.json", "experiments/loop/next-a70/report-v2.json", "experiments/loop/chronicling-a58/audit.json"],
+      "outputs": ["experiments/loop/next-a72/report.json", "experiments/loop/next-a72/Reichs_Post_Reuter_1700-11-16_0001-textline-mask.png", "experiments/loop/next-a72/Koelnische_Zeitung_1924_0001-textline-mask.png"],
+      "argv": ["/workspace/scratch/cecc4cd83a9f/a72-venv/bin/python", "scripts/evaluate_eynollah_textline_a72.py"],
+      "timeout_seconds": 1200
+    },
+    {
+      "id": "a72_textline_retry4",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": ["a72_prepare"],
+      "inputs": ["scripts/evaluate_eynollah_textline_keras_a72.py", "scripts/evaluate_crop_geometry_a65.py", "experiments/loop/next-a72/PROTOCOL.md", "experiments/loop/next-a72/PROTOCOL_AMENDMENT.md", "models/eynollah/native/modelens_textline_0_1__2_4_16092024/saved_model.pb", "models/eynollah/native/modelens_textline_0_1__2_4_16092024/variables/variables.data-00000-of-00001", "experiments/loop/next-a69/assets.json", "experiments/loop/next-a70/report-v2.json", "experiments/loop/chronicling-a58/audit.json"],
+      "outputs": ["experiments/loop/next-a72/report.json", "experiments/loop/next-a72/Reichs_Post_Reuter_1700-11-16_0001-textline-mask.png", "experiments/loop/next-a72/Koelnische_Zeitung_1924_0001-textline-mask.png"],
+      "argv": ["/workspace/scratch/cecc4cd83a9f/a72tf-venv/bin/python", "scripts/evaluate_eynollah_textline_keras_a72.py"],
+      "timeout_seconds": 1800
+    },
+    {
+      "id": "a72_contamination",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": ["a72_textline_retry4"],
+      "inputs": ["scripts/analyze_eynollah_contamination_a72.py", "experiments/loop/next-a72/report.json", "experiments/loop/next-a72/Reichs_Post_Reuter_1700-11-16_0001-textline-mask.png", "experiments/loop/next-a72/Koelnische_Zeitung_1924_0001-textline-mask.png", "experiments/loop/chronicling-a58/audit.json"],
+      "outputs": ["experiments/loop/next-a72/contamination.json"],
+      "argv": ["/workspace/scratch/cecc4cd83a9f/a72tf-venv/bin/python", "scripts/analyze_eynollah_contamination_a72.py"],
+      "timeout_seconds": 120
     }
   ]
 }
