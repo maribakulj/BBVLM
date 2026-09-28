@@ -10,9 +10,9 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 
 | étage | cible | mesure gelée | état |
 |---|---|---|---|
-| texte | 0 faute par page | `outils/cer.py` (diplo), référence adjugée règle A2 | pages neuves O09-O12 (16) : **5 à 0**, 4 à 1 car. ; pires : mise en page (extraudeu, ligne double), latin juridique (emmeprac 9) |
+| texte | 0 faute par page | `outils/cer.py` (diplo), référence adjugée règle A2 | pages neuves O09-O13 (20) : **6 à 0**, 5 à ≤ 2 car. ; restes : blancs autour de la ponctuation, mise en page (extraudeu), latin juridique (emmeprac 9) |
 | lignes | toutes trouvées, serrées | `outils/segeval.py` | kraken + G03 : bon sur livres ; page en regard écartée par l'alignement ; réclames parfois manquées |
-| boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE ✓ sur 6 pages dont **erobdefoa parfaite de bout en bout** (texte 0, ≤0,5c 100 %) ; blocage : lignes en échec (nombre de mots) ; lignes inclinées (heptaldai 0,34) |
+| boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE ✓ sur 8 pages ; **erobdefoa et caladr parfaites de bout en bout** ; blocage : lignes non trouvées par kraken (titres d'apparat, courtes manchettes) et blancs du texte |
 | ALTO | XSD + provenance + refus | `outils/vers_alto.py` | valide XSD 4.4 ; blocs typés, ReadingOrder (XY-cut S03), lignes non placées marquées |
 | OLR | rôles + régions + ordre | `outils/olr.py` | rôles 0,74-1,0, F1 régions ≥ 0,91, ordre ≥ 0,95 (livres) ; presse bloquée (Finlam sur HF) |
 | retrieval | rappel/précision avec boîte | `outils/recherche.py` | 88-100 % sur la plupart des pages |
@@ -26,7 +26,7 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 4. `p3.py` : lignes en désaccord recadrées via kraken, arbitrées par Opus (`consigne_arbitre_P3.md`, repli sur les bandes).
 5. I01 : signe d'inflexion de l'imprimeur décidé par page (même appel que l'arbitre P3).
 6. `segmente.py` (kraken blla) → `serre.py` (G03) → coupe S02 si manchettes → placement par ancrage Tesseract S05 (repli : XY-cut S03 + chasse S04) → routeur G02 → `vers_alto.py`.
-Point d'entrée : `chaine.py prepare | arbitrage | final`.
+Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lectures + arbitre P3/I01 ; mode économe : 1 lecture + I01 (V01 : 126 contre 122 éditions sur 16 pages, −50 % de lecture VLM).
 
 ## Règles
 
@@ -47,14 +47,13 @@ Point d'entrée : `chaine.py prepare | arbitrage | final`.
 
 ## Prochaines étapes
 
-- CRITERE : lignes en échec (nombre de mots lus ≠ référence) — premier
-  blocage restant ; diagnostiquer (blancs imprimés, mots coupés, ponctuation
-  isolée).
-- O13 : valider I01 et la chaîne complète sur pages neuves ; P7 rejetée,
-  règle L08 (ligne double) encore à traiter autrement.
-- Boîtes : lignes inclinées (B01 sous seuil, à re-mesurer).
-- Texte : latin juridique (ſ/s, abréviations), coquilles de l'imprimé.
-- Métadonnées : extraction depuis la transcription, valeurs citant leur source.
+- Passes VLM : Tesseract comme signal de lignes à risque (astra A53, L10) pour
+  une seconde passe ciblée au lieu d'une relecture complète.
+- Texte : blancs autour de la ponctuation (P6b rejetée en A/B ; la VT met une
+  espace après virgule) ; latin juridique ; coquilles.
+- Boîtes : lignes non trouvées par kraken (Eynollah accessible, non intégré).
+- Métadonnées : bloquées faute de VT (catalogues refusés par le réseau).
+- Toute adjudication suit `outils/consigne_adjudication.md` (jamais la règle testée).
 
 ## Contraintes d'environnement
 
