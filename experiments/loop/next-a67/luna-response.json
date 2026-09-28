@@ -1,0 +1,55 @@
+{
+  "model": "gpt-6-luna",
+  "inspected_paths": [
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K482-crop.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K482-context.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K482-boundary.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K951-crop.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K951-context.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K951-boundary.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K719-crop.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K719-context.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K719-boundary.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K263-crop.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K263-context.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K263-boundary.png"
+  ],
+  "cases": [
+    {
+      "id": "K482",
+      "visible_clipping": "no",
+      "affected_edge": "none",
+      "evidence": "The crop contains the complete newspaper heading ‘Telegr. Depeschen d. Berl. Börs.-Zeitg.’; the closing period and final glyph are visible within the red boundary, with a small margin beyond them.",
+      "additional_text_separate": "no",
+      "confidence": 0.91,
+      "uncertainties": "The printed heading is close to the right boundary, but I see no severed glyph."
+    },
+    {
+      "id": "K951",
+      "visible_clipping": "no",
+      "affected_edge": "none",
+      "evidence": "The crop preserves the three-line passage from ‘Se. Majestät der König…’ through ‘…annehme und trage.’; the first and last glyphs and line endings appear intact against the context and boundary view.",
+      "additional_text_separate": "no",
+      "confidence": 0.86,
+      "uncertainties": "The old print is small and soft, but no boundary appears to cut through a glyph."
+    },
+    {
+      "id": "K719",
+      "visible_clipping": "yes",
+      "affected_edge": "right",
+      "evidence": "Multiple lines in the tall crop run into the right image edge and visibly lose the continuation of words/letters; the nearby context line ‘…die englische Presse…’ shows that the rightward text continues beyond the crop. The marked boundary also reaches the column text at the right.",
+      "additional_text_separate": "yes",
+      "confidence": 0.82,
+      "uncertainties": "The crop includes much more continuous article text than the short context snippet; the clipping judgment is about visible right-edge truncation, not intended semantic extent."
+    },
+    {
+      "id": "K263",
+      "visible_clipping": "yes",
+      "affected_edge": "left",
+      "evidence": "The first crop line begins flush against the left edge with the opening of ‘…stehenden’ visibly crowded/cut at the boundary, unlike the later intact starts; the red boundary indicates the crop begins through the printed line. The other visible line endings, including the hyphenated ‘wahr-’, appear intentional/intact.",
+      "additional_text_separate": "no",
+      "confidence": 0.69,
+      "uncertainties": "The low-resolution initial letters make it hard to distinguish a truly severed first glyph from a naturally tight crop; the rest appears to be one continuous paragraph rather than a separate text block."
+    }
+  ]
+}

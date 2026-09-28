@@ -1,6 +1,16 @@
 {
   "version": 1,
   "status": "in_progress",
+  "visual_crop_audit_a67": {
+    "status": "completed_consumed_visual_diagnostic",
+    "protocol": "next-a67/PROTOCOL.md",
+    "report": "next-a67/report-v2.json",
+    "results": "next-a67/RESULTS.md",
+    "luna_calls": 1,
+    "targeted_sol_calls": 1,
+    "reference_modified": false,
+    "all_scientific_gates_passed": false
+  },
   "predicted_crops_a66": {
     "status": "completed_consumed_development",
     "protocol": "next-a66/PROTOCOL.md",

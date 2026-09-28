@@ -1,0 +1,134 @@
+{
+  "schema": "bbvlm.visual-crop-audit/1",
+  "cases": [
+    {
+      "id": "K482",
+      "views": [
+        {
+          "role": "crop",
+          "path": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K482-crop.png",
+          "sha256": "43c425c6ff39a74647a9a886ae3ecbfff9814a089aae984833baaaba28f67e31",
+          "size": [
+            963,
+            73
+          ]
+        },
+        {
+          "role": "context",
+          "path": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K482-context.png",
+          "sha256": "af3822c89736e4af4e05f2af5781169a0d6a5f59eee173aa48f434485d43e176",
+          "size": [
+            1161,
+            274
+          ]
+        },
+        {
+          "role": "boundary",
+          "path": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K482-boundary.png",
+          "sha256": "56542651ae8a6dbb92b76ad607c6d085b0485629754bd47ff51e5f8a3d8c0dd3",
+          "size": [
+            1161,
+            274
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K951",
+      "views": [
+        {
+          "role": "crop",
+          "path": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K951-crop.png",
+          "sha256": "fe356dd78bf714539c116cbf3150f3fe21880516f1a3c34fa041b7276098fb90",
+          "size": [
+            404,
+            94
+          ]
+        },
+        {
+          "role": "context",
+          "path": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K951-context.png",
+          "sha256": "27e771d8e06b5c2e82927a2174c18ee3086b254662ba57eefd25f08cece33c22",
+          "size": [
+            577,
+            227
+          ]
+        },
+        {
+          "role": "boundary",
+          "path": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K951-boundary.png",
+          "sha256": "9d9cead551eadfda555649185888d9c2bd975ceffee6f865c90a3f591e10a700",
+          "size": [
+            577,
+            227
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K719",
+      "views": [
+        {
+          "role": "crop",
+          "path": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K719-crop.png",
+          "sha256": "9bbbece91117f3a4c96da949b9e1af838ce8b69181e01719d9a4bd1634307817",
+          "size": [
+            1193,
+            1341
+          ]
+        },
+        {
+          "role": "context",
+          "path": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K719-context.png",
+          "sha256": "9513c66156974bda3b1f4e52fbce277c06d1ee60b73aca885681c57ce5ec84a2",
+          "size": [
+            1340,
+            272
+          ]
+        },
+        {
+          "role": "boundary",
+          "path": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K719-boundary.png",
+          "sha256": "8c37e818e9230464da7a1408b32fd5a46fe4b1b80d85cb1957b5366266e1e28a",
+          "size": [
+            1340,
+            272
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K263",
+      "views": [
+        {
+          "role": "crop",
+          "path": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K263-crop.png",
+          "sha256": "9b15357a9a10b1ef8eaaa70b221a93c0c6ce1066a09256a8edea7f78076a690d",
+          "size": [
+            787,
+            372
+          ]
+        },
+        {
+          "role": "context",
+          "path": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K263-context.png",
+          "sha256": "d9aa0bfb2a07c1e479d3766c75340be9a63b6f54cb34fe893ad76147c292813a",
+          "size": [
+            409,
+            243
+          ]
+        },
+        {
+          "role": "boundary",
+          "path": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K263-boundary.png",
+          "sha256": "f3c6bce7fb89cbf32667896fffe6bdce7c7c6f1db88491140c71381173a3784b",
+          "size": [
+            409,
+            243
+          ]
+        }
+      ]
+    }
+  ],
+  "instruction": "Inspect every native image; compare crop with unmarked context and red boundary. Report visible clipping yes/no/uncertain, affected_edge, evidence, additional_text_separate yes/no/uncertain, confidence and uncertainties. Do not assume there is an error. Return exact IDs; record inspected paths."
+}

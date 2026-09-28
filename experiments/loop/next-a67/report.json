@@ -1,0 +1,25 @@
+{
+  "status": "consumed_oracle_selected_visual_diagnostic_not_gold",
+  "reader_agent": "/root/a67_luna",
+  "reader_model": "gpt-6-luna",
+  "reader_calls": 1,
+  "cases": 4,
+  "views": 12,
+  "view_pixels": 3826772,
+  "clipping_observations": {
+    "no": 2,
+    "yes": 2
+  },
+  "image_hashes_verified": 12,
+  "strict_ids_valid": true,
+  "ocr_cer_measured": false,
+  "billing_tokens": null,
+  "monetary_cost": null,
+  "all_scientific_gates_passed": false,
+  "response_sha256": "6bdf9bce8b1651acd2b8629d3e948be9de12e10a0c939b61992e2705066d02a1",
+  "limitations": [
+    "Metric-selected examples are consumed, not independent validation.",
+    "Reader observation is not human adjudication.",
+    "Native crops/context do not certify every glyph or original annotation."
+  ]
+}

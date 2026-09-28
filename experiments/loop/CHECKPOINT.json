@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790601584.62548,
+  "updated_unix": 1790602211.1296074,
   "status": "in_progress",
   "phases": [
     {
@@ -740,6 +740,12 @@
       "complete": true,
       "script": "scripts/evaluate_finlam_boundaries_a51.py",
       "result": "finlam-boundaries-a51/pilot-report.json"
+    },
+    {
+      "id": "visual_crop_audit_a67",
+      "complete": true,
+      "script": "scripts/verify_visual_audit_a67.py",
+      "result": "next-a67/report-v2.json"
     },
     {
       "id": "predicted_crops_a66",
@@ -23995,6 +24001,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A67: real blind Luna12views, targeted Sol6views. K482 bottom descender clipped; K951 top clipping, contrary to Luna negatives. K719/K263 remain qualified visual observations. No GT changed, no CER. Next a68_prepare: bounded foreground-guided crop edge repair vs fixed padding; inspect Claude and current refine code, freeze hypothesis and contamination metrics. Keep100 Test untouched, all gates false; original Codex branch only.",
     "A66 completed ten real YOLO forwards on five consumed Validation pages: 1024/1600 incomplete single-box coverage133/142 of1317; no resolution promotion. Before repair, image-grounded audit of fragmentation versus GT convention. No OCR inference in A66;100 Test pages remain reserved. Stay on codex/autonomous-research-a34, recheck Claude and never merge main/master. Restore A66 assets with fetch_crop_pilot_a66.py and the pinned YOLO manifest; all gates false.",
     "A65 completed oracle structural crop ablation on50 Chronicling Validation pages:15010 valid lines, parent polygon excludes >1% of4069 lines versus2222 for rectangle; union of all text polygons barely helps4061. 105/1092 region rectangles capture >1% foreign annotation area. No images/OCR/GT text read,100 Test preserved; not detector/OLR/ink/CER evidence. Next a66_prepare: freeze image-only predicted-region benchmark with preserved native context, read Claude and candidate code, restore minimal CPU assets. Keep same codex/autonomous-research-a34 branch; never merge/update master/main.",
     "A64 completed: official HIPE-OCRepair 0.9.9 projection on consumed A54. Luna raw 35/11653 errors (micro-cMER .3004%) vs PERO 74/11661 (.6346%); 9 improved, 5 tied, 2 degraded, 6/16 exact. Local H/S/D/I matches jiwer on all 64 actual pairs. Not zero, not diplomatic, no new independent evidence. T005 leviathan/reference leviatbau and T016 personnelle/reference personelle need image-independent adjudication. Do not retune A54. Next A65 advances a distinct frozen geometry/OLR validation after rechecking Claude.",

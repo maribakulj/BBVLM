@@ -1,0 +1,31 @@
+{
+  "model": "gpt-6-sol",
+  "inspected_paths": [
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K482-crop.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K482-context.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K482-boundary.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K951-crop.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K951-context.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/next-a67/blind/K951-boundary.png"
+  ],
+  "cases": [
+    {
+      "id": "K482",
+      "visible_clipping": "yes",
+      "affected_edge": "bottom",
+      "evidence": "The bottom red boundary crosses the descending stroke of the final 'g' in 'Zeitg.'; the corresponding crop ends before that stroke is complete. The line beginning 'Breslau' sits below the rectangle and is distinct from the cropped headline.",
+      "additional_text_separate": "yes",
+      "confidence": 0.96,
+      "uncertainties": "Other headline descenders are close to the bottom edge, but the final 'g' is the clearest visible cut."
+    },
+    {
+      "id": "K951",
+      "visible_clipping": "yes",
+      "affected_edge": "top",
+      "evidence": "The top red boundary meets the upper strokes of the first included line beginning 'Se. Majestät'; those letter tops are flush with or cut by the top of the crop. The text immediately above belongs to the preceding paragraph, while the next 'Se. Majestät' line below the rectangle begins a separate paragraph.",
+      "additional_text_separate": "yes",
+      "confidence": 0.86,
+      "uncertainties": "The small type and tight line spacing make the amount removed at the top difficult to quantify; the right edge is close to line endings but no equally clear right-edge cut is visible."
+    }
+  ]
+}

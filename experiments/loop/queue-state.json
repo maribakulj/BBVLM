@@ -224,6 +224,80 @@
       "ended_at": 1790601439.4993398
     },
     "a67_prepare": {
+      "status": "completed",
+      "started_at": 1790601717.1472082,
+      "fingerprint": "62d185a6543caaabfeb0c7ac93c66e8119a22f7081b53e6bb2a0b31cd4ee5e77",
+      "actor": "codex-root",
+      "token": "9e8a1929011742219ecebe553c3831a3",
+      "outputs": {
+        "experiments/loop/next-a67/PROTOCOL.md": "0c70c33a7316c5bf9255f1592338ef181dbb72a0851e25c92485e1771b328990"
+      },
+      "ended_at": 1790601777.5594168
+    },
+    "a67_views": {
+      "status": "completed",
+      "started_at": 1790601809.6551573,
+      "fingerprint": "6f4c3a6f341556908906c46a7fad3dff90d4360e5b03a44f8ba0a68114182a23",
+      "pid": 5,
+      "log": "experiments/loop/logs/a67_views.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a67/blind/request.json": "85d1c0e1b87a6ae0c395f359d694bf0994b2e51d6e660a8a805aa5b6137a2dc5",
+        "experiments/loop/next-a67/private-map.json": "f73f78578e2575500c08a2a68c2efff7be6741508311e1885ba7eec78b7ce188",
+        "experiments/loop/next-a67/blind/K482-crop.png": "43c425c6ff39a74647a9a886ae3ecbfff9814a089aae984833baaaba28f67e31",
+        "experiments/loop/next-a67/blind/K482-context.png": "af3822c89736e4af4e05f2af5781169a0d6a5f59eee173aa48f434485d43e176",
+        "experiments/loop/next-a67/blind/K482-boundary.png": "56542651ae8a6dbb92b76ad607c6d085b0485629754bd47ff51e5f8a3d8c0dd3",
+        "experiments/loop/next-a67/blind/K719-crop.png": "9bbbece91117f3a4c96da949b9e1af838ce8b69181e01719d9a4bd1634307817",
+        "experiments/loop/next-a67/blind/K719-context.png": "9513c66156974bda3b1f4e52fbce277c06d1ee60b73aca885681c57ce5ec84a2",
+        "experiments/loop/next-a67/blind/K719-boundary.png": "8c37e818e9230464da7a1408b32fd5a46fe4b1b80d85cb1957b5366266e1e28a",
+        "experiments/loop/next-a67/blind/K263-crop.png": "9b15357a9a10b1ef8eaaa70b221a93c0c6ce1066a09256a8edea7f78076a690d",
+        "experiments/loop/next-a67/blind/K263-context.png": "d9aa0bfb2a07c1e479d3766c75340be9a63b6f54cb34fe893ad76147c292813a",
+        "experiments/loop/next-a67/blind/K263-boundary.png": "f3c6bce7fb89cbf32667896fffe6bdce7c7c6f1db88491140c71381173a3784b",
+        "experiments/loop/next-a67/blind/K951-crop.png": "fe356dd78bf714539c116cbf3150f3fe21880516f1a3c34fa041b7276098fb90",
+        "experiments/loop/next-a67/blind/K951-context.png": "27e771d8e06b5c2e82927a2174c18ee3086b254662ba57eefd25f08cece33c22",
+        "experiments/loop/next-a67/blind/K951-boundary.png": "9d9cead551eadfda555649185888d9c2bd975ceffee6f865c90a3f591e10a700"
+      },
+      "ended_at": 1790601811.4090717
+    },
+    "a67_reader": {
+      "status": "completed",
+      "started_at": 1790601820.1223593,
+      "fingerprint": "d382bc670dd412d0f3566973ce3ae5c64e0524497642d42837e1cf7aa4f85d5d",
+      "actor": "gpt-6-luna-blind-reader",
+      "token": "cf8769a87d434999a68cb3f56f173519",
+      "outputs": {
+        "experiments/loop/next-a67/luna-response.json": "6bdf9bce8b1651acd2b8629d3e948be9de12e10a0c939b61992e2705066d02a1"
+      },
+      "ended_at": 1790601980.657832
+    },
+    "a67_verify": {
+      "status": "blocked",
+      "reason": "Output already exists without matching completion receipt; preserve it and investigate."
+    },
+    "a67_sol_reader": {
+      "status": "completed",
+      "started_at": 1790602018.0406559,
+      "fingerprint": "400e5d910ef79f9718169eb08db382962e786e3150640d9a2713e20829234277",
+      "actor": "gpt-6-sol-targeted",
+      "token": "9f6723ca658f4e1eaec127414023051e",
+      "outputs": {
+        "experiments/loop/next-a67/sol-response.json": "8faff0914ce2557836470cf2c8237ae716a071265822277b658c4591b7406f77"
+      },
+      "ended_at": 1790602104.2012215
+    },
+    "a67_verify_retry": {
+      "status": "completed",
+      "started_at": 1790602104.529223,
+      "fingerprint": "5fb287c8fbcac93faab6f7dd57b081bc3ece6eb5683e8c314ad285ce062078e2",
+      "pid": 6,
+      "log": "experiments/loop/logs/a67_verify_retry.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a67/report-v2.json": "cbbe4edbcd60bc651022069621ad2f35eefdb0bcbf2a10c6c51fc3bb5d3122c4"
+      },
+      "ended_at": 1790602104.582447
+    },
+    "a68_prepare": {
       "status": "pending"
     }
   },

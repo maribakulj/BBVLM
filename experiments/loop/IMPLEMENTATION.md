@@ -30,3 +30,12 @@ invariants pass. All inputs and raw predictions retained. See next-a66/RESULTS.m
 for failure/recovery records. REFERENCE_ADDENDUM.md is separate to preserve the
 immutable A63 audit input. Restore five images with the fetch script; restore
 the 40.7MB YOLO weight through restore_public_assets.py --only. No full PERO run.
+
+## A67
+Native crop/context/boundary evidence generated deterministically from four
+consumed A66 metric-selected examples; opaque shuffled IDs, no transcript values
+read. Actual Luna reader12views, targeted Sol6views. Strict response IDs and
+image hashes verified. Crops only use outward integer rounding of raw YOLO boxes;
+no resampling. Final report-v2 preserves separate reader observations and costs
+unknown. No GT edits and no model-agreement truth criterion. Next: local ink-edge
+repair comparison, with explicit contamination measure and fresh validation later.

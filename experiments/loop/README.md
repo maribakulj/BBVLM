@@ -588,3 +588,9 @@ Five Chronicling validation images, ten YOLO forwards at1024/1600,16.05s CPU
 including load. Incomplete single-box line coverage133→142/1317: resolution alone
 does not solve crop quality. Geometry proxies are not CER. Full evidence in
 next-a66/RESULTS.md; next action visual audit, no retuning or final success claim.
+
+## A67 — latest visual evidence
+Luna12views plus targeted Sol6views completed. Real clipped descender K482 and
+top-edge problem K951 challenge Luna's negative judgments; no reference changes
+or perfect-box claims. See next-a67/RESULTS.md and report-v2.json. a68_prepare
+must test bounded ink-aware repair and contamination, not assume padding is safe.
