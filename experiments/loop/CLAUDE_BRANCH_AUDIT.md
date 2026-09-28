@@ -165,3 +165,6 @@ Avant le gel : Claude inchangé à `76056c5c1957e0de4232f0aef1f6cbc7f2893402`, p
 
 ## A81 —2026-09-28
 Claude inchangé76056c5c1957e0de4232f0aef1f6cbc7f2893402 ; parent Codex d8ad16ea75bf32abcf56582c8197d1b0d284e2e1 ; master inchangé60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec. Aucun merge.
+
+## A82 —2026-09-28
+Contrôle après commit A81 `72c77c5ef7c3a3cbbc8ac2300da49da744105635` : Claude toujours `76056c5c1957e0de4232f0aef1f6cbc7f2893402`. Aucune fusion/main/master.

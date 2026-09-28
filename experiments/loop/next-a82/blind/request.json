@@ -1,0 +1,59 @@
+{
+  "instruction": "Transcribe the visible principal line diplomatically. Report unreadable/clipped glyphs and visual role. No modernizing or adding invisible words.",
+  "items": [
+    {
+      "id": "P173a2769",
+      "images": [
+        "experiments/loop/next-a82/blind/P173a2769.png"
+      ],
+      "sha256": [
+        "76f3438cded7cdccb2730b9dad485f62d768bf189c8d1b7a0d9cfb1f29c2e989"
+      ]
+    },
+    {
+      "id": "P22ab6191",
+      "images": [
+        "experiments/loop/next-a82/blind/P22ab6191.png"
+      ],
+      "sha256": [
+        "417885662b116f0041231eab66c73c8b3c54b623113bcac669308e5d40756693"
+      ]
+    },
+    {
+      "id": "P30432cc3",
+      "images": [
+        "experiments/loop/next-a82/blind/P30432cc3.png"
+      ],
+      "sha256": [
+        "7143c57cbef23ba0d9b16f294ed78ab3a045f01821b010e5aad95785a0cd5852"
+      ]
+    },
+    {
+      "id": "P40928fe3",
+      "images": [
+        "experiments/loop/next-a82/blind/P40928fe3.png"
+      ],
+      "sha256": [
+        "f21f7d6d7f5fd4b346af3ec1c28c258e5fcb36d3dfa9f8a19fb8b6677362f648"
+      ]
+    },
+    {
+      "id": "P6bd86903",
+      "images": [
+        "experiments/loop/next-a82/blind/P6bd86903.png"
+      ],
+      "sha256": [
+        "501a736b56c827b01fe5150a4391fe3809fdbef1cc7735a7af77c8ef3944698a"
+      ]
+    },
+    {
+      "id": "Pfefd7445",
+      "images": [
+        "experiments/loop/next-a82/blind/Pfefd7445.png"
+      ],
+      "sha256": [
+        "58f0b81e4bd17a01592d5542d3baaf418ea2a4d692f5b21aa499688242e2696d"
+      ]
+    }
+  ]
+}

@@ -744,3 +744,7 @@ Quatre nouvelles pages : +1 match IoU50, aucune perte, précision/rappel non dé
 ## A81 — contamination et OCR
 
 Lecture réelle8crops prédits : quatre des six appariés sont normalisés exacts avec Luna. Un cropIoU96,86 % contient45,19 % d’encre attribuée aux lignes voisines. Sol ciblé, consigne ligne principale, obtient0/126éditions lexicales sur3cibles sélectionnées après score ; aucun zéro indépendant. Voir next-a81/RESULTS.md ; poursuivre isolation géométrique sans OCR PERO complet.
+
+## A82 — masque rejeté
+
+Contour prédit +2px : contamination−99,85 % sur la ligne inclinée, mais conservation d’encre<99,5 % sur4/6cibles. Rejet avant toute nouvelle passe VLM ;1,39sCPU. Voir next-a82/RESULTS.md. Suite : étages layout/crop PERO isolés, sans reconnaisseur.

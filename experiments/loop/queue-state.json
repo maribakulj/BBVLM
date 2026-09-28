@@ -885,6 +885,20 @@
         "experiments/loop/next-a81/targeted-report.json": "5263fa2571962dacd942ef2139eeea58bd77c15a473602ad6fff0c83121e074c"
       },
       "ended_at": 1790613247.5880637
+    },
+    "a82_isolate": {
+      "status": "completed",
+      "started_at": 1790613511.3795025,
+      "fingerprint": "ebeca7a7ded446ad3ff276e94ee8377309392595c8926aec0554ddd5e4ed3d1e",
+      "pid": 11,
+      "log": "experiments/loop/logs/a82_isolate.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a82/candidates.json": "40e41d97f878d0c28b9ea37e4077483c897d8f941aee2b5d5190130aaf60cdaa",
+        "experiments/loop/next-a82/report.json": "8bf2c1703e9e42d8899d010e086c26a483b824fd2ec85e1e537e8fd3ddecbad0",
+        "experiments/loop/next-a82/blind/request.json": "73552e3a4fb9b9e38ff132f69316d57faca1c734cf9ced8ca4506ba6e17a3a9e"
+      },
+      "ended_at": 1790613513.000618
     }
   },
   "a66_reference_append_recovery": {

@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790613306.1742382,
+  "updated_unix": 1790613631.4537354,
   "status": "in_progress",
   "phases": [
     {
@@ -24250,6 +24250,13 @@
       "reader_sessions": 2,
       "image_views": 22,
       "global_completion": false
+    },
+    "contour_isolation_a82": {
+      "status": "rejected_consumed_mask_isolation",
+      "report": "next-a82/report.json",
+      "local_gate_passed": false,
+      "new_model_forwards": 0,
+      "global_completion": false
     }
   },
   "model_policy": {
@@ -24258,6 +24265,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A82 rejects predicted-contour+2px masking: neighboring ink reduced99.85% on slanted case, but4/6 crops retain<99.5% assigned ink.1.39s CPU, no VLM/model. Next A83 restore minimal PERO layout/crop stages and measure predicted baseline/height extraction separately from recognition; no full OCR merely to get crops. Keep source and all diagnostic images; no retuning mask radius on A82.100Test intact, all gates false.",
     "A81 actual blind8-crop audit: Luna4/6 normalized-exact,56/272 lexical edits dominated by neighboring-line contamination. A96.86% rectangle IoU crop includes45.19% ink attributed to other PAGE lines. Targeted fresh Sol with principal-line prompt gets0/126 lexical on3 oracle-selected crops; no independent zero claim or causal model comparison. Next A82 predicted contour/baseline crop isolation, preserve ink and assess contamination; cropper PERO code read, no full OCR required.100Test untouched, all gates false.",
     "A80 frozen four-page transfer passes local noninferiority, +1 IoU50 match, zero losses;17 links,1405->1388 candidates. Dense113.275s/92 tile forwards + routed7.364s/4 YOLO.1785 precision still47.62%. Next A81 blind predicted-crop OCR/type audit, consumed diagnostic; no global promotion,100Test untouched.",
     "A79 consumed real YOLO region constraint passes local noninferiority on4 pages:2 additional IoU50 references, zero losses,25 allowed links;8.36s CPU detection/4 forwards. Absolute precision remains61.80% on1924. A80 freeze4 new non-Test pages and unchanged A79 vs component baseline; no global gates promoted. First attempt failed on NumPy2/OpenCV ABI before inference; NumPy1.26.4 restored, retry outputs separate.",

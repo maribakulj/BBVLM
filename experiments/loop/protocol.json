@@ -1101,5 +1101,12 @@
     "reader_sessions": 2,
     "image_views": 22,
     "global_completion": false
+  },
+  "contour_isolation_a82": {
+    "status": "rejected_consumed_mask_isolation",
+    "report": "next-a82/report.json",
+    "local_gate_passed": false,
+    "new_model_forwards": 0,
+    "global_completion": false
   }
 }

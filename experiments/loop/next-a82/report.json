@@ -1,0 +1,77 @@
+{
+  "status": "consumed_fixed_predicted_contour_mask",
+  "rows": [
+    {
+      "a81_id": "V243d7aaa",
+      "assigned_ink_before": 21334,
+      "assigned_ink_retained": 21175,
+      "retained_fraction": 0.992547107902878,
+      "neighbor_ink_before": 19275,
+      "neighbor_ink_after": 28,
+      "neighbor_reduction": 0.9985473411154345,
+      "local_keep": false
+    },
+    {
+      "a81_id": "V82cc0195",
+      "assigned_ink_before": 10122,
+      "assigned_ink_retained": 10116,
+      "retained_fraction": 0.999407231772377,
+      "neighbor_ink_before": 400,
+      "neighbor_ink_after": 0,
+      "neighbor_reduction": 1.0,
+      "local_keep": true
+    },
+    {
+      "a81_id": "Vde9f1e1c",
+      "assigned_ink_before": 9897,
+      "assigned_ink_retained": 9816,
+      "retained_fraction": 0.9918157017277963,
+      "neighbor_ink_before": 17,
+      "neighbor_ink_after": 0,
+      "neighbor_reduction": 1.0,
+      "local_keep": false
+    },
+    {
+      "a81_id": "V31521ffb",
+      "assigned_ink_before": 11740,
+      "assigned_ink_retained": 11683,
+      "retained_fraction": 0.9951448040885861,
+      "neighbor_ink_before": 217,
+      "neighbor_ink_after": 0,
+      "neighbor_reduction": 1.0,
+      "local_keep": true
+    },
+    {
+      "a81_id": "Vf9528632",
+      "assigned_ink_before": 9687,
+      "assigned_ink_retained": 9575,
+      "retained_fraction": 0.9884381129348612,
+      "neighbor_ink_before": 161,
+      "neighbor_ink_after": 2,
+      "neighbor_reduction": 0.9875776397515528,
+      "local_keep": false
+    },
+    {
+      "a81_id": "V6011b467",
+      "assigned_ink_before": 8147,
+      "assigned_ink_retained": 8086,
+      "retained_fraction": 0.9925125813182767,
+      "neighbor_ink_before": 388,
+      "neighbor_ink_after": 8,
+      "neighbor_reduction": 0.979381443298969,
+      "local_keep": false
+    }
+  ],
+  "local_gate_passed": false,
+  "prediction_seconds": 1.315835353001603,
+  "seconds": 1.3906464820029214,
+  "candidate_sha256_before_xml": "40e41d97f878d0c28b9ea37e4077483c897d8f941aee2b5d5190130aaf60cdaa",
+  "new_model_forwards": 0,
+  "global_completion": false,
+  "test_pages_opened": 0,
+  "limitations": [
+    "Otsu/PAGE pixel attribution is not glyph truth",
+    "Six consumed oracle-selected matched crops",
+    "Mask can erase detached ink; originals retained"
+  ]
+}
