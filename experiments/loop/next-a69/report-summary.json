@@ -1,0 +1,16 @@
+{
+  "status": "frozen_transfer_failed_local_gate",
+  "pages": 10,
+  "lines": 1768,
+  "model_forwards": 10,
+  "retry_model_forwards": 0,
+  "test_pages_opened": 0,
+  "aggregate": {
+    "native": {"mean_best_coverage": 0.9507754672816201, "lt95": 184, "lt50": 71},
+    "fixed": {"mean_best_coverage": 0.9615701376142793, "lt95": 79, "lt50": 67, "added_area": 7439980.0, "foreign_fraction_of_added": 0.04879884787316022, "foreign_added_boxes_gt1pct": 82},
+    "ink_crossing": {"mean_best_coverage": 0.9537375933761072, "lt95": 160, "lt50": 68, "added_area": 1161501.0, "foreign_fraction_of_added": 0.021782611465681046, "foreign_added_boxes_gt1pct": 15}
+  },
+  "failed_gate": "lt95_relative_reduction_ge20pct",
+  "local_gate_passed": false,
+  "all_scientific_gates_passed": false
+}

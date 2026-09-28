@@ -1,0 +1,401 @@
+{
+  "status": "frozen_transfer_not_global_validation",
+  "retry_reason": "A69 inference completed; original writer failed only on unavailable opencv-python distribution metadata.",
+  "candidate_sha256_before_xml": "0a82cf24edc50dbdb273bea769885a006592d4ed970f0a58f51e9385680de1b8",
+  "predictions_sha256": "dda33f5c68962ce71f0abb480451f8a622e8fd4c6e334b054ce704f8ce55038a",
+  "pages": [
+    "no_title_1617-08-16_0001",
+    "Reichs_Post_Reuter_1700-11-16_0001",
+    "Leipziger_Zeitung_1748-10-29_0001",
+    "Holzmindisches_Wochenblatt_1785-07-30_0002",
+    "Fraenkischer_Kurier_1834-10-15_0002",
+    "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+    "Mode_und_Haus_Illustrirte_Kinderwelt_1889-09-15_0001",
+    "Muenchner_Neueste_Nachrichten_1917-04-10_0001",
+    "Koelnische_Zeitung_1924_0001",
+    "Vossische_Zeitung_1933-03-04_0002"
+  ],
+  "aggregate": {
+    "native": {
+      "lines": 1768,
+      "lt50": 71,
+      "lt95": 184,
+      "added_area": 0.0,
+      "foreign_added_area": 0.0,
+      "foreign_added_boxes_gt1pct": 0,
+      "mean_best_coverage": 0.9507754672816201,
+      "foreign_fraction_of_added": 0.0
+    },
+    "fixed": {
+      "lines": 1768,
+      "lt50": 67,
+      "lt95": 79,
+      "added_area": 7439980.0,
+      "foreign_added_area": 363062.45219935453,
+      "foreign_added_boxes_gt1pct": 82,
+      "mean_best_coverage": 0.9615701376142793,
+      "foreign_fraction_of_added": 0.04879884787316022
+    },
+    "ink_crossing": {
+      "lines": 1768,
+      "lt50": 68,
+      "lt95": 160,
+      "added_area": 1161501.0,
+      "foreign_added_area": 25300.525,
+      "foreign_added_boxes_gt1pct": 15,
+      "mean_best_coverage": 0.9537375933761072,
+      "foreign_fraction_of_added": 0.021782611465681046
+    }
+  },
+  "per_page": {
+    "no_title_1617-08-16_0001": {
+      "native": {
+        "lines": 32,
+        "mean_best_coverage": 0.9966229973526605,
+        "lt50": 0,
+        "lt95": 1,
+        "added_area": 0.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0
+      },
+      "fixed": {
+        "lines": 32,
+        "mean_best_coverage": 1.0,
+        "lt50": 0,
+        "lt95": 0,
+        "added_area": 145704.0,
+        "foreign_added_area": 1171.852564102564,
+        "foreign_added_boxes_gt1pct": 3,
+        "foreign_fraction_of_added": 0.008042693159436693
+      },
+      "ink_crossing": {
+        "lines": 32,
+        "mean_best_coverage": 0.9973289550423028,
+        "lt50": 0,
+        "lt95": 0,
+        "added_area": 44293.0,
+        "foreign_added_area": 898.15,
+        "foreign_added_boxes_gt1pct": 3,
+        "foreign_fraction_of_added": 0.02027747048066286
+      }
+    },
+    "Reichs_Post_Reuter_1700-11-16_0001": {
+      "native": {
+        "lines": 29,
+        "mean_best_coverage": 0.14061941863156358,
+        "lt50": 25,
+        "lt95": 25,
+        "added_area": 0.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0
+      },
+      "fixed": {
+        "lines": 29,
+        "mean_best_coverage": 0.14539720290607522,
+        "lt50": 25,
+        "lt95": 25,
+        "added_area": 28444.0,
+        "foreign_added_area": 58.375,
+        "foreign_added_boxes_gt1pct": 0,
+        "foreign_fraction_of_added": 0.002052278160596259
+      },
+      "ink_crossing": {
+        "lines": 29,
+        "mean_best_coverage": 0.14467595937103897,
+        "lt50": 25,
+        "lt95": 25,
+        "added_area": 14856.0,
+        "foreign_added_area": 58.375,
+        "foreign_added_boxes_gt1pct": 0,
+        "foreign_fraction_of_added": 0.003929388799138395
+      }
+    },
+    "Leipziger_Zeitung_1748-10-29_0001": {
+      "native": {
+        "lines": 59,
+        "mean_best_coverage": 0.9555340997696785,
+        "lt50": 2,
+        "lt95": 6,
+        "added_area": 0.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0
+      },
+      "fixed": {
+        "lines": 59,
+        "mean_best_coverage": 0.9636636962942158,
+        "lt50": 2,
+        "lt95": 3,
+        "added_area": 105732.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0,
+        "foreign_fraction_of_added": 0.0
+      },
+      "ink_crossing": {
+        "lines": 59,
+        "mean_best_coverage": 0.9577336054466906,
+        "lt50": 2,
+        "lt95": 5,
+        "added_area": 36491.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0,
+        "foreign_fraction_of_added": 0.0
+      }
+    },
+    "Holzmindisches_Wochenblatt_1785-07-30_0002": {
+      "native": {
+        "lines": 29,
+        "mean_best_coverage": 0.9962323245297056,
+        "lt50": 0,
+        "lt95": 0,
+        "added_area": 0.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0
+      },
+      "fixed": {
+        "lines": 29,
+        "mean_best_coverage": 0.999565914176177,
+        "lt50": 0,
+        "lt95": 0,
+        "added_area": 49632.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0,
+        "foreign_fraction_of_added": 0.0
+      },
+      "ink_crossing": {
+        "lines": 29,
+        "mean_best_coverage": 0.9962323245297056,
+        "lt50": 0,
+        "lt95": 0,
+        "added_area": 0.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0,
+        "foreign_fraction_of_added": 0.0
+      }
+    },
+    "Fraenkischer_Kurier_1834-10-15_0002": {
+      "native": {
+        "lines": 75,
+        "mean_best_coverage": 0.9234084728714546,
+        "lt50": 5,
+        "lt95": 8,
+        "added_area": 0.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0
+      },
+      "fixed": {
+        "lines": 75,
+        "mean_best_coverage": 0.9324520002884945,
+        "lt50": 5,
+        "lt95": 5,
+        "added_area": 499328.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0,
+        "foreign_fraction_of_added": 0.0
+      },
+      "ink_crossing": {
+        "lines": 75,
+        "mean_best_coverage": 0.9237523868489698,
+        "lt50": 5,
+        "lt95": 8,
+        "added_area": 16027.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0,
+        "foreign_fraction_of_added": 0.0
+      }
+    },
+    "Neue_Berliner_Musikzeitung_1866-07-18_0002": {
+      "native": {
+        "lines": 122,
+        "mean_best_coverage": 0.8612317396650969,
+        "lt50": 15,
+        "lt95": 23,
+        "added_area": 0.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0
+      },
+      "fixed": {
+        "lines": 122,
+        "mean_best_coverage": 0.8766558974816523,
+        "lt50": 15,
+        "lt95": 15,
+        "added_area": 499808.0,
+        "foreign_added_area": 2735.0,
+        "foreign_added_boxes_gt1pct": 3,
+        "foreign_fraction_of_added": 0.005472101286894167
+      },
+      "ink_crossing": {
+        "lines": 122,
+        "mean_best_coverage": 0.8617054183572127,
+        "lt50": 15,
+        "lt95": 23,
+        "added_area": 19852.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0,
+        "foreign_fraction_of_added": 0.0
+      }
+    },
+    "Mode_und_Haus_Illustrirte_Kinderwelt_1889-09-15_0001": {
+      "native": {
+        "lines": 27,
+        "mean_best_coverage": 0.8821778916886492,
+        "lt50": 2,
+        "lt95": 7,
+        "added_area": 0.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0
+      },
+      "fixed": {
+        "lines": 27,
+        "mean_best_coverage": 0.9017592399076949,
+        "lt50": 2,
+        "lt95": 6,
+        "added_area": 41720.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0,
+        "foreign_fraction_of_added": 0.0
+      },
+      "ink_crossing": {
+        "lines": 27,
+        "mean_best_coverage": 0.8861013105958738,
+        "lt50": 2,
+        "lt95": 7,
+        "added_area": 6881.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0,
+        "foreign_fraction_of_added": 0.0
+      }
+    },
+    "Muenchner_Neueste_Nachrichten_1917-04-10_0001": {
+      "native": {
+        "lines": 488,
+        "mean_best_coverage": 0.9687844604641896,
+        "lt50": 10,
+        "lt95": 55,
+        "added_area": 0.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0
+      },
+      "fixed": {
+        "lines": 488,
+        "mean_best_coverage": 0.9843390757371975,
+        "lt50": 8,
+        "lt95": 11,
+        "added_area": 3292252.0,
+        "foreign_added_area": 190604.19084184285,
+        "foreign_added_boxes_gt1pct": 56,
+        "foreign_fraction_of_added": 0.05789477562526892
+      },
+      "ink_crossing": {
+        "lines": 488,
+        "mean_best_coverage": 0.9724163663626735,
+        "lt50": 8,
+        "lt95": 45,
+        "added_area": 445578.0,
+        "foreign_added_area": 10767.0,
+        "foreign_added_boxes_gt1pct": 7,
+        "foreign_fraction_of_added": 0.02416411941343603
+      }
+    },
+    "Koelnische_Zeitung_1924_0001": {
+      "native": {
+        "lines": 613,
+        "mean_best_coverage": 0.9761968547222459,
+        "lt50": 11,
+        "lt95": 28,
+        "added_area": 0.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0
+      },
+      "fixed": {
+        "lines": 613,
+        "mean_best_coverage": 0.9833918172030914,
+        "lt50": 10,
+        "lt95": 13,
+        "added_area": 2445870.0,
+        "foreign_added_area": 167724.03379340912,
+        "foreign_added_boxes_gt1pct": 17,
+        "foreign_fraction_of_added": 0.06857438612575857
+      },
+      "ink_crossing": {
+        "lines": 613,
+        "mean_best_coverage": 0.9808168095144415,
+        "lt50": 10,
+        "lt95": 17,
+        "added_area": 567308.0,
+        "foreign_added_area": 13396.0,
+        "foreign_added_boxes_gt1pct": 4,
+        "foreign_fraction_of_added": 0.02361327532839304
+      }
+    },
+    "Vossische_Zeitung_1933-03-04_0002": {
+      "native": {
+        "lines": 294,
+        "mean_best_coverage": 0.9878016271060397,
+        "lt50": 1,
+        "lt95": 31,
+        "added_area": 0.0,
+        "foreign_added_area": 0.0,
+        "foreign_added_boxes_gt1pct": 0
+      },
+      "fixed": {
+        "lines": 294,
+        "mean_best_coverage": 0.9985913024766939,
+        "lt50": 0,
+        "lt95": 1,
+        "added_area": 331490.0,
+        "foreign_added_area": 769.0,
+        "foreign_added_boxes_gt1pct": 3,
+        "foreign_fraction_of_added": 0.0023198286524480378
+      },
+      "ink_crossing": {
+        "lines": 294,
+        "mean_best_coverage": 0.9883904731852001,
+        "lt50": 1,
+        "lt95": 30,
+        "added_area": 10215.0,
+        "foreign_added_area": 181.0,
+        "foreign_added_boxes_gt1pct": 1,
+        "foreign_fraction_of_added": 0.017719040626529615
+      }
+    }
+  },
+  "gate_checks": {
+    "lt50_noninferior": true,
+    "lt95_relative_reduction_ge20pct": false,
+    "added_area_le60pct_fixed": true,
+    "foreign_boxes_le_fixed": true,
+    "foreign_fraction_le_fixed_plus2pp": true,
+    "no_page_mean_regression": true
+  },
+  "local_gate_passed": false,
+  "xml_sha256": {
+    "no_title_1617-08-16_0001": "ce514d22c91a23bb6e43450c8d2c657d28b5771783b2cc3a33e3180c70496310",
+    "Reichs_Post_Reuter_1700-11-16_0001": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+    "Leipziger_Zeitung_1748-10-29_0001": "a0613a6b9f2ccf1ac2c5a73591b09065a1550c75c3e6f48a5fd34a6f65f39693",
+    "Holzmindisches_Wochenblatt_1785-07-30_0002": "a9271df81d02c9e6aa0a9361b95f7c081eac02885df3839f58c6a77959d927b0",
+    "Fraenkischer_Kurier_1834-10-15_0002": "ab85ebb3bb9bb03735cdbe359e9d8e508613d5f8ca394eddcd9d5dfd9add953d",
+    "Neue_Berliner_Musikzeitung_1866-07-18_0002": "230c7a8a9df13b684d793e63ff8b736b086acc9b71aadc027d4ba8c8a18af6eb",
+    "Mode_und_Haus_Illustrirte_Kinderwelt_1889-09-15_0001": "3fc17ce9648975a375a6d639c7f5ecca09a81451ee35d8197e13acf6892d18e3",
+    "Muenchner_Neueste_Nachrichten_1917-04-10_0001": "850fa047ddf92829bc1b441ec23ea744912b9a2f9812fa2cdc050a86c029434a",
+    "Koelnische_Zeitung_1924_0001": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef",
+    "Vossische_Zeitung_1933-03-04_0002": "187edfdaaf5bcb26c982e877660577256c09bda855372dcf8220d9479be11ecb"
+  },
+  "model_forwards_reused": 10,
+  "new_model_forwards": 0,
+  "test_pages_opened": 0,
+  "vlm_calls": 0,
+  "ocr_calls": 0,
+  "score_seconds": 7.032315731004928,
+  "versions": {
+    "torch": "2.14.0+cpu",
+    "doclayout_yolo": "0.0.4",
+    "opencv_python_headless": "4.8.1.78",
+    "shapely": "2.1.2"
+  },
+  "all_scientific_gates_passed": false,
+  "limitations": [
+    "Official Training pages used as BBVLM transfer because Validation geometry was consumed by A65.",
+    "A58 structurally audited all XML; this is not a pristine corpus claim.",
+    "Annotation coverage and foreign overlap are not perfect ALTO or semantic ownership truth."
+  ]
+}

@@ -940,5 +940,18 @@
     "test_pages_opened": 0,
     "vlm_calls": 0,
     "global_completion": false
+  },
+  "ink_edge_transfer_a69": {
+    "status": "completed_frozen_transfer_failed_local_gate",
+    "protocol": "next-a69/PROTOCOL.md",
+    "report": "next-a69/report-v2.json",
+    "results": "next-a69/RESULTS.md",
+    "pages": 10,
+    "lines": 1768,
+    "model_forwards": 10,
+    "retry_model_forwards": 0,
+    "test_pages_opened": 0,
+    "local_gate_passed": false,
+    "global_completion": false
   }
 }

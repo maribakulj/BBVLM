@@ -39,3 +39,14 @@ image hashes verified. Crops only use outward integer rounding of raw YOLO boxes
 no resampling. Final report-v2 preserves separate reader observations and costs
 unknown. No GT edits and no model-agreement truth criterion. Next: local ink-edge
 repair comparison, with explicit contamination measure and fresh validation later.
+
+## A68–A69
+`extend_crop_edges_to_connected_ink` étend séparément chaque bord lorsqu'une
+composante 8-connexe traverse une bande intérieure de deux pixels, avec aire
+minimale 3 et contexte borné. A68, sur données consommées, motivait un transfert.
+A69 applique exactement la même règle à dix pages Training gelées après écriture
+et hash des prédictions image-only. Elle réduit l'aire ajoutée et la contamination
+face au padding fixe, mais échoue au gate de couverture : 184→160 lignes sous
+95 %, au lieu des ≤147 gelées. Le writer initial ayant échoué après les dix
+forwards sur une métadonnée OpenCV, `score_transfer_a69_retry.py` réutilise les
+artefacts scellés et fait zéro nouvelle inférence. Ne pas promouvoir cette règle.

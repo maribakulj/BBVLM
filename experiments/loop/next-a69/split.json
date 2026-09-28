@@ -1,0 +1,26 @@
+{
+  "schema": "bbvlm.a69.split/1",
+  "pages": [
+    "no_title_1617-08-16_0001",
+    "Reichs_Post_Reuter_1700-11-16_0001",
+    "Leipziger_Zeitung_1748-10-29_0001",
+    "Holzmindisches_Wochenblatt_1785-07-30_0002",
+    "Fraenkischer_Kurier_1834-10-15_0002",
+    "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+    "Mode_und_Haus_Illustrirte_Kinderwelt_1889-09-15_0001",
+    "Muenchner_Neueste_Nachrichten_1917-04-10_0001",
+    "Koelnische_Zeitung_1924_0001",
+    "Vossische_Zeitung_1933-03-04_0002"
+  ],
+  "official_split": "Training",
+  "official_split_sha256": "4c87ca12b1ebb9e11cd2ac369e507259d0879e4a95f2b02535b0d5ae729c6dcd",
+  "a68_rule": "unchanged",
+  "previous_exposure": [
+    "A58 corpus-wide structural XML audit"
+  ],
+  "excluded_exposure": [
+    "A65 Validation geometry",
+    "A66/A68 images and detector predictions"
+  ],
+  "test_pages_opened": 0
+}

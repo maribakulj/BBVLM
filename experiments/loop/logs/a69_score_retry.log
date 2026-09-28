@@ -1,0 +1,43 @@
+{
+  "aggregate": {
+    "native": {
+      "lines": 1768,
+      "lt50": 71,
+      "lt95": 184,
+      "added_area": 0.0,
+      "foreign_added_area": 0.0,
+      "foreign_added_boxes_gt1pct": 0,
+      "mean_best_coverage": 0.9507754672816201,
+      "foreign_fraction_of_added": 0.0
+    },
+    "fixed": {
+      "lines": 1768,
+      "lt50": 67,
+      "lt95": 79,
+      "added_area": 7439980.0,
+      "foreign_added_area": 363062.45219935453,
+      "foreign_added_boxes_gt1pct": 82,
+      "mean_best_coverage": 0.9615701376142793,
+      "foreign_fraction_of_added": 0.04879884787316022
+    },
+    "ink_crossing": {
+      "lines": 1768,
+      "lt50": 68,
+      "lt95": 160,
+      "added_area": 1161501.0,
+      "foreign_added_area": 25300.525,
+      "foreign_added_boxes_gt1pct": 15,
+      "mean_best_coverage": 0.9537375933761072,
+      "foreign_fraction_of_added": 0.021782611465681046
+    }
+  },
+  "gate_checks": {
+    "lt50_noninferior": true,
+    "lt95_relative_reduction_ge20pct": false,
+    "added_area_le60pct_fixed": true,
+    "foreign_boxes_le_fixed": true,
+    "foreign_fraction_le_fixed_plus2pp": true,
+    "no_page_mean_regression": true
+  },
+  "local_gate_passed": false
+}

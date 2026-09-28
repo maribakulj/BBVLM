@@ -91,3 +91,10 @@ Avant de figer la règle de bord, références relues : Claude
 `60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Claude est inchangé depuis A67 ;
 aucun nouveau protocole, résultat ou code à importer. Aucun merge, aucune
 écriture sur master/main, aucun force-push.
+
+## A69 — 2026-09-28
+Avant le transfert, Claude a été recontrôlé à
+`76056c5c1957e0de4232f0aef1f6cbc7f2893402`, inchangé depuis A68. La branche
+Codex était `42e8c5ef6d3447d14522fd94d57179253e122dca` et master restait
+`60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Aucun fichier concurrent n'a été
+fusionné ou copié. A69 reste sur `codex/autonomous-research-a34`, sans force.

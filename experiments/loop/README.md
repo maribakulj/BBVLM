@@ -594,3 +594,11 @@ Luna12views plus targeted Sol6views completed. Real clipped descender K482 and
 top-edge problem K951 challenge Luna's negative judgments; no reference changes
 or perfect-box claims. See next-a67/RESULTS.md and report-v2.json. a68_prepare
 must test bounded ink-aware repair and contamination, not assume padding is safe.
+
+## A68–A69 — ink-edge repair rejected after frozen transfer
+A68 found a low-area connected-ink crop extension on five consumed Validation
+pages. A69 transferred it unchanged to ten diverse official Training pages and
+ran ten real DocLayout-YOLO CPU forwards. The rule reduces lines below 95%
+coverage only 184→160 (13.0%), missing its frozen 20% gate; fixed padding reaches
+79 but adds 6.4× more area and 82 contaminated boxes. Keep neither as a general
+policy. The 100 Test pages remain unopened; all seven project gates remain false.

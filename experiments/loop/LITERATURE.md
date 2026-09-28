@@ -1131,3 +1131,12 @@ reference errors and excluded advertisements. Cargnelutti et al.2608.18972
 abstract only: class-agnostic crops followed by OCR/semantic enrichment; full
 HTML retrieval unavailable. Each has a separate dated summary and limitations
 in PAPER_SUMMARIES.md. No new heavy model installed beyond the existing YOLO.
+
+## A68–A69 — connected ink transfer
+Jiang, Hao & Liu, arXiv:1708.05133, was read at full-main-text level for A68;
+Sauvola & Pietikäinen (2000) and Sukesh et al., arXiv:2401.11831, were read at
+abstract/metadata level only. Their separate method, limitation, code and BBVLM
+records are in `PAPER_SUMMARIES.md`. A69 introduced no new hypothesis and read
+no new paper: it was the preregistered transfer of A68. Its negative result
+shows that local foreground continuity cannot recover missing/fragmented parent
+regions; this is empirical evidence, not a literature claim.

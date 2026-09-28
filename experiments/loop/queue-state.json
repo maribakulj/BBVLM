@@ -323,7 +323,64 @@
       "ended_at": 1790603414.57552
     },
     "a69_prepare": {
+      "status": "completed",
+      "started_at": 1790603992.5392327,
+      "fingerprint": "a1a15f12752959862fa27a307bc1644ad3633bbcac2d1cb24e58022f82177eca",
+      "actor": "codex-root",
+      "token": "ac7c7f5c95214860b2d84cc0f9d7c3c2",
+      "outputs": {
+        "experiments/loop/next-a69/PROTOCOL.md": "4b22ae81b5968a0867d4c03a15e3c16ec545b076ed0297044f424d318672c110"
+      },
+      "ended_at": 1790604136.1123931
+    },
+    "a69_freeze": {
+      "status": "completed",
+      "started_at": 1790604137.0479493,
+      "fingerprint": "a11e7a418369e829676b87f99261dcfcef2b274e8741f7ad9325ee8e64c7d5f4",
+      "pid": 5,
+      "log": "experiments/loop/logs/a69_freeze.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a69/split.json": "93ff08cd6101438348c46b4e089ee85ad9018be784dd9a417d5b2a651660d98d"
+      },
+      "ended_at": 1790604137.1014726
+    },
+    "a69_images": {
+      "status": "completed",
+      "started_at": 1790604137.102607,
+      "fingerprint": "713d99975045047a920d9f157edddbb79e73e44f7aa314652839920880c85b01",
+      "pid": 6,
+      "log": "experiments/loop/logs/a69_images.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a69/assets.json": "00d823a44bc805f6b59ec8c48db8bc632559e7cccb8a351fcea3ac473e57dfae"
+      },
+      "ended_at": 1790604251.6479368
+    },
+    "a69_evaluate": {
+      "status": "failed",
+      "started_at": 1790604251.650403,
+      "fingerprint": "6f31d45734fd47091e7e9ab6ba17af26ba5ee51b617bcbe1375c1034d6df498d",
+      "pid": 9,
+      "log": "experiments/loop/logs/a69_evaluate.log",
+      "returncode": 1,
+      "reason": "command exited nonzero",
+      "ended_at": 1790604301.9288428
+    },
+    "a70_prepare": {
       "status": "pending"
+    },
+    "a69_score_retry": {
+      "status": "completed",
+      "started_at": 1790604352.339494,
+      "fingerprint": "39928b320101b89c5caa2bb78da8c01896219e4a1f279f8f728949c71e6e6437",
+      "pid": 5,
+      "log": "experiments/loop/logs/a69_score_retry.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a69/report-v2.json": "7c249abc2d7f126b59f329d47dc1ca2fec31452209783fb2189ffed71a97469c"
+      },
+      "ended_at": 1790604364.0662148
     }
   },
   "a66_reference_append_recovery": {
