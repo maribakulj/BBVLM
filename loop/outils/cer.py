@@ -5,7 +5,8 @@ d'édition normalisée) ; une ligne non appariée compte entièrement, des deux
 côtés. L'ordre de lecture se note à part : il n'a rien à faire dans un CER.
 
 Vues : `strict` (octets NFC), `diplo` (ligatures MUFI décomposées, ſ conservé),
-`norm` (diplo + ſ→s, espaces multiples réduites, apostrophes/tirets unifiés).
+`norm` (diplo + ſ→s, espaces multiples réduites, apostrophes/tirets unifiés,
+dont ⸗, e suscrit → tréma). Vue étendue le 2026-09-28 avant O02, sans résultat vu.
 Chaque vue est déclarée ; aucune n'est ajustée après lecture d'un résultat.
 """
 from __future__ import annotations
@@ -14,7 +15,8 @@ import numpy as np
 from scipy.optimize import linear_sum_assignment
 from conventions import transform
 
-TIRETS = dict.fromkeys(map(ord, '‐‑‒–­'), '-')
+TIRETS = dict.fromkeys(map(ord, '\u2010\u2011\u2012\u2013\u00ad\u2e17'), '-')
+UMLAUT = {'a\u0364': '\u00e4', 'o\u0364': '\u00f6', 'u\u0364': '\u00fc'}
 APOS = dict.fromkeys(map(ord, '’ʼ‘'), "'")
 
 
@@ -27,6 +29,7 @@ def vue(t: str, nom: str) -> str:
         return t
     if nom == 'norm':
         t = t.replace('ſ', 's').translate(TIRETS).translate(APOS)
+        for k, v in UMLAUT.items(): t = t.replace(k, v)
         return ' '.join(t.split())
     raise ValueError(nom)
 
