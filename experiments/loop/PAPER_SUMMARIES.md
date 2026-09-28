@@ -228,3 +228,52 @@ les rectangles englobants des polygones. Les variables width/height sont
 inversées dans read_xml puis compensées dans convert_polygon_to_yolo : ne pas
 qualifier ce seul nommage de bug de coordonnées. Aucun poids ni modèle testé
 dans A65. Les niveaux de représentation doivent rester séparés dans ALTO/METS.
+
+## A66 — lectures du 28 septembre 2026
+
+### DocLayout-YOLO — Zhao et al., arXiv:2410.12628v1, 16 octobre 2024
+
+Lecture du texte principal sections 1–5.3, pas de revendication de lecture intégrale
+des annexes. Méthode : préentraînement par assemblage synthétique de documents
+et champs réceptifs multi-échelles dans YOLOv10. Les sorties sont des éléments
+documentaires, pas des colonnes garanties. Les évaluations mAP et vitesse ne
+démontrent ni mots parfaitement encadrés ni CER nul en presse ancienne.
+Apport BBVLM : candidat visuel léger déjà testé, réévalué ici sur cinq pages et
+deux résolutions fixées, sans OCR ni PERO complet. Code officiel README et
+`models/yolov10/predict.py` lus au commit 32a8ec276b3d79bf40561c4bc4b8e21ef32ac6fd :
+filtrage de confiance puis retour aux coordonnées natives. Installation de la
+version PyPI 0.0.4 ; prédicteur installé relu, chargement pickle explicite après
+vérification SHA du poids public. Aucune extrapolation du débit GPU publié au CPU.
+Sources : https://arxiv.org/html/2410.12628v1 ;
+https://github.com/opendatalab/DocLayout-YOLO .
+
+### Towards Hierarchical Structure Understanding of Newspaper Images
+
+Mocaër et al., arXiv:2607.15082v1, 16 juillet 2026. Texte principal sections 1–8
+lu (pas seulement abstract). Comparaison YOLO/LSD/LayoutReader/segmentation
+d'articles et Tiramisu hiérarchique multi-passe. Le modèle ascendant obtient
+72,27 % mAP50 et 80,39 % F1 articles sur leur protocole ; les erreurs amont
+de Tiramisu peuvent supprimer tous les enfants d'un article. Limites cruciales :
+publicités exclues, annotations Finlam imparfaites, OCR non gold, divergences de
+granularité. Le BLEU de classes peut masquer des permutations entre blocs de
+même classe ; cette dernière réserve est notre analyse de leur métrique.
+Apport BBVLM : mesurer hiérarchie et contenu distinctement, ne pas traiter
+Finlam comme certification CER. Code annoncé (non inspecté dans A66) :
+https://git.litislab.fr/tiramisu/tiramisu-newspaper-articles-extractor ; évaluateur
+https://gitlab.teklia.com/adr/newspaper/evaluation .
+Source : https://arxiv.org/html/2607.15082v1 .
+
+### Institutional Newspapers Pipeline — Cargnelutti et al.
+
+arXiv:2608.18972, 19 août 2026. **Abstract seulement** : version précise du texte
+complet non inspectée, récupération HTML indisponible. Pipeline modulaire avec
+découpes indépendantes des types, OCR, classification, ordre, NER et embeddings ;
+annonce un corpus dérivé de 1,47 million de scans. Intérêt pour BBVLM : séparer
+découpe physique et typage, réutiliser une transcription pour plusieurs usages.
+L'abstract ne permet pas de vérifier CER, adjudication, coût CPU ou conventions
+des boîtes ; aucune performance n'est importée comme résultat BBVLM. Le code
+et les modèles sont annoncés, mais aucun dépôt n'a été inspecté dans cette
+lecture. Source : https://arxiv.org/abs/2608.18972 .
+
+Autres résultats de recherche (TongGuOCR, survey OCR, Layout-Aware OCR in Black
+Digital Archives) : repérage seulement, pas de lecture scientifique revendiquée.

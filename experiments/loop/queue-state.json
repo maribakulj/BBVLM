@@ -33,7 +33,9 @@
       "outputs": {
         "experiments/loop/next-a63/PROTOCOL.md": "2a48591cd8d05e480029dd69bf403c0a2efd6f5b2f5c8b09002ae5c2b46ac984"
       },
-      "ended_at": 1790598270.3752053
+      "ended_at": 1790598270.3752053,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun.",
+      "recovery_a66": "Original input bytes restored; fingerprint/output/dependency hashes revalidated; no rerun."
     },
     "a63_crops": {
       "status": "completed",
@@ -58,7 +60,9 @@
         "experiments/loop/next-a63/blind/R816.png": "448c122457bbf78b307f6e9c38dfe13df319ca2f33c28811c31403082a56b982",
         "experiments/loop/next-a63/blind/R816-zoom.png": "7899477684ad96112b76777f2ae6abd940a041a55346131216fea1829d4b16c7"
       },
-      "ended_at": 1790598270.8113966
+      "ended_at": 1790598270.8113966,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun.",
+      "recovery_a66": "Original input bytes restored; fingerprint/output/dependency hashes revalidated; no rerun."
     },
     "a63_reader": {
       "status": "completed",
@@ -69,7 +73,9 @@
       "outputs": {
         "experiments/loop/next-a63/sol-response.json": "34f6b57cbfc03010f7c8129e3fafc44d4d403110e9b66d7403128723019e47bd"
       },
-      "ended_at": 1790598397.101673
+      "ended_at": 1790598397.101673,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun.",
+      "recovery_a66": "Original input bytes restored; fingerprint/output/dependency hashes revalidated; no rerun."
     },
     "a63_score": {
       "status": "completed",
@@ -81,7 +87,9 @@
       "outputs": {
         "experiments/loop/next-a63/report.json": "67f4ef476e719753869f23b5d7e43ca2e71d19ec4acf4cdc4f954634b50c0d91"
       },
-      "ended_at": 1790598397.2806325
+      "ended_at": 1790598397.2806325,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun.",
+      "recovery_a66": "Original input bytes restored; fingerprint/output/dependency hashes revalidated; no rerun."
     },
     "a64_prepare": {
       "status": "completed",
@@ -92,7 +100,9 @@
       "outputs": {
         "experiments/loop/next-a64/PROTOCOL.md": "ae5322158f64e3a8e769d3e9551368d6f5f4bb5bb30bb5e38ef522ca2555fb2c"
       },
-      "ended_at": 1790599706.7795732
+      "ended_at": 1790599706.7795732,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun.",
+      "recovery_a66": "Original input bytes restored; fingerprint/output/dependency hashes revalidated; no rerun."
     },
     "a64_verify": {
       "status": "completed",
@@ -104,7 +114,9 @@
       "outputs": {
         "experiments/loop/hipe-projection-a64/implementation-verification.json": "4816fcb54b631496dde54a5021c692f4062666145c01c29a0baab763df08feee"
       },
-      "ended_at": 1790599764.4919884
+      "ended_at": 1790599764.4919884,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun.",
+      "recovery_a66": "Original input bytes restored; fingerprint/output/dependency hashes revalidated; no rerun."
     },
     "a64_score": {
       "status": "completed",
@@ -116,7 +128,9 @@
       "outputs": {
         "experiments/loop/hipe-projection-a64/report.json": "94f5f9ce73ca0eec4e72d362264519559a17b6452fa0ed6185253eb7a3308fbc"
       },
-      "ended_at": 1790599815.5592117
+      "ended_at": 1790599815.5592117,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun.",
+      "recovery_a66": "Original input bytes restored; fingerprint/output/dependency hashes revalidated; no rerun."
     },
     "a65_prepare": {
       "status": "completed",
@@ -127,7 +141,9 @@
       "outputs": {
         "experiments/loop/next-a65/PROTOCOL.md": "0eee407e18c28d9a4955e404f8c52907742858652a879d416767abf6398a9060"
       },
-      "ended_at": 1790600464.5658221
+      "ended_at": 1790600464.5658221,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun.",
+      "recovery_a66": "Original input bytes restored; fingerprint/output/dependency hashes revalidated; no rerun."
     },
     "a65_geometry": {
       "status": "completed",
@@ -139,10 +155,94 @@
       "outputs": {
         "experiments/loop/next-a65/report.json": "949284c68c511e8634c5663afa23205bef0db88054709aa8270250beefb45ff2"
       },
-      "ended_at": 1790600471.8512914
+      "ended_at": 1790600471.8512914,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun.",
+      "recovery_a66": "Original input bytes restored; fingerprint/output/dependency hashes revalidated; no rerun."
     },
     "a66_prepare": {
+      "status": "completed",
+      "started_at": 1790600921.9467678,
+      "fingerprint": "810ba2b1accd003d82ee28721d47a7ba55113a96b146609167f1ed4e6f35ba58",
+      "actor": "codex-root",
+      "token": "f96b3ce4035944bfafad7f73e56bf90c",
+      "outputs": {
+        "experiments/loop/next-a66/PROTOCOL.md": "d733805f198f72bcff079d93ab1df14c3e2e7ba1e66653e904f6e9b11b3a77ae"
+      },
+      "ended_at": 1790601024.1993942,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun.",
+      "recovery_a66": "Original input bytes restored; fingerprint/output/dependency hashes revalidated; no rerun."
+    },
+    "a66_images": {
+      "status": "failed",
+      "started_at": 1790601134.7909517,
+      "fingerprint": "5e12bb4155666efce2338f37bf38573568ea29e6eebaead3c6dbf6ca1a631a93",
+      "pid": 5,
+      "log": "experiments/loop/logs/a66_images.log",
+      "returncode": 1,
+      "reason": "command exited nonzero",
+      "ended_at": 1790601178.5063536
+    },
+    "a66_weights": {
+      "status": "completed",
+      "started_at": 1790601134.7929518,
+      "fingerprint": "b5545e71c0c685bf781fb364e2dd8c1b920b056e77d82e65251d4b7e8f0d05d1",
+      "pid": 6,
+      "log": "experiments/loop/logs/a66_weights.log",
+      "returncode": 0,
+      "outputs": {
+        "models/doclayout-yolo/doclayout_yolo_docstructbench_imgsz1024.pt": "9a2ee0220fe3d9ad31b47e1d9f1282f46959a54e4618fce9cffcc9715b8286e2"
+      },
+      "ended_at": 1790601168.2716682,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun.",
+      "recovery_a66": "Original input bytes restored; fingerprint/output/dependency hashes revalidated; no rerun."
+    },
+    "a66_images_retry": {
+      "status": "completed",
+      "started_at": 1790601257.942672,
+      "fingerprint": "4e196159879aaf64198ce4cccd108cc55beeaafeb7b60aadf1bd2252fc2c5b8a",
+      "pid": 5,
+      "log": "experiments/loop/logs/a66_images_retry.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a66/assets-v2.json": "50dd162e098e07d8534565cffc44b54ffab05d9d3a8b9ba5295eda73726af367"
+      },
+      "ended_at": 1790601295.3056502,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun.",
+      "recovery_a66": "Original input bytes restored; fingerprint/output/dependency hashes revalidated; no rerun."
+    },
+    "a66_predict_score": {
+      "status": "completed",
+      "started_at": 1790601405.8123083,
+      "fingerprint": "716ecb4934e155939666d80e1160af7977e8d480a85219cdfb1bd2ad3ab9dd64",
+      "pid": 5,
+      "log": "experiments/loop/logs/a66_predict_score.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a66/predictions.json": "116b52f82f241dd7684d4e0260b451916759dd2c8d25dcf82d49548acd450836",
+        "experiments/loop/next-a66/report.json": "adefa1122be64d21641c57567ba7b1c4380964f639f98e5d74542030d2267245"
+      },
+      "ended_at": 1790601439.4993398
+    },
+    "a67_prepare": {
       "status": "pending"
     }
+  },
+  "a66_reference_append_recovery": {
+    "restored_jobs": [
+      "a63_prepare",
+      "a63_crops",
+      "a63_reader",
+      "a63_score",
+      "a64_prepare",
+      "a64_verify",
+      "a64_score",
+      "a65_prepare",
+      "a65_geometry",
+      "a66_prepare",
+      "a66_weights",
+      "a66_images_retry"
+    ],
+    "cause": "Moved new reference addendum out of immutable A63 input",
+    "fingerprints_preserved": true
   }
 }

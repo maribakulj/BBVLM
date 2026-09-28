@@ -21,3 +21,12 @@ Validation Chronicling avec Shapely 2.1.2. Hashes A58 vérifiés, 100 Test exclu
 aucun texte lu. Polygones invalides en quarantaine sans réparation. Quatre tests
 synthétiques et monotonicité des surfaces conservées vérifiés. Report complet
 avec IDs, SHA256, compteurs et coût ; aucune inférence détecteur/OCR/VLM.
+
+## A66
+`fetch_crop_pilot_a66.py` verifies mixed Git/LFS image content at immutable source
+revision. `evaluate_predicted_crops_a66.py` performs ten real CPU forwards and
+only then opens reference geometry; synthetic coverage tests and coordinate
+invariants pass. All inputs and raw predictions retained. See next-a66/RESULTS.md
+for failure/recovery records. REFERENCE_ADDENDUM.md is separate to preserve the
+immutable A63 audit input. Restore five images with the fetch script; restore
+the 40.7MB YOLO weight through restore_public_assets.py --only. No full PERO run.

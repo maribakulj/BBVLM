@@ -1,0 +1,51 @@
+{
+  "revision": "66b50f53ccdb581d29cc02f670e469bbf583e825",
+  "test_pages_opened": 0,
+  "images": [
+    {
+      "page": "Berliner_Boersen_Zeitung_1857-04-06_0001",
+      "path": "corpora/chronicling-germany/images/Berliner_Boersen_Zeitung_1857-04-06_0001.jpg",
+      "sha256": "5010c34af9caf028e7d9bf2540c0f1dd1430ee2ebfb8e789eedce296766af0e3",
+      "bytes": 3615110,
+      "git_blob_id": "ad5d382dfe0a685ac02eb03ab607fc556fe9e1bc",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FBerliner_Boersen_Zeitung_1857-04-06_0001.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 8.309756680995633
+    },
+    {
+      "page": "Bonner_Zeitung_1891-09-16_0001",
+      "path": "corpora/chronicling-germany/images/Bonner_Zeitung_1891-09-16_0001.jpg",
+      "sha256": "a0ec1bdb2054fb5d1bce59d5fe9d100a39578ebc04572fc8b1c18de1b558f1c7",
+      "bytes": 3546235,
+      "git_blob_id": "c4d84d9bf0e07cecce4a780dae53892ed7696b08",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FBonner_Zeitung_1891-09-16_0001.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 8.151484189002076
+    },
+    {
+      "page": "Der_Bazar_1856-01-15_0004",
+      "path": "corpora/chronicling-germany/images/Der_Bazar_1856-01-15_0004.jpg",
+      "sha256": "4cc9863796941df608e9dd83eb551f078ac48c2a52544240b0c4189315860126",
+      "bytes": 1027751,
+      "git_blob_id": "5ff91fddf14c8cef20ac7df8bc82cf18b7b11ad7",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FDer_Bazar_1856-01-15_0004.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 7.97328207600367
+    },
+    {
+      "page": "Dresdner_Journal_1898-05-27_0001",
+      "path": "corpora/chronicling-germany/images/Dresdner_Journal_1898-05-27_0001.jpg",
+      "sha256": "1dae8d91cb598c5015cf723298eaea93164fe62271ed765c982a16995323c380",
+      "bytes": 1187852,
+      "git_blob_id": "0ab54326cf00b6b190c75a4316908f9115330d61",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FDresdner_Journal_1898-05-27_0001.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 14.851081277003686
+    },
+    {
+      "page": "Hildener_Rundschau_Illustrierte_1930-10-26_0006",
+      "path": "corpora/chronicling-germany/images/Hildener_Rundschau_Illustrierte_1930-10-26_0006.jpg",
+      "sha256": "a309e0bdc8a475a947e8f1725520a95d7d05fee03de9d014c3307c1b351ecddf",
+      "bytes": 527858,
+      "git_blob_id": "660bec944f74ff8a6dccef52cc7ac48c67eecece",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FHildener_Rundschau_Illustrierte_1930-10-26_0006.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 21.157810468997923
+    }
+  ]
+}

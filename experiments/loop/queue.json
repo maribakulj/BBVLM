@@ -254,6 +254,68 @@
       "inputs": ["experiments/loop/next-a65/report.json", "experiments/loop/next-a65/RESULTS.md"],
       "outputs": ["experiments/loop/next-a66/PROTOCOL.md"],
       "instructions": "Reinspect Claude; remain on codex/autonomous-research-a34 and never merge/update master/main. A65 is an oracle structural ablation, not detector/OCR improvement. Freeze and run a diverse image-only predicted-layout/crop benchmark, starting on official Validation only; preserve all 100 Test pages until a detector and label/crop policy are frozen. Restore only necessary CPU dependencies/assets. Read current candidate code and primary literature; use no heavy new tool without measured defect. Measure missed and fragmented lines, foreign-region crop area, class mapping and cost separately. Commit/push/checkpoint each completed experiment and continue ready work."
+    },
+    {
+      "id":"a66_images", "kind":"command", "resource":"io", "deps":["a66_prepare"],
+      "inputs":["scripts/fetch_crop_pilot_a66.py","experiments/loop/next-a66/PROTOCOL.md","experiments/loop/chronicling-a58/official_split.json"],
+      "outputs":["experiments/loop/next-a66/assets.json"],
+      "argv":["{python}","scripts/fetch_crop_pilot_a66.py"], "timeout_seconds":900
+    },
+    {
+      "id":"a66_weights", "kind":"command", "resource":"io", "deps":["a66_prepare"],
+      "inputs":["scripts/restore_public_assets.py","experiments/loop/assets.json"],
+      "outputs":["models/doclayout-yolo/doclayout_yolo_docstructbench_imgsz1024.pt"],
+      "argv":["{python}","scripts/restore_public_assets.py","--only","models/doclayout-yolo/doclayout_yolo_docstructbench_imgsz1024.pt"], "timeout_seconds":600
+    },
+    {
+      "id":"a66_images_retry", "kind":"command", "resource":"io", "deps":["a66_prepare"],
+      "inputs":["scripts/fetch_crop_pilot_a66.py","experiments/loop/next-a66/PROTOCOL.md","experiments/loop/chronicling-a58/official_split.json"],
+      "outputs":["experiments/loop/next-a66/assets-v2.json"],
+      "argv":["{python}","scripts/fetch_crop_pilot_a66.py"], "timeout_seconds":900
+    },
+    {
+      "id": "a66_predict_score",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a66_images_retry",
+        "a66_weights"
+      ],
+      "inputs": [
+        "scripts/evaluate_predicted_crops_a66.py",
+        "scripts/evaluate_crop_geometry_a65.py",
+        "scripts/fetch_crop_pilot_a66.py",
+        "experiments/loop/next-a66/PROTOCOL.md",
+        "experiments/loop/next-a66/assets-v2.json",
+        "experiments/loop/chronicling-a58/audit.json",
+        "models/doclayout-yolo/doclayout_yolo_docstructbench_imgsz1024.pt",
+        "corpora/chronicling-germany/images/Berliner_Boersen_Zeitung_1857-04-06_0001.jpg",
+        "corpora/chronicling-germany/annotations/Berliner_Boersen_Zeitung_1857-04-06_0001.xml",
+        "corpora/chronicling-germany/images/Bonner_Zeitung_1891-09-16_0001.jpg",
+        "corpora/chronicling-germany/annotations/Bonner_Zeitung_1891-09-16_0001.xml",
+        "corpora/chronicling-germany/images/Der_Bazar_1856-01-15_0004.jpg",
+        "corpora/chronicling-germany/annotations/Der_Bazar_1856-01-15_0004.xml",
+        "corpora/chronicling-germany/images/Dresdner_Journal_1898-05-27_0001.jpg",
+        "corpora/chronicling-germany/annotations/Dresdner_Journal_1898-05-27_0001.xml",
+        "corpora/chronicling-germany/images/Hildener_Rundschau_Illustrierte_1930-10-26_0006.jpg",
+        "corpora/chronicling-germany/annotations/Hildener_Rundschau_Illustrierte_1930-10-26_0006.xml"
+      ],
+      "outputs": [
+        "experiments/loop/next-a66/predictions.json",
+        "experiments/loop/next-a66/report.json"
+      ],
+      "argv": [
+        "{python}",
+        "scripts/evaluate_predicted_crops_a66.py"
+      ],
+      "timeout_seconds": 600
+    },
+    {
+      "id":"a67_prepare", "kind":"external", "resource":"orchestrator",
+      "deps":["a66_predict_score"],
+      "inputs":["experiments/loop/next-a66/report.json","experiments/loop/next-a66/predictions.json","experiments/loop/next-a66/RESULTS.md"],
+      "outputs":["experiments/loop/next-a67/PROTOCOL.md"],
+      "instructions":"Recheck Claude, remain original Codex branch only. A66 is consumed transfer: visually audit sampled fragmentation/coverage failures before proposing crop repair. Use one real Luna visual reader, strict opaque IDs, native context and exact predicted crops; do not give XML, predictions text, model names or expected conclusions. Distinguish true clipped glyphs from GT line convention or split text. It is a diagnostic, not independent adjudication or new gold. Freeze selection and preserve originals. Read sources/current relevant code, summarize papers individually. Commit/push/checkpoint completed experiment then continue immediately."
     }
   ]
 }

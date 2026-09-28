@@ -582,3 +582,9 @@ File de tâches concurrentes et reprenables : voir CONTINUOUS_LOOP.md et queue-a
 
 ## A63 terminé dans la même session
 File exercée sur une vraie lecture Sol et son score :6→4 éditions lexicales sur6lignes sélectionnées oracle, aucun score indépendant ni perfection. Voir next-a63/RESULTS.md. Prochaine action a64_prepare.
+
+## A66 — latest real detector experiment
+Five Chronicling validation images, ten YOLO forwards at1024/1600,16.05s CPU
+including load. Incomplete single-box line coverage133→142/1317: resolution alone
+does not solve crop quality. Geometry proxies are not CER. Full evidence in
+next-a66/RESULTS.md; next action visual audit, no retuning or final success claim.

@@ -72,3 +72,9 @@ inchangé. Aucun nouveau commit à examiner. Aucun code fusionné. Branche
 principale master toujours60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec ; main absent.
 Toutes les écritures de cette boucle visent codex/autonomous-research-a34,
 sans force et avec un seul parent (pas de merge).
+
+## A66 — 2026-09-28
+Claude head rechecked76056c5c1957e0de4232f0aef1f6cbc7f2893402, unchanged.
+Master rechecked after the actual experiment:60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec,
+unchanged. A65 was pushed4706e6dab32207d4926c0c35dd37a093212b6c43 on the original
+Codex branch. No merge, no force, no main/master update.

@@ -1,6 +1,16 @@
 {
   "version": 1,
   "status": "in_progress",
+  "predicted_crops_a66": {
+    "status": "completed_consumed_development",
+    "protocol": "next-a66/PROTOCOL.md",
+    "report": "next-a66/report.json",
+    "results": "next-a66/RESULTS.md",
+    "model_forwards": 10,
+    "test_pages_opened": 0,
+    "ocr_calls": 0,
+    "all_scientific_gates_passed": false
+  },
   "objective": "Measured improvement over native PERO word boxes, frontier-quality image-grounded transcription, evidence-backed OLR/metadata/retrieval and coherent ALTO/METS exports",
   "model_policy": {
     "primary": "luna",

@@ -1122,3 +1122,12 @@ PAPER_SUMMARIES.md. Hypothèse mesurée sur 50 Validation : une union des régio
 texte retire très peu des débordements de lignes ; rectangles et polygones
 échangent perte de surface et intrusion de voisins. Ne pas attribuer une baisse
 de CER à une meilleure couverture de polygones sans images ni OCR mesuré.
+
+## A66 — predicted crops and recent OLR work
+DocLayout-YOLO2410.12628v1 main sections1–5.3 and current predictor code read;
+real CPU resolution ablation completed, no OCR conclusion. Mocaër et al.
+2607.15082v1 main text read: useful hierarchy metrics, but acknowledged Finlam
+reference errors and excluded advertisements. Cargnelutti et al.2608.18972
+abstract only: class-agnostic crops followed by OCR/semantic enrichment; full
+HTML retrieval unavailable. Each has a separate dated summary and limitations
+in PAPER_SUMMARIES.md. No new heavy model installed beyond the existing YOLO.
