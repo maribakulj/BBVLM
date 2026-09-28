@@ -1,0 +1,56 @@
+[
+ {
+  "id": "l001",
+  "verdict": "Y",
+  "texte_correct": "was dis fuͤr ein Ort ſey/ angezeiget. Dieſe Capellen iſt klein/",
+  "notes": "fuͤr : petit e suscrit. Le trait entre ein et Ort est le délié d'attaque du O majuscule Fraktur, pas un trait d'union."
+ },
+ {
+  "id": "l002",
+  "verdict": "Y",
+  "texte_correct": "auch nichts ornirt oder geſchmuͤckt/ allein das ſie vor wenig",
+  "notes": "geſchmuͤckt : petit e suscrit net."
+ },
+ {
+  "id": "l003",
+  "verdict": "Y",
+  "texte_correct": "worden. Von dannen ſeind wir im Gebirge fuͤrder gan⸗",
+  "notes": "fuͤrder : petit e suscrit net."
+ },
+ {
+  "id": "l007",
+  "verdict": "Y",
+  "texte_correct": "wol kommen mag/ Aber Chriſtoff Fuͤhrer von Nuͤrnberg",
+  "notes": "Fuͤhrer et Nuͤrnberg : petit e suscrit net dans les deux cas."
+ },
+ {
+  "id": "l009",
+  "verdict": "X",
+  "texte_correct": "irus nennet Phaſelipoli, das in dieſen zween Koͤnige/ Bruͤ⸗",
+  "notes": "Koͤnige (signe un peu pâle mais de forme e, comme partout dans cet imprimé) et Bruͤ⸗ : petit e suscrit."
+ },
+ {
+  "id": "l010",
+  "verdict": "Y",
+  "texte_correct": "Von dannen ſeind wir fuͤrder im Gebirge gangen/ vnd",
+  "notes": "fuͤrder : petit e suscrit net."
+ },
+ {
+  "id": "l012",
+  "verdict": "X",
+  "texte_correct": "iſt/ S. Maria mit dem Guͤrtel. Denn an dieſem Ort zei⸗",
+  "notes": "Guͤrtel : petit e suscrit net."
+ },
+ {
+  "id": "l013",
+  "verdict": "X",
+  "texte_correct": "haben/ dieweil er das Guͤrtel von der Jungfrawen Maria",
+  "notes": "Guͤrtel : petit e suscrit net."
+ },
+ {
+  "id": "l014",
+  "verdict": "Y",
+  "texte_correct": "was dis fuͤr ein Ort ſey/ angezeiget. Dieſe Capellen iſt klein/",
+  "notes": "Même image que l001 : pas de trait d'union, le trait fait partie du O."
+ }
+]

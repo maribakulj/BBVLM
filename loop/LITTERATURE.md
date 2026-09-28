@@ -46,3 +46,20 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
   lectures par alignement et vote. *Limite constatée en O02* : deux lectures du
   même modèle partagent leurs erreurs ; le désaccord A1/A2 ne signale que
   0 à 72 % des lignes fautives selon la page.
+
+## L03 — zoom et alignement (2026-09-28, avant O04 et G01)
+
+- **Zoom multi-résolution des VLM** : Dragonfly (2024, agrandir au-delà de la
+  résolution native), ZoomEye (EMNLP 2025, exploration arborescente), CropVLM
+  (CVPRW 2026, politique de recadrage apprise, gains en texte de scène et
+  documents), DeepEyes (2026). *Conséquence* : vues de détail agrandies pour
+  les signes suscrits (O04) ; le recadrage appris dépasse ce qu'on peut faire
+  ici (pas d'entraînement), on teste la version sans apprentissage.
+- **Alignement texte-image** : CTC transcription alignment (Bullinger, arXiv
+  2508.07904) ; alignement sans apprentissage mot à mot avec gestion des sur/
+  sous-segmentations (Moccia, PMC9864051) ; kraken 5 ; PERO `force_align` (utilisé
+  par astra). *Conséquence* : l'alignement CTC est l'état de l'art quand un
+  reconnaisseur est disponible ; ici PERO n'est pas téléchargeable (lien
+  bloqué), d'où `connexe` (sans reconnaisseur) comme moteur principal.
+- **Évaluation des boîtes** : IoU, précision/rappel, ZoneMap (appariements,
+  divisions, fusions). CRITERE.md reste la mesure gelée du projet.

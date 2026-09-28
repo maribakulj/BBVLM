@@ -15,13 +15,24 @@ def reference_adjugee(dossier):
     ref = json.load(open(f'{dossier}/ref.json'))
     cle = json.load(open(f'{dossier}/adj/cle.json'))
     ver = {v['id']: v for v in json.load(open(f'{dossier}/adj/verdicts.json'))}
-    choix, conflits, indec = {}, set(), 0
+    try:
+        ver2 = {v['id']: v for v in json.load(open(f'{dossier}/adj/verdicts2.json'))}
+    except FileNotFoundError:
+        ver2 = {}
+    choix, conflits, indec, contestes = {}, set(), 0, 0
     for c in cle:
         v = ver.get(c['id'])
         if v is None: continue
         r = c['X'] if c['_ref'] == 'X' else c['Y']
         j = vue(v['texte_correct'], 'diplo')
         indec += v['verdict'] == 'indecidable'
+        # Un texte qu'aucun des deux candidats ne portait n'est retenu que si
+        # un second arbitre indépendant écrit le même (double adjudication).
+        if v['verdict'] in ('aucun', 'partage', 'indecidable') or j not in (vue(c['X'], 'diplo'), vue(c['Y'], 'diplo')):
+            v2 = ver2.get(c['id'])
+            if v2 is None or vue(v2['texte_correct'], 'diplo') != j:
+                contestes += 1
+                continue
         if r in choix and choix[r] != j: conflits.add(r)
         choix.setdefault(r, j)
     adj, err_ref = [], 0
@@ -32,7 +43,8 @@ def reference_adjugee(dossier):
         else:
             adj.append(x)
     return adj, {'lignes_corrigees': sum(1 for d in choix if d not in conflits and choix[d] != d),
-                 'car_faux_reference': err_ref, 'conflits': len(conflits), 'indecidables': indec}
+                 'car_faux_reference': err_ref, 'conflits': len(conflits), 'indecidables': indec,
+            'contestes_non_retenus': contestes}
 
 
 if __name__ == '__main__':

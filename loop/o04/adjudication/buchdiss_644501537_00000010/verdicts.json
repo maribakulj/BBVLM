@@ -1,0 +1,44 @@
+[
+ {
+  "id": "l000",
+  "verdict": "Y",
+  "texte_correct": "Und ihre cohanim will ich bekleiden mit Huͤlff.",
+  "notes": "Hülff : signe suscrit en forme de petit e au-dessus du u."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "Sacerdotes ſpirituales ſunt omnes fideles, quos fore ſibi ממלכת",
+  "notes": "imprimé ממלכת (mamlekhet) ; Y inverse/lit mal les lettres."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "כהנים regnum ſacerdotum ſiue ſacerdotale, ipſe dicit Iehouah Exod.",
+  "notes": "hébreu כהנים en ordre logique (Y inversé, ב pour נ) ; ſacerdotale avec e, pas c."
+ },
+ {
+  "id": "l003",
+  "verdict": "aucun",
+  "texte_correct": "XIX. 6. cuius legatus Petrus I. Epiſt. II. 9. eosdem βασιλειον ἱερατευμα",
+  "notes": "ν final (pas γ) ; esprit rude sur ι (ἱ) ; ρ bouclé = ρ, pas ζ ; aucun accent imprimé sur α (X ajoute ά)."
+ },
+ {
+  "id": "l004",
+  "verdict": "aucun",
+  "texte_correct": "ne dicit Ιησȣς χριστος ἐποιησεν ἡμας βασιλεις και ἱερεις τῳ Θεῳ και πατρι αὐτȣ,",
+  "notes": "Y quasi juste mais : ligature στ à rendre en lettres séparées (pas ς seul) ; τῳ Θεῳ portent iota souscrit seul, pas de circonflexe (ῳ, pas ῷ). X : glyphes erronés (ϗ, ζ, χ pour κ, γ pour ν, apostrophes)."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "XIX. 6. cuius legatus Petrus I. Epiſt. II. 9. eosdem βασιλειον ἱερατευμα",
+  "notes": "ν final, esprit rude sur ι, ρ ; pas d'accent sur α."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "ne dicit Ιησȣς χριστος ἐποιησεν ἡμας βασιλεις και ἱερεις τῳ Θεῳ και πατρι αὐτȣ,",
+  "notes": "η, χρ minuscules, ligature στ en lettres séparées, esprits ἐ ἡ ἱ ὐ, κ, ρ, iota souscrit sans circonflexe : tout conforme à X."
+ }
+]

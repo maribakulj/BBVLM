@@ -37,3 +37,18 @@ A32 d'astra perd en Fraktur (voisinage vertical), comme astra l'a vu en A36.
 A36-A51 : routeur A37 (IoU80 68,6 % sur lignes prédites PERO), colonnes de
 presse par modes du bord gauche (A48-A49), frontières d'articles par VLM
 rejetées. Voir CONCURRENT.md.
+
+## O04 — 2026-09-28 — zoom ×1,6 utile, double adjudication, règle d'inflexion
+
+Zoom meilleur sur 3 pages sur 4. La double adjudication écarte les corrections
+d'un arbitre isolé (9 « ů » sur helfkurt tombent). Découverte : 0 tréma dans
+les 13 références SBB ; règle R1 (tréma → e suscrit hors pages à ů) :
+351 → 215 fautes sur O02-O04 — développement, à valider en O05. Référence
+buchdiss : grec et hébreu faux (32 car.).
+
+## G02 — routeur A37 appliqué à connexe+A32
+
+Horizontale A32, verticale jamais au-delà de connexe : IoU médian proche ou
+meilleur que connexe partout (helfkurt 0,950 → 0,959, ejngerez 0,874 → 0,891),
+frontières inchangées. Le pire cas d'actevedef (6,4 car.) est une boîte de
+référence douteuse (« a. » large de 134 px).

@@ -1,0 +1,26 @@
+[
+ {
+  "id": "l002",
+  "verdict": "aucun",
+  "texte_correct": "die Klage ſowohl als das Zeugnuͤß vor falſch und erdichtet muͤßen gehalten werden.",
+  "notes": "« ſowohl » imprimé d'un seul tenant (X juste) ; Zeugnuͤß et muͤßen portent un petit e suscrit net (Y juste). Aucun des deux entièrement correct."
+ },
+ {
+  "id": "l013",
+  "verdict": "aucun",
+  "texte_correct": "ein gantz anderer ex Officio anzuſtellender Proceß vorgeſchrieben wird, und allenfalls, wenn uͤber die",
+  "notes": "vorgeſchrieben : ſ long net (Y juste) ; uͤber : petit e suscrit net (X juste)."
+ },
+ {
+  "id": "l025",
+  "verdict": "Y",
+  "texte_correct": "Judicium beſtaͤndig behauptet, daß ſie der Hofrath Senckenberg mit Gewalt⸗ und ſo gar mit Piſtolen zu",
+  "notes": "beſtaͤndig : petit e suscrit ; un trait double oblique ⸗ est bien imprimé entre Gewalt et und (collé au mot précédent, espace ensuite selon la convention)."
+ },
+ {
+  "id": "l048",
+  "verdict": "X",
+  "texte_correct": "Judicium beſtaͤndig behauptet, daß ſie der Hofrath Senckenberg mit Gewalt⸗ und ſo gar mit Piſtolen zu",
+  "notes": "Même image que l025 : ⸗ présent après Gewalt."
+ }
+]

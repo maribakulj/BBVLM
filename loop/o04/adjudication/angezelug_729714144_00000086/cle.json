@@ -1,0 +1,44 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Jch ſahe, drey Staͤrcke waren faſt groß,",
+  "Y": "Jch ſahe, drey Starcke waren faſt groß,",
+  "divergences_X_vers_Y": [
+   [
+    "ͤ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o04/angezelug_729714144_00000086//c_bandes.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Jhr Arbeit waͤr ohn Unterlaß,",
+  "Y": "Jhr Arbeit war ohn Unterlaß,",
+  "divergences_X_vers_Y": [
+   [
+    "ͤ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o04/angezelug_729714144_00000086//c_bandes.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "Leid viel Würff, Schlaͤg und groſſen Stoß,",
+  "Y": "Leid viel Wuͤrff, Schlaͤg und groſſen Stoß,",
+  "divergences_X_vers_Y": [
+   [
+    "ü",
+    "uͤ"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o04/angezelug_729714144_00000086//c_bandes.txt"
+ }
+]

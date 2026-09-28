@@ -1,0 +1,72 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "gravitate morum vitæ caſtitate doctri-",
+  "Y": "gravitate morum vinæ caſtitate doctri-",
+  "divergences_X_vers_Y": [
+   [
+    "t",
+    "n"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o04/colechri_833990977_00000012//c_bandes.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "& Scaligerũ. quorum alter felicem hunc",
+  "Y": "& Scaligerũ. quorum alter felicem humc",
+  "divergences_X_vers_Y": [
+   [
+    "n",
+    "m"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o04/colechri_833990977_00000012//c_bandes.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "beati patris filium ita formavit optimisq́;",
+  "Y": "beati patris filium ita formavit optimis",
+  "divergences_X_vers_Y": [
+   [
+    "q́;",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o04/colechri_833990977_00000012//c_bandes.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "mam Scaligeri Epiſtolam, verè cygneam",
+  "Y": "mam Scaligeri Epiſtalam, verè cygneam",
+  "divergences_X_vers_Y": [
+   [
+    "o",
+    "a"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o04/colechri_833990977_00000012//c_bandes.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "tos hodie aduleſcentes à rectè ſentiendo",
+  "Y": "tos hodie adoleſcentes à rectè ſentiendo",
+  "divergences_X_vers_Y": [
+   [
+    "u",
+    "o"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o04/colechri_833990977_00000012//c_bandes.txt"
+ }
+]

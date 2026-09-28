@@ -1,0 +1,74 @@
+[
+ {
+  "id": "l000",
+  "verdict": "partage",
+  "texte_correct": "vnd war Koͤnig Marchſen Beichtuater. Eins",
+  "notes": "ö porte un petit e suscrit (Y) ; le glyphe final est le g à tête en crochet de cette fonte (même forme que dans verwegen), donc g (Y) ; pas d'espace dans Marchſen (X)."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "ſter wolte jm keine geben/ er gebe deñ die Frau⸗",
+  "notes": "F majuscule Fraktur."
+ },
+ {
+  "id": "l002",
+  "verdict": "Y",
+  "texte_correct": "alſo in den groſſen ſuͤnden erfunden wuͤrd/ das",
+  "notes": "petit e suscrit sur les deux u (ſünden, würd)."
+ },
+ {
+  "id": "l003",
+  "verdict": "Y",
+  "texte_correct": "denn ſein Seel ewiglich darumb leiden muͤſt.",
+  "notes": "müſt : petit e suscrit net."
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "das er die Frawen ſo liederlich von jhm geben",
+  "notes": "jhm : j à descendante."
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "moͤcht/ vnd ſich jr verwegen/ vnd ritte ohn buſs",
+  "notes": "möcht : petit e suscrit ; ohn : un seul point pâle = tache, pas un tréma."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "der zeit/ als ſie den vnſeligẽ tranck getruncken",
+  "notes": "getruncken : r puis u."
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "hetten/ Zuhand ward jhnen das armutſelig le⸗",
+  "notes": "blanc étroit mais présent entre armutſelig et le⸗ (composition serrée) ; confiance moyenne."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "J ij",
+  "notes": "signature : capitale Fraktur I/J à descendante, transcrite J selon l'usage (cf. Jch)."
+ },
+ {
+  "id": "l009",
+  "verdict": "X",
+  "texte_correct": "vnd wolte bus von jm empfahẽ/ aber der Prie⸗",
+  "notes": "la marque après vnd est une tache grise pâle, pas un signe imprimé."
+ },
+ {
+  "id": "l010",
+  "verdict": "Y",
+  "texte_correct": "alſo in den groſſen ſuͤnden erfunden wuͤrd/ das",
+  "notes": "petit e suscrit (pas rond ni deux points) sur les deux u."
+ },
+ {
+  "id": "l011",
+  "verdict": "Y",
+  "texte_correct": "denn ſein Seel ewiglich darumb leiden muͤſt.",
+  "notes": "petit e suscrit, pas un rond."
+ }
+]
