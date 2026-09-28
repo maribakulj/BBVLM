@@ -53,20 +53,24 @@ def prepare(d, n_max=4):
 def signe_page(d):
     try: v = json.load(open(f'{d}/inflexion/verdicts.json'))
     except FileNotFoundError: return None
+    from r2 import decide
+    taches = {t['id']: t for t in json.load(open(f'{d}/inflexion/taches.json'))}
     n = {'anneau': 0, 'e': 0}
     for t in v:
-        for s in t.get('signes', []):
-            if s in n: n[s] += 1
+        mots = taches.get(t['id'], {}).get('mots', [])
+        for m, s in zip(mots, t.get('signes', [])):
+            # seuls les mots à inflexion comptent (DasWeL : ů = uo et uͤ = ü sur la même page)
+            if s in n and decide(m.replace('u*', 'ů')) == 'uͤ': n[s] += 1
     if n['anneau'] == n['e']: return None
     return 'anneau' if n['anneau'] > n['e'] else 'e'
 
 
 def applique(d):
     s = signe_page(d); T = _texte(d)
-    if s == 'anneau':
-        T = [l.replace('u' + E_, 'ů') for l in T]
-    elif s == 'e':
-        from r2 import decide
+    from r2 import decide
+    if s == 'anneau':     # l'imprimeur note l'inflexion par l'anneau : uͤ des mots à inflexion → ů
+        T = [' '.join(m.replace('u' + E_, 'ů') if 'u' + E_ in m and decide(m) == 'uͤ' else m for m in l.split(' ')) for l in T]
+    elif s == 'e':        # par le e suscrit : ů des mots à inflexion → uͤ (R2)
         T = [' '.join(m.replace('ů', 'u' + E_) if 'ů' in m and decide(m) == 'uͤ' else m for m in l.split(' ')) for l in T]
     open(f'{d}/p3i_final.txt', 'w').write('\n'.join(T))
     print(d.rstrip('/').split('/')[-1], 'signe de page :', s)
