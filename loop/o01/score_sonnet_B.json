@@ -1,0 +1,325 @@
+{
+ "strict": {
+  "vue": "strict",
+  "car_ref": 1029,
+  "editions": 55,
+  "cer": 0.05344995140913508,
+  "lignes_ref": 27,
+  "lignes_lues": 27,
+  "lignes_exactes": 7,
+  "fautes": [
+   {
+    "ref": "SIEURS; & contemplez y l'iure monar-",
+    "lu": "SIEURS; & contemplez y l'illuftre monar-.",
+    "ed": 5
+   },
+   {
+    "ref": "que, ſous lequel vous avez le bonheur de",
+    "lu": "que, fous lequel vous avez le bonheur de",
+    "ed": 1
+   },
+   {
+    "ref": "vivre. Que de connoiances n'embrae pas",
+    "lu": "vivre. Que de connoiffances n'embraffe pas",
+    "ed": 4
+   },
+   {
+    "ref": "ſon vae génie? Jamais Souverain n'a été or-",
+    "lu": "fon vafte génie? Jamais Souverain n'a été or-",
+    "ed": 3
+   },
+   {
+    "ref": "né de dons au rares, & n'a brié d'autant",
+    "lu": "né de dons auffi rares, & n'a brillé d'autant",
+    "ed": 5
+   },
+   {
+    "ref": "de vertus aux yeux de ſon ecle. Il e l'a-",
+    "lu": "de vertus aux yeux de fon fiecle. Il eft l'a-",
+    "ed": 5
+   },
+   {
+    "ref": "me de ſes États dans la paix comme dans la",
+    "lu": "me de fes États dans la paix comme dans la",
+    "ed": 1
+   },
+   {
+    "ref": "lui-même. Rien de ce qui intéree ſes peu-",
+    "lu": "lui-même. Rien de ce qui intéreffe fes peu-",
+    "ed": 3
+   },
+   {
+    "ref": "ples ne lui e étranger. Cependant il culti-",
+    "lu": "ples ne lui eft étranger. Cependant il culti-",
+    "ed": 2
+   },
+   {
+    "ref": "ve les arts & les ſciences avec une égale ar-",
+    "lu": "ve les arts & les fciences avec une égale ar-",
+    "ed": 1
+   },
+   {
+    "ref": "deur. Il en fait ſes plus cheres délices. Il",
+    "lu": "deur. Il en fait fes plus cheres délices. Il",
+    "ed": 1
+   },
+   {
+    "ref": "e leur proteeur le plus éclairé; & ſes pro-",
+    "lu": "eft leur protecteur le plus éclairé; & fes pro-",
+    "ed": 5
+   },
+   {
+    "ref": "duions en tout genre font l'étonnement de",
+    "lu": "ductions en tout genre font l'étonnement de",
+    "ed": 2
+   },
+   {
+    "ref": "toute l'Europe. A combien de titres n'e-il",
+    "lu": "toute l'Europe. A combien de titres n'eft-il",
+    "ed": 2
+   },
+   {
+    "ref": "philoſophe profond, un Écrivain ſupérieur,",
+    "lu": "philofophe profond, un Écrivain fupérieur,",
+    "ed": 2
+   },
+   {
+    "ref": "Quel argument à oppeſer aux détraeurs",
+    "lu": "Quel argument à oppofer aux détracteurs",
+    "ed": 4
+   },
+   {
+    "ref": "des ſciences, que celui de l'application conſ-",
+    "lu": "des fciences, que celui de l'application conf-",
+    "ed": 2
+   },
+   {
+    "ref": "connoiances! Et quee leçon pour vous que",
+    "lu": "connoiffances! Et quelle leçon pour vous que",
+    "ed": 4
+   },
+   {
+    "ref": "la maniere dont SA MAJESTÉ remplit ſes",
+    "lu": "la maniere dont SA MAJESTÉ remplit fes",
+    "ed": 1
+   },
+   {
+    "ref": "loirs!",
+    "lu": "loifirs!",
+    "ed": 2
+   }
+  ]
+ },
+ "diplo": {
+  "vue": "diplo",
+  "car_ref": 1049,
+  "editions": 34,
+  "cer": 0.032411820781696854,
+  "lignes_ref": 27,
+  "lignes_lues": 27,
+  "lignes_exactes": 8,
+  "fautes": [
+   {
+    "ref": "SIEURS; & contemplez y l'illuſtre monar-",
+    "lu": "SIEURS; & contemplez y l'illuftre monar-.",
+    "ed": 2
+   },
+   {
+    "ref": "que, ſous lequel vous avez le bonheur de",
+    "lu": "que, fous lequel vous avez le bonheur de",
+    "ed": 1
+   },
+   {
+    "ref": "vivre. Que de connoiſſances n'embraſſe pas",
+    "lu": "vivre. Que de connoiffances n'embraffe pas",
+    "ed": 4
+   },
+   {
+    "ref": "ſon vaſte génie? Jamais Souverain n'a été or-",
+    "lu": "fon vafte génie? Jamais Souverain n'a été or-",
+    "ed": 2
+   },
+   {
+    "ref": "né de dons auſſi rares, & n'a brillé d'autant",
+    "lu": "né de dons auffi rares, & n'a brillé d'autant",
+    "ed": 2
+   },
+   {
+    "ref": "de vertus aux yeux de ſon ſiecle. Il eſt l'a-",
+    "lu": "de vertus aux yeux de fon fiecle. Il eft l'a-",
+    "ed": 3
+   },
+   {
+    "ref": "me de ſes États dans la paix comme dans la",
+    "lu": "me de fes États dans la paix comme dans la",
+    "ed": 1
+   },
+   {
+    "ref": "lui-même. Rien de ce qui intéreſſe ſes peu-",
+    "lu": "lui-même. Rien de ce qui intéreffe fes peu-",
+    "ed": 3
+   },
+   {
+    "ref": "ples ne lui eſt étranger. Cependant il culti-",
+    "lu": "ples ne lui eft étranger. Cependant il culti-",
+    "ed": 1
+   },
+   {
+    "ref": "ve les arts & les ſciences avec une égale ar-",
+    "lu": "ve les arts & les fciences avec une égale ar-",
+    "ed": 1
+   },
+   {
+    "ref": "deur. Il en fait ſes plus cheres délices. Il",
+    "lu": "deur. Il en fait fes plus cheres délices. Il",
+    "ed": 1
+   },
+   {
+    "ref": "eſt leur protecteur le plus éclairé; & ſes pro-",
+    "lu": "eft leur protecteur le plus éclairé; & fes pro-",
+    "ed": 2
+   },
+   {
+    "ref": "toute l'Europe. A combien de titres n'eſt-il",
+    "lu": "toute l'Europe. A combien de titres n'eft-il",
+    "ed": 1
+   },
+   {
+    "ref": "philoſophe profond, un Écrivain ſupérieur,",
+    "lu": "philofophe profond, un Écrivain fupérieur,",
+    "ed": 2
+   },
+   {
+    "ref": "Quel argument à oppeſer aux détracteurs",
+    "lu": "Quel argument à oppofer aux détracteurs",
+    "ed": 2
+   },
+   {
+    "ref": "des ſciences, que celui de l'application conſ-",
+    "lu": "des fciences, que celui de l'application conf-",
+    "ed": 2
+   },
+   {
+    "ref": "connoiſſances! Et quelle leçon pour vous que",
+    "lu": "connoiffances! Et quelle leçon pour vous que",
+    "ed": 2
+   },
+   {
+    "ref": "la maniere dont SA MAJESTÉ remplit ſes",
+    "lu": "la maniere dont SA MAJESTÉ remplit fes",
+    "ed": 1
+   },
+   {
+    "ref": "loiſirs!",
+    "lu": "loifirs!",
+    "ed": 1
+   }
+  ]
+ },
+ "norm": {
+  "vue": "norm",
+  "car_ref": 1049,
+  "editions": 34,
+  "cer": 0.032411820781696854,
+  "lignes_ref": 27,
+  "lignes_lues": 27,
+  "lignes_exactes": 8,
+  "fautes": [
+   {
+    "ref": "SIEURS; & contemplez y l'illustre monar-",
+    "lu": "SIEURS; & contemplez y l'illuftre monar-.",
+    "ed": 2
+   },
+   {
+    "ref": "que, sous lequel vous avez le bonheur de",
+    "lu": "que, fous lequel vous avez le bonheur de",
+    "ed": 1
+   },
+   {
+    "ref": "vivre. Que de connoissances n'embrasse pas",
+    "lu": "vivre. Que de connoiffances n'embraffe pas",
+    "ed": 4
+   },
+   {
+    "ref": "son vaste génie? Jamais Souverain n'a été or-",
+    "lu": "fon vafte génie? Jamais Souverain n'a été or-",
+    "ed": 2
+   },
+   {
+    "ref": "né de dons aussi rares, & n'a brillé d'autant",
+    "lu": "né de dons auffi rares, & n'a brillé d'autant",
+    "ed": 2
+   },
+   {
+    "ref": "de vertus aux yeux de son siecle. Il est l'a-",
+    "lu": "de vertus aux yeux de fon fiecle. Il eft l'a-",
+    "ed": 3
+   },
+   {
+    "ref": "me de ses États dans la paix comme dans la",
+    "lu": "me de fes États dans la paix comme dans la",
+    "ed": 1
+   },
+   {
+    "ref": "lui-même. Rien de ce qui intéresse ses peu-",
+    "lu": "lui-même. Rien de ce qui intéreffe fes peu-",
+    "ed": 3
+   },
+   {
+    "ref": "ples ne lui est étranger. Cependant il culti-",
+    "lu": "ples ne lui eft étranger. Cependant il culti-",
+    "ed": 1
+   },
+   {
+    "ref": "ve les arts & les sciences avec une égale ar-",
+    "lu": "ve les arts & les fciences avec une égale ar-",
+    "ed": 1
+   },
+   {
+    "ref": "deur. Il en fait ses plus cheres délices. Il",
+    "lu": "deur. Il en fait fes plus cheres délices. Il",
+    "ed": 1
+   },
+   {
+    "ref": "est leur protecteur le plus éclairé; & ses pro-",
+    "lu": "eft leur protecteur le plus éclairé; & fes pro-",
+    "ed": 2
+   },
+   {
+    "ref": "toute l'Europe. A combien de titres n'est-il",
+    "lu": "toute l'Europe. A combien de titres n'eft-il",
+    "ed": 1
+   },
+   {
+    "ref": "philosophe profond, un Écrivain supérieur,",
+    "lu": "philofophe profond, un Écrivain fupérieur,",
+    "ed": 2
+   },
+   {
+    "ref": "Quel argument à oppeser aux détracteurs",
+    "lu": "Quel argument à oppofer aux détracteurs",
+    "ed": 2
+   },
+   {
+    "ref": "des sciences, que celui de l'application cons-",
+    "lu": "des fciences, que celui de l'application conf-",
+    "ed": 2
+   },
+   {
+    "ref": "connoissances! Et quelle leçon pour vous que",
+    "lu": "connoiffances! Et quelle leçon pour vous que",
+    "ed": 2
+   },
+   {
+    "ref": "la maniere dont SA MAJESTÉ remplit ses",
+    "lu": "la maniere dont SA MAJESTÉ remplit fes",
+    "ed": 1
+   },
+   {
+    "ref": "loisirs!",
+    "lu": "loifirs!",
+    "ed": 1
+   }
+  ]
+ }
+}
