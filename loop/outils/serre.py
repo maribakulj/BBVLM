@@ -7,5 +7,6 @@ for d in sys.argv[1:]:
     d = d.rstrip('/')
     k = json.load(open(f'{d}/kraken.json')); g = cv2.imread(f'{d}/page.png', cv2.IMREAD_GRAYSCALE)
     for l in k['lignes']:
-        l['bbox_brut'] = l['bbox']; l['bbox'] = resserre(g, l['boundary'], l['bbox'])
-    json.dump(k, open(f'{d}/kraken_serre.json', 'w'))
+        l['bbox_brut'] = l['bbox']; l['bbox'] = resserre(g, l['boundary'], l['bbox'], baseline=l.get('baseline'))
+    import os
+    json.dump(k, open(f"{d}/{os.environ.get('BBVLM_LIGNES', 'kraken_serre.json')}", 'w'))

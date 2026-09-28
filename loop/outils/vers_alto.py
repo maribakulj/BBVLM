@@ -30,7 +30,7 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
         from olr import lit
         roles = lit(open(structure, encoding='utf-8').read().splitlines())
         if len(roles) != len(lignes): roles = None
-    kr = json.load(open(f'{dossier}/kraken_serre.json'))['lignes']
+    kr = json.load(open(f"{dossier}/{os.environ.get('BBVLM_LIGNES', 'kraken_serre.json')}"))['lignes']
     import shutil
     ecr = 'fraktur'
     if structure:

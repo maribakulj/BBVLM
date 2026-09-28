@@ -199,3 +199,11 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 - Limite : pensé pour la page entière ; ici on ne l'applique qu'à couper les
   lignes kraken qui franchissent une gouttière (notes en deux colonnes,
   manchettes collées).
+
+## L14 — Likforman-Sulem, Zahour, Taconet 2007, « Text Line Segmentation of Historical Documents: a Survey » (IJDAR ; arXiv 0704.1267)
+- Apport : composantes « chevauchantes » (hampes et jambages entre deux
+  lignes) : chacune est attribuée à une seule ligne, selon la part de son
+  encre dans chaque bande et la proximité ; une composante qui traverse la
+  ligne de base locale appartient à cette ligne.
+- Limite : manuscrits surtout ; les composantes réellement « touchantes »
+  (deux lignes soudées) exigent une découpe, non traitée ici.

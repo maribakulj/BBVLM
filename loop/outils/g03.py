@@ -11,7 +11,7 @@ import numpy as np, cv2
 from e01 import e01
 
 
-def resserre(gray, boundary, bbox, aire_min=6):
+def resserre(gray, boundary, bbox, aire_min=6, baseline=None):
     x0, y0, x1, y1 = bbox
     H, W = gray.shape
     x0, y0, x1, y1 = max(0, x0), max(0, y0), min(W-1, x1), min(H-1, y1)
@@ -20,13 +20,44 @@ def resserre(gray, boundary, bbox, aire_min=6):
     m = np.zeros(crop.shape, np.uint8)
     cv2.fillPoly(m, [np.array([[p[0]-x0, p[1]-y0] for p in boundary], np.int32)], 1)
     _, bw = cv2.threshold(crop, 0, 1, cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
-    bw = bw*m
+    import os
+    if os.environ.get('BBVLM_G04', '0') == '1':
+        keep_m = _proprietaires(gray, (x0, y0, x1, y1), bw, m, baseline)
+        bw = bw*m*keep_m
+    else:
+        bw = bw*m
     n, lab, st, _ = cv2.connectedComponentsWithStats(bw, 8)
     keep = [i for i in range(1, n) if st[i, cv2.CC_STAT_AREA] >= aire_min]
     if not keep: return bbox
     xs0 = min(st[i, 0] for i in keep); ys0 = min(st[i, 1] for i in keep)
     xs1 = max(st[i, 0]+st[i, 2]-1 for i in keep); ys1 = max(st[i, 1]+st[i, 3]-1 for i in keep)
     return [int(x0+xs0), int(y0+ys0), int(x0+xs1), int(y0+ys1)]
+
+
+def _proprietaires(gray, box, bw, m, baseline):
+    """G04 (L14) : une composante coupée par le polygone appartient à la ligne
+    qui porte la majorité de son encre ; celle qui traverse la ligne de base
+    appartient à cette ligne. On écarte donc de la ligne les bouts de hampes et
+    de jambages des lignes voisines (ſ, p, g de la ligne du dessus)."""
+    x0, y0, x1, y1 = box
+    H, W = gray.shape; h = y1 - y0
+    X0, Y0, X1, Y1 = max(0, x0), max(0, y0 - h), min(W-1, x1), min(H-1, y1 + h)
+    big = gray[Y0:Y1+1, X0:X1+1]
+    _, bb = cv2.threshold(big, 0, 1, cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
+    n, lab, st, _ = cv2.connectedComponentsWithStats(bb, 8)
+    oy, ox = y0 - Y0, x0 - X0
+    sub = lab[oy:oy+bw.shape[0], ox:ox+bw.shape[1]]
+    dedans = np.bincount((sub * (m > 0)).ravel(), minlength=n)
+    total = st[:, cv2.CC_STAT_AREA]
+    garde = dedans >= 0.5 * np.maximum(total, 1)
+    if baseline and len(baseline) >= 2:
+        px, py = zip(*sorted(baseline))
+        for i in np.nonzero(~garde & (dedans > 0))[0]:
+            cx0, cy0, cw, ch = st[i, 0] + X0, st[i, 1] + Y0, st[i, 2], st[i, 3]
+            yb = float(np.interp(cx0 + cw / 2, px, py))
+            if cy0 <= yb <= cy0 + ch: garde[i] = True
+    garde[0] = False
+    return garde[sub].astype(np.uint8)
 
 
 if __name__ == '__main__':
