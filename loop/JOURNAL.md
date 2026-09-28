@@ -495,3 +495,18 @@ boîtes (kraken G03 + Route, e01) : lignes 21/21 trouvées (IoU méd 0,952),
 0 ligne en échec, frontières ≤ 0,5c 97,3 %, pire 1,39c, IoU méd mots 0,929 →
 **CRITERE ✓**. ALTO : 136/136 mots placés, texte+IoU80 0,927.
 Pages parfaites (texte 0 + CRITERE ✓) : erobdefoa, caladr, dalarie.
+
+## R-inv — 2026-09-28 — inventaire des fautes restantes (pages à ≤ 9 éd., après L2)
+
+Aucune classe déterministe dominante ne reste. Par type :
+- blancs de ponctuation (8) : réf. serrée là où la VT met d'ordinaire une
+  espace (goclprop « gentis,quæ », « &ſpecies », « exalio » ; AyrmThes
+  « v.c. » ; bankgraf « .—Aber » ; hackherz « eſtquod ») — la VT n'est pas
+  homogène d'une page à l'autre ; aucune règle ne couvre les deux cas ;
+- ſ/f et n/u (8) : lecture (emmeprac, goclprop, heptaldai, chridiss) ;
+- ⸗/- en fin de ligne (3, heptaldai) ; ů/uͤ mêlés dans la même page
+  (herbdulc, 2 : la VT mêle les deux signes, I01 ne peut pas les suivre) ;
+- signes rares : ꝛ abréviatif (durrgeda « Hꝛn. »), ✝ lu †, ñ/n̄.
+Conclusion : le texte des pages courantes est au plancher des conventions
+de la VT (≤ 2 éd.) ; les gains restants viennent des pages dures (herrkurt,
+extraudeu, buchdas, cingdei) ou d'une relecture VLM ciblée ſ/f.
