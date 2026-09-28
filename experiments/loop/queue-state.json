@@ -590,6 +590,26 @@
       "ended_at": 1790609300.0
     },
     "a75_prepare": {
+      "status": "completed",
+      "started_at": 1790609500.0,
+      "actor": "codex-root",
+      "outputs": {
+        "experiments/loop/next-a75/PROTOCOL.md": "1ac5e3ec2463abe63f4dbdd6698c2607b45ff6598713cd5f2b4dc196942a3a48"
+      },
+      "ended_at": 1790609700.0
+    },
+    "a75_instances": {
+      "status": "completed",
+      "started_at": 1790609700.0,
+      "actor": "codex-root",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a75/candidates.json": "d2aeb5023fa1dd2859000f7268ecbe72df015b78346ca9b3d0fa1d9a62eb20db",
+        "experiments/loop/next-a75/report.json": "861f33f6630ac4644cf82486404bab95598eca7b50725e30a964407f22b8cd13"
+      },
+      "ended_at": 1790609830.0
+    },
+    "a76_prepare": {
       "status": "pending"
     }
   },

@@ -834,6 +834,25 @@
       "inputs": ["experiments/loop/next-a74/report.json", "experiments/loop/next-a74/RESULTS.md"],
       "outputs": ["experiments/loop/next-a75/PROTOCOL.md"],
       "instructions": "Recheck Claude and Codex heads. Interpret A74 only as frozen dense-mask transfer, never as boxes. If it passes, implement a principled line separation/centerline representation grounded in current Eynollah code and freeze before scoring; if it fails, reject this Eynollah stage and advance a distinct OLR/retrieval experiment. Read and separately summarize primary sources, then commit/push/checkpoint and continue."
+    },
+    {
+      "id": "a75_instances",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": ["a75_prepare"],
+      "inputs": ["scripts/evaluate_textline_instances_a75.py", "experiments/loop/next-a75/PROTOCOL.md", "experiments/loop/next-a74/split.json", "experiments/loop/next-a74/predictions.json", "experiments/loop/chronicling-a58/audit.json"],
+      "outputs": ["experiments/loop/next-a75/candidates.json", "experiments/loop/next-a75/report.json"],
+      "argv": ["/workspace/scratch/cecc4cd83a9f/a72tf-venv/bin/python", "scripts/evaluate_textline_instances_a75.py"],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "a76_prepare",
+      "kind": "external",
+      "resource": "orchestrator",
+      "deps": ["a75_instances"],
+      "inputs": ["experiments/loop/next-a75/report.json", "experiments/loop/next-a75/RESULTS.md"],
+      "outputs": ["experiments/loop/next-a76/PROTOCOL.md"],
+      "instructions": "Recheck Claude and Codex heads. Freeze a new diverse non-Test transfer before pixels/XML score. Apply A75 component rule unchanged and add a preregistered per-page precision floor because the consumed 1617 page had 74.42% precision. Keep IoU50/70 and OCR impact separate; commit/push/checkpoint and continue."
     }
   ]
 }

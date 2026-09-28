@@ -131,3 +131,10 @@ Avant de figer le transfert, Claude a été recontrôlé à
 Codex était à `9d36ff79db7f25546b34f17378bd1d6603d6e8f3` et master restait
 `60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Aucun code concurrent importé,
 aucun merge, aucune écriture sur main/master et aucun force-push.
+
+## A75 — 2026-09-28
+Avant l'hypothèse d'instances, Claude reste inchangé à
+`76056c5c1957e0de4232f0aef1f6cbc7f2893402`. Codex est à
+`63fc8a04a4b5a71308699188b7198e7d25530be9` et master à
+`60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Aucun fichier Claude importé,
+aucun merge et aucune écriture sur main/master.

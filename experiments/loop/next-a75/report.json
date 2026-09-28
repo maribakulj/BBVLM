@@ -1,0 +1,132 @@
+{
+  "schema": "bbvlm.a75.report/1",
+  "status": "consumed_instance_diagnostic",
+  "candidate_sha256_before_xml": "d2aeb5023fa1dd2859000f7268ecbe72df015b78346ca9b3d0fa1d9a62eb20db",
+  "pages": {
+    "no_title_1617-08-16_0004": {
+      "candidates": 43,
+      "reference_lines": 34,
+      "matched_pairs": 34,
+      "mean_assigned_iou": 0.8658215617771426,
+      "iou50": {
+        "true_matches": 32,
+        "precision": 0.7441860465116279,
+        "recall": 0.9411764705882353,
+        "f1": 0.8311688311688312
+      },
+      "iou70": {
+        "true_matches": 32,
+        "precision": 0.7441860465116279,
+        "recall": 0.9411764705882353,
+        "f1": 0.8311688311688312
+      },
+      "candidate_merges_iou_gt10": 1,
+      "reference_fragments_iou_gt10": 0,
+      "xml_sha256": "955c1c5f7e64485d30313114db1fb760e93fdddd305da06fe4c95c912adf6377"
+    },
+    "Stuttgarter_Zeitung_1813-10-25_0003": {
+      "candidates": 104,
+      "reference_lines": 96,
+      "matched_pairs": 96,
+      "mean_assigned_iou": 0.888142515547835,
+      "iou50": {
+        "true_matches": 96,
+        "precision": 0.9230769230769231,
+        "recall": 1.0,
+        "f1": 0.9600000000000001
+      },
+      "iou70": {
+        "true_matches": 96,
+        "precision": 0.9230769230769231,
+        "recall": 1.0,
+        "f1": 0.9600000000000001
+      },
+      "candidate_merges_iou_gt10": 4,
+      "reference_fragments_iou_gt10": 4,
+      "xml_sha256": "896f3eb2c26e9831f1aaa681eb42f58a0522f655687717bc79d2285636f9da14"
+    },
+    "Koelnische_Zeitung_1866-06_1866-09_0569": {
+      "candidates": 613,
+      "reference_lines": 622,
+      "matched_pairs": 613,
+      "mean_assigned_iou": 0.7991664117172316,
+      "iou50": {
+        "true_matches": 601,
+        "precision": 0.9804241435562806,
+        "recall": 0.9662379421221865,
+        "f1": 0.9732793522267207
+      },
+      "iou70": {
+        "true_matches": 585,
+        "precision": 0.9543230016313213,
+        "recall": 0.9405144694533762,
+        "f1": 0.9473684210526315
+      },
+      "candidate_merges_iou_gt10": 561,
+      "reference_fragments_iou_gt10": 558,
+      "xml_sha256": "dff41f713ec43a146ca0d579f0ff3c2c576e05edd7d3cb8b0734845cdf0f976f"
+    },
+    "Koelnische_Zeitung_1924_0093": {
+      "candidates": 642,
+      "reference_lines": 654,
+      "matched_pairs": 642,
+      "mean_assigned_iou": 0.8049731552794637,
+      "iou50": {
+        "true_matches": 636,
+        "precision": 0.9906542056074766,
+        "recall": 0.9724770642201835,
+        "f1": 0.9814814814814815
+      },
+      "iou70": {
+        "true_matches": 613,
+        "precision": 0.9548286604361371,
+        "recall": 0.9373088685015291,
+        "f1": 0.9459876543209876
+      },
+      "candidate_merges_iou_gt10": 498,
+      "reference_fragments_iou_gt10": 510,
+      "xml_sha256": "adf1b5a8486c73729cf3b12965e20a76d28757a6e139a0bd371f1e713163093c"
+    }
+  },
+  "aggregate": {
+    "candidates": 1402,
+    "reference_lines": 1406,
+    "matched_pairs": 1385,
+    "mean_assigned_iou": 0.8096616539098148,
+    "candidate_merges_iou_gt10": 1064,
+    "reference_fragments_iou_gt10": 1072,
+    "iou50": {
+      "true_matches": 1365,
+      "precision": 0.9736091298145506,
+      "recall": 0.9708392603129445,
+      "f1": 0.9722222222222222
+    },
+    "iou70": {
+      "true_matches": 1326,
+      "precision": 0.9457917261055635,
+      "recall": 0.9431009957325747,
+      "f1": 0.9444444444444444
+    }
+  },
+  "gate_checks": {
+    "precision_iou50_ge95pct": true,
+    "recall_iou50_ge95pct": true,
+    "precision_iou70_ge80pct": true,
+    "recall_iou70_ge80pct": true,
+    "every_page_recall_iou50_ge90pct": true,
+    "new_model_forwards_zero": true,
+    "test_pages_opened_zero": true
+  },
+  "local_gate_passed": true,
+  "new_model_forwards": 0,
+  "ocr_calls": 0,
+  "vlm_calls": 0,
+  "test_pages_opened": 0,
+  "seconds": 0.7894969369954197,
+  "all_scientific_gates_passed": false,
+  "limitations": [
+    "A74 pages and masks are consumed development data.",
+    "PAGE line rectangles and component rectangles are convention-dependent.",
+    "No OCR or reading-order impact was measured."
+  ]
+}

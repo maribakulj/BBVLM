@@ -1033,5 +1033,23 @@
     "local_gate_passed": true,
     "test_pages_opened": 0,
     "global_completion": false
+  },
+  "textline_instances_a75": {
+    "status": "completed_consumed_development_local_gate_passed",
+    "protocol": "next-a75/PROTOCOL.md",
+    "candidates": "next-a75/candidates.json",
+    "report": "next-a75/report.json",
+    "results": "next-a75/RESULTS.md",
+    "candidates_count": 1402,
+    "reference_lines": 1406,
+    "precision_iou50": 0.9736091298145506,
+    "recall_iou50": 0.9708392603129445,
+    "precision_iou70": 0.9457917261055635,
+    "recall_iou70": 0.9431009957325747,
+    "mean_assigned_iou": 0.8096616539098148,
+    "local_gate_passed": true,
+    "new_model_forwards": 0,
+    "test_pages_opened": 0,
+    "global_completion": false
   }
 }

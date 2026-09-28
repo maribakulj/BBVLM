@@ -197,3 +197,11 @@ dépassent séparément 97 % de précision surfacique. Le coût est 84 tuiles et
 93,19 s CPU, sans OCR/VLM/Test. Le signal dense transfère donc ; il ne devient
 pas pour autant une boîte ALTO. A75 doit préserver sa géométrie en séparant les
 lignes au lieu de répéter la boîte englobante rejetée en A73.
+
+## A75 — instances de ligne sur développement consommé
+
+Les composantes du masque complet, contrairement aux résidus A73, donnent
+1 402 propositions pour 1 406 lignes : P/R IoU50 97,36 %/97,08 %, P/R IoU70
+94,58 %/94,31 % et IoU moyen 0,810. La page 1617 reste problématique avec
+74,42 % de précision ; le bon agrégat ne suffit donc pas à promouvoir la règle.
+Un transfert A76 inchangé devra imposer aussi une précision minimale par page.

@@ -423,3 +423,21 @@ l'article HIP 2023 ci-dessus : abstract et métadonnées seulement.
   directement chaque composante par son rectangle ; A75 doit tester une vraie
   séparation ligne plutôt que retuner les rectangles consommés.
 - **Code :** https://github.com/qurator-spk/eynollah/blob/main/src/eynollah/utils/separate_lines.py .
+
+## A75 — Kodym & Hradiš, *Page Layout Analysis System for Unconstrained Historic Documents*
+
+- **Version/date :** arXiv:2102.11838, 23 février 2021.
+- **Niveau lu :** texte intégral HTML, architecture, post-traitement, jeux de
+  données, tableaux et évaluation OCR ; pas seulement l'abstract.
+- **Méthode :** ParseNet prédit baseline/extrémités, hauteurs ascendante et
+  descendante, et frontière de bloc. Les lignes sont des splines épaissies par
+  hauteurs prédites ; les blocs résultent d'un groupement bottom-up séparé.
+- **Résultats :** F1 baseline cBAD 0,902 avec adaptation/fusion/orientations ;
+  sur PERO, P/R/F des polygones ligne 0,811/0,813/0,804 au seuil IoU>0,7.
+- **Limites :** double inférence d'échelle et environ 5 Go GPU/5 Mpx ; une page
+  journal fusionne deux blocs et leurs lignes ; géométrie imparfaitement corrélée
+  au CER, ce que les auteurs évaluent séparément sur neuf pages tchèques.
+- **Code/données :** jeu PERO lié dans le papier ; aucun poids installé en A75.
+- **Apport BBVLM :** justifie IoU70, appariement d'instances et séparation des
+  étages ligne/bloc/OCR. A75 ne prétend pas reproduire ParseNet.
+- **Source :** https://arxiv.org/abs/2102.11838 .

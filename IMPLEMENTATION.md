@@ -714,3 +714,12 @@ avant lecture des XML, puis rasterise les polygones de ligne localement. Ce
 dernier point évite l'échec mémoire du premier score, lequel n'a nécessité
 aucune nouvelle inférence. Le rapport sépare rappel ligne, précision pixel du
 masque et couverture de l'union ; aucun de ces nombres n'est un IoU de boîte.
+
+## A75 — instances connectées et appariement univoque
+
+`evaluate_textline_instances_a75.py` extrait du masque complet les composantes
+8-connexes d'au moins quatre pixels, conserve contour simplifié et rectangle en
+coordonnées natives, puis hache `candidates.json` avant XML. Le scoreur calcule
+une matrice d'IoU de rectangles et utilise l'algorithme hongrois pour empêcher
+qu'une proposition soit créditée plusieurs fois. Les seuils IoU50 et IoU70 sont
+séparés. A75 ne relance aucun modèle et reste un développement consommé.
