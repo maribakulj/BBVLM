@@ -548,3 +548,7 @@ Voir chronicling-a58/RESULTS.md : 801 XML audités, réserve100 pages ; aucun Wo
 ## A59 terminé
 Sol natif aveugle rejeté : lexical24→57 éditions, deux témoins préservés ; référence0345 comporte quatre désaccords soutenus par l’image. Prochain test : bandes natives0455.
 
+
+## A60 terminé
+Bandes natives : Sol45→36 éditions lexicales, reste supérieur aux8 de Luna guard. Pas de promotion.
+

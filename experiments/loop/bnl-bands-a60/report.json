@@ -1,0 +1,90 @@
+{
+  "status": "completed_consumed_development_ablation",
+  "source_id": "0455",
+  "source_size": [
+    893,
+    3059
+  ],
+  "cuts": [
+    0,
+    1026,
+    2027,
+    3059
+  ],
+  "luna_guarded_a54": {
+    "strict_nfc_diplomatic": {
+      "characters": 1438,
+      "edits": 27,
+      "cer": 0.018776077885952713,
+      "exact": false
+    },
+    "search_v1": {
+      "characters": 1438,
+      "edits": 11,
+      "cer": 0.0076495132127955496,
+      "exact": false
+    },
+    "lexical_alnum": {
+      "characters": 1063,
+      "edits": 8,
+      "cer": 0.007525870178739417,
+      "exact": false
+    }
+  },
+  "sol_tall_a59": {
+    "strict_nfc_diplomatic": {
+      "characters": 1438,
+      "edits": 47,
+      "cer": 0.03268428372739916,
+      "exact": false
+    },
+    "search_v1": {
+      "characters": 1438,
+      "edits": 47,
+      "cer": 0.03268428372739916,
+      "exact": false
+    },
+    "lexical_alnum": {
+      "characters": 1063,
+      "edits": 45,
+      "cer": 0.04233301975540922,
+      "exact": false
+    }
+  },
+  "sol_bands_a60": {
+    "strict_nfc_diplomatic": {
+      "characters": 1438,
+      "edits": 39,
+      "cer": 0.027121001390820583,
+      "exact": false
+    },
+    "search_v1": {
+      "characters": 1438,
+      "edits": 39,
+      "cer": 0.027121001390820583,
+      "exact": false
+    },
+    "lexical_alnum": {
+      "characters": 1063,
+      "edits": 36,
+      "cer": 0.03386641580432737,
+      "exact": false
+    }
+  },
+  "improved_lexical": true,
+  "cost": {
+    "reader_sessions": 1,
+    "image_items": 3,
+    "model": "gpt-6-sol",
+    "new_pixels": 0,
+    "new_detector_or_ocr_forwards": 0,
+    "tokens": "not exposed"
+  },
+  "limitations": [
+    "single changed presentation and new stochastic session",
+    "consumed development block",
+    "source reference has not been independently adjudicated",
+    "no independent claim of zero CER"
+  ],
+  "global_completion": false
+}

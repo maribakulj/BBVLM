@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "id": "K206",
+      "text": "D’ gebroden Dauwen flée’ net an der Loft erem.\n100.\nAn der Sonn ferdengt ên de Schiéd.\n101.\nDen Hèr fraûs, derno kemt d’ganet Haûs.\n102.\nGidwëderé wês, wô ên de Schöng drékt.\n103.\nFil Schölt, fil Gedölt.\n104.\nWé ên d’Handwiérk dreift, esô gêt et.\n105.\nDe Kâfman lûoft séng Wûor.\n106.\nEt kemt kê Pâf an den Himmel.\n107.\nWann ên no èngem Hont wërft da gerét ên e’ Pâf\n108.\nHaut mir, muor dir.\n109.\nWûorfr rackers de déch esô? du muss jo dach\nstiérwen.",
+      "uncertain_spans": [
+        {"text": "Gidwëderé", "reason": "Diacritics and middle letters are faint."},
+        {"text": "Wann ên no èngem Hont wërft da gerét ên e’ Pâf", "reason": "The line runs into the right edge; any continuation is outside the image."},
+        {"text": "Wûorfr", "reason": "Final letters of the word are difficult to distinguish."}
+      ]
+    },
+    {
+      "id": "K591",
+      "text": "110.\nDé àl Scheiere brènnen am iérgsten.\n111.\nLëer du deî Fuoder e — — mâchen.\n(Lëer en alen Aaf Konschte mâchen.)\n112.\nWé lâng supt (seift) liëft lang.\n113.\nGnodebròt, sauer Brót.\n114.\n’T jong Leit solle bei den Alen\nD’Oere brauchen an d’Maûl halen.\n115.\nKlèng Deppercher lâfe licht iwer.\n116.\nDe klèng Drèckeltcher stènken iérger as wé dé grôss\n117.\nE klèngt Kenntchen, èng gut Stenntchen.\n118.\nKlèng Kanner, klèng Suorgen, (Lét;)\nGrôss Kanner, grôss Suorgen. (Lét.)\n119.\nD’Klèng Kanner hun d’Lâchen an d’Kreìschen an\nèngem Sèckeltchen.",
+      "uncertain_spans": [
+        {"text": "àl", "reason": "Accent is faint."},
+        {"text": "deî", "reason": "Accent shape is unclear."},
+        {"text": "Lét;", "reason": "Small parenthetical punctuation is unclear."},
+        {"text": "grôss", "reason": "The line reaches the image edge; no following punctuation is visible."}
+      ]
+    },
+    {
+      "id": "K843",
+      "text": "89.\nWât ên net am Kapp huot, muss ên an de Fëssen hun.\n90\nEt gi fil gut Schof an ê Stal.\n91.\nWién d’ëscht kent, mûolt am ëschten.\n92.\nBem Auskiére fennt sech Alles.\n93.\nFaul Leit hu giére Feierdâch.\n94.\nHuot d’Aen an d’Hand !\n95.\nDât as en areme Joermârt, wô ên em élef\nZe fré, em zwiélef ze lantzem (ze spät) kemt.\n96.\nWanns de nëischt mé huos, wiérs de klèng muolen.\n97.\nD’Gèlt wist net, wann ên’t sét.\n98.\nEt lèft fil Wâsser d’Bâch erân.\n99.",
+      "uncertain_spans": [
+        {"text": "Wién", "reason": "Accent on the vowel is difficult to resolve."},
+        {"text": "Joermârt", "reason": "Vowel and diacritic in the final syllable are faint."},
+        {"text": "wiérs", "reason": "Small letterforms and accent are unclear."}
+      ]
+    }
+  ],
+  "inspected_images": [
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-bands-a60/blind/K206.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-bands-a60/blind/K591.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-bands-a60/blind/K843.png"
+  ]
+}

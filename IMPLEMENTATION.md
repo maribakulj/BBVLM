@@ -652,3 +652,7 @@ Audit PAGE exhaustif sans afficher les transcriptions : scripts/audit_chroniclin
 ## A59
 Ajout scripts/evaluate_bnl_sol_a59.py : validation stricte des IDs, images inspectées et hash ; comparaison trois vues normalisées figées A54 ; écarts lexicaux conservés pour adjudication.
 
+
+## A60
+prepare_bnl_bands_a60.py coupe par projection image seulement et vérifie reconstruction pixel exacte ; evaluate_bnl_bands_a60.py concatène ordre privé et score les trois vues figées.
+

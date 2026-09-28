@@ -44,3 +44,7 @@ A56 reinspection (recovered from tool log): 25 ahead / 8 behind; O11 edits 0,4,6
 ## A58 — 2026-09-28
 JOURNAL.md relu lignes210–257 SHA ba685e9b4c870e245d1d201381986178660abb4c ; comparaison 33 ahead/10 behind depuis f70b292. Aucun changement depuis A57 : I01 reste développé sur pages consommées, O13 attendu.
 
+
+## A59–A60
+A59 : comparaison 33 ahead/10 behind. A60 : JOURNAL relu jusqu’à I01, SHA ba685e9b4c870e245d1d201381986178660abb4c inchangé. P7 rejeté et I01 motivent la comparaison pixels source/bandes ; aucun résultat indépendant emprunté.
+

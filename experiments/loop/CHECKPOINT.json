@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790596196.1616483,
+  "updated_unix": 1790596401.6477957,
   "status": "in_progress",
   "phases": [
     {
@@ -800,6 +800,12 @@
       "complete": true,
       "script": "scripts/evaluate_bnl_sol_a59.py",
       "result": "bnl-sol-a59/report.json"
+    },
+    {
+      "id": "bnl_bands_a60",
+      "complete": true,
+      "script": "scripts/evaluate_bnl_bands_a60.py",
+      "result": "bnl-bands-a60/report.json"
     }
   ],
   "completion_gates": {
@@ -23330,6 +23336,96 @@
       },
       "reference_status": "unchanged provider XML; disagreements require visual adjudication",
       "global_completion": false
+    },
+    "bnl_bands_a60": {
+      "status": "completed_consumed_development_ablation",
+      "source_id": "0455",
+      "source_size": [
+        893,
+        3059
+      ],
+      "cuts": [
+        0,
+        1026,
+        2027,
+        3059
+      ],
+      "luna_guarded_a54": {
+        "strict_nfc_diplomatic": {
+          "characters": 1438,
+          "edits": 27,
+          "cer": 0.018776077885952713,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 1438,
+          "edits": 11,
+          "cer": 0.0076495132127955496,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 1063,
+          "edits": 8,
+          "cer": 0.007525870178739417,
+          "exact": false
+        }
+      },
+      "sol_tall_a59": {
+        "strict_nfc_diplomatic": {
+          "characters": 1438,
+          "edits": 47,
+          "cer": 0.03268428372739916,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 1438,
+          "edits": 47,
+          "cer": 0.03268428372739916,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 1063,
+          "edits": 45,
+          "cer": 0.04233301975540922,
+          "exact": false
+        }
+      },
+      "sol_bands_a60": {
+        "strict_nfc_diplomatic": {
+          "characters": 1438,
+          "edits": 39,
+          "cer": 0.027121001390820583,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 1438,
+          "edits": 39,
+          "cer": 0.027121001390820583,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 1063,
+          "edits": 36,
+          "cer": 0.03386641580432737,
+          "exact": false
+        }
+      },
+      "improved_lexical": true,
+      "cost": {
+        "reader_sessions": 1,
+        "image_items": 3,
+        "model": "gpt-6-sol",
+        "new_pixels": 0,
+        "new_detector_or_ocr_forwards": 0,
+        "tokens": "not exposed"
+      },
+      "limitations": [
+        "single changed presentation and new stochastic session",
+        "consumed development block",
+        "source reference has not been independently adjudicated",
+        "no independent claim of zero CER"
+      ],
+      "global_completion": false
     }
   },
   "model_policy": {
@@ -23338,6 +23434,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A60 bands improve Sol45\u219236 lexical edits but worse than Luna guard8. Next source-grounded localized correction preserving A54 candidate, consumed development only.",
     "A59 negative: blind Sol native6 blocks lexical24\u219257. A60 test same worst tall block0455 as three native bands; keep A54 consumed and references unchanged.",
     "A58 complete: corpus geometry audit, test100 reserved. Next A59 targeted Sol on A54 residuals, consumed development only.",
     "A57 repaired checkpoint extension loss; next audit Chronicling Germany annotation layers and freeze a region holdout. Reinspect Claude branch before each hypothesis.",

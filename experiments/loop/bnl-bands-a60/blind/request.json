@@ -1,0 +1,37 @@
+{
+  "task": "Transcribe the printed text from each image faithfully. Preserve visible spelling, accents, punctuation and physical line breaks. Do not modernize, expand abbreviations, or fix author errors. Inspect every image with view_image at original detail. If unclear, record the uncertainty separately with the literal best reading in text. The images are text blocks at original source resolution. You may inspect them again. Return exactly the three opaque IDs, one full text per item, no extra IDs. Do not inspect any other files beyond this request and these three images; no references, prior outputs or scores.",
+  "items": [
+    {
+      "id": "K206",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-bands-a60/blind/K206.png",
+      "sha256": "7b0b6064173bc543d7c0dcc61989e4324c8b596b32f24a43d685e4bba0be3e98"
+    },
+    {
+      "id": "K591",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-bands-a60/blind/K591.png",
+      "sha256": "f1a543b3b04d2eba1ba23ba9b9040519b700f68c9aadea89466a1c664c24f45a"
+    },
+    {
+      "id": "K843",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-bands-a60/blind/K843.png",
+      "sha256": "1a3fcd1682bb49efe7fe37b917010df471599208c088dadfb1730cad125b1b85"
+    }
+  ],
+  "output_schema": {
+    "items": [
+      {
+        "id": "K206",
+        "text": "full transcription",
+        "uncertain_spans": [
+          {
+            "text": "literal",
+            "reason": "visual uncertainty"
+          }
+        ]
+      }
+    ],
+    "inspected_images": [
+      "absolute paths"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+# A60 — trois bandes natives du bloc0455
+
+Figé avant réponse. Diagnostic sur le bloc A54 consommé où A59 a régressé. Même modèle Sol, nouveau contexte aveugle, même consigne diplomatique et aucun candidat textuel. Trois bandes disjointes produites aux espaces horizontaux proches des tiers, sans XML ni texte, zéro interpolation. Reconstruction des pixels vérifiée exacte. IDs opaques, ordre fourni au scoreur seulement. Concaténation déterministe par ordre vertical avec un retour ligne ; search_v1 et lexical_alnum identiques à A54. Comparer A59 entier et A60 bandes. Pas de correction de référence ni promotion indépendante. Cette ablation change aussi la session stochastique : un résultat unique ne prouvera pas seul la causalité résolution.
+
+Claude JOURNAL relu avant préparation (ba685e9b4c870e245d1d201381986178660abb4c), I01 inchangé. Source primaire lue : Inoue arXiv2503.23667v1, étude contrôlée de la taille de caractères, limitée aux kanjis synthétiques et modèles2025. Hypothèse BBVLM : éviter la réduction apparente d’un bloc3059px de hauteur. Aucun accès aux pixels internes du modèle, donc pas de résolution encodée inventée.
