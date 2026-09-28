@@ -10,9 +10,9 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 
 | étage | cible | mesure gelée | état |
 |---|---|---|---|
-| texte | 0 faute par page | `outils/cer.py` (diplo), référence adjugée règle A2 | pages neuves O09-O11 (12) : **4 à 0**, 4 à ≤ 1 car. / ≤ 6 car., pires : notation (herrkurt, réglée par P6) et mise en page (extraudeu, ligne double) |
+| texte | 0 faute par page | `outils/cer.py` (diplo), référence adjugée règle A2 | pages neuves O09-O12 (16) : **5 à 0**, 4 à 1 car. ; pires : mise en page (extraudeu, ligne double), latin juridique (emmeprac 9) |
 | lignes | toutes trouvées, serrées | `outils/segeval.py` | kraken + G03 : bon sur livres ; page en regard écartée par l'alignement ; réclames parfois manquées |
-| boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE ✓ sur 5 pages ; texte+IoU80 64-93 % sauf lignes inclinées (heptaldai 0,34) et tableaux (852691769 0,14) |
+| boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE ✓ sur 6 pages dont **erobdefoa parfaite de bout en bout** (texte 0, ≤0,5c 100 %) ; blocage : lignes en échec (nombre de mots) ; lignes inclinées (heptaldai 0,34) |
 | ALTO | XSD + provenance + refus | `outils/vers_alto.py` | valide XSD 4.4 ; blocs typés, ReadingOrder (XY-cut S03), lignes non placées marquées |
 | OLR | rôles + régions + ordre | `outils/olr.py` | rôles 0,74-1,0, F1 régions ≥ 0,91, ordre ≥ 0,95 (livres) ; presse bloquée (Finlam sur HF) |
 | retrieval | rappel/précision avec boîte | `outils/recherche.py` | 88-100 % sur la plupart des pages |
@@ -24,7 +24,8 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 2. Deux passes Opus, consigne `outils/consigne_P6.md` (OCR-D niveau 2, écriture déclarée, rôle par ligne, fractions, jetons {florin}/{groschen}).
 3. `p2.py` : jetons → PUA, conformité OCR-D des espaces, R1 si Fraktur, R2 (ů/uͤ par lexique).
 4. `p3.py` : lignes en désaccord recadrées via kraken, arbitrées par Opus (`consigne_arbitre_P3.md`, repli sur les bandes).
-5. `segmente.py` (kraken blla) → `serre.py` (G03) → coupe S02 si manchettes → `aligne.py` (XY-cut S03, chasse ∝ corps S04) → routeur G02 → `vers_alto.py`.
+5. I01 : signe d'inflexion de l'imprimeur décidé par page (même appel que l'arbitre P3).
+6. `segmente.py` (kraken blla) → `serre.py` (G03) → coupe S02 si manchettes → placement par ancrage Tesseract S05 (repli : XY-cut S03 + chasse S04) → routeur G02 → `vers_alto.py`.
 Point d'entrée : `chaine.py prepare | arbitrage | final`.
 
 ## Règles
@@ -46,13 +47,13 @@ Point d'entrée : `chaine.py prepare | arbitrage | final`.
 
 ## Prochaines étapes
 
-- O12 (pages neuves) : valider S03/S04, P7 candidate (ligne visuelle à deux
-  régions → deux lignes, L08).
-- Boîtes : lignes inclinées (B01 sous seuil 0,25 h, à re-mesurer) ; page-
-  tableau 852691769 (texte+IoU80 0,14 malgré une segmentation juste :
-  diagnostiquer l'alignement ligne par ligne).
-- Texte : coquilles et lettres retournées (garder l'imprimé) ; erreurs
-  communes aux deux passes.
+- CRITERE : lignes en échec (nombre de mots lus ≠ référence) — premier
+  blocage restant ; diagnostiquer (blancs imprimés, mots coupés, ponctuation
+  isolée).
+- O13 : valider I01 et la chaîne complète sur pages neuves ; P7 rejetée,
+  règle L08 (ligne double) encore à traiter autrement.
+- Boîtes : lignes inclinées (B01 sous seuil, à re-mesurer).
+- Texte : latin juridique (ſ/s, abréviations), coquilles de l'imprimé.
 - Métadonnées : extraction depuis la transcription, valeurs citant leur source.
 
 ## Contraintes d'environnement

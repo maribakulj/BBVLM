@@ -22,3 +22,26 @@
   points | aucune) par le lecteur ; R1/R2 seulement si l'inflexion déclarée est
   e ; plus la règle L08 (deux régions sur une ligne visuelle → deux lignes).
   Développement sur herbdulc + herrleyc, validation sur O13.
+
+## Texte final avec I01 (signe d'inflexion par page, adopté après O12-texte)
+
+| page | P3 | **P3 + I01** |
+|---|---|---|
+| erobdefoa | 0 | **0** |
+| durrgeda | 1 | **1** (pas de décision : < 3 votes) |
+| emmeprac | 9 | **9** (latin, sans objet) |
+| herbdulc | 10 | **4** (anneau décidé ; reste « Sünde » en e et « wůnſchete » hors lexique) |
+
+## ALTO et boîtes (placement S05 adopté avant lecture de ces scores)
+
+| page | texte+IoU80 ancien → S05 | lignes placées S05 | CRITERE.md (lignes kraken, Route) |
+|---|---|---|---|
+| erobdefoa | 0,979 → **0,983** | 34/34 | **✓** ≤0,5c 100 %, pire 0,0, IoU méd 0,971 |
+| durrgeda | 0,753 → **0,800** | 21/22 | 3 lignes en échec ; ≤0,5c 98,2 %, pire 1,19 |
+| emmeprac | 0,779 → 0,752 | 43/49 | 4 lignes en échec ; ≤0,5c 98,1 %, pire 1,84 |
+| herbdulc | 0,692 → **0,720** | 40/41 | 4 lignes en échec ; ≤0,5c 93,0 %, pire 2,01 |
+
+**erobdefoa : première page parfaite de bout en bout** (texte 0 faute contre
+référence doublement adjugée, CRITERE ✓ sans aucun écart de frontière). Le
+blocage restant de CRITERE sur les autres pages : lignes en échec (nombre de
+mots lus ≠ référence), pas la précision des frontières.

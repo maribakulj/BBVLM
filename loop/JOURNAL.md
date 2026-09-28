@@ -268,3 +268,12 @@ d'O12 (validation). Tesseract : un modèle par écriture (script/Fraktur ou
 lat), 13 s pour 86 lignes. Note : le banc S03/S04 initial mesurait le chemin
 sans rôles (bug du banc, corrigé) ; S03/S04 ne changent rien sur le chemin
 réel hors 852691769/extraudeu.
+
+## O12 — 2026-09-28 — ALTO : S05 et I01 validés sur pages neuves
+
+I01 : herbdulc 10 → 4, rien d'autre ne bouge. S05 : texte+IoU80 meilleur sur
+3 pages sur 4 (durrgeda +0,047, herbdulc +0,028 et 40/41 lignes placées au
+lieu de 34, erobdefoa 0,983), recul sur emmeprac (0,779 → 0,752).
+**erobdefoa : première page parfaite de bout en bout** — 0 faute de texte,
+CRITERE ✓ (≤0,5c 100 %, pire 0,0). Sur les autres pages, CRITERE bloqué par
+3-4 lignes en échec (nombre de mots), pas par les frontières.
