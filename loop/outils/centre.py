@@ -80,9 +80,19 @@ class LigneBase(Route):
 
     def __init__(self, bases=None):
         super().__init__(); self.bases = bases or {}
+        # B04 : la dérive est une propriété de la PAGE (gondolage, inclinaison) :
+        # on ne redresse que si la dérive médiane des lignes de base ≥ SEUIL·h
+        # (pages droites : les rares lignes « penchées » sont du bruit de ligne de base)
+        r = []
+        for bb, bl in self.bases.items():
+            if bl and len(bl) >= 2:
+                ys = [p[1] for p in bl]; r.append((max(ys) - min(ys)) / max(1, bb[3] - bb[1]))
+        self.page_penchee = bool(r) and float(np.median(r)) >= self.SEUIL
 
     def boxes(self, g, ln):
         x0, y0, x1, y1 = ln.line_box
+        if not self.page_penchee and __import__('os').environ.get('BBVLM_BASE_PAGE', '1') == '1':
+            return super().boxes(g, ln)
         bl = self.bases.get(tuple(int(v) for v in ln.line_box))
         if not bl or len(bl) < 2: return super().boxes(g, ln)
         xs = np.arange(max(0, x0), x1 + 1)

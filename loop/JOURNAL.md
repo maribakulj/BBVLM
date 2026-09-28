@@ -385,3 +385,19 @@ Même redressement, dérive lue sur la ligne de base (polyligne kraken, jusqu'ic
 inutilisée). 4 pages, texte+IoU80 route → base (seuil 0,15 h) : heptaldai
 0,343 → 0,418 (IoU méd 0,611 → 0,760), herrkurt 0,470 → 0,583, herbdulc =,
 bankgraf 0,899 → 0,855. Banc 24 pages, seuils 0,15 et 0,30, en cours.
+
+## B02 → B04 — 2026-09-28 — redresser seulement les pages penchées
+
+Banc B02 (20 pages sur 24 avant arrêt), texte+IoU80 route / base 0,15 :
+gains 730277879 0,725 → 0,824, extraudeu 0,648 → 0,821, herrkurt 0,470 →
+0,583, heptaldai 0,343 → 0,418, culmsent, baltdiss, backhart ; pertes berirev
+0,816 → 0,758, geomeikud 0,778 → 0,732, AphoqvSuS, AmmoLIBR, erobdefoa
+0,983 → 0,975. Seuil 0,30 : quasi neutre. B03 (accord pente base/encre) :
+supprime aussi les gains — l'estimation par l'encre est le maillon faible.
+Diagnostic : les pages gagnantes ont une dérive médiane des lignes de base
+≥ 0,17 h (59-81 % des lignes > 0,15 h), les perdantes ≤ 0,14 h (8-41 %) :
+sur une page droite, les rares lignes « penchées » sont du bruit de ligne de
+base. **B04** : redressement activé seulement si la dérive médiane de la page
+≥ 0,15 h (propriété de page, comme le deskew). Seuil fixé sur ces pages de
+développement ; validation sur les 4 pages O14 (boîtes jamais mesurées).
+Banc propre route / B02 / B04 sur 28 pages en cours.
