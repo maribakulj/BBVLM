@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790598086.6038263,
+  "updated_unix": 1790599951.501559,
   "status": "in_progress",
   "phases": [
     {
@@ -823,6 +823,12 @@
       "id": "residual_a63",
       "script": "scripts/evaluate_residual_a63.py",
       "result": "next-a63/report.json",
+      "complete": true
+    },
+    {
+      "id": "hipe_projection_a64",
+      "script": "scripts/evaluate_hipe_projection_a64.py",
+      "result": "hipe-projection-a64/report.json",
       "complete": true
     }
   ],
@@ -23977,6 +23983,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A64 completed: official HIPE-OCRepair 0.9.9 projection on consumed A54. Luna raw 35/11653 errors (micro-cMER .3004%) vs PERO 74/11661 (.6346%); 9 improved, 5 tied, 2 degraded, 6/16 exact. Local H/S/D/I matches jiwer on all 64 actual pairs. Not zero, not diplomatic, no new independent evidence. T005 leviathan/reference leviatbau and T016 personnelle/reference personelle need image-independent adjudication. Do not retune A54. Next A65 advances a distinct frozen geometry/OLR validation after rechecking Claude.",
     "A63 completed through new queue with one real blind Sol:6\u21924 lexical edits on oracle-selected6lines, not a whole-block/independent score. Preserve probable fi\u00e9e/fl\u00e9e and kernt/kemt reference issues for adjudication. Stop retuning0455; a64_prepare is ready for a new diverse protocol or distinct geometry/OLR work.",
     "A62: use CONTINUOUS_LOOP.md and queue.json. Drain ready commands, claim external tasks and continue useful work immediately; per-iteration Claude review, commit/push and checkpoint barriers. No VLM launched by Python. A63 preparation is ready; all scientific gates remain false.",
     "A61 complete: candidate-anchored Sol8\u21926 lexical edits, one regression. Next inspect Claude, independently adjudicate residuals before scoring perfect text; freeze new diverse validation for a risk-triggered localized correction. Continue geometry/OLR/retrieval gates separately.",

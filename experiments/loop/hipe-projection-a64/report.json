@@ -1,0 +1,1031 @@
+{
+  "schema": "bbvlm.hipe-projection-a64/1",
+  "status": "completed_frozen_metric_projection",
+  "source_evaluation": "A54 frozen independent 16-block comparison, now consumed",
+  "upstream": {
+    "repository": "hipe-eval/HIPE-OCRepair-scorer",
+    "revision": "d1e76e447629ea9cf8dead32ae3c44b0d48d77b3",
+    "version": "0.9.9",
+    "implementation_read": "hipe_ocrepair_scorer/ocrepair_eval.py"
+  },
+  "summary": {
+    "pero": {
+      "blocks": 16,
+      "errors": 74,
+      "denominator": 11661,
+      "cmer_micro": 0.00634593945630735,
+      "exact_blocks": 3
+    },
+    "luna_raw": {
+      "blocks": 16,
+      "errors": 35,
+      "denominator": 11653,
+      "cmer_micro": 0.003003518407277096,
+      "exact_blocks": 6,
+      "preference_vs_pero": {
+        "improved": 9,
+        "tied": 5,
+        "degraded": 2,
+        "macro": 0.4375
+      }
+    },
+    "luna_guarded": {
+      "blocks": 16,
+      "errors": 46,
+      "denominator": 11653,
+      "cmer_micro": 0.003947481335278469,
+      "exact_blocks": 6,
+      "preference_vs_pero": {
+        "improved": 7,
+        "tied": 7,
+        "degraded": 2,
+        "macro": 0.3125
+      }
+    },
+    "luna_guarded_abstain": {
+      "blocks": 16,
+      "errors": 46,
+      "denominator": 11653,
+      "cmer_micro": 0.003947481335278469,
+      "exact_blocks": 6,
+      "preference_vs_pero": {
+        "improved": 7,
+        "tied": 7,
+        "degraded": 2,
+        "macro": 0.3125
+      }
+    }
+  },
+  "existing_views_for_comparison": {
+    "pero": {
+      "blocks": 16,
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 12083,
+          "edits": 192,
+          "cer": 0.015890093519821236,
+          "exact_blocks": 1
+        },
+        "search_v1": {
+          "characters": 12004,
+          "edits": 112,
+          "cer": 0.009330223258913695,
+          "exact_blocks": 2
+        },
+        "lexical_alnum": {
+          "characters": 9645,
+          "edits": 51,
+          "cer": 0.0052877138413685845,
+          "exact_blocks": 4
+        }
+      }
+    },
+    "luna_raw": {
+      "blocks": 16,
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 12083,
+          "edits": 151,
+          "cer": 0.01249689646610941,
+          "exact_blocks": 1
+        },
+        "search_v1": {
+          "characters": 12004,
+          "edits": 68,
+          "cer": 0.005664778407197601,
+          "exact_blocks": 4
+        },
+        "lexical_alnum": {
+          "characters": 9645,
+          "edits": 22,
+          "cer": 0.0022809745982374286,
+          "exact_blocks": 10
+        }
+      }
+    },
+    "luna_guarded": {
+      "blocks": 16,
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 12083,
+          "edits": 159,
+          "cer": 0.013158983696101962,
+          "exact_blocks": 1
+        },
+        "search_v1": {
+          "characters": 12004,
+          "edits": 82,
+          "cer": 0.006831056314561813,
+          "exact_blocks": 4
+        },
+        "lexical_alnum": {
+          "characters": 9645,
+          "edits": 30,
+          "cer": 0.003110419906687403,
+          "exact_blocks": 9
+        }
+      }
+    },
+    "luna_guarded_abstain": {
+      "blocks": 16,
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 12083,
+          "edits": 159,
+          "cer": 0.013158983696101962,
+          "exact_blocks": 1
+        },
+        "search_v1": {
+          "characters": 12004,
+          "edits": 82,
+          "cer": 0.006831056314561813,
+          "exact_blocks": 4
+        },
+        "lexical_alnum": {
+          "characters": 9645,
+          "edits": 30,
+          "cer": 0.003110419906687403,
+          "exact_blocks": 9
+        }
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "T001",
+      "source_id": "1160",
+      "guard_accepted": true,
+      "uncertain": false,
+      "pero": {
+        "reference": "260 quart 81 thlr ½ fuder 61er 436 quart 24 36½ thlr ½ fuder 62er 450 quart 160 thlr 2 ohm 63er 335 quart 94 thlr",
+        "hypothesis": "260 quart 81 thlr 1 2 fuder 61er 436 quart 24 361 2 thlr 1 2 fuder 62er 450 quart 160 thlr 2 ohm 63er 335 quart 94 thlr",
+        "hits": 110,
+        "substitutions": 3,
+        "deletions": 0,
+        "insertions": 6,
+        "errors": 9,
+        "denominator": 119,
+        "cmer": 0.07563025210084033,
+        "exact": false
+      },
+      "luna_raw": {
+        "reference": "260 quart 81 thlr ½ fuder 61er 436 quart 24 36½ thlr ½ fuder 62er 450 quart 160 thlr 2 ohm 63er 335 quart 94 thlr",
+        "hypothesis": "260 quart 81 thlr 1 2 fuder 61er 436 quart 24 36½ thlr 1 2 fuder 62er 450 quart 160 thlr 2 ohm 63er 335 quart 94 thlr",
+        "hits": 111,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 4,
+        "errors": 6,
+        "denominator": 117,
+        "cmer": 0.05128205128205128,
+        "exact": false
+      },
+      "luna_guarded": {
+        "reference": "260 quart 81 thlr ½ fuder 61er 436 quart 24 36½ thlr ½ fuder 62er 450 quart 160 thlr 2 ohm 63er 335 quart 94 thlr",
+        "hypothesis": "260 quart 81 thlr 1 2 fuder 61er 436 quart 24 36½ thlr 1 2 fuder 62er 450 quart 160 thlr 2 ohm 63er 335 quart 94 thlr",
+        "hits": 111,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 4,
+        "errors": 6,
+        "denominator": 117,
+        "cmer": 0.05128205128205128,
+        "exact": false
+      },
+      "luna_guarded_abstain": {
+        "reference": "260 quart 81 thlr ½ fuder 61er 436 quart 24 36½ thlr ½ fuder 62er 450 quart 160 thlr 2 ohm 63er 335 quart 94 thlr",
+        "hypothesis": "260 quart 81 thlr 1 2 fuder 61er 436 quart 24 36½ thlr 1 2 fuder 62er 450 quart 160 thlr 2 ohm 63er 335 quart 94 thlr",
+        "hits": 111,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 4,
+        "errors": 6,
+        "denominator": 117,
+        "cmer": 0.05128205128205128,
+        "exact": false
+      }
+    },
+    {
+      "id": "T002",
+      "source_id": "0439",
+      "guard_accepted": true,
+      "uncertain": false,
+      "pero": {
+        "reference": "cette mesure du proconsul de vilna n a pas besoin de commentaires patrie",
+        "hypothesis": "cette mesure du proconsul de vilna n a patrie pas besoin de commentaires",
+        "hits": 65,
+        "substitutions": 0,
+        "deletions": 7,
+        "insertions": 7,
+        "errors": 14,
+        "denominator": 79,
+        "cmer": 0.17721518987341772,
+        "exact": false
+      },
+      "luna_raw": {
+        "reference": "cette mesure du proconsul de vilna n a pas besoin de commentaires patrie",
+        "hypothesis": "cette mesure du proconsul de vilna n a pas besoin de commentaires patrie",
+        "hits": 72,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 72,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_guarded": {
+        "reference": "cette mesure du proconsul de vilna n a pas besoin de commentaires patrie",
+        "hypothesis": "cette mesure du proconsul de vilna n a pas besoin de commentaires patrie",
+        "hits": 72,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 72,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_guarded_abstain": {
+        "reference": "cette mesure du proconsul de vilna n a pas besoin de commentaires patrie",
+        "hypothesis": "cette mesure du proconsul de vilna n a pas besoin de commentaires patrie",
+        "hits": 72,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 72,
+        "cmer": 0.0,
+        "exact": true
+      }
+    },
+    {
+      "id": "T003",
+      "source_id": "0949",
+      "guard_accepted": true,
+      "uncertain": false,
+      "pero": {
+        "reference": "aus dem sub 2 mitgetheilten gesichtspunkte glauben wir nun folgern zu dürfen dass das luxemburger athenäum in den alten spra chen und andern fächern nicht dasselbe leisten kann wie andere lehranstalten deren schüler sich hauptsächlich nur in einer neuern sprache auszubilden haben und zwar in einer sprache welche sie in folge eines längern gebrauches mehr oder weniger geläufig sprechen können zwar wird in deutschen gymnasien neben dem deutschen auch das französische oder das eng lische gelehrt doch hat der schüler in letztern sprachen weit geringeren anforderungen genüge zu leisten als bei uns dasselbe gilt auch für die französischen lyceen in welchen ausser dem französischen eine andere moderne sprache ge lehrt wird die ausbildung in den neuern sprachen muss also unsere ganzen künftigen lehrplane beherrschen und diesem obersten ziele muss vorerst die gebührendste rücksichtsnahme gesichert werden dies kann aber unmöglich er",
+        "hypothesis": "aus dem sub 2 mitgetheilten gesichtspunkte glauben wir nun folgern zu dürfen dass das luxemburger athenäum in den alten spra chen und andern fächern nicht dasselbe leisten kann wie andere lehranstalten deren schüler sich hauptsächlich nur in einer neuern sprache auszubilden haben und zwar in einer sprache welche sie in folge eines längern gebrauches mehr oder weniger geläufig sprechen fönnen zwar wird in deutschen gymnasien neben dem deutschen auch das französische oder das eng liſche gelehrt doch hat der schüler in letztern sprachen weit geringeren anforderungen genūge zu leisten als bei uns dasselbe gilt auch für die französischen lyceen in welchen ausser dem französtſchen eine andere moderne sprache ge lehrt wird die ausbildung in den neuern sprachen muss also unsere ganzen künftigen lehrplane beherrschen und diesem obersten ziele muss vorerst die gebührendste rücksichtsnahme gesichert werden dies kann aber unmöglich er",
+        "hits": 931,
+        "substitutions": 5,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 5,
+        "denominator": 936,
+        "cmer": 0.005341880341880342,
+        "exact": false
+      },
+      "luna_raw": {
+        "reference": "aus dem sub 2 mitgetheilten gesichtspunkte glauben wir nun folgern zu dürfen dass das luxemburger athenäum in den alten spra chen und andern fächern nicht dasselbe leisten kann wie andere lehranstalten deren schüler sich hauptsächlich nur in einer neuern sprache auszubilden haben und zwar in einer sprache welche sie in folge eines längern gebrauches mehr oder weniger geläufig sprechen können zwar wird in deutschen gymnasien neben dem deutschen auch das französische oder das eng lische gelehrt doch hat der schüler in letztern sprachen weit geringeren anforderungen genüge zu leisten als bei uns dasselbe gilt auch für die französischen lyceen in welchen ausser dem französischen eine andere moderne sprache ge lehrt wird die ausbildung in den neuern sprachen muss also unsere ganzen künftigen lehrplane beherrschen und diesem obersten ziele muss vorerst die gebührendste rücksichtsnahme gesichert werden dies kann aber unmöglich er",
+        "hypothesis": "aus dem sub 2 mitgetheilten gesichtspunkte glauben wir nun folgern zu dürfen dass das luxemburger athenäum in den alten spra chen und andern fächern nicht dasselbe leisten kann wie andere lehranstalten deren schüler sich hauptsächlich nur in einer neuern sprache auszubilden haben und zwar in einer sprache welche sie in folge eines längern gebrauches mehr oder weniger geläufig sprechen können zwar wird in deutschen gymnasien neben dem deutschen auch das französische oder das eng liſche gelehrt doch hat der schüler in letztern sprachen weit geringeren anforderungen genüge zu leisten als bei uns dasselbe gilt auch für die französischen lyceen in welchen ausser dem französischen eine andere moderne sprache ge lehrt wird die ausbildung in den neuern sprachen muss also unsere ganzen künftigen lehrplane beherrschen und diesem obersten ziele muss vorerst die gebührendste rücksichtsnahme gesichert werden dies kann aber unmöglich er",
+        "hits": 935,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 1,
+        "denominator": 936,
+        "cmer": 0.0010683760683760685,
+        "exact": false
+      },
+      "luna_guarded": {
+        "reference": "aus dem sub 2 mitgetheilten gesichtspunkte glauben wir nun folgern zu dürfen dass das luxemburger athenäum in den alten spra chen und andern fächern nicht dasselbe leisten kann wie andere lehranstalten deren schüler sich hauptsächlich nur in einer neuern sprache auszubilden haben und zwar in einer sprache welche sie in folge eines längern gebrauches mehr oder weniger geläufig sprechen können zwar wird in deutschen gymnasien neben dem deutschen auch das französische oder das eng lische gelehrt doch hat der schüler in letztern sprachen weit geringeren anforderungen genüge zu leisten als bei uns dasselbe gilt auch für die französischen lyceen in welchen ausser dem französischen eine andere moderne sprache ge lehrt wird die ausbildung in den neuern sprachen muss also unsere ganzen künftigen lehrplane beherrschen und diesem obersten ziele muss vorerst die gebührendste rücksichtsnahme gesichert werden dies kann aber unmöglich er",
+        "hypothesis": "aus dem sub 2 mitgetheilten gesichtspunkte glauben wir nun folgern zu dürfen dass das luxemburger athenäum in den alten spra chen und andern fächern nicht dasselbe leisten kann wie andere lehranstalten deren schüler sich hauptsächlich nur in einer neuern sprache auszubilden haben und zwar in einer sprache welche sie in folge eines längern gebrauches mehr oder weniger geläufig sprechen können zwar wird in deutschen gymnasien neben dem deutschen auch das französische oder das eng liſche gelehrt doch hat der schüler in letztern sprachen weit geringeren anforderungen genüge zu leisten als bei uns dasselbe gilt auch für die französischen lyceen in welchen ausser dem französischen eine andere moderne sprache ge lehrt wird die ausbildung in den neuern sprachen muss also unsere ganzen künftigen lehrplane beherrschen und diesem obersten ziele muss vorerst die gebührendste rücksichtsnahme gesichert werden dies kann aber unmöglich er",
+        "hits": 935,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 1,
+        "denominator": 936,
+        "cmer": 0.0010683760683760685,
+        "exact": false
+      },
+      "luna_guarded_abstain": {
+        "reference": "aus dem sub 2 mitgetheilten gesichtspunkte glauben wir nun folgern zu dürfen dass das luxemburger athenäum in den alten spra chen und andern fächern nicht dasselbe leisten kann wie andere lehranstalten deren schüler sich hauptsächlich nur in einer neuern sprache auszubilden haben und zwar in einer sprache welche sie in folge eines längern gebrauches mehr oder weniger geläufig sprechen können zwar wird in deutschen gymnasien neben dem deutschen auch das französische oder das eng lische gelehrt doch hat der schüler in letztern sprachen weit geringeren anforderungen genüge zu leisten als bei uns dasselbe gilt auch für die französischen lyceen in welchen ausser dem französischen eine andere moderne sprache ge lehrt wird die ausbildung in den neuern sprachen muss also unsere ganzen künftigen lehrplane beherrschen und diesem obersten ziele muss vorerst die gebührendste rücksichtsnahme gesichert werden dies kann aber unmöglich er",
+        "hypothesis": "aus dem sub 2 mitgetheilten gesichtspunkte glauben wir nun folgern zu dürfen dass das luxemburger athenäum in den alten spra chen und andern fächern nicht dasselbe leisten kann wie andere lehranstalten deren schüler sich hauptsächlich nur in einer neuern sprache auszubilden haben und zwar in einer sprache welche sie in folge eines längern gebrauches mehr oder weniger geläufig sprechen können zwar wird in deutschen gymnasien neben dem deutschen auch das französische oder das eng liſche gelehrt doch hat der schüler in letztern sprachen weit geringeren anforderungen genüge zu leisten als bei uns dasselbe gilt auch für die französischen lyceen in welchen ausser dem französischen eine andere moderne sprache ge lehrt wird die ausbildung in den neuern sprachen muss also unsere ganzen künftigen lehrplane beherrschen und diesem obersten ziele muss vorerst die gebührendste rücksichtsnahme gesichert werden dies kann aber unmöglich er",
+        "hits": 935,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 1,
+        "denominator": 936,
+        "cmer": 0.0010683760683760685,
+        "exact": false
+      }
+    },
+    {
+      "id": "T004",
+      "source_id": "0455",
+      "guard_accepted": true,
+      "uncertain": false,
+      "pero": {
+        "reference": "89 wât ên net am kapp huot muss ên an de féssen hun 90 et gi fil gut schof an ê stal 91 wién d éscht kent mûolt am éschten 92 beim auskiére fennt sech alles 93 faul leit hu giére feierdâch 94 huol d aen an d hand 95 dât as en areme joermârt wó ên em élef ze fré em zwiélef ze lantzem ze spét kemt 96 wanns de neischt mé huos wiérs de klèng muolen 97 d gèlt wist net wann ên t sét 98 et lêft fill wâsser d bâch erân 99 d gebroden dauwen fiée net an der loft erem 100 an der sonn ferdengt ên de schiéd 101 den hèr firaûs derno kernt d ganzt haûs 102 gidwideré wês wô en de schong drékt 103 fil scholt fil gedolt 104 wé ên d handwiérk dreift esó gêt et 105 de kâfman lûoft séng wûor 106 et kemt kê pâf an den himmel 107 wann ên no èngem hont wèrft da gerét ên e pâf 108 haut mir muor dir 109 wûorfir rackers de déch esó du muss jo dach stiérwen 110 dé àl scheiere brènnen am iérgsten 111 léer du deî fuoder e mâchen léer en alen aaf konschte mâchen 112 wié lâng supt seift liéft lang 113 gnodebròt sauer brót 114 t jong leit solle bei den alen d oere brauchen an d maûl halen 115 klèng deppercher lâfe lîcht iwer 116 de klèng drèckeltcher stènken iérger as wé dé grósz 117 e klèngt kenntchen èng gut stenntchen 118 klèng kanner klèng suorgen lêt gróss kanner gròss suorgen lêt 119 d klèng kanner hun d lâchen an d kreîschen an èngem sèckeltchen",
+        "hypothesis": "89 wât ên net am kapp huot muss ên an de féssen hun 90 et gi fil gut schof an ê stal 91 wién d éscht kent múolt am éschten 92 beim auskiére fennt sech alles 93 faul leit hu giére feierdâch 94 huol d aen an d hand 95 dât as en areme joermârt wó ên em élef ze fré em zwiélef ze lantzem ze spét kemt 96 wanns de neischt mé huos wiérs de klèng muolen 97 d gèlt wist net wann ên t sét 98 et lêft fill wâsser d bâch erôn 99 d gebroden dauwen flée net an der loft erem 100 an der sonn ferdengt ên de schiéd 101 den hèr firaûs derno kemt d ganet haûs 102 gidwideré wês wô en de schong drékt 103 fil scholt fil gedolt 104 wé ên d handwiérk dreift esó gêt et 105 de kâfman lûoft séng wůor 106 et kemt kê pâf an den himmel 107 wann ên no èngem hont wèrft da gerét ên e pâf 108 haut mir muor dir 109 wûorfir rackers de déch esó du muss jo dach stiérwen 110 dé àl scheiere brènnen am iérgsten 111 léer du dei fuoder e mâchen léer en alen aaf konschte mâchen 112 wié lâng supt seift liéft lang 113 gnodebròt sauer brót 114 t jong leit solle bei den alen d oere brauchen an d maûl halen 115 klèng deppercher lâfe lîcht iwer 116 de klèng drèckeltcher stènken iérger as wé dé grósz 117 e klèngt kenntchen èng gut stenntchen 118 klèng kanner klèng suorgen lêt gróss kanner gròss suorgen lêt 119 d klèng kanner hun d lâchen an d kreîschen an èngem sèckeltchen",
+        "hits": 1333,
+        "substitutions": 7,
+        "deletions": 1,
+        "insertions": 0,
+        "errors": 8,
+        "denominator": 1341,
+        "cmer": 0.005965697240865026,
+        "exact": false
+      },
+      "luna_raw": {
+        "reference": "89 wât ên net am kapp huot muss ên an de féssen hun 90 et gi fil gut schof an ê stal 91 wién d éscht kent mûolt am éschten 92 beim auskiére fennt sech alles 93 faul leit hu giére feierdâch 94 huol d aen an d hand 95 dât as en areme joermârt wó ên em élef ze fré em zwiélef ze lantzem ze spét kemt 96 wanns de neischt mé huos wiérs de klèng muolen 97 d gèlt wist net wann ên t sét 98 et lêft fill wâsser d bâch erân 99 d gebroden dauwen fiée net an der loft erem 100 an der sonn ferdengt ên de schiéd 101 den hèr firaûs derno kernt d ganzt haûs 102 gidwideré wês wô en de schong drékt 103 fil scholt fil gedolt 104 wé ên d handwiérk dreift esó gêt et 105 de kâfman lûoft séng wûor 106 et kemt kê pâf an den himmel 107 wann ên no èngem hont wèrft da gerét ên e pâf 108 haut mir muor dir 109 wûorfir rackers de déch esó du muss jo dach stiérwen 110 dé àl scheiere brènnen am iérgsten 111 léer du deî fuoder e mâchen léer en alen aaf konschte mâchen 112 wié lâng supt seift liéft lang 113 gnodebròt sauer brót 114 t jong leit solle bei den alen d oere brauchen an d maûl halen 115 klèng deppercher lâfe lîcht iwer 116 de klèng drèckeltcher stènken iérger as wé dé grósz 117 e klèngt kenntchen èng gut stenntchen 118 klèng kanner klèng suorgen lêt gróss kanner gròss suorgen lêt 119 d klèng kanner hun d lâchen an d kreîschen an èngem sèckeltchen",
+        "hypothesis": "89 wât ên net am kapp huot muss ên an de féssen hun 90 et gi fil gut schof an ê stal 91 wién d éscht kent múolt am éschten 92 beim auskiére fennt sech alles 93 faul leit hu giére feierdâch 94 huol d aen an d hand 95 dât as en areme joermârt wó ên em élef ze fré em zwiélef ze lantzem ze spét kemt 96 wanns de neischt mé huos wiérs de klèng muolen 97 d gèlt wist net wann ên t sét 98 et lêft fill wâsser d bâch erôn 99 d gebroden dauwen flée net an der loft erem 100 an der sonn ferdengt ên de schiéd 101 den hèr firaûs derno kemt d ganet haûs 102 gidwideré wês wô en de schong drékt 103 fil scholt fil gedolt 104 wé ên d handwiérk dreift esó gêt et 105 de kâfman lûoft séng wůor 106 et kemt kê pâf an den himmel 107 wann ên no èngem hont wèrft da gerét ên e pâf 108 haut mir muor dir 109 wûorfir rackers de déch esó du muss jo dach stiérwen 110 dé àl scheiere brènnen am iérgsten 111 léer du dei fuoder e mâchen léer en alen aaf konschte mâchen 112 wié lâng supt seift liéft lang 113 gnodebròt sauer brót 114 t jong leit solle bei den alen d oere brauchen an d maûl halen 115 klèng deppercher lâfe lîcht iwer 116 de klèng drèckeltcher stènken iérger as wé dé grósz 117 e klèngt kenntchen èng gut stenntchen 118 klèng kanner klèng suorgen lêt gróss kanner gròss suorgen lêt 119 d klèng kanner hun d lâchen an d kreîschen an èngem sèckeltchen",
+        "hits": 1333,
+        "substitutions": 7,
+        "deletions": 1,
+        "insertions": 0,
+        "errors": 8,
+        "denominator": 1341,
+        "cmer": 0.005965697240865026,
+        "exact": false
+      },
+      "luna_guarded": {
+        "reference": "89 wât ên net am kapp huot muss ên an de féssen hun 90 et gi fil gut schof an ê stal 91 wién d éscht kent mûolt am éschten 92 beim auskiére fennt sech alles 93 faul leit hu giére feierdâch 94 huol d aen an d hand 95 dât as en areme joermârt wó ên em élef ze fré em zwiélef ze lantzem ze spét kemt 96 wanns de neischt mé huos wiérs de klèng muolen 97 d gèlt wist net wann ên t sét 98 et lêft fill wâsser d bâch erân 99 d gebroden dauwen fiée net an der loft erem 100 an der sonn ferdengt ên de schiéd 101 den hèr firaûs derno kernt d ganzt haûs 102 gidwideré wês wô en de schong drékt 103 fil scholt fil gedolt 104 wé ên d handwiérk dreift esó gêt et 105 de kâfman lûoft séng wûor 106 et kemt kê pâf an den himmel 107 wann ên no èngem hont wèrft da gerét ên e pâf 108 haut mir muor dir 109 wûorfir rackers de déch esó du muss jo dach stiérwen 110 dé àl scheiere brènnen am iérgsten 111 léer du deî fuoder e mâchen léer en alen aaf konschte mâchen 112 wié lâng supt seift liéft lang 113 gnodebròt sauer brót 114 t jong leit solle bei den alen d oere brauchen an d maûl halen 115 klèng deppercher lâfe lîcht iwer 116 de klèng drèckeltcher stènken iérger as wé dé grósz 117 e klèngt kenntchen èng gut stenntchen 118 klèng kanner klèng suorgen lêt gróss kanner gròss suorgen lêt 119 d klèng kanner hun d lâchen an d kreîschen an èngem sèckeltchen",
+        "hypothesis": "89 wât ên net am kapp huot muss ên an de féssen hun 90 et gi fil gut schof an ê stal 91 wién d éscht kent múolt am éschten 92 beim auskiére fennt sech alles 93 faul leit hu giére feierdâch 94 huol d aen an d hand 95 dât as en areme joermârt wó ên em élef ze fré em zwiélef ze lantzem ze spét kemt 96 wanns de neischt mé huos wiérs de klèng muolen 97 d gèlt wist net wann ên t sét 98 et lêft fill wâsser d bâch erôn 99 d gebroden dauwen flée net an der loft erem 100 an der sonn ferdengt ên de schiéd 101 den hèr firaûs derno kemt d ganet haûs 102 gidwideré wês wô en de schong drékt 103 fil scholt fil gedolt 104 wé ên d handwiérk dreift esó gêt et 105 de kâfman lûoft séng wůor 106 et kemt kê pâf an den himmel 107 wann ên no èngem hont wèrft da gerét ên e pâf 108 haut mir muor dir 109 wûorfir rackers de déch esó du muss jo dach stiérwen 110 dé àl scheiere brènnen am iérgsten 111 léer du dei fuoder e mâchen léer en alen aaf konschte mâchen 112 wié lâng supt seift liéft lang 113 gnodebròt sauer brót 114 t jong leit solle bei den alen d oere brauchen an d maûl halen 115 klèng deppercher lâfe lîcht iwer 116 de klèng drèckeltcher stènken iérger as wé dé grósz 117 e klèngt kenntchen èng gut stenntchen 118 klèng kanner klèng suorgen lêt gróss kanner gròss suorgen lêt 119 d klèng kanner hun d lâchen an d kreîschen an èngem sèckeltchen",
+        "hits": 1333,
+        "substitutions": 7,
+        "deletions": 1,
+        "insertions": 0,
+        "errors": 8,
+        "denominator": 1341,
+        "cmer": 0.005965697240865026,
+        "exact": false
+      },
+      "luna_guarded_abstain": {
+        "reference": "89 wât ên net am kapp huot muss ên an de féssen hun 90 et gi fil gut schof an ê stal 91 wién d éscht kent mûolt am éschten 92 beim auskiére fennt sech alles 93 faul leit hu giére feierdâch 94 huol d aen an d hand 95 dât as en areme joermârt wó ên em élef ze fré em zwiélef ze lantzem ze spét kemt 96 wanns de neischt mé huos wiérs de klèng muolen 97 d gèlt wist net wann ên t sét 98 et lêft fill wâsser d bâch erân 99 d gebroden dauwen fiée net an der loft erem 100 an der sonn ferdengt ên de schiéd 101 den hèr firaûs derno kernt d ganzt haûs 102 gidwideré wês wô en de schong drékt 103 fil scholt fil gedolt 104 wé ên d handwiérk dreift esó gêt et 105 de kâfman lûoft séng wûor 106 et kemt kê pâf an den himmel 107 wann ên no èngem hont wèrft da gerét ên e pâf 108 haut mir muor dir 109 wûorfir rackers de déch esó du muss jo dach stiérwen 110 dé àl scheiere brènnen am iérgsten 111 léer du deî fuoder e mâchen léer en alen aaf konschte mâchen 112 wié lâng supt seift liéft lang 113 gnodebròt sauer brót 114 t jong leit solle bei den alen d oere brauchen an d maûl halen 115 klèng deppercher lâfe lîcht iwer 116 de klèng drèckeltcher stènken iérger as wé dé grósz 117 e klèngt kenntchen èng gut stenntchen 118 klèng kanner klèng suorgen lêt gróss kanner gròss suorgen lêt 119 d klèng kanner hun d lâchen an d kreîschen an èngem sèckeltchen",
+        "hypothesis": "89 wât ên net am kapp huot muss ên an de féssen hun 90 et gi fil gut schof an ê stal 91 wién d éscht kent múolt am éschten 92 beim auskiére fennt sech alles 93 faul leit hu giére feierdâch 94 huol d aen an d hand 95 dât as en areme joermârt wó ên em élef ze fré em zwiélef ze lantzem ze spét kemt 96 wanns de neischt mé huos wiérs de klèng muolen 97 d gèlt wist net wann ên t sét 98 et lêft fill wâsser d bâch erôn 99 d gebroden dauwen flée net an der loft erem 100 an der sonn ferdengt ên de schiéd 101 den hèr firaûs derno kemt d ganet haûs 102 gidwideré wês wô en de schong drékt 103 fil scholt fil gedolt 104 wé ên d handwiérk dreift esó gêt et 105 de kâfman lûoft séng wůor 106 et kemt kê pâf an den himmel 107 wann ên no èngem hont wèrft da gerét ên e pâf 108 haut mir muor dir 109 wûorfir rackers de déch esó du muss jo dach stiérwen 110 dé àl scheiere brènnen am iérgsten 111 léer du dei fuoder e mâchen léer en alen aaf konschte mâchen 112 wié lâng supt seift liéft lang 113 gnodebròt sauer brót 114 t jong leit solle bei den alen d oere brauchen an d maûl halen 115 klèng deppercher lâfe lîcht iwer 116 de klèng drèckeltcher stènken iérger as wé dé grósz 117 e klèngt kenntchen èng gut stenntchen 118 klèng kanner klèng suorgen lêt gróss kanner gròss suorgen lêt 119 d klèng kanner hun d lâchen an d kreîschen an èngem sèckeltchen",
+        "hits": 1333,
+        "substitutions": 7,
+        "deletions": 1,
+        "insertions": 0,
+        "errors": 8,
+        "denominator": 1341,
+        "cmer": 0.005965697240865026,
+        "exact": false
+      }
+    },
+    {
+      "id": "T005",
+      "source_id": "0471",
+      "guard_accepted": true,
+      "uncertain": false,
+      "pero": {
+        "reference": "das abermalige reissen des transatlantischen kabeltaues veranlasst die times zu dem vorschlage den leviatbau zur legung des unterseeischen telegraphen zu benutzen dieses schiff sei geräumig genug um allein das ganze tau mit bequemlichkeit zu beherbergen",
+        "hypothesis": "das abermalige reissen des transatlantischen kabeltaues veranlasst die times zu dem vorschlage den leviatban zur legung des unterseeischen telegraphen zu benutzen dieses schiff sei geräumig genug um allein das ganze tau mit bequemlichkeit zu beherbergen",
+        "hits": 252,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 1,
+        "denominator": 253,
+        "cmer": 0.003952569169960474,
+        "exact": false
+      },
+      "luna_raw": {
+        "reference": "das abermalige reissen des transatlantischen kabeltaues veranlasst die times zu dem vorschlage den leviatbau zur legung des unterseeischen telegraphen zu benutzen dieses schiff sei geräumig genug um allein das ganze tau mit bequemlichkeit zu beherbergen",
+        "hypothesis": "das abermalige reissen des transatlantischen kabeltaues veranlasst die times zu dem vorschlage den leviathan zur legung des unterseeischen telegraphen zu benutzen dieses schiff sei geräumig genug um allein das ganze tau mit bequemlichkeit zu beherbergen",
+        "hits": 251,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 2,
+        "denominator": 253,
+        "cmer": 0.007905138339920948,
+        "exact": false
+      },
+      "luna_guarded": {
+        "reference": "das abermalige reissen des transatlantischen kabeltaues veranlasst die times zu dem vorschlage den leviatbau zur legung des unterseeischen telegraphen zu benutzen dieses schiff sei geräumig genug um allein das ganze tau mit bequemlichkeit zu beherbergen",
+        "hypothesis": "das abermalige reissen des transatlantischen kabeltaues veranlasst die times zu dem vorschlage den leviathan zur legung des unterseeischen telegraphen zu benutzen dieses schiff sei geräumig genug um allein das ganze tau mit bequemlichkeit zu beherbergen",
+        "hits": 251,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 2,
+        "denominator": 253,
+        "cmer": 0.007905138339920948,
+        "exact": false
+      },
+      "luna_guarded_abstain": {
+        "reference": "das abermalige reissen des transatlantischen kabeltaues veranlasst die times zu dem vorschlage den leviatbau zur legung des unterseeischen telegraphen zu benutzen dieses schiff sei geräumig genug um allein das ganze tau mit bequemlichkeit zu beherbergen",
+        "hypothesis": "das abermalige reissen des transatlantischen kabeltaues veranlasst die times zu dem vorschlage den leviathan zur legung des unterseeischen telegraphen zu benutzen dieses schiff sei geräumig genug um allein das ganze tau mit bequemlichkeit zu beherbergen",
+        "hits": 251,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 2,
+        "denominator": 253,
+        "cmer": 0.007905138339920948,
+        "exact": false
+      }
+    },
+    {
+      "id": "T006",
+      "source_id": "0456",
+      "guard_accepted": true,
+      "uncertain": false,
+      "pero": {
+        "reference": "southampton 31 janvier le tasmanian venant des indes occidentales apporte 2 770178 dollars dont 2 021 158 en or et 741 397 en argent",
+        "hypothesis": "southampton 31 janvier le tasmanian venant des indes occidentales apporte 2 770178 dollars dont 2 021 158 en or et 741 397 en argent",
+        "hits": 132,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 132,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_raw": {
+        "reference": "southampton 31 janvier le tasmanian venant des indes occidentales apporte 2 770178 dollars dont 2 021 158 en or et 741 397 en argent",
+        "hypothesis": "southampton 31 janvier le tasmanian venant des indes occidentales apporte 2 770178 dollars dont 2 021 158 en or et 741 397 en argent",
+        "hits": 132,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 132,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_guarded": {
+        "reference": "southampton 31 janvier le tasmanian venant des indes occidentales apporte 2 770178 dollars dont 2 021 158 en or et 741 397 en argent",
+        "hypothesis": "southampton 31 janvier le tasmanian venant des indes occidentales apporte 2 770178 dollars dont 2 021 158 en or et 741 397 en argent",
+        "hits": 132,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 132,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_guarded_abstain": {
+        "reference": "southampton 31 janvier le tasmanian venant des indes occidentales apporte 2 770178 dollars dont 2 021 158 en or et 741 397 en argent",
+        "hypothesis": "southampton 31 janvier le tasmanian venant des indes occidentales apporte 2 770178 dollars dont 2 021 158 en or et 741 397 en argent",
+        "hits": 132,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 132,
+        "cmer": 0.0,
+        "exact": true
+      }
+    },
+    {
+      "id": "T007",
+      "source_id": "1630",
+      "guard_accepted": true,
+      "uncertain": false,
+      "pero": {
+        "reference": "die anhänglichkeit an das haus unsrer fürsten wird von den entthronten machthabern als servilität bezeichnet das gestrige volks fest zu walferdingen wird sicher in ihren augen als eine erbärmliche komödie von heuchelei und verstellungskunst erscheinen jedermann schaut durch seine brille und diejenigen menschen welche nicht zwischen den thürmen von dommeldingen erblenden wissen positiv dass nur ein freies liberal regiertes volk dem monarchischen prinzip solche huldigungen dar bringt wie sie in unserm lande aus der tiefsten ueberzeugung des volkes hervorgehen s k h der prinz heinrich der niederlande und statt halter s majestät des königs hat gesprochen und wird wort halten das land sitzt zu gericht und erkennt seine erzmänner die grossen wie die kleinen jedes votum bleibt ein historisches merkmal und die zukunft wird aus der wahlurne die belohnung des civismus oder des egoismus austheilen",
+        "hypothesis": "die anhänglichkeit an das haus unsrer fürsten wird von den entthronten machthabern als servilität bezeichnet das gestrige volks fest zu walferdingen wird sicher in ihren augen als eine erbärmliche komödie von heuchelei und verstellungskunst erscheinen jedermann schaut durch seine brille und diejenigen menschen welche nicht zwischen den thürmen von dommeldingen erblenden wijsen posttiv dass nur ein freies liberal regiertes volk dem monarchiſchen prinzip ſolche huldigungen dar bringt wie sie in unserm lande aus der tiefsten ueberzeugung des volkes hervorgehen s k h der prinz heinrich der niederlande und statt halter s majestät des königs hat gesprochen und wird wort halten das land sitzt zu gericht und erkennt seine erzmänner die grossen wie die kleinen jedes votum bleibt ein historisches merkmal und die zukunft wird aus der wahlurne die belohnung des civismus oder des egoismus austheilen",
+        "hits": 895,
+        "substitutions": 4,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 4,
+        "denominator": 899,
+        "cmer": 0.004449388209121246,
+        "exact": false
+      },
+      "luna_raw": {
+        "reference": "die anhänglichkeit an das haus unsrer fürsten wird von den entthronten machthabern als servilität bezeichnet das gestrige volks fest zu walferdingen wird sicher in ihren augen als eine erbärmliche komödie von heuchelei und verstellungskunst erscheinen jedermann schaut durch seine brille und diejenigen menschen welche nicht zwischen den thürmen von dommeldingen erblenden wissen positiv dass nur ein freies liberal regiertes volk dem monarchischen prinzip solche huldigungen dar bringt wie sie in unserm lande aus der tiefsten ueberzeugung des volkes hervorgehen s k h der prinz heinrich der niederlande und statt halter s majestät des königs hat gesprochen und wird wort halten das land sitzt zu gericht und erkennt seine erzmänner die grossen wie die kleinen jedes votum bleibt ein historisches merkmal und die zukunft wird aus der wahlurne die belohnung des civismus oder des egoismus austheilen",
+        "hypothesis": "die anhänglichkeit an das haus unsrer fürsten wird von den entthronten machthabern als servilität bezeichnet das gestrige volks fest zu walferdingen wird sicher in ihren augen als eine erbärmliche komödie von heuchelei und verstellungskunst erscheinen jedermann schaut durch seine brille und diejenigen menschen welche nicht zwischen den thürmen von dommeldingen erblenden wissen positiv dass nur ein freies liberal regiertes volk dem monarchiſchen prinzip ſolche huldigungen dar bringt wie sie in unserm lande aus der tiefsten ueberzeugung des volkes hervorgehen s k h der prinz heinrich der niederlande und statt halter s majestät des königs hat gesprochen und wird wort halten das land sitzt zu gericht und erkennt seine erzmänner die grossen wie die kleinen jedes votum bleibt ein historisches merkmal und die zukunft wird aus der wahlurne die belohnung des civismus oder des egoismus austheilen",
+        "hits": 897,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 2,
+        "denominator": 899,
+        "cmer": 0.002224694104560623,
+        "exact": false
+      },
+      "luna_guarded": {
+        "reference": "die anhänglichkeit an das haus unsrer fürsten wird von den entthronten machthabern als servilität bezeichnet das gestrige volks fest zu walferdingen wird sicher in ihren augen als eine erbärmliche komödie von heuchelei und verstellungskunst erscheinen jedermann schaut durch seine brille und diejenigen menschen welche nicht zwischen den thürmen von dommeldingen erblenden wissen positiv dass nur ein freies liberal regiertes volk dem monarchischen prinzip solche huldigungen dar bringt wie sie in unserm lande aus der tiefsten ueberzeugung des volkes hervorgehen s k h der prinz heinrich der niederlande und statt halter s majestät des königs hat gesprochen und wird wort halten das land sitzt zu gericht und erkennt seine erzmänner die grossen wie die kleinen jedes votum bleibt ein historisches merkmal und die zukunft wird aus der wahlurne die belohnung des civismus oder des egoismus austheilen",
+        "hypothesis": "die anhänglichkeit an das haus unsrer fürsten wird von den entthronten machthabern als servilität bezeichnet das gestrige volks fest zu walferdingen wird sicher in ihren augen als eine erbärmliche komödie von heuchelei und verstellungskunst erscheinen jedermann schaut durch seine brille und diejenigen menschen welche nicht zwischen den thürmen von dommeldingen erblenden wissen positiv dass nur ein freies liberal regiertes volk dem monarchiſchen prinzip ſolche huldigungen dar bringt wie sie in unserm lande aus der tiefsten ueberzeugung des volkes hervorgehen s k h der prinz heinrich der niederlande und statt halter s majestät des königs hat gesprochen und wird wort halten das land sitzt zu gericht und erkennt seine erzmänner die grossen wie die kleinen jedes votum bleibt ein historisches merkmal und die zukunft wird aus der wahlurne die belohnung des civismus oder des egoismus austheilen",
+        "hits": 897,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 2,
+        "denominator": 899,
+        "cmer": 0.002224694104560623,
+        "exact": false
+      },
+      "luna_guarded_abstain": {
+        "reference": "die anhänglichkeit an das haus unsrer fürsten wird von den entthronten machthabern als servilität bezeichnet das gestrige volks fest zu walferdingen wird sicher in ihren augen als eine erbärmliche komödie von heuchelei und verstellungskunst erscheinen jedermann schaut durch seine brille und diejenigen menschen welche nicht zwischen den thürmen von dommeldingen erblenden wissen positiv dass nur ein freies liberal regiertes volk dem monarchischen prinzip solche huldigungen dar bringt wie sie in unserm lande aus der tiefsten ueberzeugung des volkes hervorgehen s k h der prinz heinrich der niederlande und statt halter s majestät des königs hat gesprochen und wird wort halten das land sitzt zu gericht und erkennt seine erzmänner die grossen wie die kleinen jedes votum bleibt ein historisches merkmal und die zukunft wird aus der wahlurne die belohnung des civismus oder des egoismus austheilen",
+        "hypothesis": "die anhänglichkeit an das haus unsrer fürsten wird von den entthronten machthabern als servilität bezeichnet das gestrige volks fest zu walferdingen wird sicher in ihren augen als eine erbärmliche komödie von heuchelei und verstellungskunst erscheinen jedermann schaut durch seine brille und diejenigen menschen welche nicht zwischen den thürmen von dommeldingen erblenden wissen positiv dass nur ein freies liberal regiertes volk dem monarchiſchen prinzip ſolche huldigungen dar bringt wie sie in unserm lande aus der tiefsten ueberzeugung des volkes hervorgehen s k h der prinz heinrich der niederlande und statt halter s majestät des königs hat gesprochen und wird wort halten das land sitzt zu gericht und erkennt seine erzmänner die grossen wie die kleinen jedes votum bleibt ein historisches merkmal und die zukunft wird aus der wahlurne die belohnung des civismus oder des egoismus austheilen",
+        "hits": 897,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 2,
+        "denominator": 899,
+        "cmer": 0.002224694104560623,
+        "exact": false
+      }
+    },
+    {
+      "id": "T008",
+      "source_id": "0009",
+      "guard_accepted": false,
+      "uncertain": false,
+      "pero": {
+        "reference": "giesser nun weiss er was ich hab mir einen plan erdacht wird der alte schacht wieder gangbar so müssen wir doch dort neue bergleute anlegen und mehr als am neuen da reicht nun ein schichtmei ster mit einem grubensteiger und hutmanne nicht aus und wenn wir schon dem frenzel die leitung beider gruben als schichtmeister lassen so brauchen wir doch noch ein paar grubensteiger für den obern schacht und für beide schächte einen tüchtigen ober steiger und der wird er und kein anderer dann denk ich soll er auch sein mädchen bekommen ferdinand drückte dem redner freudig die hand wenn über mich befohlen wird sagte er so gehorche ich aber den schichtmeister übergehen sie nicht und wenn er das wagstück auf sich nimmt so wollen die herrn gewerken hübsch an seine familie denken daran soll s nicht fehlen sagte mickley und fer dinand nahm abschied er hatte in der einzigen buch handlung des ortes ein buch über naturlehre be stellt und wollte sehen ob es angekommen sei er musste da an dem hause des goldschmieds vorbei und begegnete vor der thür desselben dem schichtmei ster mit ganz verstörtem gesicht er konnte sich nicht helfen er trat mit einem glückauf auf ihn zu und",
+        "hypothesis": "giesser nun weiss er was ich hab mir einen plan erdacht wird der alte schacht wieder gangbar st müssen wir doch dort neue bergleute anlegen un mehr als ant neuen da reicht nun ein schichtnei ster mit einem grubensteiger und hutmanne nicht aus und wenn wir schon dem frenzel die leitung beider gruben als schichtmeister lassen so brauchen wir doch noch ein paar grubensteiger für den obern schacht und für beide schächte einen tüchtigen ober steiger und der wird er und kein anderer dann denk ich soll er auch sein mädchen bekommen ferdinand drückte dem redner freudig die hand wenn über mich befohlen wird sagte er so gehorche ich aber den schichtmeister übergehen sie nicht und wenner das wagstück aufsich nimmt so wollen die herrn gewerken hübsch an seine familie denken daran soll s nicht fehlen sagte mickley und fer dinand nahm abschied er hatte in der einzigen buchhandlung des ortes ein buch über naturlehre be stellt und wollte sehen ob es angekommen sei er musste da an dem hause des goldschmieds vorbei und begegnete vor der thür desselben dem schichtmeister mit ganz verstörtem gesicht er konnte sich nicht helfen er trat mit einem glückauf auf ihn zu und",
+        "hits": 1162,
+        "substitutions": 3,
+        "deletions": 5,
+        "insertions": 1,
+        "errors": 9,
+        "denominator": 1171,
+        "cmer": 0.007685738684884714,
+        "exact": false
+      },
+      "luna_raw": {
+        "reference": "giesser nun weiss er was ich hab mir einen plan erdacht wird der alte schacht wieder gangbar so müssen wir doch dort neue bergleute anlegen und mehr als am neuen da reicht nun ein schichtmei ster mit einem grubensteiger und hutmanne nicht aus und wenn wir schon dem frenzel die leitung beider gruben als schichtmeister lassen so brauchen wir doch noch ein paar grubensteiger für den obern schacht und für beide schächte einen tüchtigen ober steiger und der wird er und kein anderer dann denk ich soll er auch sein mädchen bekommen ferdinand drückte dem redner freudig die hand wenn über mich befohlen wird sagte er so gehorche ich aber den schichtmeister übergehen sie nicht und wenn er das wagstück auf sich nimmt so wollen die herrn gewerken hübsch an seine familie denken daran soll s nicht fehlen sagte mickley und fer dinand nahm abschied er hatte in der einzigen buch handlung des ortes ein buch über naturlehre be stellt und wollte sehen ob es angekommen sei er musste da an dem hause des goldschmieds vorbei und begegnete vor der thür desselben dem schichtmei ster mit ganz verstörtem gesicht er konnte sich nicht helfen er trat mit einem glückauf auf ihn zu und",
+        "hypothesis": "giesser nun weiss er was ich hab mir einen plan erdacht wird der alte schacht wieder gangbar so müssen wir doch dort neue bergleute anlegen und mehr als am neuen da reicht nun ein schichtmei ster mit einem grubensteiger und hutmanne nicht aus und wenn wir schon dem frenzel die leitung beider gruben als schichtmeister lassen so brauchen wir doch noch ein paar grubensteiger für den obern schacht und für beide schächte einen tüchtigen ober steiger und der wird er und kein anderer dann denk ich soll er auch sein mädchen bekommen ferdinand drückte dem redner freudig die hand wenn über mich befohlen wird sagte er so gehorche ich aber den schichtmeister übergehen sie nicht und wenn er das wagstück aufsich nimmt so wollen die herrn gewerken hübsch an seine familie denken daran soll s nicht fehlen sagte mickley und fer dinand nahm abschied er hatte in der einzigen buchhandlung des ortes ein buch über naturlehre be stellt und wollte sehen ob es angekommen sei er musste da an dem hause des goldschmieds vorbei und begegnete vor der thür desselben dem schichtmei ster mit ganz verstörtem gesicht er konnte sich nicht helfen er trat mit einem glückauf auf ihn zu und",
+        "hits": 1168,
+        "substitutions": 0,
+        "deletions": 2,
+        "insertions": 0,
+        "errors": 2,
+        "denominator": 1170,
+        "cmer": 0.0017094017094017094,
+        "exact": false
+      },
+      "luna_guarded": {
+        "reference": "giesser nun weiss er was ich hab mir einen plan erdacht wird der alte schacht wieder gangbar so müssen wir doch dort neue bergleute anlegen und mehr als am neuen da reicht nun ein schichtmei ster mit einem grubensteiger und hutmanne nicht aus und wenn wir schon dem frenzel die leitung beider gruben als schichtmeister lassen so brauchen wir doch noch ein paar grubensteiger für den obern schacht und für beide schächte einen tüchtigen ober steiger und der wird er und kein anderer dann denk ich soll er auch sein mädchen bekommen ferdinand drückte dem redner freudig die hand wenn über mich befohlen wird sagte er so gehorche ich aber den schichtmeister übergehen sie nicht und wenn er das wagstück auf sich nimmt so wollen die herrn gewerken hübsch an seine familie denken daran soll s nicht fehlen sagte mickley und fer dinand nahm abschied er hatte in der einzigen buch handlung des ortes ein buch über naturlehre be stellt und wollte sehen ob es angekommen sei er musste da an dem hause des goldschmieds vorbei und begegnete vor der thür desselben dem schichtmei ster mit ganz verstörtem gesicht er konnte sich nicht helfen er trat mit einem glückauf auf ihn zu und",
+        "hypothesis": "giesser nun weiss er was ich hab mir einen plan erdacht wird der alte schacht wieder gangbar st müssen wir doch dort neue bergleute anlegen un mehr als ant neuen da reicht nun ein schichtnei ster mit einem grubensteiger und hutmanne nicht aus und wenn wir schon dem frenzel die leitung beider gruben als schichtmeister lassen so brauchen wir doch noch ein paar grubensteiger für den obern schacht und für beide schächte einen tüchtigen ober steiger und der wird er und kein anderer dann denk ich soll er auch sein mädchen bekommen ferdinand drückte dem redner freudig die hand wenn über mich befohlen wird sagte er so gehorche ich aber den schichtmeister übergehen sie nicht und wenner das wagstück aufsich nimmt so wollen die herrn gewerken hübsch an seine familie denken daran soll s nicht fehlen sagte mickley und fer dinand nahm abschied er hatte in der einzigen buchhandlung des ortes ein buch über naturlehre be stellt und wollte sehen ob es angekommen sei er musste da an dem hause des goldschmieds vorbei und begegnete vor der thür desselben dem schichtmeister mit ganz verstörtem gesicht er konnte sich nicht helfen er trat mit einem glückauf auf ihn zu und",
+        "hits": 1162,
+        "substitutions": 3,
+        "deletions": 5,
+        "insertions": 1,
+        "errors": 9,
+        "denominator": 1171,
+        "cmer": 0.007685738684884714,
+        "exact": false
+      },
+      "luna_guarded_abstain": {
+        "reference": "giesser nun weiss er was ich hab mir einen plan erdacht wird der alte schacht wieder gangbar so müssen wir doch dort neue bergleute anlegen und mehr als am neuen da reicht nun ein schichtmei ster mit einem grubensteiger und hutmanne nicht aus und wenn wir schon dem frenzel die leitung beider gruben als schichtmeister lassen so brauchen wir doch noch ein paar grubensteiger für den obern schacht und für beide schächte einen tüchtigen ober steiger und der wird er und kein anderer dann denk ich soll er auch sein mädchen bekommen ferdinand drückte dem redner freudig die hand wenn über mich befohlen wird sagte er so gehorche ich aber den schichtmeister übergehen sie nicht und wenn er das wagstück auf sich nimmt so wollen die herrn gewerken hübsch an seine familie denken daran soll s nicht fehlen sagte mickley und fer dinand nahm abschied er hatte in der einzigen buch handlung des ortes ein buch über naturlehre be stellt und wollte sehen ob es angekommen sei er musste da an dem hause des goldschmieds vorbei und begegnete vor der thür desselben dem schichtmei ster mit ganz verstörtem gesicht er konnte sich nicht helfen er trat mit einem glückauf auf ihn zu und",
+        "hypothesis": "giesser nun weiss er was ich hab mir einen plan erdacht wird der alte schacht wieder gangbar st müssen wir doch dort neue bergleute anlegen un mehr als ant neuen da reicht nun ein schichtnei ster mit einem grubensteiger und hutmanne nicht aus und wenn wir schon dem frenzel die leitung beider gruben als schichtmeister lassen so brauchen wir doch noch ein paar grubensteiger für den obern schacht und für beide schächte einen tüchtigen ober steiger und der wird er und kein anderer dann denk ich soll er auch sein mädchen bekommen ferdinand drückte dem redner freudig die hand wenn über mich befohlen wird sagte er so gehorche ich aber den schichtmeister übergehen sie nicht und wenner das wagstück aufsich nimmt so wollen die herrn gewerken hübsch an seine familie denken daran soll s nicht fehlen sagte mickley und fer dinand nahm abschied er hatte in der einzigen buchhandlung des ortes ein buch über naturlehre be stellt und wollte sehen ob es angekommen sei er musste da an dem hause des goldschmieds vorbei und begegnete vor der thür desselben dem schichtmeister mit ganz verstörtem gesicht er konnte sich nicht helfen er trat mit einem glückauf auf ihn zu und",
+        "hits": 1162,
+        "substitutions": 3,
+        "deletions": 5,
+        "insertions": 1,
+        "errors": 9,
+        "denominator": 1171,
+        "cmer": 0.007685738684884714,
+        "exact": false
+      }
+    },
+    {
+      "id": "T009",
+      "source_id": "1059",
+      "guard_accepted": true,
+      "uncertain": false,
+      "pero": {
+        "reference": "die während der belagerung und unter der herr schaft der commune verlebten schreckenstage geben",
+        "hypothesis": "die während der belagerung und uuter der herr ſchoft der commune verlebten schrectenstage geben",
+        "hits": 91,
+        "substitutions": 4,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 4,
+        "denominator": 95,
+        "cmer": 0.042105263157894736,
+        "exact": false
+      },
+      "luna_raw": {
+        "reference": "die während der belagerung und unter der herr schaft der commune verlebten schreckenstage geben",
+        "hypothesis": "die während der belagerung und unter der herr schaft der commune verlebten schreckenstage geben",
+        "hits": 95,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 95,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_guarded": {
+        "reference": "die während der belagerung und unter der herr schaft der commune verlebten schreckenstage geben",
+        "hypothesis": "die während der belagerung und unter der herr schaft der commune verlebten schreckenstage geben",
+        "hits": 95,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 95,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_guarded_abstain": {
+        "reference": "die während der belagerung und unter der herr schaft der commune verlebten schreckenstage geben",
+        "hypothesis": "die während der belagerung und unter der herr schaft der commune verlebten schreckenstage geben",
+        "hits": 95,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 95,
+        "cmer": 0.0,
+        "exact": true
+      }
+    },
+    {
+      "id": "T010",
+      "source_id": "0345",
+      "guard_accepted": false,
+      "uncertain": false,
+      "pero": {
+        "reference": "l image de ja belle de la charmante de l ado rée tournoyait autour de lui et l attirait comme un feu follet qui sautille la nuit à travers les marais clara chère et cruelle clara soupirait il enfin le troisième jour à bout de forces n y tenant plus il sonna se fit ouvrir et comme un insensé riant et pleurant il se précipita aux pieds de son idole pardonnez moi murmura t il j ai voulu vous oublier j ai voulu vous trahir mais l entreprise dépassait mes forces je vous aime je n aime que vons oh clara de grâce éeoutez moi me voici soumis et repentant je dépose à vos pieds ma fortune mon nom ma vie et c est de vous seule désormais que jattends mon bonheur parlez or donnez le jour qu il vous plaira vous serez ma femme devant les hommes et devant dieu oh je vous crois s écria t elle votre voix vore accent votre émotion vos larmes me disent d avoir foi en vous et je puis l avouer maintenant moi aussi je vous aime en frissonnante et empourprée elle tendit son front à anatole qui y imprima un brulant baiser",
+        "hypothesis": "l image de la belle de la charmante de lado rée tournovait autour de lui et l attirait comme un feu follet qui sautille la nuit à travers les marais clara chère et cruelle clara soupirait il enfin le troisième jour à bout de forces n y tenant plus il sonna se fit ouvrir et comme un insensé riant et pleurant il se précipita aux pieds de son idole pardonpez moi murmura t il j ai voulu vous oublier pai voulu vous trahir mais l entreprise dépassait mes forces je vous aime je n aime que vons oh clara de grâce éeoutez moi me voici soumis et repentant je dépose a vos pieds ma fortune mon nom ma vie et c est de vous seule désormais que iattends mon bonheur parlez or donnez le jour au il vous plaira vous serez ma femme devant les hommes et devant dieu oh je vous crois s écria t elle votre voix votre accent votre émotion vos larmes me disent d avoir foi en vous et je puis l avouer maintenant moi aussi je vous aime en frissonnante et empourprée elle tendit son front à anatole qui y imprima un brulant baiser",
+        "hits": 1003,
+        "substitutions": 7,
+        "deletions": 2,
+        "insertions": 1,
+        "errors": 10,
+        "denominator": 1013,
+        "cmer": 0.009871668311944718,
+        "exact": false
+      },
+      "luna_raw": {
+        "reference": "l image de ja belle de la charmante de l ado rée tournoyait autour de lui et l attirait comme un feu follet qui sautille la nuit à travers les marais clara chère et cruelle clara soupirait il enfin le troisième jour à bout de forces n y tenant plus il sonna se fit ouvrir et comme un insensé riant et pleurant il se précipita aux pieds de son idole pardonnez moi murmura t il j ai voulu vous oublier j ai voulu vous trahir mais l entreprise dépassait mes forces je vous aime je n aime que vons oh clara de grâce éeoutez moi me voici soumis et repentant je dépose à vos pieds ma fortune mon nom ma vie et c est de vous seule désormais que jattends mon bonheur parlez or donnez le jour qu il vous plaira vous serez ma femme devant les hommes et devant dieu oh je vous crois s écria t elle votre voix vore accent votre émotion vos larmes me disent d avoir foi en vous et je puis l avouer maintenant moi aussi je vous aime en frissonnante et empourprée elle tendit son front à anatole qui y imprima un brulant baiser",
+        "hypothesis": "l image de la belle de la charmante de l ado rée tournoyait autour de lui et l attirait comme un feu follet qui sautille la nuit à travers les marais clara chère et cruelle clara soupirait il enfin le troisième jour à bout de forces n y tenant plus il sonna se fit ouvrir et comme un insensé riant et pleurant il se précipita aux pieds de son idole pardonnez moi murmura t il j ai voulu vous oublier j ai voulu vous trahir mais l entreprise dépassait mes forces je vous aime je n aime que vous oh clara de grâce écoutez moi me voici soumis et repentant je dépose a vos pieds ma fortune mon nom ma vie et c est de vous seule désormais que j attends mon bonheur parlez or donnez le jour qu il vous plaira vous serez ma femme devant les hommes et devant dieu oh je vous crois s écria t elle votre voix votre accent votre émotion vos larmes me disent d avoir foi en vous et je puis l avouer maintenant moi aussi je vous aime en frissonnante et empourprée elle tendit son front à anatole qui y imprima un brulant baiser",
+        "hits": 1008,
+        "substitutions": 4,
+        "deletions": 0,
+        "insertions": 2,
+        "errors": 6,
+        "denominator": 1014,
+        "cmer": 0.005917159763313609,
+        "exact": false
+      },
+      "luna_guarded": {
+        "reference": "l image de ja belle de la charmante de l ado rée tournoyait autour de lui et l attirait comme un feu follet qui sautille la nuit à travers les marais clara chère et cruelle clara soupirait il enfin le troisième jour à bout de forces n y tenant plus il sonna se fit ouvrir et comme un insensé riant et pleurant il se précipita aux pieds de son idole pardonnez moi murmura t il j ai voulu vous oublier j ai voulu vous trahir mais l entreprise dépassait mes forces je vous aime je n aime que vons oh clara de grâce éeoutez moi me voici soumis et repentant je dépose à vos pieds ma fortune mon nom ma vie et c est de vous seule désormais que jattends mon bonheur parlez or donnez le jour qu il vous plaira vous serez ma femme devant les hommes et devant dieu oh je vous crois s écria t elle votre voix vore accent votre émotion vos larmes me disent d avoir foi en vous et je puis l avouer maintenant moi aussi je vous aime en frissonnante et empourprée elle tendit son front à anatole qui y imprima un brulant baiser",
+        "hypothesis": "l image de la belle de la charmante de lado rée tournovait autour de lui et l attirait comme un feu follet qui sautille la nuit à travers les marais clara chère et cruelle clara soupirait il enfin le troisième jour à bout de forces n y tenant plus il sonna se fit ouvrir et comme un insensé riant et pleurant il se précipita aux pieds de son idole pardonpez moi murmura t il j ai voulu vous oublier pai voulu vous trahir mais l entreprise dépassait mes forces je vous aime je n aime que vons oh clara de grâce éeoutez moi me voici soumis et repentant je dépose a vos pieds ma fortune mon nom ma vie et c est de vous seule désormais que iattends mon bonheur parlez or donnez le jour au il vous plaira vous serez ma femme devant les hommes et devant dieu oh je vous crois s écria t elle votre voix votre accent votre émotion vos larmes me disent d avoir foi en vous et je puis l avouer maintenant moi aussi je vous aime en frissonnante et empourprée elle tendit son front à anatole qui y imprima un brulant baiser",
+        "hits": 1003,
+        "substitutions": 7,
+        "deletions": 2,
+        "insertions": 1,
+        "errors": 10,
+        "denominator": 1013,
+        "cmer": 0.009871668311944718,
+        "exact": false
+      },
+      "luna_guarded_abstain": {
+        "reference": "l image de ja belle de la charmante de l ado rée tournoyait autour de lui et l attirait comme un feu follet qui sautille la nuit à travers les marais clara chère et cruelle clara soupirait il enfin le troisième jour à bout de forces n y tenant plus il sonna se fit ouvrir et comme un insensé riant et pleurant il se précipita aux pieds de son idole pardonnez moi murmura t il j ai voulu vous oublier j ai voulu vous trahir mais l entreprise dépassait mes forces je vous aime je n aime que vons oh clara de grâce éeoutez moi me voici soumis et repentant je dépose à vos pieds ma fortune mon nom ma vie et c est de vous seule désormais que jattends mon bonheur parlez or donnez le jour qu il vous plaira vous serez ma femme devant les hommes et devant dieu oh je vous crois s écria t elle votre voix vore accent votre émotion vos larmes me disent d avoir foi en vous et je puis l avouer maintenant moi aussi je vous aime en frissonnante et empourprée elle tendit son front à anatole qui y imprima un brulant baiser",
+        "hypothesis": "l image de la belle de la charmante de lado rée tournovait autour de lui et l attirait comme un feu follet qui sautille la nuit à travers les marais clara chère et cruelle clara soupirait il enfin le troisième jour à bout de forces n y tenant plus il sonna se fit ouvrir et comme un insensé riant et pleurant il se précipita aux pieds de son idole pardonpez moi murmura t il j ai voulu vous oublier pai voulu vous trahir mais l entreprise dépassait mes forces je vous aime je n aime que vons oh clara de grâce éeoutez moi me voici soumis et repentant je dépose a vos pieds ma fortune mon nom ma vie et c est de vous seule désormais que iattends mon bonheur parlez or donnez le jour au il vous plaira vous serez ma femme devant les hommes et devant dieu oh je vous crois s écria t elle votre voix votre accent votre émotion vos larmes me disent d avoir foi en vous et je puis l avouer maintenant moi aussi je vous aime en frissonnante et empourprée elle tendit son front à anatole qui y imprima un brulant baiser",
+        "hits": 1003,
+        "substitutions": 7,
+        "deletions": 2,
+        "insertions": 1,
+        "errors": 10,
+        "denominator": 1013,
+        "cmer": 0.009871668311944718,
+        "exact": false
+      }
+    },
+    {
+      "id": "T011",
+      "source_id": "0363",
+      "guard_accepted": true,
+      "uncertain": false,
+      "pero": {
+        "reference": "aber wie die gattin dem manne so ist sie seine gefährtin und gehülfin beide im dienste der kirche nimmer aber ist sie seine magd seine sklavin sie die eben so wohl freie her rin ist und bleiben muss als das wort der freie herr offenbar muss also das wort im anschlüsse an die tonformel nicht minder rücksichten gebrau chen da wo es gilt auf geringe kosten der eige nen form die formenschönheit und die ästhe tisch vollkommene ausprägung seiner gefährtin zu achten und zu ehren demnach ziehen wir nicht die stirn in runzeln wenn die form dem bau des tonsatzes nachgibt und sich gefallen lässt dass eine kurze silbe lang wird oder mit mehre ren noten verziert ist und umgekehrt der satz musica non subjacet regulis donati wird somit seine volle richtigkeit haben es wäre in der that eben so angenehm als loh nend durch kritische vergleichung und abwä gung die alten fassungen der melodie den ver besserten der neuzeit gegenüberzustellen ohne allen zweifel würden die leser wir schreiben ja zunächst und zumeist für musiker mit uns sehr bald zu dem resultate kommen dass über all wo der text hat praevaliren wollen und das ist es eben was die neueren erstreben der zauber der musik ihr wesen ihr geist verloren ist wir können aber an dieser stelle in dem engen rahmen unserer arbeit nur kleine proben geben wir wählen solche die auch anderswo als muster der verbesserung aufgestellt sind die stelle",
+        "hypothesis": "aber wie die gattin dem manne so ist sie seine gefährtin und gehülfin beide im dienste der kirche nimmer aber ist sie seine magd seine sklavin sie die eben so wohl freie her rin ist und bleiben muss als das wort der freie herr offenbar muss also das wort im anschlusse an die tonformel nicht minder rücksichten gebrau chen da wo es gilt auf geringe kosten der eige nen form die formenschönheit und die asthe tisch vollkommene ausprägung seiner gefährtin zu achten und zu ehren demnach ziehen wir nicht die stirn in runzeln wenn die form dem bau des tonsatzes nachgibt und sich gefallen lässt dass eine kurze silbe lang wird oder mit mehre ren noten verziert ist und umgekehrt der satz musica non subjacet regulis donati wird somit seine volle richtigkeit haben es wäre in der that eben so angenehm als loh nend durch kritische vergleichung und abwä gung die alten fassungen der melodie den ver besserten der neuzeit gegenüberzustellen ohne allen zweifel würden die leser wir schreiben ja zunächst und zumeist für musiker mit uns sehr bald zu dem resultate kommen dass über all wo der text hat praevaliren wollen und das ist es eben was die neueren erstreben der zauber der musik ihr wesen ihr geist verloren ist wir können aber an dieser stelle in dem engen rahmen unserer arbeit nur kleine proben geben wir wählen solche die auch anderswo als muster der verbesserung aufgestellt sind die stelle",
+        "hits": 1393,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 2,
+        "denominator": 1395,
+        "cmer": 0.0014336917562724014,
+        "exact": false
+      },
+      "luna_raw": {
+        "reference": "aber wie die gattin dem manne so ist sie seine gefährtin und gehülfin beide im dienste der kirche nimmer aber ist sie seine magd seine sklavin sie die eben so wohl freie her rin ist und bleiben muss als das wort der freie herr offenbar muss also das wort im anschlüsse an die tonformel nicht minder rücksichten gebrau chen da wo es gilt auf geringe kosten der eige nen form die formenschönheit und die ästhe tisch vollkommene ausprägung seiner gefährtin zu achten und zu ehren demnach ziehen wir nicht die stirn in runzeln wenn die form dem bau des tonsatzes nachgibt und sich gefallen lässt dass eine kurze silbe lang wird oder mit mehre ren noten verziert ist und umgekehrt der satz musica non subjacet regulis donati wird somit seine volle richtigkeit haben es wäre in der that eben so angenehm als loh nend durch kritische vergleichung und abwä gung die alten fassungen der melodie den ver besserten der neuzeit gegenüberzustellen ohne allen zweifel würden die leser wir schreiben ja zunächst und zumeist für musiker mit uns sehr bald zu dem resultate kommen dass über all wo der text hat praevaliren wollen und das ist es eben was die neueren erstreben der zauber der musik ihr wesen ihr geist verloren ist wir können aber an dieser stelle in dem engen rahmen unserer arbeit nur kleine proben geben wir wählen solche die auch anderswo als muster der verbesserung aufgestellt sind die stelle",
+        "hypothesis": "aber wie die gattin dem manne so ist sie seine gefährtin und gehülfin beide im dienste der kirche nimmer aber ist sie seine magd seine sklavin sie die eben so wohl freie her rin ist und bleiben muss als das wort der freie herr offenbar muss also das wort im anschlusse an die tonformel nicht minder rücksichten gebrau chen da wo es gilt auf geringe kosten der eige nen form die formenschönheit und die asthe tisch vollkommene ausprägung seiner gefährtin zu achten und zu ehren demnach ziehen wir nicht die stirn in runzeln wenn die form dem bau des tonsatzes nachgibt und sich gefallen lässt dass eine kurze silbe lang wird oder mit mehre ren noten verziert ist und umgekehrt der satz musica non subjacet regulis donati wird somit seine volle richtigkeit haben es wäre in der that eben so angenehm als loh nend durch kritische vergleichung und abwä gung die alten fassungen der melodie den ver besserten der neuzeit gegenüberzustellen ohne allen zweifel würden die leser wir schreiben ja zunächst und zumeist für musiker mit uns sehr bald zu dem resultate kommen dass über all wo der text hat praevaliren wollen und das ist es eben was die neueren erstreben der zauber der musik ihr wesen ihr geist verloren ist wir können aber an dieser stelle in dem engen rahmen unserer arbeit nur kleine proben geben wir wählen solche die auch anderswo als muster der verbesserung aufgestellt sind die stelle",
+        "hits": 1393,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 2,
+        "denominator": 1395,
+        "cmer": 0.0014336917562724014,
+        "exact": false
+      },
+      "luna_guarded": {
+        "reference": "aber wie die gattin dem manne so ist sie seine gefährtin und gehülfin beide im dienste der kirche nimmer aber ist sie seine magd seine sklavin sie die eben so wohl freie her rin ist und bleiben muss als das wort der freie herr offenbar muss also das wort im anschlüsse an die tonformel nicht minder rücksichten gebrau chen da wo es gilt auf geringe kosten der eige nen form die formenschönheit und die ästhe tisch vollkommene ausprägung seiner gefährtin zu achten und zu ehren demnach ziehen wir nicht die stirn in runzeln wenn die form dem bau des tonsatzes nachgibt und sich gefallen lässt dass eine kurze silbe lang wird oder mit mehre ren noten verziert ist und umgekehrt der satz musica non subjacet regulis donati wird somit seine volle richtigkeit haben es wäre in der that eben so angenehm als loh nend durch kritische vergleichung und abwä gung die alten fassungen der melodie den ver besserten der neuzeit gegenüberzustellen ohne allen zweifel würden die leser wir schreiben ja zunächst und zumeist für musiker mit uns sehr bald zu dem resultate kommen dass über all wo der text hat praevaliren wollen und das ist es eben was die neueren erstreben der zauber der musik ihr wesen ihr geist verloren ist wir können aber an dieser stelle in dem engen rahmen unserer arbeit nur kleine proben geben wir wählen solche die auch anderswo als muster der verbesserung aufgestellt sind die stelle",
+        "hypothesis": "aber wie die gattin dem manne so ist sie seine gefährtin und gehülfin beide im dienste der kirche nimmer aber ist sie seine magd seine sklavin sie die eben so wohl freie her rin ist und bleiben muss als das wort der freie herr offenbar muss also das wort im anschlusse an die tonformel nicht minder rücksichten gebrau chen da wo es gilt auf geringe kosten der eige nen form die formenschönheit und die asthe tisch vollkommene ausprägung seiner gefährtin zu achten und zu ehren demnach ziehen wir nicht die stirn in runzeln wenn die form dem bau des tonsatzes nachgibt und sich gefallen lässt dass eine kurze silbe lang wird oder mit mehre ren noten verziert ist und umgekehrt der satz musica non subjacet regulis donati wird somit seine volle richtigkeit haben es wäre in der that eben so angenehm als loh nend durch kritische vergleichung und abwä gung die alten fassungen der melodie den ver besserten der neuzeit gegenüberzustellen ohne allen zweifel würden die leser wir schreiben ja zunächst und zumeist für musiker mit uns sehr bald zu dem resultate kommen dass über all wo der text hat praevaliren wollen und das ist es eben was die neueren erstreben der zauber der musik ihr wesen ihr geist verloren ist wir können aber an dieser stelle in dem engen rahmen unserer arbeit nur kleine proben geben wir wählen solche die auch anderswo als muster der verbesserung aufgestellt sind die stelle",
+        "hits": 1393,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 2,
+        "denominator": 1395,
+        "cmer": 0.0014336917562724014,
+        "exact": false
+      },
+      "luna_guarded_abstain": {
+        "reference": "aber wie die gattin dem manne so ist sie seine gefährtin und gehülfin beide im dienste der kirche nimmer aber ist sie seine magd seine sklavin sie die eben so wohl freie her rin ist und bleiben muss als das wort der freie herr offenbar muss also das wort im anschlüsse an die tonformel nicht minder rücksichten gebrau chen da wo es gilt auf geringe kosten der eige nen form die formenschönheit und die ästhe tisch vollkommene ausprägung seiner gefährtin zu achten und zu ehren demnach ziehen wir nicht die stirn in runzeln wenn die form dem bau des tonsatzes nachgibt und sich gefallen lässt dass eine kurze silbe lang wird oder mit mehre ren noten verziert ist und umgekehrt der satz musica non subjacet regulis donati wird somit seine volle richtigkeit haben es wäre in der that eben so angenehm als loh nend durch kritische vergleichung und abwä gung die alten fassungen der melodie den ver besserten der neuzeit gegenüberzustellen ohne allen zweifel würden die leser wir schreiben ja zunächst und zumeist für musiker mit uns sehr bald zu dem resultate kommen dass über all wo der text hat praevaliren wollen und das ist es eben was die neueren erstreben der zauber der musik ihr wesen ihr geist verloren ist wir können aber an dieser stelle in dem engen rahmen unserer arbeit nur kleine proben geben wir wählen solche die auch anderswo als muster der verbesserung aufgestellt sind die stelle",
+        "hypothesis": "aber wie die gattin dem manne so ist sie seine gefährtin und gehülfin beide im dienste der kirche nimmer aber ist sie seine magd seine sklavin sie die eben so wohl freie her rin ist und bleiben muss als das wort der freie herr offenbar muss also das wort im anschlusse an die tonformel nicht minder rücksichten gebrau chen da wo es gilt auf geringe kosten der eige nen form die formenschönheit und die asthe tisch vollkommene ausprägung seiner gefährtin zu achten und zu ehren demnach ziehen wir nicht die stirn in runzeln wenn die form dem bau des tonsatzes nachgibt und sich gefallen lässt dass eine kurze silbe lang wird oder mit mehre ren noten verziert ist und umgekehrt der satz musica non subjacet regulis donati wird somit seine volle richtigkeit haben es wäre in der that eben so angenehm als loh nend durch kritische vergleichung und abwä gung die alten fassungen der melodie den ver besserten der neuzeit gegenüberzustellen ohne allen zweifel würden die leser wir schreiben ja zunächst und zumeist für musiker mit uns sehr bald zu dem resultate kommen dass über all wo der text hat praevaliren wollen und das ist es eben was die neueren erstreben der zauber der musik ihr wesen ihr geist verloren ist wir können aber an dieser stelle in dem engen rahmen unserer arbeit nur kleine proben geben wir wählen solche die auch anderswo als muster der verbesserung aufgestellt sind die stelle",
+        "hits": 1393,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 2,
+        "denominator": 1395,
+        "cmer": 0.0014336917562724014,
+        "exact": false
+      }
+    },
+    {
+      "id": "T012",
+      "source_id": "0645",
+      "guard_accepted": true,
+      "uncertain": false,
+      "pero": {
+        "reference": "iii classe 1er prix théodore witry de rollingen 2e jean nicolas schoué d esch sur la sûre 3e nicolas",
+        "hypothesis": "iii classe 1er prix théodore witry de rollingen 2e jean nicolas schoué d esch sur la sûre 3e nicolas",
+        "hits": 100,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 100,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_raw": {
+        "reference": "iii classe 1er prix théodore witry de rollingen 2e jean nicolas schoué d esch sur la sûre 3e nicolas",
+        "hypothesis": "iii classe 1er prix théodore witry de rollingen 2e jean nicolas schoué d esch sur la sûre 3e nicolas",
+        "hits": 100,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 100,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_guarded": {
+        "reference": "iii classe 1er prix théodore witry de rollingen 2e jean nicolas schoué d esch sur la sûre 3e nicolas",
+        "hypothesis": "iii classe 1er prix théodore witry de rollingen 2e jean nicolas schoué d esch sur la sûre 3e nicolas",
+        "hits": 100,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 100,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_guarded_abstain": {
+        "reference": "iii classe 1er prix théodore witry de rollingen 2e jean nicolas schoué d esch sur la sûre 3e nicolas",
+        "hypothesis": "iii classe 1er prix théodore witry de rollingen 2e jean nicolas schoué d esch sur la sûre 3e nicolas",
+        "hits": 100,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 100,
+        "cmer": 0.0,
+        "exact": true
+      }
+    },
+    {
+      "id": "T013",
+      "source_id": "0757",
+      "guard_accepted": true,
+      "uncertain": false,
+      "pero": {
+        "reference": "s a r le prince henri n a pas fait annoncer officiellement son arrivée dans le grand duché nous croyons ce pendant savoir que le prince et la princesse arriveront dans la journée de demain ll aa rr descenderont à walferdange",
+        "hypothesis": "s a r le prince henri n a pas fait annoncer officiellement son arrivée dans le grand duché nous croyons ce pendant savoir que le prince et la princesse arriveront dans la journée de demain ll aa rr descenderont à walferdange",
+        "hits": 224,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 224,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_raw": {
+        "reference": "s a r le prince henri n a pas fait annoncer officiellement son arrivée dans le grand duché nous croyons ce pendant savoir que le prince et la princesse arriveront dans la journée de demain ll aa rr descenderont à walferdange",
+        "hypothesis": "s a r le prince henri n a pas fait annoncer officiellement son arrivée dans le grand duché nous croyons ce pendant savoir que le prince et la princesse arriveront dans la journée de demain ll aa rr descenderont à walferdange",
+        "hits": 224,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 224,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_guarded": {
+        "reference": "s a r le prince henri n a pas fait annoncer officiellement son arrivée dans le grand duché nous croyons ce pendant savoir que le prince et la princesse arriveront dans la journée de demain ll aa rr descenderont à walferdange",
+        "hypothesis": "s a r le prince henri n a pas fait annoncer officiellement son arrivée dans le grand duché nous croyons ce pendant savoir que le prince et la princesse arriveront dans la journée de demain ll aa rr descenderont à walferdange",
+        "hits": 224,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 224,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_guarded_abstain": {
+        "reference": "s a r le prince henri n a pas fait annoncer officiellement son arrivée dans le grand duché nous croyons ce pendant savoir que le prince et la princesse arriveront dans la journée de demain ll aa rr descenderont à walferdange",
+        "hypothesis": "s a r le prince henri n a pas fait annoncer officiellement son arrivée dans le grand duché nous croyons ce pendant savoir que le prince et la princesse arriveront dans la journée de demain ll aa rr descenderont à walferdange",
+        "hits": 224,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 224,
+        "cmer": 0.0,
+        "exact": true
+      }
+    },
+    {
+      "id": "T014",
+      "source_id": "0231",
+      "guard_accepted": true,
+      "uncertain": false,
+      "pero": {
+        "reference": "köln 10 febr in gestriger sitzung des abgeordnetenhauses antwortete der cultus minister auf die interpellation wegen errich tung einer juristischen facultät an der akademie zu münster dass die staatsregierung eine solche nicht beabsichtige da sie nicht nur provincielle sondern mehr noch die gesammt interessen zu berücksichtigen habe präsident grabow eröffnete die discussion über den antrag v hoverbeck und genossen und ertheilt das wort dem referenten herrn v forfenbeck meine herren ich bitte sie dem antrage der abgeordneten frhr v hoverbeck und ge nossen beizustimmen weil die thatsachen son nenklar sind wir stehen vor einer gewaltthat gegen unsere verfassungsmässigen rechte und diese müssen wir durch eine förmliche erklärung als verfassungswidrig bezeichnen wir müssen die vorgeschlagene resolution annehmen weil sie eine pflichterfüllung gegen das volk das wir vertreten und gegen uns selbst ist in der vor jährigen landtagssession hielt der abg twesten als es sich darum handelte ob ein von der re gierung geforderten posten genehmigt werden sollte oder nicht eine rede ebenso der abg frentzel schon im september desselben jahres wurde der abg twesten auf antrag der staats anwaltschaft zur verantwortung über diese rede vorgeladen er erschien lehnte jedoch jede ver antwortliche vernehmung ab er ist hier im hause anwesend und kann die richtigkeit dieser thatsachen bestätigen darauf erhob die staats anwaltschaft anklage gegen denselben wurde jedoch in erster und zweiter instanz auf grund des art 84 der verfassung zurückgewiesen da beschloss das plenum des straf senats des königlichen ober tribunals die zulässigkeit der anklage trotz des art 84 m h diese that sache ist wahr sie wird berichtet von allen öf fentlichen blättern auch von der officiösen pro vincial correspondenz welche im ministerium redigirt wird sie ist wahr denn dem herrn justizminister ist gelegenheit geboten worden sie zu dementiren und das ist nicht geschehen die thatsache ist überall bekannt schon bewegt sie alle schichten der bevölkerung meine her ren wir können am allerwenigsten diese noto rische in ihren folgen schwere thatsache igno riren sehr wahr es ist bei dem beschlusse des obertribunals gleichgültig ob er schriftlich aufge setzt ist oder nicht es ist ferner gleichgültig ob er wie behauptet wird aufgehoben ist oder gar nicht",
+        "hypothesis": "köln 10 febr in gestriger sitzung des abgeordnetenhauses antwortete der cultus minister auf die jnterpellation wegen errichtung einer juristischen facultät an der akademie zu münster dass die staatsregierung eine solche nicht beabsichtige da sie nicht nur provincielle sondern mehr noch die gesammt interessen zu berücksichtigen habe präsident grabow eröffnete die discussion über den antrag v hoverbeck und genossen und ertheilt das wort dem referenten herrn v forkenbeck meine herren ich bitte sie dem antrage der abgeordneten frhr v hoverbeck und ge nossen beizustimmen weil die thatsachen son nenklar sind wir stehen vor einer gewaltthat gegen unsere verfassungsmässigen rechte und diese müssen wir durch eine förmliche erklärung als verfassungswidrig bezeichnen wir müsser die vorgeschlagene resolution annehmen weil sie eine pflicherfüllung gegen das volk das wir vertreten und gegen uns selbst ist in der vor jährigen landtagssession hielt der abg twesten als es sich darum handelte ob ein von der re gierung geforderten posten genehmigt werden sollte oder nicht eine rede ebenso der abg frentzel schon im september desselben jahres wurde der abg twesten auf antrag der staats anwaltschaft zur verantwortung über diese rede vorgeladen er erschien lehnte jedoch jede ver antwortliche vernehmung ab er ist hier im hause anwesend und kann die richtigkeit dieser thatsachen bestätigen darauf erhob die staats anwaltschaft anklage gegen denselben wurde jedoch in erster und zweiter instanz auf grund des art 84 der verfassung zurückgewiesen da beschloss das plenum des straf senats des königlichen ober tribunals die zuläfsigkeit der anklage trotz des art 84 m h diese that sache ist wahr sie wird berichtet von allen öf fentlichen blättern auch von der officiösen pro vincial correspondenz welche im ministerium redigirt wird sie ist wahr denn dem herrn justizminister ist gelegenheit geboten worden sie zu dementiren und das ist nicht geschehen die thatsache ist überall bekannt schon bewegt sie alle schichten der bevölkerung meine her ren wir können am allerwenigsten diese noto rische in ihren folgen schwere thatsache igno riren sehr wahr es ist bei dem beschlusse des obertribunals gleichgültig ob er schriftlich aufge setzt ist oder nicht es ist ferner gleichgültig ob er wie behauptet wird aufgehoben ist oder gar nicht",
+        "hits": 2326,
+        "substitutions": 4,
+        "deletions": 2,
+        "insertions": 0,
+        "errors": 6,
+        "denominator": 2332,
+        "cmer": 0.002572898799313894,
+        "exact": false
+      },
+      "luna_raw": {
+        "reference": "köln 10 febr in gestriger sitzung des abgeordnetenhauses antwortete der cultus minister auf die interpellation wegen errich tung einer juristischen facultät an der akademie zu münster dass die staatsregierung eine solche nicht beabsichtige da sie nicht nur provincielle sondern mehr noch die gesammt interessen zu berücksichtigen habe präsident grabow eröffnete die discussion über den antrag v hoverbeck und genossen und ertheilt das wort dem referenten herrn v forfenbeck meine herren ich bitte sie dem antrage der abgeordneten frhr v hoverbeck und ge nossen beizustimmen weil die thatsachen son nenklar sind wir stehen vor einer gewaltthat gegen unsere verfassungsmässigen rechte und diese müssen wir durch eine förmliche erklärung als verfassungswidrig bezeichnen wir müssen die vorgeschlagene resolution annehmen weil sie eine pflichterfüllung gegen das volk das wir vertreten und gegen uns selbst ist in der vor jährigen landtagssession hielt der abg twesten als es sich darum handelte ob ein von der re gierung geforderten posten genehmigt werden sollte oder nicht eine rede ebenso der abg frentzel schon im september desselben jahres wurde der abg twesten auf antrag der staats anwaltschaft zur verantwortung über diese rede vorgeladen er erschien lehnte jedoch jede ver antwortliche vernehmung ab er ist hier im hause anwesend und kann die richtigkeit dieser thatsachen bestätigen darauf erhob die staats anwaltschaft anklage gegen denselben wurde jedoch in erster und zweiter instanz auf grund des art 84 der verfassung zurückgewiesen da beschloss das plenum des straf senats des königlichen ober tribunals die zulässigkeit der anklage trotz des art 84 m h diese that sache ist wahr sie wird berichtet von allen öf fentlichen blättern auch von der officiösen pro vincial correspondenz welche im ministerium redigirt wird sie ist wahr denn dem herrn justizminister ist gelegenheit geboten worden sie zu dementiren und das ist nicht geschehen die thatsache ist überall bekannt schon bewegt sie alle schichten der bevölkerung meine her ren wir können am allerwenigsten diese noto rische in ihren folgen schwere thatsache igno riren sehr wahr es ist bei dem beschlusse des obertribunals gleichgültig ob er schriftlich aufge setzt ist oder nicht es ist ferner gleichgültig ob er wie behauptet wird aufgehoben ist oder gar nicht",
+        "hypothesis": "köln 10 febr in gestriger sitzung des abgeordnetenhauses antwortete der cultus minister auf die jnterpellation wegen errichtung einer juristischen facultät an der akademie zu münster dass die staatsregierung eine solche nicht beabsichtige da sie nicht nur provincielle sondern mehr noch die gesammt interessen zu berücksichtigen habe präsident grabow eröffnete die discussion über den antrag v hoverbeck und genossen und ertheilt das wort dem referenten herrn v forkenbeck meine herren ich bitte sie dem antrage der abgeordneten frhr v hoverbeck und ge nossen beizustimmen weil die thatsachen son nenklar sind wir stehen vor einer gewaltthat gegen unsere verfassungsmässigen rechte und diese müssen wir durch eine förmliche erklärung als verfassungswidrig bezeichnen wir müssen die vorgeschlagene resolution annehmen weil sie eine pflichterfüllung gegen das volk das wir vertreten und gegen uns selbst ist in der vor jährigen landtagssession hielt der abg twesten als es sich darum handelte ob ein von der re gierung geforderten posten genehmigt werden sollte oder nicht eine rede ebenso der abg frentzel schon im september desselben jahres wurde der abg twesten auf antrag der staats anwaltschaft zur verantwortung über diese rede vorgeladen er erschien lehnte jedoch jede ver antwortliche vernehmung ab er ist hier im hause anwesend und kann die richtigkeit dieser thatsachen bestätigen darauf erhob die staats anwaltschaft anklage gegen denselben wurde jedoch in erster und zweiter instanz auf grund des art 84 der verfassung zurückgewiesen da beschloss das plenum des straf senats des königlichen ober tribunals die zuläfsigkeit der anklage trotz des art 84 m h diese that sache ist wahr sie wird berichtet von allen öf fentlichen blättern auch von der officiösen pro vincial correspondenz welche im ministerium redigirt wird sie ist wahr denn dem herrn justizminister ist gelegenheit geboten worden sie zu dementiren und das ist nicht geschehen die thatsache ist überall bekannt schon bewegt sie alle schichten der bevölkerung meine her ren wir können am allerwenigsten diese noto rische in ihren folgen schwere thatsache igno riren sehr wahr es ist bei dem beschlusse des obertribunals gleichgültig ob er schriftlich aufge setzt ist oder nicht es ist ferner gleichgültig ob er wie behauptet wird aufgehoben ist oder gar nicht",
+        "hits": 2328,
+        "substitutions": 3,
+        "deletions": 1,
+        "insertions": 0,
+        "errors": 4,
+        "denominator": 2332,
+        "cmer": 0.0017152658662092624,
+        "exact": false
+      },
+      "luna_guarded": {
+        "reference": "köln 10 febr in gestriger sitzung des abgeordnetenhauses antwortete der cultus minister auf die interpellation wegen errich tung einer juristischen facultät an der akademie zu münster dass die staatsregierung eine solche nicht beabsichtige da sie nicht nur provincielle sondern mehr noch die gesammt interessen zu berücksichtigen habe präsident grabow eröffnete die discussion über den antrag v hoverbeck und genossen und ertheilt das wort dem referenten herrn v forfenbeck meine herren ich bitte sie dem antrage der abgeordneten frhr v hoverbeck und ge nossen beizustimmen weil die thatsachen son nenklar sind wir stehen vor einer gewaltthat gegen unsere verfassungsmässigen rechte und diese müssen wir durch eine förmliche erklärung als verfassungswidrig bezeichnen wir müssen die vorgeschlagene resolution annehmen weil sie eine pflichterfüllung gegen das volk das wir vertreten und gegen uns selbst ist in der vor jährigen landtagssession hielt der abg twesten als es sich darum handelte ob ein von der re gierung geforderten posten genehmigt werden sollte oder nicht eine rede ebenso der abg frentzel schon im september desselben jahres wurde der abg twesten auf antrag der staats anwaltschaft zur verantwortung über diese rede vorgeladen er erschien lehnte jedoch jede ver antwortliche vernehmung ab er ist hier im hause anwesend und kann die richtigkeit dieser thatsachen bestätigen darauf erhob die staats anwaltschaft anklage gegen denselben wurde jedoch in erster und zweiter instanz auf grund des art 84 der verfassung zurückgewiesen da beschloss das plenum des straf senats des königlichen ober tribunals die zulässigkeit der anklage trotz des art 84 m h diese that sache ist wahr sie wird berichtet von allen öf fentlichen blättern auch von der officiösen pro vincial correspondenz welche im ministerium redigirt wird sie ist wahr denn dem herrn justizminister ist gelegenheit geboten worden sie zu dementiren und das ist nicht geschehen die thatsache ist überall bekannt schon bewegt sie alle schichten der bevölkerung meine her ren wir können am allerwenigsten diese noto rische in ihren folgen schwere thatsache igno riren sehr wahr es ist bei dem beschlusse des obertribunals gleichgültig ob er schriftlich aufge setzt ist oder nicht es ist ferner gleichgültig ob er wie behauptet wird aufgehoben ist oder gar nicht",
+        "hypothesis": "köln 10 febr in gestriger sitzung des abgeordnetenhauses antwortete der cultus minister auf die jnterpellation wegen errichtung einer juristischen facultät an der akademie zu münster dass die staatsregierung eine solche nicht beabsichtige da sie nicht nur provincielle sondern mehr noch die gesammt interessen zu berücksichtigen habe präsident grabow eröffnete die discussion über den antrag v hoverbeck und genossen und ertheilt das wort dem referenten herrn v forkenbeck meine herren ich bitte sie dem antrage der abgeordneten frhr v hoverbeck und ge nossen beizustimmen weil die thatsachen son nenklar sind wir stehen vor einer gewaltthat gegen unsere verfassungsmässigen rechte und diese müssen wir durch eine förmliche erklärung als verfassungswidrig bezeichnen wir müssen die vorgeschlagene resolution annehmen weil sie eine pflichterfüllung gegen das volk das wir vertreten und gegen uns selbst ist in der vor jährigen landtagssession hielt der abg twesten als es sich darum handelte ob ein von der re gierung geforderten posten genehmigt werden sollte oder nicht eine rede ebenso der abg frentzel schon im september desselben jahres wurde der abg twesten auf antrag der staats anwaltschaft zur verantwortung über diese rede vorgeladen er erschien lehnte jedoch jede ver antwortliche vernehmung ab er ist hier im hause anwesend und kann die richtigkeit dieser thatsachen bestätigen darauf erhob die staats anwaltschaft anklage gegen denselben wurde jedoch in erster und zweiter instanz auf grund des art 84 der verfassung zurückgewiesen da beschloss das plenum des straf senats des königlichen ober tribunals die zuläfsigkeit der anklage trotz des art 84 m h diese that sache ist wahr sie wird berichtet von allen öf fentlichen blättern auch von der officiösen pro vincial correspondenz welche im ministerium redigirt wird sie ist wahr denn dem herrn justizminister ist gelegenheit geboten worden sie zu dementiren und das ist nicht geschehen die thatsache ist überall bekannt schon bewegt sie alle schichten der bevölkerung meine her ren wir können am allerwenigsten diese noto rische in ihren folgen schwere thatsache igno riren sehr wahr es ist bei dem beschlusse des obertribunals gleichgültig ob er schriftlich aufge setzt ist oder nicht es ist ferner gleichgültig ob er wie behauptet wird aufgehoben ist oder gar nicht",
+        "hits": 2328,
+        "substitutions": 3,
+        "deletions": 1,
+        "insertions": 0,
+        "errors": 4,
+        "denominator": 2332,
+        "cmer": 0.0017152658662092624,
+        "exact": false
+      },
+      "luna_guarded_abstain": {
+        "reference": "köln 10 febr in gestriger sitzung des abgeordnetenhauses antwortete der cultus minister auf die interpellation wegen errich tung einer juristischen facultät an der akademie zu münster dass die staatsregierung eine solche nicht beabsichtige da sie nicht nur provincielle sondern mehr noch die gesammt interessen zu berücksichtigen habe präsident grabow eröffnete die discussion über den antrag v hoverbeck und genossen und ertheilt das wort dem referenten herrn v forfenbeck meine herren ich bitte sie dem antrage der abgeordneten frhr v hoverbeck und ge nossen beizustimmen weil die thatsachen son nenklar sind wir stehen vor einer gewaltthat gegen unsere verfassungsmässigen rechte und diese müssen wir durch eine förmliche erklärung als verfassungswidrig bezeichnen wir müssen die vorgeschlagene resolution annehmen weil sie eine pflichterfüllung gegen das volk das wir vertreten und gegen uns selbst ist in der vor jährigen landtagssession hielt der abg twesten als es sich darum handelte ob ein von der re gierung geforderten posten genehmigt werden sollte oder nicht eine rede ebenso der abg frentzel schon im september desselben jahres wurde der abg twesten auf antrag der staats anwaltschaft zur verantwortung über diese rede vorgeladen er erschien lehnte jedoch jede ver antwortliche vernehmung ab er ist hier im hause anwesend und kann die richtigkeit dieser thatsachen bestätigen darauf erhob die staats anwaltschaft anklage gegen denselben wurde jedoch in erster und zweiter instanz auf grund des art 84 der verfassung zurückgewiesen da beschloss das plenum des straf senats des königlichen ober tribunals die zulässigkeit der anklage trotz des art 84 m h diese that sache ist wahr sie wird berichtet von allen öf fentlichen blättern auch von der officiösen pro vincial correspondenz welche im ministerium redigirt wird sie ist wahr denn dem herrn justizminister ist gelegenheit geboten worden sie zu dementiren und das ist nicht geschehen die thatsache ist überall bekannt schon bewegt sie alle schichten der bevölkerung meine her ren wir können am allerwenigsten diese noto rische in ihren folgen schwere thatsache igno riren sehr wahr es ist bei dem beschlusse des obertribunals gleichgültig ob er schriftlich aufge setzt ist oder nicht es ist ferner gleichgültig ob er wie behauptet wird aufgehoben ist oder gar nicht",
+        "hypothesis": "köln 10 febr in gestriger sitzung des abgeordnetenhauses antwortete der cultus minister auf die jnterpellation wegen errichtung einer juristischen facultät an der akademie zu münster dass die staatsregierung eine solche nicht beabsichtige da sie nicht nur provincielle sondern mehr noch die gesammt interessen zu berücksichtigen habe präsident grabow eröffnete die discussion über den antrag v hoverbeck und genossen und ertheilt das wort dem referenten herrn v forkenbeck meine herren ich bitte sie dem antrage der abgeordneten frhr v hoverbeck und ge nossen beizustimmen weil die thatsachen son nenklar sind wir stehen vor einer gewaltthat gegen unsere verfassungsmässigen rechte und diese müssen wir durch eine förmliche erklärung als verfassungswidrig bezeichnen wir müssen die vorgeschlagene resolution annehmen weil sie eine pflichterfüllung gegen das volk das wir vertreten und gegen uns selbst ist in der vor jährigen landtagssession hielt der abg twesten als es sich darum handelte ob ein von der re gierung geforderten posten genehmigt werden sollte oder nicht eine rede ebenso der abg frentzel schon im september desselben jahres wurde der abg twesten auf antrag der staats anwaltschaft zur verantwortung über diese rede vorgeladen er erschien lehnte jedoch jede ver antwortliche vernehmung ab er ist hier im hause anwesend und kann die richtigkeit dieser thatsachen bestätigen darauf erhob die staats anwaltschaft anklage gegen denselben wurde jedoch in erster und zweiter instanz auf grund des art 84 der verfassung zurückgewiesen da beschloss das plenum des straf senats des königlichen ober tribunals die zuläfsigkeit der anklage trotz des art 84 m h diese that sache ist wahr sie wird berichtet von allen öf fentlichen blättern auch von der officiösen pro vincial correspondenz welche im ministerium redigirt wird sie ist wahr denn dem herrn justizminister ist gelegenheit geboten worden sie zu dementiren und das ist nicht geschehen die thatsache ist überall bekannt schon bewegt sie alle schichten der bevölkerung meine her ren wir können am allerwenigsten diese noto rische in ihren folgen schwere thatsache igno riren sehr wahr es ist bei dem beschlusse des obertribunals gleichgültig ob er schriftlich aufge setzt ist oder nicht es ist ferner gleichgültig ob er wie behauptet wird aufgehoben ist oder gar nicht",
+        "hits": 2328,
+        "substitutions": 3,
+        "deletions": 1,
+        "insertions": 0,
+        "errors": 4,
+        "denominator": 2332,
+        "cmer": 0.0017152658662092624,
+        "exact": false
+      }
+    },
+    {
+      "id": "T015",
+      "source_id": "0887",
+      "guard_accepted": true,
+      "uncertain": false,
+      "pero": {
+        "reference": "hôtes de m et mme amersfoordt au des sert m le ministre de france a porté la santé des maîtres de la maison et les a remerciés de l accueil fait par eux à ses jeunes compatriotes les paroles prononcées par m target ont été couvertes d applau dissements après le déjeuner visite à la laiterie si intelligemment administrée par mme amersfoordt aux étables aux machi nes d intérieur puis les voitures s attèlent et prennent la file sur la chaussée du ca nal circulaire qui reçoit les eaux du lac il s agit d aller voir l installation des grandes machines qui après avoir épuisé le lac l empêchent aujourd hui de se remplir de nouveau",
+        "hypothesis": "hôtes de m et mme amersfoordt au des sert m le ministre de france a porté la santé des maîtres de la maison et les a remerciés de l accueil fait par eux à ses jeunes compatriotes les paroles prononcées par m target ont été couvertes d applau dissements après le déjeuner visite à la laiterie si intelligemment administrée par mme amersfoordt aux étables aux machi nes d intérieur puis les voitures s attèlent et prennent la file sur la chaussée du ca nal circulaire qui reçoit les eaux du lac il s agit d aller voir l installation des grandes machines qui après avoir épuisé le lac l empêchent aujourd hui de se remplir de nouvean",
+        "hits": 629,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 1,
+        "denominator": 630,
+        "cmer": 0.0015873015873015873,
+        "exact": false
+      },
+      "luna_raw": {
+        "reference": "hôtes de m et mme amersfoordt au des sert m le ministre de france a porté la santé des maîtres de la maison et les a remerciés de l accueil fait par eux à ses jeunes compatriotes les paroles prononcées par m target ont été couvertes d applau dissements après le déjeuner visite à la laiterie si intelligemment administrée par mme amersfoordt aux étables aux machi nes d intérieur puis les voitures s attèlent et prennent la file sur la chaussée du ca nal circulaire qui reçoit les eaux du lac il s agit d aller voir l installation des grandes machines qui après avoir épuisé le lac l empêchent aujourd hui de se remplir de nouveau",
+        "hypothesis": "hôtes de m et mme amersfoordt au des sert m le ministre de france a porté la santé des maîtres de la maison et les a remerciés de l accueil fait par eux à ses jeunes compatriotes les paroles prononcées par m target ont été couvertes d applau dissements après le déjeuner visite à la laiterie si intelligemment administrée par mme amersfoordt aux étables aux machi nes d intérieur puis les voitures s attèlent et prennent la file sur la chaussée du ca nal circulaire qui reçoit les eaux du lac il s agit d aller voir l installation des grandes machines qui après avoir épuisé le lac l empêchent aujourd hui de se remplir de nouveau",
+        "hits": 630,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 630,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_guarded": {
+        "reference": "hôtes de m et mme amersfoordt au des sert m le ministre de france a porté la santé des maîtres de la maison et les a remerciés de l accueil fait par eux à ses jeunes compatriotes les paroles prononcées par m target ont été couvertes d applau dissements après le déjeuner visite à la laiterie si intelligemment administrée par mme amersfoordt aux étables aux machi nes d intérieur puis les voitures s attèlent et prennent la file sur la chaussée du ca nal circulaire qui reçoit les eaux du lac il s agit d aller voir l installation des grandes machines qui après avoir épuisé le lac l empêchent aujourd hui de se remplir de nouveau",
+        "hypothesis": "hôtes de m et mme amersfoordt au des sert m le ministre de france a porté la santé des maîtres de la maison et les a remerciés de l accueil fait par eux à ses jeunes compatriotes les paroles prononcées par m target ont été couvertes d applau dissements après le déjeuner visite à la laiterie si intelligemment administrée par mme amersfoordt aux étables aux machi nes d intérieur puis les voitures s attèlent et prennent la file sur la chaussée du ca nal circulaire qui reçoit les eaux du lac il s agit d aller voir l installation des grandes machines qui après avoir épuisé le lac l empêchent aujourd hui de se remplir de nouveau",
+        "hits": 630,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 630,
+        "cmer": 0.0,
+        "exact": true
+      },
+      "luna_guarded_abstain": {
+        "reference": "hôtes de m et mme amersfoordt au des sert m le ministre de france a porté la santé des maîtres de la maison et les a remerciés de l accueil fait par eux à ses jeunes compatriotes les paroles prononcées par m target ont été couvertes d applau dissements après le déjeuner visite à la laiterie si intelligemment administrée par mme amersfoordt aux étables aux machi nes d intérieur puis les voitures s attèlent et prennent la file sur la chaussée du ca nal circulaire qui reçoit les eaux du lac il s agit d aller voir l installation des grandes machines qui après avoir épuisé le lac l empêchent aujourd hui de se remplir de nouveau",
+        "hypothesis": "hôtes de m et mme amersfoordt au des sert m le ministre de france a porté la santé des maîtres de la maison et les a remerciés de l accueil fait par eux à ses jeunes compatriotes les paroles prononcées par m target ont été couvertes d applau dissements après le déjeuner visite à la laiterie si intelligemment administrée par mme amersfoordt aux étables aux machi nes d intérieur puis les voitures s attèlent et prennent la file sur la chaussée du ca nal circulaire qui reçoit les eaux du lac il s agit d aller voir l installation des grandes machines qui après avoir épuisé le lac l empêchent aujourd hui de se remplir de nouveau",
+        "hits": 630,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 0,
+        "denominator": 630,
+        "cmer": 0.0,
+        "exact": true
+      }
+    },
+    {
+      "id": "T016",
+      "source_id": "0164",
+      "guard_accepted": true,
+      "uncertain": false,
+      "pero": {
+        "reference": "au moment où la lutte sanglante semble ne plus pouvoir être prévenue voilà les commer çants de marseille signent une pétition au sénat pour demander le maintien de la paix on peut se faire une idée des souffrances et des perturbations qu entraîne la situation ac tuelle en disant qu une des plus honorables et des plus solides maisons du midi de la france n a dû qu à une intervention personelle et toute gracieuse de m fould et à l appui de la banque de pouvoir échapper aux con sequences de la crise et de raffermir sans craindre de nouveaux embarras une situation que personne à coup sûr ne se fut avisée de croire un moment douteuse m le baron de rothschild est en négocia tion dit on avec le gouvernement italien pour acheter ceux des chemins de fer italiens qu il ne possède pas ce qui semble indiquer que l italie ne paraît pas au prince des finances dans un état aussi désespéré qu on le prétend au point de vue des intérêts matériels",
+        "hypothesis": "au moment où la lutte sanglante semble ne plus pouvoir être prévenue voilà les commer çants de marseille signent une pétition au sénat pour demander le maintien de la paix on peut se faire une idée des souffrances et des perturbations qu entraîne la situation ac tuelle en disant qu une des plus honorables et des plus solides maisons du midi de la france n a dû qu à une intervention personelle et toute gracieuse de m fould et à l appui de la banque de pouvoir échapper aux con séquences de la crise et de raffermir sans craindre de nouveaux embarras une situation que personne à coup sûr ne se fut avisée de croire un moment douteuse m le baron de rothschild est en négocia tion dit on avec le gouvernement italien pour acheter ceux des chemins de fer italiens qu il ne possède pas ce qui semble indiquer que l italie ne paraît pas au prince des finances dans un état aussi désespéré qu on le prétend au point de vue des intérêts matériels",
+        "hits": 941,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 0,
+        "errors": 1,
+        "denominator": 942,
+        "cmer": 0.0010615711252653928,
+        "exact": false
+      },
+      "luna_raw": {
+        "reference": "au moment où la lutte sanglante semble ne plus pouvoir être prévenue voilà les commer çants de marseille signent une pétition au sénat pour demander le maintien de la paix on peut se faire une idée des souffrances et des perturbations qu entraîne la situation ac tuelle en disant qu une des plus honorables et des plus solides maisons du midi de la france n a dû qu à une intervention personelle et toute gracieuse de m fould et à l appui de la banque de pouvoir échapper aux con sequences de la crise et de raffermir sans craindre de nouveaux embarras une situation que personne à coup sûr ne se fut avisée de croire un moment douteuse m le baron de rothschild est en négocia tion dit on avec le gouvernement italien pour acheter ceux des chemins de fer italiens qu il ne possède pas ce qui semble indiquer que l italie ne paraît pas au prince des finances dans un état aussi désespéré qu on le prétend au point de vue des intérêts matériels",
+        "hypothesis": "au moment où la lutte sanglante semble ne plus pouvoir être prévenue voilà les commer çants de marseille signent une pétition au sénat pour demander le maintien de la paix on peut se faire une idée des souffrances et des perturbations qu entraîne la situation ac tuelle en disant qu une des plus honorables et des plus solides maisons du midi de la france n a dû qu à une intervention personnelle et toute gracieuse de m fould et à l appui de la banque de pouvoir échapper aux con séquences de la crise et de raffermir sans craindre de nouveaux embarras une situation que personne à coup sûr ne se fut avisée de croire un moment douteuse m le baron de rothschild est en négocia tion dit on avec le gouvernement italien pour acheter ceux des chemins de fer italiens qu il ne possède pas ce qui semble indiquer que l italie ne paraît pas au prince des finances dans un état aussi désespéré qu on le prétend au point de vue des intérêts matériels",
+        "hits": 941,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 1,
+        "errors": 2,
+        "denominator": 943,
+        "cmer": 0.0021208907741251328,
+        "exact": false
+      },
+      "luna_guarded": {
+        "reference": "au moment où la lutte sanglante semble ne plus pouvoir être prévenue voilà les commer çants de marseille signent une pétition au sénat pour demander le maintien de la paix on peut se faire une idée des souffrances et des perturbations qu entraîne la situation ac tuelle en disant qu une des plus honorables et des plus solides maisons du midi de la france n a dû qu à une intervention personelle et toute gracieuse de m fould et à l appui de la banque de pouvoir échapper aux con sequences de la crise et de raffermir sans craindre de nouveaux embarras une situation que personne à coup sûr ne se fut avisée de croire un moment douteuse m le baron de rothschild est en négocia tion dit on avec le gouvernement italien pour acheter ceux des chemins de fer italiens qu il ne possède pas ce qui semble indiquer que l italie ne paraît pas au prince des finances dans un état aussi désespéré qu on le prétend au point de vue des intérêts matériels",
+        "hypothesis": "au moment où la lutte sanglante semble ne plus pouvoir être prévenue voilà les commer çants de marseille signent une pétition au sénat pour demander le maintien de la paix on peut se faire une idée des souffrances et des perturbations qu entraîne la situation ac tuelle en disant qu une des plus honorables et des plus solides maisons du midi de la france n a dû qu à une intervention personnelle et toute gracieuse de m fould et à l appui de la banque de pouvoir échapper aux con séquences de la crise et de raffermir sans craindre de nouveaux embarras une situation que personne à coup sûr ne se fut avisée de croire un moment douteuse m le baron de rothschild est en négocia tion dit on avec le gouvernement italien pour acheter ceux des chemins de fer italiens qu il ne possède pas ce qui semble indiquer que l italie ne paraît pas au prince des finances dans un état aussi désespéré qu on le prétend au point de vue des intérêts matériels",
+        "hits": 941,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 1,
+        "errors": 2,
+        "denominator": 943,
+        "cmer": 0.0021208907741251328,
+        "exact": false
+      },
+      "luna_guarded_abstain": {
+        "reference": "au moment où la lutte sanglante semble ne plus pouvoir être prévenue voilà les commer çants de marseille signent une pétition au sénat pour demander le maintien de la paix on peut se faire une idée des souffrances et des perturbations qu entraîne la situation ac tuelle en disant qu une des plus honorables et des plus solides maisons du midi de la france n a dû qu à une intervention personelle et toute gracieuse de m fould et à l appui de la banque de pouvoir échapper aux con sequences de la crise et de raffermir sans craindre de nouveaux embarras une situation que personne à coup sûr ne se fut avisée de croire un moment douteuse m le baron de rothschild est en négocia tion dit on avec le gouvernement italien pour acheter ceux des chemins de fer italiens qu il ne possède pas ce qui semble indiquer que l italie ne paraît pas au prince des finances dans un état aussi désespéré qu on le prétend au point de vue des intérêts matériels",
+        "hypothesis": "au moment où la lutte sanglante semble ne plus pouvoir être prévenue voilà les commer çants de marseille signent une pétition au sénat pour demander le maintien de la paix on peut se faire une idée des souffrances et des perturbations qu entraîne la situation ac tuelle en disant qu une des plus honorables et des plus solides maisons du midi de la france n a dû qu à une intervention personnelle et toute gracieuse de m fould et à l appui de la banque de pouvoir échapper aux con séquences de la crise et de raffermir sans craindre de nouveaux embarras une situation que personne à coup sûr ne se fut avisée de croire un moment douteuse m le baron de rothschild est en négocia tion dit on avec le gouvernement italien pour acheter ceux des chemins de fer italiens qu il ne possède pas ce qui semble indiquer que l italie ne paraît pas au prince des finances dans un état aussi désespéré qu on le prétend au point de vue des intérêts matériels",
+        "hits": 941,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 1,
+        "errors": 2,
+        "denominator": 943,
+        "cmer": 0.0021208907741251328,
+        "exact": false
+      }
+    }
+  ],
+  "cost": {
+    "new_ocr_vlm_or_detector_forwards": 0,
+    "evaluator_seconds": 51.003561041994544
+  },
+  "reference_unchanged": true,
+  "global_completion": false,
+  "limitations": [
+    "Metric projection on consumed A54; no new independent generalization evidence.",
+    "HIPE normalization is not diplomatic and a zero cMER would not imply exact transcription.",
+    "Probable BnL reference errors remain; agreement is not visual adjudication.",
+    "No geometry, OLR, metadata or retrieval evidence is added."
+  ]
+}

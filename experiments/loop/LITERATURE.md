@@ -1100,3 +1100,17 @@ from retrievable semantic items.
 
 ## A63
 Relecture primaire Inoue2503.23667v1 (HTML méthodes/résultats/discussion), code Claude inflexion.py au head76056c5 et README HIPE scorer/données. Résumés et limites dans PAPER_SUMMARIES.md ; accès arXiv2607.08143 bloqué dans ce tour, aucune prétention de nouvelle lecture complète.
+
+## A64 — scorer HIPE-OCRepair relu au niveau code
+
+Source primaire logicielle lue intégralement le 28 septembre 2026 :
+`hipe-eval/HIPE-OCRepair-scorer`, commit
+`d1e76e447629ea9cf8dead32ae3c44b0d48d77b3`, notamment
+`hipe_ocrepair_scorer/ocrepair_eval.py`, README et `pyproject.toml` (version
+0.9.9). La normalisation, le cMER micro et la préférence macro ont été
+transcrits puis vérifiés sur 64 alignements réels contre jiwer. Apport : une vue
+normalisée comparable au benchmark, séparée des trois vues BBVLM. Limites : le
+scorer est textuel, ne voit ni image, ni boîte, ni ordre, et neutralise des
+différences diplomatiques ; il ne peut certifier ni l'image ni la GT. Aucun
+nouvel article n'a été lu dans A64 : le résumé article par article de
+HIPE-OCRepair-2026 déjà présent dans `PAPER_SUMMARIES.md` n'est pas dupliqué.

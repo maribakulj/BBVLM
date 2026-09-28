@@ -1,0 +1,10 @@
+{
+  "schema": "bbvlm.hipe-alignment-verification-a64/1",
+  "upstream_scorer_revision": "d1e76e447629ea9cf8dead32ae3c44b0d48d77b3",
+  "jiwer_version": "unknown",
+  "comparison_count": 64,
+  "all_counts_match": true,
+  "mismatches": [],
+  "scope": "All four frozen A54 systems over all 16 blocks after exact HIPE normalization",
+  "scientific_gate": false
+}

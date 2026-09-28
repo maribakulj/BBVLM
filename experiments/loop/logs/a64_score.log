@@ -1,0 +1,54 @@
+{
+  "summary": {
+    "pero": {
+      "blocks": 16,
+      "errors": 74,
+      "denominator": 11661,
+      "cmer_micro": 0.00634593945630735,
+      "exact_blocks": 3
+    },
+    "luna_raw": {
+      "blocks": 16,
+      "errors": 35,
+      "denominator": 11653,
+      "cmer_micro": 0.003003518407277096,
+      "exact_blocks": 6,
+      "preference_vs_pero": {
+        "improved": 9,
+        "tied": 5,
+        "degraded": 2,
+        "macro": 0.4375
+      }
+    },
+    "luna_guarded": {
+      "blocks": 16,
+      "errors": 46,
+      "denominator": 11653,
+      "cmer_micro": 0.003947481335278469,
+      "exact_blocks": 6,
+      "preference_vs_pero": {
+        "improved": 7,
+        "tied": 7,
+        "degraded": 2,
+        "macro": 0.3125
+      }
+    },
+    "luna_guarded_abstain": {
+      "blocks": 16,
+      "errors": 46,
+      "denominator": 11653,
+      "cmer_micro": 0.003947481335278469,
+      "exact_blocks": 6,
+      "preference_vs_pero": {
+        "improved": 7,
+        "tied": 7,
+        "degraded": 2,
+        "macro": 0.3125
+      }
+    }
+  },
+  "cost": {
+    "new_ocr_vlm_or_detector_forwards": 0,
+    "evaluator_seconds": 51.003561041994544
+  }
+}

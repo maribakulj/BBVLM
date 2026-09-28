@@ -210,6 +210,17 @@ sur trois petits crops YOLO sans référence fournie. Voir le rapport
 Le choix de blocs courts n'est pas représentatif ; le routage par CER est un
 diagnostic avec référence, pas une politique de production.
 
+## A64 : CER normalisé HIPE, sans confusion avec le diplomatique
+
+La projection figée des seize blocs A54 donne un micro-cMER HIPE de 0,6346 %
+pour PERO, 0,3004 % pour Luna brut et 0,3947 % pour la sortie gardée. Luna brut
+améliore 9 blocs, en égale 5 et en dégrade 2 ; 6/16 blocs sont exacts après la
+normalisation officielle. Les 64 comptes H/S/D/I ont été vérifiés contre
+jiwer. Cela répond à l'effet des tirets/ponctuation sans les effacer du texte
+diplomatique : cette quatrième vue reste séparée de `strict_nfc_diplomatic`,
+`search_v1` et `lexical_alnum`. Le résultat n'est pas 0 %, A54 est consommé et
+les deux régressions exigent une adjudication image indépendante.
+
 Résultat A13 : 8/1 049 éditions pour Luna (0,7626 %), puis 7/1 049 pour Sol
 (0,6673 %). Les différences sont ponctuation/espaces, pas des mots ; plusieurs
 signes visibles manquent dans le XML. L'audit image de l'agent est sauvegardé

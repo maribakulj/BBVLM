@@ -84,6 +84,41 @@
       "ended_at": 1790598397.2806325
     },
     "a64_prepare": {
+      "status": "completed",
+      "started_at": 1790599319.699805,
+      "fingerprint": "deea85645dd62e94324b17c44422205e1ae8465d3aaa834ed9c38d6dce94f4a6",
+      "actor": "root-active",
+      "token": "6b1e0db8c4fa4b46b5f5d8a6ab936310",
+      "outputs": {
+        "experiments/loop/next-a64/PROTOCOL.md": "ae5322158f64e3a8e769d3e9551368d6f5f4bb5bb30bb5e38ef522ca2555fb2c"
+      },
+      "ended_at": 1790599706.7795732
+    },
+    "a64_verify": {
+      "status": "completed",
+      "started_at": 1790599711.4429169,
+      "fingerprint": "468028550cf600b616fde846486722e6cace02ff2701ccb819299e1a83d685ac",
+      "pid": 5,
+      "log": "experiments/loop/logs/a64_verify.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/hipe-projection-a64/implementation-verification.json": "4816fcb54b631496dde54a5021c692f4062666145c01c29a0baab763df08feee"
+      },
+      "ended_at": 1790599764.4919884
+    },
+    "a64_score": {
+      "status": "completed",
+      "started_at": 1790599764.493402,
+      "fingerprint": "747393316b5cc2f508d2e32edafa019294327e2f8563d36e3d0c15aea5349e2c",
+      "pid": 6,
+      "log": "experiments/loop/logs/a64_score.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/hipe-projection-a64/report.json": "94f5f9ce73ca0eec4e72d362264519559a17b6452fa0ed6185253eb7a3308fbc"
+      },
+      "ended_at": 1790599815.5592117
+    },
+    "a65_prepare": {
       "status": "pending"
     }
   }

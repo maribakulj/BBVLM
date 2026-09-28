@@ -169,6 +169,72 @@
         "experiments/loop/next-a64/PROTOCOL.md"
       ],
       "instructions": "Before new hypothesis: inspect current Claude branch head, protocols/results/code. Stop retuning consumed0455. Prepare an independent diverse validation for an image-observable risk router OR advance distinct geometry/OLR track while human adjudication is unavailable. Consider official HIPE scorer normalization (spaces retained, MER denominator) with existing source audits; do not replace current metrics. Read primary sources and append article summaries. Add concrete command/reader/scoring jobs; execute useful ready work immediately, commit/push and checkpoint after each completed experiment. All scientific gates remain false."
+    },
+    {
+      "id": "a64_verify",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a64_prepare"
+      ],
+      "inputs": [
+        "scripts/verify_hipe_alignment_a64.py",
+        "src/bbvlm/hipe_metrics.py",
+        "scripts/evaluate_bnl_vlm_a54.py",
+        "experiments/loop/bnl-independent-a54/vlm-input/request.json",
+        "experiments/loop/bnl-independent-a54/vlm-input/private-map.json",
+        "experiments/loop/bnl-independent-a54/luna-response.json"
+      ],
+      "outputs": [
+        "experiments/loop/hipe-projection-a64/implementation-verification.json"
+      ],
+      "argv": [
+        "{python}",
+        "scripts/verify_hipe_alignment_a64.py"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "a64_score",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a64_verify"
+      ],
+      "inputs": [
+        "scripts/evaluate_hipe_projection_a64.py",
+        "src/bbvlm/hipe_metrics.py",
+        "scripts/evaluate_bnl_vlm_a54.py",
+        "experiments/loop/hipe-projection-a64/implementation-verification.json",
+        "experiments/loop/bnl-independent-a54/vlm-input/request.json",
+        "experiments/loop/bnl-independent-a54/vlm-input/private-map.json",
+        "experiments/loop/bnl-independent-a54/luna-response.json",
+        "experiments/loop/bnl-independent-a54/vlm-report.json"
+      ],
+      "outputs": [
+        "experiments/loop/hipe-projection-a64/report.json"
+      ],
+      "argv": [
+        "{python}",
+        "scripts/evaluate_hipe_projection_a64.py"
+      ],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "a65_prepare",
+      "kind": "external",
+      "resource": "orchestrator",
+      "deps": [
+        "a64_score"
+      ],
+      "inputs": [
+        "experiments/loop/hipe-projection-a64/report.json",
+        "experiments/loop/next-a64/RESULTS.md"
+      ],
+      "outputs": [
+        "experiments/loop/next-a65/PROTOCOL.md"
+      ],
+      "instructions": "Inspect the current Claude branch before choosing a new hypothesis. Treat A64 as a consumed metric projection only. Advance the distinct predicted-geometry/OLR track with a frozen diverse ground-truth protocol, or a genuinely independent OCR validation if reliable GT is found. Read and separately summarize every new primary source or arXiv paper. Do not retune 0455, do not rewrite reference XML, and do not infer unobserved VLM outputs. Add executable queue jobs, run useful ready work immediately, commit/push and checkpoint after the completed experiment."
     }
   ]
 }

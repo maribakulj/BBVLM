@@ -11,3 +11,5 @@ scipy
 huggingface_hub==2.0.0
 pyarrow==22.0.0
 langid==1.1.6
+# Only needed to verify the dependency-free HIPE MER backtrace in development.
+jiwer>=3.0.0,<5

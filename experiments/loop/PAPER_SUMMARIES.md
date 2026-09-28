@@ -184,3 +184,20 @@ Relecture du dépôt de données et du README du scorer, pas nouveau télécharg
 Sources actuelles : https://github.com/hipe-eval/HIPE-OCRepair-2026-data et https://github.com/hipe-eval/HIPE-OCRepair-scorer . Version données v0.9.5 annoncée le20 avril2026 avec corrections GT après soumission. Le scorer calcule MER avec insertions au dénominateur ; sa normalisation conserve les accents, remplace ponctuation par espaces et compacte les blancs. **Ce n'est pas notre lexical_alnum**, qui supprime les séparateurs : ne pas appeler les scores interchangeables. Score de préférence par item pour rendre les régressions visibles. Pertinence : benchmark externe OCR normalisé, pas boîtes/OLR ni preuve de GT parfaite. Documentation relue, pas code Python du scorer exécuté dans A63.
 
 Autres pistes repérées par recherche mais non lues intégralement : Beyene/Dancy2603.25761, comparaison2608.24976, cadre2510.06743. Aucun résultat ni choix d'implémentation attribué à leur seul extrait de recherche.
+
+## A64 — lecture primaire logicielle, sans nouveau papier
+
+### HIPE-OCRepair scorer 0.9.9 — code au commit d1e76e4
+
+- **Lu :** code complet `ocrepair_eval.py`, README et métadonnées de paquet le
+  28 septembre 2026 ; ce n'est pas une nouvelle lecture du papier.
+- **Méthode :** normalisation ordonnée, alignement caractère jiwer, cMER micro
+  et préférence +1/0/−1 par item contre le baseline.
+- **Avancée pour BBVLM :** implémentation reproductible et vérifiée sur 64
+  couples réels ; révèle 0,3004 % pour Luna brut contre 0,6346 % pour PERO sur
+  A54, sans confondre ce chiffre avec `lexical_alnum`.
+- **Limites :** aucune image, géométrie ou adjudication ; casse et ponctuation
+  sont neutralisées ; un cMER nul ne serait pas une transcription diplomatique
+  parfaite. A54 est consommé et ne redevient pas indépendant.
+- **Code :** <https://github.com/hipe-eval/HIPE-OCRepair-scorer> ; révision
+  exacte inscrite dans le protocole et le rapport A64.
