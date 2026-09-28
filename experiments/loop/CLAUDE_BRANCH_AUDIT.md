@@ -153,3 +153,6 @@ Contrôle direct des refs avant le diagnostic : Claude inchangé à
 `60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Aucun agent ni calcul antérieur actif.
 La réservation A77 existante a été reprise et acquittée, jamais dupliquée.
 Aucun merge, import concurrent ou écriture main/master.
+
+## A78 — 2026-09-28
+Claude recontrôlé inchangé : `76056c5c1957e0de4232f0aef1f6cbc7f2893402`. Parent Codex `2cd06bd06fb038ec35a1fd62da7daa651fab9da9`. Aucun merge ni écriture main/master.

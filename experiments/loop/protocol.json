@@ -1070,5 +1070,11 @@
     "test_pages_opened": 0,
     "new_model_forwards": 0,
     "global_completion": false
+  },
+  "horizontal_merge_a78": {
+    "status": "rejected_consumed_development",
+    "report": "next-a78/report.json",
+    "net_true50_gain": -360,
+    "global_completion": false
   }
 }

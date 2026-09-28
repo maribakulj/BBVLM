@@ -1313,6 +1313,44 @@
         "experiments/loop/next-a78/PROTOCOL.md"
       ],
       "instructions": "Inspect Claude before hypothesis. Freeze bounded image-only horizontal merging on consumed A76; keep no-reference inputs and measure regression, then new independent freeze. Commit/push/checkpoint after experiment."
+    },
+    {
+      "id": "a78_merge",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a78_prepare"
+      ],
+      "inputs": [
+        "scripts/merge_horizontal_components_a78.py",
+        "experiments/loop/next-a78/PROTOCOL.md",
+        "experiments/loop/next-a76/candidates.json"
+      ],
+      "outputs": [
+        "experiments/loop/next-a78/candidates.json",
+        "experiments/loop/next-a78/report.json"
+      ],
+      "argv": [
+        "/workspace/scratch/cecc4cd83a9f/a72tf-venv/bin/python",
+        "scripts/merge_horizontal_components_a78.py"
+      ],
+      "timeout_seconds": 300
+    },
+    {
+      "id": "a79_prepare",
+      "kind": "external",
+      "resource": "orchestrator",
+      "deps": [
+        "a78_merge"
+      ],
+      "inputs": [
+        "experiments/loop/next-a78/report.json",
+        "experiments/loop/next-a78/RESULTS.md"
+      ],
+      "outputs": [
+        "experiments/loop/next-a79/PROTOCOL.md"
+      ],
+      "instructions": "Inspect Claude. Read DocLayout-YOLO primary paper/code. Test real predicted region ownership before unchanged A78 merge, with real cost, no references in prediction. Consumed data only; then new freeze."
     }
   ]
 }

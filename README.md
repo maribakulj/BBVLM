@@ -210,3 +210,7 @@ Un transfert A76 inchangé devra imposer aussi une précision minimale par page.
 
 A77 consumed pixel attribution: old rectangle multi-contact841 versus197 substantial pixel multi-contacts; neither is certified fusion.1924 annotations overlap on14.69% predicted pixels; visual witness confirms horizontal fragments on spaced words. Restricted oracle merge still recalls only76.83% on1924.0.87s CPU, zero inference/Test. A78: frozen image-only bounded horizontal merger on consumed data, penalize new merges, then new holdout; all gates false.
 Voir experiments/loop/next-a77/RESULTS.md. A76 reste rejeté (commit 7aa5224).
+
+## A78 — regroupement horizontal rejeté
+
+A78 rejects horizontal component merging without predicted regions:360 net IoU50 matches lost,3/4 pages regress; inspected chain crosses4 columns.0.975s CPU/no inference/Test. Next A79 use real YOLO region ownership to constrain unchanged linker, consumed A76 development only; new freeze needed before promotion.

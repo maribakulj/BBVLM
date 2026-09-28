@@ -692,6 +692,30 @@
         "experiments/loop/next-a77/witnesses.json": "613b71402a887fc6963500e8a8fb8f9c7e5cddcc787b1140c23f102021510657"
       },
       "ended_at": 1790611479.5228086
+    },
+    "a78_prepare": {
+      "status": "completed",
+      "started_at": 1790611746.7361267,
+      "fingerprint": "1c4e3db63f3471e1b191728a4898ca3062742888996b312cc49497fdf768ab82",
+      "actor": "codex-root",
+      "token": "0abb7403204c43c9b7e65528183d3ed5",
+      "outputs": {
+        "experiments/loop/next-a78/PROTOCOL.md": "5f6aa721bac95235c9b97e8a38af662f3b48adcf80be66d0a95ee6226ce9fdb8"
+      },
+      "ended_at": 1790611808.091073
+    },
+    "a78_merge": {
+      "status": "completed",
+      "started_at": 1790611808.465467,
+      "fingerprint": "8cdccdfe28170385692f8b9999b23a70c38e5755af175d66e268f1f7b802bbaa",
+      "pid": 11,
+      "log": "experiments/loop/logs/a78_merge.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a78/candidates.json": "377ca59cdb555326226e8c606d87e31e37067c5f6315d3fb9089b8ccc16cab2f",
+        "experiments/loop/next-a78/report.json": "9060d96927e50acb00899719aa3d148864974c5113034b7288d8473376c0e433"
+      },
+      "ended_at": 1790611809.9863892
     }
   },
   "a66_reference_append_recovery": {
