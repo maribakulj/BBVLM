@@ -544,3 +544,7 @@ Checkpoint bundling previously regenerated a legacy-only state, dropping A54-A56
 ## A58 terminé
 Voir chronicling-a58/RESULTS.md : 801 XML audités, réserve100 pages ; aucun Word, ordre automatique, défaut de nom train. Aucun critère global validé.
 
+
+## A59 terminé
+Sol natif aveugle rejeté : lexical24→57 éditions, deux témoins préservés ; référence0345 comporte quatre désaccords soutenus par l’image. Prochain test : bandes natives0455.
+

@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790595880.0445595,
+  "updated_unix": 1790596196.1616483,
   "status": "in_progress",
   "phases": [
     {
@@ -794,6 +794,12 @@
       "complete": true,
       "script": "scripts/audit_chronicling_a58.py",
       "result": "chronicling-a58/audit.json"
+    },
+    {
+      "id": "bnl_sol_a59",
+      "complete": true,
+      "script": "scripts/evaluate_bnl_sol_a59.py",
+      "result": "bnl-sol-a59/report.json"
     }
   ],
   "completion_gates": {
@@ -23262,6 +23268,68 @@
         "images_downloaded": 0
       },
       "accepted_for_project_completion_gate": false
+    },
+    "bnl_sol_a59": {
+      "status": "completed_consumed_development_diagnostic",
+      "selection": "four largest A54 lexical residuals plus two exact controls; oracle diagnostic only",
+      "aggregate": {
+        "luna_guarded": {
+          "strict_nfc_diplomatic": {
+            "characters": 6334,
+            "edits": 100,
+            "cer": 0.015787811809283233,
+            "exact_blocks": 1
+          },
+          "search_v1": {
+            "characters": 6291,
+            "edits": 54,
+            "cer": 0.008583690987124463,
+            "exact_blocks": 2
+          },
+          "lexical_alnum": {
+            "characters": 4990,
+            "edits": 24,
+            "cer": 0.004809619238476954,
+            "exact_blocks": 2
+          }
+        },
+        "sol": {
+          "strict_nfc_diplomatic": {
+            "characters": 6334,
+            "edits": 102,
+            "cer": 0.016103568045468898,
+            "exact_blocks": 1
+          },
+          "search_v1": {
+            "characters": 6291,
+            "edits": 74,
+            "cer": 0.011762835797170561,
+            "exact_blocks": 2
+          },
+          "lexical_alnum": {
+            "characters": 4990,
+            "edits": 57,
+            "cer": 0.011422845691382766,
+            "exact_blocks": 2
+          }
+        }
+      },
+      "control_regressions": {
+        "strict_nfc_diplomatic": [
+          "R006"
+        ],
+        "search_v1": [],
+        "lexical_alnum": []
+      },
+      "cost": {
+        "agent": "gpt-6-sol",
+        "reader_sessions": 1,
+        "image_items": 6,
+        "extra_detector_or_ocr_forwards": 0,
+        "tokens": "not exposed"
+      },
+      "reference_status": "unchanged provider XML; disagreements require visual adjudication",
+      "global_completion": false
     }
   },
   "model_policy": {
@@ -23270,6 +23338,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A59 negative: blind Sol native6 blocks lexical24\u219257. A60 test same worst tall block0455 as three native bands; keep A54 consumed and references unchanged.",
     "A58 complete: corpus geometry audit, test100 reserved. Next A59 targeted Sol on A54 residuals, consumed development only.",
     "A57 repaired checkpoint extension loss; next audit Chronicling Germany annotation layers and freeze a region holdout. Reinspect Claude branch before each hypothesis.",
     "A56 audited every PAGE XML in Zenodo 2583866: 2458 TextRegions and region reading order, but 0 TextLine, 0 Word and 0 Glyph nodes. Reject it for ALTO word/line-box truth without downloading images; retain only as a possible region/OLR reference after provenance audit. Next inspect the Claude branch, then audit Chronicling Germany's expert region polygons and weaker selectively corrected line layer as separate truth grades.",

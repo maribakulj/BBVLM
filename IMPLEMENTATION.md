@@ -648,3 +648,7 @@ inspection that must precede each new hypothesis.
 ## A58
 Audit PAGE exhaustif sans afficher les transcriptions : scripts/audit_chronicling_a58.py ; provenance et reserve : scripts/finalize_chronicling_a58.py. Originaux conservés, faute de nom du split signalée mais non corrigée.
 
+
+## A59
+Ajout scripts/evaluate_bnl_sol_a59.py : validation stricte des IDs, images inspectées et hash ; comparaison trois vues normalisées figées A54 ; écarts lexicaux conservés pour adjudication.
+

@@ -1,0 +1,752 @@
+{
+  "status": "completed_consumed_development_diagnostic",
+  "selection": "four largest A54 lexical residuals plus two exact controls; oracle diagnostic only",
+  "rows": [
+    {
+      "id": "R001",
+      "source_id": "0231",
+      "control": false,
+      "luna_guarded": {
+        "strict_nfc_diplomatic": {
+          "characters": 2413,
+          "edits": 29,
+          "cer": 0.012018234562784915,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 2383,
+          "edits": 13,
+          "cer": 0.005455308434746118,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 1978,
+          "edits": 3,
+          "cer": 0.0015166835187057635,
+          "exact": false
+        }
+      },
+      "sol": {
+        "strict_nfc_diplomatic": {
+          "characters": 2413,
+          "edits": 30,
+          "cer": 0.012432656444260257,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 2383,
+          "edits": 12,
+          "cer": 0.005035669324381032,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 1978,
+          "edits": 4,
+          "cer": 0.0020222446916076846,
+          "exact": false
+        }
+      },
+      "uncertain_spans": [
+        {
+          "text": "zu Münster",
+          "reason": "The place name is slightly blurred."
+        },
+        {
+          "text": "v. Forckenbeck",
+          "reason": "The surname is in ornate Fraktur and slightly blurred."
+        }
+      ],
+      "lexical_differences": [
+        {
+          "operation": "replace",
+          "reference": "f",
+          "hypothesis": "ck",
+          "ref_context": "ortdemreferentenherrnvforfenbeckmeineherrenichbitte",
+          "hyp_context": "ortdemreferentenherrnvforckenbeckmeineherrenichbitte"
+        },
+        {
+          "operation": "replace",
+          "reference": "n",
+          "hypothesis": "r",
+          "ref_context": "vonderregierunggefordertenpostengenehmigtwerdensoll",
+          "hyp_context": "vonderregierunggeforderterpostengenehmigtwerdensoll"
+        },
+        {
+          "operation": "delete",
+          "reference": "t",
+          "hypothesis": "",
+          "ref_context": "teineredeebensoderabgfrentzelschonimseptemberdessel",
+          "hyp_context": "teineredeebensoderabgfrenzelschonimseptemberdessel"
+        }
+      ]
+    },
+    {
+      "id": "R002",
+      "source_id": "0009",
+      "control": false,
+      "luna_guarded": {
+        "strict_nfc_diplomatic": {
+          "characters": 1201,
+          "edits": 16,
+          "cer": 0.013322231473771857,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 1192,
+          "edits": 13,
+          "cer": 0.010906040268456376,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 968,
+          "edits": 5,
+          "cer": 0.005165289256198347,
+          "exact": false
+        }
+      },
+      "sol": {
+        "strict_nfc_diplomatic": {
+          "characters": 1201,
+          "edits": 9,
+          "cer": 0.00749375520399667,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 1192,
+          "edits": 3,
+          "cer": 0.0025167785234899327,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 968,
+          "edits": 3,
+          "cer": 0.0030991735537190084,
+          "exact": false
+        }
+      },
+      "uncertain_spans": [
+        {
+          "text": "Plan",
+          "reason": "The right edge clips part of this word."
+        },
+        {
+          "text": "Wagstück",
+          "reason": "The compound is somewhat indistinct in the print."
+        },
+        {
+          "text": "Michely",
+          "reason": "The surname is somewhat indistinct."
+        }
+      ],
+      "lexical_differences": [
+        {
+          "operation": "replace",
+          "reference": "k",
+          "hypothesis": "he",
+          "ref_context": "nsollsnichtfehlensagtemickleyundferdinandnahmabschi",
+          "hyp_context": "nsollsnichtfehlensagtemichelyundferdinandnahmabschie"
+        },
+        {
+          "operation": "delete",
+          "reference": "e",
+          "hypothesis": "",
+          "ref_context": "ollsnichtfehlensagtemickleyundferdinandnahmabschied",
+          "hyp_context": "llsnichtfehlensagtemichelyundferdinandnahmabschied"
+        }
+      ]
+    },
+    {
+      "id": "R003",
+      "source_id": "0455",
+      "control": false,
+      "luna_guarded": {
+        "strict_nfc_diplomatic": {
+          "characters": 1438,
+          "edits": 27,
+          "cer": 0.018776077885952713,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 1438,
+          "edits": 11,
+          "cer": 0.0076495132127955496,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 1063,
+          "edits": 8,
+          "cer": 0.007525870178739417,
+          "exact": false
+        }
+      },
+      "sol": {
+        "strict_nfc_diplomatic": {
+          "characters": 1438,
+          "edits": 47,
+          "cer": 0.03268428372739916,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 1438,
+          "edits": 47,
+          "cer": 0.03268428372739916,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 1063,
+          "edits": 45,
+          "cer": 0.04233301975540922,
+          "exact": false
+        }
+      },
+      "uncertain_spans": [
+        {
+          "text": "Wûorfr",
+          "reason": "First word of item 109 is unclear in the print."
+        },
+        {
+          "text": "grôsz",
+          "reason": "Right edge of item 116 is clipped."
+        },
+        {
+          "text": "Konschte",
+          "reason": "Letter forms in the parenthetical line are unclear."
+        }
+      ],
+      "lexical_differences": [
+        {
+          "operation": "replace",
+          "reference": "é",
+          "hypothesis": "ê",
+          "ref_context": "nnetamkapphuotmussênandeféssenhun90etgifilgutschofa",
+          "hyp_context": "nnetamkapphuotmussênandefêssenhun90etgifilgutschofa"
+        },
+        {
+          "operation": "replace",
+          "reference": "l",
+          "hypothesis": "t",
+          "ref_context": "un90etgifilgutschofanêstal91wiéndéschtkentmûoltamés",
+          "hyp_context": "un90etgifilgutschofanêstat91wiendëschtkentmiôltamës"
+        },
+        {
+          "operation": "replace",
+          "reference": "é",
+          "hypothesis": "e",
+          "ref_context": "tgifilgutschofanêstal91wiéndéschtkentmûoltaméschten",
+          "hyp_context": "tgifilgutschofanêstat91wiendëschtkentmiôltamëschten"
+        },
+        {
+          "operation": "replace",
+          "reference": "é",
+          "hypothesis": "ë",
+          "ref_context": "filgutschofanêstal91wiéndéschtkentmûoltaméschten92b",
+          "hyp_context": "filgutschofanêstat91wiendëschtkentmiôltamëschten92b"
+        },
+        {
+          "operation": "replace",
+          "reference": "ûo",
+          "hypothesis": "iô",
+          "ref_context": "fanêstal91wiéndéschtkentmûoltaméschten92beimauskiére",
+          "hyp_context": "fanêstat91wiendëschtkentmiôltamëschten92bemauskiéref"
+        },
+        {
+          "operation": "replace",
+          "reference": "é",
+          "hypothesis": "ë",
+          "ref_context": "al91wiéndéschtkentmûoltaméschten92beimauskiérefennt",
+          "hyp_context": "at91wiendëschtkentmiôltamëschten92bemauskiérefennts"
+        },
+        {
+          "operation": "delete",
+          "reference": "i",
+          "hypothesis": "",
+          "ref_context": "chtkentmûoltaméschten92beimauskiérefenntsechalles93",
+          "hyp_context": "chtkentmiôltamëschten92bemauskiérefenntsechalles93"
+        },
+        {
+          "operation": "replace",
+          "reference": "â",
+          "hypothesis": "ä",
+          "ref_context": "es93faulleithugiérefeierdâch94huoldaenandhand95dâta",
+          "hyp_context": "es93faulleithugiérefeierdächer94huotdaenandhand95dâ"
+        },
+        {
+          "operation": "insert",
+          "reference": "",
+          "hypothesis": "er",
+          "ref_context": "3faulleithugiérefeierdâch94huoldaenandhand95dâtase",
+          "hyp_context": "3faulleithugiérefeierdächer94huotdaenandhand95dâtase"
+        },
+        {
+          "operation": "replace",
+          "reference": "l",
+          "hypothesis": "t",
+          "ref_context": "leithugiérefeierdâch94huoldaenandhand95dâtasenareme",
+          "hyp_context": "ithugiérefeierdächer94huotdaenandhand95dâtasenareme"
+        },
+        {
+          "operation": "replace",
+          "reference": "â",
+          "hypothesis": "ä",
+          "ref_context": "ndhand95dâtasenaremejoermârtwóênemélefzefréemzwiéle",
+          "hyp_context": "ndhand95dâtasenaremejoermärtwôênemélefzefréemzwiéle"
+        },
+        {
+          "operation": "replace",
+          "reference": "ó",
+          "hypothesis": "ô",
+          "ref_context": "nd95dâtasenaremejoermârtwóênemélefzefréemzwiélefzel",
+          "hyp_context": "nd95dâtasenaremejoermärtwôênemélefzefréemzwiélefzel"
+        },
+        {
+          "operation": "replace",
+          "reference": "é",
+          "hypothesis": "ä",
+          "ref_context": "fréemzwiélefzelantzemzespétkemt96wannsdeneischtméhu",
+          "hyp_context": "fréemzwiélefzelantzemzespätkemt96wannsdenëischtméhu"
+        },
+        {
+          "operation": "replace",
+          "reference": "e",
+          "hypothesis": "ë",
+          "ref_context": "ntzemzespétkemt96wannsdeneischtméhuoswiérsdeklèngmu",
+          "hyp_context": "ntzemzespätkemt96wannsdenëischtméhuoswiérsdeklèngmu"
+        },
+        {
+          "operation": "replace",
+          "reference": "ê",
+          "hypothesis": "é",
+          "ref_context": "èltwistnetwannêntsét98etlêftfillwâsserdbâcherân99dg",
+          "hyp_context": "èltwistnetwannêntsét98etléftfilwâsserdbâcherân99dge"
+        },
+        {
+          "operation": "delete",
+          "reference": "l",
+          "hypothesis": "",
+          "ref_context": "stnetwannêntsét98etlêftfillwâsserdbâcherân99dgebrod",
+          "hyp_context": "stnetwannêntsét98etléftfilwâsserdbâcherân99dgebrod"
+        },
+        {
+          "operation": "replace",
+          "reference": "i",
+          "hypothesis": "l",
+          "ref_context": "âcherân99dgebrodendauwenfiéenetanderlofterem100ande",
+          "hyp_context": "âcherân99dgebrodendauwenfléenetanderlofterem100ande"
+        },
+        {
+          "operation": "delete",
+          "reference": "i",
+          "hypothesis": "",
+          "ref_context": "dengtêndeschiéd101denhèrfiraûsdernokerntdganzthaûs1",
+          "hyp_context": "dengtêndeschiéd101denhèrfraûsdernokemtdganzhaus102"
+        },
+        {
+          "operation": "replace",
+          "reference": "rn",
+          "hypothesis": "m",
+          "ref_context": "iéd101denhèrfiraûsdernokerntdganzthaûs102gidwideréwê",
+          "hyp_context": "hiéd101denhèrfraûsdernokemtdganzhaus102gidwiderewês"
+        },
+        {
+          "operation": "delete",
+          "reference": "t",
+          "hypothesis": "",
+          "ref_context": "nhèrfiraûsdernokerntdganzthaûs102gidwideréwêswôende",
+          "hyp_context": "denhèrfraûsdernokemtdganzhaus102gidwiderewêswôênde"
+        },
+        {
+          "operation": "replace",
+          "reference": "û",
+          "hypothesis": "u",
+          "ref_context": "rfiraûsdernokerntdganzthaûs102gidwideréwêswôendesch",
+          "hyp_context": "nhèrfraûsdernokemtdganzhaus102gidwiderewêswôêndesch"
+        },
+        {
+          "operation": "replace",
+          "reference": "é",
+          "hypothesis": "e",
+          "ref_context": "erntdganzthaûs102gidwideréwêswôendeschongdrékt103fi",
+          "hyp_context": "okemtdganzhaus102gidwiderewêswôêndeschongdrékt103fi"
+        },
+        {
+          "operation": "replace",
+          "reference": "e",
+          "hypothesis": "ê",
+          "ref_context": "anzthaûs102gidwideréwêswôendeschongdrékt103filschol",
+          "hyp_context": "ganzhaus102gidwiderewêswôêndeschongdrékt103filschol"
+        },
+        {
+          "operation": "replace",
+          "reference": "o",
+          "hypothesis": "ö",
+          "ref_context": "ngdrékt103filscholtfilgedolt104wéêndhandwiérkdreift",
+          "hyp_context": "ngdrékt103filscholtfilgedölt104wéêndhandwierkdreift"
+        },
+        {
+          "operation": "replace",
+          "reference": "é",
+          "hypothesis": "e",
+          "ref_context": "ltfilgedolt104wéêndhandwiérkdreiftesógêtet105dekâfm",
+          "hyp_context": "ltfilgedölt104wéêndhandwierkdreiftesôgêtet105dekâfm"
+        },
+        {
+          "operation": "replace",
+          "reference": "ó",
+          "hypothesis": "ô",
+          "ref_context": "104wéêndhandwiérkdreiftesógêtet105dekâfmanlûoftséng",
+          "hyp_context": "104wéêndhandwierkdreiftesôgêtet105dekâfmanlûoftséng"
+        },
+        {
+          "operation": "replace",
+          "reference": "ê",
+          "hypothesis": "é",
+          "ref_context": "anlûoftséngwûor106etkemtkêpâfandenhimmel107wannênno",
+          "hyp_context": "anlûoftséngwûor106etkemtképâfandenhimmel107wannênno"
+        },
+        {
+          "operation": "replace",
+          "reference": "è",
+          "hypothesis": "ë",
+          "ref_context": "mmel107wannênnoèngemhontwèrftdagerétênepâf108hautmi",
+          "hyp_context": "mmel107wannênnoèngemhontwërftdagerëtênepâf108hautmi"
+        },
+        {
+          "operation": "replace",
+          "reference": "é",
+          "hypothesis": "ë",
+          "ref_context": "nnênnoèngemhontwèrftdagerétênepâf108hautmirmuordir1",
+          "hyp_context": "nnênnoèngemhontwërftdagerëtênepâf108hautmirmuordir1"
+        },
+        {
+          "operation": "delete",
+          "reference": "i",
+          "hypothesis": "",
+          "ref_context": "108hautmirmuordir109wûorfirrackersdedéchesódumussjo",
+          "hyp_context": "108hautmirmuordir109wûorfrrackersdedéchesôdamussjo"
+        },
+        {
+          "operation": "replace",
+          "reference": "ó",
+          "hypothesis": "ô",
+          "ref_context": "109wûorfirrackersdedéchesódumussjodachstiérwen110dé",
+          "hyp_context": "r109wûorfrrackersdedéchesôdamussjodachstiérwen110dé"
+        },
+        {
+          "operation": "replace",
+          "reference": "u",
+          "hypothesis": "a",
+          "ref_context": "9wûorfirrackersdedéchesódumussjodachstiérwen110déàl",
+          "hyp_context": "09wûorfrrackersdedéchesôdamussjodachstiérwen110déâl"
+        },
+        {
+          "operation": "replace",
+          "reference": "à",
+          "hypothesis": "â",
+          "ref_context": "dumussjodachstiérwen110déàlscheierebrènnenamiérgste",
+          "hyp_context": "damussjodachstiérwen110déâlscheierebrènnenamiérgste"
+        },
+        {
+          "operation": "replace",
+          "reference": "eî",
+          "hypothesis": "â",
+          "ref_context": "ènnenamiérgsten111léerdudeîfuoderemâchenléerenalenaa",
+          "hyp_context": "ènnenamiérgsten111léerdudâfuderemâchenléerenalenaaf"
+        },
+        {
+          "operation": "delete",
+          "reference": "o",
+          "hypothesis": "",
+          "ref_context": "namiérgsten111léerdudeîfuoderemâchenléerenalenaafko",
+          "hyp_context": "enamiérgsten111léerdudâfuderemâchenléerenalenaafko"
+        },
+        {
+          "operation": "replace",
+          "reference": "ò",
+          "hypothesis": "ô",
+          "ref_context": "tseiftliéftlang113gnodebròtsauerbrót114tjongleitsol",
+          "hyp_context": "tseiftliéftlang113gnodebrôtsauerbrôt114tjongleitsol"
+        },
+        {
+          "operation": "replace",
+          "reference": "ó",
+          "hypothesis": "ô",
+          "ref_context": "ftlang113gnodebròtsauerbrót114tjongleitsollebeidena",
+          "hyp_context": "ftlang113gnodebrôtsauerbrôt114tjongleitsollebeidena"
+        },
+        {
+          "operation": "replace",
+          "reference": "ó",
+          "hypothesis": "ô",
+          "ref_context": "cherstènkeniérgeraswédégrósz117eklèngtkenntchenèngg",
+          "hyp_context": "cherstènkeniérgeraswédégrôsz117eklèngtkenntchenèngg"
+        },
+        {
+          "operation": "replace",
+          "reference": "ó",
+          "hypothesis": "ô",
+          "ref_context": "ngkannerklèngsuorgenlêtgrósskannergròsssuorgenlêt11",
+          "hyp_context": "ngkannerklèngsuorgenlêtgrôsskannergrôsssuorgenlêt11"
+        },
+        {
+          "operation": "replace",
+          "reference": "ò",
+          "hypothesis": "ô",
+          "ref_context": "ngsuorgenlêtgrósskannergròsssuorgenlêt119dklèngkann",
+          "hyp_context": "ngsuorgenlêtgrôsskannergrôsssuorgenlêt119dklèngkann"
+        },
+        {
+          "operation": "replace",
+          "reference": "î",
+          "hypothesis": "ë",
+          "ref_context": "èngkannerhundlâchenandkreîschenanèngemsèckeltchen",
+          "hyp_context": "èngkannerhundlâchenandkreëschenanèngemsèckeltchen"
+        }
+      ]
+    },
+    {
+      "id": "R004",
+      "source_id": "0456",
+      "control": true,
+      "luna_guarded": {
+        "strict_nfc_diplomatic": {
+          "characters": 139,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "search_v1": {
+          "characters": 139,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "lexical_alnum": {
+          "characters": 109,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      },
+      "sol": {
+        "strict_nfc_diplomatic": {
+          "characters": 139,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "search_v1": {
+          "characters": 139,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "lexical_alnum": {
+          "characters": 109,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      },
+      "uncertain_spans": [
+        {
+          "text": "2,770178",
+          "reason": "The separator between 770 and 178 is unclear or absent."
+        }
+      ],
+      "lexical_differences": []
+    },
+    {
+      "id": "R005",
+      "source_id": "0345",
+      "control": false,
+      "luna_guarded": {
+        "strict_nfc_diplomatic": {
+          "characters": 1067,
+          "edits": 27,
+          "cer": 0.02530459231490159,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 1063,
+          "edits": 17,
+          "cer": 0.01599247412982126,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 812,
+          "edits": 8,
+          "cer": 0.009852216748768473,
+          "exact": false
+        }
+      },
+      "sol": {
+        "strict_nfc_diplomatic": {
+          "characters": 1067,
+          "edits": 12,
+          "cer": 0.011246485473289597,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 1063,
+          "edits": 12,
+          "cer": 0.011288805268109126,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 812,
+          "edits": 5,
+          "cer": 0.006157635467980296,
+          "exact": false
+        }
+      },
+      "uncertain_spans": [
+        {
+          "text": "En frissonnante",
+          "reason": "The first word of the last sentence is faint and could be En or Et."
+        }
+      ],
+      "lexical_differences": [
+        {
+          "operation": "replace",
+          "reference": "j",
+          "hypothesis": "l",
+          "ref_context": "limagedejabelledelacharmantedelado",
+          "hyp_context": "limagedelabelledelacharmantedelado"
+        },
+        {
+          "operation": "replace",
+          "reference": "n",
+          "hypothesis": "u",
+          "ref_context": "cesjevousaimejenaimequevonsohclaradegrâceéeoutezmoi",
+          "hyp_context": "cesjevousaimejenaimequevousohclaradegrâceécoutezmoi"
+        },
+        {
+          "operation": "replace",
+          "reference": "e",
+          "hypothesis": "c",
+          "ref_context": "imequevonsohclaradegrâceéeoutezmoimevoicisoumisetre",
+          "hyp_context": "imequevousohclaradegrâceécoutezmoimevoicisoumisetre"
+        },
+        {
+          "operation": "insert",
+          "reference": "",
+          "hypothesis": "t",
+          "ref_context": "oissécriatellevotrevoixvoreaccentvotreémotionvosla",
+          "hyp_context": "oissécriatellevotrevoixvotreaccentvotreémotionvosla"
+        },
+        {
+          "operation": "replace",
+          "reference": "u",
+          "hypothesis": "û",
+          "ref_context": "ntàanatolequiyimprimaunbrulantbaiser",
+          "hyp_context": "ntàanatolequiyimprimaunbrûlantbaiser"
+        }
+      ]
+    },
+    {
+      "id": "R006",
+      "source_id": "0439",
+      "control": true,
+      "luna_guarded": {
+        "strict_nfc_diplomatic": {
+          "characters": 76,
+          "edits": 1,
+          "cer": 0.013157894736842105,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 76,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "lexical_alnum": {
+          "characters": 60,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      },
+      "sol": {
+        "strict_nfc_diplomatic": {
+          "characters": 76,
+          "edits": 4,
+          "cer": 0.05263157894736842,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 76,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "lexical_alnum": {
+          "characters": 60,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      },
+      "uncertain_spans": [],
+      "lexical_differences": []
+    }
+  ],
+  "aggregate": {
+    "luna_guarded": {
+      "strict_nfc_diplomatic": {
+        "characters": 6334,
+        "edits": 100,
+        "cer": 0.015787811809283233,
+        "exact_blocks": 1
+      },
+      "search_v1": {
+        "characters": 6291,
+        "edits": 54,
+        "cer": 0.008583690987124463,
+        "exact_blocks": 2
+      },
+      "lexical_alnum": {
+        "characters": 4990,
+        "edits": 24,
+        "cer": 0.004809619238476954,
+        "exact_blocks": 2
+      }
+    },
+    "sol": {
+      "strict_nfc_diplomatic": {
+        "characters": 6334,
+        "edits": 102,
+        "cer": 0.016103568045468898,
+        "exact_blocks": 1
+      },
+      "search_v1": {
+        "characters": 6291,
+        "edits": 74,
+        "cer": 0.011762835797170561,
+        "exact_blocks": 2
+      },
+      "lexical_alnum": {
+        "characters": 4990,
+        "edits": 57,
+        "cer": 0.011422845691382766,
+        "exact_blocks": 2
+      }
+    }
+  },
+  "control_regressions": {
+    "strict_nfc_diplomatic": [
+      "R006"
+    ],
+    "search_v1": [],
+    "lexical_alnum": []
+  },
+  "cost": {
+    "agent": "gpt-6-sol",
+    "reader_sessions": 1,
+    "image_items": 6,
+    "extra_detector_or_ocr_forwards": 0,
+    "tokens": "not exposed"
+  },
+  "reference_status": "unchanged provider XML; disagreements require visual adjudication",
+  "global_completion": false
+}

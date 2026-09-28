@@ -1,0 +1,52 @@
+{
+  "task": "Transcribe the printed text from each image faithfully. Preserve visible spelling, accents, punctuation and physical line breaks. Do not modernize, expand abbreviations, or fix author errors. Inspect every image with view_image at original detail. If unclear, record the uncertainty separately with the literal best reading in text. The images are whole text blocks at original source resolution. You may inspect them again. Return exactly the six opaque IDs, one full text per item, no extra IDs. Do not inspect any other files beyond this request and these six images; no references, prior outputs or scores.",
+  "items": [
+    {
+      "id": "R001",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-sol-a59/blind/R001.png",
+      "sha256": "5998f78a0a551bba9c49b8d5322cb95c1dad87de8a682ee83d80f68bb8d6d536"
+    },
+    {
+      "id": "R002",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-sol-a59/blind/R002.png",
+      "sha256": "31be0e2ee64e78cdb72877d67adc34b6702a92f408ce9518e19c8a12585e8326"
+    },
+    {
+      "id": "R003",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-sol-a59/blind/R003.png",
+      "sha256": "cb2ef810226ffd7c0d2751f99256ceec6b825dbd6614ab8984082db8aed9e536"
+    },
+    {
+      "id": "R004",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-sol-a59/blind/R004.png",
+      "sha256": "daf62d9420d094ea7bb7eed460da019df498341d454d2d681f9305ce805a789d"
+    },
+    {
+      "id": "R005",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-sol-a59/blind/R005.png",
+      "sha256": "9b3ff2a92f38f0179fbb185c3d129edecbc79b6c3eb9ab049f79202c474f7dae"
+    },
+    {
+      "id": "R006",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-sol-a59/blind/R006.png",
+      "sha256": "648fa245cd2b328abc89e221a5fc43569a2f4b06f8b34295ab134f94c505615f"
+    }
+  ],
+  "output_schema": {
+    "items": [
+      {
+        "id": "R001",
+        "text": "full transcription",
+        "uncertain_spans": [
+          {
+            "text": "literal text",
+            "reason": "visual uncertainty"
+          }
+        ]
+      }
+    ],
+    "inspected_images": [
+      "absolute paths"
+    ]
+  }
+}
