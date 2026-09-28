@@ -20,3 +20,23 @@ ligne par un seul arbitre : risque identique, mesuré sans régression jusqu'ici
 concordent jamais (déjà le cas : seules les lignes en désaccord sont
 arbitrées). Idée à reprendre : porte de non-régression par ligne gelée avant
 données neuves. PERO toujours inaccessible ici (modèle bloqué).
+
+## aa29cec / 562f31a / 2e3c0d7 — astra A54-A56 (vu le 2026-09-28, pendant O12)
+
+- **A54** (16 blocs BnL neufs, presse) : PERO + routeur A37 + une passe VLM
+  (image + candidat PERO) + garde mécanique (refus des réécritures non
+  traçables) : CER recherche 0,93 → 0,68 %, portes de non-régression passées ;
+  4/16 blocs exacts. Boîtes : IoU80 au mot 33,5 % (15,8 % en français).
+- **A55** : boîtes BnL = conventions mixtes (enveloppes CTC du fournisseur) ;
+  garde de largeur rejetée ; les rectangles BnL ne sont pas une vérité au mot.
+- **A56** : Europeana Newspapers (Zenodo 2583866) = régions + ordre seulement,
+  0 TextLine, 0 Word → rejeté comme vérité de boîtes, utile pour l'OLR presse.
+- Astra audite notre O11/S03.
+*Conséquences ici* : (1) notre texte est à un autre ordre de grandeur sur les
+livres SBB (plusieurs pages à 0 contre 4/16 blocs exacts), mais astra mesure la
+presse, que nous n'avons pas (bloquée) ; (2) sa garde « réécriture traçable »
+rejoint notre A2 et notre consigne P3 ; (3) son constat « vérité au mot non
+fiable » vaut aussi pour nous : les VT SBB OCR-D ont des mots manuels
+(polygones), c'est pourquoi nous restons sur SBB pour les boîtes ; (4) OLR
+presse : Europeana (régions + ordre) est un banc accessible via Zenodo côté
+astra — Zenodo bloqué ici.

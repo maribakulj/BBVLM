@@ -30,7 +30,7 @@ def lit_lignes(dossier, boites, ecriture):
     cache_f = f'{dossier}/ancres_tesseract.json'
     try: cache = json.load(open(cache_f))
     except (FileNotFoundError, ValueError): cache = {}
-    lang = 'script/Fraktur+lat' if ecriture == 'fraktur' else 'lat+deu+script/Latin'
+    lang = 'script/Fraktur' if ecriture == 'fraktur' else 'lat'   # un modèle par écriture (3 modèles : 9 s/ligne)
     g = None; out = []
     for b in boites:
         k = f'{lang}|{b[0]},{b[1]},{b[2]},{b[3]}'
@@ -41,7 +41,7 @@ def lit_lignes(dossier, boites, ecriture):
             if crop.size == 0: cache[k] = ''; continue
             ok, png = cv2.imencode('.png', crop)
             r = subprocess.run(['tesseract', 'stdin', 'stdout', '--tessdata-dir', TESSDATA, '-l', lang, '--psm', '7'],
-                               input=png.tobytes(), capture_output=True)
+                               input=png.tobytes(), capture_output=True, env={**os.environ, 'OMP_THREAD_LIMIT': '1'})
             cache[k] = r.stdout.decode('utf-8', 'replace').strip()
         out.append(cache[k])
     json.dump(cache, open(cache_f, 'w'), ensure_ascii=False)
