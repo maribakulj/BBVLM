@@ -1,0 +1,17 @@
+{
+  "jobs": {
+    "a62_dispatch_tests": "completed",
+    "a62_visual_input_fixity": "completed",
+    "a63_prepare": "pending"
+  },
+  "ready_external": [
+    {
+      "id": "a63_prepare",
+      "instructions": "Active Codex: reread Claude branch head and new JOURNAL/protocol/code (O13/S05 if present); inspect A61 residuals against native images in a separately labelled diagnostic without rewriting references. Read primary literature for any new hypothesis and append one summary per paper, distinguishing abstract/full text. Freeze a concrete A63 protocol and add its preparation, blind-reader, scoring, review and commit-evidence jobs. Do not claim that another model is independent human adjudication. Keep the 100 reserved Chronicling test pages unopened until a transfer protocol is frozen; if adjudication is unavailable, advance predicted geometry/OLR/retrieval on a distinct ready track. Never wait for the next scheduled wake-up when useful work is available.",
+      "resource": "orchestrator",
+      "can_claim": true
+    }
+  ],
+  "waiting": {},
+  "scientific_success": false
+}

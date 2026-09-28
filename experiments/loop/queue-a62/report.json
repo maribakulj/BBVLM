@@ -1,0 +1,19 @@
+{
+  "experiment": "A62",
+  "status": "completed_engineering_validation",
+  "tests": {
+    "tests_run": 9,
+    "failures": 0,
+    "errors": 0,
+    "successful": true,
+    "seconds": 0.7936315730039496,
+    "scope": "orchestrator subprocess tests, not OCR or scientific success"
+  },
+  "command_jobs_completed": 2,
+  "parallel_overlap_seconds": 0.0576472282409668,
+  "shared_legacy_lock": true,
+  "resume_did_not_rerun": true,
+  "new_inference_calls": 0,
+  "global_completion": false,
+  "claude_journal_sha": "ba685e9b4c870e245d1d201381986178660abb4c"
+}

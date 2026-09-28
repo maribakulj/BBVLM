@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790596704.070889,
+  "updated_unix": 1790597891.5838654,
   "status": "in_progress",
   "phases": [
     {
@@ -812,6 +812,12 @@
       "complete": true,
       "script": "scripts/evaluate_bnl_guard_a61.py",
       "result": "bnl-guard-a61/report.json"
+    },
+    {
+      "id": "queue_a62",
+      "script": null,
+      "result": "queue-a62/report.json",
+      "complete": true
     }
   ],
   "completion_gates": {
@@ -23565,6 +23571,25 @@
         }
       ],
       "image_bytes_match_frozen_a60": true
+    },
+    "queue_a62": {
+      "experiment": "A62",
+      "status": "completed_engineering_validation",
+      "tests": {
+        "tests_run": 9,
+        "failures": 0,
+        "errors": 0,
+        "successful": true,
+        "seconds": 0.7936315730039496,
+        "scope": "orchestrator subprocess tests, not OCR or scientific success"
+      },
+      "command_jobs_completed": 2,
+      "parallel_overlap_seconds": 0.0576472282409668,
+      "shared_legacy_lock": true,
+      "resume_did_not_rerun": true,
+      "new_inference_calls": 0,
+      "global_completion": false,
+      "claude_journal_sha": "ba685e9b4c870e245d1d201381986178660abb4c"
     }
   },
   "model_policy": {
@@ -23573,6 +23598,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A62: use CONTINUOUS_LOOP.md and queue.json. Drain ready commands, claim external tasks and continue useful work immediately; per-iteration Claude review, commit/push and checkpoint barriers. No VLM launched by Python. A63 preparation is ready; all scientific gates remain false.",
     "A61 complete: candidate-anchored Sol8\u21926 lexical edits, one regression. Next inspect Claude, independently adjudicate residuals before scoring perfect text; freeze new diverse validation for a risk-triggered localized correction. Continue geometry/OLR/retrieval gates separately.",
     "A60 bands improve Sol45\u219236 lexical edits but worse than Luna guard8. Next source-grounded localized correction preserving A54 candidate, consumed development only.",
     "A59 negative: blind Sol native6 blocks lexical24\u219257. A60 test same worst tall block0455 as three native bands; keep A54 consumed and references unchanged.",

@@ -1,0 +1,69 @@
+{
+  "schema": "bbvlm.queue/1",
+  "resources": {
+    "cpu": 1,
+    "io": 2,
+    "vlm": 1,
+    "orchestrator": 1
+  },
+  "jobs": [
+    {
+      "id": "a62_dispatch_tests",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [],
+      "inputs": [
+        "scripts/experiment_queue.py",
+        "tests/test_experiment_queue.py"
+      ],
+      "outputs": [
+        "experiments/loop/queue-a62/dispatched-tests.json"
+      ],
+      "argv": [
+        "{python}",
+        "tests/test_experiment_queue.py",
+        "--report",
+        "experiments/loop/queue-a62/dispatched-tests.json"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "a62_visual_input_fixity",
+      "kind": "command",
+      "resource": "io",
+      "deps": [],
+      "inputs": [
+        "scripts/audit_queue_inputs_a62.py",
+        "experiments/loop/bnl-bands-a60/blind/request.json",
+        "experiments/loop/bnl-guard-a61/blind/V1.png",
+        "experiments/loop/bnl-guard-a61/blind/V2.png",
+        "experiments/loop/bnl-guard-a61/blind/V3.png"
+      ],
+      "outputs": [
+        "experiments/loop/queue-a62/source-integrity.json"
+      ],
+      "argv": [
+        "{python}",
+        "scripts/audit_queue_inputs_a62.py"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "a63_prepare",
+      "kind": "external",
+      "resource": "orchestrator",
+      "deps": [
+        "a62_dispatch_tests",
+        "a62_visual_input_fixity"
+      ],
+      "inputs": [
+        "experiments/loop/bnl-guard-a61/report.json",
+        "experiments/loop/REFERENCE_AUDIT.md"
+      ],
+      "outputs": [
+        "experiments/loop/next-a63/PROTOCOL.md"
+      ],
+      "instructions": "Active Codex: reread Claude branch head and new JOURNAL/protocol/code (O13/S05 if present); inspect A61 residuals against native images in a separately labelled diagnostic without rewriting references. Read primary literature for any new hypothesis and append one summary per paper, distinguishing abstract/full text. Freeze a concrete A63 protocol and add its preparation, blind-reader, scoring, review and commit-evidence jobs. Do not claim that another model is independent human adjudication. Keep the 100 reserved Chronicling test pages unopened until a transfer protocol is frozen; if adjudication is unavailable, advance predicted geometry/OLR/retrieval on a distinct ready track. Never wait for the next scheduled wake-up when useful work is available."
+    }
+  ]
+}

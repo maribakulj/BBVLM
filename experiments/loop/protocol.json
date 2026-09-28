@@ -848,5 +848,10 @@
     "protocol": "bnl-guard-a61/PROTOCOL.md",
     "results": "bnl-guard-a61/RESULTS.md",
     "global_completion": false
+  },
+  "queue_a62": {
+    "status": "completed_engineering_validation",
+    "results": "queue-a62/RESULTS.md",
+    "global_completion": false
   }
 }

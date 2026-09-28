@@ -556,3 +556,6 @@ Bandes natives : Sol45→36 éditions lexicales, reste supérieur aux8 de Luna g
 ## A61 terminé
 Candidat+bandes Sol :8→6 éditions lexicales, dont une modification régressive. Pas de promotion automatique. Rapports A57–A61 et commits distincts ; tous critères globaux restent faux.
 
+
+## A62 — boucle active
+File de tâches concurrentes et reprenables : voir CONTINUOUS_LOOP.md et queue-a62/RESULTS.md. Ne pas attendre la prochaine reprise si du travail utile est prêt. Neuf tests réussis ; aucun nouveau score OCR.

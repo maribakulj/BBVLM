@@ -567,6 +567,11 @@ def main():
                 with log.open('a') as out:r=subprocess.run([str(ROOT/'.venv/bin/python'),script],cwd=ROOT,env=env,stdout=out,stderr=subprocess.STDOUT)
                 with (BASE/'events.jsonl').open('a') as out:out.write(json.dumps({'phase':name,'start':start,'end':time.time(),'returncode':r.returncode,'script_sha256':hashlib.sha256((ROOT/script).read_bytes()).hexdigest()})+'\n')
                 checkpoint()
-                if r.returncode:raise SystemExit('phase failed; see '+str(log))
+                if r.returncode:
+                    print('Legacy phase failed; stop its dependent chain, see '+str(log), file=sys.stderr)
+                    break
         print(json.dumps(checkpoint(),indent=2))
+    # Release the shared lock before dispatching the separately declared DAG.
+    if args.execute and (BASE/'queue.json').is_file():
+        subprocess.run([sys.executable,str(ROOT/'scripts/experiment_queue.py'),'--execute'],check=True)
 if __name__=='__main__':main()

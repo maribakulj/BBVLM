@@ -1,0 +1,31 @@
+{
+  "jobs": {
+    "a62_dispatch_tests": {
+      "status": "completed",
+      "started_at": 1790597807.2264292,
+      "fingerprint": "4f8d7e98fde4132cd77b680a84f4cc8ed7a64a444b80aa25b5482facda7df5fb",
+      "pid": 9,
+      "log": "experiments/loop/logs/a62_dispatch_tests.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/queue-a62/dispatched-tests.json": "fcd77e4a936269620cb25adc1bea7d52358fe497751974fbe371ae1ef6d6ccfd"
+      },
+      "ended_at": 1790597808.1393902
+    },
+    "a62_visual_input_fixity": {
+      "status": "completed",
+      "started_at": 1790597807.228465,
+      "fingerprint": "f86b45fa57367c3090a0f702f9efd6f90c0243489815436850a688d090fa8cef",
+      "pid": 10,
+      "log": "experiments/loop/logs/a62_visual_input_fixity.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/queue-a62/source-integrity.json": "9cb63f9265531b11b68516657cc4dcd3e75ab6a5d9935575968c1e0d102469c1"
+      },
+      "ended_at": 1790597807.2861123
+    },
+    "a63_prepare": {
+      "status": "pending"
+    }
+  }
+}

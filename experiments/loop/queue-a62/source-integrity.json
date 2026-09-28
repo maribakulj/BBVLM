@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "path": "experiments/loop/bnl-guard-a61/blind/V1.png",
+      "sha256": "1a3fcd1682bb49efe7fe37b917010df471599208c088dadfb1730cad125b1b85",
+      "matches": true
+    },
+    {
+      "path": "experiments/loop/bnl-guard-a61/blind/V2.png",
+      "sha256": "7b0b6064173bc543d7c0dcc61989e4324c8b596b32f24a43d685e4bba0be3e98",
+      "matches": true
+    },
+    {
+      "path": "experiments/loop/bnl-guard-a61/blind/V3.png",
+      "sha256": "f1a543b3b04d2eba1ba23ba9b9040519b700f68c9aadea89466a1c664c24f45a",
+      "matches": true
+    }
+  ],
+  "inference_calls": 0,
+  "scope": "A61 input fixity only; no OCR/GT quality claim"
+}
