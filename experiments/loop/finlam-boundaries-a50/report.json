@@ -1,0 +1,81 @@
+{
+  "schema": "bbvlm.finlam-boundaries-a50-evaluation/1",
+  "status": "blind Luna development pass on consumed A49 stress page",
+  "scope": "oracle Finlam region polygons/classes; recurrent geometry; VLM only on routed article-boundary crops",
+  "page": {
+    "row_index": 186,
+    "zones": 260,
+    "reference_articles": 40,
+    "articles_without_title": 23
+  },
+  "router": {
+    "gap_fraction_gt": 0.004,
+    "horizontal_overlap_fraction_lt": 0.25,
+    "queried_edges": 50,
+    "reference_new_article_edges_queried": 23
+  },
+  "blind_boundary_classification": {
+    "true_positive": 18,
+    "false_positive": 4,
+    "false_negative": 5,
+    "true_negative": 21,
+    "unclear": 3,
+    "precision": 0.8181818181818182,
+    "recall": 0.782608695652174,
+    "f1": 0.8
+  },
+  "post_score_error_audit": {
+    "false_positive_tokens": [
+      "K335E1",
+      "K870D0",
+      "K8A6F4",
+      "KFEBB8"
+    ],
+    "false_negative_tokens": [
+      "K39414",
+      "K5E57A",
+      "KAAEF9",
+      "KC7307",
+      "KFF134"
+    ],
+    "note": "Opaque IDs are retained for visual reinspection; no label or decision is rewritten."
+  },
+  "article_same_pair": {
+    "title_cut_baseline": {
+      "true_positive": 1315,
+      "reference": 1371,
+      "predicted": 3110,
+      "precision": 0.4228295819935691,
+      "recall": 0.9591539022611233,
+      "f1": 0.5869225619281411
+    },
+    "title_cut_plus_luna": {
+      "true_positive": 1228,
+      "reference": 1371,
+      "predicted": 1330,
+      "precision": 0.9233082706766917,
+      "recall": 0.8956965718453683,
+      "f1": 0.9092928544983339
+    }
+  },
+  "cost": {
+    "vlm_passes": 1,
+    "images": 9,
+    "queried_edges": 50,
+    "layout_vlm_passes": 0,
+    "ocr_vlm_passes": 0
+  },
+  "invariants": {
+    "opaque_ids": true,
+    "reference_withheld_from_reader": true,
+    "geometry_order_unchanged": true,
+    "unclear_is_conservative_continue": true,
+    "original_reference_unchanged": true
+  },
+  "limitations": [
+    "Consumed-data development only; no completion-gate evidence.",
+    "Oracle block polygons/classes isolate semantic article separation and are not end-to-end detection.",
+    "The router was developed on the same six A49 pages and must be frozen before new validation.",
+    "A50 preparation used reference article presence only to omit unannotated edges; A51 removes this leakage before independent scoring."
+  ]
+}

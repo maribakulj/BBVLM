@@ -1,0 +1,164 @@
+{
+  "schema": "bbvlm.finlam-anchor-a48-evaluation/1",
+  "status": "post-score exploratory VLM pass on consumed A48 page",
+  "reader": "gpt-6-luna",
+  "scope": "one full-page original plus one opaque 33-anchor overlay; oracle candidate anchors; no body transcription",
+  "integrity": {
+    "exact_role_token_coverage": true,
+    "unknown_or_duplicate_group_tokens": false,
+    "impure_reference_article_groups": [],
+    "uncertain_tokens": [
+      "Q67C2",
+      "QDF99"
+    ]
+  },
+  "dataset_label_projection": {
+    "correct": 19,
+    "denominator": 33,
+    "accuracy": 0.5757575757575758,
+    "confusion": {
+      "HEADER-TEXT->other": 4,
+      "HEADER-TITLE->masthead": 1,
+      "INSIDEHEADING->subheading": 2,
+      "SUBTITLE->article_title": 5,
+      "TITLE->article_title": 16,
+      "TITLE->subheading": 5
+    },
+    "warning": "Finlam TITLE/SUBTITLE encode typographic hierarchy, while Luna used editorial main-title/subheading semantics; disagreement is not automatically visual error."
+  },
+  "article_anchors": {
+    "reference_page_articles": 23,
+    "reference_articles_with_candidate_anchor": 20,
+    "predicted_groups": 21,
+    "covered_reference_anchor_articles": 20,
+    "coverage_of_anchor_articles": 1.0,
+    "coverage_of_all_page_articles": 0.8695652173913043,
+    "reference_articles_split_across_groups": true,
+    "order_on_covered_articles": {
+      "pairwise_correct": 145,
+      "pairwise_denominator": 190,
+      "pairwise_accuracy": 0.7631578947368421,
+      "reference_adjacent_correct": 13,
+      "reference_adjacent_denominator": 19,
+      "reference_adjacent_accuracy": 0.6842105263157895
+    }
+  },
+  "headline_provider_agreement": {
+    "strict_diplomatic_nfc": {
+      "characters": 724,
+      "edits": 42,
+      "cer": 0.058011049723756904,
+      "exact": 8,
+      "items": 21
+    },
+    "search_v1": {
+      "characters": 724,
+      "edits": 8,
+      "cer": 0.011049723756906077,
+      "exact": 16,
+      "items": 21
+    },
+    "lexical_alnum": {
+      "characters": 610,
+      "edits": 3,
+      "cer": 0.004918032786885246,
+      "exact": 18,
+      "items": 21
+    },
+    "retrieval_fold_v1": {
+      "characters": 610,
+      "edits": 2,
+      "cer": 0.003278688524590164,
+      "exact": 19,
+      "items": 21
+    },
+    "warning": "Finlam zone_texts are OCR-extracted provider text, not independently adjudicated ground truth."
+  },
+  "columns": {
+    "luna_count": 7,
+    "luna_bands": [
+      [
+        0.045,
+        0.169
+      ],
+      [
+        0.169,
+        0.295
+      ],
+      [
+        0.295,
+        0.422
+      ],
+      [
+        0.422,
+        0.549
+      ],
+      [
+        0.549,
+        0.674
+      ],
+      [
+        0.674,
+        0.8
+      ],
+      [
+        0.8,
+        0.918
+      ]
+    ],
+    "recurrent_geometry_count": 7,
+    "recurrent_geometry_anchors_normalized": [
+      0.041690503432494,
+      0.17033752860411852,
+      0.29805491990846605,
+      0.42491418764302,
+      0.551487414187643,
+      0.6786327231121281,
+      0.803775743707093
+    ],
+    "count_agreement": true
+  },
+  "metadata": {
+    "newspaper_title": {
+      "value": "La Liberté",
+      "evidence_tokens": [
+        "Q156C"
+      ]
+    },
+    "issue_date": {
+      "value": "Mercredi 9 novembre 1927",
+      "evidence_tokens": [
+        "Q6C1E"
+      ]
+    },
+    "edition": {
+      "value": "2e édition",
+      "evidence_tokens": [
+        "Q6C1E"
+      ]
+    },
+    "price": {
+      "value": "25 cent.",
+      "evidence_tokens": [
+        "Q6C1E"
+      ]
+    },
+    "issue_number": {
+      "value": null,
+      "evidence_tokens": []
+    }
+  },
+  "continued_or_anchorless_articles": [],
+  "cost": {
+    "vlm_passes": 1,
+    "images": 2,
+    "anchor_tokens": 33,
+    "reader_escalations": 0
+  },
+  "decision": "Keep recurrent geometry for physical column/order recovery; use one compact VLM anchor pass for headline transcription, editorial semantics and issue metadata. Do not ask the VLM to replace cheap order or word localization.",
+  "limitations": [
+    "Consumed exploratory page; not independent validation.",
+    "Oracle semantic classes selected the 33 candidate anchor boxes.",
+    "No body OCR, word boxes, predicted detector boxes, neighboring-page continuation context, or human-adjudicated metadata truth."
+  ]
+}

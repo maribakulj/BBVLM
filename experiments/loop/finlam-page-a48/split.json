@@ -1,0 +1,28 @@
+{
+  "schema": "bbvlm.frozen-finlam-page-split/1",
+  "status": "frozen_before_row_content_inspection",
+  "frozen_at": "2026-09-28T06:05:00Z",
+  "source": {
+    "dataset": "Teklia/Newspapers-finlam-La-Liberte",
+    "revision": "c3d69ca1eef5a0f479b6aeaa6d6c155b3ec93657",
+    "config": "default",
+    "split": "test",
+    "declared_rows": 433,
+    "declared_scope": "French newspaper pages with zones, labels, reading order and article separation"
+  },
+  "selection": {
+    "content_seen_before_freeze": false,
+    "rule": "sort integer row indices 0..432 by SHA-256(BBVLM-A48:<index>), take first 3",
+    "seed": "BBVLM-A48",
+    "row_indices": [242, 73, 365]
+  },
+  "predeclared_measurements": {
+    "layout": "region count, class labels and bounding-box agreement where coordinates are present",
+    "reading_order": "pairwise precedence and consecutive-edge accuracy without exposing ordered IDs to the reader",
+    "articles": "same-article pair precision/recall/F1",
+    "ocr": "only if a provider transcription is present; diplomatic and retrieval views remain separate",
+    "cost": "image count, reader count and CPU time"
+  },
+  "model_policy": "One blind Luna reader on opaque region IDs; Sol only after explicit ambiguity or structural failure.",
+  "no_retuning": true
+}

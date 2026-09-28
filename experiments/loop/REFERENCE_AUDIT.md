@@ -511,3 +511,86 @@ n'est accordé.
 ## A35: remove reference transcription, retain line-oracle limitation
 
 2026-09-27: `scripts/evaluate_native_refinement_a35.py` applies unchanged A32 to cached native recognized words. On consumed French A28, recall IoU≥0.8 improves 11.07% → 80.66%; on consumed German/Latin A34, 19.04% → 55.96%. Reference transcription/token count are removed from the refiner; reference line rectangles and synthetic baselines remain. No new OCR/VLM inference or CER improvement. Joint exact-text+IoU≥0.8 recall is 73.25% / 42.09%, and visual audit confirms neighboring-ink/punctuation failures. All project gates stay false. See `experiments/loop/native-refinement-a35/RESULTS.md`, `SOURCES.md`, `PROTOCOL.md` and raw measurements. Next: predicted lines plus an unopened reference set, without retuning these consumed pages.
+
+## A36 reference status
+
+Selection excluded all earlier works and inference did not read PAGE XML.
+Mechanical coordinate and serialization amendments are preserved in
+`AMENDMENT.json`, so A36 is not called a pristine implementation freeze.
+Provider GT is unchanged and not claimed as perfect adjudicated truth; the work
+and router development are now consumed.
+
+## A37 reference status
+
+The A37 code and zero-parameter router were sealed before the selected files
+were opened. Git blob identities were verified and inference did not parse PAGE
+XML. Unlike A36, no post-open implementation amendment was required. The
+provider reference is retained unchanged. Visual inspection of the eleven
+routed regressions identifies punctuation/token-boundary conventions in
+several cases; this is reported as an evaluation limitation, not used to edit
+the GT or rescore the candidate. `curineux_853804893` is now consumed.
+
+A38–A40 use only consumed cached predictions and unchanged provider references.
+Their negative comparisons do not alter A37 scores, annotations, or independent
+status. No rejected rule is promoted by deleting punctuation/token-convention
+cases from a denominator.
+
+## A44–A45 reference status
+
+A44 reuses only consumed A36/A37 references and is rejected. Its lower
+regression counts are not used to cherry-pick or remove difficult words, and no
+threshold is fitted after scoring.
+
+A45 is frozen before content inspection from the BnL raw newspaper GT archive.
+The 24-member sample contains 12 automatically identified French blocks and
+10,056 French-reference characters. The BnL documents double-keyed text with a
+minimum 99.95% accuracy and recommends the raw pairs for text-line
+segmentation. Those claims support independent OCR and line evaluation, while
+still implying a nonzero possible reference-error rate. The archive also
+contains ALTO word rectangles, but the public description does not say that
+every word rectangle was manually adjudicated. A45 therefore cannot by itself
+certify perfect ALTO word boxes. Original XML and PNG files remain immutable;
+future predictions and normalized scoring views must be stored separately.
+
+## A46–A47 — unit correction and probable BnL text errors
+
+The initial A46 geometry report was invalid because it compared BnL `mm10`
+coordinates directly to raster pixels. It is retained as
+`report-unscaled-invalid.json`. Applying the declared unit and documented
+300-PPI resolution (`300/254`) restores near-complete line agreement and reveals
+a genuine A37 word-box improvement, but not perfect boxes.
+
+Only three of twelve French blocks have non-zero punctuation-free lexical CER.
+A47 targets those already-known residuals, so it is an audit rather than an
+independent performance sample. Blind Luna and subsequent blind Sol agree
+under accent-insensitive retrieval folding on all seven images. Visual triage
+flags probable provider errors including `sera/fera`, two `II/Il` cases,
+`eile/elle`, `a/à`, `impos.-/impos-`, and `précisement/précisément`. It also
+confirms real PERO failures such as truncated `— On lit dans...`, `cerlains`,
+`daction`, and `arriére`. Model consensus does not amend the source; independent
+human adjudication remains required before any zero-CER claim.
+
+## Finlam La Liberté (A48–A49)
+
+Finlam supplies page-level reference polygons, classes, orders, article IDs and
+section IDs on an official test split. Its fields are not interchangeable kinds
+of truth: `zone_texts` is OCR-extracted provider text, not certified human
+transcription; `zone_orders` includes issue-logical inter-page continuations,
+not only page-local visual order; and `TITLE`/`SUBTITLE` expresses typographic
+hierarchy that can differ from editorial main-title/surtitle semantics. A48/A49
+keep annotations immutable and score each layer separately. Luna/reference
+agreement is never treated as a perfect-ground-truth certificate.
+
+## Finlam article convention (A50)
+
+The six consumed A49 pages contain 69 reference articles without a `TITLE`
+zone; only three (4.35%) span more than one page. The dominant failure is thus
+not missing issue context but within-page grouping of advertisements, listings
+and briefs represented almost entirely as `TEXT`.
+
+Post-score inspection also finds cases where two visually and semantically
+distinct notices share one Finlam article ID. Luna’s corresponding
+`new_article` decision counts as a false positive against that immutable
+reference even when it is defensible for retrieval. A50/A51 therefore report
+both agreement metrics and convention limits; they never rewrite article IDs or
+call VLM/reference agreement perfect truth.

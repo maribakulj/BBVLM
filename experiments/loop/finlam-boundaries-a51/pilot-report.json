@@ -1,0 +1,351 @@
+{
+  "schema": "bbvlm.finlam-boundaries-a51-pilot-evaluation/1",
+  "status": "independent frozen two-page pilot; pages consumed after this score",
+  "pages": [
+    {
+      "row_index": 216,
+      "page_index": 4,
+      "zones": 191,
+      "reference_articles": 19,
+      "queried_edges": 37,
+      "scored_edges": 37,
+      "boundary": {
+        "tp": 8,
+        "fp": 4,
+        "fn": 4,
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666
+      },
+      "global_order": {
+        "pairwise_correct": 15745,
+        "pairwise_denominator": 18145,
+        "pairwise_accuracy": 0.8677321576191789,
+        "reference_adjacent_correct": 180,
+        "reference_adjacent_denominator": 190,
+        "reference_adjacent_accuracy": 0.9473684210526315
+      },
+      "within_article_order": {
+        "micro_correct": 1372,
+        "micro_denominator": 1389,
+        "micro_accuracy": 0.9877609791216703,
+        "macro_accuracy": 0.9867355636053697,
+        "articles": [
+          {
+            "article": 86,
+            "zones": 19,
+            "pairs": 171,
+            "correct": 171,
+            "accuracy": 1.0
+          },
+          {
+            "article": 87,
+            "zones": 6,
+            "pairs": 15,
+            "correct": 15,
+            "accuracy": 1.0
+          },
+          {
+            "article": 88,
+            "zones": 5,
+            "pairs": 10,
+            "correct": 10,
+            "accuracy": 1.0
+          },
+          {
+            "article": 89,
+            "zones": 13,
+            "pairs": 78,
+            "correct": 78,
+            "accuracy": 1.0
+          },
+          {
+            "article": 90,
+            "zones": 2,
+            "pairs": 1,
+            "correct": 1,
+            "accuracy": 1.0
+          },
+          {
+            "article": 91,
+            "zones": 12,
+            "pairs": 66,
+            "correct": 66,
+            "accuracy": 1.0
+          },
+          {
+            "article": 92,
+            "zones": 5,
+            "pairs": 10,
+            "correct": 10,
+            "accuracy": 1.0
+          },
+          {
+            "article": 93,
+            "zones": 31,
+            "pairs": 465,
+            "correct": 465,
+            "accuracy": 1.0
+          },
+          {
+            "article": 94,
+            "zones": 4,
+            "pairs": 6,
+            "correct": 6,
+            "accuracy": 1.0
+          },
+          {
+            "article": 95,
+            "zones": 2,
+            "pairs": 1,
+            "correct": 1,
+            "accuracy": 1.0
+          },
+          {
+            "article": 96,
+            "zones": 15,
+            "pairs": 105,
+            "correct": 105,
+            "accuracy": 1.0
+          },
+          {
+            "article": 97,
+            "zones": 2,
+            "pairs": 1,
+            "correct": 1,
+            "accuracy": 1.0
+          },
+          {
+            "article": 98,
+            "zones": 14,
+            "pairs": 91,
+            "correct": 84,
+            "accuracy": 0.9230769230769231
+          },
+          {
+            "article": 99,
+            "zones": 9,
+            "pairs": 36,
+            "correct": 31,
+            "accuracy": 0.8611111111111112
+          },
+          {
+            "article": 100,
+            "zones": 19,
+            "pairs": 171,
+            "correct": 167,
+            "accuracy": 0.9766081871345029
+          },
+          {
+            "article": 101,
+            "zones": 4,
+            "pairs": 6,
+            "correct": 6,
+            "accuracy": 1.0
+          },
+          {
+            "article": 102,
+            "zones": 13,
+            "pairs": 78,
+            "correct": 78,
+            "accuracy": 1.0
+          },
+          {
+            "article": 103,
+            "zones": 13,
+            "pairs": 78,
+            "correct": 77,
+            "accuracy": 0.9871794871794872
+          },
+          {
+            "article": 104,
+            "zones": 1,
+            "pairs": 0,
+            "correct": 0,
+            "accuracy": 1.0
+          }
+        ]
+      },
+      "article_same_pair": {
+        "title_cut_baseline": {
+          "true_positive": 1179,
+          "reference": 1389,
+          "predicted": 1910,
+          "precision": 0.6172774869109947,
+          "recall": 0.8488120950323974,
+          "f1": 0.7147620491057897
+        },
+        "title_cut_plus_luna": {
+          "true_positive": 1116,
+          "reference": 1389,
+          "predicted": 1269,
+          "precision": 0.8794326241134752,
+          "recall": 0.8034557235421166,
+          "f1": 0.8397291196388262
+        }
+      }
+    },
+    {
+      "row_index": 164,
+      "page_index": 5,
+      "zones": 333,
+      "reference_articles": 11,
+      "queried_edges": 112,
+      "scored_edges": 112,
+      "boundary": {
+        "tp": 18,
+        "fp": 83,
+        "fn": 0,
+        "precision": 0.1782178217821782,
+        "recall": 1.0,
+        "f1": 0.3025210084033613
+      },
+      "global_order": {
+        "pairwise_correct": 42322,
+        "pairwise_denominator": 55278,
+        "pairwise_accuracy": 0.7656210427294765,
+        "reference_adjacent_correct": 309,
+        "reference_adjacent_denominator": 332,
+        "reference_adjacent_accuracy": 0.9307228915662651
+      },
+      "within_article_order": {
+        "micro_correct": 17125,
+        "micro_denominator": 17753,
+        "micro_accuracy": 0.9646256970652848,
+        "macro_accuracy": 0.9958476717498033,
+        "articles": [
+          {
+            "article": 91,
+            "zones": 27,
+            "pairs": 351,
+            "correct": 351,
+            "accuracy": 1.0
+          },
+          {
+            "article": 92,
+            "zones": 5,
+            "pairs": 10,
+            "correct": 10,
+            "accuracy": 1.0
+          },
+          {
+            "article": 93,
+            "zones": 4,
+            "pairs": 6,
+            "correct": 6,
+            "accuracy": 1.0
+          },
+          {
+            "article": 94,
+            "zones": 12,
+            "pairs": 66,
+            "correct": 66,
+            "accuracy": 1.0
+          },
+          {
+            "article": 95,
+            "zones": 13,
+            "pairs": 78,
+            "correct": 78,
+            "accuracy": 1.0
+          },
+          {
+            "article": 96,
+            "zones": 12,
+            "pairs": 66,
+            "correct": 66,
+            "accuracy": 1.0
+          },
+          {
+            "article": 120,
+            "zones": 1,
+            "pairs": 0,
+            "correct": 0,
+            "accuracy": 1.0
+          },
+          {
+            "article": 121,
+            "zones": 12,
+            "pairs": 66,
+            "correct": 66,
+            "accuracy": 1.0
+          },
+          {
+            "article": 122,
+            "zones": 7,
+            "pairs": 21,
+            "correct": 21,
+            "accuracy": 1.0
+          },
+          {
+            "article": 123,
+            "zones": 173,
+            "pairs": 14878,
+            "correct": 14259,
+            "accuracy": 0.9583949455571985
+          },
+          {
+            "article": 124,
+            "zones": 67,
+            "pairs": 2211,
+            "correct": 2202,
+            "accuracy": 0.9959294436906377
+          }
+        ]
+      },
+      "article_same_pair": {
+        "title_cut_baseline": {
+          "true_positive": 3426,
+          "reference": 17753,
+          "predicted": 8557,
+          "precision": 0.40037396283744303,
+          "recall": 0.19298146792091478,
+          "f1": 0.26043329532497145
+        },
+        "title_cut_plus_luna": {
+          "true_positive": 1182,
+          "reference": 17753,
+          "predicted": 1182,
+          "precision": 1.0,
+          "recall": 0.06658029628795133,
+          "f1": 0.12484816477422761
+        }
+      }
+    }
+  ],
+  "macro": {
+    "global_pair_accuracy": 0.8166766001743277,
+    "within_article_micro_accuracy": 0.9761933380934775,
+    "boundary_f1": 0.48459383753501395,
+    "baseline_article_pair_f1": 0.48759767221538053,
+    "candidate_article_pair_f1": 0.4822886422065269
+  },
+  "pilot_gate_conditions": {
+    "article_f1_ge_threshold": false,
+    "global_ge_threshold": false,
+    "within_ge_threshold": false,
+    "article_f1_above_baseline": false,
+    "no_page_article_f1_regression": false
+  },
+  "cost": {
+    "vlm_passes": 1,
+    "pages": 2,
+    "images": 26,
+    "queried_edges": 149
+  },
+  "invariants": {
+    "split_frozen_before_open": true,
+    "router_does_not_read_article_ids": true,
+    "opaque_ids": true,
+    "reference_withheld_from_reader": true,
+    "original_reference_unchanged": true,
+    "geometry_order_unchanged": true
+  },
+  "limitations": [
+    "Only the first two of eight frozen A51 pages are opened; this pilot cannot close the registered eight-page gate.",
+    "Oracle region polygons/classes isolate OLR/article semantics and are not end-to-end detection.",
+    "Finlam article annotations are provider reference, not independently human-adjudicated perfect truth.",
+    "After opening but before any reader/reference score, a mechanical adapter retained float polygon extents because integer rounding made one thin region zero-width."
+  ],
+  "pilot_gate_passed": false
+}

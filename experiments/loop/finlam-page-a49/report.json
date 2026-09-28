@@ -1,0 +1,2816 @@
+{
+  "schema": "bbvlm.finlam-recurrent-columns-a49-validation/1",
+  "status": "independent frozen validation; six pages consumed after this score",
+  "scope": "oracle Finlam boxes/classes; frozen geometry/order/article logic; no VLM and no OCR",
+  "pages": [
+    {
+      "row_index": 135,
+      "page_index": 2,
+      "zones": 215,
+      "reference_articles": 34,
+      "articles_without_title": 23,
+      "largest_reference_order_gap": 118,
+      "legacy": {
+        "columns": 1,
+        "global_order": {
+          "pairwise_correct": 17738,
+          "pairwise_denominator": 23005,
+          "pairwise_accuracy": 0.7710497717887416,
+          "reference_adjacent_correct": 198,
+          "reference_adjacent_denominator": 214,
+          "reference_adjacent_accuracy": 0.9252336448598131
+        },
+        "within_article_order": {
+          "micro_correct": 1068,
+          "micro_denominator": 1340,
+          "micro_accuracy": 0.7970149253731343,
+          "macro_accuracy": 0.9251607604548782,
+          "articles": [
+            {
+              "article": 5,
+              "zones": 12,
+              "pairs": 66,
+              "correct": 66,
+              "accuracy": 1.0
+            },
+            {
+              "article": 20,
+              "zones": 37,
+              "pairs": 666,
+              "correct": 440,
+              "accuracy": 0.6606606606606606
+            },
+            {
+              "article": 21,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 22,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 23,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 24,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 25,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 26,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 13,
+              "accuracy": 0.6190476190476191
+            },
+            {
+              "article": 27,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 28,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 21,
+              "accuracy": 1.0
+            },
+            {
+              "article": 29,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 30,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 31,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 36,
+              "accuracy": 1.0
+            },
+            {
+              "article": 32,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 33,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 3,
+              "accuracy": 0.5
+            },
+            {
+              "article": 34,
+              "zones": 20,
+              "pairs": 190,
+              "correct": 190,
+              "accuracy": 1.0
+            },
+            {
+              "article": 35,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 36,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 37,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 38,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 39,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 6,
+              "accuracy": 0.6
+            },
+            {
+              "article": 40,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 41,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 42,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 3,
+              "accuracy": 0.5
+            },
+            {
+              "article": 43,
+              "zones": 12,
+              "pairs": 66,
+              "correct": 38,
+              "accuracy": 0.5757575757575758
+            },
+            {
+              "article": 44,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 45,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 46,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 47,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 48,
+              "zones": 13,
+              "pairs": 78,
+              "correct": 78,
+              "accuracy": 1.0
+            },
+            {
+              "article": 49,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 50,
+              "zones": 12,
+              "pairs": 66,
+              "correct": 66,
+              "accuracy": 1.0
+            },
+            {
+              "article": 51,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 52,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        "article_same_pair": {
+          "true_positive": 501,
+          "reference": 1340,
+          "predicted": 3555,
+          "precision": 0.1409282700421941,
+          "recall": 0.3738805970149254,
+          "f1": 0.20469867211440246
+        }
+      },
+      "candidate": {
+        "columns": 7,
+        "global_order": {
+          "pairwise_correct": 18050,
+          "pairwise_denominator": 23005,
+          "pairwise_accuracy": 0.7846120408606825,
+          "reference_adjacent_correct": 205,
+          "reference_adjacent_denominator": 214,
+          "reference_adjacent_accuracy": 0.9579439252336449
+        },
+        "within_article_order": {
+          "micro_correct": 1318,
+          "micro_denominator": 1340,
+          "micro_accuracy": 0.9835820895522388,
+          "macro_accuracy": 0.9866374395786162,
+          "articles": [
+            {
+              "article": 5,
+              "zones": 12,
+              "pairs": 66,
+              "correct": 66,
+              "accuracy": 1.0
+            },
+            {
+              "article": 20,
+              "zones": 37,
+              "pairs": 666,
+              "correct": 650,
+              "accuracy": 0.975975975975976
+            },
+            {
+              "article": 21,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 22,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 23,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 24,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 25,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 26,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 21,
+              "accuracy": 1.0
+            },
+            {
+              "article": 27,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 28,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 21,
+              "accuracy": 1.0
+            },
+            {
+              "article": 29,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 30,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 31,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 36,
+              "accuracy": 1.0
+            },
+            {
+              "article": 32,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 33,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 34,
+              "zones": 20,
+              "pairs": 190,
+              "correct": 190,
+              "accuracy": 1.0
+            },
+            {
+              "article": 35,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 36,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 37,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 38,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 39,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 6,
+              "accuracy": 0.6
+            },
+            {
+              "article": 40,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 41,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 42,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 43,
+              "zones": 12,
+              "pairs": 66,
+              "correct": 64,
+              "accuracy": 0.9696969696969697
+            },
+            {
+              "article": 44,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 45,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 46,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 47,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 48,
+              "zones": 13,
+              "pairs": 78,
+              "correct": 78,
+              "accuracy": 1.0
+            },
+            {
+              "article": 49,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 50,
+              "zones": 12,
+              "pairs": 66,
+              "correct": 66,
+              "accuracy": 1.0
+            },
+            {
+              "article": 51,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 52,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        "article_same_pair": {
+          "true_positive": 917,
+          "reference": 1340,
+          "predicted": 3523,
+          "precision": 0.2602895259721828,
+          "recall": 0.6843283582089552,
+          "f1": 0.3771334567139626
+        }
+      }
+    },
+    {
+      "row_index": 419,
+      "page_index": 5,
+      "zones": 171,
+      "reference_articles": 15,
+      "articles_without_title": 6,
+      "largest_reference_order_gap": 1,
+      "legacy": {
+        "columns": 1,
+        "global_order": {
+          "pairwise_correct": 9506,
+          "pairwise_denominator": 14535,
+          "pairwise_accuracy": 0.6540075679394565,
+          "reference_adjacent_correct": 154,
+          "reference_adjacent_denominator": 170,
+          "reference_adjacent_accuracy": 0.9058823529411765
+        },
+        "within_article_order": {
+          "micro_correct": 1086,
+          "micro_denominator": 1209,
+          "micro_accuracy": 0.8982630272952854,
+          "macro_accuracy": 0.9120147688568742,
+          "articles": [
+            {
+              "article": 100,
+              "zones": 19,
+              "pairs": 171,
+              "correct": 170,
+              "accuracy": 0.9941520467836257
+            },
+            {
+              "article": 101,
+              "zones": 14,
+              "pairs": 91,
+              "correct": 55,
+              "accuracy": 0.6043956043956044
+            },
+            {
+              "article": 102,
+              "zones": 21,
+              "pairs": 210,
+              "correct": 209,
+              "accuracy": 0.9952380952380953
+            },
+            {
+              "article": 103,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 104,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 105,
+              "zones": 21,
+              "pairs": 210,
+              "correct": 143,
+              "accuracy": 0.680952380952381
+            },
+            {
+              "article": 106,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 107,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 108,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 109,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 16,
+              "accuracy": 0.7619047619047619
+            },
+            {
+              "article": 110,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 25,
+              "accuracy": 0.6944444444444444
+            },
+            {
+              "article": 111,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 36,
+              "accuracy": 1.0
+            },
+            {
+              "article": 112,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 27,
+              "accuracy": 0.9642857142857143
+            },
+            {
+              "article": 113,
+              "zones": 12,
+              "pairs": 66,
+              "correct": 65,
+              "accuracy": 0.9848484848484849
+            },
+            {
+              "article": 114,
+              "zones": 24,
+              "pairs": 276,
+              "correct": 276,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        "article_same_pair": {
+          "true_positive": 798,
+          "reference": 1209,
+          "predicted": 5153,
+          "precision": 0.15486124587618863,
+          "recall": 0.6600496277915633,
+          "f1": 0.2508645080163471
+        }
+      },
+      "candidate": {
+        "columns": 7,
+        "global_order": {
+          "pairwise_correct": 13515,
+          "pairwise_denominator": 14535,
+          "pairwise_accuracy": 0.9298245614035088,
+          "reference_adjacent_correct": 159,
+          "reference_adjacent_denominator": 170,
+          "reference_adjacent_accuracy": 0.9352941176470588
+        },
+        "within_article_order": {
+          "micro_correct": 1186,
+          "micro_denominator": 1209,
+          "micro_accuracy": 0.9809760132340778,
+          "macro_accuracy": 0.9401222169643222,
+          "articles": [
+            {
+              "article": 100,
+              "zones": 19,
+              "pairs": 171,
+              "correct": 170,
+              "accuracy": 0.9941520467836257
+            },
+            {
+              "article": 101,
+              "zones": 14,
+              "pairs": 91,
+              "correct": 86,
+              "accuracy": 0.945054945054945
+            },
+            {
+              "article": 102,
+              "zones": 21,
+              "pairs": 210,
+              "correct": 209,
+              "accuracy": 0.9952380952380953
+            },
+            {
+              "article": 103,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 104,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 2,
+              "accuracy": 0.6666666666666666
+            },
+            {
+              "article": 105,
+              "zones": 21,
+              "pairs": 210,
+              "correct": 210,
+              "accuracy": 1.0
+            },
+            {
+              "article": 106,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 107,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 108,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 109,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 21,
+              "accuracy": 1.0
+            },
+            {
+              "article": 110,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 34,
+              "accuracy": 0.9444444444444444
+            },
+            {
+              "article": 111,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 36,
+              "accuracy": 1.0
+            },
+            {
+              "article": 112,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 16,
+              "accuracy": 0.5714285714285714
+            },
+            {
+              "article": 113,
+              "zones": 12,
+              "pairs": 66,
+              "correct": 65,
+              "accuracy": 0.9848484848484849
+            },
+            {
+              "article": 114,
+              "zones": 24,
+              "pairs": 276,
+              "correct": 276,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        "article_same_pair": {
+          "true_positive": 993,
+          "reference": 1209,
+          "predicted": 2177,
+          "precision": 0.4561322921451539,
+          "recall": 0.8213399503722084,
+          "f1": 0.5865327820437093
+        }
+      }
+    },
+    {
+      "row_index": 92,
+      "page_index": 2,
+      "zones": 241,
+      "reference_articles": 34,
+      "articles_without_title": 11,
+      "largest_reference_order_gap": 1,
+      "legacy": {
+        "columns": 1,
+        "global_order": {
+          "pairwise_correct": 17735,
+          "pairwise_denominator": 28920,
+          "pairwise_accuracy": 0.6132434301521439,
+          "reference_adjacent_correct": 229,
+          "reference_adjacent_denominator": 240,
+          "reference_adjacent_accuracy": 0.9541666666666667
+        },
+        "within_article_order": {
+          "micro_correct": 1215,
+          "micro_denominator": 1398,
+          "micro_accuracy": 0.869098712446352,
+          "macro_accuracy": 0.8978902195156065,
+          "articles": [
+            {
+              "article": 18,
+              "zones": 26,
+              "pairs": 325,
+              "correct": 314,
+              "accuracy": 0.9661538461538461
+            },
+            {
+              "article": 19,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 20,
+              "zones": 15,
+              "pairs": 105,
+              "correct": 68,
+              "accuracy": 0.6476190476190476
+            },
+            {
+              "article": 21,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 16,
+              "accuracy": 0.4444444444444444
+            },
+            {
+              "article": 22,
+              "zones": 21,
+              "pairs": 210,
+              "correct": 210,
+              "accuracy": 1.0
+            },
+            {
+              "article": 23,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 24,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 25,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 26,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 27,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 8,
+              "accuracy": 0.5333333333333333
+            },
+            {
+              "article": 28,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 3,
+              "accuracy": 0.5
+            },
+            {
+              "article": 29,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 30,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 31,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 32,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 13,
+              "accuracy": 0.4642857142857143
+            },
+            {
+              "article": 33,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 34,
+              "zones": 13,
+              "pairs": 78,
+              "correct": 78,
+              "accuracy": 1.0
+            },
+            {
+              "article": 35,
+              "zones": 19,
+              "pairs": 171,
+              "correct": 93,
+              "accuracy": 0.543859649122807
+            },
+            {
+              "article": 36,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 37,
+              "zones": 23,
+              "pairs": 253,
+              "correct": 253,
+              "accuracy": 1.0
+            },
+            {
+              "article": 38,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 39,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 40,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 9,
+              "accuracy": 0.42857142857142855
+            },
+            {
+              "article": 41,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 42,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 43,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 44,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 45,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 46,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 47,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 48,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 49,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 21,
+              "accuracy": 1.0
+            },
+            {
+              "article": 50,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 51,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        "article_same_pair": {
+          "true_positive": 247,
+          "reference": 1398,
+          "predicted": 1870,
+          "precision": 0.1320855614973262,
+          "recall": 0.17668097281831188,
+          "f1": 0.15116279069767444
+        }
+      },
+      "candidate": {
+        "columns": 7,
+        "global_order": {
+          "pairwise_correct": 27642,
+          "pairwise_denominator": 28920,
+          "pairwise_accuracy": 0.9558091286307054,
+          "reference_adjacent_correct": 234,
+          "reference_adjacent_denominator": 240,
+          "reference_adjacent_accuracy": 0.975
+        },
+        "within_article_order": {
+          "micro_correct": 1363,
+          "micro_denominator": 1398,
+          "micro_accuracy": 0.974964234620887,
+          "macro_accuracy": 0.9901131221719456,
+          "articles": [
+            {
+              "article": 18,
+              "zones": 26,
+              "pairs": 325,
+              "correct": 297,
+              "accuracy": 0.9138461538461539
+            },
+            {
+              "article": 19,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 20,
+              "zones": 15,
+              "pairs": 105,
+              "correct": 105,
+              "accuracy": 1.0
+            },
+            {
+              "article": 21,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 36,
+              "accuracy": 1.0
+            },
+            {
+              "article": 22,
+              "zones": 21,
+              "pairs": 210,
+              "correct": 210,
+              "accuracy": 1.0
+            },
+            {
+              "article": 23,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 24,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 25,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 26,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 27,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 28,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 29,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 30,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 31,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 32,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 21,
+              "accuracy": 0.75
+            },
+            {
+              "article": 33,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 34,
+              "zones": 13,
+              "pairs": 78,
+              "correct": 78,
+              "accuracy": 1.0
+            },
+            {
+              "article": 35,
+              "zones": 19,
+              "pairs": 171,
+              "correct": 171,
+              "accuracy": 1.0
+            },
+            {
+              "article": 36,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 37,
+              "zones": 23,
+              "pairs": 253,
+              "correct": 253,
+              "accuracy": 1.0
+            },
+            {
+              "article": 38,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 39,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 40,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 21,
+              "accuracy": 1.0
+            },
+            {
+              "article": 41,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 42,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 43,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 44,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 45,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 46,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 47,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 48,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 49,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 21,
+              "accuracy": 1.0
+            },
+            {
+              "article": 50,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 51,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        "article_same_pair": {
+          "true_positive": 1244,
+          "reference": 1398,
+          "predicted": 1683,
+          "precision": 0.7391562685680333,
+          "recall": 0.8898426323319027,
+          "f1": 0.807530022719896
+        }
+      }
+    },
+    {
+      "row_index": 186,
+      "page_index": 2,
+      "zones": 260,
+      "reference_articles": 40,
+      "articles_without_title": 23,
+      "largest_reference_order_gap": 1,
+      "legacy": {
+        "columns": 1,
+        "global_order": {
+          "pairwise_correct": 23344,
+          "pairwise_denominator": 33670,
+          "pairwise_accuracy": 0.6933174933174934,
+          "reference_adjacent_correct": 244,
+          "reference_adjacent_denominator": 259,
+          "reference_adjacent_accuracy": 0.9420849420849421
+        },
+        "within_article_order": {
+          "micro_correct": 1298,
+          "micro_denominator": 1371,
+          "micro_accuracy": 0.9467541940189642,
+          "macro_accuracy": 0.964017094017094,
+          "articles": [
+            {
+              "article": 16,
+              "zones": 21,
+              "pairs": 210,
+              "correct": 210,
+              "accuracy": 1.0
+            },
+            {
+              "article": 17,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 18,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 21,
+              "accuracy": 1.0
+            },
+            {
+              "article": 19,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 20,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 21,
+              "accuracy": 1.0
+            },
+            {
+              "article": 21,
+              "zones": 10,
+              "pairs": 45,
+              "correct": 45,
+              "accuracy": 1.0
+            },
+            {
+              "article": 22,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 23,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 24,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 25,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 26,
+              "zones": 12,
+              "pairs": 66,
+              "correct": 66,
+              "accuracy": 1.0
+            },
+            {
+              "article": 27,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 28,
+              "zones": 13,
+              "pairs": 78,
+              "correct": 42,
+              "accuracy": 0.5384615384615384
+            },
+            {
+              "article": 29,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 30,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 31,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 21,
+              "accuracy": 1.0
+            },
+            {
+              "article": 32,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 36,
+              "accuracy": 1.0
+            },
+            {
+              "article": 33,
+              "zones": 10,
+              "pairs": 45,
+              "correct": 20,
+              "accuracy": 0.4444444444444444
+            },
+            {
+              "article": 34,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 35,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 36,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 37,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 38,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 39,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 40,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 32,
+              "accuracy": 0.8888888888888888
+            },
+            {
+              "article": 41,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 42,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 43,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 44,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 12,
+              "accuracy": 0.8
+            },
+            {
+              "article": 45,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 46,
+              "zones": 11,
+              "pairs": 55,
+              "correct": 55,
+              "accuracy": 1.0
+            },
+            {
+              "article": 47,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 48,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 36,
+              "accuracy": 1.0
+            },
+            {
+              "article": 49,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 50,
+              "zones": 10,
+              "pairs": 45,
+              "correct": 40,
+              "accuracy": 0.8888888888888888
+            },
+            {
+              "article": 51,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 52,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 53,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 54,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 55,
+              "zones": 32,
+              "pairs": 496,
+              "correct": 496,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        "article_same_pair": {
+          "true_positive": 402,
+          "reference": 1371,
+          "predicted": 2915,
+          "precision": 0.1379073756432247,
+          "recall": 0.29321663019693656,
+          "f1": 0.1875874941670555
+        }
+      },
+      "candidate": {
+        "columns": 7,
+        "global_order": {
+          "pairwise_correct": 30067,
+          "pairwise_denominator": 33670,
+          "pairwise_accuracy": 0.892990792990793,
+          "reference_adjacent_correct": 253,
+          "reference_adjacent_denominator": 259,
+          "reference_adjacent_accuracy": 0.9768339768339769
+        },
+        "within_article_order": {
+          "micro_correct": 1357,
+          "micro_denominator": 1371,
+          "micro_accuracy": 0.9897884755652808,
+          "macro_accuracy": 0.9922222222222222,
+          "articles": [
+            {
+              "article": 16,
+              "zones": 21,
+              "pairs": 210,
+              "correct": 210,
+              "accuracy": 1.0
+            },
+            {
+              "article": 17,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 18,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 21,
+              "accuracy": 1.0
+            },
+            {
+              "article": 19,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 20,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 21,
+              "accuracy": 1.0
+            },
+            {
+              "article": 21,
+              "zones": 10,
+              "pairs": 45,
+              "correct": 45,
+              "accuracy": 1.0
+            },
+            {
+              "article": 22,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 23,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 24,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 25,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 26,
+              "zones": 12,
+              "pairs": 66,
+              "correct": 66,
+              "accuracy": 1.0
+            },
+            {
+              "article": 27,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 28,
+              "zones": 13,
+              "pairs": 78,
+              "correct": 78,
+              "accuracy": 1.0
+            },
+            {
+              "article": 29,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 30,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 31,
+              "zones": 7,
+              "pairs": 21,
+              "correct": 21,
+              "accuracy": 1.0
+            },
+            {
+              "article": 32,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 36,
+              "accuracy": 1.0
+            },
+            {
+              "article": 33,
+              "zones": 10,
+              "pairs": 45,
+              "correct": 45,
+              "accuracy": 1.0
+            },
+            {
+              "article": 34,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 35,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 36,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 37,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 38,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 39,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 40,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 36,
+              "accuracy": 1.0
+            },
+            {
+              "article": 41,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 42,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 43,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 44,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 45,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 46,
+              "zones": 11,
+              "pairs": 55,
+              "correct": 55,
+              "accuracy": 1.0
+            },
+            {
+              "article": 47,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 48,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 36,
+              "accuracy": 1.0
+            },
+            {
+              "article": 49,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 50,
+              "zones": 10,
+              "pairs": 45,
+              "correct": 31,
+              "accuracy": 0.6888888888888889
+            },
+            {
+              "article": 51,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 52,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 53,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 54,
+              "zones": 1,
+              "pairs": 0,
+              "correct": 0,
+              "accuracy": 1.0
+            },
+            {
+              "article": 55,
+              "zones": 32,
+              "pairs": 496,
+              "correct": 496,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        "article_same_pair": {
+          "true_positive": 1315,
+          "reference": 1371,
+          "predicted": 3110,
+          "precision": 0.4228295819935691,
+          "recall": 0.9591539022611233,
+          "f1": 0.5869225619281411
+        }
+      }
+    },
+    {
+      "row_index": 409,
+      "page_index": 4,
+      "zones": 235,
+      "reference_articles": 21,
+      "articles_without_title": 1,
+      "largest_reference_order_gap": 1,
+      "legacy": {
+        "columns": 1,
+        "global_order": {
+          "pairwise_correct": 17024,
+          "pairwise_denominator": 27495,
+          "pairwise_accuracy": 0.6191671212947809,
+          "reference_adjacent_correct": 225,
+          "reference_adjacent_denominator": 234,
+          "reference_adjacent_accuracy": 0.9615384615384616
+        },
+        "within_article_order": {
+          "micro_correct": 1291,
+          "micro_denominator": 1498,
+          "micro_accuracy": 0.8618157543391188,
+          "macro_accuracy": 0.9479356399657152,
+          "articles": [
+            {
+              "article": 84,
+              "zones": 16,
+              "pairs": 120,
+              "correct": 120,
+              "accuracy": 1.0
+            },
+            {
+              "article": 85,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 86,
+              "zones": 25,
+              "pairs": 300,
+              "correct": 186,
+              "accuracy": 0.62
+            },
+            {
+              "article": 87,
+              "zones": 16,
+              "pairs": 120,
+              "correct": 120,
+              "accuracy": 1.0
+            },
+            {
+              "article": 88,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 89,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 90,
+              "zones": 14,
+              "pairs": 91,
+              "correct": 91,
+              "accuracy": 1.0
+            },
+            {
+              "article": 91,
+              "zones": 14,
+              "pairs": 91,
+              "correct": 91,
+              "accuracy": 1.0
+            },
+            {
+              "article": 92,
+              "zones": 20,
+              "pairs": 190,
+              "correct": 115,
+              "accuracy": 0.6052631578947368
+            },
+            {
+              "article": 93,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 94,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 95,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 96,
+              "zones": 10,
+              "pairs": 45,
+              "correct": 45,
+              "accuracy": 1.0
+            },
+            {
+              "article": 97,
+              "zones": 11,
+              "pairs": 55,
+              "correct": 38,
+              "accuracy": 0.6909090909090909
+            },
+            {
+              "article": 98,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 99,
+              "zones": 10,
+              "pairs": 45,
+              "correct": 45,
+              "accuracy": 1.0
+            },
+            {
+              "article": 100,
+              "zones": 11,
+              "pairs": 55,
+              "correct": 55,
+              "accuracy": 1.0
+            },
+            {
+              "article": 101,
+              "zones": 14,
+              "pairs": 91,
+              "correct": 91,
+              "accuracy": 1.0
+            },
+            {
+              "article": 102,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 36,
+              "accuracy": 1.0
+            },
+            {
+              "article": 103,
+              "zones": 14,
+              "pairs": 91,
+              "correct": 91,
+              "accuracy": 1.0
+            },
+            {
+              "article": 104,
+              "zones": 15,
+              "pairs": 105,
+              "correct": 104,
+              "accuracy": 0.9904761904761905
+            }
+          ]
+        },
+        "article_same_pair": {
+          "true_positive": 466,
+          "reference": 1498,
+          "predicted": 2841,
+          "precision": 0.1640267511439634,
+          "recall": 0.31108144192256343,
+          "f1": 0.21479603595298455
+        }
+      },
+      "candidate": {
+        "columns": 7,
+        "global_order": {
+          "pairwise_correct": 27049,
+          "pairwise_denominator": 27495,
+          "pairwise_accuracy": 0.9837788688852519,
+          "reference_adjacent_correct": 227,
+          "reference_adjacent_denominator": 234,
+          "reference_adjacent_accuracy": 0.9700854700854701
+        },
+        "within_article_order": {
+          "micro_correct": 1496,
+          "micro_denominator": 1498,
+          "micro_accuracy": 0.9986648865153538,
+          "macro_accuracy": 0.999023199023199,
+          "articles": [
+            {
+              "article": 84,
+              "zones": 16,
+              "pairs": 120,
+              "correct": 120,
+              "accuracy": 1.0
+            },
+            {
+              "article": 85,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 86,
+              "zones": 25,
+              "pairs": 300,
+              "correct": 300,
+              "accuracy": 1.0
+            },
+            {
+              "article": 87,
+              "zones": 16,
+              "pairs": 120,
+              "correct": 120,
+              "accuracy": 1.0
+            },
+            {
+              "article": 88,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 89,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 90,
+              "zones": 14,
+              "pairs": 91,
+              "correct": 91,
+              "accuracy": 1.0
+            },
+            {
+              "article": 91,
+              "zones": 14,
+              "pairs": 91,
+              "correct": 91,
+              "accuracy": 1.0
+            },
+            {
+              "article": 92,
+              "zones": 20,
+              "pairs": 190,
+              "correct": 190,
+              "accuracy": 1.0
+            },
+            {
+              "article": 93,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 94,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 95,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 96,
+              "zones": 10,
+              "pairs": 45,
+              "correct": 45,
+              "accuracy": 1.0
+            },
+            {
+              "article": 97,
+              "zones": 11,
+              "pairs": 55,
+              "correct": 55,
+              "accuracy": 1.0
+            },
+            {
+              "article": 98,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 99,
+              "zones": 10,
+              "pairs": 45,
+              "correct": 45,
+              "accuracy": 1.0
+            },
+            {
+              "article": 100,
+              "zones": 11,
+              "pairs": 55,
+              "correct": 55,
+              "accuracy": 1.0
+            },
+            {
+              "article": 101,
+              "zones": 14,
+              "pairs": 91,
+              "correct": 90,
+              "accuracy": 0.989010989010989
+            },
+            {
+              "article": 102,
+              "zones": 9,
+              "pairs": 36,
+              "correct": 36,
+              "accuracy": 1.0
+            },
+            {
+              "article": 103,
+              "zones": 14,
+              "pairs": 91,
+              "correct": 91,
+              "accuracy": 1.0
+            },
+            {
+              "article": 104,
+              "zones": 15,
+              "pairs": 105,
+              "correct": 104,
+              "accuracy": 0.9904761904761905
+            }
+          ]
+        },
+        "article_same_pair": {
+          "true_positive": 1407,
+          "reference": 1498,
+          "predicted": 1631,
+          "precision": 0.8626609442060086,
+          "recall": 0.9392523364485982,
+          "f1": 0.8993288590604027
+        }
+      }
+    },
+    {
+      "row_index": 356,
+      "page_index": 3,
+      "zones": 189,
+      "reference_articles": 27,
+      "articles_without_title": 5,
+      "largest_reference_order_gap": 316,
+      "legacy": {
+        "columns": 1,
+        "global_order": {
+          "pairwise_correct": 12115,
+          "pairwise_denominator": 17766,
+          "pairwise_accuracy": 0.6819205223460543,
+          "reference_adjacent_correct": 175,
+          "reference_adjacent_denominator": 188,
+          "reference_adjacent_accuracy": 0.9308510638297872
+        },
+        "within_article_order": {
+          "micro_correct": 696,
+          "micro_denominator": 812,
+          "micro_accuracy": 0.8571428571428571,
+          "macro_accuracy": 0.9511099686538282,
+          "articles": [
+            {
+              "article": 2,
+              "zones": 11,
+              "pairs": 55,
+              "correct": 55,
+              "accuracy": 1.0
+            },
+            {
+              "article": 7,
+              "zones": 20,
+              "pairs": 190,
+              "correct": 123,
+              "accuracy": 0.6473684210526316
+            },
+            {
+              "article": 52,
+              "zones": 11,
+              "pairs": 55,
+              "correct": 55,
+              "accuracy": 1.0
+            },
+            {
+              "article": 53,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 54,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 55,
+              "zones": 14,
+              "pairs": 91,
+              "correct": 71,
+              "accuracy": 0.7802197802197802
+            },
+            {
+              "article": 56,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 57,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 58,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 59,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 60,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 61,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 62,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 63,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 64,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 65,
+              "zones": 12,
+              "pairs": 66,
+              "correct": 66,
+              "accuracy": 1.0
+            },
+            {
+              "article": 66,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 67,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 68,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 69,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 70,
+              "zones": 15,
+              "pairs": 105,
+              "correct": 79,
+              "accuracy": 0.7523809523809524
+            },
+            {
+              "article": 71,
+              "zones": 10,
+              "pairs": 45,
+              "correct": 45,
+              "accuracy": 1.0
+            },
+            {
+              "article": 72,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 73,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 74,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 75,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 3,
+              "accuracy": 0.5
+            },
+            {
+              "article": 76,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        "article_same_pair": {
+          "true_positive": 261,
+          "reference": 812,
+          "predicted": 1670,
+          "precision": 0.1562874251497006,
+          "recall": 0.32142857142857145,
+          "f1": 0.21031426269137793
+        }
+      },
+      "candidate": {
+        "columns": 7,
+        "global_order": {
+          "pairwise_correct": 13384,
+          "pairwise_denominator": 17766,
+          "pairwise_accuracy": 0.7533490937746257,
+          "reference_adjacent_correct": 183,
+          "reference_adjacent_denominator": 188,
+          "reference_adjacent_accuracy": 0.973404255319149
+        },
+        "within_article_order": {
+          "micro_correct": 812,
+          "micro_denominator": 812,
+          "micro_accuracy": 1.0,
+          "macro_accuracy": 1.0,
+          "articles": [
+            {
+              "article": 2,
+              "zones": 11,
+              "pairs": 55,
+              "correct": 55,
+              "accuracy": 1.0
+            },
+            {
+              "article": 7,
+              "zones": 20,
+              "pairs": 190,
+              "correct": 190,
+              "accuracy": 1.0
+            },
+            {
+              "article": 52,
+              "zones": 11,
+              "pairs": 55,
+              "correct": 55,
+              "accuracy": 1.0
+            },
+            {
+              "article": 53,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 54,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 55,
+              "zones": 14,
+              "pairs": 91,
+              "correct": 91,
+              "accuracy": 1.0
+            },
+            {
+              "article": 56,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 57,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 58,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 59,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 60,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 61,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 62,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 63,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 64,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 65,
+              "zones": 12,
+              "pairs": 66,
+              "correct": 66,
+              "accuracy": 1.0
+            },
+            {
+              "article": 66,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 67,
+              "zones": 2,
+              "pairs": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            {
+              "article": 68,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            {
+              "article": 69,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 70,
+              "zones": 15,
+              "pairs": 105,
+              "correct": 105,
+              "accuracy": 1.0
+            },
+            {
+              "article": 71,
+              "zones": 10,
+              "pairs": 45,
+              "correct": 45,
+              "accuracy": 1.0
+            },
+            {
+              "article": 72,
+              "zones": 8,
+              "pairs": 28,
+              "correct": 28,
+              "accuracy": 1.0
+            },
+            {
+              "article": 73,
+              "zones": 5,
+              "pairs": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            {
+              "article": 74,
+              "zones": 6,
+              "pairs": 15,
+              "correct": 15,
+              "accuracy": 1.0
+            },
+            {
+              "article": 75,
+              "zones": 4,
+              "pairs": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            {
+              "article": 76,
+              "zones": 3,
+              "pairs": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            }
+          ]
+        },
+        "article_same_pair": {
+          "true_positive": 663,
+          "reference": 812,
+          "predicted": 1025,
+          "precision": 0.646829268292683,
+          "recall": 0.8165024630541872,
+          "f1": 0.7218290691344583
+        }
+      }
+    }
+  ],
+  "macro": {
+    "legacy": {
+      "global_pair_accuracy": 0.6721176511397785,
+      "within_article_micro_accuracy": 0.8716815784359521,
+      "article_same_pair_f1": 0.20323729393997367
+    },
+    "candidate": {
+      "global_pair_accuracy": 0.8833940810909279,
+      "within_article_micro_accuracy": 0.9879959499146397,
+      "article_same_pair_f1": 0.6632127919334283
+    }
+  },
+  "gate_conditions": {
+    "within_article_ge_threshold": true,
+    "global_ge_threshold": false,
+    "article_f1_ge_threshold": false,
+    "strictly_better_all_three": true
+  },
+  "conditional_gate_passed": false,
+  "cost": {
+    "vlm_passes": 0,
+    "cpu_seconds": 0.0826104169991595
+  },
+  "invariants": {
+    "unopened_hash_split": true,
+    "pinned_revision_verified": true,
+    "frozen_parameters": {
+      "body_roles": [
+        "TEXT",
+        "ILLUSTRATEDTEXT"
+      ],
+      "narrow_width_ratio": 0.22,
+      "fine_cluster_width_fraction": 0.25,
+      "merge_anchor_width_fraction": 0.5,
+      "min_support": 3
+    },
+    "no_retuning": true
+  },
+  "limitations": [
+    "Oracle region boxes and classes; does not measure YOLO/PERO detection.",
+    "Issue-logical continuation order can require adjacent-page context unavailable to geometry.",
+    "Six pages are enough to reject this gate but not certify perfect OLR."
+  ]
+}

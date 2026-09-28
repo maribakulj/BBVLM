@@ -920,3 +920,180 @@ consignés dans `word-transfer-a34/SOURCES.md`.
 ## A35: tested implication of CTC geometry and component attachment
 
 2026-09-27: `scripts/evaluate_native_refinement_a35.py` applies unchanged A32 to cached native recognized words. On consumed French A28, recall IoU≥0.8 improves 11.07% → 80.66%; on consumed German/Latin A34, 19.04% → 55.96%. Reference transcription/token count are removed from the refiner; reference line rectangles and synthetic baselines remain. No new OCR/VLM inference or CER improvement. Joint exact-text+IoU≥0.8 recall is 73.25% / 42.09%, and visual audit confirms neighboring-ink/punctuation failures. All project gates stay false. See `experiments/loop/native-refinement-a35/RESULTS.md`, `SOURCES.md`, `PROTOCOL.md` and raw measurements. Next: predicted lines plus an unopened reference set, without retuning these consumed pages.
+
+## A36 — predicted-line bottleneck
+
+Current PERO master, Kodym & Hradiš (ICDAR 2021), Olejniczak & Šulc
+(arXiv:2210.07903v2), pinned SBB GT and current DocLayout-YOLO scope were
+re-read. With near-complete line detection, the measured defect is A32's
+component ownership across tightly spaced lines, not missing macro-regions.
+Exact revisions, hashes and negative evidence are in
+`predicted-lines-a36/SOURCES.md`.
+
+## A37 — frozen router validation
+
+A37 introduces no new literature-derived hypothesis: it validates the unchanged
+zero-parameter non-expansion guard on a newly frozen work, using the primary
+sources and current code review already recorded for A36. Native mean word IoU
+.568214 becomes .853595 and IoU80 recall .005085 becomes .686441, with gains on
+every page. The result supports selective inexpensive geometry post-processing,
+not a claim of perfect ALTO or a reason to add an unmeasured region detector.
+
+## A38–A40 — ownership ablations
+
+Current PERO 0.7.0 ALTO export code was inspected directly: word rectangles are
+min/max crop coordinates of force-aligned CTC word spans with a fixed extension.
+Official ALTO documentation defines String geometry but no pixel-ownership
+algorithm. Historical segmentation work by Gatos et al. (IVC 2010) and
+Louloudis et al. (Pattern Recognition 2009) treats punctuation, touching/broken
+components, dense neighboring lines, and word gaps as coupled problems. Against
+that background, three deliberately simpler rectangle-only rules were tested
+and rejected on A28/A34/A36/A37: width non-expansion, vertical containment, and
+equal-height translation rejection. Exact sources and results are in the A38,
+A39, and A40 directories.
+
+## A41–A43 — predicted line bands and connected-component ownership
+
+Primary/current code inspected on 28/09/2026:
+
+- `DCGM/pero-ocr@4301bdffe9205dff11579dae27b3f80458c27e89`, especially
+  `pero_ocr/core/layout.py`: PAGE serializes each predicted baseline together
+  with `heights_v2`; ALTO force-aligns the transcription to logits, maps the
+  span through the crop grid, and emits min/max coordinates. These line-height
+  estimates are therefore available without another model pass, but they are
+  line geometry rather than word ownership truth.
+- `cisocrgroup/ocrd_cis@a30ce3b033deddb70e7f18a479b2e5dc02bd4f26`,
+  `ocrd_cis/ocropy/resegment.py`: the `ccomps` path propagates line seeds to
+  connected components and resolves conflicts by majority label. Its processor
+  targets line polygons and uses overlap safeguards; it does not validate ALTO
+  word boxes or justify transplanting its thresholds.
+- Likforman-Sulem, Zahour & Taconet, *Text Line Segmentation of Historical
+  Documents: a Survey*, arXiv:0704.1267: neighbouring lines, degradation and
+  interfering ink make line segmentation an open historical-document problem.
+
+A41 translates PERO's local baseline/height band into a zero-parameter
+non-worsening overshoot guard. A42 compares foreground pixels with predicted
+line centres. A43 narrows that comparison to newly added foreground and uses
+only a strict majority, following the qualitative `ccomps` idea without
+copying its tuned processor parameters. On consumed A36/A37, A41 mean IoU is
+.691499/.846076, A42 .689130/.851950 and A43 .696725/.853119, versus
+.698075/.853595 for A37. Reduced regression counts do not compensate for lost
+correct refinements. All three are rejected; no threshold is tuned post hoc.
+
+## A44 — whole components, not pixel votes
+
+The same current OCR-D CIS `ccomps` implementation motivated one narrower
+test: assign each complete selected component to the majority-nearest predicted
+line, then reject only a newly introduced foreign component. This is closer to
+the cited processor's qualitative connected-component logic than A43, but it
+still lacks OCR-D CIS's propagated seed labels. It halves many local regression
+counts while lowering aggregate IoU, so it is rejected rather than thresholded
+on consumed data.
+
+## A45 — independent BnL reference
+
+The Bibliothèque nationale du Luxembourg's current Open Data page was read on
+2026-09-28. It declares pre-1878 newspaper OCR ground truth in German, French
+and Luxembourgish, manually double-keyed to at least 99.95% transcription
+accuracy. Its raw pack pairs uncropped blocks with ALTO and is explicitly meant
+for testing/training text-line segmentation. This is stronger evidence for OCR
+and lines than the flawed NewsEye references used earlier. It is not evidence
+that every ALTO `String` rectangle was manually adjudicated, and 99.95% is not
+zero reference error. A45 therefore separates OCR/line claims from word-box
+claims.
+
+## A46–A47 — ALTO units and audited residual transcription
+
+Primary/current sources read on 2026-09-28:
+
+- Library of Congress, ALTO technical centre and v4 schema documentation,
+  <https://www.loc.gov/standards/alto/> and
+  <https://www.loc.gov/standards/alto/techcenter/structure.html>. ALTO makes
+  `MeasurementUnit` mandatory and locates it in `Description`; coordinates must
+  be interpreted in that declared unit rather than assumed pixels.
+- Bibliothèque nationale du Luxembourg, historical newspapers and METS/ALTO,
+  <https://data.bnl.lu/data/historical-newspapers/> and
+  <https://data.bnl.lu/data/historical-newspapers/mets-alto/>. Source TIFFs are
+  documented at 300 PPI; the raw GT is intended for line segmentation and the
+  transcription is double-keyed to at least 99.95%.
+
+The sampled XML declares `mm10`. The standards-derived conversion to the
+delivered 300-PPI raster is `300 / 254`, since one inch contains 254 tenths of
+a millimetre. The first unscaled report is retained as invalid evidence; the
+corrected report is an audited amendment, not a pristine first look. No source
+claims manual adjudication of every `String` rectangle.
+
+A47 tests whether known residual disagreements are visible transcription
+errors. Luna and, only after escalation, Sol see opaque images without
+reference alternatives. Agreement is a triage signal, not a ground-truth
+construction rule.
+
+## A48–A49 — page-level newspaper hierarchy (28 September 2026)
+
+Mocaër et al., *Towards Hierarchical Structure Understanding of Newspaper
+Images*, arXiv:2607.15082, was read in full together with the released Finlam
+La Liberté dataset at revision
+`c3d69ca1eef5a0f479b6aeaa6d6c155b3ec93657`. Its bottom-up system uses YOLO26
+at 1024 px, LSD separators, LayoutReader and title-triggered article cuts. On
+the authors' test it reports 72.27% block mAP@50, 80.39% article surface F1,
+88.82% article mIoU and 87.20% block-order BLEU. Tiramisu instead uses four
+hierarchical decoding passes and suffers cascading misses. These results
+support separating physical detection/order from issue hierarchy; they do not
+support perfect-box or zero-error claims.
+
+Finlam rows contain normalized zone polygons, OCR-extracted text, semantic
+classes, issue-logical order, article IDs and section IDs. A48 shows that a
+continued article can precede the current page's masthead in `zone_orders`.
+Palfray et al., *Logical segmentation for article extraction in digitized old
+newspapers*, arXiv:1210.0999, likewise builds articles from separators, titles
+and text lines and serializes hierarchy in METS alongside ALTO. Ha, Haralick &
+Phillips, *Recursive X-Y Cut Using Bounding Boxes of Connected Components*
+(ICDAR 1995), supports cheap whitespace/column analysis. Hakim et al.,
+arXiv:2607.01018, further show that training-free semantic transition scoring
+belongs after line nodes and geometry. BBVLM therefore assigns columns/local
+order to geometry, and reserves one compact VLM pass for headline transcription,
+editorial semantics, continuation cues and sourced metadata.
+
+## A50 — semantic edges after geometric gating (28 September 2026)
+
+Hakim et al., *Reading Order Inference for Complex Document Layouts*,
+arXiv:2607.01018v1, was re-read in full. Their graph uses OCR-line nodes,
+geometry-gated candidate edges, CLM conditional likelihood plus BERT NSP, and a
+degree-constrained path cover. Sentence-embedding similarity does not help.
+They report 88.0% macro edge accuracy on 140 multi-column OmniDocBench pages,
+but only 74.2% on its newspaper subset versus 96.2% for XY-cut; semantic scoring
+also costs 93.5 seconds/page on an A40 on average. Their stated limitations—OCR
+noise, generic short fragments, semantic teleportation and need for typography
+or visual cues—match the Finlam failure. This supports gating semantics after
+cheap newspaper geometry, not replacing column detection with an all-pairs LM.
+
+Current NewsEye/CITlab article-separation code was also inspected. It combines
+separator detection, DBSCAN/alpha-shape blocks, heading/stroke features and a
+GNN relation classifier; node features include block/baseline geometry and
+heading indicators, edge features include separator crossings, with optional
+visual and BERT similarities. This is closely aligned with A50’s measured need,
+but the released stack targets TensorFlow 1.12–1.14 and trained models. Installing
+it would not isolate a defect better than the current frozen Finlam experiment,
+so no heavy dependency was added.
+
+A50 therefore tests a smaller composition: recurrent geometry owns columns, a
+cheap router selects only high-risk transitions, and one visual reader classifies
+editorial continuity. On one consumed stress page it raises article-pair F1
+.5869→.9093. Independent validation remains mandatory.
+
+## Per-paper review ledger (28 September 2026)
+
+Detailed paper-by-paper summaries, read scope, evaluated data, results,
+limitations and BBVLM consequences now live in `PAPER_SUMMARIES.md`. This scan
+adds Greif et al. 2025, Levchenko 2025, Archibald & Martinez 2025,
+HIPE-OCRepair-2026, Hakim et al. 2026, Finlam/Mocaër et al. 2026 and Palfray
+et al. 2012, plus the inspected CITlab implementation. Future reviews must add
+one such entry per primary paper rather than only a cross-paper synthesis.
+
+A51 falsifies the direct generalization of A50. On a reference-free frozen
+router, one page improves but one page massively over-segments provider
+articles; macro article F1 decreases .4876→.4823. The literature's recurring
+message—physical cues constrain candidates, semantics can rerank, and
+overcorrection requires per-unit non-regression—therefore applies to article
+boundaries as well as OCR. The next ontology must separate provider containers
+from retrievable semantic items.

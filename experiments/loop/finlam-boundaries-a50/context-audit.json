@@ -1,0 +1,206 @@
+{
+  "schema": "bbvlm.finlam-context-a50-audit/1",
+  "status": "consumed A49 convention audit",
+  "source": {
+    "dataset": "Teklia/Newspapers-finlam-La-Liberte",
+    "revision": "c3d69ca1eef5a0f479b6aeaa6d6c155b3ec93657",
+    "split": "test"
+  },
+  "pages": [
+    {
+      "row_index": 92,
+      "page_index": 2,
+      "issue_pages_reconstructed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "articles": 34,
+      "articles_without_title": 11,
+      "titleless_multipage_continuations": 0,
+      "titleless_multipage_article_ids": [],
+      "titleless_zone_count_histogram": {
+        "1": 3,
+        "2": 1,
+        "3": 2,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1
+      },
+      "titleless_role_id_histogram": {
+        "7": 39,
+        "13": 2
+      }
+    },
+    {
+      "row_index": 135,
+      "page_index": 2,
+      "issue_pages_reconstructed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "articles": 34,
+      "articles_without_title": 23,
+      "titleless_multipage_continuations": 1,
+      "titleless_multipage_article_ids": [
+        5
+      ],
+      "titleless_zone_count_histogram": {
+        "1": 3,
+        "2": 8,
+        "3": 1,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "12": 3,
+        "13": 1,
+        "20": 1
+      },
+      "titleless_role_id_histogram": {
+        "3": 2,
+        "7": 110,
+        "8": 1,
+        "9": 1,
+        "13": 5
+      }
+    },
+    {
+      "row_index": 186,
+      "page_index": 2,
+      "issue_pages_reconstructed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "articles": 40,
+      "articles_without_title": 23,
+      "titleless_multipage_continuations": 0,
+      "titleless_multipage_article_ids": [],
+      "titleless_zone_count_histogram": {
+        "1": 6,
+        "2": 4,
+        "3": 1,
+        "4": 2,
+        "5": 1,
+        "6": 2,
+        "7": 1,
+        "9": 1,
+        "10": 2,
+        "11": 1,
+        "21": 1,
+        "32": 1
+      },
+      "titleless_role_id_histogram": {
+        "3": 1,
+        "7": 137,
+        "13": 4
+      }
+    },
+    {
+      "row_index": 356,
+      "page_index": 3,
+      "issue_pages_reconstructed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "articles": 27,
+      "articles_without_title": 5,
+      "titleless_multipage_continuations": 2,
+      "titleless_multipage_article_ids": [
+        2,
+        7
+      ],
+      "titleless_zone_count_histogram": {
+        "3": 1,
+        "4": 1,
+        "6": 1,
+        "11": 1,
+        "20": 1
+      },
+      "titleless_role_id_histogram": {
+        "3": 1,
+        "7": 41,
+        "9": 2
+      }
+    },
+    {
+      "row_index": 409,
+      "page_index": 4,
+      "issue_pages_reconstructed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "articles": 21,
+      "articles_without_title": 1,
+      "titleless_multipage_continuations": 0,
+      "titleless_multipage_article_ids": [],
+      "titleless_zone_count_histogram": {
+        "11": 1
+      },
+      "titleless_role_id_histogram": {
+        "7": 11
+      }
+    },
+    {
+      "row_index": 419,
+      "page_index": 5,
+      "issue_pages_reconstructed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "articles": 15,
+      "articles_without_title": 6,
+      "titleless_multipage_continuations": 0,
+      "titleless_multipage_article_ids": [],
+      "titleless_zone_count_histogram": {
+        "3": 2,
+        "6": 1,
+        "8": 1,
+        "9": 2
+      },
+      "titleless_role_id_histogram": {
+        "3": 3,
+        "7": 35
+      }
+    }
+  ],
+  "aggregate": {
+    "titleless_articles": 69,
+    "titleless_multipage_continuations": 3,
+    "multipage_share": 0.043478260869565216
+  },
+  "finding": "Adjacent-page context explains only a small minority of titleless articles; most are within-page advertisements, notices or briefs encoded without TITLE zones. Prioritize within-page boundary semantics, then use adjacent pages only for routed continuations.",
+  "invariants": {
+    "consumed_development_only": true,
+    "source_reference_unchanged": true,
+    "page_grouping_uses_page_index_and_issue_global_order_bands": true
+  },
+  "limitations": [
+    "Issue identity is inferred from complementary issue-global order bands because the viewer row has no issue identifier.",
+    "Article IDs and classes are reference annotations used only to diagnose the consumed A49 failure."
+  ]
+}

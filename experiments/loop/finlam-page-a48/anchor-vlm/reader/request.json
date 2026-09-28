@@ -1,0 +1,116 @@
+{
+  "schema": "bbvlm.finlam-anchor-request/1",
+  "page": "opaque-page-A48",
+  "inputs": [
+    "page-original.jpg",
+    "page-overlay.jpg"
+  ],
+  "opaque_tokens_shuffled": [
+    "QFA2F",
+    "Q7C07",
+    "Q6A4B",
+    "Q258C",
+    "QBDA1",
+    "QE92B",
+    "Q6C1E",
+    "Q09A8",
+    "Q61A6",
+    "QB50B",
+    "Q9D47",
+    "Q7B53",
+    "Q72C3",
+    "Q156C",
+    "QF215",
+    "QECE6",
+    "QE42B",
+    "Q28F9",
+    "Q664C",
+    "QD5D8",
+    "QCC37",
+    "Q86FC",
+    "QFE9F",
+    "Q5B43",
+    "QDF99",
+    "QE36B",
+    "Q37AF",
+    "Q367B",
+    "QF129",
+    "Q67C2",
+    "Q84F7",
+    "QF4EE",
+    "QA593"
+  ],
+  "task": "Inspect both images. Red rectangles mark only candidate heading/header zones; token names encode no order or role. Return strict JSON only. Classify every token exactly once as masthead, article_title, subheading, or other. Group multiple heading tokens belonging to one article. Put article groups in visual page reading order. Transcribe each grouped headline diplomatically from the image. Estimate the physical column count and x-bands. Extract visible issue metadata, attaching evidence tokens when one exists. Do not invent unreadable values.",
+  "response_contract": {
+    "reader": "gpt-6-luna",
+    "roles": {
+      "TOKEN": "masthead|article_title|subheading|other"
+    },
+    "ordered_article_groups": [
+      {
+        "tokens": [
+          "TOKEN"
+        ],
+        "headline": "exact visible text"
+      }
+    ],
+    "columns": {
+      "count": "integer",
+      "x_bands_normalized": [
+        [
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "metadata": {
+      "newspaper_title": {
+        "value": "string|null",
+        "evidence_tokens": [
+          "TOKEN"
+        ]
+      },
+      "issue_date": {
+        "value": "string|null",
+        "evidence_tokens": [
+          "TOKEN"
+        ]
+      },
+      "edition": {
+        "value": "string|null",
+        "evidence_tokens": [
+          "TOKEN"
+        ]
+      },
+      "price": {
+        "value": "string|null",
+        "evidence_tokens": [
+          "TOKEN"
+        ]
+      },
+      "issue_number": {
+        "value": "string|null",
+        "evidence_tokens": [
+          "TOKEN"
+        ]
+      }
+    },
+    "continued_or_anchorless_articles": [
+      {
+        "description": "visible evidence",
+        "x_band": [
+          0.0,
+          1.0
+        ]
+      }
+    ],
+    "uncertain_tokens": [
+      "TOKEN"
+    ]
+  },
+  "prohibitions": [
+    "Do not inspect any file outside this reader directory.",
+    "Do not infer roles or order from token spelling or request-array order.",
+    "Do not use or seek reference JSON, source IDs, article IDs, class IDs, or earlier model answers."
+  ]
+}

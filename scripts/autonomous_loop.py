@@ -96,7 +96,40 @@ phases=[('recognition_cache','scripts/cache_newseye_pero.py','cache/752234-003/r
         ('word_transfer_a34_open','scripts/open_word_transfer_a34.py','word-transfer-a34/opened.json'),
         ('word_transfer_a34_evaluate','scripts/evaluate_word_transfer_a34.py','word-transfer-a34/output/report.json'),
         ('native_refinement_a35','scripts/evaluate_native_refinement_a35.py','native-refinement-a35/report.json'),
-        ('native_refinement_a35_audit','scripts/audit_native_refinement_a35.py','native-refinement-a35/regressions-clean.png')]
+        ('native_refinement_a35_audit','scripts/audit_native_refinement_a35.py','native-refinement-a35/regressions-clean.png'),
+        ('predicted_lines_a36_freeze','scripts/freeze_predicted_lines_a36.py','predicted-lines-a36/split.json'),
+        ('predicted_lines_a36_open','scripts/open_predicted_lines_a36.py','predicted-lines-a36/opened.json'),
+        ('predicted_lines_a36_infer','scripts/run_predicted_lines_a36.py','predicted-lines-a36/output/predictions.json'),
+        ('predicted_lines_a36_evaluate','scripts/evaluate_predicted_lines_a36.py','predicted-lines-a36/output/report.json'),
+        ('predicted_lines_a36_audit','scripts/audit_predicted_lines_a36.py','predicted-lines-a36/output/worst-regressions.png'),
+        ('selective_router_a36','scripts/evaluate_selective_router_a36.py','predicted-lines-a36/output/selective-router-development.json'),
+        ('predicted_lines_a37_freeze','scripts/freeze_predicted_lines_a37.py','predicted-lines-a37/split.json'),
+        ('predicted_lines_a37_open','scripts/open_predicted_lines_a37.py','predicted-lines-a37/opened.json'),
+        ('predicted_lines_a37_infer','scripts/run_predicted_lines_a37.py','predicted-lines-a37/output/predictions.json'),
+        ('predicted_lines_a37_evaluate','scripts/evaluate_predicted_lines_a37.py','predicted-lines-a37/output/report.json'),
+        ('predicted_lines_a37_audit','scripts/audit_predicted_lines_a37.py','predicted-lines-a37/output/worst-regressions.png'),
+        ('horizontal_router_a38','scripts/evaluate_horizontal_router_a38.py','horizontal-router-a38/report.json'),
+        ('vertical_containment_a39','scripts/evaluate_vertical_containment_a39.py','vertical-containment-a39/report.json'),
+        ('vertical_progress_a40','scripts/evaluate_vertical_progress_a40.py','vertical-progress-a40/report.json'),
+        ('line_band_router_a41','scripts/evaluate_line_band_router_a41.py','line-band-router-a41/report.json'),
+        ('component_affinity_router_a42','scripts/evaluate_component_affinity_router_a42.py','component-affinity-router-a42/report.json'),
+        ('added_component_router_a43','scripts/evaluate_added_component_router_a43.py','added-component-router-a43/report.json'),
+        ('component_majority_router_a44','scripts/evaluate_component_majority_router_a44.py','component-majority-router-a44/report.json'),
+        ('bnl_independent_a45_fetch','scripts/fetch_bnl_independent_a45.py','bnl-independent-a45/fetch-manifest.json'),
+        ('bnl_independent_a45_audit','scripts/audit_bnl_independent_a45.py','bnl-independent-a45/audit.json'),
+        ('bnl_independent_a46_infer','scripts/run_bnl_independent_a46.py','bnl-independent-a46/output/predictions.json'),
+        ('bnl_independent_a46_evaluate','scripts/evaluate_bnl_independent_a46.py','bnl-independent-a46/output/report.json'),
+        ('bnl_vlm_a47_evaluate','scripts/evaluate_bnl_vlm_a47.py','bnl-vlm-a47/report.json'),
+        ('finlam_page_a48_cpu','scripts/evaluate_finlam_page_a48.py','finlam-page-a48/cpu-baseline-report.json'),
+        ('finlam_page_a48_anchor','scripts/evaluate_finlam_anchor_a48.py','finlam-page-a48/anchor-vlm/report.json'),
+        ('finlam_page_a48_columns_develop','scripts/develop_finlam_columns_a48.py','finlam-page-a48/recurrent-columns-development.json'),
+        ('finlam_page_a49_columns_validate','scripts/evaluate_finlam_columns_a49.py','finlam-page-a49/report.json'),
+        ('finlam_context_a50_audit','scripts/audit_finlam_context_a50.py','finlam-boundaries-a50/context-audit.json'),
+        ('finlam_boundary_a50_prepare','scripts/prepare_finlam_boundaries_a50.py','finlam-boundaries-a50/input/request.json'),
+        ('finlam_boundary_a50_evaluate','scripts/evaluate_finlam_boundaries_a50.py','finlam-boundaries-a50/report.json'),
+        ('finlam_boundary_a51_freeze','scripts/freeze_finlam_boundaries_a51.py','finlam-boundaries-a51/split.json'),
+        ('finlam_boundary_a51_prepare','scripts/prepare_finlam_boundaries_a51.py','finlam-boundaries-a51/input/request.json'),
+        ('finlam_boundary_a51_evaluate','scripts/evaluate_finlam_boundaries_a51.py','finlam-boundaries-a51/pilot-report.json')]
 
 def checkpoint():
     p=json.loads((BASE/'protocol.json').read_text());gates=dict(p['completion_gates'])
@@ -375,11 +408,102 @@ def checkpoint():
         o=json.loads(native_a35.read_text())
         evidence['native_refinement_a35']={**{k:v for k,v in o.items() if k!='datasets'},
           'datasets':{k:{a:b for a,b in v.items() if a!='by_page'} for k,v in o['datasets'].items()}}
+    predicted_a36=BASE/'predicted-lines-a36/output/report.json';router_a36=BASE/'predicted-lines-a36/output/selective-router-development.json'
+    if predicted_a36.exists():
+        o=json.loads(predicted_a36.read_text());evidence['predicted_lines_a36']={
+          'status':o['status'],'work':o['work'],'aggregate':o['aggregate'],'cost':o['cost'],
+          'fixed_native_assignment_regressions':o['fixed_native_assignment_regressions'],
+          'regressions_over_0_1':o['regressions_over_0_1'],'local_candidate_gate_passed':o['local_candidate_gate_passed'],
+          'invariants':o['invariants'],'limitations':o['limitations'],'pristine_implementation_freeze':False,
+          'accepted_for_project_completion_gate':False}
+    if router_a36.exists():evidence['selective_router_a36_development']=json.loads(router_a36.read_text())
+    predicted_a37=BASE/'predicted-lines-a37/output/report.json'
+    if predicted_a37.exists():
+        o=json.loads(predicted_a37.read_text());evidence['predicted_lines_a37_frozen_router']={
+          'status':o['status'],'work':o['work'],'aggregate':o['aggregate'],'cost':o['cost'],
+          'router_accepted':o['router_accepted'],
+          'routed_fixed_native_assignment_regressions':o['routed_fixed_native_assignment_regressions'],
+          'routed_regressions_over_0_1':o['routed_regressions_over_0_1'],
+          'local_router_gate_passed':o['local_router_gate_passed'],
+          'invariants':o['invariants'],'limitations':o['limitations'],
+          'pristine_implementation_freeze':True,'accepted_for_project_completion_gate':False}
+    for key, relative in [('horizontal_router_a38','horizontal-router-a38/report.json'),
+                          ('vertical_containment_a39','vertical-containment-a39/report.json'),
+                          ('vertical_progress_a40','vertical-progress-a40/report.json'),
+                          ('line_band_router_a41','line-band-router-a41/report.json'),
+                          ('component_affinity_router_a42','component-affinity-router-a42/report.json'),
+                          ('added_component_router_a43','added-component-router-a43/report.json'),
+                          ('component_majority_router_a44','component-majority-router-a44/report.json')]:
+        path=BASE/relative
+        if path.exists():
+            o=json.loads(path.read_text());evidence[key]={
+              'status':o['status'],'candidate':o['candidate'],'datasets':o['datasets'],
+              'consistent_noninferiority_gate':o['consistent_noninferiority_gate'],
+              'decision':o['decision'],'cost':o['cost'],'accepted_for_project_completion_gate':False}
+    bnl_a45=BASE/'bnl-independent-a45/audit.json'
+    if bnl_a45.exists():
+        o=json.loads(bnl_a45.read_text());evidence['bnl_independent_a45']={
+          'status':o['status'],'sample_size':o['sample_size'],'totals':o['totals'],
+          'by_predicted_language':o['by_predicted_language'],
+          'geometry_checks':o['geometry_checks'],'interpretation':o['interpretation'],
+          'accepted_for_project_completion_gate':False}
+    bnl_a46=BASE/'bnl-independent-a46/output/report.json'
+    if bnl_a46.exists():
+        o=json.loads(bnl_a46.read_text());evidence['bnl_independent_a46']={
+          'status':o['status'],'aggregate':o['aggregate'],'cost':o['cost'],
+          'geometry_coordinate_adapter':o['geometry_coordinate_adapter'],
+          'word_reference_status':o['word_reference_status'],
+          'accepted_for_project_completion_gate':False}
+    bnl_a47=BASE/'bnl-vlm-a47/report.json'
+    if bnl_a47.exists():
+        o=json.loads(bnl_a47.read_text());evidence['bnl_vlm_a47']={
+          'status':o['status'],'selection_bias':o['selection_bias'],'passes':o['passes'],
+          'aggregate_against_immutable_reference':o['aggregate_against_immutable_reference'],
+          'adjudication_triage':o['adjudication_triage'],
+          'accepted_for_project_completion_gate':False}
+    finlam_a48=BASE/'finlam-page-a48/anchor-vlm/report.json'
+    if finlam_a48.exists():
+        o=json.loads(finlam_a48.read_text());evidence['finlam_anchor_a48']={
+          'status':o['status'],'article_anchors':o['article_anchors'],
+          'headline_provider_agreement':o['headline_provider_agreement'],
+          'columns':o['columns'],'metadata':o['metadata'],'cost':o['cost'],
+          'accepted_for_project_completion_gate':False}
+    finlam_a49=BASE/'finlam-page-a49/report.json'
+    if finlam_a49.exists():
+        o=json.loads(finlam_a49.read_text());evidence['finlam_recurrent_columns_a49']={
+          'status':o['status'],'macro':o['macro'],'gate_conditions':o['gate_conditions'],
+          'conditional_gate_passed':o['conditional_gate_passed'],'cost':o['cost'],
+          'accepted_for_project_completion_gate':False}
+    finlam_a50=BASE/'finlam-boundaries-a50/report.json'
+    if finlam_a50.exists():
+        o=json.loads(finlam_a50.read_text());evidence['finlam_semantic_boundaries_a50']={
+          'status':o['status'],'page':o['page'],
+          'blind_boundary_classification':o['blind_boundary_classification'],
+          'article_same_pair':o['article_same_pair'],'cost':o['cost'],
+          'reference_leakage_in_router':True,
+          'accepted_for_project_completion_gate':False}
+    finlam_a51=BASE/'finlam-boundaries-a51/pilot-report.json'
+    if finlam_a51.exists():
+        o=json.loads(finlam_a51.read_text());evidence['finlam_semantic_boundaries_a51']={
+          'status':o['status'],'opened_rows':[x['row_index'] for x in o['pages']],
+          'macro':o['macro'],'pilot_gate_conditions':o['pilot_gate_conditions'],
+          'pilot_gate_passed':o['pilot_gate_passed'],'cost':o['cost'],
+          'accepted_for_project_completion_gate':False}
     state={'schema':'bbvlm.loop-checkpoint/1','updated_unix':time.time(),'status':'in_progress',
       'phases':[{'id':name,'complete':(BASE/result).exists(),'script':script,'result':result} for name,script,result in phases],
       'completion_gates':gates,'evidence':evidence,
       'model_policy':p['model_policy'],
-      'next_research':['A35 consumed diagnostic: unchanged A32 with recognized text preserves most oracle-text gain (French IoU80 .806617 vs native .110667; German/Latin .559571 vs .190376). Joint exact-text+IoU80 remains .732459/.420887. No new inference; remaining oracle line geometry and visual punctuation/neighbor-ink failures prevent promotion. Next test predicted lines on a newly frozen diverse reference set. Do not retune consumed A28/A34. VLM value must be measured in lexical/OLR/semantic output rather than attributed to this cheap geometry stage.',
+      'next_research':['A50/A51 semantic-boundary result: one blind Luna pass raises consumed row-186 article-pair F1 .5869->.9093, but A50 routing leaked reference presence and cannot validate. The reference-free frozen A51 pilot fails: macro article F1 .4876->.4823, global order .8167, within-article .9762. Row 164 over-splits severely because Finlam groups 173 and 67 zones into two huge provider articles. Reject the one-level semantic splitter. Before the next hypothesis inspect the current Claude branch. Then define two immutable logical levels: provider-compatible containers versus independently adjudicated retrievable semantic items; keep ALTO physical, encode hierarchy/provenance in METS, and do not retune the two opened A51 pages or consume the six reserves until the ontology and scorer are frozen.',
+        'Claude branch audit at its 2026-09-28 head: O01 reports zero adjudicated Opus reading errors on one clean 27-line SBB page despite one immutable-reference disagreement, while page+bands were worse and Sonnet confused long s. Reuse strict/diplomatic/normalized views and per-page adjudication, but do not generalize from one page. O02 had a frozen four-page protocol and no result when inspected. Recheck this branch before every new experimental hypothesis.',
+        'A48/A49 page-level French result: the legacy geometry collapses 6-7 physical columns to one. Recurrent body left-edge modes, developed on consumed A48 and frozen on six unopened A49 pages, improve global pair order .6721->.8834, within-article order .8717->.9880, and title-cut article pair F1 .2032->.6632, but fail the .90/.80 global/article gates. Low pages have 5-23 articles without a TITLE anchor and issue-logical continuation gaps; next provide adjacent-page context and semantic anchorless-article proposals, while keeping geometry for local order. One blind Luna anchor pass on consumed first page found all 20 anchored reference articles and 7 columns plus four sourced metadata values, but visual row-major article order was only .7632 and retrieval-fold headline agreement with non-adjudicated provider OCR was .3279% CER. Do not pay a VLM for physical order or claim zero CER.',
+        'A46/A47: on 12 frozen French BnL blocks, PERO strict/search/lexical CER is 1.4718%/.4908%/.2244%; 9/12 blocks are lexical-exact. Correct mm10->300ppi scaling yields line recall IoU50 .9952. A37 transfers: word mean IoU .5512->.6159 and IoU50 .6696->.7358, but word rectangles remain diagnostic. Targeted blind Luna then Sol agree at 0 retrieval-fold distance on all seven residual images; against immutable BnL they score .5168% because probable reference errors remain, while real PERO errors are also confirmed. Obtain independent human adjudication; never overwrite BnL or call model consensus truth.',
+        'A45 frozen independent BnL sample is consumed by A46/A47. Provider double-keying supports OCR evaluation and the raw pack supports line segmentation, but neither >=99.95% nor blind model agreement certifies perfect truth. Preserve source XML/PNG and post-score audit separately.',
+        'A44 whole-component majority ownership on consumed A36/A37 cuts fixed-assignment regressions 32->17 and 11->6, but loses too many valid refinements: mean IoU .698075->.692607 and .853595->.852220; reject without threshold tuning and retain A37.',
+        'A41-A43 consumed tests reject three local predicted-line ownership guards. PERO band excess drops A36/A37 mean IoU .698075->.691499 and .853595->.846076. Whole-box foreground affinity drops them to .689130/.851950. Strict-majority ownership only on newly added foreground is least harmful (.696725/.853119) and reduces regressions, but still fails noninferiority. Retain A37. Next inspect component-level labels rather than aggregate pixels, or move to a new independently adjudicated French word-polygon set before freezing; do not tune a threshold on consumed A37.',
+        'A38-A40 consumed ablations reject three global guards layered on A37: forbidding width growth collapses IoU80 (French .8066->.4923; A37 .6864->.4746); full vertical containment also loses on all four datasets; rejecting equal-height shifts is nearly neutral on A37 but still regresses A28/A34/A36. Retain the independently validated A37 height-only router. Next detect local cross-line ambiguity from image/baseline evidence rather than rectangle relations; do not freeze any A38-A40 rule or rescore A37.',
+        'A37 pristine frozen validation passes locally on four unopened SBB pages: routed mean IoU .853595 vs native .568214 and IoU80 .686441 vs .005085, improving both metrics on every page; 10.573 s full-page CPU + .284 s refinement, zero VLM. Retain the router. Eleven local regressions remain, mostly punctuation/small glyph/token conventions plus one horizontal expansion. Next isolate horizontal component ownership on consumed A37, then freeze any new rule on a new French word-polygon holdout; do not retune or rescore A37. This does not change OCR/OLR/metadata/retrieval gates.',
+        'A36 predicted-line result: native mean IoU .648489 / IoU80 .165119; unconditional A32 .639549 / .167183. Adjacent-line ink causes 560 fixed-assignment regressions. The consumed-data non-expanding router reaches .698075 / .268318 and preserves A28/A34 gains. Freeze it unchanged on a new unopened A37 work; never retune A36. A36 mechanical amendments prevent a pristine-freeze claim.',
+        'A35 consumed diagnostic: unchanged A32 with recognized text preserves most oracle-text gain (French IoU80 .806617 vs native .110667; German/Latin .559571 vs .190376). Joint exact-text+IoU80 remains .732459/.420887. No new inference; remaining oracle line geometry and visual punctuation/neighbor-ink failures prevent promotion. Next test predicted lines on a newly frozen diverse reference set. Do not retune consumed A28/A34. VLM value must be measured in lexical/OLR/semantic output rather than attributed to this cheap geometry stage.',
         'A34 independent geometry transfer on 12 unopened SBB pages (4759 words): A32 beats PERO native in every work and globally (mean IoU .812303 vs .654863; IoU80 .589410 vs .190376), but is not perfect and uses oracle lines/text/order. Frozen conservative A34 fails: 1/7 changed words improves, 6 regress, mean delta all -.000087. Keep A32, reject A34. Adapter was mechanically amended after open/before scores, so no pristine implementation-freeze claim. Next geometry hypothesis must use CTC character spans or attachment confidence and a new independent set, not retune consumed A34.',
         'Schema audit: inspected DAHN, TAPUS and Reichsanzeiger-GT examples contain lines/text tokens but no geometric Word nodes. Never synthesize word-box GT from token counts; seek genuine French Word polygons or independent human adjudication.',
         'A33 consumed A28 development rejects naive text-guided punctuation rescue: 4/11 changed words improve, 7 regress; mean IoU .893795->.893394 and IoU80 .817456->.816885, 1.467 s CPU. Keep A32, not A33. Post-score only: gains have area 27-69 px; six losses 5-15 and the seventh is star-triggered. Freeze area-minimum/no-star rule before any independent validation; never present a tuned A28 score.',

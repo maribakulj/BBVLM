@@ -445,3 +445,94 @@ l'évaluateur entier de gel parfait. 88 phases; sept gates toujours faux. Voir
 ## A35: recognized-word refinement
 
 2026-09-27: `scripts/evaluate_native_refinement_a35.py` applies unchanged A32 to cached native recognized words. On consumed French A28, recall IoU≥0.8 improves 11.07% → 80.66%; on consumed German/Latin A34, 19.04% → 55.96%. Reference transcription/token count are removed from the refiner; reference line rectangles and synthetic baselines remain. No new OCR/VLM inference or CER improvement. Joint exact-text+IoU≥0.8 recall is 73.25% / 42.09%, and visual audit confirms neighboring-ink/punctuation failures. All project gates stay false. See `experiments/loop/native-refinement-a35/RESULTS.md`, `SOURCES.md`, `PROTOCOL.md` and raw measurements. Next: predicted lines plus an unopened reference set, without retuning these consumed pages.
+
+## A36: full-page predicted lines
+
+On one unopened four-page SBB work, PERO found 138/138 line counts with
+97.06–100% per-page line recall at IoU 0.5. Unconditional A32 reduced word mean
+IoU .648489 → .639549 by absorbing adjacent Fraktur-line ink. A consumed-data,
+zero-parameter router that rejects vertical expansion reaches .698075 and
+preserves A28/A34 gains. It must be frozen unchanged on A37. See
+`predicted-lines-a36/RESULTS.md`; all seven project gates remain false.
+
+## A37: frozen non-expanding router
+
+The unchanged A36 rule passes its sealed local gate on four previously unopened
+pages: native mean word IoU .568214 becomes .853595 and IoU80 recall .005085
+becomes .686441, with strict improvement on every page. PERO predicts 101/101
+line counts and 591 words for 590 references. Cost is 10.573 s full-page CPU
+plus .284 s refinement/routing and zero VLM passes. Visual audit retains 11
+local regressions, chiefly punctuation/token-boundary cases and one horizontal
+ownership failure. This is local German/Latin validation, not perfect boxes or
+French/OLR/OCR completion; all seven project gates remain false.
+
+## A38–A40: three conservative guards rejected
+
+Cached consumed-data ablations show that a single `alle` regression must not be
+overfit. Width non-expansion collapses IoU80 on all datasets; full vertical
+containment also loses; an equal-height translation guard is nearly neutral on
+A37 but still regresses the French and earlier SBB sets. No inference or VLM was
+rerun. Retain A37 and seek local line-ambiguity evidence instead.
+
+## A41–A43: local line-ownership guards rejected
+
+Three cached consumed-data experiments used PERO's predicted baselines,
+`heights_v2`, and then source-image foreground. A41 rejects boxes that increase
+overshoot beyond the local predicted line band; A42 compares all foreground
+pixels with neighbouring predicted line centres; A43 applies the same idea only
+to newly added foreground and requires a strict foreign-line majority. All
+three reduce fixed-assignment regressions, but all lower mean IoU on A36 and
+A37. The least harmful A43 changes 22/922 and 10/591 words, yet mean IoU falls
+.698075→.696725 and .853595→.853119. No new OCR or VLM pass was used. All
+candidates are rejected; A37 remains the frozen implementation candidate.
+
+## A46–A47: independent transfer, then targeted VLM audit
+
+PERO 0.7.0 plus unchanged A37 was run once on the 24 frozen BnL blocks. The
+first geometry score exposed an evaluator unit bug and is preserved as invalid;
+the amended evaluator converts declared `mm10` coordinates to documented
+300-PPI pixels by `300/254`. On 12 French blocks, line IoU50 recall is .9952.
+A37 improves word mean IoU .5512→.6159 and IoU50 recall .6696→.7358, while the
+word reference remains diagnostic. French lexical CER is .2244%, with 9/12
+exact blocks.
+
+A47 sends only the seven known residual images to blind Luna, then blind Sol.
+They agree exactly after retrieval accent folding, while both differ from the
+immutable reference on probable annotation errors. Real PERO errors are also
+confirmed. This post-score audit cannot be reported as independent zero CER;
+human adjudication and a new page-level French/OLR holdout remain necessary.
+
+## A48–A49: full pages, columns and articles
+
+Three Finlam pages first revealed that legacy BBVLM merged six or seven columns
+into one. Recurrent left-edge modes were developed on A48 and validated without
+retuning on six new A49 pages: global order .6721→.8834, within-article order
+.8717→.9880, and article-pair F1 .2032→.6632. The gains are independent but the
+global gates remain false.
+
+A single compact Luna pass on 33 masthead/title anchors found seven columns,
+all 20 anchored articles and four sourced metadata values. It was worse than
+geometry for article order (.7632) and headline `retrieval_fold_v1` CER against
+non-adjudicated provider OCR remained .3279%. The next architecture pays the
+VLM for semantics, continuations, title/metadata OCR and retrieval normalization,
+not for cheaper physical columns or coordinates.
+
+## A50–A51: selective semantic boundaries
+
+A50 routed 50 ambiguous transitions on one consumed stress page to one blind
+Luna pass. Adding its boundary decisions to title cuts improved article-pair F1
+from .5869 to .9093, but the preparation used reference presence to omit
+unannotated edges and is development-only.
+
+A51 removed that leakage, froze eight new rows before opening content, and
+opened only rows 216 and 164 for a pilot. Row 216 improved article-pair F1
+.7148→.8397, but row 164 collapsed .2604→.1249 because Luna separated many
+visually distinct notices that Finlam places inside two enormous provider
+articles (173 and 67 zones). Macro F1 is .4876→.4823; global order is .8167
+and within-article order .9762. All frozen gates fail. The six reserve rows stay
+closed until provider containers and independently retrievable semantic items
+have separate ontologies and scorers. See `finlam-boundaries-a51/RESULTS.md`.
+
+Every future literature pass now receives an article-by-article record in
+`PAPER_SUMMARIES.md`. The competing Claude branch is inspected before choosing
+each new hypothesis; the first audit is `CLAUDE_BRANCH_AUDIT.md`.

@@ -1,0 +1,36 @@
+{
+  "schema": "bbvlm.frozen-finlam-page-split/1",
+  "status": "frozen_before_row_content_inspection",
+  "frozen_at": "2026-09-28T08:08:00Z",
+  "source": {
+    "dataset": "Teklia/Newspapers-finlam-La-Liberte",
+    "revision": "c3d69ca1eef5a0f479b6aeaa6d6c155b3ec93657",
+    "config": "default",
+    "split": "test",
+    "declared_rows": 433
+  },
+  "selection": {
+    "content_seen_before_freeze": false,
+    "rule": "exclude A48; sort indices by SHA-256(BBVLM-A49:<index>); take first 6",
+    "seed": "BBVLM-A49",
+    "excluded_consumed_rows": [242, 73, 365],
+    "row_indices": [135, 419, 92, 186, 409, 356]
+  },
+  "frozen_candidate": {
+    "method": "infer_recurrent_column_order plus published consecutive-title cut",
+    "parameters": {
+      "body_roles": ["TEXT", "ILLUSTRATEDTEXT"],
+      "narrow_width_ratio": 0.22,
+      "fine_cluster_width_fraction": 0.25,
+      "merge_anchor_width_fraction": 0.50,
+      "min_support": 3
+    }
+  },
+  "gates": {
+    "macro_within_article_order_micro_accuracy_min": 0.98,
+    "macro_global_pair_accuracy_min": 0.90,
+    "macro_article_same_pair_f1_min": 0.80,
+    "strictly_better_than_legacy_all_three_metrics": true
+  },
+  "no_retuning": true
+}

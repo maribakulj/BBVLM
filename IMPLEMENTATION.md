@@ -519,3 +519,124 @@ compte 88 phases; aucun gate final n'est satisfait.
 ## A35: recognized-word geometry ablation
 
 2026-09-27: `scripts/evaluate_native_refinement_a35.py` applies unchanged A32 to cached native recognized words. On consumed French A28, recall IoU≥0.8 improves 11.07% → 80.66%; on consumed German/Latin A34, 19.04% → 55.96%. Reference transcription/token count are removed from the refiner; reference line rectangles and synthetic baselines remain. No new OCR/VLM inference or CER improvement. Joint exact-text+IoU≥0.8 recall is 73.25% / 42.09%, and visual audit confirms neighboring-ink/punctuation failures. All project gates stay false. See `experiments/loop/native-refinement-a35/RESULTS.md`, `SOURCES.md`, `PROTOCOL.md` and raw measurements. Next: predicted lines plus an unopened reference set, without retuning these consumed pages.
+
+## A36 predicted-line integration
+
+Full-page PERO predictions are sealed before reference loading and evaluated by
+page-wide Hungarian geometry assignment. `nonexpanding_vertical` keeps A32 only
+when vertical extent does not grow; on consumed A36 it reaches .698075 mean IoU
+versus .648489 native and .639549 unconditional A32. Validation on A37 remains
+required; no OCR, OLR, metadata or retrieval claim follows.
+
+## A37 frozen non-expanding router validation
+
+`scripts/run_predicted_lines_a37.py` applies the unchanged A36 router before
+any PAGE reference is parsed. On four newly selected pages, the routed boxes
+improve native PERO on every page and aggregate mean IoU from .568214 to
+.853595; IoU80 recall rises from .005085 to .686441. The complete-page cost is
+10.573 s CPU plus .284 s refinement/routing and zero VLM passes. Eleven local
+regressions remain, dominated by punctuation/small-glyph conventions plus one
+horizontal ownership failure. The component is locally validated, not perfect
+or cross-domain validated; all project gates remain false.
+
+## A38–A40 rejected global ownership guards
+
+Three zero-parameter refinements were measured only on consumed cached outputs.
+Forbidding width expansion (A38) destroys legitimate recovery from approximate
+CTC spans. Requiring full vertical containment (A39) also regresses every
+dataset. Rejecting only equal-height vertical translations (A40) is nearly
+neutral on A37 but still loses on A28/A34/A36. None is promoted. The A37
+height-only router remains the implementation candidate; the next hypothesis
+must use local image/baseline ambiguity evidence, not a global rectangle rule.
+
+## A41–A43 rejected local ownership guards
+
+`line_band_excess` and `nonworsening_line_band` provide a reproducible A41
+ablation over PERO's predicted baseline and `heights_v2`. Two standalone image
+experiments then score Otsu foreground by nearest predicted line centre: A42
+uses the whole box, A43 only newly added pixels with a strict-majority rule.
+All are reference-free at routing time and add no OCR/VLM pass. They reduce
+the number of regressions but also discard more correct refinements; none meets
+the frozen noninferiority gate on consumed A36/A37. They remain rejected
+research code. Production continues to use only `nonexpanding_vertical`.
+
+## A44 component-majority router and A45 independent reference
+
+`evaluate_component_majority_router_a44.py` vectorizes pixel-to-line distances,
+labels connected components once per predicted line crop, and rejects an A37
+candidate only when it newly introduces a whole component majority-owned by a
+different line. It reduces regression counts but fails the preregistered
+noninferiority gate, so it is not called by production code.
+
+`fetch_bnl_independent_a45.py` reads a remote ZIP central directory and only the
+48 pre-frozen XML/PNG members with HTTP byte ranges, verifies uncompressed size
+and CRC32, and never downloads the full 1.9 GiB archive.
+`audit_bnl_independent_a45.py` validates ALTO/image containment, counts the
+sample and describes fixed language strata. The new scripts are deterministic;
+the language label is descriptive and cannot change the frozen membership.
+A45 inference remains pending so the benchmark is still pristine.
+
+## A46 corrected transfer and A47 blind residual audit
+
+`run_bnl_independent_a46.py` executes PERO 0.7.0 once on the 24 frozen blocks,
+then applies the unchanged A37 `nonexpanding_vertical` router. Predictions are
+sealed before `evaluate_bnl_independent_a46.py` opens XML. The evaluator now
+validates `MeasurementUnit=mm10` and converts reference rectangles to 300-PPI
+PNG coordinates by `300/254`. The original unscaled report is preserved and
+marked invalid in `AMENDMENT.json`.
+
+On 12 French blocks, line recall at IoU50 is 99.52%. A37 raises word-box mean
+IoU from .55118 to .61588 and IoU50 recall from .66965 to .73584; word boxes
+remain diagnostic. PERO reaches .22438% punctuation/space-free lexical CER
+(18 edits, 9/12 exact blocks), not zero.
+
+`retrieval_fold_v1` is a separate NFKD/casefold/accent-insensitive alphanumeric
+key. It never overwrites diplomatic text and is frozen for future retrieval
+evaluation. `evaluate_bnl_vlm_a47.py` scores two blind readers only on known
+A46 residuals. Raw outputs are preserved; this targeted audit cannot be used as
+a representative CER estimate or merged into A46.
+
+## A48–A49: recurrent columns and semantic anchors
+
+`infer_recurrent_column_order` replaces chained left-edge clustering with
+recurrent `TEXT`/`ILLUSTRATEDTEXT` left-edge modes. A48 was development-only;
+all parameters were frozen before six A49 pages were opened. On A49, global
+pair order improves .672118→.883394, within-article order .871682→.987996 and
+article-pair F1 .203237→.663213. The .90/.98/.80 gates are not all met, so this
+is not the final OLR system.
+
+One Luna pass over 33 opaque anchors on a consumed A48 page finds seven columns,
+covers all 20 reference articles having an anchor, transcribes 19/21 headlines
+exactly under `retrieval_fold_v1` against provider OCR, and extracts newspaper,
+date, edition and price with evidence. Its article order is only .763158. Keep
+geometry for physical order; spend the VLM pass on titles, editorial roles,
+inter-page continuations and metadata. Body OCR should run on article crops and
+be aligned back to ALTO lines/words by the selective CTC path.
+
+## A50–A51: selective semantic boundary stage
+
+`prepare_finlam_boundaries_a50.py` materializes only geometry-routed candidate
+transitions as paired visual crops with opaque IDs. `evaluate_finlam_boundaries_a50.py`
+adds Luna’s `new_article` decisions to the existing title cuts while preserving
+the recurrent geometry order. On consumed row 186, article-pair F1 improves
+.586923→.909293 with one pass over nine sheets.
+
+The A50 router used reference presence to omit unannotated edges and is therefore
+development-only. `prepare_finlam_boundaries_a51.py` removes that dependency:
+candidate routing reads only region roles and geometry. A51 was frozen before
+content opening; two rows are a pilot and six remain reserved. This stage emits
+logical article boundaries for METS/structMap, while ALTO retains physical
+regions, lines and strings. It does not ask the VLM for pixel coordinates.
+
+The two-page A51 pilot is negative overall: candidate article-pair F1 is
+.4823 versus .4876 for title cuts, with a strong row-216 gain but a severe
+row-164 regression. Finlam row 164 groups hundreds of visually distinct zones
+inside two provider articles, so “provider article” and “retrievable semantic
+item” cannot remain a single hidden variable. The next implementation must
+encode them as separate logical hierarchy levels, preserving physical ALTO and
+immutable provider labels. The six unopened A51 rows remain reserved until
+that ontology and its two scorers are frozen.
+
+`experiments/loop/PAPER_SUMMARIES.md` is now the mandatory per-paper review
+ledger. `experiments/loop/CLAUDE_BRANCH_AUDIT.md` records the concurrent-branch
+inspection that must precede each new hypothesis.

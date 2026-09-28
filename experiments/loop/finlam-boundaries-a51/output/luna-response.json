@@ -1,0 +1,899 @@
+{
+  "reader": "luna",
+  "decisions": [
+    {
+      "token": "V468A6B",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B opens with a distinct headline on fuel costs."
+    },
+    {
+      "token": "VDA48B7",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "B continues the fuel-cost article beneath its matching headline."
+    },
+    {
+      "token": "VE2D753",
+      "label": "unclear",
+      "confidence": "low",
+      "brief_visual_reason": "A is only a tiny market fragment; its relation to B's market report is not legible."
+    },
+    {
+      "token": "VECDA18",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches from prose to a separate financial-results table."
+    },
+    {
+      "token": "V84C4FE",
+      "label": "same_article",
+      "confidence": "medium",
+      "brief_visual_reason": "The cropped heading in A appears to lead into B's elegance-contest headline."
+    },
+    {
+      "token": "V9BB541",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "B continues the article immediately below the matching elegance-contest headline."
+    },
+    {
+      "token": "VEB657E",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "Both passages discuss Verdun's announced stadium inauguration."
+    },
+    {
+      "token": "V0C77AD",
+      "label": "unclear",
+      "confidence": "low",
+      "brief_visual_reason": "A's tiny fragment is unreadable beside B's France–Italy match heading."
+    },
+    {
+      "token": "V226ECC",
+      "label": "unclear",
+      "confidence": "low",
+      "brief_visual_reason": "A concerns Wimbledon, but B's small cropped text gives no secure continuation."
+    },
+    {
+      "token": "V0ACB4A",
+      "label": "same_article",
+      "confidence": "medium",
+      "brief_visual_reason": "Both excerpts look like successive details of the same sports notice."
+    },
+    {
+      "token": "VDF4F6B",
+      "label": "same_article",
+      "confidence": "medium",
+      "brief_visual_reason": "B appears to continue the sports notice visible at the end of A."
+    },
+    {
+      "token": "V6E4A31",
+      "label": "unclear",
+      "confidence": "low",
+      "brief_visual_reason": "The fragments are too small to establish whether the prose continues."
+    },
+    {
+      "token": "VB60FE6",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "B continues the report on the Prague congress and its commissions."
+    },
+    {
+      "token": "V095C0A",
+      "label": "same_article",
+      "confidence": "medium",
+      "brief_visual_reason": "The text in B continues the technical-congress discussion in A."
+    },
+    {
+      "token": "V79A29F",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "Both snippets concern Jack Dempsey and the same boxing report."
+    },
+    {
+      "token": "V50193B",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a separate Paris stock-market heading."
+    },
+    {
+      "token": "V21FD01",
+      "label": "same_article",
+      "confidence": "medium",
+      "brief_visual_reason": "Both snippets belong to the Paris financial-market report."
+    },
+    {
+      "token": "V4E8F7E",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "B continues the Gordon-Bennett Cup article under its title."
+    },
+    {
+      "token": "V23AF0D",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "The football-association passage in B continues the referees-versus-journalists item."
+    },
+    {
+      "token": "V58963B",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a financial-price listing, separate from the arbitration report."
+    },
+    {
+      "token": "V1AD9AE",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "B supplies prose under the matching financial-information heading."
+    },
+    {
+      "token": "V8BC0D7",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "A's cropped title and B's full title both read about Argentinians in Paris."
+    },
+    {
+      "token": "V781915",
+      "label": "same_article",
+      "confidence": "medium",
+      "brief_visual_reason": "Both snippets appear to continue the same football commentary."
+    },
+    {
+      "token": "V52D9FE",
+      "label": "same_article",
+      "confidence": "low",
+      "brief_visual_reason": "The small fragments appear to be adjacent text in the domestic-arts notice."
+    },
+    {
+      "token": "V56A6D2",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a distinct stockbroker advertisement."
+    },
+    {
+      "token": "VEEC036",
+      "label": "new_article",
+      "confidence": "medium",
+      "brief_visual_reason": "B begins a separate brokerage notice after the securities listing."
+    },
+    {
+      "token": "V2B71C6",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is corporate-meeting prose, distinct from the market quotation panel."
+    },
+    {
+      "token": "V7D4C3A",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "A's lawn-tennis heading leads into the same Cochet-Washer headline in B."
+    },
+    {
+      "token": "VA0A141",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "B continues the Cochet-Washer match report shown in A."
+    },
+    {
+      "token": "VEF4F81",
+      "label": "same_article",
+      "confidence": "medium",
+      "brief_visual_reason": "Both excerpts are consecutive tennis-result entries in the same results column."
+    },
+    {
+      "token": "VFEC309",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches from tennis results to a separate property notice."
+    },
+    {
+      "token": "VF20177",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a financial-market panel unrelated to the small rent notice."
+    },
+    {
+      "token": "V8E3FFE",
+      "label": "same_article",
+      "confidence": "medium",
+      "brief_visual_reason": "B appears to continue the same brokerage/market panel with its term listing."
+    },
+    {
+      "token": "V7D7647",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a separate corporate announcement after the market panel."
+    },
+    {
+      "token": "VA0D6D3",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a distinct Haffner advertisement, not the prior business notice."
+    },
+    {
+      "token": "V0C0B9E",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a Peugeot advertisement, separate from the financial-services notice."
+    },
+    {
+      "token": "V21BAF6",
+      "label": "same_article",
+      "confidence": "medium",
+      "brief_visual_reason": "The garage name in A is repeated above the bathing-fixtures heading in B."
+    },
+    {
+      "token": "VCFE897",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a directory banner, unrelated to A's injury report."
+    },
+    {
+      "token": "V0F4265",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "B gives arrondissement listings under the guide banner shown in A."
+    },
+    {
+      "token": "V1605E3",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "Both excerpts are adjacent entries in the second-arrondissement directory."
+    },
+    {
+      "token": "V06CA90",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches from a music notice to a separate jeweller listing."
+    },
+    {
+      "token": "V20F665",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a standalone political article beneath the commercial-section banner."
+    },
+    {
+      "token": "V33ECA4",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "B continues the political article introduced by A's headline."
+    },
+    {
+      "token": "VB0BA13",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "B continues the same political story with its next paragraph."
+    },
+    {
+      "token": "VBCC42C",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "B continues the same account of the proposed employee rest day."
+    },
+    {
+      "token": "V64C350",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a separate biographical notice, not the political story in A."
+    },
+    {
+      "token": "VE2E2F0",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "The directory listings in B continue beneath the Paris-neighborhood guide banner."
+    },
+    {
+      "token": "V8FBAD2",
+      "label": "new_article",
+      "confidence": "medium",
+      "brief_visual_reason": "B is a separate small classified listing, not the printing advertisement in A."
+    },
+    {
+      "token": "VC4BAA5",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a distinct precious-metals advertisement."
+    },
+    {
+      "token": "V3653AA",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches to another classified business listing."
+    },
+    {
+      "token": "V701679",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a different small advertiser from the bijouterie entry in A."
+    },
+    {
+      "token": "VACB3B1",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "The two fragments show different classified advertisers."
+    },
+    {
+      "token": "VD6EAC3",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is political-news prose, separate from A's haberdashery listing."
+    },
+    {
+      "token": "V3677AB",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B concerns a different political issue from the pharmacist passage in A."
+    },
+    {
+      "token": "V389F2B",
+      "label": "new_article",
+      "confidence": "medium",
+      "brief_visual_reason": "B begins an automobile-club item, distinct from A's clipped preceding text."
+    },
+    {
+      "token": "VB5A138",
+      "label": "unclear",
+      "confidence": "low",
+      "brief_visual_reason": "Both snippets are too incomplete to determine whether the notice continues."
+    },
+    {
+      "token": "V804622",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a separate automobilism report after A's short notice."
+    },
+    {
+      "token": "V5B7463",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is an unrelated clothing advertisement, not the road-traffic article."
+    },
+    {
+      "token": "V29E944",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "The garage names differ, indicating separate advertisements."
+    },
+    {
+      "token": "V18090F",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is political commentary rather than the garage advertisement in A."
+    },
+    {
+      "token": "V239798",
+      "label": "same_article",
+      "confidence": "medium",
+      "brief_visual_reason": "A's discussion and B's subheading both concern the same bread-price commentary."
+    },
+    {
+      "token": "V8097D4",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a separate civic announcement, not the food-committee report."
+    },
+    {
+      "token": "VE1D6CD",
+      "label": "new_article",
+      "confidence": "medium",
+      "brief_visual_reason": "B opens a boxing report, distinct from A's clipped preceding item."
+    },
+    {
+      "token": "VC6AF87",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a separate garage advertisement."
+    },
+    {
+      "token": "V5131FB",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a different shop listing from the garage advertisement."
+    },
+    {
+      "token": "VF42F1C",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches from art supplies to a garage listing."
+    },
+    {
+      "token": "VD1D52E",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a separate bibelots advertisement."
+    },
+    {
+      "token": "VF7E2EA",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a distinct garage listing from the bibelots notice."
+    },
+    {
+      "token": "V31F0DD",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B shows different classified advertisers from the garage notice in A."
+    },
+    {
+      "token": "V70883D",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a separate linens-and-cottons advertisement."
+    },
+    {
+      "token": "V1C8D62",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches from bathhouse linens to a different food listing."
+    },
+    {
+      "token": "V720609",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a separate linens advertisement."
+    },
+    {
+      "token": "VCA61D7",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a restaurant listing, separate from the linens notice."
+    },
+    {
+      "token": "VCC6D39",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a distinct Swiss-goods advertisement."
+    },
+    {
+      "token": "VF4CB18",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a different florist/hat-shop listing from A's Swiss-goods ad."
+    },
+    {
+      "token": "VF406AE",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches from millinery to a separate lingerie notice."
+    },
+    {
+      "token": "VADB40F",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is an unrelated furniture listing."
+    },
+    {
+      "token": "V05897C",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a distinct upholstery listing."
+    },
+    {
+      "token": "V9CF72D",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "The bedding and mattress entries are separate classified advertisements."
+    },
+    {
+      "token": "V8845C9",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a separate pharmacy listing, not the art-furnishing entry."
+    },
+    {
+      "token": "V3BB538",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a different food-shop advertisement."
+    },
+    {
+      "token": "V188933",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a separate children's-shoe listing."
+    },
+    {
+      "token": "VF6D9C0",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches to another footwear/retail notice."
+    },
+    {
+      "token": "V6F361B",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a distinct dental-prosthesis advertisement."
+    },
+    {
+      "token": "V50DA51",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a separate hat-shop listing, not the dental notice."
+    },
+    {
+      "token": "V4169F1",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a different shoe-shop advertisement."
+    },
+    {
+      "token": "VE961E7",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches from the shoe shop to a millinery listing."
+    },
+    {
+      "token": "V9C85D6",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a garage ad, distinct from the millinery notice."
+    },
+    {
+      "token": "VDAE6E7",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a separate typewriting-service listing."
+    },
+    {
+      "token": "V9C0D04",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a corporate-events article, not the typewriting ad."
+    },
+    {
+      "token": "VAE47D8",
+      "label": "new_article",
+      "confidence": "medium",
+      "brief_visual_reason": "B's clipped bread-price text is separate from the corporate-event announcement."
+    },
+    {
+      "token": "V169EFD",
+      "label": "new_article",
+      "confidence": "medium",
+      "brief_visual_reason": "B is a meeting schedule, distinct from A's clipped bread-price text."
+    },
+    {
+      "token": "V21C8EF",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a new foreign-trade editorial after the meeting announcement."
+    },
+    {
+      "token": "V10EC72",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches from the Soviet editorial to a boxing-results report."
+    },
+    {
+      "token": "VABC666",
+      "label": "unclear",
+      "confidence": "low",
+      "brief_visual_reason": "A and B are tiny result fragments; continuity cannot be read reliably."
+    },
+    {
+      "token": "VCA2653",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a housing advertisement, separate from the tennis results."
+    },
+    {
+      "token": "V4AA874",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is an enamel-arts advertisement, not the villa advertisement in A."
+    },
+    {
+      "token": "V29E757",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a distinct electrical-services listing."
+    },
+    {
+      "token": "V7D3C3D",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a separate radio/lessons advertisement."
+    },
+    {
+      "token": "V58C37B",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches from the radio notice to an electrical-services listing."
+    },
+    {
+      "token": "V20026D",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a different music-instruction advertisement."
+    },
+    {
+      "token": "VB9FCA9",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a separate electrical-services notice."
+    },
+    {
+      "token": "V392FFE",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is an unrelated linens advertisement."
+    },
+    {
+      "token": "V7BD57F",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a stenography/typewriting listing, not the linens ad."
+    },
+    {
+      "token": "VD03EE2",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a separate laundry listing."
+    },
+    {
+      "token": "V2D10E7",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is an unrelated Swiss-products advertisement."
+    },
+    {
+      "token": "VD5B887",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches from Swiss goods to a separate bedding ad."
+    },
+    {
+      "token": "V87E7A6",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a separate Swiss-goods notice."
+    },
+    {
+      "token": "V248027",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is an institution advertisement, distinct from the Swiss-goods listing."
+    },
+    {
+      "token": "VDD02A9",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches from the institution notice to a laundry listing."
+    },
+    {
+      "token": "V7FEFBC",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a separate grocery advertisement."
+    },
+    {
+      "token": "V027074",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a separate millinery/bedding listing."
+    },
+    {
+      "token": "V910061",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a distinct confectionery advertisement."
+    },
+    {
+      "token": "V16DDE3",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a pharmacy notice, unrelated to the garage ad."
+    },
+    {
+      "token": "VCE663C",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a different embroidery listing from the pharmacy notice."
+    },
+    {
+      "token": "V8D0A18",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a separate pharmacy ad."
+    },
+    {
+      "token": "VEAF064",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a different shop listing from the pharmacy notice."
+    },
+    {
+      "token": "V534DCC",
+      "label": "new_article",
+      "confidence": "medium",
+      "brief_visual_reason": "B's tiny clipped advertisement is distinct from the Bally shoe/embroidery listing."
+    },
+    {
+      "token": "V2D2A2E",
+      "label": "unclear",
+      "confidence": "low",
+      "brief_visual_reason": "A is too small to identify; it may be the clipped lead-in to B's legal notice."
+    },
+    {
+      "token": "VD1D83D",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a separate shoe-shop advertisement."
+    },
+    {
+      "token": "V0FE1B5",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a distinct driving-school advertisement."
+    },
+    {
+      "token": "V2D57A7",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a political article, unrelated to A's piano advertisement."
+    },
+    {
+      "token": "V4514BD",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a sports-club notice, not the trade-regulation report."
+    },
+    {
+      "token": "V05732D",
+      "label": "new_article",
+      "confidence": "medium",
+      "brief_visual_reason": "B starts a separate sports roundup after the club notice."
+    },
+    {
+      "token": "V8D0BD9",
+      "label": "same_article",
+      "confidence": "high",
+      "brief_visual_reason": "B continues the winter-sports article under its heading."
+    },
+    {
+      "token": "V4B46AF",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a villa advertisement, separate from the railway timetable."
+    },
+    {
+      "token": "V9E798F",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts an apartments-for-rent listing, not the musical-event ad."
+    },
+    {
+      "token": "VED3A10",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a separate enamel advertisement."
+    },
+    {
+      "token": "V93D5E6",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a wallpaper/decoration listing, distinct from the enamel ad."
+    },
+    {
+      "token": "V8E98E0",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a separate electrical-appliance notice."
+    },
+    {
+      "token": "V3F7A35",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins an insurance advertisement, not the electrical listing."
+    },
+    {
+      "token": "VE3150A",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a separate masseuse advertisement."
+    },
+    {
+      "token": "VD22D4A",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a hairdresser notice, distinct from the masseuse ad."
+    },
+    {
+      "token": "V6558C9",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a separate grocery advertisement."
+    },
+    {
+      "token": "V4BCF6B",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches from groceries to a heating-service listing."
+    },
+    {
+      "token": "V28A5C2",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a separate bedding advertisement."
+    },
+    {
+      "token": "V8A2DB9",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a young-women's institution listing."
+    },
+    {
+      "token": "V955E50",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B switches to a distinct bedding advertisement."
+    },
+    {
+      "token": "VA64C20",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a separate small shop listing, not the linen advertisement."
+    },
+    {
+      "token": "V73688A",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a wine-and-bicycle shop listing."
+    },
+    {
+      "token": "V5C46D9",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a distinct shoe-shop listing."
+    },
+    {
+      "token": "V5EFE85",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a separate bicycle/retail notice."
+    },
+    {
+      "token": "VAC1E1A",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a shoe and embroidery listing, not the cycles notice."
+    },
+    {
+      "token": "VBEF538",
+      "label": "new_article",
+      "confidence": "medium",
+      "brief_visual_reason": "B appears to be a separate confectionery listing from the shoe/embroidery ad."
+    },
+    {
+      "token": "V2CE0A9",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B begins a distinct crown-maker listing."
+    },
+    {
+      "token": "VC5F637",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a Peugeot/furniture listing, separate from the crown notice."
+    },
+    {
+      "token": "V14CA35",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B starts a separate piano-related listing."
+    },
+    {
+      "token": "V9D44B2",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is a garden-services advertisement, distinct from the piano listing."
+    },
+    {
+      "token": "V02217B",
+      "label": "new_article",
+      "confidence": "high",
+      "brief_visual_reason": "B is political prose, unrelated to the garden-services advertisement."
+    }
+  ]
+}
