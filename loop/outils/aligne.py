@@ -39,7 +39,7 @@ def xycut(boites):
 
 
 def ordre_lecture(boites):
-    if os.environ.get('BBVLM_ORDRE') == 'xy': return xycut(boites)
+    if os.environ.get('BBVLM_ORDRE', 'xy') == 'xy': return xycut(boites)   # S03 adopté (BBVLM_ORDRE=uf : ancien)
     return ordre_union(boites)
 
 
@@ -88,7 +88,10 @@ def aligne(textes, boites, penalite=0.8):
         # S04 : la chasse suit le corps — largeur attendue ∝ caractères × hauteur
         # de ligne (un titre en gros corps n'est plus pris pour une ligne courte)
         hb = [max(1, b[3]-b[1]) for b in B]
-        w = [w[j]/hb[j] for j in range(len(B))]
+        med = float(np.median(hb))
+        # hauteur de boîte bruitée (jambages, coupes) : seules les lignes
+        # nettement plus hautes que la médiane (gros corps) sont corrigées
+        w = [w[j]*med/hb[j] if hb[j] > 1.4*med else w[j] for j in range(len(B))]
     # largeur de caractère : médiane des rapports sur l'appariement diagonal
     k = min(len(n), len(w))
     cw = float(np.median([w[i]/n[i] for i in range(k)])) or 1.0

@@ -185,3 +185,36 @@ Boîtes calculées sur la ligne redressée autour du centre local
 (CenterNormalizer d'OCRopus). heptaldai, lignes de référence : ≤0,5c
 78,95 → 84,8 %, IoU méd 0,639 → 0,698, mais pire 1,69 → 4,03 ; lignes kraken :
 78,4 → 79,5 %, IoU 0,605 → 0,616. Banc complet en cours.
+
+## O11 — 2026-09-28 — consigne P6 sur 4 œuvres neuves
+
+Texte P3 contre référence adjugée (deux arbitres dès le départ, règle A2) :
+852691769 **0** (80/80 lignes, page-tableau latine), chridiss 4, branchri 6,
+extraudeu 43 (41 = une ligne visuelle qui porte deux lignes de référence :
+fin de paragraphe + « Signatum… » à droite ; L08, règle candidate P7). P6 ne
+dégrade rien ; adoptée dans la chaîne. Arbitre P3 : recadrages faux sur la
+page-tableau → consigne de repli sur les bandes (consigne_arbitre_P3.md),
+0 faute après. Détail : o11/RESULTATS.md.
+
+## S03 — ordre de lecture par XY-cut (L09) — adopté
+
+Union-find sur le recouvrement horizontal : un titre pleine largeur fond les
+colonnes (852691769). XY-cut récursif (colonnes puis bandes, blancs ≥ 0,5 h).
+20 pages O07-O11 : identique partout sauf 852691769, texte+IoU80 0,062 → 0,136.
+
+## S04 — alignement lecture→lignes : chasse ∝ corps pour les gros corps — adopté
+
+extraudeu : le titre « EXTRACT » (7 car., 844 px) décalait tout
+l'alignement (texte+IoU80 0,131). Largeur/hauteur pour toutes les lignes :
+extraudeu 0,641 mais herrleyc 0,393 → 0,183 (hauteurs kraken bruitées).
+Correction seulement des lignes > 1,4 × hauteur médiane : extraudeu 0,641,
+aucune régression sur les 5 autres pages testées (herrleyc, berirev,
+baltdiss, heptaldai, 852691769). Seuil choisi une fois, à valider sur O12.
+
+## B01 — centre local : mitigé, gardé sous seuil (non adopté)
+
+Banc complet (16 pages, lignes réf. et kraken) : gain sur lignes inclinées
+(herrkurt ≤0,5c 84,7 → 90,7 %, IoU 0,816 → 0,887 ; 730277879 89,3 → 95,9 % ;
+berirev pire 7,17 → 4,33), perte sur pages droites (AmmoLIBR 96,9 → 92,2 %,
+DasWeL 97,6 → 94,0 %, IoU −0,01 à −0,03). Redressement désormais réservé aux
+lignes dont la dérive dépasse 0,25 h ; à re-mesurer avant adoption.

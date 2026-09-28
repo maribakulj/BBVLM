@@ -10,19 +10,22 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 
 | étage | cible | mesure gelée | état |
 |---|---|---|---|
-| texte | 0 faute par page | `outils/cer.py` (diplo), référence doublement adjugée | **P3 : 3 pages sur 4 à 0 % (O07)** ; 15+ pages à 0 % sur au moins une lecture |
-| lignes | toutes trouvées, serrées | `outils/segeval.py` | kraken + G03 : 95-100 % trouvées, IoU méd 0,75-0,98 |
-| boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE tenu sur 4 pages bout-en-bout ; IoU80 63-92 % au mot |
-| ALTO | XSD + provenance + refus | `outils/vers_alto.py` | valide XSD 4.4 ; lignes non placées marquées |
-| OLR, métadonnées, retrieval | à définir | à définir | **pas commencé** |
+| texte | 0 faute par page | `outils/cer.py` (diplo), référence adjugée règle A2 | pages neuves O09-O11 (12) : **4 à 0**, 4 à ≤ 1 car. / ≤ 6 car., pires : notation (herrkurt, réglée par P6) et mise en page (extraudeu, ligne double) |
+| lignes | toutes trouvées, serrées | `outils/segeval.py` | kraken + G03 : bon sur livres ; page en regard écartée par l'alignement ; réclames parfois manquées |
+| boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE ✓ sur 5 pages ; texte+IoU80 64-93 % sauf lignes inclinées (heptaldai 0,34) et tableaux (852691769 0,14) |
+| ALTO | XSD + provenance + refus | `outils/vers_alto.py` | valide XSD 4.4 ; blocs typés, ReadingOrder (XY-cut S03), lignes non placées marquées |
+| OLR | rôles + régions + ordre | `outils/olr.py` | rôles 0,74-1,0, F1 régions ≥ 0,91, ordre ≥ 0,95 (livres) ; presse bloquée (Finlam sur HF) |
+| retrieval | rappel/précision avec boîte | `outils/recherche.py` | 88-100 % sur la plupart des pages |
+| métadonnées | valeurs citant la source | à définir | pas de VT accessible (MODS vides, catalogues bloqués) |
 
 ## Chaîne actuelle (P3 + ALTO)
 
 1. Vues : page réduite + bandes pleine résolution + moitiés ×1,6 (`prep_sbb.py`, `vues_zoom.py`).
-2. Deux passes Opus, consigne `outils/consigne_P2.md` (OCR-D niveau 2, déclaration d'écriture).
-3. `p2.py` : conformité OCR-D des espaces, R1 (tréma → e suscrit) si Fraktur.
-4. `p3.py` : lignes en désaccord recadrées via kraken et arbitrées par Opus.
-5. `segmente.py` (kraken blla) → `serre.py` (G03) → `aligne.py` → `vers_alto.py` (connexe).
+2. Deux passes Opus, consigne `outils/consigne_P6.md` (OCR-D niveau 2, écriture déclarée, rôle par ligne, fractions, jetons {florin}/{groschen}).
+3. `p2.py` : jetons → PUA, conformité OCR-D des espaces, R1 si Fraktur, R2 (ů/uͤ par lexique).
+4. `p3.py` : lignes en désaccord recadrées via kraken, arbitrées par Opus (`consigne_arbitre_P3.md`, repli sur les bandes).
+5. `segmente.py` (kraken blla) → `serre.py` (G03) → coupe S02 si manchettes → `aligne.py` (XY-cut S03, chasse ∝ corps S04) → routeur G02 → `vers_alto.py`.
+Point d'entrée : `chaine.py prepare | arbitrage | final`.
 
 ## Règles
 
@@ -33,8 +36,9 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 2. Lecteurs = sous-agents Claude, à l'aveugle. Référence jamais dans leur contexte.
 3. Protocole écrit avant la lecture des résultats ; une page qui a réglé
    quelque chose est consommée.
-4. Adjudication aveugle X/Y ; une correction qu'aucun candidat ne portait
-   exige deux arbitres concordants ; toute page annoncée à 0 % est auditée
+4. Adjudication aveugle X/Y ; **règle A2** : tout texte retenu autre que la
+   référence distribuée (texte neuf ou choix de la lecture) exige deux
+   arbitres indépendants concordants ; toute page annoncée à 0 % est auditée
    (relecture aveugle sans candidats des lignes arbitrées). Les 0 % valent
    « 0 faute contre une référence corrigée par des arbitres Opus concordants »,
    pas une vérité humaine.
@@ -42,12 +46,14 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 
 ## Prochaines étapes
 
-- Texte : valider P3 sur un lot plus large et plus varié (presse, français,
-  pages dégradées) ; attaquer les erreurs communes aux deux passes (variantes
-  grecques, a priori lexical « Marana ») — un seul arbitre ne les voit pas.
-- Boîtes : Fraktur serré (frontières < 95 %), lignes non placées.
-- OLR / métadonnées / retrieval : revue de littérature, reprendre l'ordonnanceur
-  de colonnes d'astra (A48-A49) plutôt que le réinventer.
+- O12 (pages neuves) : valider S03/S04, P7 candidate (ligne visuelle à deux
+  régions → deux lignes, L08).
+- Boîtes : lignes inclinées (B01 sous seuil 0,25 h, à re-mesurer) ; page-
+  tableau 852691769 (texte+IoU80 0,14 malgré une segmentation juste :
+  diagnostiquer l'alignement ligne par ligne).
+- Texte : coquilles et lettres retournées (garder l'imprimé) ; erreurs
+  communes aux deux passes.
+- Métadonnées : extraction depuis la transcription, valeurs citant leur source.
 
 ## Contraintes d'environnement
 
