@@ -34,7 +34,10 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 3. Protocole écrit avant la lecture des résultats ; une page qui a réglé
    quelque chose est consommée.
 4. Adjudication aveugle X/Y ; une correction qu'aucun candidat ne portait
-   exige deux arbitres concordants.
+   exige deux arbitres concordants ; toute page annoncée à 0 % est auditée
+   (relecture aveugle sans candidats des lignes arbitrées). Les 0 % valent
+   « 0 faute contre une référence corrigée par des arbitres Opus concordants »,
+   pas une vérité humaine.
 5. Résultats négatifs consignés (R1 réfutée en romain, consensus ROVER négatif…).
 
 ## Prochaines étapes

@@ -78,3 +78,14 @@ Deux passes + arbitrage des 12 lignes en désaccord sur 133 : 730277879 (A à
 2,06 %) → 0 %, albedm 0 %, berirev 0 %, Aphoq 0,80 % (grec, erreur commune).
 Premier ALTO produit par la chaîne entière, valide XSD 4.4 ; au mot : texte
 exact ET IoU≥0,8 de 61 à 92 %.
+
+## Audit — réclame de drabnota (signalée par astra, A52)
+
+Référence et notre arbitre O02 : « wort ». Lecture aveugle Opus sans candidats
+(recadrage 4×) : « werct » ; astra : « werck » ; lecture directe de
+l'orchestrateur : « wert ». Trois lectures indépendantes contre une : la
+2e lettre est un **e** ; notre référence adjugée se trompait. Fin du mot
+indécidable (t / ct / ck). Conséquence de méthode : un verdict X/Y d'un
+seul arbitre n'est pas sûr non plus. Désormais, toute page annoncée à 0 %
+subit un audit : relecture aveugle **sans candidats** de ses lignes arbitrées
+par un second Opus ; un désaccord rend la ligne « contestée ».
