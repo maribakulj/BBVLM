@@ -487,3 +487,11 @@ Mesure (référence adjugée A2, sorties finales refondues, 22 pages O10-O15) :
 226 → **215** éditions ; dalarie 10 → **0** (7ᵉ page neuve à 0) ;
 852691769 reste à 0 (D’ARGENTVILLE lu ’, désormais ') ; aucune régression.
 C'est une correction de convention d'évaluation, pas un gain de lecture.
+
+## E-dalarie — 2026-09-28 — troisième page parfaite de bout en bout
+
+dalarie (O14), après L2 : texte **0** faute contre la référence adjugée ;
+boîtes (kraken G03 + Route, e01) : lignes 21/21 trouvées (IoU méd 0,952),
+0 ligne en échec, frontières ≤ 0,5c 97,3 %, pire 1,39c, IoU méd mots 0,929 →
+**CRITERE ✓**. ALTO : 136/136 mots placés, texte+IoU80 0,927.
+Pages parfaites (texte 0 + CRITERE ✓) : erobdefoa, caladr, dalarie.

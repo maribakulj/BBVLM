@@ -12,7 +12,7 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 |---|---|---|---|
 | texte | 0 faute par page | `outils/cer.py` (diplo), référence adjugée règle A2 | pages neuves O09-O15 (24) : **7 à 0** (dalarie après L2), 6 à ≤ 2 car. ; O15 plus dur (latin, XVIe : 2 à 37 car.) ; restes : conventions de forme (tiret ⸗/-, ü/uͤ), blancs, annotations manuscrites |
 | lignes | toutes trouvées, serrées | `outils/segeval.py` | kraken + G03 : bon sur livres ; page en regard écartée par l'alignement ; réclames parfois manquées |
-| boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE ✓ sur 8 pages ; **erobdefoa et caladr parfaites de bout en bout** ; blocage : lignes non trouvées par kraken (titres d'apparat, courtes manchettes) et blancs du texte |
+| boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE ✓ sur 8 pages ; **erobdefoa, caladr, dalarie parfaites de bout en bout** ; blocage : lignes non trouvées par kraken (titres d'apparat, courtes manchettes) et blancs du texte |
 | ALTO | XSD + provenance + refus | `outils/vers_alto.py` | valide XSD 4.4 ; blocs typés, ReadingOrder (XY-cut S03), lignes non placées marquées |
 | OLR | rôles + régions + ordre | `outils/olr.py` | rôles 0,74-1,0, F1 régions ≥ 0,91, ordre ≥ 0,95 (livres) ; presse bloquée (Finlam sur HF) |
 | retrieval | rappel/précision avec boîte | `outils/recherche.py` | 88-100 % sur la plupart des pages |
