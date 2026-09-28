@@ -543,3 +543,18 @@ chridiss (38-53 px, espaces de mots 19-21) a la taille des blancs des titres
 espacés de dalarie (50-53 px) ; la géométrie seule ne les sépare pas.
 Non intégré. Piste : coupe guidée par le texte (une ligne kraken dont l'OCR
 d'ancrage contient deux lignes lues, S08).
+
+## S08 — 2026-09-28 — scinder une ligne kraken portant deux lignes lues (coupe guidée par le texte) — adopté
+
+Suite de S07 : c'est le texte, pas la géométrie, qui dit qu'une ligne kraken
+en porte deux. `outils/scinde.py` : si l'OCR d'ancrage (Tesseract, S05) d'une
+ligne kraken est plus proche de la concaténation de deux lignes lues (A puis
+B, |i−j| ≤ 6 : notes en colonnes lues colonne par colonne) que de toute ligne
+seule (gain ≥ 0,15, distance ≤ 0,35), coupe au plus large blanc proche de la
+proportion |A|/(|A|+|B|). Appliqué avant la coupe des manchettes S02.
+Lignes trouvées (IoU ≥ 0,5, 36 pages O07-O15, 990/1032) : gain 0,25 → 994,
+0,15 → 1000, 0,08 → 1003 ; aucune page ne perd de ligne à aucun seuil ; 0,15
+retenu (0,08 baisse la précision berirev, herrleyc).
+ALTO bout en bout (texte+IoU80, 36 pages) : 28,444 → **28,551** ; berirev
+0,816 → 0,865, chridiss 0,666 → 0,724 ; les 34 autres identiques (aucune
+régression). BBVLM_SCINDE=0 pour l'ancien comportement.

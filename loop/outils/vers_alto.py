@@ -36,7 +36,7 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
     if structure:
         for l in open(structure, encoding='utf-8'):
             if l.lower().startswith('#ecriture:'): ecr = l.split(':', 1)[1].strip().lower()
-    if os.environ.get('BBVLM_SCINDE', '0') == '1' and os.environ.get('BBVLM_ANCRE', '1') == '1' and shutil.which('tesseract'):
+    if os.environ.get('BBVLM_SCINDE', '1') == '1' and os.environ.get('BBVLM_ANCRE', '1') == '1' and shutil.which('tesseract'):
         # S08 : ligne kraken portant deux lignes lues (notes en colonnes, manchette collée) → scindée
         from ancre import lit_lignes
         from scinde import scinde
