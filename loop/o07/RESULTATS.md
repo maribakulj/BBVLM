@@ -32,3 +32,20 @@ Texte P3 + lignes kraken resserrées + alignement + connexe → ALTO 4.4,
 
 Pour comparaison, astra A37 (lignes PERO + A32 routé, texte PERO) : rappel
 IoU80 68,6 % sur 4 pages SBB. Ici, avec le texte à 0 faute, 63 à 92 %.
+
+## Audit sans candidats (règle ajoutée après l'alerte d'astra)
+
+Un second Opus relit à l'aveugle, **sans aucune proposition**, les 30
+recadrages de lignes arbitrées des deux pages à 0 % (17 lignes distinctes),
+lectures passées par la même chaîne déterministe (R1 selon la page).
+
+| page | lignes auditées | concordantes | **contestées** | nature |
+|---|---|---|---|---|
+| 730277879 | 10 | 8 | 2 | å / aͤ ; l / i ; ſ / f (« opſern ») |
+| berirev | 7 | 5 | 2 | ſs / ß ; ꝛ / r ; t / c |
+
+Lecture honnête : 730277879 et berirev sont à **0 faute contre la référence
+adjugée, avec 2 lignes contestées chacune** sur des formes de glyphes à la
+limite de résolution du scan (quelques pixels). Ce résidu n'est tranchable
+que par un œil humain ou une image de meilleure résolution ; il est déclaré,
+pas effacé.

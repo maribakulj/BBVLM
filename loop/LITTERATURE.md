@@ -63,3 +63,27 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
   bloqué), d'où `connexe` (sans reconnaisseur) comme moteur principal.
 - **Évaluation des boîtes** : IoU, précision/rappel, ZoneMap (appariements,
   divisions, fusions). CRITERE.md reste la mesure gelée du projet.
+
+## L05 — OLR, articles, métadonnées (2026-09-28, avant O08)
+
+- **Mocaër et al. 2026, *Towards Hierarchical Structure Understanding of
+  Newspaper Images*** (arXiv 2607.15082 ; résumé complet lu dans le dépôt
+  d'astra, arxiv bloqué ici). Représentation section → article (article / ad /
+  freead) → blocs (title, subtitle, text, illustration, caption, table,
+  author…) avec ordre de lecture ; deux voies : pipeline YOLO + LayoutReader +
+  segmentation d'articles, et Tiramisu (transformer hiérarchique de bout en
+  bout) ; jeu **Finlam La Liberté** (Teklia, HuggingFace — bloqué ici).
+  *Conséquence* : c'est le cadre d'évaluation de la presse ; METS pour la
+  structure logique, ALTO pour la physique. À reprendre quand l'accès existe.
+- **STRAS / LIAS** : séparation d'articles par similarité textuelle (STRAS) ou
+  par géométrie et filets (LIAS). **astra A48-A49** : colonnes par modes
+  récurrents du bord gauche, ordre global 0,67 → 0,88 sur Finlam — à reprendre.
+- **OCR-D GT Guidelines, structure** : types de régions des livres
+  (paragraph, heading, header, page-number, signature-mark, catch-word,
+  marginalia, footnote, caption…) et ReadingOrder dans le PAGE XML. Présents
+  dans toutes nos pages SBB → **OLR des livres mesurable dès maintenant**.
+- **Métadonnées par LLM** : ATR4CH (2025) 0,96-0,99 F1 d'extraction de
+  métadonnées sur documents patrimoniaux ; MOLE (EMNLP 2025, articles
+  scientifiques). *Limite* : sorties instables, à contraindre (schéma, citation
+  exacte du texte source). *Conséquence* : les métadonnées seront extraites de
+  la transcription diplomatique, chaque valeur citant ses caractères sources.

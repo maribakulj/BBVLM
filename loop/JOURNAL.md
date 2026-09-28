@@ -89,3 +89,9 @@ indécidable (t / ct / ck). Conséquence de méthode : un verdict X/Y d'un
 seul arbitre n'est pas sûr non plus. Désormais, toute page annoncée à 0 %
 subit un audit : relecture aveugle **sans candidats** de ses lignes arbitrées
 par un second Opus ; un désaccord rend la ligne « contestée ».
+
+## Audit O07 — 4 lignes contestées sur les deux pages à 0 %
+
+Relecture aveugle sans candidats : 13 lignes concordantes, 4 contestées
+(å/aͤ, ſ/f, ſs/ß, ꝛ/r, t/c). Les 0 % se disent désormais avec leur nombre de
+lignes contestées.
