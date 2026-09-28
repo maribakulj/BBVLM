@@ -136,3 +136,16 @@ non documentée même chez dinglehopper.
 Texte P3 0 / 0 / 0,06 / 0,16 % ; OLR régions 0,91-1,00 sur 3 pages ; ALTO
 texte+IoU80 79-92 % ; recherche 88-97 %. Routeur A37 (astra) adopté pour les
 boîtes après mesure ; alignement des manchettes par rôle adopté après mesure.
+
+## S02 — manchettes fusionnées par kraken : coupe au bord de colonne
+
+Diagnostic des lignes en échec (CRITERE sur la chaîne finale, 12 pages : 3
+pages ✓, les autres surtout par 1-5 lignes en échec) : kraken fusionne la
+manchette avec la ligne du texte courant (même ligne de base), collée à
+10-15 px (moins qu'une espace). `outils/coupe.py` : bord du texte justifié =
+mode des extrémités de lignes ; ligne qui le dépasse coupée dans un vrai blanc
+(≥ 3 px) près du bord. Lignes trouvées : berirev 40 → 47/48, herrleyc 31 →
+36/36, Aphoq 28 → 31/32, BrenBreu 35 → 36/36. Fausses coupes sur les pages à
+vers/listes → coupe appliquée **seulement si le lecteur signale des manchettes**
+(rôle P5). herrleyc : 36/36 lignes placées, rappel IoU80 0,66 → 0,78,
+**recherche 53 % → 91 %**.

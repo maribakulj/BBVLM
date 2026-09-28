@@ -31,6 +31,11 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
         roles = lit(open(structure, encoding='utf-8').read().splitlines())
         if len(roles) != len(lignes): roles = None
     kr = json.load(open(f'{dossier}/kraken_serre.json'))['lignes']
+    if roles and any(r[0] == 'marginalia' for r in roles):
+        # manchettes signalées par le lecteur : détacher celles que kraken a fusionnées (coupe.py)
+        from coupe import coupe_page
+        g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
+        kr = [{'bbox': b} for b in coupe_page(g0, [l['bbox'] for l in kr])]
     boites = [l['bbox'] for l in kr]
     g = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE); H, W = g.shape
     # Placement : avec les rôles, manchettes alignées sur les lignes de marge
