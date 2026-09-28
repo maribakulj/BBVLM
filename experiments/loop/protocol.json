@@ -880,5 +880,15 @@
     },
     "independent": false,
     "global_completion": false
+  },
+  "crop_geometry_a65": {
+    "status": "completed_oracle_structural_ablation",
+    "protocol": "next-a65/PROTOCOL.md",
+    "report": "next-a65/report.json",
+    "results": "next-a65/RESULTS.md",
+    "validation_pages": 50,
+    "test_pages_opened": 0,
+    "inference_calls": 0,
+    "global_completion": false
   }
 }

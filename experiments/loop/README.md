@@ -221,6 +221,15 @@ diplomatique : cette quatrième vue reste séparée de `strict_nfc_diplomatic`,
 `search_v1` et `lexical_alnum`. Le résultat n'est pas 0 %, A54 est consommé et
 les deux régressions exigent une adjudication image indépendante.
 
+## A65 : frontières de crop sur 50 pages de validation
+15 010 lignes valides mesurées, zéro modèle : 4 069 perdent >1% de leur
+surface annotée sous masque du polygone parent, contre 2 222 sous rectangle.
+La fusion de tous les polygones texte n'aide presque pas (4 061). En échange,
+105/1 092 rectangles de régions capturent >1% de surface de régions voisines.
+Ce diagnostic oracle ne mesure ni encre ni CER, et les polygones de lignes
+ne sont pas parfaitement adjudiqués. Les 100 pages Test restent réservées.
+Ne pas promouvoir les masques fins comme entrées OCR sans validation image.
+
 Résultat A13 : 8/1 049 éditions pour Luna (0,7626 %), puis 7/1 049 pour Sol
 (0,6673 %). Les différences sont ponctuation/espaces, pas des mots ; plusieurs
 signes visibles manquent dans le XML. L'audit image de l'agent est sauvegardé

@@ -201,3 +201,30 @@ Autres pistes repérées par recherche mais non lues intégralement : Beyene/Dan
   parfaite. A54 est consommé et ne redevient pas indépendant.
 - **Code :** <https://github.com/hipe-eval/HIPE-OCRepair-scorer> ; révision
   exacte inscrite dans le protocole et le rapport A64.
+
+## A65 — Schultze et al., Chronicling Germany, 2401.16845v4
+
+- Version du 13 juin 2025, relecture du 28 septembre 2026 via HTML primaire
+  et page HF markdown. Sections lues : 3, 4/pipeline, A.4.2, A.5 et A.7.2 ;
+  il ne s'agit pas d'une nouvelle lecture intégrale de tout le papier.
+- Méthode : régions par segmentation U-Net, détection séparée de lignes,
+  puis reconnaissance LSTM. Les auteurs signalent la fragmentation des lignes
+  aux frontières de classes et souhaitent dissocier frontières physiques et
+  classes fines. Les régions ont un double contrôle humain, les lignes seulement
+  une correction sélective. Ordre automatique ; articles encore à annoter.
+- Apport A65 : ablation des masques oracle avant d'installer un détecteur.
+  La fusion de tous les polygones texte ne résout presque pas les débordements
+  observés ; le rectangle réduit les exclusions mais peut capter un voisin.
+- Limites : désaccord géométrique entre deux couches d'annotation, pas preuve
+  de perte d'encre ni de performance prédite ; aucune vérité d'article déduite.
+- Sources : https://arxiv.org/html/2401.16845v4 et
+  https://github.com/Digital-History-Bonn/Chronicling-Germany-Code .
+
+### Code compagnon A65 (pas un article)
+Arbre Git actuel 8a4b7c5613a888cde7d092e38b1841f3bff3f617, fichiers
+`processing/slicing_export.py` et `yolo/preprocess.py` lus entièrement.
+L'export optionnel masque sur label3/paragraph ; le prétraitement YOLO utilise
+les rectangles englobants des polygones. Les variables width/height sont
+inversées dans read_xml puis compensées dans convert_polygon_to_yolo : ne pas
+qualifier ce seul nommage de bug de coordonnées. Aucun poids ni modèle testé
+dans A65. Les niveaux de représentation doivent rester séparés dans ALTO/METS.

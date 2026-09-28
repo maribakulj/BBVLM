@@ -235,6 +235,25 @@
         "experiments/loop/next-a65/PROTOCOL.md"
       ],
       "instructions": "Inspect the current Claude branch before choosing a new hypothesis. Treat A64 as a consumed metric projection only. Advance the distinct predicted-geometry/OLR track with a frozen diverse ground-truth protocol, or a genuinely independent OCR validation if reliable GT is found. Read and separately summarize every new primary source or arXiv paper. Do not retune 0455, do not rewrite reference XML, and do not infer unobserved VLM outputs. Add executable queue jobs, run useful ready work immediately, commit/push and checkpoint after the completed experiment."
+    },
+    {
+      "id": "a65_geometry",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": ["a65_prepare"],
+      "inputs": ["scripts/evaluate_crop_geometry_a65.py", "experiments/loop/next-a65/PROTOCOL.md", "experiments/loop/chronicling-a58/audit.json", "experiments/loop/chronicling-a58/official_split.json"],
+      "outputs": ["experiments/loop/next-a65/report.json"],
+      "argv": ["{python}", "scripts/evaluate_crop_geometry_a65.py"],
+      "timeout_seconds": 180
+    },
+    {
+      "id": "a66_prepare",
+      "kind": "external",
+      "resource": "orchestrator",
+      "deps": ["a65_geometry"],
+      "inputs": ["experiments/loop/next-a65/report.json", "experiments/loop/next-a65/RESULTS.md"],
+      "outputs": ["experiments/loop/next-a66/PROTOCOL.md"],
+      "instructions": "Reinspect Claude; remain on codex/autonomous-research-a34 and never merge/update master/main. A65 is an oracle structural ablation, not detector/OCR improvement. Freeze and run a diverse image-only predicted-layout/crop benchmark, starting on official Validation only; preserve all 100 Test pages until a detector and label/crop policy are frozen. Restore only necessary CPU dependencies/assets. Read current candidate code and primary literature; use no heavy new tool without measured defect. Measure missed and fragmented lines, foreign-region crop area, class mapping and cost separately. Commit/push/checkpoint each completed experiment and continue ready work."
     }
   ]
 }

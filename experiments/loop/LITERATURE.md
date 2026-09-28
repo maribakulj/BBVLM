@@ -1114,3 +1114,11 @@ scorer est textuel, ne voit ni image, ni boîte, ni ordre, et neutralise des
 différences diplomatiques ; il ne peut certifier ni l'image ni la GT. Aucun
 nouvel article n'a été lu dans A64 : le résumé article par article de
 HIPE-OCRepair-2026 déjà présent dans `PAPER_SUMMARIES.md` n'est pas dupliqué.
+
+## A65 — frontières de rôle, masques et lignes
+Schultze et al.2401.16845v4, sections pipeline/annotation/A.7.2 relues avec
+le code actuel slicing_export.py et yolo/preprocess.py. Résumé séparé dans
+PAPER_SUMMARIES.md. Hypothèse mesurée sur 50 Validation : une union des régions
+texte retire très peu des débordements de lignes ; rectangles et polygones
+échangent perte de surface et intrusion de voisins. Ne pas attribuer une baisse
+de CER à une meilleure couverture de polygones sans images ni OCR mesuré.

@@ -119,6 +119,29 @@
       "ended_at": 1790599815.5592117
     },
     "a65_prepare": {
+      "status": "completed",
+      "started_at": 1790600227.3994935,
+      "fingerprint": "4290d825f60bd0bf44222d0ba8e9c0569ae2b0b3666cc4b0c6b25f314f2c9050",
+      "actor": "root-active",
+      "token": "91a93289117b4dbca89ef2c5eaa6126d",
+      "outputs": {
+        "experiments/loop/next-a65/PROTOCOL.md": "0eee407e18c28d9a4955e404f8c52907742858652a879d416767abf6398a9060"
+      },
+      "ended_at": 1790600464.5658221
+    },
+    "a65_geometry": {
+      "status": "completed",
+      "started_at": 1790600464.6615007,
+      "fingerprint": "6a28e2cc34ef56378543d06ac706194812dc433e67ef57774492b82bdb7120df",
+      "pid": 6,
+      "log": "experiments/loop/logs/a65_geometry.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a65/report.json": "949284c68c511e8634c5663afa23205bef0db88054709aa8270250beefb45ff2"
+      },
+      "ended_at": 1790600471.8512914
+    },
+    "a66_prepare": {
       "status": "pending"
     }
   }
