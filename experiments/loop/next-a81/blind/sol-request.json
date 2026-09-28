@@ -1,0 +1,68 @@
+{
+  "instruction": "Transcribe ONLY the principal complete text line in target crop. Neighboring partially visible lines are contamination: report their presence but do not append. Context helps glyph reading; never complete target using unseen neighboring words. Preserve original spelling, no modernization. Report uncertainty and physical clipping separately from sentence beginning/end.",
+  "items": [
+    {
+      "id": "V243d7aaa",
+      "images": [
+        "experiments/loop/next-a81/blind/V243d7aaa-target.png",
+        "experiments/loop/next-a81/blind/V243d7aaa-context.png"
+      ],
+      "sha256": [
+        "03588bb2eecf7b5106d4ee8c91976881c1ac87f90488ecfafd07628beba1d2a1",
+        "d74a6903a0d168a39bc8c47c473675d6945c0da88f9903b60a35d43425df58e1"
+      ],
+      "dimensions": [
+        [
+          1800,
+          131
+        ],
+        [
+          1800,
+          372
+        ]
+      ]
+    },
+    {
+      "id": "V31521ffb",
+      "images": [
+        "experiments/loop/next-a81/blind/V31521ffb-target.png",
+        "experiments/loop/next-a81/blind/V31521ffb-context.png"
+      ],
+      "sha256": [
+        "805c39583f0dfad9652890a277e240ef6d850f46ff29ea946f7b445bc4562e1e",
+        "3af1e043736ce85700d5aade60fbdf0d300573caa3d02be53a3b701be785fef6"
+      ],
+      "dimensions": [
+        [
+          1800,
+          106
+        ],
+        [
+          1800,
+          293
+        ]
+      ]
+    },
+    {
+      "id": "Vde9f1e1c",
+      "images": [
+        "experiments/loop/next-a81/blind/Vde9f1e1c-target.png",
+        "experiments/loop/next-a81/blind/Vde9f1e1c-context.png"
+      ],
+      "sha256": [
+        "5fedf4ab74b19c1d5faf47d14d83e28b1fc3ebb1bcd66a00912f257847c81cfc",
+        "396a762bc657a8cedc896b2823b448b6bf2f806555533d1aa27ef41b53005827"
+      ],
+      "dimensions": [
+        [
+          1800,
+          100
+        ],
+        [
+          1800,
+          277
+        ]
+      ]
+    }
+  ]
+}

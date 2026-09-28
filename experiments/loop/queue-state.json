@@ -814,6 +814,77 @@
         "experiments/loop/next-a80/routed/report.json": "95888f87e1a82ad52f5b64361eabb47f91b5f0f987447525516f26a7512b6e82"
       },
       "ended_at": 1790612631.575529
+    },
+    "a81_views": {
+      "status": "completed",
+      "started_at": 1790612951.1121278,
+      "fingerprint": "757425161805a706bcda347d236041c0e37953a28bd4c0c02ef29a9a0c7bbce4",
+      "pid": 11,
+      "log": "experiments/loop/logs/a81_views.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a81/blind/request.json": "2cb70c3a8c4db3565f5ce7dd0e2e4ee0ffd5f73cf5bfc2b288685b59532d4e37",
+        "experiments/loop/next-a81/private-map.json": "c13d4cb577e32497889b6b3a2337437e8369f752e3c57fda204f3ee83a1e23aa"
+      },
+      "ended_at": 1790612953.477466
+    },
+    "a81_reader": {
+      "status": "completed",
+      "started_at": 1790612958.0743616,
+      "fingerprint": "0c6b9487c5164323826678a4c137db0e8f7c3beedb70c5041971330e500e02b1",
+      "actor": "/root/a81_luna",
+      "token": "305150da7e9f41d0a4d51a007f2eb06f",
+      "outputs": {
+        "experiments/loop/next-a81/luna-response.json": "6fd167cefbdda66a22bdc00b69b6ad090393f7601f704990978f43ff3564c1f2"
+      },
+      "ended_at": 1790613062.6522746
+    },
+    "a81_score": {
+      "status": "completed",
+      "started_at": 1790613063.1819332,
+      "fingerprint": "0e388eaa82ca79f89b0c878c8aeeb085b0c0f7749a05b6e670571fa491c26f69",
+      "pid": 8,
+      "log": "experiments/loop/logs/a81_score.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a81/report.json": "a55569308596db5371c45079403ba8b5e5ba4029604ca61ea295c216d8fa28ab"
+      },
+      "ended_at": 1790613063.3375568
+    },
+    "a81_sol_reader": {
+      "status": "completed",
+      "started_at": 1790613117.2694058,
+      "fingerprint": "213aae8b5835a00c1e812da58f5ed83b30f3aa98931c435500bdbdabdb3e9ce8",
+      "actor": "/root/a81_sol",
+      "token": "8ab71abef44642f38d2ee709ec233039",
+      "outputs": {
+        "experiments/loop/next-a81/sol-response.json": "1a741abfce435c3c2e732e485f8328607f18c28e3056dbdb839a10249b75eb49"
+      },
+      "ended_at": 1790613212.0234976
+    },
+    "a81_contamination": {
+      "status": "completed",
+      "started_at": 1790613187.9533198,
+      "fingerprint": "fc13d8fb3be1015d445aa481c639533e57170cee9069b0c41c61c7a075a3bcf1",
+      "pid": 9,
+      "log": "experiments/loop/logs/a81_contamination.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a81/contamination.json": "9d934a36247d6c4ff024da86fe9ca6dbee8f6951a809ddd31ebbfa9ad200d167"
+      },
+      "ended_at": 1790613188.7605321
+    },
+    "a81_targeted_score": {
+      "status": "completed",
+      "started_at": 1790613247.484014,
+      "fingerprint": "0a97eea9e490ee8d3e0c74e40c618477c45c9a6dbb32fe2b94b03d6d78f821a1",
+      "pid": 9,
+      "log": "experiments/loop/logs/a81_targeted_score.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a81/targeted-report.json": "5263fa2571962dacd942ef2139eeea58bd77c15a473602ad6fff0c83121e074c"
+      },
+      "ended_at": 1790613247.5880637
     }
   },
   "a66_reference_append_recovery": {

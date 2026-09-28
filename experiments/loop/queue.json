@@ -1503,6 +1503,126 @@
         "scripts/merge_yolo_regions_a80.py"
       ],
       "timeout_seconds": 1200
+    },
+    {
+      "id": "a81_views",
+      "kind": "command",
+      "resource": "io",
+      "deps": [
+        "a80_routed"
+      ],
+      "inputs": [
+        "scripts/prepare_predicted_ocr_a81.py",
+        "experiments/loop/next-a81/PROTOCOL.md",
+        "experiments/loop/next-a80/routed/candidates.json"
+      ],
+      "outputs": [
+        "experiments/loop/next-a81/blind/request.json",
+        "experiments/loop/next-a81/private-map.json"
+      ],
+      "argv": [
+        "/workspace/scratch/cecc4cd83a9f/a66-venv/bin/python",
+        "scripts/prepare_predicted_ocr_a81.py"
+      ],
+      "timeout_seconds": 120
+    },
+    {
+      "id": "a81_reader",
+      "kind": "external",
+      "resource": "vlm",
+      "deps": [
+        "a81_views"
+      ],
+      "inputs": [
+        "experiments/loop/next-a81/blind/request.json"
+      ],
+      "outputs": [
+        "experiments/loop/next-a81/luna-response.json"
+      ],
+      "description": "Fresh blind Luna reads8 target/context pairs; no reference text or private map"
+    },
+    {
+      "id": "a81_score",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a81_reader"
+      ],
+      "inputs": [
+        "scripts/evaluate_predicted_ocr_a81.py",
+        "scripts/evaluate_bnl_vlm_a54.py",
+        "src/bbvlm/text_views.py",
+        "experiments/loop/next-a81/PROTOCOL.md",
+        "experiments/loop/next-a81/blind/request.json",
+        "experiments/loop/next-a81/private-map.json",
+        "experiments/loop/next-a81/luna-response.json"
+      ],
+      "outputs": [
+        "experiments/loop/next-a81/report.json"
+      ],
+      "argv": [
+        "/workspace/scratch/cecc4cd83a9f/a66-venv/bin/python",
+        "scripts/evaluate_predicted_ocr_a81.py"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "a81_sol_reader",
+      "kind": "external",
+      "resource": "vlm",
+      "deps": [
+        "a81_score"
+      ],
+      "inputs": [
+        "experiments/loop/next-a81/blind/sol-request.json",
+        "experiments/loop/next-a81/ESCALATION.md"
+      ],
+      "outputs": [
+        "experiments/loop/next-a81/sol-response.json"
+      ],
+      "description": "Targeted3 IDs: structural contamination, ambiguous reading, exact control; no reference or Luna output"
+    },
+    {
+      "id": "a81_contamination",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a81_views"
+      ],
+      "inputs": [
+        "scripts/audit_crop_contamination_a81.py",
+        "experiments/loop/next-a81/private-map.json"
+      ],
+      "outputs": [
+        "experiments/loop/next-a81/contamination.json"
+      ],
+      "argv": [
+        "/workspace/scratch/cecc4cd83a9f/a66-venv/bin/python",
+        "scripts/audit_crop_contamination_a81.py"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "a81_targeted_score",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a81_sol_reader"
+      ],
+      "inputs": [
+        "scripts/evaluate_targeted_ocr_a81.py",
+        "experiments/loop/next-a81/blind/sol-request.json",
+        "experiments/loop/next-a81/sol-response.json",
+        "experiments/loop/next-a81/report.json"
+      ],
+      "outputs": [
+        "experiments/loop/next-a81/targeted-report.json"
+      ],
+      "argv": [
+        "/workspace/scratch/cecc4cd83a9f/a66-venv/bin/python",
+        "scripts/evaluate_targeted_ocr_a81.py"
+      ],
+      "timeout_seconds": 60
     }
   ]
 }

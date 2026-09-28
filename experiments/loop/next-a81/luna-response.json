@@ -1,0 +1,127 @@
+{
+  "model": "gpt-6-luna",
+  "inspected_images": [
+    "experiments/loop/next-a81/blind/V243d7aaa-target.png",
+    "experiments/loop/next-a81/blind/V243d7aaa-context.png",
+    "experiments/loop/next-a81/blind/V31521ffb-target.png",
+    "experiments/loop/next-a81/blind/V31521ffb-context.png",
+    "experiments/loop/next-a81/blind/V6011b467-target.png",
+    "experiments/loop/next-a81/blind/V6011b467-context.png",
+    "experiments/loop/next-a81/blind/V6ca36651-target.png",
+    "experiments/loop/next-a81/blind/V6ca36651-context.png",
+    "experiments/loop/next-a81/blind/V82cc0195-target.png",
+    "experiments/loop/next-a81/blind/V82cc0195-context.png",
+    "experiments/loop/next-a81/blind/Va64193fc-target.png",
+    "experiments/loop/next-a81/blind/Va64193fc-context.png",
+    "experiments/loop/next-a81/blind/Vde9f1e1c-target.png",
+    "experiments/loop/next-a81/blind/Vde9f1e1c-context.png",
+    "experiments/loop/next-a81/blind/Vf9528632-target.png",
+    "experiments/loop/next-a81/blind/Vf9528632-context.png"
+  ],
+  "items": [
+    {
+      "id": "V243d7aaa",
+      "text": "wann Se. Majer. verkleidet in Riga gewesen, ob es sich also ver-\nhält lehret die Zeit. Im übrigen machet man sich alhier große",
+      "visual_role": "running_text",
+      "clipped_edges": [
+        "left",
+        "right",
+        "bottom"
+      ],
+      "uncertain_spans": [
+        "Majer."
+      ],
+      "note": "The fragment begins within a sentence; the first line ends in a printed line-break hyphen. Lower portions of the second line are cropped."
+    },
+    {
+      "id": "V31521ffb",
+      "text": "voll ist. Zu jedem Quart der darin enthaltenen",
+      "visual_role": "running_text",
+      "clipped_edges": [
+        "left",
+        "right"
+      ],
+      "uncertain_spans": [],
+      "note": "Text is cropped at both horizontal ends."
+    },
+    {
+      "id": "V6011b467",
+      "text": "für Samstag, den 29. Dezember, den wegen des Jahreswechsels an Stelle",
+      "visual_role": "running_text",
+      "clipped_edges": [
+        "left",
+        "right",
+        "bottom"
+      ],
+      "uncertain_spans": [],
+      "note": "The line begins and ends mid-column; next line is cropped at the bottom."
+    },
+    {
+      "id": "V6ca36651",
+      "text": "[illegible]",
+      "visual_role": "uncertain",
+      "clipped_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "uncertain_spans": [
+        "[illegible]"
+      ],
+      "note": "Target is a 32-by-6-pixel fragment; no letters can be read reliably."
+    },
+    {
+      "id": "V82cc0195",
+      "text": "viele Sossen und Speisen gethan, oder zu einem",
+      "visual_role": "running_text",
+      "clipped_edges": [
+        "left",
+        "right"
+      ],
+      "uncertain_spans": [
+        "Sossen"
+      ],
+      "note": "The fragment begins and ends within the printed line."
+    },
+    {
+      "id": "Va64193fc",
+      "text": "[illegible]",
+      "visual_role": "uncertain",
+      "clipped_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "uncertain_spans": [
+        "[illegible]"
+      ],
+      "note": "Target is a 38-by-8-pixel fragment; no letters can be read reliably."
+    },
+    {
+      "id": "Vde9f1e1c",
+      "text": "nen dünnen Bree werden. Dieser Bree kühlt sehr",
+      "visual_role": "running_text",
+      "clipped_edges": [
+        "left",
+        "right"
+      ],
+      "uncertain_spans": [
+        "Bree"
+      ],
+      "note": "The fragment begins and ends mid-sentence."
+    },
+    {
+      "id": "Vf9528632",
+      "text": "wurde. General Kummer drängte den baierischen General Zoller",
+      "visual_role": "running_text",
+      "clipped_edges": [
+        "left",
+        "right"
+      ],
+      "uncertain_spans": [],
+      "note": "The fragment begins and ends mid-sentence."
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "status": "consumed_oracle_selected_predicted_crop_diagnostic",
+  "agreement_only": {
+    "strict_nfc_diplomatic": {
+      "characters": 331,
+      "edits": 79,
+      "cer": 0.23867069486404835,
+      "exact_crops": 0,
+      "scored_crops": 6
+    },
+    "search_v1": {
+      "characters": 332,
+      "edits": 68,
+      "cer": 0.20481927710843373,
+      "exact_crops": 4,
+      "scored_crops": 6
+    },
+    "lexical_alnum": {
+      "characters": 272,
+      "edits": 56,
+      "cer": 0.20588235294117646,
+      "exact_crops": 4,
+      "scored_crops": 6
+    }
+  },
+  "unmatched_reference_unknown": [
+    "Va64193fc",
+    "V6ca36651"
+  ],
+  "rows": [
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0004",
+      "group": "matched_control",
+      "candidate_index": 16,
+      "components": [
+        18
+      ],
+      "bbox_native": [
+        379.0,
+        928.0,
+        1865.0,
+        1036.0
+      ],
+      "line_id": "TextRegion_1726582962893_192_tl_14",
+      "iou": 0.9686035613870665,
+      "xml_sha256": "059f2da64d7fd5a1a7c69990de11f92d9ffcee0e4c8544922c98b23e3201f968",
+      "id": "V243d7aaa",
+      "image_sha256": "1cc66d730f6d79c2232fd4998ceb77d5fc37fa8191273170d85e1beac1e9a823",
+      "image_path": "corpora/chronicling-germany/images/Reichs_Post_Reuter_1700-11-16_0004.jpg",
+      "crop_box": [
+        379,
+        928,
+        1865,
+        1036
+      ],
+      "context_box": [
+        339,
+        820,
+        1905,
+        1144
+      ],
+      "text": "wann Se. Majer. verkleidet in Riga gewesen, ob es sich also ver-\nhält lehret die Zeit. Im übrigen machet man sich alhier große",
+      "reference": "wann Se. Majeſt. verkleidet in Riga geweſen/ ob es ſich alſo ver-",
+      "visual_role": "running_text",
+      "clipped_edges": [
+        "left",
+        "right",
+        "bottom"
+      ],
+      "uncertain_spans": [
+        "Majer."
+      ],
+      "note": "The fragment begins within a sentence; the first line ends in a printed line-break hyphen. Lower portions of the second line are cropped.",
+      "agreement": {
+        "strict_nfc_diplomatic": {
+          "characters": 65,
+          "edits": 68,
+          "cer": 1.0461538461538462,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 65,
+          "edits": 65,
+          "cer": 1.0,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 50,
+          "edits": 53,
+          "cer": 1.06,
+          "exact": false
+        }
+      }
+    },
+    {
+      "page": "Holzmindisches_Wochenblatt_1785-07-30_0006",
+      "group": "merged",
+      "candidate_index": 2,
+      "components": [
+        2,
+        3
+      ],
+      "bbox_native": [
+        208.94000000000003,
+        208.30750154990702,
+        1163.1200000000001,
+        269.68381897086175
+      ],
+      "line_id": "region_1744791378907_811_tl_1",
+      "iou": 0.89597371626631,
+      "xml_sha256": "e30a46e3db7440ff430a70de76f1a0c9c4861b4f21956ae258805c660981674a",
+      "id": "V82cc0195",
+      "image_sha256": "a06f8d739daaa1e50cdea9ca28c388244096e7afcecff358fbaf6cbe23dd69de",
+      "image_path": "corpora/chronicling-germany/images/Holzmindisches_Wochenblatt_1785-07-30_0006.jpg",
+      "crop_box": [
+        208,
+        208,
+        1164,
+        270
+      ],
+      "context_box": [
+        168,
+        146,
+        1204,
+        332
+      ],
+      "text": "viele Sossen und Speisen gethan, oder zu einem",
+      "reference": "viele Soßen und Speiſen gethan, oder zu einem",
+      "visual_role": "running_text",
+      "clipped_edges": [
+        "left",
+        "right"
+      ],
+      "uncertain_spans": [
+        "Sossen"
+      ],
+      "note": "The fragment begins and ends within the printed line.",
+      "agreement": {
+        "strict_nfc_diplomatic": {
+          "characters": 45,
+          "edits": 3,
+          "cer": 0.06666666666666667,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 46,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "lexical_alnum": {
+          "characters": 38,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      }
+    },
+    {
+      "page": "Holzmindisches_Wochenblatt_1785-07-30_0006",
+      "group": "merged",
+      "candidate_index": 38,
+      "components": [
+        53,
+        54
+      ],
+      "bbox_native": [
+        223.20000000000002,
+        823.93056416615,
+        1175.52,
+        875.387476751395
+      ],
+      "line_id": "region_1744791378907_811_tl_11",
+      "iou": 0.8368074964682454,
+      "xml_sha256": "e30a46e3db7440ff430a70de76f1a0c9c4861b4f21956ae258805c660981674a",
+      "id": "Vde9f1e1c",
+      "image_sha256": "a06f8d739daaa1e50cdea9ca28c388244096e7afcecff358fbaf6cbe23dd69de",
+      "image_path": "corpora/chronicling-germany/images/Holzmindisches_Wochenblatt_1785-07-30_0006.jpg",
+      "crop_box": [
+        223,
+        823,
+        1176,
+        876
+      ],
+      "context_box": [
+        183,
+        770,
+        1216,
+        929
+      ],
+      "text": "nen dünnen Bree werden. Dieser Bree kühlt sehr",
+      "reference": "nem dünnen Brey werden. Dieſer Brey kühlt ſehr",
+      "visual_role": "running_text",
+      "clipped_edges": [
+        "left",
+        "right"
+      ],
+      "uncertain_spans": [
+        "Bree"
+      ],
+      "note": "The fragment begins and ends mid-sentence.",
+      "agreement": {
+        "strict_nfc_diplomatic": {
+          "characters": 46,
+          "edits": 5,
+          "cer": 0.10869565217391304,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 46,
+          "edits": 3,
+          "cer": 0.06521739130434782,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 38,
+          "edits": 3,
+          "cer": 0.07894736842105263,
+          "exact": false
+        }
+      }
+    },
+    {
+      "page": "Holzmindisches_Wochenblatt_1785-07-30_0006",
+      "group": "merged",
+      "candidate_index": 61,
+      "components": [
+        84,
+        85
+      ],
+      "bbox_native": [
+        239.32000000000002,
+        1680.719156850589,
+        1191.02,
+        1735.2758834469932
+      ],
+      "line_id": "region_1744791378907_811_tl_26",
+      "iou": 0.8492700376752677,
+      "xml_sha256": "e30a46e3db7440ff430a70de76f1a0c9c4861b4f21956ae258805c660981674a",
+      "id": "V31521ffb",
+      "image_sha256": "a06f8d739daaa1e50cdea9ca28c388244096e7afcecff358fbaf6cbe23dd69de",
+      "image_path": "corpora/chronicling-germany/images/Holzmindisches_Wochenblatt_1785-07-30_0006.jpg",
+      "crop_box": [
+        239,
+        1680,
+        1192,
+        1736
+      ],
+      "context_box": [
+        199,
+        1624,
+        1232,
+        1792
+      ],
+      "text": "voll ist. Zu jedem Quart der darin enthaltenen",
+      "reference": "voll iſt. Zu jedem Quart der darin enthaltenen",
+      "visual_role": "running_text",
+      "clipped_edges": [
+        "left",
+        "right"
+      ],
+      "uncertain_spans": [],
+      "note": "Text is cropped at both horizontal ends.",
+      "agreement": {
+        "strict_nfc_diplomatic": {
+          "characters": 46,
+          "edits": 1,
+          "cer": 0.021739130434782608,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 46,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "lexical_alnum": {
+          "characters": 38,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      }
+    },
+    {
+      "page": "Holzmindisches_Wochenblatt_1785-07-30_0006",
+      "group": "unmatched_singleton",
+      "candidate_index": 23,
+      "components": [
+        32
+      ],
+      "bbox_native": [
+        605.74,
+        616.8629882207067,
+        623.72,
+        619.3428394296342
+      ],
+      "line_id": null,
+      "iou": 0,
+      "xml_sha256": "e30a46e3db7440ff430a70de76f1a0c9c4861b4f21956ae258805c660981674a",
+      "id": "Va64193fc",
+      "image_sha256": "a06f8d739daaa1e50cdea9ca28c388244096e7afcecff358fbaf6cbe23dd69de",
+      "image_path": "corpora/chronicling-germany/images/Holzmindisches_Wochenblatt_1785-07-30_0006.jpg",
+      "crop_box": [
+        605,
+        616,
+        624,
+        620
+      ],
+      "context_box": [
+        565,
+        612,
+        664,
+        624
+      ],
+      "text": "[illegible]",
+      "reference": null,
+      "visual_role": "uncertain",
+      "clipped_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "uncertain_spans": [
+        "[illegible]"
+      ],
+      "note": "Target is a 38-by-8-pixel fragment; no letters can be read reliably.",
+      "agreement": null
+    },
+    {
+      "page": "Holzmindisches_Wochenblatt_1785-07-30_0006",
+      "group": "unmatched_singleton",
+      "candidate_index": 8,
+      "components": [
+        10
+      ],
+      "bbox_native": [
+        928.7600000000001,
+        306.26162430254186,
+        943.6400000000001,
+        308.74147551146933
+      ],
+      "line_id": null,
+      "iou": 0,
+      "xml_sha256": "e30a46e3db7440ff430a70de76f1a0c9c4861b4f21956ae258805c660981674a",
+      "id": "V6ca36651",
+      "image_sha256": "a06f8d739daaa1e50cdea9ca28c388244096e7afcecff358fbaf6cbe23dd69de",
+      "image_path": "corpora/chronicling-germany/images/Holzmindisches_Wochenblatt_1785-07-30_0006.jpg",
+      "crop_box": [
+        928,
+        306,
+        944,
+        309
+      ],
+      "context_box": [
+        888,
+        303,
+        984,
+        312
+      ],
+      "text": "[illegible]",
+      "reference": null,
+      "visual_role": "uncertain",
+      "clipped_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "uncertain_spans": [
+        "[illegible]"
+      ],
+      "note": "Target is a 32-by-6-pixel fragment; no letters can be read reliably.",
+      "agreement": null
+    },
+    {
+      "page": "Koelnische_Zeitung_1866-06_1866-09_0539",
+      "group": "matched_control",
+      "candidate_index": 422,
+      "components": [
+        353
+      ],
+      "bbox_native": [
+        2358.223,
+        4024.259878960484,
+        3419.55,
+        4064.7810608757563
+      ],
+      "line_id": "region_1682404881991_236_tl_83",
+      "iou": 0.7672603316119642,
+      "xml_sha256": "e480018a6a41aefb17cc928318e49b4b400ab7da0675c7048006d79797139301",
+      "id": "Vf9528632",
+      "image_sha256": "eb88f4a56baaff8f2633f3184eff8b7fd84b882b1914e5f3f46e933f504346c3",
+      "image_path": "corpora/chronicling-germany/images/Koelnische_Zeitung_1866-06_1866-09_0539.jpg",
+      "crop_box": [
+        2358,
+        4024,
+        3420,
+        4065
+      ],
+      "context_box": [
+        2318,
+        3983,
+        3460,
+        4106
+      ],
+      "text": "wurde. General Kummer drängte den baierischen General Zoller",
+      "reference": "wurde. General Kummer drängte den baieriſchen General Zoller",
+      "visual_role": "running_text",
+      "clipped_edges": [
+        "left",
+        "right"
+      ],
+      "uncertain_spans": [],
+      "note": "The fragment begins and ends mid-sentence.",
+      "agreement": {
+        "strict_nfc_diplomatic": {
+          "characters": 60,
+          "edits": 1,
+          "cer": 0.016666666666666666,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 60,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "lexical_alnum": {
+          "characters": 52,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      }
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0018",
+      "group": "matched_control",
+      "candidate_index": 362,
+      "components": [
+        353
+      ],
+      "bbox_native": [
+        2581.416,
+        4051.130890052356,
+        3675.8759999999997,
+        4091.3905759162303
+      ],
+      "line_id": "region_1694524759446_476_tl_4",
+      "iou": 0.8319518566718005,
+      "xml_sha256": "17b33a130721e47e1217875e9b8cb5a3d73577d60c2abc5ac9be63a760fc269b",
+      "id": "V6011b467",
+      "image_sha256": "c02d1ff79f852ec482eac9c6cf2c21213c4c1e6778f91de5a4aea0a0b18173b9",
+      "image_path": "corpora/chronicling-germany/images/Koelnische_Zeitung_1924_0018.jpg",
+      "crop_box": [
+        2581,
+        4051,
+        3676,
+        4092
+      ],
+      "context_box": [
+        2541,
+        4010,
+        3716,
+        4133
+      ],
+      "text": "für Samstag, den 29. Dezember, den wegen des Jahreswechsels an Stelle",
+      "reference": "für Samstag, den 29. Dezember, den wegen des Jahreswechſels an Stelle",
+      "visual_role": "running_text",
+      "clipped_edges": [
+        "left",
+        "right",
+        "bottom"
+      ],
+      "uncertain_spans": [],
+      "note": "The line begins and ends mid-column; next line is cropped at the bottom.",
+      "agreement": {
+        "strict_nfc_diplomatic": {
+          "characters": 69,
+          "edits": 1,
+          "cer": 0.014492753623188406,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 69,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "lexical_alnum": {
+          "characters": 56,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      }
+    }
+  ],
+  "cost": {
+    "new_reader_sessions": 1,
+    "model": "gpt-6-luna",
+    "image_views": 16,
+    "target_crops": 8,
+    "new_cpu_model_forwards": 0,
+    "tokens_and_money": "not exposed"
+  },
+  "invariants": {
+    "exact_ids": true,
+    "all_images_declared_inspected": true,
+    "source_and_crop_hashes_unchanged": true,
+    "original_xml_unchanged": true
+  },
+  "independent_adjudication": false,
+  "global_completion": false,
+  "test_pages_opened": 0
+}

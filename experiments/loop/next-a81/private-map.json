@@ -1,0 +1,266 @@
+{
+  "selection": "consumed_oracle_stratified",
+  "protocol_sha256": "945f558dbfa80f339120fab5be81da5a44b7db4f5902ff1f05a87b67ef2cbae6",
+  "source_candidates_sha256": "04c8d58119011ead2a3dfa1735bbaee90dd4bc08765a5d829baf2870fb4a8b17",
+  "mapping": [
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0004",
+      "group": "matched_control",
+      "candidate_index": 16,
+      "components": [
+        18
+      ],
+      "bbox_native": [
+        379.0,
+        928.0,
+        1865.0,
+        1036.0
+      ],
+      "line_id": "TextRegion_1726582962893_192_tl_14",
+      "iou": 0.9686035613870665,
+      "xml_sha256": "059f2da64d7fd5a1a7c69990de11f92d9ffcee0e4c8544922c98b23e3201f968",
+      "id": "V243d7aaa",
+      "image_sha256": "1cc66d730f6d79c2232fd4998ceb77d5fc37fa8191273170d85e1beac1e9a823",
+      "image_path": "corpora/chronicling-germany/images/Reichs_Post_Reuter_1700-11-16_0004.jpg",
+      "crop_box": [
+        379,
+        928,
+        1865,
+        1036
+      ],
+      "context_box": [
+        339,
+        820,
+        1905,
+        1144
+      ]
+    },
+    {
+      "page": "Holzmindisches_Wochenblatt_1785-07-30_0006",
+      "group": "merged",
+      "candidate_index": 2,
+      "components": [
+        2,
+        3
+      ],
+      "bbox_native": [
+        208.94000000000003,
+        208.30750154990702,
+        1163.1200000000001,
+        269.68381897086175
+      ],
+      "line_id": "region_1744791378907_811_tl_1",
+      "iou": 0.89597371626631,
+      "xml_sha256": "e30a46e3db7440ff430a70de76f1a0c9c4861b4f21956ae258805c660981674a",
+      "id": "V82cc0195",
+      "image_sha256": "a06f8d739daaa1e50cdea9ca28c388244096e7afcecff358fbaf6cbe23dd69de",
+      "image_path": "corpora/chronicling-germany/images/Holzmindisches_Wochenblatt_1785-07-30_0006.jpg",
+      "crop_box": [
+        208,
+        208,
+        1164,
+        270
+      ],
+      "context_box": [
+        168,
+        146,
+        1204,
+        332
+      ]
+    },
+    {
+      "page": "Holzmindisches_Wochenblatt_1785-07-30_0006",
+      "group": "merged",
+      "candidate_index": 38,
+      "components": [
+        53,
+        54
+      ],
+      "bbox_native": [
+        223.20000000000002,
+        823.93056416615,
+        1175.52,
+        875.387476751395
+      ],
+      "line_id": "region_1744791378907_811_tl_11",
+      "iou": 0.8368074964682454,
+      "xml_sha256": "e30a46e3db7440ff430a70de76f1a0c9c4861b4f21956ae258805c660981674a",
+      "id": "Vde9f1e1c",
+      "image_sha256": "a06f8d739daaa1e50cdea9ca28c388244096e7afcecff358fbaf6cbe23dd69de",
+      "image_path": "corpora/chronicling-germany/images/Holzmindisches_Wochenblatt_1785-07-30_0006.jpg",
+      "crop_box": [
+        223,
+        823,
+        1176,
+        876
+      ],
+      "context_box": [
+        183,
+        770,
+        1216,
+        929
+      ]
+    },
+    {
+      "page": "Holzmindisches_Wochenblatt_1785-07-30_0006",
+      "group": "merged",
+      "candidate_index": 61,
+      "components": [
+        84,
+        85
+      ],
+      "bbox_native": [
+        239.32000000000002,
+        1680.719156850589,
+        1191.02,
+        1735.2758834469932
+      ],
+      "line_id": "region_1744791378907_811_tl_26",
+      "iou": 0.8492700376752677,
+      "xml_sha256": "e30a46e3db7440ff430a70de76f1a0c9c4861b4f21956ae258805c660981674a",
+      "id": "V31521ffb",
+      "image_sha256": "a06f8d739daaa1e50cdea9ca28c388244096e7afcecff358fbaf6cbe23dd69de",
+      "image_path": "corpora/chronicling-germany/images/Holzmindisches_Wochenblatt_1785-07-30_0006.jpg",
+      "crop_box": [
+        239,
+        1680,
+        1192,
+        1736
+      ],
+      "context_box": [
+        199,
+        1624,
+        1232,
+        1792
+      ]
+    },
+    {
+      "page": "Holzmindisches_Wochenblatt_1785-07-30_0006",
+      "group": "unmatched_singleton",
+      "candidate_index": 23,
+      "components": [
+        32
+      ],
+      "bbox_native": [
+        605.74,
+        616.8629882207067,
+        623.72,
+        619.3428394296342
+      ],
+      "line_id": null,
+      "iou": 0,
+      "xml_sha256": "e30a46e3db7440ff430a70de76f1a0c9c4861b4f21956ae258805c660981674a",
+      "id": "Va64193fc",
+      "image_sha256": "a06f8d739daaa1e50cdea9ca28c388244096e7afcecff358fbaf6cbe23dd69de",
+      "image_path": "corpora/chronicling-germany/images/Holzmindisches_Wochenblatt_1785-07-30_0006.jpg",
+      "crop_box": [
+        605,
+        616,
+        624,
+        620
+      ],
+      "context_box": [
+        565,
+        612,
+        664,
+        624
+      ]
+    },
+    {
+      "page": "Holzmindisches_Wochenblatt_1785-07-30_0006",
+      "group": "unmatched_singleton",
+      "candidate_index": 8,
+      "components": [
+        10
+      ],
+      "bbox_native": [
+        928.7600000000001,
+        306.26162430254186,
+        943.6400000000001,
+        308.74147551146933
+      ],
+      "line_id": null,
+      "iou": 0,
+      "xml_sha256": "e30a46e3db7440ff430a70de76f1a0c9c4861b4f21956ae258805c660981674a",
+      "id": "V6ca36651",
+      "image_sha256": "a06f8d739daaa1e50cdea9ca28c388244096e7afcecff358fbaf6cbe23dd69de",
+      "image_path": "corpora/chronicling-germany/images/Holzmindisches_Wochenblatt_1785-07-30_0006.jpg",
+      "crop_box": [
+        928,
+        306,
+        944,
+        309
+      ],
+      "context_box": [
+        888,
+        303,
+        984,
+        312
+      ]
+    },
+    {
+      "page": "Koelnische_Zeitung_1866-06_1866-09_0539",
+      "group": "matched_control",
+      "candidate_index": 422,
+      "components": [
+        353
+      ],
+      "bbox_native": [
+        2358.223,
+        4024.259878960484,
+        3419.55,
+        4064.7810608757563
+      ],
+      "line_id": "region_1682404881991_236_tl_83",
+      "iou": 0.7672603316119642,
+      "xml_sha256": "e480018a6a41aefb17cc928318e49b4b400ab7da0675c7048006d79797139301",
+      "id": "Vf9528632",
+      "image_sha256": "eb88f4a56baaff8f2633f3184eff8b7fd84b882b1914e5f3f46e933f504346c3",
+      "image_path": "corpora/chronicling-germany/images/Koelnische_Zeitung_1866-06_1866-09_0539.jpg",
+      "crop_box": [
+        2358,
+        4024,
+        3420,
+        4065
+      ],
+      "context_box": [
+        2318,
+        3983,
+        3460,
+        4106
+      ]
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0018",
+      "group": "matched_control",
+      "candidate_index": 362,
+      "components": [
+        353
+      ],
+      "bbox_native": [
+        2581.416,
+        4051.130890052356,
+        3675.8759999999997,
+        4091.3905759162303
+      ],
+      "line_id": "region_1694524759446_476_tl_4",
+      "iou": 0.8319518566718005,
+      "xml_sha256": "17b33a130721e47e1217875e9b8cb5a3d73577d60c2abc5ac9be63a760fc269b",
+      "id": "V6011b467",
+      "image_sha256": "c02d1ff79f852ec482eac9c6cf2c21213c4c1e6778f91de5a4aea0a0b18173b9",
+      "image_path": "corpora/chronicling-germany/images/Koelnische_Zeitung_1924_0018.jpg",
+      "crop_box": [
+        2581,
+        4051,
+        3676,
+        4092
+      ],
+      "context_box": [
+        2541,
+        4010,
+        3716,
+        4133
+      ]
+    }
+  ]
+}

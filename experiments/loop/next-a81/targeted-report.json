@@ -1,0 +1,201 @@
+{
+  "status": "targeted_consumed_prompt_and_model_change",
+  "summary": {
+    "luna": {
+      "strict_nfc_diplomatic": {
+        "characters": 157,
+        "edits": 74,
+        "cer": 0.4713375796178344,
+        "exact_crops": 0
+      },
+      "search_v1": {
+        "characters": 157,
+        "edits": 68,
+        "cer": 0.43312101910828027,
+        "exact_crops": 1
+      },
+      "lexical_alnum": {
+        "characters": 126,
+        "edits": 56,
+        "cer": 0.4444444444444444,
+        "exact_crops": 1
+      }
+    },
+    "sol": {
+      "strict_nfc_diplomatic": {
+        "characters": 157,
+        "edits": 1,
+        "cer": 0.006369426751592357,
+        "exact_crops": 2
+      },
+      "search_v1": {
+        "characters": 157,
+        "edits": 1,
+        "cer": 0.006369426751592357,
+        "exact_crops": 2
+      },
+      "lexical_alnum": {
+        "characters": 126,
+        "edits": 0,
+        "cer": 0.0,
+        "exact_crops": 3
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "V243d7aaa",
+      "reference": "wann Se. Majeſt. verkleidet in Riga geweſen/ ob es ſich alſo ver-",
+      "luna_text": "wann Se. Majer. verkleidet in Riga gewesen, ob es sich also ver-\nhält lehret die Zeit. Im übrigen machet man sich alhier große",
+      "sol_text": "wann Se. Majeſt. verkleidet in Riga geweſen/ob es ſich alſo ver-",
+      "luna": {
+        "strict_nfc_diplomatic": {
+          "characters": 65,
+          "edits": 68,
+          "cer": 1.0461538461538462,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 65,
+          "edits": 65,
+          "cer": 1.0,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 50,
+          "edits": 53,
+          "cer": 1.06,
+          "exact": false
+        }
+      },
+      "sol": {
+        "strict_nfc_diplomatic": {
+          "characters": 65,
+          "edits": 1,
+          "cer": 0.015384615384615385,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 65,
+          "edits": 1,
+          "cer": 0.015384615384615385,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 50,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      },
+      "neighboring_line_contamination": true
+    },
+    {
+      "id": "V31521ffb",
+      "reference": "voll iſt. Zu jedem Quart der darin enthaltenen",
+      "luna_text": "voll ist. Zu jedem Quart der darin enthaltenen",
+      "sol_text": "voll iſt. Zu jedem Quart der darin enthaltenen",
+      "luna": {
+        "strict_nfc_diplomatic": {
+          "characters": 46,
+          "edits": 1,
+          "cer": 0.021739130434782608,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 46,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "lexical_alnum": {
+          "characters": 38,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      },
+      "sol": {
+        "strict_nfc_diplomatic": {
+          "characters": 46,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "search_v1": {
+          "characters": 46,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "lexical_alnum": {
+          "characters": 38,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      },
+      "neighboring_line_contamination": true
+    },
+    {
+      "id": "Vde9f1e1c",
+      "reference": "nem dünnen Brey werden. Dieſer Brey kühlt ſehr",
+      "luna_text": "nen dünnen Bree werden. Dieser Bree kühlt sehr",
+      "sol_text": "nem dünnen Brey werden. Dieſer Brey kühlt ſehr",
+      "luna": {
+        "strict_nfc_diplomatic": {
+          "characters": 46,
+          "edits": 5,
+          "cer": 0.10869565217391304,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 46,
+          "edits": 3,
+          "cer": 0.06521739130434782,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 38,
+          "edits": 3,
+          "cer": 0.07894736842105263,
+          "exact": false
+        }
+      },
+      "sol": {
+        "strict_nfc_diplomatic": {
+          "characters": 46,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "search_v1": {
+          "characters": 46,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "lexical_alnum": {
+          "characters": 38,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      },
+      "neighboring_line_contamination": true
+    }
+  ],
+  "cost": {
+    "new_reader_sessions": 1,
+    "model": "gpt-6-sol",
+    "images": 6,
+    "tokens_and_money": "not exposed"
+  },
+  "limitations": [
+    "Post-score oracle selection, two failures plus exact control",
+    "Changed principal-line instruction and reader together; no causal ablation",
+    "Reference not independently human-adjudicated",
+    "Do not report repaired six-crop zero as independent system CER"
+  ],
+  "global_completion": false
+}

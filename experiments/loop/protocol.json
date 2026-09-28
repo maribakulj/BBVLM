@@ -1092,5 +1092,14 @@
     "new_model_forwards": 96,
     "test_pages_opened": 0,
     "global_completion": false
+  },
+  "predicted_crop_ocr_a81": {
+    "status": "consumed_blind_predicted_crop_audit",
+    "report": "next-a81/report.json",
+    "targeted_report": "next-a81/targeted-report.json",
+    "contamination": "next-a81/contamination.json",
+    "reader_sessions": 2,
+    "image_views": 22,
+    "global_completion": false
   }
 }

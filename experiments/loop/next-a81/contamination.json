@@ -1,0 +1,71 @@
+{
+  "method": "Otsu ink attributed to immutable PAGE polygons; convention-dependent proxy, not glyph truth",
+  "rows": [
+    {
+      "id": "V243d7aaa",
+      "crop_ink_pixels": 42653,
+      "ink_in_assigned_polygon": 21334,
+      "ink_in_other_polygons_not_assigned": 19275,
+      "other_polygon_ink_fraction": 0.45190256253956346,
+      "other_line_polygon_contacts": [
+        "TextRegion_1726582962893_192_tl_13",
+        "line_1733320104985_134"
+      ]
+    },
+    {
+      "id": "V82cc0195",
+      "crop_ink_pixels": 10522,
+      "ink_in_assigned_polygon": 10122,
+      "ink_in_other_polygons_not_assigned": 400,
+      "other_polygon_ink_fraction": 0.038015586390420075,
+      "other_line_polygon_contacts": [
+        "region_1744791378907_811_tl_4"
+      ]
+    },
+    {
+      "id": "Vde9f1e1c",
+      "crop_ink_pixels": 9914,
+      "ink_in_assigned_polygon": 9897,
+      "ink_in_other_polygons_not_assigned": 17,
+      "other_polygon_ink_fraction": 0.001714746822675005,
+      "other_line_polygon_contacts": [
+        "region_1744791378907_811_tl_10",
+        "region_1744791378907_811_tl_12"
+      ]
+    },
+    {
+      "id": "V31521ffb",
+      "crop_ink_pixels": 11957,
+      "ink_in_assigned_polygon": 11740,
+      "ink_in_other_polygons_not_assigned": 217,
+      "other_polygon_ink_fraction": 0.01814836497449193,
+      "other_line_polygon_contacts": [
+        "region_1744791378907_811_tl_24",
+        "region_1744791378907_811_tl_29"
+      ]
+    },
+    {
+      "id": "Vf9528632",
+      "crop_ink_pixels": 9848,
+      "ink_in_assigned_polygon": 9687,
+      "ink_in_other_polygons_not_assigned": 161,
+      "other_polygon_ink_fraction": 0.016348497156783104,
+      "other_line_polygon_contacts": [
+        "region_1682404881991_236_tl_84"
+      ]
+    },
+    {
+      "id": "V6011b467",
+      "crop_ink_pixels": 8535,
+      "ink_in_assigned_polygon": 8147,
+      "ink_in_other_polygons_not_assigned": 388,
+      "other_polygon_ink_fraction": 0.045459871118922086,
+      "other_line_polygon_contacts": [
+        "region_1694524759446_476_tl_3",
+        "region_1694524759446_476_tl_5"
+      ]
+    }
+  ],
+  "new_model_forwards": 0,
+  "originals_unchanged": true
+}

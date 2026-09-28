@@ -1,0 +1,40 @@
+{
+  "model": "gpt-6-sol",
+  "inspected_images": [
+    "experiments/loop/next-a81/blind/V243d7aaa-target.png",
+    "experiments/loop/next-a81/blind/V243d7aaa-context.png",
+    "experiments/loop/next-a81/blind/V31521ffb-target.png",
+    "experiments/loop/next-a81/blind/V31521ffb-context.png",
+    "experiments/loop/next-a81/blind/Vde9f1e1c-target.png",
+    "experiments/loop/next-a81/blind/Vde9f1e1c-context.png"
+  ],
+  "items": [
+    {
+      "id": "V243d7aaa",
+      "text": "wann Se. Majeſt. verkleidet in Riga geweſen/ob es ſich alſo ver-",
+      "visual_role": "principal complete middle line",
+      "clipped_edges": {"left": false, "right": false, "top": false, "bottom": false},
+      "uncertain_spans": ["ver-: final line-break mark is faint"],
+      "neighboring_line_contamination": true,
+      "note": "Partial lines appear above and below. The target ends in a printed continuation; no following letters are supplied."
+    },
+    {
+      "id": "V31521ffb",
+      "text": "voll iſt. Zu jedem Quart der darin enthaltenen",
+      "visual_role": "principal complete middle line",
+      "clipped_edges": {"left": false, "right": false, "top": false, "bottom": false},
+      "uncertain_spans": [],
+      "neighboring_line_contamination": true,
+      "note": "Fragments of adjacent lines are visible but excluded."
+    },
+    {
+      "id": "Vde9f1e1c",
+      "text": "nem dünnen Brey werden. Dieſer Brey kühlt ſehr",
+      "visual_role": "principal complete middle line",
+      "clipped_edges": {"left": true, "right": false, "top": false, "bottom": false},
+      "uncertain_spans": [],
+      "neighboring_line_contamination": true,
+      "note": "The crop touches the initial glyph; context confirms only the visible continuation 'nem'. A partial previous line is visible above."
+    }
+  ]
+}

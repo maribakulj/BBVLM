@@ -740,3 +740,7 @@ A79 consumed real YOLO region constraint passes local noninferiority on4 pages:2
 ## A80 — transfert figé
 
 Quatre nouvelles pages : +1 match IoU50, aucune perte, précision/rappel non décroissants sur chaque page. 17 liens ; 92 forwards Eynollah +4 YOLO,120.64s pour les deux étages. Le critère local passe mais la précision1785 reste47,62 %. Aucun gate global promu. Voir experiments/loop/next-a80/RESULTS.md.
+
+## A81 — contamination et OCR
+
+Lecture réelle8crops prédits : quatre des six appariés sont normalisés exacts avec Luna. Un cropIoU96,86 % contient45,19 % d’encre attribuée aux lignes voisines. Sol ciblé, consigne ligne principale, obtient0/126éditions lexicales sur3cibles sélectionnées après score ; aucun zéro indépendant. Voir next-a81/RESULTS.md ; poursuivre isolation géométrique sans OCR PERO complet.

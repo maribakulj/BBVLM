@@ -1,0 +1,173 @@
+{
+  "instruction": "Read raw target only; use context only to understand visible clipped glyphs; never add neighboring lines. Preserve historical spelling. Return text, visual_role, clipped_edges, uncertain_spans, note per opaque ID; mark unreadable with [illegible].",
+  "items": [
+    {
+      "id": "V243d7aaa",
+      "images": [
+        "experiments/loop/next-a81/blind/V243d7aaa-target.png",
+        "experiments/loop/next-a81/blind/V243d7aaa-context.png"
+      ],
+      "sha256": [
+        "03588bb2eecf7b5106d4ee8c91976881c1ac87f90488ecfafd07628beba1d2a1",
+        "d74a6903a0d168a39bc8c47c473675d6945c0da88f9903b60a35d43425df58e1"
+      ],
+      "dimensions": [
+        [
+          1800,
+          131
+        ],
+        [
+          1800,
+          372
+        ]
+      ]
+    },
+    {
+      "id": "V31521ffb",
+      "images": [
+        "experiments/loop/next-a81/blind/V31521ffb-target.png",
+        "experiments/loop/next-a81/blind/V31521ffb-context.png"
+      ],
+      "sha256": [
+        "805c39583f0dfad9652890a277e240ef6d850f46ff29ea946f7b445bc4562e1e",
+        "3af1e043736ce85700d5aade60fbdf0d300573caa3d02be53a3b701be785fef6"
+      ],
+      "dimensions": [
+        [
+          1800,
+          106
+        ],
+        [
+          1800,
+          293
+        ]
+      ]
+    },
+    {
+      "id": "V6011b467",
+      "images": [
+        "experiments/loop/next-a81/blind/V6011b467-target.png",
+        "experiments/loop/next-a81/blind/V6011b467-context.png"
+      ],
+      "sha256": [
+        "7b87aa42da633319c641ac478f8ea2ddfe5a6016958a3676929c126c8e3a1528",
+        "6bfcd276a60683b455a83c0ecf47fad30cf4ca90a188663a854fbc6e9ba7fff4"
+      ],
+      "dimensions": [
+        [
+          1800,
+          67
+        ],
+        [
+          1800,
+          188
+        ]
+      ]
+    },
+    {
+      "id": "V6ca36651",
+      "images": [
+        "experiments/loop/next-a81/blind/V6ca36651-target.png",
+        "experiments/loop/next-a81/blind/V6ca36651-context.png"
+      ],
+      "sha256": [
+        "645b9d7023eab1aaab47c34e9c51f5cd0293438651cee29b4ccb9f89fa008233",
+        "4dbe047a8587b178e584c5c0825392264ca213002732cb203c8aabcf328a55db"
+      ],
+      "dimensions": [
+        [
+          32,
+          6
+        ],
+        [
+          192,
+          18
+        ]
+      ]
+    },
+    {
+      "id": "V82cc0195",
+      "images": [
+        "experiments/loop/next-a81/blind/V82cc0195-target.png",
+        "experiments/loop/next-a81/blind/V82cc0195-context.png"
+      ],
+      "sha256": [
+        "cf8c8370e66bccac50cfa03804700ba3fba8c57d6145939284f12379cd2282f2",
+        "558b6b44c9a7f3d0de2fa72b522accd57baac8f689c59f2a42ebb803640d136b"
+      ],
+      "dimensions": [
+        [
+          1800,
+          117
+        ],
+        [
+          1800,
+          323
+        ]
+      ]
+    },
+    {
+      "id": "Va64193fc",
+      "images": [
+        "experiments/loop/next-a81/blind/Va64193fc-target.png",
+        "experiments/loop/next-a81/blind/Va64193fc-context.png"
+      ],
+      "sha256": [
+        "21580a98516da5b6958eb7d56ec765f804e1e1ab742add0439a6a25c6e72b8bb",
+        "a077c6e3eb606016bc01c2ebb8d4d228bce384aff92dc36c7198e6553b2c56b3"
+      ],
+      "dimensions": [
+        [
+          38,
+          8
+        ],
+        [
+          198,
+          24
+        ]
+      ]
+    },
+    {
+      "id": "Vde9f1e1c",
+      "images": [
+        "experiments/loop/next-a81/blind/Vde9f1e1c-target.png",
+        "experiments/loop/next-a81/blind/Vde9f1e1c-context.png"
+      ],
+      "sha256": [
+        "5fedf4ab74b19c1d5faf47d14d83e28b1fc3ebb1bcd66a00912f257847c81cfc",
+        "396a762bc657a8cedc896b2823b448b6bf2f806555533d1aa27ef41b53005827"
+      ],
+      "dimensions": [
+        [
+          1800,
+          100
+        ],
+        [
+          1800,
+          277
+        ]
+      ]
+    },
+    {
+      "id": "Vf9528632",
+      "images": [
+        "experiments/loop/next-a81/blind/Vf9528632-target.png",
+        "experiments/loop/next-a81/blind/Vf9528632-context.png"
+      ],
+      "sha256": [
+        "9d4ddbf4339e1ce71d9e70cb2aebccfbbe69327d41f7dede3d7b05a2bbf54f38",
+        "b7e20b185e6e8f307012b7ef6a4a4dcff750df1fe424e804e5fb2721d7a559b0"
+      ],
+      "dimensions": [
+        [
+          1800,
+          69
+        ],
+        [
+          1800,
+          194
+        ]
+      ]
+    }
+  ]
+}
