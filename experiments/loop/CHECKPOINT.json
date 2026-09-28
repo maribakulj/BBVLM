@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790609830.2183185,
+  "updated_unix": 1790610746.3875945,
   "status": "in_progress",
   "phases": [
     {
@@ -883,6 +883,12 @@
       "id": "textline_instances_a75",
       "script": "scripts/evaluate_textline_instances_a75.py",
       "result": "next-a75/report.json",
+      "complete": true
+    },
+    {
+      "id": "textline_instance_transfer_a76",
+      "script": "scripts/evaluate_textline_transfer_a76.py",
+      "result": "next-a76/report.json",
       "complete": true
     }
   ],
@@ -24172,6 +24178,27 @@
       "new_model_forwards": 0,
       "test_pages_opened": 0,
       "global_completion": false
+    },
+    "textline_instance_transfer_a76": {
+      "status": "frozen_training_transfer_failed_local_gate",
+      "pages": 4,
+      "candidates": 1306,
+      "reference_lines": 1103,
+      "precision_iou50": 0.7274119448698315,
+      "recall_iou50": 0.8612873980054397,
+      "precision_iou70": 0.6477794793261868,
+      "recall_iou70": 0.7669990933816863,
+      "mean_assigned_iou": 0.6962113289877431,
+      "worst_page": "Koelnische_Zeitung_1924_0036",
+      "worst_page_precision_iou50": 0.5879828326180258,
+      "worst_page_recall_iou50": 0.8353658536585366,
+      "local_gate_passed": false,
+      "model_forwards": 84,
+      "cpu_total_seconds": 109.52745111900003,
+      "test_pages_opened": 0,
+      "ocr_calls": 0,
+      "vlm_calls": 0,
+      "global_completion": false
     }
   },
   "model_policy": {
@@ -24180,6 +24207,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A76 frozen transfer rejects the unchanged A75 component rectangles on4 new Training pages/1103 lines: IoU50 P/R72.74/86.13%, IoU70 P/R64.78/76.70%, mean IoU.6962. The1924 page falls to58.80/83.54%; every scientific threshold except zero Test fails. Do not retune A76 or lower criteria. A77 must attribute fragmentation/fusion/convention on consumed A76, then freeze a true peak/valley or centerline separator on new non-Test data, or pivot to distinct OLR.84 real CPU tiles/109.53s, zero OCR/VLM, all global gates false.",
     "A75 consumed development passes its aggregate frozen instance gate:1402 candidates/1406 lines, IoU50 P/R97.36/97.08%, IoU70 P/R94.58/94.31%, mean assigned IoU.8097, zero inference. But the1617 page precision is only74.42%; no promotion. A76 must apply the unchanged component rule to a new non-Test freeze and preregister a per-page precision floor, without hiding heterogeneity in aggregates. Claude/master unchanged, all global gates false.",
     "A74 frozen transfer validates the dense Eynollah signal on4 new Training pages/1406 lines across1617-1924:1406/1406 lines hit,98.32% mask pixels inside line union and84.09% union coverage; every page precision-like >=97.40%. Real cost84 tiles/93.19s CPU, zero OCR/VLM/Test. This is not boxes; A75 must preserve the mask via principled line separation/centerlines grounded in current Eynollah code, freeze before score, and avoid A73 rectangle retuning. Claude/master unchanged, all seven global gates false.",
     "A73 rejects direct rectangles around Eynollah components outside YOLO: recall remains33/33, but25/63 proposals touch <1% line area and proposal-union precision-like is56.33% vs75% gate. Do not retune these consumed pages. Preserve A72 as dense evidence; A74 must use a principled centerline/baseline on a new frozen diverse subset or advance OLR/retrieval. Zero new inference/Test, Claude/master unchanged, all gates false.",

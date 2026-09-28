@@ -66,3 +66,13 @@ hashes avant d'agréger la réponse Luna. Le résultat 11 textes visibles, 1 amb
 5 récupérations rectangulaires sûres motive un pilote de segmentation de lignes,
 mais ne constitue pas une annotation de boîte. Les vues, manifeste, réponse
 brute et rapport sont conservés ; zéro page Test et zéro vérité terrain modifiée.
+
+## A72–A76
+
+`evaluate_textline_transfer_a76.py` réutilise l'étage natif A72/A74 Eynollah,
+scelle tous les masques et composantes 8-connexes avant l'accès XML, puis fait
+un appariement hongrois à IoU50/70. A76 emploie un nouveau gel Training à quatre
+strates excluant A69/A74. La règle A75 échoue au transfert (P/R IoU50
+.7274/.8613), surtout sur la mise en page dense de 1924. Conserver le masque
+comme évidence ; ne pas émettre de boîtes ALTO générales à partir des seules
+composantes connexes.

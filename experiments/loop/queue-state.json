@@ -481,13 +481,14 @@
       "ended_at": 1790606599.5041344
     },
     "a73_prepare": {
-      "status": "completed",
+      "status": "stale",
       "started_at": 1790608000.0,
       "actor": "codex-root",
       "outputs": {
         "experiments/loop/next-a73/PROTOCOL.md": "d06a0b71f4faff80a0e44977f4980e5de7488b10a79b1465817c76626bf657c5"
       },
-      "ended_at": 1790608200.0
+      "ended_at": 1790608200.0,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun."
     },
     "a72_textline_retry": {
       "status": "failed",
@@ -516,7 +517,7 @@
       "reason": "Second ONNX Runtime attempt was rejected after another unnecessary telemetry connection; recorded PID was absent and no declared output existed. Backend abandoned. Retry4 uses the matching native SavedModel through local TensorFlow CPU."
     },
     "a72_textline_retry4": {
-      "status": "completed",
+      "status": "stale",
       "started_at": 1790607100.0,
       "actor": "codex-root",
       "returncode": 0,
@@ -525,20 +526,22 @@
         "experiments/loop/next-a72/Reichs_Post_Reuter_1700-11-16_0001-textline-mask.png": "c984f9c820ffcfd8cfa82d4fc7e4f1d6b5e7ef68719eb8921edc48dfab80aac7",
         "experiments/loop/next-a72/Koelnische_Zeitung_1924_0001-textline-mask.png": "5829e2c75b482334bf498ef3513fb205a09026d644961709e2382d27f7742c63"
       },
-      "ended_at": 1790607681.0524507
+      "ended_at": 1790607681.0524507,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun."
     },
     "a72_contamination": {
-      "status": "completed",
+      "status": "stale",
       "started_at": 1790607679.9,
       "actor": "codex-root",
       "returncode": 0,
       "outputs": {
         "experiments/loop/next-a72/contamination.json": "56f90e9b04bea1da0483ee663b0f5f8a8eea07bf4071014c2613ba3af9929c96"
       },
-      "ended_at": 1790607681.0524507
+      "ended_at": 1790607681.0524507,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun."
     },
     "a73_proposals": {
-      "status": "completed",
+      "status": "stale",
       "started_at": 1790608355.0,
       "actor": "codex-root",
       "returncode": 0,
@@ -546,39 +549,43 @@
         "experiments/loop/next-a73/candidates.json": "f33af968fb084ef4d641894caa8896802e52ca287eb6e158d3450812cae196c7",
         "experiments/loop/next-a73/report.json": "03f1c80b8498bf2ccfcd1554352b66de34698aa95a8f243e89a35663372cf94e"
       },
-      "ended_at": 1790608360.6883887
+      "ended_at": 1790608360.6883886,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun."
     },
     "a74_prepare": {
-      "status": "completed",
+      "status": "stale",
       "started_at": 1790608500.0,
       "actor": "codex-root",
       "outputs": {
         "experiments/loop/next-a74/PROTOCOL.md": "bccad3ade99d8c0bb2a96c9d4b9a88b52adee8f77c5376ec758b2e14ea78dd91"
       },
-      "ended_at": 1790608700.0
+      "ended_at": 1790608700.0,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun."
     },
     "a74_freeze": {
-      "status": "completed",
+      "status": "stale",
       "started_at": 1790608700.0,
       "actor": "codex-root",
       "returncode": 0,
       "outputs": {
         "experiments/loop/next-a74/split.json": "426d63fdc295a7a3ea1ec4c38c34757ffe8aacfec5b60c35fadd91f5e0871e32"
       },
-      "ended_at": 1790608701.0
+      "ended_at": 1790608701.0,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun."
     },
     "a74_images": {
-      "status": "completed",
+      "status": "stale",
       "started_at": 1790608701.0,
       "actor": "codex-root",
       "returncode": 0,
       "outputs": {
         "experiments/loop/next-a74/assets.json": "4644738c2a7b9830cc8177262894ed93c9b17cfaace2905b3317fd88ab8a2bc3"
       },
-      "ended_at": 1790608840.0
+      "ended_at": 1790608840.0,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun."
     },
     "a74_mask_transfer": {
-      "status": "completed",
+      "status": "stale",
       "started_at": 1790608840.0,
       "actor": "codex-root",
       "returncode": 0,
@@ -587,19 +594,21 @@
         "experiments/loop/next-a74/report.json": "547f68ade8fd0ba57e01949f746bb2ac6e6217bd1a05c4b8552bc517cc7119f3"
       },
       "note": "First post-inference scorer allocation was interrupted; sealed masks were reused, with zero duplicate model inference.",
-      "ended_at": 1790609300.0
+      "ended_at": 1790609300.0,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun."
     },
     "a75_prepare": {
-      "status": "completed",
+      "status": "stale",
       "started_at": 1790609500.0,
       "actor": "codex-root",
       "outputs": {
         "experiments/loop/next-a75/PROTOCOL.md": "1ac5e3ec2463abe63f4dbdd6698c2607b45ff6598713cd5f2b4dc196942a3a48"
       },
-      "ended_at": 1790609700.0
+      "ended_at": 1790609700.0,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun."
     },
     "a75_instances": {
-      "status": "completed",
+      "status": "stale",
       "started_at": 1790609700.0,
       "actor": "codex-root",
       "returncode": 0,
@@ -607,9 +616,59 @@
         "experiments/loop/next-a75/candidates.json": "d2aeb5023fa1dd2859000f7268ecbe72df015b78346ca9b3d0fa1d9a62eb20db",
         "experiments/loop/next-a75/report.json": "861f33f6630ac4644cf82486404bab95598eca7b50725e30a964407f22b8cd13"
       },
-      "ended_at": 1790609830.0
+      "ended_at": 1790609830.0,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun."
     },
     "a76_prepare": {
+      "status": "stale",
+      "started_at": 1790610408.1921647,
+      "actor": "codex-root",
+      "fingerprint": "1af56e945cccd7b5beb6a0f844516844f248d2ad4c14d308109d8dd527a45772",
+      "outputs": {
+        "experiments/loop/next-a76/PROTOCOL.md": "96c951d129dd81d5d49f77b2a92329a31e4c8eea0635bd2dfe357080b2e342fb"
+      },
+      "ended_at": 1790610408.1925306,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun."
+    },
+    "a76_freeze": {
+      "status": "stale",
+      "started_at": 1790610408.192533,
+      "actor": "codex-root",
+      "fingerprint": "68ab3bd4e4f3d4f84a76cd5d51ec8cb0e94002129f9a50910280e5db2fa294e1",
+      "outputs": {
+        "experiments/loop/next-a76/split.json": "ee8cc1c0442f53bf51bdc0e515d9f6f95b74266dc9393dd1c7d88014649b27c5"
+      },
+      "ended_at": 1790610408.1930137,
+      "returncode": 0,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun."
+    },
+    "a76_images": {
+      "status": "stale",
+      "started_at": 1790610408.1930158,
+      "actor": "codex-root",
+      "fingerprint": "b41f846f6919a741ef6c3cc008b1ffe5c14709b5b005cd08206e9a393ae62681",
+      "outputs": {
+        "experiments/loop/next-a76/assets.json": "9b49995d2c40260e36c7fc06ac89722d0e011563f86a7ce15b87a7a470890db5"
+      },
+      "ended_at": 1790610408.1933599,
+      "returncode": 0,
+      "reason": "Inputs, dependencies, job definition or output evidence changed; no automatic rerun."
+    },
+    "a76_transfer": {
+      "status": "completed",
+      "started_at": 1790610432.5070624,
+      "fingerprint": "6ef200d1703f8e278130ae0ba8b2fca54c3a05abc037f87da945bb43b2325a6f",
+      "pid": 5,
+      "log": "experiments/loop/logs/a76_transfer.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a76/predictions.json": "ade40d0721bfb46deee5e27ba5de92453cbe7766b47425576541895af892c332",
+        "experiments/loop/next-a76/candidates.json": "85f096ed907345998862a71ed534e02f752ffaf8d1c9e26fd1b8c56deda8630b",
+        "experiments/loop/next-a76/report.json": "2f32a9af261989194db3f47c0f01a64929e65ce2f66b7010423e303a1b850523"
+      },
+      "ended_at": 1790610546.6815524
+    },
+    "a77_prepare": {
       "status": "pending"
     }
   },

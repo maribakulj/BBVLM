@@ -1051,5 +1051,26 @@
     "new_model_forwards": 0,
     "test_pages_opened": 0,
     "global_completion": false
+  },
+  "textline_instance_transfer_a76": {
+    "status": "completed_frozen_training_transfer_failed_local_gate",
+    "protocol": "next-a76/PROTOCOL.md",
+    "split": "next-a76/split.json",
+    "assets": "next-a76/assets.json",
+    "predictions": "next-a76/predictions.json",
+    "candidates": "next-a76/candidates.json",
+    "report": "next-a76/report.json",
+    "results": "next-a76/RESULTS.md",
+    "pages": 4,
+    "candidates_count": 1306,
+    "reference_lines": 1103,
+    "precision_iou50": 0.7274119448698315,
+    "recall_iou50": 0.8612873980054397,
+    "precision_iou70": 0.6477794793261868,
+    "recall_iou70": 0.7669990933816863,
+    "local_gate_passed": false,
+    "model_forwards": 84,
+    "test_pages_opened": 0,
+    "global_completion": false
   }
 }

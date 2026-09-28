@@ -441,3 +441,24 @@ l'article HIP 2023 ci-dessus : abstract et métadonnées seulement.
 - **Apport BBVLM :** justifie IoU70, appariement d'instances et séparation des
   étages ligne/bloc/OCR. A75 ne prétend pas reproduire ParseNet.
 - **Source :** https://arxiv.org/abs/2102.11838 .
+
+## A76 — Boillet, Kermorvant & Paquet, *Robust Text Line Detection in Historical Documents*
+
+- **Version/date :** arXiv:2203.12346, 2022 ; consulté le 28 septembre 2026.
+- **Niveau lu :** texte intégral HTML, méthode, jeux, protocoles, résultats et
+  discussion ; pas seulement l'abstract.
+- **Méthode :** comparaison de Doc-UFCN, dhSegment et ARU-Net après
+  harmonisation des conventions d'annotation. L'étude isole les effets de
+  polygones qui se touchent, lesquels peuvent transformer plusieurs lignes en
+  une seule composante prédite.
+- **Évaluation/résultats :** métriques objet et mean AP sur plusieurs seuils,
+  complétées par CER/WER HTR orientés tâche. Une annotation unifiée améliore la
+  généralisation et la reconnaissance ; l'IoU pixel seule ne suffit pas.
+- **Limites :** dépendance aux corpus et conventions ; aucune démonstration de
+  boîtes ALTO parfaites ou de CER nul ; une bonne géométrie doit encore être
+  reliée à l'impact OCR réel.
+- **Code :** architectures/protocoles décrits ; aucun nouveau poids installé en
+  A76, l'expérience portant sur une règle Eynollah déjà figée.
+- **Apport BBVLM :** justifie des métriques d'instances à IoU50/70, un seuil par
+  page et la séparation stricte entre validation géométrique et CER.
+- **Source :** https://arxiv.org/abs/2203.12346 .

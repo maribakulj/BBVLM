@@ -753,7 +753,7 @@
       "resource": "cpu",
       "deps": ["a72_prepare"],
       "inputs": ["scripts/evaluate_eynollah_textline_a72.py", "scripts/evaluate_crop_geometry_a65.py", "experiments/loop/next-a72/PROTOCOL.md", "models/eynollah/modelens_textline_0_1__2_4_16092024.onnx", "experiments/loop/next-a69/assets.json", "experiments/loop/next-a70/report-v2.json", "experiments/loop/chronicling-a58/audit.json"],
-      "outputs": ["experiments/loop/next-a72/report.json", "experiments/loop/next-a72/Reichs_Post_Reuter_1700-11-16_0001-textline-mask.png", "experiments/loop/next-a72/Koelnische_Zeitung_1924_0001-textline-mask.png"],
+      "outputs": ["experiments/loop/next-a72/report-retry3-interrupted.json", "experiments/loop/next-a72/Reichs_Post_Reuter_1700-11-16_0001-textline-mask-retry3-interrupted.png", "experiments/loop/next-a72/Koelnische_Zeitung_1924_0001-textline-mask-retry3-interrupted.png"],
       "argv": ["/workspace/scratch/cecc4cd83a9f/a72-venv/bin/python", "scripts/evaluate_eynollah_textline_a72.py"],
       "timeout_seconds": 1200
     },
@@ -799,7 +799,7 @@
     {
       "id": "a74_freeze",
       "kind": "command",
-      "resource": "files",
+      "resource": "io",
       "deps": ["a74_prepare"],
       "inputs": ["scripts/freeze_eynollah_transfer_a74.py", "experiments/loop/next-a74/PROTOCOL.md", "experiments/loop/chronicling-a58/official_split.json", "experiments/loop/next-a69/split.json"],
       "outputs": ["experiments/loop/next-a74/split.json"],
@@ -809,7 +809,7 @@
     {
       "id": "a74_images",
       "kind": "command",
-      "resource": "network",
+      "resource": "io",
       "deps": ["a74_freeze"],
       "inputs": ["scripts/fetch_eynollah_transfer_a74.py", "scripts/fetch_crop_pilot_a66.py", "experiments/loop/next-a74/split.json"],
       "outputs": ["experiments/loop/next-a74/assets.json"],
@@ -853,6 +853,45 @@
       "inputs": ["experiments/loop/next-a75/report.json", "experiments/loop/next-a75/RESULTS.md"],
       "outputs": ["experiments/loop/next-a76/PROTOCOL.md"],
       "instructions": "Recheck Claude and Codex heads. Freeze a new diverse non-Test transfer before pixels/XML score. Apply A75 component rule unchanged and add a preregistered per-page precision floor because the consumed 1617 page had 74.42% precision. Keep IoU50/70 and OCR impact separate; commit/push/checkpoint and continue."
+    },
+    {
+      "id": "a76_freeze",
+      "kind": "command",
+      "resource": "io",
+      "deps": ["a76_prepare"],
+      "inputs": ["scripts/freeze_textline_transfer_a76.py", "experiments/loop/next-a76/PROTOCOL.md", "experiments/loop/chronicling-a58/official_split.json", "experiments/loop/next-a69/split.json", "experiments/loop/next-a74/split.json"],
+      "outputs": ["experiments/loop/next-a76/split.json"],
+      "argv": ["python3", "scripts/freeze_textline_transfer_a76.py"],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "a76_images",
+      "kind": "command",
+      "resource": "io",
+      "deps": ["a76_freeze"],
+      "inputs": ["scripts/fetch_textline_transfer_a76.py", "scripts/fetch_crop_pilot_a66.py", "experiments/loop/next-a76/split.json"],
+      "outputs": ["experiments/loop/next-a76/assets.json"],
+      "argv": ["python3", "scripts/fetch_textline_transfer_a76.py"],
+      "timeout_seconds": 900
+    },
+    {
+      "id": "a76_transfer",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [],
+      "inputs": ["scripts/evaluate_textline_transfer_a76.py", "scripts/evaluate_eynollah_textline_keras_a72.py", "scripts/evaluate_textline_instances_a75.py", "experiments/loop/next-a76/PROTOCOL.md", "experiments/loop/next-a76/split.json", "experiments/loop/next-a76/assets.json", "experiments/loop/chronicling-a58/audit.json", "models/eynollah/native/modelens_textline_0_1__2_4_16092024/saved_model.pb"],
+      "outputs": ["experiments/loop/next-a76/predictions.json", "experiments/loop/next-a76/candidates.json", "experiments/loop/next-a76/report.json"],
+      "argv": ["/workspace/scratch/cecc4cd83a9f/a72tf-venv/bin/python", "scripts/evaluate_textline_transfer_a76.py"],
+      "timeout_seconds": 1800
+    },
+    {
+      "id": "a77_prepare",
+      "kind": "external",
+      "resource": "orchestrator",
+      "deps": ["a76_transfer"],
+      "inputs": ["experiments/loop/next-a76/report.json", "experiments/loop/next-a76/RESULTS.md"],
+      "outputs": ["experiments/loop/next-a77/PROTOCOL.md"],
+      "instructions": "Recheck Claude and Codex heads. Interpret A76 per-page and aggregate gates without lowering thresholds. If transfer passes, measure OCR/OLR impact on a newly frozen non-Test subset; if it fails, attribute failures without retuning A76 and evaluate a distinct baseline/centerline extraction. Read and separately summarize primary sources; commit/push/checkpoint and continue."
     }
   ]
 }

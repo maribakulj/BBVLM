@@ -616,3 +616,12 @@ ambiguous; none is plain non-text. Only five are safe for rectangular recovery,
 because neighboring lines, ornaments or clipped text contaminate the others.
 This supports a bounded pixelwise/line-segmentation comparison, not global
 padding. The oracle-selected consumed sample is diagnostic, not box truth.
+
+## A72–A76 — Eynollah line evidence, then failed instance transfer
+
+A72/A74 show that the targeted Eynollah line mask supplies broad dense recall,
+but A76 disproves the component-to-rectangle shortcut on four new
+time-stratified Training pages. IoU50 falls to 72.74% precision and 86.13%
+recall, with the 1924 page at 58.80%/83.54%. The unchanged preregistered rule
+is rejected; no threshold was lowered, no Test page opened and no global gate
+promoted. See `next-a76/RESULTS.md`.

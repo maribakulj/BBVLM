@@ -1,0 +1,42 @@
+{
+  "revision": "66b50f53ccdb581d29cc02f670e469bbf583e825",
+  "images": [
+    {
+      "page": "no_title_1626-07-07_0002",
+      "path": "corpora/chronicling-germany/images/no_title_1626-07-07_0002.jpg",
+      "sha256": "7392243ccbaec81b2857dbdb0b9f56cbba9be90233d18f365d1b73a544f85fd4",
+      "bytes": 1022388,
+      "git_blob_id": "b355a3eb375d654eae460c391142f4b94d73d03d",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2Fno_title_1626-07-07_0002.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 24.83095292899816
+    },
+    {
+      "page": "Schwaebischer_Merkur_1785-11-14_0002",
+      "path": "corpora/chronicling-germany/images/Schwaebischer_Merkur_1785-11-14_0002.jpg",
+      "sha256": "dee76d930f142218e5dd37c9a9d8cc9e4b60c3773751b5aad65bac66445d6858",
+      "bytes": 837696,
+      "git_blob_id": "a963cc7b26a07eaa027b7e207b4171674cdba414",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FSchwaebischer_Merkur_1785-11-14_0002.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 25.033110924996436
+    },
+    {
+      "page": "Koelnische_Zeitung_1866-06_1866-09_0261",
+      "path": "corpora/chronicling-germany/images/Koelnische_Zeitung_1866-06_1866-09_0261.jpg",
+      "sha256": "f384144c447bb71f48a2dbbf8c8370ba6c244e4b84e672b1ce94c8a3a853c084",
+      "bytes": 4944382,
+      "git_blob_id": "185d4ce8805316eea0d6552770d396cf91d2227e",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FKoelnische_Zeitung_1866-06_1866-09_0261.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 17.04728611199971
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0036",
+      "path": "corpora/chronicling-germany/images/Koelnische_Zeitung_1924_0036.jpg",
+      "sha256": "f46880ab90f4fa139968319ce8a1d50d3fd5ea6ea52c95dff7e7b3cbfbaa4c56",
+      "bytes": 3288383,
+      "git_blob_id": "7b43a7aef3174178c4bae2d8cf0f93ced17c7559",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FKoelnische_Zeitung_1924_0036.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 16.633212898996135
+    }
+  ],
+  "test_pages_opened": 0
+}

@@ -1,0 +1,134 @@
+{
+  "schema": "bbvlm.a76.report/1",
+  "status": "frozen_training_instance_transfer",
+  "prediction_sha256_before_xml": "ade40d0721bfb46deee5e27ba5de92453cbe7766b47425576541895af892c332",
+  "candidate_sha256_before_xml": "85f096ed907345998862a71ed534e02f752ffaf8d1c9e26fd1b8c56deda8630b",
+  "pages": {
+    "no_title_1626-07-07_0002": {
+      "candidates": 40,
+      "reference_lines": 34,
+      "matched_pairs": 34,
+      "mean_assigned_iou": 0.8864192739698242,
+      "iou50": {
+        "true_matches": 34,
+        "precision": 0.85,
+        "recall": 1.0,
+        "f1": 0.9189189189189189
+      },
+      "iou70": {
+        "true_matches": 33,
+        "precision": 0.825,
+        "recall": 0.9705882352941176,
+        "f1": 0.8918918918918919
+      },
+      "candidate_merges_iou_gt10": 32,
+      "reference_fragments_iou_gt10": 30,
+      "xml_sha256": "27ccbe7f9f1d4e18e2e2e477489f71f5a6a486f6e725fc1155a8c247e20c2670"
+    },
+    "Schwaebischer_Merkur_1785-11-14_0002": {
+      "candidates": 92,
+      "reference_lines": 91,
+      "matched_pairs": 91,
+      "mean_assigned_iou": 0.7432893687851092,
+      "iou50": {
+        "true_matches": 86,
+        "precision": 0.9347826086956522,
+        "recall": 0.945054945054945,
+        "f1": 0.9398907103825138
+      },
+      "iou70": {
+        "true_matches": 81,
+        "precision": 0.8804347826086957,
+        "recall": 0.8901098901098901,
+        "f1": 0.8852459016393442
+      },
+      "candidate_merges_iou_gt10": 28,
+      "reference_fragments_iou_gt10": 25,
+      "xml_sha256": "c7211f48571ab6d18902a91de9389817c5d3362a93fb6f2af7088ad2496905a3"
+    },
+    "Koelnische_Zeitung_1866-06_1866-09_0261": {
+      "candidates": 708,
+      "reference_lines": 650,
+      "matched_pairs": 650,
+      "mean_assigned_iou": 0.704346317189377,
+      "iou50": {
+        "true_matches": 556,
+        "precision": 0.7853107344632768,
+        "recall": 0.8553846153846154,
+        "f1": 0.8188512518409427
+      },
+      "iou70": {
+        "true_matches": 511,
+        "precision": 0.7217514124293786,
+        "recall": 0.7861538461538462,
+        "f1": 0.7525773195876289
+      },
+      "candidate_merges_iou_gt10": 537,
+      "reference_fragments_iou_gt10": 549,
+      "xml_sha256": "86ee296cb64aedd269746063273354adad34cadef99d1507712d5c6ca040bb29"
+    },
+    "Koelnische_Zeitung_1924_0036": {
+      "candidates": 466,
+      "reference_lines": 328,
+      "matched_pairs": 328,
+      "mean_assigned_iou": 0.6473122006889225,
+      "iou50": {
+        "true_matches": 274,
+        "precision": 0.5879828326180258,
+        "recall": 0.8353658536585366,
+        "f1": 0.690176322418136
+      },
+      "iou70": {
+        "true_matches": 221,
+        "precision": 0.4742489270386266,
+        "recall": 0.6737804878048781,
+        "f1": 0.5566750629722922
+      },
+      "candidate_merges_iou_gt10": 244,
+      "reference_fragments_iou_gt10": 247,
+      "xml_sha256": "41a143c2e63ddf00794e1a023ece3c916da958d2cbda35a3d7c67186f263abf2"
+    }
+  },
+  "aggregate": {
+    "candidates": 1306,
+    "reference_lines": 1103,
+    "matched_pairs": 1103,
+    "mean_assigned_iou": 0.6962113289877431,
+    "candidate_merges_iou_gt10": 841,
+    "reference_fragments_iou_gt10": 851,
+    "iou50": {
+      "true_matches": 950,
+      "precision": 0.7274119448698315,
+      "recall": 0.8612873980054397,
+      "f1": 0.7887090078870901
+    },
+    "iou70": {
+      "true_matches": 846,
+      "precision": 0.6477794793261868,
+      "recall": 0.7669990933816863,
+      "f1": 0.7023661270236612
+    }
+  },
+  "gate_checks": {
+    "precision_iou50_ge95pct": false,
+    "recall_iou50_ge95pct": false,
+    "precision_iou70_ge80pct": false,
+    "recall_iou70_ge80pct": false,
+    "every_page_precision_iou50_ge85pct": false,
+    "every_page_recall_iou50_ge90pct": false,
+    "test_pages_opened_zero": true
+  },
+  "local_gate_passed": false,
+  "model_forwards": 84,
+  "new_model_forwards_in_scoring_retry": 84,
+  "ocr_calls": 0,
+  "vlm_calls": 0,
+  "test_pages_opened": 0,
+  "seconds": 109.52745111900003,
+  "all_scientific_gates_passed": false,
+  "limitations": [
+    "Training PAGE rectangles are convention-dependent and not perfect truth.",
+    "Line rectangles are not word-level ALTO boxes.",
+    "No OCR, reading order, article, metadata or retrieval output was evaluated."
+  ]
+}

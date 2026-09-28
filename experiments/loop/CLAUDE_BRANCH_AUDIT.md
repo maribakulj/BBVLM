@@ -138,3 +138,10 @@ Avant l'hypothèse d'instances, Claude reste inchangé à
 `63fc8a04a4b5a71308699188b7198e7d25530be9` et master à
 `60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Aucun fichier Claude importé,
 aucun merge et aucune écriture sur main/master.
+
+## A76 — 2026-09-28
+Avant le nouveau gel indépendant, Claude est toujours à
+`76056c5c1957e0de4232f0aef1f6cbc7f2893402`, sans nouveau commit. Codex est à
+`d996faac71564a56ef7af1a99e8d22c16a3df37e` et master reste
+`60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Aucun fichier concurrent importé,
+aucun merge, aucune écriture sur main/master et aucun force-push.

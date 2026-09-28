@@ -1,0 +1,68 @@
+{
+  "schema": "bbvlm.a76.predictions/1",
+  "split_sha256": "ee8cc1c0442f53bf51bdc0e515d9f6f95b74266dc9393dd1c7d88014649b27c5",
+  "implementation": "A72/A74 native Eynollah textline SavedModel unchanged",
+  "signature_output": "activation_55",
+  "pages": {
+    "no_title_1626-07-07_0002": {
+      "image_sha256": "7392243ccbaec81b2857dbdb0b9f56cbba9be90233d18f365d1b73a544f85fd4",
+      "source_shape": [
+        2595,
+        2235
+      ],
+      "mask_shape": [
+        2322,
+        2000
+      ],
+      "mask_sha256": "2687b1879686fb1075bd4e0238a9b4e518df9b941c5c9963c7f165813b60823d",
+      "positive_pixels": 1309389,
+      "tiles": 20,
+      "seconds": 25.40715850199922
+    },
+    "Schwaebischer_Merkur_1785-11-14_0002": {
+      "image_sha256": "dee76d930f142218e5dd37c9a9d8cc9e4b60c3773751b5aad65bac66445d6858",
+      "source_shape": [
+        2696,
+        2097
+      ],
+      "mask_shape": [
+        2571,
+        2000
+      ],
+      "mask_sha256": "91e304435fd3a9230bc63e5ece1e991629ee2844eb16b81b78b3c09a380f7160",
+      "positive_pixels": 2406891,
+      "tiles": 20,
+      "seconds": 25.264497217001917
+    },
+    "Koelnische_Zeitung_1866-06_1866-09_0261": {
+      "image_sha256": "f384144c447bb71f48a2dbbf8c8370ba6c244e4b84e672b1ce94c8a3a853c084",
+      "source_shape": [
+        7102,
+        5049
+      ],
+      "mask_shape": [
+        2813,
+        2000
+      ],
+      "mask_sha256": "a609e0f37cd4c775c663589bb035c6a264b9be71cb28f71b2f37058940e3a6f7",
+      "positive_pixels": 3434687,
+      "tiles": 20,
+      "seconds": 15.457416992998333
+    },
+    "Koelnische_Zeitung_1924_0036": {
+      "image_sha256": "f46880ab90f4fa139968319ce8a1d50d3fd5ea6ea52c95dff7e7b3cbfbaa4c56",
+      "source_shape": [
+        7209,
+        5032
+      ],
+      "mask_shape": [
+        2865,
+        2000
+      ],
+      "mask_sha256": "d42f2eb4f7f29ec4d330bbc3ff888fdd07a4c99336414cffeb21b31f9bb1d867",
+      "positive_pixels": 1605485,
+      "tiles": 24,
+      "seconds": 29.816121980002208
+    }
+  }
+}
