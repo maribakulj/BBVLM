@@ -9,7 +9,11 @@ import argparse,hashlib,json,subprocess,sys,urllib.request,zipfile
 ROOT=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser()
 parser.add_argument('--only',action='append',default=[],help='exact manifest path to restore; repeatable')
+parser.add_argument('--chronicling-annotations',action='store_true',help='restore verified A58 XML only, without images/models')
 args=parser.parse_args()
+if args.chronicling_annotations:
+    subprocess.run([sys.executable,str(ROOT/'scripts/restore_chronicling_a58.py')],cwd=ROOT,check=True)
+    raise SystemExit(0)
 entries=json.loads((ROOT/'experiments/loop/assets.json').read_text())['downloads']
 if args.only:
     wanted=set(args.only);known={e['path'] for e in entries}
@@ -48,5 +52,3 @@ if not args.only:
     subprocess.run([sys.executable,str(ROOT/'scripts/restore_predicted_lines_a37_assets.py')],cwd=ROOT,check=True)
     subprocess.run([sys.executable,str(ROOT/'scripts/fetch_bnl_independent_a45.py')],cwd=ROOT,check=True)
     subprocess.run([sys.executable,str(ROOT/'scripts/audit_bnl_independent_a45.py')],cwd=ROOT,check=True)
-    subprocess.run([sys.executable,str(ROOT/'scripts/fetch_bnl_independent_a54.py')],cwd=ROOT,check=True)
-    subprocess.run([sys.executable,str(ROOT/'scripts/audit_bnl_independent_a54.py')],cwd=ROOT,check=True)

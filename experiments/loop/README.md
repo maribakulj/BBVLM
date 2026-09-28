@@ -552,3 +552,7 @@ Sol natif aveugle rejeté : lexical24→57 éditions, deux témoins préservés 
 ## A60 terminé
 Bandes natives : Sol45→36 éditions lexicales, reste supérieur aux8 de Luna guard. Pas de promotion.
 
+
+## A61 terminé
+Candidat+bandes Sol :8→6 éditions lexicales, dont une modification régressive. Pas de promotion automatique. Rapports A57–A61 et commits distincts ; tous critères globaux restent faux.
+

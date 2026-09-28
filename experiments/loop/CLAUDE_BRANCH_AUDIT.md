@@ -48,3 +48,7 @@ JOURNAL.md relu lignes210–257 SHA ba685e9b4c870e245d1d201381986178660abb4c ; c
 ## A59–A60
 A59 : comparaison 33 ahead/10 behind. A60 : JOURNAL relu jusqu’à I01, SHA ba685e9b4c870e245d1d201381986178660abb4c inchangé. P7 rejeté et I01 motivent la comparaison pixels source/bandes ; aucun résultat indépendant emprunté.
 
+
+## A61 — 2026-09-28
+Relu JOURNAL I01 avant nouvelle hypothèse ; même SHA ba685e9b4c870e245d1d201381986178660abb4c. Aucun nouveau résultat adopté depuis A60.
+

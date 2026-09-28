@@ -1,0 +1,133 @@
+{
+  "status": "complete_consumed_development_diagnostic",
+  "guard": {
+    "accepted": true,
+    "reasons": [],
+    "declared_edits": 5,
+    "uncertain": true
+  },
+  "candidate": {
+    "strict_nfc_diplomatic": {
+      "characters": 1438,
+      "edits": 27,
+      "cer": 0.018776077885952713,
+      "exact": false
+    },
+    "search_v1": {
+      "characters": 1438,
+      "edits": 11,
+      "cer": 0.0076495132127955496,
+      "exact": false
+    },
+    "lexical_alnum": {
+      "characters": 1063,
+      "edits": 8,
+      "cer": 0.007525870178739417,
+      "exact": false
+    }
+  },
+  "sol_raw": {
+    "strict_nfc_diplomatic": {
+      "characters": 1438,
+      "edits": 25,
+      "cer": 0.017385257301808066,
+      "exact": false
+    },
+    "search_v1": {
+      "characters": 1438,
+      "edits": 8,
+      "cer": 0.005563282336578581,
+      "exact": false
+    },
+    "lexical_alnum": {
+      "characters": 1063,
+      "edits": 6,
+      "cer": 0.005644402634054563,
+      "exact": false
+    }
+  },
+  "sol_guarded": {
+    "strict_nfc_diplomatic": {
+      "characters": 1438,
+      "edits": 25,
+      "cer": 0.017385257301808066,
+      "exact": false
+    },
+    "search_v1": {
+      "characters": 1438,
+      "edits": 8,
+      "cer": 0.005563282336578581,
+      "exact": false
+    },
+    "lexical_alnum": {
+      "characters": 1063,
+      "edits": 6,
+      "cer": 0.005644402634054563,
+      "exact": false
+    }
+  },
+  "declared_edits": [
+    {
+      "before": "múolt am éschten.",
+      "after": "mûolt am éschten.",
+      "visual_reason": "The printed vowel in 91 has a circumflex over u."
+    },
+    {
+      "before": "séng Wůor.",
+      "after": "séng Wûor.",
+      "visual_reason": "The printed vowel in Wûor in 105 has a circumflex, not a ring."
+    },
+    {
+      "before": "du dei Fuoder",
+      "after": "du deî Fuoder",
+      "visual_reason": "A circumflex is printed over the i in deî in 111."
+    },
+    {
+      "before": "\nT jong Leit",
+      "after": "\n'T jong Leit",
+      "visual_reason": "A leading apostrophe is printed before T in 114."
+    },
+    {
+      "before": "Gróss Kanner",
+      "after": "Gròss Kanner",
+      "visual_reason": "The accent over o in the first word of 118 is grave."
+    }
+  ],
+  "cost": {
+    "reader_sessions": 1,
+    "image_items": 3,
+    "model": "gpt-6-sol",
+    "tokens": "not exposed",
+    "new_ocr_or_detector_forwards": 0
+  },
+  "global_completion": false,
+  "reference_unchanged": true,
+  "per_edit_agreement_delta": [
+    {
+      "before": "múolt am éschten.",
+      "after": "mûolt am éschten.",
+      "lexical_edit_delta": -1
+    },
+    {
+      "before": "séng Wůor.",
+      "after": "séng Wûor.",
+      "lexical_edit_delta": -1
+    },
+    {
+      "before": "du dei Fuoder",
+      "after": "du deî Fuoder",
+      "lexical_edit_delta": -1
+    },
+    {
+      "before": "\nT jong Leit",
+      "after": "\n'T jong Leit",
+      "lexical_edit_delta": 0
+    },
+    {
+      "before": "Gróss Kanner",
+      "after": "Gròss Kanner",
+      "lexical_edit_delta": 1
+    }
+  ],
+  "image_bytes_match_frozen_a60": true
+}

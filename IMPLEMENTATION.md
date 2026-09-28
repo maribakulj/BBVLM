@@ -656,3 +656,7 @@ Ajout scripts/evaluate_bnl_sol_a59.py : validation stricte des IDs, images inspe
 ## A60
 prepare_bnl_bands_a60.py coupe par projection image seulement et vérifie reconstruction pixel exacte ; evaluate_bnl_bands_a60.py concatène ordre privé et score les trois vues figées.
 
+
+## A61
+Correction localisée évaluée via garde A54 inchangée, deltas par edit conservés. scripts/restore_chronicling_a58.py restaure les XML par révision et vérifie chaque SHA256 plus arbre Git ; point d’entrée restore_public_assets.py --chronicling-annotations vérifié.
+

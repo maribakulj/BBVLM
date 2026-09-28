@@ -1,0 +1,37 @@
+{
+  "task": "Inspect all three images at original detail. They are consecutive native bands of one printed block. Correct the candidate only where the printed pixels clearly justify a change. Preserve historic spelling and accents; do not modernize, expand abbreviations or infer a word from plausibility. If unclear retain the existing candidate and mark uncertain. Every change must be an exact uniquely occurring before substring and replacement after, with a visual reason. Output the full text reconstructed by applying those edits in order. No edits is allowed. Never inspect other files, references, scores or agents.",
+  "items": [
+    {
+      "id": "V417",
+      "images": [
+        "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-guard-a61/blind/V1.png",
+        "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-guard-a61/blind/V2.png",
+        "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-guard-a61/blind/V3.png"
+      ],
+      "candidate": "89.\nWât ên net am Kapp huot, muss ên an de Féssen hun.\n90\nEt gi fil gut Schof an ê Stal.\n91.\nWién d'éscht kent, múolt am éschten.\n92.\nBeim Auskiére fennt sech Alles.\n93.\nFaul Leit hu giére Feierdâch.\n94.\nHuol d'Aen an d'Hand!\n95.\nDât as en areme Joermârt, wó ên em élef\nZe fré, em zwiélef ze lantzem (ze spét) kemt.\n96.\nWanns de neischt mé huos, wiérs de klèng muolen.\n97.\nD'Gèlt wist net, wann ên't sét.\n98.\nEt lêft fill Wâsser d'Bâch erôn.\n99.\nD' gebroden Dauwen flée' net an der Loft erem.\n100.\nAn der Sonn ferdengt ên de Schiéd.\n101.\nDen Hèr firaûs, derno kemt d'ganet Haûs.\n102.\nGidwideré wês, wô en de Schong drékt.\n103.\nFil Scholt, fil Gedolt.\n104.\nWé ên d'Handwiérk dreift, esó gêt et.\n105.\nDe Kâfman lûoft séng Wůor.\n106.\nEt kemt kê Pâf an den Himmel.\n107.\nWann ên no èngem Hont wèrft da gerét ên e' Pâf\n108.\nHaut mir, muor dir.\n109.\nWûorfir rackers de déch esó? du muss jo dach\nstiérwen.\n110.\nDé àl Scheiere brènnen am iérgsten.\n111.\nLéer du dei Fuoder e — — mâchen.\n(Léer en alen Aaf Konschte mâchen.)\n112.\nWié lâng supt (seift) liéft lang.\n113.\nGnodebròt, sauer Brót.\n114.\nT jong Leit solle bei den Alen\nD'Oere brauchen an d'Maûl halen.\n115.\nKlèng Deppercher lâfe lîcht iwer.\n116.\nDe klèng Drèckeltcher stènken iérger as wé dé grósz\n117.\nE klèngt Kenntchen, èng gut Stenntchen.\n118.\nKlèng Kanner, klèng Suorgen, (Lêt;)\nGróss Kanner, gròss Suorgen. (Lêt.)\n119.\nD'Klèng Kanner hun d'Lâchen an d'Kreîschen an\nèngem Sèckeltchen.",
+      "candidate_sha256": "b69d1fecdf03c756e7589cd11c4b8f6c131c267644101f3a705cbffd029e7bbe"
+    }
+  ],
+  "output_schema": {
+    "items": [
+      {
+        "id": "V417",
+        "text": "full resulting text",
+        "decision": "keep|edit",
+        "uncertain": false,
+        "edits": [
+          {
+            "before": "exact unique substring",
+            "after": "replacement",
+            "visual_reason": "visible evidence"
+          }
+        ]
+      }
+    ],
+    "inspected_images": [
+      "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-guard-a61/blind/V1.png",
+      "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-guard-a61/blind/V2.png",
+      "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-guard-a61/blind/V3.png"
+    ]
+  }
+}

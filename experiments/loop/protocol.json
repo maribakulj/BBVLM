@@ -824,5 +824,29 @@
     "line_geometry": false,
     "region_geometry": true,
     "global_completion": false
+  },
+  "chronicling_a58": {
+    "status": "completed_not_global_success",
+    "protocol": "chronicling-a58/PROTOCOL.md",
+    "results": "chronicling-a58/RESULTS.md",
+    "global_completion": false
+  },
+  "bnl_sol_a59": {
+    "status": "completed_not_global_success",
+    "protocol": "bnl-sol-a59/PROTOCOL.md",
+    "results": "bnl-sol-a59/RESULTS.md",
+    "global_completion": false
+  },
+  "bnl_bands_a60": {
+    "status": "completed_not_global_success",
+    "protocol": "bnl-bands-a60/PROTOCOL.md",
+    "results": "bnl-bands-a60/RESULTS.md",
+    "global_completion": false
+  },
+  "bnl_guard_a61": {
+    "status": "completed_not_global_success",
+    "protocol": "bnl-guard-a61/PROTOCOL.md",
+    "results": "bnl-guard-a61/RESULTS.md",
+    "global_completion": false
   }
 }

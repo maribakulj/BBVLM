@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": "V417",
+      "text": "89.\nWât ên net am Kapp huot, muss ên an de Féssen hun.\n90\nEt gi fil gut Schof an ê Stal.\n91.\nWién d'éscht kent, mûolt am éschten.\n92.\nBeim Auskiére fennt sech Alles.\n93.\nFaul Leit hu giére Feierdâch.\n94.\nHuol d'Aen an d'Hand!\n95.\nDât as en areme Joermârt, wó ên em élef\nZe fré, em zwiélef ze lantzem (ze spét) kemt.\n96.\nWanns de neischt mé huos, wiérs de klèng muolen.\n97.\nD'Gèlt wist net, wann ên't sét.\n98.\nEt lêft fill Wâsser d'Bâch erôn.\n99.\nD' gebroden Dauwen flée' net an der Loft erem.\n100.\nAn der Sonn ferdengt ên de Schiéd.\n101.\nDen Hèr firaûs, derno kemt d'ganet Haûs.\n102.\nGidwideré wês, wô en de Schong drékt.\n103.\nFil Scholt, fil Gedolt.\n104.\nWé ên d'Handwiérk dreift, esó gêt et.\n105.\nDe Kâfman lûoft séng Wûor.\n106.\nEt kemt kê Pâf an den Himmel.\n107.\nWann ên no èngem Hont wèrft da gerét ên e' Pâf\n108.\nHaut mir, muor dir.\n109.\nWûorfir rackers de déch esó? du muss jo dach\nstiérwen.\n110.\nDé àl Scheiere brènnen am iérgsten.\n111.\nLéer du deî Fuoder e — — mâchen.\n(Léer en alen Aaf Konschte mâchen.)\n112.\nWié lâng supt (seift) liéft lang.\n113.\nGnodebròt, sauer Brót.\n114.\n'T jong Leit solle bei den Alen\nD'Oere brauchen an d'Maûl halen.\n115.\nKlèng Deppercher lâfe lîcht iwer.\n116.\nDe klèng Drèckeltcher stènken iérger as wé dé grósz\n117.\nE klèngt Kenntchen, èng gut Stenntchen.\n118.\nKlèng Kanner, klèng Suorgen, (Lêt;)\nGròss Kanner, gròss Suorgen. (Lêt.)\n119.\nD'Klèng Kanner hun d'Lâchen an d'Kreîschen an\nèngem Sèckeltchen.",
+      "decision": "edit",
+      "uncertain": true,
+      "edits": [
+        {
+          "before": "múolt am éschten.",
+          "after": "mûolt am éschten.",
+          "visual_reason": "The printed vowel in 91 has a circumflex over u."
+        },
+        {
+          "before": "séng Wůor.",
+          "after": "séng Wûor.",
+          "visual_reason": "The printed vowel in Wûor in 105 has a circumflex, not a ring."
+        },
+        {
+          "before": "du dei Fuoder",
+          "after": "du deî Fuoder",
+          "visual_reason": "A circumflex is printed over the i in deî in 111."
+        },
+        {
+          "before": "\nT jong Leit",
+          "after": "\n'T jong Leit",
+          "visual_reason": "A leading apostrophe is printed before T in 114."
+        },
+        {
+          "before": "Gróss Kanner",
+          "after": "Gròss Kanner",
+          "visual_reason": "The accent over o in the first word of 118 is grave."
+        }
+      ]
+    }
+  ],
+  "inspected_images": [
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-guard-a61/blind/V1.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-guard-a61/blind/V2.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-guard-a61/blind/V3.png"
+  ]
+}
