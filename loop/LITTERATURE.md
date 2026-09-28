@@ -147,3 +147,22 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
   toutes les colonnes d'une page-tableau dès qu'une ligne les traverse
   (852691769 : 33 lignes non placées sur 80). On teste l'XY-cut classique sur
   boîtes de lignes, seuils relatifs à la hauteur médiane de ligne (S03).
+
+## L10 — aligner une transcription sur les lignes d'image par ancres OCR (2026-09-28, après O11)
+
+- **Feng & Manmatha (2006), « A hierarchical, HMM-based automatic evaluation
+  of OCR accuracy for a digital library of books »** et **Yalniz & Manmatha
+  (2011), « A fast alignment scheme for automatic OCR evaluation of books »** :
+  une OCR imparfaite suffit à aligner un texte exact sur l'image, en ancrant
+  sur les mots rares communs (mots uniques), puis en alignant récursivement
+  entre ancres. *Apport* : l'appariement se fait par le contenu, indépendamment
+  d'un ordre de lecture supposé. *Limite* : conçu pour des livres entiers ;
+  bruit d'OCR élevé sur Fraktur.
+- **astra A53** : garde le CTC (PERO) comme signal d'alignement mot/ligne, pas
+  comme texte. PERO est bloqué ici ; Tesseract 5 + tessdata_best
+  (script/Fraktur, lat, deu, GitHub) est installable.
+- *Conséquence* (S05) : Tesseract lit chaque ligne kraken (texte jeté, sert
+  d'ancre) ; les lignes du lecteur sont appariées aux lignes kraken par
+  similarité de texte (hongrois), l'alignement par largeur ne complétant que
+  les lignes sans ancre. Vise les pages où aucun ordre fixe ne reproduit
+  l'ordre du lecteur (852691769 : blocs lus colonne par colonne).
