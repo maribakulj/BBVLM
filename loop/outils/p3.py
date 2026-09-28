@@ -20,7 +20,9 @@ def lignes(p):
 
 
 def prepare(d):
-    A, B = lignes(f'{d}/lu_a.txt'), lignes(f'{d}/lu_b.txt')
+    A = lignes(f'{d}/lu_a.txt')
+    # mode économe : une seule lecture (pas de lu_b) → aucune tâche, texte = A (+ I01)
+    B = lignes(f'{d}/lu_b.txt') if os.path.exists(f'{d}/lu_b.txt') else A
     m = apparie(A, B)                      # indice A -> texte B
     kr = [l['bbox'] for l in json.load(open(f'{d}/kraken_serre.json'))['lignes']]
     loc = aligne(A, kr)

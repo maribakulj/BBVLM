@@ -339,3 +339,15 @@ abdipre 3 → 7, extraudeu 43 → 44, hackherz et bankgraf inchangés, drabnota
 26 → 21. **Aucune page annoncée à 0 % ne change de statut.** Les deux vues
 sont désormais rapportées quand elles diffèrent ; les adjudications futures
 suivent `consigne_adjudication.md`.
+
+## V01 — 2026-09-28 — combien de passes VLM ? (16 pages neuves O10-O13, sans nouvelle lecture)
+
+Contre les références adjugées : une lecture seule A 132 éditions ; A + I01
+**126** ; B + I01 131 ; chaîne complète (2 lectures + arbitre P3 + I01)
+**122** ; pages à 0 : 3 / 3 / 4 / 4. La deuxième lecture complète et l'arbitre
+évitent ~5 % des erreurs restantes pour deux fois plus de lecture VLM, et
+l'arbitre en introduit parfois (bankgraf : B 0 → final 2 ; heptaldai A 7 →
+final 9). I01 (passe courte ciblée) apporte l'essentiel du gain
+(herbdulc −6). Mode économe ajouté à la chaîne (lecture A seule, I01 dans un
+appel court) ; mode qualité inchangé. Piste : cibler la seconde passe sur les
+lignes à risque plutôt que relire toute la page.

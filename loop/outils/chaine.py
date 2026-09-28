@@ -4,6 +4,7 @@
 script, sur les fichiers qu'il prépare) :
   prepare DOSSIER      vues (page, bandes, moitiés ×1,6) + segmentation kraken
   [VLM] deux lectures indépendantes → DOSSIER/lu_a.txt, DOSSIER/lu_b.txt
+        (mode économe : lu_a seule ; O10-O13 : 126-131 éditions contre 122, −50 % de lecture)
                         (consigne outils/consigne_P6.md)
   arbitrage DOSSIER    p2 (OCR-D, R1, R2) sur A et B, lignes resserrées,
                         recadrage des seules lignes en désaccord → DOSSIER/p3/taches.json
@@ -31,6 +32,7 @@ def prepare(d, kraken_py=os.environ.get('BBVLM_KRAKEN_PY', PY)):
 
 def arbitrage(d):
     for n in 'ab':
+        if not os.path.exists(f'{d}/lu_{n}.txt'): continue     # mode économe : lecture A seule
         with open(f'{d}/p2_{n}.txt', 'w') as f:
             subprocess.run([PY, 'p2.py', f'{d}/lu_{n}.txt'], check=True, cwd=ICI, stdout=f)
     run('serre.py', d)
