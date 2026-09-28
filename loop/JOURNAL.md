@@ -421,3 +421,12 @@ heptaldai après B04 : IoU méd 0,76, boîtes coupées en bas (y1 −6 px méd,
 heptaldai 0,418 → 0,378, herrkurt 0,583 → 0,477, extraudeu 0,821 → 0,669,
 730277879 0,824 → 0,796 (l'encre des voisines revient). Réduction actuelle
 gardée (variante sous BBVLM_REDRESSE_PLEIN=1).
+
+## O15 — 2026-09-28 — chaîne gelée sur 4 pages neuves plus difficiles (latin, XVIe)
+
+Final contre référence adjugée : busmexpo 2, eberbrev 14 (1 en vue norm :
+tirets ⸗/-), cingdei 13, buchdas 37 (signe sur u, arbitres opposés). Boîtes
+IoU méd 0,93-0,96, CRITERE ✓ busmexpo, recherche 0,91-0,96. Défaut P3 : les
+lignes portées par la seule lecture B étaient perdues (cingdei : 3 numéros
+marginaux) → correctif P3b. Les arbitres divergent sur des conventions de
+forme (tiret de fin de ligne, points contre e suscrit) : la référence tient.

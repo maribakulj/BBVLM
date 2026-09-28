@@ -1,0 +1,80 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "quem fortè deportatæ ſunt, experiri per hoc",
+  "justification": "Accent grave visible sur fortè."
+ },
+ {
+  "id": "l001",
+  "verdict": "Y",
+  "texte_correct": "interdictum, ut adipiſcatur illarum poſſeſsi-",
+  "justification": "adipiſcatur sans accent."
+ },
+ {
+  "id": "l002",
+  "verdict": "aucun",
+  "texte_correct": "onem. Atqꝫ ſic illa omnino ſuprà enumera-",
+  "justification": "Atqꝫ (signe en 3, pas ';') et ſuprà accentué."
+ },
+ {
+  "id": "l003",
+  "verdict": "Y",
+  "texte_correct": "Bart. & dd. in L. I. C. de Sal. Interdict.",
+  "justification": "I de Interdict. ne descend pas sous la ligne."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "Iaſ. & Ang. in § Item, Seruiana Inſt. de",
+  "justification": "I de Inſt. ne descend pas."
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "Poſſeſſorium uerò indicium recuperan⸗",
+  "justification": "Trait d'union double oblique en fin de ligne."
+ },
+ {
+  "id": "l006",
+  "verdict": "aucun",
+  "texte_correct": "didit. Eſtq́ꝫ hoc duplex. Nam pro rebus",
+  "justification": "q accentué + ꝫ (même image que l011)."
+ },
+ {
+  "id": "l007",
+  "verdict": "indecidable",
+  "texte_correct": "tenetur ſpoliator & inuaſor alienæ poſſeſsio-",
+  "justification": "Lettre après 'ali' abîmée, forme de c ; alienæ ou coquille alicnæ."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "nis. Primo. Tenetur rem Vi occupatam reſti-",
+  "justification": "Espaces visibles : Tenetur rem Vi occupatam."
+ },
+ {
+  "id": "l009",
+  "verdict": "Y",
+  "texte_correct": "onem. Atqꝫ ſic illa omnino ſuprà enumera-",
+  "justification": "Atqꝫ et ſuprà."
+ },
+ {
+  "id": "l010",
+  "verdict": "Y",
+  "texte_correct": "quam habuit. In quo autem differat Saluia-",
+  "justification": "Salua- lu."
+ },
+ {
+  "id": "l011",
+  "verdict": "X",
+  "texte_correct": "didit. Eſtq́ꝫ hoc duplex. Nam pro rebus",
+  "justification": "Eſtq́ꝫ."
+ },
+ {
+  "id": "l012",
+  "verdict": "X",
+  "texte_correct": "immobilibus ui ablatis datur inter dictum",
+  "justification": "Espace imprimée entre inter et dictum."
+ }
+]

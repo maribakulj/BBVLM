@@ -1,0 +1,206 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "buͤchern zeuͤgnuß/ vnd ſpꝛicht. Cretenſes ſeind allwe⸗",
+  "justification": "Signe au-dessus du u = e suscrit (uͤ), pas 'ii'."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "gen luͤgner geſin/ boͤſe thier/ vñ faul beuͤch. Vnd wider",
+  "justification": "luͤgner, beuͤch : e suscrit, 'ii' faux."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "oder ſeiner art. Er zeuͤcht auch vß dem Poeten herein",
+  "justification": "zeuͤcht : e suscrit."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "Paulus zeuͤcht auch an/ daß Jeſus geſagt hab/ Geben",
+  "justification": "zeuͤcht : e suscrit."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "ſtracks widꝛig) auch zůhalren.",
+  "justification": "Coquille imprimée 'zůhalren' : lettre courte sans barre = r (comparer au t de ſtracks)."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "¶ Jn ſumma/ ſolte man nuͤt dann die bloſſe geſchꝛi⸗",
+  "justification": "Pied-de-mouche ¶ ; nuͤt avec e suscrit."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "tent die vieer oder fuͤnff nechſt angezeygtẽ puncten(mit",
+  "justification": "fuͤnff ; 'puncten(mit' sans espace visible."
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "gůtter kundtſchafft gegruͤndt/ nit beſtan/ mann můſt",
+  "justification": "gegruͤndt (e suscrit) ; gůtter et můſt avec anneau."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "Chꝛiſti vnſers herꝛen/ ſeiner beſchneidung/ vnd vffart",
+  "justification": "vffart (ff barrés, Auffahrt), t final."
+ },
+ {
+  "id": "l009",
+  "verdict": "Y",
+  "texte_correct": "tag/ Der heyligen dꝛey kuͤnig tag/ Marie der můtter",
+  "justification": "kuͤnig (e suscrit) ; dꝛey."
+ },
+ {
+  "id": "l010",
+  "verdict": "X",
+  "texte_correct": "Gottes geburt/ Verkuͤndigung/ Reynigung/ vnd Hy",
+  "justification": "Verkuͤndigung."
+ },
+ {
+  "id": "l011",
+  "verdict": "X",
+  "texte_correct": "lengſt(darumb gſchꝛifft ſey) geeret iſt woꝛden/ als in der",
+  "justification": "'lengſt(darumb' collé dans l'imprimé."
+ },
+ {
+  "id": "l012",
+  "verdict": "Y",
+  "texte_correct": "zeit Oꝛigenis/ das ob. cxiij. jaren iſt/ wer weiſt wie lang",
+  "justification": "Points (à mi-hauteur, comme partout sur la page, transcrits '.') collés au mot : 'ob. cxiij. jaren'."
+ },
+ {
+  "id": "l013",
+  "verdict": "Y",
+  "texte_correct": "ten/ iſt ſich nit zůuerwundern/ wañ ſie(die lieben heyli⸗",
+  "justification": "'ſie(die' sans espace dans l'imprimé."
+ },
+ {
+  "id": "l014",
+  "verdict": "Y",
+  "texte_correct": "feyren/ eren/ vnd faſten/ eer woͤltent oder begerren zů",
+  "justification": "Coquille imprimée 'begerren' (deux r courts)."
+ },
+ {
+  "id": "l015",
+  "verdict": "aucun",
+  "texte_correct": "zelegen vñ zůmeſſen/ als yetzund vil thuͤnd/ die da nit",
+  "justification": "Sur thuͤnd, signe à deux points / e suscrit, distinct de l'anneau de zůmeſſen : ni 'ii' ni 'ů'."
+ },
+ {
+  "id": "l016",
+  "verdict": "X",
+  "texte_correct": "Titum. j.",
+  "justification": "Points à mi-hauteur transcrits '.', collés : 'Titum. j.'"
+ },
+ {
+  "id": "l017",
+  "verdict": "X",
+  "texte_correct": "Actuum. xvij.",
+  "justification": "Idem : 'Actuum. xvij.'"
+ },
+ {
+  "id": "l018",
+  "verdict": "X",
+  "texte_correct": "j. Coꝛint. xv.",
+  "justification": "Idem : 'j. Coꝛint. xv.'"
+ },
+ {
+  "id": "l019",
+  "verdict": "X",
+  "texte_correct": "Actuum. xx.",
+  "justification": "Idem : 'Actuum. xx.'"
+ },
+ {
+  "id": "l020",
+  "verdict": "aucun",
+  "texte_correct": "buͤchern zeuͤgnuß/ vnd ſpꝛicht. Cretenſes ſeind allwe⸗",
+  "justification": "e suscrit partout (X a 'ii' sur zeuͤgnuß, Y a ü)."
+ },
+ {
+  "id": "l021",
+  "verdict": "aucun",
+  "texte_correct": "gen luͤgner geſin/ boͤſe thier/ vñ faul beuͤch. Vnd wider",
+  "justification": "e suscrit partout."
+ },
+ {
+  "id": "l022",
+  "verdict": "aucun",
+  "texte_correct": "oder ſeiner art. Er zeuͤcht auch vß dem Poeten herein",
+  "justification": "zeuͤcht : e suscrit (ni ii ni ü)."
+ },
+ {
+  "id": "l023",
+  "verdict": "aucun",
+  "texte_correct": "Paulus zeuͤcht auch an/ daß Jeſus geſagt hab/ Geben",
+  "justification": "zeuͤcht : e suscrit."
+ },
+ {
+  "id": "l024",
+  "verdict": "aucun",
+  "texte_correct": "¶ Jn ſumma/ ſolte man nuͤt dann die bloſſe geſchꝛi⸗",
+  "justification": "¶ et nuͤt."
+ },
+ {
+  "id": "l025",
+  "verdict": "aucun",
+  "texte_correct": "tent die vieer oder fuͤnff nechſt angezeygtẽ puncten(mit",
+  "justification": "fuͤnff ; pas d'espace avant la parenthèse."
+ },
+ {
+  "id": "l026",
+  "verdict": "aucun",
+  "texte_correct": "gůtter kundtſchafft gegruͤndt/ nit beſtan/ mann můſt",
+  "justification": "gegruͤndt ; můſt avec anneau."
+ },
+ {
+  "id": "l027",
+  "verdict": "aucun",
+  "texte_correct": "tag/ Der heyligen dꝛey kuͤnig tag/ Marie der můtter",
+  "justification": "dꝛey (r rotunda) et kuͤnig."
+ },
+ {
+  "id": "l028",
+  "verdict": "aucun",
+  "texte_correct": "Gottes geburt/ Verkuͤndigung/ Reynigung/ vnd Hy",
+  "justification": "Verkuͤndigung (e suscrit)."
+ },
+ {
+  "id": "l029",
+  "verdict": "aucun",
+  "texte_correct": "Titum. j.",
+  "justification": "Espace entre les mots ; points transcrits '.'."
+ },
+ {
+  "id": "l030",
+  "verdict": "aucun",
+  "texte_correct": "Actuum. xvij.",
+  "justification": "Idem."
+ },
+ {
+  "id": "l031",
+  "verdict": "aucun",
+  "texte_correct": "j. Coꝛint. xv.",
+  "justification": "Idem."
+ },
+ {
+  "id": "l032",
+  "verdict": "aucun",
+  "texte_correct": "Actuum. xx.",
+  "justification": "Idem."
+ },
+ {
+  "id": "l033",
+  "verdict": "aucun",
+  "texte_correct": "gůtter kundtſchafft gegruͤndt/ nit beſtan/ mann můſt",
+  "justification": "gegruͤndt ; můſt avec anneau (pas uͤ)."
+ }
+]

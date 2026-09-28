@@ -1,0 +1,206 @@
+[
+ {
+  "id": "l000",
+  "verdict": "aucun",
+  "texte_correct": "büchern zeügnuß/ vnd ſpꝛicht. Cretenſes ſeind allwe⸗",
+  "justification": "Deux points nets sur zeügnuß (ü), ni uͤ ni ii; büchern aligné sur l'usage du livre."
+ },
+ {
+  "id": "l001",
+  "verdict": "aucun",
+  "texte_correct": "gen lügner geſin/ boͤſe thier/ vñ faul beüch. Vnd wider",
+  "justification": "beüch a deux points (ü) ; le signe sur lügner lu comme tréma (doute : pourrait être e suscrit)."
+ },
+ {
+  "id": "l002",
+  "verdict": "aucun",
+  "texte_correct": "oder ſeiner art. Er zeücht auch vß dem Poeten herein",
+  "justification": "zeücht avec tréma, ni uͤ ni ii."
+ },
+ {
+  "id": "l003",
+  "verdict": "aucun",
+  "texte_correct": "Paulus zeücht auch an/ daß Jeſus geſagt hab/ Geben",
+  "justification": "zeücht avec tréma."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "ſtracks widꝛig) auch zůhalren.",
+  "justification": "Lettre après l de hauteur x sans barre de t : r (coquille halren)."
+ },
+ {
+  "id": "l005",
+  "verdict": "aucun",
+  "texte_correct": "¶ Jn ſumma/ ſolte man nüt dann die bloſſe geſchꝛi⸗",
+  "justification": "Pied de mouche ¶ ; nüt avec tréma."
+ },
+ {
+  "id": "l006",
+  "verdict": "aucun",
+  "texte_correct": "tent die vieer oder fünff nechſt angezeygtẽ puncten(mit",
+  "justification": "fünff avec tréma ; pas d'espace avant la parenthèse."
+ },
+ {
+  "id": "l007",
+  "verdict": "aucun",
+  "texte_correct": "gůtter kundtſchafft gegründt/ nit beſtan/ mann můſt",
+  "justification": "gegründt avec tréma ; ů sur gůtter et můſt."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "Chꝛiſti vnſers herꝛen/ ſeiner beſchneidung/ vnd vffart",
+  "justification": "vffart : ff et t final."
+ },
+ {
+  "id": "l009",
+  "verdict": "aucun",
+  "texte_correct": "tag/ Der heyligen dꝛey künig tag/ Marie der můtter",
+  "justification": "künig avec tréma."
+ },
+ {
+  "id": "l010",
+  "verdict": "aucun",
+  "texte_correct": "Gottes geburt/ Verkündigung/ Reynigung/ vnd Hy",
+  "justification": "Verkündigung avec tréma."
+ },
+ {
+  "id": "l011",
+  "verdict": "X",
+  "texte_correct": "lengſt(darumb gſchꝛifft ſey) geeret iſt woꝛden/ als in der",
+  "justification": "Pas d'espace avant la parenthèse."
+ },
+ {
+  "id": "l012",
+  "verdict": "aucun",
+  "texte_correct": "zeit Oꝛigenis/ das ob ·cxiij· jaren iſt/ wer weiſt wie lang",
+  "justification": "Points à mi-hauteur encadrant le chiffre (·), pas ‧ ni points bas ; doute sur la convention."
+ },
+ {
+  "id": "l013",
+  "verdict": "Y",
+  "texte_correct": "ten/ iſt ſich nit zůuerwundern/ wañ ſie(die lieben heyli⸗",
+  "justification": "Pas d'espace avant la parenthèse."
+ },
+ {
+  "id": "l014",
+  "verdict": "Y",
+  "texte_correct": "feyren/ eren/ vnd faſten/ eer woͤltent oder begerren zů",
+  "justification": "begerren imprimé (r r)."
+ },
+ {
+  "id": "l015",
+  "verdict": "aucun",
+  "texte_correct": "zelegen vñ zůmeſſen/ als yetzund vil thünd/ die da nit",
+  "justification": "thünd : deux points (≠ ů de zůmeſſen) ; doute modéré."
+ },
+ {
+  "id": "l016",
+  "verdict": "Y",
+  "texte_correct": "Titum ·j·",
+  "justification": "Points à mi-hauteur."
+ },
+ {
+  "id": "l017",
+  "verdict": "Y",
+  "texte_correct": "Actuum ·xvij·",
+  "justification": "Points à mi-hauteur."
+ },
+ {
+  "id": "l018",
+  "verdict": "X",
+  "texte_correct": "j. Coꝛint. xv.",
+  "justification": "Points sur la ligne de base (plus bas que dans les autres manchettes)."
+ },
+ {
+  "id": "l019",
+  "verdict": "Y",
+  "texte_correct": "Actuum ·xx·",
+  "justification": "Points à mi-hauteur, comme l017."
+ },
+ {
+  "id": "l020",
+  "verdict": "Y",
+  "texte_correct": "büchern zeügnuß/ vnd ſpꝛicht. Cretenſes ſeind allwe⸗",
+  "justification": "Même ligne que l000."
+ },
+ {
+  "id": "l021",
+  "verdict": "Y",
+  "texte_correct": "gen lügner geſin/ boͤſe thier/ vñ faul beüch. Vnd wider",
+  "justification": "Même ligne que l001."
+ },
+ {
+  "id": "l022",
+  "verdict": "Y",
+  "texte_correct": "oder ſeiner art. Er zeücht auch vß dem Poeten herein",
+  "justification": "Même ligne que l002."
+ },
+ {
+  "id": "l023",
+  "verdict": "Y",
+  "texte_correct": "Paulus zeücht auch an/ daß Jeſus geſagt hab/ Geben",
+  "justification": "Même ligne que l003."
+ },
+ {
+  "id": "l024",
+  "verdict": "Y",
+  "texte_correct": "¶ Jn ſumma/ ſolte man nüt dann die bloſſe geſchꝛi⸗",
+  "justification": "Même ligne que l005."
+ },
+ {
+  "id": "l025",
+  "verdict": "X",
+  "texte_correct": "tent die vieer oder fünff nechſt angezeygtẽ puncten(mit",
+  "justification": "Même ligne que l006."
+ },
+ {
+  "id": "l026",
+  "verdict": "aucun",
+  "texte_correct": "gůtter kundtſchafft gegründt/ nit beſtan/ mann můſt",
+  "justification": "Même ligne que l007 : můſt avec ů."
+ },
+ {
+  "id": "l027",
+  "verdict": "aucun",
+  "texte_correct": "tag/ Der heyligen dꝛey künig tag/ Marie der můtter",
+  "justification": "Même ligne que l009 : dꝛey avec ꝛ, künig."
+ },
+ {
+  "id": "l028",
+  "verdict": "X",
+  "texte_correct": "Gottes geburt/ Verkündigung/ Reynigung/ vnd Hy",
+  "justification": "Même ligne que l010."
+ },
+ {
+  "id": "l029",
+  "verdict": "Y",
+  "texte_correct": "Titum ·j·",
+  "justification": "Même ligne que l016."
+ },
+ {
+  "id": "l030",
+  "verdict": "Y",
+  "texte_correct": "Actuum ·xvij·",
+  "justification": "Même ligne que l017."
+ },
+ {
+  "id": "l031",
+  "verdict": "aucun",
+  "texte_correct": "j. Coꝛint. xv.",
+  "justification": "Même ligne que l018."
+ },
+ {
+  "id": "l032",
+  "verdict": "Y",
+  "texte_correct": "Actuum ·xx·",
+  "justification": "Même ligne que l019."
+ },
+ {
+  "id": "l033",
+  "verdict": "aucun",
+  "texte_correct": "gůtter kundtſchafft gegründt/ nit beſtan/ mann můſt",
+  "justification": "Même ligne que l007."
+ }
+]

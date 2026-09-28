@@ -1,0 +1,196 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "quem fortè deportatæ ſunt, experiri per hoc",
+  "Y": "quem forte deportatæ ſunt, experiri per hoc",
+  "divergences_X_vers_Y": [
+   [
+    "è",
+    "e"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/cingdei_835086410_00000059//p2_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "interdictum, ut adipiſcatùr illarum poſſeſsi-",
+  "Y": "interdictum, ut adipiſcatur illarum poſſeſsi-",
+  "divergences_X_vers_Y": [
+   [
+    "ù",
+    "u"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/cingdei_835086410_00000059//p2_a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "onem. Atq; ſic illa omnino ſuprà enumera-",
+  "Y": "onem. At ſic illa omnino ſupra enumera-",
+  "divergences_X_vers_Y": [
+   [
+    "q;",
+    ""
+   ],
+   [
+    "à",
+    "a"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/cingdei_835086410_00000059//p2_a.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "Bart. & dd. in L. I. C. de Sal. Jnterdict.",
+  "Y": "Bart. & dd. in L. I. C. de Sal. Interdict.",
+  "divergences_X_vers_Y": [
+   [
+    "J",
+    "I"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/cingdei_835086410_00000059//p2_a.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "Iaſ. & Ang. in § Item, Seruiana Inſt. de",
+  "Y": "Iaſ. & Ang. in § Item, Seruiana Jnſt. de",
+  "divergences_X_vers_Y": [
+   [
+    "I",
+    "J"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/cingdei_835086410_00000059//p2_a.txt"
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "Poſſeſſorium uerò indicium recuperan-",
+  "Y": "Poſſeſſorium uerò indicium recuperan⸗",
+  "divergences_X_vers_Y": [
+   [
+    "-",
+    "⸗"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/cingdei_835086410_00000059//p2_a.txt"
+ },
+ {
+  "id": "l006",
+  "image": "l006.png",
+  "X": "didit. Eſtq; hoc duplex. Nam pro rebus",
+  "Y": "didit. Eſt hoc duplex. Nam pro rebus",
+  "divergences_X_vers_Y": [
+   [
+    "q;",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/cingdei_835086410_00000059//p2_a.txt"
+ },
+ {
+  "id": "l007",
+  "image": "l007.png",
+  "X": "tenetur ſpoliator & inuaſor alienæ poſſeſsio-",
+  "Y": "tenetur ſpoliator & inuaſor alicnæ poſſeſsio-",
+  "divergences_X_vers_Y": [
+   [
+    "e",
+    "c"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/cingdei_835086410_00000059//p2_a.txt"
+ },
+ {
+  "id": "l008",
+  "image": "l008.png",
+  "X": "nis. Primo. Tenetur rem Vi occupatam reſti-",
+  "Y": "nis. Primo. Teneturrem Vioccupatam reſti-",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ],
+   [
+    " ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/cingdei_835086410_00000059//p2_a.txt"
+ },
+ {
+  "id": "l009",
+  "image": "l009.png",
+  "X": "onem. At ſic illa omnino ſupra enumera-",
+  "Y": "onem. Atqꝫ ſic illa omnino ſuprà enumera-",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    "qꝫ"
+   ],
+   [
+    "a",
+    "à"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/cingdei_835086410_00000059//p2_b.txt"
+ },
+ {
+  "id": "l010",
+  "image": "l010.png",
+  "X": "quam habuit. In quo autem differat Salui-",
+  "Y": "quam habuit. In quo autem differat Saluia-",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    "a"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/cingdei_835086410_00000059//p2_b.txt"
+ },
+ {
+  "id": "l011",
+  "image": "l011.png",
+  "X": "didit. Eſtq́ꝫ hoc duplex. Nam pro rebus",
+  "Y": "didit. Eſt hoc duplex. Nam pro rebus",
+  "divergences_X_vers_Y": [
+   [
+    "q́ꝫ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/cingdei_835086410_00000059//p2_b.txt"
+ },
+ {
+  "id": "l012",
+  "image": "l012.png",
+  "X": "immobilibus ui ablatis datur inter dictum",
+  "Y": "immobilibus ui ablatis datur interdictum",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/cingdei_835086410_00000059//p2_b.txt"
+ }
+]

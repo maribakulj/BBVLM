@@ -1,0 +1,234 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "accipietis condemnationem. Ideo enim ꝗ non oratis",
+  "Y": "acciptetis condemnationem. Ideo enim ꝙ non oratis",
+  "divergences_X_vers_Y": [
+   [
+    "i",
+    "t"
+   ],
+   [
+    "ꝗ",
+    "ꝙ"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "ſecundum præſcriptum ſacræ ſcripturæ, neqꝫ ex ſpiritu",
+  "Y": "ſecundum præſcriptum ſacræ ſcripturæ, ne ex ſpiritu",
+  "divergences_X_vers_Y": [
+   [
+    "qꝫ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "orationes ueſtræ nõ ſunt Deo acceptæ, neqꝫ ab eo ex⸗",
+  "Y": "orationes ueſtræ nõ ſunt Deo acceptæ, ne ab eo ex⸗",
+  "divergences_X_vers_Y": [
+   [
+    "qꝫ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_a.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "audiunt̃ Eſa, Cum multiplicaueritis orationes ueſtras",
+  "Y": "audiun Eſa, Cum multiplicaueritis orationes ueſtras",
+  "divergences_X_vers_Y": [
+   [
+    "t̃",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_a.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "rum orationes a Deo exaudiuntur, ſunt illi gratiſsi⸗",
+  "Y": "rum orationes a Deo exaudiuntur, ſuntqꝫ illi gratiſsi⸗",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    "qꝫ"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_a.txt"
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "chriſto inſtitutas. Paulus mauult quinqꝫ uerba in Ec⸗",
+  "Y": "chriſto inſtitutas. Paulus mauult quin uerba in Ec⸗",
+  "divergences_X_vers_Y": [
+   [
+    "qꝫ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_a.txt"
+ },
+ {
+  "id": "l006",
+  "image": "l006.png",
+  "X": "cleſia loqui in ſenſu, q̃ decem milia uerborum in lin⸗",
+  "Y": "cleſia loqui in ſenſu,  decem milia uerborum in lin⸗",
+  "divergences_X_vers_Y": [
+   [
+    "q̃",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_a.txt"
+ },
+ {
+  "id": "l007",
+  "image": "l007.png",
+  "X": "tiones, ut ſi ſemiuncia ſanæ mentis uel mica ſidei eſſet",
+  "Y": "tiones, ut ſi ſemiuncia ſanæ mentis uel mica fidei eſſet",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "f"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_a.txt"
+ },
+ {
+  "id": "l008",
+  "image": "l008.png",
+  "X": "cumqꝫ inuocauerit nomen domini, ſaluus erit. Sed",
+  "Y": "cum inuocauerit nomen domini, ſaluus erit. Sed",
+  "divergences_X_vers_Y": [
+   [
+    "qꝫ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_a.txt"
+ },
+ {
+  "id": "l009",
+  "image": "l009.png",
+  "X": "quomodo inuocabitis, in quem non credidiſtis Quo",
+  "Y": "quomodo inuocabitis, in quem non crediſtis? Quo",
+  "divergences_X_vers_Y": [
+   [
+    "di",
+    ""
+   ],
+   [
+    "",
+    "?"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_a.txt"
+ },
+ {
+  "id": "l010",
+  "image": "l010.png",
+  "X": "modo credetis ſine uerbo? Inuocationẽ ergo in ſcrip⸗",
+  "Y": "modo credetis ſine uerbo Inuocationẽ ergo in ſcrip⸗",
+  "divergences_X_vers_Y": [
+   [
+    "?",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_a.txt"
+ },
+ {
+  "id": "l011",
+  "image": "l011.png",
+  "X": "turis non legitis. cõmemorationem uero ſæpe, non ut",
+  "Y": "turis non legitis cõmemorationem uero ſæpe, non ut",
+  "divergences_X_vers_Y": [
+   [
+    ".",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_a.txt"
+ },
+ {
+  "id": "l012",
+  "image": "l012.png",
+  "X": "illis egit. At hoc non eſt inuocare ſanctos, ſed Deum",
+  "Y": "illis egit. Atqꝫ hoc non eſt inuocare ſanctos, ſed Deum",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    "qꝫ"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_a.txt"
+ },
+ {
+  "id": "l013",
+  "image": "l013.png",
+  "X": "acciptetis condemnationem. Ideo enim ꝙ non oratis",
+  "Y": "accipietis condemnationem. Ideo enim ꝙ non oratis",
+  "divergences_X_vers_Y": [
+   [
+    "t",
+    "i"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_b.txt"
+ },
+ {
+  "id": "l014",
+  "image": "l014.png",
+  "X": "cleſia loqui in ſenſu, q̃ꝫ decem milia uerborum in lin⸗",
+  "Y": "cleſia loqui in ſenſu,  decem milia uerborum in lin⸗",
+  "divergences_X_vers_Y": [
+   [
+    "q̃ꝫ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_b.txt"
+ },
+ {
+  "id": "l015",
+  "image": "l015.png",
+  "X": "quomodo inuocabitis, in quem non credidiſtis Quo",
+  "Y": "quomodo inuocabitis, in quem non credidiſtis? Quo",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    "?"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o15/busmexpo_742567524_00000017//p2_b.txt"
+ }
+]

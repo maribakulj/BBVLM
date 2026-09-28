@@ -1,0 +1,110 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "ſuam regi probare poſſet, rem totam, ut erat com-",
+  "justification": "Trait de fin de ligne simple (tache épaisse)."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "Rex diligenter inquiſito & obſeruato tem-",
+  "justification": "Trait simple."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "pore, quo loculi erant efferendi, in ipſo facto de-",
+  "justification": "Trait simple."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "prehenſos Alexandram & filium, ſimulata in præ-",
+  "justification": "Trait simple."
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "ſens clementia acriter uerbis increpauit, ſua be-",
+  "justification": "Trait simple, cohérent avec la page."
+ },
+ {
+  "id": "l005",
+  "verdict": "aucun",
+  "texte_correct": "neficia illis exprobrauit, ueniam deniq́; ſe deli-",
+  "justification": "deniq́; avec accent sur q ; trait simple."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "ctis ipſorum concedere dixit, ſi poſthac in officio",
+  "justification": "Virgule après dixit ; ſt en ligature (doute ſ/s)."
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "Hac tum lenitate uſus eſt Herodes, metuens,",
+  "justification": "ſt en ligature avec ſ haut."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "ne ſi de illis ſupplicium ſumeret, Cleopatram con-",
+  "justification": "Trait simple."
+ },
+ {
+  "id": "l009",
+  "verdict": "Y",
+  "texte_correct": "tra ſe irritaret, quæ huius conſilij de fuga conſcia",
+  "justification": "Dernière lettre abîmée, lue a (doute a/æ)."
+ },
+ {
+  "id": "l010",
+  "verdict": "X",
+  "texte_correct": "erat. Occulte tamen occaſiones puniendi hanc au-",
+  "justification": "Trait simple."
+ },
+ {
+  "id": "l011",
+  "verdict": "X",
+  "texte_correct": "daciam muliebrem quærebat, & in primis exiſti-",
+  "justification": "Trait simple."
+ },
+ {
+  "id": "l012",
+  "verdict": "indecidable",
+  "texte_correct": "genus, & corporis dotes egregias carum populo, è",
+  "justification": "Dernier caractère réduit à une tache ; è (e medio) probable mais illisible."
+ },
+ {
+  "id": "l013",
+  "verdict": "Y",
+  "texte_correct": "inflammauit magis. Nam cum in feſto Taberna-",
+  "justification": "Trait simple."
+ },
+ {
+  "id": "l014",
+  "verdict": "X",
+  "texte_correct": "ſtaturam, & formam, omnia decebant ma-",
+  "justification": "Trait simple."
+ },
+ {
+  "id": "l015",
+  "verdict": "Y",
+  "texte_correct": "gis, ſingulæ eius actiones, uerba, geſtus, à cir-",
+  "justification": "Trait simple."
+ },
+ {
+  "id": "l016",
+  "verdict": "X",
+  "texte_correct": "& ap-",
+  "justification": "Trait simple."
+ },
+ {
+  "id": "l017",
+  "verdict": "aucun",
+  "texte_correct": "Hac tum lenitate uſus eſt Herodes, metuens,",
+  "justification": "Même ligne que l007 : eſt et virgule finale."
+ }
+]

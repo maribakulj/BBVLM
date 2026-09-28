@@ -1,0 +1,98 @@
+[
+ {
+  "id": "l000",
+  "verdict": "aucun",
+  "texte_correct": "accipietis condemnationem. Ideo enim ꝙ non oratis",
+  "justification": "'accipietis' (X) mais abréviation = q à hampe barrée ꝙ (Y)."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "ſecundum præſcriptum ſacræ ſcripturæ, neqꝫ ex ſpiritu",
+  "justification": "neqꝫ imprimé."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "orationes ueſtræ nõ ſunt Deo acceptæ, neqꝫ ab eo ex⸗",
+  "justification": "neqꝫ imprimé."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "audiunt̃ Eſa, Cum multiplicaueritis orationes ueſtras",
+  "justification": "audiunt̃ avec tilde sur t."
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "rum orationes a Deo exaudiuntur, ſuntqꝫ illi gratiſsi⸗",
+  "justification": "ſuntqꝫ imprimé."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "chriſto inſtitutas. Paulus mauult quinqꝫ uerba in Ec⸗",
+  "justification": "quinqꝫ imprimé."
+ },
+ {
+  "id": "l006",
+  "verdict": "aucun",
+  "texte_correct": "cleſia loqui in ſenſu, q̃ꝫ decem milia uerborum in lin⸗",
+  "justification": "Abréviation imprimée q̃ suivi de ꝫ (même image que l014)."
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "tiones, ut ſi ſemiuncia ſanæ mentis uel mica ſidei eſſet",
+  "justification": "Initiale de ſidei sans barre, comme ſ (coquille)."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "cumqꝫ inuocauerit nomen domini, ſaluus erit. Sed",
+  "justification": "cumqꝫ."
+ },
+ {
+  "id": "l009",
+  "verdict": "aucun",
+  "texte_correct": "quomodo inuocabitis, in quem non credidiſtis? Quo",
+  "justification": "credidiſtis + point d'interrogation imprimé."
+ },
+ {
+  "id": "l010",
+  "verdict": "X",
+  "texte_correct": "modo credetis ſine uerbo? Inuocationẽ ergo in ſcrip⸗",
+  "justification": "Point d'interrogation après uerbo."
+ },
+ {
+  "id": "l011",
+  "verdict": "X",
+  "texte_correct": "turis non legitis. cõmemorationem uero ſæpe, non ut",
+  "justification": "Point (mi-hauteur) après legitis."
+ },
+ {
+  "id": "l012",
+  "verdict": "Y",
+  "texte_correct": "illis egit. Atqꝫ hoc non eſt inuocare ſanctos, ſed Deum",
+  "justification": "Atqꝫ imprimé."
+ },
+ {
+  "id": "l013",
+  "verdict": "Y",
+  "texte_correct": "accipietis condemnationem. Ideo enim ꝙ non oratis",
+  "justification": "accipietis ; ꝙ."
+ },
+ {
+  "id": "l014",
+  "verdict": "X",
+  "texte_correct": "cleſia loqui in ſenſu, q̃ꝫ decem milia uerborum in lin⸗",
+  "justification": "q̃ꝫ imprimé."
+ },
+ {
+  "id": "l015",
+  "verdict": "Y",
+  "texte_correct": "quomodo inuocabitis, in quem non credidiſtis? Quo",
+  "justification": "Point d'interrogation présent."
+ }
+]
