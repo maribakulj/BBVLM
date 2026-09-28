@@ -4,9 +4,11 @@ R1 (tréma minuscule → e suscrit) réfutée en O05 sur une page en romain
 (fiscfrie : +20 fautes) : elle n'est plus appliquée que si le lecteur déclare
 `#ECRITURE: fraktur` et que la page ne porte pas ů (XVIe s.).
 """
-import sys, unicodedata
+import re, sys, unicodedata
 from ocrd2 import conforme
 from harmonise import TREMA, E_
+
+ROLE = re.compile(r'^\s*\[[a-z\-]+\+?\]\s?')   # étiquettes de rôle (consigne P4), retirées du texte
 
 
 def post(lignes):
@@ -15,7 +17,7 @@ def post(lignes):
     for l in lignes:
         if l.strip().lower().startswith('#ecriture:'):
             ecriture = l.split(':', 1)[1].strip().lower(); continue
-        corps.append(conforme(l))
+        corps.append(conforme(ROLE.sub('', l)))
     t = unicodedata.normalize('NFC', '\n'.join(corps))
     if ecriture == 'fraktur' and 'ů' not in t:
         for c, v in TREMA.items(): t = t.replace(c, v+E_)

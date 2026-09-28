@@ -20,14 +20,19 @@ EQUIV = {'heading': 'heading', 'header': 'header', 'page-number': 'page-number',
 
 
 def lit(lignes):
-    out, reg = [], -1
-    prec = None
+    """Une région ne commence qu'avec « + » ou la première ligne d'un rôle ;
+    elle continue à travers les lignes d'autres rôles intercalées (manchette
+    placée au milieu d'un paragraphe). Rôles sans « + » possible (folio,
+    réclame…) : chaque apparition non contiguë est une nouvelle région."""
+    out, reg, courant, prec = [], -1, {}, None
     for l in lignes:
         if l.lower().startswith('#ecriture') or not l.strip(): continue
         m = ROLE.match(l.strip())
         role, plus, texte = (m.group(1), m.group(2) == '+', m.group(3)) if m else ('paragraph', False, l)
-        if plus or role != prec: reg += 1
-        out.append((role, reg, texte)); prec = role
+        continu = role in ('paragraph', 'marginalia', 'footnote', 'heading') or role == prec
+        if plus or role not in courant or not continu:
+            reg += 1; courant[role] = reg
+        out.append((role, courant[role], texte)); prec = role
     return out
 
 

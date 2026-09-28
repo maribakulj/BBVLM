@@ -21,8 +21,15 @@ def E(parent, tag, **at):
     return etree.SubElement(parent, f'{{{NS}}}{tag}', **{k: str(v) for k, v in at.items()})
 
 
-def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage P3)'):
+def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage P3)', structure=None):
+    """structure : lecture étiquetée (consigne P4) dont on tire rôle et région de
+    chaque ligne (`olr.lit`), dans le même ordre que `texte`. Sans elle : un seul bloc."""
     lignes = [l for l in open(texte, encoding='utf-8').read().splitlines() if l.strip() and not l.startswith('#')]
+    roles = None
+    if structure:
+        from olr import lit
+        roles = lit(open(structure, encoding='utf-8').read().splitlines())
+        if len(roles) != len(lignes): roles = None
     kr = json.load(open(f'{dossier}/kraken_serre.json'))['lignes']
     boites = [l['bbox'] for l in kr]
     g = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE); H, W = g.shape
@@ -37,22 +44,35 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
                                               "l'encre du polygone ; mots : connexe (BBVLM). Brouillon de vérité terrain : relecture humaine requise.")
     sw = E(st, 'processingSoftware'); E(sw, 'softwareName').text = f'BBVLM loop — {lecteur} + kraken 7.1.1 + connexe'
     tags = E(root, 'Tags'); E(tags, 'OtherTag', ID='NON_PLACE', LABEL='ligne lue non placée', TYPE='provenance')
+    for r in sorted({x[0] for x in roles}) if roles else []:
+        E(tags, 'LayoutTag', ID=f'ROLE_{r}', LABEL=r, TYPE='OCR-D region type')
+    ordre = E(root, 'ReadingOrder') if roles else None
+    grp = E(ordre, 'OrderedGroup', ID='RO1') if roles else None
     lay = E(root, 'Layout'); page = E(lay, 'Page', ID='P1', PHYSICAL_IMG_NR=1, WIDTH=W, HEIGHT=H)
     ps = E(page, 'PrintSpace', ID='PS1', HPOS=0, VPOS=0, WIDTH=W, HEIGHT=H)
-    blk = E(ps, 'TextBlock', ID='B1')
+    blocs = {}
+    def bloc(i):
+        if not roles:
+            if 'B1' not in blocs: blocs['B1'] = E(ps, 'TextBlock', ID='B1')
+            return blocs['B1']
+        role, reg, _ = roles[i]
+        if reg not in blocs:
+            blocs[reg] = E(ps, 'TextBlock', ID=f'B{reg+1:03d}', TAGREFS=f'ROLE_{role}')
+            E(grp, 'ElementRef', ID=f'RO_B{reg+1:03d}', REF=f'B{reg+1:03d}')
+        return blocs[reg]
     n_place = n_non = 0
     for i, t in enumerate(lignes):
         mots = t.split()
         if i in loc:
             x0, y0, x1, y1 = boites[loc[i]]
-            tl = E(blk, 'TextLine', ID=f'L{i+1:04d}', HPOS=x0, VPOS=y0, WIDTH=x1-x0+1, HEIGHT=y1-y0+1)
+            tl = E(bloc(i), 'TextLine', ID=f'L{i+1:04d}', HPOS=x0, VPOS=y0, WIDTH=x1-x0+1, HEIGHT=y1-y0+1)
             try:
                 bs = bx.boxes(g, corpora.Line(t, mots, (x0, y0, x1, y1), []))
                 ok = len(bs) == len(mots)
             except Exception:
                 ok = False
         else:
-            tl = E(blk, 'TextLine', ID=f'L{i+1:04d}', TAGREFS='NON_PLACE'); ok = False
+            tl = E(bloc(i), 'TextLine', ID=f'L{i+1:04d}', TAGREFS='NON_PLACE'); ok = False
         if ok:
             n_place += 1
             for k, (m, (a, b, c, e)) in enumerate(zip(mots, bs)):
@@ -65,6 +85,11 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
             for k, m in enumerate(mots):
                 E(tl, 'String', ID=f'L{i+1:04d}_W{k+1:02d}', CONTENT=m)
                 if k < len(mots)-1: E(tl, 'SP')
+    for b in blocs.values():            # géométrie du bloc = enveloppe de ses lignes placées
+        bs_ = [(int(t.get('HPOS')), int(t.get('VPOS')), int(t.get('HPOS'))+int(t.get('WIDTH')), int(t.get('VPOS'))+int(t.get('HEIGHT'))) for t in b if t.get('HPOS')]
+        if bs_:
+            b.set('HPOS', str(min(x[0] for x in bs_))); b.set('VPOS', str(min(x[1] for x in bs_)))
+            b.set('WIDTH', str(max(x[2] for x in bs_)-min(x[0] for x in bs_))); b.set('HEIGHT', str(max(x[3] for x in bs_)-min(x[1] for x in bs_)))
     xml = etree.tostring(root, encoding='UTF-8', xml_declaration=True, pretty_print=True)
     open(sortie, 'wb').write(xml)
     return {'lignes': len(lignes), 'placees': n_place, 'non_placees': n_non}
@@ -77,6 +102,6 @@ def valide(chemin, xsd):
 
 
 if __name__ == '__main__':
-    r = construit(*sys.argv[1:4])
+    r = construit(*sys.argv[1:4], structure=sys.argv[4] if len(sys.argv) > 4 else None)
     ok, err = valide(sys.argv[3], os.path.join(os.path.dirname(__file__), '..', 'schemas', 'alto-4-4-local.xsd'))
     print(r, 'XSD', 'valide' if ok else err)
