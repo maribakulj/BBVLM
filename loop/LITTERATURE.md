@@ -30,3 +30,19 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
   post-correction LLM texte seul dégrade souvent ; l'image est nécessaire.
 - **Double saisie** (pratique classique de production de VT) : accord de deux
   lecteurs indépendants = présomption ; déjà mesuré dans master (B37).
+
+## L02 — conventions de la référence (2026-09-28, après O02, avant O03)
+
+- **OCR-D, *Ground Truth Guidelines*** (github.com/OCR-D/gt-guidelines, lu
+  dans le dépôt). Niveau 2 : ligatures consonantiques décomposées, e suscrit
+  codé voyelle + U+0364 et distingué du tréma, ſ distingué, ß pour ſz,
+  ꝛ (U+A75B) pour r rotunda, abréviations non développées ; **« Spaces are only
+  reproduced as separators of words. Punctuation marks are always added to the
+  preceding word. »** Folio, signature et réclame sont des régions distinctes.
+  *Conséquence* : une partie des « fautes » O02 étaient des violations de cette
+  règle (espace devant la virgule oblique), corrigées de façon déterministe par
+  `outils/ocrd2.py`, et la consigne du lecteur doit citer la règle.
+- **ROVER** (Fiscus 1997) et le vote multi-OCR (Lund & Ringger) : combiner des
+  lectures par alignement et vote. *Limite constatée en O02* : deux lectures du
+  même modèle partagent leurs erreurs ; le désaccord A1/A2 ne signale que
+  0 à 72 % des lignes fautives selon la page.

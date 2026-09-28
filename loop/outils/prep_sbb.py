@@ -22,8 +22,15 @@ def main(ouvrage, page, out, hauteur=1350, bande=600, recouvrement=120):
     xml = get(f'{BASE}{ouvrage}/OCR-D-GT-PAGE/OCR-D-GT-PAGE_{page}.xml')
     img = cv2.imdecode(np.frombuffer(get(f'{BASE}{ouvrage}/OCR-D-IMG/OCR-D-IMG_{page}.tif'), np.uint8), cv2.IMREAD_COLOR)
     r = etree.fromstring(xml); N = {'p': r.tag.split('}')[0][1:]}
-    lignes = [(tl.find('p:TextEquiv/p:Unicode', N).text or '') for tl in r.findall('.//p:TextLine', N)]
+    tls = r.findall('.//p:TextLine', N)
+    lignes = [(tl.find('p:TextEquiv/p:Unicode', N).text or '') for tl in tls]
     json.dump(lignes, open(f'{out}/ref.json', 'w'), ensure_ascii=False, indent=0)
+    boites = []
+    for tl in tls:
+        pts = [tuple(map(int, q.split(','))) for q in tl.find('p:Coords', N).get('points').split()]
+        boites.append([min(p[0] for p in pts), min(p[1] for p in pts), max(p[0] for p in pts), max(p[1] for p in pts)])
+    json.dump(boites, open(f'{out}/ref_boites.json', 'w'))
+    cv2.imwrite(f'{out}/page.png', img)
     H, W = img.shape[:2]
     cv2.imwrite(f'{out}/vues/vue_0_page.png', cv2.resize(img, (int(W*hauteur/H), hauteur), interpolation=cv2.INTER_AREA))
     y, k = 0, 1
