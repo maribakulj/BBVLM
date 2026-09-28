@@ -1960,3 +1960,12 @@ blocs français régressent. Une grille pré-déclarée de plafonds d'expansion 
 largeur 1,00–1,20 ne produit aucun candidat respectant la non-régression par
 bloc. Aucun changement de production. Le résultat renforce la nécessité d'une
 VT mot explicitement contrôlée avant de poursuivre le réglage géométrique.
+
+## A56 — 2026-09-28 — Europeana: vraie VT région, aucune boîte mot/ligne
+
+Audit exhaustif des 50 PAGE XML de Zenodo 2583866, archive vérifiée par MD5.
+Le corpus contient 2 458 `TextRegion`, 678 séparateurs et un ordre de régions,
+mais **0 `TextLine`, 0 `Word`, 0 `Glyph`**. Il est donc rejeté pour certifier les
+boîtes ALTO mot/ligne, sans même télécharger 31 MB d'images. Il reste candidat
+OLR/régions sous réserve d'auditer la provenance. Aucun paramètre, OCR ou VLM;
+aucune page de test BBVLM consommée.

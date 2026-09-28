@@ -1,0 +1,44 @@
+{
+  "files": 50,
+  "creators": {
+    "FineReader Engine 10": 50
+  },
+  "element_totals": {
+    "Comments": 50,
+    "Coords": 3199,
+    "Created": 50,
+    "Creator": 50,
+    "GraphicRegion": 19,
+    "ImageRegion": 41,
+    "LastChange": 50,
+    "Metadata": 50,
+    "OrderedGroup": 213,
+    "OrderedGroupIndexed": 5,
+    "Page": 50,
+    "PcGts": 50,
+    "PlainText": 2458,
+    "Point": 146056,
+    "ReadingOrder": 50,
+    "RegionRef": 175,
+    "RegionRefIndexed": 2242,
+    "SeparatorRegion": 678,
+    "TableRegion": 3,
+    "TextEquiv": 2458,
+    "TextRegion": 2458,
+    "Unicode": 2458,
+    "UnorderedGroup": 93
+  },
+  "files_with": {
+    "TextRegion": 50,
+    "TextLine": 0,
+    "Word": 0,
+    "Glyph": 0
+  },
+  "eligibility": {
+    "word_geometry": false,
+    "line_geometry": false,
+    "region_geometry": true,
+    "manual_or_adjudicated_geometry_provenance": false,
+    "note": "The XML producer string is descriptive, not evidence of manual geometry. Manual/adjudicated provenance must be established from release documentation."
+  }
+}
