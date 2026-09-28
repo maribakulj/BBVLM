@@ -1,0 +1,129 @@
+{
+  "schema": "bbvlm.blind-image-candidate-request/1",
+  "task": "For every image, return the visible transcription. The PERO candidate is independent evidence, not truth. Preserve it exactly when the pixels do not justify a change. Make only localized visually justified changes; do not modernize spelling, expand abbreviations, or silently normalize punctuation. Preserve visible line breaks when practical. If a glyph is genuinely unreadable, retain the candidate glyph and mark uncertain rather than guessing.",
+  "output_schema": {
+    "items": [
+      {
+        "id": "T001",
+        "text": "transcription",
+        "decision": "keep|edit",
+        "uncertain": false,
+        "edits": [
+          {
+            "before": "exact candidate substring",
+            "after": "replacement",
+            "visual_reason": "brief pixel evidence"
+          }
+        ]
+      }
+    ],
+    "inspected_images": [
+      "absolute paths actually inspected"
+    ]
+  },
+  "constraints": [
+    "Return exactly one item for every unique request ID and no additional IDs.",
+    "Actually inspect every image at readable resolution.",
+    "Do not inspect XML, references, scores, other experiments, Git history, or other agents.",
+    "Every edit must identify an exact candidate substring; keep is preferred to an ungrounded rewrite.",
+    "The output must be valid JSON without Markdown fences."
+  ],
+  "items": [
+    {
+      "id": "T001",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/1160.png",
+      "pero_candidate": "(260 Quart) 81 Thlr., 1/2 Fuder 61er (436\nQuart) 24—361/2 Thlr., 1/2 Fuder 62er (450\nQuart) 160 Thlr., 2 Ohm 63er (335 Quart)\n94 Thlr",
+      "candidate_sha256": "7d82016f074e1697f54e279ee7ad0d53f62d375c72b3f5227567f6b930667e36"
+    },
+    {
+      "id": "T002",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0439.png",
+      "pero_candidate": "Cette mesure du proconsul de Vilna n'a\n(Patrie.)\npas besoin de commentaires.",
+      "candidate_sha256": "209298a624038ccc8ec384472f0764aa13c395eb9a46b973cfd1db2cbca45aef"
+    },
+    {
+      "id": "T003",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0949.png",
+      "pero_candidate": "Aus dem sub 2 mitgetheilten Gesichtspunkte\nglauben wir nun folgern zu dürfen, daß das\nLuxemburger Athenäum in den alten Spra-\nchen und andern Fächern nicht dasselbe leisten\nkann, wie andere Lehranstalten, deren Schüler\nsich hauptsächlich nur in einer neuern Sprache\nauszubilden haben, und zwar in einer Sprache,\nwelche sie in Folge eines längern Gebrauches\nmehr oder weniger geläufig sprechen fönnen.\nZwar wird in deutschen Gymnasien neben dem\nDeutschen auch das Französische oder das Eng-\nliſche gelehrt, doch hat der Schüler in letztern\nSprachen weit geringeren Anforderungen Genūge\nzu leisten als bei uns. Dasselbe gilt auch für\ndie französischen Lyceen, in welchen, außer dem\nFranzöstſchen eine andere moderne Sprache ge-\nlehrt wird. Die Ausbildung in den neuern\nSprachen muß also unsere ganzen künftigen\nLehrplane beherrschen, und diesem obersten Ziele\nmuß vorerst die gebührendste Rücksichtsnahme\ngesichert werden. Dies kann aber unmöglich er-",
+      "candidate_sha256": "ebf0a6ccccbab156c82ea8562db8767ca377061683a1f3c655616a1dfdd6eee3"
+    },
+    {
+      "id": "T004",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0455.png",
+      "pero_candidate": "89.\nWât ên net am Kapp huot, muss ên an de Féssen hun.\n90\nEt gi fil gut Schof an ê Stal.\n91.\nWién d'éscht kent, múolt am éschten.\n92.\nBeim Auskiére fennt sech Alles.\n93.\nFaul Leit hu giére Feierdâch.\n94.\nHuol d'Aen an d'Hand!\n95.\nDât as en areme Joermârt, wó ên em élef\nZe fré, em zwiélef ze lantzem (ze spét) kemt.\n96.\nWanns de neischt mé huos, wiérs de klèng muolen.\n97.\nD'Gèlt wist net, wann ên't sét.\n98.\nEt lêft fill Wâsser d'Bâch erôn.\n99.\nD' gebroden Dauwen flée' net an der Loft erem.\n100.\nAn der Sonn ferdengt ên de Schiéd.\n101.\nDen Hèr firaûs, derno kemt d'ganet Haûs.\n102.\nGidwideré wês, wô en de Schong drékt.\n103.\nFil Scholt, fil Gedolt.\n104.\nWé ên d'Handwiérk dreift, esó gêt et.\n105.\nDe Kâfman lûoft séng Wůor.\n106.\nEt kemt kê Pâf an den Himmel.\n107.\nWann ên no èngem Hont wèrft da gerét ên e' Pâf\n108.\nHaut mir, muor dir.\n109.\nWûorfir rackers de déch esó? du muss jo dach\nstiérwen.\n110.\nDé àl Scheiere brènnen am iérgsten.\n111.\nLéer du dei Fuoder e — — mâchen.\n(Léer en alen Aaf Konschte mâchen.)\n112.\nWié lâng supt (seift) liéft lang.\n113.\nGnodebròt, sauer Brót.\n114.\nT jong Leit solle bei den Alen\nD'Oere brauchen an d'Maûl halen.\n115.\nKlèng Deppercher lâfe lîcht iwer.\n116.\nDe klèng Drèckeltcher stènken iérger as wé dé grósz\n117.\nE klèngt Kenntchen, èng gut Stenntchen.\n118.\nKlèng Kanner, klèng Suorgen, (Lêt;)\nGróss Kanner, gròss Suorgen. (Lêt.)\n119.\nD'Klèng Kanner hun d'Lâchen an d'Kreîschen an\nèngem Sèckeltchen.",
+      "candidate_sha256": "b69d1fecdf03c756e7589cd11c4b8f6c131c267644101f3a705cbffd029e7bbe"
+    },
+    {
+      "id": "T005",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0471.png",
+      "pero_candidate": "— Das abermalige Reißen des transatlantischen Kabeltaues\nveranlaßt die „Times\" zu dem Vorschlage, den Leviatban zur\nLegung des unterseeischen Telegraphen zu benutzen. Dieses\nSchiff sei geräumig genug, um allein das ganze Tau mit\nBequemlichkeit zu beherbergen.",
+      "candidate_sha256": "e78b26cbd13a3feb5f2568e016d8c90c3f5d05ed058ea4827469550fc8c54e33"
+    },
+    {
+      "id": "T006",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0456.png",
+      "pero_candidate": "Southampton, 31 janvier. Le Tasmanian,\nvenant des Indes-Occidentales, apporte\n2,770178 dollars, dont 2,021,158 en or, et\n741,397 en argent.",
+      "candidate_sha256": "eaa7d72ea9ec6de49b0003042f352079454b36736332d1ec58dc468a749482d3"
+    },
+    {
+      "id": "T007",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/1630.png",
+      "pero_candidate": "Die Anhänglichkeit an das Haus unsrer\nFürsten wird von den entthronten Machthabern\nals Servilität bezeichnet; das gestrige Volks-\nfest zu Walferdingen wird sicher in ihren Augen\nals eine erbärmliche Komödie von Heuchelei\nund Verstellungskunst erscheinen. Jedermann\nschaut durch seine Brille und diejenigen Menschen,\nwelche nicht zwischen den Thürmen von\nDommeldingen erblenden, wijsen posttiv, daß\nnur ein freies, liberal regiertes Volk dem\nmonarchiſchen Prinzip ſolche Huldigungen dar=\nbringt, wie sie in unserm Lande aus der tiefsten\nUeberzeugung des Volkes hervorgehen. S. K. H.,\nder Prinz Heinrich der Niederlande und Statt-\nhalter S. Majestät des Königs, hat gesprochen\nund wird Wort halten. Das Land sitzt zu\nGericht und erkennt seine Erzmänner, die Großen,\nwie die Kleinen; jedes Votum bleibt ein\nhistorisches Merkmal, und die Zukunft wird aus\nder Wahlurne die Belohnung des Civismus\noder des Egoismus austheilen",
+      "candidate_sha256": "966e81425db38d800eb1380e4f3b4f78871adbe85afc0c71a11c312a4c3cc6f1"
+    },
+    {
+      "id": "T008",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0009.png",
+      "pero_candidate": "gießer. Nun, weiß Er was, ich hab' mir einen Plan\nerdacht. Wird der alte Schacht wieder gangbar, st\nmüssen wir doch dort neue Bergleute anlegen un\nmehr als ant neuen. Da reicht nun ein Schichtnei\nster mit einem Grubensteiger und Hutmanne nicht\naus, und wenn wir schon dem Frenzel die Leitung\nbeider Gruben als Schichtmeister lassen, so brauchen\nwir doch noch ein paar Grubensteiger für den obern\nSchacht und für beide Schächte einen tüchtigen Ober-\nsteiger. Und der wird Er und kein anderer. Dann\ndenk' ich, soll Er auch sein Mädchen bekommen.\nFerdinand drückte dem Redner freudig die Hand.\nWenn über mich befohlen wird, sagte er, so gehorche\nich. Aber den Schichtmeister übergehen Sie nicht!\nUnd wenner das Wagstück aufsich nimmt, so wollen\ndie Herrn Gewerken hübsch an seine Familie denken.\nDaran soll's nicht fehlen, sagte Mickley, und Fer-\ndinand nahm Abschied. Er hatte in der einzigen Buch¬\nhandlung des Ortes ein Buch über Naturlehre be\nstellt und wollte sehen, ob es angekommen sei. Er\nmußte da an dem Hause des Goldschmieds vorbei\nund begegnete vor der Thür desselben dem Schichtmei¬\nster mit ganz verstörtem Gesicht. Er konnte sich nicht\nhelfen, er trat mit einem Glückauf auf ihn zu und",
+      "candidate_sha256": "126b3d446063a285fb14dcb4b2e94117a8d7cfc17e2778e0cf271304a0ce489d"
+    },
+    {
+      "id": "T009",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/1059.png",
+      "pero_candidate": "Die während der Belagerung und uuter der Herr-\nſchoft der Commune verlebten Schrectenstage geben",
+      "candidate_sha256": "d30eb9209b30753802db21fee76713a38d5c090d6b6b49e5a1108e56fe50b6a3"
+    },
+    {
+      "id": "T010",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0345.png",
+      "pero_candidate": "L'image de la belle, de la charmante, de lado-\nrée, tournovait autour de lui et l'attirait comme un\nfeu follet qui sautille la nuit à travers les marais.\nClara, chère et cruelle Clara, soupirait-il.\nEnfin le troisième jour, à bout de forces, n'y\ntenant plus il sonna, se fit ouvrir, et comme un\ninsensé, riant et pleurant, il se précipita aux pieds\nde son idole.\n—\nPardonpez-moi, murmura-t-il, j'ai voulu vous\noublier, pai voulu vous trahir; mais l'entreprise\ndépassait mes forces. Je vous aime, je n'aime que\nvons. Oh! Clara, de grâce, éeoutez-moi; me voici\nsoumis et repentant; je dépose a vos pieds ma\nfortune, mon nom, ma vie, et c'est de vous seule\ndésormais que iattends mon bonheur. Parlez, or-\ndonnez, le jour au’il vous plaira, vous serez ma\nfemme, devant les hommes et devant Dieu.\n— Oh! je vous crois s'écria-t-elle: votre voix,\nvotre accent, votre émotion, vos larmes me disent\nd'avoir foi en vous, et je puis l'avouer maintenant:\nmoi aussi je vous aime.\nEn frissonnante et empourprée, elle tendit son\nfront à Anatole, qui y imprima un brulant baiser.",
+      "candidate_sha256": "bec75ca6dee63a507f67fb32a4e8ec6b69416fde7ada752dd77e7f624d70db9a"
+    },
+    {
+      "id": "T011",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0363.png",
+      "pero_candidate": "aber wie die Gattin dem Manne , so ist sie seine\nGefährtin und Gehülfin, beide im Dienste der\nKirche. Nimmer aber ist sie seine Magd, seine\nSklavin, sie, die eben so wohl freie Her-\nrin ist und bleiben muss, als das Wort\nder freie Herr.\nOffenbar muss also das Wort im Anschlusse an\ndie Tonformel nicht minder Rücksichten gebrau-\nchen, da wo es gilt, auf geringe Kosten der eige-\nnen Form die Formenschönheit und die asthe-\ntisch vollkommene Ausprägung seiner Gefährtin\nzu achten und zu ehren. Demnach ziehen wir nicht\ndie Stirn in Runzeln, wenn die Form dem Bau\ndes Tonsatzes nachgibt, und sich gefallen lässt,\ndass eine kurze Silbe lang wird, oder mit mehre-\nren Noten verziert ist, und umgekehrt. Der Satz :\n«Musica non subjacet regulis Donati» wird somit\nseine volle Richtigkeit haben.\nEs wäre in der That eben so angenehm als loh-\nnend, durch kritische Vergleichung und Abwä-\ngung die alten Fassungen der Melodie den « ver-\nbesserten » der Neuzeit gegenüberzustellen. Ohne\nallen Zweifel würden die Leser — wir schreiben\nja zunächst und zumeist für Musiker — mit uns\nsehr bald zu dem Resultate kommen, dass über-\nall, wo der Text hat prævaliren wollen — und\ndas ist es eben, was die Neueren erstreben — der\nZauber der Musik, ihr Wesen, ihr Geist verloren\nist. Wir können aber an dieser Stelle in dem\nengen Rahmen unserer Arbeit nur kleine Proben\ngeben ; wir wählen solche, die auch anderswo als\nMuster der Verbesserung aufgestellt sind.\nDie Stelle",
+      "candidate_sha256": "7700c36c18589d012bc70e266d75bd2fc1d1d101cd7d44ec097ef18c18082c20"
+    },
+    {
+      "id": "T012",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0645.png",
+      "pero_candidate": "III. classe. — 1er prix, Théodore Witry, de Rollingen;\n2e, Jean-Nicolas Schoué, d'Esch-sur-la-Sûre; 3e, Nicolas",
+      "candidate_sha256": "cd5520cbe12e7170a6fc664bd3e78b1103395d875829c8947109b456ca0b8793"
+    },
+    {
+      "id": "T013",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0757.png",
+      "pero_candidate": "S. A. R. le Prince Henri n'a pas\nfait annoncer officiellement son arrivée\ndans le grand-duché. Nous croyons ce-\npendant savoir que le Prince et la\nPrincesse arriveront dans la journée\nde demain. LL. AA. RR. descenderont\nà Walferdange.",
+      "candidate_sha256": "837bf04ff67b8c6b6c8fa79db225b1a0a17c57e429cf859105c4014273662155"
+    },
+    {
+      "id": "T014",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0231.png",
+      "pero_candidate": "Köln, 10. Febr. — In gestriger Sitzung\ndes Abgeordnetenhauses antwortete der Cultus-\nminister auf die Jnterpellation wegen Errich¬\ntung einer juristischen Facultät an der Akademie\nzu Münster, daß die Staatsregierung eine solche\nnicht beabsichtige, da sie nicht nur provincielle,\nsondern mehr noch die Gesammt-Interessen zu\nberücksichtigen habe.\nPräsident Grabow eröffnete die Discussion\nüber den Antrag v. Hoverbeck und Genossen\nund ertheilt das Wort dem Referenten Herrn\nv. Forkenbeck.\nMeine Herren! Ich bitte Sie, dem Antrage\nder Abgeordneten Frhr. v. Hoverbeck und Ge-\nnossen beizustimmen, weil die Thatsachen son-\nnenklar sind. Wir stehen vor einer Gewaltthat\ngegen unsere verfassungsmäßigen Rechte; und\ndiese müssen wir durch eine förmliche Erklärung\nals verfassungswidrig bezeichnen. Wir müsser\ndie vorgeschlagene Resolution annehmen, weil sie\neine Pflicherfüllung gegen das Volk, das wir\nvertreten, und gegen uns selbst ist. In der vor-\njährigen Landtagssession hielt der Abg. Twesten,\nals es sich darum handelte, ob ein von der Re-\ngierung geforderten Posten genehmigt werden\nsollte, oder nicht, eine Rede; ebenso der Abg.\nFrentzel. Schon im September desselben Jahres\nwurde der Abg. Twesten auf Antrag der Staats-\nanwaltschaft zur Verantwortung über diese Rede\nvorgeladen. Er erschien, lehnte jedoch jede ver-\nantwortliche Vernehmung ab. Er ist hier im\nHause anwesend und kann die Richtigkeit dieser\nThatsachen bestätigen. Darauf erhob die Staats-\nanwaltschaft Anklage gegen denselben, wurde\njedoch in erster und zweiter Instanz auf Grund\ndes Art. 84 der Verfassung zurückgewiesen. Da\nbeschloß das Plenum des Straf-Senats des\nKöniglichen Ober-Tribunals die Zuläfsigkeit der\nAnklage trotz des Art. 84. M. H.! Diese That-\nsache ist wahr, sie wird berichtet von allen öf-\nfentlichen Blättern, auch von der officiösen Pro-\nvincial-Correspondenz, welche im Ministerium\nredigirt wird: sie ist wahr, denn dem Herrn\nJustizminister ist Gelegenheit geboten worden,\nsie zu dementiren, — und das ist nicht geschehen.\nDie Thatsache ist überall bekannt; schon bewegt\nsie alle Schichten der Bevölkerung. Meine Her-\nren! Wir können am allerwenigsten diese noto-\nrische, in ihren Folgen schwere Thatsache igno-\nriren. (Sehr wahr!) Es ist bei dem Beschlusse des\nObertribunals gleichgültig, ob er schriftlich aufge-\nsetzt ist oder nicht. Es ist ferner gleichgültig, ob er,\nwie behauptet wird, aufgehoben ist, oder gar nicht",
+      "candidate_sha256": "5002908fc3cfdd4ac5ed8831ef65534bde872660e2997bc5cb17f34bc8529e5a"
+    },
+    {
+      "id": "T015",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0887.png",
+      "pero_candidate": "hôtes de M. et Mme Amersfoordt. Au des-\nsert, M. le ministre de France a porté la\nsanté des maîtres de la maison et les a\nremerciés de l'accueil fait par eux à ses\njeunes compatriotes. Les paroles prononcées\npar M. Target ont été couvertes d'applau-\ndissements. Après le déjeuner, visite à la\nlaiterie si intelligemment administrée par\nMme Amersfoordt, aux étables, aux machi-\nnes d'intérieur. Puis les voitures s'attèlent\net prennent la file sur la chaussée du ca-\nnal circulaire qui reçoit les eaux du lac Il\ns'agit d'aller voir l'installation des grandes\nmachines qui, après avoir épuisé le lac,\nl'empêchent aujourd’hui de se remplir de\nnouvean",
+      "candidate_sha256": "99f9e12fed630388b707ba7f15dd9f4dc6b7c3b286eb12e50e10a55031f24171"
+    },
+    {
+      "id": "T016",
+      "image": "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0164.png",
+      "pero_candidate": "Au moment où la lutte sanglante semble ne\nplus pouvoir être prévenue, voilà les commer-\nçants de Marseille signent une pétition au\nSénat pour demander le maintien de la paix.\nOn peut se faire une idée des souffrances et\ndes perturbations qu'entraîne la situation ac-\ntuelle, en disant qu'une des plus honorables\net des plus solides maisons du midi de la\nFrance n'a dû qu'à une intervention personelle\net toute gracieuse de M. Fould, et à l'appui\nde la Banque de pouvoir échapper aux con-\nséquences de la crise et de raffermir sans\ncraindre de nouveaux embarras une situation\nque personne à coup sûr, ne se fut avisée de\ncroire un moment douteuse.\nM. le baron de Rothschild est en négocia-\ntion, dit-on, avec le gouvernement italien pour\nacheter ceux des chemins de fer italiens qu'il\nne possède pas, ce qui semble indiquer que\nl'Italie ne paraît pas au prince des finances\ndans un état aussi désespéré qu'on le prétend,\nau point de vue des intérêts matériels.",
+      "candidate_sha256": "6be0d6e7ad274b351b8102b929c8e1472bc5ad5423ec0ddbeca2e69cef4a80cc"
+    }
+  ]
+}

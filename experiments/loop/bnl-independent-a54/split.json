@@ -1,0 +1,31 @@
+{
+  "schema": "bbvlm.frozen-independent-split/1",
+  "status": "frozen_before_content_inspection",
+  "frozen_at": "2026-09-28T10:23:00Z",
+  "source": {
+    "name": "BnL raw ground truth newspapers before 1878",
+    "url": "https://data.bnl.lu/wp-content/uploads/2021/09/bnl-ground-truth-newspapers-before-1878-raw.zip",
+    "license": "CC0",
+    "declared_scope": "1702 uncropped newspaper text-block image/ALTO pairs; German, French or Luxembourgish; transcription manually double-keyed to at least 99.95% accuracy"
+  },
+  "selection": {
+    "pool": "numeric member IDs 0000 through 1701, excluding the 24 A45 IDs; established from identifiers only",
+    "content_seen_before_freeze": false,
+    "rule": "exclude A45 IDs, sort remaining IDs by SHA-256 of UTF-8 BBVLM-A54:<ID>, take first 16",
+    "seed": "BBVLM-A54",
+    "sample_size": 16,
+    "ids": [
+      "0645", "0949", "0231", "0887", "1059", "0363", "0164", "0471",
+      "0757", "1160", "0439", "0455", "1630", "0009", "0345", "0456"
+    ]
+  },
+  "predeclared_use": {
+    "ocr": "independent comparison of unchanged PERO candidate against one image-plus-candidate Luna correction pass",
+    "layout": "independent text-line and diagnostic word-box validation of unchanged PERO/A37 output",
+    "primary_gate": "search_v1 aggregate CER must improve and no search_v1-exact PERO block may regress",
+    "secondary_gate": "lexical_alnum aggregate CER must improve and no lexical-exact PERO block may regress",
+    "language_filter": "report every selected block and a French stratum; language never changes membership",
+    "no_retuning": true,
+    "reference_opening": "only after candidate outputs and VLM inputs are sealed"
+  }
+}

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>A46_0645</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-09-28T10:18:09.988795</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_A46_0645" PHYSICAL_IMG_NR="1" HEIGHT="95" WIDTH="892">
+      <TopMargin HEIGHT="7" WIDTH="892" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="95" WIDTH="2" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="95" WIDTH="-1" VPOS="0" HPOS="893"/>
+      <BottomMargin HEIGHT="0" WIDTH="892" VPOS="95" HPOS="0"/>
+      <PrintSpace HEIGHT="87" WIDTH="890" VPOS="7" HPOS="2">
+        <TextBlock ID="block_r000" HEIGHT="80" WIDTH="890" VPOS="7" HPOS="2">
+          <TextLine BASELINE="33" VPOS="7" HPOS="2" HEIGHT="38" WIDTH="856">
+            <String CONTENT="III." HEIGHT="34" WIDTH="54" VPOS="6" HPOS="10" WC="1"/>
+            <SP WIDTH="4" VPOS="6" HPOS="64"/>
+            <String CONTENT="classe." HEIGHT="34" WIDTH="98" VPOS="6" HPOS="78" WC="1"/>
+            <SP WIDTH="4" VPOS="6" HPOS="177"/>
+            <String CONTENT="—" HEIGHT="34" WIDTH="11" VPOS="6" HPOS="192" WC="1"/>
+            <SP WIDTH="4" VPOS="6" HPOS="203"/>
+            <String CONTENT="1er" HEIGHT="34" WIDTH="43" VPOS="5" HPOS="243" WC="1"/>
+            <SP WIDTH="4" VPOS="5" HPOS="286"/>
+            <String CONTENT="prix," HEIGHT="34" WIDTH="70" VPOS="5" HPOS="301" WC="1"/>
+            <SP WIDTH="4" VPOS="5" HPOS="372"/>
+            <String CONTENT="Théodore" HEIGHT="34" WIDTH="130" VPOS="6" HPOS="391" WC="1"/>
+            <SP WIDTH="4" VPOS="6" HPOS="522"/>
+            <String CONTENT="Witry," HEIGHT="34" WIDTH="107" VPOS="6" HPOS="536" WC="1"/>
+            <SP WIDTH="4" VPOS="6" HPOS="644"/>
+            <String CONTENT="de" HEIGHT="34" WIDTH="29" VPOS="7" HPOS="656" WC="1"/>
+            <SP WIDTH="4" VPOS="7" HPOS="686"/>
+            <String CONTENT="Rollingen;" HEIGHT="36" WIDTH="156" VPOS="8" HPOS="697" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="77" VPOS="49" HPOS="34" HEIGHT="37" WIDTH="858">
+            <String CONTENT="2e," HEIGHT="33" WIDTH="46" VPOS="52" HPOS="42" WC="1"/>
+            <SP WIDTH="4" VPOS="52" HPOS="88"/>
+            <String CONTENT="Jean-Nicolas" HEIGHT="34" WIDTH="177" VPOS="50" HPOS="100" WC="1"/>
+            <SP WIDTH="4" VPOS="50" HPOS="277"/>
+            <String CONTENT="Schoué," HEIGHT="33" WIDTH="114" VPOS="49" HPOS="292" WC="1"/>
+            <SP WIDTH="4" VPOS="49" HPOS="406"/>
+            <String CONTENT="d'Esch-sur-la-Sûre;" HEIGHT="35" WIDTH="277" VPOS="49" HPOS="417" WC="1"/>
+            <SP WIDTH="4" VPOS="49" HPOS="694"/>
+            <String CONTENT="3e," HEIGHT="33" WIDTH="48" VPOS="52" HPOS="725" WC="1"/>
+            <SP WIDTH="4" VPOS="52" HPOS="773"/>
+            <String CONTENT="Nicolas" HEIGHT="35" WIDTH="104" VPOS="53" HPOS="779" WC="1"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-28T10:18:28.326888+00:00</Created>
+    <LastChange>2026-09-28T10:18:28.326888+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A46_0757" imageWidth="798" imageHeight="389">
+    <TextRegion id="r000">
+      <Coords points="-6,-4 -6,389 308,389 435,333 791,333 790,103 797,-10 -6,-4"/>
+      <TextLine id="r000-l001" index="0" custom="heights_v2:[39.0,15.5]">
+        <Coords points="-6,50 86,50 175,47 264,47 349,47 438,47 527,47 614,47 702,44 794,44 797,-10 675,-9 612,-7 527,-7 438,-7 396,-7 111,-5 84,-4 -6,-4 -6,50"/>
+        <Baseline points="-6,35 86,35 175,32 264,32 349,32 438,32 527,32 613,32 702,29 795,29"/>
+        <TextEquiv conf="1.000">
+          <Unicode>S. A. R. le Prince Henri n'a pas</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l002" index="1" custom="heights_v2:[37.4,15.4]">
+        <Coords points="-6,108 86,108 172,104 260,104 346,104 435,104 522,104 611,101 696,98 790,98 791,84 791,45 696,45 609,48 520,52 435,52 346,52 260,52 172,52 84,55 -6,55 -6,108"/>
+        <Baseline points="-6,92 86,92 172,89 260,89 346,89 435,89 521,89 610,86 696,83 791,83"/>
+        <TextEquiv conf="1.000">
+          <Unicode>fait annoncer officiellement son arrivée</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l003" index="2" custom="heights_v2:[37.3,15.0]">
+        <Coords points="-6,167 86,167 172,164 261,164 346,161 435,161 522,161 610,158 696,158 790,155 790,103 694,106 610,106 520,109 435,109 346,109 259,112 172,112 84,115 -6,115 -6,167"/>
+        <Baseline points="-6,152 86,152 172,149 260,149 346,146 435,146 521,146 610,143 696,143 790,140"/>
+        <TextEquiv conf="1.000">
+          <Unicode>dans le grand-duché. Nous croyons ce-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l004" index="3" custom="heights_v2:[38.1,15.1]">
+        <Coords points="-6,210 -6,225 86,222 172,222 261,218 346,215 435,215 521,215 609,215 696,218 790,218 790,165 696,165 611,162 521,162 435,162 346,162 259,165 170,168 86,168 -6,172 -6,210"/>
+        <Baseline points="-6,210 86,206 172,206 260,203 346,200 435,200 521,200 610,200 696,203 790,203"/>
+        <TextEquiv conf="1.000">
+          <Unicode>pendant savoir que le Prince et la</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l005" index="4" custom="heights_v2:[38.7,15.2]">
+        <Coords points="-6,279 86,279 172,276 261,276 346,273 435,273 521,273 610,273 695,272 791,276 791,271 790,222 697,219 610,219 521,219 435,219 346,219 259,222 172,222 84,225 -6,225 -6,279"/>
+        <Baseline points="-6,264 86,264 172,260 260,260 346,257 435,257 521,257 610,257 696,257 791,260"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Princesse arriveront dans la journée</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l006" index="5" custom="heights_v2:[39.9,15.3]">
+        <Coords points="-6,339 86,339 172,336 261,336 346,333 435,333 521,333 610,333 696,333 791,333 791,278 696,278 610,278 521,278 435,278 346,278 259,281 172,281 84,284 -6,284 -6,339"/>
+        <Baseline points="-6,324 86,324 172,321 260,321 346,318 435,318 521,318 610,318 696,318 791,318"/>
+        <TextEquiv conf="1.000">
+          <Unicode>de demain. LL. AA. RR. descenderont</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l007" index="6" custom="heights_v2:[35.4,13.7]">
+        <Coords points="-6,389 35,389 73,389 111,389 149,389 187,389 226,389 264,389 308,389 308,339 264,339 226,339 187,339 149,339 111,339 73,339 35,339 -6,339 -6,389"/>
+        <Baseline points="-6,375 35,375 73,375 111,375 149,375 187,375 226,375 264,375 308,375"/>
+        <TextEquiv conf="1.000">
+          <Unicode>à Walferdange.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

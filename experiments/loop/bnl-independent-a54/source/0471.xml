@@ -1,0 +1,93 @@
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-1.xsd">
+  <Description>
+    <MeasurementUnit>mm10</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>./ALTO00003-P3_TB00013.tif</fileName>
+    </sourceImageInformation>
+  </Description>
+  <Layout>
+    <Page ID="P_0001" PHYSICAL_IMG_NR="1">
+      <PrintSpace>
+        <TextBlock ID="TB_0001">
+          <TextLine ID="TL_0001" HPOS="32" VPOS="0" WIDTH="714" HEIGHT="34">
+            <String CONTENT="-" CC="0" HPOS="33" VPOS="10" WIDTH="25" HEIGHT="12" />
+            <SP />
+            <String CONTENT="Das" CC="000" HPOS="71" VPOS="1" WIDTH="49" HEIGHT="22" />
+            <SP />
+            <String CONTENT="abermalige" CC="0000000000" HPOS="132" VPOS="3" WIDTH="127" HEIGHT="28" />
+            <SP />
+            <String CONTENT="Reißen" CC="000000" HPOS="272" VPOS="5" WIDTH="81" HEIGHT="27" />
+            <SP />
+            <String CONTENT="des" CC="000" HPOS="365" VPOS="6" WIDTH="36" HEIGHT="21" />
+            <SP />
+            <String CONTENT="transatlantischen" CC="00000000000000000" HPOS="415" VPOS="6" WIDTH="192" HEIGHT="27" />
+            <SP />
+            <String CONTENT="Kabeltaues" CC="0000000000" HPOS="619" VPOS="6" WIDTH="126" HEIGHT="22" />
+          </TextLine>
+          <TextLine ID="TL_0002" HPOS="0" VPOS="35" WIDTH="746" HEIGHT="34">
+            <String CONTENT="veranlaßt" CC="000000000" HPOS="1" VPOS="36" WIDTH="110" HEIGHT="27" />
+            <SP />
+            <String CONTENT="die" CC="000" HPOS="129" VPOS="38" WIDTH="32" HEIGHT="22" />
+            <SP />
+            <String CONTENT="„Times“" CC="0000000" HPOS="173" VPOS="36" WIDTH="108" HEIGHT="26" />
+            <SP />
+            <String CONTENT="zu" CC="00" HPOS="292" VPOS="45" WIDTH="23" HEIGHT="21" />
+            <SP />
+            <String CONTENT="dem" CC="000" HPOS="333" VPOS="40" WIDTH="43" HEIGHT="21" />
+            <SP />
+            <String CONTENT="Vorschlage," CC="00000000000" HPOS="394" VPOS="39" WIDTH="127" HEIGHT="29" />
+            <SP />
+            <String CONTENT="den" CC="000" HPOS="537" VPOS="41" WIDTH="37" HEIGHT="21" />
+            <SP />
+            <String CONTENT="Leviatbau" CC="000000000" HPOS="588" VPOS="40" WIDTH="111" HEIGHT="22" />
+            <SP />
+            <String CONTENT="zur" CC="000" HPOS="712" VPOS="47" WIDTH="34" HEIGHT="21" />
+          </TextLine>
+          <TextLine ID="TL_0003" HPOS="3" VPOS="70" WIDTH="743" HEIGHT="35">
+            <String CONTENT="Legung" CC="000000" HPOS="4" VPOS="71" WIDTH="80" HEIGHT="29" />
+            <SP />
+            <String CONTENT="des" CC="000" HPOS="107" VPOS="72" WIDTH="36" HEIGHT="22" />
+            <SP />
+            <String CONTENT="unterseeischen" CC="00000000000000" HPOS="167" VPOS="72" WIDTH="150" HEIGHT="27" />
+            <SP />
+            <String CONTENT="Telegraphen" CC="00000000000" HPOS="341" VPOS="72" WIDTH="143" HEIGHT="32" />
+            <SP />
+            <String CONTENT="zu" CC="00" HPOS="503" VPOS="82" WIDTH="23" HEIGHT="21" />
+            <SP />
+            <String CONTENT="benutzen." CC="000000000" HPOS="544" VPOS="77" WIDTH="102" HEIGHT="26" />
+            <SP />
+            <String CONTENT="Dieses" CC="000000" HPOS="673" VPOS="76" WIDTH="73" HEIGHT="26" />
+          </TextLine>
+          <TextLine ID="TL_0004" HPOS="3" VPOS="104" WIDTH="743" HEIGHT="35">
+            <String CONTENT="Schiff" CC="000000" HPOS="4" VPOS="105" WIDTH="67" HEIGHT="27" />
+            <SP />
+            <String CONTENT="sei" CC="000" HPOS="88" VPOS="106" WIDTH="23" HEIGHT="26" />
+            <SP />
+            <String CONTENT="geräumig" CC="00000000" HPOS="127" VPOS="107" WIDTH="109" HEIGHT="27" />
+            <SP />
+            <String CONTENT="genug," CC="000000" HPOS="253" VPOS="115" WIDTH="77" HEIGHT="22" />
+            <SP />
+            <String CONTENT="um" CC="00" HPOS="354" VPOS="116" WIDTH="37" HEIGHT="16" />
+            <SP />
+            <String CONTENT="allein" CC="000000" HPOS="413" VPOS="110" WIDTH="61" HEIGHT="22" />
+            <SP />
+            <String CONTENT="das" CC="000" HPOS="495" VPOS="112" WIDTH="38" HEIGHT="21" />
+            <SP />
+            <String CONTENT="ganze" CC="00000" HPOS="554" VPOS="116" WIDTH="61" HEIGHT="22" />
+            <SP />
+            <String CONTENT="Tau" CC="000" HPOS="638" VPOS="110" WIDTH="49" HEIGHT="22" />
+            <SP />
+            <String CONTENT="mit" CC="000" HPOS="709" VPOS="111" WIDTH="37" HEIGHT="21" />
+          </TextLine>
+          <TextLine ID="TL_0005" HPOS="2" VPOS="138" WIDTH="370" HEIGHT="32">
+            <String CONTENT="Bequemlichkeit" CC="00000000000000" HPOS="3" VPOS="139" WIDTH="170" HEIGHT="27" />
+            <SP />
+            <String CONTENT="zu" CC="00" HPOS="189" VPOS="148" WIDTH="22" HEIGHT="21" />
+            <SP />
+            <String CONTENT="beherbergen." CC="000000000000" HPOS="229" VPOS="142" WIDTH="142" HEIGHT="28" />
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

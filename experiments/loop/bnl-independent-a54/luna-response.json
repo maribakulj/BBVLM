@@ -1,0 +1,275 @@
+{
+  "items": [
+    {
+      "id": "T001",
+      "text": "(260 Quart) 81 Thlr., 1/2 Fuder 61er (436\nQuart) 24—36½ Thlr., 1/2 Fuder 62er (450\nQuart) 160 Thlr., 2 Ohm 63er (335 Quart)\n94 Thlr",
+      "decision": "edit",
+      "uncertain": false,
+      "edits": [
+        {
+          "before": "361/2",
+          "after": "36½",
+          "visual_reason": "The typeset amount shows a stacked one-half after 36, not baseline digits 1/2."
+        }
+      ]
+    },
+    {
+      "id": "T002",
+      "text": "Cette mesure du proconsul de Vilna n'a\npas besoin de commentaires. (Patrie.)",
+      "decision": "edit",
+      "uncertain": false,
+      "edits": [
+        {
+          "before": "(Patrie.)\npas besoin de commentaires.",
+          "after": "pas besoin de commentaires. (Patrie.)",
+          "visual_reason": "The parenthetical attribution appears at the right end of the second printed line after commentaires."
+        }
+      ]
+    },
+    {
+      "id": "T003",
+      "text": "Aus dem sub 2 mitgetheilten Gesichtspunkte\nglauben wir nun folgern zu dürfen, daß das\nLuxemburger Athenäum in den alten Spra-\nchen und andern Fächern nicht dasselbe leisten\nkann, wie andere Lehranstalten, deren Schüler\nsich hauptsächlich nur in einer neuern Sprache\nauszubilden haben, und zwar in einer Sprache,\nwelche sie in Folge eines längern Gebrauches\nmehr oder weniger geläufig sprechen können.\nZwar wird in deutschen Gymnasien neben dem\nDeutschen auch das Französische oder das Eng-\nliſche gelehrt, doch hat der Schüler in letztern\nSprachen weit geringeren Anforderungen Genüge\nzu leisten als bei uns. Dasselbe gilt auch für\ndie französischen Lyceen, in welchen, außer dem\nFranzösischen eine andere moderne Sprache ge-\nlehrt wird. Die Ausbildung in den neuern\nSprachen muß also unsere ganzen künftigen\nLehrplane beherrschen, und diesem obersten Ziele\nmuß vorerst die gebührendste Rücksichtsnahme\ngesichert werden. Dies kann aber unmöglich er-",
+      "decision": "edit",
+      "uncertain": false,
+      "edits": [
+        {
+          "before": "fönnen",
+          "after": "können",
+          "visual_reason": "The word-ending glyph is a k in können; the scan does not show an f."
+        },
+        {
+          "before": "Genūge",
+          "after": "Genüge",
+          "visual_reason": "The vowel in the scan is ü with umlaut, not u with macron."
+        },
+        {
+          "before": "Französtſchen",
+          "after": "Französischen",
+          "visual_reason": "The printed word reads Französischen; the candidate has an extra t and the wrong medial sequence."
+        }
+      ]
+    },
+    {
+      "id": "T004",
+      "text": "89.\nWât ên net am Kapp huot, muss ên an de Féssen hun.\n90\nEt gi fil gut Schof an ê Stal.\n91.\nWién d'éscht kent, múolt am éschten.\n92.\nBeim Auskiére fennt sech Alles.\n93.\nFaul Leit hu giére Feierdâch.\n94.\nHuol d'Aen an d'Hand!\n95.\nDât as en areme Joermârt, wó ên em élef\nZe fré, em zwiélef ze lantzem (ze spét) kemt.\n96.\nWanns de neischt mé huos, wiérs de klèng muolen.\n97.\nD'Gèlt wist net, wann ên't sét.\n98.\nEt lêft fill Wâsser d'Bâch erôn.\n99.\nD' gebroden Dauwen flée' net an der Loft erem.\n100.\nAn der Sonn ferdengt ên de Schiéd.\n101.\nDen Hèr firaûs, derno kemt d'ganet Haûs.\n102.\nGidwideré wês, wô en de Schong drékt.\n103.\nFil Scholt, fil Gedolt.\n104.\nWé ên d'Handwiérk dreift, esó gêt et.\n105.\nDe Kâfman lûoft séng Wůor.\n106.\nEt kemt kê Pâf an den Himmel.\n107.\nWann ên no èngem Hont wèrft da gerét ên e' Pâf\n108.\nHaut mir, muor dir.\n109.\nWûorfir rackers de déch esó? du muss jo dach\nstiérwen.\n110.\nDé àl Scheiere brènnen am iérgsten.\n111.\nLéer du dei Fuoder e — — mâchen.\n(Léer en alen Aaf Konschte mâchen.)\n112.\nWié lâng supt (seift) liéft lang.\n113.\nGnodebròt, sauer Brót.\n114.\nT jong Leit solle bei den Alen\nD'Oere brauchen an d'Maûl halen.\n115.\nKlèng Deppercher lâfe lîcht iwer.\n116.\nDe klèng Drèckeltcher stènken iérger as wé dé grósz\n117.\nE klèngt Kenntchen, èng gut Stenntchen.\n118.\nKlèng Kanner, klèng Suorgen, (Lêt;)\nGróss Kanner, gròss Suorgen. (Lêt.)\n119.\nD'Klèng Kanner hun d'Lâchen an d'Kreîschen an\nèngem Sèckeltchen.",
+      "decision": "keep",
+      "uncertain": false,
+      "edits": []
+    },
+    {
+      "id": "T005",
+      "text": "— Das abermalige Reißen des transatlantischen Kabeltaues\nveranlaßt die „Times\" zu dem Vorschlage, den Leviathan zur\nLegung des unterseeischen Telegraphen zu benutzen. Dieses\nSchiff sei geräumig genug, um allein das ganze Tau mit\nBequemlichkeit zu beherbergen.",
+      "decision": "edit",
+      "uncertain": false,
+      "edits": [
+        {
+          "before": "Leviatban",
+          "after": "Leviathan",
+          "visual_reason": "The letter after t in the scan has the two-stroke h form, not b."
+        }
+      ]
+    },
+    {
+      "id": "T006",
+      "text": "Southampton, 31 janvier. Le Tasmanian,\nvenant des Indes-Occidentales, apporte\n2,770178 dollars, dont 2,021,158 en or, et\n741,397 en argent.",
+      "decision": "keep",
+      "uncertain": false,
+      "edits": []
+    },
+    {
+      "id": "T007",
+      "text": "Die Anhänglichkeit an das Haus unsrer\nFürsten wird von den entthronten Machthabern\nals Servilität bezeichnet; das gestrige Volks-\nfest zu Walferdingen wird sicher in ihren Augen\nals eine erbärmliche Komödie von Heuchelei\nund Verstellungskunst erscheinen. Jedermann\nschaut durch seine Brille und diejenigen Menschen,\nwelche nicht zwischen den Thürmen von\nDommeldingen erblenden, wissen positiv, daß\nnur ein freies, liberal regiertes Volk dem\nmonarchiſchen Prinzip ſolche Huldigungen dar=\nbringt, wie sie in unserm Lande aus der tiefsten\nUeberzeugung des Volkes hervorgehen. S. K. H.,\nder Prinz Heinrich der Niederlande und Statt-\nhalter S. Majestät des Königs, hat gesprochen\nund wird Wort halten. Das Land sitzt zu\nGericht und erkennt seine Erzmänner, die Großen,\nwie die Kleinen; jedes Votum bleibt ein\nhistorisches Merkmal, und die Zukunft wird aus\nder Wahlurne die Belohnung des Civismus\noder des Egoismus austheilen",
+      "decision": "edit",
+      "uncertain": false,
+      "edits": [
+        {
+          "before": "wijsen posttiv",
+          "after": "wissen positiv",
+          "visual_reason": "The clear line reads wissen positiv; the candidate misreads both letter sequences."
+        }
+      ]
+    },
+    {
+      "id": "T008",
+      "text": "gießer. Nun, weiß Er was, ich hab' mir einen Plan\nerdacht. Wird der alte Schacht wieder gangbar, so\nmüssen wir doch dort neue Bergleute anlegen und\nmehr als am neuen. Da reicht nun ein Schichtmei-\nster mit einem Grubensteiger und Hutmanne nicht\naus, und wenn wir schon dem Frenzel die Leitung\nbeider Gruben als Schichtmeister lassen, so brauchen\nwir doch noch ein paar Grubensteiger für den obern\nSchacht und für beide Schächte einen tüchtigen Ober-\nsteiger. Und der wird Er und kein anderer. Dann\ndenk' ich, soll Er auch sein Mädchen bekommen.\nFerdinand drückte dem Redner freudig die Hand.\nWenn über mich befohlen wird, sagte er, so gehorche\nich. Aber den Schichtmeister übergehen Sie nicht!\nUnd wenn er das Wagstück aufsich nimmt, so wollen\ndie Herrn Gewerken hübsch an seine Familie denken.\nDaran soll's nicht fehlen, sagte Mickley, und Fer-\ndinand nahm Abschied. Er hatte in der einzigen Buch¬\nhandlung des Ortes ein Buch über Naturlehre be\nstellt und wollte sehen, ob es angekommen sei. Er\nmußte da an dem Hause des Goldschmieds vorbei\nund begegnete vor der Thür desselben dem Schichtmei-\nster mit ganz verstörtem Gesicht. Er konnte sich nicht\nhelfen, er trat mit einem Glückauf auf ihn zu und",
+      "decision": "edit",
+      "uncertain": false,
+      "edits": [
+        {
+          "before": "st\nmüssen",
+          "after": "so\nmüssen",
+          "visual_reason": "The cropped line end is the rounded o in so."
+        },
+        {
+          "before": "un\nmehr",
+          "after": "und\nmehr",
+          "visual_reason": "The line-ending word is visibly und before the next line."
+        },
+        {
+          "before": "ant neuen",
+          "after": "am neuen",
+          "visual_reason": "The scan reads am neuen."
+        },
+        {
+          "before": "Schichtnei\nster",
+          "after": "Schichtmei-\nster",
+          "visual_reason": "The print shows Schichtmei- at the line end, with the hyphen and m-e-i sequence."
+        }
+      ]
+    },
+    {
+      "id": "T009",
+      "text": "Die während der Belagerung und unter der Herr-\nschaft der Commune verlebten Schreckenstage geben",
+      "decision": "edit",
+      "uncertain": false,
+      "edits": [
+        {
+          "before": "uuter",
+          "after": "unter",
+          "visual_reason": "The scan has n after u, not a second u."
+        },
+        {
+          "before": "Herr-\nſchoft",
+          "after": "Herr-\nschaft",
+          "visual_reason": "The next printed line begins schaft, completing Herrschaft."
+        },
+        {
+          "before": "Schrectenstage",
+          "after": "Schreckenstage",
+          "visual_reason": "The word has the doubled c/k sequence visible in Schreckenstage."
+        }
+      ]
+    },
+    {
+      "id": "T010",
+      "text": "L'image de la belle, de la charmante, de l'ado-\nrée, tournoyait autour de lui et l'attirait comme un\nfeu follet qui sautille la nuit à travers les marais.\n— Clara, chère et cruelle Clara, soupirait-il.\nEnfin le troisième jour, à bout de forces, n'y\ntenant plus il sonna, se fit ouvrir, et comme un\ninsensé, riant et pleurant, il se précipita aux pieds\nde son idole.\n—\nPardonnez-moi, murmura-t-il, j'ai voulu vous\noublier, j'ai voulu vous trahir; mais l'entreprise\ndépassait mes forces. Je vous aime, je n'aime que\nvous. Oh! Clara, de grâce, écoutez-moi; me voici\nsoumis et repentant; je dépose a vos pieds ma\nfortune, mon nom, ma vie, et c'est de vous seule\ndésormais que j'attends mon bonheur. Parlez, or-\ndonnez, le jour qu'il vous plaira, vous serez ma\nfemme, devant les hommes et devant Dieu.\n— Oh! je vous crois s'écria-t-elle: votre voix,\nvotre accent, votre émotion, vos larmes me disent\nd'avoir foi en vous, et je puis l'avouer maintenant:\nmoi aussi je vous aime.\nEn frissonnante et empourprée, elle tendit son\nfront à Anatole, qui y imprima un brulant baiser.",
+      "decision": "edit",
+      "uncertain": false,
+      "edits": [
+        {
+          "before": "lado-\nrée",
+          "after": "l'ado-\nrée",
+          "visual_reason": "An apostrophe is visible after l before ado-rée."
+        },
+        {
+          "before": "Pardonpez-moi",
+          "after": "Pardonnez-moi",
+          "visual_reason": "The scan clearly prints Pardonnez-moi."
+        },
+        {
+          "before": "pai voulu",
+          "after": "j'ai voulu",
+          "visual_reason": "The line shows j'ai, with the apostrophe after j."
+        },
+        {
+          "before": "vons.",
+          "after": "vous.",
+          "visual_reason": "The word is vous in the scan."
+        },
+        {
+          "before": "éeoutez-moi",
+          "after": "écoutez-moi",
+          "visual_reason": "The first vowel is printed é, giving écoutez-moi."
+        },
+        {
+          "before": "a vos pieds",
+          "after": "à vos pieds",
+          "visual_reason": "The printed preposition has a grave accent."
+        },
+        {
+          "before": "au’il vous plaira",
+          "after": "qu'il vous plaira",
+          "visual_reason": "The phrase reads qu'il vous plaira; the initial glyph is q."
+        }
+      ]
+    },
+    {
+      "id": "T011",
+      "text": "aber wie die Gattin dem Manne , so ist sie seine\nGefährtin und Gehülfin, beide im Dienste der\nKirche. Nimmer aber ist sie seine Magd, seine\nSklavin, sie, die eben so wohl freie Her-\nrin ist und bleiben muss, als das Wort\nder freie Herr.\nOffenbar muss also das Wort im Anschlusse an\ndie Tonformel nicht minder Rücksichten gebrau-\nchen, da wo es gilt, auf geringe Kosten der eige-\nnen Form die Formenschönheit und die asthe-\ntisch vollkommene Ausprägung seiner Gefährtin\nzu achten und zu ehren. Demnach ziehen wir nicht\ndie Stirn in Runzeln, wenn die Form dem Bau\ndes Tonsatzes nachgibt, und sich gefallen lässt,\ndass eine kurze Silbe lang wird, oder mit mehre-\nren Noten verziert ist, und umgekehrt. Der Satz :\n«Musica non subjacet regulis Donati» wird somit\nseine volle Richtigkeit haben.\nEs wäre in der That eben so angenehm als loh-\nnend, durch kritische Vergleichung und Abwä-\ngung die alten Fassungen der Melodie den « ver-\nbesserten » der Neuzeit gegenüberzustellen. Ohne\nallen Zweifel würden die Leser — wir schreiben\nja zunächst und zumeist für Musiker — mit uns\nsehr bald zu dem Resultate kommen, dass über-\nall, wo der Text hat prævaliren wollen — und\ndas ist es eben, was die Neueren erstreben — der\nZauber der Musik, ihr Wesen, ihr Geist verloren\nist. Wir können aber an dieser Stelle in dem\nengen Rahmen unserer Arbeit nur kleine Proben\ngeben ; wir wählen solche, die auch anderswo als\nMuster der Verbesserung aufgestellt sind.\nDie Stelle",
+      "decision": "keep",
+      "uncertain": false,
+      "edits": []
+    },
+    {
+      "id": "T012",
+      "text": "III. classe. — 1er prix, Théodore Witry, de Rollingen;\n2e, Jean-Nicolas Schoué, d'Esch-sur-la-Sûre; 3e, Nicolas",
+      "decision": "keep",
+      "uncertain": false,
+      "edits": []
+    },
+    {
+      "id": "T013",
+      "text": "S. A. R. le Prince Henri n'a pas\nfait annoncer officiellement son arrivée\ndans le grand-duché. Nous croyons ce-\npendant savoir que le Prince et la\nPrincesse arriveront dans la journée\nde demain. LL. AA. RR. descenderont\nà Walferdange.",
+      "decision": "keep",
+      "uncertain": false,
+      "edits": []
+    },
+    {
+      "id": "T014",
+      "text": "Köln, 10. Febr. — In gestriger Sitzung\ndes Abgeordnetenhauses antwortete der Cultus-\nminister auf die Jnterpellation wegen Errich¬\ntung einer juristischen Facultät an der Akademie\nzu Münster, daß die Staatsregierung eine solche\nnicht beabsichtige, da sie nicht nur provincielle,\nsondern mehr noch die Gesammt-Interessen zu\nberücksichtigen habe.\nPräsident Grabow eröffnete die Discussion\nüber den Antrag v. Hoverbeck und Genossen\nund ertheilt das Wort dem Referenten Herrn\nv. Forkenbeck.\nMeine Herren! Ich bitte Sie, dem Antrage\nder Abgeordneten Frhr. v. Hoverbeck und Ge-\nnossen beizustimmen, weil die Thatsachen son-\nnenklar sind. Wir stehen vor einer Gewaltthat\ngegen unsere verfassungsmäßigen Rechte; und\ndiese müssen wir durch eine förmliche Erklärung\nals verfassungswidrig bezeichnen. Wir müssen\ndie vorgeschlagene Resolution annehmen, weil sie\neine Pflichterfüllung gegen das Volk, das wir\nvertreten, und gegen uns selbst ist. In der vor-\njährigen Landtagssession hielt der Abg. Twesten,\nals es sich darum handelte, ob ein von der Re-\ngierung geforderten Posten genehmigt werden\nsollte, oder nicht, eine Rede; ebenso der Abg.\nFrentzel. Schon im September desselben Jahres\nwurde der Abg. Twesten auf Antrag der Staats-\nanwaltschaft zur Verantwortung über diese Rede\nvorgeladen. Er erschien, lehnte jedoch jede ver-\nantwortliche Vernehmung ab. Er ist hier im\nHause anwesend und kann die Richtigkeit dieser\nThatsachen bestätigen. Darauf erhob die Staats-\nanwaltschaft Anklage gegen denselben, wurde\njedoch in erster und zweiter Instanz auf Grund\ndes Art. 84 der Verfassung zurückgewiesen. Da\nbeschloß das Plenum des Straf-Senats des\nKöniglichen Ober-Tribunals die Zuläfsigkeit der\nAnklage trotz des Art. 84. M. H.! Diese That-\nsache ist wahr, sie wird berichtet von allen öf-\nfentlichen Blättern, auch von der officiösen Pro-\nvincial-Correspondenz, welche im Ministerium\nredigirt wird: sie ist wahr, denn dem Herrn\nJustizminister ist Gelegenheit geboten worden,\nsie zu dementiren, — und das ist nicht geschehen.\nDie Thatsache ist überall bekannt; schon bewegt\nsie alle Schichten der Bevölkerung. Meine Her-\nren! Wir können am allerwenigsten diese noto-\nrische, in ihren Folgen schwere Thatsache igno-\nriren. (Sehr wahr!) Es ist bei dem Beschlusse des\nObertribunals gleichgültig, ob er schriftlich aufge-\nsetzt ist oder nicht. Es ist ferner gleichgültig, ob er,\nwie behauptet wird, aufgehoben ist, oder gar nicht",
+      "decision": "edit",
+      "uncertain": false,
+      "edits": [
+        {
+          "before": "müsser\ndie vorgeschlagene",
+          "after": "müssen\ndie vorgeschlagene",
+          "visual_reason": "The word at the line end is müssen; the final letter is n."
+        },
+        {
+          "before": "Pflicherfüllung",
+          "after": "Pflichterfüllung",
+          "visual_reason": "A t is visible after Pflich in the printed compound."
+        }
+      ]
+    },
+    {
+      "id": "T015",
+      "text": "hôtes de M. et Mme Amersfoordt. Au des-\nsert, M. le ministre de France a porté la\nsanté des maîtres de la maison et les a\nremerciés de l'accueil fait par eux à ses\njeunes compatriotes. Les paroles prononcées\npar M. Target ont été couvertes d'applau-\ndissements. Après le déjeuner, visite à la\nlaiterie si intelligemment administrée par\nMme Amersfoordt, aux étables, aux machi-\nnes d'intérieur. Puis les voitures s'attèlent\net prennent la file sur la chaussée du ca-\nnal circulaire qui reçoit les eaux du lac Il\ns'agit d'aller voir l'installation des grandes\nmachines qui, après avoir épuisé le lac,\nl'empêchent aujourd'hui de se remplir de\nnouveau",
+      "decision": "edit",
+      "uncertain": false,
+      "edits": [
+        {
+          "before": "aujourd’hui",
+          "after": "aujourd'hui",
+          "visual_reason": "The scan uses the straight printed apostrophe."
+        },
+        {
+          "before": "nouvean",
+          "after": "nouveau",
+          "visual_reason": "The final letter is the rounded u in nouveau, not n."
+        }
+      ]
+    },
+    {
+      "id": "T016",
+      "text": "Au moment où la lutte sanglante semble ne\nplus pouvoir être prévenue, voilà les commer-\nçants de Marseille signent une pétition au\nSénat pour demander le maintien de la paix.\nOn peut se faire une idée des souffrances et\ndes perturbations qu'entraîne la situation ac-\ntuelle, en disant qu'une des plus honorables\net des plus solides maisons du midi de la\nFrance n'a dû qu'à une intervention personnelle\net toute gracieuse de M. Fould, et à l'appui\nde la Banque de pouvoir échapper aux con-\nséquences de la crise et de raffermir sans\ncraindre de nouveaux embarras une situation\nque personne à coup sûr, ne se fut avisée de\ncroire un moment douteuse.\nM. le baron de Rothschild est en négocia-\ntion, dit-on, avec le gouvernement italien pour\nacheter ceux des chemins de fer italiens qu'il\nne possède pas, ce qui semble indiquer que\nl'Italie ne paraît pas au prince des finances\ndans un état aussi désespéré qu'on le prétend,\nau point de vue des intérêts matériels.",
+      "decision": "edit",
+      "uncertain": false,
+      "edits": [
+        {
+          "before": "personelle",
+          "after": "personnelle",
+          "visual_reason": "The scan visibly has two l characters in personnelle."
+        }
+      ]
+    }
+  ],
+  "inspected_images": [
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/1160.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0439.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0949.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0455.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0471.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0456.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/1630.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0009.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/1059.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0345.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0363.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0645.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0757.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0231.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0887.png",
+    "/workspace/scratch/cecc4cd83a9f/BBVLM/experiments/loop/bnl-independent-a54/source/0164.png"
+  ]
+}

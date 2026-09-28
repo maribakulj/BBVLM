@@ -1,0 +1,48 @@
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-1.xsd">
+  <Description>
+    <MeasurementUnit>mm10</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>./ALTO00003-ART7-10.tif</fileName>
+    </sourceImageInformation>
+  </Description>
+  <Layout>
+    <Page ID="P_0001" PHYSICAL_IMG_NR="1">
+      <PrintSpace>
+        <TextBlock ID="TB_0001">
+          <TextLine ID="TL_0001" HPOS="10" VPOS="7" WIDTH="714" HEIGHT="34">
+            <String CONTENT="III." CC="0000" HPOS="11" VPOS="8" WIDTH="40" HEIGHT="26" />
+            <SP />
+            <String CONTENT="classe." CC="0000000" HPOS="71" VPOS="9" WIDTH="78" HEIGHT="25" />
+            <SP />
+            <String CONTENT="-" CC="0" HPOS="166" VPOS="22" WIDTH="26" HEIGHT="6" />
+            <SP />
+            <String CONTENT="1er" CC="000" HPOS="209" VPOS="10" WIDTH="40" HEIGHT="23" />
+            <SP />
+            <String CONTENT="prix," CC="00000" HPOS="259" VPOS="9" WIDTH="56" HEIGHT="30" />
+            <SP />
+            <String CONTENT="Théodore" CC="00000000" HPOS="332" VPOS="8" WIDTH="115" HEIGHT="26" />
+            <SP />
+            <String CONTENT="Witry," CC="000000" HPOS="458" VPOS="11" WIDTH="86" HEIGHT="29" />
+            <SP />
+            <String CONTENT="de" CC="00" HPOS="557" VPOS="11" WIDTH="27" HEIGHT="22" />
+            <SP />
+            <String CONTENT="Rollingen;" CC="0000000000" HPOS="595" VPOS="11" WIDTH="128" HEIGHT="29" />
+          </TextLine>
+          <TextLine ID="TL_0002" HPOS="39" VPOS="42" WIDTH="714" HEIGHT="35">
+            <String CONTENT="2e," CC="000" HPOS="40" VPOS="43" WIDTH="37" HEIGHT="31" />
+            <SP />
+            <String CONTENT="Jean-Nicolas" CC="000000000000" HPOS="88" VPOS="44" WIDTH="153" HEIGHT="25" />
+            <SP />
+            <String CONTENT="Schoué," CC="0000000" HPOS="250" VPOS="44" WIDTH="94" HEIGHT="31" />
+            <SP />
+            <String CONTENT="d’Esch-sur-la-Sûre;" CC="0000000000000000000" HPOS="353" VPOS="44" WIDTH="235" HEIGHT="31" />
+            <SP />
+            <String CONTENT="3e," CC="000" HPOS="618" VPOS="45" WIDTH="36" HEIGHT="31" />
+            <SP />
+            <String CONTENT="Nicolas" CC="0000000" HPOS="663" VPOS="47" WIDTH="89" HEIGHT="25" />
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

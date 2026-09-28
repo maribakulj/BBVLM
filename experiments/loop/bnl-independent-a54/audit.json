@@ -1,0 +1,315 @@
+{
+  "schema": "bbvlm.bnl-independent-a54-audit/1",
+  "status": "frozen_sample_opened_after_split",
+  "sample_size": 16,
+  "totals": {
+    "lines": 307,
+    "words": 1962,
+    "characters": 12083
+  },
+  "by_predicted_language": {
+    "fr": {
+      "blocks": 7,
+      "lines": 76,
+      "words": 544,
+      "characters": 3234
+    },
+    "de": {
+      "blocks": 7,
+      "lines": 159,
+      "words": 1125,
+      "characters": 7283
+    },
+    "lb": {
+      "blocks": 2,
+      "lines": 72,
+      "words": 293,
+      "characters": 1566
+    }
+  },
+  "geometry_checks": {
+    "invalid_line_boxes": 0,
+    "invalid_word_boxes": 0,
+    "word_not_contained_by_parent_line": 0
+  },
+  "interpretation": {
+    "ocr_reference": "usable independent double-keyed diplomatic transcription; exact error ceiling is nonzero (provider states >=99.95%)",
+    "line_geometry": "provider explicitly recommends raw blocks for text-line segmentation; coordinates align to supplied crops",
+    "word_geometry": "ALTO word rectangles exist but the provider does not explicitly claim manual word-box adjudication; do not call them perfect word GT",
+    "language": "automatic restricted-set prediction used only to describe the frozen sample, never to alter membership"
+  },
+  "rows": [
+    {
+      "id": "0645",
+      "image": {
+        "width": 892,
+        "height": 95
+      },
+      "measurement_unit": "mm10",
+      "lines": 2,
+      "words": 15,
+      "characters": 111,
+      "language_prediction": "fr",
+      "language_score": -169.64869117736816,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "III. classe. - 1er prix, Théodore Witry, de Rollingen;\n2e, Jean-Nicolas Schoué, d’Esch-sur-la-Sûre; 3e, Nicolas"
+    },
+    {
+      "id": "0949",
+      "image": {
+        "width": 795,
+        "height": 1065
+      },
+      "measurement_unit": "mm10",
+      "lines": 21,
+      "words": 140,
+      "characters": 949,
+      "language_prediction": "de",
+      "language_score": -4331.872547626495,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "Aus dem sub 2 mitgetheilten Gesichtspunkte\nglauben wir nun folgern zu dürfen, daß das\nLuxemburger Athenäum in den alten Spra⸗\nchen und andern Fächern nicht dasselbe leisten\nkann, wie andere Lehranstalten, deren Schüler\nsich hauptsächlich nur in einer neuern Sprache\nauszubilden haben, und zwar in einer Sprache,\nwelche sie in Folge eines längern Gebrauches\nmehr oder weniger geläufig sprechen können.\nZwar wird in deutschen Gymnasien neben dem\nDeutschen auch das Französische oder das Eng⸗\nlische gelehrt, doch hat der Schüler in letztern\nSprachen weit geringeren Anforderungen Genüge\nzu leisten als bei uns. Dasselbe gilt auch für\ndie französischen Lyceen, in welchen, außer dem\nFranzösischen eine andere moderne Sprache ge⸗\nlehrt wird. Die Ausbildung in den neuern\nSprachen muß also unsere ganzen künftigen\nLehrplane beherrschen, und diesem obersten Ziele\nmuß vorerst die gebührendste Rücksichtsnahme\ngesichert werden. Dies kann aber unmöglich er⸗"
+    },
+    {
+      "id": "0231",
+      "image": {
+        "width": 809,
+        "height": 2464
+      },
+      "measurement_unit": "mm10",
+      "lines": 53,
+      "words": 353,
+      "characters": 2413,
+      "language_prediction": "de",
+      "language_score": -9683.804794311523,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "Köln, 10. Febr. - In gestriger Sitzung\ndes Abgeordnetenhauses antwortete der Cultus⸗\nminister auf die Interpellation wegen Errich⸗\ntung einer juristischen Facultät an der Akademie\nzu Münster, daß die Staatsregierung eine solche\nnicht beabsichtige, da sie nicht nur provincielle,\nsondern mehr noch die Gesammt⸗Interessen zu\nberücksichtigen habe.\nPräsident Grabow eröffnete die Discussion\nüber den Antrag v. Hoverbeck und Genossen\nund ertheilt das Wort dem Referenten Herrn\nv. Forfenbeck\nMeine Herren! Ich bitte Sie, dem Antrage\nder Abgeordneten Frhr. v. Hoverbeck und Ge⸗\nnossen beizustimmen, weil die Thatsachen son⸗\nnenklar sind. Wir stehen vor einer Gewaltthat\ngegen unsere verfassungsmäßigen Rechte; und\ndiese müssen wir durch eine förmliche Erklärung\nals verfassungswidrig bezeichnen. Wir müssen\ndie vorgeschlagene Resolution annehmen, weil sie\neine Pflichterfüllung gegen das Volk, das wir\nvertreten, und gegen uns selbst ist. In der vor⸗\njährigen Landtagssession hielt der Abg. Twesten,\nals es sich darum handelte, ob ein von der Re⸗\ngierung geforderten Posten genehmigt werden\nsollte, oder nicht, eine Rede; ebenso der Abg.\nFrentzel. Schon im September desselben Jahres\nwurde der Abg. Twesten auf Antrag der Staats⸗\nanwaltschaft zur Verantwortung über diese Rede\nvorgeladen. Er erschien, lehnte jedoch jede ver⸗\nantwortliche Vernehmung ab. Er ist hier im\nHause anwesend und kann die Richtigkeit dieser\nThatsachen bestätigen. Darauf erhob die Staats⸗\nanwaltschaft Anklage gegen denselben, wurde\njedoch in erster und zweiter Instanz auf Grund\ndes Art. 84 der Verfassung zurückgewiesen. Da\nbeschloss das Plenum des Straf⸗Senats des\nKöniglichen Ober⸗Tribunals die Zulässigkeit der\nAnklage trotz des Art. 84. M. H! Diese That⸗\nsache ist wahr, sie wird berichtet von allen öf⸗\nfentlichen Blättern, auch von der officiösen Pro⸗\nvincial⸗Correspondenz, welche im Ministerium\nredigirt wird: sie ist wahr, denn dem Herrn\nJustizminister ist Gelegenheit geboten worden,\nsie zu dementiren, - und das ist nicht geschehen.\nDie Thatsache ist überall bekannt; schon bewegt\nsie alle Schichten der Bevölkerung. Meine Her⸗\nren! Wir können am allerwenigsten diese noto⸗\nrische, in ihren Folgen schwere Thatsache igno⸗\nriren. (Sehr wahr!) Es ist bei dem Beschlusse des\nObertribunals gleichgültig, ob er schriftlich aufge⸗\nsetzt ist oder nicht. Es ist ferner gleichgültig, ob er,\nwie behauptet wird, aufgehoben ist, oder gar nicht"
+    },
+    {
+      "id": "0887",
+      "image": {
+        "width": 805,
+        "height": 783
+      },
+      "measurement_unit": "mm10",
+      "lines": 16,
+      "words": 108,
+      "characters": 648,
+      "language_prediction": "fr",
+      "language_score": -2500.2925815582275,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "hôtes de M. et Mme Amersfoordt. Au des-\nsert, M. le ministre de France a porté la\nsanté des maîtres de la maison et les a\nremerciés de l’accueil fait par eux à ses\njeunes compatriotes. Les paroles prononcées\npar M. Target ont été couvertes d’applau-\ndissements. Après le déjeuner, visite à la\nlaiterie si intelligemment administrée par\nMme Amersfoordt, aux étables, aux machi-\nnes d’intérieur. Puis les voitures s’attèlent\net prennent la file sur la chaussée du ca-\nnal circulaire qui reçoit les eaux du lac Il\ns’agit d’aller voir l’installation des grandes\nmachines qui, après avoir épuisé le lac,\nl’empêchent aujourd’hui de se remplir de\nnouveau."
+    },
+    {
+      "id": "1059",
+      "image": {
+        "width": 900,
+        "height": 97
+      },
+      "measurement_unit": "mm10",
+      "lines": 2,
+      "words": 14,
+      "characters": 96,
+      "language_prediction": "de",
+      "language_score": -409.6502561569214,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "Die während der Belagerung und unter der Herr⸗\nschaft der Commune verlebten Schreckenstage geben"
+    },
+    {
+      "id": "0363",
+      "image": {
+        "width": 904,
+        "height": 1604
+      },
+      "measurement_unit": "mm10",
+      "lines": 33,
+      "words": 245,
+      "characters": 1445,
+      "language_prediction": "de",
+      "language_score": -5612.322031021118,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "aber wie die Gattin dem Manne, so ist sie seine\nGefährtin und Gehülfin, beide im Dienste der\nKirche. Nimmer aber ist sie seine Magd, seine\nSklavin, sie, die eben so wohl freie Her-\nrin ist und bleiben muss, als das Wort\nder freie Herr.\nOffenbar muss also das Wort im Anschlüsse an\ndie Tonformel nicht minder Rücksichten gebrau-\nchen, da wo es gilt, auf geringe Kosten der eige-\nnen Form die Formenschönheit und die ästhe-\ntisch vollkommene Ausprägung seiner Gefährtin\nzu achten und zu ehren. Demnach ziehen wir nicht\ndie Stirn in Runzeln, wenn die Form dem Bau\ndes Tonsatzes nachgibt, und sich gefallen lässt,\ndass eine kurze Silbe lang wird, oder mit mehre-\nren Noten verziert ist, und umgekehrt. Der Satz:\n«Musica non subjacet regulis Donati» wird somit\nseine volle Richtigkeit haben.\nEs wäre in der That eben so angenehm als loh-\nnend, durch kritische Vergleichung und Abwä-\ngung die alten Fassungen der Melodie den «ver-\nbesserten» der Neuzeit gegenüberzustellen. Ohne\nallen Zweifel würden die Leser - wir schreiben\nja zunächst und zumeist für Musiker - mit uns\nsehr bald zu dem Resultate kommen, dass über-\nall, wo der Text hat prævaliren wollen - und\ndas ist es eben, was die Neueren erstreben - der\nZauber der Musik, ihr Wesen, ihr Geist verloren\nist. Wir können aber an dieser Stelle in dem\nengen Rahmen unserer Arbeit nur kleine Proben\ngeben; wir wählen solche, die auch anderswo als\nMuster der Verbesserung aufgestellt sind.\nDie Stelle"
+    },
+    {
+      "id": "0164",
+      "image": {
+        "width": 794,
+        "height": 1037
+      },
+      "measurement_unit": "mm10",
+      "lines": 22,
+      "words": 167,
+      "characters": 959,
+      "language_prediction": "fr",
+      "language_score": -3582.5293097496033,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "Au moment où la lutte sanglante semble ne\nplus pouvoir être prévenue, voilà les commer-\nçants de Marseille signent une pétition au\nSénat pour demander le maintien de la paix.\nOn peut se faire une idée des souffrances et\ndes perturbations qu’entraîne la situation ac-\ntuelle, en disant qu’une des plus honorables\net des plus solides maisons du midi de la\nFrance n’a dû qu’à une intervention personelle\net toute gracieuse de M. Fould, et à l’appui\nde la Banque de pouvoir échapper aux con-\nsequences de la crise et de raffermir sans\ncraindre de nouveaux embarras une situation\nque personne à coup sûr, ne se fut avisée de\ncroire un moment douteuse.\nM. le baron de Rothschild est en négocia-\ntion, dit-on. avec le gouvernement italien pour\nacheter ceux des chemins de fer italiens qu’il\nne possède pas, ce qui semble indiquer que\nl’Italie ne paraît pas au prince des finances\ndans un état aussi désespéré qu’on le prétend,\nau point de vue des intérêts matériels."
+    },
+    {
+      "id": "0471",
+      "image": {
+        "width": 881,
+        "height": 201
+      },
+      "measurement_unit": "mm10",
+      "lines": 5,
+      "words": 36,
+      "characters": 259,
+      "language_prediction": "de",
+      "language_score": -1040.0941410064697,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "- Das abermalige Reißen des transatlantischen Kabeltaues\nveranlaßt die „Times“ zu dem Vorschlage, den Leviatbau zur\nLegung des unterseeischen Telegraphen zu benutzen. Dieses\nSchiff sei geräumig genug, um allein das ganze Tau mit\nBequemlichkeit zu beherbergen."
+    },
+    {
+      "id": "0757",
+      "image": {
+        "width": 798,
+        "height": 389
+      },
+      "measurement_unit": "mm10",
+      "lines": 7,
+      "words": 39,
+      "characters": 234,
+      "language_prediction": "fr",
+      "language_score": -513.9745717048645,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "S. A. R. le Prince Henri n’a pas\nfait annoncer officiellement son arrivée\ndans le grand-duché. Nous croyons ce-\npendant savoir que le Prince et la\nPrincesse arriveront dans la journée\nde demain. LL. AA. RR. descenderont\nà Walferdange."
+    },
+    {
+      "id": "1160",
+      "image": {
+        "width": 792,
+        "height": 193
+      },
+      "measurement_unit": "mm10",
+      "lines": 4,
+      "words": 25,
+      "characters": 128,
+      "language_prediction": "lb",
+      "language_score": -40.077434062957764,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "(260 Quart) 81 Thlr., ½ Fuder 61er (436\nQuart) 24-36½ Thlr., ½ Fuder 62er (450\nQuart) 160 Thlr., 2 Ohm 63er (335 Quart)\n94 Thlr."
+    },
+    {
+      "id": "0439",
+      "image": {
+        "width": 796,
+        "height": 96
+      },
+      "measurement_unit": "mm10",
+      "lines": 2,
+      "words": 12,
+      "characters": 76,
+      "language_prediction": "fr",
+      "language_score": -117.88073205947876,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "Cette mesure du proconsul de Vilna n’a\npas besoin de commentaires. (Patrie.)"
+    },
+    {
+      "id": "0455",
+      "image": {
+        "width": 893,
+        "height": 3059
+      },
+      "measurement_unit": "mm10",
+      "lines": 68,
+      "words": 268,
+      "characters": 1438,
+      "language_prediction": "lb",
+      "language_score": -5243.804971218109,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "89.\nWât ên net am Kapp huot, muss ên an de Féssen hun.\n90\nEt gi fil gut Schof an ê Stal.\n91.\nWién d’éscht kent, mûolt am éschten.\n92.\nBeim Auskiére fennt sech Alles.\n93.\nFaul Leit hu giére Feierdâch.\n94.\nHuol d’Aen an d’Hand!\n95.\nDât as en areme Joermârt, wó ên em élef\nZe fré, em zwiélef ze lantzem (ze spét) kemt.\n96.\nWanns de neischt mé huos, wiérs de klèng muolen.\n97.\nD’Gèlt wist net, wann ên’t sét.\n98.\nEt lêft fill Wâsser d’Bâch erân.\n99.\nD’ gebroden Dauwen fiée’ net an der Loft erem.\n100.\nAn der Sonn ferdengt ên de Schiéd.\n101.\nDen Hèr firaûs, derno kernt d’ganzt Haûs.\n102.\nGidwideré wês, wô en de Schong drékt.\n103.\nFil Scholt, fil Gedolt.\n104.\nWé ên d’Handwiérk dreift, esó gêt et.\n105.\nDe Kâfman lûoft séng Wûor.\n106.\nEt kemt kê Pâf an den Himmel.\n107.\nWann ên no èngem Hont wèrft da gerét ên e’ Pâf\n108.\nHaut mir, muor dir.\n109.\nWûorfir rackers de déch esó? du muss jo dach\nstiérwen.\n110.\nDé àl Scheiere brènnen am iérgsten.\n111.\nLéer du deî Fuoder e - - mâchen.\n(Léer en alen Aaf Konschte mâchen.)\n112.\nWié lâng supt (seift) liéft lang.\n113.\nGnodebròt, sauer Brót.\n114.\n’T jong Leit solle bei den Alen\nD’Oere brauchen an d’Maûl halen.\n115.\nKlèng Deppercher lâfe lîcht iwer.\n116.\nDe klèng Drèckeltcher stènken iérger as wé dé grósz\n117.\nE klèngt Kenntchen, èng gut Stenntchen.\n118.\nKlèng Kanner, klèng Suorgen, (Lêt;)\nGróss Kanner, gròss Suorgen. (Lêt.)\n119.\nD’Klèng Kanner hun d’Lâchen an d’Kreîschen an\nèngem Sèckeltchen."
+    },
+    {
+      "id": "1630",
+      "image": {
+        "width": 790,
+        "height": 1042
+      },
+      "measurement_unit": "mm10",
+      "lines": 21,
+      "words": 135,
+      "characters": 920,
+      "language_prediction": "de",
+      "language_score": -3537.3274626731873,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "Die Anhänglichkeit an das Haus unsrer\nFürsten wird von den entthronten Machthabern\nals Servilität bezeichnet; das gestrige Volks⸗\nfest zu Walferdingen wird sicher in ihren Augen\nals eine erbärmliche Komödie von Heuchelei\nund Verstellungskunst erscheinen. Jedermann\nschaut durch seine Brille und diejenigen Menschen,\nwelche nicht zwischen den Thürmen von\nDommeldingen erblenden, wissen positiv, daß\nnur ein freies, liberal regiertes Volk dem\nmonarchischen Prinzip solche Huldigungen dar⸗\nbringt, wie sie in unserm Lande aus der tiefsten\nUeberzeugung des Volkes hervorgehen. S. K. H.,\nder Prinz Heinrich der Niederlande und Statt⸗\nhalter S. Majestät des Königs, hat gesprochen\nund wird Wort halten. Das Land sitzt zu\nGericht und erkennt seine Erzmänner, die Großen,\nwie die Kleinen; jedes Votum bleibt ein\nhistorisches Merkmal, und die Zukunft wird aus\nder Wahlurne die Belohnung des Civismus\noder des Egoismus austheilen!"
+    },
+    {
+      "id": "0009",
+      "image": {
+        "width": 918,
+        "height": 1289
+      },
+      "measurement_unit": "mm10",
+      "lines": 24,
+      "words": 202,
+      "characters": 1201,
+      "language_prediction": "de",
+      "language_score": -5164.640190601349,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "gießer. Nun, weiß Er was, ich hab’ mir einen Plan\nerdacht. Wird der alte Schacht wieder gangbar, so\nmüssen wir doch dort neue Bergleute anlegen und\nmehr als am neuen. Da reicht nun ein Schichtmei⸗\nster mit einem Grubensteiger und Hutmanne nicht\naus, und wenn wir schon dem Frenzel die Leitung\nbeider Gruben als Schichtmeister lassen, so brauchen\nwir doch noch ein paar Grubensteiger für den obern\nSchacht und für beide Schächte einen tüchtigen Ober⸗\nsteiger. Und der wird Er und kein anderer. Dann\ndenk’ ich, soll Er auch sein Mädchen bekommen.\nFerdinand drückte dem Redner freudig die Hand.\nWenn über mich befohlen wird, sagte er, so gehorche\nich. Aber den Schichtmeister übergehen Sie nicht!\nUnd wenn er das Wagstück auf sich nimmt, so wollen\ndie Herrn Gewerken hübsch an seine Familie denken.\nDaran soll’s nicht fehlen, sagte Mickley, und Fer⸗\ndinand nahm Abschied. Er hatte in der einzigen Buch⸗\nhandlung des Ortes ein Buch über Naturlehre be⸗\nstellt und wollte sehen, ob es angekommen sei. Er\nmußte da an dem Hause des Goldschmieds vorbei\nund begegnete vor der Thür desselben dem Schichtmei⸗\nster mit ganz verstörtem Gesicht. Er konnte sich nicht\nhelfen, er trat mit einem Glückauf auf ihn zu und"
+    },
+    {
+      "id": "0345",
+      "image": {
+        "width": 895,
+        "height": 954
+      },
+      "measurement_unit": "mm10",
+      "lines": 23,
+      "words": 184,
+      "characters": 1067,
+      "language_prediction": "fr",
+      "language_score": -3099.196460723877,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "L’image de ja belle, de la charmante, de l’ado-\nrée, tournoyait autour de lui et l’attirait comme un\nfeu follet qui sautille la nuit à travers les marais.\n- Clara, chère et cruelle Clara, soupirait-il.\nEnfin le troisième jour, à bout de forces, n’y\ntenant plus il sonna, se fit ouvrir, et comme un\ninsensé, riant et pleurant, il se précipita aux pieds\nde son idole.\n- Pardonnez-moi, murmura-t-il, j’ai voulu vous\noublier, j’ai voulu vous trahir; mais l’entreprise\ndépassait mes forces. Je vous aime, je n’aime que\nvons. Oh! Clara, de grâce, éeoutez-moi; me voici\nsoumis et repentant; je dépose à vos pieds ma\nfortune, mon nom; ma vie, et c’est de vous seule\ndésormais que jattends mon bonheur. Parlez, or-\ndonnez, le jour qu’il vous plaira, vous serez ma\nfemme, devant les hommes et devant Dieu.\n- Oh! je vous crois, s’écria-t-elle: votre voix,\nvore accent, votre émotion, vos larmes me disent\nd’avoir foi en vous, et je puis l’avouer maintenant:\nmoi aussi je vous aime.\nEn frissonnante et empourprée, elle tendit son\nfront à Anatole, qui y imprima un brulant baiser."
+    },
+    {
+      "id": "0456",
+      "image": {
+        "width": 789,
+        "height": 194
+      },
+      "measurement_unit": "mm10",
+      "lines": 4,
+      "words": 19,
+      "characters": 139,
+      "language_prediction": "fr",
+      "language_score": -171.3106026649475,
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0,
+      "reference_text": "Southampton, 31 janvier. Le Tasmanian,\nvenant des Indes-Occidentales, apporte\n2,770178 dollars, dont 2,021,158 en or, et\n741,397 en argent."
+    }
+  ]
+}

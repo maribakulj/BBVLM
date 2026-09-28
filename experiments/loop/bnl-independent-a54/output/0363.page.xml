@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-28T10:18:24.400349+00:00</Created>
+    <LastChange>2026-09-28T10:18:24.400349+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A46_0363" imageWidth="904" imageHeight="1604">
+    <TextRegion id="r000">
+      <Coords points="9,5 -5,1542 35,1590 196,1590 229,1588 335,1537 761,1535 882,1486 892,1054 890,-6 9,5"/>
+      <TextLine id="r000-l001" index="0" custom="heights_v2:[32.0,13.4]">
+        <Coords points="890,-6 788,-4 690,-2 595,-2 497,1 400,1 362,1 233,2 206,3 185,3 9,5 10,51 109,48 207,48 305,46 400,46 498,46 595,44 691,44 789,41 890,39 890,-6"/>
+        <Baseline points="9,37 109,35 207,35 305,33 400,33 498,33 595,30 691,30 788,28 890,26"/>
+        <TextEquiv conf="1.000">
+          <Unicode>aber wie die Gattin dem Manne , so ist sie seine</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l002" index="1" custom="heights_v2:[31.7,13.1]">
+        <Coords points="890,45 790,47 693,47 597,50 500,50 402,50 307,50 209,50 111,52 12,52 12,97 112,97 209,95 307,95 402,95 500,95 598,95 693,92 791,92 890,90 890,45"/>
+        <Baseline points="12,84 112,84 209,81 307,81 402,81 500,81 598,81 693,79 791,79 890,77"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Gefährtin und Gehülfin, beide im Dienste der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l003" index="2" custom="heights_v2:[31.7,13.3]">
+        <Coords points="890,100 890,94 788,96 691,96 595,96 498,96 400,96 305,96 206,99 109,99 9,99 9,144 109,144 207,144 305,141 400,141 498,141 595,141 691,141 789,141 890,139 890,100"/>
+        <Baseline points="9,130 109,130 207,130 305,128 400,128 498,128 595,128 691,128 788,128 890,126"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Kirche. Nimmer aber ist sie seine Magd, seine</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l004" index="3" custom="heights_v2:[31.7,13.5]">
+        <Coords points="7,190 107,193 205,193 302,193 400,193 495,190 593,190 691,190 789,188 890,183 890,159 889,138 787,143 690,145 593,145 495,145 399,147 302,147 205,147 107,147 8,145 7,169 7,190"/>
+        <Baseline points="7,177 107,179 205,179 302,179 400,179 495,177 593,177 691,177 788,174 890,170"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Sklavin, sie, die eben so wohl freie Her-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l005" index="4" custom="heights_v2:[31.6,13.7]">
+        <Coords points="890,187 790,189 692,192 595,194 498,194 399,196 302,196 205,196 107,196 7,196 7,242 107,242 205,242 302,242 400,242 498,239 596,239 693,237 791,235 890,232 890,187"/>
+        <Baseline points="7,228 107,228 205,228 302,228 400,228 498,226 595,226 693,223 791,221 890,219"/>
+        <TextEquiv conf="1.000">
+          <Unicode>rin ist und bleiben muss, als das Wort</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l006" index="5" custom="heights_v2:[32.4,14.1]">
+        <Coords points="7,293 41,293 70,291 98,291 128,291 157,291 186,289 214,289 245,288 280,286 277,240 242,242 214,242 186,242 153,244 128,244 98,244 70,244 37,247 7,247 7,293"/>
+        <Baseline points="7,279 40,279 70,277 98,277 128,277 156,277 186,274 214,274 244,274 279,272"/>
+        <TextEquiv conf="1.000">
+          <Unicode>der freie Herr.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l007" index="6" custom="heights_v2:[32.2,13.6]">
+        <Coords points="891,286 795,286 702,286 609,286 516,289 423,289 329,291 237,291 144,291 47,291 47,337 144,337 237,337 331,337 423,335 517,335 609,332 702,332 795,332 891,332 891,286"/>
+        <Baseline points="47,323 144,323 237,323 330,323 423,321 516,321 609,319 702,319 795,319 891,319"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Offenbar muss also das Wort im Anschlusse an</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l008" index="7" custom="heights_v2:[32.0,13.7]">
+        <Coords points="5,386 104,384 203,386 300,384 398,384 495,381 593,381 691,381 789,381 891,379 891,355 890,333 788,335 691,335 593,335 495,335 397,338 300,338 202,340 105,338 6,340 5,386"/>
+        <Baseline points="5,372 105,370 202,372 300,370 398,370 495,368 593,368 691,368 788,368 891,365"/>
+        <TextEquiv conf="1.000">
+          <Unicode>die Tonformel nicht minder Rücksichten gebrau-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l009" index="8" custom="heights_v2:[32.2,14.0]">
+        <Coords points="5,435 105,435 203,433 300,430 398,430 495,428 593,428 691,430 789,428 891,426 891,404 890,379 788,382 690,384 594,382 495,382 397,384 300,384 202,386 104,389 5,389 5,435"/>
+        <Baseline points="5,421 105,421 202,419 300,416 398,416 495,414 593,414 691,416 788,414 891,412"/>
+        <TextEquiv conf="1.000">
+          <Unicode>chen, da wo es gilt, auf geringe Kosten der eige-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l010" index="9" custom="heights_v2:[31.7,13.6]">
+        <Coords points="4,481 105,479 203,479 300,476 398,474 495,474 593,474 691,476 789,474 891,472 891,454 890,427 788,429 690,431 594,429 495,429 398,429 299,431 202,434 105,434 5,436 4,481"/>
+        <Baseline points="5,467 105,465 202,465 300,463 398,461 495,461 593,461 691,463 788,461 891,458"/>
+        <TextEquiv conf="1.000">
+          <Unicode>nen Form die Formenschönheit und die asthe-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l011" index="10" custom="heights_v2:[31.8,13.7]">
+        <Coords points="4,528 105,528 203,528 300,525 398,525 495,525 593,525 691,525 788,523 891,523 891,478 788,478 690,480 593,480 495,480 398,480 300,480 202,482 105,482 4,482 4,528"/>
+        <Baseline points="4,514 105,514 202,514 300,512 398,512 495,512 593,512 691,512 788,509 891,509"/>
+        <TextEquiv conf="1.000">
+          <Unicode>tisch vollkommene Ausprägung seiner Gefährtin</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l012" index="11" custom="heights_v2:[32.2,13.8]">
+        <Coords points="4,579 105,577 202,577 300,577 398,577 496,574 593,572 690,572 788,574 891,574 891,532 891,528 788,528 692,526 593,526 495,528 397,531 300,531 202,531 105,531 4,533 4,579"/>
+        <Baseline points="4,565 105,563 202,563 300,563 398,563 495,561 593,558 691,558 788,561 891,561"/>
+        <TextEquiv conf="1.000">
+          <Unicode>zu achten und zu ehren. Demnach ziehen wir nicht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l013" index="12" custom="heights_v2:[32.0,13.8]">
+        <Coords points="5,626 105,626 203,626 300,623 398,623 493,623 591,621 689,621 786,619 889,619 889,573 786,573 688,575 591,575 492,577 398,577 300,577 202,580 105,580 5,580 5,626"/>
+        <Baseline points="5,612 105,612 202,612 300,609 398,609 493,609 591,607 688,607 786,605 889,605"/>
+        <TextEquiv conf="1.000">
+          <Unicode>die Stirn in Runzeln, wenn die Form dem Bau</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l014" index="13" custom="heights_v2:[31.8,13.8]">
+        <Coords points="5,672 105,672 202,672 300,672 396,672 493,670 591,667 686,667 784,670 886,670 886,624 784,624 687,622 591,622 492,624 395,626 300,626 202,626 105,626 5,626 5,672"/>
+        <Baseline points="5,658 105,658 202,658 300,658 395,658 493,656 591,654 686,654 784,656 886,656"/>
+        <TextEquiv conf="1.000">
+          <Unicode>des Tonsatzes nachgibt, und sich gefallen lässt,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l015" index="14" custom="heights_v2:[31.8,13.7]">
+        <Coords points="5,721 105,721 202,721 300,721 395,721 493,721 591,718 686,718 784,716 886,714 885,668 783,671 685,673 591,673 492,675 395,675 300,675 202,675 105,675 5,675 5,721"/>
+        <Baseline points="5,707 105,707 202,707 300,707 395,707 493,707 591,705 686,705 784,702 886,700"/>
+        <TextEquiv conf="1.000">
+          <Unicode>dass eine kurze Silbe lang wird, oder mit mehre-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l016" index="15" custom="heights_v2:[32.3,13.7]">
+        <Coords points="2,730 2,770 103,770 200,767 298,770 395,770 493,770 591,767 689,767 786,765 889,763 888,717 785,719 688,721 591,721 492,724 395,724 298,724 201,721 102,724 2,724 2,730"/>
+        <Baseline points="2,756 102,756 200,754 298,756 395,756 493,756 591,754 688,754 786,751 889,749"/>
+        <TextEquiv conf="1.000">
+          <Unicode>ren Noten verziert ist, und umgekehrt. Der Satz :</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l017" index="16" custom="heights_v2:[31.9,13.8]">
+        <Coords points="5,819 105,819 203,819 300,816 398,816 493,816 591,814 688,814 786,814 889,812 888,766 785,768 688,768 591,768 492,771 398,771 300,771 202,773 105,773 5,773 5,819"/>
+        <Baseline points="5,805 105,805 202,805 300,802 398,802 493,802 591,800 688,800 786,800 889,798"/>
+        <TextEquiv conf="1.000">
+          <Unicode>«Musica non subjacet regulis Donati» wird somit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l018" index="17" custom="heights_v2:[31.8,13.7]">
+        <Coords points="1,870 63,867 121,867 181,867 240,867 300,865 359,865 419,863 477,863 542,863 542,817 477,817 419,817 357,820 300,820 238,822 181,822 121,822 63,822 2,824 1,870"/>
+        <Baseline points="1,856 63,854 121,854 181,854 240,854 300,851 358,851 419,849 477,849 542,849"/>
+        <TextEquiv conf="1.000">
+          <Unicode>seine volle Richtigkeit haben.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l019" index="18" custom="heights_v2:[31.6,13.7]">
+        <Coords points="35,914 133,914 226,914 321,914 414,912 509,912 602,912 698,912 791,909 891,907 890,862 790,864 697,866 602,866 509,866 414,866 320,869 226,869 133,869 35,869 35,914"/>
+        <Baseline points="35,900 133,900 226,900 321,900 414,898 509,898 602,898 698,898 791,895 891,893"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Es wäre in der That eben so angenehm als loh-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l020" index="19" custom="heights_v2:[31.8,13.7]">
+        <Coords points="0,963 100,963 198,960 296,960 393,958 493,958 591,956 689,956 786,953 891,951 890,906 785,908 688,910 591,910 492,913 393,913 295,915 198,915 99,917 1,917 0,963"/>
+        <Baseline points="0,949 100,949 198,947 295,947 393,944 493,944 591,942 688,942 786,940 891,937"/>
+        <TextEquiv conf="1.000">
+          <Unicode>nend, durch kritische Vergleichung und Abwä-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l021" index="20" custom="heights_v2:[32.3,13.7]">
+        <Coords points="0,1000 0,1014 102,1012 201,1012 298,1007 396,1007 493,1005 591,1005 688,1002 787,1002 891,998 889,952 785,956 688,956 590,959 493,959 395,961 298,961 198,966 102,966 0,968 0,1000"/>
+        <Baseline points="0,1000 102,998 200,998 298,993 395,993 493,991 591,991 688,989 786,989 891,984"/>
+        <TextEquiv conf="1.000">
+          <Unicode>gung die alten Fassungen der Melodie den « ver-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l022" index="21" custom="heights_v2:[32.1,13.6]">
+        <Coords points="0,1056 102,1056 200,1056 298,1056 396,1056 493,1053 591,1053 688,1051 786,1051 891,1051 891,1005 786,1005 688,1005 590,1008 493,1008 395,1010 298,1010 200,1010 102,1010 0,1010 0,1056"/>
+        <Baseline points="0,1042 102,1042 200,1042 298,1042 395,1042 493,1040 591,1040 688,1037 786,1037 891,1037"/>
+        <TextEquiv conf="1.000">
+          <Unicode>besserten » der Neuzeit gegenüberzustellen. Ohne</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l023" index="22" custom="heights_v2:[31.8,13.4]">
+        <Coords points="892,1054 787,1052 688,1052 591,1052 492,1054 395,1057 298,1057 199,1059 102,1061 0,1061 0,1107 103,1107 200,1104 298,1102 396,1102 493,1100 591,1097 688,1097 786,1097 891,1100 892,1054"/>
+        <Baseline points="0,1093 102,1093 200,1091 298,1089 395,1089 493,1086 591,1084 688,1084 786,1084 891,1086"/>
+        <TextEquiv conf="1.000">
+          <Unicode>allen Zweifel würden die Leser — wir schreiben</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l024" index="23" custom="heights_v2:[31.8,13.5]">
+        <Coords points="891,1101 788,1101 691,1101 593,1101 495,1103 398,1103 299,1106 202,1108 104,1110 2,1110 2,1156 105,1156 203,1153 300,1151 398,1149 496,1149 593,1146 691,1146 788,1146 889,1146 891,1101"/>
+        <Baseline points="2,1142 105,1142 202,1140 300,1137 398,1135 495,1135 593,1133 691,1133 788,1133 890,1133"/>
+        <TextEquiv conf="1.000">
+          <Unicode>ja zunächst und zumeist für Musiker — mit uns</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l025" index="24" custom="heights_v2:[31.8,13.5]">
+        <Coords points="889,1179 887,1143 785,1147 688,1150 591,1150 492,1152 395,1154 298,1154 199,1157 102,1157 2,1157 2,1202 102,1202 200,1202 298,1200 396,1200 493,1197 591,1195 689,1195 787,1193 889,1188 889,1179"/>
+        <Baseline points="2,1189 102,1189 200,1189 298,1186 395,1186 493,1184 591,1182 688,1182 786,1179 889,1175"/>
+        <TextEquiv conf="1.000">
+          <Unicode>sehr bald zu dem Resultate kommen, dass über-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l026" index="25" custom="heights_v2:[32.6,13.8]">
+        <Coords points="2,1249 102,1249 200,1249 298,1247 395,1244 491,1244 589,1244 686,1242 784,1240 886,1240 886,1193 784,1193 685,1196 588,1198 491,1198 395,1198 297,1200 199,1202 102,1202 2,1202 2,1249"/>
+        <Baseline points="2,1235 102,1235 200,1235 298,1233 395,1230 491,1230 588,1230 686,1228 784,1226 886,1226"/>
+        <TextEquiv conf="1.000">
+          <Unicode>all, wo der Text hat prævaliren wollen — und</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l027" index="26" custom="heights_v2:[33.0,13.9]">
+        <Coords points="0,1298 100,1298 198,1295 295,1293 393,1293 489,1293 586,1291 684,1291 782,1291 884,1291 884,1244 782,1244 684,1244 586,1244 488,1246 393,1246 295,1246 197,1249 99,1251 0,1251 0,1298"/>
+        <Baseline points="0,1284 100,1284 198,1282 295,1279 393,1279 488,1279 586,1277 684,1277 782,1277 884,1277"/>
+        <TextEquiv conf="1.000">
+          <Unicode>das ist es eben, was die Neueren erstreben — der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l028" index="27" custom="heights_v2:[33.0,13.9]">
+        <Coords points="0,1349 100,1347 198,1344 295,1342 391,1342 488,1337 586,1337 682,1340 779,1337 882,1337 882,1290 779,1290 681,1293 587,1290 488,1290 389,1295 295,1295 197,1297 99,1300 -1,1302 0,1349"/>
+        <Baseline points="0,1335 100,1333 198,1330 295,1328 391,1328 488,1323 586,1323 682,1326 779,1323 882,1323"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Zauber der Musik, ihr Wesen, ihr Geist verloren</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l029" index="28" custom="heights_v2:[32.6,13.8]">
+        <Coords points="-3,1354 -2,1398 98,1395 195,1393 293,1393 391,1391 486,1388 584,1386 682,1386 779,1386 882,1386 882,1340 779,1340 682,1340 584,1340 485,1342 390,1344 292,1347 195,1347 97,1349 -3,1351 -3,1354"/>
+        <Baseline points="-2,1384 98,1382 195,1379 293,1379 391,1377 486,1375 584,1372 682,1372 779,1372 882,1372"/>
+        <TextEquiv conf="1.000">
+          <Unicode>ist. Wir können aber an dieser Stelle in dem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l030" index="29" custom="heights_v2:[32.7,13.7]">
+        <Coords points="0,1446 100,1444 198,1444 296,1442 391,1440 489,1440 586,1437 682,1437 780,1437 882,1435 881,1388 778,1391 682,1391 586,1391 488,1393 391,1393 295,1395 197,1398 100,1398 -1,1400 0,1446"/>
+        <Baseline points="0,1433 100,1430 198,1430 295,1428 391,1426 488,1426 586,1423 682,1423 779,1423 882,1421"/>
+        <TextEquiv conf="1.000">
+          <Unicode>engen Rahmen unserer Arbeit nur kleine Proben</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l031" index="30" custom="heights_v2:[32.6,13.7]">
+        <Coords points="-4,1493 95,1491 193,1491 291,1491 388,1488 486,1488 584,1488 682,1488 780,1488 882,1486 881,1440 778,1442 682,1442 584,1442 486,1442 388,1442 290,1444 193,1444 95,1444 -4,1447 -4,1493"/>
+        <Baseline points="-4,1479 95,1477 193,1477 291,1477 388,1475 486,1475 584,1475 682,1475 779,1475 882,1472"/>
+        <TextEquiv conf="1.000">
+          <Unicode>geben ; wir wählen solche, die auch anderswo als</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l032" index="31" custom="heights_v2:[32.7,13.8]">
+        <Coords points="-5,1542 84,1542 168,1540 251,1537 335,1537 543,1536 586,1535 615,1536 761,1535 760,1488 669,1491 587,1488 501,1491 419,1491 335,1491 251,1491 167,1493 83,1495 -4,1495 -5,1542"/>
+        <Baseline points="-5,1528 84,1528 167,1526 251,1523 335,1523 419,1523 502,1523 586,1521 670,1523 761,1521"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Muster der Verbesserung aufgestellt sind.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l033" index="32" custom="heights_v2:[32.6,13.4]">
+        <Coords points="196,1590 229,1588 226,1542 193,1544 170,1544 144,1544 116,1544 91,1544 65,1544 35,1544 35,1590 196,1590"/>
+        <Baseline points="35,1577 65,1577 91,1577 116,1577 144,1577 170,1577 195,1577 228,1575"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die Stelle</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

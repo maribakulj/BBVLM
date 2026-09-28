@@ -367,10 +367,86 @@
     "passes": {"layout":0,"recognition":0,"vlm":0},
     "warning": "official MODS 3.8 XSD retrieval returned HTTP 403; do not call the profile fully XSD-validated or open the project gate"
   },
+  "local_ownership_a41_a43": {
+    "status": "consumed_development_complete_all_candidates_rejected",
+    "datasets": ["predicted-lines-a36", "predicted-lines-a37"],
+    "baseline": "A37 nonexpanding_vertical router",
+    "reference_inputs_in_router": false,
+    "a41": {"rule":"non-worsening rectangle excess beyond PERO baseline/heights_v2 band","parameters":0,"decision":"reject"},
+    "a42": {"rule":"non-worsening fraction of foreground pixels nearer another predicted line centre","parameters":0,"decision":"reject"},
+    "a43": {"rule":"reject only if a strict majority of newly added foreground is nearer another predicted line centre","parameters":0,"decision":"reject"},
+    "passes": {"new_vlm":0,"new_ocr":0,"cpu_image_replays":2},
+    "selection_gate": "candidate must not reduce mean IoU or IoU80 on either consumed predicted-line set and must strictly improve at least one",
+    "warning": "A36/A37 are consumed; these comparisons can reject candidates but cannot provide independent validation"
+  },
+  "component_majority_a44": {
+    "status": "consumed_development_complete_rejected",
+    "datasets": ["predicted-lines-a36", "predicted-lines-a37"],
+    "candidate": "reject an A37 refinement when it newly introduces a complete selected connected component whose majority of pixels is nearest another predicted line centre",
+    "parameters": 0,
+    "reference_inputs_in_router": false,
+    "result": {
+      "a36_mean_iou": {"a37": 0.6980753326305424, "a44": 0.6926069883425487},
+      "a36_iou80": {"a37": 0.26831785345717235, "a44": 0.2672858617131063},
+      "a36_fixed_assignment_regressions": {"a37": 32, "a44": 17},
+      "a37_mean_iou": {"a37": 0.8535948912945894, "a44": 0.852219561192958},
+      "a37_iou80": {"a37": 0.6864406779661016, "a44": 0.6864406779661016},
+      "a37_fixed_assignment_regressions": {"a37": 11, "a44": 6}
+    },
+    "decision": "reject; fewer regressions do not compensate for aggregate loss on either consumed set",
+    "passes": {"new_vlm": 0, "new_ocr": 0, "cpu_image_replays": 2},
+    "warning": "A36/A37 are consumed; do not tune a majority threshold on them"
+  },
+  "bnl_independent_a45": {
+    "status": "frozen_sample_consumed_by_a46_and_targeted_a47_audit",
+    "source": "BnL raw ground truth newspapers before 1878, CC0",
+    "selection": "24 of 1702 numeric member IDs selected by SHA-256(BBVLM-A45:<ID>) before any image or XML content inspection",
+    "transport": "HTTP ZIP central-directory and member byte ranges only; complete 1.9 GiB archive not downloaded; every selected member verified by ZIP CRC32",
+    "sample": {"blocks": 24, "lines": 483, "words": 3741, "characters": 23108},
+    "predicted_language_strata": {
+      "fr": {"blocks": 12, "lines": 208, "words": 1677, "characters": 10056},
+      "de": {"blocks": 11, "lines": 239, "words": 1665, "characters": 10997},
+      "lb": {"blocks": 1, "lines": 36, "words": 399, "characters": 2055}
+    },
+    "geometry_checks": {"invalid_line_boxes": 0, "invalid_word_boxes": 0, "word_not_contained_by_parent_line": 0},
+    "reference_policy": "provider double-keyed transcription >=99.95% supports independent OCR evaluation; raw pack is explicitly intended for text-line segmentation. Existing String rectangles are not promoted to perfect word-box truth because manual word-box adjudication is not stated.",
+    "next": "independent human adjudication of flagged text spans; new page-level French newspaper holdout for columns, articles and reading order",
+    "accepted_for_project_completion_gate": false
+  },
+  "bnl_independent_a46": {
+    "status": "amended_transfer_evaluation_complete",
+    "scope": "24 frozen BnL blocks; 12-block French stratum",
+    "coordinate_adapter": "ALTO mm10 to documented 300-PPI PNG pixels by 300/254; first unscaled report retained invalid",
+    "french": {
+      "strict_nfc_cer": 0.0147175815433572,
+      "search_v1_cer": 0.004907852564102564,
+      "lexical_alnum_cer": 0.002243829468960359,
+      "lexical_exact_blocks": 9,
+      "blocks": 12,
+      "line_recall_iou50": 0.9951923076923077,
+      "native_word_mean_iou": 0.5511806722145638,
+      "routed_word_mean_iou": 0.615880377760477,
+      "native_word_recall_iou50": 0.6696481812760883,
+      "routed_word_recall_iou50": 0.7358378056052475
+    },
+    "passes": {"vlm": 0, "recognizer_forwards": 492},
+    "warning": "String rectangles are diagnostic, not documented as manually adjudicated perfect word boxes; post-score coordinate amendment prevents a pristine evaluator claim",
+    "accepted_for_project_completion_gate": false
+  },
+  "bnl_vlm_a47": {
+    "status": "targeted_post_score_blind_audit_complete",
+    "readers": ["gpt-6-luna", "gpt-6-sol"],
+    "scope": "seven images selected from the three known French A46 lexical-residual blocks",
+    "retrieval_fold_v1": "NFKD, casefold, remove combining marks, retain letters/digits only; separate from diplomatic text",
+    "reader_agreement": "zero retrieval-fold edits across all seven items",
+    "agreement_with_immutable_reference": {"luna_edits": 4, "sol_edits": 4, "characters": 774, "cer": 0.00516795865633075},
+    "warning": "targeted selection and probable provider errors; model consensus is triage, not ground truth, and original XML is unchanged",
+    "accepted_for_project_completion_gate": false
+  },
   "implementation_checks": {
     "alto44_mets1121_xsd_validation": true,
     "full_institutional_metadata_profile": false,
-    "offline_tests_passed": 60,
+    "offline_tests_passed": 86,
     "offline_tests_skipped": 1
   },
   "sbb_reference_a18": {

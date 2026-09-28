@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-28T10:18:33.959810+00:00</Created>
+    <LastChange>2026-09-28T10:18:33.959810+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A46_0455" imageWidth="893" imageHeight="3059">
+    <TextRegion id="r012">
+      <Coords points="412,16 411,54 465,56 467,18 412,16"/>
+      <TextLine id="r012-l001" index="0" custom="heights_v2:[27.8,10.5]">
+        <Coords points="411,54 465,56 467,18 412,16 411,54"/>
+        <Baseline points="411,43 466,46"/>
+        <TextEquiv conf="1.000">
+          <Unicode>89.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r001">
+      <Coords points="12,61 11,104 877,104 877,61 12,61"/>
+      <TextLine id="r001-l002" index="0" custom="heights_v2:[30.0,12.6]">
+        <Coords points="11,104 877,104 877,61 301,61 205,64 110,64 12,61 11,104"/>
+        <Baseline points="11,91 110,94 206,94 301,91 395,91 491,91 587,91 680,91 776,91 877,91"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Wât ên net am Kapp huot, muss ên an de Féssen hun.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r014">
+      <Coords points="466,123 413,123 413,167 466,167 466,123"/>
+      <TextLine id="r014-l003" index="0" custom="heights_v2:[32.3,11.3]">
+        <Coords points="413,123 413,167 466,167 466,123 413,123"/>
+        <Baseline points="413,155 466,155"/>
+        <TextEquiv conf="1.000">
+          <Unicode>90</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r010">
+      <Coords points="139,320 171,370 171,412 187,456 187,499 231,587 658,585 703,497 703,454 719,407 719,366 754,318 754,278 687,186 183,190 183,232 139,280 139,320"/>
+      <TextLine id="r010-l004" index="0" custom="heights_v2:[28.9,12.4]">
+        <Coords points="328,189 296,190 242,190 183,190 183,232 242,232 297,232 352,229 407,229 461,227 516,227 571,227 626,227 687,227 687,186 328,189"/>
+        <Baseline points="183,219 242,219 297,219 352,217 406,217 461,215 516,215 571,215 626,215 687,215"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Et gi fil gut Schof an ê Stal.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r010-l005" index="1" custom="heights_v2:[27.2,11.2]">
+        <Coords points="415,272 472,274 474,235 417,233 415,272"/>
+        <Baseline points="416,260 473,263"/>
+        <TextEquiv conf="1.000">
+          <Unicode>91.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r010-l006" index="2" custom="heights_v2:[27.9,11.6]">
+        <Coords points="754,278 680,278 614,278 546,278 480,278 411,278 345,278 276,278 209,280 139,280 139,320 210,320 276,318 345,318 411,318 480,318 546,318 614,318 680,318 754,318 754,278"/>
+        <Baseline points="139,308 210,308 276,306 345,306 411,306 480,306 546,306 614,306 680,306 754,306"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Wién d'éscht kent, múolt am éschten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r010-l007" index="3" custom="heights_v2:[28.4,11.2]">
+        <Coords points="417,358 472,361 474,321 419,319 417,358"/>
+        <Baseline points="418,347 473,349"/>
+        <TextEquiv conf="1.000">
+          <Unicode>92.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r010-l008" index="4" custom="heights_v2:[29.2,12.2]">
+        <Coords points="171,412 236,412 295,410 354,407 413,407 475,407 534,407 594,407 653,407 719,407 719,366 653,366 594,366 534,366 475,366 413,366 354,366 293,368 234,370 171,370 171,412"/>
+        <Baseline points="171,400 235,400 295,397 354,395 413,395 475,395 534,395 594,395 653,395 719,395"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Beim Auskiére fennt sech Alles.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r010-l009" index="5" custom="heights_v2:[27.9,12.1]">
+        <Coords points="413,450 470,450 470,410 413,410 413,450"/>
+        <Baseline points="413,438 470,438"/>
+        <TextEquiv conf="1.000">
+          <Unicode>93.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r010-l010" index="6" custom="heights_v2:[30.6,12.6]">
+        <Coords points="187,499 247,499 304,499 361,497 416,497 473,497 530,497 585,497 642,497 703,497 703,454 642,454 585,454 530,454 473,454 416,454 361,454 302,456 247,456 187,456 187,499"/>
+        <Baseline points="187,486 247,486 304,486 361,484 416,484 473,484 530,484 585,484 642,484 703,484"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Faul Leit hu giére Feierdâch.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r010-l011" index="7" custom="heights_v2:[29.4,12.1]">
+        <Coords points="416,540 475,540 475,498 416,498 416,540"/>
+        <Baseline points="416,527 475,527"/>
+        <TextEquiv conf="1.000">
+          <Unicode>94.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r010-l012" index="8" custom="heights_v2:[29.8,11.6]">
+        <Coords points="599,585 605,585 658,585 658,543 605,543 558,546 514,546 466,546 420,546 374,546 327,546 281,546 231,546 231,587 599,585"/>
+        <Baseline points="231,575 281,575 327,575 374,575 420,575 466,575 514,575 559,575 605,573 658,573"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Huol d'Aen an d'Hand!</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r002">
+      <Coords points="112,811 167,948 167,992 724,990 724,945 772,809 873,807 872,767 833,677 801,632 562,634 476,587 417,587 329,636 91,636 90,679 14,771 14,811 112,811"/>
+      <TextLine id="r002-l013" index="0" custom="heights_v2:[30.2,11.8]">
+        <Coords points="418,587 418,628 475,628 475,587 418,587"/>
+        <Baseline points="418,617 475,617"/>
+        <TextEquiv conf="1.000">
+          <Unicode>95.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r002-l014" index="1" custom="heights_v2:[28.2,11.9]">
+        <Coords points="676,633 639,634 562,634 483,636 406,636 329,636 91,636 92,676 173,674 251,676 329,676 406,676 484,676 562,674 640,674 717,672 801,672 801,632 676,633"/>
+        <Baseline points="91,664 174,662 251,664 329,664 406,664 484,664 562,662 639,662 717,660 801,660"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Dât as en areme Joermârt, wó ên em élef</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r002-l015" index="2" custom="heights_v2:[26.5,11.9]">
+        <Coords points="746,679 664,681 582,681 500,681 420,681 338,681 255,684 174,681 90,679 89,718 173,720 256,722 338,720 420,720 500,720 582,720 665,720 747,718 834,715 833,677 746,679"/>
+        <Baseline points="89,706 174,708 256,710 338,708 420,708 500,708 582,708 664,708 747,706 833,703"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Ze fré, em zwiélef ze lantzem (ze spét) kemt.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r002-l016" index="3" custom="heights_v2:[27.4,10.8]">
+        <Coords points="422,762 477,764 478,726 424,724 422,762"/>
+        <Baseline points="422,751 477,754"/>
+        <TextEquiv conf="1.000">
+          <Unicode>96.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r002-l017" index="4" custom="heights_v2:[28.0,11.9]">
+        <Coords points="873,807 872,767 771,769 678,771 585,771 489,771 396,769 300,774 206,771 112,771 14,771 14,811 112,811 205,811 302,813 395,809 489,811 585,811 678,811 772,809 873,807"/>
+        <Baseline points="14,799 112,799 206,799 301,801 395,797 489,799 585,799 678,799 772,797 872,795"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Wanns de neischt mé huos, wiérs de klèng muolen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r002-l018" index="5" custom="heights_v2:[26.9,11.1]">
+        <Coords points="415,849 475,851 476,813 417,811 415,849"/>
+        <Baseline points="416,838 475,840"/>
+        <TextEquiv conf="1.000">
+          <Unicode>97.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r002-l019" index="6" custom="heights_v2:[27.6,11.5]">
+        <Coords points="176,902 237,900 297,900 357,900 413,898 473,898 532,897 590,900 649,898 712,898 712,858 649,858 588,861 533,858 473,858 413,858 355,861 297,861 237,861 175,863 176,902"/>
+        <Baseline points="176,891 237,888 297,888 356,888 413,886 473,886 532,886 589,888 649,886 712,886"/>
+        <TextEquiv conf="1.000">
+          <Unicode>D'Gèlt wist net, wann ên't sét.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r002-l020" index="7" custom="heights_v2:[27.7,11.2]">
+        <Coords points="425,941 482,941 482,902 425,902 425,941"/>
+        <Baseline points="425,929 482,929"/>
+        <TextEquiv conf="1.000">
+          <Unicode>98.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r002-l021" index="8" custom="heights_v2:[32.0,12.4]">
+        <Coords points="167,992 376,991 413,990 475,990 537,990 596,990 658,990 724,990 724,945 658,945 596,945 537,945 475,945 413,945 353,948 291,950 232,948 167,948 167,992"/>
+        <Baseline points="167,980 231,980 292,982 354,980 413,977 475,977 537,977 596,977 658,977 724,977"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Et lêft fill Wâsser d'Bâch erôn.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r005">
+      <Coords points="130,1169 749,1167 852,1076 852,1034 575,1038 475,990 418,990 305,1038 33,1038 32,1081 130,1169"/>
+      <TextLine id="r005-l022" index="0" custom="heights_v2:[31.0,12.2]">
+        <Coords points="418,990 418,1033 475,1033 475,990 418,990"/>
+        <Baseline points="418,1021 475,1021"/>
+        <TextEquiv conf="1.000">
+          <Unicode>99.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r005-l023" index="1" custom="heights_v2:[30.2,12.0]">
+        <Coords points="852,1034 575,1038 487,1036 395,1036 305,1038 214,1038 125,1041 33,1038 32,1081 126,1083 215,1081 306,1081 395,1078 486,1078 576,1081 667,1078 756,1076 852,1076 852,1034"/>
+        <Baseline points="32,1069 126,1071 215,1069 306,1069 395,1066 486,1066 575,1069 667,1066 756,1064 852,1064"/>
+        <TextEquiv conf="1.000">
+          <Unicode>D' gebroden Dauwen flée' net an der Loft erem.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r005-l024" index="2" custom="heights_v2:[30.0,11.2]">
+        <Coords points="406,1121 480,1121 480,1080 406,1080 406,1121"/>
+        <Baseline points="406,1110 480,1110"/>
+        <TextEquiv conf="1.000">
+          <Unicode>100.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r005-l025" index="3" custom="heights_v2:[29.2,11.5]">
+        <Coords points="438,1168 473,1167 541,1167 607,1167 676,1167 749,1167 749,1126 676,1126 607,1126 541,1126 473,1126 403,1128 338,1128 268,1131 202,1128 130,1128 130,1169 438,1168"/>
+        <Baseline points="130,1158 201,1158 269,1160 338,1158 404,1158 473,1155 541,1155 607,1155 676,1155 749,1155"/>
+        <TextEquiv conf="1.000">
+          <Unicode>An der Sonn ferdengt ên de Schiéd.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r007">
+      <Coords points="81,1217 83,1259 109,1346 338,1346 406,1389 482,1389 561,1346 790,1346 789,1305 806,1256 806,1215 562,1217 482,1167 404,1169 323,1217 81,1217"/>
+      <TextLine id="r007-l026" index="0" custom="heights_v2:[33.2,11.4]">
+        <Coords points="406,1169 406,1212 444,1212 482,1210 480,1167 406,1169"/>
+        <Baseline points="406,1201 443,1201 482,1199"/>
+        <TextEquiv conf="1.000">
+          <Unicode>101.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r007-l027" index="1" custom="heights_v2:[29.4,11.8]">
+        <Coords points="83,1259 164,1256 244,1259 325,1259 404,1256 481,1256 562,1259 642,1259 722,1256 806,1256 806,1215 680,1216 641,1217 562,1217 483,1215 404,1215 323,1217 81,1217 83,1259"/>
+        <Baseline points="82,1247 164,1244 244,1247 324,1247 404,1244 482,1244 562,1247 642,1247 722,1244 806,1244"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Den Hèr firaûs, derno kemt d'ganet Haûs.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r007-l028" index="2" custom="heights_v2:[31.3,12.2]">
+        <Coords points="404,1300 441,1300 480,1298 478,1254 439,1257 404,1257 404,1300"/>
+        <Baseline points="404,1288 441,1288 480,1286"/>
+        <TextEquiv conf="1.000">
+          <Unicode>102.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r007-l029" index="3" custom="heights_v2:[29.0,12.0]">
+        <Coords points="338,1346 411,1343 486,1346 561,1346 790,1346 789,1305 709,1307 635,1307 563,1305 486,1305 412,1302 337,1305 262,1307 187,1307 110,1305 109,1346 338,1346"/>
+        <Baseline points="110,1334 187,1336 263,1336 338,1334 411,1331 486,1334 562,1334 635,1336 710,1336 790,1334"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Gidwideré wês, wô en de Schong drékt.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r007-l030" index="4" custom="heights_v2:[29.1,12.0]">
+        <Coords points="443,1389 482,1389 482,1348 443,1348 406,1348 406,1389 443,1389"/>
+        <Baseline points="406,1377 443,1377 482,1377"/>
+        <TextEquiv conf="1.000">
+          <Unicode>103.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r004">
+      <Coords points="167,1664 32,1754 32,1796 130,1796 274,1884 318,1884 421,1927 494,1925 594,1881 639,1881 699,1793 893,1791 893,1749 792,1749 731,1660 765,1521 764,1481 639,1394 274,1396 198,1488 126,1488 126,1528 167,1664"/>
+      <TextLine id="r004-l031" index="0" custom="heights_v2:[28.8,11.9]">
+        <Coords points="500,1395 473,1396 436,1396 397,1396 356,1396 317,1396 274,1396 274,1437 317,1437 356,1437 397,1437 436,1437 476,1437 516,1435 555,1435 594,1435 639,1435 639,1394 500,1395"/>
+        <Baseline points="274,1425 317,1425 356,1425 397,1425 436,1425 475,1425 516,1423 555,1423 594,1423 639,1423"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Fil Scholt, fil Gedolt.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l032" index="1" custom="heights_v2:[29.2,11.0]">
+        <Coords points="406,1479 444,1479 482,1477 480,1437 441,1439 406,1439 406,1479"/>
+        <Baseline points="406,1468 443,1468 482,1466"/>
+        <TextEquiv conf="1.000">
+          <Unicode>104.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l033" index="2" custom="heights_v2:[28.7,11.7]">
+        <Coords points="764,1481 689,1483 618,1485 550,1485 480,1485 409,1485 340,1485 269,1485 198,1488 126,1488 126,1528 199,1528 269,1526 340,1526 409,1526 480,1526 550,1526 619,1526 690,1523 765,1521 764,1481"/>
+        <Baseline points="126,1516 199,1516 269,1514 340,1514 409,1514 480,1514 550,1514 619,1514 690,1512 765,1509"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Wé ên d'Handwiérk dreift, esó gêt et.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l034" index="3" custom="heights_v2:[30.2,11.4]">
+        <Coords points="406,1566 443,1566 482,1566 482,1525 443,1525 406,1525 406,1566"/>
+        <Baseline points="406,1555 443,1555 482,1555"/>
+        <TextEquiv conf="1.000">
+          <Unicode>105.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l035" index="4" custom="heights_v2:[30.5,12.5]">
+        <Coords points="187,1615 247,1615 304,1615 361,1615 418,1613 473,1613 530,1613 587,1613 644,1613 706,1613 706,1570 644,1570 587,1570 530,1570 473,1570 418,1570 360,1573 304,1573 247,1573 187,1573 187,1615"/>
+        <Baseline points="187,1603 247,1603 304,1603 361,1603 418,1601 473,1601 530,1601 587,1601 644,1601 706,1601"/>
+        <TextEquiv conf="1.000">
+          <Unicode>De Kâfman lûoft séng Wůor.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l036" index="5" custom="heights_v2:[31.6,12.3]">
+        <Coords points="409,1659 446,1659 485,1656 482,1613 443,1615 409,1615 409,1659"/>
+        <Baseline points="409,1646 445,1646 484,1644"/>
+        <TextEquiv conf="1.000">
+          <Unicode>106.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l037" index="6" custom="heights_v2:[30.0,12.1]">
+        <Coords points="664,1660 603,1660 541,1660 480,1660 418,1660 355,1662 295,1662 232,1664 167,1664 167,1706 233,1706 295,1704 357,1704 418,1702 480,1702 541,1702 603,1702 664,1702 731,1702 731,1660 664,1660"/>
+        <Baseline points="167,1694 233,1694 295,1692 356,1692 418,1690 480,1690 541,1690 603,1690 664,1690 731,1690"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Et kemt kê Pâf an den Himmel.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l038" index="7" custom="heights_v2:[30.6,12.4]">
+        <Coords points="409,1746 482,1746 482,1703 409,1703 409,1746"/>
+        <Baseline points="409,1733 482,1733"/>
+        <TextEquiv conf="1.000">
+          <Unicode>107.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l039" index="8" custom="heights_v2:[29.7,12.4]">
+        <Coords points="32,1796 130,1796 224,1796 320,1796 413,1793 509,1793 603,1793 699,1793 792,1791 893,1791 893,1749 792,1749 698,1751 603,1751 509,1751 413,1751 319,1754 224,1754 130,1754 32,1754 32,1796"/>
+        <Baseline points="32,1783 130,1783 224,1783 320,1783 413,1781 509,1781 603,1781 699,1781 792,1779 893,1779"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Wann ên no èngem Hont wèrft da gerét ên e' Pâf</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l040" index="9" custom="heights_v2:[29.7,11.6]">
+        <Coords points="406,1836 443,1836 482,1836 482,1795 443,1795 406,1795 406,1836"/>
+        <Baseline points="406,1824 443,1824 482,1824"/>
+        <TextEquiv conf="1.000">
+          <Unicode>108.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l041" index="10" custom="heights_v2:[27.6,11.1]">
+        <Coords points="318,1884 356,1881 397,1881 436,1881 475,1881 516,1881 555,1881 594,1881 639,1881 639,1843 594,1843 555,1843 516,1843 475,1843 436,1843 397,1843 356,1843 316,1845 274,1845 274,1884 318,1884"/>
+        <Baseline points="274,1872 317,1872 356,1870 397,1870 436,1870 475,1870 516,1870 555,1870 594,1870 639,1870"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Haut mir, muor dir.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l042" index="11" custom="heights_v2:[29.0,11.5]">
+        <Coords points="494,1925 492,1885 419,1887 421,1927 494,1925"/>
+        <Baseline points="420,1916 493,1914"/>
+        <TextEquiv conf="1.000">
+          <Unicode>109.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r006">
+      <Coords points="62,1933 61,1973 505,1973 626,2015 780,2017 861,1969 861,1928 62,1933"/>
+      <TextLine id="r006-l043" index="0" custom="heights_v2:[28.5,11.6]">
+        <Coords points="61,1973 505,1973 592,1973 681,1971 767,1969 861,1969 861,1928 741,1929 680,1931 591,1933 505,1933 416,1933 329,1933 240,1933 152,1935 62,1933 61,1973"/>
+        <Baseline points="62,1961 153,1964 240,1961 329,1961 416,1961 505,1961 591,1961 680,1959 767,1957 861,1957"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Wûorfir rackers de déch esó? du muss jo dach</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l044" index="1" custom="heights_v2:[28.8,12.1]">
+        <Coords points="783,1976 749,1974 717,1974 690,1972 655,1974 626,1974 626,2015 659,2015 686,2012 717,2015 746,2015 780,2017 783,1976"/>
+        <Baseline points="626,2003 658,2003 687,2000 717,2003 747,2003 781,2005"/>
+        <TextEquiv conf="1.000">
+          <Unicode>stiérwen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r013">
+      <Coords points="482,2020 411,2020 411,2058 482,2058 482,2020"/>
+      <TextLine id="r013-l045" index="0" custom="heights_v2:[28.0,10.2]">
+        <Coords points="411,2020 411,2058 482,2058 482,2020 411,2020"/>
+        <Baseline points="411,2048 482,2048"/>
+        <TextEquiv conf="1.000">
+          <Unicode>110.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r008">
+      <Coords points="725,2063 116,2070 116,2111 727,2104 725,2063"/>
+      <TextLine id="r008-l046" index="0" custom="heights_v2:[28.7,12.3]">
+        <Coords points="319,2068 319,2068 252,2070 187,2070 116,2070 116,2111 320,2109 320,2109 386,2106 454,2104 521,2104 586,2104 621,2105 727,2104 725,2063 652,2065 621,2064 319,2068"/>
+        <Baseline points="116,2098 187,2098 253,2098 320,2096 386,2094 454,2092 521,2092 587,2092 653,2094 726,2092"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Dé àl Scheiere brènnen am iérgsten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r011">
+      <Coords points="410,2108 408,2149 486,2151 486,2110 410,2108"/>
+      <TextLine id="r011-l047" index="0" custom="heights_v2:[29.2,11.3]">
+        <Coords points="408,2149 486,2151 486,2110 448,2110 410,2108 408,2149"/>
+        <Baseline points="409,2137 448,2140 486,2140"/>
+        <TextEquiv conf="1.000">
+          <Unicode>111.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r009">
+      <Coords points="132,2159 133,2248 244,2395 336,2395 416,2439 493,2439 553,2393 644,2393 770,2241 767,2154 132,2159"/>
+      <TextLine id="r009-l048" index="0" custom="heights_v2:[29.0,12.1]">
+        <Coords points="133,2200 206,2200 274,2200 345,2197 413,2195 484,2195 553,2195 623,2195 692,2195 767,2195 767,2154 314,2157 273,2159 206,2159 132,2159 133,2200"/>
+        <Baseline points="133,2188 206,2188 274,2188 345,2185 413,2183 484,2183 553,2183 623,2183 692,2183 767,2183"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Léer du dei Fuoder e — — mâchen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r009-l049" index="1" custom="heights_v2:[29.1,12.4]">
+        <Coords points="133,2248 206,2246 277,2243 345,2241 415,2239 484,2241 555,2241 623,2241 694,2241 770,2241 768,2200 694,2200 623,2200 555,2200 484,2200 417,2197 344,2200 275,2202 205,2204 133,2206 133,2248"/>
+        <Baseline points="133,2235 206,2233 276,2231 345,2229 416,2226 484,2229 555,2229 623,2229 694,2229 769,2229"/>
+        <TextEquiv conf="1.000">
+          <Unicode>(Léer en alen Aaf Konschte mâchen.)</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r009-l050" index="2" custom="heights_v2:[26.8,11.2]">
+        <Coords points="406,2276 446,2276 485,2274 483,2236 444,2238 406,2238 406,2276"/>
+        <Baseline points="406,2265 445,2265 484,2263"/>
+        <TextEquiv conf="1.000">
+          <Unicode>112.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r009-l051" index="3" custom="heights_v2:[29.1,12.2]">
+        <Coords points="183,2314 240,2314 297,2314 356,2314 413,2314 470,2314 530,2314 587,2312 644,2312 707,2314 709,2273 645,2270 587,2270 529,2273 470,2273 413,2273 356,2273 297,2273 240,2273 178,2273 178,2308 183,2314"/>
+        <Baseline points="178,2302 240,2302 297,2302 356,2302 413,2302 470,2302 530,2302 587,2299 644,2299 708,2302"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Wié lâng supt (seift) liéft lang.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r009-l052" index="4" custom="heights_v2:[27.5,11.1]">
+        <Coords points="406,2356 445,2356 484,2356 484,2318 445,2318 406,2318 406,2356"/>
+        <Baseline points="406,2345 445,2345 484,2345"/>
+        <TextEquiv conf="1.000">
+          <Unicode>113.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r009-l053" index="5" custom="heights_v2:[28.7,11.4]">
+        <Coords points="292,2395 336,2395 379,2395 422,2395 466,2395 510,2395 553,2393 596,2393 644,2393 644,2353 596,2353 553,2353 508,2355 466,2355 422,2355 379,2355 336,2355 292,2355 244,2355 244,2395 292,2395"/>
+        <Baseline points="244,2384 292,2384 336,2384 379,2384 422,2384 466,2384 509,2384 553,2382 596,2382 644,2382"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Gnodebròt, sauer Brót.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r009-l054" index="6" custom="heights_v2:[30.3,11.4]">
+        <Coords points="454,2439 493,2439 493,2397 454,2397 416,2397 416,2439 454,2439"/>
+        <Baseline points="416,2427 454,2427 493,2427"/>
+        <TextEquiv conf="1.000">
+          <Unicode>114.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r000">
+      <Coords points="119,2566 9,2656 9,2698 84,2792 119,2883 121,2926 329,2926 413,2967 451,2967 489,2964 598,2919 740,2919 747,2874 776,2783 881,2688 881,2647 781,2647 708,2519 708,2480 645,2443 127,2450 119,2566"/>
+      <TextLine id="r000-l055" index="0" custom="heights_v2:[27.5,11.3]">
+        <Coords points="385,2447 357,2448 301,2448 301,2448 127,2450 128,2489 187,2487 244,2487 301,2487 359,2487 413,2484 470,2484 527,2484 585,2484 647,2482 645,2443 584,2446 527,2446 474,2446 385,2447"/>
+        <Baseline points="128,2478 187,2475 244,2475 301,2475 359,2475 413,2473 470,2473 527,2473 585,2473 646,2471"/>
+        <TextEquiv conf="1.000">
+          <Unicode>T jong Leit solle bei den Alen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l056" index="1" custom="heights_v2:[27.3,11.3]">
+        <Coords points="708,2480 637,2480 573,2480 509,2480 444,2482 381,2482 316,2485 253,2484 190,2484 124,2484 122,2523 190,2523 253,2523 318,2523 381,2521 446,2521 509,2519 573,2519 637,2519 708,2519 708,2480"/>
+        <Baseline points="123,2512 190,2512 253,2512 317,2512 381,2510 445,2510 509,2507 573,2507 637,2507 708,2507"/>
+        <TextEquiv conf="1.000">
+          <Unicode>D'Oere brauchen an d'Maûl halen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l057" index="2" custom="heights_v2:[28.5,11.3]">
+        <Coords points="406,2555 445,2555 486,2555 486,2515 445,2515 406,2515 406,2555"/>
+        <Baseline points="406,2544 445,2544 486,2544"/>
+        <TextEquiv conf="1.000">
+          <Unicode>115.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l058" index="3" custom="heights_v2:[30.2,12.5]">
+        <Coords points="119,2609 185,2609 247,2609 309,2609 370,2604 434,2604 496,2602 557,2602 619,2602 687,2602 687,2559 619,2559 557,2559 496,2559 433,2562 370,2562 306,2566 247,2566 185,2566 119,2566 119,2609"/>
+        <Baseline points="119,2596 185,2596 247,2596 308,2596 370,2592 434,2592 496,2589 557,2589 619,2589 687,2589"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Klèng Deppercher lâfe lîcht iwer.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l059" index="4" custom="heights_v2:[30.3,12.1]">
+        <Coords points="408,2645 445,2647 484,2647 484,2605 445,2605 411,2603 408,2645"/>
+        <Baseline points="409,2633 445,2635 484,2635"/>
+        <TextEquiv conf="1.000">
+          <Unicode>116.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l060" index="5" custom="heights_v2:[29.6,12.2]">
+        <Coords points="9,2698 110,2698 206,2698 302,2698 397,2693 493,2693 589,2693 685,2691 781,2688 881,2688 881,2647 781,2647 684,2649 588,2651 493,2651 397,2651 300,2656 206,2656 110,2656 9,2656 9,2698"/>
+        <Baseline points="9,2685 110,2685 206,2685 301,2685 397,2681 493,2681 589,2681 685,2678 781,2676 881,2676"/>
+        <TextEquiv conf="1.000">
+          <Unicode>De klèng Drèckeltcher stènken iérger as wé dé grósz</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l061" index="6" custom="heights_v2:[29.5,12.0]">
+        <Coords points="406,2738 448,2738 489,2738 489,2697 448,2697 406,2697 406,2738"/>
+        <Baseline points="406,2726 448,2726 489,2726"/>
+        <TextEquiv conf="1.000">
+          <Unicode>117.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l062" index="7" custom="heights_v2:[30.4,12.7]">
+        <Coords points="776,2739 694,2739 618,2742 543,2742 468,2742 390,2744 314,2746 240,2746 163,2749 84,2749 84,2792 165,2792 240,2789 316,2789 391,2787 468,2785 543,2785 619,2785 694,2783 776,2783 776,2739"/>
+        <Baseline points="84,2779 164,2779 240,2777 315,2777 390,2774 468,2772 543,2772 619,2772 694,2770 776,2770"/>
+        <TextEquiv conf="1.000">
+          <Unicode>E klèngt Kenntchen, èng gut Stenntchen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l063" index="8" custom="heights_v2:[30.2,12.1]">
+        <Coords points="409,2830 448,2830 489,2828 487,2785 446,2788 409,2788 409,2830"/>
+        <Baseline points="409,2818 448,2818 489,2816"/>
+        <TextEquiv conf="1.000">
+          <Unicode>118.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l064" index="9" custom="heights_v2:[30.3,12.8]">
+        <Coords points="747,2831 671,2831 602,2833 534,2833 466,2833 396,2835 329,2835 259,2838 192,2838 118,2840 119,2883 192,2881 261,2881 329,2879 398,2878 466,2876 534,2876 603,2876 671,2874 747,2874 747,2831"/>
+        <Baseline points="119,2870 192,2868 260,2868 329,2866 397,2866 466,2863 534,2863 603,2863 671,2861 747,2861"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Klèng Kanner, klèng Suorgen, (Lêt;)</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l065" index="10" custom="heights_v2:[29.1,12.4]">
+        <Coords points="329,2926 395,2924 464,2921 532,2919 598,2919 667,2919 740,2919 740,2878 667,2878 598,2878 532,2878 463,2880 394,2882 328,2885 260,2885 192,2885 121,2885 121,2926 329,2926"/>
+        <Baseline points="121,2914 192,2914 260,2914 329,2914 395,2911 464,2909 532,2907 598,2907 667,2907 740,2907"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Gróss Kanner, gròss Suorgen. (Lêt.)</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l066" index="11" custom="heights_v2:[30.9,12.0]">
+        <Coords points="451,2967 489,2964 487,2922 448,2924 413,2924 413,2967 451,2967"/>
+        <Baseline points="413,2955 450,2955 489,2953"/>
+        <TextEquiv conf="1.000">
+          <Unicode>119.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r003">
+      <Coords points="885,2964 14,2978 14,3019 886,3005 885,2964"/>
+      <TextLine id="r003-l067" index="0" custom="heights_v2:[29.1,11.3]">
+        <Coords points="591,2969 497,2971 449,2971 308,2974 305,2974 209,2976 113,2978 14,2978 14,3019 309,3014 402,3012 450,3012 591,3010 594,3009 595,3009 886,3005 885,2964 785,2967 689,2969 595,2969 591,2969"/>
+        <Baseline points="14,3007 114,3007 210,3005 306,3003 402,3000 498,3000 594,2998 690,2998 786,2996 886,2994"/>
+        <TextEquiv conf="1.000">
+          <Unicode>D'Klèng Kanner hun d'Lâchen an d'Kreîschen an</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r015">
+      <Coords points="470,3015 467,3054 779,3052 779,3013 470,3015"/>
+      <TextLine id="r015-l068" index="0" custom="heights_v2:[28.5,10.3]">
+        <Coords points="467,3054 697,3052 706,3052 740,3052 779,3052 779,3013 697,3014 672,3015 639,3015 605,3015 571,3018 539,3018 505,3018 470,3015 467,3054"/>
+        <Baseline points="468,3044 505,3046 539,3046 573,3046 605,3044 639,3044 674,3044 706,3042 740,3042 779,3042"/>
+        <TextEquiv conf="1.000">
+          <Unicode>èngem Sèckeltchen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

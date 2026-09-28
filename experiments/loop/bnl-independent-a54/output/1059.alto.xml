@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>A46_1059</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-09-28T10:18:20.522682</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_A46_1059" PHYSICAL_IMG_NR="1" HEIGHT="97" WIDTH="900">
+      <TopMargin HEIGHT="-5" WIDTH="900" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="97" WIDTH="-4" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="97" WIDTH="-2" VPOS="0" HPOS="902"/>
+      <BottomMargin HEIGHT="0" WIDTH="900" VPOS="97" HPOS="0"/>
+      <PrintSpace HEIGHT="102" WIDTH="907" VPOS="-5" HPOS="-4">
+        <TextBlock ID="block_r000" HEIGHT="102" WIDTH="907" VPOS="-5" HPOS="-4">
+          <TextLine BASELINE="27" VPOS="-5" HPOS="31" HEIGHT="48" WIDTH="870">
+            <String CONTENT="Die" HEIGHT="39" WIDTH="54" VPOS="2" HPOS="41" WC="1"/>
+            <SP WIDTH="4" VPOS="2" HPOS="95"/>
+            <String CONTENT="während" HEIGHT="40" WIDTH="130" VPOS="0" HPOS="117" WC="1"/>
+            <SP WIDTH="4" VPOS="0" HPOS="247"/>
+            <String CONTENT="der" HEIGHT="39" WIDTH="44" VPOS="0" HPOS="274" WC="1"/>
+            <SP WIDTH="4" VPOS="0" HPOS="318"/>
+            <String CONTENT="Belagerung" HEIGHT="40" WIDTH="181" VPOS="-2" HPOS="345" WC="1"/>
+            <SP WIDTH="4" VPOS="-2" HPOS="527"/>
+            <String CONTENT="und" HEIGHT="39" WIDTH="56" VPOS="-3" HPOS="553" WC="1"/>
+            <SP WIDTH="4" VPOS="-3" HPOS="610"/>
+            <String CONTENT="uuter" HEIGHT="39" WIDTH="83" VPOS="-4" HPOS="632" WC="1"/>
+            <SP WIDTH="4" VPOS="-4" HPOS="715"/>
+            <String CONTENT="der" HEIGHT="39" WIDTH="44" VPOS="-4" HPOS="742" WC="1"/>
+            <SP WIDTH="4" VPOS="-4" HPOS="786"/>
+            <String CONTENT="Herr-" HEIGHT="39" WIDTH="93" VPOS="-5" HPOS="808" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="83" VPOS="50" HPOS="-4" HEIGHT="46" WIDTH="907">
+            <String CONTENT="ſchoft" HEIGHT="36" WIDTH="86" VPOS="62" HPOS="-4" WC="0.99"/>
+            <SP WIDTH="4" VPOS="62" HPOS="82"/>
+            <String CONTENT="der" HEIGHT="35" WIDTH="44" VPOS="61" HPOS="97" WC="1.0"/>
+            <SP WIDTH="4" VPOS="61" HPOS="141"/>
+            <String CONTENT="Commune" HEIGHT="37" WIDTH="156" VPOS="58" HPOS="178" WC="1.0"/>
+            <SP WIDTH="4" VPOS="58" HPOS="335"/>
+            <String CONTENT="verlebten" HEIGHT="37" WIDTH="137" VPOS="55" HPOS="361" WC="1.0"/>
+            <SP WIDTH="4" VPOS="55" HPOS="498"/>
+            <String CONTENT="Schrectenstage" HEIGHT="38" WIDTH="229" VPOS="51" HPOS="546" WC="1.0"/>
+            <SP WIDTH="4" VPOS="51" HPOS="776"/>
+            <String CONTENT="geben" HEIGHT="36" WIDTH="77" VPOS="50" HPOS="813" WC="1.0"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

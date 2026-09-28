@@ -27,6 +27,8 @@ for name in ['src','scripts','tests','schemas','experiments']:
             and p.suffix.lower() in {'.tif','.tiff','.jpg','.jpeg','.png'})
         public_a45_source_image = ('bnl-independent-a45' in p.parts and 'source' in p.parts
             and p.suffix.lower() in {'.tif','.tiff','.jpg','.jpeg','.png'})
+        public_a54_source_image = ('bnl-independent-a54' in p.parts and 'source' in p.parts
+            and p.suffix.lower() in {'.tif','.tiff','.jpg','.jpeg','.png'})
         generated_a52_view = ('crossbranch-ocr-a52' in p.parts and 'input' in p.parts
             and p.suffix.lower() in {'.png','.jpg','.jpeg','.tif','.tiff'})
         if (p.is_file() and '__pycache__' not in p.parts
@@ -34,7 +36,7 @@ for name in ['src','scripts','tests','schemas','experiments']:
                 and not public_spiritualist_image
                 and not public_bnf_or_a28_binary
                 and not public_a34_source_image and not public_a36_source_image
-                and not public_a37_source_image and not public_a45_source_image
+                and not public_a37_source_image and not public_a45_source_image and not public_a54_source_image
                 and not generated_a52_view):
             paths.append(p)
 paths += [p for p in ROOT.iterdir() if p.is_file() and (p.suffix in ['.md','.txt','.toml'] or p.name=='.gitignore')]
@@ -61,5 +63,6 @@ with zipfile.ZipFile(tmp,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
         'experiments/loop/predicted-lines-a36/source/**/*.{tif,tiff,jpg,jpeg,png}',
         'experiments/loop/predicted-lines-a37/source/**/*.{tif,tiff,jpg,jpeg,png}',
         'experiments/loop/bnl-independent-a45/source/*.png',
+        'experiments/loop/bnl-independent-a54/source/*.png',
         'experiments/loop/crossbranch-ocr-a52/input/*.png']},indent=2))
 tmp.replace(dest);print(dest,dest.stat().st_size)

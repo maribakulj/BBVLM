@@ -1,0 +1,101 @@
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-1.xsd">
+  <Description>
+    <MeasurementUnit>mm10</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>./ALTO00001-P1_TB00031.tif</fileName>
+    </sourceImageInformation>
+  </Description>
+  <Layout>
+    <Page ID="P_0001" PHYSICAL_IMG_NR="1">
+      <PrintSpace>
+        <TextBlock ID="TB_0001">
+          <TextLine ID="TL_0001" HPOS="48" VPOS="0" WIDTH="627" HEIGHT="39">
+            <String CONTENT="S." CC="00" HPOS="49" VPOS="4" WIDTH="27" HEIGHT="29" />
+            <SP />
+            <String CONTENT="A." CC="00" HPOS="106" VPOS="6" WIDTH="33" HEIGHT="28" />
+            <SP />
+            <String CONTENT="R." CC="00" HPOS="169" VPOS="3" WIDTH="33" HEIGHT="29" />
+            <SP />
+            <String CONTENT="le" CC="00" HPOS="232" VPOS="3" WIDTH="27" HEIGHT="29" />
+            <SP />
+            <String CONTENT="Prince" CC="000000" HPOS="287" VPOS="2" WIDTH="104" HEIGHT="31" />
+            <SP />
+            <String CONTENT="Henri" CC="00000" HPOS="423" VPOS="1" WIDTH="93" HEIGHT="32" />
+            <SP />
+            <String CONTENT="n’a" CC="000" HPOS="546" VPOS="0" WIDTH="44" HEIGHT="31" />
+            <SP />
+            <String CONTENT="pas" CC="000" HPOS="621" VPOS="8" WIDTH="53" HEIGHT="29" />
+          </TextLine>
+          <TextLine ID="TL_0002" HPOS="4" VPOS="49" WIDTH="671" HEIGHT="34">
+            <String CONTENT="fait" CC="0000" HPOS="5" VPOS="54" WIDTH="54" HEIGHT="29" />
+            <SP />
+            <String CONTENT="annoncer" CC="00000000" HPOS="80" VPOS="62" WIDTH="147" HEIGHT="21" />
+            <SP />
+            <String CONTENT="officiellement" CC="00000000000000" HPOS="249" VPOS="52" WIDTH="216" HEIGHT="29" />
+            <SP />
+            <String CONTENT="son" CC="000" HPOS="486" VPOS="61" WIDTH="50" HEIGHT="21" />
+            <SP />
+            <String CONTENT="arrivée" CC="0000000" HPOS="559" VPOS="50" WIDTH="115" HEIGHT="29" />
+          </TextLine>
+          <TextLine ID="TL_0003" HPOS="7" VPOS="100" WIDTH="668" HEIGHT="40">
+            <String CONTENT="dans" CC="0000" HPOS="8" VPOS="105" WIDTH="70" HEIGHT="28" />
+            <SP />
+            <String CONTENT="le" CC="00" HPOS="101" VPOS="105" WIDTH="27" HEIGHT="28" />
+            <SP />
+            <String CONTENT="grand-duché." CC="000000000000" HPOS="151" VPOS="101" WIDTH="213" HEIGHT="38" />
+            <SP />
+            <String CONTENT="Nous" CC="0000" HPOS="387" VPOS="101" WIDTH="82" HEIGHT="28" />
+            <SP />
+            <String CONTENT="croyons" CC="0000000" HPOS="492" VPOS="107" WIDTH="121" HEIGHT="28" />
+            <SP />
+            <String CONTENT="ce-" CC="000" HPOS="629" VPOS="107" WIDTH="46" HEIGHT="20" />
+          </TextLine>
+          <TextLine ID="TL_0004" HPOS="5" VPOS="148" WIDTH="670" HEIGHT="44">
+            <String CONTENT="pendant" CC="0000000" HPOS="6" VPOS="153" WIDTH="131" HEIGHT="38" />
+            <SP />
+            <String CONTENT="savoir" CC="000000" HPOS="171" VPOS="150" WIDTH="98" HEIGHT="29" />
+            <SP />
+            <String CONTENT="que" CC="000" HPOS="302" VPOS="157" WIDTH="55" HEIGHT="28" />
+            <SP />
+            <String CONTENT="le" CC="00" HPOS="389" VPOS="149" WIDTH="27" HEIGHT="27" />
+            <SP />
+            <String CONTENT="Prince" CC="000000" HPOS="449" VPOS="149" WIDTH="104" HEIGHT="28" />
+            <SP />
+            <String CONTENT="et" CC="00" HPOS="588" VPOS="149" WIDTH="31" HEIGHT="27" />
+            <SP />
+            <String CONTENT="la" CC="00" HPOS="647" VPOS="149" WIDTH="27" HEIGHT="29" />
+          </TextLine>
+          <TextLine ID="TL_0005" HPOS="4" VPOS="195" WIDTH="671" HEIGHT="40">
+            <String CONTENT="Princesse" CC="000000000" HPOS="5" VPOS="202" WIDTH="155" HEIGHT="28" />
+            <SP />
+            <String CONTENT="arriveront" CC="0000000000" HPOS="194" VPOS="198" WIDTH="165" HEIGHT="27" />
+            <SP />
+            <String CONTENT="dans" CC="0000" HPOS="393" VPOS="196" WIDTH="71" HEIGHT="28" />
+            <SP />
+            <String CONTENT="la" CC="00" HPOS="498" VPOS="196" WIDTH="27" HEIGHT="29" />
+            <SP />
+            <String CONTENT="journée" CC="0000000" HPOS="553" VPOS="196" WIDTH="122" HEIGHT="38" />
+          </TextLine>
+          <TextLine ID="TL_0006" HPOS="3" VPOS="242" WIDTH="672" HEIGHT="37">
+            <String CONTENT="de" CC="00" HPOS="4" VPOS="248" WIDTH="34" HEIGHT="28" />
+            <SP />
+            <String CONTENT="demain." CC="0000000" HPOS="62" VPOS="246" WIDTH="126" HEIGHT="31" />
+            <SP />
+            <String CONTENT="LL." CC="000" HPOS="210" VPOS="244" WIDTH="60" HEIGHT="31" />
+            <SP />
+            <String CONTENT="AA." CC="000" HPOS="293" VPOS="244" WIDTH="61" HEIGHT="31" />
+            <SP />
+            <String CONTENT="RR." CC="000" HPOS="378" VPOS="243" WIDTH="60" HEIGHT="32" />
+            <SP />
+            <String CONTENT="descenderont" CC="000000000000" HPOS="463" VPOS="244" WIDTH="212" HEIGHT="34" />
+          </TextLine>
+          <TextLine ID="TL_0007" HPOS="0" VPOS="292" WIDTH="259" HEIGHT="37">
+            <String CONTENT="à" CC="0" HPOS="0" VPOS="297" WIDTH="17" HEIGHT="27" />
+            <SP />
+            <String CONTENT="Walferdange." CC="000000000000" HPOS="41" VPOS="293" WIDTH="216" HEIGHT="36" />
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

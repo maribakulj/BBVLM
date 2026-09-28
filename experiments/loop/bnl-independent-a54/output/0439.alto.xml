@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>A46_0439</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-09-28T10:18:29.174272</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_A46_0439" PHYSICAL_IMG_NR="1" HEIGHT="96" WIDTH="796">
+      <TopMargin HEIGHT="-5" WIDTH="796" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="96" WIDTH="-4" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="96" WIDTH="-3" VPOS="0" HPOS="799"/>
+      <BottomMargin HEIGHT="0" WIDTH="796" VPOS="96" HPOS="0"/>
+      <PrintSpace HEIGHT="101" WIDTH="803" VPOS="-5" HPOS="-4">
+        <TextBlock ID="block_r000" HEIGHT="98" WIDTH="803" VPOS="-5" HPOS="-4">
+          <TextLine BASELINE="28" VPOS="-5" HPOS="29" HEIGHT="49" WIDTH="769">
+            <String CONTENT="Cette" HEIGHT="44" WIDTH="88" VPOS="-1" HPOS="39" WC="1"/>
+            <SP WIDTH="4" VPOS="-1" HPOS="127"/>
+            <String CONTENT="mesure" HEIGHT="44" WIDTH="122" VPOS="-3" HPOS="153" WC="1"/>
+            <SP WIDTH="4" VPOS="-3" HPOS="276"/>
+            <String CONTENT="du" HEIGHT="42" WIDTH="37" VPOS="-4" HPOS="302" WC="1"/>
+            <SP WIDTH="4" VPOS="-4" HPOS="339"/>
+            <String CONTENT="proconsul" HEIGHT="42" WIDTH="172" VPOS="-4" HPOS="366" WC="1"/>
+            <SP WIDTH="4" VPOS="-4" HPOS="538"/>
+            <String CONTENT="de" HEIGHT="42" WIDTH="40" VPOS="-4" HPOS="557" WC="1"/>
+            <SP WIDTH="4" VPOS="-4" HPOS="597"/>
+            <String CONTENT="Vilna" HEIGHT="43" WIDTH="88" VPOS="-3" HPOS="620" WC="1"/>
+            <SP WIDTH="4" VPOS="-3" HPOS="708"/>
+            <String CONTENT="n'a" HEIGHT="43" WIDTH="48" VPOS="-1" HPOS="739" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="78" VPOS="46" HPOS="593" HEIGHT="42" WIDTH="161">
+            <String CONTENT="(Patrie.)" HEIGHT="44" WIDTH="157" VPOS="45" HPOS="597" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="77" VPOS="44" HPOS="-4" HEIGHT="48" WIDTH="525">
+            <String CONTENT="pas" HEIGHT="42" WIDTH="53" VPOS="52" HPOS="-4" WC="1"/>
+            <SP WIDTH="4" VPOS="52" HPOS="48"/>
+            <String CONTENT="besoin" HEIGHT="42" WIDTH="104" VPOS="47" HPOS="69" WC="1"/>
+            <SP WIDTH="4" VPOS="47" HPOS="174"/>
+            <String CONTENT="de" HEIGHT="39" WIDTH="32" VPOS="46" HPOS="208" WC="1"/>
+            <SP WIDTH="4" VPOS="46" HPOS="240"/>
+            <String CONTENT="commentaires." HEIGHT="42" WIDTH="252" VPOS="45" HPOS="267" WC="1"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

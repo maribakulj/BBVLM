@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-28T10:18:27.557066+00:00</Created>
+    <LastChange>2026-09-28T10:18:27.557066+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A46_0471" imageWidth="881" imageHeight="201">
+    <TextRegion id="r000">
+      <Coords points="-4,35 -5,196 440,200 488,161 884,161 882,2 24,-7 -4,35"/>
+      <TextLine id="r000-l001" index="0" custom="heights_v2:[28.3,10.7]">
+        <Coords points="667,0 593,0 498,0 405,-3 309,-3 216,-3 122,-5 24,-7 23,32 121,34 216,36 309,36 404,36 498,39 593,39 686,39 781,39 881,41 882,2 667,0"/>
+        <Baseline points="23,21 121,23 216,26 309,26 405,26 498,28 593,28 686,28 782,28 882,30"/>
+        <TextEquiv conf="1.000">
+          <Unicode>— Das abermalige Reißen des transatlantischen Kabeltaues</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l002" index="1" custom="heights_v2:[27.8,10.6]">
+        <Coords points="-4,73 95,76 193,76 290,76 388,78 484,80 581,80 679,80 777,80 879,80 879,42 777,42 679,42 581,42 484,42 389,40 291,37 193,37 95,37 -4,35 -4,73"/>
+        <Baseline points="-4,63 95,65 193,65 291,65 388,67 484,70 581,70 679,70 777,70 879,70"/>
+        <TextEquiv conf="1.000">
+          <Unicode>veranlaßt die „Times" zu dem Vorschlage, den Leviatban zur</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l003" index="2" custom="heights_v2:[27.1,10.4]">
+        <Coords points="-4,115 95,117 193,117 291,120 388,120 486,122 584,122 682,122 779,122 882,122 882,85 779,85 682,85 584,85 486,85 389,82 291,82 194,80 95,80 -4,78 -4,86 -4,115"/>
+        <Baseline points="-4,105 95,107 193,107 291,109 388,109 486,112 584,112 682,112 779,112 882,112"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Legung des unterseeischen Telegraphen zu benutzen. Dieses</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l004" index="3" custom="heights_v2:[27.2,10.2]">
+        <Coords points="-4,154 97,157 195,159 293,159 391,159 488,161 586,161 586,161 782,161 884,161 883,124 782,124 683,126 587,124 488,124 391,122 293,122 195,122 98,119 -4,117 -4,133 -4,154"/>
+        <Baseline points="-4,144 98,147 195,149 293,149 391,149 488,151 586,151 684,154 782,151 884,151"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Schiff sei geräumig genug, um allein das ganze Tau mit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l005" index="4" custom="heights_v2:[26.3,9.6]">
+        <Coords points="-5,196 47,196 95,196 144,196 193,196 239,196 288,198 308,199 440,200 440,164 386,164 337,164 290,162 241,160 193,160 144,160 95,160 47,160 -5,160 -5,196"/>
+        <Baseline points="-5,186 47,186 95,186 144,186 193,186 240,186 288,188 337,191 386,191 440,191"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Bequemlichkeit zu beherbergen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

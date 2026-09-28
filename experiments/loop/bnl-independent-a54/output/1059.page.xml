@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-28T10:18:20.541211+00:00</Created>
+    <LastChange>2026-09-28T10:18:20.541211+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A46_1059" imageWidth="900" imageHeight="97">
+    <TextRegion id="r000">
+      <Coords points="-4,62 -5,97 903,86 902,-6 32,4 -4,62"/>
+      <TextLine id="r000-l001" index="0" custom="heights_v2:[28.8,10.2]">
+        <Coords points="902,-6 799,-3 705,-3 685,-3 550,-2 513,-1 467,-1 32,4 33,43 133,40 228,40 323,38 419,38 514,38 609,36 705,36 800,36 902,33 902,-6"/>
+        <Baseline points="33,33 133,30 228,30 323,28 419,28 514,28 609,26 705,26 800,26 902,23"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die während der Belagerung und uuter der Herr-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l002" index="1" custom="heights_v2:[26.2,9.0]">
+        <Coords points="-5,97 447,92 498,90 598,88 698,88 721,88 903,86 902,51 797,53 698,53 598,53 497,55 397,58 297,60 198,60 96,65 -4,62 -5,97"/>
+        <Baseline points="-5,88 98,91 198,86 298,86 398,84 498,81 598,79 698,79 798,79 902,77"/>
+        <TextEquiv conf="1.000">
+          <Unicode>ſchoft der Commune verlebten Schrectenstage geben</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

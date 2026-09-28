@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-28T10:18:10.391313+00:00</Created>
+    <LastChange>2026-09-28T10:18:10.391313+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A46_0645" imageWidth="892" imageHeight="95">
+    <TextRegion id="r000">
+      <Coords points="859,12 2,7 2,41 35,87 893,87 893,54 859,12"/>
+      <TextLine id="r000-l001" index="0" custom="heights_v2:[25.5,8.6]">
+        <Coords points="2,7 2,41 100,41 193,41 288,41 381,41 477,41 570,41 665,41 758,43 858,46 859,12 2,7"/>
+        <Baseline points="2,33 100,33 193,33 288,33 381,33 477,33 570,33 665,33 758,35 858,37"/>
+        <TextEquiv conf="1.000">
+          <Unicode>III. classe. — 1er prix, Théodore Witry, de Rollingen;</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l002" index="1" custom="heights_v2:[25.1,8.1]">
+        <Coords points="893,87 893,54 793,54 698,54 605,52 509,52 417,49 321,49 227,52 133,52 34,54 35,87 133,85 228,85 321,83 416,83 509,85 605,85 698,87 893,87"/>
+        <Baseline points="35,79 133,77 228,77 321,74 416,74 509,77 605,77 698,79 793,79 893,79"/>
+        <TextEquiv conf="1.000">
+          <Unicode>2e, Jean-Nicolas Schoué, d'Esch-sur-la-Sûre; 3e, Nicolas</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

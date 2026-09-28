@@ -1,0 +1,124 @@
+{
+  "schema": "bbvlm.bnl-independent-a54-report/1",
+  "status": "frozen_independent_evaluation_complete",
+  "scope": "16 pre-frozen BnL newspaper blocks; unchanged PERO and A37; zero VLM passes",
+  "aggregate": {
+    "all": {
+      "blocks": 16,
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 12083,
+          "edits": 192,
+          "cer": 0.015890093519821236,
+          "exact_blocks": 1
+        },
+        "search_v1": {
+          "characters": 12004,
+          "edits": 112,
+          "cer": 0.009330223258913695,
+          "exact_blocks": 2
+        },
+        "lexical_alnum": {
+          "characters": 9645,
+          "edits": 51,
+          "cer": 0.0052877138413685845,
+          "exact_blocks": 4
+        }
+      },
+      "lines": {
+        "reference": 307,
+        "predicted": 309,
+        "mean_iou": 0.7727869271697516,
+        "recall_iou50": 0.9869706840390879,
+        "recall_iou80": 0.46254071661237783
+      },
+      "native_words": {
+        "reference": 1962,
+        "predicted": 1964,
+        "mean_iou": 0.5797604819108723,
+        "recall_iou50": 0.7502548419979612,
+        "recall_iou80": 0.024974515800203875
+      },
+      "routed_words": {
+        "reference": 1962,
+        "predicted": 1964,
+        "mean_iou": 0.6673791588814499,
+        "recall_iou50": 0.8068297655453619,
+        "recall_iou80": 0.33537206931702346
+      }
+    },
+    "french": {
+      "blocks": 7,
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 3234,
+          "edits": 71,
+          "cer": 0.021954236239950527,
+          "exact_blocks": 1
+        },
+        "search_v1": {
+          "characters": 3212,
+          "edits": 42,
+          "cer": 0.013075965130759652,
+          "exact_blocks": 2
+        },
+        "lexical_alnum": {
+          "characters": 2528,
+          "edits": 22,
+          "cer": 0.00870253164556962,
+          "exact_blocks": 3
+        }
+      },
+      "lines": {
+        "reference": 76,
+        "predicted": 78,
+        "mean_iou": 0.8054043728352909,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.5789473684210527
+      },
+      "native_words": {
+        "reference": 544,
+        "predicted": 543,
+        "mean_iou": 0.575083874354759,
+        "recall_iou50": 0.6875,
+        "recall_iou80": 0.058823529411764705
+      },
+      "routed_words": {
+        "reference": 544,
+        "predicted": 543,
+        "mean_iou": 0.5831483256957182,
+        "recall_iou50": 0.7095588235294118,
+        "recall_iou80": 0.15808823529411764
+      }
+    }
+  },
+  "cost": {
+    "new_vlm_passes": 0,
+    "recognizer_forwards": 309,
+    "full_block_seconds": 31.119047083000623,
+    "refinement_seconds": 0.49956229999952484,
+    "evaluator_seconds": 8.583478382999601
+  },
+  "word_reference_status": "diagnostic String rectangles; manual word-box adjudication not documented",
+  "line_reference_status": "raw BnL pack explicitly intended for text-line segmentation",
+  "text_reference_status": "provider double-keyed >=99.95%; not mathematical perfection",
+  "normalizations": {
+    "strict_nfc_diplomatic": "NFC/newline only",
+    "search_v1": "NFKC, casefold, long-s/apostrophes, line dehyphenation, whitespace",
+    "lexical_alnum": "NFKC+casefold letters/digits only; punctuation/spacing ignored"
+  },
+  "geometry_coordinate_adapter": {
+    "reference_unit": "mm10",
+    "image_resolution_ppi": 300,
+    "scale_to_png_pixels": 1.1811023622047243,
+    "formula": "300 pixels/inch divided by 254 tenths-mm/inch",
+    "amended_after_initial_unscaled_score": true,
+    "initial_unscaled_report": "output/report-unscaled-invalid.json"
+  },
+  "accepted_for_project_completion_gate": false,
+  "limitations": [
+    "Blocks are not complete pages, so column OLR/article grouping is out of scope.",
+    "The EU/CZ PERO model is not a French-specific recognizer.",
+    "Existing word rectangles are not certified as perfect word-box truth."
+  ]
+}

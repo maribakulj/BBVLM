@@ -1,0 +1,199 @@
+{
+  "schema": "bbvlm.remote-zip-range-fetch/1",
+  "source": "https://data.bnl.lu/wp-content/uploads/2021/09/bnl-ground-truth-newspapers-before-1878-raw.zip",
+  "complete_archive_downloaded": false,
+  "members": [
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0645.xml",
+      "file": "0645.xml",
+      "bytes": 2534,
+      "crc32": "85c428de"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0645.png",
+      "file": "0645.png",
+      "bytes": 139694,
+      "crc32": "363a8bcf"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0949.xml",
+      "file": "0949.xml",
+      "bytes": 18781,
+      "crc32": "fd6e4c71"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0949.png",
+      "file": "0949.png",
+      "bytes": 1546865,
+      "crc32": "ce0da1a7"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0231.xml",
+      "file": "0231.xml",
+      "bytes": 46757,
+      "crc32": "17592012"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0231.png",
+      "file": "0231.png",
+      "bytes": 3527539,
+      "crc32": "a2325638"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0887.xml",
+      "file": "0887.xml",
+      "bytes": 14442,
+      "crc32": "df90e062"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0887.png",
+      "file": "0887.png",
+      "bytes": 1002175,
+      "crc32": "8910f74f"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/1059.xml",
+      "file": "1059.xml",
+      "bytes": 2399,
+      "crc32": "16a49b3a"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/1059.png",
+      "file": "1059.png",
+      "bytes": 150205,
+      "crc32": "5b0c4a07"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0363.xml",
+      "file": "0363.xml",
+      "bytes": 31753,
+      "crc32": "9e928f91"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0363.png",
+      "file": "0363.png",
+      "bytes": 2801844,
+      "crc32": "b8a86683"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0164.xml",
+      "file": "0164.xml",
+      "bytes": 21582,
+      "crc32": "06026d5e"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0164.png",
+      "file": "0164.png",
+      "bytes": 1463425,
+      "crc32": "01fe460b"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0471.xml",
+      "file": "0471.xml",
+      "bytes": 5256,
+      "crc32": "d5d5ca83"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0471.png",
+      "file": "0471.png",
+      "bytes": 313201,
+      "crc32": "2b6fb766"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0757.xml",
+      "file": "0757.xml",
+      "bytes": 5686,
+      "crc32": "4dfa03bf"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0757.png",
+      "file": "0757.png",
+      "bytes": 508446,
+      "crc32": "19d882eb"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/1160.xml",
+      "file": "1160.xml",
+      "bytes": 3751,
+      "crc32": "c7a5936a"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/1160.png",
+      "file": "1160.png",
+      "bytes": 265777,
+      "crc32": "a706c45b"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0439.xml",
+      "file": "0439.xml",
+      "bytes": 2153,
+      "crc32": "a33df3e9"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0439.png",
+      "file": "0439.png",
+      "bytes": 135689,
+      "crc32": "1180be42"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0455.xml",
+      "file": "0455.xml",
+      "bytes": 37363,
+      "crc32": "9e196313"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0455.png",
+      "file": "0455.png",
+      "bytes": 3504112,
+      "crc32": "26f6b567"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/1630.xml",
+      "file": "1630.xml",
+      "bytes": 18187,
+      "crc32": "ab0dcdd4"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/1630.png",
+      "file": "1630.png",
+      "bytes": 1401466,
+      "crc32": "6d29d85d"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0009.xml",
+      "file": "0009.xml",
+      "bytes": 26015,
+      "crc32": "f1553e1f"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0009.png",
+      "file": "0009.png",
+      "bytes": 2118408,
+      "crc32": "bde5b6a8"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0345.xml",
+      "file": "0345.xml",
+      "bytes": 23793,
+      "crc32": "88ac0e3b"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0345.png",
+      "file": "0345.png",
+      "bytes": 1356933,
+      "crc32": "99edcffb"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0456.xml",
+      "file": "0456.xml",
+      "bytes": 3168,
+      "crc32": "a574aff8"
+    },
+    {
+      "member": "bnl-ground-truth-newspapers-before-1878-raw/data/0456.png",
+      "file": "0456.png",
+      "bytes": 255611,
+      "crc32": "3c042fac"
+    }
+  ]
+}

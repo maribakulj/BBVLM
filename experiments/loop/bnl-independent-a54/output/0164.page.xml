@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-28T10:18:26.836987+00:00</Created>
+    <LastChange>2026-09-28T10:18:26.836987+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A46_0164" imageWidth="794" imageHeight="1037">
+    <TextRegion id="r000">
+      <Coords points="-7,770 -6,1002 220,1040 673,1042 795,998 793,12 281,10 27,-8 -1,36 -6,81 -7,681 1,724 -7,770"/>
+      <TextLine id="r000-l001" index="0" custom="heights_v2:[31.8,13.5]">
+        <Coords points="281,10 196,8 114,1 27,-8 22,37 111,46 195,53 281,55 365,55 449,55 535,55 619,58 702,58 793,58 793,12 702,12 619,12 585,11 281,10"/>
+        <Baseline points="23,23 112,33 195,40 281,42 365,42 449,42 535,42 619,44 702,44 793,44"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Au moment où la lutte sanglante semble ne</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l002" index="1" custom="heights_v2:[31.8,13.6]">
+        <Coords points="793,59 701,57 613,54 526,54 438,52 349,52 263,52 175,50 88,45 -1,36 -6,81 85,90 174,95 263,97 349,97 437,97 526,100 611,100 700,102 793,104 793,85 793,59"/>
+        <Baseline points="-5,67 86,77 174,81 263,84 349,84 437,84 526,86 612,86 700,88 793,91"/>
+        <TextEquiv conf="1.000">
+          <Unicode>plus pouvoir être prévenue, voilà les commer-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l003" index="2" custom="heights_v2:[32.5,14.0]">
+        <Coords points="793,105 703,102 615,100 526,100 438,98 351,98 264,95 175,93 88,89 -1,77 -6,121 -6,123 85,135 174,140 262,142 351,144 437,144 526,147 614,147 702,149 793,151 793,105"/>
+        <Baseline points="-5,109 86,121 174,126 263,128 351,130 437,130 526,133 614,133 702,135 793,137"/>
+        <TextEquiv conf="1.000">
+          <Unicode>çants de Marseille signent une pétition au</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l004" index="3" custom="heights_v2:[32.7,14.0]">
+        <Coords points="793,153 702,153 614,153 527,151 438,149 351,149 264,146 175,144 89,137 -1,128 -6,174 85,184 174,191 262,193 351,195 437,195 525,198 614,200 702,200 794,200 793,153"/>
+        <Baseline points="-5,160 86,170 174,177 263,179 351,181 437,181 526,184 614,186 702,186 793,186"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Sénat pour demander le maintien de la paix.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l005" index="4" custom="heights_v2:[32.1,13.9]">
+        <Coords points="794,200 703,198 613,200 527,198 436,200 352,198 264,196 176,191 89,182 -1,173 -6,219 85,228 174,237 262,242 351,244 438,246 525,244 614,246 702,244 794,246 794,200"/>
+        <Baseline points="-5,205 86,214 174,223 263,228 351,230 437,233 526,230 614,233 702,230 794,233"/>
+        <TextEquiv conf="1.000">
+          <Unicode>On peut se faire une idée des souffrances et</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l006" index="5" custom="heights_v2:[31.9,13.9]">
+        <Coords points="794,247 702,247 615,245 526,245 437,245 350,247 264,245 177,238 89,229 -1,219 -6,265 85,274 173,284 262,291 352,293 437,291 526,291 614,291 702,293 794,293 794,247"/>
+        <Baseline points="-5,251 86,261 174,270 263,277 351,279 437,277 526,277 614,277 702,279 794,279"/>
+        <TextEquiv conf="1.000">
+          <Unicode>des perturbations qu'entraîne la situation ac-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l007" index="6" custom="heights_v2:[32.2,13.9]">
+        <Coords points="794,293 703,291 614,291 526,291 436,293 351,293 265,289 178,280 89,270 -1,261 -6,307 85,316 173,325 262,335 351,340 438,340 526,337 614,337 702,337 794,339 794,293"/>
+        <Baseline points="-5,293 86,302 174,312 263,321 351,326 437,326 526,323 614,323 702,323 794,326"/>
+        <TextEquiv conf="1.000">
+          <Unicode>tuelle, en disant qu'une des plus honorables</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l008" index="7" custom="heights_v2:[32.5,13.9]">
+        <Coords points="794,340 702,340 613,342 526,342 437,342 351,342 265,337 177,330 90,319 -1,310 -6,356 84,365 173,377 262,384 351,388 437,388 526,388 614,388 702,386 794,386 794,340"/>
+        <Baseline points="-5,342 86,351 174,363 263,370 351,374 437,374 526,374 614,374 702,372 794,372"/>
+        <TextEquiv conf="1.000">
+          <Unicode>et des plus solides maisons du midi de la</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l009" index="8" custom="heights_v2:[32.1,13.7]">
+        <Coords points="794,389 702,389 614,389 526,389 438,387 351,387 264,384 176,380 90,368 -1,359 -6,404 84,414 174,425 262,430 351,432 437,432 526,435 614,435 702,435 794,435 794,389"/>
+        <Baseline points="-5,391 86,400 174,412 263,416 351,419 437,419 526,421 614,421 702,421 794,421"/>
+        <TextEquiv conf="1.000">
+          <Unicode>France n'a dû qu'à une intervention personelle</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l010" index="9" custom="heights_v2:[31.6,13.6]">
+        <Coords points="794,438 703,436 614,436 526,434 438,431 352,429 264,427 175,424 89,417 -1,406 -6,451 85,463 174,470 262,472 351,474 437,476 525,479 614,481 702,481 794,483 794,438"/>
+        <Baseline points="-5,437 86,449 174,456 263,458 351,461 437,463 526,465 614,468 702,468 794,470"/>
+        <TextEquiv conf="1.000">
+          <Unicode>et toute gracieuse de M. Fould, et à l'appui</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l011" index="10" custom="heights_v2:[31.4,13.6]">
+        <Coords points="794,483 703,480 614,480 526,478 438,476 351,476 264,473 176,469 89,462 0,448 -7,492 -7,493 85,507 174,514 262,518 351,521 437,521 525,523 614,525 702,525 794,528 794,483"/>
+        <Baseline points="-5,479 86,493 174,500 263,505 351,507 437,507 526,509 614,512 702,512 794,514"/>
+        <TextEquiv conf="1.000">
+          <Unicode>de la Banque de pouvoir échapper aux con-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l012" index="11" custom="heights_v2:[31.8,14.0]">
+        <Coords points="794,529 703,526 615,524 526,524 438,522 352,519 263,519 175,517 89,510 0,497 -7,541 -7,542 85,556 174,563 263,565 351,565 437,568 526,570 614,570 702,572 794,574 794,529"/>
+        <Baseline points="-5,528 86,542 174,549 263,551 351,551 437,554 526,556 614,556 702,558 794,561"/>
+        <TextEquiv conf="1.000">
+          <Unicode>séquences de la crise et de raffermir sans</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l013" index="12" custom="heights_v2:[32.1,14.0]">
+        <Coords points="794,575 703,573 614,573 527,570 437,570 351,570 264,568 175,566 89,557 0,543 -7,588 -7,588 85,602 174,612 262,614 351,616 437,616 525,616 614,619 702,619 794,621 794,575"/>
+        <Baseline points="-5,575 86,588 174,598 263,600 351,602 437,602 526,602 614,605 702,605 794,607"/>
+        <TextEquiv conf="1.000">
+          <Unicode>craindre de nouveaux embarras une situation</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l014" index="13" custom="heights_v2:[32.1,13.9]">
+        <Coords points="794,621 703,619 613,621 527,619 438,617 351,617 263,617 175,615 89,605 0,592 -7,637 -7,637 85,651 174,661 263,663 351,663 437,663 525,665 614,667 702,665 794,667 794,621"/>
+        <Baseline points="-5,623 86,637 174,647 263,649 351,649 437,649 526,651 614,654 702,651 794,654"/>
+        <TextEquiv conf="1.000">
+          <Unicode>que personne à coup sûr, ne se fut avisée de</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l015" index="14" custom="heights_v2:[31.3,13.7]">
+        <Coords points="52,690 105,697 162,704 216,709 269,709 326,711 379,709 432,709 493,711 494,666 434,664 379,664 324,666 271,664 216,664 166,660 111,653 58,646 0,637 -7,681 52,690"/>
+        <Baseline points="-5,668 53,677 107,684 163,691 216,695 270,695 326,698 379,695 433,695 493,698"/>
+        <TextEquiv conf="1.000">
+          <Unicode>croire un moment douteuse.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l016" index="15" custom="heights_v2:[32.1,13.7]">
+        <Coords points="795,721 706,719 620,717 536,715 451,710 364,712 279,712 197,708 114,696 25,685 19,730 107,742 195,753 279,758 366,758 448,756 535,760 618,763 704,765 795,767 795,721"/>
+        <Baseline points="21,716 109,728 195,740 279,744 365,744 449,742 535,747 619,749 705,751 795,754"/>
+        <TextEquiv conf="1.000">
+          <Unicode>M. le baron de Rothschild est en négocia-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l017" index="16" custom="heights_v2:[32.1,13.8]">
+        <Coords points="795,770 703,768 615,766 527,761 438,759 350,761 263,761 177,754 91,741 1,724 -7,770 84,786 173,800 263,807 352,807 437,805 525,807 614,812 702,814 795,816 795,770"/>
+        <Baseline points="-5,756 86,772 174,786 263,793 351,793 437,791 526,793 614,798 702,800 795,802"/>
+        <TextEquiv conf="1.000">
+          <Unicode>tion, dit-on, avec le gouvernement italien pour</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l018" index="17" custom="heights_v2:[31.8,13.8]">
+        <Coords points="-7,818 84,832 173,849 263,856 349,856 437,854 526,854 611,854 700,856 793,858 794,813 701,810 613,808 526,808 437,808 348,810 263,810 177,803 92,787 0,773 -7,818"/>
+        <Baseline points="-5,805 86,819 174,835 263,842 349,842 437,840 526,840 612,840 700,842 793,844"/>
+        <TextEquiv conf="1.000">
+          <Unicode>acheter ceux des chemins de fer italiens qu'il</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l019" index="18" custom="heights_v2:[31.7,13.9]">
+        <Coords points="-7,863 84,879 173,895 262,902 352,905 437,902 526,902 614,900 702,902 795,905 795,859 703,857 615,854 525,857 437,857 350,859 264,857 177,850 92,834 1,818 -7,861 -7,863"/>
+        <Baseline points="-5,849 86,865 174,882 263,889 351,891 437,889 526,889 614,886 702,889 795,891"/>
+        <TextEquiv conf="1.000">
+          <Unicode>ne possède pas, ce qui semble indiquer que</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l020" index="19" custom="heights_v2:[31.6,13.8]">
+        <Coords points="-7,907 84,923 173,939 262,949 352,951 438,949 526,947 614,947 702,949 795,951 795,906 703,903 615,901 526,901 436,903 350,906 264,903 178,894 92,878 1,862 -7,904 -7,907"/>
+        <Baseline points="-5,893 86,909 174,926 263,935 351,937 437,935 526,933 614,933 702,935 795,937"/>
+        <TextEquiv conf="1.000">
+          <Unicode>l'Italie ne paraît pas au prince des finances</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l021" index="20" custom="heights_v2:[31.6,13.9]">
+        <Coords points="-6,956 84,972 173,988 262,995 351,998 438,998 526,995 614,995 702,995 795,998 795,952 703,950 614,950 526,950 436,952 351,952 264,950 177,943 92,927 1,911 -7,952 -6,956"/>
+        <Baseline points="-5,942 86,958 174,975 263,982 351,984 437,984 526,982 614,982 702,982 795,984"/>
+        <TextEquiv conf="1.000">
+          <Unicode>dans un état aussi désespéré qu'on le prétend,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l022" index="21" custom="heights_v2:[31.7,14.0]">
+        <Coords points="220,1040 673,1042 671,996 592,999 519,999 444,999 370,999 295,999 223,994 151,983 79,967 -1,957 -6,1002 69,1012 131,1025 220,1040"/>
+        <Baseline points="-5,989 72,998 147,1014 221,1026 295,1030 370,1030 444,1030 519,1030 593,1030 672,1028"/>
+        <TextEquiv conf="1.000">
+          <Unicode>au point de vue des intérêts matériels.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

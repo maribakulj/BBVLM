@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-28T10:18:36.224970+00:00</Created>
+    <LastChange>2026-09-28T10:18:36.224970+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A46_1630" imageWidth="790" imageHeight="1042">
+    <TextRegion id="r000">
+      <Coords points="-6,42 -6,1034 507,1046 608,1001 791,1006 792,-8 23,-11 -6,42"/>
+      <TextLine id="r000-l001" index="0" custom="heights_v2:[37.4,14.9]">
+        <Coords points="792,-8 702,-8 618,-8 532,-5 449,-5 367,-8 281,-8 197,-8 125,-11 23,-11 23,41 113,41 197,44 281,44 365,44 449,47 534,47 618,44 702,44 792,44 792,-8"/>
+        <Baseline points="23,26 113,26 197,29 281,29 365,29 449,32 534,32 618,29 702,29 792,29"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die Anhänglichkeit an das Haus unsrer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l002" index="1" custom="heights_v2:[36.6,14.8]">
+        <Coords points="792,42 696,42 609,42 522,42 434,45 349,42 261,42 174,42 87,42 -6,42 -6,93 87,93 174,93 261,93 347,93 435,96 522,93 609,93 696,93 792,93 792,42"/>
+        <Baseline points="-6,78 87,78 174,78 261,78 348,78 435,81 522,78 609,78 696,78 792,78"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Fürsten wird von den entthronten Machthabern</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l003" index="2" custom="heights_v2:[36.9,15.0]">
+        <Coords points="-6,140 87,143 174,143 261,143 348,143 435,143 522,143 609,143 696,143 792,143 792,91 696,91 609,91 522,91 435,91 348,91 261,91 174,91 87,91 -5,88 -6,126 -6,140"/>
+        <Baseline points="-6,125 87,128 174,128 261,128 348,128 435,128 522,128 609,128 696,128 792,128"/>
+        <TextEquiv conf="1.000">
+          <Unicode>als Servilität bezeichnet; das gestrige Volks-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l004" index="3" custom="heights_v2:[36.9,15.0]">
+        <Coords points="792,146 697,143 609,143 523,140 435,140 348,140 261,140 174,140 88,137 -6,137 -6,189 86,189 174,192 261,192 348,192 435,192 521,192 609,195 695,195 791,198 791,185 792,146"/>
+        <Baseline points="-6,174 87,174 174,177 261,177 348,177 435,177 522,177 609,180 696,180 792,183"/>
+        <TextEquiv conf="1.000">
+          <Unicode>fest zu Walferdingen wird sicher in ihren Augen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l005" index="4" custom="heights_v2:[37.1,15.1]">
+        <Coords points="791,195 697,192 610,189 523,186 435,186 348,186 261,186 173,189 87,189 -6,189 -6,241 87,241 174,241 261,238 348,238 435,238 521,238 608,241 695,244 791,247 791,236 791,195"/>
+        <Baseline points="-6,226 87,226 174,226 261,223 348,223 435,223 522,223 609,226 696,229 791,232"/>
+        <TextEquiv conf="1.000">
+          <Unicode>als eine erbärmliche Komödie von Heuchelei</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l006" index="5" custom="heights_v2:[37.4,14.7]">
+        <Coords points="791,247 697,244 610,241 523,238 436,235 348,235 260,238 173,241 87,241 -6,241 -6,293 87,293 174,293 261,290 348,287 434,287 521,290 608,293 695,296 791,299 791,288 791,247"/>
+        <Baseline points="-6,278 87,278 174,278 261,275 348,273 435,273 522,275 609,278 696,281 791,284"/>
+        <TextEquiv conf="1.000">
+          <Unicode>und Verstellungskunst erscheinen. Jedermann</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l007" index="6" custom="heights_v2:[38.1,14.8]">
+        <Coords points="791,292 696,292 609,292 523,290 436,287 349,284 261,284 173,287 87,287 -6,287 -6,340 87,340 174,340 261,337 347,337 434,340 521,342 609,345 696,345 791,345 791,292"/>
+        <Baseline points="-6,325 87,325 174,325 261,322 348,322 435,325 522,328 609,331 696,331 791,331"/>
+        <TextEquiv conf="1.000">
+          <Unicode>schaut durch seine Brille und diejenigen Menschen,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l008" index="7" custom="heights_v2:[38.3,14.8]">
+        <Coords points="791,342 696,342 610,339 522,339 436,336 349,333 261,333 173,336 87,336 -6,336 -6,389 87,389 174,389 261,386 347,386 434,389 522,392 608,392 696,395 791,395 791,342"/>
+        <Baseline points="-6,374 87,374 174,374 261,371 348,371 435,374 522,377 609,377 696,380 791,380"/>
+        <TextEquiv conf="1.000">
+          <Unicode>welche nicht zwischen den Thürmen von</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l009" index="8" custom="heights_v2:[38.2,14.9]">
+        <Coords points="-6,415 -5,438 87,435 174,435 260,432 347,435 434,438 521,444 609,447 696,447 791,447 791,394 696,394 609,394 523,391 437,385 349,382 262,379 173,382 87,382 -6,385 -6,415"/>
+        <Baseline points="-6,423 87,420 174,420 261,418 348,420 435,423 522,429 609,432 696,432 791,432"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Dommeldingen erblenden, wijsen posttiv, daß</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l010" index="9" custom="heights_v2:[38.3,14.9]">
+        <Coords points="791,443 696,443 609,443 523,440 436,437 349,434 264,429 174,429 87,429 -6,429 -6,482 87,482 174,482 260,482 347,487 434,490 521,493 609,496 696,496 791,496 791,443"/>
+        <Baseline points="-6,467 87,467 174,467 261,467 348,473 435,476 522,478 609,481 696,481 791,481"/>
+        <TextEquiv conf="1.000">
+          <Unicode>nur ein freies, liberal regiertes Volk dem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l011" index="10" custom="heights_v2:[38.3,15.0]">
+        <Coords points="791,520 790,489 695,492 609,492 522,492 436,489 349,487 262,484 175,481 88,478 -6,478 -6,531 86,531 173,534 260,537 347,540 434,543 522,546 609,546 696,546 791,543 791,520"/>
+        <Baseline points="-6,516 87,516 174,519 261,522 348,525 435,528 522,531 609,531 696,531 791,528"/>
+        <TextEquiv conf="1.000">
+          <Unicode>monarchiſchen Prinzip ſolche Huldigungen dar=</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l012" index="11" custom="heights_v2:[38.2,15.0]">
+        <Coords points="-6,580 86,583 173,586 260,589 347,592 434,595 522,598 609,598 696,598 791,598 791,545 696,545 609,545 522,545 436,542 349,539 262,536 175,533 88,530 -5,527 -6,577 -6,580"/>
+        <Baseline points="-6,565 87,568 174,571 261,574 348,577 435,580 522,583 609,583 696,583 791,583"/>
+        <TextEquiv conf="1.000">
+          <Unicode>bringt, wie sie in unserm Lande aus der tiefsten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l013" index="12" custom="heights_v2:[37.4,15.2]">
+        <Coords points="-6,630 86,633 173,636 260,641 347,644 435,647 522,647 608,647 696,650 791,647 791,623 790,595 695,598 610,595 522,595 435,595 349,592 262,589 176,583 88,580 -5,577 -6,627 -6,630"/>
+        <Baseline points="-6,615 87,618 174,621 261,626 348,629 435,632 522,632 609,632 696,635 791,632"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Ueberzeugung des Volkes hervorgehen. S. K. H.,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l014" index="13" custom="heights_v2:[37.4,15.1]">
+        <Coords points="-6,685 87,688 173,688 260,691 348,694 434,694 522,696 609,696 696,696 791,696 791,644 696,644 609,644 522,644 436,641 348,641 262,638 175,635 87,635 -5,632 -6,683 -6,685"/>
+        <Baseline points="-6,670 87,673 174,673 261,676 348,679 435,679 522,681 609,681 696,681 791,681"/>
+        <TextEquiv conf="1.000">
+          <Unicode>der Prinz Heinrich der Niederlande und Statt-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l015" index="14" custom="heights_v2:[37.5,14.9]">
+        <Coords points="-6,728 86,731 173,737 260,740 347,743 434,746 522,749 609,749 696,749 791,746 791,720 790,693 695,696 609,696 522,696 436,693 349,690 262,687 175,684 89,679 -5,676 -6,728 -6,728"/>
+        <Baseline points="-6,713 87,716 174,722 261,725 348,728 435,731 522,734 609,734 696,734 791,731"/>
+        <TextEquiv conf="1.000">
+          <Unicode>halter S. Majestät des Königs, hat gesprochen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l016" index="15" custom="heights_v2:[37.6,15.0]">
+        <Coords points="791,745 696,745 609,745 522,745 435,745 348,745 262,742 175,739 89,734 -5,731 -6,783 86,786 173,792 260,795 348,798 435,798 522,798 609,798 696,798 791,798 791,745"/>
+        <Baseline points="-6,768 87,771 174,777 261,780 348,783 435,783 522,783 609,783 696,783 791,783"/>
+        <TextEquiv conf="1.000">
+          <Unicode>und wird Wort halten. Das Land sitzt zu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l017" index="16" custom="heights_v2:[38.0,14.9]">
+        <Coords points="791,797 696,797 609,797 523,794 435,794 348,794 262,791 175,788 87,788 -5,786 -6,838 87,841 173,841 260,844 348,847 435,847 521,847 609,850 696,850 791,850 791,797"/>
+        <Baseline points="-6,823 87,826 174,826 261,829 348,832 435,832 522,832 609,835 696,835 791,835"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Gericht und erkennt seine Erzmänner, die Großen,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l018" index="17" custom="heights_v2:[38.2,14.8]">
+        <Coords points="791,849 696,849 610,846 522,846 435,846 349,843 262,840 175,837 87,837 -5,835 -6,888 87,890 173,890 260,893 347,896 435,899 522,899 608,899 696,902 791,902 791,849"/>
+        <Baseline points="-6,873 87,876 174,876 261,879 348,881 435,884 522,884 609,884 696,887 791,887"/>
+        <TextEquiv conf="1.000">
+          <Unicode>wie die Kleinen; jedes Votum bleibt ein</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l019" index="18" custom="heights_v2:[38.3,15.0]">
+        <Coords points="791,898 696,898 610,895 522,895 435,895 348,895 262,892 175,890 88,887 -6,887 -6,940 86,940 173,943 260,946 348,949 435,949 522,949 608,949 696,952 791,952 791,898"/>
+        <Baseline points="-6,925 87,925 174,928 261,931 348,934 435,934 522,934 609,934 696,937 791,937"/>
+        <TextEquiv conf="1.000">
+          <Unicode>historisches Merkmal, und die Zukunft wird aus</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l020" index="19" custom="heights_v2:[38.4,14.7]">
+        <Coords points="791,1006 791,953 697,950 610,948 522,947 436,945 348,945 262,942 177,936 87,936 -5,933 -6,986 87,989 173,989 260,995 348,998 434,998 522,1001 608,1001 791,1006"/>
+        <Baseline points="-6,971 87,974 174,974 261,980 348,983 435,983 522,986 609,986 696,989 791,992"/>
+        <TextEquiv conf="1.000">
+          <Unicode>der Wahlurne die Belohnung des Civismus</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l021" index="20" custom="heights_v2:[36.6,13.8]">
+        <Coords points="507,1046 507,996 444,996 389,996 333,996 280,993 220,993 167,990 110,990 57,987 -4,984 -6,1034 507,1046"/>
+        <Baseline points="-6,1021 55,1024 110,1026 165,1026 220,1029 278,1029 333,1032 389,1032 444,1032 507,1032"/>
+        <TextEquiv conf="1.000">
+          <Unicode>oder des Egoismus austheilen</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

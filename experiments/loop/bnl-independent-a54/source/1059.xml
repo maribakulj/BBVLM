@@ -1,0 +1,46 @@
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-1.xsd">
+  <Description>
+    <MeasurementUnit>mm10</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>./ALTO00002-P2_TB00010.tif</fileName>
+    </sourceImageInformation>
+  </Description>
+  <Layout>
+    <Page ID="P_0001" PHYSICAL_IMG_NR="1">
+      <PrintSpace>
+        <TextBlock ID="TB_0001">
+          <TextLine ID="TL_0001" HPOS="36" VPOS="0" WIDTH="726" HEIGHT="36">
+            <String CONTENT="Die" CC="000" HPOS="37" VPOS="6" WIDTH="49" HEIGHT="27" />
+            <SP />
+            <String CONTENT="während" CC="0000000" HPOS="105" VPOS="5" WIDTH="111" HEIGHT="29" />
+            <SP />
+            <String CONTENT="der" CC="000" HPOS="237" VPOS="7" WIDTH="38" HEIGHT="23" />
+            <SP />
+            <String CONTENT="Belagerung" CC="0000000000" HPOS="296" VPOS="4" WIDTH="158" HEIGHT="31" />
+            <SP />
+            <String CONTENT="und" CC="000" HPOS="473" VPOS="4" WIDTH="49" HEIGHT="21" />
+            <SP />
+            <String CONTENT="unter" CC="00000" HPOS="539" VPOS="3" WIDTH="71" HEIGHT="22" />
+            <SP />
+            <String CONTENT="der" CC="000" HPOS="628" VPOS="2" WIDTH="39" HEIGHT="25" />
+            <SP />
+            <String CONTENT="Herr⸗" CC="00000" HPOS="685" VPOS="0" WIDTH="76" HEIGHT="32" />
+          </TextLine>
+          <TextLine ID="TL_0002" HPOS="0" VPOS="43" WIDTH="763" HEIGHT="39">
+            <String CONTENT="schaft" CC="000000" HPOS="0" VPOS="53" WIDTH="70" HEIGHT="28" />
+            <SP />
+            <String CONTENT="der" CC="000" HPOS="88" VPOS="57" WIDTH="38" HEIGHT="21" />
+            <SP />
+            <String CONTENT="Commune" CC="0000000" HPOS="152" VPOS="50" WIDTH="133" HEIGHT="27" />
+            <SP />
+            <String CONTENT="verlebten" CC="000000000" HPOS="313" VPOS="47" WIDTH="117" HEIGHT="27" />
+            <SP />
+            <String CONTENT="Schreckenstage" CC="00000000000000" HPOS="461" VPOS="44" WIDTH="198" HEIGHT="32" />
+            <SP />
+            <String CONTENT="geben" CC="00000" HPOS="693" VPOS="44" WIDTH="69" HEIGHT="31" />
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

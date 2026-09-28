@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-28T10:18:12.746501+00:00</Created>
+    <LastChange>2026-09-28T10:18:12.746501+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A46_0949" imageWidth="795" imageHeight="1065">
+    <TextRegion id="r000">
+      <Coords points="-5,-7 -4,1070 174,1063 798,1065 793,-7 -5,-7"/>
+      <TextLine id="r000-l001" index="0" custom="heights_v2:[35.2,14.8]">
+        <Coords points="-5,43 19,43 19,-7 -5,-7 -5,43"/>
+        <Baseline points="-5,28 19,28"/>
+        <TextEquiv conf="1.000">
+          <Unicode></Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l002" index="1" custom="heights_v2:[34.5,15.5]">
+        <Coords points="459,-7 448,-7 363,-7 350,-7 44,-7 20,-7 21,43 109,41 193,41 279,41 363,43 449,43 532,41 619,43 702,43 793,43 793,-7 702,-7 619,-7 613,-7 459,-7"/>
+        <Baseline points="21,28 109,26 193,26 279,26 363,28 449,28 533,26 619,28 702,28 793,28"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Aus dem sub 2 mitgetheilten Gesichtspunkte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l003" index="2" custom="heights_v2:[33.5,15.1]">
+        <Coords points="-5,80 -4,94 86,92 174,90 263,92 349,92 437,90 525,90 611,92 700,94 793,94 793,46 700,46 613,43 527,41 437,41 348,43 263,43 175,41 85,43 -5,46 -5,80"/>
+        <Baseline points="-5,79 86,77 174,74 263,77 349,77 437,74 526,74 612,77 700,79 793,79"/>
+        <TextEquiv conf="1.000">
+          <Unicode>glauben wir nun folgern zu dürfen, daß das</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l004" index="3" custom="heights_v2:[34.3,15.1]">
+        <Coords points="-5,132 -4,145 86,143 175,143 263,141 352,141 437,138 526,138 614,138 703,138 794,136 794,87 702,89 614,89 526,89 437,89 350,91 263,91 174,94 86,94 -5,96 -5,132"/>
+        <Baseline points="-5,130 86,128 174,128 263,126 351,126 437,123 526,123 614,123 702,123 794,121"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Luxemburger Athenäum in den alten Spra-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l005" index="4" custom="heights_v2:[35.5,15.5]">
+        <Coords points="-5,184 -4,197 86,195 175,195 263,192 351,192 440,192 528,190 616,188 705,188 794,188 794,137 705,137 616,137 527,139 439,141 351,141 263,141 174,144 86,144 -5,146 -5,184"/>
+        <Baseline points="-5,181 86,179 174,179 263,177 351,177 440,177 528,174 616,172 705,172 794,172"/>
+        <TextEquiv conf="1.000">
+          <Unicode>chen und andern Fächern nicht dasselbe leisten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l006" index="5" custom="heights_v2:[36.2,15.8]">
+        <Coords points="-5,238 -4,251 86,248 174,248 263,248 351,248 438,248 526,246 614,244 703,244 794,241 794,189 702,192 614,192 525,194 436,196 351,196 263,196 174,196 86,196 -5,199 -5,238"/>
+        <Baseline points="-5,235 86,233 174,233 263,233 351,233 437,233 526,230 614,228 702,228 794,226"/>
+        <TextEquiv conf="1.000">
+          <Unicode>kann, wie andere Lehranstalten, deren Schüler</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l007" index="6" custom="heights_v2:[34.3,15.5]">
+        <Coords points="-5,290 -4,302 86,299 174,299 263,299 349,299 437,299 526,299 612,299 700,297 793,299 794,250 701,247 611,250 526,249 437,249 349,249 263,249 174,249 86,249 -5,252 -5,290"/>
+        <Baseline points="-5,286 86,284 174,284 263,284 349,284 437,284 526,284 612,284 700,281 793,284"/>
+        <TextEquiv conf="1.000">
+          <Unicode>sich hauptsächlich nur in einer neuern Sprache</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l008" index="7" custom="heights_v2:[33.3,15.2]">
+        <Coords points="-5,348 86,348 174,348 263,348 351,348 437,348 526,348 614,348 702,350 795,352 794,304 703,302 615,299 526,299 437,299 351,299 263,299 174,299 86,299 -5,299 -5,348"/>
+        <Baseline points="-5,333 86,333 174,333 263,333 351,333 437,333 526,333 614,333 702,335 795,337"/>
+        <TextEquiv conf="1.000">
+          <Unicode>auszubilden haben, und zwar in einer Sprache,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l009" index="8" custom="heights_v2:[34.2,15.5]">
+        <Coords points="-5,404 86,404 175,404 263,402 351,399 440,399 528,399 616,399 705,399 795,399 795,350 705,350 616,350 528,350 440,350 351,350 262,352 174,354 86,354 -5,354 -5,404"/>
+        <Baseline points="-5,388 86,388 174,388 263,386 351,384 440,384 528,384 616,384 705,384 795,384"/>
+        <TextEquiv conf="1.000">
+          <Unicode>welche sie in Folge eines längern Gebrauches</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l010" index="9" custom="heights_v2:[34.0,15.7]">
+        <Coords points="-4,446 -4,455 86,453 174,451 263,451 351,451 440,451 528,451 616,451 705,453 795,453 795,403 705,403 617,401 528,401 440,401 351,401 263,401 174,401 85,403 -5,406 -4,446"/>
+        <Baseline points="-5,440 86,437 174,435 263,435 351,435 440,435 528,435 616,435 705,437 795,437"/>
+        <TextEquiv conf="1.000">
+          <Unicode>mehr oder weniger geläufig sprechen fönnen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l011" index="10" custom="heights_v2:[34.0,15.5]">
+        <Coords points="-4,497 -4,506 86,504 174,504 263,504 352,504 440,502 528,502 616,502 704,502 795,504 795,454 706,452 616,452 528,452 440,452 350,454 263,454 174,454 86,454 -4,457 -4,497"/>
+        <Baseline points="-4,491 86,488 174,488 263,488 351,488 440,486 528,486 616,486 705,486 795,488"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Zwar wird in deutschen Gymnasien neben dem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l012" index="11" custom="heights_v2:[33.9,15.5]">
+        <Coords points="-4,547 -4,555 86,553 174,553 263,555 351,555 440,555 528,553 616,553 705,555 796,555 795,506 705,506 617,503 528,503 439,506 351,506 263,506 175,503 86,503 -4,506 -4,547"/>
+        <Baseline points="-4,540 86,537 174,537 263,540 351,540 440,540 528,537 616,537 705,540 796,540"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Deutschen auch das Französische oder das Eng-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l013" index="12" custom="heights_v2:[33.8,15.5]">
+        <Coords points="-4,606 86,606 174,604 263,604 351,604 439,604 528,606 616,606 705,609 796,609 796,559 705,559 617,557 528,557 440,555 351,555 263,555 174,555 85,557 -4,557 -4,606"/>
+        <Baseline points="-4,591 86,591 174,588 263,588 351,588 440,588 528,591 616,591 705,593 796,593"/>
+        <TextEquiv conf="1.000">
+          <Unicode>liſche gelehrt, doch hat der Schüler in letztern</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l014" index="13" custom="heights_v2:[33.9,15.3]">
+        <Coords points="-4,657 86,657 174,655 262,655 352,657 440,655 528,655 616,657 705,660 796,660 796,610 705,610 617,608 529,606 440,606 350,608 264,606 174,606 85,608 -4,608 -4,657"/>
+        <Baseline points="-4,642 86,642 174,640 263,640 351,642 440,640 528,640 616,642 705,644 796,644"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Sprachen weit geringeren Anforderungen Genūge</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l015" index="14" custom="heights_v2:[34.1,15.4]">
+        <Coords points="-4,711 86,711 174,709 263,709 352,709 439,706 528,709 616,709 704,711 796,713 796,664 706,661 617,659 528,659 441,657 350,659 263,659 174,659 85,661 -4,661 -4,711"/>
+        <Baseline points="-4,695 86,695 174,693 263,693 351,693 440,691 528,693 616,693 705,695 796,698"/>
+        <TextEquiv conf="1.000">
+          <Unicode>zu leisten als bei uns. Dasselbe gilt auch für</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l016" index="15" custom="heights_v2:[33.5,15.3]">
+        <Coords points="-4,759 -4,764 86,762 174,760 263,760 351,757 439,760 528,762 616,762 705,762 796,760 796,711 704,713 616,713 528,713 440,711 352,708 262,711 174,711 85,713 -4,715 -4,759"/>
+        <Baseline points="-4,749 86,747 174,744 263,744 351,742 440,744 528,747 616,747 705,747 796,744"/>
+        <TextEquiv conf="1.000">
+          <Unicode>die französischen Lyceen, in welchen, außer dem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l017" index="16" custom="heights_v2:[33.5,15.2]">
+        <Coords points="-4,808 -4,813 86,811 174,811 263,811 351,811 439,811 528,813 617,813 705,811 797,811 796,762 705,762 615,764 528,764 440,762 351,762 263,762 174,762 86,762 -4,764 -4,808"/>
+        <Baseline points="-4,798 86,795 174,795 263,795 351,795 440,795 528,798 616,798 705,795 797,795"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Französtſchen eine andere moderne Sprache ge-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l018" index="17" custom="heights_v2:[34.7,15.1]">
+        <Coords points="-4,864 86,864 174,862 263,862 351,862 440,862 528,862 616,862 705,864 797,864 797,814 705,814 617,812 528,812 440,812 351,812 263,812 174,812 85,814 -4,814 -4,864"/>
+        <Baseline points="-4,849 86,849 174,847 263,847 351,847 440,847 528,847 616,847 705,849 797,849"/>
+        <TextEquiv conf="1.000">
+          <Unicode>lehrt wird. Die Ausbildung in den neuern</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l019" index="18" custom="heights_v2:[35.1,15.1]">
+        <Coords points="-4,911 86,911 174,911 262,911 351,913 440,915 528,915 616,915 705,915 797,915 797,865 705,865 616,865 528,865 440,865 352,863 264,860 174,860 86,860 -4,860 -4,911"/>
+        <Baseline points="-4,895 86,895 174,895 263,895 351,898 440,900 528,900 616,900 705,900 797,900"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Sprachen muß also unsere ganzen künftigen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l020" index="19" custom="heights_v2:[34.5,14.8]">
+        <Coords points="-4,962 -4,964 86,961 174,961 263,961 351,961 440,964 528,964 617,966 704,964 797,966 797,917 706,915 615,917 529,915 440,915 352,912 263,912 174,912 86,912 -4,915 -4,962"/>
+        <Baseline points="-4,949 86,947 174,947 263,947 351,947 440,949 528,949 616,951 705,949 797,951"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Lehrplane beherrschen, und diesem obersten Ziele</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l021" index="20" custom="heights_v2:[34.3,14.7]">
+        <Coords points="-4,1015 86,1015 175,1013 263,1010 351,1010 440,1013 528,1013 616,1015 705,1017 798,1015 797,986 797,966 704,968 617,966 529,964 440,964 352,961 263,961 174,964 85,966 -4,966 -4,1015"/>
+        <Baseline points="-4,1000 86,1000 174,998 263,996 351,996 440,998 528,998 616,1000 705,1002 798,1000"/>
+        <TextEquiv conf="1.000">
+          <Unicode>muß vorerst die gebührendste Rücksichtsnahme</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l022" index="21" custom="heights_v2:[32.6,14.1]">
+        <Coords points="-4,1070 174,1063 329,1064 351,1063 440,1063 528,1063 586,1065 798,1065 798,1019 705,1019 616,1019 529,1016 440,1016 351,1016 262,1019 175,1016 84,1021 -4,1023 -4,1070"/>
+        <Baseline points="-4,1056 86,1054 174,1049 263,1051 351,1049 440,1049 528,1049 616,1051 705,1051 798,1051"/>
+        <TextEquiv conf="1.000">
+          <Unicode>gesichert werden. Dies kann aber unmöglich er-</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

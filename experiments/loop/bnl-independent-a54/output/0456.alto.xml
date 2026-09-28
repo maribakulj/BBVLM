@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>A46_0456</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-09-28T10:18:42.446274</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_A46_0456" PHYSICAL_IMG_NR="1" HEIGHT="194" WIDTH="789">
+      <TopMargin HEIGHT="-5" WIDTH="789" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="194" WIDTH="-5" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="194" WIDTH="-2" VPOS="0" HPOS="791"/>
+      <BottomMargin HEIGHT="0" WIDTH="789" VPOS="194" HPOS="0"/>
+      <PrintSpace HEIGHT="199" WIDTH="797" VPOS="-5" HPOS="-5">
+        <TextBlock ID="block_r000" HEIGHT="198" WIDTH="797" VPOS="-5" HPOS="-5">
+          <TextLine BASELINE="28" VPOS="-5" HPOS="31" HEIGHT="50" WIDTH="760">
+            <String CONTENT="Southampton," HEIGHT="46" WIDTH="229" VPOS="-4" HPOS="47" WC="1"/>
+            <SP WIDTH="4" VPOS="-4" HPOS="276"/>
+            <String CONTENT="31" HEIGHT="44" WIDTH="36" VPOS="-2" HPOS="293" WC="1"/>
+            <SP WIDTH="4" VPOS="-2" HPOS="329"/>
+            <String CONTENT="janvier." HEIGHT="45" WIDTH="145" VPOS="-3" HPOS="354" WC="1"/>
+            <SP WIDTH="4" VPOS="-3" HPOS="500"/>
+            <String CONTENT="Le" HEIGHT="44" WIDTH="39" VPOS="-3" HPOS="516" WC="1"/>
+            <SP WIDTH="4" VPOS="-3" HPOS="555"/>
+            <String CONTENT="Tasmanian," HEIGHT="47" WIDTH="204" VPOS="-7" HPOS="586" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="77" VPOS="36" HPOS="-3" HEIGHT="57" WIDTH="795">
+            <String CONTENT="venant" HEIGHT="47" WIDTH="111" VPOS="39" HPOS="0" WC="1"/>
+            <SP WIDTH="4" VPOS="39" HPOS="110"/>
+            <String CONTENT="des" HEIGHT="44" WIDTH="51" VPOS="45" HPOS="148" WC="1"/>
+            <SP WIDTH="4" VPOS="45" HPOS="199"/>
+            <String CONTENT="Indes-Occidentales," HEIGHT="44" WIDTH="363" VPOS="48" HPOS="250" WC="1"/>
+            <SP WIDTH="4" VPOS="48" HPOS="614"/>
+            <String CONTENT="apporte" HEIGHT="47" WIDTH="135" VPOS="43" HPOS="652" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="127" VPOS="85" HPOS="-4" HEIGHT="58" WIDTH="796">
+            <String CONTENT="2,770178" HEIGHT="48" WIDTH="150" VPOS="88" HPOS="-2" WC="1"/>
+            <SP WIDTH="4" VPOS="88" HPOS="147"/>
+            <String CONTENT="dollars," HEIGHT="44" WIDTH="131" VPOS="97" HPOS="173" WC="1"/>
+            <SP WIDTH="4" VPOS="97" HPOS="304"/>
+            <String CONTENT="dont" HEIGHT="42" WIDTH="73" VPOS="100" HPOS="327" WC="1"/>
+            <SP WIDTH="4" VPOS="100" HPOS="401"/>
+            <String CONTENT="2,021,158" HEIGHT="43" WIDTH="155" VPOS="99" HPOS="429" WC="1"/>
+            <SP WIDTH="4" VPOS="99" HPOS="585"/>
+            <String CONTENT="en" HEIGHT="42" WIDTH="30" VPOS="98" HPOS="615" WC="1"/>
+            <SP WIDTH="4" VPOS="98" HPOS="646"/>
+            <String CONTENT="or," HEIGHT="43" WIDTH="62" VPOS="94" HPOS="675" WC="1"/>
+            <SP WIDTH="4" VPOS="94" HPOS="737"/>
+            <String CONTENT="et" HEIGHT="43" WIDTH="34" VPOS="92" HPOS="753" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="175" VPOS="136" HPOS="-5" HEIGHT="56" WIDTH="347">
+            <String CONTENT="741,397" HEIGHT="50" WIDTH="128" VPOS="134" HPOS="2" WC="1"/>
+            <SP WIDTH="4" VPOS="134" HPOS="130"/>
+            <String CONTENT="en" HEIGHT="40" WIDTH="31" VPOS="147" HPOS="156" WC="1"/>
+            <SP WIDTH="4" VPOS="147" HPOS="187"/>
+            <String CONTENT="argent." HEIGHT="42" WIDTH="128" VPOS="150" HPOS="215" WC="1"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

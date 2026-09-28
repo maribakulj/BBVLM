@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-28T10:18:41.861598+00:00</Created>
+    <LastChange>2026-09-28T10:18:41.861598+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A46_0345" imageWidth="895" imageHeight="954">
+    <TextRegion id="r000">
+      <Coords points="17,196 8,934 402,943 601,958 899,955 894,633 887,584 894,344 887,13 331,16 54,-2 12,39 17,196"/>
+      <TextLine id="r000-l001" index="0" custom="heights_v2:[27.9,10.0]">
+        <Coords points="441,15 422,16 331,16 242,13 156,5 54,-2 52,36 147,42 240,51 331,53 424,53 514,51 606,48 696,48 789,51 887,51 887,13 441,15"/>
+        <Baseline points="52,26 148,32 241,41 331,43 423,43 513,41 606,38 696,38 789,41 887,41"/>
+        <TextEquiv conf="1.000">
+          <Unicode>L'image de la belle, de la charmante, de lado-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l002" index="1" custom="heights_v2:[27.6,9.7]">
+        <Coords points="13,76 112,79 208,88 305,94 400,91 496,91 592,88 687,88 783,91 884,94 885,56 784,54 688,51 592,51 495,54 400,54 304,56 210,51 116,42 12,39 13,76"/>
+        <Baseline points="13,67 113,70 209,78 304,84 400,81 496,81 592,78 687,78 783,81 884,84"/>
+        <TextEquiv conf="1.000">
+          <Unicode>rée, tournovait autour de lui et l'attirait comme un</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l003" index="2" custom="heights_v2:[27.6,9.9]">
+        <Coords points="15,114 112,120 208,132 305,135 400,132 496,129 591,129 687,132 783,132 887,135 888,97 784,94 687,94 592,91 496,91 399,94 304,97 210,94 116,83 13,77 15,114"/>
+        <Baseline points="14,105 113,110 209,122 304,125 400,122 496,119 592,119 687,122 783,122 887,125"/>
+        <TextEquiv conf="1.000">
+          <Unicode>feu follet qui sautille la nuit à travers les marais.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l004" index="3" custom="heights_v2:[27.6,9.8]">
+        <Coords points="106,161 191,169 273,175 354,175 436,175 516,169 597,169 679,172 759,172 846,175 848,138 761,135 679,135 598,132 516,132 433,138 354,138 273,138 193,132 110,123 106,161"/>
+        <Baseline points="107,151 191,159 273,165 354,165 435,165 516,159 597,159 679,162 760,162 847,165"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Clara, chère et cruelle Clara, soupirait-il.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l005" index="4" custom="heights_v2:[27.7,9.8]">
+        <Coords points="51,195 147,204 240,213 331,216 424,216 514,213 606,210 696,213 788,216 887,219 888,181 790,178 697,175 607,172 512,175 422,178 331,178 242,175 150,167 55,158 51,195"/>
+        <Baseline points="52,186 148,194 241,203 331,206 423,206 513,203 606,200 696,203 789,206 887,209"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Enfin le troisième jour, à bout de forces, n'y</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l006" index="5" custom="heights_v2:[27.7,9.7]">
+        <Coords points="16,233 115,242 211,253 307,256 403,256 499,253 594,250 690,253 786,256 887,259 888,222 787,219 691,216 595,213 498,216 402,219 307,219 213,216 119,204 17,196 16,233"/>
+        <Baseline points="17,223 116,232 212,244 307,246 403,246 499,244 594,241 690,244 786,246 887,249"/>
+        <TextEquiv conf="1.000">
+          <Unicode>tenant plus il sonna, se fit ouvrir, et comme un</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l007" index="6" custom="heights_v2:[27.5,9.9]">
+        <Coords points="16,277 115,285 211,297 307,300 404,300 499,294 594,294 690,297 786,300 890,300 890,262 786,262 691,260 595,257 499,257 401,262 307,262 213,260 119,248 17,239 16,246 16,277"/>
+        <Baseline points="16,267 116,275 212,287 307,290 403,290 499,284 594,284 690,287 786,290 890,290"/>
+        <TextEquiv conf="1.000">
+          <Unicode>insensé, riant et pleurant, il se précipita aux pieds</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l008" index="7" custom="heights_v2:[27.5,10.5]">
+        <Coords points="15,318 54,321 88,323 127,329 161,332 196,338 240,341 242,303 199,300 167,295 130,292 94,286 57,283 16,280 16,289 15,318"/>
+        <Baseline points="16,307 55,310 90,313 128,319 162,322 197,328 241,331"/>
+        <TextEquiv conf="1.000">
+          <Unicode>de son idole.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l009" index="8" custom="heights_v2:[27.6,10.4]">
+        <Coords points="66,367 104,370 106,332 69,329 66,367"/>
+        <Baseline points="67,357 104,360"/>
+        <TextEquiv conf="1.000">
+          <Unicode>—</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l010" index="9" custom="heights_v2:[27.5,9.8]">
+        <Coords points="801,341 713,341 630,338 542,338 454,341 370,344 284,344 198,341 109,335 107,372 197,378 284,381 371,381 456,378 542,375 629,375 713,378 800,378 893,381 894,344 801,341"/>
+        <Baseline points="107,362 197,368 284,371 371,371 455,368 542,365 629,365 713,368 800,368 893,371"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Pardonpez-moi, murmura-t-il, j'ai voulu vous</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l011" index="10" custom="heights_v2:[27.3,9.7]">
+        <Coords points="14,404 112,413 209,421 308,421 403,419 499,416 597,416 693,416 789,419 892,419 893,382 789,382 694,379 597,379 499,379 402,382 307,384 209,384 116,376 15,367 14,404"/>
+        <Baseline points="15,395 113,403 209,412 307,412 403,409 499,406 597,406 693,406 789,409 892,409"/>
+        <TextEquiv conf="1.000">
+          <Unicode>oublier, pai voulu vous trahir; mais l'entreprise</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l012" index="11" custom="heights_v2:[27.4,9.8]">
+        <Coords points="14,448 110,459 206,462 304,462 400,462 496,459 594,456 690,456 786,459 890,462 891,425 787,422 691,419 594,419 495,422 399,425 304,425 206,425 111,422 14,411 14,448"/>
+        <Baseline points="14,438 110,449 206,452 304,452 400,452 496,449 594,447 690,447 786,449 890,452"/>
+        <TextEquiv conf="1.000">
+          <Unicode>dépassait mes forces. Je vous aime, je n'aime que</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l013" index="12" custom="heights_v2:[27.6,9.8]">
+        <Coords points="14,489 110,494 206,500 304,503 400,503 496,500 594,500 690,500 786,503 889,506 890,468 787,465 691,462 594,462 496,462 399,465 304,465 207,462 112,457 14,451 14,489"/>
+        <Baseline points="14,479 110,484 206,490 304,493 400,493 496,490 594,490 690,490 786,493 890,496"/>
+        <TextEquiv conf="1.000">
+          <Unicode>vons. Oh! Clara, de grâce, éeoutez-moi; me voici</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l014" index="13" custom="heights_v2:[27.5,9.7]">
+        <Coords points="13,529 110,535 206,540 302,540 398,540 496,537 592,537 687,537 783,543 887,546 888,509 784,506 689,500 592,500 496,500 396,503 302,503 206,503 112,497 13,492 13,529"/>
+        <Baseline points="13,519 110,525 206,531 302,531 397,531 496,528 592,528 687,528 783,534 887,536"/>
+        <TextEquiv conf="1.000">
+          <Unicode>soumis et repentant; je dépose a vos pieds ma</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l015" index="14" custom="heights_v2:[27.4,9.8]">
+        <Coords points="13,570 109,572 206,581 302,584 398,584 496,578 592,578 687,578 783,584 887,584 887,547 783,547 689,541 592,541 496,541 396,547 302,547 207,544 113,535 13,532 13,570"/>
+        <Baseline points="13,560 110,563 206,571 302,574 397,574 496,568 592,568 687,568 783,574 887,574"/>
+        <TextEquiv conf="1.000">
+          <Unicode>fortune, mon nom, ma vie, et c'est de vous seule</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l016" index="15" custom="heights_v2:[27.5,9.7]">
+        <Coords points="12,607 110,613 205,619 302,624 398,624 496,622 592,622 687,622 783,624 887,627 888,590 784,587 688,584 592,584 496,584 396,587 302,587 208,581 112,576 13,570 12,607"/>
+        <Baseline points="12,598 110,603 206,609 302,615 397,615 496,612 592,612 687,612 783,615 887,618"/>
+        <TextEquiv conf="1.000">
+          <Unicode>désormais que iattends mon bonheur. Parlez, or-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l017" index="16" custom="heights_v2:[27.6,9.9]">
+        <Coords points="12,651 110,654 205,656 304,665 400,668 499,665 594,662 692,662 788,668 893,671 894,633 789,631 695,625 594,625 498,628 399,631 305,628 208,619 111,616 12,613 12,651"/>
+        <Baseline points="12,641 110,644 206,647 304,655 400,658 499,655 594,652 693,652 789,658 893,661"/>
+        <TextEquiv conf="1.000">
+          <Unicode>donnez, le jour au’il vous plaira, vous serez ma</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l018" index="17" custom="heights_v2:[27.5,9.8]">
+        <Coords points="11,688 95,691 176,694 260,700 342,706 427,709 508,706 592,703 672,703 762,706 763,668 674,666 592,665 506,668 425,671 343,668 263,663 179,657 97,654 12,651 11,688"/>
+        <Baseline points="11,679 96,681 177,684 261,690 342,696 426,699 507,696 592,693 673,693 763,696"/>
+        <TextEquiv conf="1.000">
+          <Unicode>femme, devant les hommes et devant Dieu.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l019" index="18" custom="heights_v2:[27.3,9.7]">
+        <Coords points="66,726 162,729 252,735 342,740 432,746 525,746 615,743 704,743 794,746 892,752 895,715 796,709 705,706 615,706 524,709 432,709 344,703 254,698 164,692 68,689 66,726"/>
+        <Baseline points="67,716 162,719 252,725 342,731 432,736 525,736 615,734 705,734 794,736 893,742"/>
+        <TextEquiv conf="1.000">
+          <Unicode>— Oh! je vous crois s'écria-t-elle: votre voix,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l020" index="19" custom="heights_v2:[27.2,9.7]">
+        <Coords points="11,766 112,769 208,775 306,778 403,787 499,790 597,787 693,787 788,790 893,793 894,756 789,753 694,750 597,750 498,753 404,750 310,741 210,738 115,733 12,730 11,766"/>
+        <Baseline points="12,757 113,760 209,765 307,768 403,777 499,780 597,777 693,777 789,780 893,783"/>
+        <TextEquiv conf="1.000">
+          <Unicode>votre accent, votre émotion, vos larmes me disent</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l021" index="20" custom="heights_v2:[27.2,9.5]">
+        <Coords points="10,807 110,810 208,813 304,819 402,824 499,833 598,833 693,830 791,830 896,833 896,807 896,796 792,793 693,793 596,796 499,796 406,788 306,782 210,776 111,773 10,770 10,807"/>
+        <Baseline points="10,797 110,800 209,803 304,809 403,815 499,823 597,823 693,821 792,821 896,823"/>
+        <TextEquiv conf="1.000">
+          <Unicode>d'avoir foi en vous, et je puis l'avouer maintenant:</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l022" index="21" custom="heights_v2:[26.9,9.7]">
+        <Coords points="9,848 61,851 107,851 154,854 199,853 246,856 292,856 339,859 385,862 437,865 439,829 387,826 341,823 295,820 246,820 202,817 154,817 109,814 61,814 10,811 10,819 9,848"/>
+        <Baseline points="10,838 61,841 107,841 154,844 200,844 246,847 293,847 339,850 386,852 438,855"/>
+        <TextEquiv conf="1.000">
+          <Unicode>moi aussi je vous aime.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l023" index="22" custom="heights_v2:[27.2,10.0]">
+        <Coords points="897,877 797,877 705,877 612,877 519,877 429,869 335,863 242,860 149,857 50,854 49,891 148,894 240,897 333,900 425,906 519,915 612,915 705,915 797,915 898,915 897,877"/>
+        <Baseline points="49,881 148,884 241,887 333,890 426,896 519,905 612,905 705,905 797,905 898,905"/>
+        <TextEquiv conf="1.000">
+          <Unicode>En frissonnante et empourprée, elle tendit son</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l024" index="23" custom="heights_v2:[27.6,9.5]">
+        <Coords points="272,940 307,940 402,943 601,958 696,955 794,952 899,955 898,918 795,915 695,918 599,921 503,915 405,906 308,903 209,903 111,900 9,897 8,934 272,940"/>
+        <Baseline points="9,925 110,928 209,931 307,931 403,934 502,942 600,948 696,945 794,942 898,945"/>
+        <TextEquiv conf="1.000">
+          <Unicode>front à Anatole, qui y imprima un brulant baiser.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-28T10:18:38.776177+00:00</Created>
+    <LastChange>2026-09-28T10:18:38.776177+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A46_0009" imageWidth="918" imageHeight="1289">
+    <TextRegion id="r000">
+      <Coords points="-4,-7 0,267 -5,1289 908,1283 905,911 917,481 908,160 913,-7 203,-12 -4,-7"/>
+      <TextLine id="r000-l001" index="0" custom="heights_v2:[38.6,15.5]">
+        <Coords points="913,-7 806,-7 705,-7 625,-9 203,-12 100,-10 -4,-7 -2,47 102,45 203,42 304,42 403,42 504,42 606,45 705,47 806,47 911,47 913,-7"/>
+        <Baseline points="-3,32 101,29 203,26 304,26 403,26 505,26 606,29 705,32 806,32 912,32"/>
+        <TextEquiv conf="1.000">
+          <Unicode>gießer. Nun, weiß Er was, ich hab' mir einen Plan</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l002" index="1" custom="heights_v2:[38.3,15.4]">
+        <Coords points="-3,94 99,94 200,94 298,97 400,99 499,102 600,102 699,102 800,102 908,102 908,49 800,49 699,49 600,49 499,49 401,46 300,43 201,40 99,40 -3,40 -3,94"/>
+        <Baseline points="-3,78 99,78 200,78 299,81 400,84 499,87 600,87 699,87 800,87 908,87"/>
+        <TextEquiv conf="1.000">
+          <Unicode>erdacht. Wird der alte Schacht wieder gangbar, st</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l003" index="2" custom="heights_v2:[38.6,15.4]">
+        <Coords points="-2,152 98,149 197,152 298,155 397,157 498,157 598,160 699,157 797,157 905,157 905,104 797,104 699,104 596,106 500,104 397,104 300,101 198,98 100,95 -2,98 -2,152"/>
+        <Baseline points="-2,136 99,133 197,136 299,139 397,142 499,142 597,145 699,142 797,142 905,142"/>
+        <TextEquiv conf="1.000">
+          <Unicode>müssen wir doch dort neue Bergleute anlegen un</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l004" index="3" custom="heights_v2:[37.5,14.9]">
+        <Coords points="-1,206 101,206 200,206 301,209 400,212 502,212 600,212 702,212 800,212 908,212 908,160 800,160 702,160 600,160 502,160 400,160 303,157 201,154 101,154 -2,154 -1,206"/>
+        <Baseline points="-1,191 101,191 200,191 302,194 400,197 502,197 600,197 702,197 800,197 908,197"/>
+        <TextEquiv conf="1.000">
+          <Unicode>mehr als ant neuen. Da reicht nun ein Schichtnei</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l005" index="4" custom="heights_v2:[38.1,15.3]">
+        <Coords points="0,236 0,268 105,265 203,262 304,262 403,262 505,265 603,262 705,265 803,265 910,265 910,256 909,211 803,211 705,211 604,208 503,211 404,208 304,208 203,208 103,211 -1,214 0,236"/>
+        <Baseline points="0,252 104,249 203,246 304,246 403,246 505,249 603,246 705,249 803,249 910,249"/>
+        <TextEquiv conf="1.000">
+          <Unicode>ster mit einem Grubensteiger und Hutmanne nicht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l006" index="5" custom="heights_v2:[37.7,15.2]">
+        <Coords points="0,320 104,320 203,320 304,320 403,320 504,317 603,320 705,323 803,320 910,320 910,267 803,267 703,270 604,267 506,264 402,267 304,267 203,267 104,267 0,267 0,320"/>
+        <Baseline points="0,304 104,304 203,304 304,304 403,304 505,302 603,304 705,307 803,304 910,304"/>
+        <TextEquiv conf="1.000">
+          <Unicode>aus, und wenn wir schon dem Frenzel die Leitung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l007" index="6" custom="heights_v2:[37.2,14.7]">
+        <Coords points="-1,368 101,368 203,371 304,371 403,371 505,371 606,371 705,371 806,368 913,368 913,351 912,317 806,317 704,319 606,319 505,319 403,319 304,319 203,319 103,317 0,317 -1,368"/>
+        <Baseline points="0,354 101,354 203,357 304,357 403,357 505,357 606,357 705,357 806,354 913,354"/>
+        <TextEquiv conf="1.000">
+          <Unicode>beider Gruben als Schichtmeister lassen, so brauchen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l008" index="7" custom="heights_v2:[37.6,14.7]">
+        <Coords points="0,421 104,424 205,423 304,426 406,426 505,426 606,426 705,424 806,424 913,424 913,371 806,371 705,371 605,374 505,374 406,374 304,374 207,371 104,371 1,368 0,421"/>
+        <Baseline points="0,406 104,409 206,409 304,412 406,412 505,412 606,412 705,409 806,409 913,409"/>
+        <TextEquiv conf="1.000">
+          <Unicode>wir doch noch ein paar Grubensteiger für den obern</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l009" index="8" custom="heights_v2:[37.5,14.4]">
+        <Coords points="0,473 104,473 205,475 304,478 406,481 505,481 606,478 705,478 806,478 913,478 913,426 806,426 705,426 606,426 503,429 406,429 306,426 207,424 105,421 0,421 0,473"/>
+        <Baseline points="0,458 104,458 206,461 304,464 406,467 505,467 606,464 705,464 806,464 913,464"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Schacht und für beide Schächte einen tüchtigen Ober-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l010" index="9" custom="heights_v2:[37.9,14.9]">
+        <Coords points="917,481 810,478 707,478 609,478 507,478 405,481 307,481 206,481 105,478 -1,481 0,534 104,531 206,534 307,534 406,534 507,531 609,531 707,531 809,531 916,534 917,481"/>
+        <Baseline points="0,519 104,516 206,519 307,519 406,519 507,516 609,516 707,516 809,516 916,519"/>
+        <TextEquiv conf="1.000">
+          <Unicode>steiger. Und der wird Er und kein anderer. Dann</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l011" index="10" custom="heights_v2:[38.4,15.0]">
+        <Coords points="0,586 96,586 188,586 281,586 371,586 464,586 557,586 647,586 739,586 838,586 838,533 739,533 647,533 557,533 464,533 371,533 281,533 188,533 96,533 0,533 0,586"/>
+        <Baseline points="0,571 96,571 188,571 281,571 371,571 464,571 557,571 647,571 739,571 838,571"/>
+        <TextEquiv conf="1.000">
+          <Unicode>denk' ich, soll Er auch sein Mädchen bekommen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l012" index="11" custom="heights_v2:[38.5,15.3]">
+        <Coords points="913,615 913,591 812,591 716,591 621,591 526,588 430,585 333,585 238,585 141,588 41,588 41,642 143,642 238,639 333,639 429,639 524,642 621,644 716,644 812,644 912,644 913,615"/>
+        <Baseline points="41,626 142,626 238,623 333,623 429,623 525,626 621,629 716,629 812,629 913,629"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Ferdinand drückte dem Redner freudig die Hand.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l013" index="12" custom="heights_v2:[38.5,15.2]">
+        <Coords points="-2,694 102,697 203,694 302,694 403,694 502,697 603,697 702,699 803,697 910,697 910,643 803,643 701,646 604,643 502,643 404,640 302,640 203,640 100,643 -2,640 -2,647 -2,694"/>
+        <Baseline points="-2,679 101,681 203,679 302,679 403,679 502,681 603,681 702,684 803,681 910,681"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Wenn über mich befohlen wird, sagte er, so gehorche</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l014" index="13" custom="heights_v2:[38.0,15.1]">
+        <Coords points="-3,749 99,746 200,746 298,746 400,749 499,752 600,752 699,752 800,749 908,749 908,696 800,696 698,699 600,698 499,698 401,696 300,693 200,693 99,693 -2,695 -3,749"/>
+        <Baseline points="-2,734 99,731 200,731 299,731 400,734 499,736 600,736 699,736 800,734 908,734"/>
+        <TextEquiv conf="1.000">
+          <Unicode>ich. Aber den Schichtmeister übergehen Sie nicht!</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l015" index="14" custom="heights_v2:[38.0,15.0]">
+        <Coords points="-3,801 99,801 200,801 298,801 400,804 499,807 601,807 699,804 800,804 908,804 908,751 800,751 699,751 599,754 499,754 401,751 300,748 200,748 99,748 -3,748 -3,801"/>
+        <Baseline points="-3,786 99,786 200,786 299,786 400,789 499,792 600,792 699,789 800,789 908,789"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Und wenner das Wagstück aufsich nimmt, so wollen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l016" index="15" custom="heights_v2:[38.2,14.9]">
+        <Coords points="-3,856 98,853 200,856 298,856 400,859 499,862 600,859 699,859 800,856 906,856 908,812 908,803 800,803 698,806 600,806 498,808 401,806 300,803 200,803 100,800 -3,803 -3,856"/>
+        <Baseline points="-3,841 99,838 200,841 299,841 400,844 499,847 600,844 699,844 800,841 907,841"/>
+        <TextEquiv conf="1.000">
+          <Unicode>die Herrn Gewerken hübsch an seine Familie denken.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l017" index="16" custom="heights_v2:[38.4,15.0]">
+        <Coords points="-3,908 98,905 197,908 298,908 397,911 499,914 598,914 699,911 797,911 905,911 905,858 797,858 699,858 596,860 499,860 398,858 300,855 197,855 100,852 -3,855 -3,908"/>
+        <Baseline points="-3,893 99,890 197,893 299,893 397,896 499,899 597,899 699,896 797,896 905,896"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Daran soll's nicht fehlen, sagte Mickley, und Fer-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l018" index="17" custom="heights_v2:[38.2,14.6]">
+        <Coords points="-4,966 99,966 197,966 298,966 397,969 498,969 598,971 699,969 798,966 905,963 904,910 796,913 698,916 596,919 500,916 397,916 300,913 197,913 99,913 -3,913 -4,966"/>
+        <Baseline points="-4,951 99,951 197,951 299,951 397,954 499,954 597,957 699,954 797,951 905,948"/>
+        <TextEquiv conf="1.000">
+          <Unicode>dinand nahm Abschied. Er hatte in der einzigen Buch¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l019" index="18" custom="heights_v2:[37.4,14.5]">
+        <Coords points="-4,1018 99,1018 197,1018 299,1021 397,1021 498,1021 598,1024 699,1021 798,1018 905,1015 904,963 796,966 698,969 596,972 500,969 397,969 299,969 198,966 99,966 -4,966 -4,1018"/>
+        <Baseline points="-4,1003 99,1003 197,1003 299,1006 397,1006 499,1006 597,1009 699,1006 797,1003 905,1000"/>
+        <TextEquiv conf="1.000">
+          <Unicode>handlung des Ortes ein Buch über Naturlehre be</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l020" index="19" custom="heights_v2:[37.8,14.8]">
+        <Coords points="-4,1070 99,1070 197,1070 299,1073 397,1073 499,1076 597,1073 699,1073 797,1070 905,1070 905,1018 797,1018 698,1021 597,1021 498,1023 398,1021 299,1021 198,1018 99,1018 -4,1018 -4,1070"/>
+        <Baseline points="-4,1055 99,1055 197,1055 299,1058 397,1058 499,1061 597,1058 699,1058 797,1055 905,1055"/>
+        <TextEquiv conf="1.000">
+          <Unicode>stellt und wollte sehen, ob es angekommen sei. Er</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l021" index="20" custom="heights_v2:[37.6,14.8]">
+        <Coords points="-5,1122 99,1125 197,1125 299,1128 397,1128 499,1128 598,1128 699,1125 797,1125 905,1125 905,1073 797,1073 699,1073 596,1076 499,1076 397,1076 299,1076 198,1073 99,1073 -4,1070 -5,1122"/>
+        <Baseline points="-4,1108 99,1111 197,1111 299,1113 397,1113 499,1113 597,1113 699,1111 797,1111 905,1111"/>
+        <TextEquiv conf="1.000">
+          <Unicode>mußte da an dem Hause des Goldschmieds vorbei</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l022" index="21" custom="heights_v2:[38.4,14.9]">
+        <Coords points="-5,1181 99,1181 200,1178 298,1178 400,1181 499,1181 600,1181 699,1181 800,1181 907,1181 907,1127 800,1127 699,1127 600,1127 499,1127 400,1127 300,1124 200,1124 97,1127 -5,1127 -5,1181"/>
+        <Baseline points="-5,1166 99,1166 200,1163 299,1163 400,1166 499,1166 600,1166 699,1166 800,1166 907,1166"/>
+        <TextEquiv conf="1.000">
+          <Unicode>und begegnete vor der Thür desselben dem Schichtmei¬</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l023" index="22" custom="heights_v2:[37.6,14.4]">
+        <Coords points="-5,1232 99,1232 200,1232 301,1235 400,1238 502,1238 604,1235 702,1232 803,1232 907,1235 907,1183 804,1180 702,1180 602,1183 501,1186 400,1186 303,1183 201,1180 99,1180 -5,1180 -5,1232"/>
+        <Baseline points="-5,1218 99,1218 200,1218 302,1221 400,1224 502,1224 603,1221 702,1218 803,1218 907,1221"/>
+        <TextEquiv conf="1.000">
+          <Unicode>ster mit ganz verstörtem Gesicht. Er konnte sich nicht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l024" index="23" custom="heights_v2:[35.3,12.8]">
+        <Coords points="-5,1289 99,1286 200,1286 299,1283 400,1283 499,1283 600,1283 698,1283 737,1284 908,1283 907,1235 799,1238 700,1235 600,1235 499,1235 400,1235 299,1235 199,1238 99,1238 -5,1241 -5,1289"/>
+        <Baseline points="-5,1276 99,1273 200,1273 299,1270 400,1270 499,1270 600,1270 699,1270 800,1273 908,1270"/>
+        <TextEquiv conf="1.000">
+          <Unicode>helfen, er trat mit einem Glückauf auf ihn zu und</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-28T10:18:42.464413+00:00</Created>
+    <LastChange>2026-09-28T10:18:42.464413+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A46_0456" imageWidth="789" imageHeight="194">
+    <TextRegion id="r000">
+      <Coords points="-3,36 -6,176 223,193 342,193 435,142 792,136 792,-6 367,0 33,-6 -3,36"/>
+      <TextLine id="r000-l001" index="0" custom="heights_v2:[32.0,12.4]">
+        <Coords points="367,0 287,0 203,0 120,-3 33,-6 31,38 118,41 203,44 287,44 369,44 453,41 536,38 618,38 702,38 792,38 792,-6 367,0"/>
+        <Baseline points="32,26 119,29 203,32 287,32 368,32 452,29 536,26 618,26 702,26 792,26"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Southampton, 31 janvier. Le Tasmanian,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l002" index="1" custom="heights_v2:[30.8,12.2]">
+        <Coords points="-4,79 86,88 174,93 261,93 348,93 435,93 522,91 609,88 696,88 791,91 792,72 792,48 697,45 609,45 521,48 434,50 348,50 261,50 174,50 89,45 -3,36 -4,79"/>
+        <Baseline points="-4,67 87,75 174,81 261,81 348,81 435,81 522,78 609,75 696,75 792,78"/>
+        <TextEquiv conf="1.000">
+          <Unicode>venant des Indes-Occidentales, apporte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l003" index="2" custom="heights_v2:[30.1,11.5]">
+        <Coords points="-5,128 86,136 174,142 261,145 348,145 435,142 522,139 609,139 613,139 792,136 791,95 695,97 609,97 522,97 434,100 347,103 261,103 175,100 89,95 -3,86 -4,99 -5,128"/>
+        <Baseline points="-5,116 87,125 174,130 261,133 348,133 435,130 522,128 609,128 696,128 792,125"/>
+        <TextEquiv conf="1.000">
+          <Unicode>2,770178 dollars, dont 2,021,158 en or, et</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l004" index="3" custom="heights_v2:[28.8,10.3]">
+        <Coords points="-6,176 34,176 72,178 109,181 147,187 185,190 223,193 261,193 299,193 342,193 342,154 299,154 261,154 223,154 188,151 150,148 115,143 75,139 37,137 -5,136 -6,176"/>
+        <Baseline points="-6,165 35,165 72,168 110,171 148,177 186,180 223,183 261,183 299,183 342,183"/>
+        <TextEquiv conf="1.000">
+          <Unicode>741,397 en argent.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

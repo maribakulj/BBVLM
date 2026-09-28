@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>A46_1160</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-09-28T10:18:28.731799</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_A46_1160" PHYSICAL_IMG_NR="1" HEIGHT="193" WIDTH="792">
+      <TopMargin HEIGHT="-10" WIDTH="792" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="193" WIDTH="-6" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="193" WIDTH="-2" VPOS="0" HPOS="794"/>
+      <BottomMargin HEIGHT="0" WIDTH="792" VPOS="193" HPOS="0"/>
+      <PrintSpace HEIGHT="203" WIDTH="800" VPOS="-10" HPOS="-6">
+        <TextBlock ID="block_r000" HEIGHT="203" WIDTH="800" VPOS="-10" HPOS="-6">
+          <TextLine BASELINE="30" VPOS="-10" HPOS="-5" HEIGHT="56" WIDTH="799">
+            <String CONTENT="(260" HEIGHT="54" WIDTH="71" VPOS="-10" HPOS="-5" WC="1"/>
+            <SP WIDTH="4" VPOS="-10" HPOS="66"/>
+            <String CONTENT="Quart)" HEIGHT="54" WIDTH="122" VPOS="-8" HPOS="96" WC="1"/>
+            <SP WIDTH="4" VPOS="-8" HPOS="218"/>
+            <String CONTENT="81" HEIGHT="53" WIDTH="47" VPOS="-7" HPOS="241" WC="1"/>
+            <SP WIDTH="4" VPOS="-7" HPOS="289"/>
+            <String CONTENT="Thlr.," HEIGHT="53" WIDTH="104" VPOS="-7" HPOS="319" WC="1"/>
+            <SP WIDTH="4" VPOS="-7" HPOS="424"/>
+            <String CONTENT="1/2" HEIGHT="53" WIDTH="47" VPOS="-7" HPOS="431" WC="1"/>
+            <SP WIDTH="4" VPOS="-7" HPOS="478"/>
+            <String CONTENT="Fuder" HEIGHT="54" WIDTH="95" VPOS="-8" HPOS="502" WC="1"/>
+            <SP WIDTH="4" VPOS="-8" HPOS="597"/>
+            <String CONTENT="61er" HEIGHT="54" WIDTH="71" VPOS="-9" HPOS="617" WC="1"/>
+            <SP WIDTH="4" VPOS="-9" HPOS="688"/>
+            <String CONTENT="(436" HEIGHT="54" WIDTH="78" VPOS="-11" HPOS="708" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="82" VPOS="46" HPOS="-5" HEIGHT="50" WIDTH="799">
+            <String CONTENT="Quart)" HEIGHT="50" WIDTH="119" VPOS="45" HPOS="-1" WC="1"/>
+            <SP WIDTH="4" VPOS="45" HPOS="117"/>
+            <String CONTENT="24—361/2" HEIGHT="50" WIDTH="169" VPOS="45" HPOS="139" WC="1"/>
+            <SP WIDTH="4" VPOS="45" HPOS="308"/>
+            <String CONTENT="Thlr.," HEIGHT="50" WIDTH="100" VPOS="45" HPOS="337" WC="1"/>
+            <SP WIDTH="4" VPOS="45" HPOS="437"/>
+            <String CONTENT="1/2" HEIGHT="50" WIDTH="47" VPOS="45" HPOS="446" WC="1"/>
+            <SP WIDTH="4" VPOS="45" HPOS="493"/>
+            <String CONTENT="Fuder" HEIGHT="50" WIDTH="87" VPOS="45" HPOS="515" WC="1"/>
+            <SP WIDTH="4" VPOS="45" HPOS="603"/>
+            <String CONTENT="62er" HEIGHT="50" WIDTH="72" VPOS="45" HPOS="628" WC="1"/>
+            <SP WIDTH="4" VPOS="45" HPOS="701"/>
+            <String CONTENT="(450" HEIGHT="50" WIDTH="78" VPOS="45" HPOS="707" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="133" VPOS="96" HPOS="-6" HEIGHT="53" WIDTH="799">
+            <String CONTENT="Quart)" HEIGHT="51" WIDTH="121" VPOS="96" HPOS="-5" WC="1"/>
+            <SP WIDTH="4" VPOS="96" HPOS="116"/>
+            <String CONTENT="160" HEIGHT="50" WIDTH="57" VPOS="96" HPOS="135" WC="1"/>
+            <SP WIDTH="4" VPOS="96" HPOS="193"/>
+            <String CONTENT="Thlr.," HEIGHT="50" WIDTH="99" VPOS="95" HPOS="227" WC="1"/>
+            <SP WIDTH="4" VPOS="95" HPOS="327"/>
+            <String CONTENT="2" HEIGHT="50" WIDTH="19" VPOS="95" HPOS="339" WC="1"/>
+            <SP WIDTH="4" VPOS="95" HPOS="359"/>
+            <String CONTENT="Ohm" HEIGHT="50" WIDTH="67" VPOS="96" HPOS="387" WC="1"/>
+            <SP WIDTH="4" VPOS="96" HPOS="454"/>
+            <String CONTENT="63er" HEIGHT="51" WIDTH="73" VPOS="96" HPOS="489" WC="1"/>
+            <SP WIDTH="4" VPOS="96" HPOS="563"/>
+            <String CONTENT="(335" HEIGHT="51" WIDTH="76" VPOS="96" HPOS="575" WC="1"/>
+            <SP WIDTH="4" VPOS="96" HPOS="652"/>
+            <String CONTENT="Quart)" HEIGHT="51" WIDTH="121" VPOS="97" HPOS="671" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="178" VPOS="144" HPOS="-6" HEIGHT="47" WIDTH="145">
+            <String CONTENT="94" HEIGHT="45" WIDTH="43" VPOS="143" HPOS="-4" WC="1"/>
+            <SP WIDTH="4" VPOS="143" HPOS="39"/>
+            <String CONTENT="Thlr" HEIGHT="48" WIDTH="73" VPOS="143" HPOS="63" WC="1"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

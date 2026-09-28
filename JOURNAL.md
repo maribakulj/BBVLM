@@ -1941,3 +1941,13 @@ a immédiatement retourné le résultat.
 **Correction à mesurer (B66)** : router sur un seuil ABSOLU de désaccord, calibré
 une fois sur le corpus, et non sur un quantile par page. Une page propre ne doit
 alors rien envoyer au troisième étage.
+
+## A54 — 2026-09-28 — image+PERO avec garde, validation indépendante
+
+16 blocs BnL nouveaux, figés par hash avant ouverture. PERO+A37 puis une seule
+passe Luna aveugle image+candidat. CER recherche 0,933 % → 0,683 % et lexical
+0,529 % → 0,311 % avec garde déterministe; aucune régression des blocs PERO
+déjà exacts, portes pré-déclarées passées. Deux réécritures non reconstructibles
+sont refusées. Toujours pas 0 % (82/12004 éditions search), ni boîtes parfaites
+(IoU80 mot 33,54 %, français 15,81 %). Détails dans
+`experiments/loop/bnl-independent-a54/RESULTS.md`.

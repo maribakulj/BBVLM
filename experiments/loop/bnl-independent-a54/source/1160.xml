@@ -1,0 +1,70 @@
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-1.xsd">
+  <Description>
+    <MeasurementUnit>mm10</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>./ALTO00004-P4_TB00001.tif</fileName>
+    </sourceImageInformation>
+  </Description>
+  <Layout>
+    <Page ID="P_0001" PHYSICAL_IMG_NR="1">
+      <PrintSpace>
+        <TextBlock ID="TB_0001">
+          <TextLine ID="TL_0001" HPOS="1" VPOS="2" WIDTH="669" HEIGHT="40">
+            <String CONTENT="(260" CC="0000" HPOS="2" VPOS="3" WIDTH="65" HEIGHT="36" />
+            <SP />
+            <String CONTENT="Quart)" CC="000000" HPOS="87" VPOS="4" WIDTH="99" HEIGHT="36" />
+            <SP />
+            <String CONTENT="81" CC="00" HPOS="214" VPOS="5" WIDTH="31" HEIGHT="28" />
+            <SP />
+            <String CONTENT="Thlr.," CC="000000" HPOS="274" VPOS="4" WIDTH="77" HEIGHT="36" />
+            <SP />
+            <String CONTENT="½" CC="0" HPOS="371" VPOS="5" WIDTH="33" HEIGHT="36" />
+            <SP />
+            <String CONTENT="Fuder" CC="00000" HPOS="429" VPOS="3" WIDTH="77" HEIGHT="37" />
+            <SP />
+            <String CONTENT="61er" CC="0000" HPOS="525" VPOS="5" WIDTH="60" HEIGHT="28" />
+            <SP />
+            <String CONTENT="(436" CC="0000" HPOS="605" VPOS="4" WIDTH="65" HEIGHT="36" />
+          </TextLine>
+          <TextLine ID="TL_0002" HPOS="0" VPOS="46" WIDTH="671" HEIGHT="40">
+            <String CONTENT="Quart)" CC="000000" HPOS="1" VPOS="47" WIDTH="99" HEIGHT="32" />
+            <SP />
+            <String CONTENT="24-36½" CC="000000" HPOS="122" VPOS="48" WIDTH="142" HEIGHT="35" />
+            <SP />
+            <String CONTENT="Thlr.," CC="000000" HPOS="285" VPOS="49" WIDTH="82" HEIGHT="33" />
+            <SP />
+            <String CONTENT="½" CC="0" HPOS="386" VPOS="48" WIDTH="34" HEIGHT="38" />
+            <SP />
+            <String CONTENT="Fuder" CC="00000" HPOS="440" VPOS="49" WIDTH="76" HEIGHT="32" />
+            <SP />
+            <String CONTENT="62er" CC="0000" HPOS="536" VPOS="49" WIDTH="58" HEIGHT="27" />
+            <SP />
+            <String CONTENT="(450" CC="0000" HPOS="605" VPOS="48" WIDTH="65" HEIGHT="32" />
+          </TextLine>
+          <TextLine ID="TL_0003" HPOS="0" VPOS="90" WIDTH="670" HEIGHT="39">
+            <String CONTENT="Quart)" CC="000000" HPOS="0" VPOS="91" WIDTH="102" HEIGHT="29" />
+            <SP />
+            <String CONTENT="160" CC="000" HPOS="122" VPOS="92" WIDTH="51" HEIGHT="27" />
+            <SP />
+            <String CONTENT="Thlr.," CC="000000" HPOS="194" VPOS="92" WIDTH="78" HEIGHT="34" />
+            <SP />
+            <String CONTENT="2" CC="0" HPOS="293" VPOS="93" WIDTH="16" HEIGHT="27" />
+            <SP />
+            <String CONTENT="Ohm" CC="000" HPOS="330" VPOS="93" WIDTH="70" HEIGHT="31" />
+            <SP />
+            <String CONTENT="63er" CC="0000" HPOS="418" VPOS="92" WIDTH="60" HEIGHT="27" />
+            <SP />
+            <String CONTENT="(335" CC="0000" HPOS="495" VPOS="92" WIDTH="64" HEIGHT="36" />
+            <SP />
+            <String CONTENT="Quart)" CC="000000" HPOS="571" VPOS="92" WIDTH="98" HEIGHT="31" />
+          </TextLine>
+          <TextLine ID="TL_0004" HPOS="1" VPOS="132" WIDTH="122" HEIGHT="31">
+            <String CONTENT="94" CC="00" HPOS="2" VPOS="133" WIDTH="34" HEIGHT="27" />
+            <SP />
+            <String CONTENT="Thlr." CC="00000" HPOS="52" VPOS="133" WIDTH="71" HEIGHT="29" />
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

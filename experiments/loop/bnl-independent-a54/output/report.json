@@ -1,0 +1,894 @@
+{
+  "schema": "bbvlm.bnl-independent-a54-report/1",
+  "status": "frozen_independent_evaluation_complete",
+  "scope": "16 pre-frozen BnL newspaper blocks; unchanged PERO and A37; zero VLM passes",
+  "aggregate": {
+    "all": {
+      "blocks": 16,
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 12083,
+          "edits": 192,
+          "cer": 0.015890093519821236,
+          "exact_blocks": 1
+        },
+        "search_v1": {
+          "characters": 12004,
+          "edits": 112,
+          "cer": 0.009330223258913695,
+          "exact_blocks": 2
+        },
+        "lexical_alnum": {
+          "characters": 9645,
+          "edits": 51,
+          "cer": 0.0052877138413685845,
+          "exact_blocks": 4
+        }
+      },
+      "lines": {
+        "reference": 307,
+        "predicted": 309,
+        "mean_iou": 0.7727869271697516,
+        "recall_iou50": 0.9869706840390879,
+        "recall_iou80": 0.46254071661237783
+      },
+      "native_words": {
+        "reference": 1962,
+        "predicted": 1964,
+        "mean_iou": 0.5797604819108723,
+        "recall_iou50": 0.7502548419979612,
+        "recall_iou80": 0.024974515800203875
+      },
+      "routed_words": {
+        "reference": 1962,
+        "predicted": 1964,
+        "mean_iou": 0.6673791588814499,
+        "recall_iou50": 0.8068297655453619,
+        "recall_iou80": 0.33537206931702346
+      }
+    },
+    "french": {
+      "blocks": 7,
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 3234,
+          "edits": 71,
+          "cer": 0.021954236239950527,
+          "exact_blocks": 1
+        },
+        "search_v1": {
+          "characters": 3212,
+          "edits": 42,
+          "cer": 0.013075965130759652,
+          "exact_blocks": 2
+        },
+        "lexical_alnum": {
+          "characters": 2528,
+          "edits": 22,
+          "cer": 0.00870253164556962,
+          "exact_blocks": 3
+        }
+      },
+      "lines": {
+        "reference": 76,
+        "predicted": 78,
+        "mean_iou": 0.8054043728352909,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.5789473684210527
+      },
+      "native_words": {
+        "reference": 544,
+        "predicted": 543,
+        "mean_iou": 0.575083874354759,
+        "recall_iou50": 0.6875,
+        "recall_iou80": 0.058823529411764705
+      },
+      "routed_words": {
+        "reference": 544,
+        "predicted": 543,
+        "mean_iou": 0.5831483256957182,
+        "recall_iou50": 0.7095588235294118,
+        "recall_iou80": 0.15808823529411764
+      }
+    }
+  },
+  "cost": {
+    "new_vlm_passes": 0,
+    "recognizer_forwards": 309,
+    "full_block_seconds": 31.119047083000623,
+    "refinement_seconds": 0.49956229999952484,
+    "evaluator_seconds": 8.583478382999601
+  },
+  "word_reference_status": "diagnostic String rectangles; manual word-box adjudication not documented",
+  "line_reference_status": "raw BnL pack explicitly intended for text-line segmentation",
+  "text_reference_status": "provider double-keyed >=99.95%; not mathematical perfection",
+  "normalizations": {
+    "strict_nfc_diplomatic": "NFC/newline only",
+    "search_v1": "NFKC, casefold, long-s/apostrophes, line dehyphenation, whitespace",
+    "lexical_alnum": "NFKC+casefold letters/digits only; punctuation/spacing ignored"
+  },
+  "geometry_coordinate_adapter": {
+    "reference_unit": "mm10",
+    "image_resolution_ppi": 300,
+    "scale_to_png_pixels": 1.1811023622047243,
+    "formula": "300 pixels/inch divided by 254 tenths-mm/inch",
+    "amended_after_initial_unscaled_score": true,
+    "initial_unscaled_report": "output/report-unscaled-invalid.json"
+  },
+  "accepted_for_project_completion_gate": false,
+  "limitations": [
+    "Blocks are not complete pages, so column OLR/article grouping is out of scope.",
+    "The EU/CZ PERO model is not a French-specific recognizer.",
+    "Existing word rectangles are not certified as perfect word-box truth."
+  ],
+  "rows": [
+    {
+      "id": "0645",
+      "language_prediction": "fr",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 111,
+          "edits": 2,
+          "cer": 0.018018018018018018,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 111,
+          "edits": 1,
+          "cer": 0.009009009009009009,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 82,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      },
+      "lines": {
+        "reference": 2,
+        "predicted": 2,
+        "matched": 2,
+        "mean_iou": 0.8645798867194536,
+        "recall_iou50": 1.0,
+        "recall_iou80": 1.0
+      },
+      "native_words": {
+        "reference": 15,
+        "predicted": 15,
+        "matched": 15,
+        "mean_iou": 0.6988858657697705,
+        "recall_iou50": 0.9333333333333333,
+        "recall_iou80": 0.26666666666666666
+      },
+      "routed_words": {
+        "reference": 15,
+        "predicted": 15,
+        "matched": 15,
+        "mean_iou": 0.8322176966872427,
+        "recall_iou50": 0.9333333333333333,
+        "recall_iou80": 0.8666666666666667
+      }
+    },
+    {
+      "id": "0949",
+      "language_prediction": "de",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 949,
+          "edits": 9,
+          "cer": 0.009483667017913594,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 947,
+          "edits": 4,
+          "cer": 0.004223864836325237,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 797,
+          "edits": 3,
+          "cer": 0.0037641154328732747,
+          "exact": false
+        }
+      },
+      "lines": {
+        "reference": 21,
+        "predicted": 21,
+        "matched": 21,
+        "mean_iou": 0.811780723879477,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.5714285714285714
+      },
+      "native_words": {
+        "reference": 140,
+        "predicted": 140,
+        "matched": 140,
+        "mean_iou": 0.6061038768041712,
+        "recall_iou50": 0.8071428571428572,
+        "recall_iou80": 0.0
+      },
+      "routed_words": {
+        "reference": 140,
+        "predicted": 140,
+        "matched": 140,
+        "mean_iou": 0.5094265535978889,
+        "recall_iou50": 0.6714285714285714,
+        "recall_iou80": 0.0
+      }
+    },
+    {
+      "id": "0231",
+      "language_prediction": "de",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 2413,
+          "edits": 31,
+          "cer": 0.0128470783257356,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 2383,
+          "edits": 15,
+          "cer": 0.00629458665547629,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 1978,
+          "edits": 5,
+          "cer": 0.0025278058645096056,
+          "exact": false
+        }
+      },
+      "lines": {
+        "reference": 53,
+        "predicted": 53,
+        "matched": 53,
+        "mean_iou": 0.7799049457350156,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.3584905660377358
+      },
+      "native_words": {
+        "reference": 353,
+        "predicted": 353,
+        "matched": 353,
+        "mean_iou": 0.5935946692698958,
+        "recall_iou50": 0.7988668555240793,
+        "recall_iou80": 0.0084985835694051
+      },
+      "routed_words": {
+        "reference": 353,
+        "predicted": 353,
+        "matched": 353,
+        "mean_iou": 0.7202362346142183,
+        "recall_iou50": 0.9036827195467422,
+        "recall_iou80": 0.37677053824362605
+      }
+    },
+    {
+      "id": "0887",
+      "language_prediction": "fr",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 648,
+          "edits": 10,
+          "cer": 0.015432098765432098,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 640,
+          "edits": 2,
+          "cer": 0.003125,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 514,
+          "edits": 1,
+          "cer": 0.0019455252918287938,
+          "exact": false
+        }
+      },
+      "lines": {
+        "reference": 16,
+        "predicted": 16,
+        "matched": 16,
+        "mean_iou": 0.7682467956625203,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.25
+      },
+      "native_words": {
+        "reference": 108,
+        "predicted": 108,
+        "matched": 108,
+        "mean_iou": 0.5512875736544391,
+        "recall_iou50": 0.6666666666666666,
+        "recall_iou80": 0.009259259259259259
+      },
+      "routed_words": {
+        "reference": 108,
+        "predicted": 108,
+        "matched": 108,
+        "mean_iou": 0.4806770046958438,
+        "recall_iou50": 0.5740740740740741,
+        "recall_iou80": 0.009259259259259259
+      }
+    },
+    {
+      "id": "1059",
+      "language_prediction": "de",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 96,
+          "edits": 5,
+          "cer": 0.052083333333333336,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 94,
+          "edits": 3,
+          "cer": 0.031914893617021274,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 82,
+          "edits": 3,
+          "cer": 0.036585365853658534,
+          "exact": false
+        }
+      },
+      "lines": {
+        "reference": 2,
+        "predicted": 2,
+        "matched": 2,
+        "mean_iou": 0.9160208759159276,
+        "recall_iou50": 1.0,
+        "recall_iou80": 1.0
+      },
+      "native_words": {
+        "reference": 14,
+        "predicted": 14,
+        "matched": 14,
+        "mean_iou": 0.7162840833644152,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.21428571428571427
+      },
+      "routed_words": {
+        "reference": 14,
+        "predicted": 14,
+        "matched": 14,
+        "mean_iou": 0.6541685329326006,
+        "recall_iou50": 0.9285714285714286,
+        "recall_iou80": 0.14285714285714285
+      }
+    },
+    {
+      "id": "0363",
+      "language_prediction": "de",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 1445,
+          "edits": 11,
+          "cer": 0.007612456747404845,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 1427,
+          "edits": 11,
+          "cer": 0.007708479327259986,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 1154,
+          "edits": 2,
+          "cer": 0.0017331022530329288,
+          "exact": false
+        }
+      },
+      "lines": {
+        "reference": 33,
+        "predicted": 33,
+        "matched": 33,
+        "mean_iou": 0.7811288807508512,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.42424242424242425
+      },
+      "native_words": {
+        "reference": 245,
+        "predicted": 250,
+        "matched": 245,
+        "mean_iou": 0.5639329578817434,
+        "recall_iou50": 0.8285714285714286,
+        "recall_iou80": 0.004081632653061225
+      },
+      "routed_words": {
+        "reference": 245,
+        "predicted": 250,
+        "matched": 245,
+        "mean_iou": 0.8327193145097332,
+        "recall_iou50": 0.9755102040816327,
+        "recall_iou80": 0.6857142857142857
+      }
+    },
+    {
+      "id": "0164",
+      "language_prediction": "fr",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 959,
+          "edits": 10,
+          "cer": 0.010427528675703858,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 951,
+          "edits": 2,
+          "cer": 0.002103049421661409,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 767,
+          "edits": 1,
+          "cer": 0.001303780964797914,
+          "exact": false
+        }
+      },
+      "lines": {
+        "reference": 22,
+        "predicted": 22,
+        "matched": 22,
+        "mean_iou": 0.8284046561224319,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.7272727272727273
+      },
+      "native_words": {
+        "reference": 167,
+        "predicted": 167,
+        "matched": 167,
+        "mean_iou": 0.5472495958557959,
+        "recall_iou50": 0.6347305389221557,
+        "recall_iou80": 0.005988023952095809
+      },
+      "routed_words": {
+        "reference": 167,
+        "predicted": 167,
+        "matched": 167,
+        "mean_iou": 0.4856868879261795,
+        "recall_iou50": 0.5568862275449101,
+        "recall_iou80": 0.017964071856287425
+      }
+    },
+    {
+      "id": "0471",
+      "language_prediction": "de",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 259,
+          "edits": 3,
+          "cer": 0.011583011583011582,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 261,
+          "edits": 3,
+          "cer": 0.011494252873563218,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 219,
+          "edits": 1,
+          "cer": 0.0045662100456621,
+          "exact": false
+        }
+      },
+      "lines": {
+        "reference": 5,
+        "predicted": 5,
+        "matched": 5,
+        "mean_iou": 0.8059379883450475,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.6
+      },
+      "native_words": {
+        "reference": 36,
+        "predicted": 36,
+        "matched": 36,
+        "mean_iou": 0.5879759746067914,
+        "recall_iou50": 0.7222222222222222,
+        "recall_iou80": 0.05555555555555555
+      },
+      "routed_words": {
+        "reference": 36,
+        "predicted": 36,
+        "matched": 36,
+        "mean_iou": 0.5307445042147447,
+        "recall_iou50": 0.6388888888888888,
+        "recall_iou80": 0.05555555555555555
+      }
+    },
+    {
+      "id": "0757",
+      "language_prediction": "fr",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 234,
+          "edits": 1,
+          "cer": 0.004273504273504274,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 232,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "lexical_alnum": {
+          "characters": 184,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      },
+      "lines": {
+        "reference": 7,
+        "predicted": 7,
+        "matched": 7,
+        "mean_iou": 0.7328721130179849,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.14285714285714285
+      },
+      "native_words": {
+        "reference": 39,
+        "predicted": 39,
+        "matched": 39,
+        "mean_iou": 0.5307702969084969,
+        "recall_iou50": 0.6153846153846154,
+        "recall_iou80": 0.0
+      },
+      "routed_words": {
+        "reference": 39,
+        "predicted": 39,
+        "matched": 39,
+        "mean_iou": 0.5307702969084969,
+        "recall_iou50": 0.6153846153846154,
+        "recall_iou80": 0.0
+      }
+    },
+    {
+      "id": "1160",
+      "language_prediction": "lb",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 128,
+          "edits": 11,
+          "cer": 0.0859375,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 134,
+          "edits": 5,
+          "cer": 0.03731343283582089,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 91,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      },
+      "lines": {
+        "reference": 4,
+        "predicted": 4,
+        "matched": 4,
+        "mean_iou": 0.7215787297044758,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.0
+      },
+      "native_words": {
+        "reference": 25,
+        "predicted": 25,
+        "matched": 25,
+        "mean_iou": 0.6008597344764479,
+        "recall_iou50": 0.88,
+        "recall_iou80": 0.0
+      },
+      "routed_words": {
+        "reference": 25,
+        "predicted": 25,
+        "matched": 25,
+        "mean_iou": 0.5460681168013208,
+        "recall_iou50": 0.8,
+        "recall_iou80": 0.0
+      }
+    },
+    {
+      "id": "0439",
+      "language_prediction": "fr",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 76,
+          "edits": 21,
+          "cer": 0.27631578947368424,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 76,
+          "edits": 20,
+          "cer": 0.2631578947368421,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 60,
+          "edits": 12,
+          "cer": 0.2,
+          "exact": false
+        }
+      },
+      "lines": {
+        "reference": 2,
+        "predicted": 3,
+        "matched": 2,
+        "mean_iou": 0.6810906143796702,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.0
+      },
+      "native_words": {
+        "reference": 12,
+        "predicted": 12,
+        "matched": 12,
+        "mean_iou": 0.6072428691890324,
+        "recall_iou50": 0.8333333333333334,
+        "recall_iou80": 0.0
+      },
+      "routed_words": {
+        "reference": 12,
+        "predicted": 12,
+        "matched": 12,
+        "mean_iou": 0.6173286852216436,
+        "recall_iou50": 0.8333333333333334,
+        "recall_iou80": 0.08333333333333333
+      }
+    },
+    {
+      "id": "0455",
+      "language_prediction": "lb",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 1438,
+          "edits": 27,
+          "cer": 0.018776077885952713,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 1438,
+          "edits": 11,
+          "cer": 0.0076495132127955496,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 1063,
+          "edits": 8,
+          "cer": 0.007525870178739417,
+          "exact": false
+        }
+      },
+      "lines": {
+        "reference": 68,
+        "predicted": 68,
+        "matched": 68,
+        "mean_iou": 0.7006017189341307,
+        "recall_iou50": 0.9411764705882353,
+        "recall_iou80": 0.4411764705882353
+      },
+      "native_words": {
+        "reference": 268,
+        "predicted": 268,
+        "matched": 268,
+        "mean_iou": 0.6043165195002321,
+        "recall_iou50": 0.8283582089552238,
+        "recall_iou80": 0.026119402985074626
+      },
+      "routed_words": {
+        "reference": 268,
+        "predicted": 268,
+        "matched": 268,
+        "mean_iou": 0.85669298010488,
+        "recall_iou50": 0.9850746268656716,
+        "recall_iou80": 0.8283582089552238
+      }
+    },
+    {
+      "id": "1630",
+      "language_prediction": "de",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 920,
+          "edits": 8,
+          "cer": 0.008695652173913044,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 916,
+          "edits": 5,
+          "cer": 0.0054585152838427945,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 765,
+          "edits": 2,
+          "cer": 0.00261437908496732,
+          "exact": false
+        }
+      },
+      "lines": {
+        "reference": 21,
+        "predicted": 21,
+        "matched": 21,
+        "mean_iou": 0.7770555689971863,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.2857142857142857
+      },
+      "native_words": {
+        "reference": 135,
+        "predicted": 135,
+        "matched": 135,
+        "mean_iou": 0.5492422330545567,
+        "recall_iou50": 0.6296296296296297,
+        "recall_iou80": 0.0
+      },
+      "routed_words": {
+        "reference": 135,
+        "predicted": 135,
+        "matched": 135,
+        "mean_iou": 0.47447655688511875,
+        "recall_iou50": 0.5481481481481482,
+        "recall_iou80": 0.0
+      }
+    },
+    {
+      "id": "0009",
+      "language_prediction": "de",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 1201,
+          "edits": 16,
+          "cer": 0.013322231473771857,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 1192,
+          "edits": 13,
+          "cer": 0.010906040268456376,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 968,
+          "edits": 5,
+          "cer": 0.005165289256198347,
+          "exact": false
+        }
+      },
+      "lines": {
+        "reference": 24,
+        "predicted": 24,
+        "matched": 24,
+        "mean_iou": 0.7986713944413292,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.5
+      },
+      "native_words": {
+        "reference": 202,
+        "predicted": 200,
+        "matched": 200,
+        "mean_iou": 0.5433973656978883,
+        "recall_iou50": 0.6485148514851485,
+        "recall_iou80": 0.0049504950495049506
+      },
+      "routed_words": {
+        "reference": 202,
+        "predicted": 200,
+        "matched": 200,
+        "mean_iou": 0.6288166425203306,
+        "recall_iou50": 0.7475247524752475,
+        "recall_iou80": 0.22277227722772278
+      }
+    },
+    {
+      "id": "0345",
+      "language_prediction": "fr",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 1067,
+          "edits": 27,
+          "cer": 0.02530459231490159,
+          "exact": false
+        },
+        "search_v1": {
+          "characters": 1063,
+          "edits": 17,
+          "cer": 0.01599247412982126,
+          "exact": false
+        },
+        "lexical_alnum": {
+          "characters": 812,
+          "edits": 8,
+          "cer": 0.009852216748768473,
+          "exact": false
+        }
+      },
+      "lines": {
+        "reference": 23,
+        "predicted": 24,
+        "matched": 23,
+        "mean_iou": 0.8365714079415881,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.782608695652174
+      },
+      "native_words": {
+        "reference": 184,
+        "predicted": 183,
+        "matched": 183,
+        "mean_iou": 0.6038377133495819,
+        "recall_iou50": 0.7228260869565217,
+        "recall_iou80": 0.11413043478260869
+      },
+      "routed_words": {
+        "reference": 184,
+        "predicted": 183,
+        "matched": 183,
+        "mean_iou": 0.7214763300749227,
+        "recall_iou50": 0.9239130434782609,
+        "recall_iou80": 0.34782608695652173
+      }
+    },
+    {
+      "id": "0456",
+      "language_prediction": "fr",
+      "text": {
+        "strict_nfc_diplomatic": {
+          "characters": 139,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "search_v1": {
+          "characters": 139,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        },
+        "lexical_alnum": {
+          "characters": 109,
+          "edits": 0,
+          "cer": 0.0,
+          "exact": true
+        }
+      },
+      "lines": {
+        "reference": 4,
+        "predicted": 4,
+        "matched": 4,
+        "mean_iou": 0.8078232485519027,
+        "recall_iou50": 1.0,
+        "recall_iou80": 0.75
+      },
+      "native_words": {
+        "reference": 19,
+        "predicted": 19,
+        "matched": 19,
+        "mean_iou": 0.6494475754643243,
+        "recall_iou50": 0.7894736842105263,
+        "recall_iou80": 0.2631578947368421
+      },
+      "routed_words": {
+        "reference": 19,
+        "predicted": 19,
+        "matched": 19,
+        "mean_iou": 0.5719456000769526,
+        "recall_iou50": 0.6842105263157895,
+        "recall_iou80": 0.21052631578947367
+      }
+    }
+  ]
+}

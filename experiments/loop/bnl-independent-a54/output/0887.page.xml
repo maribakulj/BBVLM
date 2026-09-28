@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-28T10:18:20.169587+00:00</Created>
+    <LastChange>2026-09-28T10:18:20.169587+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A46_0887" imageWidth="805" imageHeight="783">
+    <TextRegion id="r000">
+      <Coords points="-5,-10 -5,744 7,789 147,789 267,746 807,751 807,-1 -5,-10"/>
+      <TextLine id="r000-l001" index="0" custom="heights_v2:[33.5,13.5]">
+        <Coords points="-5,37 88,37 176,39 267,41 356,41 444,44 535,44 623,44 712,46 807,46 807,-1 712,-1 639,-3 605,-3 535,-3 444,-3 357,-6 267,-6 178,-8 161,-8 -5,-10 -5,37"/>
+        <Baseline points="-5,23 88,23 177,26 267,28 356,28 444,30 535,30 623,30 712,33 807,33"/>
+        <TextEquiv conf="1.000">
+          <Unicode>hôtes de M. et Mme Amersfoordt. Au des-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l002" index="1" custom="heights_v2:[33.3,13.4]">
+        <Coords points="-5,88 88,88 176,90 267,92 356,92 444,92 535,95 623,97 711,97 807,99 807,86 807,53 713,50 623,50 536,48 445,46 356,46 267,46 178,44 89,41 -5,41 -5,88"/>
+        <Baseline points="-5,74 88,74 177,77 267,79 356,79 444,79 535,81 623,84 712,84 807,86"/>
+        <TextEquiv conf="1.000">
+          <Unicode>sert, M. le ministre de France a porté la</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l003" index="2" custom="heights_v2:[33.7,13.6]">
+        <Coords points="-5,142 88,142 177,142 267,142 356,144 444,146 535,146 623,149 711,149 807,151 807,137 807,104 713,101 623,101 536,99 444,99 357,97 268,94 177,94 88,94 -5,94 -5,142"/>
+        <Baseline points="-5,128 88,128 177,128 267,128 356,130 444,133 535,133 623,135 712,135 807,137"/>
+        <TextEquiv conf="1.000">
+          <Unicode>santé des maîtres de la maison et les a</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l004" index="3" custom="heights_v2:[33.7,13.4]">
+        <Coords points="-5,188 88,188 177,192 267,192 356,192 444,195 535,195 623,197 712,199 807,199 807,152 712,152 624,150 536,148 444,148 357,145 267,145 177,145 90,141 -5,141 -5,188"/>
+        <Baseline points="-5,174 88,174 177,179 267,179 356,179 444,181 535,181 623,184 712,186 807,186"/>
+        <TextEquiv conf="1.000">
+          <Unicode>remerciés de l'accueil fait par eux à ses</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l005" index="4" custom="heights_v2:[33.3,13.3]">
+        <Coords points="-5,237 88,239 176,239 267,241 355,241 444,246 535,246 623,248 712,248 807,248 807,202 712,202 623,202 536,199 444,199 358,195 267,195 178,192 88,192 -4,190 -5,223 -5,237"/>
+        <Baseline points="-5,223 88,226 177,226 267,228 356,228 444,233 535,233 623,235 712,235 807,235"/>
+        <TextEquiv conf="1.000">
+          <Unicode>jeunes compatriotes. Les paroles prononcées</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l006" index="5" custom="heights_v2:[33.2,13.4]">
+        <Coords points="-5,290 88,290 176,290 265,293 353,293 444,295 532,297 621,300 709,300 805,300 805,253 709,253 621,253 534,251 445,248 354,246 265,246 178,244 88,244 -5,244 -5,290"/>
+        <Baseline points="-5,277 88,277 177,277 265,279 354,279 444,281 533,284 621,286 709,286 805,286"/>
+        <TextEquiv conf="1.000">
+          <Unicode>par M. Target ont été couvertes d'applau-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l007" index="6" custom="heights_v2:[32.8,13.3]">
+        <Coords points="-5,339 88,341 177,341 265,341 353,344 444,346 533,346 621,346 709,348 805,348 805,302 709,302 622,300 533,300 444,300 354,298 266,295 177,295 88,295 -4,293 -5,326 -5,339"/>
+        <Baseline points="-5,326 88,328 177,328 265,328 354,330 444,333 533,333 621,333 709,335 805,335"/>
+        <TextEquiv conf="1.000">
+          <Unicode>dissements. Après le déjeuner, visite à la</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l008" index="7" custom="heights_v2:[33.0,13.3]">
+        <Coords points="-5,390 88,390 177,392 267,392 356,395 444,395 535,397 623,397 712,399 807,399 807,353 712,353 624,351 535,351 445,348 356,348 268,346 177,346 89,344 -5,344 -5,390"/>
+        <Baseline points="-5,377 88,377 177,379 267,379 356,381 444,381 535,384 623,384 712,386 807,386"/>
+        <TextEquiv conf="1.000">
+          <Unicode>laiterie si intelligemment administrée par</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l009" index="8" custom="heights_v2:[32.5,13.1]">
+        <Coords points="-5,439 88,439 177,441 267,441 356,443 444,446 535,446 623,448 712,450 807,450 807,405 712,405 624,402 536,400 444,400 357,398 268,395 177,395 89,393 -5,393 -5,439"/>
+        <Baseline points="-5,426 88,426 177,428 267,428 356,430 444,433 535,433 623,435 712,437 807,437"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Mme Amersfoordt, aux étables, aux machi-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l010" index="9" custom="heights_v2:[32.5,13.2]">
+        <Coords points="-5,490 88,490 177,492 267,492 356,495 444,495 535,497 623,499 711,499 807,502 807,488 807,456 713,454 623,454 536,451 445,449 356,449 268,447 177,447 89,444 -5,444 -5,490"/>
+        <Baseline points="-5,477 88,477 177,479 267,479 356,481 444,481 535,484 623,486 712,486 807,488"/>
+        <TextEquiv conf="1.000">
+          <Unicode>nes d'intérieur. Puis les voitures s'attèlent</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l011" index="10" custom="heights_v2:[32.4,13.3]">
+        <Coords points="-5,539 88,539 177,541 267,541 356,544 444,546 535,546 623,548 712,548 807,548 807,503 712,503 623,503 536,500 444,500 357,498 268,496 177,496 89,493 -5,493 -5,539"/>
+        <Baseline points="-5,526 88,526 177,528 267,528 356,530 444,533 535,533 623,535 712,535 807,535"/>
+        <TextEquiv conf="1.000">
+          <Unicode>et prennent la file sur la chaussée du ca-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l012" index="11" custom="heights_v2:[32.5,13.3]">
+        <Coords points="-5,590 88,590 176,590 267,592 356,592 444,595 535,595 623,597 711,599 807,602 807,588 807,556 713,554 624,551 536,549 444,549 357,547 267,547 178,544 88,544 -5,544 -5,590"/>
+        <Baseline points="-5,577 88,577 177,577 267,579 356,579 444,581 535,581 623,584 712,586 807,588"/>
+        <TextEquiv conf="1.000">
+          <Unicode>nal circulaire qui reçoit les eaux du lac Il</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l013" index="12" custom="heights_v2:[32.5,13.3]">
+        <Coords points="-5,641 88,641 176,641 267,644 356,644 444,646 535,648 623,651 712,651 807,651 807,605 712,605 623,605 536,602 445,600 357,598 267,598 178,595 88,595 -5,595 -5,641"/>
+        <Baseline points="-5,628 88,628 177,628 267,630 356,630 444,633 535,635 623,637 712,637 807,637"/>
+        <TextEquiv conf="1.000">
+          <Unicode>s'agit d'aller voir l'installation des grandes</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l014" index="13" custom="heights_v2:[32.4,13.1]">
+        <Coords points="-5,679 -4,692 88,690 176,690 267,692 356,695 444,695 535,697 623,699 712,699 807,699 807,654 712,654 623,654 536,651 445,649 356,649 268,647 178,644 88,644 -5,647 -5,679"/>
+        <Baseline points="-5,679 88,677 177,677 267,679 356,682 444,682 535,684 623,686 712,686 807,686"/>
+        <TextEquiv conf="1.000">
+          <Unicode>machines qui, après avoir épuisé le lac,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l015" index="14" custom="heights_v2:[32.1,13.2]">
+        <Coords points="-5,744 88,744 176,744 267,746 356,746 444,744 535,746 623,748 665,749 807,751 807,705 712,705 624,703 536,701 445,698 355,701 267,701 178,698 88,698 -5,698 -5,744"/>
+        <Baseline points="-5,730 88,730 177,730 267,733 356,733 444,730 535,733 623,735 712,737 807,737"/>
+        <TextEquiv conf="1.000">
+          <Unicode>l'empêchent aujourd’hui de se remplir de</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l016" index="15" custom="heights_v2:[29.6,10.3]">
+        <Coords points="44,789 77,789 109,789 147,789 147,750 109,750 77,750 44,750 7,750 7,789 44,789"/>
+        <Baseline points="7,779 44,779 77,779 109,779 147,779"/>
+        <TextEquiv conf="1.000">
+          <Unicode>nouvean</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

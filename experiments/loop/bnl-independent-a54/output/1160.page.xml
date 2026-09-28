@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-09-28T10:18:28.749262+00:00</Created>
+    <LastChange>2026-09-28T10:18:28.749262+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="A46_1160" imageWidth="792" imageHeight="193">
+    <TextRegion id="r000">
+      <Coords points="-5,-10 -6,189 136,193 260,147 794,151 794,-10 -5,-10"/>
+      <TextLine id="r000-l001" index="0" custom="heights_v2:[39.0,14.7]">
+        <Coords points="-5,43 86,46 175,46 260,46 349,46 435,46 524,46 610,46 699,43 794,43 794,-10 699,-10 609,-7 524,-7 435,-7 349,-7 260,-7 175,-7 86,-7 -5,-10 -5,43"/>
+        <Baseline points="-5,29 86,32 175,32 260,32 349,32 435,32 524,32 610,32 699,29 794,29"/>
+        <TextEquiv conf="1.000">
+          <Unicode>(260 Quart) 81 Thlr., 1/2 Fuder 61er (436</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l002" index="1" custom="heights_v2:[36.0,14.0]">
+        <Coords points="-6,97 86,97 175,97 260,97 349,97 435,97 524,97 610,97 699,97 794,97 794,47 699,47 610,47 524,47 435,47 349,47 260,47 175,47 86,47 -5,47 -6,97"/>
+        <Baseline points="-6,83 86,83 175,83 260,83 349,83 435,83 524,83 610,83 699,83 794,83"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Quart) 24—361/2 Thlr., 1/2 Fuder 62er (450</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l003" index="2" custom="heights_v2:[36.7,14.0]">
+        <Coords points="-6,147 86,147 175,147 260,147 349,147 435,147 524,147 610,147 698,147 794,151 794,100 700,97 610,97 524,97 435,97 349,97 260,97 175,97 86,97 -6,97 -6,147"/>
+        <Baseline points="-6,133 86,133 175,133 260,133 349,133 435,133 524,133 610,133 699,133 794,137"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Quart) 160 Thlr., 2 Ohm 63er (335 Quart)</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l004" index="3" custom="heights_v2:[33.0,11.6]">
+        <Coords points="-6,189 41,189 85,189 136,193 139,148 88,145 41,145 -6,145 -6,189"/>
+        <Baseline points="-6,178 41,178 86,178 137,181"/>
+        <TextEquiv conf="1.000">
+          <Unicode>94 Thlr</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>
