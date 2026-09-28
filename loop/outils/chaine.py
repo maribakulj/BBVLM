@@ -8,6 +8,7 @@ script, sur les fichiers qu'il prépare) :
   arbitrage DOSSIER    p2 (OCR-D, R1, R2) sur A et B, lignes resserrées,
                         recadrage des seules lignes en désaccord → DOSSIER/p3/taches.json
   [VLM] arbitre (outils/consigne_arbitre_P3.md) → DOSSIER/p3/verdicts.json
+        et, dans le même appel, signe d'inflexion (consigne_inflexion.md) → DOSSIER/inflexion/verdicts.json
   final DOSSIER        texte P3 → ALTO (blocs typés, ReadingOrder, lignes non
                         placées marquées) validé XSD → DOSSIER/page.alto.xml
 Aucune étape ne lit une référence. Les évaluations (cer, bilan_adj, olr,
@@ -34,13 +35,15 @@ def arbitrage(d):
             subprocess.run([PY, 'p2.py', f'{d}/lu_{n}.txt'], check=True, cwd=ICI, stdout=f)
     run('serre.py', d)
     run('p3.py', 'prepare', d)
+    run('inflexion.py', 'prepare', d)      # I01 : même appel d'arbitre que P3
 
 
 def final(d):
     if not os.path.exists(f'{d}/p3/verdicts.json'):
         open(f'{d}/p3/verdicts.json', 'w').write('[]')
     run('p3.py', 'fusionne', d)
-    run('vers_alto.py', d, f'{d}/p3_final.txt', f'{d}/page.alto.xml', f'{d}/lu_a.txt')
+    run('inflexion.py', 'applique', d)     # sans verdicts ou sans décision nette : texte P3 inchangé
+    run('vers_alto.py', d, f'{d}/p3i_final.txt', f'{d}/page.alto.xml', f'{d}/lu_a.txt')
 
 
 if __name__ == '__main__':

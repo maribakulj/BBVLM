@@ -20,3 +20,6 @@ Pour chaque tâche :
 
 Sortie : DOSSIER/p3/verdicts.json, liste de {"id", "verdict", "texte_correct"}.
 N'ouvre aucun autre fichier du dossier ; n'écris aucun autre fichier.
+
+Dans le même passage : si DOSSIER/inflexion/taches.json existe et n'est pas
+vide, applique aussi consigne_inflexion.md (signe d'inflexion de l'imprimeur).

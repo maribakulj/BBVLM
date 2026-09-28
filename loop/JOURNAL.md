@@ -243,3 +243,15 @@ anneau d'un e réduit ; les arbitres, sur la ligne recadrée en pleine
 résolution, le font. P6 reste la consigne. Piste suivante : décider le signe
 d'inflexion par page sur quelques mots recadrés en pleine résolution (passe
 ciblée courte), puis l'appliquer à la page.
+
+## I01 — 2026-09-28 — signe d'inflexion décidé par page en pleine résolution — adopté (à valider O13)
+
+Après l'échec de P7 : jusqu'à 4 lignes à mots « u + signe » recadrées en
+pleine résolution ; un arbitre classe la FORME de chaque signe (anneau / e) ;
+seuls les mots à inflexion (forme moderne en ü, lexique R2) votent et sont
+convertis (DasWeL : ů = uo et uͤ = ü sur la même page) ; garde : ≥ 3 votes et
+≥ 3/4 d'accord (extraudeu : 2 votes « anneau » contredits par deux arbitres
+concordants sur l'image). 16 pages O07-O12 à signes : **147 → 129**
+éditions, herrleyc 21 → 9, herbdulc 10 → 4, **aucune régression**. Préparé
+avec l'arbitrage P3 (sur la lecture A) : même appel d'arbitre, pas de passe
+VLM supplémentaire. Développé sur ces pages → validation O13.

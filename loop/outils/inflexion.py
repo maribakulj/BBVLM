@@ -18,12 +18,15 @@ E_ = 'ͤ'
 SIGNE = re.compile('ů|u' + E_)
 
 
-def _texte(d):
-    return [unicodedata.normalize('NFC', l) for l in open(f'{d}/p3_final.txt', encoding='utf-8').read().splitlines() if l.strip()]
+def _texte(d, source='p3_final.txt'):
+    if source.endswith('.json'): L = json.load(open(f'{d}/{source}'))
+    else: L = open(f'{d}/{source}', encoding='utf-8').read().splitlines()
+    return [unicodedata.normalize('NFC', l) for l in L if l.strip()]
 
 
 def prepare(d, n_max=4):
-    T = _texte(d)
+    # préparé avec l'arbitrage P3, sur la lecture A (p3/base_A.json) : un seul appel d'arbitre
+    T = _texte(d, 'p3/base_A.json' if os.path.exists(f'{d}/p3/base_A.json') else 'p3_final.txt')
     cand = [i for i, l in enumerate(T) if SIGNE.search(l)]
     os.makedirs(f'{d}/inflexion', exist_ok=True)
     if not cand:
@@ -61,8 +64,12 @@ def signe_page(d):
         for m, s in zip(mots, t.get('signes', [])):
             # seuls les mots à inflexion comptent (DasWeL : ů = uo et uͤ = ü sur la même page)
             if s in n and decide(m.replace('u*', 'ů')) == 'uͤ': n[s] += 1
-    if n['anneau'] == n['e']: return None
-    return 'anneau' if n['anneau'] > n['e'] else 'e'
+    # garde : ≥ 3 votes et ≥ 3/4 d'accord, sinon on ne touche à rien (extraudeu :
+    # 2 votes « anneau », faux selon deux arbitres concordants)
+    tot = n['anneau'] + n['e']
+    if tot < 3: return None
+    s = max(n, key=n.get)
+    return s if n[s] >= .75 * tot else None
 
 
 def applique(d):
