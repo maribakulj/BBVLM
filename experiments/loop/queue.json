@@ -64,6 +64,111 @@
         "experiments/loop/next-a63/PROTOCOL.md"
       ],
       "instructions": "Active Codex: reread Claude branch head and new JOURNAL/protocol/code (O13/S05 if present); inspect A61 residuals against native images in a separately labelled diagnostic without rewriting references. Read primary literature for any new hypothesis and append one summary per paper, distinguishing abstract/full text. Freeze a concrete A63 protocol and add its preparation, blind-reader, scoring, review and commit-evidence jobs. Do not claim that another model is independent human adjudication. Keep the 100 reserved Chronicling test pages unopened until a transfer protocol is frozen; if adjudication is unavailable, advance predicted geometry/OLR/retrieval on a distinct ready track. Never wait for the next scheduled wake-up when useful work is available."
+    },
+    {
+      "id": "a63_crops",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a63_prepare"
+      ],
+      "inputs": [
+        "scripts/prepare_residual_a63.py",
+        "experiments/loop/next-a63/PROTOCOL.md",
+        "experiments/loop/bnl-independent-a54/source/0455.png",
+        "experiments/loop/bnl-independent-a54/source/0455.xml"
+      ],
+      "outputs": [
+        "experiments/loop/next-a63/blind/request.json",
+        "experiments/loop/next-a63/private-map.json",
+        "experiments/loop/next-a63/blind/R729.png",
+        "experiments/loop/next-a63/blind/R729-zoom.png",
+        "experiments/loop/next-a63/blind/R184.png",
+        "experiments/loop/next-a63/blind/R184-zoom.png",
+        "experiments/loop/next-a63/blind/R563.png",
+        "experiments/loop/next-a63/blind/R563-zoom.png",
+        "experiments/loop/next-a63/blind/R902.png",
+        "experiments/loop/next-a63/blind/R902-zoom.png",
+        "experiments/loop/next-a63/blind/R347.png",
+        "experiments/loop/next-a63/blind/R347-zoom.png",
+        "experiments/loop/next-a63/blind/R816.png",
+        "experiments/loop/next-a63/blind/R816-zoom.png"
+      ],
+      "argv": [
+        "{python}",
+        "scripts/prepare_residual_a63.py"
+      ],
+      "timeout_seconds": 30
+    },
+    {
+      "id": "a63_reader",
+      "kind": "external",
+      "resource": "vlm",
+      "deps": [
+        "a63_crops"
+      ],
+      "inputs": [
+        "experiments/loop/next-a63/blind/request.json",
+        "experiments/loop/next-a63/blind/R729.png",
+        "experiments/loop/next-a63/blind/R729-zoom.png",
+        "experiments/loop/next-a63/blind/R184.png",
+        "experiments/loop/next-a63/blind/R184-zoom.png",
+        "experiments/loop/next-a63/blind/R563.png",
+        "experiments/loop/next-a63/blind/R563-zoom.png",
+        "experiments/loop/next-a63/blind/R902.png",
+        "experiments/loop/next-a63/blind/R902-zoom.png",
+        "experiments/loop/next-a63/blind/R347.png",
+        "experiments/loop/next-a63/blind/R347-zoom.png",
+        "experiments/loop/next-a63/blind/R816.png",
+        "experiments/loop/next-a63/blind/R816-zoom.png"
+      ],
+      "outputs": [
+        "experiments/loop/next-a63/sol-response.json"
+      ],
+      "instructions": "One fresh blind Sol reader. Only request.json and its twelve image views; original detail; no reference/candidate/scores. Exact opaque IDs. Real inference mandatory. Consumed audit, no new independent CER claim."
+    },
+    {
+      "id": "a63_score",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a63_reader"
+      ],
+      "inputs": [
+        "scripts/evaluate_residual_a63.py",
+        "scripts/evaluate_bnl_vlm_a54.py",
+        "src/bbvlm/text_views.py",
+        "src/bbvlm/metrics.py",
+        "experiments/loop/next-a63/private-map.json",
+        "experiments/loop/next-a63/sol-response.json",
+        "experiments/loop/bnl-guard-a61/sol-response.json",
+        "experiments/loop/bnl-independent-a54/source/0455.xml",
+        "experiments/loop/bnl-independent-a54/source/0455.png"
+      ],
+      "outputs": [
+        "experiments/loop/next-a63/report.json"
+      ],
+      "argv": [
+        "{python}",
+        "scripts/evaluate_residual_a63.py"
+      ],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "a64_prepare",
+      "kind": "external",
+      "resource": "orchestrator",
+      "deps": [
+        "a63_score"
+      ],
+      "inputs": [
+        "experiments/loop/next-a63/report.json",
+        "experiments/loop/next-a63/RESULTS.md"
+      ],
+      "outputs": [
+        "experiments/loop/next-a64/PROTOCOL.md"
+      ],
+      "instructions": "Before new hypothesis: inspect current Claude branch head, protocols/results/code. Stop retuning consumed0455. Prepare an independent diverse validation for an image-observable risk router OR advance distinct geometry/OLR track while human adjudication is unavailable. Consider official HIPE scorer normalization (spaces retained, MER denominator) with existing source audits; do not replace current metrics. Read primary sources and append article summaries. Add concrete command/reader/scoring jobs; execute useful ready work immediately, commit/push and checkpoint after each completed experiment. All scientific gates remain false."
     }
   ]
 }

@@ -559,3 +559,6 @@ Candidat+bandes Sol :8→6 éditions lexicales, dont une modification régressiv
 
 ## A62 — boucle active
 File de tâches concurrentes et reprenables : voir CONTINUOUS_LOOP.md et queue-a62/RESULTS.md. Ne pas attendre la prochaine reprise si du travail utile est prêt. Neuf tests réussis ; aucun nouveau score OCR.
+
+## A63 terminé dans la même session
+File exercée sur une vraie lecture Sol et son score :6→4 éditions lexicales sur6lignes sélectionnées oracle, aucun score indépendant ni perfection. Voir next-a63/RESULTS.md. Prochaine action a64_prepare.

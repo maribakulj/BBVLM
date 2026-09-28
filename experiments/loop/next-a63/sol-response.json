@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "id": "R729",
+      "text": "Den Hèr firaûs, derno kemt d’ganst Haûs.",
+      "uncertain_spans": [
+        {
+          "text": "firaûs",
+          "reason": "The narrow strokes following the initial f run together; the first vowel's dot is faint, so its reading as i is less secure than the remaining letters."
+        }
+      ]
+    },
+    {
+      "id": "R184",
+      "text": "An der Sonn ferdengt ên de Schiéd♦",
+      "uncertain_spans": [
+        {
+          "text": "♦",
+          "reason": "The terminal mark is a dark diamond-shaped point; its exact typographic punctuation value is unclear."
+        }
+      ]
+    },
+    {
+      "id": "R563",
+      "text": "Gróss Kanner, gròss Suorgen. (Lêt.)",
+      "uncertain_spans": [
+        {
+          "text": "Gróss, gròss",
+          "reason": "The first mark over o slopes up right, while the second slopes down right; both are short and slightly blurred."
+        }
+      ]
+    },
+    {
+      "id": "R902",
+      "text": "Et lêft fill Wâsser d’Bâch erân.",
+      "uncertain_spans": []
+    },
+    {
+      "id": "R347",
+      "text": "Klèng Kanner, klèng Suorgen, (Lêt ;)",
+      "uncertain_spans": [
+        {
+          "text": "(Lêt ;)",
+          "reason": "The mark after t has a distinct upper dot and lower comma-like stroke, suggesting a semicolon; spacing within the parentheses is visually broad."
+        }
+      ]
+    },
+    {
+      "id": "R816",
+      "text": "D’ gebroden Dauwen flée’ net an der Loft erem.",
+      "uncertain_spans": []
+    }
+  ],
+  "inspected_images": [
+    "experiments/loop/next-a63/blind/R729.png",
+    "experiments/loop/next-a63/blind/R729-zoom.png",
+    "experiments/loop/next-a63/blind/R184.png",
+    "experiments/loop/next-a63/blind/R184-zoom.png",
+    "experiments/loop/next-a63/blind/R563.png",
+    "experiments/loop/next-a63/blind/R563-zoom.png",
+    "experiments/loop/next-a63/blind/R902.png",
+    "experiments/loop/next-a63/blind/R902-zoom.png",
+    "experiments/loop/next-a63/blind/R347.png",
+    "experiments/loop/next-a63/blind/R347-zoom.png",
+    "experiments/loop/next-a63/blind/R816.png",
+    "experiments/loop/next-a63/blind/R816-zoom.png"
+  ]
+}

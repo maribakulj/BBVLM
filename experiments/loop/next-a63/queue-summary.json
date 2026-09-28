@@ -1,0 +1,21 @@
+{
+  "jobs": {
+    "a62_dispatch_tests": "completed",
+    "a62_visual_input_fixity": "completed",
+    "a63_prepare": "completed",
+    "a63_crops": "completed",
+    "a63_reader": "completed",
+    "a63_score": "completed",
+    "a64_prepare": "pending"
+  },
+  "ready_external": [
+    {
+      "id": "a64_prepare",
+      "instructions": "Before new hypothesis: inspect current Claude branch head, protocols/results/code. Stop retuning consumed0455. Prepare an independent diverse validation for an image-observable risk router OR advance distinct geometry/OLR track while human adjudication is unavailable. Consider official HIPE scorer normalization (spaces retained, MER denominator) with existing source audits; do not replace current metrics. Read primary sources and append article summaries. Add concrete command/reader/scoring jobs; execute useful ready work immediately, commit/push and checkpoint after each completed experiment. All scientific gates remain false.",
+      "resource": "orchestrator",
+      "can_claim": true
+    }
+  ],
+  "waiting": {},
+  "scientific_success": false
+}

@@ -173,3 +173,14 @@ Article v4 https://arxiv.org/html/2401.16845v4 ; §§A.4.2/A.5.5 lus le 28 septe
 - Kiessling, *A Free Lunch? Adapting PP-OCRv6 for Historical Text Recognition*, arXiv2609.20064, 17 septembre2026. Abstract primaire retrouvé ; HTML/abstract direct indisponibles et HF404. Le résumé annonce un petit reconnaisseur de lignes, préentraînement hétérogène utile et comparaison à Medusa ; aucun score détaillé ni code lu. Candidat à examiner, pas à installer sur cette preuve partielle.
 - *When Low CER is Not Enough*, arXiv2607.24077, 27 juillet2026 : abstract primaire retrouvé, texte non accessible dans cette session (HF404). Analyse d’hallucinations sur scans microfilms uruguayens. Pas de détail expérimental confirmé ; ne pas extrapoler au corpus BnL.
 
+
+## A63 — sources relues le 28 septembre 2026
+
+### Inoue — arXiv:2503.23667v1, 31 mars 2025
+https://arxiv.org/html/2503.23667v1 ; méthodes/résultats/discussion relus. Cent kanjis synthétiques, quatre résolutions, GPT-4o/Gemini2.0Flash/Azure ; baisse des VLM à faible taille, complexité peu corrélée. Limites : glyphes japonais isolés, anciens modèles, aucune inférence sur Sol ni journaux luxembourgeois. A63 examine une présentation ciblée des pixels, sans prétendre récupérer de nouveaux détails ni isoler causalement la résolution d'une nouvelle session. Résumé détaillé déjà présent ci-dessus.
+
+### Ehrmann et al. — HIPE-OCRepair 2026, arXiv:2607.08143
+Relecture du dépôt de données et du README du scorer, pas nouveau téléchargement réussi du papier : arXiv abs/html/pdf renvoient DisabledError dans ce tour. Le résumé du texte complet lu au précédent tour est conservé tel quel.
+Sources actuelles : https://github.com/hipe-eval/HIPE-OCRepair-2026-data et https://github.com/hipe-eval/HIPE-OCRepair-scorer . Version données v0.9.5 annoncée le20 avril2026 avec corrections GT après soumission. Le scorer calcule MER avec insertions au dénominateur ; sa normalisation conserve les accents, remplace ponctuation par espaces et compacte les blancs. **Ce n'est pas notre lexical_alnum**, qui supprime les séparateurs : ne pas appeler les scores interchangeables. Score de préférence par item pour rendre les régressions visibles. Pertinence : benchmark externe OCR normalisé, pas boîtes/OLR ni preuve de GT parfaite. Documentation relue, pas code Python du scorer exécuté dans A63.
+
+Autres pistes repérées par recherche mais non lues intégralement : Beyene/Dancy2603.25761, comparaison2608.24976, cadre2510.06743. Aucun résultat ni choix d'implémentation attribué à leur seul extrait de recherche.

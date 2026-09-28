@@ -1097,3 +1097,6 @@ message—physical cues constrain candidates, semantics can rerank, and
 overcorrection requires per-unit non-regression—therefore applies to article
 boundaries as well as OCR. The next ontology must separate provider containers
 from retrievable semantic items.
+
+## A63
+Relecture primaire Inoue2503.23667v1 (HTML méthodes/résultats/discussion), code Claude inflexion.py au head76056c5 et README HIPE scorer/données. Résumés et limites dans PAPER_SUMMARIES.md ; accès arXiv2607.08143 bloqué dans ce tour, aucune prétention de nouvelle lecture complète.

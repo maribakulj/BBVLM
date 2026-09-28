@@ -853,5 +853,11 @@
     "status": "completed_engineering_validation",
     "results": "queue-a62/RESULTS.md",
     "global_completion": false
+  },
+  "residual_a63": {
+    "status": "completed_consumed_reference_audit",
+    "protocol": "next-a63/PROTOCOL.md",
+    "results": "next-a63/RESULTS.md",
+    "global_completion": false
   }
 }

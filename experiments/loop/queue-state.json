@@ -25,6 +25,65 @@
       "ended_at": 1790597807.2861123
     },
     "a63_prepare": {
+      "status": "completed",
+      "started_at": 1790598163.804125,
+      "fingerprint": "0df39345338dc25f258a1fb007cf8a7a855d9e45ba7236acee132b1cff4a76bc",
+      "actor": "root-active",
+      "token": "8a4b9863060640d1b94d151827234345",
+      "outputs": {
+        "experiments/loop/next-a63/PROTOCOL.md": "2a48591cd8d05e480029dd69bf403c0a2efd6f5b2f5c8b09002ae5c2b46ac984"
+      },
+      "ended_at": 1790598270.3752053
+    },
+    "a63_crops": {
+      "status": "completed",
+      "started_at": 1790598270.4302053,
+      "fingerprint": "2c8fcadf758432f4459dc71f04c740817c3a9abe8c42f799b79364355fd719a5",
+      "pid": 11,
+      "log": "experiments/loop/logs/a63_crops.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a63/blind/request.json": "076253ac32908341402b3eb1051a301cdc1d66fee537e762f456076f30dc104b",
+        "experiments/loop/next-a63/private-map.json": "2c1a2b8f468add5afa1b468c8e82ffc9b28b007c47a000410900b7e292056c1b",
+        "experiments/loop/next-a63/blind/R729.png": "37be01bed3b5fd1a29211597350008c8bb6c8616ca34b3a5e0bd13de753d18b3",
+        "experiments/loop/next-a63/blind/R729-zoom.png": "a0a6710769e533c071de15bb8c9612a5bbd6d8a2520ad97858a7823502932a0e",
+        "experiments/loop/next-a63/blind/R184.png": "ee90e31525647b5faa3b7c065249883d240c68131f4329e86692e68695002c7a",
+        "experiments/loop/next-a63/blind/R184-zoom.png": "2072ceaeaeb8627148e0bdf196713434460864501aac4c566f8078c8a43bbd7a",
+        "experiments/loop/next-a63/blind/R563.png": "16e5f7209fa9b5a0347ab6b970ce644cf0ba1e74a17cfea2e93ee5989b94aee2",
+        "experiments/loop/next-a63/blind/R563-zoom.png": "6913cad5284a574fbb82a5ebb43c290e2f52c492bfbccb43aa406593989fc2a0",
+        "experiments/loop/next-a63/blind/R902.png": "6f78dfff943c52ece8c15e96ae329728cf2f96f46605fa882a75ce52059991be",
+        "experiments/loop/next-a63/blind/R902-zoom.png": "8e6edfbb43843e7f5f50374a2ca73cfd9eee916a0cc0a3e373b413f13c8c0d6c",
+        "experiments/loop/next-a63/blind/R347.png": "9e77a9f17fdcb0f860f73671413bb97bc76438904c0f800dafe40730fdc82fa7",
+        "experiments/loop/next-a63/blind/R347-zoom.png": "c40a39f02a005c3a1ae1159ac923a911bd0ff7ef7ec04d6a68ff7ceb13520480",
+        "experiments/loop/next-a63/blind/R816.png": "448c122457bbf78b307f6e9c38dfe13df319ca2f33c28811c31403082a56b982",
+        "experiments/loop/next-a63/blind/R816-zoom.png": "7899477684ad96112b76777f2ae6abd940a041a55346131216fea1829d4b16c7"
+      },
+      "ended_at": 1790598270.8113966
+    },
+    "a63_reader": {
+      "status": "completed",
+      "started_at": 1790598270.9370024,
+      "fingerprint": "01d039ff3e70c8a1279e5cb639c6975de1d4ad0b04cfe9160de05ec50205c72c",
+      "actor": "a63_sol",
+      "token": "9960ce5349434d0f8c15fcf40c117e30",
+      "outputs": {
+        "experiments/loop/next-a63/sol-response.json": "34f6b57cbfc03010f7c8129e3fafc44d4d403110e9b66d7403128723019e47bd"
+      },
+      "ended_at": 1790598397.101673
+    },
+    "a63_score": {
+      "status": "completed",
+      "started_at": 1790598397.1692626,
+      "fingerprint": "14ce564b8ff8d244e52278d4b3bea4fa4ec419d938a9e7df2180c9a9fb33c0a9",
+      "pid": 7,
+      "log": "experiments/loop/logs/a63_score.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a63/report.json": "67f4ef476e719753869f23b5d7e43ca2e71d19ec4acf4cdc4f954634b50c0d91"
+      },
+      "ended_at": 1790598397.2806325
+    },
+    "a64_prepare": {
       "status": "pending"
     }
   }

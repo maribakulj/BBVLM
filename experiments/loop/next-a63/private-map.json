@@ -1,0 +1,67 @@
+{
+  "selection": "oracle_consumed_diagnostic",
+  "source_sha256": "cb2ef810226ffd7c0d2751f99256ceec6b825dbd6614ab8984082db8aed9e536",
+  "xml_sha256": "48a0033007386b277cfb4dba77349c7856da7f0be060bca8fa6a5ef93e0ae2a8",
+  "mapping": [
+    {
+      "id": "R729",
+      "line_index": 26,
+      "box": [
+        0,
+        1208,
+        893,
+        1265
+      ]
+    },
+    {
+      "id": "R184",
+      "line_index": 24,
+      "box": [
+        0,
+        1118,
+        893,
+        1175
+      ]
+    },
+    {
+      "id": "R563",
+      "line_index": 64,
+      "box": [
+        0,
+        2871,
+        893,
+        2929
+      ]
+    },
+    {
+      "id": "R902",
+      "line_index": 20,
+      "box": [
+        0,
+        940,
+        893,
+        997
+      ]
+    },
+    {
+      "id": "R347",
+      "line_index": 63,
+      "box": [
+        0,
+        2826,
+        893,
+        2887
+      ]
+    },
+    {
+      "id": "R816",
+      "line_index": 22,
+      "box": [
+        0,
+        1030,
+        893,
+        1087
+      ]
+    }
+  ]
+}

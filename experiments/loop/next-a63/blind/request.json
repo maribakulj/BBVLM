@@ -1,0 +1,88 @@
+{
+  "task": "Inspect both images for every item using view_image at original detail. They show the same printed line at native scale and integer pixel replication. Transcribe that line faithfully, including historical spelling and accents; never modernize or correct implausible words. Do not reconstruct missing detail. Report ambiguous spans and visible stroke/diacritic evidence separately. Read only this request and its images; no other files, earlier outputs, references, scores or agents. Return exactly the requested opaque IDs and the actual list of inspected image paths.",
+  "items": [
+    {
+      "id": "R729",
+      "images": [
+        "experiments/loop/next-a63/blind/R729.png",
+        "experiments/loop/next-a63/blind/R729-zoom.png"
+      ],
+      "sha256": [
+        "37be01bed3b5fd1a29211597350008c8bb6c8616ca34b3a5e0bd13de753d18b3",
+        "a0a6710769e533c071de15bb8c9612a5bbd6d8a2520ad97858a7823502932a0e"
+      ]
+    },
+    {
+      "id": "R184",
+      "images": [
+        "experiments/loop/next-a63/blind/R184.png",
+        "experiments/loop/next-a63/blind/R184-zoom.png"
+      ],
+      "sha256": [
+        "ee90e31525647b5faa3b7c065249883d240c68131f4329e86692e68695002c7a",
+        "2072ceaeaeb8627148e0bdf196713434460864501aac4c566f8078c8a43bbd7a"
+      ]
+    },
+    {
+      "id": "R563",
+      "images": [
+        "experiments/loop/next-a63/blind/R563.png",
+        "experiments/loop/next-a63/blind/R563-zoom.png"
+      ],
+      "sha256": [
+        "16e5f7209fa9b5a0347ab6b970ce644cf0ba1e74a17cfea2e93ee5989b94aee2",
+        "6913cad5284a574fbb82a5ebb43c290e2f52c492bfbccb43aa406593989fc2a0"
+      ]
+    },
+    {
+      "id": "R902",
+      "images": [
+        "experiments/loop/next-a63/blind/R902.png",
+        "experiments/loop/next-a63/blind/R902-zoom.png"
+      ],
+      "sha256": [
+        "6f78dfff943c52ece8c15e96ae329728cf2f96f46605fa882a75ce52059991be",
+        "8e6edfbb43843e7f5f50374a2ca73cfd9eee916a0cc0a3e373b413f13c8c0d6c"
+      ]
+    },
+    {
+      "id": "R347",
+      "images": [
+        "experiments/loop/next-a63/blind/R347.png",
+        "experiments/loop/next-a63/blind/R347-zoom.png"
+      ],
+      "sha256": [
+        "9e77a9f17fdcb0f860f73671413bb97bc76438904c0f800dafe40730fdc82fa7",
+        "c40a39f02a005c3a1ae1159ac923a911bd0ff7ef7ec04d6a68ff7ceb13520480"
+      ]
+    },
+    {
+      "id": "R816",
+      "images": [
+        "experiments/loop/next-a63/blind/R816.png",
+        "experiments/loop/next-a63/blind/R816-zoom.png"
+      ],
+      "sha256": [
+        "448c122457bbf78b307f6e9c38dfe13df319ca2f33c28811c31403082a56b982",
+        "7899477684ad96112b76777f2ae6abd940a041a55346131216fea1829d4b16c7"
+      ]
+    }
+  ],
+  "output_schema": {
+    "items": [
+      {
+        "id": "opaque ID",
+        "text": "literal full line",
+        "uncertain_spans": [
+          {
+            "text": "span",
+            "reason": "visible reason"
+          }
+        ]
+      }
+    ],
+    "inspected_images": [
+      "relative input paths"
+    ]
+  }
+}

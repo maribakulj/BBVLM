@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790597891.5838654,
+  "updated_unix": 1790598086.6038263,
   "status": "in_progress",
   "phases": [
     {
@@ -817,6 +817,12 @@
       "id": "queue_a62",
       "script": null,
       "result": "queue-a62/report.json",
+      "complete": true
+    },
+    {
+      "id": "residual_a63",
+      "script": "scripts/evaluate_residual_a63.py",
+      "result": "next-a63/report.json",
       "complete": true
     }
   ],
@@ -23590,6 +23596,379 @@
       "new_inference_calls": 0,
       "global_completion": false,
       "claude_journal_sha": "ba685e9b4c870e245d1d201381986178660abb4c"
+    },
+    "residual_a63": {
+      "status": "completed_consumed_reference_audit",
+      "selection": "four oracle-selected residual lines and two exact controls",
+      "summary_agreement_only": {
+        "a61": {
+          "strict_nfc_diplomatic": {
+            "characters": 223,
+            "edits": 10,
+            "cer": 0.04484304932735426,
+            "exact_lines": 2
+          },
+          "search_v1": {
+            "characters": 223,
+            "edits": 6,
+            "cer": 0.026905829596412557,
+            "exact_lines": 2
+          },
+          "lexical_alnum": {
+            "characters": 171,
+            "edits": 6,
+            "cer": 0.03508771929824561,
+            "exact_lines": 2
+          }
+        },
+        "a63": {
+          "strict_nfc_diplomatic": {
+            "characters": 223,
+            "edits": 6,
+            "cer": 0.026905829596412557,
+            "exact_lines": 2
+          },
+          "search_v1": {
+            "characters": 223,
+            "edits": 6,
+            "cer": 0.026905829596412557,
+            "exact_lines": 2
+          },
+          "lexical_alnum": {
+            "characters": 171,
+            "edits": 4,
+            "cer": 0.023391812865497075,
+            "exact_lines": 4
+          }
+        }
+      },
+      "rows": [
+        {
+          "id": "R729",
+          "source_line_index": 26,
+          "reference": "Den H\u00e8r fira\u00fbs, derno kernt d\u2019ganzt Ha\u00fbs.",
+          "a61": "Den H\u00e8r fira\u00fbs, derno kemt d'ganet Ha\u00fbs.",
+          "a63": "Den H\u00e8r fira\u00fbs, derno kemt d\u2019ganst Ha\u00fbs.",
+          "a61_agreement": {
+            "strict_nfc_diplomatic": {
+              "characters": 41,
+              "edits": 4,
+              "cer": 0.0975609756097561,
+              "exact": false
+            },
+            "search_v1": {
+              "characters": 41,
+              "edits": 3,
+              "cer": 0.07317073170731707,
+              "exact": false
+            },
+            "lexical_alnum": {
+              "characters": 32,
+              "edits": 3,
+              "cer": 0.09375,
+              "exact": false
+            }
+          },
+          "a63_agreement": {
+            "strict_nfc_diplomatic": {
+              "characters": 41,
+              "edits": 3,
+              "cer": 0.07317073170731707,
+              "exact": false
+            },
+            "search_v1": {
+              "characters": 41,
+              "edits": 3,
+              "cer": 0.07317073170731707,
+              "exact": false
+            },
+            "lexical_alnum": {
+              "characters": 32,
+              "edits": 3,
+              "cer": 0.09375,
+              "exact": false
+            }
+          },
+          "uncertain_spans": [
+            {
+              "text": "fira\u00fbs",
+              "reason": "The narrow strokes following the initial f run together; the first vowel's dot is faint, so its reading as i is less secure than the remaining letters."
+            }
+          ]
+        },
+        {
+          "id": "R184",
+          "source_line_index": 24,
+          "reference": "An der Sonn ferdengt \u00ean de Schi\u00e9d.",
+          "a61": "An der Sonn ferdengt \u00ean de Schi\u00e9d.",
+          "a63": "An der Sonn ferdengt \u00ean de Schi\u00e9d\u2666",
+          "a61_agreement": {
+            "strict_nfc_diplomatic": {
+              "characters": 34,
+              "edits": 0,
+              "cer": 0.0,
+              "exact": true
+            },
+            "search_v1": {
+              "characters": 34,
+              "edits": 0,
+              "cer": 0.0,
+              "exact": true
+            },
+            "lexical_alnum": {
+              "characters": 27,
+              "edits": 0,
+              "cer": 0.0,
+              "exact": true
+            }
+          },
+          "a63_agreement": {
+            "strict_nfc_diplomatic": {
+              "characters": 34,
+              "edits": 1,
+              "cer": 0.029411764705882353,
+              "exact": false
+            },
+            "search_v1": {
+              "characters": 34,
+              "edits": 1,
+              "cer": 0.029411764705882353,
+              "exact": false
+            },
+            "lexical_alnum": {
+              "characters": 27,
+              "edits": 0,
+              "cer": 0.0,
+              "exact": true
+            }
+          },
+          "uncertain_spans": [
+            {
+              "text": "\u2666",
+              "reason": "The terminal mark is a dark diamond-shaped point; its exact typographic punctuation value is unclear."
+            }
+          ]
+        },
+        {
+          "id": "R563",
+          "source_line_index": 64,
+          "reference": "Gr\u00f3ss Kanner, gr\u00f2ss Suorgen. (L\u00eat.)",
+          "a61": "Gr\u00f2ss Kanner, gr\u00f2ss Suorgen. (L\u00eat.)",
+          "a63": "Gr\u00f3ss Kanner, gr\u00f2ss Suorgen. (L\u00eat.)",
+          "a61_agreement": {
+            "strict_nfc_diplomatic": {
+              "characters": 35,
+              "edits": 1,
+              "cer": 0.02857142857142857,
+              "exact": false
+            },
+            "search_v1": {
+              "characters": 35,
+              "edits": 1,
+              "cer": 0.02857142857142857,
+              "exact": false
+            },
+            "lexical_alnum": {
+              "characters": 26,
+              "edits": 1,
+              "cer": 0.038461538461538464,
+              "exact": false
+            }
+          },
+          "a63_agreement": {
+            "strict_nfc_diplomatic": {
+              "characters": 35,
+              "edits": 0,
+              "cer": 0.0,
+              "exact": true
+            },
+            "search_v1": {
+              "characters": 35,
+              "edits": 0,
+              "cer": 0.0,
+              "exact": true
+            },
+            "lexical_alnum": {
+              "characters": 26,
+              "edits": 0,
+              "cer": 0.0,
+              "exact": true
+            }
+          },
+          "uncertain_spans": [
+            {
+              "text": "Gr\u00f3ss, gr\u00f2ss",
+              "reason": "The first mark over o slopes up right, while the second slopes down right; both are short and slightly blurred."
+            }
+          ]
+        },
+        {
+          "id": "R902",
+          "source_line_index": 20,
+          "reference": "Et l\u00eaft fill W\u00e2sser d\u2019B\u00e2ch er\u00e2n.",
+          "a61": "Et l\u00eaft fill W\u00e2sser d'B\u00e2ch er\u00f4n.",
+          "a63": "Et l\u00eaft fill W\u00e2sser d\u2019B\u00e2ch er\u00e2n.",
+          "a61_agreement": {
+            "strict_nfc_diplomatic": {
+              "characters": 32,
+              "edits": 2,
+              "cer": 0.0625,
+              "exact": false
+            },
+            "search_v1": {
+              "characters": 32,
+              "edits": 1,
+              "cer": 0.03125,
+              "exact": false
+            },
+            "lexical_alnum": {
+              "characters": 25,
+              "edits": 1,
+              "cer": 0.04,
+              "exact": false
+            }
+          },
+          "a63_agreement": {
+            "strict_nfc_diplomatic": {
+              "characters": 32,
+              "edits": 0,
+              "cer": 0.0,
+              "exact": true
+            },
+            "search_v1": {
+              "characters": 32,
+              "edits": 0,
+              "cer": 0.0,
+              "exact": true
+            },
+            "lexical_alnum": {
+              "characters": 25,
+              "edits": 0,
+              "cer": 0.0,
+              "exact": true
+            }
+          },
+          "uncertain_spans": []
+        },
+        {
+          "id": "R347",
+          "source_line_index": 63,
+          "reference": "Kl\u00e8ng Kanner, kl\u00e8ng Suorgen, (L\u00eat;)",
+          "a61": "Kl\u00e8ng Kanner, kl\u00e8ng Suorgen, (L\u00eat;)",
+          "a63": "Kl\u00e8ng Kanner, kl\u00e8ng Suorgen, (L\u00eat ;)",
+          "a61_agreement": {
+            "strict_nfc_diplomatic": {
+              "characters": 35,
+              "edits": 0,
+              "cer": 0.0,
+              "exact": true
+            },
+            "search_v1": {
+              "characters": 35,
+              "edits": 0,
+              "cer": 0.0,
+              "exact": true
+            },
+            "lexical_alnum": {
+              "characters": 26,
+              "edits": 0,
+              "cer": 0.0,
+              "exact": true
+            }
+          },
+          "a63_agreement": {
+            "strict_nfc_diplomatic": {
+              "characters": 35,
+              "edits": 1,
+              "cer": 0.02857142857142857,
+              "exact": false
+            },
+            "search_v1": {
+              "characters": 35,
+              "edits": 1,
+              "cer": 0.02857142857142857,
+              "exact": false
+            },
+            "lexical_alnum": {
+              "characters": 26,
+              "edits": 0,
+              "cer": 0.0,
+              "exact": true
+            }
+          },
+          "uncertain_spans": [
+            {
+              "text": "(L\u00eat ;)",
+              "reason": "The mark after t has a distinct upper dot and lower comma-like stroke, suggesting a semicolon; spacing within the parentheses is visually broad."
+            }
+          ]
+        },
+        {
+          "id": "R816",
+          "source_line_index": 22,
+          "reference": "D\u2019 gebroden Dauwen fi\u00e9e\u2019 net an der Loft erem.",
+          "a61": "D' gebroden Dauwen fl\u00e9e' net an der Loft erem.",
+          "a63": "D\u2019 gebroden Dauwen fl\u00e9e\u2019 net an der Loft erem.",
+          "a61_agreement": {
+            "strict_nfc_diplomatic": {
+              "characters": 46,
+              "edits": 3,
+              "cer": 0.06521739130434782,
+              "exact": false
+            },
+            "search_v1": {
+              "characters": 46,
+              "edits": 1,
+              "cer": 0.021739130434782608,
+              "exact": false
+            },
+            "lexical_alnum": {
+              "characters": 35,
+              "edits": 1,
+              "cer": 0.02857142857142857,
+              "exact": false
+            }
+          },
+          "a63_agreement": {
+            "strict_nfc_diplomatic": {
+              "characters": 46,
+              "edits": 1,
+              "cer": 0.021739130434782608,
+              "exact": false
+            },
+            "search_v1": {
+              "characters": 46,
+              "edits": 1,
+              "cer": 0.021739130434782608,
+              "exact": false
+            },
+            "lexical_alnum": {
+              "characters": 35,
+              "edits": 1,
+              "cer": 0.02857142857142857,
+              "exact": false
+            }
+          },
+          "uncertain_spans": []
+        }
+      ],
+      "cost": {
+        "new_reader_sessions": 1,
+        "model": "gpt-6-sol",
+        "unique_line_crops": 6,
+        "image_views": 12,
+        "tokens_and_money": "not exposed"
+      },
+      "originals_unchanged": true,
+      "global_completion": false,
+      "independent_gt_adjudication": false,
+      "limitations": [
+        "Selected after A61 scores; no holdout claim",
+        "Reference disagreements may reflect transcription annotation errors",
+        "New session and zoom are confounded",
+        "No whole-block CER after oracle repair",
+        "Model agreement is not human adjudication"
+      ]
     }
   },
   "model_policy": {
@@ -23598,6 +23977,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A63 completed through new queue with one real blind Sol:6\u21924 lexical edits on oracle-selected6lines, not a whole-block/independent score. Preserve probable fi\u00e9e/fl\u00e9e and kernt/kemt reference issues for adjudication. Stop retuning0455; a64_prepare is ready for a new diverse protocol or distinct geometry/OLR work.",
     "A62: use CONTINUOUS_LOOP.md and queue.json. Drain ready commands, claim external tasks and continue useful work immediately; per-iteration Claude review, commit/push and checkpoint barriers. No VLM launched by Python. A63 preparation is ready; all scientific gates remain false.",
     "A61 complete: candidate-anchored Sol8\u21926 lexical edits, one regression. Next inspect Claude, independently adjudicate residuals before scoring perfect text; freeze new diverse validation for a risk-triggered localized correction. Continue geometry/OLR/retrieval gates separately.",
     "A60 bands improve Sol45\u219236 lexical edits but worse than Luna guard8. Next source-grounded localized correction preserving A54 candidate, consumed development only.",

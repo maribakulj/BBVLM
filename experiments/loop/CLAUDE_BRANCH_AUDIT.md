@@ -55,3 +55,6 @@ Relu JOURNAL I01 avant nouvelle hypothèse ; même SHA ba685e9b4c870e245d1d20138
 
 ## A62 — 2026-09-28
 Relu JOURNAL I01, SHA ba685e9b4c870e245d1d201381986178660abb4c inchangé. Mise à niveau de l’orchestrateur, aucun résultat concurrent fusionné.
+
+## A63 — 2026-09-28
+Head76056c5c1957e0de4232f0aef1f6cbc7f2893402 et JOURNAL I01 inchangés. Code loop/outils/inflexion.py lu (blob6a374eb53f4ff31e475b49f50bfacdc90b1a38dd) : ciblage utile, lexique/majorité des marques u non transposable directement à0455. Aucun merge.
