@@ -1,0 +1,65 @@
+{
+  "schema": "bbvlm.a74.split/1",
+  "status": "frozen_unopened_for_a74",
+  "pages": [
+    "no_title_1617-08-16_0004",
+    "Stuttgarter_Zeitung_1813-10-25_0003",
+    "Koelnische_Zeitung_1866-06_1866-09_0569",
+    "Koelnische_Zeitung_1924_0093"
+  ],
+  "strata": [
+    {
+      "range": [
+        1600,
+        1749
+      ],
+      "eligible": 15,
+      "selected": "no_title_1617-08-16_0004",
+      "selection_sha256": "0387148481575bd3ed40f4b284c8a8716cbfa758ef96f580d773cd46e389c043"
+    },
+    {
+      "range": [
+        1750,
+        1849
+      ],
+      "eligible": 12,
+      "selected": "Stuttgarter_Zeitung_1813-10-25_0003",
+      "selection_sha256": "319dec898b533180e99c407be96dc70fc7ac8b1ad5d231cdcb70f41856d7fba8"
+    },
+    {
+      "range": [
+        1850,
+        1900
+      ],
+      "eligible": 471,
+      "selected": "Koelnische_Zeitung_1866-06_1866-09_0569",
+      "selection_sha256": "00e072753887d34ab28d543e70803475c07a4fafb6118e42ac1bffdea8431148"
+    },
+    {
+      "range": [
+        1901,
+        1945
+      ],
+      "eligible": 143,
+      "selected": "Koelnische_Zeitung_1924_0093",
+      "selection_sha256": "0009026dc18eca198d413f3f24fa2c9d938cdb8b7f0f76013269665731316e18"
+    }
+  ],
+  "official_split": "Training",
+  "official_split_sha256": "4c87ca12b1ebb9e11cd2ac369e507259d0879e4a95f2b02535b0d5ae729c6dcd",
+  "protocol_sha256": "bccad3ade99d8c0bb2a96c9d4b9a88b52adee8f77c5376ec758b2e14ea78dd91",
+  "excluded_a69_pages": [
+    "Fraenkischer_Kurier_1834-10-15_0002",
+    "Holzmindisches_Wochenblatt_1785-07-30_0002",
+    "Koelnische_Zeitung_1924_0001",
+    "Leipziger_Zeitung_1748-10-29_0001",
+    "Mode_und_Haus_Illustrirte_Kinderwelt_1889-09-15_0001",
+    "Muenchner_Neueste_Nachrichten_1917-04-10_0001",
+    "Neue_Berliner_Musikzeitung_1866-07-18_0002",
+    "Reichs_Post_Reuter_1700-11-16_0001",
+    "Vossische_Zeitung_1933-03-04_0002",
+    "no_title_1617-08-16_0001"
+  ],
+  "selection_rule": "minimum sha256(A74-v1:<id>) in each year stratum",
+  "test_pages_opened": 0
+}

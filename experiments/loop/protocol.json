@@ -1014,5 +1014,24 @@
     "new_model_forwards": 0,
     "test_pages_opened": 0,
     "global_completion": false
+  },
+  "eynollah_dense_transfer_a74": {
+    "status": "completed_frozen_training_transfer_local_gate_passed",
+    "protocol": "next-a74/PROTOCOL.md",
+    "split": "next-a74/split.json",
+    "assets": "next-a74/assets.json",
+    "predictions": "next-a74/predictions.json",
+    "report": "next-a74/report.json",
+    "results": "next-a74/RESULTS.md",
+    "pages": 4,
+    "lines": 1406,
+    "lines_hit_ge1pct": 1406,
+    "mask_inside_line_union_fraction": 0.9832228928433445,
+    "line_union_covered_fraction": 0.8409243920464389,
+    "model_forwards": 84,
+    "cpu_inference_seconds": 93.189141887,
+    "local_gate_passed": true,
+    "test_pages_opened": 0,
+    "global_completion": false
   }
 }

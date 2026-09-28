@@ -549,6 +549,47 @@
       "ended_at": 1790608360.6883887
     },
     "a74_prepare": {
+      "status": "completed",
+      "started_at": 1790608500.0,
+      "actor": "codex-root",
+      "outputs": {
+        "experiments/loop/next-a74/PROTOCOL.md": "bccad3ade99d8c0bb2a96c9d4b9a88b52adee8f77c5376ec758b2e14ea78dd91"
+      },
+      "ended_at": 1790608700.0
+    },
+    "a74_freeze": {
+      "status": "completed",
+      "started_at": 1790608700.0,
+      "actor": "codex-root",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a74/split.json": "426d63fdc295a7a3ea1ec4c38c34757ffe8aacfec5b60c35fadd91f5e0871e32"
+      },
+      "ended_at": 1790608701.0
+    },
+    "a74_images": {
+      "status": "completed",
+      "started_at": 1790608701.0,
+      "actor": "codex-root",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a74/assets.json": "4644738c2a7b9830cc8177262894ed93c9b17cfaace2905b3317fd88ab8a2bc3"
+      },
+      "ended_at": 1790608840.0
+    },
+    "a74_mask_transfer": {
+      "status": "completed",
+      "started_at": 1790608840.0,
+      "actor": "codex-root",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a74/predictions.json": "5b9fc7aeedab6a43e49714a16a3be1ab7d1f1ae3f27b454fd68f2a691b25490a",
+        "experiments/loop/next-a74/report.json": "547f68ade8fd0ba57e01949f746bb2ac6e6217bd1a05c4b8552bc517cc7119f3"
+      },
+      "note": "First post-inference scorer allocation was interrupted; sealed masks were reused, with zero duplicate model inference.",
+      "ended_at": 1790609300.0
+    },
+    "a75_prepare": {
       "status": "pending"
     }
   },

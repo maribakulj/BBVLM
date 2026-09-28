@@ -700,3 +700,17 @@ lecture PAGE. Le test confirme le rappel mais rejette cette géométrie : 25 fau
 rectangles et 56,33 % de surface seulement dans l'union annotée. Aucun seuil ne
 doit être ajusté sur ces deux pages ; A74 devra changer de représentation
 (centre/baseline) ou de piste, puis geler de nouvelles données.
+
+## A74 — transfert scellé du masque de lignes
+
+`freeze_eynollah_transfer_a74.py` sélectionne sans pixels ni géométrie XML la
+page au plus petit SHA-256 dans quatre strates temporelles du split Training,
+après exclusion de toutes les pages A69. `fetch_eynollah_transfer_a74.py`
+restaure seulement ces quatre JPG et vérifie blob Git/LFS et SHA-256.
+
+`evaluate_eynollah_transfer_a74.py` reprend sans changement le modèle, le
+redimensionnement et le tuilage A72. Il persiste `predictions.json` et les PNG
+avant lecture des XML, puis rasterise les polygones de ligne localement. Ce
+dernier point évite l'échec mémoire du premier score, lequel n'a nécessité
+aucune nouvelle inférence. Le rapport sépare rappel ligne, précision pixel du
+masque et couverture de l'union ; aucun de ces nombres n'est un IoU de boîte.

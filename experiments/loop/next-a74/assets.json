@@ -1,0 +1,42 @@
+{
+  "revision": "66b50f53ccdb581d29cc02f670e469bbf583e825",
+  "images": [
+    {
+      "page": "no_title_1617-08-16_0004",
+      "path": "corpora/chronicling-germany/images/no_title_1617-08-16_0004.jpg",
+      "sha256": "dacfe515f1f9beab73ff5aecd36d90e6b0f771b405bf0c3bf44c9dc67040e9e5",
+      "bytes": 1492959,
+      "git_blob_id": "7c65593edd604c5ddf74bcb913faa90e521d6ba2",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2Fno_title_1617-08-16_0004.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 23.72906444399996
+    },
+    {
+      "page": "Stuttgarter_Zeitung_1813-10-25_0003",
+      "path": "corpora/chronicling-germany/images/Stuttgarter_Zeitung_1813-10-25_0003.jpg",
+      "sha256": "4a5b5cedbd352863cdc00e12045fe5600c85e13484cb53d1b77ff2f79e541dab",
+      "bytes": 1520679,
+      "git_blob_id": "3a649bec7a64b5b5b38dc127b89396e2aad9d05f",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FStuttgarter_Zeitung_1813-10-25_0003.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 23.68161391299509
+    },
+    {
+      "page": "Koelnische_Zeitung_1866-06_1866-09_0569",
+      "path": "corpora/chronicling-germany/images/Koelnische_Zeitung_1866-06_1866-09_0569.jpg",
+      "sha256": "f81ba055b566410e28654392dcba18ade31d19a6272877a501ee8e63dc859007",
+      "bytes": 4600588,
+      "git_blob_id": "e9662574edb2c90b08abdf5779a1f9420e871977",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FKoelnische_Zeitung_1866-06_1866-09_0569.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 14.997087292998913
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0093",
+      "path": "corpora/chronicling-germany/images/Koelnische_Zeitung_1924_0093.jpg",
+      "sha256": "bb2e0293e7fd4c71cde1d95300fc89229d7b231c4e31814128b7b8b102b87617",
+      "bytes": 6350691,
+      "git_blob_id": "e8f8172af1c35d8a88384f861a3e66b3b7a8ddea",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FKoelnische_Zeitung_1924_0093.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 15.06121716099733
+    }
+  ],
+  "test_pages_opened": 0
+}

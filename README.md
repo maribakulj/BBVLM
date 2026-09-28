@@ -187,3 +187,13 @@ A73 rejette la conversion naïve des composantes non couvertes en rectangles :
 le rappel reste 33/33, mais 25/63 boîtes sont fausses à moins de 1 % de contact
 et la précision surfacique oracle n'est que 56,33 %. Le masque doit guider une
 ligne/baseline ou un routeur, pas être exporté directement en ALTO.
+
+## A74 — transfert indépendant du masque dense
+
+Sur quatre pages `Training` nouvelles et stratifiées de 1617 à 1924, le même
+étage Eynollah touche 1 406/1 406 lignes, conserve 98,32 % de ses pixels dans
+l'union des lignes PAGE et couvre 84,09 % de cette union. Les quatre pages
+dépassent séparément 97 % de précision surfacique. Le coût est 84 tuiles et
+93,19 s CPU, sans OCR/VLM/Test. Le signal dense transfère donc ; il ne devient
+pas pour autant une boîte ALTO. A75 doit préserver sa géométrie en séparant les
+lignes au lieu de répéter la boîte englobante rejetée en A73.

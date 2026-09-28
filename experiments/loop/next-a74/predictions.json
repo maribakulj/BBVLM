@@ -1,0 +1,68 @@
+{
+  "schema": "bbvlm.a74.predictions/1",
+  "split_sha256": "426d63fdc295a7a3ea1ec4c38c34757ffe8aacfec5b60c35fadd91f5e0871e32",
+  "implementation": "A72 native Eynollah textline SavedModel unchanged",
+  "signature_output": "activation_55",
+  "pages": {
+    "no_title_1617-08-16_0004": {
+      "image_sha256": "dacfe515f1f9beab73ff5aecd36d90e6b0f771b405bf0c3bf44c9dc67040e9e5",
+      "source_shape": [
+        2629,
+        2151
+      ],
+      "mask_shape": [
+        2444,
+        2000
+      ],
+      "mask_sha256": "f67f47bdae21e5c34476c3cb996ee8c731c35fab6f20f0e6c34c2ef066a78b7a",
+      "positive_pixels": 1446546,
+      "tiles": 20,
+      "seconds": 22.83842226300476
+    },
+    "Stuttgarter_Zeitung_1813-10-25_0003": {
+      "image_sha256": "4a5b5cedbd352863cdc00e12045fe5600c85e13484cb53d1b77ff2f79e541dab",
+      "source_shape": [
+        2984,
+        2380
+      ],
+      "mask_shape": [
+        2508,
+        2000
+      ],
+      "mask_sha256": "f7ada3dd7b22806df5ad7725eb740d0253643ba90eb1c17b0c226f2ec0b36f7e",
+      "positive_pixels": 2614812,
+      "tiles": 20,
+      "seconds": 21.615970166996703
+    },
+    "Koelnische_Zeitung_1866-06_1866-09_0569": {
+      "image_sha256": "f81ba055b566410e28654392dcba18ade31d19a6272877a501ee8e63dc859007",
+      "source_shape": [
+        7112,
+        5063
+      ],
+      "mask_shape": [
+        2809,
+        2000
+      ],
+      "mask_sha256": "2ad63c32ff3ce9b97a7f0272be4844bbbbdd84faf19118dd91564c836198af26",
+      "positive_pixels": 3426202,
+      "tiles": 20,
+      "seconds": 22.991350727999816
+    },
+    "Koelnische_Zeitung_1924_0093": {
+      "image_sha256": "bb2e0293e7fd4c71cde1d95300fc89229d7b231c4e31814128b7b8b102b87617",
+      "source_shape": [
+        7209,
+        5032
+      ],
+      "mask_shape": [
+        2865,
+        2000
+      ],
+      "mask_sha256": "088ebe6e7643196768c8d9c83f5ce146ec428c696102ffc7f91dcac2010ec2c5",
+      "positive_pixels": 3432499,
+      "tiles": 24,
+      "seconds": 25.743398728998727
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790608360.6883887,
+  "updated_unix": 1790609360.3518214,
   "status": "in_progress",
   "phases": [
     {
@@ -871,6 +871,12 @@
       "id": "uncovered_textline_proposals_a73",
       "script": "scripts/evaluate_uncovered_textline_proposals_a73.py",
       "result": "next-a73/report.json",
+      "complete": true
+    },
+    {
+      "id": "eynollah_dense_transfer_a74",
+      "script": "scripts/evaluate_eynollah_transfer_a74.py",
+      "result": "next-a74/report.json",
       "complete": true
     }
   ],
@@ -24127,6 +24133,23 @@
       "new_model_forwards": 0,
       "test_pages_opened": 0,
       "global_completion": false
+    },
+    "eynollah_dense_transfer_a74": {
+      "status": "frozen_training_transfer_local_gate_passed_not_boxes",
+      "pages": 4,
+      "lines": 1406,
+      "lines_hit_ge1pct": 1406,
+      "line_hit_ratio": 1.0,
+      "mask_inside_line_union_fraction": 0.9832228928433445,
+      "line_union_covered_fraction": 0.8409243920464389,
+      "model_forwards": 84,
+      "cpu_inference_seconds": 93.189141887,
+      "local_gate_passed": true,
+      "scoring_retry_reused_predictions": true,
+      "test_pages_opened": 0,
+      "ocr_calls": 0,
+      "vlm_calls": 0,
+      "global_completion": false
     }
   },
   "model_policy": {
@@ -24135,6 +24158,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A74 frozen transfer validates the dense Eynollah signal on4 new Training pages/1406 lines across1617-1924:1406/1406 lines hit,98.32% mask pixels inside line union and84.09% union coverage; every page precision-like >=97.40%. Real cost84 tiles/93.19s CPU, zero OCR/VLM/Test. This is not boxes; A75 must preserve the mask via principled line separation/centerlines grounded in current Eynollah code, freeze before score, and avoid A73 rectangle retuning. Claude/master unchanged, all seven global gates false.",
     "A73 rejects direct rectangles around Eynollah components outside YOLO: recall remains33/33, but25/63 proposals touch <1% line area and proposal-union precision-like is56.33% vs75% gate. Do not retune these consumed pages. Preserve A72 as dense evidence; A74 must use a principled centerline/baseline on a new frozen diverse subset or advance OLR/retrieval. Zero new inference/Test, Claude/master unchanged, all gates false.",
     "A72 bounded Eynollah textline stage passes its consumed recall gate:33/33 A70 zero-contributor lines and642/642 total lines touched, minimum residual coverage69.62%,48 tiles/65.04s CPU. Post-hoc oracle spill is3.00%-16.03%, so this is not box precision. A73 must derive image-only proposals only in YOLO-uncovered components and freeze a diverse validation before promotion; no full Eynollah, no Test, no CER claim. Claude/master unchanged, all seven gates false.",
     "A71 blind visual audit confirms visible printed text in11/12 opaque zero-contributor views, with1 ambiguous and0 plain non-text; only5/12 are safe for rectangular recall. This is oracle-selected consumed evidence from one reader, not box truth. A72 must run a bounded Eynollah/pixelwise line-recall pilot, record exact stages/weights/cost, and avoid full OCR or global padding. Test100 intact, Claude/master unchanged, all gates false.",

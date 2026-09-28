@@ -124,3 +124,10 @@ Après A72 et avant de définir son routeur, Claude a été recontrôlé au mêm
 `76056c5c1957e0de4232f0aef1f6cbc7f2893402`. Il n'y a donc aucune nouveauté à
 examiner ou réutiliser. Master est toujours
 `60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`; aucun merge/main.
+
+## A74 — 2026-09-28
+Avant de figer le transfert, Claude a été recontrôlé à
+`76056c5c1957e0de4232f0aef1f6cbc7f2893402`, toujours inchangé. La branche
+Codex était à `9d36ff79db7f25546b34f17378bd1d6603d6e8f3` et master restait
+`60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Aucun code concurrent importé,
+aucun merge, aucune écriture sur main/master et aucun force-push.

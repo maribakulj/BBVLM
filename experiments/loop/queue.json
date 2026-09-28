@@ -795,6 +795,45 @@
       "inputs": ["experiments/loop/next-a73/report.json", "experiments/loop/next-a73/RESULTS.md"],
       "outputs": ["experiments/loop/next-a74/PROTOCOL.md"],
       "instructions": "Recheck Claude and original Codex branch. A73 rejects connected-component rectangles despite full recall; do not retune its thresholds on consumed pages. Preserve Eynollah as dense line evidence, and advance either a principled baseline/line-center extraction on a new frozen diverse subset or a distinct OLR/retrieval gate. Read and separately summarize primary sources. Commit/push/checkpoint and continue."
+    },
+    {
+      "id": "a74_freeze",
+      "kind": "command",
+      "resource": "files",
+      "deps": ["a74_prepare"],
+      "inputs": ["scripts/freeze_eynollah_transfer_a74.py", "experiments/loop/next-a74/PROTOCOL.md", "experiments/loop/chronicling-a58/official_split.json", "experiments/loop/next-a69/split.json"],
+      "outputs": ["experiments/loop/next-a74/split.json"],
+      "argv": ["python3", "scripts/freeze_eynollah_transfer_a74.py"],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "a74_images",
+      "kind": "command",
+      "resource": "network",
+      "deps": ["a74_freeze"],
+      "inputs": ["scripts/fetch_eynollah_transfer_a74.py", "scripts/fetch_crop_pilot_a66.py", "experiments/loop/next-a74/split.json"],
+      "outputs": ["experiments/loop/next-a74/assets.json"],
+      "argv": ["python3", "scripts/fetch_eynollah_transfer_a74.py"],
+      "timeout_seconds": 900
+    },
+    {
+      "id": "a74_mask_transfer",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": ["a74_images"],
+      "inputs": ["scripts/evaluate_eynollah_transfer_a74.py", "scripts/evaluate_eynollah_textline_keras_a72.py", "experiments/loop/next-a74/PROTOCOL.md", "experiments/loop/next-a74/split.json", "experiments/loop/next-a74/assets.json", "experiments/loop/chronicling-a58/audit.json", "models/eynollah/native/modelens_textline_0_1__2_4_16092024/saved_model.pb"],
+      "outputs": ["experiments/loop/next-a74/predictions.json", "experiments/loop/next-a74/report.json"],
+      "argv": ["/workspace/scratch/cecc4cd83a9f/a72tf-venv/bin/python", "scripts/evaluate_eynollah_transfer_a74.py"],
+      "timeout_seconds": 1800
+    },
+    {
+      "id": "a75_prepare",
+      "kind": "external",
+      "resource": "orchestrator",
+      "deps": ["a74_mask_transfer"],
+      "inputs": ["experiments/loop/next-a74/report.json", "experiments/loop/next-a74/RESULTS.md"],
+      "outputs": ["experiments/loop/next-a75/PROTOCOL.md"],
+      "instructions": "Recheck Claude and Codex heads. Interpret A74 only as frozen dense-mask transfer, never as boxes. If it passes, implement a principled line separation/centerline representation grounded in current Eynollah code and freeze before scoring; if it fails, reject this Eynollah stage and advance a distinct OLR/retrieval experiment. Read and separately summarize primary sources, then commit/push/checkpoint and continue."
     }
   ]
 }

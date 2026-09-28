@@ -386,3 +386,40 @@ l'article HIP 2023 ci-dessus : abstract et métadonnées seulement.
 - **Apport BBVLM :** mesurer la contamination et ne pas transformer une région
   dense en rectangle sans contrôle. A73 confirme empiriquement cette limite.
 - **Source :** https://arxiv.org/abs/2004.07317 .
+
+## A74 — relecture primaire du 28 septembre 2026
+
+### Schultze et al. — *Chronicling Germany*, arXiv:2401.16845
+
+- **Version/date lue ce tour :** texte intégral HTML v3, 25 octobre 2024. La
+  version v4 du 13 juin 2025 et ses changements vers 801 pages étaient déjà
+  lus et résumés en A56/A58/A65 ; les chiffres de versions ne sont pas mélangés.
+- **Niveau lu :** texte complet v3, notamment composition, pipeline, baseline,
+  généralisation et processus d'annotation ; pas seulement l'abstract.
+- **Méthode :** régions polygonales PAGE, U-Net de baseline/ligne entraîné sur
+  crops 256×256 avec objectif conjoint ligne/bloc, puis OCR séparé. Le jeu v3
+  décrit 693 pages, environ 350 000 lignes et trois millions de mots.
+- **Résultats :** F1 de baseline annoncé autour de 0,9 ; la généralisation du
+  layout hors domaine reste insatisfaisante alors que l'OCR généralise mieux.
+- **Limites :** aucune boîte texte GT, donc comparaison aux détecteurs d'objets
+  jugée inadéquate par les auteurs ; transcription relue par un seul expert à
+  ce stade et seconde correction annoncée ; forte dominante Kölnische Zeitung.
+- **Code/données :** dépôts officiels Chronicling Germany liés par l'article ;
+  A74 utilise la révision publique épinglée déjà vérifiée, sans nouveau modèle.
+- **Apport BBVLM :** valide l'usage des lignes/baselines comme couche distincte
+  et impose de ne pas appeler les polygones ligne une vérité de boîte parfaite.
+- **Source :** https://arxiv.org/html/2401.16845v3 .
+
+### Code Eynollah `separate_lines.py` (implémentation, pas un article)
+
+- **Révision :** arbre `main` officiel
+  `15ddb7750e132462321a3d57b2a2b74cb8f2b151` inspecté le 28 septembre 2026.
+- **Lu :** projection de densité/lissage/pics-vallées, deskew local,
+  `textline_contours_postprocessing`, `separate_lines_new2` et
+  `do_work_of_slopes_new_curved`.
+- **Limites :** branches et seuils historiques, besoin de régions parentes ;
+  le pipeline complet n'est pas installé et aucun résultat ne lui est attribué.
+- **Apport :** confirme qu'A73 a supprimé une étape essentielle en remplaçant
+  directement chaque composante par son rectangle ; A75 doit tester une vraie
+  séparation ligne plutôt que retuner les rectangles consommés.
+- **Code :** https://github.com/qurator-spk/eynollah/blob/main/src/eynollah/utils/separate_lines.py .
