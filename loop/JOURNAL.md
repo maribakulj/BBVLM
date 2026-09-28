@@ -439,3 +439,13 @@ marge, non imprimés. La référence SBB les transcrit. Question de convention
 (la VT transcrit les annotations manuscrites anciennes ; la consigne P6 n'en
 dit rien) — notée, pas de règle pour un cas unique. Le mécanisme P3b est
 adopté (sans effet sur les 3 autres pages d'O15).
+
+## Tiret de fin de ligne : convention ou glyphe ? (toutes les références, 50 pages)
+
+Fin de ligne dans les VT SBB : pages romaines « - » 133 / ⸗ 49, fraktur ⸗ 100
+/ « - » 13. Mais les pages sont homogènes (busmexpo ⸗ 14/0, eberbrev 13/0,
+BrenBreu 13/0 en romain ; heptaldai « - » 3/0 en fraktur) : c'est le glyphe de
+l'imprimeur, pas l'écriture. eberbrev : tirets empâtés, lecteurs « - »
+partout, référence ⸗, arbitres opposés. Rien à changer à la consigne (« trait
+double oblique → ⸗ ; simple → - ») ; l'homogénéité par page est une contrainte
+exploitable si un jour une passe de glyphe ciblée (comme I01) est justifiée.

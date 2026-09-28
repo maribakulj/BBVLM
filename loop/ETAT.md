@@ -10,7 +10,7 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 
 | étage | cible | mesure gelée | état |
 |---|---|---|---|
-| texte | 0 faute par page | `outils/cer.py` (diplo), référence adjugée règle A2 | pages neuves O09-O13 (20) : **6 à 0**, 5 à ≤ 2 car. ; restes : blancs autour de la ponctuation, mise en page (extraudeu), latin juridique (emmeprac 9) |
+| texte | 0 faute par page | `outils/cer.py` (diplo), référence adjugée règle A2 | pages neuves O09-O15 (24) : **6 à 0**, 6 à ≤ 2 car. ; O15 plus dur (latin, XVIe : 2 à 37 car.) ; restes : conventions de forme (tiret ⸗/-, ü/uͤ), blancs, annotations manuscrites |
 | lignes | toutes trouvées, serrées | `outils/segeval.py` | kraken + G03 : bon sur livres ; page en regard écartée par l'alignement ; réclames parfois manquées |
 | boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE ✓ sur 8 pages ; **erobdefoa et caladr parfaites de bout en bout** ; blocage : lignes non trouvées par kraken (titres d'apparat, courtes manchettes) et blancs du texte |
 | ALTO | XSD + provenance + refus | `outils/vers_alto.py` | valide XSD 4.4 ; blocs typés, ReadingOrder (XY-cut S03), lignes non placées marquées |
@@ -22,7 +22,7 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 
 1. Vues : page réduite + bandes pleine résolution + moitiés ×1,6 (`prep_sbb.py`, `vues_zoom.py`).
 2. Deux passes Opus, consigne `outils/consigne_P6.md` (OCR-D niveau 2, écriture déclarée, rôle par ligne, fractions, jetons {florin}/{groschen}).
-3. `p2.py` : jetons → PUA, conformité OCR-D des espaces, R1 si Fraktur, R2 (ů/uͤ par lexique).
+3. P3b : les lignes portées par une seule lecture sont aussi arbitrées. `p2.py` : jetons → PUA, conformité OCR-D des espaces, R1 si Fraktur, R2 (ů/uͤ par lexique).
 4. `p3.py` : lignes en désaccord recadrées via kraken, arbitrées par Opus (`consigne_arbitre_P3.md`, repli sur les bandes).
 5. I01 : signe d'inflexion de l'imprimeur décidé par page (même appel que l'arbitre P3).
 6. `segmente.py` (kraken blla) → `serre.py` (G03) → coupe S02 si manchettes → placement par ancrage Tesseract S05 (repli : XY-cut S03 + chasse S04) → boîtes : routeur G02, redressé par la ligne de base kraken sur les pages penchées (B04) → `vers_alto.py`.
