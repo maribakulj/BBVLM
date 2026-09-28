@@ -21,7 +21,8 @@ def post(lignes):
     t = unicodedata.normalize('NFC', '\n'.join(corps))
     if ecriture == 'fraktur' and 'ů' not in t:
         for c, v in TREMA.items(): t = t.replace(c, v+E_)
-    return t.split('\n'), ecriture
+    from r2 import applique           # R2 : ů / uͤ par l'étymologie (L06), développée sur O02-O08
+    return applique(t.split('\n')), ecriture
 
 
 if __name__ == '__main__':

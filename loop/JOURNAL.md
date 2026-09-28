@@ -114,3 +114,19 @@ culmsent 0,075 %, euanaua 0,20 %, DasWeL 1,40 %, herrleyc 1,82 %. Restes =
 ů pour uͤ sur des mots à inflexion, ſ pour ß : erreurs partagées que
 l'arbitrage des désaccords ne voit pas. Littérature L06 : o suscrit (ů) = uo,
 e suscrit = inflexion → R2 par l'étymologie. Consigne P5 à tester en O09.
+
+## R2 déterministe (lexique) — développement
+
+`outils/r2.py` : ů → uͤ si la forme en ü l'emporte d'au moins 1 zipf dans le
+lexique allemand moderne (wordfreq). Sur toutes les lectures O02-O08 : 544 →
+518 fautes, herrleyc 18 → 6 et 20 → 8, 0 régression. Intégrée à p2.py.
+Limite constatée en O09 : **bas-allemand** (geomeikud : Krůdern, frůndt) —
+le lexique haut-allemand ne tranche pas ; la référence y note uͤ.
+
+## O09 (en cours) — P5 : OLR F1 ≥ 0,91 sur 3 pages sur 4
+
+Granularité des régions corrigée par la consigne : AmmoLIBR 0,91, BrenBreu
+1,00, baltdiss 1,00 ; geomeikud 0,29 (titres d'items « i. Jsop » lus comme
+titres, la référence les met dans le paragraphe). Texte : notation MUFI en zone
+privée de l'abréviation « -que » (U+F50D, U+E8BF) contre « q́; » lu — convention
+non documentée même chez dinglehopper.
