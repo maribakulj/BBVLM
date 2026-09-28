@@ -9,6 +9,9 @@ from ocrd2 import conforme
 from harmonise import TREMA, E_
 
 ROLE = re.compile(r'^\s*\[[a-z\-]+\+?\]\s?')   # étiquettes de rôle (consigne P4), retirées du texte
+# Jetons ASCII de la consigne P6 pour les glyphes sans Unicode standard
+# (le lecteur n'émet pas de PUA brut) → codes PUA de la VT OCR-D/SBB.
+JETONS = {'{florin}': '\uf2e8', '{groschen}': '\uf2e9'}
 
 
 def post(lignes):
@@ -17,7 +20,9 @@ def post(lignes):
     for l in lignes:
         if l.strip().lower().startswith('#ecriture:'):
             ecriture = l.split(':', 1)[1].strip().lower(); continue
-        corps.append(conforme(ROLE.sub('', l)))
+        l = ROLE.sub('', l)
+        for j, c in JETONS.items(): l = l.replace(j, c)
+        corps.append(conforme(l))
     t = unicodedata.normalize('NFC', '\n'.join(corps))
     if ecriture == 'fraktur' and 'ů' not in t:
         for c, v in TREMA.items(): t = t.replace(c, v+E_)

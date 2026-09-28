@@ -102,3 +102,20 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
   thůn, můt, brůder, blůt, bůch) → ů ; inflexion (für, über, Sünde, müssen,
   führen, dünn) → uͤ. Les 13 références SBB consommées suivent cette règle sans
   exception. Règle R2, à valider sur pages neuves.
+
+## L07 — ligne inclinée ou courbe : centre local (2026-09-28, après O10)
+
+- **OCRopus `lineest.CenterNormalizer` (Breuel, ocropy)** : centre de ligne
+  estimé colonne par colonne comme l'argmax de l'encre lissée par une
+  gaussienne large (σ vertical 0,5 h, σ horizontal h), puis lissé ; la ligne
+  est ensuite redressée autour de ce centre. Sert à normaliser les lignes
+  Fraktur avant LSTM. *Apport* : un centre local robuste aux voisines
+  (l'argmax suit la ligne dominante de la boîte). *Limite* : conçu pour une
+  ligne déjà découpée ; ne dit rien des boîtes de mots.
+- **kraken (lignes de base)** : la représentation ligne de base + polygone
+  porte déjà la courbure ; nos filtres de composantes (connexe master) ne
+  l'utilisent pas et jugent au centre de la boîte englobante.
+- *Conséquence* : sur heptaldai (dérive ≈ 40 px sur une ligne), le filtre
+  « centre de composante à < 0,45 h du centre de boîte » garde l'encre des
+  lignes voisines. On remplace le centre constant par le centre local
+  CenterNormalizer, sans rien changer d'autre (expérience B01).

@@ -9,6 +9,8 @@ usage : python bilan_adj.py DOSSIER_PAGE LECTURE...
 """
 import json, sys
 from cer import vue, lev, score
+import os
+A1 = os.environ.get('BBVLM_A1') == '1'
 
 
 def reference_adjugee(dossier):
@@ -26,9 +28,12 @@ def reference_adjugee(dossier):
         r = c['X'] if c['_ref'] == 'X' else c['Y']
         j = vue(v['texte_correct'], 'diplo')
         indec += v['verdict'] == 'indecidable'
-        # Un texte qu'aucun des deux candidats ne portait n'est retenu que si
-        # un second arbitre indépendant écrit le même (double adjudication).
-        if v['verdict'] in ('aucun', 'partage', 'indecidable') or j not in (vue(c['X'], 'diplo'), vue(c['Y'], 'diplo')):
+        # Règle A2 (après O10) : tout texte autre que la référence distribuée
+        # — texte neuf OU choix de la lecture contre la référence — n'est
+        # retenu que si un second arbitre indépendant écrit le même. Un arbitre
+        # seul a renversé à tort ﬂ → ſl sur herrkurt. BBVLM_A1=1 : règle A1.
+        neuf = v['verdict'] in ('aucun', 'partage', 'indecidable') or j not in (vue(c['X'], 'diplo'), vue(c['Y'], 'diplo'))
+        if neuf or (not A1 and j != vue(r, 'diplo')):
             v2 = ver2.get(c['id'])
             if v2 is None or vue(v2['texte_correct'], 'diplo') != j:
                 contestes += 1

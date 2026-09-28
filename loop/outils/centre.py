@@ -1,0 +1,61 @@
+"""B01 — boîtes de mots sur une ligne redressée autour de son centre local.
+
+Le filtre de composantes de connexe juge chaque composante contre le centre
+de la boîte de ligne ; sur une ligne inclinée ou courbe (heptaldai : ≈ 40 px
+de dérive), ce centre constant garde l'encre des voisines. On estime le
+centre local comme OCRopus (lineest.CenterNormalizer, L07) : argmax colonne
+par colonne de l'encre lissée (σ 0,5 h × 1 h), lissé à 0,3 h. On décale
+chaque colonne pour rendre ce centre horizontal, on calcule les boîtes avec
+Route sur la bande droite, puis on reprojette : x inchangé, y élargi du
+décalage min/max sur les colonnes du mot (enveloppe du mot incliné).
+"""
+import copy
+import numpy as np
+import cv2
+from scipy.ndimage import gaussian_filter, gaussian_filter1d
+from g02 import Route
+
+
+def centre_local(gray, box):
+    """Rend (décalage par colonne en px, ligne médiane, bord haut du rognage)."""
+    x0, y0, x1, y1 = box
+    H, W = gray.shape
+    h = max(4, y1 - y0)
+    ay0, ay1 = max(0, y0 - h // 4), min(H, y1 + h // 4)
+    crop = gray[ay0:ay1, max(0, x0):min(W, x1 + 1)].astype(np.float32)
+    ink = 255 - cv2.divide(crop, cv2.GaussianBlur(crop, (0, 0), max(2.0, h * .45)), scale=255)
+    ink = np.clip(ink - np.median(ink), 0, None)
+    sm = gaussian_filter(ink, (h * .5, h * 1.0), mode='constant')
+    c = gaussian_filter1d(np.argmax(sm, axis=0).astype(float), h * .3)
+    return c - np.median(c), float(np.median(c)) + ay0, ay0
+
+
+class Centre(Route):
+    name = 'centre+route'
+
+    def boxes(self, g, ln):
+        x0, y0, x1, y1 = ln.line_box
+        H, W = g.shape
+        s, _, _ = centre_local(g, ln.line_box)
+        s = np.round(s).astype(int)
+        amp = int(s.max() - s.min())
+        if amp < 3:                                  # ligne droite : rien à redresser
+            return super().boxes(g, ln)
+        xa = max(0, x0)
+        pad = amp + 2
+        top, bot = max(0, y0 - pad), min(H, y1 + pad + 1)
+        band = np.full((bot - top + 2 * pad, W), 255, g.dtype)
+        band[pad:pad + bot - top] = g[top:bot]
+        droit = np.full((bot - top, W), 255, g.dtype)
+        for i, d in enumerate(s):                     # colonne xa+i remontée de d
+            x = xa + i
+            droit[:, x] = band[pad + d:pad + d + bot - top, x]
+        l2 = copy.copy(ln)
+        # boîte de la ligne droite : hauteur réelle du corps, sans la dérive
+        l2.line_box = (x0, y0 - top + max(0, s.max()), x1, y1 - top + min(0, s.min()))
+        out = []
+        for (a, b, c, d) in super().boxes(droit, l2):
+            i0, i1 = max(0, a - xa), min(len(s) - 1, c - xa)
+            seg = s[i0:i1 + 1] if i1 >= i0 else s[:1]
+            out.append((a, b + top + int(seg.min()), c, d + top + int(seg.max())))
+        return out
