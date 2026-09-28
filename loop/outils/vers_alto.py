@@ -40,7 +40,8 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
     g = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE); H, W = g.shape
     # Placement : avec les rôles, manchettes alignées sur les lignes de marge
     # (mesuré sur 8 pages : égal partout, herrleyc 0,47 → 0,66 en rappel IoU80).
-    if os.environ.get('BBVLM_ANCRE', '0') == '1':
+    import shutil
+    if os.environ.get('BBVLM_ANCRE', '1') == '1' and shutil.which('tesseract'):   # S05 adopté (banc 20 pages)
         # S05 : ancrage par OCR Tesseract des lignes kraken (L10)
         from ancre import lit_lignes, aligne_ancre
         ecr = 'fraktur'

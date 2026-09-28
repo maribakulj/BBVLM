@@ -255,3 +255,16 @@ concordants sur l'image). 16 pages O07-O12 à signes : **147 → 129**
 éditions, herrleyc 21 → 9, herbdulc 10 → 4, **aucune régression**. Préparé
 avec l'arbitrage P3 (sur la lecture A) : même appel d'arbitre, pas de passe
 VLM supplémentaire. Développé sur ces pages → validation O13.
+
+## S05 — 2026-09-28 — ancrage Tesseract des lignes (L10) — adopté
+
+Banc complet 20 pages (O07-O11), chemin réel de la chaîne (avec rôles),
+texte+IoU80 : ancien (union-find + largeur) / S03+S04 / **S05**. S05 égale ou
+dépasse sur 18 pages ; 852691769 0,074 → **0,669** (80/80 lignes placées au
+lieu de 47), extraudeu 0,131 → 0,648, berirev 0,791 → 0,816, culmsent
+0,778 → 0,794, AmmoLIBR 0,824 → 0,835 ; reculs AphoqvSuS 0,805 → 0,788,
+geomeikud 0,787 → 0,778. Adopté par défaut AVANT lecture des scores ALTO
+d'O12 (validation). Tesseract : un modèle par écriture (script/Fraktur ou
+lat), 13 s pour 86 lignes. Note : le banc S03/S04 initial mesurait le chemin
+sans rôles (bug du banc, corrigé) ; S03/S04 ne changent rien sur le chemin
+réel hors 852691769/extraudeu.

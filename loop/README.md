@@ -24,3 +24,16 @@ Point d'entrée : `outils/chaine.py prepare|arbitrage|final DOSSIER`.
 `cer.py` (CER de page, vues strict/diplo/norm), `adjuger.py` + `bilan_adj.py`
 (adjudication aveugle X/Y, double arbitre), `olr.py`, `eval_alto.py`,
 `critere_final.py` (CRITERE.md), `recherche.py`, `segeval.py`.
+
+## Installation (reproductibilité)
+
+- Python : numpy, scipy, opencv-python, lxml, wordfreq ; kraken 7.1.1 dans un
+  environnement à part (`segmente.py`, modèle blla livré).
+- Tesseract 5 (ancrage S05, texte jamais publié) : `apt-get install
+  tesseract-ocr`, puis modèles tessdata_best dans `$BBVLM_TESSDATA` :
+  `script/Fraktur.traineddata` et `lat.traineddata` depuis
+  `https://raw.githubusercontent.com/tesseract-ocr/tessdata_best/main/`.
+  Sans Tesseract, `vers_alto.py` revient à l'alignement par largeur (S04).
+- Chaîne : `chaine.py prepare | arbitrage | final DOSSIER` ; lectures et
+  arbitrage VLM selon `consigne_P6.md`, `consigne_arbitre_P3.md`,
+  `consigne_inflexion.md`.
