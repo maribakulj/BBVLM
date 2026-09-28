@@ -1,0 +1,68 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Und jedes Freundes Troſt, jede Huͤlf’ entflohn!",
+  "justification": "Apostrophe courbe ’."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "Doch laß, o laß’ mich noch ein einzig Gluͤck ge⸗",
+  "justification": "Apostrophe courbe ’."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "Laß’ mich ihn wiederſehn, den mir geraubten Sohn!",
+  "justification": "Apostrophe courbe ’."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "O Sohn! denk’ ich an jenen Augenblick,",
+  "justification": "Apostrophe courbe ’."
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "Wo ich dich wieder an mich druͤck’,",
+  "justification": "Apostrophe courbe ’ après « druͤck »."
+ },
+ {
+  "id": "l005",
+  "verdict": "aucun",
+  "texte_correct": "Jch fuͤhl’ in mir dann neuen Muth erwachen.",
+  "justification": "L'initiale descend sous la ligne de base donc J (comme Y), et l'apostrophe est courbe ’ (comme X)."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "Denk’ ich an jenen Augenblick. ꝛc.",
+  "justification": "Apostrophe courbe ’."
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "So ſoll mich’s doch nicht zaghaft machen,",
+  "justification": "Apostrophe courbe ’."
+ },
+ {
+  "id": "l008",
+  "verdict": "Y",
+  "texte_correct": "Jch fuͤhl in mir noch neuen Muth erwachen ꝛc.",
+  "justification": "L'initiale I/J descend sous la ligne de base : J."
+ },
+ {
+  "id": "l009",
+  "verdict": "Y",
+  "texte_correct": "Akinſon Hoͤr’n ſie es wohl?",
+  "justification": "Apostrophe courbe ’."
+ },
+ {
+  "id": "l010",
+  "verdict": "aucun",
+  "texte_correct": "Officier. Jch hoͤr’ es wohl.",
+  "justification": "J qui descend sous la ligne de base (comme Y) et apostrophe courbe ’ (comme X)."
+ }
+]

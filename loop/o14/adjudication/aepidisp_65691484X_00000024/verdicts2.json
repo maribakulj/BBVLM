@@ -1,0 +1,38 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "meo, verè diſcipuli mei eſtis. Quisquis verò ἀληθῶς, verè Chriſti",
+  "justification": "Grec imprimé ἀληθῶς (circonflexe, sigma final) suivi d'une virgule ; Y a grave, ϛ et point-virgule. Thêta de forme cursive, encodé θ."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "habeat vitam æternam, Joh. VI. 40. Quapropter, qui verbum",
+  "justification": "Ligature æ bien visible dans l'italique « æternam »."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "Chriſti, de ſalute per fidem in ipſum impetrandâ recipit, in eo-",
+  "justification": "« impetrandâ » : m abîmé (4 jambages avec le i, pas « iin ») ; la dernière lettre est un o dont le côté droit est cassé et qui ressemble à un c, mais « eo-que » continue à la ligne suivante."
+ },
+ {
+  "id": "l003",
+  "verdict": "aucun",
+  "texte_correct": "Chriſti, de ſalute per fidem in ipſum impetrandâ recipit, in eo-",
+  "justification": "Même image que l002 : X a « iinpetrandâ » (m cassé lu comme iin), Y a « ec- »."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "§. XII. Iſthæc igitur vera & genuina Chriſtianismi prin-",
+  "justification": "s rond imprimé dans « Chriſtianismi »."
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "3. rei damnationis æternæ, & â facie DEI ac Salvatoris noſtri",
+  "justification": "Le chiffre 3 est suivi d'un point, pas d'une virgule."
+ }
+]

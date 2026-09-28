@@ -1,0 +1,38 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "meo, verè diſcipuli mei eſtis. Quisquis verò ἀληθῶς, verè Chriſti",
+  "justification": "Imprimé : ἀληθῶς avec circonflexe sur ω, sigma final et virgule ; Y (ὼ grave, ϛ stigma, point-virgule) faux. Thêta imprimé en forme cursive (ϑ), variante de glyphe."
+ },
+ {
+  "id": "l001",
+  "verdict": "Y",
+  "texte_correct": "habeat vitam aternam, Joh. VI. 40. Quapropter, qui verbum",
+  "justification": "Italique : « aternam » imprimé avec un a simple (pas de ligature æ) — coquille conservée."
+ },
+ {
+  "id": "l002",
+  "verdict": "aucun",
+  "texte_correct": "Chriſti, de ſalute per fidem in ipſum iinpetrandâ recipit, in eo-",
+  "justification": "Imprimé « iinpetrandâ » (coquille, deux fûts + n) ; la lettre après e est un o abîmé (panse droite visible en trait pâle), mot eo-que."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "Chriſti, de ſalute per fidem in ipſum iinpetrandâ recipit, in eo-",
+  "justification": "Même ligne : « iinpetrandâ » imprimé tel quel ; o abîmé mais panse droite visible → eo-."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "§. XII. Iſthæc igitur vera & genuina Chriſtianismi prin-",
+  "justification": "s rond nettement imprimé dans Chriſtianismi."
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "3. rei damnationis æternæ, & â facie DEI ac Salvatoris noſtri",
+  "justification": "Après 3 : point (petite goutte au niveau de la ligne de base), identique au point de « XII. »."
+ }
+]

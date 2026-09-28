@@ -1,0 +1,86 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Exerc.107.diſt.2.",
+  "justification": "« Exerc » avec r ; ponctuation serrée sans espaces."
+ },
+ {
+  "id": "l001",
+  "verdict": "aucun",
+  "texte_correct": "curſus ab uno ad aliud, eſtq́ue deductio, unius ex alio:",
+  "justification": "Accent visible sur le q (eſtq́ue) et petit blanc entre « ex » et « alio »."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "21. Itaq; eſt ea omnia quæ virtute agētis cognoſcūtur.",
+  "justification": "Barres plates (macrons) sur agētis et cognoſcūtur."
+ },
+ {
+  "id": "l003",
+  "verdict": "Y",
+  "texte_correct": "rum ſimplicium ut leonis. 2. ubi conjuncté cognoſcit",
+  "justification": "Accent aigu montant sur « conjuncté »."
+ },
+ {
+  "id": "l004",
+  "verdict": "aucun",
+  "texte_correct": "é quibus confiunt, quas noſtri vocāt propoſitiones Ci-",
+  "justification": "Ligature fi (barre de f) dans « confiunt », donc f ; barre plate sur a : vocāt."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "tinatio, inquit Scaliger. Sed cum hac τάξις conjungen-",
+  "justification": "Sigma final ς imprimé dans « τάξις »."
+ },
+ {
+  "id": "l006",
+  "verdict": "Y",
+  "texte_correct": "27. Voluntásne an intellectus prior ſit. Reſpondetur",
+  "justification": "s rond dans « Voluntásne »."
+ },
+ {
+  "id": "l007",
+  "verdict": "aucun",
+  "texte_correct": "Intellectus: ignoti enim nulla cupido,nulla βούλησις,nul-",
+  "justification": "Grec βούλησις lisible (ȣ = ου) ; aucune espace après les virgules dans « cupido,nulla » et « βούλησις,nul- »."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "la προαίρεσις.",
+  "justification": "Le grec « προαίρεσις » est lisible ; la sortie de Y est corrompue."
+ },
+ {
+  "id": "l009",
+  "verdict": "aucun",
+  "texte_correct": "Exerc.107.diſt.2.",
+  "justification": "Même image que l000 : « Exerc » (r), sans espace après les points."
+ },
+ {
+  "id": "l010",
+  "verdict": "X",
+  "texte_correct": "curſus ab uno ad aliud, eſtq́ue deductio, unius ex alio:",
+  "justification": "eſtq́ue accentué ; petit blanc entre « ex » et « alio »."
+ },
+ {
+  "id": "l011",
+  "verdict": "aucun",
+  "texte_correct": "gentis,quæ formas &ſpecies rerum in ſe recipit.",
+  "justification": "« &ſpecies » serré comme dans X, mais « gentis,quæ » est aussi serré, sans espace."
+ },
+ {
+  "id": "l012",
+  "verdict": "aucun",
+  "texte_correct": "cies rerum abſtrahit & omnia efficit,id eſt, facit,ut o-",
+  "justification": "Blanc avant & (comme X), mais « efficit,id » et « facit,ut » sont serrés."
+ },
+ {
+  "id": "l013",
+  "verdict": "aucun",
+  "texte_correct": "é quibus confiunt, quas noſtri vocāt propoſitiones Ci-",
+  "justification": "Même image que l004 : confiunt avec f, mais la barre plate donne vocāt, pas vocãt."
+ }
+]

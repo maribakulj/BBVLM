@@ -1,0 +1,90 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "meo, verè diſcipuli mei eſtis. Quisquis verò ἀληθῶς, verè Chriſti",
+  "Y": "meo, verè diſcipuli mei eſtis. Quisquis verò ἀληϑὼϛ; verè Chriſti",
+  "divergences_X_vers_Y": [
+   [
+    "θῶς,",
+    "ϑὼϛ;"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o14/aepidisp_65691484X_00000024//p2__a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "habeat vitam æternam, Joh. VI. 40. Quapropter, qui verbum",
+  "Y": "habeat vitam aternam, Joh. VI. 40. Quapropter, qui verbum",
+  "divergences_X_vers_Y": [
+   [
+    "æ",
+    "a"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o14/aepidisp_65691484X_00000024//p2__a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "Chriſti, de ſalute per fidem in ipſum impetrandâ recipit, in eo-",
+  "Y": "Chriſti, de ſalute per fidem in ipſum impetrandâ recipit, in ec-",
+  "divergences_X_vers_Y": [
+   [
+    "o",
+    "c"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o14/aepidisp_65691484X_00000024//p2__a.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "Chriſti, de ſalute per fidem in ipſum iinpetrandâ recipit, in eo-",
+  "Y": "Chriſti, de ſalute per fidem in ipſum impetrandâ recipit, in ec-",
+  "divergences_X_vers_Y": [
+   [
+    "in",
+    "m"
+   ],
+   [
+    "o",
+    "c"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o14/aepidisp_65691484X_00000024//p2__b.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "§. XII. Iſthæc igitur vera & genuina Chriſtianismi prin-",
+  "Y": "§. XII. Iſthæc igitur vera & genuina Chriſtianiſmi prin-",
+  "divergences_X_vers_Y": [
+   [
+    "s",
+    "ſ"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o14/aepidisp_65691484X_00000024//p2_6b_a.txt"
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "3, rei damnationis æternæ, & â facie DEI ac Salvatoris noſtri",
+  "Y": "3. rei damnationis æternæ, & â facie DEI ac Salvatoris noſtri",
+  "divergences_X_vers_Y": [
+   [
+    ",",
+    "."
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o14/aepidisp_65691484X_00000024//p2_6b_b.txt"
+ }
+]

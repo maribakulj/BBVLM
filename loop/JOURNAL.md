@@ -316,3 +316,14 @@ Restes O13 = blancs autour de la ponctuation (« v.c. » lu « v. c. »,
 « reden.—Aber »). OCR-D niveau 2 : espaces seulement entre mots, ponctuation
 collée au mot précédent — rien n'impose un blanc après une ponctuation serrée.
 P6b = P6 où, après la ponctuation, on suit l'imprimé.
+
+## O14 — 2026-09-28 — A/B P6 contre P6b : P6b rejetée ; biais d'arbitrage corrigé
+
+P6b (après ponctuation, suivre l'imprimé) : 87 éditions contre 73 pour P6
+(référence distribuée) ; contre la référence adjugée 57 contre 63 mais
+baurodwe +3 → rejetée selon le critère figé. La VT SBB met une espace après
+une virgule même serrée : la règle P6 est la bonne pour les virgules.
+Leçon : la consigne d'adjudication d'O14 énonçait la règle testée → référence
+adjugée biaisée. Consigne d'adjudication désormais figée dans un fichier
+(`consigne_adjudication.md`, convention de la VT). La variance entre lectures
+domine les petits effets sur 4 pages.

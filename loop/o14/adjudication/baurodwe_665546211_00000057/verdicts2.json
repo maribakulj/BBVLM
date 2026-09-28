@@ -1,0 +1,62 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "pflantzen. Die Frucht⸗Baͤume, ſo zu vflantzen oder",
+  "justification": "Coquille imprimée « vflantzen » (v fraktur), à conserver."
+ },
+ {
+  "id": "l001",
+  "verdict": "aucun",
+  "texte_correct": "hat ein rundes Angeſicht,groſſe Augen. er wird karg",
+  "justification": "Point après « Augen » (X exact) ; mais pas d'espace après la virgule dans « Angeſicht,groſſe »."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "und verdroſſen. zoͤrnet bald, und bald wieder guͤtig,",
+  "justification": "Point à mi-hauteur après « verdroſſen », à conserver."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "habeu, er fuͤrchter auch ſehr der Augen, er verleuret",
+  "justification": "« habeu » (coquille u) et « fuͤrchter » (r final, comparé au r de « ſehr ») tels qu'imprimés."
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "ret auch ſeinen Wandel ſteis in ſeinem Vaterland.",
+  "justification": "Imprimé « ſteis » : lettre courte sans barre entre e et s."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "Jm Stier, das iſt, ſo die Sonne darinnen, hat er",
+  "justification": "Virgule faible mais visible après « Stier »."
+ },
+ {
+  "id": "l006",
+  "verdict": "aucun",
+  "texte_correct": "und uͤberlebet ſeinen Vater,er gewin̄et Ehren⸗reiche",
+  "justification": "Signe d'abréviation plat (macron) sur n : n̄, pas ñ ; aucune espace après la virgule dans « Vater,er »."
+ },
+ {
+  "id": "l007",
+  "verdict": "aucun",
+  "texte_correct": "und uͤberlebet ſeinen Vater,er gewin̄et Ehren⸗reiche",
+  "justification": "n̄ correct dans X, mais aucune espace n'est imprimée après la virgule dans « Vater,er »."
+ },
+ {
+  "id": "l008",
+  "verdict": "aucun",
+  "texte_correct": "habeu, er fuͤrchter auch ſehr der Augen, er verleuret",
+  "justification": "Même image que l003 : « habeu » et « fuͤrchter » imprimés ; X a « fuͤrchtet », Y a « haben »."
+ },
+ {
+  "id": "l009",
+  "verdict": "X",
+  "texte_correct": "oder Wetter⸗Buͤchlein.",
+  "justification": "Le signe au-dessus du u est un petit e suscrit, pas un anneau : uͤ."
+ }
+]

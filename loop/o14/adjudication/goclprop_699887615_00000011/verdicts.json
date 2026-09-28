@@ -1,0 +1,86 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Exerc.107.diſt.2.",
+  "justification": "Imprimé serré « Exerc.107.diſt.2. » sans blancs, r (pas t)."
+ },
+ {
+  "id": "l001",
+  "verdict": "Y",
+  "texte_correct": "curſus ab uno ad aliud, eſtq́ue deductio, unius exalio:",
+  "justification": "Accent aigu sur q (q́) imprimé ; « exalio » sans blanc."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "21. Itaq; eſt ea omnia quæ virtute agētis cognoſcūtur.",
+  "justification": "Signes d'abréviation droits (macron) : ē, ū."
+ },
+ {
+  "id": "l003",
+  "verdict": "aucun",
+  "texte_correct": "rum ſimplicium ut leonis. 2. ubiconjuncté cognoſcit",
+  "justification": "Accent aigu (é) ; « ubiconjuncté » imprimé sans blanc entre ubi et conjuncté."
+ },
+ {
+  "id": "l004",
+  "verdict": "aucun",
+  "texte_correct": "é quibus confiunt, quas noſtri vocāt propoſitiones Ci-",
+  "justification": "Ligature fi visible (coquille confiunt) ; signe sur a droit → ā."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "tinatio, inquit Scaliger. Sed cum hac τάξις conjungen-",
+  "justification": "Sigma final ς (pas stigma)."
+ },
+ {
+  "id": "l006",
+  "verdict": "Y",
+  "texte_correct": "27. Voluntásne an intellectus prior ſit. Reſpondetur",
+  "justification": "s rond imprimé dans Voluntásne."
+ },
+ {
+  "id": "l007",
+  "verdict": "aucun",
+  "texte_correct": "Intellectus: ignoti enim nulla cupido,nulla βούλησις,nul-",
+  "justification": "Grec βούλησις (ligature ου) avec ς final ; virgules serrées sans blanc (cupido,nulla ; βούλησις,nul-)."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "la προαίρεσις.",
+  "justification": "προαίρεσις (π et ρ en formes cursives) avec ς final."
+ },
+ {
+  "id": "l009",
+  "verdict": "aucun",
+  "texte_correct": "Exerc.107.diſt.2.",
+  "justification": "Même ligne que l000 : r, et aucun blanc après les points."
+ },
+ {
+  "id": "l010",
+  "verdict": "Y",
+  "texte_correct": "curſus ab uno ad aliud, eſtq́ue deductio, unius exalio:",
+  "justification": "« exalio » imprimé sans blanc."
+ },
+ {
+  "id": "l011",
+  "verdict": "aucun",
+  "texte_correct": "gentis,quæ formas &ſpecies rerum in ſe recipit.",
+  "justification": "« &ſpecies » serré, mais « gentis,quæ » aussi sans blanc."
+ },
+ {
+  "id": "l012",
+  "verdict": "X",
+  "texte_correct": "cies rerum abſtrahit & omnia efficit, id eſt, facit, ut o-",
+  "justification": "Blanc visible entre abſtrahit et &."
+ },
+ {
+  "id": "l013",
+  "verdict": "aucun",
+  "texte_correct": "é quibus confiunt, quas noſtri vocāt propoſitiones Ci-",
+  "justification": "Ligature fi → confiunt correct, mais signe sur a droit → ā, pas ã."
+ }
+]
