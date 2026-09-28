@@ -298,3 +298,21 @@ brochrnx 2 ; CRITERE ✓ sur caladr et bankgraf. **caladr : deuxième page
 parfaite de bout en bout.** I01 neutre (aucune décision), S05 égal ou mieux.
 Restes : uniquement des blancs autour de la ponctuation (« v.c. », « .— »,
 « ⸗ » isolé) — prochaine cible du texte.
+
+## OLR O11-O13 (12 pages neuves) — 2026-09-28
+
+Rôle exact ≥ 0,95 sur 8 pages ; F1 même région ≥ 0,91 sur 9. Écarts =
+conventions de la VT : page de titre (durrgeda) = une seule région heading
++ 29 régions drop-capital (lettrines florales), le lecteur la découpe en
+paragraphes (rôle 0,36) ; régions sans type (brochrnx, 9 lignes « other ») ;
+page-tableau (852691769 : 48 régions de référence contre 16 lues). Aucune
+règle ajoutée pour un exemple unique.
+Métadonnées d'œuvre : pas de vérité accessible (MODS vide dans le dépôt SBB ;
+catalogues K10plus, stabikat, VD17 refusés par la politique réseau).
+
+## P6b — candidate (blancs après ponctuation), test A/B prévu en O14
+
+Restes O13 = blancs autour de la ponctuation (« v.c. » lu « v. c. »,
+« reden.—Aber »). OCR-D niveau 2 : espaces seulement entre mots, ponctuation
+collée au mot précédent — rien n'impose un blanc après une ponctuation serrée.
+P6b = P6 où, après la ponctuation, on suit l'imprimé.
