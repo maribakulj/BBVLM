@@ -16,4 +16,7 @@ def conforme(ligne: str) -> str:
     # séparé par une espace (ajouté après O03, où les lecteurs la collaient
     # au mot suivant ; règle tirée du même principe OCR-D, pas d'un score).
     ligne = re.sub(r'/(?=[^\W\d_])', '/ ', ligne)
+    # Même principe pour , ; : ? ! (pas le point : « Pſal.2. » est imprimé collé).
+    # Ajouté après O09 (désaccords d'espacement entre passes sur BrenBreu).
+    ligne = re.sub(r'([,;:?!])(?=[^\W\d_])', r'\1 ', ligne)
     return ' '.join(ligne.split())

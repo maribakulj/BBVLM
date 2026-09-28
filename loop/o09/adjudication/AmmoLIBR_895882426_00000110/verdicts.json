@@ -1,0 +1,56 @@
+[
+ {
+  "id": "l000",
+  "verdict": "aucun",
+  "texte_correct": "Cœlum ſolumq́ꝫ qui creauit,",
+  "note": "Signe après q́ en forme de 3 (ꝫ U+A76B), pas point-virgule ; Y omet tout le signe."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "Et quicquid eſt in illis.",
+  "note": "Ligature ſt italique : ſ long imprimé."
+ },
+ {
+  "id": "l002",
+  "verdict": "aucun",
+  "texte_correct": "Cœlumq́ꝫ cœlorum beata",
+  "note": "q́ suivi du signe ꝫ en 3 ; X met ';', Y omet."
+ },
+ {
+  "id": "l003",
+  "verdict": "aucun",
+  "texte_correct": "Mortalibusq́ꝫ tellus.",
+  "note": "q́ + ꝫ imprimés ; X met ';', Y omet."
+ },
+ {
+  "id": "l004",
+  "verdict": "aucun",
+  "texte_correct": "Vos atqꝫ veſtros palmites.",
+  "note": "Imprimé atq + signe en 3 (ꝫ), sans accent sur q ; X omet q, Y met ';'."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "Cœlum ſolumq́ꝫ qui creauit,",
+  "note": "q́ꝫ conforme à l'imprimé ; Y omet l'abréviation."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "Cœlumq́ꝫ cœlorum beata",
+  "note": "q́ꝫ conforme ; Y omet."
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "Mortalibusq́ꝫ tellus.",
+  "note": "q́ꝫ conforme ; Y omet."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "Vos atqꝫ veſtros palmites.",
+  "note": "qꝫ imprimé ; Y omet."
+ }
+]

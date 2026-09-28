@@ -130,3 +130,9 @@ Granularité des régions corrigée par la consigne : AmmoLIBR 0,91, BrenBreu
 titres, la référence les met dans le paragraphe). Texte : notation MUFI en zone
 privée de l'abréviation « -que » (U+F50D, U+E8BF) contre « q́; » lu — convention
 non documentée même chez dinglehopper.
+
+## O09 — 2026-09-28 — chaîne complète : 2 pages à 0 faute, 2 à 1 caractère
+
+Texte P3 0 / 0 / 0,06 / 0,16 % ; OLR régions 0,91-1,00 sur 3 pages ; ALTO
+texte+IoU80 79-92 % ; recherche 88-97 %. Routeur A37 (astra) adopté pour les
+boîtes après mesure ; alignement des manchettes par rôle adopté après mesure.

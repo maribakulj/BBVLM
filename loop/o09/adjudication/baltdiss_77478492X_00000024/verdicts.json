@@ -1,0 +1,44 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "cipiendum electi ſimus, conſequi. Vid. DREAS l. c. p. 28. Al-",
+  "note": "Blanc net imprimé entre electi et ſimus (coquille conservée)."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "§. VI.",
+  "note": "Espace après le point du §."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "E re vero noſtra erit, poſteriori illo, quem adduximus,",
+  "note": "poſteriori : o imprimé, pas p (Y erroné)."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "Apologia p. 48. 55. 57. 65. 66. cauſſatus, noſtram', quam hodie",
+  "note": "Petite marque d'apostrophe imprimée après noſtram."
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "profitemur, doctrinam jam ante Formulam Concordiæ a Theo-",
+  "note": "Ligature fi avec barre : f, pas ſ."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "nis decreto partes traher e allaborarint, ex SCHLOSSERI Luthero",
+  "note": "Blanc imprimé entre traher et e (coquille de composition conservée)."
+ },
+ {
+  "id": "l006",
+  "verdict": "Y",
+  "texte_correct": "in Edit: Rechenberg. p. 821., & Reinecciana p. 1127. deprehen-",
+  "note": "X contient un і cyrillique (U+0456) ; i latin requis."
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+  "id": "l000",
+  "verdict": "aucun",
+  "texte_correct": "quo mihi eſſet bonum expectandum? Putas´ne Deum",
+  "note": "Point d'interrogation imprimé (X). Signe entre Putas et ne = accent aigu ´ (U+00B4), pas apostrophe ' ; Y met une espace."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "ris? Exiſtimas ne ab ore altiſsimi, ſicut in Threnis Hie⸗",
+  "note": "Point d'interrogation imprimé après ris."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "remiæ dicitur, egredi bona ac mala? Ego mallem, in⸗",
+  "note": "Point d'interrogation imprimé après mala."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "quiunt, abundare frumento & muſto, quàm multa gra⸗",
+  "note": "Accent grave sur a de quàm imprimé."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "tia & fauore Dei tui. Det vitam, det opes, animum mi⸗",
+  "note": "Espace après le point avant Det (convention)."
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "hi æquum ipſe parabo. Hę & id genus aliæ ſunt impio⸗",
+  "note": "Espace après le point avant Hę (convention)."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "tantùm externæ & mundanæ tanquillitati. Sed nihil",
+  "note": "Accent grave sur u de tantùm imprimé ; coquille tanquillitati conservée."
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "Longè autem aliter affecti ſunt pij. Hi enim non con⸗",
+  "note": "Accent grave sur e de Longè imprimé."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "noſtram tantùm in lumine vultus tui. Si tu reſpexeris",
+  "note": "Accent grave sur u de tantùm imprimé."
+ },
+ {
+  "id": "l009",
+  "verdict": "X",
+  "texte_correct": "conſcientiam meam tuo fauore, & ſufficiet mihi gratia",
+  "note": "Imprimé 'fauore,&' collé ; la convention sépare le mot suivant la ponctuation par une espace."
+ },
+ {
+  "id": "l010",
+  "verdict": "Y",
+  "texte_correct": "Thren. 3.",
+  "note": "Espace après le point (convention ; petit blanc visible aussi)."
+ },
+ {
+  "id": "l011",
+  "verdict": "X",
+  "texte_correct": "quo mihi eſſet bonum expectandum? Putas´ne Deum",
+  "note": "? imprimé et accent aigu ´ entre Putas et ne ; Y omet les deux."
+ }
+]

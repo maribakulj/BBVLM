@@ -1,0 +1,128 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Cœlum ſolumq́; qui creauit,",
+  "Y": "Cœlum ſolum qui creauit,",
+  "divergences_X_vers_Y": [
+   [
+    "q́;",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o09/AmmoLIBR_895882426_00000110/p2_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Et quicquid eſt in illis.",
+  "Y": "Et quicquid est in illis.",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "s"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o09/AmmoLIBR_895882426_00000110/p2_a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "Cœlumq́; cœlorum beata",
+  "Y": "Cœlum cœlorum beata",
+  "divergences_X_vers_Y": [
+   [
+    "q́;",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o09/AmmoLIBR_895882426_00000110/p2_a.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "Mortalibusq́; tellus.",
+  "Y": "Mortalibus tellus.",
+  "divergences_X_vers_Y": [
+   [
+    "q́;",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o09/AmmoLIBR_895882426_00000110/p2_a.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "Vos at veſtros palmites.",
+  "Y": "Vos atq; veſtros palmites.",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    "q;"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o09/AmmoLIBR_895882426_00000110/p2_a.txt"
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "Cœlum ſolumq́ꝫ qui creauit,",
+  "Y": "Cœlum ſolum qui creauit,",
+  "divergences_X_vers_Y": [
+   [
+    "q́ꝫ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o09/AmmoLIBR_895882426_00000110/p2_b.txt"
+ },
+ {
+  "id": "l006",
+  "image": "l006.png",
+  "X": "Cœlumq́ꝫ cœlorum beata",
+  "Y": "Cœlum cœlorum beata",
+  "divergences_X_vers_Y": [
+   [
+    "q́ꝫ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o09/AmmoLIBR_895882426_00000110/p2_b.txt"
+ },
+ {
+  "id": "l007",
+  "image": "l007.png",
+  "X": "Mortalibusq́ꝫ tellus.",
+  "Y": "Mortalibus tellus.",
+  "divergences_X_vers_Y": [
+   [
+    "q́ꝫ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o09/AmmoLIBR_895882426_00000110/p2_b.txt"
+ },
+ {
+  "id": "l008",
+  "image": "l008.png",
+  "X": "Vos atqꝫ veſtros palmites.",
+  "Y": "Vos at veſtros palmites.",
+  "divergences_X_vers_Y": [
+   [
+    "qꝫ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o09/AmmoLIBR_895882426_00000110/p2_b.txt"
+ }
+]

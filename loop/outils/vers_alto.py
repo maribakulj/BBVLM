@@ -33,13 +33,19 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
     kr = json.load(open(f'{dossier}/kraken_serre.json'))['lignes']
     boites = [l['bbox'] for l in kr]
     g = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE); H, W = g.shape
+    # Placement : avec les rôles, manchettes alignées sur les lignes de marge
+    # (mesuré sur 8 pages : égal partout, herrleyc 0,47 → 0,66 en rappel IoU80).
     if roles:
         from aligne import aligne_roles
-        a1, a2 = aligne_roles(lignes, [r[0] for r in roles], boites), aligne(lignes, boites)
-        loc = a1 if len(a1) >= len(a2) else a2   # sans référence : la variante qui place le plus de lignes
+        loc = aligne_roles(lignes, [r[0] for r in roles], boites)
     else:
         loc = aligne(lignes, boites)
-    bx = connexe.Connexe()
+    import os as _os
+    if _os.environ.get('BBVLM_BOXER', 'route') == 'route':   # G02/A37 par défaut (mesuré sur 8 pages)
+        from g02 import Route
+        bx = Route()
+    else:
+        bx = connexe.Connexe()
     root = etree.Element(f'{{{NS}}}alto', nsmap={None: NS, 'xsi': 'http://www.w3.org/2001/XMLSchema-instance'})
     root.set('{http://www.w3.org/2001/XMLSchema-instance}schemaLocation', NS+' http://www.loc.gov/standards/alto/v4/alto-4-4.xsd')
     d = E(root, 'Description'); E(d, 'MeasurementUnit').text = 'pixel'
