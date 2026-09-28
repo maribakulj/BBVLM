@@ -15,6 +15,8 @@ import cv2
 from scipy.ndimage import gaussian_filter, gaussian_filter1d
 from g02 import Route
 
+SEUIL = float(__import__('os').environ.get('BBVLM_CENTRE_SEUIL', '0.25'))   # dérive / hauteur de ligne
+
 
 def centre_local(gray, box):
     """Rend (décalage par colonne en px, ligne médiane, bord haut du rognage)."""
@@ -39,7 +41,8 @@ class Centre(Route):
         s, _, _ = centre_local(g, ln.line_box)
         s = np.round(s).astype(int)
         amp = int(s.max() - s.min())
-        if amp < 3:                                  # ligne droite : rien à redresser
+        if amp < SEUIL * (y1 - y0):                  # ligne assez droite : Route tel quel
+            # (B01 : redresser une ligne droite coûte 1-4 pts sur AmmoLIBR, DasWeL)
             return super().boxes(g, ln)
         xa = max(0, x0)
         pad = amp + 2

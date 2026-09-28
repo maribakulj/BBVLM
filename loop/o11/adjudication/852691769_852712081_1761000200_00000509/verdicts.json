@@ -1,0 +1,68 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Methodus Teſtaceorum D. D’ARGENTVILLE.",
+  "justification": "Apostrophe typographique courbe imprimée."
+ },
+ {
+  "id": "l001",
+  "verdict": "Y",
+  "texte_correct": "Species.",
+  "justification": "Signe final rond et plein au niveau de la ligne de base, comme les points de « læve. » ; pas de vraie queue de virgule. Doute modéré."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "6. Oſtreum oblongum & umbona-",
+  "justification": "« umbona- » (suite « tum. ») ; a nettement lisible."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "1. Oſtreum planum & læve.",
+  "justification": "p minuscule à « planum »."
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "1. Dolium rotundum & umbilica-",
+  "justification": "Chiffre 1 de style ancien (forme de I), numérotation 1., 2., …"
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "6. Dolium, concha ſphærica faſcia-",
+  "justification": "Après 6, signe en losange sans queue, un peu bas : lu comme point de numérotation. Doute (possible virgule)."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "1. Porcellana conglobata & craſſa.",
+  "justification": "Chiffre 1 de style ancien, cohérent avec l004."
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "Concha globoſa eſt u-",
+  "justification": "La ligne imprimée finit par « u- » (visible dans le contexte de l008) ; l'image est rognée au bord droit."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "nivalvis, ventre inſtar",
+  "justification": "« u- » appartient à la ligne précédente."
+ },
+ {
+  "id": "l009",
+  "verdict": "Y",
+  "texte_correct": "vis, a rimula ſic nomi-",
+  "justification": "« ſic » : c net."
+ },
+ {
+  "id": "l010",
+  "verdict": "X",
+  "texte_correct": "tuberibus inſtructa,",
+  "justification": "« inſtructa » : r net (ligature ct)."
+ }
+]

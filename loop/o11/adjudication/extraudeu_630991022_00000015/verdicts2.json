@@ -1,0 +1,44 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Land⸗Raͤthe Breßlauiſchen Departements, wegen ad⸗",
+  "justification": "Coupure en fin de ligne 'ad⸗' à double trait (fraktur)."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "hibirung des erforderlichen Stempels zu denen Publican⸗",
+  "justification": "'Publican⸗' double trait en fin de ligne."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "DA der Verfaſſung gemaͤß, bey denen Gerichten die Subhaſta⸗",
+  "justification": "'Subhaſta⸗' : ſ, pas de tréma, double trait final; 'gemaͤß' e suscrit."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "tions- Patente, Edictal- Citationes und alle Publica-",
+  "justification": "Espaces imprimés après 'tions-' et 'Edictal-' (traits simples antiqua)."
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "tiones, worinnen 3. oder mehrere verſchiedene Ter-",
+  "justification": "Fraktur 'verſchiedene' avec ſ long."
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "Signatum Breßlau den 5. Febr. 1753.",
+  "justification": "La ligne ne contient que 'Signatum Breßlau den 5. Febr. 1753.'; 'mit bekannt gemacht.' absent de l'image."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "L.S.",
+  "justification": "'L.S.' sans espace entre le point et S."
+ }
+]

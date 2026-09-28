@@ -1,0 +1,156 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Methodus Teſtaceorum D. D’ARGENTVILLE.",
+  "Y": "Methodus Teſtaceorum D. D'ARGENTVILLE.",
+  "divergences_X_vers_Y": [
+   [
+    "’",
+    "'"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/852691769_852712081_1761000200_00000509//p2_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Species,",
+  "Y": "Species.",
+  "divergences_X_vers_Y": [
+   [
+    ",",
+    "."
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/852691769_852712081_1761000200_00000509//p2_a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "6. Oſtreum oblongum & umbona-",
+  "Y": "6. Oſtreum oblongum & umbonu-",
+  "divergences_X_vers_Y": [
+   [
+    "a",
+    "u"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/852691769_852712081_1761000200_00000509//p2_a.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "1. Oſtreum planum & læve.",
+  "Y": "1. Oſtreum Planum & læve.",
+  "divergences_X_vers_Y": [
+   [
+    "p",
+    "P"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/852691769_852712081_1761000200_00000509//p2_a.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "I. Dolium rotundum & umbilica-",
+  "Y": "1. Dolium rotundum & umbilica-",
+  "divergences_X_vers_Y": [
+   [
+    "I",
+    "1"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/852691769_852712081_1761000200_00000509//p2_a.txt"
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "6, Dolium, concha ſphærica faſcia-",
+  "Y": "6. Dolium, concha ſphærica faſcia-",
+  "divergences_X_vers_Y": [
+   [
+    ",",
+    "."
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/852691769_852712081_1761000200_00000509//p2_a.txt"
+ },
+ {
+  "id": "l006",
+  "image": "l006.png",
+  "X": "1. Porcellana conglobata & craſſa.",
+  "Y": "I. Porcellana conglobata & craſſa.",
+  "divergences_X_vers_Y": [
+   [
+    "1",
+    "I"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/852691769_852712081_1761000200_00000509//p2_a.txt"
+ },
+ {
+  "id": "l007",
+  "image": "l007.png",
+  "X": "Concha globoſa eſt u-",
+  "Y": "Concha globoſa eſt",
+  "divergences_X_vers_Y": [
+   [
+    " u-",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/852691769_852712081_1761000200_00000509//p2_a.txt"
+ },
+ {
+  "id": "l008",
+  "image": "l008.png",
+  "X": "nivalvis, ventre inſtar",
+  "Y": "nivalvis, ventre inſtar u-",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " u-"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/852691769_852712081_1761000200_00000509//p2_a.txt"
+ },
+ {
+  "id": "l009",
+  "image": "l009.png",
+  "X": "vis, a rimula ſie nomi-",
+  "Y": "vis, a rimula ſic nomi-",
+  "divergences_X_vers_Y": [
+   [
+    "e",
+    "c"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/852691769_852712081_1761000200_00000509//p2_a.txt"
+ },
+ {
+  "id": "l010",
+  "image": "l010.png",
+  "X": "tuberibus inſtructa,",
+  "Y": "tuberibus inſttucta,",
+  "divergences_X_vers_Y": [
+   [
+    "r",
+    "t"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/852691769_852712081_1761000200_00000509//p2_a.txt"
+ }
+]

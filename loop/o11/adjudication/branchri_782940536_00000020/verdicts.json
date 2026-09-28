@@ -1,0 +1,56 @@
+[
+ {
+  "id": "l000",
+  "verdict": "Y",
+  "texte_correct": "hat. Phli. 2. Ein jeglicher ſey geſiñet/ wie JEſus Chriſtus auch",
+  "justification": "Coquille imprimée « Phli. » (l puis i), et non « Phil. »."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "delt hat, Alſo wird vns Gottes vnd Chriſti exempel/ als das",
+  "justification": "Virgule visible après « hat » ; « Chriſti » avec ſt."
+ },
+ {
+  "id": "l002",
+  "verdict": "aucun",
+  "texte_correct": "znm wenigſten deu anfang machen vnd nachoͤmen muͤſſen. Das",
+  "justification": "Image identique à l005 : « znm » (m à trois jambages, lettre retournée n pour u) et « deu » (n retourné). Doute sur deu/den."
+ },
+ {
+  "id": "l003",
+  "verdict": "Y",
+  "texte_correct": "delt/ als 2. Corint 5. Chriſtus iſt darumb fuͤr alle geſtorben/",
+  "justification": "Aucun point après « Corint »."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "1 Epiſt. 4. Wer am Fleiſch leidet/ etc. wie oben eingefuͤhret. Da",
+  "justification": "Aucun point après le 1 initial."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "znm wenigſten deu anfang machen vnd nachoͤmen muͤſſen. Das",
+  "justification": "« znm » à trois jambages ; « deu » avec n retourné. Doute sur deu/den."
+ },
+ {
+  "id": "l006",
+  "verdict": "Y",
+  "texte_correct": "Chriſto JEſu vnſerm HErrn/ Galat. 2. cap. Jch bin durchs",
+  "justification": "Capitale Fraktur I/J à descendante : J, cohérent avec « JEſu »."
+ },
+ {
+  "id": "l007",
+  "verdict": "Y",
+  "texte_correct": "Geſetz dem Geſetz geſtorben/ auff das ich Gott lebe/ Jch bin",
+  "justification": "Même capitale J à descendante."
+ },
+ {
+  "id": "l008",
+  "verdict": "Y",
+  "texte_correct": "mit Chriſto gecreutziget. Jch lebe/ aber doch nu nicht ich/ Son⸗",
+  "justification": "Même capitale J à descendante."
+ }
+]

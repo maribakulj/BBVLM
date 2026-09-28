@@ -1,0 +1,56 @@
+[
+ {
+  "id": "l000",
+  "verdict": "Y",
+  "texte_correct": "hat. Phli. 2. Ein jeglicher ſey geſiñet/ wie JEſus Chriſtus auch",
+  "justification": "Imprimé 'Phli.' (coquille pour Phil.): l précède i."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "delt hat, Alſo wird vns Gottes vnd Chriſti exempel/ als das",
+  "justification": "'hat,' virgule; 'Chriſti' avec ſt ligaturé, pas ch."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "znm wenigſten den anfang machen vnd nachoͤmen muͤſſen. Das",
+  "justification": "'znm' (m à trois jambages) et 'den'; e suscrit sur nachoͤmen."
+ },
+ {
+  "id": "l003",
+  "verdict": "Y",
+  "texte_correct": "delt/ als 2. Corint 5. Chriſtus iſt darumb fuͤr alle geſtorben/",
+  "justification": "'Corint' (nt abîmé) sans point, puis '5.'."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "1 Epiſt. 4. Wer am Fleiſch leidet/ etc. wie oben eingefuͤhret. Da",
+  "justification": "Aucun point visible après le 1 initial (doute: encrage faible)."
+ },
+ {
+  "id": "l005",
+  "verdict": "aucun",
+  "texte_correct": "znm wenigſten den anfang machen vnd nachoͤmen muͤſſen. Das",
+  "justification": "Même ligne que l002: 'znm' (m) comme X, mais 'den' (n identique à la finale de wenigſten) comme Y."
+ },
+ {
+  "id": "l006",
+  "verdict": "Y",
+  "texte_correct": "Chriſto JEſu vnſerm HErrn/ Galat. 2. cap. Jch bin durchs",
+  "justification": "Majuscule fraktur I/J à descendante: J (cohérent avec JEſu)."
+ },
+ {
+  "id": "l007",
+  "verdict": "Y",
+  "texte_correct": "Geſetz dem Geſetz geſtorben/ auff das ich Gott lebe/ Jch bin",
+  "justification": "Idem: 'Jch' J à descendante."
+ },
+ {
+  "id": "l008",
+  "verdict": "Y",
+  "texte_correct": "mit Chriſto gecreutziget. Jch lebe/ aber doch nu nicht ich/ Son⸗",
+  "justification": "Idem: 'Jch' J à descendante."
+ }
+]

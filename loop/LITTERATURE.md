@@ -119,3 +119,31 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
   « centre de composante à < 0,45 h du centre de boîte » garde l'encre des
   lignes voisines. On remplace le centre constant par le centre local
   CenterNormalizer, sans rien changer d'autre (expérience B01).
+
+## L08 — une ligne n'appartient qu'à une région (2026-09-28, pendant O11)
+
+- **OCR-D GT-Guidelines, « Absatz » (lyAbsatz) et schéma PAGE** : les
+  régions sont des structures distinctes (paragraphe, titre, marginalia,
+  signature, date de lettre…), et une TextLine est enfant d'une seule
+  TextRegion. Une même ligne visuelle qui porte la fin d'un paragraphe puis,
+  après un grand blanc, une formule de date ou de signature alignée à droite
+  est donc transcrite en **deux lignes** dans la référence (extraudeu :
+  « mit bekannt gemacht. » | « Signatum Breßlau den 5. Febr. 1753. »).
+- *Conséquence* : règle candidate P7 (deux blocs de fonction différente sur
+  une même ligne visuelle → deux lignes, chacune avec son rôle). Constatée sur
+  O11, donc à valider sur les pages suivantes, pas sur extraudeu.
+
+## L09 — ordre de lecture par découpe XY récursive (2026-09-28, pendant O11)
+
+- **Nagy & Seth (1984) ; Ha, Phillips & Haralick, « Recursive X-Y cut using
+  bounding boxes of connected components » (ICDAR 1995)** : l'arbre XY coupe
+  récursivement la page aux blancs horizontaux puis verticaux (ou au plus grand
+  blanc), sur les boîtes englobantes ; un seuil de blanc évite de couper entre
+  deux lignes ordinaires. *Apport* : un titre pleine largeur forme une bande à
+  part au lieu de fusionner les colonnes. *Limite* : se trompe quand aucune
+  bande blanche ne traverse (mise en page en L) — d'où **Meunier (ICDAR 2005,
+  Optimized XY-cut)** et **XY-Cut++ (2025, masques hiérarchiques)**.
+- *Conséquence* : notre ordre par recouvrement horizontal (union-find) fond
+  toutes les colonnes d'une page-tableau dès qu'une ligne les traverse
+  (852691769 : 33 lignes non placées sur 80). On teste l'XY-cut classique sur
+  boîtes de lignes, seuils relatifs à la hauteur médiane de ligne (S03).

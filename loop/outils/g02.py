@@ -22,7 +22,9 @@ class Route(ConnexeA32):
         res = []
         for (a, b, d, e), (p, q, r, s) in zip(c, out):
             r, s = r-1, s-1
-            res.append((p, max(b, q), r, min(e, s)))   # horizontale A32, jamais plus haut/bas que connexe
+            y0, y1 = max(b, q), min(e, s)             # horizontale A32, jamais plus haut/bas que connexe
+            if y1 < y0: y0, y1 = b, e                 # verticales disjointes (boîte dégénérée, O10) : connexe
+            res.append((p, y0, r, y1))
         return res
 
 

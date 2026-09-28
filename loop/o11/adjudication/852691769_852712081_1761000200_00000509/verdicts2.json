@@ -1,0 +1,68 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Methodus Teſtaceorum D. D’ARGENTVILLE.",
+  "justification": "Apostrophe typographique courbe ’ visible; petites capitales ARGENTVILLE."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "Species,",
+  "justification": "Signe final gros avec amorce de queue descendante: virgule (même signe visible dans le bandeau de l004). Doute modéré."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "6. Oſtreum oblongum & umbona-",
+  "justification": "'umbona-' net (a à panse fermée), suite 'tum.' à la ligne."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "1. Oſtreum planum & læve.",
+  "justification": "'planum' minuscule p, pas de capitale."
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "1. Dolium rotundum & umbilica-",
+  "justification": "Chiffre 1 elzévirien (forme de petite capitale I), cohérent avec '1.' en l003/l006."
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "6. Dolium, concha ſphærica faſcia-",
+  "justification": "Après 6 un point en losange (sans queue), différent de la virgule après Dolium; placé un peu bas."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "1. Porcellana conglobata & craſſa.",
+  "justification": "Chiffre 1 elzévirien suivi d'un point."
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "Concha globoſa eſt u-",
+  "justification": "La ligne imprimée se termine par 'u-' (visible sur le recadrage de l008; l007 est coupé à droite)."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "nivalvis, ventre inſtar",
+  "justification": "'u-' appartient à la ligne précédente; cette ligne s'arrête à 'inſtar'."
+ },
+ {
+  "id": "l009",
+  "verdict": "Y",
+  "texte_correct": "vis, a rimula ſic nomi-",
+  "justification": "'ſic' : c net, pas e."
+ },
+ {
+  "id": "l010",
+  "verdict": "X",
+  "texte_correct": "tuberibus inſtructa,",
+  "justification": "'inſtructa' r net (ligature ct); virgule collée par convention."
+ }
+]

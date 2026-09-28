@@ -1,0 +1,38 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "loſophorum (l) libris praeſtantiſſimis digniſſimum bonae cauſſae ar-",
+  "justification": "'praeſtantiſſimis' : nt distincts."
+ },
+ {
+  "id": "l001",
+  "verdict": "aucun",
+  "texte_correct": "rantur Ill, EHLERS hac de re prae-",
+  "justification": "'Ill' (I puis deux l); le signe suivant a une queue descendante: virgule, non point. Doute modéré sur la ponctuation."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "omuem religionem revelatam in naturalem converteret, proxi-",
+  "justification": "Deuxième lettre après 'om' ouverte en haut: u (n retourné) imprimé 'omuem'. Doute modéré."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "dorem deprehendere contigerit. Sed colophonem huic commen-",
+  "justification": "Trait d'union visible en fin de ligne après 'commen'."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "nos novitatis ſpecie non decipi, neque omnino indignos eſſe, quin",
+  "justification": "'quin' : n final à tête abîmée mais lettre n."
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "idonei harum rerum arbitri de naevis laboris nos admoneant, at-",
+  "justification": "'naevis' : n initial."
+ }
+]

@@ -1,0 +1,44 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Land⸗Raͤthe Breßlauiſchen Departements, wegen ad⸗",
+  "justification": "Trait d'union double oblique en fin de ligne."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "hibirung des erforderlichen Stempels zu denen Publican⸗",
+  "justification": "Trait d'union double en fin de ligne."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "DA der Verfaſſung gemaͤß, bey denen Gerichten die Subhaſta⸗",
+  "justification": "« Subhaſta » sans tréma ; trait d'union double."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "tions- Patente, Edictal- Citationes und alle Publica-",
+  "justification": "Espaces bien imprimés après les traits d'union."
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "tiones, worinnen 3. oder mehrere verſchiedene Ter-",
+  "justification": "ſ long en Fraktur dans « verſchiedene »."
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "Signatum Breßlau den 5. Febr. 1753.",
+  "justification": "« mit bekannt gemacht. » n'est pas sur cette ligne."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "L.S.",
+  "justification": "Aucun espace net entre « L. » et « S. ». Doute léger."
+ }
+]

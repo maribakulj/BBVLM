@@ -1,0 +1,86 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "loſophorum (l) libris praeſtantiſſimis digniſſimum bonae cauſſae ar-",
+  "Y": "loſophorum (l) libris praeſtamiſſimis digniſſimum bonae cauſſae ar-",
+  "divergences_X_vers_Y": [
+   [
+    "nt",
+    "m"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/chridiss_672987120_00000030//p2_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "rantur Ill. EHLERS hac de re prae-",
+  "Y": "rantur III. EHLERS hac de re prae-",
+  "divergences_X_vers_Y": [
+   [
+    "ll",
+    "II"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/chridiss_672987120_00000030//p2_a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "omuem religionem revelatam in naturalem converteret, proxi-",
+  "Y": "omnem religionem revelatam in naturalem converteret, proxi-",
+  "divergences_X_vers_Y": [
+   [
+    "u",
+    "n"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/chridiss_672987120_00000030//p2_b.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "dorem deprehendere contigerit. Sed colophonem huic commen-",
+  "Y": "dorem deprehendere contigerit. Sed colophonem huic commen",
+  "divergences_X_vers_Y": [
+   [
+    "-",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/chridiss_672987120_00000030//p2_b.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "nos novitatis ſpecie non decipi, neque omnino indignos eſſe, quin",
+  "Y": "nos novitatis ſpecie non decipi, neque omnino indignos eſſe, quiu",
+  "divergences_X_vers_Y": [
+   [
+    "n",
+    "u"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/chridiss_672987120_00000030//p2_b.txt"
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "idonei harum rerum arbitri de uaevis laboris nos admoneant, at-",
+  "Y": "idonei harum rerum arbitri de naevis laboris nos admoneant, at-",
+  "divergences_X_vers_Y": [
+   [
+    "u",
+    "n"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o11/chridiss_672987120_00000030//p2_b.txt"
+ }
+]

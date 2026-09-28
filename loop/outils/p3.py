@@ -49,7 +49,11 @@ def prepare(d):
 def fusionne(d):
     A = json.load(open(f'{d}/p3/base_A.json'))
     v = {x['id']: x for x in json.load(open(f'{d}/p3/verdicts.json'))}
-    out = [v[f'l{i:03d}']['texte_correct'] if f'l{i:03d}' in v else a for i, a in enumerate(A)]
+    from p2 import JETONS                 # l'arbitre écrit aussi les jetons {florin}…
+    def dejeton(t):
+        for j, c in JETONS.items(): t = t.replace(j, c)
+        return t
+    out = [dejeton(v[f'l{i:03d}']['texte_correct']) if f'l{i:03d}' in v else a for i, a in enumerate(A)]
     open(f'{d}/p3_final.txt', 'w').write('\n'.join(l for l in out if l.strip()))
 
 

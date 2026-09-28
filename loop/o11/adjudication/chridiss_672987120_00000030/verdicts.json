@@ -1,0 +1,38 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "loſophorum (l) libris praeſtantiſſimis digniſſimum bonae cauſſae ar-",
+  "justification": "« praeſtantiſſimis » : n et t distincts."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "rantur Ill. EHLERS hac de re prae-",
+  "justification": "« Ill. » (Illustris), I suivi de deux l. La ponctuation ressemble à une virgule mais X et Y la donnent tous deux comme un point."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "omuem religionem revelatam in naturalem converteret, proxi-",
+  "justification": "Imprimé « omuem » (n retourné)."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "dorem deprehendere contigerit. Sed colophonem huic commen-",
+  "justification": "Trait d'union en bord de ligne, partiellement rogné."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "nos novitatis ſpecie non decipi, neque omnino indignos eſſe, quin",
+  "justification": "« quin » : dernière lettre mal encrée, mais c'est un n."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "idonei harum rerum arbitri de uaevis laboris nos admoneant, at-",
+  "justification": "Première lettre de « uaevis » lue comme u (n retourné, cf. omuem). Doute notable ; il peut s'agir de naevis."
+ }
+]
