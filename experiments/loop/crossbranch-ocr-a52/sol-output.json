@@ -1,0 +1,51 @@
+{
+  "model": "gpt-6-sol",
+  "targeted": true,
+  "p01_lines": [
+    "tunés, qui préfèrent de languir dans l’oiſiveté",
+    "à goûter les douceurs qu’on trouve à s’inſ-",
+    "bien les lumieres & les belles connoiſſances"
+  ],
+  "p02_text": "Erſte Buch Moſe.\n188\nich die 10 Gebot wegen des befehls Got⸗\ntes: Ich bin der Allmechtige Gott war⸗\ndele für mir vnd ſey from/ſoͤnderlich in\ndas 3. Wegͤ des gehorſams Abrahams.\nIn das 4. Wegen des exempels der\nGottſeligen Hauskirchen endlich auch\nzu dem glauben/weil wir vornemen: dz\nGott ſeinen in verheißungen war⸗\nhafftig.\nWenn Gott vormehret ſeine ver⸗\nheißung vnd wort/gilt es allemal eins\nnewen vnnd beſſern Glaubens Denn\nweil wir auff erden ſind/wird keiner ſo\nvolkommen/mus immer zunehmen vnd\nſtercker werden. Alſo hat Gott dieſen\nHeiligen Mann immer weiter gefürt/\nvnd immer newe ſtück fürgehalten/ſo\niſt er immer blieben in einen glauben/\nob wol ſich die ſache vnd handel mächer⸗\nley begeben haben/ vmb welcher willen\ner das widergibt/denſelben glauben /\nwie geſagt / noch baß zuſtercken / denn\ngleich wie ein heiß eiſſen/von ſich ſelbſt\nerkaltet/als es auſſer dem fewr kömpt:\nAlſo des Menſchen Hertz / wo Gottes\nAa.\nwerck",
+  "views_inspected": {
+    "A52-P01": [
+      "view_0_page_1350.png",
+      "view_1_band.png",
+      "view_2_band.png",
+      "view_3_band.png",
+      "view_4_band.png",
+      "view_5_band.png",
+      "zoom_1_left_x1.6.png",
+      "zoom_1_right_x1.6.png",
+      "zoom_2_left_x1.6.png",
+      "zoom_2_right_x1.6.png",
+      "zoom_3_left_x1.6.png",
+      "zoom_3_right_x1.6.png",
+      "zoom_4_left_x1.6.png",
+      "zoom_4_right_x1.6.png",
+      "zoom_5_left_x1.6.png",
+      "zoom_5_right_x1.6.png"
+    ],
+    "A52-P02": [
+      "view_0_page_1350.png",
+      "view_1_band.png",
+      "view_2_band.png",
+      "view_3_band.png",
+      "view_4_band.png",
+      "zoom_1_left_x1.6.png",
+      "zoom_1_right_x1.6.png",
+      "zoom_2_left_x1.6.png",
+      "zoom_2_right_x1.6.png",
+      "zoom_3_left_x1.6.png",
+      "zoom_3_right_x1.6.png",
+      "zoom_4_left_x1.6.png",
+      "zoom_4_right_x1.6.png"
+    ]
+  },
+  "uncertain": [
+    "A52-P02: l’abréviation après ‘vornemen:’ ressemble à ‘dz’; résolution incertaine.",
+    "A52-P02: ‘mächer⸗/ley’ comporte un signe suscrit ou une abréviation nasale difficile à distinguer; la forme encodée est provisoire.",
+    "A52-P02: forme exacte du e suscrit de ‘Wegͤ’ et du o suscrit de ‘ſoͤnderlich’ à confirmer sur l’original.",
+    "A52-P02: en-tête, ‘vollkommen’ et quelques oppositions ſ/ß restent des lectures visuelles incertaines."
+  ]
+}

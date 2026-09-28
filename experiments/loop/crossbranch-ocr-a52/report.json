@@ -1,0 +1,4758 @@
+{
+  "schema": "bbvlm.a52-report/1",
+  "experiment_class": "development_cross_branch_replication",
+  "independent": false,
+  "passes": {
+    "luna": 1,
+    "sol_targeted_after_failure": 1
+  },
+  "profiles": {
+    "strict": "NFC exact Unicode",
+    "diplomatic": "documented OCR-D/GT4HistOCR PUA ligature decomposition; long s, punctuation and e-above preserved",
+    "search_v1": "diplomatic + casefold + long-s folding + superscript-e/umlaut equivalence + punctuation/space/hyphen deletion",
+    "retrieval_fold_v1": "accent-insensitive alphanumeric key used only for retrieval/equivalence, never diplomatic truth"
+  },
+  "pages": {
+    "A52-P01": {
+      "luna": {
+        "distributed": {
+          "strict": {
+            "profile": "strict",
+            "reference_characters": 1091,
+            "edits": 32,
+            "cer": 0.02933088909257562,
+            "exact_lines": 19,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "tunés, qui préferent de languir dans l'oiveté",
+                "hyp": "tunés, qui préfèrent de languir dans l'oiſiveté",
+                "edits": 3
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "à gouter les douceurs qu' on trouve à s'inſ-",
+                "hyp": "à goûter les douceurs qu'on trouve à s'inſ-",
+                "edits": 2
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "& pour celui de la ſociété ce fonds  fertile,",
+                "hyp": "& pour celui de la ſociété ce fonds ſi fertile,",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": " merveieux,  capable de produions im-",
+                "hyp": "ſi merveilleux, ſi capable de productions im-",
+                "edits": 8
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "mortees,  digne en un mot des ſoins de",
+                "hyp": "mortelles, ſi digne en un mot des ſoins de",
+                "edits": 4
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 9,
+                "ref": "tout être penſant: &  jamais vous pouviez",
+                "hyp": "tout être penſant: & ſi jamais vous pouviez",
+                "edits": 2
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "bien les lumieres & les bees connoiances",
+                "hyp": "bien les lumières & les belles connoiſſances",
+                "edits": 5
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "phe & prend la place qui lui e deinée.",
+                "hyp": "phe & prend la place qui lui eſt deſtinée.",
+                "edits": 4
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 27,
+                "ref": "connoiances; & les préférences, dont vous",
+                "hyp": "connoiſſances; & les préférences, dont vous",
+                "edits": 2
+              }
+            ]
+          },
+          "diplomatic": {
+            "profile": "diplomatic",
+            "reference_characters": 1105,
+            "edits": 4,
+            "cer": 0.0036199095022624436,
+            "exact_lines": 25,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "tunés, qui préferent de languir dans l'oiſiveté",
+                "hyp": "tunés, qui préfèrent de languir dans l'oiſiveté",
+                "edits": 1
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "à gouter les douceurs qu' on trouve à s'inſ-",
+                "hyp": "à goûter les douceurs qu'on trouve à s'inſ-",
+                "edits": 2
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "bien les lumieres & les belles connoiſſances",
+                "hyp": "bien les lumières & les belles connoiſſances",
+                "edits": 1
+              }
+            ]
+          },
+          "search_v1": {
+            "profile": "search_v1",
+            "reference_characters": 885,
+            "edits": 3,
+            "cer": 0.003389830508474576,
+            "exact_lines": 25,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "tunésquipréferentdelanguirdansloisiveté",
+                "hyp": "tunésquipréfèrentdelanguirdansloisiveté",
+                "edits": 1
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "àgouterlesdouceursquontrouveàsins",
+                "hyp": "àgoûterlesdouceursquontrouveàsins",
+                "edits": 1
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "bienleslumiereslesbellesconnoissances",
+                "hyp": "bienleslumièreslesbellesconnoissances",
+                "edits": 1
+              }
+            ]
+          },
+          "retrieval_fold_v1": {
+            "profile": "retrieval_fold_v1",
+            "reference_characters": 885,
+            "edits": 0,
+            "cer": 0.0,
+            "exact_lines": 28,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": []
+          }
+        },
+        "adjudicated": {
+          "strict": {
+            "profile": "strict",
+            "reference_characters": 1090,
+            "edits": 31,
+            "cer": 0.028440366972477066,
+            "exact_lines": 19,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "tunés, qui préferent de languir dans l'oiveté",
+                "hyp": "tunés, qui préfèrent de languir dans l'oiſiveté",
+                "edits": 3
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "à gouter les douceurs qu'on trouve à s'inſ-",
+                "hyp": "à goûter les douceurs qu'on trouve à s'inſ-",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "& pour celui de la ſociété ce fonds  fertile,",
+                "hyp": "& pour celui de la ſociété ce fonds ſi fertile,",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": " merveieux,  capable de produions im-",
+                "hyp": "ſi merveilleux, ſi capable de productions im-",
+                "edits": 8
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "mortees,  digne en un mot des ſoins de",
+                "hyp": "mortelles, ſi digne en un mot des ſoins de",
+                "edits": 4
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 9,
+                "ref": "tout être penſant: &  jamais vous pouviez",
+                "hyp": "tout être penſant: & ſi jamais vous pouviez",
+                "edits": 2
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "bien les lumieres & les bees connoiances",
+                "hyp": "bien les lumières & les belles connoiſſances",
+                "edits": 5
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "phe & prend la place qui lui e deinée.",
+                "hyp": "phe & prend la place qui lui eſt deſtinée.",
+                "edits": 4
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 27,
+                "ref": "connoiances; & les préférences, dont vous",
+                "hyp": "connoiſſances; & les préférences, dont vous",
+                "edits": 2
+              }
+            ]
+          },
+          "diplomatic": {
+            "profile": "diplomatic",
+            "reference_characters": 1104,
+            "edits": 3,
+            "cer": 0.002717391304347826,
+            "exact_lines": 25,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "tunés, qui préferent de languir dans l'oiſiveté",
+                "hyp": "tunés, qui préfèrent de languir dans l'oiſiveté",
+                "edits": 1
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "à gouter les douceurs qu'on trouve à s'inſ-",
+                "hyp": "à goûter les douceurs qu'on trouve à s'inſ-",
+                "edits": 1
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "bien les lumieres & les belles connoiſſances",
+                "hyp": "bien les lumières & les belles connoiſſances",
+                "edits": 1
+              }
+            ]
+          },
+          "search_v1": {
+            "profile": "search_v1",
+            "reference_characters": 885,
+            "edits": 3,
+            "cer": 0.003389830508474576,
+            "exact_lines": 25,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "tunésquipréferentdelanguirdansloisiveté",
+                "hyp": "tunésquipréfèrentdelanguirdansloisiveté",
+                "edits": 1
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "àgouterlesdouceursquontrouveàsins",
+                "hyp": "àgoûterlesdouceursquontrouveàsins",
+                "edits": 1
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "bienleslumiereslesbellesconnoissances",
+                "hyp": "bienleslumièreslesbellesconnoissances",
+                "edits": 1
+              }
+            ]
+          },
+          "retrieval_fold_v1": {
+            "profile": "retrieval_fold_v1",
+            "reference_characters": 885,
+            "edits": 0,
+            "cer": 0.0,
+            "exact_lines": 28,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": []
+          }
+        }
+      },
+      "opus_o02_A1": {
+        "distributed": {
+          "strict": {
+            "profile": "strict",
+            "reference_characters": 1091,
+            "edits": 29,
+            "cer": 0.026581118240146653,
+            "exact_lines": 19,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "tunés, qui préferent de languir dans l'oiveté",
+                "hyp": "tunés, qui préferent de languir dans l'oiſiveté",
+                "edits": 2
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "à gouter les douceurs qu' on trouve à s'inſ-",
+                "hyp": "à gouter les douceurs qu'on trouve à s'inſ-",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "& pour celui de la ſociété ce fonds  fertile,",
+                "hyp": "& pour celui de la ſociété ce fonds ſi fertile,",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": " merveieux,  capable de produions im-",
+                "hyp": "ſi merveilleux, ſi capable de productions im-",
+                "edits": 8
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "mortees,  digne en un mot des ſoins de",
+                "hyp": "mortelles, ſi digne en un mot des ſoins de",
+                "edits": 4
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 9,
+                "ref": "tout être penſant: &  jamais vous pouviez",
+                "hyp": "tout être penſant: & ſi jamais vous pouviez",
+                "edits": 2
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "bien les lumieres & les bees connoiances",
+                "hyp": "bien les lumieres & les belles connoiſſances",
+                "edits": 4
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "phe & prend la place qui lui e deinée.",
+                "hyp": "phe & prend la place qui lui eſt deſtinée.",
+                "edits": 4
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 27,
+                "ref": "connoiances; & les préférences, dont vous",
+                "hyp": "connoiſſances; & les préférences, dont vous",
+                "edits": 2
+              }
+            ]
+          },
+          "diplomatic": {
+            "profile": "diplomatic",
+            "reference_characters": 1105,
+            "edits": 1,
+            "cer": 0.0009049773755656109,
+            "exact_lines": 27,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "à gouter les douceurs qu' on trouve à s'inſ-",
+                "hyp": "à gouter les douceurs qu'on trouve à s'inſ-",
+                "edits": 1
+              }
+            ]
+          },
+          "search_v1": {
+            "profile": "search_v1",
+            "reference_characters": 885,
+            "edits": 0,
+            "cer": 0.0,
+            "exact_lines": 28,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": []
+          },
+          "retrieval_fold_v1": {
+            "profile": "retrieval_fold_v1",
+            "reference_characters": 885,
+            "edits": 0,
+            "cer": 0.0,
+            "exact_lines": 28,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": []
+          }
+        },
+        "adjudicated": {
+          "strict": {
+            "profile": "strict",
+            "reference_characters": 1090,
+            "edits": 28,
+            "cer": 0.025688073394495414,
+            "exact_lines": 20,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "tunés, qui préferent de languir dans l'oiveté",
+                "hyp": "tunés, qui préferent de languir dans l'oiſiveté",
+                "edits": 2
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "& pour celui de la ſociété ce fonds  fertile,",
+                "hyp": "& pour celui de la ſociété ce fonds ſi fertile,",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": " merveieux,  capable de produions im-",
+                "hyp": "ſi merveilleux, ſi capable de productions im-",
+                "edits": 8
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "mortees,  digne en un mot des ſoins de",
+                "hyp": "mortelles, ſi digne en un mot des ſoins de",
+                "edits": 4
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 9,
+                "ref": "tout être penſant: &  jamais vous pouviez",
+                "hyp": "tout être penſant: & ſi jamais vous pouviez",
+                "edits": 2
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "bien les lumieres & les bees connoiances",
+                "hyp": "bien les lumieres & les belles connoiſſances",
+                "edits": 4
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "phe & prend la place qui lui e deinée.",
+                "hyp": "phe & prend la place qui lui eſt deſtinée.",
+                "edits": 4
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 27,
+                "ref": "connoiances; & les préférences, dont vous",
+                "hyp": "connoiſſances; & les préférences, dont vous",
+                "edits": 2
+              }
+            ]
+          },
+          "diplomatic": {
+            "profile": "diplomatic",
+            "reference_characters": 1104,
+            "edits": 0,
+            "cer": 0.0,
+            "exact_lines": 28,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": []
+          },
+          "search_v1": {
+            "profile": "search_v1",
+            "reference_characters": 885,
+            "edits": 0,
+            "cer": 0.0,
+            "exact_lines": 28,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": []
+          },
+          "retrieval_fold_v1": {
+            "profile": "retrieval_fold_v1",
+            "reference_characters": 885,
+            "edits": 0,
+            "cer": 0.0,
+            "exact_lines": 28,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": []
+          }
+        }
+      },
+      "luna_plus_targeted_sol": {
+        "distributed": {
+          "strict": {
+            "profile": "strict",
+            "reference_characters": 1091,
+            "edits": 34,
+            "cer": 0.031164069660861594,
+            "exact_lines": 19,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "tunés, qui préferent de languir dans l'oiveté",
+                "hyp": "tunés, qui préfèrent de languir dans l’oiſiveté",
+                "edits": 4
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "à gouter les douceurs qu' on trouve à s'inſ-",
+                "hyp": "à goûter les douceurs qu’on trouve à s’inſ-",
+                "edits": 4
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "& pour celui de la ſociété ce fonds  fertile,",
+                "hyp": "& pour celui de la ſociété ce fonds ſi fertile,",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": " merveieux,  capable de produions im-",
+                "hyp": "ſi merveilleux, ſi capable de productions im-",
+                "edits": 8
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "mortees,  digne en un mot des ſoins de",
+                "hyp": "mortelles, ſi digne en un mot des ſoins de",
+                "edits": 4
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 9,
+                "ref": "tout être penſant: &  jamais vous pouviez",
+                "hyp": "tout être penſant: & ſi jamais vous pouviez",
+                "edits": 2
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "bien les lumieres & les bees connoiances",
+                "hyp": "bien les lumieres & les belles connoiſſances",
+                "edits": 4
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "phe & prend la place qui lui e deinée.",
+                "hyp": "phe & prend la place qui lui eſt deſtinée.",
+                "edits": 4
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 27,
+                "ref": "connoiances; & les préférences, dont vous",
+                "hyp": "connoiſſances; & les préférences, dont vous",
+                "edits": 2
+              }
+            ]
+          },
+          "diplomatic": {
+            "profile": "diplomatic",
+            "reference_characters": 1105,
+            "edits": 6,
+            "cer": 0.005429864253393665,
+            "exact_lines": 26,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "tunés, qui préferent de languir dans l'oiſiveté",
+                "hyp": "tunés, qui préfèrent de languir dans l’oiſiveté",
+                "edits": 2
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "à gouter les douceurs qu' on trouve à s'inſ-",
+                "hyp": "à goûter les douceurs qu’on trouve à s’inſ-",
+                "edits": 4
+              }
+            ]
+          },
+          "search_v1": {
+            "profile": "search_v1",
+            "reference_characters": 885,
+            "edits": 2,
+            "cer": 0.0022598870056497176,
+            "exact_lines": 26,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "tunésquipréferentdelanguirdansloisiveté",
+                "hyp": "tunésquipréfèrentdelanguirdansloisiveté",
+                "edits": 1
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "àgouterlesdouceursquontrouveàsins",
+                "hyp": "àgoûterlesdouceursquontrouveàsins",
+                "edits": 1
+              }
+            ]
+          },
+          "retrieval_fold_v1": {
+            "profile": "retrieval_fold_v1",
+            "reference_characters": 885,
+            "edits": 0,
+            "cer": 0.0,
+            "exact_lines": 28,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": []
+          }
+        },
+        "adjudicated": {
+          "strict": {
+            "profile": "strict",
+            "reference_characters": 1090,
+            "edits": 33,
+            "cer": 0.030275229357798167,
+            "exact_lines": 19,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "tunés, qui préferent de languir dans l'oiveté",
+                "hyp": "tunés, qui préfèrent de languir dans l’oiſiveté",
+                "edits": 4
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "à gouter les douceurs qu'on trouve à s'inſ-",
+                "hyp": "à goûter les douceurs qu’on trouve à s’inſ-",
+                "edits": 3
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "& pour celui de la ſociété ce fonds  fertile,",
+                "hyp": "& pour celui de la ſociété ce fonds ſi fertile,",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": " merveieux,  capable de produions im-",
+                "hyp": "ſi merveilleux, ſi capable de productions im-",
+                "edits": 8
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "mortees,  digne en un mot des ſoins de",
+                "hyp": "mortelles, ſi digne en un mot des ſoins de",
+                "edits": 4
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 9,
+                "ref": "tout être penſant: &  jamais vous pouviez",
+                "hyp": "tout être penſant: & ſi jamais vous pouviez",
+                "edits": 2
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "bien les lumieres & les bees connoiances",
+                "hyp": "bien les lumieres & les belles connoiſſances",
+                "edits": 4
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "phe & prend la place qui lui e deinée.",
+                "hyp": "phe & prend la place qui lui eſt deſtinée.",
+                "edits": 4
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 27,
+                "ref": "connoiances; & les préférences, dont vous",
+                "hyp": "connoiſſances; & les préférences, dont vous",
+                "edits": 2
+              }
+            ]
+          },
+          "diplomatic": {
+            "profile": "diplomatic",
+            "reference_characters": 1104,
+            "edits": 5,
+            "cer": 0.004528985507246377,
+            "exact_lines": 26,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "tunés, qui préferent de languir dans l'oiſiveté",
+                "hyp": "tunés, qui préfèrent de languir dans l’oiſiveté",
+                "edits": 2
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "à gouter les douceurs qu'on trouve à s'inſ-",
+                "hyp": "à goûter les douceurs qu’on trouve à s’inſ-",
+                "edits": 3
+              }
+            ]
+          },
+          "search_v1": {
+            "profile": "search_v1",
+            "reference_characters": 885,
+            "edits": 2,
+            "cer": 0.0022598870056497176,
+            "exact_lines": 26,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "tunésquipréferentdelanguirdansloisiveté",
+                "hyp": "tunésquipréfèrentdelanguirdansloisiveté",
+                "edits": 1
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "àgouterlesdouceursquontrouveàsins",
+                "hyp": "àgoûterlesdouceursquontrouveàsins",
+                "edits": 1
+              }
+            ]
+          },
+          "retrieval_fold_v1": {
+            "profile": "retrieval_fold_v1",
+            "reference_characters": 885,
+            "edits": 0,
+            "cer": 0.0,
+            "exact_lines": 28,
+            "reference_lines": 28,
+            "hypothesis_lines": 28,
+            "errors": []
+          }
+        }
+      }
+    },
+    "A52-P02": {
+      "luna": {
+        "distributed": {
+          "strict": {
+            "profile": "strict",
+            "reference_characters": 873,
+            "edits": 139,
+            "cer": 0.15922107674684993,
+            "exact_lines": 1,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "Ere Bu Moſe.",
+                "hyp": "Erſte Buch Moſe.",
+                "edits": 4
+              },
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "i die 10 Gebot wegen des befehls Got⸗",
+                "hyp": "ich die 10 Gebot wegen des befehlß Got⸗",
+                "edits": 3
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tes: J bin der Ametige Gott wan⸗",
+                "hyp": "tes: Ich bin der Allmechtige Gott wan⸗",
+                "edits": 7
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 4,
+                "ref": "dele fr mir vnd ſey from/ ſonderli in",
+                "hyp": "dele für mir vnd sey from, ſonderlich in",
+                "edits": 5
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 5,
+                "ref": "das 3. Wegê des gehorſams Abrahams.",
+                "hyp": "das 3. Wege des gehorsams Abrahams.",
+                "edits": 2
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "Jn das 4. Wegen des exempels der",
+                "hyp": "In das 4. Wegen des exempls der",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "Gottſeligen Hauskiren endtli au",
+                "hyp": "Gottseligenn Haußkirchen endlich auch",
+                "edits": 10
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "zu dem glauben/ weil wir vornemen: dz",
+                "hyp": "zu dem glauben/weil wir vernehmen: daß",
+                "edits": 5
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 9,
+                "ref": "Gott ſeinen in verheiungen war⸗",
+                "hyp": "Gott ſeinen in verheißungen war⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 9,
+                "hyp_index": 10,
+                "ref": "haﬀtig.",
+                "hyp": "hafftig.",
+                "edits": 2
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "Wenn Gott vornewret ſeine ver⸗",
+                "hyp": "Wen Gott vernewert ſeine vor⸗",
+                "edits": 5
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 12,
+                "ref": "heiſung vnd wort/ gilt es aemal eins",
+                "hyp": "heiſchung vnd wort/gilt es allemal eins",
+                "edits": 5
+              },
+              {
+                "ref_index": 12,
+                "hyp_index": 13,
+                "ref": "newen vnnd beern Glaubens Denn",
+                "hyp": "newen vnd beſſern Glaubens. Denn",
+                "edits": 4
+              },
+              {
+                "ref_index": 13,
+                "hyp_index": 14,
+                "ref": "weil wir auﬀ erden nd/ wird keiner ſo",
+                "hyp": "weil wir auff erden ſind/wird keiner ſo",
+                "edits": 5
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "volkommen/ mus immer zunehmen vnd",
+                "hyp": "volkommen/muß immer zunehmen vnd",
+                "edits": 2
+              },
+              {
+                "ref_index": 15,
+                "hyp_index": 16,
+                "ref": "erer werden. Alſo hat Gott dieſen",
+                "hyp": "ſtercker werden. Alſo hat Gott dieſen",
+                "edits": 4
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 17,
+                "ref": "Heiligen Mann immer weiter gefrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 1
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vnd jmmer newe  furgehalten/ ſo",
+                "hyp": "vnd immer newe ſtück fürgehalten/ſo",
+                "edits": 8
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "i er jmmer blieben in einen glauben/",
+                "hyp": "iſt er immer blieben in einen glauben/",
+                "edits": 3
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 20,
+                "ref": "ob wol  die ſae vnd handel mãer⸗",
+                "hyp": "ob wol ſich die sache vnd Handel mäch⸗",
+                "edits": 12
+              },
+              {
+                "ref_index": 20,
+                "hyp_index": 21,
+                "ref": "ley begeben haben/ vmb weler willen",
+                "hyp": "lich begeben haben/vmb welcher willen",
+                "edits": 6
+              },
+              {
+                "ref_index": 21,
+                "hyp_index": 22,
+                "ref": "er das widergibt/ denſelben glauben/",
+                "hyp": "er das widergibt/den ſelben glauben/",
+                "edits": 2
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 23,
+                "ref": "wie geſagt/ no baß zueren/ denn",
+                "hyp": "wie gesagt/noch daß zu ſtercken/denn",
+                "edits": 11
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "glei wie ein heiß eien/ von  ſelb",
+                "hyp": "gleich wie ein heuß eiſſen/won ſich ſelbſt",
+                "edits": 13
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 25,
+                "ref": "erkaltet/ als es auer dem fewr kmpt:",
+                "hyp": "erfalet/als es auſſer dem fewr kömpt:",
+                "edits": 6
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 26,
+                "ref": "Alſo des Menſen Her/ wo Gottes",
+                "hyp": "Alſo des Menſchen Hertz/ vnd Gottes",
+                "edits": 7
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "wer",
+                "edits": 2
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": 27,
+                "ref": "A a",
+                "hyp": "Aa.",
+                "edits": 2
+              }
+            ]
+          },
+          "diplomatic": {
+            "profile": "diplomatic",
+            "reference_characters": 915,
+            "edits": 71,
+            "cer": 0.07759562841530054,
+            "exact_lines": 4,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "ich die 10 Gebot wegen des befehls Got⸗",
+                "hyp": "ich die 10 Gebot wegen des befehlß Got⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tes: Jch bin der Allmechtige Gott wan⸗",
+                "hyp": "tes: Ich bin der Allmechtige Gott wan⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 4,
+                "ref": "dele fuͤr mir vnd ſey from/ ſonderlich in",
+                "hyp": "dele für mir vnd sey from, ſonderlich in",
+                "edits": 4
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 5,
+                "ref": "das 3. Wegê des gehorſams Abrahams.",
+                "hyp": "das 3. Wege des gehorsams Abrahams.",
+                "edits": 2
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "Jn das 4. Wegen des exempels der",
+                "hyp": "In das 4. Wegen des exempls der",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "Gottſeligen Hauskirchen endtlich auch",
+                "hyp": "Gottseligenn Haußkirchen endlich auch",
+                "edits": 4
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "zu dem glauben/ weil wir vornemen: dz",
+                "hyp": "zu dem glauben/weil wir vernehmen: daß",
+                "edits": 5
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 9,
+                "ref": "Gott ſeinen in verheiſſungen war⸗",
+                "hyp": "Gott ſeinen in verheißungen war⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "Wenn Gott vornewret ſeine ver⸗",
+                "hyp": "Wen Gott vernewert ſeine vor⸗",
+                "edits": 5
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 12,
+                "ref": "heiſchung vnd wort/ gilt es allemal eins",
+                "hyp": "heiſchung vnd wort/gilt es allemal eins",
+                "edits": 1
+              },
+              {
+                "ref_index": 12,
+                "hyp_index": 13,
+                "ref": "newen vnnd beſſern Glaubens Denn",
+                "hyp": "newen vnd beſſern Glaubens. Denn",
+                "edits": 2
+              },
+              {
+                "ref_index": 13,
+                "hyp_index": 14,
+                "ref": "weil wir auff erden ſind/ wird keiner ſo",
+                "hyp": "weil wir auff erden ſind/wird keiner ſo",
+                "edits": 1
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "volkommen/ mus immer zunehmen vnd",
+                "hyp": "volkommen/muß immer zunehmen vnd",
+                "edits": 2
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 17,
+                "ref": "Heiligen Mann immer weiter gefuͤrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vnd jmmer newe ſtuͤck furgehalten/ ſo",
+                "hyp": "vnd immer newe ſtück fürgehalten/ſo",
+                "edits": 5
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "iſt er jmmer blieben in einen glauben/",
+                "hyp": "iſt er immer blieben in einen glauben/",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 20,
+                "ref": "ob wol ſich die ſache vnd handel mãcher⸗",
+                "hyp": "ob wol ſich die sache vnd Handel mäch⸗",
+                "edits": 5
+              },
+              {
+                "ref_index": 20,
+                "hyp_index": 21,
+                "ref": "ley begeben haben/ vmb welcher willen",
+                "hyp": "lich begeben haben/vmb welcher willen",
+                "edits": 4
+              },
+              {
+                "ref_index": 21,
+                "hyp_index": 22,
+                "ref": "er das widergibt/ denſelben glauben/",
+                "hyp": "er das widergibt/den ſelben glauben/",
+                "edits": 2
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 23,
+                "ref": "wie geſagt/ noch baß zuſtercken/ denn",
+                "hyp": "wie gesagt/noch daß zu ſtercken/denn",
+                "edits": 5
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "gleich wie ein heiß eiſſen/ von ſich ſelbſt",
+                "hyp": "gleich wie ein heuß eiſſen/won ſich ſelbſt",
+                "edits": 3
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 25,
+                "ref": "erkaltet/ als es auſſer dem fewr koͤmpt:",
+                "hyp": "erfalet/als es auſſer dem fewr kömpt:",
+                "edits": 5
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 26,
+                "ref": "Alſo des Menſchen Hertz/ wo Gottes",
+                "hyp": "Alſo des Menſchen Hertz/ vnd Gottes",
+                "edits": 3
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "wer",
+                "edits": 2
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": 27,
+                "ref": "A a",
+                "hyp": "Aa.",
+                "edits": 2
+              }
+            ]
+          },
+          "search_v1": {
+            "profile": "search_v1",
+            "reference_characters": 752,
+            "edits": 39,
+            "cer": 0.05186170212765957,
+            "exact_lines": 11,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "ichdie10gebotwegendesbefehlsgot",
+                "hyp": "ichdie10gebotwegendesbefehlssgot",
+                "edits": 1
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tesjchbinderallmechtigegottwan",
+                "hyp": "tesichbinderallmechtigegottwan",
+                "edits": 1
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 5,
+                "ref": "das3wegêdesgehorsamsabrahams",
+                "hyp": "das3wegedesgehorsamsabrahams",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "jndas4wegendesexempelsder",
+                "hyp": "indas4wegendesexemplsder",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "gottseligenhauskirchenendtlichauch",
+                "hyp": "gottseligennhausskirchenendlichauch",
+                "edits": 3
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "zudemglaubenweilwirvornemendz",
+                "hyp": "zudemglaubenweilwirvernehmendass",
+                "edits": 5
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "wenngottvornewretseinever",
+                "hyp": "wengottvernewertseinevor",
+                "edits": 5
+              },
+              {
+                "ref_index": 12,
+                "hyp_index": 13,
+                "ref": "newenvnndbessernglaubensdenn",
+                "hyp": "newenvndbessernglaubensdenn",
+                "edits": 1
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "volkommenmusimmerzunehmenvnd",
+                "hyp": "volkommenmussimmerzunehmenvnd",
+                "edits": 1
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vndjmmernewestückfurgehaltenso",
+                "hyp": "vndimmernewestückfürgehaltenso",
+                "edits": 2
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "isterjmmerbliebenineinenglauben",
+                "hyp": "isterimmerbliebenineinenglauben",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 20,
+                "ref": "obwolsichdiesachevndhandelmãcher",
+                "hyp": "obwolsichdiesachevndhandelmäch",
+                "edits": 3
+              },
+              {
+                "ref_index": 20,
+                "hyp_index": 21,
+                "ref": "leybegebenhabenvmbwelcherwillen",
+                "hyp": "lichbegebenhabenvmbwelcherwillen",
+                "edits": 3
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 23,
+                "ref": "wiegesagtnochbasszusterckendenn",
+                "hyp": "wiegesagtnochdasszusterckendenn",
+                "edits": 1
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "gleichwieeinheisseissenvonsichselbst",
+                "hyp": "gleichwieeinheusseissenwonsichselbst",
+                "edits": 2
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 25,
+                "ref": "erkaltetalsesausserdemfewrkömpt",
+                "hyp": "erfaletalsesausserdemfewrkömpt",
+                "edits": 2
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 26,
+                "ref": "alsodesmenschenhertzwogottes",
+                "hyp": "alsodesmenschenhertzvndgottes",
+                "edits": 3
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "wer",
+                "edits": 2
+              }
+            ]
+          },
+          "retrieval_fold_v1": {
+            "profile": "retrieval_fold_v1",
+            "reference_characters": 752,
+            "edits": 36,
+            "cer": 0.047872340425531915,
+            "exact_lines": 12,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "ichdie10gebotwegendesbefehlsgot",
+                "hyp": "ichdie10gebotwegendesbefehlssgot",
+                "edits": 1
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tesjchbinderallmechtigegottwan",
+                "hyp": "tesichbinderallmechtigegottwan",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "jndas4wegendesexempelsder",
+                "hyp": "indas4wegendesexemplsder",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "gottseligenhauskirchenendtlichauch",
+                "hyp": "gottseligennhausskirchenendlichauch",
+                "edits": 3
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "zudemglaubenweilwirvornemendz",
+                "hyp": "zudemglaubenweilwirvernehmendass",
+                "edits": 5
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "wenngottvornewretseinever",
+                "hyp": "wengottvernewertseinevor",
+                "edits": 5
+              },
+              {
+                "ref_index": 12,
+                "hyp_index": 13,
+                "ref": "newenvnndbessernglaubensdenn",
+                "hyp": "newenvndbessernglaubensdenn",
+                "edits": 1
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "volkommenmusimmerzunehmenvnd",
+                "hyp": "volkommenmussimmerzunehmenvnd",
+                "edits": 1
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vndjmmernewestuckfurgehaltenso",
+                "hyp": "vndimmernewestuckfurgehaltenso",
+                "edits": 1
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "isterjmmerbliebenineinenglauben",
+                "hyp": "isterimmerbliebenineinenglauben",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 20,
+                "ref": "obwolsichdiesachevndhandelmacher",
+                "hyp": "obwolsichdiesachevndhandelmach",
+                "edits": 2
+              },
+              {
+                "ref_index": 20,
+                "hyp_index": 21,
+                "ref": "leybegebenhabenvmbwelcherwillen",
+                "hyp": "lichbegebenhabenvmbwelcherwillen",
+                "edits": 3
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 23,
+                "ref": "wiegesagtnochbasszusterckendenn",
+                "hyp": "wiegesagtnochdasszusterckendenn",
+                "edits": 1
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "gleichwieeinheisseissenvonsichselbst",
+                "hyp": "gleichwieeinheusseissenwonsichselbst",
+                "edits": 2
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 25,
+                "ref": "erkaltetalsesausserdemfewrkompt",
+                "hyp": "erfaletalsesausserdemfewrkompt",
+                "edits": 2
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 26,
+                "ref": "alsodesmenschenhertzwogottes",
+                "hyp": "alsodesmenschenhertzvndgottes",
+                "edits": 3
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "wer",
+                "edits": 2
+              }
+            ]
+          }
+        },
+        "adjudicated": {
+          "strict": {
+            "profile": "strict",
+            "reference_characters": 891,
+            "edits": 98,
+            "cer": 0.10998877665544332,
+            "exact_lines": 3,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "i die 10 Gebot wegen des befehls Got⸗",
+                "hyp": "ich die 10 Gebot wegen des befehlß Got⸗",
+                "edits": 3
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tes: Jch bin der Allmechtige Gott wan⸗",
+                "hyp": "tes: Ich bin der Allmechtige Gott wan⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 4,
+                "ref": "dele fuͤr mir vnd ſey from/ ſonderlich in",
+                "hyp": "dele für mir vnd sey from, ſonderlich in",
+                "edits": 4
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 5,
+                "ref": "das 3. Wegẽ des gehorſams Abrahams.",
+                "hyp": "das 3. Wege des gehorsams Abrahams.",
+                "edits": 2
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "Jn das 4. Wegen des exempels der",
+                "hyp": "In das 4. Wegen des exempls der",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "Gottſeligen Hauskiren endtli au",
+                "hyp": "Gottseligenn Haußkirchen endlich auch",
+                "edits": 10
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "zu dem glauben/weil wir vornemen: dz",
+                "hyp": "zu dem glauben/weil wir vernehmen: daß",
+                "edits": 4
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 9,
+                "ref": "Gott ſeinen in verheiungen war⸗",
+                "hyp": "Gott ſeinen in verheißungen war⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 9,
+                "hyp_index": 10,
+                "ref": "haﬀtig.",
+                "hyp": "hafftig.",
+                "edits": 2
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "Wenn Gott vornewret ſeine ver⸗",
+                "hyp": "Wen Gott vernewert ſeine vor⸗",
+                "edits": 5
+              },
+              {
+                "ref_index": 12,
+                "hyp_index": 13,
+                "ref": "newen vnnd beern Glaubens Denn",
+                "hyp": "newen vnd beſſern Glaubens. Denn",
+                "edits": 4
+              },
+              {
+                "ref_index": 13,
+                "hyp_index": 14,
+                "ref": "weil wir auﬀ erden nd/ wird keiner ſo",
+                "hyp": "weil wir auff erden ſind/wird keiner ſo",
+                "edits": 5
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "volkommen/mus immer zunehmen vnd",
+                "hyp": "volkommen/muß immer zunehmen vnd",
+                "edits": 1
+              },
+              {
+                "ref_index": 15,
+                "hyp_index": 16,
+                "ref": "erer werden. Alſo hat Gott dieſen",
+                "hyp": "ſtercker werden. Alſo hat Gott dieſen",
+                "edits": 4
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 17,
+                "ref": "Heiligen Mann immer weiter gefuͤrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vnd jmmer newe ſtuͤck furgehalten/ ſo",
+                "hyp": "vnd immer newe ſtück fürgehalten/ſo",
+                "edits": 5
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "i er jmmer blieben in einen glauben/",
+                "hyp": "iſt er immer blieben in einen glauben/",
+                "edits": 3
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 20,
+                "ref": "ob wol ſich die ſache vnd handel mãcher⸗",
+                "hyp": "ob wol ſich die sache vnd Handel mäch⸗",
+                "edits": 5
+              },
+              {
+                "ref_index": 20,
+                "hyp_index": 21,
+                "ref": "ley begeben haben/ vmb weler willen",
+                "hyp": "lich begeben haben/vmb welcher willen",
+                "edits": 6
+              },
+              {
+                "ref_index": 21,
+                "hyp_index": 22,
+                "ref": "er das widergibt/denſelben glauben/",
+                "hyp": "er das widergibt/den ſelben glauben/",
+                "edits": 1
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 23,
+                "ref": "wie geſagt/ no baß zueren/ denn",
+                "hyp": "wie gesagt/noch daß zu ſtercken/denn",
+                "edits": 11
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "gleich wie ein heiß eiſſen/von ſich ſelbſt",
+                "hyp": "gleich wie ein heuß eiſſen/won ſich ſelbſt",
+                "edits": 2
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 25,
+                "ref": "erkaltet/als es auſſer dem fewr koͤmpt:",
+                "hyp": "erfalet/als es auſſer dem fewr kömpt:",
+                "edits": 4
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 26,
+                "ref": "Alſo des Menſen Her/ wo Gottes",
+                "hyp": "Alſo des Menſchen Hertz/ vnd Gottes",
+                "edits": 7
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "wer",
+                "edits": 2
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": 27,
+                "ref": "A a",
+                "hyp": "Aa.",
+                "edits": 2
+              }
+            ]
+          },
+          "diplomatic": {
+            "profile": "diplomatic",
+            "reference_characters": 909,
+            "edits": 65,
+            "cer": 0.07150715071507151,
+            "exact_lines": 5,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "ich die 10 Gebot wegen des befehls Got⸗",
+                "hyp": "ich die 10 Gebot wegen des befehlß Got⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tes: Jch bin der Allmechtige Gott wan⸗",
+                "hyp": "tes: Ich bin der Allmechtige Gott wan⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 4,
+                "ref": "dele fuͤr mir vnd ſey from/ ſonderlich in",
+                "hyp": "dele für mir vnd sey from, ſonderlich in",
+                "edits": 4
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 5,
+                "ref": "das 3. Wegẽ des gehorſams Abrahams.",
+                "hyp": "das 3. Wege des gehorsams Abrahams.",
+                "edits": 2
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "Jn das 4. Wegen des exempels der",
+                "hyp": "In das 4. Wegen des exempls der",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "Gottſeligen Hauskirchen endtlich auch",
+                "hyp": "Gottseligenn Haußkirchen endlich auch",
+                "edits": 4
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "zu dem glauben/weil wir vornemen: dz",
+                "hyp": "zu dem glauben/weil wir vernehmen: daß",
+                "edits": 4
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 9,
+                "ref": "Gott ſeinen in verheiſſungen war⸗",
+                "hyp": "Gott ſeinen in verheißungen war⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "Wenn Gott vornewret ſeine ver⸗",
+                "hyp": "Wen Gott vernewert ſeine vor⸗",
+                "edits": 5
+              },
+              {
+                "ref_index": 12,
+                "hyp_index": 13,
+                "ref": "newen vnnd beſſern Glaubens Denn",
+                "hyp": "newen vnd beſſern Glaubens. Denn",
+                "edits": 2
+              },
+              {
+                "ref_index": 13,
+                "hyp_index": 14,
+                "ref": "weil wir auff erden ſind/ wird keiner ſo",
+                "hyp": "weil wir auff erden ſind/wird keiner ſo",
+                "edits": 1
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "volkommen/mus immer zunehmen vnd",
+                "hyp": "volkommen/muß immer zunehmen vnd",
+                "edits": 1
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 17,
+                "ref": "Heiligen Mann immer weiter gefuͤrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vnd jmmer newe ſtuͤck furgehalten/ ſo",
+                "hyp": "vnd immer newe ſtück fürgehalten/ſo",
+                "edits": 5
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "iſt er jmmer blieben in einen glauben/",
+                "hyp": "iſt er immer blieben in einen glauben/",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 20,
+                "ref": "ob wol ſich die ſache vnd handel mãcher⸗",
+                "hyp": "ob wol ſich die sache vnd Handel mäch⸗",
+                "edits": 5
+              },
+              {
+                "ref_index": 20,
+                "hyp_index": 21,
+                "ref": "ley begeben haben/ vmb welcher willen",
+                "hyp": "lich begeben haben/vmb welcher willen",
+                "edits": 4
+              },
+              {
+                "ref_index": 21,
+                "hyp_index": 22,
+                "ref": "er das widergibt/denſelben glauben/",
+                "hyp": "er das widergibt/den ſelben glauben/",
+                "edits": 1
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 23,
+                "ref": "wie geſagt/ noch baß zuſtercken/ denn",
+                "hyp": "wie gesagt/noch daß zu ſtercken/denn",
+                "edits": 5
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "gleich wie ein heiß eiſſen/von ſich ſelbſt",
+                "hyp": "gleich wie ein heuß eiſſen/won ſich ſelbſt",
+                "edits": 2
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 25,
+                "ref": "erkaltet/als es auſſer dem fewr koͤmpt:",
+                "hyp": "erfalet/als es auſſer dem fewr kömpt:",
+                "edits": 4
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 26,
+                "ref": "Alſo des Menſchen Hertz/ wo Gottes",
+                "hyp": "Alſo des Menſchen Hertz/ vnd Gottes",
+                "edits": 3
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "wer",
+                "edits": 2
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": 27,
+                "ref": "A a",
+                "hyp": "Aa.",
+                "edits": 2
+              }
+            ]
+          },
+          "search_v1": {
+            "profile": "search_v1",
+            "reference_characters": 752,
+            "edits": 39,
+            "cer": 0.05186170212765957,
+            "exact_lines": 11,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "ichdie10gebotwegendesbefehlsgot",
+                "hyp": "ichdie10gebotwegendesbefehlssgot",
+                "edits": 1
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tesjchbinderallmechtigegottwan",
+                "hyp": "tesichbinderallmechtigegottwan",
+                "edits": 1
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 5,
+                "ref": "das3wegẽdesgehorsamsabrahams",
+                "hyp": "das3wegedesgehorsamsabrahams",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "jndas4wegendesexempelsder",
+                "hyp": "indas4wegendesexemplsder",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "gottseligenhauskirchenendtlichauch",
+                "hyp": "gottseligennhausskirchenendlichauch",
+                "edits": 3
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "zudemglaubenweilwirvornemendz",
+                "hyp": "zudemglaubenweilwirvernehmendass",
+                "edits": 5
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "wenngottvornewretseinever",
+                "hyp": "wengottvernewertseinevor",
+                "edits": 5
+              },
+              {
+                "ref_index": 12,
+                "hyp_index": 13,
+                "ref": "newenvnndbessernglaubensdenn",
+                "hyp": "newenvndbessernglaubensdenn",
+                "edits": 1
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "volkommenmusimmerzunehmenvnd",
+                "hyp": "volkommenmussimmerzunehmenvnd",
+                "edits": 1
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vndjmmernewestückfurgehaltenso",
+                "hyp": "vndimmernewestückfürgehaltenso",
+                "edits": 2
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "isterjmmerbliebenineinenglauben",
+                "hyp": "isterimmerbliebenineinenglauben",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 20,
+                "ref": "obwolsichdiesachevndhandelmãcher",
+                "hyp": "obwolsichdiesachevndhandelmäch",
+                "edits": 3
+              },
+              {
+                "ref_index": 20,
+                "hyp_index": 21,
+                "ref": "leybegebenhabenvmbwelcherwillen",
+                "hyp": "lichbegebenhabenvmbwelcherwillen",
+                "edits": 3
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 23,
+                "ref": "wiegesagtnochbasszusterckendenn",
+                "hyp": "wiegesagtnochdasszusterckendenn",
+                "edits": 1
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "gleichwieeinheisseissenvonsichselbst",
+                "hyp": "gleichwieeinheusseissenwonsichselbst",
+                "edits": 2
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 25,
+                "ref": "erkaltetalsesausserdemfewrkömpt",
+                "hyp": "erfaletalsesausserdemfewrkömpt",
+                "edits": 2
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 26,
+                "ref": "alsodesmenschenhertzwogottes",
+                "hyp": "alsodesmenschenhertzvndgottes",
+                "edits": 3
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "wer",
+                "edits": 2
+              }
+            ]
+          },
+          "retrieval_fold_v1": {
+            "profile": "retrieval_fold_v1",
+            "reference_characters": 752,
+            "edits": 36,
+            "cer": 0.047872340425531915,
+            "exact_lines": 12,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "ichdie10gebotwegendesbefehlsgot",
+                "hyp": "ichdie10gebotwegendesbefehlssgot",
+                "edits": 1
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tesjchbinderallmechtigegottwan",
+                "hyp": "tesichbinderallmechtigegottwan",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "jndas4wegendesexempelsder",
+                "hyp": "indas4wegendesexemplsder",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "gottseligenhauskirchenendtlichauch",
+                "hyp": "gottseligennhausskirchenendlichauch",
+                "edits": 3
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "zudemglaubenweilwirvornemendz",
+                "hyp": "zudemglaubenweilwirvernehmendass",
+                "edits": 5
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "wenngottvornewretseinever",
+                "hyp": "wengottvernewertseinevor",
+                "edits": 5
+              },
+              {
+                "ref_index": 12,
+                "hyp_index": 13,
+                "ref": "newenvnndbessernglaubensdenn",
+                "hyp": "newenvndbessernglaubensdenn",
+                "edits": 1
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "volkommenmusimmerzunehmenvnd",
+                "hyp": "volkommenmussimmerzunehmenvnd",
+                "edits": 1
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vndjmmernewestuckfurgehaltenso",
+                "hyp": "vndimmernewestuckfurgehaltenso",
+                "edits": 1
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "isterjmmerbliebenineinenglauben",
+                "hyp": "isterimmerbliebenineinenglauben",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 20,
+                "ref": "obwolsichdiesachevndhandelmacher",
+                "hyp": "obwolsichdiesachevndhandelmach",
+                "edits": 2
+              },
+              {
+                "ref_index": 20,
+                "hyp_index": 21,
+                "ref": "leybegebenhabenvmbwelcherwillen",
+                "hyp": "lichbegebenhabenvmbwelcherwillen",
+                "edits": 3
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 23,
+                "ref": "wiegesagtnochbasszusterckendenn",
+                "hyp": "wiegesagtnochdasszusterckendenn",
+                "edits": 1
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "gleichwieeinheisseissenvonsichselbst",
+                "hyp": "gleichwieeinheusseissenwonsichselbst",
+                "edits": 2
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 25,
+                "ref": "erkaltetalsesausserdemfewrkompt",
+                "hyp": "erfaletalsesausserdemfewrkompt",
+                "edits": 2
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 26,
+                "ref": "alsodesmenschenhertzwogottes",
+                "hyp": "alsodesmenschenhertzvndgottes",
+                "edits": 3
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "wer",
+                "edits": 2
+              }
+            ]
+          }
+        }
+      },
+      "opus_o02_A1": {
+        "distributed": {
+          "strict": {
+            "profile": "strict",
+            "reference_characters": 873,
+            "edits": 110,
+            "cer": 0.12600229095074456,
+            "exact_lines": 1,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "Ere Bu Moſe.",
+                "hyp": "Erſte Buch Moſe. 188",
+                "edits": 8
+              },
+              {
+                "ref_index": 1,
+                "hyp_index": 1,
+                "ref": "i die 10 Gebot wegen des befehls Got⸗",
+                "hyp": "ich die 10 Gebot wegen des befehls Got⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 2,
+                "ref": "tes: J bin der Ametige Gott wan⸗",
+                "hyp": "tes: Ich bin der Allmechtige Gott wan⸗",
+                "edits": 7
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 3,
+                "ref": "dele fr mir vnd ſey from/ ſonderli in",
+                "hyp": "dele für mir vnd ſey from/ ſonderlich in",
+                "edits": 3
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 4,
+                "ref": "das 3. Wegê des gehorſams Abrahams.",
+                "hyp": "das 3. Wegẽ des gehorſams Abrahams.",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 5,
+                "ref": "Jn das 4. Wegen des exempels der",
+                "hyp": "In das 4. Wegen des exempels der",
+                "edits": 1
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 6,
+                "ref": "Gottſeligen Hauskiren endtli au",
+                "hyp": "Gottſeligen Hauskirchen endtlich auch",
+                "edits": 6
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 7,
+                "ref": "zu dem glauben/ weil wir vornemen: dz",
+                "hyp": "zu dem glauben/weil wir vornemen: dz",
+                "edits": 1
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 8,
+                "ref": "Gott ſeinen in verheiungen war⸗",
+                "hyp": "Gott ſeinen in verheiſſungen war⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 9,
+                "hyp_index": 9,
+                "ref": "haﬀtig.",
+                "hyp": "hafftig.",
+                "edits": 2
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 11,
+                "ref": "heiſung vnd wort/ gilt es aemal eins",
+                "hyp": "heiſchung vnd wort/gilt es allemal eins",
+                "edits": 5
+              },
+              {
+                "ref_index": 12,
+                "hyp_index": 12,
+                "ref": "newen vnnd beern Glaubens Denn",
+                "hyp": "newen vnnd beſſern Glaubens Denn",
+                "edits": 2
+              },
+              {
+                "ref_index": 13,
+                "hyp_index": 13,
+                "ref": "weil wir auﬀ erden nd/ wird keiner ſo",
+                "hyp": "weil wir auff erden ſind/ wird keiner ſo",
+                "edits": 4
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 14,
+                "ref": "volkommen/ mus immer zunehmen vnd",
+                "hyp": "volkommen/mus immer zunehmen vnd",
+                "edits": 1
+              },
+              {
+                "ref_index": 15,
+                "hyp_index": 15,
+                "ref": "erer werden. Alſo hat Gott dieſen",
+                "hyp": "ſtercker werden. Alſo hat Gott dieſen",
+                "edits": 4
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 16,
+                "ref": "Heiligen Mann immer weiter gefrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 1
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 17,
+                "ref": "vnd jmmer newe  furgehalten/ ſo",
+                "hyp": "vnd jmmer newe ſtück furgehalten / ſo",
+                "edits": 6
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 18,
+                "ref": "i er jmmer blieben in einen glauben/",
+                "hyp": "iſt er jmmer blieben in einen glauben /",
+                "edits": 3
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 19,
+                "ref": "ob wol  die ſae vnd handel mãer⸗",
+                "hyp": "ob wol ſich die ſache vnd handel mächer⸗",
+                "edits": 9
+              },
+              {
+                "ref_index": 20,
+                "hyp_index": 20,
+                "ref": "ley begeben haben/ vmb weler willen",
+                "hyp": "ley begeben haben/ vmb welcher willen",
+                "edits": 2
+              },
+              {
+                "ref_index": 21,
+                "hyp_index": 21,
+                "ref": "er das widergibt/ denſelben glauben/",
+                "hyp": "er das widergibt/denſelben glauben /",
+                "edits": 2
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 22,
+                "ref": "wie geſagt/ no baß zueren/ denn",
+                "hyp": "wie geſagt / noch baß zuſtercken / denn",
+                "edits": 8
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 23,
+                "ref": "glei wie ein heiß eien/ von  ſelb",
+                "hyp": "gleich wie ein heiß eiſſen/von ſich ſelbſt",
+                "edits": 11
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 24,
+                "ref": "erkaltet/ als es auer dem fewr kmpt:",
+                "hyp": "erkaltet/als es auſſer dem fewr kömpt:",
+                "edits": 4
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 25,
+                "ref": "Alſo des Menſen Her/ wo Gottes",
+                "hyp": "Alſo des Menſchen Hertz / wo Gottes",
+                "edits": 5
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "Aa wert",
+                "edits": 4
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "A a",
+                "hyp": null,
+                "edits": 3
+              }
+            ]
+          },
+          "diplomatic": {
+            "profile": "diplomatic",
+            "reference_characters": 915,
+            "edits": 38,
+            "cer": 0.041530054644808745,
+            "exact_lines": 9,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "Erſte Buch Moſe.",
+                "hyp": "Erſte Buch Moſe. 188",
+                "edits": 4
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 2,
+                "ref": "tes: Jch bin der Allmechtige Gott wan⸗",
+                "hyp": "tes: Ich bin der Allmechtige Gott wan⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 3,
+                "ref": "dele fuͤr mir vnd ſey from/ ſonderlich in",
+                "hyp": "dele für mir vnd ſey from/ ſonderlich in",
+                "edits": 2
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 4,
+                "ref": "das 3. Wegê des gehorſams Abrahams.",
+                "hyp": "das 3. Wegẽ des gehorſams Abrahams.",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 5,
+                "ref": "Jn das 4. Wegen des exempels der",
+                "hyp": "In das 4. Wegen des exempels der",
+                "edits": 1
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 7,
+                "ref": "zu dem glauben/ weil wir vornemen: dz",
+                "hyp": "zu dem glauben/weil wir vornemen: dz",
+                "edits": 1
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 11,
+                "ref": "heiſchung vnd wort/ gilt es allemal eins",
+                "hyp": "heiſchung vnd wort/gilt es allemal eins",
+                "edits": 1
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 14,
+                "ref": "volkommen/ mus immer zunehmen vnd",
+                "hyp": "volkommen/mus immer zunehmen vnd",
+                "edits": 1
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 16,
+                "ref": "Heiligen Mann immer weiter gefuͤrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 17,
+                "ref": "vnd jmmer newe ſtuͤck furgehalten/ ſo",
+                "hyp": "vnd jmmer newe ſtück furgehalten / ſo",
+                "edits": 3
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 18,
+                "ref": "iſt er jmmer blieben in einen glauben/",
+                "hyp": "iſt er jmmer blieben in einen glauben /",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 19,
+                "ref": "ob wol ſich die ſache vnd handel mãcher⸗",
+                "hyp": "ob wol ſich die ſache vnd handel mächer⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 21,
+                "hyp_index": 21,
+                "ref": "er das widergibt/ denſelben glauben/",
+                "hyp": "er das widergibt/denſelben glauben /",
+                "edits": 2
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 22,
+                "ref": "wie geſagt/ noch baß zuſtercken/ denn",
+                "hyp": "wie geſagt / noch baß zuſtercken / denn",
+                "edits": 2
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 23,
+                "ref": "gleich wie ein heiß eiſſen/ von ſich ſelbſt",
+                "hyp": "gleich wie ein heiß eiſſen/von ſich ſelbſt",
+                "edits": 1
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 24,
+                "ref": "erkaltet/ als es auſſer dem fewr koͤmpt:",
+                "hyp": "erkaltet/als es auſſer dem fewr kömpt:",
+                "edits": 3
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 25,
+                "ref": "Alſo des Menſchen Hertz/ wo Gottes",
+                "hyp": "Alſo des Menſchen Hertz / wo Gottes",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "Aa wert",
+                "edits": 4
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "A a",
+                "hyp": null,
+                "edits": 3
+              }
+            ]
+          },
+          "search_v1": {
+            "profile": "search_v1",
+            "reference_characters": 752,
+            "edits": 15,
+            "cer": 0.0199468085106383,
+            "exact_lines": 21,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "erstebuchmose",
+                "hyp": "erstebuchmose188",
+                "edits": 3
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 2,
+                "ref": "tesjchbinderallmechtigegottwan",
+                "hyp": "tesichbinderallmechtigegottwan",
+                "edits": 1
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 4,
+                "ref": "das3wegêdesgehorsamsabrahams",
+                "hyp": "das3wegẽdesgehorsamsabrahams",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 5,
+                "ref": "jndas4wegendesexempelsder",
+                "hyp": "indas4wegendesexempelsder",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 19,
+                "ref": "obwolsichdiesachevndhandelmãcher",
+                "hyp": "obwolsichdiesachevndhandelmächer",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "aawert",
+                "edits": 3
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "aa",
+                "hyp": null,
+                "edits": 2
+              }
+            ]
+          },
+          "retrieval_fold_v1": {
+            "profile": "retrieval_fold_v1",
+            "reference_characters": 752,
+            "edits": 13,
+            "cer": 0.017287234042553192,
+            "exact_lines": 23,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "erstebuchmose",
+                "hyp": "erstebuchmose188",
+                "edits": 3
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 2,
+                "ref": "tesjchbinderallmechtigegottwan",
+                "hyp": "tesichbinderallmechtigegottwan",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 5,
+                "ref": "jndas4wegendesexempelsder",
+                "hyp": "indas4wegendesexempelsder",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "aawert",
+                "edits": 3
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "aa",
+                "hyp": null,
+                "edits": 2
+              }
+            ]
+          }
+        },
+        "adjudicated": {
+          "strict": {
+            "profile": "strict",
+            "reference_characters": 891,
+            "edits": 67,
+            "cer": 0.07519640852974187,
+            "exact_lines": 6,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "Erſte Buch Moſe.",
+                "hyp": "Erſte Buch Moſe. 188",
+                "edits": 4
+              },
+              {
+                "ref_index": 1,
+                "hyp_index": 1,
+                "ref": "i die 10 Gebot wegen des befehls Got⸗",
+                "hyp": "ich die 10 Gebot wegen des befehls Got⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 2,
+                "ref": "tes: Jch bin der Allmechtige Gott wan⸗",
+                "hyp": "tes: Ich bin der Allmechtige Gott wan⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 3,
+                "ref": "dele fuͤr mir vnd ſey from/ ſonderlich in",
+                "hyp": "dele für mir vnd ſey from/ ſonderlich in",
+                "edits": 2
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 5,
+                "ref": "Jn das 4. Wegen des exempels der",
+                "hyp": "In das 4. Wegen des exempels der",
+                "edits": 1
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 6,
+                "ref": "Gottſeligen Hauskiren endtli au",
+                "hyp": "Gottſeligen Hauskirchen endtlich auch",
+                "edits": 6
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 8,
+                "ref": "Gott ſeinen in verheiungen war⸗",
+                "hyp": "Gott ſeinen in verheiſſungen war⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 9,
+                "hyp_index": 9,
+                "ref": "haﬀtig.",
+                "hyp": "hafftig.",
+                "edits": 2
+              },
+              {
+                "ref_index": 12,
+                "hyp_index": 12,
+                "ref": "newen vnnd beern Glaubens Denn",
+                "hyp": "newen vnnd beſſern Glaubens Denn",
+                "edits": 2
+              },
+              {
+                "ref_index": 13,
+                "hyp_index": 13,
+                "ref": "weil wir auﬀ erden nd/ wird keiner ſo",
+                "hyp": "weil wir auff erden ſind/ wird keiner ſo",
+                "edits": 4
+              },
+              {
+                "ref_index": 15,
+                "hyp_index": 15,
+                "ref": "erer werden. Alſo hat Gott dieſen",
+                "hyp": "ſtercker werden. Alſo hat Gott dieſen",
+                "edits": 4
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 16,
+                "ref": "Heiligen Mann immer weiter gefuͤrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 17,
+                "ref": "vnd jmmer newe ſtuͤck furgehalten/ ſo",
+                "hyp": "vnd jmmer newe ſtück furgehalten / ſo",
+                "edits": 3
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 18,
+                "ref": "i er jmmer blieben in einen glauben/",
+                "hyp": "iſt er jmmer blieben in einen glauben /",
+                "edits": 3
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 19,
+                "ref": "ob wol ſich die ſache vnd handel mãcher⸗",
+                "hyp": "ob wol ſich die ſache vnd handel mächer⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 20,
+                "hyp_index": 20,
+                "ref": "ley begeben haben/ vmb weler willen",
+                "hyp": "ley begeben haben/ vmb welcher willen",
+                "edits": 2
+              },
+              {
+                "ref_index": 21,
+                "hyp_index": 21,
+                "ref": "er das widergibt/denſelben glauben/",
+                "hyp": "er das widergibt/denſelben glauben /",
+                "edits": 1
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 22,
+                "ref": "wie geſagt/ no baß zueren/ denn",
+                "hyp": "wie geſagt / noch baß zuſtercken / denn",
+                "edits": 8
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 24,
+                "ref": "erkaltet/als es auſſer dem fewr koͤmpt:",
+                "hyp": "erkaltet/als es auſſer dem fewr kömpt:",
+                "edits": 2
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 25,
+                "ref": "Alſo des Menſen Her/ wo Gottes",
+                "hyp": "Alſo des Menſchen Hertz / wo Gottes",
+                "edits": 5
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "Aa wert",
+                "edits": 4
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "A a",
+                "hyp": null,
+                "edits": 3
+              }
+            ]
+          },
+          "diplomatic": {
+            "profile": "diplomatic",
+            "reference_characters": 909,
+            "edits": 31,
+            "cer": 0.034103410341034104,
+            "exact_lines": 14,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "Erſte Buch Moſe.",
+                "hyp": "Erſte Buch Moſe. 188",
+                "edits": 4
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 2,
+                "ref": "tes: Jch bin der Allmechtige Gott wan⸗",
+                "hyp": "tes: Ich bin der Allmechtige Gott wan⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 3,
+                "ref": "dele fuͤr mir vnd ſey from/ ſonderlich in",
+                "hyp": "dele für mir vnd ſey from/ ſonderlich in",
+                "edits": 2
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 5,
+                "ref": "Jn das 4. Wegen des exempels der",
+                "hyp": "In das 4. Wegen des exempels der",
+                "edits": 1
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 16,
+                "ref": "Heiligen Mann immer weiter gefuͤrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 17,
+                "ref": "vnd jmmer newe ſtuͤck furgehalten/ ſo",
+                "hyp": "vnd jmmer newe ſtück furgehalten / ſo",
+                "edits": 3
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 18,
+                "ref": "iſt er jmmer blieben in einen glauben/",
+                "hyp": "iſt er jmmer blieben in einen glauben /",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 19,
+                "ref": "ob wol ſich die ſache vnd handel mãcher⸗",
+                "hyp": "ob wol ſich die ſache vnd handel mächer⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 21,
+                "hyp_index": 21,
+                "ref": "er das widergibt/denſelben glauben/",
+                "hyp": "er das widergibt/denſelben glauben /",
+                "edits": 1
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 22,
+                "ref": "wie geſagt/ noch baß zuſtercken/ denn",
+                "hyp": "wie geſagt / noch baß zuſtercken / denn",
+                "edits": 2
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 24,
+                "ref": "erkaltet/als es auſſer dem fewr koͤmpt:",
+                "hyp": "erkaltet/als es auſſer dem fewr kömpt:",
+                "edits": 2
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 25,
+                "ref": "Alſo des Menſchen Hertz/ wo Gottes",
+                "hyp": "Alſo des Menſchen Hertz / wo Gottes",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "Aa wert",
+                "edits": 4
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "A a",
+                "hyp": null,
+                "edits": 3
+              }
+            ]
+          },
+          "search_v1": {
+            "profile": "search_v1",
+            "reference_characters": 752,
+            "edits": 14,
+            "cer": 0.018617021276595744,
+            "exact_lines": 22,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "erstebuchmose",
+                "hyp": "erstebuchmose188",
+                "edits": 3
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 2,
+                "ref": "tesjchbinderallmechtigegottwan",
+                "hyp": "tesichbinderallmechtigegottwan",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 5,
+                "ref": "jndas4wegendesexempelsder",
+                "hyp": "indas4wegendesexempelsder",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 19,
+                "ref": "obwolsichdiesachevndhandelmãcher",
+                "hyp": "obwolsichdiesachevndhandelmächer",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "aawert",
+                "edits": 3
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "aa",
+                "hyp": null,
+                "edits": 2
+              }
+            ]
+          },
+          "retrieval_fold_v1": {
+            "profile": "retrieval_fold_v1",
+            "reference_characters": 752,
+            "edits": 13,
+            "cer": 0.017287234042553192,
+            "exact_lines": 23,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "erstebuchmose",
+                "hyp": "erstebuchmose188",
+                "edits": 3
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 2,
+                "ref": "tesjchbinderallmechtigegottwan",
+                "hyp": "tesichbinderallmechtigegottwan",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 5,
+                "ref": "jndas4wegendesexempelsder",
+                "hyp": "indas4wegendesexempelsder",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "aawert",
+                "edits": 3
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "aa",
+                "hyp": null,
+                "edits": 2
+              }
+            ]
+          }
+        }
+      },
+      "opus_o02_A2": {
+        "distributed": {
+          "strict": {
+            "profile": "strict",
+            "reference_characters": 873,
+            "edits": 97,
+            "cer": 0.1111111111111111,
+            "exact_lines": 5,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "Ere Bu Moſe.",
+                "hyp": "Erſte Buch Moſe. 188",
+                "edits": 8
+              },
+              {
+                "ref_index": 1,
+                "hyp_index": 1,
+                "ref": "i die 10 Gebot wegen des befehls Got⸗",
+                "hyp": "ich die 10 Gebot wegen des befehls Got⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 2,
+                "ref": "tes: J bin der Ametige Gott wan⸗",
+                "hyp": "tes: Jch bin der Allmechtige Gott wan⸗",
+                "edits": 6
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 3,
+                "ref": "dele fr mir vnd ſey from/ ſonderli in",
+                "hyp": "dele für mir vnd ſey from/ ſonderlich in",
+                "edits": 3
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 4,
+                "ref": "das 3. Wegê des gehorſams Abrahams.",
+                "hyp": "das 3. Wegẽ des gehorſams Abrahams.",
+                "edits": 1
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 6,
+                "ref": "Gottſeligen Hauskiren endtli au",
+                "hyp": "Gottſeligen Hauskirchen endtlich auch",
+                "edits": 6
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 8,
+                "ref": "Gott ſeinen in verheiungen war⸗",
+                "hyp": "Gott ſeinen in verheiſſungen war⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 9,
+                "hyp_index": 9,
+                "ref": "haﬀtig.",
+                "hyp": "hafftig.",
+                "edits": 2
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 11,
+                "ref": "heiſung vnd wort/ gilt es aemal eins",
+                "hyp": "heiſchung vnd wort/ gilt es allemal eins",
+                "edits": 4
+              },
+              {
+                "ref_index": 12,
+                "hyp_index": 12,
+                "ref": "newen vnnd beern Glaubens Denn",
+                "hyp": "newen vnnd beſſern Glaubens Denn",
+                "edits": 2
+              },
+              {
+                "ref_index": 13,
+                "hyp_index": 13,
+                "ref": "weil wir auﬀ erden nd/ wird keiner ſo",
+                "hyp": "weil wir auff erden ſind/ wird keiner ſo",
+                "edits": 4
+              },
+              {
+                "ref_index": 15,
+                "hyp_index": 15,
+                "ref": "erer werden. Alſo hat Gott dieſen",
+                "hyp": "ſtercker werden. Alſo hat Gott dieſen",
+                "edits": 4
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 16,
+                "ref": "Heiligen Mann immer weiter gefrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 1
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 17,
+                "ref": "vnd jmmer newe  furgehalten/ ſo",
+                "hyp": "vnd jmmer newe ſtück furgehalten/ ſo",
+                "edits": 5
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 18,
+                "ref": "i er jmmer blieben in einen glauben/",
+                "hyp": "iſt er jmmer blieben in einen glauben/",
+                "edits": 2
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 19,
+                "ref": "ob wol  die ſae vnd handel mãer⸗",
+                "hyp": "ob wol ſich die ſache vnd handel mächer⸗",
+                "edits": 9
+              },
+              {
+                "ref_index": 20,
+                "hyp_index": 20,
+                "ref": "ley begeben haben/ vmb weler willen",
+                "hyp": "ley begeben haben/ vmb welcher willen",
+                "edits": 2
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 22,
+                "ref": "wie geſagt/ no baß zueren/ denn",
+                "hyp": "wie geſagt/ noch baß zuſtercken/ denn",
+                "edits": 6
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 23,
+                "ref": "glei wie ein heiß eien/ von  ſelb",
+                "hyp": "gleich wie ein heiß eiſſen/ von ſich ſelbſt",
+                "edits": 10
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 24,
+                "ref": "erkaltet/ als es auer dem fewr kmpt:",
+                "hyp": "erkaltet/ als es auſſer dem fewr koͤmpt:",
+                "edits": 4
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 25,
+                "ref": "Alſo des Menſen Her/ wo Gottes",
+                "hyp": "Alſo des Menſchen Hertz/ wo Gottes",
+                "edits": 4
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "A a wort",
+                "edits": 4
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "A a",
+                "hyp": null,
+                "edits": 3
+              }
+            ]
+          },
+          "diplomatic": {
+            "profile": "diplomatic",
+            "reference_characters": 915,
+            "edits": 22,
+            "cer": 0.024043715846994537,
+            "exact_lines": 20,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "Erſte Buch Moſe.",
+                "hyp": "Erſte Buch Moſe. 188",
+                "edits": 4
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 3,
+                "ref": "dele fuͤr mir vnd ſey from/ ſonderlich in",
+                "hyp": "dele für mir vnd ſey from/ ſonderlich in",
+                "edits": 2
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 4,
+                "ref": "das 3. Wegê des gehorſams Abrahams.",
+                "hyp": "das 3. Wegẽ des gehorſams Abrahams.",
+                "edits": 1
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 16,
+                "ref": "Heiligen Mann immer weiter gefuͤrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 17,
+                "ref": "vnd jmmer newe ſtuͤck furgehalten/ ſo",
+                "hyp": "vnd jmmer newe ſtück furgehalten/ ſo",
+                "edits": 2
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 19,
+                "ref": "ob wol ſich die ſache vnd handel mãcher⸗",
+                "hyp": "ob wol ſich die ſache vnd handel mächer⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "A a wort",
+                "edits": 4
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "A a",
+                "hyp": null,
+                "edits": 3
+              }
+            ]
+          },
+          "search_v1": {
+            "profile": "search_v1",
+            "reference_characters": 752,
+            "edits": 12,
+            "cer": 0.015957446808510637,
+            "exact_lines": 23,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "erstebuchmose",
+                "hyp": "erstebuchmose188",
+                "edits": 3
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 4,
+                "ref": "das3wegêdesgehorsamsabrahams",
+                "hyp": "das3wegẽdesgehorsamsabrahams",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 19,
+                "ref": "obwolsichdiesachevndhandelmãcher",
+                "hyp": "obwolsichdiesachevndhandelmächer",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "aawort",
+                "edits": 2
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "aa",
+                "hyp": null,
+                "edits": 2
+              }
+            ]
+          },
+          "retrieval_fold_v1": {
+            "profile": "retrieval_fold_v1",
+            "reference_characters": 752,
+            "edits": 10,
+            "cer": 0.013297872340425532,
+            "exact_lines": 25,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "erstebuchmose",
+                "hyp": "erstebuchmose188",
+                "edits": 3
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "aawort",
+                "edits": 2
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "aa",
+                "hyp": null,
+                "edits": 2
+              }
+            ]
+          }
+        },
+        "adjudicated": {
+          "strict": {
+            "profile": "strict",
+            "reference_characters": 891,
+            "edits": 63,
+            "cer": 0.0707070707070707,
+            "exact_lines": 4,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "Erſte Buch Moſe.",
+                "hyp": "Erſte Buch Moſe. 188",
+                "edits": 4
+              },
+              {
+                "ref_index": 1,
+                "hyp_index": 1,
+                "ref": "i die 10 Gebot wegen des befehls Got⸗",
+                "hyp": "ich die 10 Gebot wegen des befehls Got⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 3,
+                "ref": "dele fuͤr mir vnd ſey from/ ſonderlich in",
+                "hyp": "dele für mir vnd ſey from/ ſonderlich in",
+                "edits": 2
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 6,
+                "ref": "Gottſeligen Hauskiren endtli au",
+                "hyp": "Gottſeligen Hauskirchen endtlich auch",
+                "edits": 6
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 7,
+                "ref": "zu dem glauben/weil wir vornemen: dz",
+                "hyp": "zu dem glauben/ weil wir vornemen: dz",
+                "edits": 1
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 8,
+                "ref": "Gott ſeinen in verheiungen war⸗",
+                "hyp": "Gott ſeinen in verheiſſungen war⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 9,
+                "hyp_index": 9,
+                "ref": "haﬀtig.",
+                "hyp": "hafftig.",
+                "edits": 2
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 11,
+                "ref": "heiſchung vnd wort/gilt es allemal eins",
+                "hyp": "heiſchung vnd wort/ gilt es allemal eins",
+                "edits": 1
+              },
+              {
+                "ref_index": 12,
+                "hyp_index": 12,
+                "ref": "newen vnnd beern Glaubens Denn",
+                "hyp": "newen vnnd beſſern Glaubens Denn",
+                "edits": 2
+              },
+              {
+                "ref_index": 13,
+                "hyp_index": 13,
+                "ref": "weil wir auﬀ erden nd/ wird keiner ſo",
+                "hyp": "weil wir auff erden ſind/ wird keiner ſo",
+                "edits": 4
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 14,
+                "ref": "volkommen/mus immer zunehmen vnd",
+                "hyp": "volkommen/ mus immer zunehmen vnd",
+                "edits": 1
+              },
+              {
+                "ref_index": 15,
+                "hyp_index": 15,
+                "ref": "erer werden. Alſo hat Gott dieſen",
+                "hyp": "ſtercker werden. Alſo hat Gott dieſen",
+                "edits": 4
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 16,
+                "ref": "Heiligen Mann immer weiter gefuͤrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 17,
+                "ref": "vnd jmmer newe ſtuͤck furgehalten/ ſo",
+                "hyp": "vnd jmmer newe ſtück furgehalten/ ſo",
+                "edits": 2
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 18,
+                "ref": "i er jmmer blieben in einen glauben/",
+                "hyp": "iſt er jmmer blieben in einen glauben/",
+                "edits": 2
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 19,
+                "ref": "ob wol ſich die ſache vnd handel mãcher⸗",
+                "hyp": "ob wol ſich die ſache vnd handel mächer⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 20,
+                "hyp_index": 20,
+                "ref": "ley begeben haben/ vmb weler willen",
+                "hyp": "ley begeben haben/ vmb welcher willen",
+                "edits": 2
+              },
+              {
+                "ref_index": 21,
+                "hyp_index": 21,
+                "ref": "er das widergibt/denſelben glauben/",
+                "hyp": "er das widergibt/ denſelben glauben/",
+                "edits": 1
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 22,
+                "ref": "wie geſagt/ no baß zueren/ denn",
+                "hyp": "wie geſagt/ noch baß zuſtercken/ denn",
+                "edits": 6
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 23,
+                "ref": "gleich wie ein heiß eiſſen/von ſich ſelbſt",
+                "hyp": "gleich wie ein heiß eiſſen/ von ſich ſelbſt",
+                "edits": 1
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 24,
+                "ref": "erkaltet/als es auſſer dem fewr koͤmpt:",
+                "hyp": "erkaltet/ als es auſſer dem fewr koͤmpt:",
+                "edits": 1
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 25,
+                "ref": "Alſo des Menſen Her/ wo Gottes",
+                "hyp": "Alſo des Menſchen Hertz/ wo Gottes",
+                "edits": 4
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "A a wort",
+                "edits": 4
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "A a",
+                "hyp": null,
+                "edits": 3
+              }
+            ]
+          },
+          "diplomatic": {
+            "profile": "diplomatic",
+            "reference_characters": 909,
+            "edits": 27,
+            "cer": 0.0297029702970297,
+            "exact_lines": 15,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "Erſte Buch Moſe.",
+                "hyp": "Erſte Buch Moſe. 188",
+                "edits": 4
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 3,
+                "ref": "dele fuͤr mir vnd ſey from/ ſonderlich in",
+                "hyp": "dele für mir vnd ſey from/ ſonderlich in",
+                "edits": 2
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 7,
+                "ref": "zu dem glauben/weil wir vornemen: dz",
+                "hyp": "zu dem glauben/ weil wir vornemen: dz",
+                "edits": 1
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 11,
+                "ref": "heiſchung vnd wort/gilt es allemal eins",
+                "hyp": "heiſchung vnd wort/ gilt es allemal eins",
+                "edits": 1
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 14,
+                "ref": "volkommen/mus immer zunehmen vnd",
+                "hyp": "volkommen/ mus immer zunehmen vnd",
+                "edits": 1
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 16,
+                "ref": "Heiligen Mann immer weiter gefuͤrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 17,
+                "ref": "vnd jmmer newe ſtuͤck furgehalten/ ſo",
+                "hyp": "vnd jmmer newe ſtück furgehalten/ ſo",
+                "edits": 2
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 19,
+                "ref": "ob wol ſich die ſache vnd handel mãcher⸗",
+                "hyp": "ob wol ſich die ſache vnd handel mächer⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 21,
+                "hyp_index": 21,
+                "ref": "er das widergibt/denſelben glauben/",
+                "hyp": "er das widergibt/ denſelben glauben/",
+                "edits": 1
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 23,
+                "ref": "gleich wie ein heiß eiſſen/von ſich ſelbſt",
+                "hyp": "gleich wie ein heiß eiſſen/ von ſich ſelbſt",
+                "edits": 1
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 24,
+                "ref": "erkaltet/als es auſſer dem fewr koͤmpt:",
+                "hyp": "erkaltet/ als es auſſer dem fewr koͤmpt:",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "A a wort",
+                "edits": 4
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "A a",
+                "hyp": null,
+                "edits": 3
+              }
+            ]
+          },
+          "search_v1": {
+            "profile": "search_v1",
+            "reference_characters": 752,
+            "edits": 11,
+            "cer": 0.014627659574468085,
+            "exact_lines": 24,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "erstebuchmose",
+                "hyp": "erstebuchmose188",
+                "edits": 3
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 19,
+                "ref": "obwolsichdiesachevndhandelmãcher",
+                "hyp": "obwolsichdiesachevndhandelmächer",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "aawort",
+                "edits": 2
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "aa",
+                "hyp": null,
+                "edits": 2
+              }
+            ]
+          },
+          "retrieval_fold_v1": {
+            "profile": "retrieval_fold_v1",
+            "reference_characters": 752,
+            "edits": 10,
+            "cer": 0.013297872340425532,
+            "exact_lines": 25,
+            "reference_lines": 29,
+            "hypothesis_lines": 27,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "erstebuchmose",
+                "hyp": "erstebuchmose188",
+                "edits": 3
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 26,
+                "ref": "wort",
+                "hyp": "aawort",
+                "edits": 2
+              },
+              {
+                "ref_index": 27,
+                "hyp_index": null,
+                "ref": "188",
+                "hyp": null,
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": null,
+                "ref": "aa",
+                "hyp": null,
+                "edits": 2
+              }
+            ]
+          }
+        }
+      },
+      "luna_plus_targeted_sol": {
+        "distributed": {
+          "strict": {
+            "profile": "strict",
+            "reference_characters": 873,
+            "edits": 109,
+            "cer": 0.12485681557846506,
+            "exact_lines": 1,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 0,
+                "hyp_index": 0,
+                "ref": "Ere Bu Moſe.",
+                "hyp": "Erſte Buch Moſe.",
+                "edits": 4
+              },
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "i die 10 Gebot wegen des befehls Got⸗",
+                "hyp": "ich die 10 Gebot wegen des befehls Got⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tes: J bin der Ametige Gott wan⸗",
+                "hyp": "tes: Ich bin der Allmechtige Gott war⸗",
+                "edits": 8
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 4,
+                "ref": "dele fr mir vnd ſey from/ ſonderli in",
+                "hyp": "dele für mir vnd ſey from/ſoͤnderlich in",
+                "edits": 5
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 5,
+                "ref": "das 3. Wegê des gehorſams Abrahams.",
+                "hyp": "das 3. Wegͤ des gehorſams Abrahams.",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "Jn das 4. Wegen des exempels der",
+                "hyp": "In das 4. Wegen des exempels der",
+                "edits": 1
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "Gottſeligen Hauskiren endtli au",
+                "hyp": "Gottſeligen Hauskirchen endlich auch",
+                "edits": 7
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "zu dem glauben/ weil wir vornemen: dz",
+                "hyp": "zu dem glauben/weil wir vornemen: dz",
+                "edits": 1
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 9,
+                "ref": "Gott ſeinen in verheiungen war⸗",
+                "hyp": "Gott ſeinen in verheißungen war⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 9,
+                "hyp_index": 10,
+                "ref": "haﬀtig.",
+                "hyp": "hafftig.",
+                "edits": 2
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "Wenn Gott vornewret ſeine ver⸗",
+                "hyp": "Wenn Gott vormehret ſeine ver⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 12,
+                "ref": "heiſung vnd wort/ gilt es aemal eins",
+                "hyp": "heißung vnd wort/gilt es allemal eins",
+                "edits": 5
+              },
+              {
+                "ref_index": 12,
+                "hyp_index": 13,
+                "ref": "newen vnnd beern Glaubens Denn",
+                "hyp": "newen vnnd beſſern Glaubens Denn",
+                "edits": 2
+              },
+              {
+                "ref_index": 13,
+                "hyp_index": 14,
+                "ref": "weil wir auﬀ erden nd/ wird keiner ſo",
+                "hyp": "weil wir auff erden ſind/wird keiner ſo",
+                "edits": 5
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "volkommen/ mus immer zunehmen vnd",
+                "hyp": "volkommen/mus immer zunehmen vnd",
+                "edits": 1
+              },
+              {
+                "ref_index": 15,
+                "hyp_index": 16,
+                "ref": "erer werden. Alſo hat Gott dieſen",
+                "hyp": "ſtercker werden. Alſo hat Gott dieſen",
+                "edits": 4
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 17,
+                "ref": "Heiligen Mann immer weiter gefrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 1
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vnd jmmer newe  furgehalten/ ſo",
+                "hyp": "vnd immer newe ſtück fürgehalten/ſo",
+                "edits": 8
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "i er jmmer blieben in einen glauben/",
+                "hyp": "iſt er immer blieben in einen glauben/",
+                "edits": 3
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 20,
+                "ref": "ob wol  die ſae vnd handel mãer⸗",
+                "hyp": "ob wol ſich die ſache vnd handel mächer⸗",
+                "edits": 9
+              },
+              {
+                "ref_index": 20,
+                "hyp_index": 21,
+                "ref": "ley begeben haben/ vmb weler willen",
+                "hyp": "ley begeben haben/ vmb welcher willen",
+                "edits": 2
+              },
+              {
+                "ref_index": 21,
+                "hyp_index": 22,
+                "ref": "er das widergibt/ denſelben glauben/",
+                "hyp": "er das widergibt/denſelben glauben /",
+                "edits": 2
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 23,
+                "ref": "wie geſagt/ no baß zueren/ denn",
+                "hyp": "wie geſagt / noch baß zuſtercken / denn",
+                "edits": 8
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "glei wie ein heiß eien/ von  ſelb",
+                "hyp": "gleich wie ein heiß eiſſen/von ſich ſelbſt",
+                "edits": 11
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 25,
+                "ref": "erkaltet/ als es auer dem fewr kmpt:",
+                "hyp": "erkaltet/als es auſſer dem fewr kömpt:",
+                "edits": 4
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 26,
+                "ref": "Alſo des Menſen Her/ wo Gottes",
+                "hyp": "Alſo des Menſchen Hertz / wo Gottes",
+                "edits": 5
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "werck",
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": 27,
+                "ref": "A a",
+                "hyp": "Aa.",
+                "edits": 2
+              }
+            ]
+          },
+          "diplomatic": {
+            "profile": "diplomatic",
+            "reference_characters": 915,
+            "edits": 43,
+            "cer": 0.046994535519125684,
+            "exact_lines": 7,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tes: Jch bin der Allmechtige Gott wan⸗",
+                "hyp": "tes: Ich bin der Allmechtige Gott war⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 4,
+                "ref": "dele fuͤr mir vnd ſey from/ ſonderlich in",
+                "hyp": "dele für mir vnd ſey from/ſoͤnderlich in",
+                "edits": 4
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 5,
+                "ref": "das 3. Wegê des gehorſams Abrahams.",
+                "hyp": "das 3. Wegͤ des gehorſams Abrahams.",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "Jn das 4. Wegen des exempels der",
+                "hyp": "In das 4. Wegen des exempels der",
+                "edits": 1
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "Gottſeligen Hauskirchen endtlich auch",
+                "hyp": "Gottſeligen Hauskirchen endlich auch",
+                "edits": 1
+              },
+              {
+                "ref_index": 7,
+                "hyp_index": 8,
+                "ref": "zu dem glauben/ weil wir vornemen: dz",
+                "hyp": "zu dem glauben/weil wir vornemen: dz",
+                "edits": 1
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 9,
+                "ref": "Gott ſeinen in verheiſſungen war⸗",
+                "hyp": "Gott ſeinen in verheißungen war⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "Wenn Gott vornewret ſeine ver⸗",
+                "hyp": "Wenn Gott vormehret ſeine ver⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 12,
+                "ref": "heiſchung vnd wort/ gilt es allemal eins",
+                "hyp": "heißung vnd wort/gilt es allemal eins",
+                "edits": 4
+              },
+              {
+                "ref_index": 13,
+                "hyp_index": 14,
+                "ref": "weil wir auff erden ſind/ wird keiner ſo",
+                "hyp": "weil wir auff erden ſind/wird keiner ſo",
+                "edits": 1
+              },
+              {
+                "ref_index": 14,
+                "hyp_index": 15,
+                "ref": "volkommen/ mus immer zunehmen vnd",
+                "hyp": "volkommen/mus immer zunehmen vnd",
+                "edits": 1
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 17,
+                "ref": "Heiligen Mann immer weiter gefuͤrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vnd jmmer newe ſtuͤck furgehalten/ ſo",
+                "hyp": "vnd immer newe ſtück fürgehalten/ſo",
+                "edits": 5
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "iſt er jmmer blieben in einen glauben/",
+                "hyp": "iſt er immer blieben in einen glauben/",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 20,
+                "ref": "ob wol ſich die ſache vnd handel mãcher⸗",
+                "hyp": "ob wol ſich die ſache vnd handel mächer⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 21,
+                "hyp_index": 22,
+                "ref": "er das widergibt/ denſelben glauben/",
+                "hyp": "er das widergibt/denſelben glauben /",
+                "edits": 2
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 23,
+                "ref": "wie geſagt/ noch baß zuſtercken/ denn",
+                "hyp": "wie geſagt / noch baß zuſtercken / denn",
+                "edits": 2
+              },
+              {
+                "ref_index": 23,
+                "hyp_index": 24,
+                "ref": "gleich wie ein heiß eiſſen/ von ſich ſelbſt",
+                "hyp": "gleich wie ein heiß eiſſen/von ſich ſelbſt",
+                "edits": 1
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 25,
+                "ref": "erkaltet/ als es auſſer dem fewr koͤmpt:",
+                "hyp": "erkaltet/als es auſſer dem fewr kömpt:",
+                "edits": 3
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 26,
+                "ref": "Alſo des Menſchen Hertz/ wo Gottes",
+                "hyp": "Alſo des Menſchen Hertz / wo Gottes",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "werck",
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": 27,
+                "ref": "A a",
+                "hyp": "Aa.",
+                "edits": 2
+              }
+            ]
+          },
+          "search_v1": {
+            "profile": "search_v1",
+            "reference_characters": 752,
+            "edits": 17,
+            "cer": 0.022606382978723406,
+            "exact_lines": 18,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tesjchbinderallmechtigegottwan",
+                "hyp": "tesichbinderallmechtigegottwar",
+                "edits": 2
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 4,
+                "ref": "delefürmirvndseyfromsonderlichin",
+                "hyp": "delefürmirvndseyfromsönderlichin",
+                "edits": 1
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 5,
+                "ref": "das3wegêdesgehorsamsabrahams",
+                "hyp": "das3wegͤdesgehorsamsabrahams",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "jndas4wegendesexempelsder",
+                "hyp": "indas4wegendesexempelsder",
+                "edits": 1
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "gottseligenhauskirchenendtlichauch",
+                "hyp": "gottseligenhauskirchenendlichauch",
+                "edits": 1
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "wenngottvornewretseinever",
+                "hyp": "wenngottvormehretseinever",
+                "edits": 2
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 12,
+                "ref": "heischungvndwortgiltesallemaleins",
+                "hyp": "heissungvndwortgiltesallemaleins",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vndjmmernewestückfurgehaltenso",
+                "hyp": "vndimmernewestückfürgehaltenso",
+                "edits": 2
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "isterjmmerbliebenineinenglauben",
+                "hyp": "isterimmerbliebenineinenglauben",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 20,
+                "ref": "obwolsichdiesachevndhandelmãcher",
+                "hyp": "obwolsichdiesachevndhandelmächer",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "werck",
+                "edits": 3
+              }
+            ]
+          },
+          "retrieval_fold_v1": {
+            "profile": "retrieval_fold_v1",
+            "reference_characters": 752,
+            "edits": 14,
+            "cer": 0.018617021276595744,
+            "exact_lines": 20,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tesjchbinderallmechtigegottwan",
+                "hyp": "tesichbinderallmechtigegottwar",
+                "edits": 2
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 5,
+                "ref": "das3wegedesgehorsamsabrahams",
+                "hyp": "das3wegdesgehorsamsabrahams",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "jndas4wegendesexempelsder",
+                "hyp": "indas4wegendesexempelsder",
+                "edits": 1
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "gottseligenhauskirchenendtlichauch",
+                "hyp": "gottseligenhauskirchenendlichauch",
+                "edits": 1
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "wenngottvornewretseinever",
+                "hyp": "wenngottvormehretseinever",
+                "edits": 2
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 12,
+                "ref": "heischungvndwortgiltesallemaleins",
+                "hyp": "heissungvndwortgiltesallemaleins",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vndjmmernewestuckfurgehaltenso",
+                "hyp": "vndimmernewestuckfurgehaltenso",
+                "edits": 1
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "isterjmmerbliebenineinenglauben",
+                "hyp": "isterimmerbliebenineinenglauben",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "werck",
+                "edits": 3
+              }
+            ]
+          }
+        },
+        "adjudicated": {
+          "strict": {
+            "profile": "strict",
+            "reference_characters": 891,
+            "edits": 70,
+            "cer": 0.07856341189674523,
+            "exact_lines": 5,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 1,
+                "hyp_index": 2,
+                "ref": "i die 10 Gebot wegen des befehls Got⸗",
+                "hyp": "ich die 10 Gebot wegen des befehls Got⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tes: Jch bin der Allmechtige Gott wan⸗",
+                "hyp": "tes: Ich bin der Allmechtige Gott war⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 4,
+                "ref": "dele fuͤr mir vnd ſey from/ ſonderlich in",
+                "hyp": "dele für mir vnd ſey from/ſoͤnderlich in",
+                "edits": 4
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 5,
+                "ref": "das 3. Wegẽ des gehorſams Abrahams.",
+                "hyp": "das 3. Wegͤ des gehorſams Abrahams.",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "Jn das 4. Wegen des exempels der",
+                "hyp": "In das 4. Wegen des exempels der",
+                "edits": 1
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "Gottſeligen Hauskiren endtli au",
+                "hyp": "Gottſeligen Hauskirchen endlich auch",
+                "edits": 7
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 9,
+                "ref": "Gott ſeinen in verheiungen war⸗",
+                "hyp": "Gott ſeinen in verheißungen war⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 9,
+                "hyp_index": 10,
+                "ref": "haﬀtig.",
+                "hyp": "hafftig.",
+                "edits": 2
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "Wenn Gott vornewret ſeine ver⸗",
+                "hyp": "Wenn Gott vormehret ſeine ver⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 12,
+                "ref": "heiſchung vnd wort/gilt es allemal eins",
+                "hyp": "heißung vnd wort/gilt es allemal eins",
+                "edits": 3
+              },
+              {
+                "ref_index": 12,
+                "hyp_index": 13,
+                "ref": "newen vnnd beern Glaubens Denn",
+                "hyp": "newen vnnd beſſern Glaubens Denn",
+                "edits": 2
+              },
+              {
+                "ref_index": 13,
+                "hyp_index": 14,
+                "ref": "weil wir auﬀ erden nd/ wird keiner ſo",
+                "hyp": "weil wir auff erden ſind/wird keiner ſo",
+                "edits": 5
+              },
+              {
+                "ref_index": 15,
+                "hyp_index": 16,
+                "ref": "erer werden. Alſo hat Gott dieſen",
+                "hyp": "ſtercker werden. Alſo hat Gott dieſen",
+                "edits": 4
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 17,
+                "ref": "Heiligen Mann immer weiter gefuͤrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vnd jmmer newe ſtuͤck furgehalten/ ſo",
+                "hyp": "vnd immer newe ſtück fürgehalten/ſo",
+                "edits": 5
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "i er jmmer blieben in einen glauben/",
+                "hyp": "iſt er immer blieben in einen glauben/",
+                "edits": 3
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 20,
+                "ref": "ob wol ſich die ſache vnd handel mãcher⸗",
+                "hyp": "ob wol ſich die ſache vnd handel mächer⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 20,
+                "hyp_index": 21,
+                "ref": "ley begeben haben/ vmb weler willen",
+                "hyp": "ley begeben haben/ vmb welcher willen",
+                "edits": 2
+              },
+              {
+                "ref_index": 21,
+                "hyp_index": 22,
+                "ref": "er das widergibt/denſelben glauben/",
+                "hyp": "er das widergibt/denſelben glauben /",
+                "edits": 1
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 23,
+                "ref": "wie geſagt/ no baß zueren/ denn",
+                "hyp": "wie geſagt / noch baß zuſtercken / denn",
+                "edits": 8
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 25,
+                "ref": "erkaltet/als es auſſer dem fewr koͤmpt:",
+                "hyp": "erkaltet/als es auſſer dem fewr kömpt:",
+                "edits": 2
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 26,
+                "ref": "Alſo des Menſen Her/ wo Gottes",
+                "hyp": "Alſo des Menſchen Hertz / wo Gottes",
+                "edits": 5
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "werck",
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": 27,
+                "ref": "A a",
+                "hyp": "Aa.",
+                "edits": 2
+              }
+            ]
+          },
+          "diplomatic": {
+            "profile": "diplomatic",
+            "reference_characters": 909,
+            "edits": 37,
+            "cer": 0.0407040704070407,
+            "exact_lines": 10,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tes: Jch bin der Allmechtige Gott wan⸗",
+                "hyp": "tes: Ich bin der Allmechtige Gott war⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 4,
+                "ref": "dele fuͤr mir vnd ſey from/ ſonderlich in",
+                "hyp": "dele für mir vnd ſey from/ſoͤnderlich in",
+                "edits": 4
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 5,
+                "ref": "das 3. Wegẽ des gehorſams Abrahams.",
+                "hyp": "das 3. Wegͤ des gehorſams Abrahams.",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "Jn das 4. Wegen des exempels der",
+                "hyp": "In das 4. Wegen des exempels der",
+                "edits": 1
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "Gottſeligen Hauskirchen endtlich auch",
+                "hyp": "Gottſeligen Hauskirchen endlich auch",
+                "edits": 1
+              },
+              {
+                "ref_index": 8,
+                "hyp_index": 9,
+                "ref": "Gott ſeinen in verheiſſungen war⸗",
+                "hyp": "Gott ſeinen in verheißungen war⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "Wenn Gott vornewret ſeine ver⸗",
+                "hyp": "Wenn Gott vormehret ſeine ver⸗",
+                "edits": 2
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 12,
+                "ref": "heiſchung vnd wort/gilt es allemal eins",
+                "hyp": "heißung vnd wort/gilt es allemal eins",
+                "edits": 3
+              },
+              {
+                "ref_index": 13,
+                "hyp_index": 14,
+                "ref": "weil wir auff erden ſind/ wird keiner ſo",
+                "hyp": "weil wir auff erden ſind/wird keiner ſo",
+                "edits": 1
+              },
+              {
+                "ref_index": 16,
+                "hyp_index": 17,
+                "ref": "Heiligen Mann immer weiter gefuͤrt/",
+                "hyp": "Heiligen Mann immer weiter gefürt/",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vnd jmmer newe ſtuͤck furgehalten/ ſo",
+                "hyp": "vnd immer newe ſtück fürgehalten/ſo",
+                "edits": 5
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "iſt er jmmer blieben in einen glauben/",
+                "hyp": "iſt er immer blieben in einen glauben/",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 20,
+                "ref": "ob wol ſich die ſache vnd handel mãcher⸗",
+                "hyp": "ob wol ſich die ſache vnd handel mächer⸗",
+                "edits": 1
+              },
+              {
+                "ref_index": 21,
+                "hyp_index": 22,
+                "ref": "er das widergibt/denſelben glauben/",
+                "hyp": "er das widergibt/denſelben glauben /",
+                "edits": 1
+              },
+              {
+                "ref_index": 22,
+                "hyp_index": 23,
+                "ref": "wie geſagt/ noch baß zuſtercken/ denn",
+                "hyp": "wie geſagt / noch baß zuſtercken / denn",
+                "edits": 2
+              },
+              {
+                "ref_index": 24,
+                "hyp_index": 25,
+                "ref": "erkaltet/als es auſſer dem fewr koͤmpt:",
+                "hyp": "erkaltet/als es auſſer dem fewr kömpt:",
+                "edits": 2
+              },
+              {
+                "ref_index": 25,
+                "hyp_index": 26,
+                "ref": "Alſo des Menſchen Hertz/ wo Gottes",
+                "hyp": "Alſo des Menſchen Hertz / wo Gottes",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "werck",
+                "edits": 3
+              },
+              {
+                "ref_index": 28,
+                "hyp_index": 27,
+                "ref": "A a",
+                "hyp": "Aa.",
+                "edits": 2
+              }
+            ]
+          },
+          "search_v1": {
+            "profile": "search_v1",
+            "reference_characters": 752,
+            "edits": 17,
+            "cer": 0.022606382978723406,
+            "exact_lines": 18,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tesjchbinderallmechtigegottwan",
+                "hyp": "tesichbinderallmechtigegottwar",
+                "edits": 2
+              },
+              {
+                "ref_index": 3,
+                "hyp_index": 4,
+                "ref": "delefürmirvndseyfromsonderlichin",
+                "hyp": "delefürmirvndseyfromsönderlichin",
+                "edits": 1
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 5,
+                "ref": "das3wegẽdesgehorsamsabrahams",
+                "hyp": "das3wegͤdesgehorsamsabrahams",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "jndas4wegendesexempelsder",
+                "hyp": "indas4wegendesexempelsder",
+                "edits": 1
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "gottseligenhauskirchenendtlichauch",
+                "hyp": "gottseligenhauskirchenendlichauch",
+                "edits": 1
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "wenngottvornewretseinever",
+                "hyp": "wenngottvormehretseinever",
+                "edits": 2
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 12,
+                "ref": "heischungvndwortgiltesallemaleins",
+                "hyp": "heissungvndwortgiltesallemaleins",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vndjmmernewestückfurgehaltenso",
+                "hyp": "vndimmernewestückfürgehaltenso",
+                "edits": 2
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "isterjmmerbliebenineinenglauben",
+                "hyp": "isterimmerbliebenineinenglauben",
+                "edits": 1
+              },
+              {
+                "ref_index": 19,
+                "hyp_index": 20,
+                "ref": "obwolsichdiesachevndhandelmãcher",
+                "hyp": "obwolsichdiesachevndhandelmächer",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "werck",
+                "edits": 3
+              }
+            ]
+          },
+          "retrieval_fold_v1": {
+            "profile": "retrieval_fold_v1",
+            "reference_characters": 752,
+            "edits": 14,
+            "cer": 0.018617021276595744,
+            "exact_lines": 20,
+            "reference_lines": 29,
+            "hypothesis_lines": 29,
+            "errors": [
+              {
+                "ref_index": 2,
+                "hyp_index": 3,
+                "ref": "tesjchbinderallmechtigegottwan",
+                "hyp": "tesichbinderallmechtigegottwar",
+                "edits": 2
+              },
+              {
+                "ref_index": 4,
+                "hyp_index": 5,
+                "ref": "das3wegedesgehorsamsabrahams",
+                "hyp": "das3wegdesgehorsamsabrahams",
+                "edits": 1
+              },
+              {
+                "ref_index": 5,
+                "hyp_index": 6,
+                "ref": "jndas4wegendesexempelsder",
+                "hyp": "indas4wegendesexempelsder",
+                "edits": 1
+              },
+              {
+                "ref_index": 6,
+                "hyp_index": 7,
+                "ref": "gottseligenhauskirchenendtlichauch",
+                "hyp": "gottseligenhauskirchenendlichauch",
+                "edits": 1
+              },
+              {
+                "ref_index": 10,
+                "hyp_index": 11,
+                "ref": "wenngottvornewretseinever",
+                "hyp": "wenngottvormehretseinever",
+                "edits": 2
+              },
+              {
+                "ref_index": 11,
+                "hyp_index": 12,
+                "ref": "heischungvndwortgiltesallemaleins",
+                "hyp": "heissungvndwortgiltesallemaleins",
+                "edits": 2
+              },
+              {
+                "ref_index": 17,
+                "hyp_index": 18,
+                "ref": "vndjmmernewestuckfurgehaltenso",
+                "hyp": "vndimmernewestuckfurgehaltenso",
+                "edits": 1
+              },
+              {
+                "ref_index": 18,
+                "hyp_index": 19,
+                "ref": "isterjmmerbliebenineinenglauben",
+                "hyp": "isterimmerbliebenineinenglauben",
+                "edits": 1
+              },
+              {
+                "ref_index": 26,
+                "hyp_index": 28,
+                "ref": "wort",
+                "hyp": "werck",
+                "edits": 3
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schema": "bbvlm.a52-task/1",
+  "status": "development_cross_branch_replication",
+  "blind": true,
+  "consumed_elsewhere": true,
+  "views": "whole page max 1350 + 600px bands/120px overlap + half-band x1.6",
+  "pages": [
+    {
+      "opaque_id": "A52-P01",
+      "source_sha256": "cc3dd1e69aca4f01c139e451e51f2eec0411f43d03178e832de1da157973ff2d",
+      "source_size": [
+        1331,
+        2113
+      ],
+      "page_view": "experiments/loop/crossbranch-ocr-a52/input/A52-P01/view_0_page_1350.png",
+      "bands": [
+        {
+          "index": 1,
+          "source_y": [
+            0,
+            600
+          ],
+          "band": "experiments/loop/crossbranch-ocr-a52/input/A52-P01/view_1_band.png",
+          "zoom": [
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P01/zoom_1_left_x1.6.png",
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P01/zoom_1_right_x1.6.png"
+          ]
+        },
+        {
+          "index": 2,
+          "source_y": [
+            480,
+            1080
+          ],
+          "band": "experiments/loop/crossbranch-ocr-a52/input/A52-P01/view_2_band.png",
+          "zoom": [
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P01/zoom_2_left_x1.6.png",
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P01/zoom_2_right_x1.6.png"
+          ]
+        },
+        {
+          "index": 3,
+          "source_y": [
+            960,
+            1560
+          ],
+          "band": "experiments/loop/crossbranch-ocr-a52/input/A52-P01/view_3_band.png",
+          "zoom": [
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P01/zoom_3_left_x1.6.png",
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P01/zoom_3_right_x1.6.png"
+          ]
+        },
+        {
+          "index": 4,
+          "source_y": [
+            1440,
+            2040
+          ],
+          "band": "experiments/loop/crossbranch-ocr-a52/input/A52-P01/view_4_band.png",
+          "zoom": [
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P01/zoom_4_left_x1.6.png",
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P01/zoom_4_right_x1.6.png"
+          ]
+        },
+        {
+          "index": 5,
+          "source_y": [
+            1920,
+            2113
+          ],
+          "band": "experiments/loop/crossbranch-ocr-a52/input/A52-P01/view_5_band.png",
+          "zoom": [
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P01/zoom_5_left_x1.6.png",
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P01/zoom_5_right_x1.6.png"
+          ]
+        }
+      ]
+    },
+    {
+      "opaque_id": "A52-P02",
+      "source_sha256": "1def848e0c3fcfc6b8428cabfeb8adb768eead516f066bdebb5e85777cf70dca",
+      "source_size": [
+        1137,
+        1920
+      ],
+      "page_view": "experiments/loop/crossbranch-ocr-a52/input/A52-P02/view_0_page_1350.png",
+      "bands": [
+        {
+          "index": 1,
+          "source_y": [
+            0,
+            600
+          ],
+          "band": "experiments/loop/crossbranch-ocr-a52/input/A52-P02/view_1_band.png",
+          "zoom": [
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P02/zoom_1_left_x1.6.png",
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P02/zoom_1_right_x1.6.png"
+          ]
+        },
+        {
+          "index": 2,
+          "source_y": [
+            480,
+            1080
+          ],
+          "band": "experiments/loop/crossbranch-ocr-a52/input/A52-P02/view_2_band.png",
+          "zoom": [
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P02/zoom_2_left_x1.6.png",
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P02/zoom_2_right_x1.6.png"
+          ]
+        },
+        {
+          "index": 3,
+          "source_y": [
+            960,
+            1560
+          ],
+          "band": "experiments/loop/crossbranch-ocr-a52/input/A52-P02/view_3_band.png",
+          "zoom": [
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P02/zoom_3_left_x1.6.png",
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P02/zoom_3_right_x1.6.png"
+          ]
+        },
+        {
+          "index": 4,
+          "source_y": [
+            1440,
+            1920
+          ],
+          "band": "experiments/loop/crossbranch-ocr-a52/input/A52-P02/view_4_band.png",
+          "zoom": [
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P02/zoom_4_left_x1.6.png",
+            "experiments/loop/crossbranch-ocr-a52/input/A52-P02/zoom_4_right_x1.6.png"
+          ]
+        }
+      ]
+    }
+  ]
+}
