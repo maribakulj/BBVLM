@@ -1,0 +1,151 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Und starbst sein Freund! *)",
+  "notes": [
+   "blanc net entre ! et *)"
+  ]
+ },
+ {
+  "id": "l001",
+  "verdict": "Y",
+  "texte_correct": "Lerntest, was viel der Fürsten nicht wussten,",
+  "notes": [
+   "ü à deux points"
+  ]
+ },
+ {
+  "id": "l002",
+  "verdict": "Y",
+  "texte_correct": "Früh, aus eigenen Leiden:",
+  "notes": [
+   "ü à deux points"
+  ]
+ },
+ {
+  "id": "l003",
+  "verdict": "Y",
+  "texte_correct": "Dich selbst in der Seele gekränkt,",
+  "notes": [
+   "ä à deux points"
+  ]
+ },
+ {
+  "id": "l004",
+  "verdict": "aucun",
+  "texte_correct": "*) «Die Neuigkeiten des Tages sind, dasz der König",
+  "notes": [
+   "guillemet imprimé « (chevrons), pas „",
+   "ö à deux points"
+  ]
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "«drey Stunden des Tages Wolfens Philosophie liest;",
+  "notes": [
+   "guillemet «"
+  ]
+ },
+ {
+  "id": "l006",
+  "verdict": "partage",
+  "texte_correct": "«dafür Gott gelobt sey! So haben wir den Sieg der",
+  "notes": [
+   "guillemet « (X)",
+   "ü à deux points (Y)"
+  ]
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "«Vernunft erlebt; und ich hoffe, dasz die Heuchler",
+  "notes": [
+   "guillemet «"
+  ]
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "«mit ihrer im Finstern schleichenden Kabale den",
+  "notes": [
+   "guillemet «"
+  ]
+ },
+ {
+  "id": "l009",
+  "verdict": "Y",
+  "texte_correct": "«gesunden Menschenverstand und die Vernunft",
+  "notes": [
+   "guillemet «"
+  ]
+ },
+ {
+  "id": "l010",
+  "verdict": "partage",
+  "texte_correct": "«nicht mehr werden unterdrücken können. Hät-",
+  "notes": [
+   "guillemet « (X)",
+   "ü, ö, ä à deux points (Y)"
+  ]
+ },
+ {
+  "id": "l011",
+  "verdict": "X",
+  "texte_correct": "«ten Sie vor zwey Jahren geglaubt, dasz sich diese",
+  "notes": [
+   "guillemet «"
+  ]
+ },
+ {
+  "id": "l012",
+  "verdict": "partage",
+  "texte_correct": "«Erscheinung noch in unsern Tagen ereignen wür-",
+  "notes": [
+   "guillemet « (Y)",
+   "ü à deux points (X)"
+  ]
+ },
+ {
+  "id": "l013",
+  "verdict": "partage",
+  "texte_correct": "«de? So sieht man, dasz man nichts verschwören",
+  "notes": [
+   "guillemet « (Y)",
+   "ö à deux points (X)"
+  ]
+ },
+ {
+  "id": "l014",
+  "verdict": "X",
+  "texte_correct": "«musz, und dasz die Dinge, die man oft am ent-",
+  "notes": [
+   "guillemet «"
+  ]
+ },
+ {
+  "id": "l015",
+  "verdict": "Y",
+  "texte_correct": "«ferntesten glaubt, am ersten kommen! aber was",
+  "notes": [
+   "guillemet «"
+  ]
+ },
+ {
+  "id": "l016",
+  "verdict": "X",
+  "texte_correct": "«wird dieser Philosoph sagen? denn mit allen sei-",
+  "notes": [
+   "guillemet «"
+  ]
+ },
+ {
+  "id": "l017",
+  "verdict": "X",
+  "texte_correct": "«nen Regeln der Wahrscheinlichkeit, weisz ich ge-",
+  "notes": [
+   "guillemet «"
+  ]
+ }
+]

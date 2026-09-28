@@ -1,0 +1,114 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "die mit deuteley vmbgehet/ ſo doch die dritte art hinzu",
+  "Y": "die mit deuteley vmbgchet/ ſo doch die dritte art hinzu",
+  "divergences_X_vers_Y": [
+   [
+    "e",
+    "c"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/heshwarh_74728217X_00000048//p1_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "der heiligen Schrifft alleine breuchlich. Das λόγος,",
+  "Y": "der heiligen Schrifft alleine breuchlich. Das Λὀϒος,",
+  "divergences_X_vers_Y": [
+   [
+    "λόγ",
+    "Λὀϒ"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/heshwarh_74728217X_00000048//p1_a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "das iſt/ Das WORT/ vnd das Fleiſch zweyerley",
+  "Y": "daß iſt/ Das WORT/ vnd das Fleiſch zweyerley",
+  "divergences_X_vers_Y": [
+   [
+    "s",
+    "ß"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/heshwarh_74728217X_00000048//p1_a.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "heilige Geiſt ſey in geſtalt der Tauben herab gefaren/",
+  "Y": "heiiige Geiſt ſey in geſtalt der Tauben herab gefaren/",
+  "divergences_X_vers_Y": [
+   [
+    "l",
+    "i"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/heshwarh_74728217X_00000048//p1_a.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "ohne duͤrch eine deuteley vnd verwechſelte rede per figu⸗",
+  "Y": "ohne dŭrch eine deuteley vnd verwechſelte rede per figu⸗",
+  "divergences_X_vers_Y": [
+   [
+    "uͤ",
+    "ŭ"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/heshwarh_74728217X_00000048//p1_b.txt"
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "ram & Tropum, darumb ſtnd das Brod vnd Leib Chri⸗",
+  "Y": "ram & Tropum, darumb ſind das Brod vnd Leib Chri⸗",
+  "divergences_X_vers_Y": [
+   [
+    "t",
+    "i"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/heshwarh_74728217X_00000048//p1_b.txt"
+ },
+ {
+  "id": "l006",
+  "image": "l006.png",
+  "X": "ſtnd/ kan niemand leugnen. Gleichwol gebraucht der",
+  "Y": "ſind/ kan niemand leugnen. Gleichwol gebraucht der",
+  "divergences_X_vers_Y": [
+   [
+    "t",
+    "i"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/heshwarh_74728217X_00000048//p1_b.txt"
+ },
+ {
+  "id": "l007",
+  "image": "l007.png",
+  "X": "der heilige Geiſt/ vnd die Taube ſtnd zweyerley/ vnd iſt",
+  "Y": "der heilige Geiſt/ vnd die Taube ſind zweyerley/ vnd iſt",
+  "divergences_X_vers_Y": [
+   [
+    "t",
+    "i"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/heshwarh_74728217X_00000048//p1_b.txt"
+ }
+]

@@ -1,0 +1,282 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Und starbst sein Freund! *)",
+  "Y": "Und starbst sein Freund!*)",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Lerntest, was viel der Fuͤrsten nicht wussten,",
+  "Y": "Lerntest, was viel der Fürsten nicht wussten,",
+  "divergences_X_vers_Y": [
+   [
+    "uͤ",
+    "ü"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "Fruͤh, aus eigenen Leiden:",
+  "Y": "Früh, aus eigenen Leiden:",
+  "divergences_X_vers_Y": [
+   [
+    "uͤ",
+    "ü"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "Dich selbst in der Seele gekraͤnkt,",
+  "Y": "Dich selbst in der Seele gekränkt,",
+  "divergences_X_vers_Y": [
+   [
+    "aͤ",
+    "ä"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "*) „Die Neuigkeiten des Tages sind, dasz der König",
+  "Y": "*) «Die Neuigkeiten des Tages sind, dasz der Koͤnig",
+  "divergences_X_vers_Y": [
+   [
+    "„",
+    "«"
+   ],
+   [
+    "ö",
+    "oͤ"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "«drey Stunden des Tages Wolfens Philosophie liest;",
+  "Y": "„drey Stunden des Tages Wolfens Philosophie liest;",
+  "divergences_X_vers_Y": [
+   [
+    "«",
+    "„"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l006",
+  "image": "l006.png",
+  "X": "«dafuͤr Gott gelobt sey! So haben wir den Sieg der",
+  "Y": "„dafür Gott gelobt sey! So haben wir den Sieg der",
+  "divergences_X_vers_Y": [
+   [
+    "«",
+    "„"
+   ],
+   [
+    "uͤ",
+    "ü"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l007",
+  "image": "l007.png",
+  "X": "«Vernunft erlebt; und ich hoffe, dasz die Heuchler",
+  "Y": "„Vernunft erlebt; und ich hoffe, dasz die Heuchler",
+  "divergences_X_vers_Y": [
+   [
+    "«",
+    "„"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l008",
+  "image": "l008.png",
+  "X": "«mit ihrer im Finstern schleichenden Kabale den",
+  "Y": "„mit ihrer im Finstern schleichenden Kabale den",
+  "divergences_X_vers_Y": [
+   [
+    "«",
+    "„"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l009",
+  "image": "l009.png",
+  "X": "„gesunden Menschenverstand und die Vernunft",
+  "Y": "«gesunden Menschenverstand und die Vernunft",
+  "divergences_X_vers_Y": [
+   [
+    "„",
+    "«"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l010",
+  "image": "l010.png",
+  "X": "«nicht mehr werden unterdruͤcken koͤnnen. Haͤt-",
+  "Y": "„nicht mehr werden unterdrücken können. Hät-",
+  "divergences_X_vers_Y": [
+   [
+    "«",
+    "„"
+   ],
+   [
+    "uͤ",
+    "ü"
+   ],
+   [
+    "oͤ",
+    "ö"
+   ],
+   [
+    "aͤ",
+    "ä"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l011",
+  "image": "l011.png",
+  "X": "«ten Sie vor zwey Jahren geglaubt, dasz sich diese",
+  "Y": "„ten Sie vor zwey Jahren geglaubt, dasz sich diese",
+  "divergences_X_vers_Y": [
+   [
+    "«",
+    "„"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l012",
+  "image": "l012.png",
+  "X": "„Erscheinung noch in unsern Tagen ereignen wür-",
+  "Y": "«Erscheinung noch in unsern Tagen ereignen wuͤr-",
+  "divergences_X_vers_Y": [
+   [
+    "„",
+    "«"
+   ],
+   [
+    "ü",
+    "uͤ"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l013",
+  "image": "l013.png",
+  "X": "„de? So sieht man, dasz man nichts verschwören",
+  "Y": "«de? So sieht man, dasz man nichts verschwoͤren",
+  "divergences_X_vers_Y": [
+   [
+    "„",
+    "«"
+   ],
+   [
+    "ö",
+    "oͤ"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l014",
+  "image": "l014.png",
+  "X": "«musz, und dasz die Dinge, die man oft am ent-",
+  "Y": "„musz, und dasz die Dinge, die man oft am ent-",
+  "divergences_X_vers_Y": [
+   [
+    "«",
+    "„"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l015",
+  "image": "l015.png",
+  "X": "„ferntesten glaubt, am ersten kommen! aber was",
+  "Y": "«ferntesten glaubt, am ersten kommen! aber was",
+  "divergences_X_vers_Y": [
+   [
+    "„",
+    "«"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l016",
+  "image": "l016.png",
+  "X": "«wird dieser Philosoph sagen? denn mit allen sei-",
+  "Y": "„wird dieser Philosoph sagen? denn mit allen sei-",
+  "divergences_X_vers_Y": [
+   [
+    "«",
+    "„"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ },
+ {
+  "id": "l017",
+  "image": "l017.png",
+  "X": "«nen Regeln der Wahrscheinlichkeit, weisz ich ge-",
+  "Y": "„nen Regeln der Wahrscheinlichkeit, weisz ich ge-",
+  "divergences_X_vers_Y": [
+   [
+    "«",
+    "„"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o05/fiscfrie_742472647_00000014//p1_a.txt"
+ }
+]

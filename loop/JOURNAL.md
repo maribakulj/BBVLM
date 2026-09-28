@@ -52,3 +52,11 @@ Horizontale A32, verticale jamais au-delà de connexe : IoU médian proche ou
 meilleur que connexe partout (helfkurt 0,950 → 0,959, ejngerez 0,874 → 0,891),
 frontières inchangées. Le pire cas d'actevedef (6,4 car.) est une boîte de
 référence douteuse (« a. » large de 134 px).
+
+## O05 — 2026-09-28 — validation : R1 réfutée en romain, a priori lexical
+
+glauanno 0 %, fiscfrie 0 % sans R1 (2,74 % avec), heshwarh 0,07 %, catapabin
+0,67 % dont « Marana » pour l'imprimé « Maruna » : le lecteur corrige vers le
+nom connu. R1 réécrite (P2) : conditionnée à la déclaration « fraktur » du lecteur.
+
+## S01 — kraken 7.1.1 installé (pip), segmentation blla en cours sur 17 pages.
