@@ -401,3 +401,15 @@ base. **B04** : redressement activé seulement si la dérive médiane de la page
 ≥ 0,15 h (propriété de page, comme le deskew). Seuil fixé sur ces pages de
 développement ; validation sur les 4 pages O14 (boîtes jamais mesurées).
 Banc propre route / B02 / B04 sur 28 pages en cours.
+
+## B04 — 2026-09-28 — adopté (banc propre 32 pages O07-O14)
+
+Somme texte+IoU80 : Route 24,78 ; B02 (redressement partout, seuil 0,15 h)
+25,00 ; **B04 (pages penchées seulement) 25,24**. Pages de validation O13-O14
+(8 pages, jamais utilisées pour le seuil) : B04 = Route partout (gain
+d'AyrmThes 0,856 → 0,906 manqué) ; B02 y perd sur baurodwe −0,053, dalarie
+−0,051, bankgraf −0,044, brochrnx −0,037. Gains B04 : extraudeu +0,173,
+herrkurt +0,113, 730277879 +0,099, heptaldai +0,075, culmsent +0,015 ; seul
+recul erobdefoa −0,008. Adopté par défaut dans vers_alto.py (repli Route si
+pas de ligne de base, p. ex. lignes coupées par S02). CRITERE.md (e01) reste
+mesuré avec Route (lignes sans ligne de base).
