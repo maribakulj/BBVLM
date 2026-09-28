@@ -1419,6 +1419,90 @@
         "experiments/loop/next-a80/PROTOCOL.md"
       ],
       "instructions": "Inspect Claude. Freeze four new Training pages excluding A69/A74/A76; same A76 dense/component stage and A79 region linker. No thresholds changed; compare baseline paired and per-page. Never call overall perfect geometry. Commit/push/checkpoint."
+    },
+    {
+      "id": "a80_freeze",
+      "kind": "command",
+      "resource": "io",
+      "deps": [
+        "a80_prepare"
+      ],
+      "inputs": [
+        "scripts/freeze_textline_transfer_a80.py",
+        "experiments/loop/next-a80/PROTOCOL.md"
+      ],
+      "outputs": [
+        "experiments/loop/next-a80/dense/split.json"
+      ],
+      "argv": [
+        "/workspace/scratch/cecc4cd83a9f/a72tf-venv/bin/python",
+        "scripts/freeze_textline_transfer_a80.py"
+      ],
+      "timeout_seconds": 1200
+    },
+    {
+      "id": "a80_images",
+      "kind": "command",
+      "resource": "io",
+      "deps": [
+        "a80_freeze"
+      ],
+      "inputs": [
+        "scripts/fetch_textline_transfer_a80.py",
+        "experiments/loop/next-a80/PROTOCOL.md"
+      ],
+      "outputs": [
+        "experiments/loop/next-a80/dense/assets.json"
+      ],
+      "argv": [
+        "/workspace/scratch/cecc4cd83a9f/a72tf-venv/bin/python",
+        "scripts/fetch_textline_transfer_a80.py"
+      ],
+      "timeout_seconds": 1200
+    },
+    {
+      "id": "a80_dense",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a80_images"
+      ],
+      "inputs": [
+        "scripts/evaluate_textline_transfer_a80.py",
+        "experiments/loop/next-a80/PROTOCOL.md"
+      ],
+      "outputs": [
+        "experiments/loop/next-a80/dense/predictions.json",
+        "experiments/loop/next-a80/dense/candidates.json",
+        "experiments/loop/next-a80/dense/report.json"
+      ],
+      "argv": [
+        "/workspace/scratch/cecc4cd83a9f/a72tf-venv/bin/python",
+        "scripts/evaluate_textline_transfer_a80.py"
+      ],
+      "timeout_seconds": 1200
+    },
+    {
+      "id": "a80_routed",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a80_dense"
+      ],
+      "inputs": [
+        "scripts/merge_yolo_regions_a80.py",
+        "experiments/loop/next-a80/PROTOCOL.md"
+      ],
+      "outputs": [
+        "experiments/loop/next-a80/routed/predictions.json",
+        "experiments/loop/next-a80/routed/candidates.json",
+        "experiments/loop/next-a80/routed/report.json"
+      ],
+      "argv": [
+        "/workspace/scratch/cecc4cd83a9f/a66-venv/bin/python",
+        "scripts/merge_yolo_regions_a80.py"
+      ],
+      "timeout_seconds": 1200
     }
   ]
 }

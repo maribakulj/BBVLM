@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790612289.4983315,
+  "updated_unix": 1790612742.8062818,
   "status": "in_progress",
   "phases": [
     {
@@ -24232,6 +24232,15 @@
       "report": "next-a79/retry/report.json",
       "results": "next-a79/RESULTS.md",
       "global_completion": false
+    },
+    "yolo_region_transfer_a80": {
+      "status": "frozen_training_transfer_local_pass",
+      "report": "next-a80/routed/report.json",
+      "baseline": "next-a80/dense/report.json",
+      "net_true50_gain": 1,
+      "new_model_forwards": 96,
+      "test_pages_opened": 0,
+      "global_completion": false
     }
   },
   "model_policy": {
@@ -24240,6 +24249,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A80 frozen four-page transfer passes local noninferiority, +1 IoU50 match, zero losses;17 links,1405->1388 candidates. Dense113.275s/92 tile forwards + routed7.364s/4 YOLO.1785 precision still47.62%. Next A81 blind predicted-crop OCR/type audit, consumed diagnostic; no global promotion,100Test untouched.",
     "A79 consumed real YOLO region constraint passes local noninferiority on4 pages:2 additional IoU50 references, zero losses,25 allowed links;8.36s CPU detection/4 forwards. Absolute precision remains61.80% on1924. A80 freeze4 new non-Test pages and unchanged A79 vs component baseline; no global gates promoted. First attempt failed on NumPy2/OpenCV ABI before inference; NumPy1.26.4 restored, retry outputs separate.",
     "A78 rejects horizontal component merging without predicted regions:360 net IoU50 matches lost,3/4 pages regress; inspected chain crosses4 columns.0.975s CPU/no inference/Test. Next A79 use real YOLO region ownership to constrain unchanged linker, consumed A76 development only; new freeze needed before promotion.",
     "A77 consumed pixel attribution: old rectangle multi-contact841 versus197 substantial pixel multi-contacts; neither is certified fusion.1924 annotations overlap on14.69% predicted pixels; visual witness confirms horizontal fragments on spaced words. Restricted oracle merge still recalls only76.83% on1924.0.87s CPU, zero inference/Test. A78: frozen image-only bounded horizontal merger on consumed data, penalize new merges, then new holdout; all gates false.",

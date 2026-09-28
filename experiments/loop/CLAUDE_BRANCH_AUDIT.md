@@ -159,3 +159,6 @@ Claude recontrôlé inchangé : `76056c5c1957e0de4232f0aef1f6cbc7f2893402`. Pare
 
 ## A79 — 2026-09-28
 Claude recontrôlé à `76056c5c1957e0de4232f0aef1f6cbc7f2893402`, inchangé. Parent Codex `bd24b941fcf0ea0589956a77c8b142f7702211b7`. Aucune fusion ni écriture main/master.
+
+## A80 — 2026-09-28
+Avant le gel : Claude inchangé à `76056c5c1957e0de4232f0aef1f6cbc7f2893402`, parent Codex `da6b52149926a014fad3d26e42e222d63a8a6a87`. Aucun merge/main/master.

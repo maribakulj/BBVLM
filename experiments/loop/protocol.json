@@ -1083,5 +1083,14 @@
     "net_true50_gain": 2,
     "new_model_forwards": 4,
     "global_completion": false
+  },
+  "yolo_region_transfer_a80": {
+    "status": "frozen_training_transfer_local_pass",
+    "report": "next-a80/routed/report.json",
+    "baseline": "next-a80/dense/report.json",
+    "net_true50_gain": 1,
+    "new_model_forwards": 96,
+    "test_pages_opened": 0,
+    "global_completion": false
   }
 }

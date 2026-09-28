@@ -751,6 +751,69 @@
         "experiments/loop/next-a79/retry/report.json": "ae7dc6d5b421a60d1ab5e200380d712a13e366ed51cd0a5758c0136f95e97eed"
       },
       "ended_at": 1790612207.5301433
+    },
+    "a80_prepare": {
+      "status": "completed",
+      "started_at": 1790612409.5487711,
+      "fingerprint": "8e4fe1fc3baaca077eba13cec4b87c174862f4364bd832560edaa90132ef03e5",
+      "actor": "codex-root",
+      "token": "7c12827b0c2347a1b4a81185e9122332",
+      "outputs": {
+        "experiments/loop/next-a80/PROTOCOL.md": "8ec5b8e46ae9ba8b6d2541db47bf5ef50252d1d578641146a5ae6b07205a6b7c"
+      },
+      "ended_at": 1790612462.0111659
+    },
+    "a80_freeze": {
+      "status": "completed",
+      "started_at": 1790612462.3933299,
+      "fingerprint": "3ed1fae9a8d658e2316c359c48fbecbba20b43625eb1fd329040c05326965a54",
+      "pid": 12,
+      "log": "experiments/loop/logs/a80_freeze.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a80/dense/split.json": "f3fbf35b5f7da602bd6f1aac348ca3a624f07525858b8bef59a8731dcb29d51f"
+      },
+      "ended_at": 1790612462.4973202
+    },
+    "a80_images": {
+      "status": "completed",
+      "started_at": 1790612462.498657,
+      "fingerprint": "5fa784a48716f04adfe76a4eec8835b7495c7f6f7969819af74be7defeefc3ae",
+      "pid": 13,
+      "log": "experiments/loop/logs/a80_images.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a80/dense/assets.json": "5c3c1dd15234fd10f91ad822ecf6293e3418bfd70c2d92683dc5f2b62d8f8aac"
+      },
+      "ended_at": 1790612499.9925258
+    },
+    "a80_dense": {
+      "status": "completed",
+      "started_at": 1790612499.9942746,
+      "fingerprint": "a37da5e11c64d937feff69519e7581763f0defc8ec8b0001f7c6ecc86113027f",
+      "pid": 16,
+      "log": "experiments/loop/logs/a80_dense.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a80/dense/predictions.json": "fbe945ac250ae8ac45ef973f0988f17f501fb479ba9fb0a1cca540eb28bc0edf",
+        "experiments/loop/next-a80/dense/candidates.json": "b86d965b684e2ff0e1a5605a887472db6acc96202cfa73c21e604aa53766a808",
+        "experiments/loop/next-a80/dense/report.json": "9c338ac81ed42a1a8468e87e17832e154d7b7d833e7dba5543c43ead80968c27"
+      },
+      "ended_at": 1790612619.2183895
+    },
+    "a80_routed": {
+      "status": "completed",
+      "started_at": 1790612619.2199697,
+      "fingerprint": "10f5b2f66e60f8bad3f10214b0b657d919cfc872a527bbb11c485562157864b8",
+      "pid": 38,
+      "log": "experiments/loop/logs/a80_routed.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a80/routed/predictions.json": "4c9dc7178854dce724f39e7df202dfa39cce23f4ab0935fcbe197e786a4298f8",
+        "experiments/loop/next-a80/routed/candidates.json": "04c8d58119011ead2a3dfa1735bbaee90dd4bc08765a5d829baf2870fb4a8b17",
+        "experiments/loop/next-a80/routed/report.json": "95888f87e1a82ad52f5b64361eabb47f91b5f0f987447525516f26a7512b6e82"
+      },
+      "ended_at": 1790612631.575529
     }
   },
   "a66_reference_append_recovery": {

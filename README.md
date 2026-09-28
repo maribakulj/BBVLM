@@ -218,3 +218,7 @@ A78 rejects horizontal component merging without predicted regions:360 net IoU50
 ## A79 — contrainte de régions YOLO
 
 A79 consumed real YOLO region constraint passes local noninferiority on4 pages:2 additional IoU50 references, zero losses,25 allowed links;8.36s CPU detection/4 forwards. Absolute precision remains61.80% on1924. A80 freeze4 new non-Test pages and unchanged A79 vs component baseline; no global gates promoted. First attempt failed on NumPy2/OpenCV ABI before inference; NumPy1.26.4 restored, retry outputs separate.
+
+## A80 — transfert figé
+
+Quatre nouvelles pages : +1 match IoU50, aucune perte, précision/rappel non décroissants sur chaque page. 17 liens ; 92 forwards Eynollah +4 YOLO,120.64s pour les deux étages. Le critère local passe mais la précision1785 reste47,62 %. Aucun gate global promu. Voir experiments/loop/next-a80/RESULTS.md.

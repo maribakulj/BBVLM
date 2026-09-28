@@ -1,0 +1,42 @@
+{
+  "revision": "66b50f53ccdb581d29cc02f670e469bbf583e825",
+  "images": [
+    {
+      "page": "Reichs_Post_Reuter_1700-11-16_0004",
+      "path": "corpora/chronicling-germany/images/Reichs_Post_Reuter_1700-11-16_0004.jpg",
+      "sha256": "1cc66d730f6d79c2232fd4998ceb77d5fc37fa8191273170d85e1beac1e9a823",
+      "bytes": 1684309,
+      "git_blob_id": "297502ec70840c72bd00d7b5ea7ace4df7ca9e31",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FReichs_Post_Reuter_1700-11-16_0004.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 23.219474739998986
+    },
+    {
+      "page": "Holzmindisches_Wochenblatt_1785-07-30_0006",
+      "path": "corpora/chronicling-germany/images/Holzmindisches_Wochenblatt_1785-07-30_0006.jpg",
+      "sha256": "a06f8d739daaa1e50cdea9ca28c388244096e7afcecff358fbaf6cbe23dd69de",
+      "bytes": 7440017,
+      "git_blob_id": "ea9e6d07a25934c38cf31bab1fe75a1a8a5f35bd",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FHolzmindisches_Wochenblatt_1785-07-30_0006.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 23.821955122999498
+    },
+    {
+      "page": "Koelnische_Zeitung_1866-06_1866-09_0539",
+      "path": "corpora/chronicling-germany/images/Koelnische_Zeitung_1866-06_1866-09_0539.jpg",
+      "sha256": "eb88f4a56baaff8f2633f3184eff8b7fd84b882b1914e5f3f46e933f504346c3",
+      "bytes": 4701577,
+      "git_blob_id": "db5232eb0e29590433e7ed07e43aecc0f4843ff2",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FKoelnische_Zeitung_1866-06_1866-09_0539.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 14.137023686002067
+    },
+    {
+      "page": "Koelnische_Zeitung_1924_0018",
+      "path": "corpora/chronicling-germany/images/Koelnische_Zeitung_1924_0018.jpg",
+      "sha256": "c02d1ff79f852ec482eac9c6cf2c21213c4c1e6778f91de5a4aea0a0b18173b9",
+      "bytes": 6176099,
+      "git_blob_id": "f6fc198f1bc19b9fb3a5a7f3178a4258e3476054",
+      "source": "https://gitlab.uni-bonn.de/api/v4/projects/digital-history%2FChronicling-Germany-Dataset/repository/files/data%2Fimages%2FKoelnische_Zeitung_1924_0018.jpg/raw?ref=66b50f53ccdb581d29cc02f670e469bbf583e825&lfs=true",
+      "seconds": 13.573684420000063
+    }
+  ],
+  "test_pages_opened": 0
+}

@@ -1,0 +1,68 @@
+{
+  "schema": "bbvlm.a80.predictions/1",
+  "split_sha256": "f3fbf35b5f7da602bd6f1aac348ca3a624f07525858b8bef59a8731dcb29d51f",
+  "implementation": "A72/A74 native Eynollah textline SavedModel unchanged",
+  "signature_output": "activation_55",
+  "pages": {
+    "Reichs_Post_Reuter_1700-11-16_0004": {
+      "image_sha256": "1cc66d730f6d79c2232fd4998ceb77d5fc37fa8191273170d85e1beac1e9a823",
+      "source_shape": [
+        3131,
+        2000
+      ],
+      "mask_shape": [
+        3131,
+        2000
+      ],
+      "mask_sha256": "62f264f167b486840c7415730bc60e04d17b1d3265835b5ef0865a9998e5e4fb",
+      "positive_pixels": 3027936,
+      "tiles": 24,
+      "seconds": 25.795593042996188
+    },
+    "Holzmindisches_Wochenblatt_1785-07-30_0006": {
+      "image_sha256": "a06f8d739daaa1e50cdea9ca28c388244096e7afcecff358fbaf6cbe23dd69de",
+      "source_shape": [
+        2000,
+        1240
+      ],
+      "mask_shape": [
+        3226,
+        2000
+      ],
+      "mask_sha256": "8220bb2c4e14e320ec8139309b2679efb4e8152a95a18759211b4bd0e829a53c",
+      "positive_pixels": 2354126,
+      "tiles": 24,
+      "seconds": 25.95069486399734
+    },
+    "Koelnische_Zeitung_1866-06_1866-09_0539": {
+      "image_sha256": "eb88f4a56baaff8f2633f3184eff8b7fd84b882b1914e5f3f46e933f504346c3",
+      "source_shape": [
+        7114,
+        5066
+      ],
+      "mask_shape": [
+        2809,
+        2000
+      ],
+      "mask_sha256": "1c4d8e0a81d5ad247c3c352054f11cd5e0a13e9bec62d084e87ac96f32d20ab8",
+      "positive_pixels": 3435822,
+      "tiles": 20,
+      "seconds": 20.757785148998664
+    },
+    "Koelnische_Zeitung_1924_0018": {
+      "image_sha256": "c02d1ff79f852ec482eac9c6cf2c21213c4c1e6778f91de5a4aea0a0b18173b9",
+      "source_shape": [
+        7209,
+        5032
+      ],
+      "mask_shape": [
+        2865,
+        2000
+      ],
+      "mask_sha256": "62d67902b446a30dc2c44ba9123bab844cb3f7ca1a548388b9c1827fbe3626a4",
+      "positive_pixels": 3628995,
+      "tiles": 24,
+      "seconds": 27.627324656001292
+    }
+  }
+}
