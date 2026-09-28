@@ -83,3 +83,11 @@ Codex branch. No merge, no force, no main/master update.
 Rechecked Claude76056c5c1957e0de4232f0aef1f6cbc7f2893402 unchanged before audit.
 A66 parent53aea20cd5a0bd4f0bb8a5ad012647c3b54cd051 confirmed on original
 codex/autonomous-research-a34. No Claude code imported; no main/master mutation.
+
+## A68 — 2026-09-28
+Avant de figer la règle de bord, références relues : Claude
+`76056c5c1957e0de4232f0aef1f6cbc7f2893402`, Codex
+`b2d7d65a6914597a9d27d84e5c0d5b69d3a2eb4b`, master
+`60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Claude est inchangé depuis A67 ;
+aucun nouveau protocole, résultat ou code à importer. Aucun merge, aucune
+écriture sur master/main, aucun force-push.

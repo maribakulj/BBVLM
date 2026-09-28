@@ -1,0 +1,41 @@
+{
+  "status": "consumed_development_not_independent_validation",
+  "pages": 5,
+  "boxes": 168,
+  "lines": 1317,
+  "image_guided_boxes_changed": 122,
+  "native": {
+    "mean_best_coverage": 0.979778354618996,
+    "lt95": 114,
+    "lt50": 8
+  },
+  "fixed": {
+    "mean_best_coverage": 0.9933019457636837,
+    "lt95": 12,
+    "lt50": 8,
+    "improved_lines": 989,
+    "added_area": 3663526.0,
+    "foreign_added_area": 97750.99122480013,
+    "foreign_fraction_of_added": 0.02668221577376553,
+    "foreign_added_boxes_gt1pct": 28
+  },
+  "ink_crossing": {
+    "mean_best_coverage": 0.9862959279641297,
+    "lt95": 49,
+    "lt50": 8,
+    "improved_lines": 441,
+    "added_area": 1538493.0,
+    "foreign_added_area": 63075.531306175086,
+    "foreign_fraction_of_added": 0.04099825693465949,
+    "foreign_added_boxes_gt1pct": 17
+  },
+  "vlm_calls": 0,
+  "ocr_calls": 0,
+  "test_pages_opened": 0,
+  "all_scientific_gates_passed": false,
+  "full_artifacts": [
+    "candidates.json",
+    "report.json",
+    "audit-contact-sheet.png"
+  ]
+}

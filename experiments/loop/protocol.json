@@ -910,5 +910,35 @@
     "test_pages_opened": 0,
     "inference_calls": 0,
     "global_completion": false
+  },
+  "predicted_crops_a66": {
+    "status": "completed_consumed_predicted_crop_diagnostic",
+    "protocol": "next-a66/PROTOCOL.md",
+    "report": "next-a66/report.json",
+    "results": "next-a66/RESULTS.md",
+    "model_forwards": 10,
+    "test_pages_opened": 0,
+    "global_completion": false
+  },
+  "visual_clipping_a67": {
+    "status": "completed_consumed_visual_diagnostic",
+    "protocol": "next-a67/PROTOCOL.md",
+    "report": "next-a67/report-v2.json",
+    "results": "next-a67/RESULTS.md",
+    "luna_calls": 1,
+    "sol_calls": 1,
+    "test_pages_opened": 0,
+    "global_completion": false
+  },
+  "ink_edge_repair_a68": {
+    "status": "completed_consumed_geometry_diagnostic",
+    "protocol": "next-a68/PROTOCOL.md",
+    "report": "next-a68/report.json",
+    "results": "next-a68/RESULTS.md",
+    "pages": 5,
+    "boxes": 168,
+    "test_pages_opened": 0,
+    "vlm_calls": 0,
+    "global_completion": false
   }
 }

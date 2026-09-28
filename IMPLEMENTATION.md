@@ -660,3 +660,17 @@ prepare_bnl_bands_a60.py coupe par projection image seulement et vérifie recons
 ## A61
 Correction localisée évaluée via garde A54 inchangée, deltas par edit conservés. scripts/restore_chronicling_a58.py restaure les XML par révision et vérifie chaque SHA256 plus arbre Git ; point d’entrée restore_public_assets.py --chronicling-annotations vérifié.
 
+## A68 — extension bornée des crops par encre traversante
+
+`extend_crop_edges_to_connected_ink` travaille sur le raster gris et la boîte
+prédite seulement. Dans une couronne bornée, Otsu puis les composantes 8-connexes
+déplacent un côté uniquement si une même composante possède au moins deux pixels
+dans la bande intérieure de deux pixels et deux pixels à l'extérieur. La boîte
+native est toujours contenue ; les pixels voisins déconnectés ne déclenchent pas
+l'expansion. L'audit conserve seuil, côté, composante et aire.
+
+A68 compare cette primitive à un padding fixe de même portée. Sur cinq pages
+consommées, elle réduit fortement l'aire ajoutée mais pas proportionnellement
+l'intrusion dans d'autres régions annotées. Elle reste donc un candidat de
+transfert, pas une valeur par défaut. Ne jamais interpréter sa connectivité
+comme une ownership d'article ou de région ALTO.

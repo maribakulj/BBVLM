@@ -543,6 +543,49 @@
         "experiments/loop/next-a68/PROTOCOL.md"
       ],
       "instructions": "Recheck Claude before new hypothesis; original Codex branch only, no main/master merge. Real A67 clipping motivates bounded image-only ink-edge crop repair vs fixed padding. Read current src/bbvlm/refine.py and primary connected-component/crop literature; summarize actual readings. Freeze parameters before measuring. A66/A67 examples are consumed development, not fresh validation. Measure line-area coverage plus foreign-region intrusion; visually audit difficult cases and do not equate foreground with semantic ownership. Preserve100 Test, freeze separate diverse validation before promotion. Commit/push/checkpoint and immediately continue ready tasks."
+    },
+    {
+      "id": "a68_edge_score",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": ["a68_prepare"],
+      "inputs": [
+        "scripts/evaluate_ink_edge_repair_a68.py",
+        "src/bbvlm/refine.py",
+        "experiments/loop/next-a68/PROTOCOL.md",
+        "experiments/loop/next-a66/predictions.json",
+        "experiments/loop/next-a66/assets-v2.json",
+        "experiments/loop/chronicling-a58/audit.json",
+        "corpora/chronicling-germany/images/Berliner_Boersen_Zeitung_1857-04-06_0001.jpg",
+        "corpora/chronicling-germany/images/Bonner_Zeitung_1891-09-16_0001.jpg",
+        "corpora/chronicling-germany/images/Der_Bazar_1856-01-15_0004.jpg",
+        "corpora/chronicling-germany/images/Dresdner_Journal_1898-05-27_0001.jpg",
+        "corpora/chronicling-germany/images/Hildener_Rundschau_Illustrierte_1930-10-26_0006.jpg",
+        "corpora/chronicling-germany/annotations/Berliner_Boersen_Zeitung_1857-04-06_0001.xml",
+        "corpora/chronicling-germany/annotations/Bonner_Zeitung_1891-09-16_0001.xml",
+        "corpora/chronicling-germany/annotations/Der_Bazar_1856-01-15_0004.xml",
+        "corpora/chronicling-germany/annotations/Dresdner_Journal_1898-05-27_0001.xml",
+        "corpora/chronicling-germany/annotations/Hildener_Rundschau_Illustrierte_1930-10-26_0006.xml"
+      ],
+      "outputs": [
+        "experiments/loop/next-a68/candidates.json",
+        "experiments/loop/next-a68/report.json",
+        "experiments/loop/next-a68/audit-contact-sheet.png"
+      ],
+      "argv": ["{python}", "scripts/evaluate_ink_edge_repair_a68.py"],
+      "timeout_seconds": 300
+    },
+    {
+      "id": "a69_prepare",
+      "kind": "external",
+      "resource": "orchestrator",
+      "deps": ["a68_edge_score"],
+      "inputs": [
+        "experiments/loop/next-a68/report.json",
+        "experiments/loop/next-a68/RESULTS.md"
+      ],
+      "outputs": ["experiments/loop/next-a69/PROTOCOL.md"],
+      "instructions": "Recheck Claude and stay on the original Codex branch. Treat A68 as consumed development only. If the ink-crossing rule is competitive, freeze it unchanged on a deterministic diverse unopened Chronicling Validation subset, with image-only candidates persisted before XML scoring; never open the reserved100 Test pages. Otherwise reject it and advance a distinct OLR/metadata/retrieval track. Read and separately summarize any new primary source. Commit/push/checkpoint, then continue immediately."
     }
   ]
 }

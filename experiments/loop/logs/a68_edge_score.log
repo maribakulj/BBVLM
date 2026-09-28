@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "native": {
+      "lines": 1317,
+      "mean_best_coverage": 0.979778354618996,
+      "lt50": 8,
+      "lt95": 114,
+      "improved_lines": 0,
+      "regressed_lines": 0,
+      "added_area": 0.0,
+      "foreign_added_area": 0.0,
+      "foreign_fraction_of_added": 0.0,
+      "foreign_added_boxes_gt1pct": 0
+    },
+    "fixed": {
+      "lines": 1317,
+      "mean_best_coverage": 0.9933019457636837,
+      "lt50": 8,
+      "lt95": 12,
+      "improved_lines": 989,
+      "regressed_lines": 0,
+      "added_area": 3663526.0,
+      "foreign_added_area": 97750.99122480013,
+      "foreign_fraction_of_added": 0.02668221577376553,
+      "foreign_added_boxes_gt1pct": 28
+    },
+    "ink_crossing": {
+      "lines": 1317,
+      "mean_best_coverage": 0.9862959279641297,
+      "lt50": 8,
+      "lt95": 49,
+      "improved_lines": 441,
+      "regressed_lines": 0,
+      "added_area": 1538493.0,
+      "foreign_added_area": 63075.531306175086,
+      "foreign_fraction_of_added": 0.04099825693465949,
+      "foreign_added_boxes_gt1pct": 17
+    }
+  },
+  "changed": 122
+}

@@ -3,7 +3,9 @@ import unittest
 import cv2
 import numpy as np
 
-from bbvlm.refine import extend_words_to_foreground, select_edge_punctuation_extensions
+from bbvlm.refine import (extend_crop_edges_to_connected_ink,
+                          extend_words_to_foreground,
+                          select_edge_punctuation_extensions)
 
 
 class InkExtensionTest(unittest.TestCase):
@@ -71,6 +73,27 @@ class InkExtensionTest(unittest.TestCase):
                                   [20.0, 0.0, 32.0, 10.0],
                                   [40.0, 0.0, 50.0, 10.0]])
         self.assertEqual([d['selected'] for d in decisions], [False, True, False])
+
+    def test_crop_edge_recovers_crossing_descender_not_nearby_ink(self):
+        gray = np.full((40, 50), 255, np.uint8)
+        cv2.rectangle(gray, (15, 10), (18, 25), 0, -1)
+        cv2.rectangle(gray, (31, 15), (33, 17), 0, -1)
+        candidate, audit = extend_crop_edges_to_connected_ink(
+            gray, [10, 8, 30, 24], max_pad=6)
+        self.assertEqual(candidate, [10, 8, 30, 26])
+        self.assertEqual(audit['changed_sides'], ['bottom'])
+
+    def test_crop_edge_extension_is_bounded(self):
+        gray = np.full((30, 30), 255, np.uint8)
+        cv2.rectangle(gray, (12, 3), (14, 16), 0, -1)
+        candidate, _ = extend_crop_edges_to_connected_ink(
+            gray, [10, 10, 20, 20], max_pad=4)
+        self.assertEqual(candidate, [10, 6, 20, 20])
+
+    def test_crop_edge_rejects_bad_input(self):
+        with self.assertRaises(ValueError):
+            extend_crop_edges_to_connected_ink(
+                np.zeros((5, 5, 3), np.uint8), [0, 0, 2, 2], max_pad=1)
 
 
 if __name__ == '__main__':

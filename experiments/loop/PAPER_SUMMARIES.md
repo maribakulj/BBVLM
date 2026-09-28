@@ -277,3 +277,55 @@ lecture. Source : https://arxiv.org/abs/2608.18972 .
 
 Autres résultats de recherche (TongGuOCR, survey OCR, Layout-Aware OCR in Black
 Digital Archives) : repérage seulement, pas de lecture scientifique revendiquée.
+
+## A68 — lectures du 28 septembre 2026
+
+### Jiang, Hao & Liu — *Deep Scene Text Detection with Connected Component Proposals*
+
+- **Version/date :** arXiv:1708.05133v1, 17 août 2017.
+- **Niveau lu :** texte principal complet disponible en HTML, sections 1–5,
+  méthode, entraînement, tableaux et discussion ; pas seulement l'abstract.
+- **Méthode :** segmentation pixel-à-pixel et ligne centrale, propositions par
+  composantes connexes, puis vérification par détection de caractères et perte
+  de cohérence. Sur ICDAR 2013 scène, les auteurs annoncent rappel 0,915,
+  précision 0,922 et F1 0,919.
+- **Limites :** photos de scène modernes, boîtes mots/caractères supervisées,
+  réseau entraîné ; aucune presse historique, colonne, ALTO, CER ou OLR. Une
+  composante connectée reste une proposition, pas une propriété sémantique.
+- **Code :** aucune implémentation officielle actuelle inspectée dans A68 ;
+  aucun modèle installé.
+- **Apport BBVLM :** tester un signal pixel local comme garde d'une boîte objet
+  tout en mesurant séparément contamination et couverture.
+- **Source :** https://arxiv.org/abs/1708.05133 .
+
+### Sauvola & Pietikäinen — *Adaptive document image binarization*
+
+- **Version/date :** *Pattern Recognition* 33(2), 2000, DOI
+  10.1016/S0031-3203(99)00055-2.
+- **Niveau lu :** abstract primaire et métadonnées seulement ; le texte
+  intégral éditeur renvoyait HTTP 403 dans cette session.
+- **Méthode annoncée :** seuil local adaptatif fondé sur les statistiques du
+  voisinage pour bruit, illumination et dégradation de documents.
+- **Limites :** aucun paramètre ou résultat du texte non lu n'est importé. A68
+  utilise Otsu, pas Sauvola ; le seuillage global reste une hypothèse.
+- **Code :** aucun dépôt officiel lu, aucune dépendance ajoutée.
+- **Apport BBVLM :** garder la binarisation remplaçable et la valider sur une
+  réserve diverse plutôt que l'assimiler à une vérité d'encre.
+- **Source :** https://doi.org/10.1016/S0031-3203(99)00055-2 .
+
+### Sukesh et al. — *A Fair Evaluation of Various Deep Learning-Based Document Image Binarization Approaches*
+
+- **Version/date :** arXiv:2401.11831v1, 22 janvier 2024.
+- **Niveau lu :** abstract primaire seulement ; l'ouverture du texte arXiv a
+  échoué dans cette session.
+- **Méthode annoncée :** comparaison commune de binariseurs profonds sur DIBCO
+  2013/2017/2018/2019, avec code et modèles.
+- **Avancée annoncée :** aucun modèle ne domine tous les jeux ; DE-GAN,
+  DP-LinkNet, 2-StageGAN et SauvolaNet gagnent des sous-ensembles différents.
+- **Limites :** l'abstract ne suffit pas à reproduire les scores et ne traite
+  pas directement les bords de régions historiques.
+- **Code :** https://github.com/RichSu95/Document_Binarization_Collection,
+  non inspecté ni installé faute de défaut mesuré justifiant un gros outil.
+- **Apport BBVLM :** Otsu reste une ablation légère, pas une règle promue avant
+  transfert sur des pages diverses.
+- **Source :** https://arxiv.org/abs/2401.11831 .

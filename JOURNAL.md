@@ -2029,3 +2029,13 @@ Vérifications : ID V417 unique, toutes images inspectées ; octets des copies i
 
 Coût A61 : une session Sol, trois images, aucun nouveau passage OCR/détecteur. Aucun tarif/token disponible ; ne pas inventer de coût monétaire. Objectif global non atteint.
 
+# A68 — bords de crops : couverture gagnée, contamination non résolue
+
+Claude reste à76056c5, master à60b8ed3 ; aucune fusion. Sur les cinq pages A66
+consommées, une extension image-only bornée par composantes traversant le bord
+fait passer114→49 lignes sous95 % de couverture, contre12 pour le padding fixe.
+Elle ajoute1,54Mpx contre3,66Mpx et réduit28→17 boîtes à intrusion >1 %, mais
+son taux d'aire étrangère ajoutée est4,10 % contre2,67 %. Les deux coupes Sol
+K482/K951 sont visuellement récupérées. Résultat mitigé, non promu ; règle
+gelée pour transfert Validation divers en A69. 100 pages Test intactes, zéro
+OCR/VLM, sept gates faux.

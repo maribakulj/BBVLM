@@ -298,6 +298,31 @@
       "ended_at": 1790602104.582447
     },
     "a68_prepare": {
+      "status": "completed",
+      "started_at": 1790603054.5836892,
+      "fingerprint": "4c772e5f861f2923b29e7a2bc9770aa4f59f596314f03f1719f91bd13172fdc9",
+      "actor": "codex-root",
+      "token": "91d35bdd97374eac9940fb41e669933c",
+      "outputs": {
+        "experiments/loop/next-a68/PROTOCOL.md": "45689adb2df330c14686735f820774912787f44be1f3f75cabce1235b743a0f8"
+      },
+      "ended_at": 1790603393.6367512
+    },
+    "a68_edge_score": {
+      "status": "completed",
+      "started_at": 1790603394.659629,
+      "fingerprint": "279a43a5fbbdeb460a0ad307c40d84336ab6b97350da0e7fe1638e83572d734f",
+      "pid": 5,
+      "log": "experiments/loop/logs/a68_edge_score.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a68/candidates.json": "6faee1d2df8244973b6b7505ba8bae1509328ad8c4bf07db3a4dd4f5ec381e25",
+        "experiments/loop/next-a68/report.json": "8e6219141e15e25a4b70a7937b5db8af129ea3ca32137f29eaef37745db80896",
+        "experiments/loop/next-a68/audit-contact-sheet.png": "d8f9d8cb27e795793c1b2edb1620420aa7c310a698fb5e63eed7089a359b2bf4"
+      },
+      "ended_at": 1790603414.57552
+    },
+    "a69_prepare": {
       "status": "pending"
     }
   },
