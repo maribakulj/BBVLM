@@ -526,3 +526,20 @@ baurodwe, dalarie, busmexpo (+ 0 faute de texte : erobdefoa, caladr, dalarie).
   fautif), 852691769 (58/68 lignes).
 Les deux leviers : lignes manquées par kraken (4 pages) et le gondolage
 (heptaldai). Le reste suit le texte.
+
+## S07 — 2026-09-28 — couper les lignes kraken aux gouttières (L13) — rejeté
+
+Diagnostic des lignes réf. non trouvées (IoU < 0,5) sur O11-O15 : notes en
+deux colonnes fusionnées par kraken (chridiss, 4 lignes), manchettes de
+gauche collées au texte (herbdulc 3, buchdas 1), titres d'apparat à
+initiales géantes (durrgeda 2), ligne double (extraudeu), signature (eberbrev).
+S07 (`outils/gouttiere.py`) : blanc de colonne ≥ LARG·h, aligné avec un blanc
+d'une ligne voisine, et ≥ RAPPORT × l'espace de mot médiane de la ligne.
+Banc 36 pages O07-O15 (lignes trouvées IoU ≥ 0,5, total 990/1032) :
+LARG 0,5 : chridiss 33 → 36 mais 979 au total (erobdefoa 32 → 28, dalarie
+21 → 18, backhart 22 → 19) ; RAPPORT 2,0 : 990 (852691769 +2, dalarie −2,
+chridiss 0) ; RAPPORT 3,0 : aucun effet. Cause : la gouttière des notes de
+chridiss (38-53 px, espaces de mots 19-21) a la taille des blancs des titres
+espacés de dalarie (50-53 px) ; la géométrie seule ne les sépare pas.
+Non intégré. Piste : coupe guidée par le texte (une ligne kraken dont l'OCR
+d'ancrage contient deux lignes lues, S08).

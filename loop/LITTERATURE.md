@@ -189,3 +189,13 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
   distribuées, qui codent toute apostrophe en ' U+0027 (29 pages, 0 ’).
 - Limite : convention observée sur notre échantillon seulement ; d'autres
   corpus OCR-D peuvent coder ’.
+
+## L13 — Breuel 2002 (Two Geometric Algorithms for Layout Analysis) ; Smith 2009 (Hybrid Page Layout Analysis via Tab-Stop Detection, Tesseract)
+- Apport : une gouttière de colonne est un grand rectangle blanc, haut et
+  étroit, voisin de composantes de taille texte ; il sert d'obstacle aux
+  lignes (Breuel). Smith : les colonnes se déduisent de taquets alignés sur
+  plusieurs lignes. Une espace de mot n'est jamais alignée d'une ligne à
+  l'autre ; une gouttière l'est.
+- Limite : pensé pour la page entière ; ici on ne l'applique qu'à couper les
+  lignes kraken qui franchissent une gouttière (notes en deux colonnes,
+  manchettes collées).
