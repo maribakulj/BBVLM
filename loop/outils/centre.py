@@ -63,7 +63,10 @@ def redresse(boxer, g, ln, s):
         droit[:, x] = band[pad + d:pad + d + bot - top, x]
     l2 = copy.copy(ln)
     # boîte de la ligne droite : hauteur réelle du corps, sans la dérive
-    l2.line_box = (x0, y0 - top + max(0, s.max()), x1, y1 - top + min(0, s.min()))
+    if __import__('os').environ.get('BBVLM_REDRESSE_PLEIN') == '1':
+        l2.line_box = (x0, y0 - top, x1, y1 - top)          # hauteur pleine (jambages)
+    else:
+        l2.line_box = (x0, y0 - top + max(0, s.max()), x1, y1 - top + min(0, s.min()))
     out = []
     for (a, b, c, d) in Route.boxes(boxer, droit, l2):
         i0, i1 = max(0, a - xa), min(len(s) - 1, c - xa)

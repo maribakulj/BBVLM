@@ -413,3 +413,11 @@ herrkurt +0,113, 730277879 +0,099, heptaldai +0,075, culmsent +0,015 ; seul
 recul erobdefoa −0,008. Adopté par défaut dans vers_alto.py (repli Route si
 pas de ligne de base, p. ex. lignes coupées par S02). CRITERE.md (e01) reste
 mesuré avec Route (lignes sans ligne de base).
+
+## B05 — hauteur pleine sur la bande redressée — négatif
+
+heptaldai après B04 : IoU méd 0,76, boîtes coupées en bas (y1 −6 px méd,
+−14 px p10). Garder la hauteur pleine de la ligne sur la bande redressée :
+heptaldai 0,418 → 0,378, herrkurt 0,583 → 0,477, extraudeu 0,821 → 0,669,
+730277879 0,824 → 0,796 (l'encre des voisines revient). Réduction actuelle
+gardée (variante sous BBVLM_REDRESSE_PLEIN=1).
