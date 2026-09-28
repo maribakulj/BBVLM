@@ -27,3 +27,17 @@
 | eberbrev | 0,957 | 0,818 | 1 ligne en échec, ≤0,5c 100 % | 0,94 |
 | cingdei | 0,926 | 0,858 | 1 ligne en échec | 0,92 |
 | buchdas | 0,933 | 0,646 | 4 lignes en échec, pire 10,8 | 0,91 |
+
+## Rapport A3 : lignes à référence rejetée, correction contestée
+
+buchdas : la VT SBB écrit « ii » pour ü (« gegriindt », « Verkiindigung »,
+« thiind ») ; les deux arbitres rejettent « ii » mais l'un propose ü, l'autre
+uͤ : A2 garde la référence. Ces lignes sont désormais rapportées à part
+(ni justes ni fausses) :
+
+| page | final | dont lignes indécidées (A3) | **hors indécidées** |
+|---|---|---|---|
+| buchdas | 37 | 27 éd. / 11 lignes | **0,55 %** |
+| busmexpo | 2 | 2 / 1 (ꝗ ou ꝙ) | **0 %** |
+| eberbrev | 14 | 2 / 1 | 1,04 % (tirets ⸗/- : un arbitre suit la référence) |
+| cingdei | 13 | 0 | 1,13 % |

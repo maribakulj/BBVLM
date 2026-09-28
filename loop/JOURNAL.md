@@ -449,3 +449,12 @@ l'imprimeur, pas l'écriture. eberbrev : tirets empâtés, lecteurs « - »
 partout, référence ⸗, arbitres opposés. Rien à changer à la consigne (« trait
 double oblique → ⸗ ; simple → - ») ; l'homogénéité par page est une contrainte
 exploitable si un jour une passe de glyphe ciblée (comme I01) est justifiée.
+
+## A3 (rapport) — 2026-09-28 — référence rejetée par les deux arbitres, correction contestée
+
+Quand les deux arbitres rejettent la référence mais proposent deux
+corrections différentes, A2 garde la référence (fautive) et compte nos
+lectures fausses. Ces lignes sont désormais rapportées à part, comme
+indécidées (bilan_adj.py). O15 : buchdas 37 → **0,55 %** hors 11 lignes
+indécidées (VT « ii » pour ü) ; busmexpo **0 %** hors 1 ligne (ꝗ/ꝙ). Les
+deux chiffres (avec et sans indécidées) sont toujours donnés.

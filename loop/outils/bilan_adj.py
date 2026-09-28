@@ -22,6 +22,7 @@ def reference_adjugee(dossier):
     except FileNotFoundError:
         ver2 = {}
     choix, conflits, indec, contestes = {}, set(), 0, 0
+    rejetees = set()   # A3 : les deux arbitres rejettent la référence sans s'accorder sur la correction
     for c in cle:
         v = ver.get(c['id'])
         if v is None: continue
@@ -37,6 +38,8 @@ def reference_adjugee(dossier):
             v2 = ver2.get(c['id'])
             if v2 is None or vue(v2['texte_correct'], 'diplo') != j:
                 contestes += 1
+                if v2 is not None and j != vue(r, 'diplo') and vue(v2['texte_correct'], 'diplo') != vue(r, 'diplo'):
+                    rejetees.add(vue(r, 'diplo'))
                 continue
         if r in choix and choix[r] != j: conflits.add(r)
         choix.setdefault(r, j)
@@ -49,7 +52,7 @@ def reference_adjugee(dossier):
             adj.append(x)
     return adj, {'lignes_corrigees': sum(1 for d in choix if d not in conflits and choix[d] != d),
                  'car_faux_reference': err_ref, 'conflits': len(conflits), 'indecidables': indec,
-            'contestes_non_retenus': contestes}
+            'contestes_non_retenus': contestes, 'rejetees': sorted(rejetees)}
 
 
 if __name__ == '__main__':
@@ -62,4 +65,6 @@ if __name__ == '__main__':
         h = open(lec, encoding='utf-8').read().splitlines()
         a, b = score(ref, h, 'diplo'), score(adj, h, 'diplo')
         n = score(adj, h, 'norm')
+        hors = sum(f['ed'] for f in b['fautes'] if f['ref'] in set(info['rejetees']))
+        print(f"{'':14s} dont lignes à référence rejetée (A3, indécidées) : {hors} éd. sur {len(info['rejetees'])} lignes → {100*(b['editions']-hors)/b['car_ref']:.3f} % hors indécidées")
         print(f"{lec.split('/')[-1]:14s} diplo distribuée {100*a['cer']:.3f} % ({a['editions']}) | adjugée {100*b['cer']:.3f} % ({b['editions']}) | norm adjugée {100*n['cer']:.3f} % ({n['editions']}) exactes {b['lignes_exactes']}/{b['lignes_ref']}")
