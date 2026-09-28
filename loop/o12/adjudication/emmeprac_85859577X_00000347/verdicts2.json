@@ -1,0 +1,128 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "EXCEPTIONIBVS FACTI.",
+  "justification": "V en petites capitales (IBVS)."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "ſi quis poſtulante Inſt. de act. & § æquè ſi debitor Inſt. de ex-",
+  "justification": "Espace visible entre de et act."
+ },
+ {
+  "id": "l002",
+  "verdict": "Y",
+  "texte_correct": "cept. adeo magnam vim in iure iurisiurandi religio obtinet",
+  "justification": "s rond dans iurisiurandi."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "† vt tranſactioni aſſimiletur. l. 2. ff. de iureiur. & rei iudicatę,",
+  "justification": "Dague typographique simple (†)."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "l. 1. inprin ff. quarum rer. act. dat. l 2. & l. qui iuraſſe 26. §. fin.",
+  "justification": "inprin soudé ; « l 2. » sans point après l."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "ff. de iureiur. ſolutioni l. iuſiurandum 27. ff. eod. acceptilationi",
+  "justification": "« 27. ff. » : point collé à 27, espace avant ff."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "ptio detur, quę tamen † in continenti probari debet. Si enim",
+  "justification": "Dague †."
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "ceſſarium, nõ immerito quæritur ex quo † hæc exceptio fa-",
+  "justification": "Dague †."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "iudiciali & neceſſario iuramento. Eſt autem iudiciale †",
+  "justification": "Dague †."
+ },
+ {
+  "id": "l009",
+  "verdict": "X",
+  "texte_correct": "iusiurandum, quod pars parti in iudicio defert iudice",
+  "justification": "s rond dans iusiurandum."
+ },
+ {
+  "id": "l010",
+  "verdict": "X",
+  "texte_correct": "locum habet. Iuramentum neceſſarium eſt † quod iudex",
+  "justification": "Dague †."
+ },
+ {
+  "id": "l011",
+  "verdict": "Y",
+  "texte_correct": "in iudicio defert, l. admonendiff. de iureiur. l. in bonæ fidei C.",
+  "justification": "admonendiff. : pas d espace entre i et ff."
+ },
+ {
+  "id": "l012",
+  "verdict": "X",
+  "texte_correct": "fit iudice deferente, vim rei iudicatæ habet, ſecundum Bart.",
+  "justification": "Ligature fi avec barre de f débordant à gauche : fit (coquille pour sit), incertain."
+ },
+ {
+  "id": "l013",
+  "verdict": "Y",
+  "texte_correct": "voluntarium † eſt, quod ex conuentione pars parti extra iu-",
+  "justification": "Dague † ; conuentione sans espace."
+ },
+ {
+  "id": "l014",
+  "verdict": "Y",
+  "texte_correct": "dicium defert. l. iusiurandum, quod ex conuc̃tione in princip.",
+  "justification": "Tilde nettement visible au-dessus du c : conuc̃tione."
+ },
+ {
+  "id": "l015",
+  "verdict": "X",
+  "texte_correct": "✝ poſt litem conteſtatam in vim peremptoriæ, quæ actio-",
+  "justification": "Dague †."
+ },
+ {
+  "id": "l016",
+  "verdict": "Y",
+  "texte_correct": "329",
+  "justification": "Chiffre elzévirien 3 à tête plate (descend sous la ligne), 329."
+ },
+ {
+  "id": "l017",
+  "verdict": "Y",
+  "texte_correct": "l. 1. inprin ff. quarum rer. act. dat. l 2. & l. qui iuraſſe 26. §. fin.",
+  "justification": "inprin soudé ; « l 2. » sans point après l."
+ },
+ {
+  "id": "l018",
+  "verdict": "Y",
+  "texte_correct": "& poſtea cum ibi not. ff de iureiur. Bart. in l. cum quærebatur",
+  "justification": "Pas de point après ff."
+ },
+ {
+  "id": "l019",
+  "verdict": "Y",
+  "texte_correct": "lit l. Iulianus & ibi notat. ff. de condict. indeb. Iuramentum",
+  "justification": "Le trait au-dessus du a est une rayure fine et longue, pas un accent."
+ },
+ {
+  "id": "l020",
+  "verdict": "X",
+  "texte_correct": "dicium defert. l. iusiurandum, quod ex conuc̃tione in princip.",
+  "justification": "Tilde sur c, pas un e : conuc̃tione."
+ }
+]

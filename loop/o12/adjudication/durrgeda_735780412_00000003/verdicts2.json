@@ -1,0 +1,32 @@
+[
+ {
+  "id": "l000",
+  "verdict": "Y",
+  "texte_correct": "Hꝛn. Friedrich",
+  "justification": "Signe ꝛ (r rotunda) visible entre H et n."
+ },
+ {
+  "id": "l001",
+  "verdict": "Y",
+  "texte_correct": "von Koſpoth/",
+  "justification": "Lettrine ornée : K, pas R."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "Seiner Koͤniglichen Majeſtaͤt in Pohlen",
+  "justification": "ſ long visible dans Majeſtät."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "Sachſen hochbeſtalten Geheimbden Rath und",
+  "justification": "Initiale ornée identique au G de Graffſchafft (ligne suivante) : G."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "Ober⸗Aufſeher in der Graffſchafft",
+  "justification": "Trois hampes après Gra : f f ſ."
+ }
+]

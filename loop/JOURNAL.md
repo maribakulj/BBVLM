@@ -218,3 +218,13 @@ Banc complet (16 pages, lignes réf. et kraken) : gain sur lignes inclinées
 berirev pire 7,17 → 4,33), perte sur pages droites (AmmoLIBR 96,9 → 92,2 %,
 DasWeL 97,6 → 94,0 %, IoU −0,01 à −0,03). Redressement désormais réservé aux
 lignes dont la dérive dépasse 0,25 h ; à re-mesurer avant adoption.
+
+## O12 — 2026-09-28 — chaîne P6 sur 4 œuvres neuves (texte)
+
+P3 final contre référence adjugée (A2) : erobdefoa **0**, durrgeda 1,
+emmeprac 9, herbdulc 10. herbdulc : 10 = cinq ů (anneau imprimé, deux
+arbitres concordants) lus uͤ à cause de la règle étymologique P5 → règle L06
+réfutée pour cet imprimeur. R2 mesuré partout (O07-O12) : utile seulement sur
+herrleyc (41 → 17), neutre ailleurs. Consigne P7 (forme d'abord +
+`#INFLEXION` déclaré, R1/R2 conditionnés ; + règle L08). Placement : banc
+S05 en cours, décision avant lecture des scores ALTO d'O12.

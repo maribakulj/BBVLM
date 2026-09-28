@@ -4,7 +4,7 @@ R1 (tréma minuscule → e suscrit) réfutée en O05 sur une page en romain
 (fiscfrie : +20 fautes) : elle n'est plus appliquée que si le lecteur déclare
 `#ECRITURE: fraktur` et que la page ne porte pas ů (XVIe s.).
 """
-import re, sys, unicodedata
+import os, re, sys, unicodedata
 from ocrd2 import conforme
 from harmonise import TREMA, E_
 
@@ -15,17 +15,21 @@ JETONS = {'{florin}': '\uf2e8', '{groschen}': '\uf2e9'}
 
 
 def post(lignes):
-    ecriture = None
+    ecriture = inflexion = None
     corps = []
     for l in lignes:
         if l.strip().lower().startswith('#ecriture:'):
             ecriture = l.split(':', 1)[1].strip().lower(); continue
+        if l.strip().lower().startswith('#inflexion:'):   # P7 : signe d'inflexion de l'imprimeur
+            inflexion = l.split(':', 1)[1].strip().lower(); continue
         l = ROLE.sub('', l)
         for j, c in JETONS.items(): l = l.replace(j, c)
         corps.append(conforme(l))
     t = unicodedata.normalize('NFC', '\n'.join(corps))
-    if ecriture == 'fraktur' and 'ů' not in t:
+    e_ok = inflexion in (None, 'e')   # R1, R2 supposent l'inflexion notée par e suscrit (herbdulc : anneau)
+    if ecriture == 'fraktur' and 'ů' not in t and e_ok:
         for c, v in TREMA.items(): t = t.replace(c, v+E_)
+    if os.environ.get('BBVLM_R2', '1') == '0' or not e_ok: return t.split('\n'), ecriture
     from r2 import applique           # R2 : ů / uͤ par l'étymologie (L06), développée sur O02-O08
     return applique(t.split('\n')), ecriture
 
