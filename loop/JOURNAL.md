@@ -277,3 +277,16 @@ lieu de 34, erobdefoa 0,983), recul sur emmeprac (0,779 → 0,752).
 **erobdefoa : première page parfaite de bout en bout** — 0 faute de texte,
 CRITERE ✓ (≤0,5c 100 %, pire 0,0). Sur les autres pages, CRITERE bloqué par
 3-4 lignes en échec (nombre de mots), pas par les frontières.
+
+## S06 — 2026-09-28 — lignes manquées par projection (L11) — non intégré
+
+Titres d'apparat de durrgeda (430 px, initiales florales) : kraken ne les
+trouve à aucune échelle (1 → 1/8, mesuré) ; la ligne d'adresse « JENA… » est
+retrouvée à 1/2. Bandes d'encre hors lignes kraken (profil horizontal, seuil
+calé sur l'encre des lignes kraken, zone de texte, composantes de bord
+exclues) : titres de durrgeda retrouvés en partie seulement, bandes parasites
+sur la page-tableau (accolades, filets). Gain rare, risque de bruit : non
+intégré (`outils/bandes.py` gardé comme outil de diagnostic).
+Diagnostic CRITERE O12 : échecs = blancs du texte lu (emmeprac, 4 lignes :
+fautes de texte déjà comptées) + lignes non trouvées par kraken (titres
+d'apparat durrgeda, courtes références marginales herbdulc).

@@ -166,3 +166,17 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
   similarité de texte (hongrois), l'alignement par largeur ne complétant que
   les lignes sans ancre. Vise les pages où aucun ordre fixe ne reproduit
   l'ordre du lecteur (852691769 : blocs lus colonne par colonne).
+
+## L11 — lignes manquées : profils de projection (2026-09-28, après O12)
+
+- **Likforman-Sulem, Zahour & Taconet (2007), « Text line segmentation of
+  historical documents: a survey » (IJDAR)** : les profils de projection
+  horizontaux sont la méthode de base des lignes non inclinées ; robustes
+  aux grandes tailles de caractères, fragiles aux lignes qui se touchent.
+- **kraken blla** : réseau entraîné sur des corps de texte courants ; les
+  titres en très gros corps (durrgeda : 430 px, initiales florales) ne sont
+  trouvés à aucune échelle (1, 1/2, 1/3, 1/5, 1/8) — mesuré.
+- *Conséquence* (S06) : seulement s'il reste des lignes lues non placées,
+  chercher par projection horizontale les bandes d'encre que les lignes
+  kraken ne couvrent pas ; les proposer comme lignes candidates à l'ancrage
+  Tesseract (S05). Complément ciblé, pas un second segmenteur.
