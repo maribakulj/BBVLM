@@ -95,3 +95,15 @@ par un second Opus ; un désaccord rend la ligne « contestée ».
 Relecture aveugle sans candidats : 13 lignes concordantes, 4 contestées
 (å/aͤ, ſ/f, ſs/ß, ꝛ/r, t/c). Les 0 % se disent désormais avec leur nombre de
 lignes contestées.
+
+## O08 (en cours) — OLR des livres dans la même passe
+
+Rôle de chaque ligne 81-100 % exact, ordre des régions 0,90-1,00, régions
+parfaites sur herrleyc/euanaua ; granularité à préciser (culmsent : un
+proverbe = un paragraphe pour le lecteur, un bloc pour la référence). ALTO avec
+TextBlocks typés + ReadingOrder, valide XSD.
+
+## R01 — recherche plein texte : 100 % sur albedm, 53-93 % ailleurs
+
+Métadonnées bibliographiques : aucune référence accessible (MODS vides,
+catalogues SBB/VD17/K10plus bloqués par le proxy).

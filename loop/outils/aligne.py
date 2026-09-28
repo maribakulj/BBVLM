@@ -71,3 +71,37 @@ def aligne(textes, boites, penalite=0.8):
         elif op == 't': i -= 1
         else: j -= 1
     return res
+
+
+def colonnes(boites):
+    """Groupes de recouvrement horizontal (voir ordre_lecture) ; renvoie la liste
+    des groupes, le plus large (colonne principale) en premier."""
+    n = len(boites); par = list(range(n))
+    def f(i):
+        while par[i] != i: par[i] = par[par[i]]; i = par[i]
+        return i
+    for i in range(n):
+        for j in range(i+1, n):
+            a, b = boites[i], boites[j]
+            if min(a[2], b[2]) - max(a[0], b[0]) >= .3*min(a[2]-a[0], b[2]-b[0]): par[f(i)] = f(j)
+    g = {}
+    for i in range(n): g.setdefault(f(i), []).append(i)
+    return sorted(g.values(), key=lambda x: -sum(boites[i][2]-boites[i][0] for i in x))
+
+
+def aligne_roles(textes, roles, boites):
+    """Manchettes alignées sur les lignes hors colonne principale, le reste sur
+    la colonne principale et les lignes courtes qui la prolongent (folio,
+    réclame, signature). Rend {indice_texte: indice_boite}."""
+    gs = colonnes(boites)
+    principal = set(gs[0]) if gs else set()
+    larges = max((boites[i][2]-boites[i][0] for i in principal), default=1)
+    marge = [i for i in range(len(boites)) if i not in principal and (boites[i][2]-boites[i][0]) < .5*larges]
+    reste = [i for i in range(len(boites)) if i not in marge]
+    res = {}
+    for groupe, filtre in ((reste, lambda r: r != 'marginalia'), (marge, lambda r: r == 'marginalia')):
+        idx_t = [k for k, r in enumerate(roles) if filtre(r)]
+        if not idx_t or not groupe: continue
+        a = aligne([textes[k] for k in idx_t], [boites[i] for i in groupe])
+        for kt, kb in a.items(): res[idx_t[kt]] = groupe[kb]
+    return res

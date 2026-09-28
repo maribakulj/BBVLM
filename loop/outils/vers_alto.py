@@ -33,7 +33,12 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
     kr = json.load(open(f'{dossier}/kraken_serre.json'))['lignes']
     boites = [l['bbox'] for l in kr]
     g = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE); H, W = g.shape
-    loc = aligne(lignes, boites)
+    if roles:
+        from aligne import aligne_roles
+        a1, a2 = aligne_roles(lignes, [r[0] for r in roles], boites), aligne(lignes, boites)
+        loc = a1 if len(a1) >= len(a2) else a2   # sans référence : la variante qui place le plus de lignes
+    else:
+        loc = aligne(lignes, boites)
     bx = connexe.Connexe()
     root = etree.Element(f'{{{NS}}}alto', nsmap={None: NS, 'xsi': 'http://www.w3.org/2001/XMLSchema-instance'})
     root.set('{http://www.w3.org/2001/XMLSchema-instance}schemaLocation', NS+' http://www.loc.gov/standards/alto/v4/alto-4-4.xsd')
