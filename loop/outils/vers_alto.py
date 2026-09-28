@@ -55,7 +55,10 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
     else:
         loc = aligne(lignes, boites)
     import os as _os
-    if _os.environ.get('BBVLM_BOXER', 'route') == 'route':   # G02/A37 par défaut (mesuré sur 8 pages)
+    if _os.environ.get('BBVLM_BOXER', 'route') == 'base':    # B02 : redressement par la ligne de base kraken
+        from centre import LigneBase
+        bx = LigneBase({tuple(int(v) for v in l['bbox']): l.get('baseline') for l in kr})
+    elif _os.environ.get('BBVLM_BOXER', 'route') == 'route':   # G02/A37 par défaut (mesuré sur 8 pages)
         from g02 import Route
         bx = Route()
     else:

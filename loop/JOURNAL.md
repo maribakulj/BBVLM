@@ -371,3 +371,17 @@ Rappel des occurrences (terme + boîte IoU ≥ 0,5) : ≥ 0,95 sur 6 pages
 herrkurt, 0,77 852691769 (0,09 avant l'ancrage S05 : ALTO reconstruit), 0,63
 heptaldai (lignes inclinées : boîtes). Toutes les lignes d'O10-O11 sont
 désormais placées.
+
+## B01 — re-mesure sous seuil (24 pages O07-O13) — non adopté
+
+Seuil 0,25 h : identique à Route sur les pages droites, mais ne se déclenche
+presque plus sur les pages inclinées (heptaldai IoU méd 0,605 → 0,611 ;
+herrkurt ≤0,5c 84,65 → 83,72). Sans seuil, gain sur inclinées et perte sur
+droites. La dérive estimée sur l'encre (CenterNormalizer) est trop bruitée.
+
+## B02 — redressement par la ligne de base kraken — en banc
+
+Même redressement, dérive lue sur la ligne de base (polyligne kraken, jusqu'ici
+inutilisée). 4 pages, texte+IoU80 route → base (seuil 0,15 h) : heptaldai
+0,343 → 0,418 (IoU méd 0,611 → 0,760), herrkurt 0,470 → 0,583, herbdulc =,
+bankgraf 0,899 → 0,855. Banc 24 pages, seuils 0,15 et 0,30, en cours.

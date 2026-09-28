@@ -44,21 +44,50 @@ class Centre(Route):
         if amp < SEUIL * (y1 - y0):                  # ligne assez droite : Route tel quel
             # (B01 : redresser une ligne droite coûte 1-4 pts sur AmmoLIBR, DasWeL)
             return super().boxes(g, ln)
-        xa = max(0, x0)
-        pad = amp + 2
-        top, bot = max(0, y0 - pad), min(H, y1 + pad + 1)
-        band = np.full((bot - top + 2 * pad, W), 255, g.dtype)
-        band[pad:pad + bot - top] = g[top:bot]
-        droit = np.full((bot - top, W), 255, g.dtype)
-        for i, d in enumerate(s):                     # colonne xa+i remontée de d
-            x = xa + i
-            droit[:, x] = band[pad + d:pad + d + bot - top, x]
-        l2 = copy.copy(ln)
-        # boîte de la ligne droite : hauteur réelle du corps, sans la dérive
-        l2.line_box = (x0, y0 - top + max(0, s.max()), x1, y1 - top + min(0, s.min()))
-        out = []
-        for (a, b, c, d) in super().boxes(droit, l2):
-            i0, i1 = max(0, a - xa), min(len(s) - 1, c - xa)
-            seg = s[i0:i1 + 1] if i1 >= i0 else s[:1]
-            out.append((a, b + top + int(seg.min()), c, d + top + int(seg.max())))
-        return out
+        return redresse(self, g, ln, s)
+
+
+def redresse(boxer, g, ln, s):
+    """Boîtes Route sur la bande redressée (décalage s par colonne), reprojetées."""
+    x0, y0, x1, y1 = ln.line_box
+    H, W = g.shape
+    amp = int(s.max() - s.min())
+    xa = max(0, x0)
+    pad = amp + 2
+    top, bot = max(0, y0 - pad), min(H, y1 + pad + 1)
+    band = np.full((bot - top + 2 * pad, W), 255, g.dtype)
+    band[pad:pad + bot - top] = g[top:bot]
+    droit = np.full((bot - top, W), 255, g.dtype)
+    for i, d in enumerate(s):                     # colonne xa+i remontée de d
+        x = xa + i
+        droit[:, x] = band[pad + d:pad + d + bot - top, x]
+    l2 = copy.copy(ln)
+    # boîte de la ligne droite : hauteur réelle du corps, sans la dérive
+    l2.line_box = (x0, y0 - top + max(0, s.max()), x1, y1 - top + min(0, s.min()))
+    out = []
+    for (a, b, c, d) in Route.boxes(boxer, droit, l2):
+        i0, i1 = max(0, a - xa), min(len(s) - 1, c - xa)
+        seg = s[i0:i1 + 1] if i1 >= i0 else s[:1]
+        out.append((a, b + top + int(seg.min()), c, d + top + int(seg.max())))
+    return out
+
+
+class LigneBase(Route):
+    """B02 — même redressement, mais la dérive vient de la ligne de base kraken
+    (polyligne), pas d'une estimation sur l'encre. `bases` : {bbox: baseline}."""
+    name = 'base+route'
+    SEUIL = float(__import__('os').environ.get('BBVLM_BASE_SEUIL', '0.15'))
+
+    def __init__(self, bases=None):
+        super().__init__(); self.bases = bases or {}
+
+    def boxes(self, g, ln):
+        x0, y0, x1, y1 = ln.line_box
+        bl = self.bases.get(tuple(int(v) for v in ln.line_box))
+        if not bl or len(bl) < 2: return super().boxes(g, ln)
+        xs = np.arange(max(0, x0), x1 + 1)
+        px, py = zip(*sorted(bl))
+        yb = np.interp(xs, px, py)
+        s = np.round(yb - np.median(yb)).astype(int)
+        if s.max() - s.min() < self.SEUIL * (y1 - y0): return super().boxes(g, ln)
+        return redresse(self, g, ln, s)
