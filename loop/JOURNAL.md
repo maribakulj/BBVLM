@@ -510,3 +510,19 @@ Aucune classe déterministe dominante ne reste. Par type :
 Conclusion : le texte des pages courantes est au plancher des conventions
 de la VT (≤ 2 éd.) ; les gains restants viennent des pages dures (herrkurt,
 extraudeu, buchdas, cingdei) ou d'une relecture VLM ciblée ſ/f.
+
+## C-balayage — 2026-09-28 — CRITERE (e01, Route, kraken G03) sur les 24 pages O10-O15
+
+✓ sur **10/24** : backhart, branchri, erobdefoa, bankgraf, caladr, aepidisp,
+baurodwe, dalarie, busmexpo (+ 0 faute de texte : erobdefoa, caladr, dalarie).
+Échecs, par cause :
+- lignes en échec seules, frontières bonnes (≤ 0,5c ≥ 98 %, pire < 2c) :
+  chridiss, durrgeda, AyrmThes, goclprop, emmeprac, cingdei, eberbrev —
+  nombre de mots différent de la VT (blancs de ponctuation déjà comptés au
+  texte) ou lignes absentes de kraken (chridiss 33/37, durrgeda 14/17,
+  eberbrev 28/29) ;
+- frontières : heptaldai (78 %, IoU 0,61, page gondolée ; B04 non évalué
+  ici), herrkurt (85 %), hackherz et buchdas (pire 9-11c, lignes de texte
+  fautif), 852691769 (58/68 lignes).
+Les deux leviers : lignes manquées par kraken (4 pages) et le gondolage
+(heptaldai). Le reste suit le texte.
