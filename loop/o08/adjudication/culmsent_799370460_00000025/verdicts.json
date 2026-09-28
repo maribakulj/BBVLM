@@ -1,0 +1,58 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Fœlix quicunqꝫ dolore alterius diſces poſſe ca⸗",
+  "notes": [
+   "qꝫ imprimé (q + signe ꝫ) ; Y l'omet. Le trait oblique sur le 2e i de quicunqꝫ est lu comme point de i de la fonte"
+  ]
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "Humilis fortuna tutior eſt quàm excelſa.",
+  "notes": [
+   "t net dans tutior ; Y 'tulior' faux"
+  ]
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "Inſperata accidunt magis ſæpe, q̄ꝫ quæ ſperes.",
+  "notes": [
+   "q barré en haut d'un trait droit (macron) + ꝫ ; Y l'omet"
+  ]
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "Ipſa dies quandoqꝫ parens, quandoqꝫ nouerca.",
+  "notes": [
+   "qꝫ imprimé deux fois ; Y les omet"
+  ]
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "Hoſtem beneficijs uincere optima ultio eſt,",
+  "notes": [
+   "virgule en fin de ligne, pas un point"
+  ]
+ },
+ {
+  "id": "l005",
+  "verdict": "aucun",
+  "texte_correct": "Inſperata accidunt magis ſæpe, q̄ꝫ quæ ſperes.",
+  "notes": [
+   "même image que l002 : le signe suscrit est un trait droit (macron), pas un tilde ; X q̃ꝫ mal, Y l'omet"
+  ]
+ },
+ {
+  "id": "l006",
+  "verdict": "Y",
+  "texte_correct": "Hoſtem beneficijs uincere optima ultio eſt,",
+  "notes": [
+   "le trait sur le i de uincere est oblique et plus long qu'ailleurs, mais la même forme revient sur d'autres i de la fonte (dies, Humilis) : lu comme point de i, pas í. Confiance moyenne"
+  ]
+ }
+]

@@ -1,0 +1,104 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Fœlix quicunqꝫ dolore alterius diſces poſſe ca⸗",
+  "Y": "Fœlix quicun dolore alterius diſces poſſe ca⸗",
+  "divergences_X_vers_Y": [
+   [
+    "qꝫ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o08/culmsent_799370460_00000025//p2_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Humilis fortuna tutior eſt quàm excelſa.",
+  "Y": "Humilis fortuna tulior eſt quàm excelſa.",
+  "divergences_X_vers_Y": [
+   [
+    "t",
+    "l"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o08/culmsent_799370460_00000025//p2_a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "Inſperata accidunt magis ſæpe, q̄ꝫ quæ ſperes.",
+  "Y": "Inſperata accidunt magis ſæpe,  quæ ſperes.",
+  "divergences_X_vers_Y": [
+   [
+    "q̄ꝫ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o08/culmsent_799370460_00000025//p2_a.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "Ipſa dies quandoqꝫ parens, quandoqꝫ nouerca.",
+  "Y": "Ipſa dies quando parens, quando nouerca.",
+  "divergences_X_vers_Y": [
+   [
+    "qꝫ",
+    ""
+   ],
+   [
+    "qꝫ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o08/culmsent_799370460_00000025//p2_a.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "Hoſtem beneficijs uincere optima ultio eſt,",
+  "Y": "Hoſtem beneficijs uincere optima ultio eſt.",
+  "divergences_X_vers_Y": [
+   [
+    ",",
+    "."
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o08/culmsent_799370460_00000025//p2_b.txt"
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "Inſperata accidunt magis ſæpe, q̃ꝫ quæ ſperes.",
+  "Y": "Inſperata accidunt magis ſæpe,  quæ ſperes.",
+  "divergences_X_vers_Y": [
+   [
+    "q̃ꝫ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o08/culmsent_799370460_00000025//p2_b.txt"
+ },
+ {
+  "id": "l006",
+  "image": "l006.png",
+  "X": "Hoſtem beneficijs uíncere optima ultio eſt,",
+  "Y": "Hoſtem beneficijs uincere optima ultio eſt,",
+  "divergences_X_vers_Y": [
+   [
+    "í",
+    "i"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o08/culmsent_799370460_00000025//p3_final.txt"
+ }
+]

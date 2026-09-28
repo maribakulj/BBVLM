@@ -1,0 +1,99 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "vnd nidrigs ſtands/ die Gott dem tod",
+  "notes": [
+   "barre oblique / bien imprimée après ſtands"
+  ]
+ },
+ {
+  "id": "l001",
+  "verdict": "Y",
+  "texte_correct": "gekuͤndigt/ derer tag wie ein Waſſer⸗",
+  "notes": [
+   "le signe suscrit est un petit e ouvert (uͤ), pas un rond"
+  ]
+ },
+ {
+  "id": "l002",
+  "verdict": "Y",
+  "texte_correct": "uon/ wie ein graß/ das da fruͤe bluͤhet/",
+  "notes": [
+   "petit e suscrit sur les deux u (uͤ), pas ů"
+  ]
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "elend ding vmb aller Menſchen leben",
+  "notes": [
+   "d abîmé mais identifiable dans ding (Y 'ting' faux)",
+   "ſ long dans Menſchen"
+  ]
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "vnſere miſſethat ſtellet jhm Gott fuͤr",
+  "notes": [
+   "petit e suscrit : uͤ"
+  ]
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "augen/ vnſer vnerkandte Suͤnde ins",
+  "notes": [
+   "petit e suscrit : uͤ"
+  ]
+ },
+ {
+  "id": "l006",
+  "verdict": "Y",
+  "texte_correct": "liecht fuͤr ſein angeſicht/ Darumb fa⸗",
+  "notes": [
+   "petit e suscrit : uͤ"
+  ]
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "ſind/ nemē wir ein end/ vnſer boßheit",
+  "notes": [
+   "signe sur le e : barre presque droite qui retombe à droite, pas une vague ; lu comme macron ē. Confiance moyenne"
+  ]
+ },
+ {
+  "id": "l008",
+  "verdict": "Y",
+  "texte_correct": "vnd Suͤnde fuͤren vns dahin/ das wir",
+  "notes": [
+   "petit e suscrit sur les deux u : uͤ"
+  ]
+ },
+ {
+  "id": "l009",
+  "verdict": "X",
+  "texte_correct": "vergehen wie ein duͤnner Reiff/ wie",
+  "notes": [
+   "petit e suscrit : uͤ"
+  ]
+ },
+ {
+  "id": "l010",
+  "verdict": "X",
+  "texte_correct": "ſtaub vn̄ ſprew vom Winde/ wie ein",
+  "notes": [
+   "la lettre est un n (jambages reliés en haut) portant un trait droit : n̄"
+  ]
+ },
+ {
+  "id": "l011",
+  "verdict": "aucun",
+  "texte_correct": "ſtaub vn̄ ſprew vom Winde/ wie ein",
+  "notes": [
+   "même image que l010 : c'est n̄ ; X ū (u + macron) et Y ũ (tilde) sont faux tous les deux"
+  ]
+ }
+]

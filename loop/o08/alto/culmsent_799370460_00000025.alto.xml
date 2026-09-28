@@ -1,0 +1,555 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-4.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>culmsent_799370460_00000025.tif</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="OCRP1">
+      <ocrProcessingStep>
+        <processingStepDescription>texte : lecture VLM diplomatique OCR-D niveau 2 ; lignes : kraken blla resserré sur l'encre du polygone ; mots : connexe (BBVLM). Brouillon de vérité terrain : relecture humaine requise.</processingStepDescription>
+        <processingSoftware>
+          <softwareName>BBVLM loop — Claude Opus (2 passes + arbitrage P3) + kraken 7.1.1 + connexe</softwareName>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Tags>
+    <OtherTag ID="NON_PLACE" LABEL="ligne lue non placée" TYPE="provenance"/>
+    <LayoutTag ID="ROLE_catch-word" LABEL="catch-word" TYPE="OCR-D region type"/>
+    <LayoutTag ID="ROLE_paragraph" LABEL="paragraph" TYPE="OCR-D region type"/>
+    <LayoutTag ID="ROLE_signature-mark" LABEL="signature-mark" TYPE="OCR-D region type"/>
+  </Tags>
+  <ReadingOrder>
+    <OrderedGroup ID="RO1">
+      <ElementRef ID="RO_B001" REF="B001"/>
+      <ElementRef ID="RO_B002" REF="B002"/>
+      <ElementRef ID="RO_B003" REF="B003"/>
+      <ElementRef ID="RO_B004" REF="B004"/>
+      <ElementRef ID="RO_B005" REF="B005"/>
+      <ElementRef ID="RO_B006" REF="B006"/>
+      <ElementRef ID="RO_B007" REF="B007"/>
+      <ElementRef ID="RO_B008" REF="B008"/>
+      <ElementRef ID="RO_B009" REF="B009"/>
+      <ElementRef ID="RO_B010" REF="B010"/>
+      <ElementRef ID="RO_B011" REF="B011"/>
+      <ElementRef ID="RO_B012" REF="B012"/>
+      <ElementRef ID="RO_B013" REF="B013"/>
+      <ElementRef ID="RO_B014" REF="B014"/>
+      <ElementRef ID="RO_B015" REF="B015"/>
+      <ElementRef ID="RO_B016" REF="B016"/>
+      <ElementRef ID="RO_B017" REF="B017"/>
+      <ElementRef ID="RO_B018" REF="B018"/>
+      <ElementRef ID="RO_B019" REF="B019"/>
+      <ElementRef ID="RO_B020" REF="B020"/>
+      <ElementRef ID="RO_B021" REF="B021"/>
+      <ElementRef ID="RO_B022" REF="B022"/>
+      <ElementRef ID="RO_B023" REF="B023"/>
+      <ElementRef ID="RO_B024" REF="B024"/>
+      <ElementRef ID="RO_B025" REF="B025"/>
+      <ElementRef ID="RO_B026" REF="B026"/>
+      <ElementRef ID="RO_B027" REF="B027"/>
+      <ElementRef ID="RO_B028" REF="B028"/>
+      <ElementRef ID="RO_B029" REF="B029"/>
+      <ElementRef ID="RO_B030" REF="B030"/>
+      <ElementRef ID="RO_B031" REF="B031"/>
+      <ElementRef ID="RO_B032" REF="B032"/>
+      <ElementRef ID="RO_B033" REF="B033"/>
+    </OrderedGroup>
+  </ReadingOrder>
+  <Layout>
+    <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="1288" HEIGHT="1878">
+      <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="1288" HEIGHT="1878">
+        <TextBlock ID="B001" TAGREFS="ROLE_paragraph" HPOS="160" VPOS="95" WIDTH="631" HEIGHT="57">
+          <TextLine ID="L0001" HPOS="160" VPOS="95" WIDTH="631" HEIGHT="57">
+            <String ID="L0001_W01" CONTENT="Facilius" HPOS="162" VPOS="109" WIDTH="133" HEIGHT="41"/>
+            <SP HPOS="295" VPOS="109" WIDTH="8"/>
+            <String ID="L0001_W02" CONTENT="quis" HPOS="303" VPOS="110" WIDTH="74" HEIGHT="40"/>
+            <SP HPOS="377" VPOS="110" WIDTH="7"/>
+            <String ID="L0001_W03" CONTENT="conſulit" HPOS="384" VPOS="105" WIDTH="133" HEIGHT="36"/>
+            <SP HPOS="517" VPOS="105" WIDTH="16"/>
+            <String ID="L0001_W04" CONTENT="alijs" HPOS="533" VPOS="105" WIDTH="68" HEIGHT="41"/>
+            <SP HPOS="601" VPOS="105" WIDTH="10"/>
+            <String ID="L0001_W05" CONTENT="quàm" HPOS="611" VPOS="108" WIDTH="98" HEIGHT="38"/>
+            <SP HPOS="709" VPOS="108" WIDTH="15"/>
+            <String ID="L0001_W06" CONTENT="ſibi." HPOS="724" VPOS="104" WIDTH="66" HEIGHT="34"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B002" TAGREFS="ROLE_paragraph" HPOS="163" VPOS="142" WIDTH="813" HEIGHT="50">
+          <TextLine ID="L0002" HPOS="163" VPOS="142" WIDTH="813" HEIGHT="50">
+            <String ID="L0002_W01" CONTENT="Fortunæ" HPOS="167" VPOS="154" WIDTH="149" HEIGHT="38"/>
+            <SP HPOS="316" VPOS="154" WIDTH="10"/>
+            <String ID="L0002_W02" CONTENT="incommoda" HPOS="326" VPOS="150" WIDTH="216" HEIGHT="34"/>
+            <SP HPOS="542" VPOS="150" WIDTH="8"/>
+            <String ID="L0002_W03" CONTENT="nihil" HPOS="550" VPOS="149" WIDTH="78" HEIGHT="35"/>
+            <SP HPOS="628" VPOS="149" WIDTH="14"/>
+            <String ID="L0002_W04" CONTENT="mouent" HPOS="642" VPOS="158" WIDTH="137" HEIGHT="23"/>
+            <SP HPOS="779" VPOS="158" WIDTH="14"/>
+            <String ID="L0002_W05" CONTENT="ſapientem." HPOS="793" VPOS="143" WIDTH="182" HEIGHT="45"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B003" TAGREFS="ROLE_paragraph" HPOS="164" VPOS="189" WIDTH="790" HEIGHT="45">
+          <TextLine ID="L0003" HPOS="164" VPOS="189" WIDTH="790" HEIGHT="45">
+            <String ID="L0003_W01" CONTENT="Feſtinationis" HPOS="165" VPOS="196" WIDTH="222" HEIGHT="38"/>
+            <SP HPOS="387" VPOS="196" WIDTH="8"/>
+            <String ID="L0003_W02" CONTENT="comites" HPOS="395" VPOS="199" WIDTH="134" HEIGHT="30"/>
+            <SP HPOS="529" VPOS="199" WIDTH="9"/>
+            <String ID="L0003_W03" CONTENT="ſunt" HPOS="538" VPOS="192" WIDTH="69" HEIGHT="35"/>
+            <SP HPOS="607" VPOS="192" WIDTH="10"/>
+            <String ID="L0003_W04" CONTENT="error" HPOS="617" VPOS="200" WIDTH="88" HEIGHT="24"/>
+            <SP HPOS="705" VPOS="200" WIDTH="10"/>
+            <String ID="L0003_W05" CONTENT="&amp;" HPOS="715" VPOS="189" WIDTH="33" HEIGHT="32"/>
+            <SP HPOS="748" VPOS="189" WIDTH="10"/>
+            <String ID="L0003_W06" CONTENT="pœnitentia." HPOS="758" VPOS="192" WIDTH="195" HEIGHT="36"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B004" TAGREFS="ROLE_paragraph" HPOS="164" VPOS="225" WIDTH="694" HEIGHT="57">
+          <TextLine ID="L0004" HPOS="164" VPOS="225" WIDTH="694" HEIGHT="57">
+            <String ID="L0004_W01" CONTENT="Fœliciter" HPOS="164" VPOS="239" WIDTH="158" HEIGHT="35"/>
+            <SP HPOS="322" VPOS="239" WIDTH="6"/>
+            <String ID="L0004_W02" CONTENT="ſapit," HPOS="328" VPOS="235" WIDTH="92" HEIGHT="46"/>
+            <SP HPOS="420" VPOS="235" WIDTH="4"/>
+            <String ID="L0004_W03" CONTENT="qui" HPOS="424" VPOS="241" WIDTH="68" HEIGHT="41"/>
+            <SP HPOS="492" VPOS="241" WIDTH="1"/>
+            <String ID="L0004_W04" CONTENT="alieno" HPOS="493" VPOS="240" WIDTH="118" HEIGHT="33"/>
+            <SP HPOS="611" VPOS="240" WIDTH="10"/>
+            <String ID="L0004_W05" CONTENT="periculo" HPOS="621" VPOS="232" WIDTH="144" HEIGHT="46"/>
+            <SP HPOS="765" VPOS="232" WIDTH="3"/>
+            <String ID="L0004_W06" CONTENT="ſapit." HPOS="768" VPOS="231" WIDTH="89" HEIGHT="39"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B005" TAGREFS="ROLE_paragraph" HPOS="165" VPOS="272" WIDTH="812" HEIGHT="52">
+          <TextLine ID="L0005" HPOS="165" VPOS="272" WIDTH="812" HEIGHT="52">
+            <String ID="L0005_W01" CONTENT="Facile" HPOS="165" VPOS="281" WIDTH="106" HEIGHT="35"/>
+            <SP HPOS="271" VPOS="281" WIDTH="1"/>
+            <String ID="L0005_W02" CONTENT="fuſtem" HPOS="270" VPOS="279" WIDTH="122" HEIGHT="39"/>
+            <SP HPOS="392" VPOS="279" WIDTH="5"/>
+            <String ID="L0005_W03" CONTENT="inuenerit" HPOS="397" VPOS="285" WIDTH="158" HEIGHT="32"/>
+            <SP HPOS="555" VPOS="285" WIDTH="4"/>
+            <String ID="L0005_W04" CONTENT="qui" HPOS="559" VPOS="283" WIDTH="56" HEIGHT="42"/>
+            <SP HPOS="615" VPOS="283" WIDTH="7"/>
+            <String ID="L0005_W05" CONTENT="cupit" HPOS="622" VPOS="279" WIDTH="86" HEIGHT="41"/>
+            <SP HPOS="708" VPOS="279" WIDTH="12"/>
+            <String ID="L0005_W06" CONTENT="cædere" HPOS="720" VPOS="273" WIDTH="116" HEIGHT="35"/>
+            <SP HPOS="836" VPOS="273" WIDTH="14"/>
+            <String ID="L0005_W07" CONTENT="canem." HPOS="850" VPOS="285" WIDTH="126" HEIGHT="25"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B006" TAGREFS="ROLE_paragraph" HPOS="165" VPOS="315" WIDTH="767" HEIGHT="55">
+          <TextLine ID="L0006" HPOS="165" VPOS="315" WIDTH="767" HEIGHT="55">
+            <String ID="L0006_W01" CONTENT="Facile" HPOS="165" VPOS="324" WIDTH="102" HEIGHT="34"/>
+            <SP HPOS="267" VPOS="324" WIDTH="6"/>
+            <String ID="L0006_W02" CONTENT="euolat" HPOS="273" VPOS="327" WIDTH="108" HEIGHT="34"/>
+            <SP HPOS="381" VPOS="327" WIDTH="6"/>
+            <String ID="L0006_W03" CONTENT="uerbum," HPOS="387" VPOS="327" WIDTH="154" HEIGHT="39"/>
+            <SP HPOS="541" VPOS="327" WIDTH="1"/>
+            <String ID="L0006_W04" CONTENT="tamen" HPOS="540" VPOS="335" WIDTH="112" HEIGHT="30"/>
+            <SP HPOS="652" VPOS="335" WIDTH="11"/>
+            <String ID="L0006_W05" CONTENT="nunquam" HPOS="663" VPOS="327" WIDTH="170" HEIGHT="47"/>
+            <SP HPOS="833" VPOS="327" WIDTH="6"/>
+            <String ID="L0006_W06" CONTENT="redit." HPOS="839" VPOS="315" WIDTH="92" HEIGHT="49"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B007" TAGREFS="ROLE_paragraph" HPOS="164" VPOS="355" WIDTH="699" HEIGHT="54">
+          <TextLine ID="L0007" HPOS="164" VPOS="355" WIDTH="699" HEIGHT="54">
+            <String ID="L0007_W01" CONTENT="Fortuna" HPOS="164" VPOS="365" WIDTH="146" HEIGHT="39"/>
+            <SP HPOS="310" VPOS="365" WIDTH="6"/>
+            <String ID="L0007_W02" CONTENT="proſpera" HPOS="316" VPOS="369" WIDTH="157" HEIGHT="44"/>
+            <SP HPOS="473" VPOS="369" WIDTH="1"/>
+            <String ID="L0007_W03" CONTENT="dum" HPOS="472" VPOS="352" WIDTH="94" HEIGHT="50"/>
+            <SP HPOS="566" VPOS="352" WIDTH="2"/>
+            <String ID="L0007_W04" CONTENT="blanditur," HPOS="568" VPOS="363" WIDTH="178" HEIGHT="38"/>
+            <SP HPOS="746" VPOS="363" WIDTH="1"/>
+            <String ID="L0007_W05" CONTENT="perdit." HPOS="745" VPOS="358" WIDTH="117" HEIGHT="45"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B008" TAGREFS="ROLE_paragraph" HPOS="169" VPOS="397" WIDTH="769" HEIGHT="57">
+          <TextLine ID="L0008" HPOS="169" VPOS="397" WIDTH="769" HEIGHT="57">
+            <String ID="L0008_W01" CONTENT="Fœliciſſimus" HPOS="169" VPOS="392" WIDTH="233" HEIGHT="56"/>
+            <SP HPOS="402" VPOS="392" WIDTH="3"/>
+            <String ID="L0008_W02" CONTENT="cui" HPOS="405" VPOS="392" WIDTH="56" HEIGHT="51"/>
+            <SP HPOS="461" VPOS="392" WIDTH="1"/>
+            <String ID="L0008_W03" CONTENT="nihil" HPOS="460" VPOS="411" WIDTH="87" HEIGHT="34"/>
+            <SP HPOS="547" VPOS="411" WIDTH="1"/>
+            <String ID="L0008_W04" CONTENT="contigerit" HPOS="546" VPOS="410" WIDTH="182" HEIGHT="43"/>
+            <SP HPOS="728" VPOS="410" WIDTH="2"/>
+            <String ID="L0008_W05" CONTENT="in" HPOS="730" VPOS="409" WIDTH="42" HEIGHT="31"/>
+            <SP HPOS="772" VPOS="409" WIDTH="3"/>
+            <String ID="L0008_W06" CONTENT="uita" HPOS="775" VPOS="405" WIDTH="64" HEIGHT="31"/>
+            <SP HPOS="839" VPOS="405" WIDTH="4"/>
+            <String ID="L0008_W07" CONTENT="mali." HPOS="843" VPOS="400" WIDTH="94" HEIGHT="58"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B009" TAGREFS="ROLE_paragraph" HPOS="168" VPOS="442" WIDTH="813" HEIGHT="94">
+          <TextLine ID="L0009" HPOS="168" VPOS="442" WIDTH="813" HEIGHT="57">
+            <String ID="L0009_W01" CONTENT="Fœlix" HPOS="168" VPOS="457" WIDTH="108" HEIGHT="35"/>
+            <SP HPOS="276" VPOS="457" WIDTH="6"/>
+            <String ID="L0009_W02" CONTENT="quicunqꝫ" HPOS="282" VPOS="458" WIDTH="162" HEIGHT="40"/>
+            <SP HPOS="444" VPOS="458" WIDTH="7"/>
+            <String ID="L0009_W03" CONTENT="dolore" HPOS="451" VPOS="453" WIDTH="131" HEIGHT="34"/>
+            <SP HPOS="582" VPOS="453" WIDTH="1"/>
+            <String ID="L0009_W04" CONTENT="alterius" HPOS="581" VPOS="439" WIDTH="137" HEIGHT="49"/>
+            <SP HPOS="718" VPOS="439" WIDTH="1"/>
+            <String ID="L0009_W05" CONTENT="diſces" HPOS="719" VPOS="448" WIDTH="98" HEIGHT="36"/>
+            <SP HPOS="817" VPOS="448" WIDTH="15"/>
+            <String ID="L0009_W06" CONTENT="poſſe" HPOS="832" VPOS="442" WIDTH="87" HEIGHT="42"/>
+            <SP HPOS="919" VPOS="442" WIDTH="8"/>
+            <String ID="L0009_W07" CONTENT="ca⸗" HPOS="927" VPOS="453" WIDTH="53" HEIGHT="24"/>
+          </TextLine>
+          <TextLine ID="L0010" HPOS="206" VPOS="503" WIDTH="144" HEIGHT="33">
+            <String ID="L0010_W01" CONTENT="rere" HPOS="206" VPOS="514" WIDTH="66" HEIGHT="22"/>
+            <SP HPOS="272" VPOS="514" WIDTH="10"/>
+            <String ID="L0010_W02" CONTENT="tuo." HPOS="282" VPOS="506" WIDTH="67" HEIGHT="26"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B010" TAGREFS="ROLE_paragraph" HPOS="167" VPOS="532" WIDTH="771" HEIGHT="55">
+          <TextLine ID="L0011" HPOS="167" VPOS="532" WIDTH="771" HEIGHT="55">
+            <String ID="L0011_W01" CONTENT="Facile" HPOS="167" VPOS="549" WIDTH="99" HEIGHT="31"/>
+            <SP HPOS="266" VPOS="549" WIDTH="8"/>
+            <String ID="L0011_W02" CONTENT="eſt" HPOS="274" VPOS="542" WIDTH="41" HEIGHT="32"/>
+            <SP HPOS="315" VPOS="542" WIDTH="7"/>
+            <String ID="L0011_W03" CONTENT="abſentem" HPOS="322" VPOS="535" WIDTH="161" HEIGHT="50"/>
+            <SP HPOS="483" VPOS="535" WIDTH="13"/>
+            <String ID="L0011_W04" CONTENT="uincere" HPOS="496" VPOS="540" WIDTH="123" HEIGHT="32"/>
+            <SP HPOS="619" VPOS="540" WIDTH="7"/>
+            <String ID="L0011_W05" CONTENT="qui" HPOS="626" VPOS="540" WIDTH="57" HEIGHT="41"/>
+            <SP HPOS="683" VPOS="540" WIDTH="10"/>
+            <String ID="L0011_W06" CONTENT="non" HPOS="693" VPOS="545" WIDTH="68" HEIGHT="26"/>
+            <SP HPOS="761" VPOS="545" WIDTH="10"/>
+            <String ID="L0011_W07" CONTENT="repugnat:" HPOS="771" VPOS="536" WIDTH="166" HEIGHT="41"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B011" TAGREFS="ROLE_paragraph" HPOS="165" VPOS="568" WIDTH="520" HEIGHT="60">
+          <TextLine ID="L0012" HPOS="165" VPOS="568" WIDTH="520" HEIGHT="60">
+            <String ID="L0012_W01" CONTENT="Fruſtra" HPOS="165" VPOS="563" WIDTH="125" HEIGHT="59"/>
+            <SP HPOS="290" VPOS="563" WIDTH="3"/>
+            <String ID="L0012_W02" CONTENT="ſapit," HPOS="293" VPOS="581" WIDTH="92" HEIGHT="39"/>
+            <SP HPOS="385" VPOS="581" WIDTH="2"/>
+            <String ID="L0012_W03" CONTENT="qui" HPOS="387" VPOS="580" WIDTH="62" HEIGHT="38"/>
+            <SP HPOS="449" VPOS="580" WIDTH="5"/>
+            <String ID="L0012_W04" CONTENT="ſibi" HPOS="454" VPOS="577" WIDTH="63" HEIGHT="34"/>
+            <SP HPOS="517" VPOS="577" WIDTH="4"/>
+            <String ID="L0012_W05" CONTENT="non" HPOS="521" VPOS="591" WIDTH="74" HEIGHT="22"/>
+            <SP HPOS="595" VPOS="591" WIDTH="4"/>
+            <String ID="L0012_W06" CONTENT="ſapit." HPOS="599" VPOS="563" WIDTH="85" HEIGHT="59"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B012" TAGREFS="ROLE_paragraph" HPOS="210" VPOS="610" WIDTH="743" HEIGHT="54">
+          <TextLine ID="L0013" HPOS="210" VPOS="610" WIDTH="743" HEIGHT="54">
+            <String ID="L0013_W01" CONTENT="Gallus" HPOS="210" VPOS="605" WIDTH="125" HEIGHT="56"/>
+            <SP HPOS="335" VPOS="605" WIDTH="1"/>
+            <String ID="L0013_W02" CONTENT="in" HPOS="334" VPOS="624" WIDTH="37" HEIGHT="29"/>
+            <SP HPOS="371" VPOS="624" WIDTH="5"/>
+            <String ID="L0013_W03" CONTENT="ſuo" HPOS="376" VPOS="618" WIDTH="57" HEIGHT="33"/>
+            <SP HPOS="433" VPOS="618" WIDTH="3"/>
+            <String ID="L0013_W04" CONTENT="ſterquilinio" HPOS="436" VPOS="605" WIDTH="204" HEIGHT="54"/>
+            <SP HPOS="640" VPOS="605" WIDTH="5"/>
+            <String ID="L0013_W05" CONTENT="plurimum" HPOS="645" VPOS="605" WIDTH="191" HEIGHT="58"/>
+            <SP HPOS="836" VPOS="605" WIDTH="9"/>
+            <String ID="L0013_W06" CONTENT="poteſt." HPOS="845" VPOS="618" WIDTH="107" HEIGHT="46"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B013" TAGREFS="ROLE_paragraph" HPOS="167" VPOS="655" WIDTH="778" HEIGHT="53">
+          <TextLine ID="L0014" HPOS="167" VPOS="655" WIDTH="778" HEIGHT="53">
+            <String ID="L0014_W01" CONTENT="Gratior" HPOS="167" VPOS="669" WIDTH="137" HEIGHT="35"/>
+            <SP HPOS="304" VPOS="669" WIDTH="8"/>
+            <String ID="L0014_W02" CONTENT="eſt" HPOS="312" VPOS="663" WIDTH="42" HEIGHT="33"/>
+            <SP HPOS="354" VPOS="663" WIDTH="6"/>
+            <String ID="L0014_W03" CONTENT="pulchro" HPOS="360" VPOS="660" WIDTH="135" HEIGHT="45"/>
+            <SP HPOS="495" VPOS="660" WIDTH="15"/>
+            <String ID="L0014_W04" CONTENT="ueniens" HPOS="510" VPOS="664" WIDTH="131" HEIGHT="29"/>
+            <SP HPOS="641" VPOS="664" WIDTH="10"/>
+            <String ID="L0014_W05" CONTENT="è" HPOS="651" VPOS="664" WIDTH="17" HEIGHT="30"/>
+            <SP HPOS="668" VPOS="664" WIDTH="3"/>
+            <String ID="L0014_W06" CONTENT="corpore" HPOS="671" VPOS="676" WIDTH="157" HEIGHT="29"/>
+            <SP HPOS="828" VPOS="676" WIDTH="1"/>
+            <String ID="L0014_W07" CONTENT="uirtus." HPOS="827" VPOS="667" WIDTH="117" HEIGHT="30"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B014" TAGREFS="ROLE_paragraph" HPOS="209" VPOS="696" WIDTH="731" HEIGHT="47">
+          <TextLine ID="L0015" HPOS="209" VPOS="696" WIDTH="731" HEIGHT="47">
+            <String ID="L0015_W01" CONTENT="Hoſtem" HPOS="209" VPOS="707" WIDTH="131" HEIGHT="35"/>
+            <SP HPOS="340" VPOS="707" WIDTH="6"/>
+            <String ID="L0015_W02" CONTENT="beneficijs" HPOS="346" VPOS="700" WIDTH="160" HEIGHT="42"/>
+            <SP HPOS="506" VPOS="700" WIDTH="15"/>
+            <String ID="L0015_W03" CONTENT="uíncere" HPOS="521" VPOS="703" WIDTH="126" HEIGHT="31"/>
+            <SP HPOS="647" VPOS="703" WIDTH="6"/>
+            <String ID="L0015_W04" CONTENT="optima" HPOS="653" VPOS="692" WIDTH="135" HEIGHT="51"/>
+            <SP HPOS="788" VPOS="692" WIDTH="9"/>
+            <String ID="L0015_W05" CONTENT="ultio" HPOS="797" VPOS="709" WIDTH="89" HEIGHT="29"/>
+            <SP HPOS="886" VPOS="709" WIDTH="1"/>
+            <String ID="L0015_W06" CONTENT="eſt," HPOS="885" VPOS="706" WIDTH="54" HEIGHT="33"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B015" TAGREFS="ROLE_paragraph" HPOS="168" VPOS="733" WIDTH="703" HEIGHT="55">
+          <TextLine ID="L0016" HPOS="168" VPOS="733" WIDTH="703" HEIGHT="55">
+            <String ID="L0016_W01" CONTENT="Humilis" HPOS="168" VPOS="751" WIDTH="154" HEIGHT="36"/>
+            <SP HPOS="322" VPOS="751" WIDTH="1"/>
+            <String ID="L0016_W02" CONTENT="fortuna" HPOS="321" VPOS="747" WIDTH="142" HEIGHT="35"/>
+            <SP HPOS="463" VPOS="747" WIDTH="9"/>
+            <String ID="L0016_W03" CONTENT="tutior" HPOS="472" VPOS="746" WIDTH="107" HEIGHT="31"/>
+            <SP HPOS="579" VPOS="746" WIDTH="4"/>
+            <String ID="L0016_W04" CONTENT="eſt" HPOS="583" VPOS="745" WIDTH="44" HEIGHT="35"/>
+            <SP HPOS="627" VPOS="745" WIDTH="6"/>
+            <String ID="L0016_W05" CONTENT="quàm" HPOS="633" VPOS="746" WIDTH="102" HEIGHT="42"/>
+            <SP HPOS="735" VPOS="746" WIDTH="5"/>
+            <String ID="L0016_W06" CONTENT="excelſa." HPOS="740" VPOS="747" WIDTH="130" HEIGHT="31"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B016" TAGREFS="ROLE_paragraph" HPOS="166" VPOS="784" WIDTH="774" HEIGHT="53">
+          <TextLine ID="L0017" HPOS="166" VPOS="784" WIDTH="774" HEIGHT="53">
+            <String ID="L0017_W01" CONTENT="Hæreditas" HPOS="169" VPOS="792" WIDTH="176" HEIGHT="39"/>
+            <SP HPOS="345" VPOS="792" WIDTH="5"/>
+            <String ID="L0017_W02" CONTENT="famæ," HPOS="350" VPOS="790" WIDTH="110" HEIGHT="38"/>
+            <SP HPOS="460" VPOS="790" WIDTH="1"/>
+            <String ID="L0017_W03" CONTENT="quàm" HPOS="459" VPOS="789" WIDTH="100" HEIGHT="41"/>
+            <SP HPOS="559" VPOS="789" WIDTH="9"/>
+            <String ID="L0017_W04" CONTENT="diuitiarum" HPOS="568" VPOS="788" WIDTH="190" HEIGHT="36"/>
+            <SP HPOS="758" VPOS="788" WIDTH="9"/>
+            <String ID="L0017_W05" CONTENT="honeſtior." HPOS="767" VPOS="789" WIDTH="172" HEIGHT="36"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B017" TAGREFS="ROLE_paragraph" HPOS="166" VPOS="823" WIDTH="656" HEIGHT="52">
+          <TextLine ID="L0018" HPOS="166" VPOS="823" WIDTH="656" HEIGHT="52">
+            <String ID="L0018_W01" CONTENT="Humani" HPOS="166" VPOS="839" WIDTH="155" HEIGHT="35"/>
+            <SP HPOS="321" VPOS="839" WIDTH="1"/>
+            <String ID="L0018_W02" CONTENT="animi" HPOS="320" VPOS="837" WIDTH="110" HEIGHT="33"/>
+            <SP HPOS="430" VPOS="837" WIDTH="1"/>
+            <String ID="L0018_W03" CONTENT="difficilis" HPOS="429" VPOS="830" WIDTH="150" HEIGHT="35"/>
+            <SP HPOS="579" VPOS="830" WIDTH="1"/>
+            <String ID="L0018_W04" CONTENT="eſt" HPOS="578" VPOS="833" WIDTH="45" HEIGHT="34"/>
+            <SP HPOS="623" VPOS="833" WIDTH="5"/>
+            <String ID="L0018_W05" CONTENT="coniectura." HPOS="628" VPOS="836" WIDTH="193" HEIGHT="35"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B018" TAGREFS="ROLE_paragraph" HPOS="168" VPOS="871" WIDTH="808" HEIGHT="49">
+          <TextLine ID="L0019" HPOS="168" VPOS="871" WIDTH="808" HEIGHT="49">
+            <String ID="L0019_W01" CONTENT="Homo" HPOS="173" VPOS="884" WIDTH="119" HEIGHT="34"/>
+            <SP HPOS="292" VPOS="884" WIDTH="11"/>
+            <String ID="L0019_W02" CONTENT="auarus" HPOS="303" VPOS="888" WIDTH="119" HEIGHT="26"/>
+            <SP HPOS="422" VPOS="888" WIDTH="7"/>
+            <String ID="L0019_W03" CONTENT="quicquid" HPOS="429" VPOS="871" WIDTH="155" HEIGHT="44"/>
+            <SP HPOS="584" VPOS="871" WIDTH="18"/>
+            <String ID="L0019_W04" CONTENT="agit" HPOS="602" VPOS="880" WIDTH="68" HEIGHT="40"/>
+            <SP HPOS="670" VPOS="880" WIDTH="13"/>
+            <String ID="L0019_W05" CONTENT="properat" HPOS="683" VPOS="888" WIDTH="154" HEIGHT="33"/>
+            <SP HPOS="837" VPOS="888" WIDTH="9"/>
+            <String ID="L0019_W06" CONTENT="omnia." HPOS="846" VPOS="877" WIDTH="129" HEIGHT="32"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B019" TAGREFS="ROLE_paragraph" HPOS="169" VPOS="908" WIDTH="814" HEIGHT="55">
+          <TextLine ID="L0020" HPOS="169" VPOS="908" WIDTH="814" HEIGHT="55">
+            <String ID="L0020_W01" CONTENT="Habent" HPOS="169" VPOS="928" WIDTH="143" HEIGHT="34"/>
+            <SP HPOS="312" VPOS="928" WIDTH="1"/>
+            <String ID="L0020_W02" CONTENT="&amp;" HPOS="311" VPOS="922" WIDTH="43" HEIGHT="30"/>
+            <SP HPOS="354" VPOS="922" WIDTH="2"/>
+            <String ID="L0020_W03" CONTENT="ſuam" HPOS="356" VPOS="919" WIDTH="94" HEIGHT="30"/>
+            <SP HPOS="450" VPOS="919" WIDTH="7"/>
+            <String ID="L0020_W04" CONTENT="tranquillitatẽ" HPOS="457" VPOS="903" WIDTH="236" HEIGHT="54"/>
+            <SP HPOS="693" VPOS="903" WIDTH="1"/>
+            <String ID="L0020_W05" CONTENT="tranquillæ" HPOS="692" VPOS="903" WIDTH="182" HEIGHT="60"/>
+            <SP HPOS="874" VPOS="903" WIDTH="2"/>
+            <String ID="L0020_W06" CONTENT="aquæ." HPOS="876" VPOS="927" WIDTH="105" HEIGHT="33"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B020" TAGREFS="ROLE_paragraph" HPOS="169" VPOS="956" WIDTH="817" HEIGHT="52">
+          <TextLine ID="L0021" HPOS="169" VPOS="956" WIDTH="817" HEIGHT="52">
+            <String ID="L0021_W01" CONTENT="Heri" HPOS="169" VPOS="970" WIDTH="74" HEIGHT="32"/>
+            <SP HPOS="243" VPOS="970" WIDTH="5"/>
+            <String ID="L0021_W02" CONTENT="probitas," HPOS="248" VPOS="961" WIDTH="160" HEIGHT="43"/>
+            <SP HPOS="408" VPOS="961" WIDTH="9"/>
+            <String ID="L0021_W03" CONTENT="familiam" HPOS="417" VPOS="957" WIDTH="159" HEIGHT="37"/>
+            <SP HPOS="576" VPOS="957" WIDTH="12"/>
+            <String ID="L0021_W04" CONTENT="etiam" HPOS="588" VPOS="964" WIDTH="95" HEIGHT="33"/>
+            <SP HPOS="683" VPOS="964" WIDTH="10"/>
+            <String ID="L0021_W05" CONTENT="reddit" HPOS="693" VPOS="964" WIDTH="105" HEIGHT="33"/>
+            <SP HPOS="798" VPOS="964" WIDTH="8"/>
+            <String ID="L0021_W06" CONTENT="meliorem." HPOS="806" VPOS="963" WIDTH="179" HEIGHT="32"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B021" TAGREFS="ROLE_paragraph" HPOS="208" VPOS="995" WIDTH="698" HEIGHT="47">
+          <TextLine ID="L0022" HPOS="208" VPOS="995" WIDTH="698" HEIGHT="47">
+            <String ID="L0022_W01" CONTENT="Inter" HPOS="208" VPOS="991" WIDTH="84" HEIGHT="49"/>
+            <SP HPOS="292" VPOS="991" WIDTH="6"/>
+            <String ID="L0022_W02" CONTENT="ſocrum" HPOS="298" VPOS="1002" WIDTH="129" HEIGHT="33"/>
+            <SP HPOS="427" VPOS="1002" WIDTH="10"/>
+            <String ID="L0022_W03" CONTENT="&amp;" HPOS="437" VPOS="1003" WIDTH="33" HEIGHT="33"/>
+            <SP HPOS="470" VPOS="1003" WIDTH="12"/>
+            <String ID="L0022_W04" CONTENT="nurum" HPOS="482" VPOS="1010" WIDTH="124" HEIGHT="28"/>
+            <SP HPOS="606" VPOS="1010" WIDTH="1"/>
+            <String ID="L0022_W05" CONTENT="uetus" HPOS="605" VPOS="1017" WIDTH="98" HEIGHT="24"/>
+            <SP HPOS="703" VPOS="1017" WIDTH="14"/>
+            <String ID="L0022_W06" CONTENT="eſt" HPOS="717" VPOS="1007" WIDTH="46" HEIGHT="32"/>
+            <SP HPOS="763" VPOS="1007" WIDTH="1"/>
+            <String ID="L0022_W07" CONTENT="bellum." HPOS="762" VPOS="1001" WIDTH="143" HEIGHT="37"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B022" TAGREFS="ROLE_paragraph" HPOS="169" VPOS="1045" WIDTH="769" HEIGHT="52">
+          <TextLine ID="L0023" HPOS="169" VPOS="1045" WIDTH="769" HEIGHT="52">
+            <String ID="L0023_W01" CONTENT="Inſperata" HPOS="172" VPOS="1050" WIDTH="154" HEIGHT="43"/>
+            <SP HPOS="326" VPOS="1050" WIDTH="10"/>
+            <String ID="L0023_W02" CONTENT="accidunt" HPOS="336" VPOS="1046" WIDTH="146" HEIGHT="35"/>
+            <SP HPOS="482" VPOS="1046" WIDTH="10"/>
+            <String ID="L0023_W03" CONTENT="magis" HPOS="492" VPOS="1052" WIDTH="107" HEIGHT="39"/>
+            <SP HPOS="599" VPOS="1052" WIDTH="9"/>
+            <String ID="L0023_W04" CONTENT="ſæpe," HPOS="608" VPOS="1050" WIDTH="89" HEIGHT="43"/>
+            <SP HPOS="697" VPOS="1050" WIDTH="5"/>
+            <String ID="L0023_W05" CONTENT="q̄ꝫ" HPOS="702" VPOS="1050" WIDTH="32" HEIGHT="42"/>
+            <SP HPOS="734" VPOS="1050" WIDTH="9"/>
+            <String ID="L0023_W06" CONTENT="quæ" HPOS="743" VPOS="1061" WIDTH="74" HEIGHT="31"/>
+            <SP HPOS="817" VPOS="1061" WIDTH="9"/>
+            <String ID="L0023_W07" CONTENT="ſperes." HPOS="826" VPOS="1047" WIDTH="111" HEIGHT="41"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B023" TAGREFS="ROLE_paragraph" HPOS="169" VPOS="1086" WIDTH="793" HEIGHT="53">
+          <TextLine ID="L0024" HPOS="169" VPOS="1086" WIDTH="793" HEIGHT="53">
+            <String ID="L0024_W01" CONTENT="Ingenia" HPOS="170" VPOS="1094" WIDTH="134" HEIGHT="47"/>
+            <SP HPOS="304" VPOS="1094" WIDTH="7"/>
+            <String ID="L0024_W02" CONTENT="præclara" HPOS="311" VPOS="1089" WIDTH="149" HEIGHT="44"/>
+            <SP HPOS="460" VPOS="1089" WIDTH="6"/>
+            <String ID="L0024_W03" CONTENT="æmulis" HPOS="466" VPOS="1095" WIDTH="128" HEIGHT="30"/>
+            <SP HPOS="594" VPOS="1095" WIDTH="6"/>
+            <String ID="L0024_W04" CONTENT="nunquam" HPOS="600" VPOS="1104" WIDTH="171" HEIGHT="29"/>
+            <SP HPOS="771" VPOS="1104" WIDTH="10"/>
+            <String ID="L0024_W05" CONTENT="caruerunt." HPOS="781" VPOS="1096" WIDTH="180" HEIGHT="29"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B024" TAGREFS="ROLE_paragraph" HPOS="172" VPOS="1122" WIDTH="580" HEIGHT="64">
+          <TextLine ID="L0025" HPOS="172" VPOS="1122" WIDTH="580" HEIGHT="64">
+            <String ID="L0025_W01" CONTENT="Iugum" HPOS="172" VPOS="1116" WIDTH="128" HEIGHT="70"/>
+            <SP HPOS="300" VPOS="1116" WIDTH="1"/>
+            <String ID="L0025_W02" CONTENT="qui" HPOS="299" VPOS="1146" WIDTH="64" HEIGHT="35"/>
+            <SP HPOS="363" VPOS="1146" WIDTH="1"/>
+            <String ID="L0025_W03" CONTENT="fert" HPOS="363" VPOS="1131" WIDTH="60" HEIGHT="37"/>
+            <SP HPOS="423" VPOS="1131" WIDTH="1"/>
+            <String ID="L0025_W04" CONTENT="uolens," HPOS="422" VPOS="1132" WIDTH="144" HEIGHT="41"/>
+            <SP HPOS="566" VPOS="1132" WIDTH="1"/>
+            <String ID="L0025_W05" CONTENT="leue" HPOS="565" VPOS="1135" WIDTH="78" HEIGHT="31"/>
+            <SP HPOS="643" VPOS="1135" WIDTH="1"/>
+            <String ID="L0025_W06" CONTENT="efficit." HPOS="642" VPOS="1135" WIDTH="109" HEIGHT="56"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B025" TAGREFS="ROLE_paragraph" HPOS="170" VPOS="1163" WIDTH="796" HEIGHT="65">
+          <TextLine ID="L0026" HPOS="170" VPOS="1163" WIDTH="796" HEIGHT="65">
+            <String ID="L0026_W01" CONTENT="Ipſa" HPOS="170" VPOS="1157" WIDTH="67" HEIGHT="70"/>
+            <SP HPOS="237" VPOS="1157" WIDTH="4"/>
+            <String ID="L0026_W02" CONTENT="dies" HPOS="241" VPOS="1157" WIDTH="79" HEIGHT="62"/>
+            <SP HPOS="320" VPOS="1157" WIDTH="1"/>
+            <String ID="L0026_W03" CONTENT="quandoqꝫ" HPOS="319" VPOS="1157" WIDTH="175" HEIGHT="68"/>
+            <SP HPOS="494" VPOS="1157" WIDTH="4"/>
+            <String ID="L0026_W04" CONTENT="parens," HPOS="498" VPOS="1181" WIDTH="136" HEIGHT="41"/>
+            <SP HPOS="634" VPOS="1181" WIDTH="1"/>
+            <String ID="L0026_W05" CONTENT="quandoqꝫ" HPOS="633" VPOS="1170" WIDTH="184" HEIGHT="63"/>
+            <SP HPOS="817" VPOS="1170" WIDTH="1"/>
+            <String ID="L0026_W06" CONTENT="nouerca." HPOS="816" VPOS="1183" WIDTH="149" HEIGHT="50"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B026" TAGREFS="ROLE_paragraph" HPOS="172" VPOS="1208" WIDTH="812" HEIGHT="55">
+          <TextLine ID="L0027" HPOS="172" VPOS="1208" WIDTH="812" HEIGHT="55">
+            <String ID="L0027_W01" CONTENT="Infœlicitatẽ" HPOS="172" VPOS="1203" WIDTH="200" HEIGHT="60"/>
+            <SP HPOS="372" VPOS="1203" WIDTH="1"/>
+            <String ID="L0027_W02" CONTENT="abſconde," HPOS="371" VPOS="1215" WIDTH="171" HEIGHT="43"/>
+            <SP HPOS="542" VPOS="1215" WIDTH="7"/>
+            <String ID="L0027_W03" CONTENT="ne" HPOS="549" VPOS="1224" WIDTH="44" HEIGHT="23"/>
+            <SP HPOS="593" VPOS="1224" WIDTH="3"/>
+            <String ID="L0027_W04" CONTENT="inimicos" HPOS="596" VPOS="1216" WIDTH="152" HEIGHT="31"/>
+            <SP HPOS="748" VPOS="1216" WIDTH="8"/>
+            <String ID="L0027_W05" CONTENT="reddas" HPOS="756" VPOS="1213" WIDTH="123" HEIGHT="33"/>
+            <SP HPOS="879" VPOS="1213" WIDTH="2"/>
+            <String ID="L0027_W06" CONTENT="lætos." HPOS="881" VPOS="1216" WIDTH="102" HEIGHT="30"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B027" TAGREFS="ROLE_paragraph" HPOS="173" VPOS="1254" WIDTH="680" HEIGHT="60">
+          <TextLine ID="L0028" HPOS="173" VPOS="1254" WIDTH="680" HEIGHT="60">
+            <String ID="L0028_W01" CONTENT="Ingentes" HPOS="173" VPOS="1273" WIDTH="153" HEIGHT="38"/>
+            <SP HPOS="326" VPOS="1273" WIDTH="6"/>
+            <String ID="L0028_W02" CONTENT="opes" HPOS="332" VPOS="1280" WIDTH="84" HEIGHT="34"/>
+            <SP HPOS="416" VPOS="1280" WIDTH="8"/>
+            <String ID="L0028_W03" CONTENT="non" HPOS="424" VPOS="1273" WIDTH="70" HEIGHT="26"/>
+            <SP HPOS="494" VPOS="1273" WIDTH="9"/>
+            <String ID="L0028_W04" CONTENT="parantur" HPOS="503" VPOS="1267" WIDTH="156" HEIGHT="51"/>
+            <SP HPOS="659" VPOS="1267" WIDTH="3"/>
+            <String ID="L0028_W05" CONTENT="ſine" HPOS="662" VPOS="1254" WIDTH="66" HEIGHT="34"/>
+            <SP HPOS="728" VPOS="1254" WIDTH="1"/>
+            <String ID="L0028_W06" CONTENT="fraude." HPOS="729" VPOS="1254" WIDTH="123" HEIGHT="64"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B028" TAGREFS="ROLE_paragraph" HPOS="173" VPOS="1298" WIDTH="731" HEIGHT="57">
+          <TextLine ID="L0029" HPOS="173" VPOS="1298" WIDTH="731" HEIGHT="57">
+            <String ID="L0029_W01" CONTENT="Ingratitudo" HPOS="176" VPOS="1293" WIDTH="201" HEIGHT="61"/>
+            <SP HPOS="377" VPOS="1293" WIDTH="6"/>
+            <String ID="L0029_W02" CONTENT="omnia" HPOS="383" VPOS="1311" WIDTH="110" HEIGHT="37"/>
+            <SP HPOS="493" VPOS="1311" WIDTH="9"/>
+            <String ID="L0029_W03" CONTENT="uicia" HPOS="502" VPOS="1306" WIDTH="80" HEIGHT="34"/>
+            <SP HPOS="582" VPOS="1306" WIDTH="8"/>
+            <String ID="L0029_W04" CONTENT="in" HPOS="590" VPOS="1304" WIDTH="35" HEIGHT="32"/>
+            <SP HPOS="625" VPOS="1304" WIDTH="7"/>
+            <String ID="L0029_W05" CONTENT="ſe" HPOS="632" VPOS="1298" WIDTH="27" HEIGHT="35"/>
+            <SP HPOS="659" VPOS="1298" WIDTH="7"/>
+            <String ID="L0029_W06" CONTENT="complectitur." HPOS="666" VPOS="1301" WIDTH="237" HEIGHT="58"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B029" TAGREFS="ROLE_paragraph" HPOS="173" VPOS="1338" WIDTH="792" HEIGHT="60">
+          <TextLine ID="L0030" HPOS="173" VPOS="1338" WIDTH="792" HEIGHT="60">
+            <String ID="L0030_W01" CONTENT="Incommoditas" HPOS="174" VPOS="1333" WIDTH="272" HEIGHT="59"/>
+            <SP HPOS="446" VPOS="1333" WIDTH="1"/>
+            <String ID="L0030_W02" CONTENT="ſemper" HPOS="445" VPOS="1353" WIDTH="127" HEIGHT="41"/>
+            <SP HPOS="572" VPOS="1353" WIDTH="4"/>
+            <String ID="L0030_W03" CONTENT="comes" HPOS="576" VPOS="1354" WIDTH="114" HEIGHT="28"/>
+            <SP HPOS="690" VPOS="1354" WIDTH="2"/>
+            <String ID="L0030_W04" CONTENT="eſt" HPOS="692" VPOS="1344" WIDTH="46" HEIGHT="33"/>
+            <SP HPOS="738" VPOS="1344" WIDTH="3"/>
+            <String ID="L0030_W05" CONTENT="cõmoditatũ." HPOS="741" VPOS="1338" WIDTH="223" HEIGHT="64"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B030" TAGREFS="ROLE_paragraph" HPOS="175" VPOS="1381" WIDTH="817" HEIGHT="91">
+          <TextLine ID="L0031" HPOS="175" VPOS="1381" WIDTH="817" HEIGHT="55">
+            <String ID="L0031_W01" CONTENT="In" HPOS="176" VPOS="1393" WIDTH="36" HEIGHT="40"/>
+            <SP HPOS="212" VPOS="1393" WIDTH="13"/>
+            <String ID="L0031_W02" CONTENT="aliena" HPOS="225" VPOS="1398" WIDTH="102" HEIGHT="34"/>
+            <SP HPOS="327" VPOS="1398" WIDTH="16"/>
+            <String ID="L0031_W03" CONTENT="uicia" HPOS="343" VPOS="1376" WIDTH="80" HEIGHT="59"/>
+            <SP HPOS="423" VPOS="1376" WIDTH="12"/>
+            <String ID="L0031_W04" CONTENT="natura" HPOS="435" VPOS="1376" WIDTH="114" HEIGHT="58"/>
+            <SP HPOS="549" VPOS="1376" WIDTH="13"/>
+            <String ID="L0031_W05" CONTENT="ſumus" HPOS="562" VPOS="1392" WIDTH="111" HEIGHT="34"/>
+            <SP HPOS="673" VPOS="1392" WIDTH="14"/>
+            <String ID="L0031_W06" CONTENT="oculati," HPOS="687" VPOS="1389" WIDTH="140" HEIGHT="39"/>
+            <SP HPOS="827" VPOS="1389" WIDTH="9"/>
+            <String ID="L0031_W07" CONTENT="in" HPOS="836" VPOS="1390" WIDTH="35" HEIGHT="29"/>
+            <SP HPOS="871" VPOS="1390" WIDTH="12"/>
+            <String ID="L0031_W08" CONTENT="noſtra" HPOS="883" VPOS="1381" WIDTH="108" HEIGHT="36"/>
+          </TextLine>
+          <TextLine ID="L0032" HPOS="223" VPOS="1441" WIDTH="80" HEIGHT="31">
+            <String ID="L0032_W01" CONTENT="cæci." HPOS="223" VPOS="1441" WIDTH="79" HEIGHT="31"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B031" TAGREFS="ROLE_paragraph" HPOS="178" VPOS="1473" WIDTH="707" HEIGHT="50">
+          <TextLine ID="L0033" HPOS="178" VPOS="1473" WIDTH="707" HEIGHT="50">
+            <String ID="L0033_W01" CONTENT="Iræ" HPOS="179" VPOS="1487" WIDTH="60" HEIGHT="32"/>
+            <SP HPOS="239" VPOS="1487" WIDTH="7"/>
+            <String ID="L0033_W02" CONTENT="imperans" HPOS="246" VPOS="1484" WIDTH="167" HEIGHT="39"/>
+            <SP HPOS="413" VPOS="1484" WIDTH="15"/>
+            <String ID="L0033_W03" CONTENT="uitam" HPOS="428" VPOS="1488" WIDTH="102" HEIGHT="33"/>
+            <SP HPOS="530" VPOS="1488" WIDTH="11"/>
+            <String ID="L0033_W04" CONTENT="uiues" HPOS="541" VPOS="1480" WIDTH="90" HEIGHT="38"/>
+            <SP HPOS="631" VPOS="1480" WIDTH="8"/>
+            <String ID="L0033_W05" CONTENT="ualidiſſimam." HPOS="639" VPOS="1473" WIDTH="245" HEIGHT="48"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B032" TAGREFS="ROLE_signature-mark" HPOS="878" VPOS="1515" WIDTH="119" HEIGHT="35">
+          <TextLine ID="L0034" HPOS="878" VPOS="1515" WIDTH="119" HEIGHT="35">
+            <String ID="L0034_W01" CONTENT="B" HPOS="880" VPOS="1516" WIDTH="55" HEIGHT="34"/>
+            <SP HPOS="935" VPOS="1516" WIDTH="2"/>
+            <String ID="L0034_W02" CONTENT="4" HPOS="937" VPOS="1522" WIDTH="59" HEIGHT="26"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B033" TAGREFS="ROLE_catch-word" HPOS="693" VPOS="1521" WIDTH="90" HEIGHT="36">
+          <TextLine ID="L0035" HPOS="693" VPOS="1521" WIDTH="90" HEIGHT="36">
+            <String ID="L0035_W01" CONTENT="Incum" HPOS="695" VPOS="1521" WIDTH="87" HEIGHT="36"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

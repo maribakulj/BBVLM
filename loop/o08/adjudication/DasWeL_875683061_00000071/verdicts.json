@@ -1,0 +1,99 @@
+[
+ {
+  "id": "l000",
+  "verdict": "Y",
+  "texte_correct": "Roͤmiſcher Keyßer.",
+  "notes": [
+   "Keyßer : le glyphe après y est la ligature ſz (ſ à queue de z), distinct du ſ simple de Römiſcher -> ß",
+   "Rö : signe suscrit = un seul petit e (oͤ), déjà juste dans les deux"
+  ]
+ },
+ {
+  "id": "l001",
+  "verdict": "Y",
+  "texte_correct": "Der was ein bꝛůder Baſilij/",
+  "notes": [
+   "après b : r rotunda nettement en forme de 2 -> ꝛ"
+  ]
+ },
+ {
+  "id": "l002",
+  "verdict": "Y",
+  "texte_correct": "Zůr naßen vß verblůtet hat.",
+  "notes": [
+   "naßen : même glyphe ſz que dans vß -> ß"
+  ]
+ },
+ {
+  "id": "l003",
+  "verdict": "Y",
+  "texte_correct": "Leonis ſůn was dißer Keyßer/",
+  "notes": [
+   "dißer, Keyßer : ligature ſz (queue de z) -> ß, contre ſ simple dans ſůn"
+  ]
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "Regyert vff .xxxviij. jar",
+  "notes": [
+   "points encadrant le chiffre romain rattachés au nombre (.xxxviij.), les mots restent séparés ; Y soude trois mots. Espacement imprimé serré : confiance moyenne"
+  ]
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "Mit muͤſſiggeen/ vnd ſchlemmen vil/",
+  "notes": [
+   "au-dessus du u : petit e suscrit net (pas un rond) -> uͤ"
+  ]
+ },
+ {
+  "id": "l006",
+  "verdict": "Y",
+  "texte_correct": "Dißer Keyßer ym ſteckt ein zil/",
+  "notes": [
+   "Dißer, Keyßer : ligature ſz -> ß (2 divergences)"
+  ]
+ },
+ {
+  "id": "l007",
+  "verdict": "Y",
+  "texte_correct": "Vff .xiij. jar regyert/ vnd ſtarb.",
+  "notes": [
+   "espacement autour de .xiij. : même convention que l004 ; petite tache au-dessus du e de regyert et fines taches au-dessus du point final = bruit, non transcrits"
+  ]
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "Am Bauchwee ſtarb/ das macht yn matt:",
+  "notes": [
+   "fin abîmée : deuxième t lisible, puis un point haut net et un point bas fondu dans le pied du t -> deux-points ; Y met un caractère invalide (U+FFFD). Confiance moyenne sur : vs ."
+  ]
+ },
+ {
+  "id": "l009",
+  "verdict": "Y",
+  "texte_correct": "J ij",
+  "notes": [
+   "la majuscule descend nettement sous la ligne de base (pied ~45 px sous le bas du i) -> J"
+  ]
+ },
+ {
+  "id": "l010",
+  "verdict": "Y",
+  "texte_correct": "Roͤmiſcher Keyßer.",
+  "notes": [
+   "signe au-dessus du o : un seul petit e ouvert, pas deux points -> oͤ"
+  ]
+ },
+ {
+  "id": "l011",
+  "verdict": "aucun",
+  "texte_correct": "Am Bauchwee ſtarb/ das macht yn matt:",
+  "notes": [
+   "même image que l008 : le signe final se lit deux-points (point haut + point bas), pas un point ; Y invalide (U+FFFD). Confiance moyenne"
+  ]
+ }
+]

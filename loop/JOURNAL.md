@@ -107,3 +107,10 @@ TextBlocks typés + ReadingOrder, valide XSD.
 
 Métadonnées bibliographiques : aucune référence accessible (MODS vides,
 catalogues SBB/VD17/K10plus bloqués par le proxy).
+
+## O08 — bilan texte : erreurs communes aux deux passes
+
+culmsent 0,075 %, euanaua 0,20 %, DasWeL 1,40 %, herrleyc 1,82 %. Restes =
+ů pour uͤ sur des mots à inflexion, ſ pour ß : erreurs partagées que
+l'arbitrage des désaccords ne voit pas. Littérature L06 : o suscrit (ů) = uo,
+e suscrit = inflexion → R2 par l'étymologie. Consigne P5 à tester en O09.

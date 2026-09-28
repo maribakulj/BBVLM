@@ -87,3 +87,18 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
   scientifiques). *Limite* : sorties instables, à contraindre (schéma, citation
   exacte du texte source). *Conséquence* : les métadonnées seront extraites de
   la transcription diplomatique, chaque valeur citant ses caractères sources.
+
+## L06 — ů et uͤ en haut-allemand imprimé (2026-09-28, après O08)
+
+- **Ad fontes (Université de Zurich), tutoriel « Die frühneuhochdeutsche
+  Diphthongierung » et « Gedrucktes Frühneuhochdeutsch »** : la diphtongue du
+  moyen haut-allemand *uo* se monophtongue (muot > Mut) ; les imprimés la
+  notent par un o suscrit, réduit typographiquement en anneau (ů).
+- **Directives d'édition (Heidelberg, Minnereden ; Hartmann von Aue ;
+  Haderbücher)** : le e suscrit, sous toutes ses formes (points, demi-arc,
+  trait, crochet), note l'inflexion ; un o suscrit note *uo*.
+- *Conséquence* (pont linguistique → paléographie) : la forme graphique
+  ambiguë sur u se tranche par l'étymologie du mot : diphtongue *uo* (zů, gůt,
+  thůn, můt, brůder, blůt, bůch) → ů ; inflexion (für, über, Sünde, müssen,
+  führen, dünn) → uͤ. Les 13 références SBB consommées suivent cette règle sans
+  exception. Règle R2, à valider sur pages neuves.
