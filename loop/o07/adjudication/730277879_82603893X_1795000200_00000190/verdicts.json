@@ -1,0 +1,80 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Auch bey dieſen Volk findet man einen Rang den die",
+  "notes": "fi : barre du f traversant (ligature fi), pas ſ."
+ },
+ {
+  "id": "l001",
+  "verdict": "partage",
+  "texte_correct": "Geburth beſtimmt. — Man findet 3 Klaſſen unter ihnen.",
+  "notes": "Tiret isolé par des espaces (Y) ; findet avec f barré (X)."
+ },
+ {
+  "id": "l002",
+  "verdict": "partage",
+  "texte_correct": "1) Die Erichs (Oberhaͤupter der Staͤmme). 2) die, welche",
+  "notes": "Chiffre 1 Fraktur (X) ; suscrits = petit e sur les deux a (Y)."
+ },
+ {
+  "id": "l003",
+  "verdict": "Y",
+  "texte_correct": "Eigenthum haben. 3) Die Tautaus oder Knechte.",
+  "notes": "Avant-dernière lettre ouverte en haut = u (comparé au n de Knechte)."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "Man ſieth aus dieſem wie uns manche argfuͤhrten, daß",
+  "notes": "Suscrit en forme de petit e."
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "dieſe Jnſulaner ſchon den erſten Schritt zur Civiliſirung",
+  "notes": "Majuscule descend sous la ligne de base : J."
+ },
+ {
+  "id": "l006",
+  "verdict": "Y",
+  "texte_correct": "gethan haben. Jn den Augen des ganz rohen Sohnes",
+  "notes": "Majuscule descendante : J."
+ },
+ {
+  "id": "l007",
+  "verdict": "Y",
+  "texte_correct": "ſcheinen uͤbrigens ſehr deſpotiſch verfahren zu koͤnnen. —",
+  "notes": "Suscrits en forme de petit e sur u et o."
+ },
+ {
+  "id": "l008",
+  "verdict": "Y",
+  "texte_correct": "Jhre Prieſter ſtehn in großen Anſehn. — Der",
+  "notes": "Majuscule descendante : J."
+ },
+ {
+  "id": "l009",
+  "verdict": "partage",
+  "texte_correct": "Menſchen zu opſern noch immer bei dieſem gutmuͤthi⸗",
+  "notes": "opſern : ſ sans barre, coquille imprimée (Y) ; suscrit petit e, pas rond (X)."
+ },
+ {
+  "id": "l010",
+  "verdict": "X",
+  "texte_correct": "Geburth beſtimmt. — Man findet 3 Klaſſen unter ihnen.",
+  "notes": "f barré."
+ },
+ {
+  "id": "l011",
+  "verdict": "X",
+  "texte_correct": "1) Die Erichs (Oberhaͤupter der Staͤmme). 2) die, welche",
+  "notes": "Chiffre 1 Fraktur, pas I."
+ },
+ {
+  "id": "l012",
+  "verdict": "Y",
+  "texte_correct": "Menſchen zu opſern noch immer bei dieſem gutmuͤthi⸗",
+  "notes": "ſ sans barre imprimé (coquille conservée)."
+ }
+]

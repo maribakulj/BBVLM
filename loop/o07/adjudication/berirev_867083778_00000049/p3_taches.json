@@ -1,0 +1,26 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Von der Peſtilentz.",
+  "Y": "Von der Peſtilentz. 20",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " 20"
+   ]
+  ]
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "20",
+  "Y": "",
+  "divergences_X_vers_Y": [
+   [
+    "20",
+    ""
+   ]
+  ]
+ }
+]

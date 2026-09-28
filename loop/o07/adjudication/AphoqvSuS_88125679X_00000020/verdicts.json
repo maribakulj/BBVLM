@@ -1,0 +1,20 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "juſtè ſervare obligantur.",
+  "notes": "è accent grave imprimé ; ſ long dans ſervare."
+ },
+ {
+  "id": "l001",
+  "verdict": "partage",
+  "texte_correct": "ἐϖιθυμία ϗ̀ ϖαθήματα, ceu actus",
+  "notes": "ἐ esprit doux (X) ; π à boucle = ϖ (Y) ; θ fermé droit, pas ϑ (X) ; accent grave sur ϗ en combinant U+0300, pas backtick isolé."
+ },
+ {
+  "id": "l002",
+  "verdict": "Y",
+  "texte_correct": "bet) differentia deſignata. E",
+  "notes": "Réclame E imprimée sur la ligne centrale."
+ }
+]

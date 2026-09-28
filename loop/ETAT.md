@@ -5,49 +5,48 @@ Mis à jour à chaque itération. Lire ceci d'abord.
 ## Objectif (demande du mainteneur, 2026-09-28)
 
 Vérité terrain patrimoniale « comme si un humain était derrière », avec le
-minimum de passes VLM (idéalement une) :
+minimum de passes VLM : texte à 0 %, ALTO parfait, segmentation parfaite, OLR,
+métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 
-| étage | cible | mesure gelée |
-|---|---|---|
-| texte | CER 0 % par page | `outils/cer.py`, vues strict / diplo / norm, par page, jamais en moyenne |
-| boîtes ALTO | parfaites | `CRITERE.md` par corpus (frontières ≤0,5 car ≥95 %, pire ≤3 car, IoU médian ≥0,80, 0 ligne en échec, pas de régression vs proportionnel) — seuil à durcir vers 100 % une fois atteint |
-| segmentation | parfaite | à définir (lignes : appariement IoU, couverture d'encre) |
-| OLR, métadonnées, retrieval | à définir | à définir avant toute expérience de l'étage |
+| étage | cible | mesure gelée | état |
+|---|---|---|---|
+| texte | 0 faute par page | `outils/cer.py` (diplo), référence doublement adjugée | **P3 : 3 pages sur 4 à 0 % (O07)** ; 15+ pages à 0 % sur au moins une lecture |
+| lignes | toutes trouvées, serrées | `outils/segeval.py` | kraken + G03 : 95-100 % trouvées, IoU méd 0,75-0,98 |
+| boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE tenu sur 4 pages bout-en-bout ; IoU80 63-92 % au mot |
+| ALTO | XSD + provenance + refus | `outils/vers_alto.py` | valide XSD 4.4 ; lignes non placées marquées |
+| OLR, métadonnées, retrieval | à définir | à définir | **pas commencé** |
 
-Ordre imposé : OCR texte brut parfait sur une page → ALTO → le reste.
+## Chaîne actuelle (P3 + ALTO)
+
+1. Vues : page réduite + bandes pleine résolution + moitiés ×1,6 (`prep_sbb.py`, `vues_zoom.py`).
+2. Deux passes Opus, consigne `outils/consigne_P2.md` (OCR-D niveau 2, déclaration d'écriture).
+3. `p2.py` : conformité OCR-D des espaces, R1 (tréma → e suscrit) si Fraktur.
+4. `p3.py` : lignes en désaccord recadrées via kraken et arbitrées par Opus.
+5. `segmente.py` (kraken blla) → `serre.py` (G03) → `aligne.py` → `vers_alto.py` (connexe).
 
 ## Règles
 
-0. **Concurrence avec astra** (branche `origin/codex/autonomous-research-a34`) :
-   à chaque itération, `git fetch` puis lire ses nouveaux commits et en tirer
-   ce qui sert (idées, données, résultats négatifs), consigné dans
-   `CONCURRENT.md`. Réveil de la boucle ≤ 2 min ; travailler en parallèle
-   des sous-agents en cours.
+0. Concurrence avec astra (`origin/codex/autonomous-research-a34`) : à chaque
+   itération, `git fetch`, lire ses nouveaux commits, consigner dans `CONCURRENT.md`.
+   Réveil ≤ 2 min ; travailler en parallèle des sous-agents.
+1. Revue de littérature AVANT toute hypothèse (`LITTERATURE.md`).
+2. Lecteurs = sous-agents Claude, à l'aveugle. Référence jamais dans leur contexte.
+3. Protocole écrit avant la lecture des résultats ; une page qui a réglé
+   quelque chose est consommée.
+4. Adjudication aveugle X/Y ; une correction qu'aucun candidat ne portait
+   exige deux arbitres concordants.
+5. Résultats négatifs consignés (R1 réfutée en romain, consensus ROVER négatif…).
 
-1. Revue de littérature AVANT toute hypothèse (`LITTERATURE.md`). Réutiliser
-   ce qui existe ; ne réinventer que ce qui manque.
-2. Lecteurs VLM = sous-agents Claude (Opus, Sonnet) lisant les images, à
-   l'aveugle : jamais la référence dans leur contexte.
-3. Protocole écrit avant la lecture des résultats ; une page qui a servi à
-   régler quelque chose est « consommée » et ne valide plus rien.
-4. Résultats négatifs consignés comme les positifs (`JOURNAL.md`).
-5. Pas de machine à gaz : un étage n'entre dans la chaîne que s'il bat, mesuré,
-   la chaîne sans lui.
+## Prochaines étapes
 
-## Acquis hérités (master et branche astra)
-
-- `connexe` et A32 (astra) passent `CRITERE.md` sur les pages SBB A28 avec
-  lignes et texte de référence ; A32 aussi sur A34, `connexe` y échoue sur un
-  ouvrage (pire cas 4,9 car). Voir l'analyse de la branche astra.
-- Opus a lu 9/9 lignes Fraktur exactes (master, itération 19) — 9 lignes seulement.
-- astra : gpt-6-luna/sol à 0,54–1,73 % sur BnF (pas des modèles Claude).
+- Texte : valider P3 sur un lot plus large et plus varié (presse, français,
+  pages dégradées) ; attaquer les erreurs communes aux deux passes (variantes
+  grecques, a priori lexical « Marana ») — un seul arbitre ne les voit pas.
+- Boîtes : Fraktur serré (frontières < 95 %), lignes non placées.
+- OLR / métadonnées / retrieval : revue de littérature, reprendre l'ordonnanceur
+  de colonnes d'astra (A48-A49) plutôt que le réinventer.
 
 ## Contraintes d'environnement
 
-- Réseau : arxiv, HAL, Gallica, Zenodo, HuggingFace bloqués ; GitHub et
-  raw.githubusercontent accessibles ; WebSearch fonctionne (résumés seuls).
-
-## Étape en cours
-
-O01 — OCR texte brut pleine page, SBB borrdisc_689809840 p. 00000018
-(27 lignes, français 1770 environ, vérité OCR-D).
+arxiv, HAL, Gallica, Zenodo, HuggingFace bloqués ; GitHub et PyPI accessibles ;
+WebSearch (résumés). kraken 7.1.1 installé (modèle blla livré) ; PERO indisponible.

@@ -1,0 +1,94 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Ex ſucco acetoſæ & Zaccari quod ſatis eſt, fiat anti-",
+  "Y": "Ex ſucco acetoſæ & Zaccari quod fatis eſt, fiat anti-",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "f"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o07/berirev_867083778_00000049//p2_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "vberflüſsigen materien beladen/ durch vnoꝛdnung",
+  "Y": "vberfliiſsigen materien beladen/ durch vnoꝛdnung",
+  "divergences_X_vers_Y": [
+   [
+    "ü",
+    "ii"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o07/berirev_867083778_00000049//p2_a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "gere weiber vñ kindtbetteren halten. Für die würm",
+  "Y": "gere weiber vñ kindtbetteren halten. Fiir die wiirm",
+  "divergences_X_vers_Y": [
+   [
+    "ü",
+    "ii"
+   ],
+   [
+    "ü",
+    "ii"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o07/berirev_867083778_00000049//p2_a.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "ader laſſen",
+  "Y": "aber laſſen",
+  "divergences_X_vers_Y": [
+   [
+    "d",
+    "b"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o07/berirev_867083778_00000049//p2_a.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "Fiir die wiirm",
+  "Y": "Für die würm",
+  "divergences_X_vers_Y": [
+   [
+    "ii",
+    "ü"
+   ],
+   [
+    "ii",
+    "ü"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o07/berirev_867083778_00000049//p2_a.txt"
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "Von der Peſtilentz. 20",
+  "Y": "Von der Peſtilentz.",
+  "divergences_X_vers_Y": [
+   [
+    " 20",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o07/berirev_867083778_00000049//p2_b.txt"
+ }
+]

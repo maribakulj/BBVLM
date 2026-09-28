@@ -71,3 +71,10 @@ BiedBern 0 % (deux passes) ; R1 conditionnée : 0 régression, gains en Fraktur.
 kraken blla + resserrement sur l'encre du polygone + texte VLM + connexe :
 CRITERE tenu sur 4 pages sans aucune référence en entrée. Fraktur serrés :
 frontières < 95 %.
+
+## O07 — 2026-09-28 — P3 validée : 3 pages sur 4 à 0 faute
+
+Deux passes + arbitrage des 12 lignes en désaccord sur 133 : 730277879 (A à
+2,06 %) → 0 %, albedm 0 %, berirev 0 %, Aphoq 0,80 % (grec, erreur commune).
+Premier ALTO produit par la chaîne entière, valide XSD 4.4 ; au mot : texte
+exact ET IoU≥0,8 de 61 à 92 %.

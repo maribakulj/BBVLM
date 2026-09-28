@@ -1,0 +1,64 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "juſtè ſervare obligantur.",
+  "Y": "juſte fervare obligantur.",
+  "divergences_X_vers_Y": [
+   [
+    "è",
+    "e"
+   ],
+   [
+    "ſ",
+    "f"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o07/AphoqvSuS_88125679X_00000020//p2_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "ἐπιθυμία ϗ παθήματα, ceu actus",
+  "Y": "έϖιϑυμία ϗ` ϖαϑήματα, ceu actus",
+  "divergences_X_vers_Y": [
+   [
+    "ἐπ",
+    "έϖ"
+   ],
+   [
+    "θ",
+    "ϑ"
+   ],
+   [
+    "",
+    "`"
+   ],
+   [
+    "π",
+    "ϖ"
+   ],
+   [
+    "θ",
+    "ϑ"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o07/AphoqvSuS_88125679X_00000020//p2_a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "bet) differentia deſignata.",
+  "Y": "bet) differentia deſignata. E",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " E"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o07/AphoqvSuS_88125679X_00000020//p2_b.txt"
+ }
+]
