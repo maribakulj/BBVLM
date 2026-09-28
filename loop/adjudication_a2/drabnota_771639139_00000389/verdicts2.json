@@ -1,0 +1,38 @@
+[
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "das 3. Wegẽ des gehorſams Abrahams.",
+  "justification": "Wegẽ avec tilde"
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "zu dem glauben/weil wir vornemen: dz",
+  "justification": "glauben/weil sans espace"
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "heiſchung vnd wort/gilt es allemal eins",
+  "justification": "wort/gilt sans espace"
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "volkommen/mus immer zunehmen vnd",
+  "justification": "volkommen/mus sans espace"
+ },
+ {
+  "id": "l011",
+  "verdict": "X",
+  "texte_correct": "er das widergibt/denſelben glauben/",
+  "justification": "widergibt/denſelben sans espace"
+ },
+ {
+  "id": "l012",
+  "verdict": "Y",
+  "texte_correct": "gleich wie ein heiß eiſſen/von ſich ſelbſt",
+  "justification": "eiſſen/von sans espace"
+ }
+]

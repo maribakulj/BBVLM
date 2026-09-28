@@ -1,0 +1,240 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "wegen die gantze Summa wie gemelt 150887 Rthlr. 12",
+  "notes": [
+   "pas de point après 12 en fin de ligne"
+  ]
+ },
+ {
+  "id": "l001",
+  "verdict": "Y",
+  "texte_correct": "tauſent dreyhundert und dreyſſig Kaiſ. . 10",
+  "notes": [
+   "signe abréviatif du florin imprimé (lettres liées à boucle), pas « fl »"
+  ]
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "ſe/ an Kaiſ. Muͤntz 2250 ſl.",
+  "notes": [
+   "premier glyphe = ſ (ergot à gauche seulement, pas de barre traversante à droite) : ſl."
+  ]
+ },
+ {
+  "id": "l003",
+  "verdict": "Y",
+  "texte_correct": "ſoviel als 2 Rthlr. 12 gute . oder 3 . 15 Kaiſ. .",
+  "notes": [
+   "signes abréviatifs groschen/florin/groschen imprimés"
+  ]
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "Ein Maͤgdlein 3 Seckel/ das iſt 1 ½ thlr. oder 2 .",
+  "notes": [
+   "fraction empilée 1/2 → ½",
+   "signe abréviatif du florin imprimé"
+  ]
+ },
+ {
+  "id": "l005",
+  "verdict": "partage",
+  "texte_correct": "3 Kaiſ. .",
+  "notes": [
+   "chiffre 3 lisible (X)",
+   "signe abréviatif du groschen imprimé (Y)"
+  ]
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "tzet 20 Seckel/ das iſt 10 thlr. oder 15 Kaiſ. ſl.",
+  "notes": [
+   "ſ (pas de barre traversante à droite) : ſl. ; lecture un peu serrée"
+  ]
+ },
+ {
+  "id": "l007",
+  "verdict": "Y",
+  "texte_correct": "Ein WeibesBild 10 Seckel/ das iſt 5 thlr. oder 7 Kaiſ. .",
+  "notes": [
+   "« WeibesBild » imprimé sans espace",
+   "signe abréviatif du florin"
+  ]
+ },
+ {
+  "id": "l008",
+  "verdict": "Y",
+  "texte_correct": "10 Kaiſ. .",
+  "notes": [
+   "signe abréviatif du groschen"
+  ]
+ },
+ {
+  "id": "l009",
+  "verdict": "X",
+  "texte_correct": "Seckel/ das iſt 25 Rthlr. oder 37 Kaiſ. . 15 Kaiſ. .",
+  "notes": [
+   "signes abréviatifs florin et groschen"
+  ]
+ },
+ {
+  "id": "l010",
+  "verdict": "Y",
+  "texte_correct": ". 15 Kaiſ. Gr.",
+  "notes": [
+   "signe abréviatif du florin en tête"
+  ]
+ },
+ {
+  "id": "l011",
+  "verdict": "Y",
+  "texte_correct": "Ein Alter Mann 15 Seckel/ das iſt/ 7 ½ thlr. oder",
+  "notes": [
+   "fraction empilée → ½"
+  ]
+ },
+ {
+  "id": "l012",
+  "verdict": "X",
+  "texte_correct": "11 Kaiſ. . 17 ½ Kaiſ. Gr.",
+  "notes": [
+   "signe abréviatif du florin",
+   "fraction empilée → ½"
+  ]
+ },
+ {
+  "id": "l013",
+  "verdict": "partage",
+  "texte_correct": "½ Kaiſ. fl",
+  "notes": [
+   "fraction empilée → ½ (ni � ni 1/2)",
+   "f avec barre traversante visible → fl (X)"
+  ]
+ },
+ {
+  "id": "l014",
+  "verdict": "Y",
+  "texte_correct": "das uͤbrig war/ uͤber der LevitenZahl/ von den Erſten",
+  "notes": [
+   "« LevitenZahl » imprimé sans espace"
+  ]
+ },
+ {
+  "id": "l015",
+  "verdict": "X",
+  "texte_correct": "Ge⸗",
+  "notes": [
+   "glyphe après « Ge » interprété comme trait d'union double ⸗ ; image de faible qualité, confiance moyenne"
+  ]
+ },
+ {
+  "id": "l016",
+  "verdict": "Y",
+  "texte_correct": "tauſent dreyhundert und dreyſſig Kaiſ. . 10",
+  "notes": [
+   "signe abréviatif du florin imprimé (lettres liées à boucle), pas « fl »",
+   "image identique à l001"
+  ]
+ },
+ {
+  "id": "l017",
+  "verdict": "Y",
+  "texte_correct": "ſoviel als 2 Rthlr. 12 gute . oder 3 . 15 Kaiſ. .",
+  "notes": [
+   "signes abréviatifs groschen/florin/groschen imprimés",
+   "image identique à l003"
+  ]
+ },
+ {
+  "id": "l018",
+  "verdict": "Y",
+  "texte_correct": "Ein Maͤgdlein 3 Seckel/ das iſt 1 ½ thlr. oder 2 .",
+  "notes": [
+   "fraction empilée 1/2 → ½",
+   "signe abréviatif du florin imprimé",
+   "image identique à l004"
+  ]
+ },
+ {
+  "id": "l019",
+  "verdict": "partage",
+  "texte_correct": "3 Kaiſ. .",
+  "notes": [
+   "chiffre 3 lisible (X)",
+   "signe abréviatif du groschen imprimé (Y)",
+   "image identique à l005"
+  ]
+ },
+ {
+  "id": "l020",
+  "verdict": "X",
+  "texte_correct": "Ein WeibesBild 10 Seckel/ das iſt 5 thlr. oder 7 Kaiſ. .",
+  "notes": [
+   "« WeibesBild » imprimé sans espace",
+   "signe abréviatif du florin",
+   "image identique à l007"
+  ]
+ },
+ {
+  "id": "l021",
+  "verdict": "X",
+  "texte_correct": "10 Kaiſ. .",
+  "notes": [
+   "signe abréviatif du groschen",
+   "image identique à l008"
+  ]
+ },
+ {
+  "id": "l022",
+  "verdict": "X",
+  "texte_correct": "Seckel/ das iſt 25 Rthlr. oder 37 Kaiſ. . 15 Kaiſ. .",
+  "notes": [
+   "signes abréviatifs florin et groschen",
+   "image identique à l009"
+  ]
+ },
+ {
+  "id": "l023",
+  "verdict": "X",
+  "texte_correct": ". 15 Kaiſ. Gr.",
+  "notes": [
+   "signe abréviatif du florin en tête",
+   "image identique à l010"
+  ]
+ },
+ {
+  "id": "l024",
+  "verdict": "X",
+  "texte_correct": "11 Kaiſ. . 17 ½ Kaiſ. Gr.",
+  "notes": [
+   "signe abréviatif du florin",
+   "fraction empilée → ½",
+   "image identique à l012"
+  ]
+ },
+ {
+  "id": "l025",
+  "verdict": "partage",
+  "texte_correct": "½ Kaiſ. fl",
+  "notes": [
+   "fraction empilée → ½ (ni � ni 1/2)",
+   "f avec barre traversante visible → fl (X)",
+   "image identique à l013"
+  ]
+ },
+ {
+  "id": "l026",
+  "verdict": "X",
+  "texte_correct": "Ein Maͤgdlein 3 Seckel/ das iſt 1 ½ thlr. oder 2 .",
+  "notes": [
+   "fraction empilée 1/2 → ½",
+   "signe abréviatif du florin imprimé",
+   "image identique à l004"
+  ]
+ }
+]

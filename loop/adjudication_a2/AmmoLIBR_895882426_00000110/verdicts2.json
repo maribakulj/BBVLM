@@ -1,0 +1,56 @@
+[
+ {
+  "id": "l000",
+  "verdict": "aucun",
+  "texte_correct": "Cœlum ſolumq́ꝫ qui creauit,",
+  "justification": "q accentué suivi du signe ꝫ (forme de 3), pas ;"
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "Et quicquid eſt in illis.",
+  "justification": "ligature ſt: eſt"
+ },
+ {
+  "id": "l002",
+  "verdict": "aucun",
+  "texte_correct": "Cœlumq́ꝫ cœlorum beata",
+  "justification": "q́ suivi de ꝫ"
+ },
+ {
+  "id": "l003",
+  "verdict": "aucun",
+  "texte_correct": "Mortalibusq́ꝫ tellus.",
+  "justification": "q́ suivi de ꝫ"
+ },
+ {
+  "id": "l004",
+  "verdict": "aucun",
+  "texte_correct": "Vos atqꝫ veſtros palmites.",
+  "justification": "q sans accent suivi de ꝫ"
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "Cœlum ſolumq́ꝫ qui creauit,",
+  "justification": "q́ꝫ visible"
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "Cœlumq́ꝫ cœlorum beata",
+  "justification": "q́ꝫ visible"
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "Mortalibusq́ꝫ tellus.",
+  "justification": "q́ꝫ visible"
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "Vos atqꝫ veſtros palmites.",
+  "justification": "qꝫ visible"
+ }
+]

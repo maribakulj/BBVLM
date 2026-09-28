@@ -149,3 +149,39 @@ mode des extrémités de lignes ; ligne qui le dépasse coupée dans un vrai bla
 vers/listes → coupe appliquée **seulement si le lecteur signale des manchettes**
 (rôle P5). herrleyc : 36/36 lignes placées, rappel IoU80 0,66 → 0,78,
 **recherche 53 % → 91 %**.
+
+## O10 — 2026-09-28 — validation de la chaîne gelée sur 4 œuvres neuves
+
+Texte P3 : backhart **0** (0/896), hackherz 1 car., heptaldai 9, herrkurt 40
+(33 de notation : florin/groschen en PUA, ½). ALTO 4/4 valides ; CRITERE ✓
+sur backhart seulement. Diagnostic boîtes : heptaldai = lignes inclinées
+(boîtes de mots), herrkurt = segmentation, hackherz = page en regard (écartée
+par l'alignement) + réclame non détectée. Détail : o10/RESULTATS.md.
+
+## A2 — 2026-09-28 — renverser la référence exige deux arbitres
+
+Constat O10 : un arbitre seul a renversé ﬂ → ſl sur deux « fl. » (florin),
+contredit par un second arbitre aveugle. Règle A2 (bilan_adj.py ; BBVLM_A1=1
+rend l'ancienne) : tout texte retenu autre que la référence distribuée, texte
+neuf OU choix de la lecture, n'est retenu que si un second arbitre
+indépendant écrit le même. Second arbitrage aveugle des 167 renversements à
+arbitre unique d'O02-O10 (4 arbitres Opus, verdicts dans adjudication_a2/).
+Effet : **aucune page à 0 % ne bouge** ; quelques renversements tombent
+(ejngerez 22 → 20 car. de référence corrigés, colechri 6 → 3, herrleyc 6 → 3,
+heptaldai 6 → 4, herrkurt 5 → 3) ; CER final herrleyc 18 → 21, heptaldai 7 → 9.
+Les résultats antérieurs tiennent sous la règle plus stricte.
+
+## P6 — 2026-09-28 — notation des signes spéciaux (développement sur herrkurt)
+
+Deux passes P6 sur herrkurt : les jetons ASCII `{florin}` / `{groschen}`
+(convertis en U+F2E8 / U+F2E9 par p2.py) et « ½ » ramènent 42/39 → **5/9**
+éditions. La première version (demander le PUA brut) échoue : 0 PUA émis.
+Leçon : un VLM n'écrit pas la zone privée ; il faut un jeton lisible et une
+table de conversion déterministe. Validation requise sur pages neuves (O11).
+
+## B01 — centre local de ligne (L07) — en cours
+
+Boîtes calculées sur la ligne redressée autour du centre local
+(CenterNormalizer d'OCRopus). heptaldai, lignes de référence : ≤0,5c
+78,95 → 84,8 %, IoU méd 0,639 → 0,698, mais pire 1,69 → 4,03 ; lignes kraken :
+78,4 → 79,5 %, IoU 0,605 → 0,616. Banc complet en cours.

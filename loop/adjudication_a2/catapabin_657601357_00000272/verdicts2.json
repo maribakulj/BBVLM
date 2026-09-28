@@ -1,0 +1,56 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Paris. le Clerc. 1698.",
+  "justification": "point faible visible après 'Clerc'"
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "64-69 L'Eſpion dans les Cours des Princes",
+  "justification": "'64-69' sans espaces, 'L'Eſpion' collé"
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "de Génes.) Colog. Kinkius. 1696-1700.",
+  "justification": "'1696-1700' sans espaces"
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "Catholique en l'Aſſemblée de Courtray.",
+  "justification": "'Catholique' (t, pas r)"
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "71-83 Recueil des Défenſes de M. (Nicolas)",
+  "justification": "'71-83' sans espaces"
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "1665-1668. 13. Vol. rar.",
+  "justification": "'1665-1668' sans espaces"
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "84-89 Recueil des Défenſes de M. (Nicolas)",
+  "justification": "'Recueil' correct; tiret collé"
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "Paris. Ganeau. 1716. 1717.",
+  "justification": "'1716. 1717.' avec point, pas de tiret"
+ },
+ {
+  "id": "l010",
+  "verdict": "X",
+  "texte_correct": "91-93 Hiſtoire du Syſtème des Finances ſous",
+  "justification": "'91-93' sans espaces"
+ }
+]

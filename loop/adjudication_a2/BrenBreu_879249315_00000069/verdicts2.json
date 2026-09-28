@@ -1,0 +1,50 @@
+[
+ {
+  "id": "l000",
+  "verdict": "aucun",
+  "texte_correct": "quo mihi eſſet bonum expectandum? Putas´ne Deum",
+  "justification": "Point d'interrogation présent; le signe dans Putas´ne est un accent aigu (´), pas une apostrophe."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "ris? Exiſtimas ne ab ore altiſsimi, ſicut in Threnis Hie⸗",
+  "justification": "Point d'interrogation visible après ris."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "remiæ dicitur, egredi bona ac mala? Ego mallem, in⸗",
+  "justification": "Point d'interrogation visible après mala."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "quiunt, abundare frumento & muſto, quàm multa gra⸗",
+  "justification": "Accent grave sur quàm visible."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "tantùm externæ & mundanæ tanquillitati. Sed nihil",
+  "justification": "Accent grave sur tantùm visible."
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "Longè autem aliter affecti ſunt pij. Hi enim non con⸗",
+  "justification": "Accent grave sur Longè visible."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "noſtram tantùm in lumine vultus tui. Si tu reſpexeris",
+  "justification": "Accent grave sur tantùm visible."
+ },
+ {
+  "id": "l011",
+  "verdict": "X",
+  "texte_correct": "quo mihi eſſet bonum expectandum? Putas´ne Deum",
+  "justification": "Point d'interrogation et accent aigu dans Putas´ne visibles."
+ }
+]

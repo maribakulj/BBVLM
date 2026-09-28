@@ -1,0 +1,20 @@
+[
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "Am Bauchwee ſtarb/ das macht yn matt:",
+  "justification": "fin maculée mais lecture 'matt' suivie d'un signe à deux points (point haut + point bas) = deux-points"
+ },
+ {
+  "id": "l009",
+  "verdict": "Y",
+  "texte_correct": "J ij",
+  "justification": "initiale fraktur descendant sous la ligne = J"
+ },
+ {
+  "id": "l011",
+  "verdict": "aucun",
+  "texte_correct": "Am Bauchwee ſtarb/ das macht yn matt:",
+  "justification": "image identique à l008: ponctuation finale lue comme deux-points, pas point"
+ }
+]

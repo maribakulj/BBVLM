@@ -1,0 +1,20 @@
+[
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "der heiligen Schrifft alleine breuchlich. Das λόγος,",
+  "justification": "Grec minuscule λόγος (ligature ος)."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "das iſt/ Das WORT/ vnd das Fleiſch zweyerley",
+  "justification": "das avec s rond simple, pas daß."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "heilige Geiſt ſey in geſtalt der Tauben herab gefaren/",
+  "justification": "heilige (l abîmé), pas heiiige."
+ }
+]

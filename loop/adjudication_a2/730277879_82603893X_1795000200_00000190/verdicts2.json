@@ -1,0 +1,44 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Auch bey dieſen Volk findet man einen Rang den die",
+  "justification": "f de findet avec barre transversale"
+ },
+ {
+  "id": "l001",
+  "verdict": "aucun",
+  "texte_correct": "Geburth beſtimmt. — Man findet 3 Klaſſen unter ihnen.",
+  "justification": "f barré (findet); tiret isolé par des espaces des deux côtés"
+ },
+ {
+  "id": "l002",
+  "verdict": "aucun",
+  "texte_correct": "1) Die Erichs (Oberhaͤupter der Staͤmme). 2) die, welche",
+  "justification": "chiffre 1; e suscrit sur a dans Oberhaͤupter et Staͤmme (pas de points ni anneau)"
+ },
+ {
+  "id": "l009",
+  "verdict": "aucun",
+  "texte_correct": "Menſchen zu opſern noch immer bei dieſem gutmuͤthi⸗",
+  "justification": "opſern imprimé sans barre (ſ); e suscrit sur u, pas anneau"
+ },
+ {
+  "id": "l010",
+  "verdict": "X",
+  "texte_correct": "Geburth beſtimmt. — Man findet 3 Klaſſen unter ihnen.",
+  "justification": "f barré; espaces autour du tiret"
+ },
+ {
+  "id": "l011",
+  "verdict": "aucun",
+  "texte_correct": "1) Die Erichs (Oberhaͤupter der Staͤmme). 2) die, welche",
+  "justification": "chiffre 1; e suscrit dans Oberhaͤupter"
+ },
+ {
+  "id": "l012",
+  "verdict": "Y",
+  "texte_correct": "Menſchen zu opſern noch immer bei dieſem gutmuͤthi⸗",
+  "justification": "lettre de opſern sans barre transversale (ſ imprimé); uͤ"
+ }
+]

@@ -1,0 +1,32 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "vnd nidrigs ſtands/ die Gott dem tod",
+  "justification": "virgule oblique après 'ſtands'"
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "elend ding vmb aller Menſchen leben",
+  "justification": "'ding' avec d, 'Menſchen' avec ſ"
+ },
+ {
+  "id": "l007",
+  "verdict": "Y",
+  "texte_correct": "ſind/ nemẽ wir ein end/ vnſer boßheit",
+  "justification": "tilde sur e : 'nemẽ'"
+ },
+ {
+  "id": "l010",
+  "verdict": "Y",
+  "texte_correct": "ſtaub vũ ſprew vom Winde/ wie ein",
+  "justification": "u avec tilde : 'vũ'"
+ },
+ {
+  "id": "l011",
+  "verdict": "Y",
+  "texte_correct": "ſtaub vũ ſprew vom Winde/ wie ein",
+  "justification": "u avec tilde : 'vũ'"
+ }
+]

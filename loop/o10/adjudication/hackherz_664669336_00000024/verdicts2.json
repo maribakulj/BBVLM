@@ -1,0 +1,38 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Glaͤubigetragen/ daß er das/ welches er ſagte es were",
+  "justification": "Glaͤubigetragen imprimé sans blanc."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "ihmviel beſſer/ nicht erwehlet/ ſondern das beliebet/ wo⸗",
+  "justification": "ihmviel imprimé sans blanc."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "ſein koͤndte. Quis non tertii cœli cupidus ſperneret omnem",
+  "justification": "Blanc net entre non et tertii."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "dißLeben gehoͤrend/ v on ſich werffen wuͤrde? Quis non pa-",
+  "justification": "dißLeben collé; blanc visible dans « v on » tel qu'imprimé."
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "non poſt tanta exitia eligeret requiem? Ja wer ſolte nicht",
+  "justification": "eligeret (t final), pas eligerer."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "2.Cor.XII.3.4",
+  "justification": "Points entre chaque élément, pas de blancs ni de point final."
+ }
+]

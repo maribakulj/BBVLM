@@ -1,0 +1,44 @@
+[
+ {
+  "id": "l005",
+  "verdict": "aucun",
+  "texte_correct": "3 Kaiſ. .",
+  "justification": "Chiffre 3 net (pas de fraction au‑dessus). Le signe monétaire est un glyphe unique lié (boucle g + tête en R, en un seul trait) = signe groschen → PUA U+F2E9, suivi d'un point. X transcrit 'gr.' en lettres ; Y perd le chiffre et le signe."
+ },
+ {
+  "id": "l013",
+  "verdict": "aucun",
+  "texte_correct": "½ Kaiſ. fl",
+  "justification": "Fraction imprimée en bloc empilé 1 / barre / 2 → ½. 'fl' = ligature ordinaire f+l, f avec barre transversale (pas ſ), pas de signe florin spécial. X a � pour la fraction, Y '1/2' et ſl."
+ },
+ {
+  "id": "l019",
+  "verdict": "aucun",
+  "texte_correct": "3 Kaiſ. .",
+  "justification": "Image identique pixel à pixel à l005 (même md5) : chiffre 3, signe groschen en glyphe unique → U+F2E9, point. X 'gK.' faux ; Y perd le chiffre et le signe."
+ },
+ {
+  "id": "l025",
+  "verdict": "aucun",
+  "texte_correct": "½ Kaiſ. fl",
+  "justification": "Image identique à l013 (même md5) : fraction empilée en un seul bloc → ½ selon la règle (X a '1/2' en trois caractères, Y a �). 'fl' ligature ordinaire avec f barré."
+ },
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "wegen die gantze Summa wie gemelt 150887 Rthlr. 12",
+  "justification": "pas de point après '12'"
+ },
+ {
+  "id": "l002",
+  "verdict": "Y",
+  "texte_correct": "ſe/ an Kaiſ. Muͤntz 2250 fl.",
+  "justification": "'fl.' = florin, barre visible"
+ },
+ {
+  "id": "l006",
+  "verdict": "Y",
+  "texte_correct": "tzet 20 Seckel/ das iſt 10 thlr. oder 15 Kaiſ. fl.",
+  "justification": "'fl.' = florin, barre visible"
+ }
+]

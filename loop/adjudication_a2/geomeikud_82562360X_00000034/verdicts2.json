@@ -1,0 +1,56 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Den veerden koͤninck darům fragen ſchalt.",
+  "justification": "anneau sur u de 'darům'"
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "van twelff Krůdern.",
+  "justification": "anneau sur u de 'Krůdern'"
+ },
+ {
+  "id": "l002",
+  "verdict": "aucun",
+  "texte_correct": "j. Jſop",
+  "justification": "j à queue descendante et ſ long : 'j. Jſop'"
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "Deshaluen dy thom drůdden koͤning kehr.",
+  "justification": "anneau sur u de 'drůdden'"
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "Ifft dy dyn frůndt recht leuen dho/",
+  "justification": "anneau (ů) sur 'frůndt'"
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "Ifft dy ock dyn frůnt recht leue/",
+  "justification": "anneau sur u de 'frůnt'"
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "Sůlck frage bym andern koͤning oͤne.",
+  "justification": "anneau sur 'Sůlck', 'oͤne' avec n"
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "Dat werſtu bym důdſchen koͤning vorſtan",
+  "justification": "anneau sur u de 'důdſchen'"
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "j. Jſop",
+  "justification": "'j. Jſop' avec ſ long"
+ }
+]

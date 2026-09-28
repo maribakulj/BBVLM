@@ -1,0 +1,50 @@
+[
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "mehren mit den geiſtern, vnnd preparierten Coͤr⸗",
+  "justification": "Virgule nette sous la ligne après 'geiſtern' ; trait final épais oblique avec un second trait plus faible au‑dessus → ⸗ double oblique. Y omet la virgule et met un trait simple."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "pern/ vnnd durch die zuſammenfuͤgung der ele⸗",
+  "justification": "'fuͤgung' : f avec barre transversale à droite (pas ſ), e suscrit sur u ; trait de fin identique à la ligne précédente (double oblique, trait supérieur usé). Y a ſuͤgung et un trait simple."
+ },
+ {
+  "id": "l004",
+  "verdict": "aucun",
+  "texte_correct": "den man jtzundt Coagulirũ wil/ ein Coͤrper oder",
+  "justification": "Signe suscrit (usé, réduit à une tache centrée) au‑dessus du u final de Coagulirũ = abréviation de -en, que X omet ; 'wil/' ne présente que deux hampes après w (i + l), pas 'will' comme Y. Tilde un peu incertain à cause de l'usure."
+ },
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "darff wider anfahen/ ſondern immer fuͤr vnd fuͤr",
+  "justification": "anfahen avec f barré (sens: anfangen)."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "menten.",
+  "justification": "Troisième lettre n, quatrième t; menten."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "nimmermehr vollkomlich zu ☽ wirdt/ deßgleich",
+  "justification": "wirdt se termine par t."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "den man jtzundt Coagulirũ wil/ ein Coͤrper oder",
+  "justification": "Tilde visible sur le u final de Coagulirũ."
+ },
+ {
+  "id": "l009",
+  "verdict": "X",
+  "texte_correct": "meinen/ den ☉ hat ohne zweifl nicht mehr des",
+  "justification": "zweifl avec f barré, pas ſt."
+ }
+]

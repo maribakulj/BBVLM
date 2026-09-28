@@ -1,0 +1,20 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "wegen die gantze Summa wie gemelt 150887 Rthlr. 12",
+  "justification": "pas de point après '12'"
+ },
+ {
+  "id": "l002",
+  "verdict": "Y",
+  "texte_correct": "ſe/ an Kaiſ. Muͤntz 2250 fl.",
+  "justification": "'fl.' = florin, barre visible"
+ },
+ {
+  "id": "l006",
+  "verdict": "Y",
+  "texte_correct": "tzet 20 Seckel/ das iſt 10 thlr. oder 15 Kaiſ. fl.",
+  "justification": "'fl.' = florin, barre visible"
+ }
+]

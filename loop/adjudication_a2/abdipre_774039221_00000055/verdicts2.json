@@ -1,0 +1,92 @@
+[
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "uerbum Dei purum abſqꝫ fermento hæ-",
+  "justification": "abſqꝫ imprimé; trait d'union simple -"
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "reſeω̃n. Tantum in Eccleſia ut in ſuo tem-",
+  "justification": "reſeω̃n imprimé (ω surmonté de tilde)"
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "lud Ioã.14. Si quis diligit me, ſermonem",
+  "justification": "Ioã.14. sans espace"
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "ubi bonitatis inexhauſtus fons ipſe Do-",
+  "justification": "trait d'union simple = - (U+002D)"
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "Sopho.3. Rex Iſrael Dominus in medio",
+  "justification": "Sopho.3. sans espace"
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "Zion, Dominus Deus tuus in medio tui,",
+  "justification": "tui sans macron"
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "eius nõ commouebitur. Et Pſal.2. Chri-",
+  "justification": "Pſal.2. sans espace; trait d'union -"
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "tem Zion. Iſa.27. Adorabunt Dominum",
+  "justification": "Iſa.27. sans espace"
+ },
+ {
+  "id": "l009",
+  "verdict": "Y",
+  "texte_correct": "Conſolabitur Dominus Zion, redempti",
+  "justification": "dernier mot redempti (i final maculé mais lisible; Is 51,11)"
+ },
+ {
+  "id": "l010",
+  "verdict": "X",
+  "texte_correct": "à Domino reuertentur in Zion laudan-",
+  "justification": "à accent grave, trait d'union -"
+ },
+ {
+  "id": "l011",
+  "verdict": "X",
+  "texte_correct": "tes, & lætitia ſempiterna ſuper capita eo-",
+  "justification": "trait d'union -"
+ },
+ {
+  "id": "l012",
+  "verdict": "Y",
+  "texte_correct": "rum. Ioel.2. In monte Zion & Ieruſalem",
+  "justification": "Ioel.2. sans espace avant 2"
+ },
+ {
+  "id": "l014",
+  "verdict": "X",
+  "texte_correct": "monte ſancto meo, & erit Ieruſalem ſan-",
+  "justification": "trait d'union -"
+ },
+ {
+  "id": "l017",
+  "verdict": "X",
+  "texte_correct": "erit ſaluatio. Ioel. 3. Scietis quia ego Do-",
+  "justification": "trait d'union -"
+ },
+ {
+  "id": "l018",
+  "verdict": "X",
+  "texte_correct": "D 3",
+  "justification": "chiffre 3 elzévirien à queue descendante"
+ }
+]

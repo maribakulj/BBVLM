@@ -1,0 +1,44 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "rius peccarit, & feloniam (vt aiunt) commiſerit,",
+  "justification": "Signe final en forme de virgule; ligne suivante en minuscule (id eſt)."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "id eſt, atrocem noxiam. Ait, Si Vaſallus. Si totum",
+  "justification": "ſt (s long) dans eſt."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "¶ Apud Galliam, de cauſis amittendi Beneficij,",
+  "justification": "Pied-de-mouche en tête de ligne, pas un o."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "ca perſoluantnr, & qui nouè acquirit, in fidem",
+  "justification": "perſoluantnr d'un seul tenant (léger espacement italique, pas de blanc de mot)."
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "aut filiæ adulterium, ſtuprúmve inferat: ſi noxā",
+  "justification": "ve enclitique collé à ſtuprúm, sans espace."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "Vaſallus Dominum vocauit, vt eũ de-",
+  "justification": "Signe ondulé (tilde) sur le u, pas un accent aigu."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "K &L",
+  "justification": "& collé à L, espace après K."
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "cipiendum electi ſimus, conſequi. Vid. DREAS l. c. p. 28. Al-",
+  "justification": "espace visible entre 'electi' et 'ſimus'"
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "§. VI.",
+  "justification": "'§. VI.' avec espace"
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "E re vero noſtra erit, poſteriori illo, quem adduximus,",
+  "justification": "'poſteriori', pas 'ppſteriori'"
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "Apologia p. 48. 55. 57. 65. 66. cauſſatus, noſtram', quam hodie",
+  "justification": "apostrophe visible après 'noſtram'"
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "profitemur, doctrinam jam ante Formulam Concordiæ a Theo-",
+  "justification": "'profitemur' avec f (ligature fi), pas ſ"
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "nis decreto partes traher e allaborarint, ex SCHLOSSERI Luthero",
+  "justification": "espace imprimé entre 'traher' et 'e'"
+ }
+]

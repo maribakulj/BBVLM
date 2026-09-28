@@ -1,0 +1,62 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Und starbst sein Freund! *)",
+  "justification": "Espace visible entre ! et *)."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "«drey Stunden des Tages Wolfens Philosophie liest;",
+  "justification": "Guillemet « en tête de ligne."
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "«Vernunft erlebt; und ich hoffe, dasz die Heuchler",
+  "justification": "Guillemet « en tête de ligne."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "«mit ihrer im Finstern schleichenden Kabale den",
+  "justification": "Guillemet « en tête de ligne."
+ },
+ {
+  "id": "l009",
+  "verdict": "Y",
+  "texte_correct": "«gesunden Menschenverstand und die Vernunft",
+  "justification": "Guillemet «, pas „."
+ },
+ {
+  "id": "l011",
+  "verdict": "X",
+  "texte_correct": "«ten Sie vor zwey Jahren geglaubt, dasz sich diese",
+  "justification": "Guillemet « en tête de ligne."
+ },
+ {
+  "id": "l014",
+  "verdict": "X",
+  "texte_correct": "«musz, und dasz die Dinge, die man oft am ent-",
+  "justification": "Guillemet « en tête de ligne."
+ },
+ {
+  "id": "l015",
+  "verdict": "Y",
+  "texte_correct": "«ferntesten glaubt, am ersten kommen! aber was",
+  "justification": "Guillemet «, pas „."
+ },
+ {
+  "id": "l016",
+  "verdict": "X",
+  "texte_correct": "«wird dieser Philosoph sagen? denn mit allen sei-",
+  "justification": "Guillemet « en tête de ligne."
+ },
+ {
+  "id": "l017",
+  "verdict": "X",
+  "texte_correct": "«nen Regeln der Wahrscheinlichkeit, weisz ich ge-",
+  "justification": "Guillemet « en tête de ligne."
+ }
+]

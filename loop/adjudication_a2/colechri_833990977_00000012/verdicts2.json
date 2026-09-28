@@ -1,0 +1,26 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "gravitate morum vitæ caſtitate doctri-",
+  "justification": "vitæ, t net"
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "& Scaligerũ. quorum alter felicem hunc",
+  "justification": "hunc, pas humc"
+ },
+ {
+  "id": "l002",
+  "verdict": "aucun",
+  "texte_correct": "beati patris filium ita formavit optimisq́ꝫ",
+  "justification": "q accentué suivi du signe ꝫ en forme de 3"
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "mam Scaligeri Epiſtolam, verè cygneam",
+  "justification": "Epiſtolam avec o"
+ }
+]

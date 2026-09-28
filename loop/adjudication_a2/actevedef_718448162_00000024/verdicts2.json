@@ -1,0 +1,38 @@
+[
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "der am 13ten Octobr. a. c. in Judicio gegen ſeinen geweſenen Hrn. introducirter Appellation deſſen Bey⸗",
+  "justification": "'13ten' sans espace, 'a. c.' avec espace"
+ },
+ {
+  "id": "l031",
+  "verdict": "Y",
+  "texte_correct": "der Agricola per modum Exceptionis angedrohete objectio alterius Criminis",
+  "justification": "'Agricola' sans tréma; 'Criminis' majuscule"
+ },
+ {
+  "id": "l035",
+  "verdict": "Y",
+  "texte_correct": "Der Schultheiß zu Oberrod, der Wirth Krebs und Hr. Notarius Tribert ſind bereits",
+  "justification": "'Schultheiß' (l cassé mais lisible), pas 'Schnitheiß'"
+ },
+ {
+  "id": "l038",
+  "verdict": "Y",
+  "texte_correct": "die Klage ſowohl als das Zeugnuͤß vor falſch und erdichtet muͤßen gehalten werden.",
+  "justification": "'ſowohl' en un mot"
+ },
+ {
+  "id": "l043",
+  "verdict": "X",
+  "texte_correct": "ein gantz anderer ex Officio anzuſtellender Proceß vorgeſchrieben wird, und allenfalls, wenn uͤber die",
+  "justification": "'vorgeſchrieben' avec ſ long"
+ },
+ {
+  "id": "l051",
+  "verdict": "X",
+  "texte_correct": "Judicium beſtaͤndig behauptet, daß ſie der Hofrath Senckenberg mit Gewalt⸗und ſo gar mit Piſtolen zu",
+  "justification": "'Gewalt⸗und' sans espace après le trait"
+ }
+]

@@ -1,0 +1,390 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "wegen die gantze Summa wie gemelt 150887 Rthlr. 12",
+  "Y": "wegen die gantze Summa wie gemelt 150887 Rthlr. 12.",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    "."
+   ]
+  ]
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "tauſent dreyhundert und dreyſſig Kaiſ. fl. 10",
+  "Y": "tauſent dreyhundert und dreyſſig Kaiſ. . 10",
+  "divergences_X_vers_Y": [
+   [
+    "fl",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "ſe/ an Kaiſ. Muͤntz 2250 ſl.",
+  "Y": "ſe/ an Kaiſ. Muͤntz 2250 fl.",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "f"
+   ]
+  ]
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "ſoviel als 2 Rthlr. 12 gute gr. oder 3 fl. 15 Kaiſ. gr.",
+  "Y": "ſoviel als 2 Rthlr. 12 gute . oder 3 . 15 Kaiſ. .",
+  "divergences_X_vers_Y": [
+   [
+    "gr",
+    ""
+   ],
+   [
+    "fl",
+    ""
+   ],
+   [
+    "gr",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "Ein Maͤgdlein 3 Seckel/ das iſt 1 ½ thlr. oder 2 .",
+  "Y": "Ein Maͤgdlein 3 Seckel/ das iſt 1 1/2 thlr. oder 2 fl.",
+  "divergences_X_vers_Y": [
+   [
+    "½",
+    "1/2"
+   ],
+   [
+    "",
+    "fl"
+   ]
+  ]
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "3 Kaiſ. gr.",
+  "Y": "� Kaiſ. .",
+  "divergences_X_vers_Y": [
+   [
+    "3",
+    "�"
+   ],
+   [
+    "gr",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l006",
+  "image": "l006.png",
+  "X": "tzet 20 Seckel/ das iſt 10 thlr. oder 15 Kaiſ. ſl.",
+  "Y": "tzet 20 Seckel/ das iſt 10 thlr. oder 15 Kaiſ. fl.",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "f"
+   ]
+  ]
+ },
+ {
+  "id": "l007",
+  "image": "l007.png",
+  "X": "Ein Weibes Bild 10 Seckel/ das iſt 5 thlr. oder 7 Kaiſ. fl.",
+  "Y": "Ein WeibesBild 10 Seckel/ das iſt 5 thlr. oder 7 Kaiſ. .",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ],
+   [
+    "fl",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l008",
+  "image": "l008.png",
+  "X": "10 Kaiſ. gr.",
+  "Y": "10 Kaiſ. .",
+  "divergences_X_vers_Y": [
+   [
+    "gr",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l009",
+  "image": "l009.png",
+  "X": "Seckel/ das iſt 25 Rthlr. oder 37 Kaiſ. . 15 Kaiſ. .",
+  "Y": "Seckel/ das iſt 25 Rthlr. oder 37 Kaiſ. fl. 15 Kaiſ. gr.",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    "fl"
+   ],
+   [
+    "",
+    "gr"
+   ]
+  ]
+ },
+ {
+  "id": "l010",
+  "image": "l010.png",
+  "X": "fl. 15 Kaiſ. Gr.",
+  "Y": ". 15 Kaiſ. Gr.",
+  "divergences_X_vers_Y": [
+   [
+    "fl",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l011",
+  "image": "l011.png",
+  "X": "Ein Alter Mann 15 Seckel/ das iſt/ 7 1/2 thlr. oder",
+  "Y": "Ein Alter Mann 15 Seckel/ das iſt/ 7 ½ thlr. oder",
+  "divergences_X_vers_Y": [
+   [
+    "1/2",
+    "½"
+   ]
+  ]
+ },
+ {
+  "id": "l012",
+  "image": "l012.png",
+  "X": "11 Kaiſ. . 17 ½ Kaiſ. Gr.",
+  "Y": "11 Kaiſ. fl. 17 1/2 Kaiſ. Gr.",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    "fl"
+   ],
+   [
+    "½",
+    "1/2"
+   ]
+  ]
+ },
+ {
+  "id": "l013",
+  "image": "l013.png",
+  "X": "� Kaiſ. fl",
+  "Y": "1/2 Kaiſ. ſl",
+  "divergences_X_vers_Y": [
+   [
+    "�",
+    "1/2"
+   ],
+   [
+    "f",
+    "ſ"
+   ]
+  ]
+ },
+ {
+  "id": "l014",
+  "image": "l014.png",
+  "X": "das uͤbrig war/ uͤber der Leviten Zahl/ von den Erſten",
+  "Y": "das uͤbrig war/ uͤber der LevitenZahl/ von den Erſten",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l015",
+  "image": "l015.png",
+  "X": "Ge⸗",
+  "Y": "Ge",
+  "divergences_X_vers_Y": [
+   [
+    "⸗",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l016",
+  "image": "l016.png",
+  "X": "tauſent dreyhundert und dreyſſig Kaiſ. fk. 10",
+  "Y": "tauſent dreyhundert und dreyſſig Kaiſ. . 10",
+  "divergences_X_vers_Y": [
+   [
+    "fk",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l017",
+  "image": "l017.png",
+  "X": "ſoviel als 2 Rthlr. 12 gute gK. oder 3 fk. 15 Kaiſ. gK.",
+  "Y": "ſoviel als 2 Rthlr. 12 gute . oder 3 . 15 Kaiſ. .",
+  "divergences_X_vers_Y": [
+   [
+    "gK",
+    ""
+   ],
+   [
+    "fk",
+    ""
+   ],
+   [
+    "gK",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l018",
+  "image": "l018.png",
+  "X": "Ein Maͤgdlein 3 Seckel/ das iſt 1 1/8 thlr. oder 2 fk.",
+  "Y": "Ein Maͤgdlein 3 Seckel/ das iſt 1 ½ thlr. oder 2 .",
+  "divergences_X_vers_Y": [
+   [
+    "1/8",
+    "½"
+   ],
+   [
+    "fk",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l019",
+  "image": "l019.png",
+  "X": "3 Kaiſ. gK.",
+  "Y": "� Kaiſ. .",
+  "divergences_X_vers_Y": [
+   [
+    "3",
+    "�"
+   ],
+   [
+    "gK",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l020",
+  "image": "l020.png",
+  "X": "Ein WeibesBild 10 Seckel/ das iſt 5 thlr. oder 7 Kaiſ. .",
+  "Y": "Ein Weibes Bild 10 Seckel/ das iſt 5 thlr. oder 7 Kaiſ. fk.",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ],
+   [
+    "",
+    "fk"
+   ]
+  ]
+ },
+ {
+  "id": "l021",
+  "image": "l021.png",
+  "X": "10 Kaiſ. .",
+  "Y": "10 Kaiſ. gK.",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    "gK"
+   ]
+  ]
+ },
+ {
+  "id": "l022",
+  "image": "l022.png",
+  "X": "Seckel/ das iſt 25 Rthlr. oder 37 Kaiſ. . 15 Kaiſ. .",
+  "Y": "Seckel/ das iſt 25 Rthlr. oder 37 Kaiſ. fk. 15 Kaiſ. gK.",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    "fk"
+   ],
+   [
+    "",
+    "gK"
+   ]
+  ]
+ },
+ {
+  "id": "l023",
+  "image": "l023.png",
+  "X": ". 15 Kaiſ. Gr.",
+  "Y": "fk. 15 Kaiſ. Gr.",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    "fk"
+   ]
+  ]
+ },
+ {
+  "id": "l024",
+  "image": "l024.png",
+  "X": "11 Kaiſ. . 17 ½ Kaiſ. Gr.",
+  "Y": "11 Kaiſ. fk. 17 1/2 Kaiſ. Gr.",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    "fk"
+   ],
+   [
+    "½",
+    "1/2"
+   ]
+  ]
+ },
+ {
+  "id": "l025",
+  "image": "l025.png",
+  "X": "1/2 Kaiſ. fl",
+  "Y": "� Kaiſ. fl",
+  "divergences_X_vers_Y": [
+   [
+    "1/2",
+    "�"
+   ]
+  ]
+ },
+ {
+  "id": "l026",
+  "image": "l026.png",
+  "X": "Ein Maͤgdlein 3 Seckel/ das iſt 1 ½ thlr. oder 2 .",
+  "Y": "Ein Maͤgdlein 3 Seckel/ das iſt 1 1/2 thlr. oder 2 fk.",
+  "divergences_X_vers_Y": [
+   [
+    "½",
+    "1/2"
+   ],
+   [
+    "",
+    "fk"
+   ]
+  ]
+ }
+]

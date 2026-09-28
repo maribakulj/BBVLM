@@ -1,0 +1,32 @@
+[
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "ſter wolte jm keine geben/ er gebe deñ die Frau⸗",
+  "justification": "F majuscule"
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "das er die Frawen ſo liederlich von jhm geben",
+  "justification": "j descendant dans jhm"
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "der zeit/ als ſie den vnſeligẽ tranck getruncken",
+  "justification": "getruncken"
+ },
+ {
+  "id": "l007",
+  "verdict": "Y",
+  "texte_correct": "hetten/ Zuhand ward jhnen das armutſeligle⸗",
+  "justification": "pas d'espace entre armutſelig et le⸗"
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "J ij",
+  "justification": "signature J fraktur"
+ }
+]

@@ -1,0 +1,32 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Fœlix quicunqꝫ dolore alterius diſces poſſe ca⸗",
+  "justification": "qꝫ visible"
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "Humilis fortuna tutior eſt quàm excelſa.",
+  "justification": "tutior"
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "Inſperata accidunt magis ſæpe, q̄ꝫ quæ ſperes.",
+  "justification": "q surmonté d'un trait droit + ꝫ"
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "Ipſa dies quandoqꝫ parens, quandoqꝫ nouerca.",
+  "justification": "qꝫ deux fois"
+ },
+ {
+  "id": "l005",
+  "verdict": "aucun",
+  "texte_correct": "Inſperata accidunt magis ſæpe, q̄ꝫ quæ ſperes.",
+  "justification": "trait droit (macron) plutôt que tilde; Y omet l'abréviation"
+ }
+]

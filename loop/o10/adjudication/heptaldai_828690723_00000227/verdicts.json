@@ -1,0 +1,68 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "darff wider anfahen/ ſondern immer fuͤr vnd fuͤr",
+  "note": "« anfahen » : f avec barre transversale, pas ſ."
+ },
+ {
+  "id": "l001",
+  "verdict": "partage",
+  "texte_correct": "mehren mit den geiſtern, vnnd preparierten Coͤr-",
+  "note": "Virgule imprimée après « geiſtern » (X) ; trait d'union simple (Y)."
+ },
+ {
+  "id": "l002",
+  "verdict": "partage",
+  "texte_correct": "pern/ vnnd durch die zuſammenfuͤgung der ele-",
+  "note": "« zuſammenfuͤgung » : f barré (X) ; trait d'union simple (Y)."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "menten.",
+  "note": "n imprimé, pas m."
+ },
+ {
+  "id": "l004",
+  "verdict": "partage",
+  "texte_correct": "den man jtzundt Coagulirũ wil/ ein Coͤrper oder",
+  "note": "Signe suscrit sur le u (Y) ; « wil » seulement, le « ! » apparent est un l cassé (X)."
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "nimmermehr vollkomlich zu ☽ wirdt/ deßgleich",
+  "note": "« wirdt » : t imprimé."
+ },
+ {
+  "id": "l006",
+  "verdict": "Y",
+  "texte_correct": "durch den ☿ vnnd ☉. augment zu machen ver-",
+  "note": "Trait d'union simple en fin de ligne."
+ },
+ {
+  "id": "l007",
+  "verdict": "Y",
+  "texte_correct": "ſo es dann nichts vbrigs hat/ was kan es",
+  "note": "Quatre lettres « dann » ; le trait sur le dernier n est oblique (tache ou trait parasite), pas un tilde d'abréviation."
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "den man jtzundt Coagulirũ wil/ ein Coͤrper oder",
+  "note": "Signe suscrit sur le u (même image que l004)."
+ },
+ {
+  "id": "l009",
+  "verdict": "Y",
+  "texte_correct": "meinen/ den ☉ hat ohne zweiſt nicht mehr des",
+  "note": "Ligature ſt (le ſ descend, pas de barre) : coquille imprimée « zweiſt »."
+ },
+ {
+  "id": "l010",
+  "verdict": "Y",
+  "texte_correct": "ſo es dann nichts vbrigs hat/ was kan es",
+  "note": "Même image que l007 : « dann », pas de tilde."
+ }
+]
