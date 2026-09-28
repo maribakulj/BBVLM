@@ -40,3 +40,27 @@ fiable » vaut aussi pour nous : les VT SBB OCR-D ont des mots manuels
 (polygones), c'est pourquoi nous restons sur SBB pour les boîtes ; (4) OLR
 presse : Europeana (régions + ordre) est un banc accessible via Zenodo côté
 astra — Zenodo bloqué ici.
+
+## f70b292 … 996f30e — astra A57-A83 (vu le 2026-09-28, après O12)
+
+27 commits, orientés **segmentation de presse** : Chronicling Germany (801
+références auditées, réserve de test gelée), détecteurs YOLO de régions et
+**Eynollah** (étage lignes dense : 98,3 % des pixels du masque dans les
+polygones de ligne, 84 % de l'union couverte, A74), fusion de lignes
+contrainte par région validée sur 4 pages neuves (A80 : +1 correspondance,
+aucune perte ; précision 47-98 % selon le journal). A81-A83 : contamination
+des recadrages par les lignes voisines, masquage par contour rejeté (A82),
+étapes PERO mesurées sans reconnaissance (A83). File d'expériences
+reprenable (A62).
+*Conséquences ici* : (1) astra traite la presse, nous les livres ; nos
+chiffres ne se comparent pas directement. (2) Même diagnostic que notre O10
+(heptaldai) et notre B01 : l'encre des lignes voisines pollue recadrages et
+boîtes. (3) Eynollah (segmentation de mises en page complexes) pourrait
+couvrir nos trous kraken (titres d'apparat durrgeda, S06 non intégré) — à
+évaluer si ses modèles sont accessibles ici. (4) Sa discipline (réserve de
+test gelée, gates figés) rejoint nos protocoles O10-O12.
+Accès vérifié : paquet `eynollah` 0.9.2 sur PyPI ; modèles v0.3.1 (1,9 Go)
+téléchargeables depuis la release GitHub qurator-spk/eynollah (Zenodo et HF
+bloqués ici). Non intégré : TensorFlow + ancienne version des modèles, pour un
+trou rare chez nous (titres d'apparat) ; à reprendre si les livres testés
+montrent plus de lignes non trouvées.
