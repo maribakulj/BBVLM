@@ -1951,3 +1951,12 @@ déjà exacts, portes pré-déclarées passées. Deux réécritures non reconstr
 sont refusées. Toujours pas 0 % (82/12004 éditions search), ni boîtes parfaites
 (IoU80 mot 33,54 %, français 15,81 %). Détails dans
 `experiments/loop/bnl-independent-a54/RESULTS.md`.
+
+## A55 — 2026-09-28 — diagnostic des quatre bords, garde largeur rejetée
+
+Sur les 1 957 mots A54 appariés, A37 améliore l'IoU moyen global
+0,5807→0,6685, mais l'IoU horizontal français baisse 0,8245→0,8077 et trois
+blocs français régressent. Une grille pré-déclarée de plafonds d'expansion de
+largeur 1,00–1,20 ne produit aucun candidat respectant la non-régression par
+bloc. Aucun changement de production. Le résultat renforce la nécessité d'une
+VT mot explicitement contrôlée avant de poursuivre le réglage géométrique.
