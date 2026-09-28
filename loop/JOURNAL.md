@@ -228,3 +228,18 @@ réfutée pour cet imprimeur. R2 mesuré partout (O07-O12) : utile seulement sur
 herrleyc (41 → 17), neutre ailleurs. Consigne P7 (forme d'abord +
 `#INFLEXION` déclaré, R1/R2 conditionnés ; + règle L08). Placement : banc
 S05 en cours, décision avant lecture des scores ALTO d'O12.
+
+## P7 — 2026-09-28 — rejetée (développement sur herbdulc et herrleyc)
+
+P7 = P6 + « forme d'abord » + déclaration `#INFLEXION` par le lecteur (R1/R2
+conditionnés) + règle L08. Deux lectures par page :
+- herrleyc (inflexion en e suscrit selon la référence adjugée) : les deux
+  lecteurs déclarent « anneau » → A+B 17 → 41 éditions (fůr, Sůnde, důnner).
+- herbdulc (anneau selon deux arbitres) : A déclare e, B anneau ; B coupe
+  R1 et écrit ä/ö en points → A 10 → 20, B 11 → 36 ; blancs perdus dans les
+  renvois marginaux.
+Conclusion : à la résolution des bandes/zooms, le lecteur ne distingue pas un
+anneau d'un e réduit ; les arbitres, sur la ligne recadrée en pleine
+résolution, le font. P6 reste la consigne. Piste suivante : décider le signe
+d'inflexion par page sur quelques mots recadrés en pleine résolution (passe
+ciblée courte), puis l'appliquer à la page.
