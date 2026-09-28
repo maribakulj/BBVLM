@@ -716,6 +716,41 @@
         "experiments/loop/next-a78/report.json": "9060d96927e50acb00899719aa3d148864974c5113034b7288d8473376c0e433"
       },
       "ended_at": 1790611809.9863892
+    },
+    "a79_prepare": {
+      "status": "completed",
+      "started_at": 1790612029.9290895,
+      "fingerprint": "79c854554aa2f91ba251e27ec012eb4b880c4a0c15035faaa9a77b6f97769434",
+      "actor": "codex-root",
+      "token": "74581b0ca5f74ffeb3f827f0ba98a702",
+      "outputs": {
+        "experiments/loop/next-a79/PROTOCOL.md": "5c9cde9bd9784a1a414cf07c1e9a8d86d7c1fa800151cccf8560e1d9e323d02a"
+      },
+      "ended_at": 1790612098.1557038
+    },
+    "a79_yolo_merge": {
+      "status": "failed",
+      "started_at": 1790612098.5517426,
+      "fingerprint": "b85c8e1c529aa7cc628739284c7c19492652a25d0f36e8a0f5a48f8b5e34f83f",
+      "pid": 11,
+      "log": "experiments/loop/logs/a79_yolo_merge.log",
+      "returncode": 1,
+      "reason": "command exited nonzero",
+      "ended_at": 1790612100.7193625
+    },
+    "a79_yolo_merge_retry": {
+      "status": "completed",
+      "started_at": 1790612193.3836126,
+      "fingerprint": "9bfdbf583eff228951ccf1f09ed7141e34d04659a1fab1b617a83443637cd10a",
+      "pid": 10,
+      "log": "experiments/loop/logs/a79_yolo_merge_retry.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a79/retry/predictions.json": "b97dd8324b6660dee4b26ce64f143e1960446071b2badd6a701bf2d3907ad3f7",
+        "experiments/loop/next-a79/retry/candidates.json": "c936f5c567668a36259f5743374bb95f885c6730aad7602235c32e5dbff7b45b",
+        "experiments/loop/next-a79/retry/report.json": "ae7dc6d5b421a60d1ab5e200380d712a13e366ed51cd0a5758c0136f95e97eed"
+      },
+      "ended_at": 1790612207.5301433
     }
   },
   "a66_reference_append_recovery": {

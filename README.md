@@ -214,3 +214,7 @@ Voir experiments/loop/next-a77/RESULTS.md. A76 reste rejeté (commit 7aa5224).
 ## A78 — regroupement horizontal rejeté
 
 A78 rejects horizontal component merging without predicted regions:360 net IoU50 matches lost,3/4 pages regress; inspected chain crosses4 columns.0.975s CPU/no inference/Test. Next A79 use real YOLO region ownership to constrain unchanged linker, consumed A76 development only; new freeze needed before promotion.
+
+## A79 — contrainte de régions YOLO
+
+A79 consumed real YOLO region constraint passes local noninferiority on4 pages:2 additional IoU50 references, zero losses,25 allowed links;8.36s CPU detection/4 forwards. Absolute precision remains61.80% on1924. A80 freeze4 new non-Test pages and unchanged A79 vs component baseline; no global gates promoted. First attempt failed on NumPy2/OpenCV ABI before inference; NumPy1.26.4 restored, retry outputs separate.

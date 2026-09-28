@@ -1076,5 +1076,12 @@
     "report": "next-a78/report.json",
     "net_true50_gain": -360,
     "global_completion": false
+  },
+  "yolo_region_merge_a79": {
+    "status": "consumed_development_local_pass",
+    "report": "next-a79/retry/report.json",
+    "net_true50_gain": 2,
+    "new_model_forwards": 4,
+    "global_completion": false
   }
 }

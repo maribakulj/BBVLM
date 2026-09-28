@@ -1,0 +1,1 @@
+A79 première tentative : import OpenCV échoue avant chargement modèle, car NumPy2.5.3 remplace la version1.26.4 prévue par requirements-a66.txt. Réinstallation de numpy==1.26.4 depuis la roue publique déjà en cache. Aucun fichier prédiction ni forward lors de cet échec. Nouvelle tentative avec script, protocole et inputs identiques ; échec conservé dans queue-state.

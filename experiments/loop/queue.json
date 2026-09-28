@@ -1351,6 +1351,74 @@
         "experiments/loop/next-a79/PROTOCOL.md"
       ],
       "instructions": "Inspect Claude. Read DocLayout-YOLO primary paper/code. Test real predicted region ownership before unchanged A78 merge, with real cost, no references in prediction. Consumed data only; then new freeze."
+    },
+    {
+      "id": "a79_yolo_merge",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a79_prepare"
+      ],
+      "inputs": [
+        "scripts/merge_yolo_regions_a79.py",
+        "scripts/merge_horizontal_components_a78.py",
+        "experiments/loop/next-a79/PROTOCOL.md",
+        "experiments/loop/next-a76/candidates.json",
+        "experiments/loop/next-a76/assets.json"
+      ],
+      "outputs": [
+        "experiments/loop/next-a79/predictions.json",
+        "experiments/loop/next-a79/candidates.json",
+        "experiments/loop/next-a79/report.json"
+      ],
+      "argv": [
+        "/workspace/scratch/cecc4cd83a9f/a66-venv/bin/python",
+        "scripts/merge_yolo_regions_a79.py"
+      ],
+      "timeout_seconds": 300
+    },
+    {
+      "id": "a79_yolo_merge_retry",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a79_prepare"
+      ],
+      "inputs": [
+        "scripts/merge_yolo_regions_a79.py",
+        "scripts/merge_horizontal_components_a78.py",
+        "experiments/loop/next-a79/PROTOCOL.md",
+        "experiments/loop/next-a76/candidates.json",
+        "experiments/loop/next-a76/assets.json",
+        "scripts/merge_yolo_regions_a79_retry.py",
+        "experiments/loop/next-a79/retry/PROTOCOL.md"
+      ],
+      "outputs": [
+        "experiments/loop/next-a79/retry/predictions.json",
+        "experiments/loop/next-a79/retry/candidates.json",
+        "experiments/loop/next-a79/retry/report.json"
+      ],
+      "argv": [
+        "/workspace/scratch/cecc4cd83a9f/a66-venv/bin/python",
+        "scripts/merge_yolo_regions_a79_retry.py"
+      ],
+      "timeout_seconds": 300
+    },
+    {
+      "id": "a80_prepare",
+      "kind": "external",
+      "resource": "orchestrator",
+      "deps": [
+        "a79_yolo_merge_retry"
+      ],
+      "inputs": [
+        "experiments/loop/next-a79/retry/report.json",
+        "experiments/loop/next-a79/RESULTS.md"
+      ],
+      "outputs": [
+        "experiments/loop/next-a80/PROTOCOL.md"
+      ],
+      "instructions": "Inspect Claude. Freeze four new Training pages excluding A69/A74/A76; same A76 dense/component stage and A79 region linker. No thresholds changed; compare baseline paired and per-page. Never call overall perfect geometry. Commit/push/checkpoint."
     }
   ]
 }
