@@ -690,3 +690,13 @@ Le résultat 33/33 sur les absences YOLO montre que le défaut A70 est accessibl
 la page 1700 a 16,03 % de pixels positifs hors union des lignes annotées. L'étape
 suivante doit produire des propositions de composantes/bandes uniquement dans
 les vides YOLO, puis mesurer rappel, contamination et coût sur un gel divers.
+
+## A73 — projection des composantes non couvertes
+
+`evaluate_uncovered_textline_proposals_a73.py` soustrait l'union des rectangles
+YOLO au masque seulement pour router les composantes ; la proposition reste la
+boîte de la composante entière. Il écrit et hache `candidates.json` avant toute
+lecture PAGE. Le test confirme le rappel mais rejette cette géométrie : 25 faux
+rectangles et 56,33 % de surface seulement dans l'union annotée. Aucun seuil ne
+doit être ajusté sur ces deux pages ; A74 devra changer de représentation
+(centre/baseline) ou de piste, puis geler de nouvelles données.

@@ -1,0 +1,535 @@
+{
+  "status": "consumed_image_only_proposal_diagnostic",
+  "candidate_sha256_before_xml": "f33af968fb084ef4d641894caa8896802e52ca287eb6e158d3450812cae196c7",
+  "pages": {
+    "Reichs_Post_Reuter_1700-11-16_0001": {
+      "xml_sha256": "9619cf86cfd3e09c5450823ade8d5514634e15994c86e5af2ec377215dc09993",
+      "proposals": 53,
+      "proposal_union_area": 2082672.0,
+      "proposal_union_inside_line_fraction": 0.7162572976536421,
+      "zero_contributor_lines": 24,
+      "zero_recovered_ge50pct": 24,
+      "false_proposals_lt1pct": 25,
+      "zero_rows": [
+        {
+          "line_id": "line_1733231823816_1015",
+          "union_proposal_coverage": 1.0,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "region_1726581838826_29_tl_0",
+          "union_proposal_coverage": 0.9985973457766494,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "line_1733232764560_1054",
+          "union_proposal_coverage": 0.9978467864376754,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "line_1733232532448_1037",
+          "union_proposal_coverage": 1.0,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_0",
+          "union_proposal_coverage": 0.9956120485364203,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_1",
+          "union_proposal_coverage": 0.9996175055661173,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_2",
+          "union_proposal_coverage": 0.9986166714737117,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_3",
+          "union_proposal_coverage": 0.9999404167024886,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_4",
+          "union_proposal_coverage": 1.0,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_5",
+          "union_proposal_coverage": 1.0,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_6",
+          "union_proposal_coverage": 0.9994647757443933,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_7",
+          "union_proposal_coverage": 0.9995990993064074,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_8",
+          "union_proposal_coverage": 0.9998132300648424,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_9",
+          "union_proposal_coverage": 0.9991201807877371,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_10",
+          "union_proposal_coverage": 0.9984746459515305,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_11",
+          "union_proposal_coverage": 0.9997948737023379,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_12",
+          "union_proposal_coverage": 0.9989861468266499,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_13",
+          "union_proposal_coverage": 0.9962995368897378,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_14",
+          "union_proposal_coverage": 0.9990444059315642,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_15",
+          "union_proposal_coverage": 0.9989562797170358,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "line_1733233076555_1079",
+          "union_proposal_coverage": 0.9972032087563937,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_18",
+          "union_proposal_coverage": 0.9991857844558559,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "TextRegion_1726583031417_210_tl_19",
+          "union_proposal_coverage": 0.9960080716026481,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "line_1733232536442_1042",
+          "union_proposal_coverage": 1.0,
+          "recovered_ge50pct": true
+        }
+      ],
+      "proposal_rows": [
+        {
+          "component": 1,
+          "box_inside_line_union_fraction": 0.23010401548137396,
+          "false_lt1pct": false
+        },
+        {
+          "component": 2,
+          "box_inside_line_union_fraction": 0.22979390876214545,
+          "false_lt1pct": false
+        },
+        {
+          "component": 4,
+          "box_inside_line_union_fraction": 0.3382027652749749,
+          "false_lt1pct": false
+        },
+        {
+          "component": 5,
+          "box_inside_line_union_fraction": 1.0,
+          "false_lt1pct": false
+        },
+        {
+          "component": 6,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 8,
+          "box_inside_line_union_fraction": 0.41966140605087204,
+          "false_lt1pct": false
+        },
+        {
+          "component": 9,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 10,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 11,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 13,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 14,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 17,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 19,
+          "box_inside_line_union_fraction": 1.0,
+          "false_lt1pct": false
+        },
+        {
+          "component": 20,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 21,
+          "box_inside_line_union_fraction": 0.5479150726855408,
+          "false_lt1pct": false
+        },
+        {
+          "component": 22,
+          "box_inside_line_union_fraction": 0.5189445235333288,
+          "false_lt1pct": false
+        },
+        {
+          "component": 23,
+          "box_inside_line_union_fraction": 0.7852146287168799,
+          "false_lt1pct": false
+        },
+        {
+          "component": 24,
+          "box_inside_line_union_fraction": 0.8026202170324596,
+          "false_lt1pct": false
+        },
+        {
+          "component": 25,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 26,
+          "box_inside_line_union_fraction": 0.990249404492737,
+          "false_lt1pct": false
+        },
+        {
+          "component": 27,
+          "box_inside_line_union_fraction": 0.9930086772569309,
+          "false_lt1pct": false
+        },
+        {
+          "component": 28,
+          "box_inside_line_union_fraction": 0.9870489345893088,
+          "false_lt1pct": false
+        },
+        {
+          "component": 29,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 30,
+          "box_inside_line_union_fraction": 0.9804129750115329,
+          "false_lt1pct": false
+        },
+        {
+          "component": 31,
+          "box_inside_line_union_fraction": 0.9686316597547161,
+          "false_lt1pct": false
+        },
+        {
+          "component": 32,
+          "box_inside_line_union_fraction": 0.9457136815854938,
+          "false_lt1pct": false
+        },
+        {
+          "component": 33,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 34,
+          "box_inside_line_union_fraction": 0.9647597628581862,
+          "false_lt1pct": false
+        },
+        {
+          "component": 35,
+          "box_inside_line_union_fraction": 0.9862173469995559,
+          "false_lt1pct": false
+        },
+        {
+          "component": 36,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 37,
+          "box_inside_line_union_fraction": 0.964020834651827,
+          "false_lt1pct": false
+        },
+        {
+          "component": 38,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 39,
+          "box_inside_line_union_fraction": 0.9684104781053302,
+          "false_lt1pct": false
+        },
+        {
+          "component": 40,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 41,
+          "box_inside_line_union_fraction": 0.9683259253977972,
+          "false_lt1pct": false
+        },
+        {
+          "component": 42,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 43,
+          "box_inside_line_union_fraction": 0.9735433122822149,
+          "false_lt1pct": false
+        },
+        {
+          "component": 44,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 45,
+          "box_inside_line_union_fraction": 0.9336849799063514,
+          "false_lt1pct": false
+        },
+        {
+          "component": 46,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 47,
+          "box_inside_line_union_fraction": 0.9748410180989573,
+          "false_lt1pct": false
+        },
+        {
+          "component": 48,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 49,
+          "box_inside_line_union_fraction": 0.8697427474101634,
+          "false_lt1pct": false
+        },
+        {
+          "component": 52,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 53,
+          "box_inside_line_union_fraction": 0.8800583065704499,
+          "false_lt1pct": false
+        },
+        {
+          "component": 54,
+          "box_inside_line_union_fraction": 0.9046088315197158,
+          "false_lt1pct": false
+        },
+        {
+          "component": 55,
+          "box_inside_line_union_fraction": 0.7646428056137231,
+          "false_lt1pct": false
+        },
+        {
+          "component": 56,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 58,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 60,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 61,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 64,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        },
+        {
+          "component": 65,
+          "box_inside_line_union_fraction": 0.0,
+          "false_lt1pct": true
+        }
+      ]
+    },
+    "Koelnische_Zeitung_1924_0001": {
+      "xml_sha256": "d32eff44143b2bc27922bbbbe152625d53bedc899b0dec05f08a0fda831532ef",
+      "proposals": 10,
+      "proposal_union_area": 1531731.889537037,
+      "proposal_union_inside_line_fraction": 0.3552592170271157,
+      "zero_contributor_lines": 9,
+      "zero_recovered_ge50pct": 9,
+      "false_proposals_lt1pct": 0,
+      "zero_rows": [
+        {
+          "line_id": "region_1691676998352_40_tl_2",
+          "union_proposal_coverage": 0.9888505369866428,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "region_1691676998352_40_tl_3",
+          "union_proposal_coverage": 0.9886414320912283,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "region_1691676998352_40_tl_4",
+          "union_proposal_coverage": 1.0,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "region_1691676998352_40_tl_5",
+          "union_proposal_coverage": 0.9878041041441603,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "line_1737801530967_652",
+          "union_proposal_coverage": 0.976056271477663,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "region_1691677245976_48_tl_1",
+          "union_proposal_coverage": 0.9793583981235641,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "region_1691679351778_38_tl_1",
+          "union_proposal_coverage": 0.985669895623614,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "region_1691679351778_38_tl_2",
+          "union_proposal_coverage": 0.9928731767640471,
+          "recovered_ge50pct": true
+        },
+        {
+          "line_id": "region_1691679351778_38_tl_3",
+          "union_proposal_coverage": 0.9873316597496009,
+          "recovered_ge50pct": true
+        }
+      ],
+      "proposal_rows": [
+        {
+          "component": 1,
+          "box_inside_line_union_fraction": 0.2716372516902756,
+          "false_lt1pct": false
+        },
+        {
+          "component": 2,
+          "box_inside_line_union_fraction": 0.14904931126298926,
+          "false_lt1pct": false
+        },
+        {
+          "component": 8,
+          "box_inside_line_union_fraction": 0.9527637240736906,
+          "false_lt1pct": false
+        },
+        {
+          "component": 11,
+          "box_inside_line_union_fraction": 0.9161384271277377,
+          "false_lt1pct": false
+        },
+        {
+          "component": 18,
+          "box_inside_line_union_fraction": 0.8116832167644608,
+          "false_lt1pct": false
+        },
+        {
+          "component": 175,
+          "box_inside_line_union_fraction": 0.7650100321262474,
+          "false_lt1pct": false
+        },
+        {
+          "component": 180,
+          "box_inside_line_union_fraction": 0.970829766278236,
+          "false_lt1pct": false
+        },
+        {
+          "component": 446,
+          "box_inside_line_union_fraction": 0.9294269072880037,
+          "false_lt1pct": false
+        },
+        {
+          "component": 451,
+          "box_inside_line_union_fraction": 0.9476522444015921,
+          "false_lt1pct": false
+        },
+        {
+          "component": 456,
+          "box_inside_line_union_fraction": 0.8332820635270115,
+          "false_lt1pct": false
+        }
+      ]
+    }
+  },
+  "proposals": 63,
+  "zero_contributor_lines": 33,
+  "zero_recovered_ge50pct": 33,
+  "zero_recovery_ratio": 1.0,
+  "false_proposals_lt1pct": 25,
+  "proposal_union_inside_line_fraction": 0.5632715525469602,
+  "gate_checks": {
+    "zero_recovery_ge80pct": true,
+    "proposal_union_inside_lines_ge75pct": false,
+    "zero_false_proposals_lt1pct": false
+  },
+  "local_gate_passed": false,
+  "new_model_forwards": 0,
+  "ocr_calls": 0,
+  "vlm_calls": 0,
+  "test_pages_opened": 0,
+  "seconds": 4.414807499997551,
+  "all_scientific_gates_passed": false,
+  "limitations": [
+    "A72 pages and A70-selected residuals are consumed.",
+    "PAGE line polygons are an imperfect oracle.",
+    "Bounding mask components is not ALTO word or article ownership."
+  ]
+}

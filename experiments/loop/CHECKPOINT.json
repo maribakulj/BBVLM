@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790607681.0524507,
+  "updated_unix": 1790608360.6883887,
   "status": "in_progress",
   "phases": [
     {
@@ -865,6 +865,12 @@
       "id": "eynollah_textline_a72",
       "script": "scripts/evaluate_eynollah_textline_keras_a72.py",
       "result": "next-a72/report.json",
+      "complete": true
+    },
+    {
+      "id": "uncovered_textline_proposals_a73",
+      "script": "scripts/evaluate_uncovered_textline_proposals_a73.py",
+      "result": "next-a73/report.json",
       "complete": true
     }
   ],
@@ -24098,11 +24104,28 @@
       "zero_contributor_min_coverage": 0.6962212892072116,
       "model_forwards": 48,
       "cpu_seconds": 65.03533757900004,
-      "mask_outside_reference_fraction_range": [0.030047545203256507, 0.1602820221607243],
+      "mask_outside_reference_fraction_range": [
+        0.030047545203256507,
+        0.1602820221607243
+      ],
       "local_recall_gate_passed": true,
       "test_pages_opened": 0,
       "vlm_calls": 0,
       "ocr_calls": 0,
+      "global_completion": false
+    },
+    "uncovered_textline_proposals_a73": {
+      "status": "consumed_proposal_diagnostic_failed_local_gate",
+      "pages": 2,
+      "proposals": 63,
+      "zero_contributor_lines": 33,
+      "zero_recovered_ge50pct": 33,
+      "zero_recovery_ratio": 1.0,
+      "false_proposals_lt1pct": 25,
+      "proposal_union_inside_line_fraction": 0.5632715525469602,
+      "local_gate_passed": false,
+      "new_model_forwards": 0,
+      "test_pages_opened": 0,
       "global_completion": false
     }
   },
@@ -24112,6 +24135,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A73 rejects direct rectangles around Eynollah components outside YOLO: recall remains33/33, but25/63 proposals touch <1% line area and proposal-union precision-like is56.33% vs75% gate. Do not retune these consumed pages. Preserve A72 as dense evidence; A74 must use a principled centerline/baseline on a new frozen diverse subset or advance OLR/retrieval. Zero new inference/Test, Claude/master unchanged, all gates false.",
     "A72 bounded Eynollah textline stage passes its consumed recall gate:33/33 A70 zero-contributor lines and642/642 total lines touched, minimum residual coverage69.62%,48 tiles/65.04s CPU. Post-hoc oracle spill is3.00%-16.03%, so this is not box precision. A73 must derive image-only proposals only in YOLO-uncovered components and freeze a diverse validation before promotion; no full Eynollah, no Test, no CER claim. Claude/master unchanged, all seven gates false.",
     "A71 blind visual audit confirms visible printed text in11/12 opaque zero-contributor views, with1 ambiguous and0 plain non-text; only5/12 are safe for rectangular recall. This is oracle-selected consumed evidence from one reader, not box truth. A72 must run a bounded Eynollah/pixelwise line-recall pilot, record exact stages/weights/cost, and avoid full OCR or global padding. Test100 intact, Claude/master unchanged, all gates false.",
     "A70 attributes71 deep A69 failures:0 recoverable by union at95%,1 partial,70 remain below50%, including63 with no box contributing1%. Reject region fusion; failure is detector miss or convention. A71 must blind-inspect opaque zero-hit lines, then choose structural recall/Eynollah/CC or OLR without retuning A69. No new inference,100 Test intact, Claude/master unchanged, all gates false.",

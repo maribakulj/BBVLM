@@ -481,7 +481,13 @@
       "ended_at": 1790606599.5041344
     },
     "a73_prepare": {
-      "status": "pending"
+      "status": "completed",
+      "started_at": 1790608000.0,
+      "actor": "codex-root",
+      "outputs": {
+        "experiments/loop/next-a73/PROTOCOL.md": "d06a0b71f4faff80a0e44977f4980e5de7488b10a79b1465817c76626bf657c5"
+      },
+      "ended_at": 1790608200.0
     },
     "a72_textline_retry": {
       "status": "failed",
@@ -530,6 +536,20 @@
         "experiments/loop/next-a72/contamination.json": "56f90e9b04bea1da0483ee663b0f5f8a8eea07bf4071014c2613ba3af9929c96"
       },
       "ended_at": 1790607681.0524507
+    },
+    "a73_proposals": {
+      "status": "completed",
+      "started_at": 1790608355.0,
+      "actor": "codex-root",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a73/candidates.json": "f33af968fb084ef4d641894caa8896802e52ca287eb6e158d3450812cae196c7",
+        "experiments/loop/next-a73/report.json": "03f1c80b8498bf2ccfcd1554352b66de34698aa95a8f243e89a35663372cf94e"
+      },
+      "ended_at": 1790608360.6883887
+    },
+    "a74_prepare": {
+      "status": "pending"
     }
   },
   "a66_reference_append_recovery": {

@@ -998,5 +998,21 @@
     "local_gate_passed": true,
     "test_pages_opened": 0,
     "global_completion": false
+  },
+  "uncovered_textline_proposals_a73": {
+    "status": "completed_consumed_proposal_diagnostic_failed_local_gate",
+    "protocol": "next-a73/PROTOCOL.md",
+    "candidates": "next-a73/candidates.json",
+    "report": "next-a73/report.json",
+    "results": "next-a73/RESULTS.md",
+    "proposals": 63,
+    "zero_contributor_lines": 33,
+    "zero_recovered_ge50pct": 33,
+    "false_proposals_lt1pct": 25,
+    "proposal_union_inside_line_fraction": 0.5632715525469602,
+    "local_gate_passed": false,
+    "new_model_forwards": 0,
+    "test_pages_opened": 0,
+    "global_completion": false
   }
 }

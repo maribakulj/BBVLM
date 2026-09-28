@@ -360,3 +360,29 @@ et seul le SavedModel de lignes a été extrait. Les paramètres reproduits, les
 six SHA-256, la licence et les limites sont consignés séparément dans
 `next-a72/SOURCE_NOTES.md`. Cette note ne change pas le niveau de lecture de
 l'article HIP 2023 ci-dessus : abstract et métadonnées seulement.
+
+## A73 — lecture du 28 septembre 2026
+
+### Liebl & Burghardt — *An Evaluation of DNN Architectures for Page Segmentation of Historical Newspapers*
+
+- **Version/date :** arXiv:2004.07317v2, version datée du 22 mars 2026 dans le
+  texte HTML ; article initial de 2020.
+- **Niveau lu :** texte complet HTML, sections méthode, génération de GT,
+  configuration, tableaux et conclusion ; pas seulement l'abstract.
+- **Méthode :** comparaison systématique de 11 backbones et 9 schémas de
+  résolution/tuilage pour segmenter pixels de texte, tables, images/bordures et
+  séparateurs du *Berliner Börsen-Zeitung*. Les folds sont définis par page et
+  non par tuile ; MCC, IoU et exactitudes sont comparés.
+- **Résultats :** Inception-ResNet-v2 et EfficientNet figurent parmi les meilleurs
+  selon la tâche ; le tuilage vertical reste généralement proche du traitement
+  entier. Les auteurs annoncent pour leurs modèles finaux blkx une mean-IoU de
+  74,86 % à 92,67 % selon le fold et signalent que 24–41 pages atteignent 99 %
+  de la performance du jeu complet selon la tâche.
+- **Limites :** segmentation sémantique de régions, pas lignes/ALTO/CER/OLR ;
+  GPU V100 et journal allemand unique. Les auteurs notent explicitement que la
+  segmentation pixelwise peut fusionner accidentellement des régions voisines.
+- **Code :** lien P2PaLA cité, mais aucun dépôt propre à cette étude n'a été
+  inspecté ou installé dans A73.
+- **Apport BBVLM :** mesurer la contamination et ne pas transformer une région
+  dense en rectangle sans contrôle. A73 confirme empiriquement cette limite.
+- **Source :** https://arxiv.org/abs/2004.07317 .

@@ -182,3 +182,8 @@ Le coût observé est 65,04 s CPU pour 48 tuiles. L'audit oracle post-hoc mesure
 3,00 % à 16,03 % des pixels de masque hors de l'union des lignes PAGE selon la
 page. Ce résultat justifie une proposition dense sélective, pas des boîtes ALTO
 parfaites ni une promotion : une nouvelle validation diverse doit être gelée.
+
+A73 rejette la conversion naïve des composantes non couvertes en rectangles :
+le rappel reste 33/33, mais 25/63 boîtes sont fausses à moins de 1 % de contact
+et la précision surfacique oracle n'est que 56,33 %. Le masque doit guider une
+ligne/baseline ou un routeur, pas être exporté directement en ALTO.
