@@ -34,3 +34,9 @@ At the start of every new experimental hypothesis, compare the Claude branch
 head to the last recorded head, read its new protocols/results/code, and record
 what was reused or rejected. Never merge scores or call one branch's consumed
 pages independent evidence for the other.
+
+## A57 reinspection — 2026-09-28
+
+Claude branch: 33 commits ahead / 9 behind our A56 head 2e3c0d7. Read current JOURNAL lines 180 onward and LITTERATURE L09-L10. S03 XY-cut improves the table-page joint text+IoU80 .062→.136, unchanged on other 19 development pages. S04 font-height correction helps EXTRACT alignment but has only development evidence. B01 center normalization worsens straight pages, so not adopted. P7 shape declaration failed; I01 targeted full-resolution diacritic arbitration reduces 147→129 edits across 16 consumed pages with no regression, awaiting O13. Reuse selective high-resolution evidence as a candidate, not a validated universal glyph rule. S05 text-anchor alignment is motivated by Feng/Manmatha and Yalniz/Manmatha; no independent result read yet. No competing-branch files merged.
+
+A56 reinspection (recovered from tool log): 25 ahead / 8 behind; O11 edits 0,4,6,43, last dominated by one visual line split semantically by reference. S03/B01 result paths were then absent. This entry repairs an earlier documentation write that had not persisted.

@@ -53,8 +53,22 @@
     "dataset_revision": "Jonnob/the-spiritualist-enriched@0f3ddfda24ecde8897ee9c0f575c59d7b95cf995",
     "image_revision": "NationalLibraryOfScotland/Spiritualist_Newspaper@57244e5d175380ebc110b0d8b130b2dff30aeadd",
     "split_seed": 2026092702,
-    "development_pages": ["0009", "0038", "0041", "0043"],
-    "validation_pages": ["0003", "0008", "0014", "0015", "0029", "0039", "0044", "0050"],
+    "development_pages": [
+      "0009",
+      "0038",
+      "0041",
+      "0043"
+    ],
+    "validation_pages": [
+      "0003",
+      "0008",
+      "0014",
+      "0015",
+      "0029",
+      "0039",
+      "0044",
+      "0050"
+    ],
     "selection": "filenames only, before downloading or inspecting page images",
     "word_geometry_status": "rejected_as_independent_ground_truth: 87.68% of words overlap the adjacent word by >=25% of the smaller width and 11.69% leave the line box",
     "text_status": "candidate after an independent random transcription audit",
@@ -63,7 +77,10 @@
   },
   "spiritualist_olr_v2": {
     "protocol_frozen_before_inference": "2026-09-27",
-    "pages": ["0003", "0008"],
+    "pages": [
+      "0003",
+      "0008"
+    ],
     "split_role": "validation; consumed after this one fixed evaluation",
     "reader": "gpt-6-luna",
     "passes": 1,
@@ -79,7 +96,12 @@
   },
   "spiritualist_olr_v3_column": {
     "protocol_frozen_before_validation": "2026-09-27",
-    "development_pages": ["0009", "0038", "0041", "0043"],
+    "development_pages": [
+      "0009",
+      "0038",
+      "0041",
+      "0043"
+    ],
     "validation_page": "0014",
     "scope": "reading order conditioned on distributed TextBlock regions; no detection, role, SSU or article claim",
     "method": "geometry-only column anchors, left-to-right columns and top-to-bottom regions",
@@ -89,17 +111,30 @@
       "max_anchor_width_ratio": 0.55
     },
     "selection": "six gap ratios on development only; maximum macro pair accuracy, then minimum total columns, then smaller gap",
-    "passes": {"vlm": 0, "geometry_cpu": 1},
-    "validation_gate": {"reading_order_pair_accuracy_min": 0.95},
+    "passes": {
+      "vlm": 0,
+      "geometry_cpu": 1
+    },
+    "validation_gate": {
+      "reading_order_pair_accuracy_min": 0.95
+    },
     "reference_scope": "distributed order labels are provisional and not independently adjudicated; page 0014 is consumed after evaluation"
   },
   "spiritualist_semantic_v1": {
     "protocol_frozen_before_validation": "2026-09-27",
-    "development_pages": ["0009", "0038", "0041", "0043"],
+    "development_pages": [
+      "0009",
+      "0038",
+      "0041",
+      "0043"
+    ],
     "validation_page": "0015",
     "split_role": "validation; consumed after this one fixed evaluation",
     "reader": "gpt-6-luna",
-    "passes": {"vlm_semantic": 1, "cpu_geometry_order": 1},
+    "passes": {
+      "vlm_semantic": 1,
+      "cpu_geometry_order": 1
+    },
     "task_split": "VLM assigns roles, reading-stream eligibility and semantic units; frozen A04 geometry supplies order",
     "transport": "short random visual tokens; strict software binding to stable IDs after response; no repair",
     "development_conventions": {
@@ -120,11 +155,19 @@
   },
   "spiritualist_semantic_v2_header": {
     "protocol_frozen_before_validation": "2026-09-27",
-    "development_pages": ["0009", "0038", "0041", "0043"],
+    "development_pages": [
+      "0009",
+      "0038",
+      "0041",
+      "0043"
+    ],
     "validation_page": "0029",
     "split_role": "validation; consumed after this one fixed evaluation",
     "reader": "gpt-6-luna",
-    "passes": {"vlm_role_filter": 1, "cpu_geometry_order_and_grouping": 1},
+    "passes": {
+      "vlm_role_filter": 1,
+      "cpu_geometry_order_and_grouping": 1
+    },
     "task_split": "VLM assigns only roles and reading-stream eligibility; frozen CPU logic supplies order and semantic units",
     "grouping_rule": "within each inferred column a HEADER opens a unit; vertically overlapping consecutive HEADER regions remain one multi-block title; pre-header text is a continuation unit; excluded regions stay separate except shared masthead",
     "development_macro_pair_f1_oracle_roles": 1.0,
@@ -150,15 +193,36 @@
   },
   "spiritualist_semantic_v3_faceted": {
     "protocol_frozen_before_validation": "2026-09-27",
-    "development_pages": ["0009", "0038", "0041", "0043"],
+    "development_pages": [
+      "0009",
+      "0038",
+      "0041",
+      "0043"
+    ],
     "diagnostic_source_page_consumed": "0029",
     "validation_page": "0039",
     "split_role": "validation; consumed after one fixed evaluation",
     "reader": "gpt-6-luna",
-    "passes": {"vlm_faceted_roles": 1, "cpu_geometry_order_and_grouping": 1},
+    "passes": {
+      "vlm_faceted_roles": 1,
+      "cpu_geometry_order_and_grouping": 1
+    },
     "task_split": "VLM assigns independent physical role and editorial genre; frozen software derives stream membership, order and semantic units",
-    "physical_roles": ["MASTHEAD", "HEADER", "TEXT", "OTHER", "UNKNOWN"],
-    "editorial_genres": ["ARTICLE", "ADVERT", "NOTICE", "MASTHEAD", "OTHER", "UNKNOWN"],
+    "physical_roles": [
+      "MASTHEAD",
+      "HEADER",
+      "TEXT",
+      "OTHER",
+      "UNKNOWN"
+    ],
+    "editorial_genres": [
+      "ARTICLE",
+      "ADVERT",
+      "NOTICE",
+      "MASTHEAD",
+      "OTHER",
+      "UNKNOWN"
+    ],
     "stream_rule": "HEADER and TEXT included regardless of genre; MASTHEAD, OTHER and UNKNOWN excluded",
     "genre_evaluation": "descriptive proposal only; not scored because the corpus has no adjudicated editorial genre reference",
     "gates": {
@@ -184,11 +248,19 @@
   "spiritualist_semantic_v4_coarse_header": {
     "status": "validation_complete_gate_failed_on_order_only",
     "protocol_frozen_before_validation": "2026-09-27",
-    "development_pages": ["0009", "0038", "0041", "0043"],
+    "development_pages": [
+      "0009",
+      "0038",
+      "0041",
+      "0043"
+    ],
     "validation_page": "0044",
     "split_role": "validation; consumed after one fixed evaluation",
     "reader": "gpt-6-luna",
-    "passes": {"vlm_coarse_roles_and_genre": 1, "cpu_geometry_role_order_grouping": 1},
+    "passes": {
+      "vlm_coarse_roles_and_genre": 1,
+      "cpu_geometry_role_order_grouping": 1
+    },
     "method": "VLM coarse STREAM/MASTHEAD/OTHER/UNKNOWN; CPU separates HEADER from TEXT by normalized block height",
     "selected_max_header_height_page_ratio": 0.02,
     "development_macro_pair_f1": 0.9694055944055944,
@@ -220,11 +292,19 @@
   "spiritualist_semantic_v5_coarse_order": {
     "status": "validation_complete_gate_failed_on_multiline_header",
     "protocol_frozen_before_validation": "2026-09-27",
-    "development_pages": ["0009", "0038", "0041", "0043"],
+    "development_pages": [
+      "0009",
+      "0038",
+      "0041",
+      "0043"
+    ],
     "diagnostic_page_consumed": "0044",
     "validation_page": "0050",
     "reader": "gpt-6-luna",
-    "passes": {"vlm_coarse_roles_and_genre": 1, "cpu_geometry_role_order_grouping": 1},
+    "passes": {
+      "vlm_coarse_roles_and_genre": 1,
+      "cpu_geometry_role_order_grouping": 1
+    },
     "height_ratio": 0.02,
     "order_method": "ignore anchors narrower than 2% page width; assign all regions by maximum horizontal overlap with inferred column spans",
     "development_macro_order_pair_accuracy": 1.0,
@@ -254,8 +334,26 @@
   "spiritualist_semantic_v6_typography": {
     "status": "conditional_validation_passed_on_first_frozen_page",
     "split_seed": 2026092710,
-    "development_pages": ["0001", "0006", "0020", "0023", "0030", "0040", "0046", "0049"],
-    "validation_pages": ["0004", "0010", "0011", "0016", "0018", "0027", "0035", "0042"],
+    "development_pages": [
+      "0001",
+      "0006",
+      "0020",
+      "0023",
+      "0030",
+      "0040",
+      "0046",
+      "0049"
+    ],
+    "validation_pages": [
+      "0004",
+      "0010",
+      "0011",
+      "0016",
+      "0018",
+      "0027",
+      "0035",
+      "0042"
+    ],
     "reserve_pages": 21,
     "selection": "filenames only; no image, text, role, order or difficulty inspected",
     "features": "internal line count, median line height normalized by page and uppercase ratio; no validation labels during selection",
@@ -287,7 +385,10 @@
     "protocol_frozen_before_validation": "2026-09-27",
     "validation_page": "0010",
     "reader": "gpt-6-luna",
-    "passes": {"vlm_coarse_roles_and_genre": 1, "cpu_typography_order_grouping": 1},
+    "passes": {
+      "vlm_coarse_roles_and_genre": 1,
+      "cpu_typography_order_grouping": 1
+    },
     "transport": "15 random visual tokens, complete strict maps, no repair",
     "task_split": "Luna assigns STREAM/MASTHEAD/OTHER and non-gating genre; frozen CPU A10 assigns HEADER/TEXT, order and SSU",
     "result": {
@@ -311,7 +412,15 @@
     "anchors": "plain text class only; preserve all detections including abandon",
     "parameters": "frozen A09 order config; context_margin_ratio=0.004, not retuned",
     "reference_used_in_proposal": false,
-    "result": {"columns": 3, "column_pair_correct": 45, "column_pairs": 45, "line_rectangles_probed": 415, "tight_span_not_contained": 142, "core_not_contained": 73, "context_not_contained": 3},
+    "result": {
+      "columns": 3,
+      "column_pair_correct": 45,
+      "column_pairs": 45,
+      "line_rectangles_probed": 415,
+      "tight_span_not_contained": 142,
+      "core_not_contained": 73,
+      "context_not_contained": 3
+    },
     "warning": "order score uses source region y; line rectangles are provisional, not actual ink; no generalization claim"
   },
   "yolo_ocr_a13": {
@@ -330,7 +439,12 @@
     "parameters": "PERO 0.7.0 CPU; downsample5 adaptive, detection_threshold0.2, line_end_weight1, vertical_connection3, smooth=false; A12 column windows unchanged; owner_fraction_min0.8",
     "reference_in_inference_or_routing": false,
     "raw_lines": 416,
-    "output_fragments": {"native_regions":416,"column_core_clipped":496,"column_context_clipped":635,"whole_line_routing":416},
+    "output_fragments": {
+      "native_regions": 416,
+      "column_core_clipped": 496,
+      "column_context_clipped": 635,
+      "whole_line_routing": 416
+    },
     "reference_matches_iou05_all_variants": 385,
     "reference_lines": 418,
     "decision": "retain whole-line routing for further validation; reject naive overlapping-region assignment",
@@ -341,7 +455,13 @@
     "scope": "partial-page integration; same 3 A13 short crops, no new VLM inference",
     "inputs": "A14 predicted lines; A13 saved Sol diplomatic text; no source XML",
     "binding": "strict equal counts per region then physical baseline order; fail on mismatch",
-    "result": {"lines":20,"word_boxes":184,"diplomatic_text_preserved":true,"xsd_valid":true,"native_fallback_flags":0},
+    "result": {
+      "lines": 20,
+      "word_boxes": 184,
+      "diplomatic_text_preserved": true,
+      "xsd_valid": true,
+      "native_fallback_flags": 0
+    },
     "visual_warning": "terminal em-dashes protrude beyond native word boxes; confidence/fallback does not establish glyph completeness",
     "accepted_for_project_completion_gate": false
   },
@@ -349,9 +469,25 @@
     "page": "0044",
     "scope": "post-hoc diagnostic on the consumed A15 partial page; no independent geometry reference",
     "source": "A15 native PERO CTC word boxes and thresholded source-image ink inside predicted line polygons",
-    "a16a": {"rule":"all nearby components in horizontal ownership cell","changed_words":179,"foreground_coverage":1.0,"decision":"reject as systematic over-expansion"},
-    "a16b": {"rule":"only components with centroids outside native word box","changed_words":72,"foreground_coverage":0.9517879518072289,"decision":"reject for automatic promotion; still broad and unvalidated"},
-    "a16c": {"rule":"A16b only for a token with Unicode punctuation on an edge","changed_words":4,"foreground_coverage":0.9010506024096385,"adjacent_overlaps":0,"decision":"retain as review proposal only"},
+    "a16a": {
+      "rule": "all nearby components in horizontal ownership cell",
+      "changed_words": 179,
+      "foreground_coverage": 1.0,
+      "decision": "reject as systematic over-expansion"
+    },
+    "a16b": {
+      "rule": "only components with centroids outside native word box",
+      "changed_words": 72,
+      "foreground_coverage": 0.9517879518072289,
+      "decision": "reject for automatic promotion; still broad and unvalidated"
+    },
+    "a16c": {
+      "rule": "A16b only for a token with Unicode punctuation on an edge",
+      "changed_words": 4,
+      "foreground_coverage": 0.9010506024096385,
+      "adjacent_overlaps": 0,
+      "decision": "retain as review proposal only"
+    },
     "invariants": "additive only; native box containment; stable IDs and diplomatic text; ALTO/METS XSD; no new detector, OCR or VLM pass",
     "warning": "thresholded ink coverage is not exact word ownership; all three settings were observed on consumed data and require a newly frozen, independently adjudicated validation set"
   },
@@ -359,42 +495,108 @@
     "status": "profile_export_complete_with_declared_mods_xsd_gap",
     "page": "0044",
     "scope": "packaging and provenance on consumed A16c partial page; no OCR/geometry/OLR claim",
-    "file_groups": ["OCR", "MASTER_IMAGE", "DOCUMENT_GRAPH", "RETRIEVAL_INDEX"],
-    "physical_page_links": ["source image", "page ALTO"],
-    "fixity": {"local_sha256_verified": 3, "remote_image_sha256_verified_before_export": true, "premis_objects": 4},
-    "validation": {"alto_4_4_xsd": true, "mets_1_12_core_xsd": true, "premis_3_xsd": true, "mods_3_8_local_profile": true, "mods_3_8_xsd": false},
+    "file_groups": [
+      "OCR",
+      "MASTER_IMAGE",
+      "DOCUMENT_GRAPH",
+      "RETRIEVAL_INDEX"
+    ],
+    "physical_page_links": [
+      "source image",
+      "page ALTO"
+    ],
+    "fixity": {
+      "local_sha256_verified": 3,
+      "remote_image_sha256_verified_before_export": true,
+      "premis_objects": 4
+    },
+    "validation": {
+      "alto_4_4_xsd": true,
+      "mets_1_12_core_xsd": true,
+      "premis_3_xsd": true,
+      "mods_3_8_local_profile": true,
+      "mods_3_8_xsd": false
+    },
     "metadata_policy": "MODS receives only a local identifier plus explicitly sourced graph metadata; typed BBVLM evidence remains a separate dmdSec",
-    "passes": {"layout":0,"recognition":0,"vlm":0},
+    "passes": {
+      "layout": 0,
+      "recognition": 0,
+      "vlm": 0
+    },
     "warning": "official MODS 3.8 XSD retrieval returned HTTP 403; do not call the profile fully XSD-validated or open the project gate"
   },
   "local_ownership_a41_a43": {
     "status": "consumed_development_complete_all_candidates_rejected",
-    "datasets": ["predicted-lines-a36", "predicted-lines-a37"],
+    "datasets": [
+      "predicted-lines-a36",
+      "predicted-lines-a37"
+    ],
     "baseline": "A37 nonexpanding_vertical router",
     "reference_inputs_in_router": false,
-    "a41": {"rule":"non-worsening rectangle excess beyond PERO baseline/heights_v2 band","parameters":0,"decision":"reject"},
-    "a42": {"rule":"non-worsening fraction of foreground pixels nearer another predicted line centre","parameters":0,"decision":"reject"},
-    "a43": {"rule":"reject only if a strict majority of newly added foreground is nearer another predicted line centre","parameters":0,"decision":"reject"},
-    "passes": {"new_vlm":0,"new_ocr":0,"cpu_image_replays":2},
+    "a41": {
+      "rule": "non-worsening rectangle excess beyond PERO baseline/heights_v2 band",
+      "parameters": 0,
+      "decision": "reject"
+    },
+    "a42": {
+      "rule": "non-worsening fraction of foreground pixels nearer another predicted line centre",
+      "parameters": 0,
+      "decision": "reject"
+    },
+    "a43": {
+      "rule": "reject only if a strict majority of newly added foreground is nearer another predicted line centre",
+      "parameters": 0,
+      "decision": "reject"
+    },
+    "passes": {
+      "new_vlm": 0,
+      "new_ocr": 0,
+      "cpu_image_replays": 2
+    },
     "selection_gate": "candidate must not reduce mean IoU or IoU80 on either consumed predicted-line set and must strictly improve at least one",
     "warning": "A36/A37 are consumed; these comparisons can reject candidates but cannot provide independent validation"
   },
   "component_majority_a44": {
     "status": "consumed_development_complete_rejected",
-    "datasets": ["predicted-lines-a36", "predicted-lines-a37"],
+    "datasets": [
+      "predicted-lines-a36",
+      "predicted-lines-a37"
+    ],
     "candidate": "reject an A37 refinement when it newly introduces a complete selected connected component whose majority of pixels is nearest another predicted line centre",
     "parameters": 0,
     "reference_inputs_in_router": false,
     "result": {
-      "a36_mean_iou": {"a37": 0.6980753326305424, "a44": 0.6926069883425487},
-      "a36_iou80": {"a37": 0.26831785345717235, "a44": 0.2672858617131063},
-      "a36_fixed_assignment_regressions": {"a37": 32, "a44": 17},
-      "a37_mean_iou": {"a37": 0.8535948912945894, "a44": 0.852219561192958},
-      "a37_iou80": {"a37": 0.6864406779661016, "a44": 0.6864406779661016},
-      "a37_fixed_assignment_regressions": {"a37": 11, "a44": 6}
+      "a36_mean_iou": {
+        "a37": 0.6980753326305424,
+        "a44": 0.6926069883425487
+      },
+      "a36_iou80": {
+        "a37": 0.26831785345717235,
+        "a44": 0.2672858617131063
+      },
+      "a36_fixed_assignment_regressions": {
+        "a37": 32,
+        "a44": 17
+      },
+      "a37_mean_iou": {
+        "a37": 0.8535948912945894,
+        "a44": 0.852219561192958
+      },
+      "a37_iou80": {
+        "a37": 0.6864406779661016,
+        "a44": 0.6864406779661016
+      },
+      "a37_fixed_assignment_regressions": {
+        "a37": 11,
+        "a44": 6
+      }
     },
     "decision": "reject; fewer regressions do not compensate for aggregate loss on either consumed set",
-    "passes": {"new_vlm": 0, "new_ocr": 0, "cpu_image_replays": 2},
+    "passes": {
+      "new_vlm": 0,
+      "new_ocr": 0,
+      "cpu_image_replays": 2
+    },
     "warning": "A36/A37 are consumed; do not tune a majority threshold on them"
   },
   "bnl_independent_a45": {
@@ -402,13 +604,37 @@
     "source": "BnL raw ground truth newspapers before 1878, CC0",
     "selection": "24 of 1702 numeric member IDs selected by SHA-256(BBVLM-A45:<ID>) before any image or XML content inspection",
     "transport": "HTTP ZIP central-directory and member byte ranges only; complete 1.9 GiB archive not downloaded; every selected member verified by ZIP CRC32",
-    "sample": {"blocks": 24, "lines": 483, "words": 3741, "characters": 23108},
-    "predicted_language_strata": {
-      "fr": {"blocks": 12, "lines": 208, "words": 1677, "characters": 10056},
-      "de": {"blocks": 11, "lines": 239, "words": 1665, "characters": 10997},
-      "lb": {"blocks": 1, "lines": 36, "words": 399, "characters": 2055}
+    "sample": {
+      "blocks": 24,
+      "lines": 483,
+      "words": 3741,
+      "characters": 23108
     },
-    "geometry_checks": {"invalid_line_boxes": 0, "invalid_word_boxes": 0, "word_not_contained_by_parent_line": 0},
+    "predicted_language_strata": {
+      "fr": {
+        "blocks": 12,
+        "lines": 208,
+        "words": 1677,
+        "characters": 10056
+      },
+      "de": {
+        "blocks": 11,
+        "lines": 239,
+        "words": 1665,
+        "characters": 10997
+      },
+      "lb": {
+        "blocks": 1,
+        "lines": 36,
+        "words": 399,
+        "characters": 2055
+      }
+    },
+    "geometry_checks": {
+      "invalid_line_boxes": 0,
+      "invalid_word_boxes": 0,
+      "word_not_contained_by_parent_line": 0
+    },
     "reference_policy": "provider double-keyed transcription >=99.95% supports independent OCR evaluation; raw pack is explicitly intended for text-line segmentation. Existing String rectangles are not promoted to perfect word-box truth because manual word-box adjudication is not stated.",
     "next": "independent human adjudication of flagged text spans; new page-level French newspaper holdout for columns, articles and reading order",
     "accepted_for_project_completion_gate": false
@@ -429,17 +655,28 @@
       "native_word_recall_iou50": 0.6696481812760883,
       "routed_word_recall_iou50": 0.7358378056052475
     },
-    "passes": {"vlm": 0, "recognizer_forwards": 492},
+    "passes": {
+      "vlm": 0,
+      "recognizer_forwards": 492
+    },
     "warning": "String rectangles are diagnostic, not documented as manually adjudicated perfect word boxes; post-score coordinate amendment prevents a pristine evaluator claim",
     "accepted_for_project_completion_gate": false
   },
   "bnl_vlm_a47": {
     "status": "targeted_post_score_blind_audit_complete",
-    "readers": ["gpt-6-luna", "gpt-6-sol"],
+    "readers": [
+      "gpt-6-luna",
+      "gpt-6-sol"
+    ],
     "scope": "seven images selected from the three known French A46 lexical-residual blocks",
     "retrieval_fold_v1": "NFKD, casefold, remove combining marks, retain letters/digits only; separate from diplomatic text",
     "reader_agreement": "zero retrieval-fold edits across all seven items",
-    "agreement_with_immutable_reference": {"luna_edits": 4, "sol_edits": 4, "characters": 774, "cer": 0.00516795865633075},
+    "agreement_with_immutable_reference": {
+      "luna_edits": 4,
+      "sol_edits": 4,
+      "characters": 774,
+      "cer": 0.00516795865633075
+    },
     "warning": "targeted selection and probable provider errors; model consensus is triage, not ground truth, and original XML is unchanged",
     "accepted_for_project_completion_gate": false
   },
@@ -453,14 +690,24 @@
     "repository": "OCR-D/OCR-D-GT-VD-SBB",
     "revision": "481f7235acfc1f78e88b3c2f22f551595c3f2032",
     "split": "reference-a18/split.json; 4 audit works and 4 unopened reserve works; filenames only, seed 2026092718",
-    "audit": {"pages":4,"lines":94,"words":623,"word_overlap_ge25pct":0,"words_outside_line_bbox":0},
+    "audit": {
+      "pages": 4,
+      "lines": 94,
+      "words": 623,
+      "word_overlap_ge25pct": 0,
+      "words_outside_line_bbox": 0
+    },
     "reference_status": "credible external candidate: SBB provider and institutional manual checks; 4 local visual panels inspected, not exhaustive human adjudication",
     "ocr_policy": "16 blind oracle line crops; Luna primary; Sol only on 10 declared uncertainties with polygon isolation. Keep original GT and raw CER. Private-use glyph conventions need authoritative mapping before a comparable normalized score.",
     "reserve_policy": "No download or inspection until method/conventions frozen; no training-contamination claim for public pretrained models",
     "accepted_for_project_completion_gate": false
   },
   "ocr_conventions_a20": {
-    "profiles": ["strict", "glyph_decomposition_v1", "dinglehopper_sbb_compatibility_codepoints"],
+    "profiles": [
+      "strict",
+      "glyph_decomposition_v1",
+      "dinglehopper_sbb_compatibility_codepoints"
+    ],
     "unit": "Unicode code points, including whitespace and punctuation",
     "source_policy": "OCR-D coding descriptions and pinned dinglehopper; unknown PUA retained; never normalize from predictions",
     "reference_and_export_policy": "immutable diplomatic original; evaluation views separate",
@@ -476,9 +723,31 @@
   "sbb_reserve_a22": {
     "status": "completed_reserve_consumed",
     "scope": "4 work-disjoint frozen SBB pages; 16 ID-sampled lines; one blind Sol task",
-    "ocr": {"strict_cer":0.11624441132637854,"decomposed_v1_cer":0.04864091559370529,"decomposed_exact_lines":3,"lines":16},
-    "geometry": {"method":"A19 frozen projection-gap without recognizer","proposed_lines":2,"lines":16,"predicted_words":7,"reference_words":121,"mean_iou_emitted":0.9709930441278924,"precision_iou80":1.0,"recall_iou80":0.05785123966942149},
-    "cost": {"vlm_tasks":1,"target_images":16,"context_images":16,"recognizer_forwards":0,"layout_forwards":0,"tokens":null,"billing":null},
+    "ocr": {
+      "strict_cer": 0.11624441132637854,
+      "decomposed_v1_cer": 0.04864091559370529,
+      "decomposed_exact_lines": 3,
+      "lines": 16
+    },
+    "geometry": {
+      "method": "A19 frozen projection-gap without recognizer",
+      "proposed_lines": 2,
+      "lines": 16,
+      "predicted_words": 7,
+      "reference_words": 121,
+      "mean_iou_emitted": 0.9709930441278924,
+      "precision_iou80": 1.0,
+      "recall_iou80": 0.05785123966942149
+    },
+    "cost": {
+      "vlm_tasks": 1,
+      "target_images": 16,
+      "context_images": 16,
+      "recognizer_forwards": 0,
+      "layout_forwards": 0,
+      "tokens": null,
+      "billing": null
+    },
     "decision": "high-precision CPU fast path only; CTC/PERO fallback needed for 14/16 lines; no retuning on consumed reserve",
     "accepted_for_project_completion_gate": false
   },
@@ -487,9 +756,73 @@
     "objective": "VLM joint reading with evidence-linked semantics; minimal geometry stages; recognizer only for genuinely ambiguous alignment, not full PERO plus VLM by default",
     "prototype": "projection gaps, token count from final text; min_gap_height_ratio=.10, gap_separation_ratio=1.5; no tuning",
     "scope": "94 SBB oracle lines and 20 consumed predicted VLM lines, no independent superiority test",
-    "result": {"sbb_proposed_lines":50,"sbb_lines":94,"emitted_words":294,"reference_words":623,"mean_iou_emitted":0.945306561307908,"total_word_recall_iou50":0.45746388443017655,"predicted_vlm_lines_proposed":18,"predicted_vlm_lines":20},
+    "result": {
+      "sbb_proposed_lines": 50,
+      "sbb_lines": 94,
+      "emitted_words": 294,
+      "reference_words": 623,
+      "mean_iou_emitted": 0.945306561307908,
+      "total_word_recall_iou50": 0.45746388443017655,
+      "predicted_vlm_lines_proposed": 18,
+      "predicted_vlm_lines": 20
+    },
     "decision": "retain ablation, reject automatic geometry promotion: confident wrong partitions remain",
     "economic_gate": "compare actual marginal latency/tokens/CTC fallback and human verification cost; cache replays are not first-run savings",
     "accepted_for_project_completion_gate": false
+  },
+  "bnl_guarded_vlm_a54": {
+    "status": "complete_local_gates_passed",
+    "split": "bnl-independent-a54/split.json",
+    "protocol": "bnl-independent-a54/PROTOCOL.md",
+    "report": "bnl-independent-a54/vlm-report.json",
+    "frozen_sample": 16,
+    "excludes_a45": true,
+    "reader": "gpt-6-luna",
+    "passes": 1,
+    "primary_gate": {
+      "candidate_edits": 112,
+      "challenger_edits": 82,
+      "aggregate_improved": true,
+      "candidate_exact_blocks": [
+        "T006",
+        "T013"
+      ],
+      "exact_block_regressions": [],
+      "passed": true
+    },
+    "secondary_gate": {
+      "candidate_edits": 51,
+      "challenger_edits": 30,
+      "aggregate_improved": true,
+      "candidate_exact_blocks": [
+        "T001",
+        "T006",
+        "T012",
+        "T013"
+      ],
+      "exact_block_regressions": [],
+      "passed": true
+    },
+    "global_completion": false
+  },
+  "bnl_geometry_a55": {
+    "status": "complete_negative_development",
+    "protocol": "bnl-geometry-a55/PROTOCOL.md",
+    "width_guard_protocol": "bnl-geometry-a55/WIDTH_GUARD_PROTOCOL.md",
+    "report": "bnl-geometry-a55/report.json",
+    "width_guard_report": "bnl-geometry-a55/width-guard-report.json",
+    "independent": false,
+    "selected": null,
+    "global_completion": false
+  },
+  "europeana_word_gt_a56": {
+    "status": "complete_negative_corpus_audit",
+    "protocol": "europeana-word-gt-a56/PROTOCOL.md",
+    "report": "europeana-word-gt-a56/audit.json",
+    "result": "europeana-word-gt-a56/RESULTS.md",
+    "word_geometry": false,
+    "line_geometry": false,
+    "region_geometry": true,
+    "global_completion": false
   }
 }

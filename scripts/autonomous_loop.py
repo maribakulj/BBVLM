@@ -534,7 +534,23 @@ def checkpoint():
         'Evaluate retrieval with independently authored queries and relevance/evidence judgments',
         'Measure routing quality, passes, latency and token cost; preserve abstention'],
       'stop_rule':'Only mark success when independent evidence supports every gate; no claim of perfect ground truth from model agreement.'}
-    if all(gates.values()):state['status']='requires_final_evidence_audit'
+    # Retain externally registered experiments beyond the built-in legacy list.
+    # Recompute their artifact availability; stale state cannot certify success.
+    previous_path = BASE / 'CHECKPOINT.json'
+    if previous_path.exists():
+        previous = json.loads(previous_path.read_text())
+        state['evidence'] = {**previous.get('evidence', {}), **state['evidence']}
+        built_in_ids = {row['id'] for row in state['phases']}
+        for row in previous.get('phases', []):
+            if row['id'] not in built_in_ids:
+                preserved = dict(row)
+                artifact = preserved.get('result')
+                preserved['complete'] = bool(artifact and (BASE / artifact).is_file())
+                state['phases'].append(preserved)
+                built_in_ids.add(row['id'])
+        state['next_research'] = list(dict.fromkeys(
+            previous.get('next_research', []) + state['next_research']))
+    if gates and all(gates.values()):state['status']='requires_final_evidence_audit'
     target=BASE/'CHECKPOINT.json';temp=target.with_suffix('.tmp');temp.write_text(json.dumps(state,indent=2));temp.replace(target)
     return state
 

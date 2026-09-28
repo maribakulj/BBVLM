@@ -1,0 +1,24 @@
+{
+  "before_lost": [
+    "bnl_guarded_vlm_a54",
+    "bnl_geometry_a55",
+    "europeana_word_gt_a56"
+  ],
+  "recovered": {
+    "bnl_guarded_vlm_a54": true,
+    "bnl_geometry_a55": true,
+    "europeana_word_gt_a56": true
+  },
+  "pending_cpu_phases": [],
+  "completion_gates": {
+    "geometry_independent_validation": false,
+    "end_to_end_layout_and_word_coverage": false,
+    "frontier_transcription_comparison": false,
+    "article_structure_and_metadata_reference": false,
+    "retrieval_with_evidence_evaluation": false,
+    "alto_mets_validation_and_provenance": false,
+    "reference_annotation_audit": false
+  },
+  "regression_test": "1 passed; preservation, idempotence, missing artifact, stale gate covered",
+  "new_ocr_vlm_passes": 0
+}

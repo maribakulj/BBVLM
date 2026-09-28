@@ -153,3 +153,13 @@ BBVLM will reuse the evaluation ideas (three views, per-page reporting,
 reference adjudication) but not copy the unvalidated conclusion beyond that one
 page. The two branches remain separate; future iterations must inspect Claude's
 branch head before choosing a new hypothesis.
+
+## A56 source summaries (restored to ledger in A57)
+
+### Schultze et al. — Chronicling Germany, arXiv:2401.16845v4 (13 June 2025)
+
+Read primary HTML dataset/annotation and pipeline sections. The revised body describes 801 German newspaper pages (1617–1933), 32,451 regions and 371,642 lines, whereas the abstract still says 693. Experts annotate region polygons; automatically initialized baselines/line polygons are only corrected for significant mistakes. Reading order is automatic and uncorrected. This supports independent region evaluation but does not provide certified word rectangles or reading-order truth. Code uses separate layout, baseline and OCR stages. For BBVLM, grade provenance by annotation layer, not by dataset name. Sources: https://arxiv.org/html/2401.16845v4 and https://github.com/Digital-History-Bonn/Chronicling-Germany-Code .
+
+### Neudecker — Historical Newspapers Ground Truth (2019), Zenodo 2583866
+
+Read primary record and parsed every released PAGE XML. The 50 Berlin State Library pages provide 2,458 text regions, 678 separators and region ordering, but no TextLine, Word or Glyph nodes. Creator strings are FineReader Engine 10; the record separately distributes FineReader 11 OCR. Manual word geometry is neither present nor documented. A56 rejects the corpus for word/line boxes and retains it as an OLR candidate. Source: https://doi.org/10.5281/zenodo.2583866 .

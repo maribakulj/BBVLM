@@ -536,3 +536,7 @@ have separate ontologies and scorers. See `finlam-boundaries-a51/RESULTS.md`.
 Every future literature pass now receives an article-by-article record in
 `PAPER_SUMMARIES.md`. The competing Claude branch is inspected before choosing
 each new hypothesis; the first audit is `CLAUDE_BRANCH_AUDIT.md`.
+
+## A57 — resumption integrity
+
+Checkpoint bundling previously regenerated a legacy-only state, dropping A54-A56 registrations while retaining raw reports. The builder now preserves extension records and verifies artifact presence. Reports restored; regression test passes; all seven global gates remain false.

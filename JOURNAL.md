@@ -1969,3 +1969,7 @@ mais **0 `TextLine`, 0 `Word`, 0 `Glyph`**. Il est donc rejeté pour certifier l
 boîtes ALTO mot/ligne, sans même télécharger 31 MB d'images. Il reste candidat
 OLR/régions sous réserve d'auditer la provenance. Aucun paramètre, OCR ou VLM;
 aucune page de test BBVLM consommée.
+
+## A57 — reprise durable corrigée
+
+Le générateur de checkpoint écrasait les entrées A54-A56 avec sa liste legacy arrêtée à A51. Rapports intacts, état récupéré par les scripts de registration. Préservation des extensions, recalcul des artefacts manquants et portes prises seulement du protocole : test de régression passé. Exécution CPU sans doublon : zéro phase restante. Sept objectifs toujours non atteints.

@@ -640,3 +640,7 @@ that ontology and its two scorers are frozen.
 `experiments/loop/PAPER_SUMMARIES.md` is now the mandatory per-paper review
 ledger. `experiments/loop/CLAUDE_BRANCH_AUDIT.md` records the concurrent-branch
 inspection that must precede each new hypothesis.
+
+## A57 — checkpoint extensions
+
+`autonomous_loop.checkpoint()` preserves externally registered evidence and phase IDs, refreshes known legacy entries, verifies extra result paths, deduplicates research notes, and never inherits old completion flags. A targeted regression test verifies repeated saves and missing artifacts. This repairs A54-A56 evidence loss during bundling.
