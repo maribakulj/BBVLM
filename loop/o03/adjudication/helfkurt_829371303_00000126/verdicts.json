@@ -1,0 +1,92 @@
+[
+ {
+  "id": "l000",
+  "verdict": "Y",
+  "texte_correct": "dieſelbige beſehen/ da hat der Muͤnch ein oration gethan/ vnd",
+  "notes": "Münch : signe suscrit = petit e (deux traits fins), pas un rond comme dans fůr en dessous -> uͤ."
+ },
+ {
+  "id": "l001",
+  "verdict": "aucun",
+  "texte_correct": "was dis fůr ein Ort ſey/ angezeiget. Dieſe Capellen iſt klein/",
+  "notes": "fůr : rond suscrit net (ů), ni ü ni uͤ. Le trait avant Ort est l'attaque du O Fraktur, pas un trait d'union -> espace (Y)."
+ },
+ {
+  "id": "l002",
+  "verdict": "aucun",
+  "texte_correct": "auch nichts ornirt oder geſchmůckt/ allein das ſie vor wenig",
+  "notes": "geſchmůckt : rond suscrit (ů)."
+ },
+ {
+  "id": "l003",
+  "verdict": "aucun",
+  "texte_correct": "worden. Von dannen ſeind wir im Gebirge fůrder gan⸗",
+  "notes": "fůrder : rond suscrit (ů), comme en l010."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "gantz ſchwartz vnd ruſſig/ Aber nahend darbey iſt ein ſchoͤ⸗",
+  "notes": "ſchoͤ⸗ : trait oblique unique = petit e suscrit, pas deux points."
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "Ort iſt. Gegen dieſer Kirchen vber/ in der hoͤhe/ da ſeind",
+  "notes": "hoͤhe : petit e suscrit."
+ },
+ {
+  "id": "l006",
+  "verdict": "Y",
+  "texte_correct": "drey Hoͤlen in einen Felſen außgehawen/ vnd außwendig",
+  "notes": "Hoͤlen : petit e suscrit."
+ },
+ {
+  "id": "l007",
+  "verdict": "aucun",
+  "texte_correct": "wol kommen mag/ Aber Chriſtoff Fůhrer von Nůrnberg",
+  "notes": "Fůhrer et Nůrnberg : rond suscrit (ů) dans les deux cas."
+ },
+ {
+  "id": "l008",
+  "verdict": "Y",
+  "texte_correct": "vnd ich/ ſtiegen die hoͤhe am Felſen hinauff/ bis wir hinein",
+  "notes": "hoͤhe : petit e suscrit."
+ },
+ {
+  "id": "l009",
+  "verdict": "aucun",
+  "texte_correct": "irus nennet Phaſelipoli, das in dieſen zween Koͤnige/ Brů⸗",
+  "notes": "Koͤnige : petit e suscrit (X juste). Brů⸗ : signe en forme de rond (ů, cf. Gůrtel), ni uͤ ni ü ; forme un peu empâtée, lecture la plus probable."
+ },
+ {
+  "id": "l010",
+  "verdict": "aucun",
+  "texte_correct": "Von dannen ſeind wir fůrder im Gebirge gangen/ vnd",
+  "notes": "fůrder : rond suscrit (ů)."
+ },
+ {
+  "id": "l011",
+  "verdict": "Y",
+  "texte_correct": "gen Garten/ von Weinſtoͤcken vnd anderen fruchtbaren",
+  "notes": "Weinſtoͤcken : petit e suscrit."
+ },
+ {
+  "id": "l012",
+  "verdict": "aucun",
+  "texte_correct": "iſt/ S. Maria mit dem Gůrtel. Denn an dieſem Ort zei⸗",
+  "notes": "Gůrtel : rond suscrit très net (ů)."
+ },
+ {
+  "id": "l013",
+  "verdict": "aucun",
+  "texte_correct": "haben/ dieweil er das Gůrtel von der Jungfrawen Maria",
+  "notes": "Gůrtel : rond suscrit très net (ů)."
+ },
+ {
+  "id": "l014",
+  "verdict": "aucun",
+  "texte_correct": "was dis fůr ein Ort ſey/ angezeiget. Dieſe Capellen iſt klein/",
+  "notes": "Espace avant Ort (le trait est l'attaque du O) : Y juste ; mais fůr porte un rond (ů), pas uͤ, dans X comme dans Y."
+ }
+]

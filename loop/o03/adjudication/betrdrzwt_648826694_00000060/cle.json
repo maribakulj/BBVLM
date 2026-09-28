@@ -1,0 +1,44 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Nimm deinen Groſchen hin, (denn mehr gehört dir nicht,)",
+  "Y": "Nimm deinen Groſchen hin, (denn mehr gehoͤrt dir nicht,)",
+  "divergences_X_vers_Y": [
+   [
+    "ö",
+    "oͤ"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o03/betrdrzwt_648826694_00000060//c_L1.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Auf der rund⸗gebauten⸗Welt,",
+  "Y": "AUf der rund⸗gebauten⸗Welt,",
+  "divergences_X_vers_Y": [
+   [
+    "u",
+    "U"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o03/betrdrzwt_648826694_00000060//c_L1.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "Du denckeſt, bin ich todt, ſo fühl ich jenes nicht,",
+  "Y": "Du denckeſt, bin ich todt, ſo fuͤhl ich jenes nicht,",
+  "divergences_X_vers_Y": [
+   [
+    "ü",
+    "uͤ"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o03/betrdrzwt_648826694_00000060//c_L1.txt"
+ }
+]

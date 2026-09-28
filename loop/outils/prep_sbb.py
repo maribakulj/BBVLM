@@ -31,6 +31,7 @@ def main(ouvrage, page, out, hauteur=1350, bande=600, recouvrement=120):
         boites.append([min(p[0] for p in pts), min(p[1] for p in pts), max(p[0] for p in pts), max(p[1] for p in pts)])
     json.dump(boites, open(f'{out}/ref_boites.json', 'w'))
     cv2.imwrite(f'{out}/page.png', img)
+    open(f'{out}/page.xml', 'wb').write(xml)
     H, W = img.shape[:2]
     cv2.imwrite(f'{out}/vues/vue_0_page.png', cv2.resize(img, (int(W*hauteur/H), hauteur), interpolation=cv2.INTER_AREA))
     y, k = 0, 1

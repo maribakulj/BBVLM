@@ -1,0 +1,16 @@
+[
+ {"id": "l000", "verdict": "X", "texte_correct": "das dann warlichen nach ſollicher geſchehener übung", "notes": ["ü→uͤ : deux petits points/traits séparés au-dessus du u de übung (tréma), pas la forme de e suscrit visible sur les o de ce même imprimé"]},
+ {"id": "l001", "verdict": "partage", "texte_correct": "türliche werme außloͤſchete/ vnnd jn auch ertoͤdte/ ſo da", "notes": ["ü→ii : u de türliche surmonté de deux points : ü (X) ; 'ii' est une erreur", "ö→oͤ : sur le o de außlöſchete un seul petit signe en forme de e suscrit (Y)", "ö→oͤ : idem sur ertödte, e suscrit (Y)"]},
+ {"id": "l002", "verdict": "Y", "texte_correct": "des leibs ſo ſittig/ maͤſſig/ vnnd gleichperdig gehalten", "notes": ["ä→aͤ : un seul petit signe suscrit arrondi (e suscrit) sur le a de mäſſig, pas deux points"]},
+ {"id": "l003", "verdict": "X", "texte_correct": "den. Wann zů ſollichen zeiten vil mer überige feüchten", "notes": ["ü→ii : überige, u avec deux points (ü), pas deux i", "ü→ii : feüchten, idem"]},
+ {"id": "l004", "verdict": "Y", "texte_correct": "ſich herfür thůn/ die dañ im Sommer vnd Herbſt von", "notes": ["ii→ü : herfür, u surmonté de deux points ; 'ii' erroné"]},
+ {"id": "l005", "verdict": "Y", "texte_correct": "werme des luffts/ vnnd auffgedenten ſchweißloͤchern", "notes": ["ö→oͤ : sur le o de ſchweißlöchern, un seul signe suscrit en forme de e, comme dans l001/l010"]},
+ {"id": "l006", "verdict": "X", "texte_correct": "krefftiger verzeret vnd getilget werden. Darbey wirt", "notes": ["e→c : l'avant-dernière lettre de verzeret a l'œil fermé du e (encre un peu faible mais pas un c) ; lecture 'verzerct' non-mot", "l→t : dans getilget, lettre haute à ascendante pleine = l, dépassant nettement le t précédent"]},
+ {"id": "l007", "verdict": "X", "texte_correct": "ter vnnd frůling/ nach der leer Hyppocratis im erſten", "notes": ["ů→uͤ : petit rond suscrit sur le u de frůling, même forme que dans zů de la ligne précédente"]},
+ {"id": "l008", "verdict": "X", "texte_correct": "ten des jars/ dem Sommer vnd dem Herbſt/ ſolche üb⸗", "notes": ["ü→uͤ : deux points séparés au-dessus du u de üb⸗ (tréma), comme übung en l000"]},
+ {"id": "l009", "verdict": "Y", "texte_correct": "ES iſt hierinn zů wiſſen/ das zů vil freüd vnnd můt/", "notes": ["ii→ü : freüd, u avec deux points ; pas deux i"]},
+ {"id": "l010", "verdict": "Y", "texte_correct": "len vermitten werdẽ. Wañ wer beider boͤſen impꝛeſſion", "notes": ["ö→oͤ : sur le o de böſen un seul signe suscrit en forme de e, pas deux points"]},
+ {"id": "l011", "verdict": "X", "texte_correct": "ſtück.", "notes": ["ü→ii : u de ſtück surmonté de deux points ; 'ii' erroné"]},
+ {"id": "l012", "verdict": "Y", "texte_correct": "Das ſechßt von bewegung oder", "notes": ["ſz→ß : un seul glyphe ligaturé ſ+z (ß) entre ch et t, pas deux lettres séparées ſ et z ; convention : ß"]},
+ {"id": "l013", "verdict": "X", "texte_correct": "zůfallung des gemuͤts.", "notes": ["uͤ→ů : sur gemüts le signe suscrit est un petit trait/e vertical, différent du rond bien ouvert de zů au début de la même ligne : e suscrit"]}
+]

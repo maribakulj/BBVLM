@@ -12,4 +12,8 @@ PONCT = r'[/,.;:?!)\]]'
 
 def conforme(ligne: str) -> str:
     ligne = re.sub(r'\s+(' + PONCT + ')', r'\1', ligne)
+    # La virgule oblique appartient au mot précédent : le mot suivant en est
+    # séparé par une espace (ajouté après O03, où les lecteurs la collaient
+    # au mot suivant ; règle tirée du même principe OCR-D, pas d'un score).
+    ligne = re.sub(r'/(?=[^\W\d_])', '/ ', ligne)
     return ' '.join(ligne.split())

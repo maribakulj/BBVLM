@@ -1,0 +1,7 @@
+[
+ {"id": "l000", "verdict": "X", "texte_correct": "8. Er gedenket nicht wieder zu kommen, heiſ⸗", "notes": ["iſ→lf : on voit un i pointé suivi d'un ſ long (heiſ⸗ / ſet = heiſſet, coupé en fin de ligne), pas de l ni de f barré"]},
+ {"id": "l001", "verdict": "X", "texte_correct": "ſet bey ihm: Aus den Augen, aus dem", "notes": ["ſ→f : s long sans barre transversale traversant la hampe ; suite de heiſ⸗ de la ligne précédente"]},
+ {"id": "l002", "verdict": "X", "texte_correct": "rathet werden.", "notes": ["t→r : l'avant-dernière lettre est un t (barre horizontale et hampe courte), comme le t de ra-t-het ; 'verrathet'"]},
+ {"id": "l003", "verdict": "Y", "texte_correct": "doch morgen, uͤber morgen, oder den Tag", "notes": ["ü→uͤ : sur le u de über, petit signe suscrit compact en forme de e Fraktur (deux traits accolés), pas deux points séparés ; même forme que dans les autres lignes de l'imprimé"]},
+ {"id": "l004", "verdict": "X", "texte_correct": "2. Sie muß mit ihrem Liebſten uͤber Berg und", "notes": ["uͤ→ü : même signe suscrit compact en forme de e sur le u de über, cohérent avec l003 ; e suscrit plutôt que tréma"]}
+]

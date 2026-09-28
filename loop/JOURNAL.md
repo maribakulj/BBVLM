@@ -19,3 +19,21 @@ meilleure seule. Fautes résiduelles : diacritiques suscrits (résolution),
 I/J, placement folio/signature, rares lexicales sur zones abîmées. Règles OCR-D
 lues (L02) : la ponctuation se colle au mot précédent. → O03 : consigne OCR-D
 explicite, page + bandes, pages jamais lues.
+
+## O03 — 2026-09-28 — deux Fraktur jamais vues à 0,000 %
+
+Consigne OCR-D niveau 2 explicite, page + bandes. betrdrzwt et curineux : une
+lecture à 0 faute chacune après adjudication. Variance dominée par les signes
+suscrits. Arbitre unique non fiable sur ů : double adjudication désormais.
+Incident : ejngerez L2 écrasé par L1.
+
+## G01 — 2026-09-28 — premières boîtes sur texte VLM
+
+connexe tient CRITERE sur 4 pages sur 9 avec le texte lu par Opus ; le filtre
+A32 d'astra perd en Fraktur (voisinage vertical), comme astra l'a vu en A36.
+
+## Veille astra — 10:15
+
+A36-A51 : routeur A37 (IoU80 68,6 % sur lignes prédites PERO), colonnes de
+presse par modes du bord gauche (A48-A49), frontières d'articles par VLM
+rejetées. Voir CONCURRENT.md.

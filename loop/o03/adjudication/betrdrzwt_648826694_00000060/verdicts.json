@@ -1,0 +1,5 @@
+[
+ {"id": "l000", "verdict": "Y", "texte_correct": "Nimm deinen Groſchen hin, (denn mehr gehoͤrt dir nicht,)", "notes": ["ö→oͤ : le signe sur le o de gehört est formé de deux petits traits obliques verticaux accolés, forme typique du e suscrit Fraktur, pas deux points ronds de tréma"]},
+ {"id": "l001", "verdict": "Y", "texte_correct": "AUf der rund⸗gebauten⸗Welt,", "notes": ["u→U : après la lettrine A, la lettre suivante est une capitale Fraktur U (plus haute que les minuscules, forme de majuscule), usage courant après lettrine"]},
+ {"id": "l002", "verdict": "Y", "texte_correct": "Du denckeſt, bin ich todt, ſo fuͤhl ich jenes nicht,", "notes": ["ü→uͤ : sur le u de fühl, deux petits traits verticaux accolés = e suscrit Fraktur, même forme que dans les autres lignes du même imprimé"]}
+]
