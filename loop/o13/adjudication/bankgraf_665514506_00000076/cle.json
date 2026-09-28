@@ -1,0 +1,130 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Supplikant? Iſt dieß jener noch vor kurzem ſo",
+  "Y": "Supplikant? Jſt dieß jener noch vor kurzem ſo",
+  "divergences_X_vers_Y": [
+   [
+    "I",
+    "J"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/bankgraf_665514506_00000076//p2_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "des ſiegreichen Eßex! der wacker ſeinen Muth ge⸗",
+  "Y": "des ſiegreichen Eßer! der wacker ſeinen Muth ge⸗",
+  "divergences_X_vers_Y": [
+   [
+    "x",
+    "r"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/bankgraf_665514506_00000076//p2_a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "Eßex (ſteht auf.) Iſt es dahin mit mir gekom⸗",
+  "Y": "Eßer (ſieht auf.) Jſt es dahin mit mir gekom⸗",
+  "divergences_X_vers_Y": [
+   [
+    "x",
+    "r"
+   ],
+   [
+    "t",
+    "i"
+   ],
+   [
+    "I",
+    "J"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/bankgraf_665514506_00000076//p2_a.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "tung preis? — O Eßex, wie tief biſt du gefallen!",
+  "Y": "tung preis? — O Eßer, wie tief biſt du gefallen!",
+  "divergences_X_vers_Y": [
+   [
+    "x",
+    "r"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/bankgraf_665514506_00000076//p2_a.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "Muth erſchuͤttern, als Verachtung von Jhnen.",
+  "Y": "Muth erſchuͤttern, als Verachtung von Ihnen.",
+  "divergences_X_vers_Y": [
+   [
+    "J",
+    "I"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/bankgraf_665514506_00000076//p2_a.txt"
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "Die Koͤniginn. Ich ſehe, es fehlt euch nicht",
+  "Y": "Die Koͤniginn. Jch ſehe, es fehlt euch nicht",
+  "divergences_X_vers_Y": [
+   [
+    "I",
+    "J"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/bankgraf_665514506_00000076//p2_a.txt"
+ },
+ {
+  "id": "l006",
+  "image": "l006.png",
+  "X": "Eßex (ſteht auf.) Jſt es dahin mit mir gekom⸗",
+  "Y": "Eßer (ſieht auf.) Jſt es dahin mit mir gekom⸗",
+  "divergences_X_vers_Y": [
+   [
+    "x",
+    "r"
+   ],
+   [
+    "t",
+    "i"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/bankgraf_665514506_00000076//p2_b.txt"
+ },
+ {
+  "id": "l007",
+  "image": "l007.png",
+  "X": "an der Gabe, zu reden.—Aber wenn wir glauben",
+  "Y": "an der Gabe, zu reden. — Aber wenn wir glauben",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ],
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/bankgraf_665514506_00000076//p2_b.txt"
+ }
+]

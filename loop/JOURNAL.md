@@ -290,3 +290,11 @@ intégré (`outils/bandes.py` gardé comme outil de diagnostic).
 Diagnostic CRITERE O12 : échecs = blancs du texte lu (emmeprac, 4 lignes :
 fautes de texte déjà comptées) + lignes non trouvées par kraken (titres
 d'apparat durrgeda, courtes références marginales herbdulc).
+
+## O13 — 2026-09-28 — chaîne complète gelée sur 4 œuvres neuves
+
+Texte final contre référence adjugée : caladr **0**, AyrmThes 1, bankgraf 2,
+brochrnx 2 ; CRITERE ✓ sur caladr et bankgraf. **caladr : deuxième page
+parfaite de bout en bout.** I01 neutre (aucune décision), S05 égal ou mieux.
+Restes : uniquement des blancs autour de la ponctuation (« v.c. », « .— »,
+« ⸗ » isolé) — prochaine cible du texte.

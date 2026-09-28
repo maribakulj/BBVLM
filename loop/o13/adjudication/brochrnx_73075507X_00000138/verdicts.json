@@ -1,0 +1,26 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Von angenehmen Friedens-Zelten, in einem gelben Glantze, ſehen.",
+  "justification": "À l'agrandi, le trait d'union de Friedens-Zelten est un seul petit trait, pas un double oblique."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "Seht, wie im hellen Sonnen⸗Strahl,",
+  "justification": "Initiale S Fraktur (Seht), non G."
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "Dieſer nimmt⸗ du bringſt den Seegen,",
+  "justification": "Tiret double collé au mot précédent : léger écart après t, bien plus étroit que l'espace qui suit ; ponctuation collée (convention). Cas limite."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "Der nimmt⸗ du erhaͤltſt das Leben.",
+  "justification": "Même configuration que la ligne précédente : ⸗ collé à nimmt, espace ensuite. Cas limite."
+ }
+]

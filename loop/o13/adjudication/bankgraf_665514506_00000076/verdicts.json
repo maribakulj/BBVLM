@@ -1,0 +1,50 @@
+[
+ {
+  "id": "l000",
+  "verdict": "Y",
+  "texte_correct": "Supplikant? Jſt dieß jener noch vor kurzem ſo",
+  "justification": "Majuscule Fraktur J descendant sous la ligne de base : Jſt."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "des ſiegreichen Eßex! der wacker ſeinen Muth ge⸗",
+  "justification": "Dernière lettre de Eßex = x Fraktur à descendante, non r."
+ },
+ {
+  "id": "l002",
+  "verdict": "aucun",
+  "texte_correct": "Eßex (ſteht auf.) Jſt es dahin mit mir gekom⸗",
+  "justification": "ſteht confirmé à l'agrandi (ſt + e + h + t) et Eßex avec x ; mais J descend sous la ligne : Jſt. Mélange de X et Y."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "tung preis? — O Eßex, wie tief biſt du gefallen!",
+  "justification": "x Fraktur à descendante dans Eßex."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "Muth erſchuͤttern, als Verachtung von Jhnen.",
+  "justification": "J de Jhnen descend sous la ligne de base."
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "Die Koͤniginn. Jch ſehe, es fehlt euch nicht",
+  "justification": "J de Jch descend sous la ligne de base."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "Eßex (ſteht auf.) Jſt es dahin mit mir gekom⸗",
+  "justification": "Eßex avec x, ſteht (ſt ligature), Jſt descendant."
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "an der Gabe, zu reden.—Aber wenn wir glauben",
+  "justification": "Écarts entre point, tiret et Aber très étroits, nettement inférieurs aux espaces entre mots : pas d'espace, ponctuation collée."
+ }
+]

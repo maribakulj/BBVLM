@@ -1,0 +1,58 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Von angenehmen Friedens-Zelten, in einem gelben Glantze, ſehen.",
+  "Y": "Von angenehmen Friedens⸗Zelten, in einem gelben Glantze, ſehen.",
+  "divergences_X_vers_Y": [
+   [
+    "-",
+    "⸗"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/brochrnx_73075507X_00000138//p2_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Seht, wie im hellen Sonnen⸗Strahl,",
+  "Y": "Geht, wie im hellen Sonnen⸗Strahl,",
+  "divergences_X_vers_Y": [
+   [
+    "S",
+    "G"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/brochrnx_73075507X_00000138//p2_a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "Dieſer nimmt⸗ du bringſt den Seegen,",
+  "Y": "Dieſer nimmt ⸗ du bringſt den Seegen,",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/brochrnx_73075507X_00000138//p2_a.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "Der nimmt⸗ du erhaͤltſt das Leben.",
+  "Y": "Der nimmt ⸗ du erhaͤltſt das Leben.",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/brochrnx_73075507X_00000138//p2_a.txt"
+ }
+]

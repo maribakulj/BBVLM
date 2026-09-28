@@ -1,0 +1,20 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "docti viri hac de re in medium protulerunt. Fabuloſum",
+  "justification": "Point net après protulerunt, pas de virgule."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "populorum ante tempora Iulii Caeſaris aeuo propiora ni-",
+  "justification": "Agrandi : 'aeuo' imprimé d'un bloc, pas d'espace entre a et euo."
+ },
+ {
+  "id": "l002",
+  "verdict": "Y",
+  "texte_correct": "haud male colligas. In his fuerunt Belgarum plerique, v.c.",
+  "justification": "'v.c.' imprimé sans espace entre les deux abréviations."
+ }
+]

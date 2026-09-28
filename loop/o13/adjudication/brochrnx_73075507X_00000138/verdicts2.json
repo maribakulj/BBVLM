@@ -1,0 +1,26 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "Von angenehmen Friedens-Zelten, in einem gelben Glantze, ſehen.",
+  "justification": "Le trait d'union entre Friedens et Zelten apparaît simple (petit trait unique), contrairement au double trait net d'autres lignes; confiance moyenne."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "Seht, wie im hellen Sonnen⸗Strahl,",
+  "justification": "Majuscule S Fraktur (Seht), pas G."
+ },
+ {
+  "id": "l002",
+  "verdict": "Y",
+  "texte_correct": "Dieſer nimmt ⸗ du bringſt den Seegen,",
+  "justification": "Blanc visible entre nimmt et le trait double, comparable à celui qui suit."
+ },
+ {
+  "id": "l003",
+  "verdict": "Y",
+  "texte_correct": "Der nimmt ⸗ du erhaͤltſt das Leben.",
+  "justification": "Blanc visible entre nimmt et le trait double, comme ligne précédente."
+ }
+]

@@ -1,0 +1,50 @@
+[
+ {
+  "id": "l000",
+  "verdict": "Y",
+  "texte_correct": "Supplikant? Jſt dieß jener noch vor kurzem ſo",
+  "justification": "Majuscule Fraktur I/J descendant nettement sous la ligne de base -> J."
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "des ſiegreichen Eßex! der wacker ſeinen Muth ge⸗",
+  "justification": "Le nom est Eßex : x Fraktur à hampe descendante, pas r."
+ },
+ {
+  "id": "l002",
+  "verdict": "aucun",
+  "texte_correct": "Eßex (ſteht auf.) Jſt es dahin mit mir gekom⸗",
+  "justification": "Eßex et ſteht (h, non ſieht) comme X, mais la majuscule descend sous la ligne -> Jſt comme Y."
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "tung preis? — O Eßex, wie tief biſt du gefallen!",
+  "justification": "x Fraktur dans Eßex."
+ },
+ {
+  "id": "l004",
+  "verdict": "X",
+  "texte_correct": "Muth erſchuͤttern, als Verachtung von Jhnen.",
+  "justification": "Majuscule descendante -> J."
+ },
+ {
+  "id": "l005",
+  "verdict": "Y",
+  "texte_correct": "Die Koͤniginn. Jch ſehe, es fehlt euch nicht",
+  "justification": "Majuscule descendante -> J."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "Eßex (ſteht auf.) Jſt es dahin mit mir gekom⸗",
+  "justification": "Eßex, ſteht, Jſt descendant : conforme à X."
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "an der Gabe, zu reden.—Aber wenn wir glauben",
+  "justification": "Le tiret est quasi collé au point et à 'Aber', sans espace de mot visible."
+ }
+]

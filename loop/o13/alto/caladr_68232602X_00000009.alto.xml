@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-4.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>caladr_68232602X_00000009.tif</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="OCRP1">
+      <ocrProcessingStep>
+        <processingStepDescription>texte : lecture VLM diplomatique OCR-D niveau 2 ; lignes : kraken blla resserré sur l'encre du polygone ; mots : connexe (BBVLM). Brouillon de vérité terrain : relecture humaine requise.</processingStepDescription>
+        <processingSoftware>
+          <softwareName>BBVLM loop — Claude Opus (2 passes + arbitrage P3) + kraken 7.1.1 + connexe</softwareName>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Tags>
+    <OtherTag ID="NON_PLACE" LABEL="ligne lue non placée" TYPE="provenance"/>
+    <LayoutTag ID="ROLE_heading" LABEL="heading" TYPE="OCR-D region type"/>
+    <LayoutTag ID="ROLE_other" LABEL="other" TYPE="OCR-D region type"/>
+    <LayoutTag ID="ROLE_paragraph" LABEL="paragraph" TYPE="OCR-D region type"/>
+  </Tags>
+  <ReadingOrder>
+    <OrderedGroup ID="RO1">
+      <ElementRef ID="RO_B001" REF="B001"/>
+      <ElementRef ID="RO_B002" REF="B002"/>
+      <ElementRef ID="RO_B003" REF="B003"/>
+      <ElementRef ID="RO_B004" REF="B004"/>
+      <ElementRef ID="RO_B005" REF="B005"/>
+    </OrderedGroup>
+  </ReadingOrder>
+  <Layout>
+    <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="1796" HEIGHT="2438">
+      <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="1796" HEIGHT="2438">
+        <TextBlock ID="B001" TAGREFS="ROLE_heading" HPOS="207" VPOS="198" WIDTH="1013" HEIGHT="366">
+          <TextLine ID="L0001" HPOS="428" VPOS="198" WIDTH="601" HEIGHT="103">
+            <String ID="L0001_W01" CONTENT="D." HPOS="428" VPOS="208" WIDTH="97" HEIGHT="82"/>
+            <SP HPOS="525" VPOS="208" WIDTH="60"/>
+            <String ID="L0001_W02" CONTENT="Rudolpho" HPOS="585" VPOS="198" WIDTH="367" HEIGHT="103"/>
+            <SP HPOS="952" VPOS="198" WIDTH="1"/>
+            <String ID="L0001_W03" CONTENT="II." HPOS="952" VPOS="231" WIDTH="77" HEIGHT="51"/>
+          </TextLine>
+          <TextLine ID="L0002" HPOS="207" VPOS="345" WIDTH="998" HEIGHT="111">
+            <String ID="L0002_W01" CONTENT="ROM." HPOS="207" VPOS="345" WIDTH="473" HEIGHT="107"/>
+            <SP HPOS="680" VPOS="345" WIDTH="7"/>
+            <String ID="L0002_W02" CONTENT="IMPE⸗" HPOS="687" VPOS="345" WIDTH="518" HEIGHT="108"/>
+          </TextLine>
+          <TextLine ID="L0003" HPOS="386" VPOS="496" WIDTH="834" HEIGHT="68">
+            <String ID="L0003_W01" CONTENT="RATORI" HPOS="386" VPOS="497" WIDTH="360" HEIGHT="55"/>
+            <SP HPOS="746" VPOS="497" WIDTH="40"/>
+            <String ID="L0003_W02" CONTENT="OPT." HPOS="786" VPOS="499" WIDTH="198" HEIGHT="53"/>
+            <SP HPOS="984" VPOS="499" WIDTH="34"/>
+            <String ID="L0003_W03" CONTENT="MAX." HPOS="1018" VPOS="504" WIDTH="202" HEIGHT="51"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B002" TAGREFS="ROLE_paragraph" HPOS="475" VPOS="632" WIDTH="658" HEIGHT="244">
+          <TextLine ID="L0004" HPOS="682" VPOS="632" WIDTH="224" HEIGHT="66">
+            <String ID="L0004_W01" CONTENT="miſſæ" HPOS="682" VPOS="632" WIDTH="115" HEIGHT="66"/>
+            <SP HPOS="797" VPOS="632" WIDTH="10"/>
+            <String ID="L0004_W02" CONTENT="dono" HPOS="807" VPOS="633" WIDTH="99" HEIGHT="49"/>
+          </TextLine>
+          <TextLine ID="L0005" HPOS="475" VPOS="721" WIDTH="658" HEIGHT="69">
+            <String ID="L0005_W01" CONTENT="Gallinæ" HPOS="475" VPOS="721" WIDTH="260" HEIGHT="63"/>
+            <SP HPOS="735" VPOS="721" WIDTH="25"/>
+            <String ID="L0005_W02" CONTENT="Zedlicianæ" HPOS="760" VPOS="722" WIDTH="373" HEIGHT="67"/>
+          </TextLine>
+          <TextLine ID="L0006" HPOS="585" VPOS="804" WIDTH="430" HEIGHT="72">
+            <String ID="L0006_W01" CONTENT="Metamorphoſis:" HPOS="585" VPOS="804" WIDTH="430" HEIGHT="72"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B003" TAGREFS="ROLE_paragraph" HPOS="267" VPOS="916" WIDTH="1076" HEIGHT="170">
+          <TextLine ID="L0007" HPOS="267" VPOS="916" WIDTH="1076" HEIGHT="104">
+            <String ID="L0007_W01" CONTENT="Carmine" HPOS="268" VPOS="916" WIDTH="242" HEIGHT="80"/>
+            <SP HPOS="510" VPOS="916" WIDTH="13"/>
+            <String ID="L0007_W02" CONTENT="bidui," HPOS="523" VPOS="928" WIDTH="151" HEIGHT="75"/>
+            <SP HPOS="674" VPOS="928" WIDTH="24"/>
+            <String ID="L0007_W03" CONTENT="&amp;" HPOS="698" VPOS="936" WIDTH="65" HEIGHT="63"/>
+            <SP HPOS="763" VPOS="936" WIDTH="13"/>
+            <String ID="L0007_W04" CONTENT="quidem" HPOS="776" VPOS="931" WIDTH="195" HEIGHT="85"/>
+            <SP HPOS="971" VPOS="931" WIDTH="12"/>
+            <String ID="L0007_W05" CONTENT="horarum" HPOS="983" VPOS="931" WIDTH="247" HEIGHT="89"/>
+            <SP HPOS="1230" VPOS="931" WIDTH="1"/>
+            <String ID="L0007_W06" CONTENT="ſuc-" HPOS="1230" VPOS="934" WIDTH="113" HEIGHT="79"/>
+          </TextLine>
+          <TextLine ID="L0008" HPOS="470" VPOS="1013" WIDTH="655" HEIGHT="73">
+            <String ID="L0008_W01" CONTENT="ciſiuarum" HPOS="470" VPOS="1013" WIDTH="263" HEIGHT="73"/>
+            <SP HPOS="733" VPOS="1013" WIDTH="21"/>
+            <String ID="L0008_W02" CONTENT="adumbrata." HPOS="754" VPOS="1016" WIDTH="371" HEIGHT="62"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B004" TAGREFS="ROLE_paragraph" HPOS="328" VPOS="91" WIDTH="920" HEIGHT="1226">
+          <TextLine ID="L0009" HPOS="743" VPOS="91" WIDTH="71" HEIGHT="66">
+            <String ID="L0009_W01" CONTENT="à" HPOS="743" VPOS="91" WIDTH="71" HEIGHT="65"/>
+          </TextLine>
+          <TextLine ID="L0010" HPOS="328" VPOS="1231" WIDTH="920" HEIGHT="86">
+            <String ID="L0010_W01" CONTENT="M." HPOS="328" VPOS="1235" WIDTH="94" HEIGHT="65"/>
+            <SP HPOS="422" VPOS="1235" WIDTH="21"/>
+            <String ID="L0010_W02" CONTENT="Andrea" HPOS="443" VPOS="1231" WIDTH="250" HEIGHT="69"/>
+            <SP HPOS="693" VPOS="1231" WIDTH="16"/>
+            <String ID="L0010_W03" CONTENT="Calagio" HPOS="709" VPOS="1233" WIDTH="260" HEIGHT="84"/>
+            <SP HPOS="969" VPOS="1233" WIDTH="19"/>
+            <String ID="L0010_W04" CONTENT="Vratisl." HPOS="988" VPOS="1235" WIDTH="260" HEIGHT="76"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B005" TAGREFS="ROLE_other" HPOS="322" VPOS="1671" WIDTH="930" HEIGHT="268">
+          <TextLine ID="L0011" HPOS="610" VPOS="1671" WIDTH="443" HEIGHT="51">
+            <String ID="L0011_W01" CONTENT="GORLICII" HPOS="610" VPOS="1671" WIDTH="443" HEIGHT="51"/>
+          </TextLine>
+          <TextLine ID="L0012" HPOS="322" VPOS="1762" WIDTH="930" HEIGHT="68">
+            <String ID="L0012_W01" CONTENT="AMBROSIVS" HPOS="322" VPOS="1762" WIDTH="344" HEIGHT="51"/>
+            <SP HPOS="666" VPOS="1762" WIDTH="35"/>
+            <String ID="L0012_W02" CONTENT="FRITSCH" HPOS="701" VPOS="1766" WIDTH="254" HEIGHT="47"/>
+            <SP HPOS="955" VPOS="1766" WIDTH="22"/>
+            <String ID="L0012_W03" CONTENT="imprimebat." HPOS="977" VPOS="1762" WIDTH="275" HEIGHT="68"/>
+          </TextLine>
+          <TextLine ID="L0013" HPOS="452" VPOS="1886" WIDTH="671" HEIGHT="53">
+            <String ID="L0013_W01" CONTENT="M." HPOS="452" VPOS="1889" WIDTH="80" HEIGHT="47"/>
+            <SP HPOS="532" VPOS="1889" WIDTH="1"/>
+            <String ID="L0013_W02" CONTENT="D." HPOS="532" VPOS="1888" WIDTH="143" HEIGHT="51"/>
+            <SP HPOS="675" VPOS="1888" WIDTH="7"/>
+            <String ID="L0013_W03" CONTENT="LXXXXI." HPOS="682" VPOS="1886" WIDTH="441" HEIGHT="53"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

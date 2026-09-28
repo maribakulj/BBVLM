@@ -1,0 +1,44 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "docti viri hac de re in medium protulerunt. Fabuloſum",
+  "Y": "docti viri hac de re in medium protulerunt, Fabuloſum",
+  "divergences_X_vers_Y": [
+   [
+    ".",
+    ","
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/AyrmThes_877641137_00000019//p2_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "populorum ante tempora Iulii Caeſaris aeuo propiora ni-",
+  "Y": "populorum ante tempora Iulii Caeſaris a euo propiora ni-",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/AyrmThes_877641137_00000019//p2_a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "haud male colligas. In his fuerunt Belgarum plerique, v. c.",
+  "Y": "haud male colligas. In his fuerunt Belgarum plerique, v.c.",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o13/AyrmThes_877641137_00000019//p2_a.txt"
+ }
+]
