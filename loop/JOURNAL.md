@@ -430,3 +430,12 @@ IoU méd 0,93-0,96, CRITERE ✓ busmexpo, recherche 0,91-0,96. Défaut P3 : les
 lignes portées par la seule lecture B étaient perdues (cingdei : 3 numéros
 marginaux) → correctif P3b. Les arbitres divergent sur des conventions de
 forme (tiret de fin de ligne, points contre e suscrit) : la référence tient.
+
+## P3b — 2026-09-28 — lignes portées par une seule lecture : mécanisme en place
+
+cingdei : les 3 lignes de B seule (« 64. », « 65. », « 66. ») deviennent des
+tâches ; l'arbitre les écarte : **numéros manuscrits à l'encre** dans la
+marge, non imprimés. La référence SBB les transcrit. Question de convention
+(la VT transcrit les annotations manuscrites anciennes ; la consigne P6 n'en
+dit rien) — notée, pas de règle pour un cas unique. Le mécanisme P3b est
+adopté (sans effet sur les 3 autres pages d'O15).
