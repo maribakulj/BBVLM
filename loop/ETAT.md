@@ -22,7 +22,7 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 
 1. Vues : page réduite + bandes pleine résolution + moitiés ×1,6 (`prep_sbb.py`, `vues_zoom.py`).
 2. Deux passes Opus, consigne `outils/consigne_P6.md` (OCR-D niveau 2, écriture déclarée, rôle par ligne, fractions, jetons {florin}/{groschen}).
-3. P3b : les lignes portées par une seule lecture sont aussi arbitrées. `p2.py` : jetons → PUA, conformité OCR-D des espaces, R1 si Fraktur, R2 (ů/uͤ par lexique).
+3. P3b : les lignes portées par une seule lecture sont aussi arbitrées. `p2.py` : jetons → PUA, qꝫ → U+E8BF (L1), conformité OCR-D des espaces, R1 si Fraktur, R2 (ů/uͤ par lexique).
 4. `p3.py` : lignes en désaccord recadrées via kraken, arbitrées par Opus (`consigne_arbitre_P3.md`, repli sur les bandes).
 5. I01 : signe d'inflexion de l'imprimeur décidé par page (même appel que l'arbitre P3).
 6. `segmente.py` (kraken blla) → `serre.py` (G03) → coupe S02 si manchettes → placement par ancrage Tesseract S05 (repli : XY-cut S03 + chasse S04) → boîtes : routeur G02, redressé par la ligne de base kraken sur les pages penchées (B04) → `vers_alto.py`.
@@ -47,8 +47,8 @@ Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lec
 
 ## Prochaines étapes
 
-- Passes VLM : Tesseract comme signal de lignes à risque (astra A53, L10) pour
-  une seconde passe ciblée au lieu d'une relecture complète.
+- Passes VLM : Tesseract comme signal de risque réfuté (T01, AUC 0,57) ; mode
+  économe disponible (V01).
 - Texte : blancs autour de la ponctuation (P6b rejetée en A/B ; la VT met une
   espace après virgule) ; latin juridique ; coquilles.
 - Boîtes : lignes non trouvées par kraken (Eynollah accessible, non intégré) ; B04 adopté (pages penchées), reste heptaldai 0,42.

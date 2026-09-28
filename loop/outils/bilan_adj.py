@@ -9,6 +9,11 @@ usage : python bilan_adj.py DOSSIER_PAGE LECTURE...
 """
 import json, sys
 from cer import vue, lev, score
+
+
+def _pua(t):
+    # même table PUA que p2 (L1) : l'arbitre qui écrit « qꝫ » désigne le glyphe U+E8BF de la VT
+    return t.replace('q\u0301\ua76b', '\uf50d').replace('q\ua76b', '\ue8bf')
 import os
 A1 = os.environ.get('BBVLM_A1') == '1'
 
@@ -27,7 +32,7 @@ def reference_adjugee(dossier):
         v = ver.get(c['id'])
         if v is None: continue
         r = c['X'] if c['_ref'] == 'X' else c['Y']
-        j = vue(v['texte_correct'], 'diplo')
+        j = vue(_pua(v['texte_correct']), 'diplo')
         indec += v['verdict'] == 'indecidable'
         # Règle A2 (après O10) : tout texte autre que la référence distribuée
         # — texte neuf OU choix de la lecture contre la référence — n'est
@@ -36,9 +41,9 @@ def reference_adjugee(dossier):
         neuf = v['verdict'] in ('aucun', 'partage', 'indecidable') or j not in (vue(c['X'], 'diplo'), vue(c['Y'], 'diplo'))
         if neuf or (not A1 and j != vue(r, 'diplo')):
             v2 = ver2.get(c['id'])
-            if v2 is None or vue(v2['texte_correct'], 'diplo') != j:
+            if v2 is None or vue(_pua(v2['texte_correct']), 'diplo') != j:
                 contestes += 1
-                if v2 is not None and j != vue(r, 'diplo') and vue(v2['texte_correct'], 'diplo') != vue(r, 'diplo'):
+                if v2 is not None and j != vue(r, 'diplo') and vue(_pua(v2['texte_correct']), 'diplo') != vue(r, 'diplo'):
                     rejetees.add(vue(r, 'diplo'))
                 continue
         if r in choix and choix[r] != j: conflits.add(r)

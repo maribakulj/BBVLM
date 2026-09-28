@@ -458,3 +458,17 @@ lectures fausses. Ces lignes sont désormais rapportées à part, comme
 indécidées (bilan_adj.py). O15 : buchdas 37 → **0,55 %** hors 11 lignes
 indécidées (VT « ii » pour ü) ; busmexpo **0 %** hors 1 ligne (ꝗ/ꝙ). Les
 deux chiffres (avec et sans indécidées) sont toujours donnés.
+
+## L1 — 2026-09-28 — abréviation latine « -que » : codage PUA de la VT — adopté
+
+VT SBB : q + ꝫ final codé en ligature MUFI PUA U+E8BF (12 occurrences),
+U+F50D avec accent (5). Lecteurs : « qꝫ » (Unicode) ou « q; ». Conversion
+déterministe dans p2 (et à la fusion P3) : qꝫ → U+E8BF, q́ꝫ → U+F50D.
+Mesure A+B, toutes pages : référence distribuée 1 115 → 1 059 éditions ;
+référence adjugée 638 → 694 d'abord (!), car les arbitres avaient « corrigé »
+U+E8BF en « qꝫ » — une équivalence d'encodage prise pour une correction de
+lecture. Correctif du bilan : le texte des arbitres passe par la même table
+PUA avant comparaison. Alors 702 → **646**, aucune régression (busmexpo 30 →
+6, AmmoLIBR 22 → 11, culmsent 14 → 2). Les scores finals déjà publiés restent
+identiques (AmmoLIBR 0, culmsent 1, busmexpo 2, cingdei 13) ; les sorties
+suivent désormais le codage de la VT.
