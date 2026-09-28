@@ -644,3 +644,7 @@ inspection that must precede each new hypothesis.
 ## A57 — checkpoint extensions
 
 `autonomous_loop.checkpoint()` preserves externally registered evidence and phase IDs, refreshes known legacy entries, verifies extra result paths, deduplicates research notes, and never inherits old completion flags. A targeted regression test verifies repeated saves and missing artifacts. This repairs A54-A56 evidence loss during bundling.
+
+## A58
+Audit PAGE exhaustif sans afficher les transcriptions : scripts/audit_chronicling_a58.py ; provenance et reserve : scripts/finalize_chronicling_a58.py. Originaux conservés, faute de nom du split signalée mais non corrigée.
+

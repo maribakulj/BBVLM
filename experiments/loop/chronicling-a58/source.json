@@ -1,0 +1,12 @@
+{
+  "repository": "https://gitlab.uni-bonn.de/digital-history/Chronicling-Germany-Dataset",
+  "revision": "66b50f53ccdb581d29cc02f670e469bbf583e825",
+  "annotation_git_tree": "189eefb0e44dade0cd411cdf392e13ed19bcecce",
+  "split_git_blob": "92b74f0165668354f93ecb626c15b3aca3c8829f",
+  "archive_sha256": "be9c36bf5c8038df5a9338883c401f03488cdd3fb9edbe2e245a85b6b1b12ee9",
+  "archive_bytes": 60036720,
+  "verification": "all 801 XML blobs reconstruct exact published annotation tree; split bytes reconstruct Git blob; pinned tree API agrees",
+  "license": "CC BY-NC 4.0",
+  "paper": "https://arxiv.org/html/2401.16845v4",
+  "read_date": "2026-09-28"
+}

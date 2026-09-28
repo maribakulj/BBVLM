@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790595353.4843059,
+  "updated_unix": 1790595880.0445595,
   "status": "in_progress",
   "phases": [
     {
@@ -788,6 +788,12 @@
       "complete": true,
       "script": null,
       "result": "resume-integrity-a57/report.json"
+    },
+    {
+      "id": "chronicling_a58",
+      "complete": true,
+      "script": "scripts/audit_chronicling_a58.py",
+      "result": "chronicling-a58/audit.json"
     }
   ],
   "completion_gates": {
@@ -23203,6 +23209,59 @@
       },
       "regression_test": "1 passed; preservation, idempotence, missing artifact, stale gate covered",
       "new_ocr_vlm_passes": 0
+    },
+    "chronicling_a58": {
+      "files": 801,
+      "archive_sha256": "be9c36bf5c8038df5a9338883c401f03488cdd3fb9edbe2e245a85b6b1b12ee9",
+      "archive_bytes": 60036720,
+      "element_totals": {
+        "Page": 801,
+        "ReadingOrder": 801,
+        "OrderedGroup": 801,
+        "RegionRefIndexed": 19420,
+        "SeparatorRegion": 11506,
+        "Coords": 404090,
+        "TextRegion": 19343,
+        "TextLine": 371575,
+        "Baseline": 371547,
+        "TextEquiv": 378510,
+        "Unicode": 378510,
+        "TableRegion": 1306,
+        "GraphicRegion": 296,
+        "TableCell": 1,
+        "CornerPts": 1,
+        "ImageRegion": 63,
+        "Word": 0,
+        "Glyph": 0
+      },
+      "issues": {
+        "duplicate_ids": 0,
+        "degenerate_polygon": 8,
+        "outside_Coords": 456,
+        "outside_Baseline": 341
+      },
+      "statuses": {
+        "IN_PROGRESS": 661,
+        "DONE": 111,
+        "missing": 1,
+        "absent": 2,
+        "NEW": 13,
+        "GT": 13
+      },
+      "elapsed_seconds": 15.147555977004231,
+      "eligibility": {
+        "region_geometry": "manual cross-check reported; inspect coordinate issues before scoring",
+        "line_geometry": "only major errors manually corrected; no perfect-box certification",
+        "word_geometry": false,
+        "reading_order": "automatic uncorrected: not independent GT",
+        "ocr": "single-expert correction reported; conventions and coverage require audit"
+      },
+      "cost": {
+        "vlm_passes": 0,
+        "ocr_passes": 0,
+        "images_downloaded": 0
+      },
+      "accepted_for_project_completion_gate": false
     }
   },
   "model_policy": {
@@ -23211,6 +23270,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A58 complete: corpus geometry audit, test100 reserved. Next A59 targeted Sol on A54 residuals, consumed development only.",
     "A57 repaired checkpoint extension loss; next audit Chronicling Germany annotation layers and freeze a region holdout. Reinspect Claude branch before each hypothesis.",
     "A56 audited every PAGE XML in Zenodo 2583866: 2458 TextRegions and region reading order, but 0 TextLine, 0 Word and 0 Glyph nodes. Reject it for ALTO word/line-box truth without downloading images; retain only as a possible region/OLR reference after provenance audit. Next inspect the Claude branch, then audit Chronicling Germany's expert region polygons and weaker selectively corrected line layer as separate truth grades.",
     "A55 consumed A54 edge diagnostic: A37 improves all-word mean IoU .5807->.6685 but French horizontal IoU falls .8245->.8077 and three French blocks regress. A preregistered width-cap grid has no eligible candidate; reject it. BnL word rectangles are not certified perfect GT. Next freeze a word-geometry corpus with explicit manual control before any new promotion.",

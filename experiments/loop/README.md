@@ -540,3 +540,7 @@ each new hypothesis; the first audit is `CLAUDE_BRANCH_AUDIT.md`.
 ## A57 — resumption integrity
 
 Checkpoint bundling previously regenerated a legacy-only state, dropping A54-A56 registrations while retaining raw reports. The builder now preserves extension records and verifies artifact presence. Reports restored; regression test passes; all seven global gates remain false.
+
+## A58 terminé
+Voir chronicling-a58/RESULTS.md : 801 XML audités, réserve100 pages ; aucun Word, ordre automatique, défaut de nom train. Aucun critère global validé.
+

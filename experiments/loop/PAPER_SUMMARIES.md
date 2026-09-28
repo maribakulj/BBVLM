@@ -163,3 +163,7 @@ Read primary HTML dataset/annotation and pipeline sections. The revised body des
 ### Neudecker — Historical Newspapers Ground Truth (2019), Zenodo 2583866
 
 Read primary record and parsed every released PAGE XML. The 50 Berlin State Library pages provide 2,458 text regions, 678 separators and region ordering, but no TextLine, Word or Glyph nodes. Creator strings are FineReader Engine 10; the record separately distributes FineReader 11 OCR. Manual word geometry is neither present nor documented. A56 rejects the corpus for word/line boxes and retains it as an OLR candidate. Source: https://doi.org/10.5281/zenodo.2583866 .
+
+## A58 — complément Chronicling Germany
+Article v4 https://arxiv.org/html/2401.16845v4 ; §§A.4.2/A.5.5 lus le 28 septembre 2026. Régions vérifiées par deux humains ; texte relu une fois, seconde correction annoncée. Signes zodiacaux/géométriques omis, fractions transcrites avec slash, espace nombre-unité. Lignes scindées conservées. Apport BBVLM : conventions et qualité doivent être distinguées par couche ; CER et ordre ne peuvent pas être certifiés à partir du seul label GT. Audit A58 : aucun Word XML, 801 pages, réserve100 pages, défaut de nom train documenté.
+
