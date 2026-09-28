@@ -31,6 +31,21 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
         roles = lit(open(structure, encoding='utf-8').read().splitlines())
         if len(roles) != len(lignes): roles = None
     kr = json.load(open(f'{dossier}/kraken_serre.json'))['lignes']
+    import shutil
+    ecr = 'fraktur'
+    if structure:
+        for l in open(structure, encoding='utf-8'):
+            if l.lower().startswith('#ecriture:'): ecr = l.split(':', 1)[1].strip().lower()
+    if os.environ.get('BBVLM_SCINDE', '0') == '1' and os.environ.get('BBVLM_ANCRE', '1') == '1' and shutil.which('tesseract'):
+        # S08 : ligne kraken portant deux lignes lues (notes en colonnes, manchette collée) → scindée
+        from ancre import lit_lignes
+        from scinde import scinde
+        g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
+        bb = [l['bbox'] for l in kr]
+        nb = scinde(g0, bb, lit_lignes(dossier, bb, ecr), lignes)
+        if len(nb) != len(bb):
+            garde = {tuple(l['bbox']): l for l in kr}
+            kr = [garde.get(tuple(b), {'bbox': b}) for b in nb]
     if roles and any(r[0] == 'marginalia' for r in roles):
         # manchettes signalées par le lecteur : détacher celles que kraken a fusionnées (coupe.py)
         from coupe import coupe_page
@@ -40,14 +55,9 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
     g = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE); H, W = g.shape
     # Placement : avec les rôles, manchettes alignées sur les lignes de marge
     # (mesuré sur 8 pages : égal partout, herrleyc 0,47 → 0,66 en rappel IoU80).
-    import shutil
     if os.environ.get('BBVLM_ANCRE', '1') == '1' and shutil.which('tesseract'):   # S05 adopté (banc 20 pages)
         # S05 : ancrage par OCR Tesseract des lignes kraken (L10)
         from ancre import lit_lignes, aligne_ancre
-        ecr = 'fraktur'
-        if structure:
-            for l in open(structure, encoding='utf-8'):
-                if l.lower().startswith('#ecriture:'): ecr = l.split(':', 1)[1].strip().lower()
         loc = aligne_ancre(lignes, boites, lit_lignes(dossier, boites, ecr))
     elif roles:
         from aligne import aligne_roles
