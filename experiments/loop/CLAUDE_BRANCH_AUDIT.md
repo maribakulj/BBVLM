@@ -104,3 +104,10 @@ Claude est toujours à `76056c5c1957e0de4232f0aef1f6cbc7f2893402` ; Codex
 était à `e76a6453859b1bd5462d7abe036e62ab48eadea2` et master à
 `60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Aucun changement concurrent,
 aucun merge, aucune écriture hors `codex/autonomous-research-a34`.
+
+## A71 — 2026-09-28
+Avant l'audit visuel, Claude a été recontrôlé à
+`76056c5c1957e0de4232f0aef1f6cbc7f2893402`, inchangé. Codex était à
+`80d1c7ebb4ffa2a10f09b57e363ba8c9282b136c` et master à
+`60b8ed3082bbc4ae65fb2a9fecc999a6be21a0ec`. Aucun fichier concurrent importé,
+aucun merge, aucune écriture sur master/main et aucun force-push.

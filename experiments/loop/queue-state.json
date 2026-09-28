@@ -401,7 +401,15 @@
       "ended_at": 1790604949.3809543
     },
     "a71_prepare": {
-      "status": "pending"
+      "status": "completed",
+      "started_at": 1790605158.441654,
+      "fingerprint": "15f6c12b29408ba729c35247051fa67786ed02f72dcbbfb8e0ef450ee3494715",
+      "actor": "codex-root",
+      "token": "0191228816804ef286a80960e662b322",
+      "outputs": {
+        "experiments/loop/next-a71/PROTOCOL.md": "0d119b9066510df72c0f774b6a2b93e1c24f8b9aabae7ea2605462f413b19424"
+      },
+      "ended_at": 1790605255.1604223
     },
     "a70_diagnose_retry": {
       "status": "completed",
@@ -414,6 +422,45 @@
         "experiments/loop/next-a70/report-v2.json": "6209eda7d9862fab350a5c3d8d9a6edc5f748be43730ee29cb062da0d40127ee"
       },
       "ended_at": 1790605010.2765388
+    },
+    "a71_views": {
+      "status": "completed",
+      "started_at": 1790605260.0468502,
+      "fingerprint": "fb7f6c8cdfb664aed69dc678779f12538fc95097e34293262389b1f28a304b12",
+      "pid": 5,
+      "log": "experiments/loop/logs/a71_views.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a71/manifest.json": "52b26ede8ee00ee4904742beea3e4dc3b5f0cc5b0cc13ddf3d949d36a8c7b1f4",
+        "experiments/loop/next-a71/private-map.json": "d859014333142cc8ae649b2c420bb4c01d0e64d71c76901df3e58bc0fbf26491"
+      },
+      "ended_at": 1790605266.7284644
+    },
+    "a71_reader": {
+      "status": "completed",
+      "started_at": 1790605313.4212706,
+      "fingerprint": "340b8b87182154f247b186e8eae867b56b664b4f889e6e50e9886da7afad1f29",
+      "actor": "gpt-6-luna-a71",
+      "token": "3ceef7aacfcc475197a4d1296a7d0635",
+      "outputs": {
+        "experiments/loop/next-a71/luna-response.json": "fe9098680e09a3910e6f00d8d5feaafbda1851c2ae054b9d543522c6d4d35e5f"
+      },
+      "ended_at": 1790605481.7775674
+    },
+    "a71_score": {
+      "status": "completed",
+      "started_at": 1790605482.070429,
+      "fingerprint": "d9883edfcce7bc2aa32c09990ad89aeea2785ee95cd878280e4c2e70add2d799",
+      "pid": 6,
+      "log": "experiments/loop/logs/a71_score.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a71/report.json": "fd604155d8de266d25aecf77f18cf049a91097201161b1be5f79d08da0b02ea6"
+      },
+      "ended_at": 1790605482.1234279
+    },
+    "a72_prepare": {
+      "status": "pending"
     }
   },
   "a66_reference_append_recovery": {

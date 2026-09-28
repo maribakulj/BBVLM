@@ -669,6 +669,44 @@
       "outputs": ["experiments/loop/next-a70/report-v2.json"],
       "argv": ["/workspace/scratch/cecc4cd83a9f/a66-venv/bin/python", "scripts/diagnose_deep_failures_a70.py"],
       "timeout_seconds": 120
+    },
+    {
+      "id": "a71_views",
+      "kind": "command",
+      "resource": "io",
+      "deps": ["a71_prepare"],
+      "inputs": ["scripts/prepare_visual_misses_a71.py", "scripts/evaluate_transfer_a69.py", "experiments/loop/next-a71/PROTOCOL.md", "experiments/loop/next-a70/report-v2.json", "experiments/loop/chronicling-a58/audit.json"],
+      "outputs": ["experiments/loop/next-a71/manifest.json", "experiments/loop/next-a71/private-map.json"],
+      "argv": ["/workspace/scratch/cecc4cd83a9f/a66-venv/bin/python", "scripts/prepare_visual_misses_a71.py"],
+      "timeout_seconds": 120
+    },
+    {
+      "id": "a71_reader",
+      "kind": "external",
+      "resource": "vlm",
+      "deps": ["a71_views"],
+      "inputs": ["experiments/loop/next-a71/manifest.json"],
+      "outputs": ["experiments/loop/next-a71/luna-response.json"],
+      "instructions": "Use one real gpt-6-luna visual reader. Inspect all12 opaque crops. Return exactly one record per ID with label visible_text|non_text_or_rule|ambiguous, safe_rectangular_recall boolean, and concise visible evidence. No transcript/reference alternatives; do not infer hidden IDs. Preserve raw response, verify IDs/hashes, then score separately."
+    },
+    {
+      "id": "a71_score",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": ["a71_reader"],
+      "inputs": ["scripts/verify_visual_misses_a71.py", "experiments/loop/next-a71/manifest.json", "experiments/loop/next-a71/luna-response.json"],
+      "outputs": ["experiments/loop/next-a71/report.json"],
+      "argv": ["{python}", "scripts/verify_visual_misses_a71.py"],
+      "timeout_seconds": 60
+    },
+    {
+      "id": "a72_prepare",
+      "kind": "external",
+      "resource": "orchestrator",
+      "deps": ["a71_score"],
+      "inputs": ["experiments/loop/next-a71/report.json", "experiments/loop/next-a71/RESULTS.md"],
+      "outputs": ["experiments/loop/next-a72/PROTOCOL.md"],
+      "instructions": "Recheck Claude and original Codex branch. Use A71 only as blind diagnostic: if visible misses dominate, justify a bounded Eynollah or lightweight pixel-recall ablation with measured cost; if conventions/nontext dominate, do not install it and pivot to OLR/retrieval. Read and separately summarize primary sources. Preserve Test, original GT and global gates; commit/push/checkpoint, continue immediately."
     }
   ]
 }

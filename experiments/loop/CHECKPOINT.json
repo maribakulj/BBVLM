@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790604868.1126132,
+  "updated_unix": 1790605482.1234279,
   "status": "in_progress",
   "phases": [
     {
@@ -24068,6 +24068,19 @@
       "new_model_forwards": 0,
       "test_pages_opened": 0,
       "global_completion": false
+    },
+    "visual_miss_audit_a71": {
+      "status": "consumed_blind_visual_diagnostic_not_ground_truth",
+      "views": 12,
+      "visible_text": 11,
+      "ambiguous": 1,
+      "non_text_or_rule": 0,
+      "safe_rectangular_recall": 5,
+      "vlm_readers": 1,
+      "ids_and_hashes_valid": true,
+      "test_pages_opened": 0,
+      "reference_modified": false,
+      "global_completion": false
     }
   },
   "model_policy": {
@@ -24076,6 +24089,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A71 blind visual audit confirms visible printed text in11/12 opaque zero-contributor views, with1 ambiguous and0 plain non-text; only5/12 are safe for rectangular recall. This is oracle-selected consumed evidence from one reader, not box truth. A72 must run a bounded Eynollah/pixelwise line-recall pilot, record exact stages/weights/cost, and avoid full OCR or global padding. Test100 intact, Claude/master unchanged, all gates false.",
     "A70 attributes71 deep A69 failures:0 recoverable by union at95%,1 partial,70 remain below50%, including63 with no box contributing1%. Reject region fusion; failure is detector miss or convention. A71 must blind-inspect opaque zero-hit lines, then choose structural recall/Eynollah/CC or OLR without retuning A69. No new inference,100 Test intact, Claude/master unchanged, all gates false.",
     "A69 frozen transfer failed its local gate on10 diverse Training pages/1768 lines: ink crossing reduces <95% coverage184->160 only13.0% (required20%), while fixed padding reaches79 at6.4x added area and82 boxes >1% intrusion. No promotion. Ten real YOLO forwards, retry reused sealed predictions with zero inference,100 Test intact. Next a70_prepare classifies the71 <50% residuals as miss/fragment/parent/convention before a distinct structural repair; do not retune A69. Claude unchanged; original Codex branch only; all seven gates false.",
     "A68 completed on five consumed Validation pages: bounded ink-crossing repair reduces lines below95% coverage114->49 while adding1.54Mpx; fixed padding reaches12 but adds3.66Mpx. Ink crossing has fewer >1% foreign boxes17 vs28, yet worse foreign fraction per added pixel4.10% vs2.67%; no promotion. Next a69_prepare freezes the unchanged rule on a deterministic diverse unopened Validation subset, candidates before XML score. Keep100 Test untouched; all seven gates false; recheck Claude and stay on original Codex branch.",

@@ -966,5 +966,20 @@
     "new_model_forwards": 0,
     "test_pages_opened": 0,
     "global_completion": false
+  },
+  "visual_miss_audit_a71": {
+    "status": "completed_consumed_blind_visual_diagnostic",
+    "protocol": "next-a71/PROTOCOL.md",
+    "manifest": "next-a71/manifest.json",
+    "reader_response": "next-a71/luna-response.json",
+    "report": "next-a71/report.json",
+    "results": "next-a71/RESULTS.md",
+    "views": 12,
+    "visible_text": 11,
+    "ambiguous": 1,
+    "safe_rectangular_recall": 5,
+    "vlm_readers": 1,
+    "test_pages_opened": 0,
+    "global_completion": false
   }
 }

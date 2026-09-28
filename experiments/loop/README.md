@@ -608,3 +608,11 @@ Of 71 A69 lines below 50% single-box coverage, no line reaches 95% under the
 union of all detected text boxes, one reaches 50–95%, and 70 remain below 50%.
 Sixty-three have no ≥1% contributing box. Region merging is therefore rejected;
 the next step must distinguish detector miss from annotation/role convention.
+
+## A71 — blind visual miss audit
+One real blind Luna reader inspected 12 deterministic opaque views drawn from
+the 63 A70 zero-contributor lines. Eleven contain visible text and one is
+ambiguous; none is plain non-text. Only five are safe for rectangular recovery,
+because neighboring lines, ornaments or clipped text contaminate the others.
+This supports a bounded pixelwise/line-segmentation comparison, not global
+padding. The oracle-selected consumed sample is diagnostic, not box truth.

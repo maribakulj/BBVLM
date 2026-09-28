@@ -329,3 +329,24 @@ Digital Archives) : repérage seulement, pas de lecture scientifique revendiqué
 - **Apport BBVLM :** Otsu reste une ablation légère, pas une règle promue avant
   transfert sur des pages diverses.
 - **Source :** https://arxiv.org/abs/2401.11831 .
+
+## Rezanezhad et al. — Document Layout Analysis with Deep Learning and Heuristics
+
+- **Version/date :** HIP 2023, pp. 73–78, DOI 10.1145/3604951.3605513 ;
+  consulté le 28 septembre 2026.
+- **Niveau lu :** abstract primaire et métadonnées seulement ; texte ACM bloqué
+  (403). Le README/code actuel Eynollah a été inspecté séparément.
+- **Méthode annoncée :** segmentation pixelwise CNN des documents historiques,
+  complétée par heuristiques pour marginalia et ordre de lecture ; comparaison
+  sur trois jeux historiques.
+- **Limites :** l'abstract ne donne pas les scores/tableaux reproductibles ; ne
+  démontre ni boîtes ALTO parfaites ni CER nul. Le pipeline actuel est multi-
+  modèle, lent et plus large que le défaut A70.
+- **Code :** `qurator-spk/eynollah` head
+  `15ddb7750e132462321a3d57b2a2b74cb8f2b151`, v0.9.2 ; segmentation de dix
+  classes, lignes, régions et OLR, Python 3.8–3.11/ONNX.
+- **Apport BBVLM :** alternative crédible de rappel pixelwise si l'audit A71
+  confirme du texte visuellement manqué ; ne pas l'installer pour des divergences
+  de convention.
+- **Sources :** https://doi.org/10.1145/3604951.3605513 ;
+  https://github.com/qurator-spk/eynollah .

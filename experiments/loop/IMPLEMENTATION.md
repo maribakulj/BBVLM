@@ -57,3 +57,12 @@ pour chaque ligne sous 50 %, la couverture de la meilleure boîte et de l'union
 des boîtes. Sur 71 résiduels, zéro est récupérable à 95 %, un seul est partiel
 et 70 restent sous 50 %. Le retry venv est distinct du job initial échoué avant
 calcul. Conclusion : ne pas implémenter une fusion de fragments globale.
+
+## A71
+`prepare_visual_misses_a71.py` choisit par hash 12 lignes à contribution nulle,
+au plus deux par page, et génère des vues à identifiants opaques sans texte de
+référence. `verify_visual_misses_a71.py` impose l'ensemble exact des IDs et
+hashes avant d'agréger la réponse Luna. Le résultat 11 textes visibles, 1 ambigu,
+5 récupérations rectangulaires sûres motive un pilote de segmentation de lignes,
+mais ne constitue pas une annotation de boîte. Les vues, manifeste, réponse
+brute et rapport sont conservés ; zéro page Test et zéro vérité terrain modifiée.
