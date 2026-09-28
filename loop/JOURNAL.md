@@ -327,3 +327,15 @@ Leçon : la consigne d'adjudication d'O14 énonçait la règle testée → réf�
 adjugée biaisée. Consigne d'adjudication désormais figée dans un fichier
 (`consigne_adjudication.md`, convention de la VT). La variance entre lectures
 domine les petits effets sur 4 pages.
+
+## Audit A3 — 2026-09-28 — le même biais dans les adjudications antérieures ?
+
+Les consignes d'arbitrage d'O02-O13 disaient « espaces tels qu'imprimés ».
+Renversements retenus (deux arbitres concordants) qui suppriment un blanc
+après ponctuation : **15**, sur 5 pages (drabnota « /», abdipre « Ioã. 14. »
+→ « Ioã.14. », hackherz « 2. Cor. XII », extraudeu « L. S. », bankgraf
+« .— »). Vue prudente (ces seuls cas rendus à la référence distribuée) :
+abdipre 3 → 7, extraudeu 43 → 44, hackherz et bankgraf inchangés, drabnota
+26 → 21. **Aucune page annoncée à 0 % ne change de statut.** Les deux vues
+sont désormais rapportées quand elles diffèrent ; les adjudications futures
+suivent `consigne_adjudication.md`.
