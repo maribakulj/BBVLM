@@ -1,0 +1,20 @@
+[
+ {
+  "id": "l013",
+  "verdict": "aucun",
+  "texte_correct": "erit ſaluatio. Ioel. 3. Scietis quia ego Do-",
+  "notes": "Blanc net visible entre 'Ioel.' et '3.' (X juste). Seul ecart de X: code du trait d'union U+2010 au lieu de '-' convention; contenu = X."
+ },
+ {
+  "id": "l015",
+  "verdict": "aucun",
+  "texte_correct": "reſeω̃n. Tantum in Eccleſia ut in ſuo tem-",
+  "notes": "Glyphe en forme de ω surmonte d'un tilde net apres 'reſe' (X l'omet, Y oublie le tilde). Trait final simple '-'."
+ },
+ {
+  "id": "l016",
+  "verdict": "aucun",
+  "texte_correct": "eius nõ commouebitur. Et Pſal.2. Chri-",
+  "notes": "'Pſal.2.' serre, aucun blanc visible entre 'Pſal.' et '2.' (X et Y ont une espace). Trait final simple '-' (X correct sur ce point)."
+ }
+]

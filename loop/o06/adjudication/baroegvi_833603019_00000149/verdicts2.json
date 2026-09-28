@@ -1,0 +1,26 @@
+[
+ {
+  "id": "l009",
+  "verdict": "aucun",
+  "texte_correct": "rius peccarit, & feloniam (vt aiunt) commiſerit,",
+  "notes": "Signe final = virgule (pas point), comme Y; espaces apres ',' et ')' selon convention (ponctuation collee, mot suivant separe) comme X. Confiance moyenne sur la virgule finale."
+ },
+ {
+  "id": "l010",
+  "verdict": "aucun",
+  "texte_correct": "id eſt, atrocem noxiam. Ait, Si Vaſallus. Si totum",
+  "notes": "'eſt' avec ligature ſt -> ſ (X juste); espaces apres ponctuation par convention (Y juste). 'noxiam': o legerement abime, lu o."
+ },
+ {
+  "id": "l014",
+  "verdict": "aucun",
+  "texte_correct": "¶ Apud Galliam, de cauſis amittendi Beneficij,",
+  "notes": "Premier signe = pied-de-mouche (P inverse), ni 'P' ni 'o' -> ¶. Le trait sur le j de 'Beneficij' est son point italique, pas un tilde (Y juste). Blanc avant la virgule apres Galliam non transcrit (ponctuation collee)."
+ },
+ {
+  "id": "l017",
+  "verdict": "aucun",
+  "texte_correct": "aut filiæ adulterium, ſtuprúmve inferat: ſi noxā",
+  "notes": "'ſtuprúmve' d'un seul tenant (queue du m italique, pas de blanc) -> X; espace apres la virgule par convention -> Y. Deux-points colle a 'inferat'."
+ }
+]

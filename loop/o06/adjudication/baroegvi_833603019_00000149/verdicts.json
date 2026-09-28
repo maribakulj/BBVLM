@@ -1,0 +1,140 @@
+[
+ {
+  "id": "l000",
+  "verdict": "X",
+  "texte_correct": "rius peccarit, & feloniam (vt aiunt) commiſerit,",
+  "notes": "signe final = virgule (même forme que celle après peccarit)"
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "id eſt, atrocem noxiam. Ait, Si Vaſallus. Si totum",
+  "notes": "ligature italique ſt : ſ long"
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "¶ Apud Galliam, de cauſis amittendi Beneficij,",
+  "notes": "pied-de-mouche imprimé en tête, pas un o"
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "ca perſoluantnr, & qui nouè acquirit, in fidem",
+  "notes": "perſoluantnr d'un seul tenant (coquille nr conservée)"
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "aut filiæ adulterium, ſtuprúmve inferat: ſi noxā",
+  "notes": "ſtuprúmve sans espace"
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "Vaſallus Dominum vocauit, vt eũ de-",
+  "notes": "signe suscrit ondulé = tilde, pas accent aigu"
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "K &L",
+  "notes": "espace entre K et &, & collé à L"
+ },
+ {
+  "id": "l007",
+  "verdict": "Y",
+  "texte_correct": "DE CONSV. FEVD. LIB. II.",
+  "notes": "aucun folio 129 visible sur la ligne"
+ },
+ {
+  "id": "l008",
+  "verdict": "Y",
+  "texte_correct": "rentum fidem, niſi in Dominum ipſum Beneficia⸗",
+  "notes": "espace après virgule selon convention"
+ },
+ {
+  "id": "l009",
+  "verdict": "aucun",
+  "texte_correct": "rius peccarit, & feloniam (vt aiunt) commiſerit,",
+  "notes": "espaces selon X ; signe final virgule selon Y"
+ },
+ {
+  "id": "l010",
+  "verdict": "aucun",
+  "texte_correct": "id eſt, atrocem noxiam. Ait, Si Vaſallus. Si totum",
+  "notes": "ſ selon X ; espaces après ponctuation selon Y"
+ },
+ {
+  "id": "l011",
+  "verdict": "Y",
+  "texte_correct": "Beneficium alienat, totum amittit: ſi partem, par",
+  "notes": "espaces après ponctuation"
+ },
+ {
+  "id": "l012",
+  "verdict": "X",
+  "texte_correct": "tem eandem perdit: niſi per libellum mediam par",
+  "notes": "espace après deux-points"
+ },
+ {
+  "id": "l013",
+  "verdict": "X",
+  "texte_correct": "quodam more etiam, vrgente neceßitate vendat.",
+  "notes": "espace après virgule"
+ },
+ {
+  "id": "l014",
+  "verdict": "aucun",
+  "texte_correct": "¶ Apud Galliam, de cauſis amittendi Beneficij,",
+  "notes": "signe initial = ¶ (ni P ni o) ; trait au-dessus de ij = points de i/j, pas de tilde"
+ },
+ {
+  "id": "l015",
+  "verdict": "X",
+  "texte_correct": "pud omnes impunè alienetur, modo iura Domini⸗",
+  "notes": "espace après virgule"
+ },
+ {
+  "id": "l016",
+  "verdict": "Y",
+  "texte_correct": "nominatim expreſſerunt, ſi ſui, & Beneficij, Do⸗",
+  "notes": "espaces après virgules"
+ },
+ {
+  "id": "l017",
+  "verdict": "aucun",
+  "texte_correct": "aut filiæ adulterium, ſtuprúmve inferat: ſi noxā",
+  "notes": "espace après virgule (Y) ; ſtuprúmve soudé (X)"
+ },
+ {
+  "id": "l018",
+  "verdict": "Y",
+  "texte_correct": "&c. quæ in Methodo articulatim probantur.",
+  "notes": "espace après &c."
+ },
+ {
+  "id": "l019",
+  "verdict": "Y",
+  "texte_correct": "conſti. tit.",
+  "notes": "espace après point"
+ },
+ {
+  "id": "l020",
+  "verdict": "X",
+  "texte_correct": "ali. ꝑ Feu.",
+  "notes": "espace après point"
+ },
+ {
+  "id": "l021",
+  "verdict": "X",
+  "texte_correct": "aliquo interpellatus fuerit, & Dominus",
+  "notes": "espace après virgule"
+ },
+ {
+  "id": "l022",
+  "verdict": "X",
+  "texte_correct": "de quo ab aliquo interpellatus fuit, & ſic",
+  "notes": "espaces après virgule et après &"
+ }
+]

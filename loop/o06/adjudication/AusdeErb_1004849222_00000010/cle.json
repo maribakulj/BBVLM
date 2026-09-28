@@ -1,0 +1,34 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Ich hatte daher nicht den mindeſten Grund",
+  "Y": "Jch hatte daher nicht den mindeſten Grund",
+  "divergences_X_vers_Y": [
+   [
+    "I",
+    "J"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/AusdeErb_1004849222_00000010//p2_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Viſitando interiora terrae ratificando in-",
+  "Y": "Vilitando interiora terrae ratificando in⸗",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "l"
+   ],
+   [
+    "-",
+    "⸗"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/AusdeErb_1004849222_00000010//p2_a.txt"
+ }
+]

@@ -1,0 +1,116 @@
+[
+ {
+  "id": "l000",
+  "verdict": "Y",
+  "texte_correct": "Atqui tantum in Eccleſia uera Zion eſt,",
+  "notes": "o imprimé (trait parasite en travers), pas e"
+ },
+ {
+  "id": "l001",
+  "verdict": "X",
+  "texte_correct": "uerbum Dei purum abſqꝫ fermento hæ-",
+  "notes": "abréviation qꝫ imprimée ; trait d'union simple -"
+ },
+ {
+  "id": "l002",
+  "verdict": "X",
+  "texte_correct": "reſeω̃n. Tantum in Eccleſia ut in ſuo tem-",
+  "notes": "ω avec tilde imprimé ; trait d'union simple -"
+ },
+ {
+  "id": "l003",
+  "verdict": "X",
+  "texte_correct": "lud Ioã.14. Si quis diligit me, ſermonem",
+  "notes": "pas d'espace entre Ioã. et 14."
+ },
+ {
+  "id": "l004",
+  "verdict": "Y",
+  "texte_correct": "ubi bonitatis inexhauſtus fons ipſe Do-",
+  "notes": "trait d'union simple - (pas U+2010)"
+ },
+ {
+  "id": "l005",
+  "verdict": "X",
+  "texte_correct": "Sopho.3. Rex Iſrael Dominus in medio",
+  "notes": "pas d'espace entre Sopho. et 3."
+ },
+ {
+  "id": "l006",
+  "verdict": "X",
+  "texte_correct": "Zion, Dominus Deus tuus in medio tui,",
+  "notes": "i sans macron"
+ },
+ {
+  "id": "l007",
+  "verdict": "X",
+  "texte_correct": "eius nõ commouebitur. Et Pſal.2. Chri-",
+  "notes": "pas d'espace Pſal.2. ; trait d'union simple -"
+ },
+ {
+  "id": "l008",
+  "verdict": "X",
+  "texte_correct": "tem Zion. Iſa.27. Adorabunt Dominum",
+  "notes": "pas d'espace Iſa.27."
+ },
+ {
+  "id": "l009",
+  "verdict": "Y",
+  "texte_correct": "Conſolabitur Dominus Zion, redempti",
+  "notes": "dernière lettre abîmée mais i voulu"
+ },
+ {
+  "id": "l010",
+  "verdict": "X",
+  "texte_correct": "à Domino reuertentur in Zion laudan-",
+  "notes": "accent grave à ; trait d'union simple -"
+ },
+ {
+  "id": "l011",
+  "verdict": "X",
+  "texte_correct": "tes, & lætitia ſempiterna ſuper capita eo-",
+  "notes": "trait d'union simple -"
+ },
+ {
+  "id": "l012",
+  "verdict": "Y",
+  "texte_correct": "rum. Ioel.2. In monte Zion & Ieruſalem",
+  "notes": "pas d'espace Ioel.2."
+ },
+ {
+  "id": "l013",
+  "verdict": "partage",
+  "texte_correct": "erit ſaluatio. Ioel. 3. Scietis quia ego Do-",
+  "notes": "espace visible entre Ioel. et 3. (X) ; trait d'union simple - (Y)"
+ },
+ {
+  "id": "l014",
+  "verdict": "X",
+  "texte_correct": "monte ſancto meo, & erit Ieruſalem ſan-",
+  "notes": "trait d'union simple -"
+ },
+ {
+  "id": "l015",
+  "verdict": "aucun",
+  "texte_correct": "reſeω̃n. Tantum in Eccleſia ut in ſuo tem-",
+  "notes": "ω porte un tilde (absent de X et Y) ; trait d'union simple -"
+ },
+ {
+  "id": "l016",
+  "verdict": "aucun",
+  "texte_correct": "eius nõ commouebitur. Et Pſal.2. Chri-",
+  "notes": "pas d'espace Pſal.2. (X et Y en ont) ; trait d'union simple -"
+ },
+ {
+  "id": "l017",
+  "verdict": "X",
+  "texte_correct": "erit ſaluatio. Ioel. 3. Scietis quia ego Do-",
+  "notes": "trait d'union simple -"
+ },
+ {
+  "id": "l018",
+  "verdict": "X",
+  "texte_correct": "D 3",
+  "notes": "signature : chiffre 3 elzévirien à descendante"
+ }
+]

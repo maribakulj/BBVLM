@@ -1,0 +1,368 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "rius peccarit, & feloniam (vt aiunt) commiſerit,",
+  "Y": "rius peccarit, & feloniam (vt aiunt) commiſerit.",
+  "divergences_X_vers_Y": [
+   [
+    ",",
+    "."
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_a.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "id eſt, atrocem noxiam. Ait, Si Vaſallus. Si totum",
+  "Y": "id est, atrocem noxiam. Ait, Si Vaſallus. Si totum",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "s"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_a.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "¶ Apud Galliam, de cauſis amittendi Beneficij,",
+  "Y": "o Apud Galliam, de cauſis amittendi Beneficij,",
+  "divergences_X_vers_Y": [
+   [
+    "¶",
+    "o"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_a.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "ca perſoluantnr, & qui nouè acquirit, in fidem",
+  "Y": "ca per ſoluantnr, & qui nouè acquirit, in fidem",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_a.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "aut filiæ adulterium, ſtuprúm ve inferat: ſi noxā",
+  "Y": "aut filiæ adulterium, ſtuprúmve inferat: ſi noxā",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_a.txt"
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "Vaſallus Dominum vocauit, vt eũ de-",
+  "Y": "Vaſallus Dominum vocauit, vt eú de-",
+  "divergences_X_vers_Y": [
+   [
+    "ũ",
+    "ú"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_a.txt"
+ },
+ {
+  "id": "l006",
+  "image": "l006.png",
+  "X": "K &L",
+  "Y": "K & L",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_a.txt"
+ },
+ {
+  "id": "l007",
+  "image": "l007.png",
+  "X": "DE CONSV. FEVD. LIB. II. 129",
+  "Y": "DE CONSV. FEVD. LIB. II.",
+  "divergences_X_vers_Y": [
+   [
+    " 129",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_a.txt"
+ },
+ {
+  "id": "l008",
+  "image": "l008.png",
+  "X": "rentum fidem,niſi in Dominum ipſum Beneficia⸗",
+  "Y": "rentum fidem, niſi in Dominum ipſum Beneficia⸗",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ },
+ {
+  "id": "l009",
+  "image": "l009.png",
+  "X": "rius peccarit, & feloniam (vt aiunt) commiſerit.",
+  "Y": "rius peccarit,& feloniam (vt aiunt)commiſerit,",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ],
+   [
+    " ",
+    ""
+   ],
+   [
+    ".",
+    ","
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ },
+ {
+  "id": "l010",
+  "image": "l010.png",
+  "X": "id eſt,atrocem noxiam.Ait,Si Vaſallus. Si totum",
+  "Y": "id est, atrocem noxiam. Ait, Si Vaſallus. Si totum",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "s"
+   ],
+   [
+    "",
+    " "
+   ],
+   [
+    "",
+    " "
+   ],
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ },
+ {
+  "id": "l011",
+  "image": "l011.png",
+  "X": "Beneficium alienat,totum amittit:ſi partem,par",
+  "Y": "Beneficium alienat, totum amittit: ſi partem, par",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ],
+   [
+    "",
+    " "
+   ],
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ },
+ {
+  "id": "l012",
+  "image": "l012.png",
+  "X": "tem eandem perdit: niſi per libellum mediam par",
+  "Y": "tem eandem perdit:niſi per libellum mediam par",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ },
+ {
+  "id": "l013",
+  "image": "l013.png",
+  "X": "quodam more etiam, vrgente neceßitate vendat.",
+  "Y": "quodam more etiam,vrgente neceßitate vendat.",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ },
+ {
+  "id": "l014",
+  "image": "l014.png",
+  "X": "P Apud Galliam, de cauſis amittendi Beneficij̃,",
+  "Y": "o Apud Galliam, de cauſis amittendi Beneficij,",
+  "divergences_X_vers_Y": [
+   [
+    "P",
+    "o"
+   ],
+   [
+    "̃",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ },
+ {
+  "id": "l015",
+  "image": "l015.png",
+  "X": "pud omnes impunè alienetur, modo iura Domini⸗",
+  "Y": "pud omnes impunè alienetur,modo iura Domini⸗",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ },
+ {
+  "id": "l016",
+  "image": "l016.png",
+  "X": "nominatim expreſſerunt,ſi ſui,& Beneficij, Do⸗",
+  "Y": "nominatim expreſſerunt, ſi ſui, & Beneficij, Do⸗",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ],
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ },
+ {
+  "id": "l017",
+  "image": "l017.png",
+  "X": "aut filiæ adulterium,ſtuprúmve inferat: ſi noxā",
+  "Y": "aut filiæ adulterium, ſtuprúm ve inferat: ſi noxā",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ],
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ },
+ {
+  "id": "l018",
+  "image": "l018.png",
+  "X": "&c.quæ in Methodo articulatim probantur.",
+  "Y": "&c. quæ in Methodo articulatim probantur.",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ },
+ {
+  "id": "l019",
+  "image": "l019.png",
+  "X": "conſti.tit.",
+  "Y": "conſti. tit.",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ },
+ {
+  "id": "l020",
+  "image": "l020.png",
+  "X": "ali. ꝑ Feu.",
+  "Y": "ali.ꝑ Feu.",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ },
+ {
+  "id": "l021",
+  "image": "l021.png",
+  "X": "aliquo interpellatus fuerit, & Dominus",
+  "Y": "aliquo interpellatus fuerit,& Dominus",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ },
+ {
+  "id": "l022",
+  "image": "l022.png",
+  "X": "de quo ab aliquo interpellatus fuit, & ſic",
+  "Y": "de quo ab aliquo interpellatus fuit,&ſic",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ],
+   [
+    " ",
+    ""
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o06/baroegvi_833603019_00000149//p2_b.txt"
+ }
+]

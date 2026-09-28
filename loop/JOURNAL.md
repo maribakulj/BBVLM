@@ -60,3 +60,14 @@ glauanno 0 %, fiscfrie 0 % sans R1 (2,74 % avec), heshwarh 0,07 %, catapabin
 nom connu. R1 réécrite (P2) : conditionnée à la déclaration « fraktur » du lecteur.
 
 ## S01 — kraken 7.1.1 installé (pip), segmentation blla en cours sur 17 pages.
+
+## O06 — 2026-09-28 — P2 validée, variance entre passes = prochain verrou
+
+BiedBern 0 % (deux passes) ; R1 conditionnée : 0 régression, gains en Fraktur.
+Écart entre deux passes jusqu'à ×4 (baroegvi 0,60 / 2,57 %).
+
+## S01/E01/G03 — premier ALTO bout-en-bout au critère gelé
+
+kraken blla + resserrement sur l'encre du polygone + texte VLM + connexe :
+CRITERE tenu sur 4 pages sans aucune référence en entrée. Fraktur serrés :
+frontières < 95 %.

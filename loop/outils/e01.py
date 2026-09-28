@@ -16,9 +16,9 @@ M = '/home/user/BBVLM/src'; sys.path[:0] = [M, M+'/boxers']
 import judge, connexe, corpora
 
 
-def e01(dossier, lecture, boxer):
+def e01(dossier, lecture, boxer, fichier='kraken.json'):
     page, echec_compte = charge(dossier, lecture)
-    kr = [l['bbox'] for l in json.load(open(f'{dossier}/kraken.json'))['lignes']]
+    kr = [l['bbox'] for l in json.load(open(f'{dossier}/{fichier}'))['lignes']]
     ref = [ln.line_box for ln in page.lines]
     s = evalue(ref, kr) if ref else {}
     Mx = np.array([[iou(r, k) for k in kr] for r in ref]) if kr and ref else np.zeros((len(ref), 0))
