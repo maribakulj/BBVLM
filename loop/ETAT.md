@@ -18,6 +18,12 @@ Ordre imposé : OCR texte brut parfait sur une page → ALTO → le reste.
 
 ## Règles
 
+0. **Concurrence avec astra** (branche `origin/codex/autonomous-research-a34`) :
+   à chaque itération, `git fetch` puis lire ses nouveaux commits et en tirer
+   ce qui sert (idées, données, résultats négatifs), consigné dans
+   `CONCURRENT.md`. Réveil de la boucle ≤ 2 min ; travailler en parallèle
+   des sous-agents en cours.
+
 1. Revue de littérature AVANT toute hypothèse (`LITTERATURE.md`). Réutiliser
    ce qui existe ; ne réinventer que ce qui manque.
 2. Lecteurs VLM = sous-agents Claude (Opus, Sonnet) lisant les images, à

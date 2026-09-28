@@ -1,0 +1,18 @@
+[
+ {"id":"l000","verdict":"Y","texte_correct":"Erſte Buch Moſe.","notes":["' 188' : aucun chiffre visible après 'Moſe.' sur la ligne."]},
+ {"id":"l001","verdict":"Y","texte_correct":"tes: Jch bin der Allmechtige Gott wan⸗","notes":["I/J : initiale Fraktur à longue descendante, transcrite J (Jch)."]},
+ {"id":"l002","verdict":"Y","texte_correct":"dele fuͤr mir vnd ſey from/ ſonderlich in","notes":["ü/uͤ : petit signe suscrit sur u, même forme que l'e suscrit de 'ſtuͤck' (l009) dans cet imprimé ; jugement moins sûr à cette résolution."]},
+ {"id":"l003","verdict":"X","texte_correct":"das 3. Wegẽ des gehorſams Abrahams.","notes":["ẽ/ê : signe d'abréviation nasale (Wegen) sur e, à noter ẽ et non circonflexe."]},
+ {"id":"l004","verdict":"X","texte_correct":"Jn das 4. Wegen des exempels der","notes":["J/I : même initiale à descendante que 'Jch', donc J."]},
+ {"id":"l005","verdict":"X","texte_correct":"zu dem glauben/weil wir vornemen: dz","notes":["espace après '/' : la barre oblique touche 'weil', pas d'espace."]},
+ {"id":"l006","verdict":"X","texte_correct":"heiſchung vnd wort/gilt es allemal eins","notes":["espace après '/' : 'wort/gilt' est collé."]},
+ {"id":"l007","verdict":"X","texte_correct":"volkommen/mus immer zunehmen vnd","notes":["espace après '/' : 'volkommen/mus' est collé."]},
+ {"id":"l008","verdict":"Y","texte_correct":"Heiligen Mann immer weiter gefuͤrt/","notes":["ü/uͤ : e suscrit visible au-dessus du u de 'gefuͤrt'."]},
+ {"id":"l009","verdict":"X","texte_correct":"vnd jmmer newe ſtuͤck furgehalten/ ſo","notes":["uͤ/ü : e suscrit nettement visible sur 'ſtuͤck'."]},
+ {"id":"l010","verdict":"Y","texte_correct":"ob wol ſich die ſache vnd handel mãcher⸗","notes":["ä/ã : signe d'abréviation nasale sur a (mancherley), pas un tréma."]},
+ {"id":"l011","verdict":"X","texte_correct":"er das widergibt/denſelben glauben/","notes":["espace après '/' : 'widergibt/denſelben' est collé."]},
+ {"id":"l012","verdict":"Y","texte_correct":"gleich wie ein heiß eiſſen/von ſich ſelbſt","notes":["espace après '/' : 'eiſſen/von' est collé."]},
+ {"id":"l013","verdict":"partage","texte_correct":"erkaltet/als es auſſer dem fewr koͤmpt:","notes":["espace après '/' : 'erkaltet/als' est collé, Y a raison.","oͤ/ö : e suscrit sur o de 'koͤmpt', X a raison."]},
+ {"id":"l014","verdict":"Y","texte_correct":"wort","notes":["'Aa ' : aucune signature visible sur la ligne, seul le mot de réclame.","e/o : deuxième lettre arrondie des deux côtés, donc o (réclame 'wort')."]},
+ {"id":"l015","verdict":"X","texte_correct":"wort","notes":["'A a ' : aucune signature visible, seul 'wort'."]}
+]
