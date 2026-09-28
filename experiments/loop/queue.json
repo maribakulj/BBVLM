@@ -1647,6 +1647,75 @@
         "scripts/isolate_predicted_contours_a82.py"
       ],
       "timeout_seconds": 120
+    },
+    {
+      "id": "a83_weights",
+      "kind": "command",
+      "resource": "io",
+      "deps": [
+        "a82_isolate"
+      ],
+      "inputs": [
+        "scripts/restore_public_assets.py",
+        "experiments/loop/assets.json",
+        "experiments/loop/next-a83/PROTOCOL.md"
+      ],
+      "outputs": [
+        "models/pero.zip"
+      ],
+      "argv": [
+        "{python}",
+        "scripts/restore_public_assets.py",
+        "--only",
+        "models/pero.zip"
+      ],
+      "timeout_seconds": 900
+    },
+    {
+      "id": "a83_measure",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a83_weights"
+      ],
+      "inputs": [
+        "scripts/measure_pero_stages_a83.py",
+        "experiments/loop/next-a83/PROTOCOL.md",
+        "experiments/loop/next-a80/dense/assets.json",
+        "experiments/loop/next-a81/private-map.json",
+        "models/pero/pero_eu_cz_print_newspapers_2022-09-26/config_cpu.ini",
+        "models/pero/pero_eu_cz_print_newspapers_2022-09-26/ParseNet_296000.pt.cpu"
+      ],
+      "outputs": [
+        "experiments/loop/next-a83/predictions.json",
+        "experiments/loop/next-a83/report.json"
+      ],
+      "argv": [
+        "/workspace/scratch/cecc4cd83a9f/a66-venv/bin/python",
+        "scripts/measure_pero_stages_a83.py"
+      ],
+      "timeout_seconds": 900
+    },
+    {
+      "id": "a83_mapping_audit",
+      "kind": "command",
+      "resource": "cpu",
+      "deps": [
+        "a83_measure"
+      ],
+      "inputs": [
+        "scripts/audit_pero_crop_mapping_a83.py",
+        "experiments/loop/next-a83/predictions.json",
+        "experiments/loop/next-a81/private-map.json"
+      ],
+      "outputs": [
+        "experiments/loop/next-a83/mapping-audit.json"
+      ],
+      "argv": [
+        "/workspace/scratch/cecc4cd83a9f/a66-venv/bin/python",
+        "scripts/audit_pero_crop_mapping_a83.py"
+      ],
+      "timeout_seconds": 180
     }
   ]
 }

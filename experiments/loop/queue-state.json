@@ -899,6 +899,43 @@
         "experiments/loop/next-a82/blind/request.json": "73552e3a4fb9b9e38ff132f69316d57faca1c734cf9ced8ca4506ba6e17a3a9e"
       },
       "ended_at": 1790613513.000618
+    },
+    "a83_weights": {
+      "status": "completed",
+      "started_at": 1790613777.665753,
+      "fingerprint": "fab60fca6c1fce03cceb7db955f78a80938414c4100353a3d817bf875bfe3177",
+      "pid": 10,
+      "log": "experiments/loop/logs/a83_weights.log",
+      "returncode": 0,
+      "outputs": {
+        "models/pero.zip": "cb38dd0792c7145b8ba4dd64df255980e4633f4ca1d406f7f230b9c174c0c70d"
+      },
+      "ended_at": 1790613817.6517525
+    },
+    "a83_measure": {
+      "status": "completed",
+      "started_at": 1790613967.7852297,
+      "fingerprint": "a539e683430102400df34bab7e4575710b14c4a731cc75390eee53712fd72b13",
+      "pid": 9,
+      "log": "experiments/loop/logs/a83_measure.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a83/predictions.json": "313b3dc3f24675f64e7af43c1f20f035dfada8aa8c897d1a92c854c8bfa71678",
+        "experiments/loop/next-a83/report.json": "dd9596c78fe1fd64c685b2558ea7528bba226dc3e12972c3da2c93cae0b8138a"
+      },
+      "ended_at": 1790614003.0419672
+    },
+    "a83_mapping_audit": {
+      "status": "completed",
+      "started_at": 1790614040.921061,
+      "fingerprint": "759f5bd52fceb6e6fb0882f9e68fe966e4915f7c1adafff6b9a3c6c98501ad42",
+      "pid": 8,
+      "log": "experiments/loop/logs/a83_mapping_audit.log",
+      "returncode": 0,
+      "outputs": {
+        "experiments/loop/next-a83/mapping-audit.json": "cff1de9ec6516acc71b8c6ab55b862f4ba5d47176b91532d9bea756ccc5fa09f"
+      },
+      "ended_at": 1790614052.9468236
     }
   },
   "a66_reference_append_recovery": {

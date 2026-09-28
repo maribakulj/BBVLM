@@ -230,3 +230,7 @@ Lecture réelle8crops prédits : quatre des six appariés sont normalisés exact
 ## A82 — masque rejeté
 
 Contour prédit +2px : contamination−99,85 % sur la ligne inclinée, mais conservation d’encre<99,5 % sur4/6cibles. Rejet avant toute nouvelle passe VLM ;1,39sCPU. Voir next-a82/RESULTS.md. Suite : étages layout/crop PERO isolés, sans reconnaisseur.
+
+## A83 — PERO layout/crop seuls
+
+Quatre pages, six forwards ParseNet, zéro modèle/passe OCR :25,565s layout +3,889s crops.1317/1343appariementsIoU50, compromis de précision sur1866. Crop incliné : contamination45,14 %→0,175 %, couverture99,42 % ; deux autres contaminations augmentent. Voir next-a83/RESULTS.md.

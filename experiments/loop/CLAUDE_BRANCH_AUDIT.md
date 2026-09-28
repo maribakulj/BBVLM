@@ -168,3 +168,6 @@ Claude inchangé76056c5c1957e0de4232f0aef1f6cbc7f2893402 ; parent Codex d8ad16ea
 
 ## A82 —2026-09-28
 Contrôle après commit A81 `72c77c5ef7c3a3cbbc8ac2300da49da744105635` : Claude toujours `76056c5c1957e0de4232f0aef1f6cbc7f2893402`. Aucune fusion/main/master.
+
+## A83 —2026-09-28
+Claude recontrôlé inchangé `76056c5c1957e0de4232f0aef1f6cbc7f2893402` ; parent Codex `96736c13f058ea739657b54d12e92db5084add2e`. Aucun merge/main/master.

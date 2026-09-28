@@ -1108,5 +1108,14 @@
     "local_gate_passed": false,
     "new_model_forwards": 0,
     "global_completion": false
+  },
+  "pero_stages_a83": {
+    "status": "completed_consumed_pero_layout_crop_only",
+    "report": "next-a83/report.json",
+    "mapping_audit": "next-a83/mapping-audit.json",
+    "layout_forwards": 6,
+    "ocr_calls": 0,
+    "ocr_models_loaded": 0,
+    "global_completion": false
   }
 }

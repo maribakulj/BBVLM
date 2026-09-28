@@ -1,0 +1,97 @@
+{
+  "status": "consumed_pero_layout_crop_only",
+  "pages": {
+    "Reichs_Post_Reuter_1700-11-16_0004": {
+      "candidates": 49,
+      "reference_lines": 46,
+      "matched_pairs": 46,
+      "mean_assigned_iou": 0.8790936807716652,
+      "iou50": {
+        "true_matches": 46,
+        "precision": 0.9387755102040817,
+        "recall": 1.0,
+        "f1": 0.968421052631579
+      },
+      "iou70": {
+        "true_matches": 46,
+        "precision": 0.9387755102040817,
+        "recall": 1.0,
+        "f1": 0.968421052631579
+      },
+      "candidate_merges_iou_gt10": 46,
+      "reference_fragments_iou_gt10": 45
+    },
+    "Holzmindisches_Wochenblatt_1785-07-30_0006": {
+      "candidates": 30,
+      "reference_lines": 30,
+      "matched_pairs": 30,
+      "mean_assigned_iou": 0.901774943604934,
+      "iou50": {
+        "true_matches": 29,
+        "precision": 0.9666666666666667,
+        "recall": 0.9666666666666667,
+        "f1": 0.9666666666666667
+      },
+      "iou70": {
+        "true_matches": 29,
+        "precision": 0.9666666666666667,
+        "recall": 0.9666666666666667,
+        "f1": 0.9666666666666667
+      },
+      "candidate_merges_iou_gt10": 19,
+      "reference_fragments_iou_gt10": 17
+    },
+    "Koelnische_Zeitung_1866-06_1866-09_0539": {
+      "candidates": 685,
+      "reference_lines": 589,
+      "matched_pairs": 589,
+      "mean_assigned_iou": 0.9138337008220204,
+      "iou50": {
+        "true_matches": 580,
+        "precision": 0.8467153284671532,
+        "recall": 0.9847198641765704,
+        "f1": 0.9105180533751962
+      },
+      "iou70": {
+        "true_matches": 575,
+        "precision": 0.8394160583941606,
+        "recall": 0.9762308998302207,
+        "f1": 0.9026687598116169
+      },
+      "candidate_merges_iou_gt10": 533,
+      "reference_fragments_iou_gt10": 533
+    },
+    "Koelnische_Zeitung_1924_0018": {
+      "candidates": 669,
+      "reference_lines": 678,
+      "matched_pairs": 669,
+      "mean_assigned_iou": 0.8437316253813439,
+      "iou50": {
+        "true_matches": 662,
+        "precision": 0.9895366218236173,
+        "recall": 0.976401179941003,
+        "f1": 0.9829250185597624
+      },
+      "iou70": {
+        "true_matches": 651,
+        "precision": 0.9730941704035875,
+        "recall": 0.9601769911504425,
+        "f1": 0.9665924276169265
+      },
+      "candidate_merges_iou_gt10": 626,
+      "reference_fragments_iou_gt10": 626
+    }
+  },
+  "load_seconds": 0.24162286900536856,
+  "layout_seconds": 25.564819542996702,
+  "crop_seconds": 3.889158600002702,
+  "extra_mapping_crop_seconds": 0.014398973995412234,
+  "layout_forwards": 6,
+  "ocr_models_loaded": 0,
+  "ocr_calls": 0,
+  "decoder_calls": 0,
+  "prediction_sha256_before_xml": "313b3dc3f24675f64e7af43c1f20f035dfada8aa8c897d1a92c854c8bfa71678",
+  "seconds": 31.303153231005126,
+  "test_pages_opened": 0,
+  "global_completion": false
+}

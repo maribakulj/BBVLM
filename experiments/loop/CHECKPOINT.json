@@ -1,6 +1,6 @@
 {
   "schema": "bbvlm.loop-checkpoint/1",
-  "updated_unix": 1790613631.4537354,
+  "updated_unix": 1790614144.8046002,
   "status": "in_progress",
   "phases": [
     {
@@ -24257,6 +24257,15 @@
       "local_gate_passed": false,
       "new_model_forwards": 0,
       "global_completion": false
+    },
+    "pero_stages_a83": {
+      "status": "completed_consumed_pero_layout_crop_only",
+      "report": "next-a83/report.json",
+      "mapping_audit": "next-a83/mapping-audit.json",
+      "layout_forwards": 6,
+      "ocr_calls": 0,
+      "ocr_models_loaded": 0,
+      "global_completion": false
     }
   },
   "model_policy": {
@@ -24265,6 +24274,7 @@
     "rule": "Use one primary reader; call a stronger model only on explicit uncertainty, structural failure, glyph-convention risk or unresolved disagreement. Do not run all three models routinely."
   },
   "next_research": [
+    "A83 real minimal PERO: layout25.565s + crop3.889s/4pages,6 adaptive detector forwards,0 OCR models/calls.1317/1343 IoU50 matches vsA80 1272, but1866precision lower. Slanted crop contamination45.14%->.175% with assigned ink99.42%; contamination increases on two others. Next A84 blind native-scale rectified crop OCR, reuse detection only, no recognizer. No perfect geometry or independent zero claim; all gates false.",
     "A82 rejects predicted-contour+2px masking: neighboring ink reduced99.85% on slanted case, but4/6 crops retain<99.5% assigned ink.1.39s CPU, no VLM/model. Next A83 restore minimal PERO layout/crop stages and measure predicted baseline/height extraction separately from recognition; no full OCR merely to get crops. Keep source and all diagnostic images; no retuning mask radius on A82.100Test intact, all gates false.",
     "A81 actual blind8-crop audit: Luna4/6 normalized-exact,56/272 lexical edits dominated by neighboring-line contamination. A96.86% rectangle IoU crop includes45.19% ink attributed to other PAGE lines. Targeted fresh Sol with principal-line prompt gets0/126 lexical on3 oracle-selected crops; no independent zero claim or causal model comparison. Next A82 predicted contour/baseline crop isolation, preserve ink and assess contamination; cropper PERO code read, no full OCR required.100Test untouched, all gates false.",
     "A80 frozen four-page transfer passes local noninferiority, +1 IoU50 match, zero losses;17 links,1405->1388 candidates. Dense113.275s/92 tile forwards + routed7.364s/4 YOLO.1785 precision still47.62%. Next A81 blind predicted-crop OCR/type audit, consumed diagnostic; no global promotion,100Test untouched.",

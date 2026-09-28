@@ -1,0 +1,134 @@
+{
+  "status": "consumed_source_coordinate_support_audit",
+  "rows": [
+    {
+      "id": "V243d7aaa",
+      "association_predicted_box_iou": 0.9082810592386309,
+      "a80_rectangle": {
+        "assigned_ink_retained": 21540,
+        "assigned_ink_total": 21540,
+        "assigned_ink_recall": 1.0,
+        "other_line_ink": 19419,
+        "crop_ink": 43017,
+        "other_line_ink_fraction": 0.45142618034730453
+      },
+      "pero_baseline_support": {
+        "assigned_ink_retained": 21415,
+        "assigned_ink_total": 21540,
+        "assigned_ink_recall": 0.994196843082637,
+        "other_line_ink": 40,
+        "crop_ink": 22850,
+        "other_line_ink_fraction": 0.00175054704595186
+      }
+    },
+    {
+      "id": "V82cc0195",
+      "association_predicted_box_iou": 0.9354697026417498,
+      "a80_rectangle": {
+        "assigned_ink_retained": 10308,
+        "assigned_ink_total": 10308,
+        "assigned_ink_recall": 1.0,
+        "other_line_ink": 410,
+        "crop_ink": 10718,
+        "other_line_ink_fraction": 0.03825340548609815
+      },
+      "pero_baseline_support": {
+        "assigned_ink_retained": 10305,
+        "assigned_ink_total": 10308,
+        "assigned_ink_recall": 0.9997089639115251,
+        "other_line_ink": 0,
+        "crop_ink": 10305,
+        "other_line_ink_fraction": 0.0
+      }
+    },
+    {
+      "id": "Vde9f1e1c",
+      "association_predicted_box_iou": 0.8076595464700841,
+      "a80_rectangle": {
+        "assigned_ink_retained": 10179,
+        "assigned_ink_total": 10220,
+        "assigned_ink_recall": 0.9959882583170254,
+        "other_line_ink": 18,
+        "crop_ink": 10197,
+        "other_line_ink_fraction": 0.00176522506619594
+      },
+      "pero_baseline_support": {
+        "assigned_ink_retained": 10197,
+        "assigned_ink_total": 10220,
+        "assigned_ink_recall": 0.9977495107632094,
+        "other_line_ink": 10,
+        "crop_ink": 10207,
+        "other_line_ink_fraction": 0.0009797198001371607
+      }
+    },
+    {
+      "id": "V31521ffb",
+      "association_predicted_box_iou": 0.8275774949560224,
+      "a80_rectangle": {
+        "assigned_ink_retained": 11838,
+        "assigned_ink_total": 11983,
+        "assigned_ink_recall": 0.9878995243261287,
+        "other_line_ink": 216,
+        "crop_ink": 12054,
+        "other_line_ink_fraction": 0.017919362867098058
+      },
+      "pero_baseline_support": {
+        "assigned_ink_retained": 11896,
+        "assigned_ink_total": 11983,
+        "assigned_ink_recall": 0.9927397145956772,
+        "other_line_ink": 0,
+        "crop_ink": 11896,
+        "other_line_ink_fraction": 0.0
+      }
+    },
+    {
+      "id": "Vf9528632",
+      "association_predicted_box_iou": 0.766786917621395,
+      "a80_rectangle": {
+        "assigned_ink_retained": 4793,
+        "assigned_ink_total": 4954,
+        "assigned_ink_recall": 0.9675010092854259,
+        "other_line_ink": 22,
+        "crop_ink": 4815,
+        "other_line_ink_fraction": 0.004569055036344756
+      },
+      "pero_baseline_support": {
+        "assigned_ink_retained": 4954,
+        "assigned_ink_total": 4954,
+        "assigned_ink_recall": 1.0,
+        "other_line_ink": 76,
+        "crop_ink": 5030,
+        "other_line_ink_fraction": 0.015109343936381709
+      }
+    },
+    {
+      "id": "V6011b467",
+      "association_predicted_box_iou": 0.7105230113247806,
+      "a80_rectangle": {
+        "assigned_ink_retained": 5858,
+        "assigned_ink_total": 5992,
+        "assigned_ink_recall": 0.9776368491321762,
+        "other_line_ink": 270,
+        "crop_ink": 6128,
+        "other_line_ink_fraction": 0.04406005221932115
+      },
+      "pero_baseline_support": {
+        "assigned_ink_retained": 5949,
+        "assigned_ink_total": 5992,
+        "assigned_ink_recall": 0.9928237650200267,
+        "other_line_ink": 798,
+        "crop_ink": 6747,
+        "other_line_ink_fraction": 0.11827478879502001
+      }
+    }
+  ],
+  "method": "Whole-page Otsu fixed per image; PAGE polygons source attribution; PERO support rasterized from forward-map boundary",
+  "limitations": [
+    "Polygon/Otsu support proxy is not glyph truth",
+    "Rounding/interpolation boundary not exact subpixel visibility",
+    "No word geometry or OCR CER measured",
+    "Predicted crop association chosen by image-derived boxes; source sample itself consumed/oracle-selected"
+  ],
+  "new_model_forwards": 0,
+  "global_completion": false
+}
