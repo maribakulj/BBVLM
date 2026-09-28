@@ -30,6 +30,9 @@ def post(lignes):
         # L1 (après O15) : l'abréviation latine « -que » (q + ꝫ final) est codée
         # par la VT OCR-D/SBB en ligature MUFI PUA : U+E8BF, et U+F50D avec accent
         t = t.replace('q\u0301\ua76b', '\uf50d').replace('q\ua76b', '\ue8bf')
+    if os.environ.get('BBVLM_APOS', '1') == '1':
+        # L2 : la VT SBB code toute apostrophe en ' droite (29 pages, aucune ’)
+        t = t.replace('\u2019', "'")
     e_ok = inflexion in (None, 'e')   # R1, R2 supposent l'inflexion notée par e suscrit (herbdulc : anneau)
     if ecriture == 'fraktur' and 'ů' not in t and e_ok:
         for c, v in TREMA.items(): t = t.replace(c, v+E_)

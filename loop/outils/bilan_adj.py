@@ -7,14 +7,17 @@ lecture : CER contre la référence distribuée et contre la référence adjugé
 et le nombre de caractères où la référence distribuée se trompait.
 usage : python bilan_adj.py DOSSIER_PAGE LECTURE...
 """
-import json, sys
+import json, os, sys
 from cer import vue, lev, score
 
 
 def _pua(t):
     # même table PUA que p2 (L1) : l'arbitre qui écrit « qꝫ » désigne le glyphe U+E8BF de la VT
-    return t.replace('q\u0301\ua76b', '\uf50d').replace('q\ua76b', '\ue8bf')
-import os
+    t = t.replace('q\u0301\ua76b', '\uf50d').replace('q\ua76b', '\ue8bf')
+    # L2 : la VT SBB code toute apostrophe en ' droite (29/29 pages, 0 ’) ; l'arbitre
+    # qui écrit ’ « tel qu'imprimé » désigne le même signe
+    if os.environ.get('BBVLM_APOS', '1') == '1': t = t.replace('\u2019', "'")
+    return t
 A1 = os.environ.get('BBVLM_A1') == '1'
 
 

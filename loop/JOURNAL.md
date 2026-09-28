@@ -472,3 +472,18 @@ PUA avant comparaison. Alors 702 → **646**, aucune régression (busmexpo 30 �
 6, AmmoLIBR 22 → 11, culmsent 14 → 2). Les scores finals déjà publiés restent
 identiques (AmmoLIBR 0, culmsent 1, busmexpo 2, cingdei 13) ; les sorties
 suivent désormais le codage de la VT.
+
+## L2 — 2026-09-28 — apostrophe : convention de la VT (' droite) — adopté
+
+Inventaire des fautes résiduelles O10-O15 : « ’ (réf.) → ' (lu) » 10 éditions,
+toutes sur dalarie (O14). Les références distribuées codent l'apostrophe en
+' U+0027 (29 pages, aucune ’) ; les lignes directrices OCR-D ne prescrivent
+rien (L12, règle jamais rédigée). Les ’ des références adjugées venaient des
+arbitres, à qui la consigne demandait « l'apostrophe telle qu'imprimée » :
+artefact de convention, comme L1. Correctifs : ’ → ' dans p2, à la fusion
+P3 et dans le texte des arbitres au bilan (BBVLM_APOS=0 pour l'ancien
+comportement) ; consigne_adjudication.md : « apostrophe toujours ' droite ».
+Mesure (référence adjugée A2, sorties finales refondues, 22 pages O10-O15) :
+226 → **215** éditions ; dalarie 10 → **0** (7ᵉ page neuve à 0) ;
+852691769 reste à 0 (D’ARGENTVILLE lu ’, désormais ') ; aucune régression.
+C'est une correction de convention d'évaluation, pas un gain de lecture.

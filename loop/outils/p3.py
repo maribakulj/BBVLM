@@ -81,7 +81,8 @@ def fusionne(d):
     from p2 import JETONS                 # l'arbitre écrit aussi les jetons {florin}…
     def dejeton(t):
         for j, c in JETONS.items(): t = t.replace(j, c)
-        return t.replace('q\u0301\ua76b', '\uf50d').replace('q\ua76b', '\ue8bf')   # L1 (même table que p2)
+        t = t.replace('q\u0301\ua76b', '\uf50d').replace('q\ua76b', '\ue8bf')   # L1 (même table que p2)
+        return t.replace('\u2019', "'") if os.environ.get('BBVLM_APOS', '1') == '1' else t   # L2
     out = [dejeton(v[f'l{i:03d}']['texte_correct']) if f'l{i:03d}' in v else a for i, a in enumerate(A)]
     try: ins = json.load(open(f'{d}/p3/insertions.json'))
     except FileNotFoundError: ins = []

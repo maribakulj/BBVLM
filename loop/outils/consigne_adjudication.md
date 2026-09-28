@@ -8,7 +8,7 @@ qu'une expérience teste :
   simple ; ꝛ r rotunda ; abréviations conservées avec leur signe ; ligatures
   en lettres séparées ; orthographe exactement comme imprimé (coquilles,
   lettres retournées comprises) ; majuscule J si elle descend sous la ligne de
-  base, sinon I ; apostrophe telle qu'imprimée (’ courbe, ' droite).
+  base, sinon I ; apostrophe toujours ' droite U+0027 (convention VT, L2).
 - Espaces : ils séparent les mots. La ponctuation est collée au mot
   précédent. Après une virgule, un point-virgule, un deux-points : une espace
   (convention de la VT, même si l'imprimé est serré). Abréviations serrées

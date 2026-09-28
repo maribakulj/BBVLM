@@ -180,3 +180,12 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
   chercher par projection horizontale les bandes d'encre que les lignes
   kraken ne couvrent pas ; les proposer comme lignes candidates à l'ancrage
   Tesseract (S05). Complément ciblé, pas un second segmenteur.
+
+## L12 — OCR-D gt-guidelines (GitHub OCR-D/gt-guidelines), apostrophe
+- Source : dépôt `OCR-D/gt-guidelines` (ocr-d.de bloqué par le réseau) ; `de/trans/trAnfZeichen.dita`, liste de contrôle des ditamaps.
+- Apport : ’ U+2019 n'y figure que comme guillemet simple fermant ; la règle
+  « trApostrophe » est restée non rédigée (« [ ] trApostrophe.dita => Kommentar »).
+  Aucune prescription publiée : la convention effective est celle des VT SBB
+  distribuées, qui codent toute apostrophe en ' U+0027 (29 pages, 0 ’).
+- Limite : convention observée sur notre échantillon seulement ; d'autres
+  corpus OCR-D peuvent coder ’.
