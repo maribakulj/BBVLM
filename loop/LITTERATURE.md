@@ -207,3 +207,11 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
   ligne de base locale appartient à cette ligne.
 - Limite : manuscrits surtout ; les composantes réellement « touchantes »
   (deux lignes soudées) exigent une découpe, non traitée ici.
+
+## L15 — confiance déclarée des VLM : « Overconfidence is Key » (Groot & Valdenegro-Toro, 2024, arXiv 2405.02917) ; « Small VLMs Know When They Are Wrong But Cannot Say So » (2026, arXiv 2607.22034)
+- Apport : la confiance verbalisée des LLM/VLM est mal calibrée et surtout
+  trop haute ; le signal interne existe mais n'est pas exprimé.
+- Conséquence : ne pas fonder le choix des lignes à relire sur l'incertitude
+  déclarée par le lecteur (hypothèse écartée sans lecture VLM). Le désaccord
+  entre deux lectures reste le seul signal mesuré qui marche (P3).
+- Limite : études sur VQA/objets, pas sur la transcription diplomatique.
