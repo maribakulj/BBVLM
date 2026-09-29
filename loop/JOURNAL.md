@@ -622,3 +622,18 @@ TextLine (serre.py écrit `bbox` G03 pour les mots et `bbox_g04` pour la ligne ;
 vers_alto : BBVLM_LIGNE_G04=0 pour l'ancien). Boîtes de mots strictement
 inchangées (0/1195 différentes). Piste : recaler le calcul des mots sur la
 boîte G04b.
+
+## M01 — 2026-09-29 — rattacher les signes suscrits à leur lettre dans le filtre de composantes — rejeté
+
+Cause identifiée de la sensibilité du calcul des mots à la boîte de ligne :
+`connexe` garde une composante si son centre est à < 0,45·h du centre de la
+boîte ; trop haute (G03 sur hackherz), elle garde les jambages de la ligne du
+dessus ; serrée (G04b), elle perd des signes hauts. M01 (`satellites.py`) :
+composante rejetée rendue à la ligne si petite (≤ 0,5 h), au-dessus du centre,
+posée sur une composante gardée à ≤ 0,35 h. Texte+IoU80, 3 pages :
+culmsent G03 0,809 / +sat 0,717 / G04b 0,717 / G04b+sat 0,706 ;
+hackherz 0,568 / **0,174** / 0,791 / 0,641 ; heptaldai 0,418 / 0,398 / 0,403 / 0,393.
+La règle attache aussi des lettres entières de la ligne du dessus (petites,
+posées sur nos hampes) : trop large. Et culmsent recule même avec G03 : les
+signes suscrits ne sont pas la seule cause de sa régression sous G04b.
+Non adopté (BBVLM_SAT reste à 0). La boîte G04b reste réservée à la ligne publiée.
