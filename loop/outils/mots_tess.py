@@ -22,7 +22,7 @@ def mots_ligne(gray, box, lang, cache, k):
     out = []
     if crop.size:
         ok, png = cv2.imencode('.png', crop)
-        r = subprocess.run(['tesseract', 'stdin', 'stdout', '--tessdata-dir', TESSDATA, '-l', lang, '--psm', '7', 'tsv'],
+        r = subprocess.run(['tesseract', 'stdin', 'stdout', '--tessdata-dir', TESSDATA, '-l', lang, '--psm', '7', '-c', 'tessedit_create_tsv=1'],
                            input=png.tobytes(), capture_output=True, env={**os.environ, 'OMP_THREAD_LIMIT': '1'})
         for l in r.stdout.decode('utf-8', 'replace').splitlines()[1:]:
             c = l.split('\t')
