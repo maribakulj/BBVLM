@@ -717,3 +717,15 @@ digital.staatsbibliothek-berlin.de, oai.sbb.berlin, lab.sbb.berlin,
 zenodo.org, huggingface.co. Il suffirait d'autoriser lab.sbb.berlin (ou
 zenodo.org) pour disposer d'une VT de métadonnées (titre, auteur, lieu, date,
 imprimeur) sur les 67 œuvres.
+
+## C-balayage 2 — 2026-09-29 — CRITERE sur 40 pages, chaîne actuelle
+
+CRITERE (e01, lignes kraken appariées à la VT) avec le calcul des mots de la
+chaîne (G05 : boîte G04b sur pages contaminées ; B04 + H01 sur pages
+penchées) : **16/40** ; avec Route sur G03 (ancien) : 14/40. Gagnées :
+heptaldai (H01) et briedefra (G05) ; aucune perdue. ✓ : albedm, culmsent,
+AmmoLIBR, backhart, heptaldai, branchri, erobdefoa, bankgraf, caladr,
+aepidisp, baurodwe, dalarie, busmexpo, briedefra, brieetli, chiamerk.
+Échecs restants : surtout « lignes en échec » (nombre de mots ≠ VT : blancs
+de la VT ou du texte lu, 18 pages) ; frontières hors seuil : herrkurt (89,8 %),
+herrleyc, hackherz, buchdas, berirev (pire 6-11c), 730277879.
