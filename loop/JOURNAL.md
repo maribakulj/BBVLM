@@ -736,3 +736,13 @@ herrleyc 5,9c — tous les mots décalés d'un cran). vers_alto expose désormai
 `lignes_page()` (mêmes lignes pour l'ALTO et pour l'évaluation ; ALTO
 inchangés). CRITERE avec les lignes de l'ALTO : **18/40** (herrleyc et
 chridiss ✓ en plus) ; buchdas pire 10,7 → 1,4c, berirev 7,2 → 5,5c.
+
+## C-rapport — 2026-09-29 — lignes en échec : découpage de la VT ou texte lu ?
+
+(Rapport seulement ; CRITERE.md inchangé.) Une ligne est « en échec » si
+notre nombre de mots diffère de celui de la VT. Sur 41 telles lignes (40
+pages, lignes appariées) : **25** portent un texte identique à la référence
+adjugée (vue glyphe) — la VT colle ou coupe des mots que les deux arbitres
+ont corrigés (erasexom 7, hackherz 4…) — et 16 viennent de notre texte
+(blancs ou mots faux). CRITERE « hors découpage VT » (comme A3 pour le texte) :
+**20/40** (baltdiss, cingdei en plus des 18). Les deux chiffres sont rapportés.
