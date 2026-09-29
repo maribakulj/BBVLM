@@ -693,3 +693,15 @@ cingdei 16 → 13, DasWeL 13 → 10. Coût : ≈ 2 appels VLM de plus par page.
 Aucun signal a priori connu ne désigne ces pages (Tesseract réfuté, T01) :
 le mode qualité reste le défaut pour une VT, le mode économe (−50 % de
 lecture, +25 % d'éditions) pour l'indexation.
+
+## O16-S — 2026-09-29 — Sonnet comme second lecteur — rejeté (sans arbitrage)
+
+Protocole o16/PROTOCOLE_S.md (figé avant lecture). Mêmes 4 pages, même
+consigne, mêmes images. Lecture seule contre référence adjugée (glyphe) :
+Sonnet 6 / 4 / 17 / 20 (chiamerk, briedefra, erasexom, brieetli ; total 47)
+contre Opus B 0 / 1 / 8 / 9 (18). Lignes en désaccord avec A (à arbitrer) :
+Opus+Sonnet 4 / 3 / 18 / 11 (36) contre Opus+Opus 0 / 0 / 4 / 3 (7) — cinq
+fois plus de travail d'arbitre. Durée de lecture Sonnet 50-380 s contre
+40-60 s pour Opus, jetons plus nombreux. L'économie visée n'existe pas :
+arbitrage non lancé (il coûterait plus que la seconde lecture Opus).
+Le second lecteur reste Opus.
