@@ -4,7 +4,8 @@ Les lignes lues sont appariées aux lignes de référence (Hongrois sur la dista
 d'édition normalisée) ; une ligne non appariée compte entièrement, des deux
 côtés. L'ordre de lecture se note à part : il n'a rien à faire dans un CER.
 
-Vues : `strict` (octets NFC), `diplo` (ligatures MUFI décomposées, ſ conservé),
+Vues : `strict` (octets NFC), `diplo` (ligatures MUFI décomposées, ſ conservé), `glyphe` (diplo +
+tout PUA OCR-D décomposable + variantes typographiques d'un même signe, glyphe.py),
 `norm` (diplo + ſ→s, espaces multiples réduites, apostrophes/tirets unifiés,
 dont ⸗, e suscrit → tréma). Vue étendue le 2026-09-28 avant O02, sans résultat vu.
 Chaque vue est déclarée ; aucune n'est ajustée après lecture d'un résultat.
@@ -24,6 +25,9 @@ def vue(t: str, nom: str) -> str:
     t = unicodedata.normalize('NFC', t)
     if nom == 'strict':
         return t
+    if nom == 'glyphe':            # mêmes signes, quel que soit le codage (glyphe.py)
+        from glyphe import glyphe
+        return glyphe(t)
     t = transform(t, 'glyph_decomposition_v1')
     if nom == 'diplo':
         return t

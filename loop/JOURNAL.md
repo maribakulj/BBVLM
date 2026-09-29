@@ -558,3 +558,45 @@ retenu (0,08 baisse la précision berirev, herrleyc).
 ALTO bout en bout (texte+IoU80, 36 pages) : 28,444 → **28,551** ; berirev
 0,816 → 0,865, chridiss 0,666 → 0,724 ; les 34 autres identiques (aucune
 régression). BBVLM_SCINDE=0 pour l'ancien comportement.
+
+## N01 — 2026-09-29 — vue « glyphe » : ne plus compter fausse une passe juste pour son codage — adopté
+
+Question du mainteneur : les passes sont-elles fausses, ou seulement codées
+autrement que la VT ? Inventaire des écarts résiduels (vue diplo, 34 pages
+adjugées) : une part n'est que du codage — U+E8BF contre « qꝫ », U+F50D contre
+« q́ꝫ », ½ contre « 1/2 », ñ contre n̄ (trait nasal), ϑ/θ, ϖ/π, point médian
+U+00B7/U+2027, apostrophes. L1 et L2 les traitaient au cas par cas.
+Solution générale (`outils/glyphe.py`, vue `glyphe` de cer.py) : deux textes
+sont égaux s'ils montrent les mêmes signes. (1) Unicode canonique ; (2) chaque
+PUA de la table de codage OCR-D est remplacé par la séquence Unicode que DÉCRIT
+son nom, dérivée automatiquement (« q ligated with final et » → q + ꝫ ; « n
+with medium high macron above » → n + U+0304 ; « ligature long s descending
+t » → ſt) : 67/97 dérivés, les 30 autres (signes d'abréviation, lettres
+barrées, marques d'interface) restent distincts ; (3) variantes
+typographiques d'un même signe, déclarées dans le seul glyphe.py. Restent
+distincts, car graphémiques au niveau 2 : ſ/s, ⸗/-, uͤ/ü/ů, ꝛ/r, blancs.
+L'adjudication compare aussi dans cette vue (un verdict qui ne diffère que
+par le codage n'est pas un renversement) ; BBVLM_VUE_ADJ=diplo rend l'ancien
+calcul.
+Bogue trouvé en chemin : bilan_adj rangeait les corrections sous le texte brut
+et les cherchait sous le texte normalisé ; une ligne à ligature ou à ñ perdait
+sa correction pourtant validée par deux arbitres (berirev « Fiir » → « Für »).
+Corrigé (clé dans la vue).
+Mesure (sorties finales, référence adjugée A2, 34 pages) : **261 → 213**
+éditions (−18 %), aucune page en hausse ; AmmoLIBR 11 → **0** (8 pages à 0),
+busmexpo 14 → 2, herrkurt 40 → 28, culmsent 7 → 1, AphoqvSuS 6 → 2 ;
+21 pages sur 34 à ≤ 2 éditions. Lecture A seule (39 pages) : 334 → 286,
+6 → 7 pages à 0.
+Ce qui reste (132 écarts sur lignes appariées) : conventions de la VT non
+homogènes (blancs 24, ⸗/- 17, « ii » pour uͤ 10 sur buchdas), signes
+monétaires lus en lettres (herrkurt 12), point médian lu « . » (8), et de
+vraies fautes de lecture (ſ/f, n/u, chiffres ; ≈ 40).
+
+## G04 (banc ALTO) — 2026-09-29 — en cours
+
+Texte+IoU80, 36 pages : 28,551 → **29,805** ; 26 pages en hausse (hackherz
+0,568 → 0,799, buchdas +0,14, herbdulc +0,14, baltdiss +0,12), 5 en baisse
+(culmsent 0,809 → 0,711, busmexpo −0,03, heptaldai −0,025, 730277879 −0,02).
+culmsent : boîtes de ligne meilleures (haut 0 px de la VT au lieu de −4) mais
+hauts de mots 6 px trop bas. Variante avec marge verticale (BBVLM_G04_PAD)
+préparée, non mesurée. G04 reste désactivé par défaut.

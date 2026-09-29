@@ -6,7 +6,7 @@ l'encre (Otsu local) à l'intérieur du polygone seulement, et la boîte de lign
 devient l'enveloppe de cette encre, en écartant les composantes minuscules.
 Développement sur les pages déjà utilisées en G01/E01.
 """
-import json, sys
+import json, os, sys
 import numpy as np, cv2
 from e01 import e01
 
@@ -20,7 +20,6 @@ def resserre(gray, boundary, bbox, aire_min=6, baseline=None):
     m = np.zeros(crop.shape, np.uint8)
     cv2.fillPoly(m, [np.array([[p[0]-x0, p[1]-y0] for p in boundary], np.int32)], 1)
     _, bw = cv2.threshold(crop, 0, 1, cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
-    import os
     if os.environ.get('BBVLM_G04', '0') == '1':
         keep_m = _proprietaires(gray, (x0, y0, x1, y1), bw, m, baseline)
         bw = bw*m*keep_m
@@ -31,7 +30,11 @@ def resserre(gray, boundary, bbox, aire_min=6, baseline=None):
     if not keep: return bbox
     xs0 = min(st[i, 0] for i in keep); ys0 = min(st[i, 1] for i in keep)
     xs1 = max(st[i, 0]+st[i, 2]-1 for i in keep); ys1 = max(st[i, 1]+st[i, 3]-1 for i in keep)
-    return [int(x0+xs0), int(y0+ys0), int(x0+xs1), int(y0+ys1)]
+    pad = int(round(float(os.environ.get('BBVLM_G04_PAD', '0')) * (ys1 - ys0))) if os.environ.get('BBVLM_G04', '0') == '1' else 0
+    return [int(x0+xs0), int(max(0, y0+ys0-pad)), int(x0+xs1), int(min(H-1, y0+ys1+pad))]
+
+
+TOL = float(__import__('os').environ.get('BBVLM_G04_TOL', '0.2'))
 
 
 def _proprietaires(gray, box, bw, m, baseline):
@@ -55,7 +58,8 @@ def _proprietaires(gray, box, bw, m, baseline):
         for i in np.nonzero(~garde & (dedans > 0))[0]:
             cx0, cy0, cw, ch = st[i, 0] + X0, st[i, 1] + Y0, st[i, 2], st[i, 3]
             yb = float(np.interp(cx0 + cw / 2, px, py))
-            if cy0 <= yb <= cy0 + ch: garde[i] = True
+            tol = TOL * h                        # ligne de base kraken parfois sous le pied des lettres
+            if cy0 - tol <= yb <= cy0 + ch + tol: garde[i] = True
     garde[0] = False
     return garde[sub].astype(np.uint8)
 

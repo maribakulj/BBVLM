@@ -19,6 +19,10 @@ def _pua(t):
     if os.environ.get('BBVLM_APOS', '1') == '1': t = t.replace('\u2019', "'")
     return t
 A1 = os.environ.get('BBVLM_A1') == '1'
+# Comparaisons de l'adjudication dans la vue « glyphe » : un verdict qui ne
+# diffère de la référence que par le codage n'est pas un renversement (remplace
+# les correctifs ponctuels L1/L2 ; BBVLM_VUE_ADJ=diplo pour l'ancien calcul).
+VUE = os.environ.get('BBVLM_VUE_ADJ', 'glyphe')
 
 
 def reference_adjugee(dossier):
@@ -35,25 +39,26 @@ def reference_adjugee(dossier):
         v = ver.get(c['id'])
         if v is None: continue
         r = c['X'] if c['_ref'] == 'X' else c['Y']
-        j = vue(_pua(v['texte_correct']), 'diplo')
+        j = vue(_pua(v['texte_correct']) if VUE == 'diplo' else v['texte_correct'], VUE)
         indec += v['verdict'] == 'indecidable'
         # Règle A2 (après O10) : tout texte autre que la référence distribuée
         # — texte neuf OU choix de la lecture contre la référence — n'est
         # retenu que si un second arbitre indépendant écrit le même. Un arbitre
         # seul a renversé à tort ﬂ → ſl sur herrkurt. BBVLM_A1=1 : règle A1.
-        neuf = v['verdict'] in ('aucun', 'partage', 'indecidable') or j not in (vue(c['X'], 'diplo'), vue(c['Y'], 'diplo'))
-        if neuf or (not A1 and j != vue(r, 'diplo')):
+        neuf = v['verdict'] in ('aucun', 'partage', 'indecidable') or j not in (vue(c['X'], VUE), vue(c['Y'], VUE))
+        if neuf or (not A1 and j != vue(r, VUE)):
             v2 = ver2.get(c['id'])
-            if v2 is None or vue(_pua(v2['texte_correct']), 'diplo') != j:
+            if v2 is None or vue(_pua(v2['texte_correct']) if VUE == 'diplo' else v2['texte_correct'], VUE) != j:
                 contestes += 1
-                if v2 is not None and j != vue(r, 'diplo') and vue(_pua(v2['texte_correct']), 'diplo') != vue(r, 'diplo'):
-                    rejetees.add(vue(r, 'diplo'))
+                if v2 is not None and j != vue(r, VUE) and vue(_pua(v2['texte_correct']) if VUE == 'diplo' else v2['texte_correct'], VUE) != vue(r, VUE):
+                    rejetees.add(vue(r, VUE))
                 continue
-        if r in choix and choix[r] != j: conflits.add(r)
-        choix.setdefault(r, j)
+        rk = vue(r, VUE)                 # clé dans la même vue que la recherche ci-dessous
+        if rk in choix and choix[rk] != j: conflits.add(rk)
+        choix.setdefault(rk, j)
     adj, err_ref = [], 0
     for x in ref:
-        d = vue(x, 'diplo')
+        d = vue(x, VUE)
         if d in choix and d not in conflits:
             err_ref += lev(d, choix[d]); adj.append(choix[d])
         else:
