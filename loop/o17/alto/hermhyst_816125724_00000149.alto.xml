@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-4.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>hermhyst_816125724_00000149.tif</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="OCRP1">
+      <ocrProcessingStep>
+        <processingStepDescription>texte : lecture VLM diplomatique OCR-D niveau 2 ; lignes : kraken blla resserré sur l'encre du polygone ; mots : connexe (BBVLM). Brouillon de vérité terrain : relecture humaine requise.</processingStepDescription>
+        <processingSoftware>
+          <softwareName>BBVLM loop — Claude Opus (2 passes + arbitrage P3) + kraken 7.1.1 + connexe</softwareName>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Tags>
+    <OtherTag ID="NON_PLACE" LABEL="ligne lue non placée" TYPE="provenance"/>
+    <LayoutTag ID="ROLE_catch-word" LABEL="catch-word" TYPE="OCR-D region type"/>
+    <LayoutTag ID="ROLE_heading" LABEL="heading" TYPE="OCR-D region type"/>
+    <LayoutTag ID="ROLE_paragraph" LABEL="paragraph" TYPE="OCR-D region type"/>
+    <LayoutTag ID="ROLE_signature-mark" LABEL="signature-mark" TYPE="OCR-D region type"/>
+  </Tags>
+  <ReadingOrder>
+    <OrderedGroup ID="RO1">
+      <ElementRef ID="RO_B001" REF="B001"/>
+      <ElementRef ID="RO_B002" REF="B002"/>
+      <ElementRef ID="RO_B003" REF="B003"/>
+      <ElementRef ID="RO_B004" REF="B004"/>
+    </OrderedGroup>
+  </ReadingOrder>
+  <Layout>
+    <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="1139" HEIGHT="1911">
+      <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="1139" HEIGHT="1911">
+        <TextBlock ID="B001" TAGREFS="ROLE_heading" HPOS="146" VPOS="127" WIDTH="694" HEIGHT="161">
+          <TextLine ID="L0001" HPOS="204" VPOS="127" WIDTH="571" HEIGHT="87">
+            <String ID="L0001_W01" CONTENT="Von" HPOS="204" VPOS="129" WIDTH="140" HEIGHT="69"/>
+            <SP HPOS="344" VPOS="129" WIDTH="10"/>
+            <String ID="L0001_W02" CONTENT="der" HPOS="354" VPOS="128" WIDTH="92" HEIGHT="73"/>
+            <SP HPOS="446" VPOS="128" WIDTH="13"/>
+            <String ID="L0001_W03" CONTENT="Suſanna/" HPOS="459" VPOS="127" WIDTH="316" HEIGHT="78"/>
+          </TextLine>
+          <TextLine ID="L0002" HPOS="146" VPOS="218" WIDTH="694" HEIGHT="70">
+            <String ID="L0002_W01" CONTENT="Jm" HPOS="146" VPOS="219" WIDTH="44" HEIGHT="69"/>
+            <SP HPOS="190" VPOS="219" WIDTH="1"/>
+            <String ID="L0002_W02" CONTENT="Thon/" HPOS="190" VPOS="218" WIDTH="125" HEIGHT="70"/>
+            <SP HPOS="315" VPOS="218" WIDTH="4"/>
+            <String ID="L0002_W03" CONTENT="In" HPOS="319" VPOS="231" WIDTH="43" HEIGHT="43"/>
+            <SP HPOS="362" VPOS="231" WIDTH="1"/>
+            <String ID="L0002_W04" CONTENT="Dorotheæ" HPOS="362" VPOS="221" WIDTH="272" HEIGHT="55"/>
+            <SP HPOS="634" VPOS="221" WIDTH="1"/>
+            <String ID="L0002_W05" CONTENT="Feſto." HPOS="634" VPOS="223" WIDTH="206" HEIGHT="59"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B002" TAGREFS="ROLE_paragraph" HPOS="122" VPOS="1320" WIDTH="716" HEIGHT="343">
+          <TextLine ID="L0003" HPOS="131" VPOS="1320" WIDTH="645" HEIGHT="59">
+            <String ID="L0003_W01" CONTENT="Von" HPOS="131" VPOS="1326" WIDTH="71" HEIGHT="34"/>
+            <SP HPOS="202" VPOS="1326" WIDTH="11"/>
+            <String ID="L0003_W02" CONTENT="wůnderlichen" HPOS="213" VPOS="1321" WIDTH="233" HEIGHT="45"/>
+            <SP HPOS="446" VPOS="1321" WIDTH="25"/>
+            <String ID="L0003_W03" CONTENT="dingen/" HPOS="471" VPOS="1335" WIDTH="181" HEIGHT="43"/>
+            <SP HPOS="652" VPOS="1335" WIDTH="8"/>
+            <String ID="L0003_W04" CONTENT="die" HPOS="660" VPOS="1336" WIDTH="54" HEIGHT="32"/>
+            <SP HPOS="714" VPOS="1336" WIDTH="1"/>
+            <String ID="L0003_W05" CONTENT="ſich" HPOS="714" VPOS="1332" WIDTH="62" HEIGHT="47"/>
+          </TextLine>
+          <TextLine ID="L0004" HPOS="128" VPOS="1369" WIDTH="605" HEIGHT="58">
+            <String ID="L0004_W01" CONTENT="Zutragen/" HPOS="128" VPOS="1369" WIDTH="186" HEIGHT="49"/>
+            <SP HPOS="314" VPOS="1369" WIDTH="1"/>
+            <String ID="L0004_W02" CONTENT="wolln" HPOS="314" VPOS="1375" WIDTH="104" HEIGHT="36"/>
+            <SP HPOS="418" VPOS="1375" WIDTH="11"/>
+            <String ID="L0004_W03" CONTENT="wir" HPOS="429" VPOS="1380" WIDTH="63" HEIGHT="31"/>
+            <SP HPOS="492" VPOS="1380" WIDTH="9"/>
+            <String ID="L0004_W04" CONTENT="ſingen/" HPOS="501" VPOS="1375" WIDTH="171" HEIGHT="51"/>
+            <SP HPOS="672" VPOS="1375" WIDTH="15"/>
+            <String ID="L0004_W05" CONTENT="da" HPOS="687" VPOS="1386" WIDTH="46" HEIGHT="34"/>
+          </TextLine>
+          <TextLine ID="L0005" HPOS="521" VPOS="1572" WIDTH="317" HEIGHT="50">
+            <String ID="L0005_W01" CONTENT="zu" HPOS="521" VPOS="1572" WIDTH="45" HEIGHT="40"/>
+            <SP HPOS="566" VPOS="1572" WIDTH="1"/>
+            <String ID="L0005_W02" CONTENT="Babylon" HPOS="566" VPOS="1574" WIDTH="124" HEIGHT="48"/>
+            <SP HPOS="690" VPOS="1574" WIDTH="1"/>
+            <String ID="L0005_W03" CONTENT="Die" HPOS="690" VPOS="1584" WIDTH="61" HEIGHT="38"/>
+            <SP HPOS="751" VPOS="1584" WIDTH="1"/>
+            <String ID="L0005_W04" CONTENT="zuͤchtige" HPOS="751" VPOS="1576" WIDTH="59" HEIGHT="40"/>
+            <SP HPOS="810" VPOS="1576" WIDTH="1"/>
+            <String ID="L0005_W05" CONTENT="Su⸗" HPOS="810" VPOS="1591" WIDTH="28" HEIGHT="27"/>
+          </TextLine>
+          <TextLine ID="L0006" HPOS="122" VPOS="1607" WIDTH="401" HEIGHT="56">
+            <String ID="L0006_W01" CONTENT="Chꝛiſtus" HPOS="122" VPOS="1607" WIDTH="146" HEIGHT="48"/>
+            <SP HPOS="268" VPOS="1607" WIDTH="11"/>
+            <String ID="L0006_W02" CONTENT="Gottes" HPOS="279" VPOS="1614" WIDTH="133" HEIGHT="45"/>
+            <SP HPOS="412" VPOS="1614" WIDTH="13"/>
+            <String ID="L0006_W03" CONTENT="Son/" HPOS="425" VPOS="1619" WIDTH="98" HEIGHT="44"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B003" TAGREFS="ROLE_signature-mark" HPOS="720" VPOS="546" WIDTH="18" HEIGHT="10">
+          <TextLine ID="L0007" HPOS="720" VPOS="546" WIDTH="18" HEIGHT="10">
+            <String ID="L0007_W01" CONTENT="A" HPOS="720" VPOS="547" WIDTH="18" HEIGHT="6"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B004" TAGREFS="ROLE_catch-word" HPOS="738" VPOS="1669" WIDTH="101" HEIGHT="47">
+          <TextLine ID="L0008" HPOS="738" VPOS="1669" WIDTH="101" HEIGHT="47">
+            <String ID="L0008_W01" CONTENT="ſanna" HPOS="738" VPOS="1669" WIDTH="101" HEIGHT="47"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

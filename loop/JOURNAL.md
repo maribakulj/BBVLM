@@ -803,3 +803,14 @@ petit rond. La garde d'I01 (≥ 3 votes sur mots à inflexion) s'abstient
 (2 votes : « wůr⸗ » coupé et « Fůße », « demůthigen » hors lexique R2) — et
 la page reste à 0. Forme et convention peuvent diverger : un « anneau » vu
 n'implique pas ů dans la VT.
+
+## O17 — 2026-09-29 — chaîne gelée sur les 4 dernières œuvres
+
+Détail o17/RESULTATS.md. Texte (glyphe) : ferrepit **0** (10e page à 0),
+canitrac 4 (0 en norm), 688357687 7, hermhyst 23 (page de 150 car. ; deux
+lignes côte à côte fusionnées par les lecteurs). Lecture A seule = chaîne
+complète sur les 4 pages. ALTO 0,54-0,84 ; CRITERE 0/4, seuils manqués de peu
+sauf hermhyst ; recherche 0,94-0,98 hors hermhyst (0,57). G05 et S08 sans
+effet, H01 +0,007. Aucun réglage fait après lecture.
+Incident : première vague de lectures perdue (limite de session de l'API),
+relancée à l'identique après réinitialisation.

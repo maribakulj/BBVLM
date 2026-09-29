@@ -10,7 +10,7 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 
 | étage | cible | mesure gelée | état |
 |---|---|---|---|
-| texte | 0 faute par page | `outils/cer.py` vue **glyphe** (mêmes signes quel que soit le codage, N01 ; diplo rapporté aussi), référence adjugée règle A2 | 38 pages adjugées : **9 à 0** (O16 : chiamerk 0, briedefra 1, erasexom 4, brieetli 8), 21 à ≤ 2 éd. (vue glyphe, N01) ; total 213 éd. (261 en diplo), 6 à ≤ 2 car. ; O15 plus dur (latin, XVIe : 2 à 37 car.) ; restes : conventions de forme (tiret ⸗/-, ü/uͤ), blancs, annotations manuscrites |
+| texte | 0 faute par page | `outils/cer.py` vue **glyphe** (mêmes signes quel que soit le codage, N01 ; diplo rapporté aussi), référence adjugée règle A2 | 42 pages adjugées : **10 à 0** (O16 : chiamerk 0, briedefra 1, erasexom 4, brieetli 8 ; O17 : ferrepit 0, canitrac 4, 688357687 7, hermhyst 23), 21 à ≤ 2 éd. (vue glyphe, N01) ; total 213 éd. (261 en diplo), 6 à ≤ 2 car. ; O15 plus dur (latin, XVIe : 2 à 37 car.) ; restes : conventions de forme (tiret ⸗/-, ü/uͤ), blancs, annotations manuscrites |
 | lignes | toutes trouvées, serrées | `outils/segeval.py` | kraken + G03 : bon sur livres ; page en regard écartée par l'alignement ; réclames parfois manquées |
 | boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE ✓ sur 18/40 pages O07-O16 (chaîne actuelle, lignes de l'ALTO ; 20/40 hors découpage fautif de la VT) ; **erobdefoa, caladr, dalarie, chiamerk (O16, neuve) parfaites de bout en bout** ; blocage : lignes non trouvées par kraken (titres d'apparat, courtes manchettes) et blancs du texte |
 | ALTO | XSD + provenance + refus | `outils/vers_alto.py` | valide XSD 4.4 ; blocs typés, ReadingOrder (XY-cut S03), lignes non placées marquées |

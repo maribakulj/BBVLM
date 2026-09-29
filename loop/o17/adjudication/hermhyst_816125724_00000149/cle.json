@@ -1,0 +1,58 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "A",
+  "Y": "K",
+  "divergences_X_vers_Y": [
+   [
+    "A",
+    "K"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o17/hermhyst_816125724_00000149//p3i_final.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Von wůnderlichen dingen/ die ſich",
+  "Y": "Von wuͤnderlichen dingen/ die ſich",
+  "divergences_X_vers_Y": [
+   [
+    "ů",
+    "uͤ"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o17/hermhyst_816125724_00000149//p3i_final.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "Zutragen/ wolln wir ſingen/ da",
+  "Y": "Zutrugen/ wolln wir ſingen/ da",
+  "divergences_X_vers_Y": [
+   [
+    "a",
+    "u"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o17/hermhyst_816125724_00000149//p3i_final.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "zu Babylon Die zuͤchtige Su⸗",
+  "Y": "Die zuͤchtige Su⸗",
+  "divergences_X_vers_Y": [
+   [
+    "zu Babylon ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o17/hermhyst_816125724_00000149//p3i_final.txt"
+ }
+]

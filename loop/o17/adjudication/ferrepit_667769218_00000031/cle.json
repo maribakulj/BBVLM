@@ -1,0 +1,48 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "O fortunatæ uiolæ: mea uita: meumq;",
+  "Y": "O fortUnatæ uiolæ: mea uita: meumq;",
+  "divergences_X_vers_Y": [
+   [
+    "u",
+    "U"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o17/ferrepit_667769218_00000031//p3i_final.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Vos lachrymis ſaciabo meis: quæ mœſta per ora",
+  "Y": "Vos lachrymis ſaci abo meis: quæ mœſta per ora",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o17/ferrepit_667769218_00000031//p3i_final.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "Viuite perpetuū uiolæ: nec ſolibus æſtas:",
+  "Y": "Viuite perpetuũ uiolæ: nec ſolib us æſtas:",
+  "divergences_X_vers_Y": [
+   [
+    "ū",
+    "ũ"
+   ],
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o17/ferrepit_667769218_00000031//p3i_final.txt"
+ }
+]

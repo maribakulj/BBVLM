@@ -1,0 +1,86 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "non adſtringit eccleſiam neq; clericos: vt te-",
+  "Y": "non adſtringit eccleſiam ne clericos: vt te-",
+  "divergences_X_vers_Y": [
+   [
+    "q;",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o17/canitrac_789765837_00000117//p3i_final.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "† Quintus caſus eſt in eo, qui fuit condem-",
+  "Y": "† Quintus caſus est in eo, qui fuit condem-",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "s"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o17/canitrac_789765837_00000117//p3i_final.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "† Sextus caſus eſt in eo, qui præſcripſit rem",
+  "Y": "† Sextus caſus est in eo, qui præſcripſit rem",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "s"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o17/canitrac_789765837_00000117//p3i_final.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "alienam à principio mala fide, vel ex poſt fa-",
+  "Y": "alienam à principio mala fide, vel ex post fa-",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "s"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o17/canitrac_789765837_00000117//p3i_final.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "ſicu. in c. vigilanti. de præſcriptio. & iſta est",
+  "Y": "ſicu. in c. vigilanti. de præſcriptio. & iſta eſt",
+  "divergences_X_vers_Y": [
+   [
+    "s",
+    "ſ"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o17/canitrac_789765837_00000117//p3i_final.txt"
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "pleriq;",
+  "Y": "pleri",
+  "divergences_X_vers_Y": [
+   [
+    "q;",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o17/canitrac_789765837_00000117//p3i_final.txt"
+ }
+]
