@@ -42,6 +42,18 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
         garde = {tuple(l['bbox']): l for l in kr}
         kr = [garde.get(tuple(b), {'bbox': b}) for b in coupe_page(g0, [l['bbox'] for l in kr])]
+    if os.environ.get('BBVLM_EYN') == '1' and os.path.exists(f'{dossier}/eynollah.xml'):
+        # EY1 : lignes eynollah qui ne recouvrent aucune ligne kraken = candidates en plus
+        from lxml import etree as _et
+        r = _et.parse(f'{dossier}/eynollah.xml').getroot(); N = {'p': r.tag.split('}')[0][1:]}
+        def _rec(e, k):
+            ix = max(0, min(e[2], k[2]) - max(e[0], k[0])); iy = max(0, min(e[3], k[3]) - max(e[1], k[1]))
+            return ix * iy / max(1, (e[2] - e[0]) * (e[3] - e[1]))
+        for tl in r.iter(f"{{{N['p']}}}TextLine"):
+            pts = [tuple(map(int, q.split(','))) for q in tl.find('p:Coords', N).get('points').split()]
+            e = [min(a for a, _ in pts), min(b for _, b in pts), max(a for a, _ in pts), max(b for _, b in pts)]
+            if all(_rec(e, l['bbox']) < .5 and _rec(l['bbox'], e) < .5 for l in kr):
+                kr.append({'bbox': e})
     boites = [l['bbox'] for l in kr]
     mg = os.environ.get('BBVLM_MOTS_G04', 'page')
     if mg == 'page':
