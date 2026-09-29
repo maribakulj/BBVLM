@@ -215,3 +215,10 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
   déclarée par le lecteur (hypothèse écartée sans lecture VLM). Le désaccord
   entre deux lectures reste le seul signal mesuré qui marche (P3).
 - Limite : études sur VQA/objets, pas sur la transcription diplomatique.
+
+## L16 — Rezanezhad, Baierer, Gerber, Labusch, Neudecker 2023, « Document Layout Analysis with Deep Learning and Heuristics » (HIP '23 ; eynollah, SBB/qurator)
+- Apport : segmentation de mise en page et de lignes pensée pour les imprimés
+  historiques de la SBB (même fonds que notre VT) ; heuristiques pour
+  manchettes, titres, en-têtes ; lignes par masque dense.
+- Limite : TensorFlow, modèles 1,9 Go, lent sur CPU ; pas d'ordre ni de texte ;
+  à n'utiliser ici que pour retrouver les lignes que kraken manque.
