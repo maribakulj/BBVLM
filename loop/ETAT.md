@@ -26,7 +26,7 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 4. `p3.py` : lignes en désaccord recadrées via kraken, arbitrées par Opus (`consigne_arbitre_P3.md`, repli sur les bandes).
 5. I01 : signe d'inflexion de l'imprimeur décidé par page (même appel que l'arbitre P3).
 6. `segmente.py` (kraken blla) → `serre.py` (G03) → scission S08 (ligne kraken portant deux lignes lues) → coupe S02 si manchettes → placement par ancrage Tesseract S05 (repli : XY-cut S03 + chasse S04) → boîtes : routeur G02, redressé par la ligne de base kraken sur les pages penchées (B04 ; bas des mots sur bande pleine, H01) ; boîte de ligne G04b (sans encre voisine) publiée, et utilisée pour les mots sur les pages contaminées (G05) → `vers_alto.py`.
-Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lectures + arbitre P3/I01 ; mode économe : 1 lecture + I01 (V01 : 126 contre 122 éditions sur 16 pages, −50 % de lecture VLM).
+Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lectures + arbitre P3/I01 ; mode économe : 1 lecture + I01 (V04, 42 pages : 300 éd. contre 260 en mode qualité, 8 contre 10 pages à 0, ≈ −50 % d'appels VLM).
 
 ## Règles
 

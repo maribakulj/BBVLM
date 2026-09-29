@@ -864,3 +864,13 @@ liste d'items découpée ligne à ligne, avant la règle « une liste reste une
 région » de P5) ne mesurent pas la consigne actuelle. Restes sous 0,9 avec la
 consigne P6 : 852691769 (tableau, 48 régions VT), durrgeda (page de titre),
 hermhyst (chanson), brieetli, briedefra, caladr, dalarie.
+
+## V04 — 2026-09-29 — coût des modes de lecture sur 42 pages (vue glyphe)
+
+Lecture A seule : 318 éd., 8 pages à 0 (1 appel VLM) ; mode économe (A + I01,
+signe d'inflexion appliqué à A) : 300 éd., 8 à 0 (1 appel + 1 si signes sur u) ;
+mode qualité (A + B + arbitre P3 + I01) : **260** éd., 10 à 0 (3 appels).
+Le mode qualité retire 13 % des éditions du mode économe pour ≈ 1,5 appel de
+plus par page. Aucun signal a priori ne désigne les pages qui en profitent
+(T01 ligne, V03 page). Recommandation inchangée : qualité pour produire une
+VT, économe pour indexer.
