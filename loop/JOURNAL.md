@@ -652,3 +652,17 @@ Banc 36 pages (seules les pages penchées changent, 9) : 28,776 → **29,103** ;
 pire cas 0,418 → **0,568** (la pire page devient hackherz) ; heptaldai 0,682,
 culmsent 0,809 → 0,851, 730277879 +0,014 ; reculs d'un mot : extraudeu
 −0,007, emmeprac −0,007. Adopté (défaut ; BBVLM_REDRESSE_HYB=0 pour B04 seul).
+
+## G05 — 2026-09-29 — boîte G04b pour les mots, décidée par page — adopté (seuil à valider sur pages neuves)
+
+Suite de G04 : la boîte G04b fait gagner les mots là où l'encre des lignes
+voisines entrait dans la boîte G03, et perdre ailleurs (calcul des mots calé
+sur G03). Comme pour B04, décision par PAGE : si la boîte G04b abaisse le haut
+des lignes d'au moins 5 % de h en médiane, la page est contaminée → mots sur
+G04b. Seuil choisi APRÈS avoir vu les résultats G04 (culmsent, heptaldai,
+busmexpo, médiane 0-3 % ; pages gagnantes ≥ 5 %) : à valider sur des pages
+neuves. Pages basculées : 11/36.
+Banc 36 pages (texte+IoU80, H01 actif) : 29,103 → **29,991** ; pire cas
+0,568 → **0,665** ; hackherz 0,568 → 0,791, baltdiss +0,113, baurodwe +0,108,
+herbdulc +0,117, aepidisp +0,088, DasWeL +0,076, herrkurt +0,075 ; un recul :
+730277879 0,838 → 0,817. Défaut : BBVLM_MOTS_G04=page (0 : G03, 1 : G04b partout).

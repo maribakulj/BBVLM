@@ -53,7 +53,7 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
         garde = {tuple(l['bbox']): l for l in kr}
         kr = [garde.get(tuple(b), {'bbox': b}) for b in coupe_page(g0, [l['bbox'] for l in kr])]
     boites = [l['bbox'] for l in kr]
-    mg = os.environ.get('BBVLM_MOTS_G04', '0')
+    mg = os.environ.get('BBVLM_MOTS_G04', 'page')
     if mg == 'page':
         # G05 : page contaminée par l'encre des lignes voisines (la boîte G04b abaisse
         # le haut des lignes de ≥ SEUIL·h en médiane) → mots calculés sur la boîte G04b
