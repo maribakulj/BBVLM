@@ -11,7 +11,7 @@ import numpy as np, cv2
 from e01 import e01
 
 
-def resserre(gray, boundary, bbox, aire_min=6, baseline=None):
+def resserre(gray, boundary, bbox, aire_min=6, baseline=None, autres=None):
     x0, y0, x1, y1 = bbox
     H, W = gray.shape
     x0, y0, x1, y1 = max(0, x0), max(0, y0), min(W-1, x1), min(H-1, y1)
@@ -21,7 +21,7 @@ def resserre(gray, boundary, bbox, aire_min=6, baseline=None):
     cv2.fillPoly(m, [np.array([[p[0]-x0, p[1]-y0] for p in boundary], np.int32)], 1)
     _, bw = cv2.threshold(crop, 0, 1, cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
     if os.environ.get('BBVLM_G04', '0') == '1':
-        keep_m = _proprietaires(gray, (x0, y0, x1, y1), bw, m, baseline)
+        keep_m = _proprietaires(gray, (x0, y0, x1, y1), bw, m, baseline, autres)
         bw = bw*m*keep_m
     else:
         bw = bw*m
@@ -37,7 +37,7 @@ def resserre(gray, boundary, bbox, aire_min=6, baseline=None):
 TOL = float(__import__('os').environ.get('BBVLM_G04_TOL', '0.2'))
 
 
-def _proprietaires(gray, box, bw, m, baseline):
+def _proprietaires(gray, box, bw, m, baseline, autres=None):
     """G04 (L14) : une composante coupée par le polygone appartient à la ligne
     qui porte la majorité de son encre ; celle qui traverse la ligne de base
     appartient à cette ligne. On écarte donc de la ligne les bouts de hampes et
@@ -52,7 +52,21 @@ def _proprietaires(gray, box, bw, m, baseline):
     sub = lab[oy:oy+bw.shape[0], ox:ox+bw.shape[1]]
     dedans = np.bincount((sub * (m > 0)).ravel(), minlength=n)
     total = st[:, cv2.CC_STAT_AREA]
-    garde = dedans >= 0.5 * np.maximum(total, 1)
+    if autres is not None and os.environ.get('BBVLM_G04_MODE', 'autres') == 'autres':
+        # G04b : retirée seulement si la majorité de son encre est dans le polygone
+        # d'une AUTRE ligne (jambage de la ligne du dessus) ; un accent, un point,
+        # un e suscrit flottent entre les polygones et restent à leur ligne
+        ma = np.zeros(big.shape, np.uint8)
+        for poly in autres:
+            cv2.fillPoly(ma, [np.array([[p[0]-X0, p[1]-Y0] for p in poly], np.int32)], 1)
+        mp = np.zeros(big.shape, np.uint8)
+        mp[oy:oy+bw.shape[0], ox:ox+bw.shape[1]] = m
+        ma[mp > 0] = 0
+        ailleurs = np.bincount((lab * ma).ravel(), minlength=n)
+        a_moi = np.bincount((lab * mp).ravel(), minlength=n)
+        garde = ailleurs <= a_moi
+    else:
+        garde = dedans >= 0.5 * np.maximum(total, 1)
     if baseline and len(baseline) >= 2:
         px, py = zip(*sorted(baseline))
         for i in np.nonzero(~garde & (dedans > 0))[0]:
