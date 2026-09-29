@@ -637,3 +637,18 @@ La règle attache aussi des lettres entières de la ligne du dessus (petites,
 posées sur nos hampes) : trop large. Et culmsent recule même avec G03 : les
 signes suscrits ne sont pas la seule cause de sa régression sous G04b.
 Non adopté (BBVLM_SAT reste à 0). La boîte G04b reste réservée à la ligne publiée.
+
+## H01 — 2026-09-29 — pages penchées : bas des mots pris sur la bande pleine — adopté
+
+Pire page ALTO : heptaldai 0,418 (texte+IoU80). Diagnostic : bas des mots 6-9 px
+trop haut, même pour les mots courts — B04 calcule les mots sur la bande
+redressée réduite de la dérive (« hauteur réelle du corps »), ce qui ampute
+les jambages. Bande pleine (BBVLM_REDRESSE_PLEIN) : bas juste mais encre
+voisine, découpage horizontal dégradé (76 mots justes / 201, contre 84).
+H01 : découpage horizontal et haut sur la bande réduite, bas sur la bande
+pleine. heptaldai (mots justes et IoU ≥ 0,8) : 84 → 109 (haut aussi sur bande
+pleine) → **137** (haut réduit, bas plein).
+Banc 36 pages (seules les pages penchées changent, 9) : 28,776 → **29,103** ;
+pire cas 0,418 → **0,568** (la pire page devient hackherz) ; heptaldai 0,682,
+culmsent 0,809 → 0,851, 730277879 +0,014 ; reculs d'un mot : extraudeu
+−0,007, emmeprac −0,007. Adopté (défaut ; BBVLM_REDRESSE_HYB=0 pour B04 seul).
