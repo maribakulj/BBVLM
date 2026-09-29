@@ -853,3 +853,14 @@ Les boîtes de mots de Tesseract sont moins justes que les nôtres (bords
 lâches, ponctuation). Premier essai invalide (config « tsv » absente de
 notre tessdata : aucune boîte lue, scores identiques) — corrigé avant la
 mesure ci-dessus. Non adopté (BBVLM_W01 = 0).
+
+## OLR-balayage — 2026-09-29 — rôles, régions, ordre (lecture A) sur 44 pages
+
+Toutes pages (O07-O17) : rôles médiane 1,000 (35/44 ≥ 0,9, pire durrgeda
+0,364) ; F1 régions médiane 0,992 (31/44, pire culmsent 0,032) ; ordre
+médiane 0,987 (40/44, pire busmexpo 0,833). Les pires F1 d'O07 (une seule
+région : consigne sans régions) et d'O08 culmsent (33 régions lues pour 8 :
+liste d'items découpée ligne à ligne, avant la règle « une liste reste une
+région » de P5) ne mesurent pas la consigne actuelle. Restes sous 0,9 avec la
+consigne P6 : 852691769 (tableau, 48 régions VT), durrgeda (page de titre),
+hermhyst (chanson), brieetli, briedefra, caladr, dalarie.
