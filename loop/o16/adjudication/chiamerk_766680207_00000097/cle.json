@@ -1,0 +1,30 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "von Schweis als von Thraͤnen benetzt war. Als",
+  "Y": "von Schweig als von Thraͤnen benetzt war. Als",
+  "divergences_X_vers_Y": [
+   [
+    "s",
+    "g"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/chiamerk_766680207_00000097//p3i_final.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "fand ich deunoch keine Auslegung, die mir zu",
+  "Y": "fand ich dennoch keine Auslegung, die mir zu",
+  "divergences_X_vers_Y": [
+   [
+    "u",
+    "n"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/chiamerk_766680207_00000097//p3i_final.txt"
+ }
+]

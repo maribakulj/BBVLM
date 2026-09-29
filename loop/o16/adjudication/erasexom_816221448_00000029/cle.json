@@ -1,0 +1,270 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "riꝰ donet. Eſt ille benignus & gratis largitur ſuas do",
+  "Y": "riꝯ donet. Est ille benignus& gratis largitur ſuas do",
+  "divergences_X_vers_Y": [
+   [
+    "ꝰ",
+    "ꝯ"
+   ],
+   [
+    "ſ",
+    "s"
+   ],
+   [
+    " ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "deratione uitæ turpiter actæ, & ex metu gehennæ con",
+  "Y": "deratiane uitæ turpiter actæ, & ex metu gehennæ con",
+  "divergences_X_vers_Y": [
+   [
+    "o",
+    "a"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "cipit aliquam deteſtationem criminum ſuorum, nō ſta",
+  "Y": "cipit aliquam detestationem criminum ſuorum, nõſta",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "s"
+   ],
+   [
+    "ō ",
+    "õ"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "timoris genus cum uoto certo mutandæ uitæ, cumq́; a⸗",
+  "Y": "timoris genus cum uoto certo mutandæ uitæ, cum a⸗",
+  "divergences_X_vers_Y": [
+   [
+    "q́;",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "more bene ſperante coniunctum. Vbiſpũm hunc ſen⸗",
+  "Y": "more bene ſperante coniunctum. Vbi ſpūm hunc ſen⸗",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ],
+   [
+    "ũ",
+    "ū"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "ſerit, quem Paulus uocat filiorum, caueat ne quiſquā",
+  "Y": "ſerit, quem Paulus uoæt filiorum, caueat ne quiſquã",
+  "divergences_X_vers_Y": [
+   [
+    "ca",
+    "æ"
+   ],
+   [
+    "ā",
+    "ã"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l006",
+  "image": "l006.png",
+  "X": "hinc ſibi tribuat, agnoſcat gratuitum dei donū, & ab",
+  "Y": "hinc ſibitrihuat, agnoſcat gratuitum dei donũ, & ab",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ],
+   [
+    "b",
+    "h"
+   ],
+   [
+    "ū",
+    "ũ"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l007",
+  "image": "l007.png",
+  "X": "rogans ut quod gratis largitus eſt pro ſua bonitate,",
+  "Y": "rogans ut quod gratis largitus est pro ſua bonite,",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "s"
+   ],
+   [
+    "ta",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l008",
+  "image": "l008.png",
+  "X": "perpetuum eſſe uelit, ac ſemper in maius augere nec",
+  "Y": "perpetuum eße uelit, ac ſemper in maius augere nec",
+  "divergences_X_vers_Y": [
+   [
+    "ſſ",
+    "ß"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l009",
+  "image": "l009.png",
+  "X": "opem cœleſtem, ut idem confirmet& adiuuet uotum",
+  "Y": "opem cœleſtem, ut idem confirmet & adiuuet uotum",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l010",
+  "image": "l010.png",
+  "X": "iā redditus ē eccleſiæ, iam ex ſeruo diaboli factus eſt",
+  "Y": "iã redditus ẽ eccleſiæ, iam ex ſeruo diaboli factus est",
+  "divergences_X_vers_Y": [
+   [
+    "ā",
+    "ã"
+   ],
+   [
+    "ē",
+    "ẽ"
+   ],
+   [
+    "ſ",
+    "s"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l011",
+  "image": "l011.png",
+  "X": "filius dei, iam liber eſt a peccato. Quantulum igitur ē",
+  "Y": "filius dei, iam liber est a peccato. Quantulum igiturẽ",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "s"
+   ],
+   [
+    " ē",
+    "ẽ"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l012",
+  "image": "l012.png",
+  "X": "hoc quod ſupereſt ſi conferas ad id quod præceſſit?",
+  "Y": "hoc quod ſupereſt, ſi conferas ad id quod præceſſit?",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    ","
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l013",
+  "image": "l013.png",
+  "X": "Quem uere ſui pudet apud deum, leuius erubeſcet a⸗",
+  "Y": "Quem uerè ſui pudet apud deum, leuius erubeſcet a⸗",
+  "divergences_X_vers_Y": [
+   [
+    "e",
+    "è"
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l014",
+  "image": "l014.png",
+  "X": "na fide patefacere ſacerdoti, quæ non niſi ſemel dictu⸗",
+  "Y": "na fide patefacere ſacer doti, quæ non niſi ſemel dictu⸗",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ },
+ {
+  "id": "l015",
+  "image": "l015.png",
+  "X": "rus ſit, præſertim ſi cogitet ſe per ſacer dotem deo lo⸗",
+  "Y": "rus ſit, præſertim ſi cogitet ſe per ſacerdotem deo lo⸗",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ]
+  ],
+  "_ref": "X",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o16/erasexom_816221448_00000029//p3i_final.txt"
+ }
+]

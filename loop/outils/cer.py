@@ -32,6 +32,8 @@ def vue(t: str, nom: str) -> str:
     if nom == 'diplo':
         return t
     if nom == 'norm':
+        from glyphe import glyphe          # norm englobe glyphe (N01) : codage d'abord, puis replis
+        t = glyphe(t)
         t = t.replace('ſ', 's').translate(TIRETS).translate(APOS)
         for k, v in UMLAUT.items(): t = t.replace(k, v)
         return ' '.join(t.split())

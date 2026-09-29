@@ -666,3 +666,14 @@ Banc 36 pages (texte+IoU80, H01 actif) : 29,103 → **29,991** ; pire cas
 0,568 → **0,665** ; hackherz 0,568 → 0,791, baltdiss +0,113, baurodwe +0,108,
 herbdulc +0,117, aepidisp +0,088, DasWeL +0,076, herrkurt +0,075 ; un recul :
 730277879 0,838 → 0,817. Défaut : BBVLM_MOTS_G04=page (0 : G03, 1 : G04b partout).
+
+## O16 — 2026-09-29 — validation sur 4 pages neuves : N01, G05 confirmés ; chiamerk parfaite
+
+Détail : o16/RESULTATS.md. Tirage O03 épuisé : œuvres déjà vues d'astra, jamais
+de cette boucle. Texte final (glyphe) : chiamerk **0**, briedefra 1,
+erasexom 4 (31 en diplo : N01 retire 27 éditions de pur codage), brieetli 8.
+Aucune page ne monte avec N01. ALTO : G05 +0,100 (briedefra 0,828 → 0,919),
+aucun recul ; H01 et S08 sans objet sur ces pages. CRITERE ✓ chiamerk,
+brieetli. **chiamerk : 4ᵉ page parfaite de bout en bout.** Correctif associé :
+la vue `norm` englobe désormais `glyphe` (elle restait sur diplo : erasexom
+19 en norm contre 4 en glyphe).
