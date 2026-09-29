@@ -3,27 +3,33 @@
 État, règles et prochaines étapes : `ETAT.md`. Journal : `JOURNAL.md`.
 Littérature : `LITTERATURE.md`. Veille concurrente (astra) : `CONCURRENT.md`.
 
-## La chaîne, en une ligne par étage
+## La chaîne, en une ligne par étage (état au 2026-09-29)
 
 | étage | outil | appel VLM |
 |---|---|---|
-| vues | `outils/vues_zoom.py` (page, bandes, moitiés ×1,6) | — |
-| lignes | `outils/segmente.py` (kraken blla), `serre.py` (resserrement), `coupe.py` (manchettes) | — |
-| texte + rôles | consigne `outils/consigne_P5.md`, deux lectures | **2 passes** |
-| normalisation | `outils/p2.py` : `ocrd2.py` (espaces OCR-D), R1 (Fraktur), `r2.py` (ů/uͤ) | — |
-| arbitrage | `outils/p3.py` : seules les lignes en désaccord | **1 petite passe** |
-| alignement | `outils/aligne.py` (lecture → lignes, manchettes par rôle) | — |
-| mots | `connexe` (master) + filtre A32 routé (astra A37) — `g02.py` | — |
-| ALTO | `outils/vers_alto.py` : ALTO 4.4, blocs typés, ReadingOrder, XSD | — |
-| recherche | `outils/recherche.py` : vue diplomatique + vue de recherche, boîtes | — |
+| vues | `outils/vues_zoom.py` (page réduite, bandes pleine résolution, moitiés ×1,6) | — |
+| lignes | `segmente.py` (kraken blla) → `serre.py` : boîte G03 (encre du polygone) et boîte G04b (sans l'encre des lignes voisines, publiée) | — |
+| texte + rôles | deux lectures aveugles, consigne `outils/consigne_P6.md` (OCR-D niveau 2, jetons monétaires, rôles et régions) | **2 passes** |
+| normalisation | `outils/p2.py` : jetons → PUA, qꝫ → U+E8BF (L1), ’ → ' (L2), espaces OCR-D, R1 (Fraktur), R2 (ů/uͤ) | — |
+| arbitrage | `outils/p3.py` : seules les lignes en désaccord (et celles d'une seule lecture), recadrées ; même appel : signe d'inflexion de la page (`inflexion.py`, I01) | **1 petite passe** |
+| lignes (suite) | `vers_alto.lignes_page()` : scission des lignes portant deux lignes lues (S08, `scinde.py`), manchettes coupées (S02, `coupe.py`), boîte G04b pour les mots sur les pages contaminées (G05) | — |
+| placement | ancrage par OCR Tesseract des lignes kraken (S05, `ancre.py`) ; repli XY-cut + largeur | — |
+| mots | routeur connexe + A32 (`g02.py`) ; pages penchées : redressement par ligne de base (B04) et bas des mots sur bande pleine (H01) (`centre.py`) | — |
+| ALTO | `outils/vers_alto.py` : ALTO 4.4, blocs typés, ReadingOrder, lignes non placées marquées, XSD | — |
 
+Mode économe : lecture A seule + I01 (≈ −50 % d'appels VLM, +15 % d'éditions, V04).
 Point d'entrée : `outils/chaine.py prepare|arbitrage|final DOSSIER`.
 
 ## Mesures (outils séparés, jamais dans la chaîne)
 
-`cer.py` (CER de page, vues strict/diplo/norm), `adjuger.py` + `bilan_adj.py`
-(adjudication aveugle X/Y, double arbitre), `olr.py`, `eval_alto.py`,
-`critere_final.py` (CRITERE.md), `recherche.py`, `segeval.py`.
+`cer.py` : CER de page, vues strict / diplo / **glyphe** (mêmes signes quel que
+soit le codage, `glyphe.py`, N01 — vue de référence) / norm. `adjuger.py` +
+`bilan_adj.py` : adjudication aveugle X/Y, deux arbitres (règle A2), consigne
+figée `consigne_adjudication.md`. `olr.py`, `eval_alto.py` (texte + IoU 0,8),
+`critere_final.py` et CRITERE sur les lignes de l'ALTO (`lignes_page`),
+`recherche.py`, `segeval.py`.
+
+Résultats (42 pages adjugées, 44 avec ALTO) : voir `ETAT.md`.
 
 ## Installation (reproductibilité)
 
