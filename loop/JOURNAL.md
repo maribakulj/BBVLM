@@ -773,3 +773,16 @@ eynollah 0.9.2 tire tensorrt/onnxruntime-gpu via pypi.nvidia.com (refusé) ;
 installé eynollah 0.3.1 (version des modèles v0.3.1, release GitHub, 1,9 Go)
 avec tensorflow-cpu 2.15.1 et une cale d'espace de noms `qurator.eynollah`
 (paquet 0.3.1 mal empaqueté). Lancement sur les 8 pages du protocole.
+
+## EY1 — 2026-09-29 — Eynollah pour les lignes manquées par kraken — rejeté
+
+Protocole o16/PROTOCOLE_EYN.md. Lignes VT trouvées (IoU ≥ 0,5), chaîne →
++ lignes eynollah sans recouvrement kraken : extraudeu 19 → 21, chiamerk,
+eberbrev, erasexom 28-29 → +1, herbdulc 39 → 40, durrgeda 18 → 19 (mais 10
+lignes ajoutées, précision 0,62 → 0,49), 852691769 71 → 71 (9 ajoutées,
+aucune utile), témoin erobdefoa 34 → 34 (1 parasite). ALTO texte+IoU80
+(8 pages) : 6,659 → 6,664 (chiamerk +0,005 seul) ; pire page inchangée
+(852691769 0,673). Les lignes retrouvées ne reçoivent presque jamais de
+texte : l'ancrage S05 a déjà placé les lignes lues ailleurs, ou les lignes
+manquées sont des titres d'apparat que l'ancrage ne relie pas. Coût : modèles
+1,9 Go, TensorFlow, ≈ 1 min/page sur CPU. Non adopté (BBVLM_EYN reste à 0).
