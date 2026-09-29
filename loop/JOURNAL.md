@@ -754,3 +754,15 @@ Rappel médian **0,956** ; 20/40 pages ≥ 0,95 ; pire 852691769 0,767 / 0,761
 trouvées par kraken), puis durrgeda 0,847 (titres d'apparat), AphoqvSuS 0,864
 (grec), geomeikud 0,870 (bas-allemand), DasWeL 0,873, herrkurt 0,876,
 caladr 0,879 (10 lignes : un mot manqué pèse 3 %).
+
+## S08b — 2026-09-29 — pire page en recherche (852691769) : colonnes de renvois — non poursuivi
+
+852691769 (rappel 0,767) : kraken fusionne chaque entrée de liste avec le
+renvoi aligné à droite (« 1. Dolium … » + « 1. — 6. »), et deux titres
+verticaux ne sont pas trouvés. S08 ne scinde pas : le renvoi apporte 2
+caractères réduits (gain de distance 0,03-0,07 < 0,15) et il est lu loin dans
+l'ordre de lecture (colonne « Varietates » après toute la liste, hors de la
+portée de 6 lignes). Assouplir la longueur minimale (renvois chiffrés) : aucun
+effet (banc 40 pages, 1 110/1 143 lignes trouvées, inchangé). Il faudrait une
+détection de colonne alignée (taquets, L13) pour une seule page du corpus :
+non poursuivi.
