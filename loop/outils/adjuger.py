@@ -29,6 +29,7 @@ def main(dossier, *lectures):
         L = [vue(x, 'diplo') for x in open(lec, encoding='utf-8').read().splitlines() if x.strip()]
         for k, h in apparie(R, L).items():
             if h == R[k] or (k, h) in vus: continue
+            if vue(h, 'glyphe') == vue(R[k], 'glyphe'): continue   # N01 : même signes, codage seul différent
             vus.add((k, h))
             x0, y0, x1, y1 = boites[idx[k]]; m = (y1-y0)//2
             c = img[max(0, y0-m):min(H, y1+m), max(0, x0-20):min(W, x1+20)]
