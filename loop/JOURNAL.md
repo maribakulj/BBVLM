@@ -729,3 +729,10 @@ aepidisp, baurodwe, dalarie, busmexpo, briedefra, brieetli, chiamerk.
 Échecs restants : surtout « lignes en échec » (nombre de mots ≠ VT : blancs
 de la VT ou du texte lu, 18 pages) ; frontières hors seuil : herrkurt (89,8 %),
 herrleyc, hackherz, buchdas, berirev (pire 6-11c), 730277879.
+Correction de la mesure (même jour) : CRITERE évaluait les lignes kraken
+brutes, sans la scission S08 ni la coupe des manchettes S02 que l'ALTO
+applique (manchettes gauches fusionnées : buchdas pire 10,7c, berirev 7,2c,
+herrleyc 5,9c — tous les mots décalés d'un cran). vers_alto expose désormais
+`lignes_page()` (mêmes lignes pour l'ALTO et pour l'évaluation ; ALTO
+inchangés). CRITERE avec les lignes de l'ALTO : **18/40** (herrleyc et
+chridiss ✓ en plus) ; buchdas pire 10,7 → 1,4c, berirev 7,2 → 5,5c.
