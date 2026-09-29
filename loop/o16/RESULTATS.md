@@ -19,3 +19,15 @@ sans G05 3,459 (briedefra 0,828, brieetli 0,902) ; sans H01, sans S08 : identiqu
 CRITERE : ✓ chiamerk, brieetli ; ✗ briedefra (≤0,5c 94,7 %, pire 4,0c),
 erasexom (9 lignes en échec, nombre de mots). Toutes lignes trouvées (sauf 1 sur erasexom).
 **chiamerk : quatrième page parfaite de bout en bout (texte 0 + CRITERE ✓), première sur œuvre neuve depuis O13.**
+
+Recherche (ALTO, rappel / précision) : briedefra 0,993 / 0,990 ; brieetli 0,963 / 0,986 ;
+chiamerk 0,985 / 1,000 ; erasexom 0,923 / 0,956.
+OLR (lecture A) : rôles 0,95-1,0 ; F1 régions 0,72-1,0 ; ordre 0,83-1,0.
+
+Restes texte (glyphe) : brieetli uͤ/ü (3, les arbitres lisent deux points ;
+I01 sans décision nette), u/v ; briedefra J/I ; erasexom ß/ſſ, coquille VT
+« trihuat » gardée (contestée), blanc. Échecs CRITERE d'erasexom (9 lignes) :
+la VT colle ou coupe des mots (« benignus& », « Vbiſpũm », « ſacer doti ») ;
+les arbitres ont corrigé ces blancs dans la référence adjugée, mais les boîtes
+de mots de la VT suivent son découpage : nombre de mots différent, pas une
+faute de notre sortie.

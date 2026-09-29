@@ -677,3 +677,7 @@ aucun recul ; H01 et S08 sans objet sur ces pages. CRITERE ✓ chiamerk,
 brieetli. **chiamerk : 4ᵉ page parfaite de bout en bout.** Correctif associé :
 la vue `norm` englobe désormais `glyphe` (elle restait sur diplo : erasexom
 19 en norm contre 4 en glyphe).
+O16 (suite) : recherche 0,92-0,99 ; OLR rôles 0,95-1,0. Échecs CRITERE
+d'erasexom = découpage des mots de la VT (blancs collés/coupés, corrigés par
+les arbitres dans la référence adjugée) ; restes texte = ambiguïtés réelles
+(uͤ/ü, J/I, ß/ſſ, coquille VT).
