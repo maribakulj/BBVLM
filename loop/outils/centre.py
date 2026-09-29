@@ -103,7 +103,7 @@ class LigneBase(Route):
         yb = np.interp(xs, px, py)
         s = np.round(yb - np.median(yb)).astype(int)
         if s.max() - s.min() < self.SEUIL * (y1 - y0): return super().boxes(g, ln)
-        if __import__('os').environ.get('BBVLM_REDRESSE_HYB') == '1':
+        if __import__('os').environ.get('BBVLM_REDRESSE_HYB', '1') == '1':
             # H01 : découpage horizontal sur la bande réduite (pas d'encre voisine),
             # bas de chaque mot pris sur la bande pleine (jambages gardés)
             import os as _o
