@@ -134,6 +134,9 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
             E(grp, 'ElementRef', ID=f'RO_B{reg+1:03d}', REF=f'B{reg+1:03d}')
         return blocs[reg]
     n_place = n_non = 0
+    _mtf = f'{dossier}/mots_tesseract.json'
+    try: _mt = json.load(open(_mtf))
+    except (FileNotFoundError, ValueError): _mt = {}
     for i, t in enumerate(lignes):
         mots = t.split()
         if i in loc:
@@ -143,6 +146,14 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
             try:
                 bs = bx.boxes(g, corpora.Line(t, mots, (x0, y0, x1, y1), []))
                 ok = len(bs) == len(mots)
+                if ok and os.environ.get('BBVLM_W01') == '1':
+                    # W01 : bords gauche/droit des mots pris chez Tesseract quand le mot concorde
+                    from mots_tess import mots_ligne, aligne
+                    k = f"{'script/Fraktur' if ecr == 'fraktur' else 'lat'}|{x0},{y0},{x1},{y1}"
+                    eux = mots_ligne(g, (x0, y0, x1, y1), k.split('|')[0], _mt, k)
+                    for a, b in aligne(mots, eux).items():
+                        p, q, r_, s_ = bs[a]
+                        bs[a] = (eux[b][1], q, eux[b][2], s_)
             except Exception:
                 ok = False
         else:
@@ -164,6 +175,7 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
         if bs_:
             b.set('HPOS', str(min(x[0] for x in bs_))); b.set('VPOS', str(min(x[1] for x in bs_)))
             b.set('WIDTH', str(max(x[2] for x in bs_)-min(x[0] for x in bs_))); b.set('HEIGHT', str(max(x[3] for x in bs_)-min(x[1] for x in bs_)))
+    if _mt: json.dump(_mt, open(_mtf, 'w'), ensure_ascii=False)
     xml = etree.tostring(root, encoding='UTF-8', xml_declaration=True, pretty_print=True)
     open(sortie, 'wb').write(xml)
     return {'lignes': len(lignes), 'placees': n_place, 'non_placees': n_non}
