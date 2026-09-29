@@ -53,7 +53,14 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
         garde = {tuple(l['bbox']): l for l in kr}
         kr = [garde.get(tuple(b), {'bbox': b}) for b in coupe_page(g0, [l['bbox'] for l in kr])]
     boites = [l['bbox'] for l in kr]
-    if os.environ.get('BBVLM_MOTS_G04') == '1':          # M01 : mots calculés sur la boîte de ligne G04b
+    mg = os.environ.get('BBVLM_MOTS_G04', '0')
+    if mg == 'page':
+        # G05 : page contaminée par l'encre des lignes voisines (la boîte G04b abaisse
+        # le haut des lignes de ≥ SEUIL·h en médiane) → mots calculés sur la boîte G04b
+        import numpy as _np
+        r = [(l['bbox_g04'][1] - l['bbox'][1]) / max(1, l['bbox'][3] - l['bbox'][1]) for l in kr if 'bbox_g04' in l]
+        mg = '1' if r and float(_np.median(r)) >= float(os.environ.get('BBVLM_G05_SEUIL', '0.05')) else '0'
+    if mg == '1':          # mots calculés sur la boîte de ligne G04b
         boites = [l.get('bbox_g04', l['bbox']) for l in kr]
     # géométrie publiée des TextLine : boîte G04b si disponible (lignes scindées/coupées : boîte G03)
     geo = [l.get('bbox_g04', l['bbox']) if os.environ.get('BBVLM_LIGNE_G04', '1') == '1' else l['bbox'] for l in kr]
