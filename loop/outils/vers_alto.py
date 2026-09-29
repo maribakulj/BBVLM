@@ -50,8 +50,11 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
         # manchettes signalées par le lecteur : détacher celles que kraken a fusionnées (coupe.py)
         from coupe import coupe_page
         g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
-        kr = [{'bbox': b} for b in coupe_page(g0, [l['bbox'] for l in kr])]
+        garde = {tuple(l['bbox']): l for l in kr}
+        kr = [garde.get(tuple(b), {'bbox': b}) for b in coupe_page(g0, [l['bbox'] for l in kr])]
     boites = [l['bbox'] for l in kr]
+    # géométrie publiée des TextLine : boîte G04b si disponible (lignes scindées/coupées : boîte G03)
+    geo = [l.get('bbox_g04', l['bbox']) if os.environ.get('BBVLM_LIGNE_G04', '1') == '1' else l['bbox'] for l in kr]
     g = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE); H, W = g.shape
     # Placement : avec les rôles, manchettes alignées sur les lignes de marge
     # (mesuré sur 8 pages : égal partout, herrleyc 0,47 → 0,66 en rappel IoU80).
@@ -103,7 +106,8 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
         mots = t.split()
         if i in loc:
             x0, y0, x1, y1 = boites[loc[i]]
-            tl = E(bloc(i), 'TextLine', ID=f'L{i+1:04d}', HPOS=x0, VPOS=y0, WIDTH=x1-x0+1, HEIGHT=y1-y0+1)
+            gx0, gy0, gx1, gy1 = geo[loc[i]]
+            tl = E(bloc(i), 'TextLine', ID=f'L{i+1:04d}', HPOS=gx0, VPOS=gy0, WIDTH=gx1-gx0+1, HEIGHT=gy1-gy0+1)
             try:
                 bs = bx.boxes(g, corpora.Line(t, mots, (x0, y0, x1, y1), []))
                 ok = len(bs) == len(mots)

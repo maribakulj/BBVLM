@@ -600,3 +600,25 @@ Texte+IoU80, 36 pages : 28,551 → **29,805** ; 26 pages en hausse (hackherz
 culmsent : boîtes de ligne meilleures (haut 0 px de la VT au lieu de −4) mais
 hauts de mots 6 px trop bas. Variante avec marge verticale (BBVLM_G04_PAD)
 préparée, non mesurée. G04 reste désactivé par défaut.
+
+## G04 (décision) — 2026-09-29 — adopté pour la boîte de ligne publiée, rejeté pour les boîtes de mots
+
+Bancs ALTO (texte+IoU80, 36 pages ; G03 seul : 28,551, pire page heptaldai 0,418) :
+- G04 (majorité de l'encre dans le polygone) : 29,805 ; heptaldai 0,393,
+  culmsent 0,711 ;
+- G04b (retirée seulement si la majorité est dans le polygone d'une AUTRE
+  ligne ; accents et points restent) : 29,800 ; culmsent 0,717 — les accents
+  n'étaient pas la cause ;
+- marge verticale 5 % / 10 % (4 pages) : 3,284 / 2,980 contre 3,266 — compromis ;
+- hybride (G04b seulement si le haut ou le bas bouge ≥ T·h) : T 0,10 → 29,464
+  (heptaldai 0,393) ; T 0,15 → 28,987 (heptaldai 0,418, culmsent 0,773).
+Diagnostic culmsent : 24 mots passent sous 0,8 pour 3-8 px dans les deux sens ;
+le calcul des mots (Route) est calé sur la boîte G03 et sensible à la boîte de
+ligne sur les petites lignes (36 px). Toutes les variantes font reculer le
+pire cas ou une page : refusé pour les mots (clause du pire cas, CRITERE.md).
+Mais la boîte de ligne G04b est meilleure sur 36/36 pages (IoU médian de ligne,
+somme 32,22 → 34,50 ; pire 0,758 → 0,809). Adopté pour la géométrie publiée des
+TextLine (serre.py écrit `bbox` G03 pour les mots et `bbox_g04` pour la ligne ;
+vers_alto : BBVLM_LIGNE_G04=0 pour l'ancien). Boîtes de mots strictement
+inchangées (0/1195 différentes). Piste : recaler le calcul des mots sur la
+boîte G04b.

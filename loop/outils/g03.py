@@ -11,7 +11,8 @@ import numpy as np, cv2
 from e01 import e01
 
 
-def resserre(gray, boundary, bbox, aire_min=6, baseline=None, autres=None):
+def resserre(gray, boundary, bbox, aire_min=6, baseline=None, autres=None, g04=None):
+    if g04 is None: g04 = os.environ.get('BBVLM_G04', '0') == '1'
     x0, y0, x1, y1 = bbox
     H, W = gray.shape
     x0, y0, x1, y1 = max(0, x0), max(0, y0), min(W-1, x1), min(H-1, y1)
@@ -20,7 +21,7 @@ def resserre(gray, boundary, bbox, aire_min=6, baseline=None, autres=None):
     m = np.zeros(crop.shape, np.uint8)
     cv2.fillPoly(m, [np.array([[p[0]-x0, p[1]-y0] for p in boundary], np.int32)], 1)
     _, bw = cv2.threshold(crop, 0, 1, cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
-    if os.environ.get('BBVLM_G04', '0') == '1':
+    if g04:
         keep_m = _proprietaires(gray, (x0, y0, x1, y1), bw, m, baseline, autres)
         bw = bw*m*keep_m
     else:
@@ -30,7 +31,7 @@ def resserre(gray, boundary, bbox, aire_min=6, baseline=None, autres=None):
     if not keep: return bbox
     xs0 = min(st[i, 0] for i in keep); ys0 = min(st[i, 1] for i in keep)
     xs1 = max(st[i, 0]+st[i, 2]-1 for i in keep); ys1 = max(st[i, 1]+st[i, 3]-1 for i in keep)
-    pad = int(round(float(os.environ.get('BBVLM_G04_PAD', '0')) * (ys1 - ys0))) if os.environ.get('BBVLM_G04', '0') == '1' else 0
+    pad = int(round(float(os.environ.get('BBVLM_G04_PAD', '0')) * (ys1 - ys0))) if g04 else 0
     return [int(x0+xs0), int(max(0, y0+ys0-pad)), int(x0+xs1), int(min(H-1, y0+ys1+pad))]
 
 
