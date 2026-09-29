@@ -814,3 +814,9 @@ sauf hermhyst ; recherche 0,94-0,98 hors hermhyst (0,57). G05 et S08 sans
 effet, H01 +0,007. Aucun réglage fait après lecture.
 Incident : première vague de lectures perdue (limite de session de l'API),
 relancée à l'identique après réinitialisation.
+O17 (diagnostic ALTO) : 688357687 (0,713) et canitrac (0,739) ont un texte
+presque juste ; les mots entre IoU 0,5 et 0,8 n'ont aucun écart vertical,
+seulement des bords gauche/droit décalés (médiane 4-9 px) sans cause commune
+(coupe dans le mot voisin « Ioan. | And. » 19 px ; début de ligne 5-12 px).
+Les frontières restent justes au caractère près (688357687 : 97,2 % ≤ 0,5c) :
+le seuil IoU 0,8 est sévère pour les mots courts. Pas de correctif systématique.
