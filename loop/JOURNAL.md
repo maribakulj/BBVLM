@@ -705,3 +705,15 @@ fois plus de travail d'arbitre. Durée de lecture Sonnet 50-380 s contre
 40-60 s pour Opus, jetons plus nombreux. L'économie visée n'existe pas :
 arbitrage non lancé (il coûterait plus que la seconde lecture Opus).
 Le second lecteur reste Opus.
+
+## M-meta — 2026-09-29 — métadonnées : source de vérité identifiée, toujours bloquée
+
+Dépôt OCR-D-GT-VD-SBB : MODS vides (vérifié), METADATA.yml et README sans
+métadonnée par œuvre. Source existante : export CSV des métadonnées METS/MODS
+des 206 411 œuvres numérisées de la SBB (Stabi Lab, lab.sbb.berlin/datadumps ;
+Zenodo). Hôtes testés et refusés par la politique réseau : sru.k10plus.de,
+unapi.k10plus.de, content.staatsbibliothek-berlin.de,
+digital.staatsbibliothek-berlin.de, oai.sbb.berlin, lab.sbb.berlin,
+zenodo.org, huggingface.co. Il suffirait d'autoriser lab.sbb.berlin (ou
+zenodo.org) pour disposer d'une VT de métadonnées (titre, auteur, lieu, date,
+imprimeur) sur les 67 œuvres.
