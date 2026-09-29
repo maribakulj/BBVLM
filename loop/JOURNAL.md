@@ -820,3 +820,16 @@ seulement des bords gauche/droit décalés (médiane 4-9 px) sans cause commune
 (coupe dans le mot voisin « Ioan. | And. » 19 px ; début de ligne 5-12 px).
 Les frontières restent justes au caractère près (688357687 : 97,2 % ≤ 0,5c) :
 le seuil IoU 0,8 est sévère pour les mots courts. Pas de correctif systématique.
+
+## V03 — 2026-09-29 — seconde lecture sur signal de page (écart lecture A ↔ Tesseract) — réfuté
+
+Question : peut-on ne relire que les pages où la seconde lecture gagne ? Signal
+sans VLM : distance d'édition moyenne (appariement hongrois) entre les lignes
+de la lecture A et l'OCR Tesseract des lignes kraken (cache S05). 42 pages
+adjugées, vue glyphe. Gain de la chaîne complète sur A seule : 58 éditions,
+concentré (730277879 +18, herrleyc +12, herbdulc +6). Spearman(gain, distance)
+= **−0,11** (p 0,48). Relire les 5 / 10 / 20 pages les plus distantes capte
+4 / 1 / 12 éd. sur 58. Les pages qui gagnent le plus sont parmi les plus
+proches de Tesseract (erreurs fines : signe suscrit, lettre, pas de ligne
+ratée). Comme T01 (ligne), le signal de page Tesseract est réfuté. Le mode
+qualité reste le défaut ; aucun critère a priori ne remplace la seconde lecture.
