@@ -9,7 +9,23 @@ import sys
 import cv2
 
 
+def vues_base(dossier, hauteur=1350, bande=600, recouvrement=120):
+    """Page réduite et bandes pleine résolution (mêmes paramètres que prep_sbb),
+    tirées de la seule image : la chaîne ne dépend d'aucune vérité terrain."""
+    import os
+    os.makedirs(f'{dossier}/vues', exist_ok=True)
+    img = cv2.imread(f'{dossier}/page.png'); H, W = img.shape[:2]
+    cv2.imwrite(f'{dossier}/vues/vue_0_page.png', cv2.resize(img, (int(W*hauteur/H), hauteur), interpolation=cv2.INTER_AREA))
+    y, k = 0, 1
+    while True:
+        y1 = min(H, y+bande); cv2.imwrite(f'{dossier}/vues/vue_{k}_bande.png', img[y:y1]); k += 1
+        if y1 == H: break
+        y = y1-recouvrement
+
+
 def main(dossier, facteur=1.6, bande=600, recouvrement=120, marge=0.12):
+    import os
+    if not os.path.exists(f'{dossier}/vues/vue_0_page.png'): vues_base(dossier, bande=bande, recouvrement=recouvrement)
     img = cv2.imread(f'{dossier}/page.png'); H, W = img.shape[:2]
     y, k = 0, 1
     m = int(W*marge/2)

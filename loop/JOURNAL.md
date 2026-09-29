@@ -874,3 +874,16 @@ Le mode qualité retire 13 % des éditions du mode économe pour ≈ 1,5 appel d
 plus par page. Aucun signal a priori ne désigne les pages qui en profitent
 (T01 ligne, V03 page). Recommandation inchangée : qualité pour produire une
 VT, économe pour indexer.
+
+## R01 — 2026-09-29 — reproductibilité de bout en bout (dossier vierge)
+
+Rejeu de chiamerk (O16) à partir de page.png seule + les deux lectures + les
+verdicts VLM, dans un dossier neuf : `chaine.py prepare → arbitrage → final`.
+Défaut trouvé : la page réduite et les bandes vues par les lecteurs n'étaient
+produites que par prep_sbb.py (qui télécharge aussi la VT) ; une image seule
+ne donnait que les zooms. Corrigé : `vues_zoom.vues_base()` les tire de
+page.png (mêmes paramètres) quand elles manquent. Résultat : les 16 vues
+identiques octet pour octet ; tâches P3 et I01 identiques ; texte final
+identique ; ALTO identique (hors nom de fichier et date). Le premier
+`prepare` avait échoué une fois sans message (segmentation kraken hors délai
+de la commande) ; le second a réussi en 27 s.
