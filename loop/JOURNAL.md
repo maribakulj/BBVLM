@@ -766,3 +766,10 @@ portée de 6 lignes). Assouplir la longueur minimale (renvois chiffrés) : aucun
 effet (banc 40 pages, 1 110/1 143 lignes trouvées, inchangé). Il faudrait une
 détection de colonne alignée (taquets, L13) pour une seule page du corpus :
 non poursuivi.
+
+## EY1 (installation) — 2026-09-29
+
+eynollah 0.9.2 tire tensorrt/onnxruntime-gpu via pypi.nvidia.com (refusé) ;
+installé eynollah 0.3.1 (version des modèles v0.3.1, release GitHub, 1,9 Go)
+avec tensorflow-cpu 2.15.1 et une cale d'espace de noms `qurator.eynollah`
+(paquet 0.3.1 mal empaqueté). Lancement sur les 8 pages du protocole.
