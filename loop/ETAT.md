@@ -47,12 +47,19 @@ Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lec
 
 ## Prochaines étapes
 
-- Passes VLM : Tesseract comme signal de risque réfuté (T01, AUC 0,57) ; mode
-  économe disponible (V01).
-- Texte : blancs autour de la ponctuation (P6b rejetée en A/B ; la VT met une
-  espace après virgule) ; latin juridique ; coquilles.
-- Boîtes : lignes non trouvées par kraken (Eynollah accessible, non intégré) ; B04 adopté (pages penchées), reste heptaldai 0,42.
-- Métadonnées : bloquées faute de VT (catalogues refusés par le réseau).
+- Passes VLM : 2 lectures Opus + arbitre = 226 éd. / 38 pages (glyphe) contre
+  284 pour une lecture (V02) ; confiance déclarée écartée (L15) ; Sonnet en
+  second lecteur rejeté (O16-S : 5× plus de lignes à arbitrer). Piste ouverte :
+  signal a priori des pages qui gagnent à la seconde lecture.
+- Texte : restes = ambiguïtés réelles (uͤ/ü, ſ/f, J/I, ß/ſſ) et conventions
+  non homogènes de la VT (blancs, ⸗/-) ; vue glyphe (N01) adoptée.
+- Boîtes : CRITERE 18/40 (20/40 hors découpage fautif de la VT) ; restes =
+  pages à frontières hors seuil (herrkurt, hackherz, berirev, 730277879) ;
+  recaler le calcul des mots sur G04b partout (G05 le fait par page).
+- Segmentation : lignes non trouvées (titres d'apparat, texte vertical,
+  colonnes de renvois 852691769) ; Eynollah accessible, non intégré.
+- Métadonnées : VT identifiée (export CSV METS/MODS de la SBB, lab.sbb.berlin),
+  hôte refusé par le réseau — à autoriser par le mainteneur.
 - Toute adjudication suit `outils/consigne_adjudication.md` (jamais la règle testée).
 
 ## Contraintes d'environnement
