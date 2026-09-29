@@ -797,3 +797,9 @@ vue glyphe : 166 → 172 éditions ; herrleyc 8 → 4, brieetli 8 → 4, mais
 extraudeu 43 → 47 et chiamerk 0 → **10** (un verdict par mot erroné propagé à
 toutes les occurrences). Le verdict d'un arbitre sur un mot n'est pas assez
 sûr seul — c'est la raison de la garde d'I01. Non adopté (BBVLM_I02 = 0).
+Note I01/chiamerk : l'arbitre voit un « anneau » sur 5 mots, la VT code
+U+E72B (u + e suscrit) : dans cette impression tardive, le e suscrit est un
+petit rond. La garde d'I01 (≥ 3 votes sur mots à inflexion) s'abstient
+(2 votes : « wůr⸗ » coupé et « Fůße », « demůthigen » hors lexique R2) — et
+la page reste à 0. Forme et convention peuvent diverger : un « anneau » vu
+n'implique pas ů dans la VT.
