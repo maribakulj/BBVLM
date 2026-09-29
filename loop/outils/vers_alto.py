@@ -53,6 +53,8 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
         garde = {tuple(l['bbox']): l for l in kr}
         kr = [garde.get(tuple(b), {'bbox': b}) for b in coupe_page(g0, [l['bbox'] for l in kr])]
     boites = [l['bbox'] for l in kr]
+    if os.environ.get('BBVLM_MOTS_G04') == '1':          # M01 : mots calculés sur la boîte de ligne G04b
+        boites = [l.get('bbox_g04', l['bbox']) for l in kr]
     # géométrie publiée des TextLine : boîte G04b si disponible (lignes scindées/coupées : boîte G03)
     geo = [l.get('bbox_g04', l['bbox']) if os.environ.get('BBVLM_LIGNE_G04', '1') == '1' else l['bbox'] for l in kr]
     g = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE); H, W = g.shape
@@ -70,12 +72,15 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
     import os as _os
     if _os.environ.get('BBVLM_BOXER', 'base') == 'base':     # B04 adopté : redressement par ligne de base, pages penchées seulement
         from centre import LigneBase
-        bx = LigneBase({tuple(int(v) for v in l['bbox']): l.get('baseline') for l in kr})
+        bx = LigneBase({tuple(int(v) for v in b): l.get('baseline') for l, b in zip(kr, boites)})
     elif _os.environ.get('BBVLM_BOXER', 'base') == 'route':   # G02/A37 par défaut (mesuré sur 8 pages)
         from g02 import Route
         bx = Route()
     else:
         bx = connexe.Connexe()
+    if os.environ.get('BBVLM_SAT') == '1':               # M01 : signes suscrits rattachés
+        from satellites import ConnexeSat
+        bx.c = ConnexeSat()
     root = etree.Element(f'{{{NS}}}alto', nsmap={None: NS, 'xsi': 'http://www.w3.org/2001/XMLSchema-instance'})
     root.set('{http://www.w3.org/2001/XMLSchema-instance}schemaLocation', NS+' http://www.loc.gov/standards/alto/v4/alto-4-4.xsd')
     d = E(root, 'Description'); E(d, 'MeasurementUnit').text = 'pixel'
