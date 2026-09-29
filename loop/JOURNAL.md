@@ -746,3 +746,11 @@ adjugée (vue glyphe) — la VT colle ou coupe des mots que les deux arbitres
 ont corrigés (erasexom 7, hackherz 4…) — et 16 viennent de notre texte
 (blancs ou mots faux). CRITERE « hors découpage VT » (comme A3 pour le texte) :
 **20/40** (baltdiss, cingdei en plus des 18). Les deux chiffres sont rapportés.
+
+## R-balayage — 2026-09-29 — recherche (ALTO, mot + boîte) sur 40 pages, chaîne actuelle
+
+Rappel médian **0,956** ; 20/40 pages ≥ 0,95 ; pire 852691769 0,767 / 0,761
+(table des matières à numéros alignés à droite et texte vertical, lignes non
+trouvées par kraken), puis durrgeda 0,847 (titres d'apparat), AphoqvSuS 0,864
+(grec), geomeikud 0,870 (bas-allemand), DasWeL 0,873, herrkurt 0,876,
+caladr 0,879 (10 lignes : un mot manqué pèse 3 %).

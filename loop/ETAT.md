@@ -15,7 +15,7 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 | boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE ✓ sur 18/40 pages O07-O16 (chaîne actuelle, lignes de l'ALTO ; 20/40 hors découpage fautif de la VT) ; **erobdefoa, caladr, dalarie, chiamerk (O16, neuve) parfaites de bout en bout** ; blocage : lignes non trouvées par kraken (titres d'apparat, courtes manchettes) et blancs du texte |
 | ALTO | XSD + provenance + refus | `outils/vers_alto.py` | valide XSD 4.4 ; blocs typés, ReadingOrder (XY-cut S03), lignes non placées marquées |
 | OLR | rôles + régions + ordre | `outils/olr.py` | rôles 0,74-1,0, F1 régions ≥ 0,91, ordre ≥ 0,95 (livres) ; presse bloquée (Finlam sur HF) |
-| retrieval | rappel/précision avec boîte | `outils/recherche.py` | 88-100 % sur la plupart des pages |
+| retrieval | rappel/précision avec boîte | `outils/recherche.py` | rappel médian 0,956 sur 40 pages, 20 ≥ 0,95 ; pire 0,77 (852691769, tableau) |
 | métadonnées | valeurs citant la source | à définir | pas de VT accessible (MODS vides, catalogues bloqués) |
 
 ## Chaîne actuelle (P3 + ALTO)
