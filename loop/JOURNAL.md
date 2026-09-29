@@ -833,3 +833,11 @@ concentré (730277879 +18, herrleyc +12, herbdulc +6). Spearman(gain, distance)
 proches de Tesseract (erreurs fines : signe suscrit, lettre, pas de ligne
 ratée). Comme T01 (ligne), le signal de page Tesseract est réfuté. Le mode
 qualité reste le défaut ; aucun critère a priori ne remplace la seconde lecture.
+
+## Bilan texte — 2026-09-29 — 42 pages adjugées, chaîne gelée, vue glyphe
+
+10 pages à 0 ; 18 ≤ 1 ; 24 ≤ 2 ; 28 ≤ 5 ; 36 ≤ 10 ; médiane 2 éditions par
+page ; CER global 0,50 % (260 éd. / 51 896 car.). Pires pages : extraudeu 43
+(ligne double à lettrine, L08), buchdas 37 (VT « ii » pour uͤ, lignes
+indécidées), herrkurt 28 (signes monétaires lus en lettres), hermhyst 23
+(page de 150 car., lignes côte à côte fusionnées).
