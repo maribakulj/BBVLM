@@ -786,3 +786,14 @@ aucune utile), témoin erobdefoa 34 → 34 (1 parasite). ALTO texte+IoU80
 texte : l'ancrage S05 a déjà placé les lignes lues ailleurs, ou les lignes
 manquées sont des titres d'apparat que l'ancrage ne relie pas. Coût : modèles
 1,9 Go, TensorFlow, ≈ 1 min/page sur CPU. Non adopté (BBVLM_EYN reste à 0).
+
+## I02 — 2026-09-29 — signe d'inflexion par mot (verdict de l'arbitre I01 appliqué au mot) — rejeté
+
+brieetli (O16) mêle e suscrit et deux points ; I01 (décision de page, ≥ 3
+votes et 3/4 d'accord) s'abstient, alors que l'arbitre a vu « points » sur
+deux des trois mots fautifs. I02 : chaque mot examiné reçoit le signe vu par
+l'arbitre, à toutes ses occurrences (BBVLM_I02). 21 pages avec verdicts I01,
+vue glyphe : 166 → 172 éditions ; herrleyc 8 → 4, brieetli 8 → 4, mais
+extraudeu 43 → 47 et chiamerk 0 → **10** (un verdict par mot erroné propagé à
+toutes les occurrences). Le verdict d'un arbitre sur un mot n'est pas assez
+sûr seul — c'est la raison de la garde d'I01. Non adopté (BBVLM_I02 = 0).

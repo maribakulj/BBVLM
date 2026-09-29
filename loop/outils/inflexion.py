@@ -79,6 +79,24 @@ def applique(d):
         T = [' '.join(m.replace('u' + E_, 'ů') if 'u' + E_ in m and decide(m) == 'uͤ' else m for m in l.split(' ')) for l in T]
     elif s == 'e':        # par le e suscrit : ů des mots à inflexion → uͤ (R2)
         T = [' '.join(m.replace('ů', 'u' + E_) if 'ů' in m and decide(m) == 'uͤ' else m for m in l.split(' ')) for l in T]
+    if os.environ.get('BBVLM_I02', '0') == '1':
+        # I02 : verdict par mot. Les mots examinés en pleine résolution par l'arbitre
+        # reçoivent le signe qu'il a vu (points → ü, e → uͤ, anneau → ů), partout
+        # où ils figurent sur la page : preuve directe, plus forte que la règle de page.
+        vu = {}
+        try:
+            taches = {t['id']: t for t in json.load(open(f'{d}/inflexion/taches.json'))}
+            for v in json.load(open(f'{d}/inflexion/verdicts.json')):
+                for m, sg in zip(taches.get(v['id'], {}).get('mots', []), v.get('signes', [])):
+                    if sg in ('points', 'e', 'anneau'): vu.setdefault(m, set()).add(sg)
+        except FileNotFoundError:
+            pass
+        rep = {'points': 'ü', 'e': 'u' + E_, 'anneau': 'ů'}
+        def mot(w):
+            cle = SIGNE.sub('u*', w)
+            sg = vu.get(cle)
+            return SIGNE.sub(rep[next(iter(sg))], w) if sg and len(sg) == 1 else w
+        T = [' '.join(mot(w) for w in l.split(' ')) for l in T]
     open(f'{d}/p3i_final.txt', 'w').write('\n'.join(T))
     print(d.rstrip('/').split('/')[-1], 'signe de page :', s)
 
