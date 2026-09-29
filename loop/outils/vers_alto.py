@@ -21,21 +21,11 @@ def E(parent, tag, **at):
     return etree.SubElement(parent, f'{{{NS}}}{tag}', **{k: str(v) for k, v in at.items()})
 
 
-def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage P3)', structure=None):
-    """structure : lecture étiquetée (consigne P4) dont on tire rôle et région de
-    chaque ligne (`olr.lit`), dans le même ordre que `texte`. Sans elle : un seul bloc."""
-    lignes = [l for l in open(texte, encoding='utf-8').read().splitlines() if l.strip() and not l.startswith('#')]
-    roles = None
-    if structure:
-        from olr import lit
-        roles = lit(open(structure, encoding='utf-8').read().splitlines())
-        if len(roles) != len(lignes): roles = None
-    kr = json.load(open(f"{dossier}/{os.environ.get('BBVLM_LIGNES', 'kraken_serre.json')}"))['lignes']
+def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
+    """Lignes de la page telles que la chaîne les utilise : kraken G03 (+ G04b),
+    scindées (S08), manchettes coupées (S02) ; rend (kr, boites des mots (G05), géométrie publiée)."""
     import shutil
-    ecr = 'fraktur'
-    if structure:
-        for l in open(structure, encoding='utf-8'):
-            if l.lower().startswith('#ecriture:'): ecr = l.split(':', 1)[1].strip().lower()
+    kr = json.load(open(f"{dossier}/{os.environ.get('BBVLM_LIGNES', 'kraken_serre.json')}"))['lignes']
     if os.environ.get('BBVLM_SCINDE', '1') == '1' and os.environ.get('BBVLM_ANCRE', '1') == '1' and shutil.which('tesseract'):
         # S08 : ligne kraken portant deux lignes lues (notes en colonnes, manchette collée) → scindée
         from ancre import lit_lignes
@@ -64,6 +54,24 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
         boites = [l.get('bbox_g04', l['bbox']) for l in kr]
     # géométrie publiée des TextLine : boîte G04b si disponible (lignes scindées/coupées : boîte G03)
     geo = [l.get('bbox_g04', l['bbox']) if os.environ.get('BBVLM_LIGNE_G04', '1') == '1' else l['bbox'] for l in kr]
+    return kr, boites, geo
+
+
+def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage P3)', structure=None):
+    """structure : lecture étiquetée (consigne P4) dont on tire rôle et région de
+    chaque ligne (`olr.lit`), dans le même ordre que `texte`. Sans elle : un seul bloc."""
+    lignes = [l for l in open(texte, encoding='utf-8').read().splitlines() if l.strip() and not l.startswith('#')]
+    roles = None
+    if structure:
+        from olr import lit
+        roles = lit(open(structure, encoding='utf-8').read().splitlines())
+        if len(roles) != len(lignes): roles = None
+    import shutil
+    ecr = 'fraktur'
+    if structure:
+        for l in open(structure, encoding='utf-8'):
+            if l.lower().startswith('#ecriture:'): ecr = l.split(':', 1)[1].strip().lower()
+    kr, boites, geo = lignes_page(dossier, lignes, roles, ecr)
     g = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE); H, W = g.shape
     # Placement : avec les rôles, manchettes alignées sur les lignes de marge
     # (mesuré sur 8 pages : égal partout, herrleyc 0,47 → 0,66 en rappel IoU80).
