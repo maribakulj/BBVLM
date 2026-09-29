@@ -681,3 +681,15 @@ O16 (suite) : recherche 0,92-0,99 ; OLR rôles 0,95-1,0. Échecs CRITERE
 d'erasexom = découpage des mots de la VT (blancs collés/coupés, corrigés par
 les arbitres dans la référence adjugée) ; restes texte = ambiguïtés réelles
 (uͤ/ü, J/I, ß/ſſ, coquille VT).
+
+## V02 — 2026-09-29 — une lecture ou deux ? (vue glyphe, 38 pages adjugées)
+
+Lecture A seule (p2, sans I01) 284 éditions, 7 pages à 0 ; lecture B seule
+272, 8 ; chaîne complète (A+B+arbitre P3+I01) **226**, 9 à 0 ; pire page 41
+(A) contre 43 (qualité : herrkurt/extraudeu, difficultés non liées au nombre
+de lectures). Gain concentré sur 10 pages (≥ 3 éd.) : 730277879 18 → 0,
+herrleyc 20 → 8 et herbdulc 10 → 4 (en partie I01, gardé par le mode économe),
+cingdei 16 → 13, DasWeL 13 → 10. Coût : ≈ 2 appels VLM de plus par page.
+Aucun signal a priori connu ne désigne ces pages (Tesseract réfuté, T01) :
+le mode qualité reste le défaut pour une VT, le mode économe (−50 % de
+lecture, +25 % d'éditions) pour l'indexation.
