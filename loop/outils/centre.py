@@ -103,6 +103,17 @@ class LigneBase(Route):
         yb = np.interp(xs, px, py)
         s = np.round(yb - np.median(yb)).astype(int)
         if s.max() - s.min() < self.SEUIL * (y1 - y0): return super().boxes(g, ln)
+        if __import__('os').environ.get('BBVLM_REDRESSE_HYB') == '1':
+            # H01 : découpage horizontal sur la bande réduite (pas d'encre voisine),
+            # bas de chaque mot pris sur la bande pleine (jambages gardés)
+            import os as _o
+            red = redresse(self, g, ln, s)
+            _o.environ['BBVLM_REDRESSE_PLEIN'] = '1'
+            try: plein = redresse(self, g, ln, s)
+            finally: _o.environ.pop('BBVLM_REDRESSE_PLEIN', None)
+            if len(plein) != len(red): return red
+            # haut : bande réduite (juste, −2 px) ; bas : bande pleine (jambages)
+            return [(a, rb, c, max(rd, pd)) for (a, rb, c, rd), (_, _, _, pd) in zip(red, plein)]
         if __import__('os').environ.get('BBVLM_BASE_ACCORD') == '1':
             # B03 : n'en croire la ligne de base que si l'encre penche pareil
             si, _, _ = centre_local(g, ln.line_box)
