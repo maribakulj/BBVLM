@@ -841,3 +841,15 @@ page ; CER global 0,50 % (260 éd. / 51 896 car.). Pires pages : extraudeu 43
 (ligne double à lettrine, L08), buchdas 37 (VT « ii » pour uͤ, lignes
 indécidées), herrkurt 28 (signes monétaires lus en lettres), hermhyst 23
 (page de 150 car., lignes côte à côte fusionnées).
+
+## W01 — 2026-09-29 — bords de mots pris chez Tesseract (ancrage au mot) — rejeté
+
+Tesseract (psm 7, TSV) donne une boîte par mot ; les mots lus appariés à un
+mot Tesseract (distance normalisée ≤ 0,34, alignement monotone) prennent ses
+bords gauche/droit, la hauteur reste celle du calcul connexe. 4 pages
+(texte+IoU80) : culmsent 0,851 → 0,680, hackherz 0,791 → 0,710,
+688357687 0,713 → 0,615, canitrac 0,739 → 0,723 ; somme 3,093 → 2,729.
+Les boîtes de mots de Tesseract sont moins justes que les nôtres (bords
+lâches, ponctuation). Premier essai invalide (config « tsv » absente de
+notre tessdata : aucune boîte lue, scores identiques) — corrigé avant la
+mesure ci-dessus. Non adopté (BBVLM_W01 = 0).
