@@ -41,3 +41,30 @@ def ajuste(gray, box, bs, cal):
         a, b = avec[0]
         out[k][2], out[k + 1][0] = a - 1, b + 1
     return [tuple(v) for v in out]
+
+
+def ajuste_b(gray, box, bs, cal):
+    """W03b : espaces Calamari (entrée binarisée) appariées par rang aux
+    frontières lues, seulement si leur nombre est égal ; frontière k déplacée
+    vers le blanc d'encre qui contient l'espace k, s'il est entre le début du
+    mot k et la fin du mot k+1."""
+    if not cal or len(bs) < 2: return bs
+    x0, y0, x1, y1 = (int(v) for v in box)
+    s = cal['s'].strip()
+    dec = len(cal['s']) - len(cal['s'].lstrip())
+    g = cal['g'][dec:dec + len(s)]
+    esp = [x0 + gg for c, gg in zip(s, g) if c == ' ']
+    if len(esp) != len(bs) - 1: return bs
+    crop = gray[max(0, y0):y1 + 1, max(0, x0):x1 + 1]
+    if not crop.size: return bs
+    _, bw = cv2.threshold(crop, 0, 1, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+    occ = bw.any(axis=0); ox = max(0, x0)
+    B = [(a + ox, b + ox) for a, b in blancs(occ)]
+    out = [list(b) for b in bs]
+    for k, e in enumerate(esp):
+        lo, hi = out[k][0] + 1, out[k + 1][2] - 1
+        c = [(a, b) for a, b in B if a > lo and b < hi and a - 2 <= e <= b + 2]
+        if len(c) != 1: continue
+        a, b = c[0]
+        out[k][2], out[k + 1][0] = a - 1, b + 1
+    return [tuple(v) for v in out]

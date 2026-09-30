@@ -12,12 +12,14 @@ def main():
     for d in sys.argv[1:]:
         f = os.path.join(d, 'kraken_crit2.json')
         if not os.path.exists(f): continue
-        out = os.path.join(d, 'calamari.json')
+        BIN = os.environ.get('BBVLM_CALA_BIN') == '1'     # W03b : entrée binarisée (Otsu par ligne)
+        out = os.path.join(d, 'calamari_bin.json' if BIN else 'calamari.json')
         cache = json.load(open(out)) if os.path.exists(out) else {}
         g = cv2.imread(os.path.join(d, 'page.png'), 0)
         bx = [tuple(int(v) for v in l['bbox']) for l in json.load(open(f))['lignes']]
         bx = [b for b in bx if f'{b[0]},{b[1]},{b[2]},{b[3]}' not in cache]
         crops = [g[max(0, b[1]):b[3] + 1, max(0, b[0]):b[2] + 1] for b in bx]
+        if BIN: crops = [cv2.threshold(c, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1] if c.size else c for c in crops]
         ok = [(b, c) for b, c in zip(bx, crops) if c.size and c.shape[1] > 4 and c.shape[0] > 4]
         if ok:
             for (b, c), r in zip(ok, p.predict_raw([c for _, c in ok])):
