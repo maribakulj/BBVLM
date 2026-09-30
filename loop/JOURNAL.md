@@ -912,3 +912,12 @@ tort. Non adopté (BBVLM_S06 = 0).
 Rappel des lignes (IoU ≥ 0,5) médian 0,968, 27/44 ≥ 0,95, pire hermhyst 0,78 ;
 IoU médian des lignes 0,962 (pire chridiss 0,81) ; précision médiane 1,00
 (pire 0,82). Rappel moyen 0,952.
+
+## D-mots — 2026-09-30 — bord droit des mots par type de fin (44 pages, ALTO régénérés)
+
+Hypothèse tirée d'O17 (canitrac « condem- » +55 px) : les mots finis par un
+trait d'union ou une ponctuation auraient un bord droit biaisé. Mesure sur
+les mots appariés (IoU ≥ 0,3) : écart du bord droit (nous − VT) / hauteur,
+médiane +0,00 (trait, n 317), +0,00 (ponctuation, n 2 005), −0,01 (autres,
+n 6 472) ; IoU ≥ 0,8 pour 91 %, 87 %, 88 %. Aucun biais : le cas canitrac est
+isolé. Pas de correctif.
