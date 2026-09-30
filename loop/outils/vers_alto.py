@@ -43,7 +43,10 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         if os.environ.get('BBVLM_ETEND') == '1':         # S09 : lignes courtes complétées par l'encre
             from etend import etend
             eb = etend(g0, [l['bbox'] for l in kr])
-            kr = [l if list(map(int, l['bbox'])) == e else {**l, 'bbox': e, 'bbox_g04': e} for l, e in zip(kr, eb)]
+            def _g04(l, e):     # la boîte G04b ne reçoit que l'extension horizontale (sinon G05 se désactive, hackherz)
+                g = l.get('bbox_g04', l['bbox'])
+                return [min(g[0], e[0]), g[1], max(g[2], e[2]), g[3]]
+            kr = [l if list(map(int, l['bbox'])) == e else {**l, 'bbox': e, 'bbox_g04': _g04(l, e)} for l, e in zip(kr, eb)]
     if roles and any(r[0] == 'marginalia' for r in roles):
         # manchettes signalées par le lecteur : détacher celles que kraken a fusionnées (coupe.py)
         from coupe import coupe_page
