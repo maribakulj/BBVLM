@@ -1159,3 +1159,6 @@ Types d'erreurs restantes (58 pages, 216 signes appariés) : ů/uͤ 26, blancs 2
 
 ## 30/09 18h50 — SR extensions à l'encre adoptées ; CRITERE 41/60 (dev 34/48, écart 7/12)
 Extensions (prolongement à l'encre dans la bande, arrêt aux colonnes pleines) + marge δ = 0,5 : dev 32 → 34/48 sans recul ; écart 8 → 7/12 (AusdeErb 0 → 1, non diagnostiquée). Adoptées au critère dev ; premier recul observé sur le jeu tenu à l'écart, rapporté tel quel.
+
+## 30/09 19h05 — M03 : métadonnées, lieu et imprimeur par identité (97,4 %)
+Re-mesure pré-enregistrée : lieu par entité GND (lobid, variantes latines), radicaux latins pour lieu et imprimeur. M01 38/39 (97,4 %), M01b 37/38, M01c 35/37. Faux restants = interprétation du rôle (dalarie) et autorités dédoublées (goskeinf). Changement de mesure, pas gain de lecture. Voir m01/RESULTATS_M03.md.
