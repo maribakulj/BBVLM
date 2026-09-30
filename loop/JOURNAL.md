@@ -1171,3 +1171,6 @@ Le bloc logique « colophon » du METS SBB désigne la bonne page (AmmoLIBR, fer
 
 ## 30/09 19h55 — M05 : métadonnées validées sur 12 œuvres neuves — 95,6 %, 0 année fausse
 Œuvres jamais utilisées (1 sur 3 parmi les 43 restantes), page de titre + colophon (structure METS), 1 passe Opus, mesure M03 + identité GND auteur/imprimeur : 43/45 champs présents justes, 0 année fausse (hypothèse ≥ 90 % tenue). Faux : interprétation (Emerico à Rosbach → Rosbach), page de titre française d'un catalogue bilingue. Voir m01/RESULTATS_M05.md.
+
+## 30/09 20h05 — T05 (soudures détectées par les blancs d'encre intra-mot, L40) : négatif
+Alignement W05 + largeur du blanc à chaque frontière de caractère : blancs inter-mots de 0 à 17 px, intra-mots jusqu'à 7 px, recouvrement complet dans ces imprimés serrés ; les soudures connues (« ihm|viel », « rbo|DEI ») ne ressortent pas. Close. Voir t05/RESULTATS.md.
