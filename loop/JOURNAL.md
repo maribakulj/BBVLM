@@ -1150,3 +1150,6 @@ Candidates = lignes de la chaîne + unions de morceaux voisins d'une même bande
 
 ## 30/09 17h50 — SR : scissions adoptées ; extensions + marge δ en mesure
 Scissions v3 (bandes d'encre neutre et sombre) : durrgeda 3 → 2, aucun recul, adoptées. Extensions à l'encre + marge δ = 0,5 (une candidate nouvelle doit battre nettement la ligne d'origine) : lignes à numéro de liste retrouvées sur geomeikud/34 et /37 ; mesure complète en cours. Voir s15/RESULTATS.md.
+
+## 30/09 18h25 — T03 (tirets de fin de ligne par planches de vignettes, L37) : négatif
+Erreurs de texte restantes souvent systématiques par page (eberbrev 13/14 = « ⸗ »/« - »). Planches de vignettes des 412 fins de ligne coupées (51 pages), décision simple/double par relecteurs Opus sans notre lecture. T03 (1 relecteur) 221 → 208 mais 2 pages en hausse ; T03b (accord de 2) 221 → 210, extraudeu 1 → 3 ; T03c (vignettes agrandies) 221 → 223. Décisions instables selon l'instrument, convention VT irrégulière : piste close. Voir t03/PROTOCOLE.md.

@@ -16,3 +16,7 @@ Accord 404/412 ; 15 signes changés ; 221 → 210 (eberbrev 14 → 2, cingdei 13
 
 ## T03c — pré-enregistrée (18h20) : vignettes resserrées sur le tiret et agrandies
 Vignette = dernier 0,7 h de la ligne + 0,25 h de marge, bande verticale 10-90 % de la ligne, hauteur 200 px (LANCZOS). 4 relecteurs Opus (deux indépendants par lot), changement seulement si les deux concordent. Même critère figé (total en baisse, aucune page en hausse ; écart rapporté).
+
+## Résultat T03c (vignettes 200 px, accord de deux relecteurs) — REJETÉE ; piste T03 close
+Accord 389/412 (plus bas qu'à 90 px : 404/412) ; 6 signes changés ; 221 → 223 ; heptaldai/230 1 → 4, extraudeu 1 → 2 ; écart O23-O25 27 → 30 ; eberbrev n'est plus corrigé (à 90 px les relecteurs y lisaient « ⸗ » comme la VT, à 200 px non).
+Conclusion : la forme simple/double du tiret n'est pas décidée de façon stable par le VLM (les décisions changent avec la taille de la vignette, l'accord entre relecteurs baisse quand on agrandit), et la convention de la VT n'est pas régulière d'une page à l'autre. Les gains d'eberbrev (−12) ne sont pas reproductibles. Piste close. Lectures : t03/lectures/.
