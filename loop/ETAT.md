@@ -25,7 +25,7 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 3. P3b : les lignes portées par une seule lecture sont aussi arbitrées. `p2.py` : jetons → PUA, qꝫ → U+E8BF (L1), q́ final → U+F50D (T01b), ’ → ' (L2), conformité OCR-D des espaces, R1 si Fraktur, R2 (ů/uͤ par lexique).
 4. `p3.py` : lignes en désaccord recadrées via kraken, arbitrées par Opus (`consigne_arbitre_P3.md`, repli sur les bandes).
 5. I01 : signe d'inflexion de l'imprimeur décidé par page (même appel que l'arbitre P3).
-6. `segmente.py` (kraken blla) → `serre.py` (G03) → scission S08 (ligne kraken portant deux lignes lues) → renvois chiffrés détachés (S08c) → fusion guidée par le texte (S11) → lignes courtes complétées par l'encre (S09) → lettrine rattachée à sa ligne (S14) → coupe S02 si manchettes (S02c sans rôles, validée par relecture) → placement par ancrage Tesseract S05 (repli par largeur borné par S12 : jamais sur une boîte 3× trop étroite) → boîtes : routeur G02 (DTW ; coupure entre mots choisie par Tesseract quand ses mots s'alignent, W02), redressé par la ligne de base kraken sur les pages penchées (B04 ; bas des mots sur bande pleine, H01) ; boîte de ligne G04b (sans encre voisine) publiée, et utilisée pour les mots sur les pages contaminées (G05) → `vers_alto.py`.
+6. `segmente.py` (kraken blla) → `serre.py` (G03) → scission S08 (ligne kraken portant deux lignes lues) → renvois chiffrés détachés (S08c) → fusion guidée par le texte (S11) → lignes courtes complétées par l'encre (S09) → lettrine rattachée à sa ligne (S14) → coupe S02 si manchettes (S02c sans rôles, validée par relecture) → placement par ancrage Tesseract S05 (repli par largeur borné par S12 : jamais sur une boîte 3× trop étroite) → boîtes : routeur G02 (DTW ; coupure entre mots choisie par Tesseract quand ses mots s'alignent, pages Fraktur seulement, W02/W02c), redressé par la ligne de base kraken sur les pages penchées (B04 ; bas des mots sur bande pleine, H01) ; boîte de ligne G04b (sans encre voisine) publiée, et utilisée pour les mots sur les pages contaminées (G05) → `vers_alto.py`.
 Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lectures + arbitre P3/I01 ; mode économe : 1 lecture + I01 (V04, 42 pages : 300 éd. contre 260 en mode qualité, 8 contre 10 pages à 0, ≈ −50 % d'appels VLM).
 
 ## Règles
@@ -47,7 +47,8 @@ Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lec
 
 ## Prochaines étapes
 
-- **W02 adoptée** (coupure entre deux mots choisie par Tesseract, bords gardés à l'encre) : CRITERE 27 → 28/52, txt+IoU80 +0,078 ; mais Fraktur +0,256 / romain −0,178 (9 reculs) → **W02c (désactiver sur le romain) à valider sur pages neuves en romain**. Rappel : le placeur tourne sans CTC (zenodo.org bloqué).
+- **W02 adoptée** (coupure entre deux mots choisie par Tesseract, bords gardés à l'encre) : CRITERE 27 → 28/52, txt+IoU80 +0,078 ; mais Fraktur +0,256 / romain −0,178 (9 reculs) → **W02c adoptée (O25, 4 pages neuves en romain : sans W02 mieux partout) : W02 limitée au Fraktur**. Rappel : le placeur tourne sans CTC (zenodo.org bloqué).
+- O25 (4 pages neuves en romain) : texte 2/5/1/2 contre l'adjugée auditée, CRITERE 1/4, recherche médiane 0,956 ; P6e détache à tort « De » en fin de ligne (AyrmThes).
 - O24 (4 pages neuves Fraktur) : texte 1/2/9/1 contre l'adjugée auditée, CRITERE 2/4, recherche médiane 0,982.
 - S14 adoptée (lettrine incluse dans la première ligne et le premier mot, si le mot lu commence par deux capitales) : euanaua rappel de lignes 0,909 → 0,955, extraudeu 0,810 → 0,857, aucun recul.
 - C02b adoptée (CRITERE 24 → 27/52, exclusions vérifiées une à une). Recherche caladr 0,886 → 0,931 après régénération T01b.

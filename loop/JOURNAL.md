@@ -1059,3 +1059,6 @@ Littérature L25. `w02.py` : pour chaque frontière dont les deux mots sont appa
 
 ## O24 — 4 pages neuves en Fraktur (30/09, ~14h40 Paris)
 Chaîne complète (P6e, T01b, S14, C02b, audit). Texte adjugé audité : AusdeErb 1, backhart 2, buchdas 9, heptaldai 1 (VT distribuée 1/3/18/2) ; CRITERE 2/4 ; recherche médiane 0,982 ; 1 ligne non placée / 113. Audit : 1 verdict annulé sur 9. Détail : o24/RESULTATS.md.
+
+## O25 + W02c — 4 pages neuves en romain (30/09, ~15h15 Paris) — W02c ADOPTÉE
+Chaîne complète (P6e, T01b, S14, C02b, audit : 2 verdicts annulés sur 20). Texte adjugé audité : AphoqvSuS 2, AyrmThes 5, BrenBreu 1, culmsent 2 (VT distribuée 14/6/11/4) ; CRITERE 1/4 ; recherche médiane 0,956. W02c (W02 désactivée sur le romain) : txt+IoU80 3,331 sans W02 contre 3,315 avec, ≤ 0,5c 397,75 contre 395,66, CRITERE identique → critère tenu, W02 limitée au Fraktur (`BBVLM_W02C`, défaut 1). Effet indésirable relevé : P6e fait détacher « De » en fin de ligne (AyrmThes), la VT le garde. Détail : o25/RESULTATS.md.
