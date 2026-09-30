@@ -37,7 +37,10 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
             from scinde import renvois
             nb = renvois(g0, nb, lit_lignes(dossier, nb, ecr), lignes, dossier,
                          'script/Fraktur' if ecr == 'fraktur' else 'lat')
-        if len(nb) != len(bb):
+        if os.environ.get('BBVLM_FUSION') == '1':      # S11 : deux lignes kraken pour une ligne lue
+            from scinde import fusionne
+            nb = fusionne(nb, lit_lignes(dossier, nb, ecr), lignes)
+        if nb != bb:
             garde = {tuple(l['bbox']): l for l in kr}
             kr = [garde.get(tuple(b), {'bbox': b}) for b in nb]
         if os.environ.get('BBVLM_ETEND', '1') == '1':    # S09 (adopté) : lignes courtes complétées par l'encre
@@ -48,7 +51,7 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
                 # si la relecture (deux modèles) de la boîte élargie ressemble strictement mieux à une ligne lue
                 from ancre import lit_lignes
                 from cer import lev
-                e2 = etend(g0, eb, ecart=float(os.environ.get('BBVLM_ETEND_LOIN_E', '4')))
+                e2 = etend(g0, eb, ecart=float(os.environ.get('BBVLM_ETEND_LOIN_E', '4')), hmin=0.2)   # minuscules « ix. »
                 ch = [i for i in range(len(eb)) if list(map(int, e2[i])) != list(map(int, eb[i]))]
                 if ch:
                     R = [''.join(t.replace('ſ', 's').lower().split()) for t in lignes]

@@ -117,3 +117,38 @@ def renvois(gray, boites, ocr, textes, dossier=None, lang='script/Fraktur'):
         out += parts if len(parts) == 2 else [b]
     if cf: json.dump(cache, open(cf, 'w'))
     return out
+
+
+def fusionne(boites, ocr, textes, gain=None, maxd=None):
+    """S11 — deux lignes kraken d'une même bande qui portent une seule ligne lue (L20).
+
+    Kraken coupe parfois une ligne courte à grand blanc interne en deux lignes
+    (« ix.      Bonen », geomeikud : numéro de liste, puis le mot). Si la
+    concaténation des OCR d'ancrage de deux boîtes voisines de la même bande
+    (recouvrement vertical ≥ 50 %, aucune boîte entre elles) ressemble bien mieux
+    à une ligne lue que chacune seule, on les réunit. Inverse de S08.
+    """
+    gain = GAIN if gain is None else gain; maxd = MAXD if maxd is None else maxd
+    R = [reduit(t) for t in textes if len(reduit(t)) >= 2]
+    if not R: return boites
+    def dm(t): return min((_d(t, r) for r in R), default=1)
+    B = [list(map(int, b)) for b in boites]; O = [reduit(o or '') for o in ocr]
+    fait = True
+    while fait:
+        fait = False
+        ordre = sorted(range(len(B)), key=lambda i: B[i][0])
+        for ia in ordre:
+            a = B[ia]; h = a[3] - a[1]
+            voisins = [j for j in range(len(B)) if j != ia and B[j][0] > a[2] and
+                       min(a[3], B[j][3]) - max(a[1], B[j][1]) >= .5 * min(h, B[j][3] - B[j][1])]
+            if not voisins: continue
+            jb = min(voisins, key=lambda j: B[j][0]); b = B[jb]
+            if any(k not in (ia, jb) and B[k][0] < b[0] and B[k][2] > a[2] and
+                   min(a[3], B[k][3]) - max(a[1], B[k][1]) > 0 for k in range(len(B))): continue
+            if not O[ia] or not O[jb]: continue
+            dc = dm(O[ia] + O[jb])
+            if dc <= maxd and min(dm(O[ia]), dm(O[jb])) - dc >= gain:
+                B[ia] = [min(a[0], b[0]), min(a[1], b[1]), max(a[2], b[2]), max(a[3], b[3])]
+                O[ia] = O[ia] + O[jb]
+                del B[jb]; del O[jb]; fait = True; break
+    return B
