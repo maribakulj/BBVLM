@@ -1135,3 +1135,6 @@ A05 (révision des seuls blancs du verdict hackherz l006, pré-enregistrée, app
 
 ## 30/09 16h00 — incident d'environnement (Orli) et restauration
 Installation d'Orli dans venvk : dépendance kraken~=7.0.2 → kraken 7.1.1 rétrogradé en 7.0.3 et torch 2.14.0 → 2.12.0. Aucune mesure n'a tourné entre-temps. Restauré (kraken 7.1.1, torch 2.14.0, torchvision 0.29.0, orli désinstallé de venvk) ; reproductibilité vérifiée sur le lot O18 contre etat_a05/. Orli isolé dans un venv à part (venvo, torch CPU). Zenodo désormais joignable (poids Orli 594 Mo).
+
+## 30/09 16h50 — S15a Orli (segmenteur de bout en bout) : rejeté
+Orli sur les 2 premières pages à ligne manquée : rappel VT 15/22 et 19/26 contre 21/22 et 25/26 pour kraken ; 43 et 90 lignes produites (sur-segmentation) ; aucune ligne manquée récupérée ; ~135 s/page CPU. Rejeté. Constat : « Am I. Sontag » (euanaua) est une ligne de titre coupée en deux par kraken et trop basse (capitales ornées) → piste S15b (union + extension verticale). Voir s15/RESULTATS.md.
