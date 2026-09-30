@@ -69,7 +69,7 @@ def aligne_ancre(textes, boites, ocr):
     if libres_t and libres_k:
         a = aligne([textes[i] for i in libres_t], [boites[k] for k in libres_k])
         import os
-        if os.environ.get('BBVLM_S12') == '1' and res:
+        if os.environ.get('BBVLM_S12', '1') == '1' and res:      # adopté
             # S12 : le repli par largeur ne pose pas une ligne lue sur une boîte 3 fois trop étroite
             # pour son nombre de signes (référence : lignes ancrées de la page) — sinon non placée
             def _r(i, k):

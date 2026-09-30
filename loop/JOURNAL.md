@@ -996,3 +996,10 @@ Protocole figé avant lecture (o18/PROTOCOLE.md, commit caec964) : aucune œuvre
 - Banc 48 pages (O07-O18) : geomeikud/37 0,816 → 0,883, geomeikud/34 0,778 → 0,815, extraudeu 0,862 → 0,897, caladr 0,727 → 0,758 ; 44 identiques ; aucune perte ; pire cas inchangé.
 - CRITERE : 21/44 = (caladr ✓ frontières 95 → 100 %, geomeikud/34 2 → 1 ligne en échec) ; O18 2/4 = (geomeikud/37 7 → 3). Aucune page dégradée.
 - Fragilité notée : l'ancrage S05 peut poser une longue ligne lue sur une petite boîte orpheline ; S11 en supprime une source.
+
+## S12 — repli d'ancrage borné par la largeur — ADOPTÉ (30/09, 06h40 Paris)
+- Constat (S11) : l'ancrage S05 peut poser une longue ligne lue sur une petite boîte orpheline. Mesure sur les ALTO de la chaîne : 18 lignes placées sur 1 459 ont une largeur par signe à plus d'un facteur 3 de la médiane de leur page. Trop étroites = faux placements (852691769 : intitulés verticaux et renvois sur des boîtes de 18-37 px, rapport 0,03-0,3 ; durrgeda « HERRN/ » sur 42 px ; AphoqvSuS ligne grecque sur 181 px ; 688357687 « Bk. Achter Th. ») ; trop larges = titres espacés corrects (« LIBER », « (11) », « L.S. », « ) 152 ( »).
+- Règle (`ancre.aligne_ancre`, repli par largeur seulement) : une ligne lue sans ancre n'est posée sur une boîte libre que si sa largeur par signe (rapportée à la hauteur) vaut au moins le tiers de la médiane des lignes ancrées de la page ; sinon elle reste non placée (refus explicite, TAGREFS NON_PLACE).
+- v1 à deux bornes : 730277879 rappel de recherche 0,930 → 0,909 (le folio espacé « ) 152 ( » refusé à tort) → borne haute retirée.
+- v2 (borne basse seule), recherche sur 48 pages : aucun rappel ne baisse (médiane 0,961 des deux côtés, 29 pages ≥ 0,95) ; précision 852691769 0,780 → 0,835, AphoqvSuS 0,930 → 0,964, durrgeda 0,935 → 0,960, 688357687 0,960 → 0,971. Banc ALTO texte+IoU80 (5 pages ciblées) : identique (les lignes refusées n'étaient déjà pas justes). CRITERE non concerné (n'utilise pas l'ancrage).
+- Décision : adopté par défaut (BBVLM_S12=1) — un refus vaut mieux qu'un faux placement pour la recherche et pour la relecture humaine.
