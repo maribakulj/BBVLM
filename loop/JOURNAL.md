@@ -1104,3 +1104,6 @@ VT de métadonnées enfin accessible (MODS SBB via OAI ; images IIIF après 503 
 
 ## 2026-09-30 14h12 — V01 : vote par médoïde sans arbitre (négatif)
 Sur les lectures L01 : médoïde de 4 FR 28 éd., de 12 lectures 29, contre 17 pour la chaîne actuelle (2 lectures + arbitre) et 30,5 pour une lecture seule. Erreurs corrélées entre lecteurs ; l'arbitre qui revient à l'image fait le gain. Voir v01/RESULTATS.md.
+
+## 2026-09-30 14h19 — V02 : arbitrage élargi par signal Calamari (négatif)
+80 lignes signalées sur 12 pages, arbitre Opus : 47 → 60 éd. (caladr 3 → 16 : défaut de construction, codes PUA montrés à l'arbitre) ; hors caladr 44 → 44 ; l'arbitre garde la lecture Opus sur 72/80 lignes. Rejeté. Voir v02/RESULTATS.md.
