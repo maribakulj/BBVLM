@@ -54,6 +54,12 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
             e = [min(a for a, _ in pts), min(b for _, b in pts), max(a for a, _ in pts), max(b for _, b in pts)]
             if all(_rec(e, l['bbox']) < .5 and _rec(l['bbox'], e) < .5 for l in kr):
                 kr.append({'bbox': e})
+    if os.environ.get('BBVLM_S06') == '1':
+        # S06b : bandes d'encre hors lignes kraken (projection, L11) ajoutées comme candidates ;
+        # l'ancrage ne leur donne du texte que si une ligne lue y correspond
+        from bandes import bandes
+        g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
+        kr = kr + [{'bbox': b} for b in bandes(g0, [l['bbox'] for l in kr])]
     boites = [l['bbox'] for l in kr]
     mg = os.environ.get('BBVLM_MOTS_G04', 'page')
     if mg == 'page':
