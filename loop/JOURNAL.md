@@ -1223,3 +1223,7 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 ## 30/09 20h20 — ALTO sr4 : recherche ≥ 0,95 45 → 47/60 ; S19 rejetée
 - ALTO sr4 (60 pages, chaîne actuelle) : lignes ≥ 0,95 51/60 inchangé ; recherche ≥ 0,95 45 → 47 (euanaua, goclprop, caladr). Seul recul 852691769 (0,875 → 0,863 lignes), attribué aux extensions des unions (ablation).
 - S19 (L45 : a priori de largeur par signe pour les candidates nouvelles) : ne corrige pas 852691769 et fait perdre la recherche sur euanaua → rejetée (désactivée).
+
+## 30/09 20h25 — Passes VLM sur pages neuves (O26+O27, 8 pages, sans nouvelle lecture)
+- Texte glyphe contre la référence adjugée : lecture A seule 28 éd., lecture B seule 17, chaîne (2 lectures + arbitre + inflexion + R-règles) **11** (−61 % contre A). Par page A → final : 0→0, 1→1, 16→6 (buchdiss), 0→0, 3→0, 4→1, 1→0, 3→3. Aucune page où la chaîne fait pire que A.
+- Confirme hors jeu de réglage que la seconde lecture est rentable (dev : −23 %, O23-O25 : −33 %) ; la variance entre lecteurs reste forte (A 28 contre B 17 sur les mêmes pages). Le mode économe (A seule) n'est pas recommandé.

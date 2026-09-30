@@ -66,7 +66,7 @@ Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lec
 
 - Passes VLM : 2 lectures Opus + arbitre = 226 éd. / 38 pages (glyphe) contre
   284 pour une lecture (V02) ; confiance déclarée écartée (L15) ; Sonnet en
-  second lecteur rejeté (O16-S : 5× plus de lignes à arbitrer). Signal a priori testé (P01, désaccord A/Tesseract) : réfuté (24 % du gain gardé) ; la seconde lecture reste systématique (−23 % d'éd. sur 55 pages, −33 % sur O23-O25).
+  second lecteur rejeté (O16-S : 5× plus de lignes à arbitrer). Signal a priori testé (P01, désaccord A/Tesseract) : réfuté (24 % du gain gardé) ; la seconde lecture reste systématique (−23 % d'éd. sur 55 pages, −33 % sur O23-O25, −61 % sur 8 pages neuves O26-O27 : 28 → 11).
 - Lecture : variance mesurée (O20) : ±2-3 éd./page d'ordinaire, mais dérive bimodale possible sur latin juridique abrégé (emmeprac 8 → 65 éd. si le lecteur colle les abréviations)  ; méthode : toute consigne se juge sur ≥ 4 lectures par page. Adoptées ainsi : P6d (espace après un point d'abréviation : dérive 2/4 → 0/4, emmeprac 36,8 → 10,75, O21b) puis P6e (deux blocs sur une même ligne = deux lignes : extraudeu 41 → 12, O22) — consigne de lecture actuelle : `outils/consigne_P6e.md`.
 - Texte : restes = ambiguïtés réelles (uͤ/ü, ſ/f, J/I, ß/ſſ) et conventions
   non homogènes de la VT (blancs, ⸗/-) ; vue glyphe (N01) adoptée.
