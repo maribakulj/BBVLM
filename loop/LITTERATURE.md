@@ -302,3 +302,8 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 - Sources : lobid-gnd (lobid.org/gnd, API JSON, joignable) ; SRU K10plus (sru.k10plus.de/opac-de-627, recordSchema=marcxml, champ 100 $0 (DE-588) = identifiant GND de l'auteur).
 - Apport : K10plus relie la notice à une entité GND (goskeinf : Goske, Martin = GND 119689405) ; lobid donne formes préférées et variantes (Gosky, Martin : variante « Goskius, Martinus » ; Heshusius, Tilemann préféré en GND alors que la notice SBB écrit Heshusen).
 - Limite : les autorités sont elles-mêmes dédoublées ou divergentes (Goske 119689405 sans variante ; Gosky b. 1542 avec « Goskius ») ; la forme « catalogue » d'un nom latinisé n'est donc pas une vérité unique. Juger l'auteur par identité (même entité GND, ou forme lue ∈ variantes) est plus juste que par chaîne, mais dépend de la qualité des autorités et reste hors image (à étiqueter comme enrichissement, pas lecture).
+
+## L33 — Langue du prompt et performance des LLM multilingues
+- Sources : « Native vs Non-Native Language Prompting: A Comparative Analysis » (arXiv 2409.07054) ; P-MMEval (arXiv 2411.09116) ; « Cross-Lingual Prompt Steerability » (arXiv 2512.02841).
+- Apport : la langue du prompt change les résultats ; l'anglais est souvent meilleur (prédominance dans les données), mais pas partout : pour certaines tâches le prompt dans la langue des données fait aussi bien ou mieux, et la variance change selon la langue.
+- Limite : aucun de ces travaux ne porte sur la transcription diplomatique d'images ; nos documents sont en allemand/latin anciens, nos consignes en français : l'effet est à mesurer, pas à supposer.
