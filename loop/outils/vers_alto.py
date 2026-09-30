@@ -114,6 +114,10 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         from bandes import bandes
         g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
         kr = kr + [{'bbox': b} for b in bandes(g0, [l['bbox'] for l in kr])]
+    if os.environ.get('BBVLM_S14', '1') == '1':      # S14 : lettrine rattachée à sa ligne (appliquée si le mot lu commence par deux capitales)
+        from lettrine import detecte
+        g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
+        for i, c in detecte(g0, [l['bbox'] for l in kr]).items(): kr[i] = {**kr[i], 'lettrine': c}
     boites = [l['bbox'] for l in kr]
     mg = os.environ.get('BBVLM_MOTS_G04', 'page')
     if mg == 'page':
@@ -207,10 +211,15 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
         if i in loc:
             x0, y0, x1, y1 = boites[loc[i]]
             gx0, gy0, gx1, gy1 = geo[loc[i]]
+            lt = kr[loc[i]].get('lettrine') if len(t) > 1 and t[:2].isupper() else None     # S14 : la lettre après la lettrine est en capitale (« ES », « DA », « AUf »)
+            if lt: gx0, gy0, gx1, gy1 = min(gx0, lt[0]), min(gy0, lt[1]), max(gx1, lt[2]), max(gy1, lt[3])
             tl = E(bloc(i), 'TextLine', ID=f'L{i+1:04d}', HPOS=gx0, VPOS=gy0, WIDTH=gx1-gx0+1, HEIGHT=gy1-gy0+1)
             try:
                 bs = bx.boxes(g, corpora.Line(t, mots, (x0, y0, x1, y1), []))
                 ok = len(bs) == len(mots)
+                if ok and lt:
+                    bs = [tuple(v) for v in bs]; a, b_, c, e = bs[0]
+                    bs[0] = (min(a, lt[0]), min(b_, lt[1]), max(c, lt[2]), max(e, lt[3]))
                 if ok and os.environ.get('BBVLM_W01') == '1':
                     # W01 : bords gauche/droit des mots pris chez Tesseract quand le mot concorde
                     from mots_tess import mots_ligne, aligne

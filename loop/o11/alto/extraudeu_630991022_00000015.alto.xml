@@ -93,10 +93,10 @@
             <String ID="L0005_W06" CONTENT="Verordnung." HPOS="1340" VPOS="809" WIDTH="401" HEIGHT="89"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B002" TAGREFS="ROLE_paragraph" HPOS="136" VPOS="1417" WIDTH="1717" HEIGHT="730">
-          <TextLine ID="L0006" HPOS="397" VPOS="1417" WIDTH="1442" HEIGHT="95">
-            <String ID="L0006_W01" CONTENT="DA" HPOS="400" VPOS="1436" WIDTH="66" HEIGHT="86"/>
-            <SP HPOS="466" VPOS="1436" WIDTH="9"/>
+        <TextBlock ID="B002" TAGREFS="ROLE_paragraph" HPOS="135" VPOS="1338" WIDTH="1718" HEIGHT="809">
+          <TextLine ID="L0006" HPOS="135" VPOS="1338" WIDTH="1704" HEIGHT="405">
+            <String ID="L0006_W01" CONTENT="DA" HPOS="135" VPOS="1338" WIDTH="331" HEIGHT="405"/>
+            <SP HPOS="466" VPOS="1338" WIDTH="9"/>
             <String ID="L0006_W02" CONTENT="der" HPOS="475" VPOS="1442" WIDTH="75" HEIGHT="57"/>
             <SP HPOS="550" VPOS="1442" WIDTH="2"/>
             <String ID="L0006_W03" CONTENT="Verfaſſung" HPOS="552" VPOS="1436" WIDTH="277" HEIGHT="75"/>

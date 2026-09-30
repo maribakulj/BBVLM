@@ -133,8 +133,8 @@
           </TextLine>
         </TextBlock>
         <TextBlock ID="B003" TAGREFS="ROLE_paragraph" HPOS="69" VPOS="879" WIDTH="804" HEIGHT="609">
-          <TextLine ID="L0010" HPOS="515" VPOS="879" WIDTH="354" HEIGHT="49">
-            <String ID="L0010_W01" CONTENT="ES" HPOS="515" VPOS="884" WIDTH="49" HEIGHT="44"/>
+          <TextLine ID="L0010" HPOS="392" VPOS="879" WIDTH="477" HEIGHT="135">
+            <String ID="L0010_W01" CONTENT="ES" HPOS="392" VPOS="884" WIDTH="172" HEIGHT="130"/>
             <SP HPOS="564" VPOS="884" WIDTH="1"/>
             <String ID="L0010_W02" CONTENT="war" HPOS="564" VPOS="890" WIDTH="66" HEIGHT="34"/>
             <SP HPOS="630" VPOS="890" WIDTH="17"/>
