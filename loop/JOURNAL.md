@@ -1183,3 +1183,6 @@ T07 brut 51 → 100 (report des blancs mal aligné autour de la ponctuation) ; T
 
 ## 30/09 21h00 — T07c validation (7 pages dev) : nulle ; non adoptée
 Aucune modification retenue par le garde-fou sur 210 lignes (les accords des relecteurs portent sur les blancs de la ponctuation et sur des glissements d'alignement). T07c ne corrige que hackherz (qui passe alors CRITERE) : coût 2 passes VLM/page pour 1 page sur 11 → non adoptée ; procédure sûre, gardée en réserve pour un mode de correction ciblée.
+
+## 30/09 21h05 — SR consolidée : lignes 51/60, recherche 45/60, CRITERE 41/60
+Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes ≥ 0,95 50 → 51 (contre 47 avec SR brut), recherche ≥ 0,95 38 → 45 par rapport aux ALTO du matin ; CRITERE 41/60 (dev 34/48, écart 7/12). ALTO sr3 = référence (page.alto.sr3.xml).
