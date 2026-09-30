@@ -1162,3 +1162,6 @@ Extensions (prolongement à l'encre dans la bande, arrêt aux colonnes pleines) 
 
 ## 30/09 19h05 — M03 : métadonnées, lieu et imprimeur par identité (97,4 %)
 Re-mesure pré-enregistrée : lieu par entité GND (lobid, variantes latines), radicaux latins pour lieu et imprimeur. M01 38/39 (97,4 %), M01b 37/38, M01c 35/37. Faux restants = interprétation du rôle (dalarie) et autorités dédoublées (goskeinf). Changement de mesure, pas gain de lecture. Voir m01/RESULTATS_M03.md.
+
+## 30/09 19h20 — M04 (colophon, 6 dernières images) : négatif, instrument défaillant
+Images = gardes, plats, mires ; seul ferrepit montre un colophon par transparence (1509 juste ; « Wirtzburgij » probablement mal lu pour Wittenberg ; « Viridimontanus » = Grünenberg traduit, non reconnu par la règle de radical). 1 juste, 2 faux sur 11. M04b : pages choisies par la structure METS (bloc « colophon », exclusion des plats/gardes/mire).

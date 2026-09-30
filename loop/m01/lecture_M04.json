@@ -1,0 +1,10 @@
+{
+  "AmmoLIBR": {"annee": null, "lieu": null, "imprimeur": null, "citation": null},
+  "buchdas": {"annee": null, "lieu": null, "imprimeur": null, "citation": null},
+  "ferrepit": {
+    "annee": {"lu": "Anno . M . D . IX .", "norme": "1509", "image": "fin_0_o56.jpg"},
+    "lieu": {"lu": "Wirtzburgij", "norme": "Würzburg", "image": "fin_0_o56.jpg"},
+    "imprimeur": {"lu": "per Ioannē Viridi/montanū", "norme": "Viridimontanus", "image": "fin_0_o56.jpg"},
+    "citation": "Impreſſum Wirtzburgij per Ioannē Viridi/montanū . Anno . M . D . IX ."
+  }
+}
