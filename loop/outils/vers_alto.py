@@ -229,7 +229,7 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
                         p, q, r_, s_ = bs[a]
                         bs[a] = (eux[b][1], q, eux[b][2], s_)
                 w02d = os.environ.get('BBVLM_W02D') == '1'     # W02d (rejetée) : romain avec script/Latin
-                w03 = os.environ.get('BBVLM_W03', '0')          # W03 (en test) : CTC Calamari ; 'tout' ou 'romain'
+                w03 = os.environ.get('BBVLM_W03', 'romain_b')   # W03b adoptée (romain : Calamari binarisé, espaces appariées par rang) ; '0' pour couper
                 w03b = w03.endswith('_b')                        # W03b : entrée binarisée, appariement par rang
                 if ok and (w03 in ('tout', 'tout_b') or (w03 in ('romain', 'romain_b') and ecr != 'fraktur')):
                     from w03 import ajuste as ajuste3, ajuste_b

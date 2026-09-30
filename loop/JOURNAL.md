@@ -1089,3 +1089,6 @@ O18 : CRITERE 2/4 contre 3/4 par défaut, IoU en baisse sur 3 pages (brieetli 0,
 
 ## 2026-09-30 11h59 — R02 : relecture P6e des trois pages périmées
 extraudeu 42 → 2, herrkurt 28 → 20, hermhyst 23 → 24 (chant sous portée : fusion de deux blocs persistante). Total 93 → 46 : hypothèse (≤ 45) manquée de peu, hermhyst empire d'une éd. Les chiffres R02 remplacent les anciens (bilan 58 pages glyphe 304 → 257, norm 260 → 201). Voir r02/RESULTATS.md.
+
+## 2026-09-30 12h30 — W03b adoptée : CRITERE 31 → 32/60
+Calamari (GT4HistOCR) sur lignes binarisées Otsu, espaces appariées par rang aux frontières lues seulement si leur nombre est égal ; romain seulement. O07-O17 24/44 (+1), autres lots inchangés ; pire écart en baisse sur 12 pages, aucune page ne franchit 2 c. Première mesure invalide (les scripts de mesure ignoraient le mode romain_b ; corrigé). Voir w03b/RESULTATS.md.
