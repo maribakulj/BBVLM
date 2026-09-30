@@ -371,3 +371,7 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 ## L47 — ROVER (Fiscus 1997, IEEE ASRU ; LV-ROVER, arXiv 1707.07432)
 - Apport : combiner plusieurs sorties de reconnaissance par alignement et vote réduit l'erreur (jusqu'à −20 % relatif en parole ; LV-ROVER pour l'écriture manuscrite). Motive V05 : vote de 4 lectures VLM indépendantes (médiane de ligne) contre la chaîne à 2 lectures + arbitre.
 - Limite : suppose des erreurs peu corrélées entre systèmes ; nos 4 lecteurs sont le même modèle (erreurs corrélées : conventions, soudures communes) ; coût ×2 en lectures.
+
+## L48 — LLM multimodaux pour la reconnaissance d'écriture (« Benchmarking Large Language Models for Handwritten Text Recognition », arXiv 2503.15195)
+- Apport : Claude Sonnet (3.5) en tête des modèles propriétaires pour la reconnaissance de documents entiers, devant les OCR classiques ; l'écart entre tailles de modèles n'est pas documenté pour l'imprimé ancien. Motive S02 : remesurer Sonnet (5.5) comme lecteur, avec la consigne P6e et les zooms (O16-S l'avait rejeté avec une consigne antérieure).
+- Limite : manuscrit moderne français, pas d'imprimé ancien ni de Fraktur ; modèles anciens.
