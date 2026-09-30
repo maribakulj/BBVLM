@@ -1274,3 +1274,10 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 - Mesure : dev extraudeu VT 6 → 5 éd., CRITERE ✗ → ✓ (échec 1 → 0) → **CRITERE 43 → 44/60** (dev 37/48), aucune autre page touchée. O28 (post hoc, non compté comme preuve) : actevedef 42 → 35 éd. VT, lignes en échec 9 → 2, iou_med 0,750 → 0,742 (reste ✗).
 - Conflit noté : la consigne P6e dit « pas d'espace autour d'un trait d'union » ; les lecteurs l'appliquent à ce cas. R9 corrige en post-traitement (pas de nouvelle lecture).
 - Note : la sauvegarde p3i_final_avantR4b.txt d'extraudeu est désormais l'état avant R9.
+
+## 30/09 23h05 — W06 (recalage à l'encre de W05 limité à la bande centrale de la ligne) : adoptée
+- Diagnostic (outils/diag_iou.py, sur O28, donc post hoc) : actevedef et durrgeda, bord gauche des mots −0,15/−0,17 h, droit +0,05/+0,09 h (pages réussies ±0,00) ; image : boîtes étendues dans les blancs entre mots. Cause : dans w05.ajuste/recale, une colonne est « encrée » si un pixel l'est sur toute la hauteur de la boîte de ligne ; sur Fraktur dense, jambages/hampes des lignes voisines bouchent les blancs.
+- W06 (L50) : n'est comptée que l'encre des composantes connexes qui touchent la bande 25-80 % de la hauteur de ligne (seuils fixés a priori, non réglés). BBVLM_W06, défaut 1.
+- Mesure (CRITERE chaine2, série complète, etat_w06/) : dev O07-O17 32 → 33 (+1 = extraudeu, dû à R9 ; ancienne référence etat_s18), O18 4/4, O23 3/4, O24 2/4, O25 2/4 → **CRITERE 44/60 inchangé** ; iou_med : Δ par page ≥ 0 sur les 60 pages (médianes +0,002 à +0,017 par ensemble ; pire page dev 0,811 → 0,862) ; lignes en échec inchangées ; aucune régression.
+- Pages neuves : O28 durrgeda ✗ → ✓ (0,762 → 0,820), actevedef 0,742 → 0,802 (reste ✗ : 2 lignes) ; O27 backhart 0,775 → 0,777 (défaut différent : bord haut +0,13 h) ; O26 buchdiss −0,012 (seule baisse, 0,937 → 0,925).
+- Adoptée : gain sur une composante gelée du CRITERE (iou_med) sans aucune régression sur dev+écart. Reste à régénérer les ALTO finaux (vers_alto) et remesurer R02b.

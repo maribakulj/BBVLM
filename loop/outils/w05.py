@@ -154,7 +154,7 @@ def occupation(bw):
     """colonnes encrées ; W06 (L50) : seulement l'encre des composantes qui touchent la bande
     centrale de la ligne (hampes et jambages des lignes voisines exclus)"""
     import os
-    if os.environ.get('BBVLM_W06', '0') != '1' or bw.shape[0] < 8: return bw.any(axis=0)
+    if os.environ.get('BBVLM_W06', '1') != '1' or bw.shape[0] < 8: return bw.any(axis=0)
     import cv2, numpy as np
     n, lab, st, _ = cv2.connectedComponentsWithStats(bw.astype(np.uint8), connectivity=8)
     h = bw.shape[0]; a, b = int(.25 * h), int(.8 * h)
