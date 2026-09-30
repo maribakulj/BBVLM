@@ -51,6 +51,7 @@ Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lec
   284 pour une lecture (V02) ; confiance déclarée écartée (L15) ; Sonnet en
   second lecteur rejeté (O16-S : 5× plus de lignes à arbitrer). Piste ouverte :
   signal a priori des pages qui gagnent à la seconde lecture.
+- Lecture : variance mesurée (O20) : ±2-3 éd./page d'ordinaire, mais dérive bimodale possible sur latin juridique abrégé (emmeprac 8 → 65 éd. si le lecteur colle les abréviations) ; P6d (exemple d'abréviations) supprime la dérive sur 2/2 lectures mais manque son critère figé (O21) — à reprendre avec ≥ 4 lectures par consigne.
 - Texte : restes = ambiguïtés réelles (uͤ/ü, ſ/f, J/I, ß/ſſ) et conventions
   non homogènes de la VT (blancs, ⸗/-) ; vue glyphe (N01) adoptée.
 - Boîtes : CRITERE 21/44 ; causes d’échec mesurées : lignes courtes sans ligne kraken (fusionnées dans une ligne longue, ou vues en fragment : S09 en complète une partie) et nombre de mots lu ≠ VT (28 lignes / 1265 = blancs seuls, moitié conventions diplomatiques de la VT, moitié nos erreurs : S10, blancs vérifiés par l’encre, rejeté : positions de caractères nécessaires) ; restes =
