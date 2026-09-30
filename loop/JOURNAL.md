@@ -1196,3 +1196,8 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 ## 30/09 18h55 — T08 : signal Calamari/Tesseract pour cibler la relecture des blancs — négatif
 - Nombre de mots lu ≠ Calamari et Tesseract : 20 % des lignes signalées, 42 % des 48 lignes à nombre de mots faux couvertes (précision 6 %) ; Calamari soude aux mêmes endroits que nous. Pas de dépense VLM. Détail : t08/RESULTATS.md.
 - Décomposition des 27 lignes en échec CRITERE (42/60) : 18 nombre de mots (soudures/coupures de lecture, erreurs de ligne), 9 lignes sans boîte (apparat, colonnes).
+
+## 30/09 19h00 — R4 réappliquée aux textes finaux (oubli) + A05 goclprop — CRITERE 43/60
+- Constat (en cherchant les soudures autour de la ponctuation, L42) : R3/R4/R5 adoptées à 15h50 n'avaient pas été réappliquées aux textes finaux de toutes les pages. outils/r4b.py : 2 lignes seulement changent sur 60 pages (BrenBreu « Thren.3. » → « Thren. 3. » ; goclprop « Exerc.107.diſt.2. » → « Exerc. 107. diſt. 2. »). Sauvegardes *_avantR4b.txt.
+- goclprop : le verdict adjugé l000/l009 collait les blancs ; les deux relecteurs aveugles A01 et la VT ont la segmentation en 4 mots, verdict ≠ seulement par les blancs → règle A05 pré-enregistrée appliquée (c02c/a05/blancs.json). Texte adjugé : BrenBreu 1 → 0, goclprop 8 → 8 (11 → 8 sous le verdict révisé).
+- CRITERE : BrenBreu ✓ (1 → 0 ligne en échec) ; goclprop 2 lignes en échec (la manchette « Exerc. 107. diſt. 2. » échoue désormais faute de boîte, plus au compte de mots ; « eſtque deductio » = lecture juste, VT « eue deduio » sans signe). **43/60** (dev 36/48, écart 7/12). etat_r4b/.
