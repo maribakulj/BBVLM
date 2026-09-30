@@ -1,0 +1,50 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "promiſſionem & tollet fidem. Jam, cum ſtatuendum ſit, promiſ-",
+  "Y": "promiſſionem & tollet fidem. Iam, cum ſtatuendum ſit, promiſ-",
+  "divergences_X_vers_Y": [
+   [
+    "J",
+    "I"
+   ]
+  ]
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "hendit, cum qua Spiritus S. eſt efficax, quemadmodum Paulus in-",
+  "Y": "bendit, cum qua Spiritus S. eſt efficax, quemadmodum Paulus in-",
+  "divergences_X_vers_Y": [
+   [
+    "h",
+    "b"
+   ]
+  ]
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "nis cauſſam quæramus. Ideo Petrus eſt electus, quia fide factus",
+  "Y": "nis cauſſam quæramus. Ideo Petrus eſt electus. quia fide factus",
+  "divergences_X_vers_Y": [
+   [
+    ",",
+    "."
+   ]
+  ]
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "IN FORM. CONC. NON ASSERTA.",
+  "Y": "IN FORM. CONO. NON ASSERTA.",
+  "divergences_X_vers_Y": [
+   [
+    "C",
+    "O"
+   ]
+  ]
+ }
+]

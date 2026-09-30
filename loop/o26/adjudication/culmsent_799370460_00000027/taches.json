@@ -1,0 +1,54 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Non uiuendum ut edas, ſed edendum ut uiuas.",
+  "Y": "Non uiuendum ur edas, ſed edendum ut uiuas.",
+  "divergences_X_vers_Y": [
+   [
+    "t",
+    "r"
+   ]
+  ]
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Non ætate, ſed ingenio adipiſcitur ſapientia.",
+  "Y": "Non ætate, ſed ingenio adi piſcitur ſapientis.",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ],
+   [
+    "a",
+    "s"
+   ]
+  ]
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "Nihil turpius, q̃ cum familiari bellum gerere.",
+  "Y": "Nihil turpius,  cum familiari bellum gerere.",
+  "divergences_X_vers_Y": [
+   [
+    "q̃",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "Nemo eſt hominum, in quo nõ aliqd uicij ineſt.",
+  "Y": "Nemo eſt hominum, in quo nõ aliꝗd uicij ineſt.",
+  "divergences_X_vers_Y": [
+   [
+    "q",
+    "ꝗ"
+   ]
+  ]
+ }
+]

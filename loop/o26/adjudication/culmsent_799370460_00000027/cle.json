@@ -1,0 +1,62 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Non uiuendum ut edas, ſed edendum ut uiuas.",
+  "Y": "Non uiuendum ur edas, ſed edendum ut uiuas.",
+  "divergences_X_vers_Y": [
+   [
+    "t",
+    "r"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o26/culmsent_799370460_00000027//p3i_final.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Non ætate, ſed ingenio adipiſcitur ſapientia.",
+  "Y": "Non ætate, ſed ingenio adi piſcitur ſapientis.",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ],
+   [
+    "a",
+    "s"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o26/culmsent_799370460_00000027//p3i_final.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "Nihil turpius, q̃ cum familiari bellum gerere.",
+  "Y": "Nihil turpius,  cum familiari bellum gerere.",
+  "divergences_X_vers_Y": [
+   [
+    "q̃",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o26/culmsent_799370460_00000027//p3i_final.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "Nemo eſt hominum, in quo nõ aliqd uicij ineſt.",
+  "Y": "Nemo eſt hominum, in quo nõ aliꝗd uicij ineſt.",
+  "divergences_X_vers_Y": [
+   [
+    "q",
+    "ꝗ"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o26/culmsent_799370460_00000027//p3i_final.txt"
+ }
+]

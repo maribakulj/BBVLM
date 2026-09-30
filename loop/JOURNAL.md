@@ -1205,3 +1205,9 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 ## 30/09 19h20 — S18 (taches détachées aux extrémités des boîtes de ligne) — adoptée
 - Littérature L43 (retrait des petites composantes, survey Likforman-Sulem). Motivation : la perte CTC ne pénalise pas le vide en trop, donc SR ne resserre jamais ; post-traitement des boîtes finales.
 - CRITERE 60 pages : 43/60 inchangé, lignes en échec 27 → 26 (goclprop manchette retrouvée), aucun recul (écart : AusdeErb iou −0,003, statut inchangé). Adoptée (BBVLM_S18=1). ALTO sr4 relancé avec S18.
+
+## 30/09 19h45 — O26 (4 pages neuves) : SR neutre hors réglage ; une page parfaite
+- Protocole pré-enregistré (o26/PROTOCOLE.md, tirage sha256). Chaîne complète : 2 lectures Opus P6e + arbitre, adjudication A2 (2 arbitres aveugles).
+- H-O26 tenue : CRITERE 1/4 avec et sans SR/S18, 9 lignes en échec dans les deux cas, boîtes identiques (SR ne choisit que des lignes kraken d'origine sur ces pages). Oracle : 4 lignes sans boîte, aucune candidate ≥ 0,5.
+- Texte adjugé : 852691769/512 **0** (53/53), baltdiss 1, culmsent 2, buchdiss 11. Échecs CRITERE de buchdiss = 5 lignes « „ ␣ » → R6 (L44) préparée, non adoptée (inspirée par O26) : à valider sur O27.
+- Écarts de mise en œuvre signalés : lectures lancées avant les zooms (refaites), mesures parallèles sur un fichier commun (refaites en série).
