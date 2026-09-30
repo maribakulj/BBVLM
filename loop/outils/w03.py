@@ -43,6 +43,9 @@ def ajuste(gray, box, bs, cal):
     return [tuple(v) for v in out]
 
 
+STAT = {'lignes': 0, 'egales': 0, 'deplacees': 0, 'frontieres': 0}
+
+
 def ajuste_b(gray, box, bs, cal):
     """W03b : espaces Calamari (entrée binarisée) appariées par rang aux
     frontières lues, seulement si leur nombre est égal ; frontière k déplacée
@@ -54,7 +57,9 @@ def ajuste_b(gray, box, bs, cal):
     dec = len(cal['s']) - len(cal['s'].lstrip())
     g = cal['g'][dec:dec + len(s)]
     esp = [x0 + gg for c, gg in zip(s, g) if c == ' ']
+    STAT['lignes'] += 1
     if len(esp) != len(bs) - 1: return bs
+    STAT['egales'] += 1
     crop = gray[max(0, y0):y1 + 1, max(0, x0):x1 + 1]
     if not crop.size: return bs
     _, bw = cv2.threshold(crop, 0, 1, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
@@ -66,5 +71,7 @@ def ajuste_b(gray, box, bs, cal):
         c = [(a, b) for a, b in B if a > lo and b < hi and a - 2 <= e <= b + 2]
         if len(c) != 1: continue
         a, b = c[0]
+        STAT['frontieres'] += 1
+        STAT['deplacees'] += (out[k][2], out[k + 1][0]) != (a - 1, b + 1)
         out[k][2], out[k + 1][0] = a - 1, b + 1
     return [tuple(v) for v in out]
