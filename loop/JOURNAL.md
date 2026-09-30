@@ -1110,3 +1110,6 @@ Sur les lectures L01 : médoïde de 4 FR 28 éd., de 12 lectures 29, contre 17 p
 
 ## 2026-09-30 14h21 — M02 : auteurs mesurés par identité GND
 Re-mesure (critère figé avant calcul) : M01 35 → 36/40 (90 %), M01b 33 → 34/38, M01c 33/37 inchangé. Faux restants : rôle, forme vernaculaire absente des autorités, flexion, formes latines du catalogue pour lieu/imprimeur. Voir m01/RESULTATS_M02.md.
+
+## 2026-09-30 14h45 — W05 adoptée : alignement forcé CTC, CRITERE 32 → 33/60
+Viterbi CTC du texte lu sur les émissions kraken CATMuS (log des probabilités, correctif du forced_align kraken), frontière entre pics recalée à l'encre. Pire écart médian 1,04 → 0,44 c, pages > 1 c : 31 → 5 ; IoU médiane 0,943 → 0,929. Les échecs restants sont des lignes en échec. Voir w05/RESULTATS.md.
