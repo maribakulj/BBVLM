@@ -35,7 +35,7 @@
   <Layout>
     <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="2382" HEIGHT="3732">
       <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="2382" HEIGHT="3732">
-        <TextBlock ID="B001" TAGREFS="ROLE_heading" HPOS="226" VPOS="232" WIDTH="1646" HEIGHT="1410">
+        <TextBlock ID="B001" TAGREFS="ROLE_heading" HPOS="386" VPOS="293" WIDTH="1486" HEIGHT="1349">
           <TextLine ID="L0001" HPOS="386" VPOS="293" WIDTH="1486" HEIGHT="233">
             <String ID="L0001_W01" CONTENT="Gedaͤchtnis⸗Predigt/" HPOS="385" VPOS="289" WIDTH="1487" HEIGHT="237"/>
           </TextLine>
@@ -47,13 +47,13 @@
           <TextLine ID="L0003" HPOS="615" VPOS="586" WIDTH="1118" HEIGHT="150">
             <String ID="L0003_W01" CONTENT="Hoch⸗Wohlgebohrnen" HPOS="615" VPOS="591" WIDTH="1118" HEIGHT="145"/>
           </TextLine>
-          <TextLine ID="L0004" HPOS="226" VPOS="294" WIDTH="42" HEIGHT="80">
-            <String ID="L0004_W01" CONTENT="HERRN/" HPOS="226" VPOS="294" WIDTH="42" HEIGHT="79"/>
+          <TextLine ID="L0004" TAGREFS="NON_PLACE">
+            <String ID="L0004_W01" CONTENT="HERRN/"/>
           </TextLine>
-          <TextLine ID="L0005" HPOS="844" VPOS="232" WIDTH="62" HEIGHT="44">
-            <String ID="L0005_W01" CONTENT="Hn." HPOS="838" VPOS="232" WIDTH="8" HEIGHT="52"/>
-            <SP HPOS="846" VPOS="232" WIDTH="1"/>
-            <String ID="L0005_W02" CONTENT="Friedrich" HPOS="846" VPOS="232" WIDTH="76" HEIGHT="62"/>
+          <TextLine ID="L0005" TAGREFS="NON_PLACE">
+            <String ID="L0005_W01" CONTENT="Hn."/>
+            <SP/>
+            <String ID="L0005_W02" CONTENT="Friedrich"/>
           </TextLine>
           <TextLine ID="L0006" HPOS="434" VPOS="1498" WIDTH="243" HEIGHT="144">
             <String ID="L0006_W01" CONTENT="von" HPOS="434" VPOS="1513" WIDTH="40" HEIGHT="128"/>
@@ -228,8 +228,8 @@
             <String ID="L0021_W04" CONTENT="Mannßfeld." HPOS="1374" VPOS="3286" WIDTH="311" HEIGHT="69"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B008" TAGREFS="ROLE_other" HPOS="707" VPOS="3414" WIDTH="991" HEIGHT="248">
-          <TextLine ID="L0022" HPOS="707" VPOS="3414" WIDTH="991" HEIGHT="248" TAGREFS="NON_PLACE">
+        <TextBlock ID="B008" TAGREFS="ROLE_other">
+          <TextLine ID="L0022" TAGREFS="NON_PLACE">
             <String ID="L0022_W01" CONTENT="JENA/"/>
             <SP/>
             <String ID="L0022_W02" CONTENT="gedruckt"/>

@@ -33,12 +33,12 @@
     <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="1796" HEIGHT="2438">
       <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="1796" HEIGHT="2438">
         <TextBlock ID="B001" TAGREFS="ROLE_heading" HPOS="207" VPOS="198" WIDTH="1013" HEIGHT="365">
-          <TextLine ID="L0001" HPOS="424" VPOS="198" WIDTH="613" HEIGHT="103">
-            <String ID="L0001_W01" CONTENT="D." HPOS="424" VPOS="208" WIDTH="101" HEIGHT="82"/>
+          <TextLine ID="L0001" HPOS="428" VPOS="198" WIDTH="774" HEIGHT="103">
+            <String ID="L0001_W01" CONTENT="D." HPOS="428" VPOS="208" WIDTH="97" HEIGHT="82"/>
             <SP HPOS="525" VPOS="208" WIDTH="60"/>
-            <String ID="L0001_W02" CONTENT="Rudolpho" HPOS="585" VPOS="198" WIDTH="393" HEIGHT="103"/>
-            <SP HPOS="978" VPOS="198" WIDTH="7"/>
-            <String ID="L0001_W03" CONTENT="II." HPOS="985" VPOS="231" WIDTH="52" HEIGHT="51"/>
+            <String ID="L0001_W02" CONTENT="Rudolpho" HPOS="585" VPOS="198" WIDTH="452" HEIGHT="103"/>
+            <SP HPOS="1037" VPOS="198" WIDTH="55"/>
+            <String ID="L0001_W03" CONTENT="II." HPOS="1092" VPOS="215" WIDTH="110" HEIGHT="84"/>
           </TextLine>
           <TextLine ID="L0002" HPOS="207" VPOS="345" WIDTH="998" HEIGHT="111">
             <String ID="L0002_W01" CONTENT="ROM." HPOS="207" VPOS="345" WIDTH="473" HEIGHT="107"/>

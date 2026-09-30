@@ -112,15 +112,15 @@
             <String ID="L0054_W01" CONTENT="Oſtrea." HPOS="404" VPOS="1631" WIDTH="121" HEIGHT="45"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B004" TAGREFS="ROLE_marginalia" HPOS="201" VPOS="763" WIDTH="18" HEIGHT="50">
-          <TextLine ID="L0005" HPOS="201" VPOS="763" WIDTH="18" HEIGHT="50">
-            <String ID="L0005_W01" CONTENT="Claſſis" HPOS="201" VPOS="781" WIDTH="7" HEIGHT="24"/>
-            <SP HPOS="208" VPOS="781" WIDTH="1"/>
-            <String ID="L0005_W02" CONTENT="I." HPOS="207" VPOS="761" WIDTH="2" HEIGHT="35"/>
-            <SP HPOS="209" VPOS="761" WIDTH="1"/>
-            <String ID="L0005_W03" CONTENT="Conchæ" HPOS="208" VPOS="781" WIDTH="2" HEIGHT="24"/>
-            <SP HPOS="210" VPOS="781" WIDTH="1"/>
-            <String ID="L0005_W04" CONTENT="Univalves." HPOS="210" VPOS="778" WIDTH="8" HEIGHT="28"/>
+        <TextBlock ID="B004" TAGREFS="ROLE_marginalia">
+          <TextLine ID="L0005" TAGREFS="NON_PLACE">
+            <String ID="L0005_W01" CONTENT="Claſſis"/>
+            <SP/>
+            <String ID="L0005_W02" CONTENT="I."/>
+            <SP/>
+            <String ID="L0005_W03" CONTENT="Conchæ"/>
+            <SP/>
+            <String ID="L0005_W04" CONTENT="Univalves."/>
           </TextLine>
         </TextBlock>
         <TextBlock ID="B005" TAGREFS="ROLE_paragraph" HPOS="239" VPOS="571" WIDTH="422" HEIGHT="399">
@@ -277,7 +277,7 @@
             <String ID="L0026_W03" CONTENT="rariſſima." HPOS="1031" VPOS="943" WIDTH="166" HEIGHT="40"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B007" TAGREFS="ROLE_paragraph" HPOS="196" VPOS="504" WIDTH="1365" HEIGHT="477">
+        <TextBlock ID="B007" TAGREFS="ROLE_paragraph" HPOS="201" VPOS="504" WIDTH="1360" HEIGHT="477">
           <TextLine ID="L0028" HPOS="1394" VPOS="504" WIDTH="167" HEIGHT="37">
             <String ID="L0028_W01" CONTENT="1." HPOS="1394" VPOS="514" WIDTH="14" HEIGHT="26"/>
             <SP HPOS="1408" VPOS="514" WIDTH="8"/>
@@ -299,12 +299,12 @@
             <SP HPOS="1474" VPOS="725" WIDTH="1"/>
             <String ID="L0030_W03" CONTENT="8." HPOS="1474" VPOS="703" WIDTH="86" HEIGHT="37"/>
           </TextLine>
-          <TextLine ID="L0031" HPOS="196" VPOS="779" WIDTH="20" HEIGHT="37">
-            <String ID="L0031_W01" CONTENT="4." HPOS="196" VPOS="780" WIDTH="12" HEIGHT="25"/>
-            <SP HPOS="208" VPOS="780" WIDTH="1"/>
-            <String ID="L0031_W02" CONTENT="—" HPOS="208" VPOS="781" WIDTH="2" HEIGHT="23"/>
-            <SP HPOS="210" VPOS="781" WIDTH="1"/>
-            <String ID="L0031_W03" CONTENT="5." HPOS="210" VPOS="779" WIDTH="8" HEIGHT="27"/>
+          <TextLine ID="L0031" TAGREFS="NON_PLACE">
+            <String ID="L0031_W01" CONTENT="4."/>
+            <SP/>
+            <String ID="L0031_W02" CONTENT="—"/>
+            <SP/>
+            <String ID="L0031_W03" CONTENT="5."/>
           </TextLine>
           <TextLine ID="L0032" HPOS="201" VPOS="792" WIDTH="16" HEIGHT="13">
             <String ID="L0032_W01" CONTENT="5." HPOS="201" VPOS="793" WIDTH="1" HEIGHT="2"/>
@@ -428,13 +428,13 @@
             <String ID="L0047_W06" CONTENT="gibboſa." HPOS="1221" VPOS="1336" WIDTH="146" HEIGHT="51"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B010" TAGREFS="ROLE_paragraph" HPOS="183" VPOS="855" WIDTH="1377" HEIGHT="1116">
-          <TextLine ID="L0048" HPOS="183" VPOS="855" WIDTH="35" HEIGHT="44">
-            <String ID="L0048_W01" CONTENT="1." HPOS="183" VPOS="865" WIDTH="15" HEIGHT="34"/>
-            <SP HPOS="198" VPOS="865" WIDTH="1"/>
-            <String ID="L0048_W02" CONTENT="—" HPOS="198" VPOS="857" WIDTH="12" HEIGHT="37"/>
-            <SP HPOS="210" VPOS="857" WIDTH="1"/>
-            <String ID="L0048_W03" CONTENT="17." HPOS="210" VPOS="855" WIDTH="8" HEIGHT="38"/>
+        <TextBlock ID="B010" TAGREFS="ROLE_paragraph" HPOS="1375" VPOS="1249" WIDTH="185" HEIGHT="722">
+          <TextLine ID="L0048" TAGREFS="NON_PLACE">
+            <String ID="L0048_W01" CONTENT="1."/>
+            <SP/>
+            <String ID="L0048_W02" CONTENT="—"/>
+            <SP/>
+            <String ID="L0048_W03" CONTENT="17."/>
           </TextLine>
           <TextLine ID="L0049" HPOS="1390" VPOS="1249" WIDTH="170" HEIGHT="32">
             <String ID="L0049_W01" CONTENT="2." HPOS="1390" VPOS="1250" WIDTH="33" HEIGHT="27"/>
@@ -458,15 +458,15 @@
             <String ID="L0051_W03" CONTENT="5." HPOS="1523" VPOS="1940" WIDTH="34" HEIGHT="31"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B011" TAGREFS="ROLE_marginalia" HPOS="184" VPOS="939" WIDTH="35" HEIGHT="50">
-          <TextLine ID="L0052" HPOS="184" VPOS="939" WIDTH="35" HEIGHT="50">
-            <String ID="L0052_W01" CONTENT="Claſſ." HPOS="184" VPOS="958" WIDTH="1" HEIGHT="6"/>
-            <SP HPOS="185" VPOS="958" WIDTH="1"/>
-            <String ID="L0052_W02" CONTENT="II." HPOS="184" VPOS="958" WIDTH="2" HEIGHT="8"/>
-            <SP HPOS="186" VPOS="958" WIDTH="1"/>
-            <String ID="L0052_W03" CONTENT="Conchæ" HPOS="184" VPOS="958" WIDTH="2" HEIGHT="8"/>
-            <SP HPOS="186" VPOS="958" WIDTH="1"/>
-            <String ID="L0052_W04" CONTENT="Bivalves." HPOS="185" VPOS="945" WIDTH="34" HEIGHT="39"/>
+        <TextBlock ID="B011" TAGREFS="ROLE_marginalia">
+          <TextLine ID="L0052" TAGREFS="NON_PLACE">
+            <String ID="L0052_W01" CONTENT="Claſſ."/>
+            <SP/>
+            <String ID="L0052_W02" CONTENT="II."/>
+            <SP/>
+            <String ID="L0052_W03" CONTENT="Conchæ"/>
+            <SP/>
+            <String ID="L0052_W04" CONTENT="Bivalves."/>
           </TextLine>
         </TextBlock>
         <TextBlock ID="B012" TAGREFS="ROLE_paragraph" HPOS="238" VPOS="1677" WIDTH="441" HEIGHT="495">
@@ -646,12 +646,12 @@
             <SP HPOS="1499" VPOS="1898" WIDTH="24"/>
             <String ID="L0076_W03" CONTENT="2." HPOS="1523" VPOS="1889" WIDTH="33" HEIGHT="24"/>
           </TextLine>
-          <TextLine ID="L0077" HPOS="184" VPOS="1803" WIDTH="34" HEIGHT="62">
-            <String ID="L0077_W01" CONTENT="5." HPOS="184" VPOS="1821" WIDTH="18" HEIGHT="35"/>
-            <SP HPOS="202" VPOS="1821" WIDTH="1"/>
-            <String ID="L0077_W02" CONTENT="—" HPOS="202" VPOS="1821" WIDTH="8" HEIGHT="36"/>
-            <SP HPOS="210" VPOS="1821" WIDTH="1"/>
-            <String ID="L0077_W03" CONTENT="4." HPOS="210" VPOS="1808" WIDTH="8" HEIGHT="48"/>
+          <TextLine ID="L0077" TAGREFS="NON_PLACE">
+            <String ID="L0077_W01" CONTENT="5."/>
+            <SP/>
+            <String ID="L0077_W02" CONTENT="—"/>
+            <SP/>
+            <String ID="L0077_W03" CONTENT="4."/>
           </TextLine>
           <TextLine ID="L0078" HPOS="1388" VPOS="2026" WIDTH="168" HEIGHT="46">
             <String ID="L0078_W01" CONTENT="6." HPOS="1388" VPOS="2026" WIDTH="20" HEIGHT="33"/>

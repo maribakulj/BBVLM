@@ -93,7 +93,7 @@
             <String ID="L0005_W06" CONTENT="Verordnung." HPOS="1340" VPOS="809" WIDTH="401" HEIGHT="89"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B002" TAGREFS="ROLE_paragraph" HPOS="136" VPOS="1417" WIDTH="1717" HEIGHT="722">
+        <TextBlock ID="B002" TAGREFS="ROLE_paragraph" HPOS="136" VPOS="1417" WIDTH="1717" HEIGHT="730">
           <TextLine ID="L0006" HPOS="397" VPOS="1417" WIDTH="1442" HEIGHT="95">
             <String ID="L0006_W01" CONTENT="DA" HPOS="400" VPOS="1436" WIDTH="66" HEIGHT="86"/>
             <SP HPOS="466" VPOS="1436" WIDTH="9"/>
@@ -244,24 +244,24 @@
             <SP HPOS="1707" VPOS="1979" WIDTH="30"/>
             <String ID="L0013_W11" CONTENT="hier⸗" HPOS="1737" VPOS="1977" WIDTH="115" HEIGHT="69"/>
           </TextLine>
-          <TextLine ID="L0014" HPOS="812" VPOS="2058" WIDTH="1041" HEIGHT="81">
-            <String ID="L0014_W01" CONTENT="mit" HPOS="812" VPOS="2071" WIDTH="49" HEIGHT="54"/>
-            <SP HPOS="861" VPOS="2071" WIDTH="1"/>
-            <String ID="L0014_W02" CONTENT="bekannt" HPOS="862" VPOS="2081" WIDTH="114" HEIGHT="58"/>
-            <SP HPOS="976" VPOS="2081" WIDTH="4"/>
-            <String ID="L0014_W03" CONTENT="gemacht." HPOS="980" VPOS="2068" WIDTH="200" HEIGHT="60"/>
-            <SP HPOS="1180" VPOS="2068" WIDTH="3"/>
-            <String ID="L0014_W04" CONTENT="Signatum" HPOS="1183" VPOS="2065" WIDTH="130" HEIGHT="68"/>
-            <SP HPOS="1313" VPOS="2065" WIDTH="29"/>
-            <String ID="L0014_W05" CONTENT="Breßlau" HPOS="1342" VPOS="2064" WIDTH="163" HEIGHT="69"/>
-            <SP HPOS="1505" VPOS="2064" WIDTH="30"/>
-            <String ID="L0014_W06" CONTENT="den" HPOS="1535" VPOS="2062" WIDTH="43" HEIGHT="67"/>
-            <SP HPOS="1578" VPOS="2062" WIDTH="2"/>
-            <String ID="L0014_W07" CONTENT="5." HPOS="1580" VPOS="2063" WIDTH="24" HEIGHT="55"/>
-            <SP HPOS="1604" VPOS="2063" WIDTH="1"/>
-            <String ID="L0014_W08" CONTENT="Febr." HPOS="1604" VPOS="2061" WIDTH="69" HEIGHT="57"/>
-            <SP HPOS="1673" VPOS="2061" WIDTH="46"/>
-            <String ID="L0014_W09" CONTENT="1753." HPOS="1719" VPOS="2065" WIDTH="134" HEIGHT="62"/>
+          <TextLine ID="L0014" HPOS="137" VPOS="2042" WIDTH="1716" HEIGHT="105">
+            <String ID="L0014_W01" CONTENT="mit" HPOS="137" VPOS="2078" WIDTH="88" HEIGHT="54"/>
+            <SP HPOS="225" VPOS="2078" WIDTH="26"/>
+            <String ID="L0014_W02" CONTENT="bekannt" HPOS="251" VPOS="2042" WIDTH="191" HEIGHT="94"/>
+            <SP HPOS="442" VPOS="2042" WIDTH="29"/>
+            <String ID="L0014_W03" CONTENT="gemacht." HPOS="471" VPOS="2042" WIDTH="329" HEIGHT="104"/>
+            <SP HPOS="800" VPOS="2042" WIDTH="1"/>
+            <String ID="L0014_W04" CONTENT="Signatum" HPOS="800" VPOS="2072" WIDTH="276" HEIGHT="67"/>
+            <SP HPOS="1076" VPOS="2072" WIDTH="20"/>
+            <String ID="L0014_W05" CONTENT="Breßlau" HPOS="1096" VPOS="2067" WIDTH="227" HEIGHT="66"/>
+            <SP HPOS="1323" VPOS="2067" WIDTH="19"/>
+            <String ID="L0014_W06" CONTENT="den" HPOS="1342" VPOS="2066" WIDTH="85" HEIGHT="56"/>
+            <SP HPOS="1427" VPOS="2066" WIDTH="29"/>
+            <String ID="L0014_W07" CONTENT="5." HPOS="1456" VPOS="2081" WIDTH="49" HEIGHT="50"/>
+            <SP HPOS="1505" VPOS="2081" WIDTH="30"/>
+            <String ID="L0014_W08" CONTENT="Febr." HPOS="1535" VPOS="2058" WIDTH="147" HEIGHT="71"/>
+            <SP HPOS="1682" VPOS="2058" WIDTH="1"/>
+            <String ID="L0014_W09" CONTENT="1753." HPOS="1682" VPOS="2067" WIDTH="171" HEIGHT="59"/>
           </TextLine>
         </TextBlock>
         <TextBlock ID="B003" TAGREFS="ROLE_other" HPOS="40" VPOS="171" WIDTH="990" HEIGHT="153">

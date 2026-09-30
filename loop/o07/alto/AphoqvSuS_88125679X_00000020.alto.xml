@@ -26,7 +26,7 @@
   <Layout>
     <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="1146" HEIGHT="1980">
       <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="1146" HEIGHT="1980">
-        <TextBlock ID="B001" TAGREFS="ROLE_paragraph" HPOS="162" VPOS="112" WIDTH="949" HEIGHT="1644">
+        <TextBlock ID="B001" TAGREFS="ROLE_paragraph" HPOS="162" VPOS="163" WIDTH="949" HEIGHT="1593">
           <TextLine ID="L0001" HPOS="165" VPOS="1189" WIDTH="143" HEIGHT="41">
             <String ID="L0001_W01" CONTENT="14" HPOS="195" VPOS="1189" WIDTH="113" HEIGHT="41"/>
           </TextLine>
@@ -183,16 +183,16 @@
             <SP HPOS="279" VPOS="1076" WIDTH="48"/>
             <String ID="L0018_W02" CONTENT="V." HPOS="327" VPOS="1076" WIDTH="42" HEIGHT="43"/>
           </TextLine>
-          <TextLine ID="L0019" HPOS="659" VPOS="112" WIDTH="181" HEIGHT="59">
-            <String ID="L0019_W01" CONTENT="ἐπιθυμία" HPOS="659" VPOS="115" WIDTH="48" HEIGHT="50"/>
-            <SP HPOS="707" VPOS="115" WIDTH="21"/>
-            <String ID="L0019_W02" CONTENT="ϗ" HPOS="728" VPOS="128" WIDTH="14" HEIGHT="32"/>
-            <SP HPOS="742" VPOS="128" WIDTH="2"/>
-            <String ID="L0019_W03" CONTENT="παθήματα," HPOS="744" VPOS="125" WIDTH="29" HEIGHT="45"/>
-            <SP HPOS="773" VPOS="125" WIDTH="19"/>
-            <String ID="L0019_W04" CONTENT="ceu" HPOS="792" VPOS="140" WIDTH="2" HEIGHT="11"/>
-            <SP HPOS="794" VPOS="140" WIDTH="1"/>
-            <String ID="L0019_W05" CONTENT="actus" HPOS="794" VPOS="117" WIDTH="46" HEIGHT="54"/>
+          <TextLine ID="L0019" TAGREFS="NON_PLACE">
+            <String ID="L0019_W01" CONTENT="ἐπιθυμία"/>
+            <SP/>
+            <String ID="L0019_W02" CONTENT="ϗ"/>
+            <SP/>
+            <String ID="L0019_W03" CONTENT="παθήματα,"/>
+            <SP/>
+            <String ID="L0019_W04" CONTENT="ceu"/>
+            <SP/>
+            <String ID="L0019_W05" CONTENT="actus"/>
           </TextLine>
           <TextLine ID="L0020" HPOS="393" VPOS="1128" WIDTH="710" HEIGHT="61">
             <String ID="L0020_W01" CONTENT="&amp;" HPOS="393" VPOS="1129" WIDTH="42" HEIGHT="38"/>

@@ -413,13 +413,13 @@
             <String ID="L0029_W01" CONTENT="chen." HPOS="892" VPOS="1884" WIDTH="84" HEIGHT="48"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B006" TAGREFS="ROLE_other" HPOS="483" VPOS="688" WIDTH="52" HEIGHT="43">
-          <TextLine ID="L0027" HPOS="483" VPOS="688" WIDTH="52" HEIGHT="43">
-            <String ID="L0027_W01" CONTENT="Bk." HPOS="483" VPOS="693" WIDTH="21" HEIGHT="38"/>
-            <SP HPOS="504" VPOS="693" WIDTH="10"/>
-            <String ID="L0027_W02" CONTENT="Achter" HPOS="514" VPOS="688" WIDTH="14" HEIGHT="42"/>
-            <SP HPOS="528" VPOS="688" WIDTH="1"/>
-            <String ID="L0027_W03" CONTENT="Th." HPOS="528" VPOS="692" WIDTH="7" HEIGHT="18"/>
+        <TextBlock ID="B006" TAGREFS="ROLE_other">
+          <TextLine ID="L0027" TAGREFS="NON_PLACE">
+            <String ID="L0027_W01" CONTENT="Bk."/>
+            <SP/>
+            <String ID="L0027_W02" CONTENT="Achter"/>
+            <SP/>
+            <String ID="L0027_W03" CONTENT="Th."/>
           </TextLine>
         </TextBlock>
         <TextBlock ID="B007" TAGREFS="ROLE_signature-mark" HPOS="638" VPOS="141" WIDTH="86" HEIGHT="47">

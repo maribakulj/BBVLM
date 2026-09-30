@@ -39,25 +39,25 @@
     <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="1092" HEIGHT="1701">
       <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="1092" HEIGHT="1701">
         <TextBlock ID="B001" TAGREFS="ROLE_heading" HPOS="39" VPOS="128" WIDTH="788" HEIGHT="1314">
-          <TextLine ID="L0001" HPOS="275" VPOS="128" WIDTH="196" HEIGHT="74">
-            <String ID="L0001_W01" CONTENT="ix." HPOS="275" VPOS="129" WIDTH="57" HEIGHT="72"/>
-            <SP HPOS="332" VPOS="129" WIDTH="2"/>
-            <String ID="L0001_W02" CONTENT="Bonen" HPOS="334" VPOS="141" WIDTH="137" HEIGHT="55"/>
+          <TextLine ID="L0001" HPOS="46" VPOS="128" WIDTH="425" HEIGHT="78">
+            <String ID="L0001_W01" CONTENT="ix." HPOS="46" VPOS="132" WIDTH="82" HEIGHT="68"/>
+            <SP HPOS="128" VPOS="132" WIDTH="147"/>
+            <String ID="L0001_W02" CONTENT="Bonen" HPOS="275" VPOS="129" WIDTH="196" HEIGHT="72"/>
           </TextLine>
-          <TextLine ID="L0004" HPOS="266" VPOS="318" WIDTH="229" HEIGHT="77">
-            <String ID="L0004_W01" CONTENT="x." HPOS="266" VPOS="320" WIDTH="46" HEIGHT="62"/>
-            <SP HPOS="312" VPOS="320" WIDTH="1"/>
-            <String ID="L0004_W02" CONTENT="Kichern" HPOS="312" VPOS="324" WIDTH="183" HEIGHT="60"/>
+          <TextLine ID="L0004" HPOS="49" VPOS="310" WIDTH="446" HEIGHT="85">
+            <String ID="L0004_W01" CONTENT="x." HPOS="49" VPOS="334" WIDTH="51" HEIGHT="57"/>
+            <SP HPOS="100" VPOS="334" WIDTH="166"/>
+            <String ID="L0004_W02" CONTENT="Kichern" HPOS="266" VPOS="319" WIDTH="229" HEIGHT="76"/>
           </TextLine>
-          <TextLine ID="L0007" HPOS="280" VPOS="501" WIDTH="230" HEIGHT="68">
-            <String ID="L0007_W01" CONTENT="xj." HPOS="280" VPOS="502" WIDTH="65" HEIGHT="64"/>
-            <SP HPOS="345" VPOS="502" WIDTH="3"/>
-            <String ID="L0007_W02" CONTENT="Dinckel" HPOS="348" VPOS="503" WIDTH="162" HEIGHT="66"/>
+          <TextLine ID="L0007" HPOS="42" VPOS="501" WIDTH="468" HEIGHT="75">
+            <String ID="L0007_W01" CONTENT="xj." HPOS="43" VPOS="516" WIDTH="73" HEIGHT="57"/>
+            <SP HPOS="116" VPOS="516" WIDTH="164"/>
+            <String ID="L0007_W02" CONTENT="Dinckel" HPOS="280" VPOS="502" WIDTH="230" HEIGHT="67"/>
           </TextLine>
-          <TextLine ID="L0010" HPOS="257" VPOS="688" WIDTH="136" HEIGHT="77">
-            <String ID="L0010_W01" CONTENT="xij." HPOS="257" VPOS="688" WIDTH="47" HEIGHT="77"/>
-            <SP HPOS="304" VPOS="688" WIDTH="1"/>
-            <String ID="L0010_W02" CONTENT="Hers" HPOS="304" VPOS="699" WIDTH="89" HEIGHT="65"/>
+          <TextLine ID="L0010" HPOS="46" VPOS="688" WIDTH="347" HEIGHT="77">
+            <String ID="L0010_W01" CONTENT="xij." HPOS="46" VPOS="701" WIDTH="96" HEIGHT="58"/>
+            <SP HPOS="142" VPOS="701" WIDTH="115"/>
+            <String ID="L0010_W02" CONTENT="Hers" HPOS="257" VPOS="688" WIDTH="136" HEIGHT="77"/>
           </TextLine>
           <TextLine ID="L0013" HPOS="39" VPOS="868" WIDTH="788" HEIGHT="77">
             <String ID="L0013_W01" CONTENT="Dat" HPOS="39" VPOS="871" WIDTH="127" HEIGHT="63"/>
