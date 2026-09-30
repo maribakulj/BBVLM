@@ -14,6 +14,13 @@ ROLE = re.compile(r'^\s*\[[a-z\-]+\+?\]\s?')   # étiquettes de rôle (consigne 
 JETONS = {'{florin}': '\uf2e8', '{groschen}': '\uf2e9'}
 
 
+def fraction(l):
+    # R5 : blanc entre l'entier et la fraction (VT : 3 « 1 ½ » contre 0 « 1½ »)
+    if os.environ.get('BBVLM_R5', '1') != '1': return l
+    import re
+    return re.sub(r'(\d)([½⅓¼¾⅛⅔])', r'\1 \2', l)
+
+
 def parenthese(l):
     # R3 : parenthèse ouvrante séparée du mot qui précède (VT SBB : 23 « x ( » contre 0 « x( » ;
     # les lecteurs la collent parfois, ce qui fusionne deux mots : buchdas/24 « ſie(die »)
@@ -40,7 +47,7 @@ def post(lignes):
             inflexion = l.split(':', 1)[1].strip().lower(); continue
         l = ROLE.sub('', l)
         for j, c in JETONS.items(): l = l.replace(j, c)
-        corps.append(parenthese(conforme(l)))
+        corps.append(fraction(parenthese(conforme(l))))
     t = unicodedata.normalize('NFC', '\n'.join(corps))
     if os.environ.get('BBVLM_QUE', '1') == '1':
         # L1 (après O15) : l'abréviation latine « -que » (q + ꝫ final) est codée
