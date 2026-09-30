@@ -1092,3 +1092,6 @@ extraudeu 42 → 2, herrkurt 28 → 20, hermhyst 23 → 24 (chant sous portée :
 
 ## 2026-09-30 12h30 — W03b adoptée : CRITERE 31 → 32/60
 Calamari (GT4HistOCR) sur lignes binarisées Otsu, espaces appariées par rang aux frontières lues seulement si leur nombre est égal ; romain seulement. O07-O17 24/44 (+1), autres lots inchangés ; pire écart en baisse sur 12 pages, aucune page ne franchit 2 c. Première mesure invalide (les scripts de mesure ignoraient le mode romain_b ; corrigé). Voir w03b/RESULTATS.md.
+
+## 2026-09-30 13h03 — M01 : métadonnées depuis la page de titre (premier test mesuré)
+VT de métadonnées enfin accessible (MODS SBB via OAI ; images IIIF après 503 intermittents). 12 œuvres tirées, 1 passe Opus : 35/40 champs présents justes (87,5 %, hypothèse ≥ 90 % manquée), 0 année fausse, titre 12/12 ; 2 des 4 faux sont des formes latines gardées par le catalogue, 2 sont des erreurs de rôle ou de nom (traducteur/compositeur, Ferrarius Montanus). Voir m01/RESULTATS.md.
