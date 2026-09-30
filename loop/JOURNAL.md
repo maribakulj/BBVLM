@@ -1071,3 +1071,6 @@ Rôle exact par ligne : 1,00 sur 11 pages ; abdipre 0,10 parce que la VT type so
 
 ## État consolidé (30/09, ~16h10 Paris)
 ALTO des 60 pages régénérés avec la chaîne actuelle (S14, W02/W02c, T01b ; 56 archivés, tous valides XSD). CRITERE (C02b) : 31/60 (O07-O17 23/44, O18 3/4, O23 2/4, O24 2/4, O25 1/4). Lignes : rappel médian 1,000 (50/60 ≥ 0,95). Recherche : médiane 0,962 (38/60 ≥ 0,95). Non placées ≈ 21 / 1 801. Journaux : etat_0930/.
+
+## P01 — seconde lecture sélective par désaccord A/Tesseract (30/09, ~16h30 Paris) — RÉFUTÉE
+55 pages : A seule 386 éd., complète 299, sélective (tiers au signal le plus haut) 365 → 24 % du gain gardé (< 80 %). Le signal suit un peu les erreurs de A (ρ = 0,31) mais pas le gain de la seconde lecture (ρ = −0,05). Mesure annexe sur les 12 pages neuves O23-O25 : la seconde lecture + arbitre retire 15 éd. sur 45 (−33 %), jamais pire que A. Détail : p01/RESULTATS.md.
