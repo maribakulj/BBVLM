@@ -12,7 +12,7 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 |---|---|---|---|
 | texte | 0 faute par page | `outils/cer.py` vue **glyphe** (mêmes signes quel que soit le codage, N01 ; diplo rapporté aussi), référence adjugée règle A2 | 42 pages adjugées (O07-O17), vue glyphe : **10 à 0**, 18 ≤ 1, 24 ≤ 2, médiane 2 éd./page ; CER global 0,50 % (260/51 896) ; pires : extraudeu 43, buchdas 37, herrkurt 28, hermhyst 23 ; restes : conventions non homogènes de la VT (blancs, ⸗/-, ü/uͤ), ambiguïtés réelles (ſ/f, J/I, ß/ſſ), structure de lignes rare (lignes côte à côte) |
 | lignes | toutes trouvées, serrées | `outils/segeval.py` (TextLine de l'ALTO contre VT) | 44 pages : rappel médian 0,968 (27 ≥ 0,95 ; pire hermhyst 0,78), IoU médian des lignes 0,962 (pire chridiss 0,81), précision médiane 1,00 ; manques : titres d'apparat, texte vertical, colonnes de renvois, lignes côte à côte |
-| boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE ✓ sur 18/40 pages O07-O16 (chaîne actuelle, lignes de l'ALTO ; 20/40 hors découpage fautif de la VT) ; **erobdefoa, caladr, dalarie, chiamerk (O16, neuve) parfaites de bout en bout** ; blocage : lignes non trouvées par kraken (titres d'apparat, courtes manchettes) et blancs du texte |
+| boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE ✓ sur 18/44 pages O07-O17 (chaîne actuelle avec S08c + S09, lignes de l’ALTO) ; **erobdefoa, caladr, dalarie, chiamerk (O16, neuve) parfaites de bout en bout** ; blocage : lignes non trouvées par kraken (titres d'apparat, courtes manchettes) et blancs du texte |
 | ALTO | XSD + provenance + refus | `outils/vers_alto.py` | valide XSD 4.4 ; blocs typés, ReadingOrder (XY-cut S03), lignes non placées marquées |
 | OLR | rôles + régions + ordre | `outils/olr.py` | consigne P6 (O10-O17, 32 pages) : rôles médiane 1,00 (29/32 ≥ 0,9), F1 régions 0,998 (25/32), ordre 1,00 (28/32) ; pires : durrgeda (titre), 852691769 (tableau), hermhyst (chanson) ; presse bloquée |
 | retrieval | rappel/précision avec boîte | `outils/recherche.py` | rappel médian 0,956 sur 40 pages, 20 ≥ 0,95 ; pire 0,79 (852691769, tableau à intitulés verticaux ; 0,77 avant S08c) |
@@ -25,7 +25,7 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 3. P3b : les lignes portées par une seule lecture sont aussi arbitrées. `p2.py` : jetons → PUA, qꝫ → U+E8BF (L1), ’ → ' (L2), conformité OCR-D des espaces, R1 si Fraktur, R2 (ů/uͤ par lexique).
 4. `p3.py` : lignes en désaccord recadrées via kraken, arbitrées par Opus (`consigne_arbitre_P3.md`, repli sur les bandes).
 5. I01 : signe d'inflexion de l'imprimeur décidé par page (même appel que l'arbitre P3).
-6. `segmente.py` (kraken blla) → `serre.py` (G03) → scission S08 (ligne kraken portant deux lignes lues) → renvois chiffrés détachés (S08c) → coupe S02 si manchettes → placement par ancrage Tesseract S05 (repli : XY-cut S03 + chasse S04) → boîtes : routeur G02, redressé par la ligne de base kraken sur les pages penchées (B04 ; bas des mots sur bande pleine, H01) ; boîte de ligne G04b (sans encre voisine) publiée, et utilisée pour les mots sur les pages contaminées (G05) → `vers_alto.py`.
+6. `segmente.py` (kraken blla) → `serre.py` (G03) → scission S08 (ligne kraken portant deux lignes lues) → renvois chiffrés détachés (S08c) → lignes courtes complétées par l'encre (S09) → coupe S02 si manchettes → placement par ancrage Tesseract S05 (repli : XY-cut S03 + chasse S04) → boîtes : routeur G02, redressé par la ligne de base kraken sur les pages penchées (B04 ; bas des mots sur bande pleine, H01) ; boîte de ligne G04b (sans encre voisine) publiée, et utilisée pour les mots sur les pages contaminées (G05) → `vers_alto.py`.
 Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lectures + arbitre P3/I01 ; mode économe : 1 lecture + I01 (V04, 42 pages : 300 éd. contre 260 en mode qualité, 8 contre 10 pages à 0, ≈ −50 % d'appels VLM).
 
 ## Règles
@@ -53,7 +53,7 @@ Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lec
   signal a priori des pages qui gagnent à la seconde lecture.
 - Texte : restes = ambiguïtés réelles (uͤ/ü, ſ/f, J/I, ß/ſſ) et conventions
   non homogènes de la VT (blancs, ⸗/-) ; vue glyphe (N01) adoptée.
-- Boîtes : CRITERE 18/40 (20/40 hors découpage fautif de la VT) ; restes =
+- Boîtes : CRITERE 18/44 ; causes d’échec mesurées : lignes courtes sans ligne kraken (fusionnées dans une ligne longue, ou vues en fragment : S09 en complète une partie) et nombre de mots lu ≠ VT (28 lignes / 1265 = blancs seuls, moitié conventions diplomatiques de la VT, moitié nos erreurs : piste S10, blancs vérifiés par l’encre) ; restes =
   pages à frontières hors seuil (herrkurt, hackherz, berirev, 730277879) ;
   recaler le calcul des mots sur G04b partout (G05 le fait par page).
 - Segmentation : lignes non trouvées (titres d'apparat, texte vertical,

@@ -40,7 +40,7 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         if len(nb) != len(bb):
             garde = {tuple(l['bbox']): l for l in kr}
             kr = [garde.get(tuple(b), {'bbox': b}) for b in nb]
-        if os.environ.get('BBVLM_ETEND') == '1':         # S09 : lignes courtes complétées par l'encre
+        if os.environ.get('BBVLM_ETEND', '1') == '1':    # S09 (adopté) : lignes courtes complétées par l'encre
             from etend import etend
             eb = etend(g0, [l['bbox'] for l in kr])
             def _g04(l, e):     # la boîte G04b ne reçoit que l'extension horizontale (sinon G05 se désactive, hackherz)
