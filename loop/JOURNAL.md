@@ -1219,3 +1219,7 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 - En cours : CRITERE O27, adjudication A2 (2 arbitres).
 - Incident (20h05) : outils/r4b.py (application de R3/R4/R6 aux textes finaux) prenait toute ligne commençant par « [ » pour un préfixe de rôle ; sur briedefra/131 (lignes imprimées « [Es kann… », « [Dieſe… ») il a dupliqué 2 lignes dans p3i_final (texte 5 → 351 éd.). Corrigé (préfixe de rôle = motif « [rôle] » ou « [rôle+] » seulement), fichier restauré depuis sa sauvegarde ; vérifié : les 3 autres réécritures (BrenBreu, goclprop, buchdiss) ne touchent que les lignes voulues (1, 1, 5). CRITERE O27 relancé (la 1re mesure avait lu le texte corrompu).
 - Texte adjugé O27 (A2, 2 arbitres) : backhart/120 **0** (26/26), fiscfrie/15 **0** (22/22), briedefra/131 1, fiscfrie/17 3.
+
+## 30/09 20h20 — ALTO sr4 : recherche ≥ 0,95 45 → 47/60 ; S19 rejetée
+- ALTO sr4 (60 pages, chaîne actuelle) : lignes ≥ 0,95 51/60 inchangé ; recherche ≥ 0,95 45 → 47 (euanaua, goclprop, caladr). Seul recul 852691769 (0,875 → 0,863 lignes), attribué aux extensions des unions (ablation).
+- S19 (L45 : a priori de largeur par signe pour les candidates nouvelles) : ne corrige pas 852691769 et fait perdre la recherche sur euanaua → rejetée (désactivée).

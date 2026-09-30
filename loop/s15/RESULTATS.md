@@ -74,3 +74,10 @@ Cas : euanaua « Am I. Sontag » (titre coupé en deux morceaux kraken ET trop b
 - sr.detache : groupes de rangées d'encre séparés du corps de la ligne par ≥ 1 rangée blanche et de masse totale < 15 px retirés aux deux extrémités ; appliqué aux boîtes finales (après SR, avant S14), bbox et bbox_g04.
 - Cas moteur : manchette goclprop « Exerc. 107. diſt. 2. » (haut 1452 → 1468, IoU réf. 0,49 → ≈ 0,71).
 - CRITERE (60 pages) : statut inchangé partout (43/60 ; dev 36/48, écart 7/12) ; lignes en échec 27 → **26** (goclprop 2 → 1) ; aucune page en recul ; iou_med : culmsent 0,899 → 0,891, AusdeErb (écart) 0,866 → 0,863, autres ±0,003. Journaux : etat_s18/.
+
+## ALTO sr4 (chaîne 30/09 20h10 : + extensions des unions, S18, R4 réappliquée, R6) — lignes et recherche
+- Lignes ≥ 0,95 : 51/60 (inchangé, médiane 1,000) ; recherche ≥ 0,95 : 45 → **47/60** (médiane 0,962 → 0,963).
+- Gains : euanaua lignes 0,955 → 1,000, recherche 0,957 → 0,978 ; goclprop lignes 0,969 → 1,000, recherche 0,947 → 0,961 ; caladr recherche 0,909 → 0,970 ; BrenBreu 0,970 → 0,978 ; herbdulc 0,960 → 0,963.
+- Seul recul : 852691769 lignes 0,875 → 0,863, recherche 0,813 → 0,794, **dû aux extensions des unions** (vérifié : sans elles, 0,875/0,813). Sur cette page (tableau + texte vertical), des candidates « union prolongée » minuscules captent des lignes courtes (« 5. — 7. » dans une boîte de 35 px de la marge verticale ; « 6. Dolium… » perdue).
+- S19 (L45, largeur par signe ∈ [0,5 ; 2] × médiane de la page pour les candidates nouvelles) : **rejetée** — 852691769 inchangé (0,863/0,794 : la largeur par signe de la page, petite, admet la boîte fautive) et euanaua recherche 0,978 → 0,957.
+- Bilan : extensions des unions gardées (CRITERE +1 page, lignes/recherche nettes positives) ; recul 852691769 connu.
