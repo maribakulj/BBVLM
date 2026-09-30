@@ -988,3 +988,11 @@ Protocole figé avant lecture (o18/PROTOCOLE.md, commit caec964) : aucune œuvre
 - Texte (glyphe) : brieetli 0, brochrnx 1, herrleyc 2, geomeikud 4 (lecture A seule : 0, 1, 4, 18).
 - ALTO texte+IoU80 sans → avec les règles de la nuit : brochrnx 0,955 → 0,970, les 3 autres identiques ; CRITERE identique (2/4 : brochrnx, herrleyc) ; pire 0,816 inchangé. Aucune régression sur pages neuves : S02c, S08c v4, S09b confirmés.
 - Recherche : 0,91-0,99 ; 1 ligne lue non placée sur 108. Détail : o18/RESULTATS.md.
+
+## S11 — deux lignes kraken pour une seule ligne lue : fusion guidée par le texte — ADOPTÉ (30/09, 06h20 Paris)
+- Origine : O18 geomeikud/37, 7 lignes en échec. Listes « ix.      Bonen » : kraken trouve bien « ix. » mais comme une ligne à part ; la VT et la lecture n'en font qu'une. S09c (extension à 4 h, validée par relecture) n'y pouvait rien — rejeté, laissé en option (BBVLM_ETEND_LOIN). Littérature : L20 (la transcription corrige la sur- comme la sous-segmentation).
+- Règle (`scinde.fusionne`, inverse de S08) : deux boîtes voisines de la même bande (recouvrement vertical ≥ 50 %, rien entre elles) sont réunies si (a) la concaténation de leurs OCR d'ancrage ressemble bien mieux à une ligne lue que chacune seule (gain ≥ 0,15, distance ≤ 0,35), ou (b) — petit morceau illisible pour Tesseract (« ix. » lu « (6 ») — la grande boîte retrouve une ligne lue privée de son premier (ou dernier) mot (distance ≤ 0,2, strictement mieux qu'avec la ligne entière) et la petite a une largeur compatible avec ce mot (rapport 0,4-2,5).
+- Itérations : (a) seule → geomeikud/34 +0,009, /37 = ; + (b) avec gain ≥ 0,15 → /34 +0,028 mais /37 −0,020 (le « x. » de « x. Kichern » non réuni — préfixe d'une lettre, gain 0,125 — attire à l'ancrage S05 la ligne « Des wert bym Sicilier… ») ; (b) en amélioration stricte → /37 +0,067.
+- Banc 48 pages (O07-O18) : geomeikud/37 0,816 → 0,883, geomeikud/34 0,778 → 0,815, extraudeu 0,862 → 0,897, caladr 0,727 → 0,758 ; 44 identiques ; aucune perte ; pire cas inchangé.
+- CRITERE : 21/44 = (caladr ✓ frontières 95 → 100 %, geomeikud/34 2 → 1 ligne en échec) ; O18 2/4 = (geomeikud/37 7 → 3). Aucune page dégradée.
+- Fragilité notée : l'ancrage S05 peut poser une longue ligne lue sur une petite boîte orpheline ; S11 en supprime une source.

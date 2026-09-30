@@ -37,7 +37,7 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
             from scinde import renvois
             nb = renvois(g0, nb, lit_lignes(dossier, nb, ecr), lignes, dossier,
                          'script/Fraktur' if ecr == 'fraktur' else 'lat')
-        if os.environ.get('BBVLM_FUSION') == '1':      # S11 : deux lignes kraken pour une ligne lue
+        if os.environ.get('BBVLM_FUSION', '1') == '1':      # S11 (adopté) : deux lignes kraken pour une ligne lue
             from scinde import fusionne
             nb = fusionne(nb, lit_lignes(dossier, nb, ecr), lignes)
         if nb != bb:
