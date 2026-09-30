@@ -1068,3 +1068,6 @@ Pages lues en P6e (O23-O25, 12 pages, 369 lignes) : une seule ligne détachée �
 
 ## OLR sur les 12 pages neuves O23-O25 (30/09, ~15h35 Paris, CPU, lecture A, consigne P6e)
 Rôle exact par ligne : 1,00 sur 11 pages ; abdipre 0,10 parce que la VT type son texte courant « other » (région temporaire non typée « tempReg… ») — lacune de la VT, pas de la lecture. F1 « même région » : 1,00 sur 9 pages, AyrmThes 0,904 (12 régions VT, 8 lues), abdipre 0,708, culmsent 0,689 (5 régions VT, 3 lues : paragraphes fusionnés). Ordre des régions : ≥ 0,95 sur 10 pages, branchri 0,90, abdipre 0,33 (même cause). L'OLR des pages ordinaires est donc au niveau des mesures O10-O17 (rôles médiane 1,00) ; restes : découpage des paragraphes (culmsent, AyrmThes).
+
+## État consolidé (30/09, ~16h10 Paris)
+ALTO des 60 pages régénérés avec la chaîne actuelle (S14, W02/W02c, T01b ; 56 archivés, tous valides XSD). CRITERE (C02b) : 31/60 (O07-O17 23/44, O18 3/4, O23 2/4, O24 2/4, O25 1/4). Lignes : rappel médian 1,000 (50/60 ≥ 0,95). Recherche : médiane 0,962 (38/60 ≥ 0,95). Non placées ≈ 21 / 1 801. Journaux : etat_0930/.
