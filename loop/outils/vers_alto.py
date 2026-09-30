@@ -228,8 +228,15 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
                     for a, b in aligne(mots, eux).items():
                         p, q, r_, s_ = bs[a]
                         bs[a] = (eux[b][1], q, eux[b][2], s_)
-                w02d = os.environ.get('BBVLM_W02D') == '1'     # W02d (en test) : romain avec script/Latin
-                if ok and os.environ.get('BBVLM_W02', '1') == '1' and (ecr == 'fraktur' or w02d or os.environ.get('BBVLM_W02C', '1') == '0'):      # W02 : coupure choisie par Tesseract, bords à l'encre ; W02c : Fraktur seulement
+                w02d = os.environ.get('BBVLM_W02D') == '1'     # W02d (rejetée) : romain avec script/Latin
+                w03 = os.environ.get('BBVLM_W03', '0')          # W03 (en test) : CTC Calamari ; 'tout' ou 'romain'
+                if ok and (w03 == 'tout' or (w03 == 'romain' and ecr != 'fraktur')):
+                    from w03 import ajuste as ajuste3
+                    if '_cal' not in locals():
+                        try: _cal = json.load(open(f'{dossier}/calamari.json'))
+                        except (FileNotFoundError, ValueError): _cal = {}
+                    bs = ajuste3(g, (x0, y0, x1, y1), bs, _cal.get(f'{x0},{y0},{x1},{y1}'))
+                elif ok and os.environ.get('BBVLM_W02', '1') == '1' and (ecr == 'fraktur' or w02d or os.environ.get('BBVLM_W02C', '1') == '0'):      # W02 : coupure choisie par Tesseract, bords à l'encre ; W02c : Fraktur seulement
                     from w02 import ajuste
                     lg = 'script/Fraktur' if ecr == 'fraktur' else ('script/Latin' if w02d else 'lat')
                     bs = ajuste(g, (x0, y0, x1, y1), mots, bs, lg, _mt, f"{lg}|{x0},{y0},{x1},{y1}")
