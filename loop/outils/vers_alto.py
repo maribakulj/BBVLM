@@ -155,7 +155,10 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         ch = list(choisit(_gs, lignes, [l['bbox'] for l in kr], float(os.environ.get('BBVLM_SR_TAU', '4.5'))).values())
         garde = {tuple(map(int, l['bbox'])): l for l in kr}
         nkr = [garde.get(tuple(b), {'bbox': list(b)}) for b in ch]
-        nkr += [l for l in kr if not any(_recouvre(l['bbox'], b) for b in ch)]
+        _neuves = [b for b in ch if tuple(b) not in garde]
+        _dans = lambda a, b: a[0] >= b[0] - 1 and a[1] >= b[1] - 1 and a[2] <= b[2] + 1 and a[3] <= b[3] + 1
+        _pris = {tuple(b) for b in ch}
+        nkr += [l for l in kr if tuple(map(int, l['bbox'])) not in _pris and not any(_dans(l['bbox'], b) for b in _neuves)]
         kr = nkr
     if os.environ.get('BBVLM_S14', '1') == '1':      # S14 : lettrine rattachée à sa ligne (appliquée si le mot lu commence par deux capitales)
         from lettrine import detecte
