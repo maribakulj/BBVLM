@@ -1003,3 +1003,6 @@ Protocole figé avant lecture (o18/PROTOCOLE.md, commit caec964) : aucune œuvre
 - v1 à deux bornes : 730277879 rappel de recherche 0,930 → 0,909 (le folio espacé « ) 152 ( » refusé à tort) → borne haute retirée.
 - v2 (borne basse seule), recherche sur 48 pages : aucun rappel ne baisse (médiane 0,961 des deux côtés, 29 pages ≥ 0,95) ; précision 852691769 0,780 → 0,835, AphoqvSuS 0,930 → 0,964, durrgeda 0,935 → 0,960, 688357687 0,960 → 0,971. Banc ALTO texte+IoU80 (5 pages ciblées) : identique (les lignes refusées n'étaient déjà pas justes). CRITERE non concerné (n'utilise pas l'ancrage).
 - Décision : adopté par défaut (BBVLM_S12=1) — un refus vaut mieux qu'un faux placement pour la recherche et pour la relecture humaine.
+
+## S09c — second passage d'extension jusqu'à 4 h, validé par relecture — REJETÉ (30/09, 06h45 Paris)
+Visait les listes à numéro séparé (« ix.      Bonen »). Sur geomeikud/37 la vraie cause était une sur-segmentation (traitée par S11) ; sur geomeikud/34 (« j. Jsop », pas de boîte kraken pour « j. »), baltdiss, herbdulc, hackherz : aucun changement même avec les minuscules admises (hmin 0,2). Laissé en option (BBVLM_ETEND_LOIN=0).
