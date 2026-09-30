@@ -1174,3 +1174,6 @@ Le bloc logique « colophon » du METS SBB désigne la bonne page (AmmoLIBR, fer
 
 ## 30/09 20h05 — T05 (soudures détectées par les blancs d'encre intra-mot, L40) : négatif
 Alignement W05 + largeur du blanc à chaque frontière de caractère : blancs inter-mots de 0 à 17 px, intra-mots jusqu'à 7 px, recouvrement complet dans ces imprimés serrés ; les soudures connues (« ihm|viel », « rbo|DEI ») ne ressortent pas. Close. Voir t05/RESULTATS.md.
+
+## 30/09 20h15 — T06 (vérification des espaces, lecture montrée) : négatif — ancrage sur le candidat
+Sur les 22 lignes A04 : 1/12 soudures corrigées, 1/7 lignes justes cassées. Le même modèle, en aveugle, retrouvait la bonne segmentation (A04). Les relectures de contrôle doivent rester aveugles. Voir t06/RESULTATS.md.
