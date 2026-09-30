@@ -1211,3 +1211,9 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 - H-O26 tenue : CRITERE 1/4 avec et sans SR/S18, 9 lignes en échec dans les deux cas, boîtes identiques (SR ne choisit que des lignes kraken d'origine sur ces pages). Oracle : 4 lignes sans boîte, aucune candidate ≥ 0,5.
 - Texte adjugé : 852691769/512 **0** (53/53), baltdiss 1, culmsent 2, buchdiss 11. Échecs CRITERE de buchdiss = 5 lignes « „ ␣ » → R6 (L44) préparée, non adoptée (inspirée par O26) : à valider sur O27.
 - Écarts de mise en œuvre signalés : lectures lancées avant les zooms (refaites), mesures parallèles sur un fichier commun (refaites en série).
+
+## 30/09 20h00 — O27 (R6 sur 4 pages neuves avec « „ ») : H-O27 tenue sans gain → R6 adoptée (preuve faible)
+- Tirage amendé avant lecture (seules 2 « dernières pages » avaient « „ »). 8 lectures Opus avec zooms vérifiés, arbitrages, ALTO valides XSD (4/4).
+- R6 ne modifie **aucune ligne** sur O27 : les lecteurs y collent déjà « „ » (backhart 20/20, briedefra 7/7). Le seul « „ ␣ » observé reste une lecture de buchdiss (O26). Hypothèse tenue (aucune hausse), sans démonstration de gain → R6 adoptée par défaut (règle OCR-D documentée L44, 0 effet sur 60 pages dev + 8 neuves) ; appliquée à buchdiss (5 lignes).
+- Constat annexe : fiscfrie/15 imprime un guillemet de forme « « » (vérifié sur l'image) que la VT normalise en « „ » (12) ; nos lecteurs écrivent « « » : convention de la VT, pas une erreur de lecture (cf. T03/T04).
+- En cours : CRITERE O27, adjudication A2 (2 arbitres).
