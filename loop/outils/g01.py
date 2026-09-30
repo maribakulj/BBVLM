@@ -49,6 +49,9 @@ def charge(dossier, lecture):
     # C02b : l'exclusion exige en plus que les deux relecteurs aveugles de l'audit
     # (A01/A01b/T01) aient le nombre de mots de la référence adjugée
     audit = json.load(open(os.path.join(os.path.dirname(__file__), '..', 'c02', 'audit_mots.json'))).get(os.path.basename(dossier.rstrip('/')), {}) if C02 == '2' else None
+    # C02c : ligne où notre lecture a un nombre de mots ≠ VT et où les deux
+    # relecteurs aveugles (A04) ont exactement notre nombre de mots → exclue
+    c02c = json.load(open(os.path.join(os.path.dirname(__file__), '..', 'c02c', 'audit.json'))).get(os.path.basename(dossier.rstrip('/')), {}) if os.environ.get('BBVLM_C02C', '1') == '1' and os.path.exists(os.path.join(os.path.dirname(__file__), '..', 'c02c', 'audit.json')) else {}
     charge.exclues = 0
     lignes, echec_compte = [], 0
     for k, i in enumerate(idx):
@@ -61,6 +64,8 @@ def charge(dossier, lecture):
         mots = m.get(k, '').split()
         na = len(adj[i].split())
         if na != len(ws) and len(mots) == na and (audit is None or audit.get(vue(ref[i], 'glyphe')) == [na, na]):
+            charge.exclues += 1; continue
+        if len(mots) != len(ws) and c02c.get(vue(ref[i], 'glyphe')) == [len(mots), len(mots)]:
             charge.exclues += 1; continue
         if len(mots) != len(ws): echec_compte += 1; continue
         lignes.append(corpora.Line(' '.join(mots), mots, corpora._box(tl.find('p:Coords', N).get('points')), bs))
