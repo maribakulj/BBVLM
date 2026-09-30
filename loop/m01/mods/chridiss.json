@@ -1,0 +1,31 @@
+{
+ "auteurs": [
+  {
+   "famille": "Christiani",
+   "prenom": "Wilhelmus Ernestus",
+   "forme": "Christiani, Wilhelmus Ernestus"
+  },
+  {
+   "famille": "Schmidt",
+   "prenom": "Joannes Georgius",
+   "forme": "Schmidt, Joannes Georgius"
+  }
+ ],
+ "titre": "Dissertatio Inauguralis, Quae, Exposita, Librorum Ecclesiae Nostrae, Qui Dicuntur, Symbolicorum, Natura Et Ad Rem Christianam Vera Ratione In Quaestionem Inquirit: Num Hi Libri Hac Nostra Aetate E Re Christiana Sint Tollendi?",
+ "lieu": [
+  "Kiliae Holsatorum"
+ ],
+ "imprimeur": [
+  {
+   "forme": "Bartschius"
+  }
+ ],
+ "date": "1787",
+ "langue": "lat",
+ "vd": "VD18 11686383",
+ "page_titre": {
+  "url": "https://content.staatsbibliothek-berlin.de/dc/PPN672987120-00000005/full/max/0/default.jpg",
+  "marquee_dans_mets": true,
+  "ordre": "5"
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "auteurs": [
+  {
+   "famille": "Ayrmann",
+   "prenom": "Christoph Friedrich",
+   "forme": "Ayrmann, Christoph Friedrich"
+  },
+  {
+   "famille": "Münch",
+   "prenom": "Joannes Georgius",
+   "forme": "Münch, Joannes Georgius"
+  }
+ ],
+ "titre": "Theses Historicae De Originibvs Germanicis, Sive Temporibvs Germaniae Priscis, Obscvris Maximam Partem et Fabvlosis",
+ "lieu": [
+  "Giessae",
+  "Gießen"
+ ],
+ "imprimeur": [
+  {
+   "forme": "Vulpius"
+  }
+ ],
+ "date": "1724",
+ "langue": "lat",
+ "vd": "VD18 90556542",
+ "page_titre": {
+  "url": "https://content.staatsbibliothek-berlin.de/dc/PPN877641137-00000007/full/max/0/default.jpg",
+  "marquee_dans_mets": true,
+  "ordre": "7"
+ }
+}

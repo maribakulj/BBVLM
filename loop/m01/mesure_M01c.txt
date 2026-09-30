@@ -1,0 +1,12 @@
+852691769  auteur absent | annee juste | lieu sans VT | imprimeur VT vide (lu : Schwarzkopf) | titre juste
+AyrmThes   auteur absent | annee juste | lieu juste | imprimeur juste | titre juste
+backhart   auteur absent | annee juste | lieu juste | imprimeur juste | titre juste
+busmexpo   auteur juste | annee absent | lieu absent | imprimeur absent | titre juste
+chridiss   auteur juste | annee juste | lieu faux | imprimeur faux | titre juste
+erasexom   auteur juste | annee absent | lieu juste | imprimeur juste | titre juste
+euanaua    auteur VT vide (lu : Sendel) | annee juste | lieu absent | imprimeur absent | titre juste
+geomeikud  auteur sans VT | annee absent | lieu absent | imprimeur absent | titre juste
+goskeinf   auteur juste | annee juste | lieu juste | imprimeur juste | titre juste
+heptaldai  auteur VT vide (lu : Neander) | annee juste | lieu juste | imprimeur juste | titre faux (4/5)
+heshwarh   auteur juste | annee juste | lieu juste | imprimeur absent | titre faux (4/5)
+total {'absent': 13, 'juste': 33, 'sans': 2, 'VT': 3, 'faux': 4}

@@ -1095,3 +1095,6 @@ Calamari (GT4HistOCR) sur lignes binarisées Otsu, espaces appariées par rang a
 
 ## 2026-09-30 13h03 — M01 : métadonnées depuis la page de titre (premier test mesuré)
 VT de métadonnées enfin accessible (MODS SBB via OAI ; images IIIF après 503 intermittents). 12 œuvres tirées, 1 passe Opus : 35/40 champs présents justes (87,5 %, hypothèse ≥ 90 % manquée), 0 année fausse, titre 12/12 ; 2 des 4 faux sont des formes latines gardées par le catalogue, 2 sont des erreurs de rôle ou de nom (traducteur/compositeur, Ferrarius Montanus). Voir m01/RESULTATS.md.
+
+## 2026-09-30 13h18 — M01b : consigne révisée des rôles d'auteur (rejetée)
+11 œuvres nouvelles : 33/38 justes (86,8 %), 2 auteurs faux ; M01 sur les mêmes pages : 33/37 (89,2 %), 0 auteur faux. La règle praeses/respondant gagne 1 auteur, l'exemple « Aepinus reste Aepinus » en fait perdre 2 (formes latinisées gardées). Rejetée. Voir m01/RESULTATS_M01b.md.
