@@ -52,7 +52,7 @@
             <SP HPOS="735" VPOS="214" WIDTH="10"/>
             <String ID="L0002_W03" CONTENT="faciem," HPOS="745" VPOS="200" WIDTH="177" HEIGHT="62"/>
             <SP HPOS="922" VPOS="200" WIDTH="18"/>
-            <String ID="L0002_W04" CONTENT="formamq́" HPOS="940" VPOS="197" WIDTH="217" HEIGHT="69"/>
+            <String ID="L0002_W04" CONTENT="formam" HPOS="940" VPOS="197" WIDTH="217" HEIGHT="69"/>
             <SP HPOS="1157" VPOS="197" WIDTH="14"/>
             <String ID="L0002_W05" CONTENT="virilem." HPOS="1171" VPOS="199" WIDTH="196" HEIGHT="50"/>
           </TextLine>
@@ -214,8 +214,8 @@
             <SP HPOS="519" VPOS="1017" WIDTH="1"/>
             <String ID="L0014_W02" CONTENT="pedi," HPOS="519" VPOS="1021" WIDTH="108" HEIGHT="54"/>
             <SP HPOS="627" VPOS="1021" WIDTH="15"/>
-            <String ID="L0014_W03" CONTENT="tegimenq́" HPOS="642" VPOS="1017" WIDTH="203" HEIGHT="68"/>
-            <SP HPOS="845" VPOS="1017" WIDTH="14"/>
+            <String ID="L0014_W03" CONTENT="tegimen" HPOS="642" VPOS="1018" WIDTH="203" HEIGHT="67"/>
+            <SP HPOS="845" VPOS="1018" WIDTH="14"/>
             <String ID="L0014_W04" CONTENT="comis" HPOS="859" VPOS="1038" WIDTH="117" HEIGHT="28"/>
             <SP HPOS="976" VPOS="1038" WIDTH="8"/>
             <String ID="L0014_W05" CONTENT="imponit," HPOS="984" VPOS="1033" WIDTH="183" HEIGHT="50"/>
@@ -255,11 +255,11 @@
             <SP HPOS="469" VPOS="1230" WIDTH="11"/>
             <String ID="L0017_W02" CONTENT="item," HPOS="480" VPOS="1243" WIDTH="112" HEIGHT="34"/>
             <SP HPOS="592" VPOS="1243" WIDTH="15"/>
-            <String ID="L0017_W03" CONTENT="laxatq́:" HPOS="607" VPOS="1227" WIDTH="185" HEIGHT="68"/>
+            <String ID="L0017_W03" CONTENT="laxat:" HPOS="607" VPOS="1227" WIDTH="185" HEIGHT="68"/>
             <SP HPOS="792" VPOS="1227" WIDTH="10"/>
             <String ID="L0017_W04" CONTENT="necis" HPOS="802" VPOS="1232" WIDTH="96" HEIGHT="42"/>
             <SP HPOS="898" VPOS="1232" WIDTH="10"/>
-            <String ID="L0017_W05" CONTENT="quoq́" HPOS="908" VPOS="1244" WIDTH="104" HEIGHT="51"/>
+            <String ID="L0017_W05" CONTENT="quo" HPOS="908" VPOS="1244" WIDTH="104" HEIGHT="51"/>
             <SP HPOS="1012" VPOS="1244" WIDTH="10"/>
             <String ID="L0017_W06" CONTENT="iura" HPOS="1022" VPOS="1243" WIDTH="90" HEIGHT="29"/>
             <SP HPOS="1112" VPOS="1243" WIDTH="12"/>
@@ -272,9 +272,9 @@
             <SP HPOS="616" VPOS="1312" WIDTH="12"/>
             <String ID="L0018_W03" CONTENT="rerum" HPOS="628" VPOS="1314" WIDTH="131" HEIGHT="26"/>
             <SP HPOS="759" VPOS="1314" WIDTH="11"/>
-            <String ID="L0018_W04" CONTENT="mutatq́" HPOS="770" VPOS="1297" WIDTH="169" HEIGHT="63"/>
+            <String ID="L0018_W04" CONTENT="mutat" HPOS="770" VPOS="1297" WIDTH="169" HEIGHT="63"/>
             <SP HPOS="939" VPOS="1297" WIDTH="12"/>
-            <String ID="L0018_W05" CONTENT="nouatq́" HPOS="951" VPOS="1295" WIDTH="153" HEIGHT="62"/>
+            <String ID="L0018_W05" CONTENT="nouat" HPOS="951" VPOS="1295" WIDTH="153" HEIGHT="62"/>
             <SP HPOS="1104" VPOS="1295" WIDTH="11"/>
             <String ID="L0018_W06" CONTENT="figuras." HPOS="1115" VPOS="1294" WIDTH="169" HEIGHT="62"/>
           </TextLine>
@@ -283,11 +283,11 @@
             <SP HPOS="453" VPOS="1366" WIDTH="7"/>
             <String ID="L0019_W02" CONTENT="fretus," HPOS="460" VPOS="1363" WIDTH="136" HEIGHT="59"/>
             <SP HPOS="596" VPOS="1363" WIDTH="6"/>
-            <String ID="L0019_W03" CONTENT="ſummiq́" HPOS="602" VPOS="1361" WIDTH="186" HEIGHT="66"/>
+            <String ID="L0019_W03" CONTENT="ſummi" HPOS="602" VPOS="1361" WIDTH="186" HEIGHT="66"/>
             <SP HPOS="788" VPOS="1361" WIDTH="12"/>
-            <String ID="L0019_W04" CONTENT="libens" HPOS="800" VPOS="1359" WIDTH="132" HEIGHT="46"/>
-            <SP HPOS="932" VPOS="1359" WIDTH="1"/>
-            <String ID="L0019_W05" CONTENT="parere" HPOS="932" VPOS="1376" WIDTH="137" HEIGHT="47"/>
+            <String ID="L0019_W04" CONTENT="libens" HPOS="800" VPOS="1359" WIDTH="125" HEIGHT="46"/>
+            <SP HPOS="925" VPOS="1359" WIDTH="6"/>
+            <String ID="L0019_W05" CONTENT="parere" HPOS="931" VPOS="1376" WIDTH="138" HEIGHT="47"/>
             <SP HPOS="1069" VPOS="1376" WIDTH="15"/>
             <String ID="L0019_W06" CONTENT="parentis" HPOS="1084" VPOS="1376" WIDTH="180" HEIGHT="38"/>
           </TextLine>
@@ -307,7 +307,7 @@
             <String ID="L0020_W07" CONTENT="tranat." HPOS="1183" VPOS="1446" WIDTH="157" HEIGHT="40"/>
           </TextLine>
           <TextLine ID="L0021" HPOS="351" VPOS="1498" WIDTH="986" HEIGHT="72">
-            <String ID="L0021_W01" CONTENT="Jamq́" HPOS="351" VPOS="1502" WIDTH="147" HEIGHT="68"/>
+            <String ID="L0021_W01" CONTENT="Jam" HPOS="351" VPOS="1502" WIDTH="147" HEIGHT="68"/>
             <SP HPOS="498" VPOS="1502" WIDTH="16"/>
             <String ID="L0021_W02" CONTENT="volans," HPOS="514" VPOS="1502" WIDTH="176" HEIGHT="53"/>
             <SP HPOS="690" VPOS="1502" WIDTH="13"/>
@@ -397,7 +397,7 @@
             <SP HPOS="600" VPOS="1927" WIDTH="11"/>
             <String ID="L0027_W03" CONTENT="caſu:" HPOS="611" VPOS="1909" WIDTH="119" HEIGHT="63"/>
             <SP HPOS="730" VPOS="1909" WIDTH="10"/>
-            <String ID="L0027_W04" CONTENT="miſeræq́" HPOS="740" VPOS="1910" WIDTH="173" HEIGHT="62"/>
+            <String ID="L0027_W04" CONTENT="miſeræ" HPOS="740" VPOS="1910" WIDTH="173" HEIGHT="62"/>
             <SP HPOS="913" VPOS="1910" WIDTH="19"/>
             <String ID="L0027_W05" CONTENT="ouum" HPOS="932" VPOS="1927" WIDTH="120" HEIGHT="27"/>
             <SP HPOS="1052" VPOS="1927" WIDTH="12"/>
