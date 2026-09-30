@@ -1192,3 +1192,7 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 - BBVLM_SR_UNION_ETEND=1 : CRITERE 41 → **42/60** (dev 35/48 : euanaua ✓ ; écart 7/12 inchangé), aucun recul. Adoptée (défaut '1').
 - Oracle D avant toute passe VLM (sr.py : export BBVLM_SR_DUMP) : sur 1 646 lignes de référence ≥ 2 mots, 11 sans appariement, dont 2 seulement avec une candidate appariable → plafond ≈ 1 ligne : idée D close sans dépense VLM (résultat négatif utile). Les échecs restants viennent des mots (nombre de mots ≠ VT) et de lignes d'apparat absentes de toutes les candidates.
 - ALTO sr4 en cours de régénération, puis mes_alto.
+
+## 30/09 18h55 — T08 : signal Calamari/Tesseract pour cibler la relecture des blancs — négatif
+- Nombre de mots lu ≠ Calamari et Tesseract : 20 % des lignes signalées, 42 % des 48 lignes à nombre de mots faux couvertes (précision 6 %) ; Calamari soude aux mêmes endroits que nous. Pas de dépense VLM. Détail : t08/RESULTATS.md.
+- Décomposition des 27 lignes en échec CRITERE (42/60) : 18 nombre de mots (soudures/coupures de lecture, erreurs de ligne), 9 lignes sans boîte (apparat, colonnes).
