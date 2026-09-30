@@ -10,7 +10,9 @@ script, sur les fichiers qu'il prépare) :
                         recadrage des seules lignes en désaccord → DOSSIER/p3/taches.json
   [VLM] arbitre (outils/consigne_arbitre_P3.md) → DOSSIER/p3/verdicts.json
         et, dans le même appel, signe d'inflexion (consigne_inflexion.md) → DOSSIER/inflexion/verdicts.json
-  final DOSSIER        texte P3 → ALTO (blocs typés, ReadingOrder, lignes non
+  final DOSSIER        texte P3 → ALTO (W03b : si BBVLM_CALA_PY désigne le python de
+                        l'environnement Calamari, pré-calcul calamari_bin.json des lignes en romain)
+                        (blocs typés, ReadingOrder, lignes non
                         placées marquées) validé XSD → DOSSIER/page.alto.xml
 Aucune étape ne lit une référence. Les évaluations (cer, bilan_adj, olr,
 eval_alto, critere_final, recherche) sont des outils séparés.

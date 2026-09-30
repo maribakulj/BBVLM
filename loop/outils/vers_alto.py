@@ -152,6 +152,14 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
         for l in open(structure, encoding='utf-8'):
             if l.lower().startswith('#ecriture:'): ecr = l.split(':', 1)[1].strip().lower()
     kr, boites, geo = lignes_page(dossier, lignes, roles, ecr)
+    # W03b : pré-calcul Calamari binarisé des boîtes de ligne (environnement séparé, BBVLM_CALA_PY)
+    cpy = os.environ.get('BBVLM_CALA_PY')
+    if cpy and ecr != 'fraktur' and not os.path.exists(f'{dossier}/calamari_bin.json'):
+        import subprocess
+        json.dump({'lignes': [{'bbox': [int(v) for v in b]} for b in boites]}, open(f'{dossier}/lignes_alto.json', 'w'))
+        subprocess.run([cpy, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cala_page.py'), dossier],
+                       env={**os.environ, 'BBVLM_CALA_BIN': '1', 'BBVLM_CALA_LIGNES': 'lignes_alto.json'},
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     g = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE); H, W = g.shape
     # Placement : avec les rôles, manchettes alignées sur les lignes de marge
     # (mesuré sur 8 pages : égal partout, herrleyc 0,47 → 0,66 en rappel IoU80).

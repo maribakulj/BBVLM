@@ -10,7 +10,7 @@ def main():
     M = sorted(glob.glob('/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/calamari_models/gt4histocr/*.ckpt.json'))
     p = MultiPredictor.from_paths(checkpoints=M, params=params)
     for d in sys.argv[1:]:
-        f = os.path.join(d, 'kraken_crit2.json')
+        f = os.path.join(d, os.environ.get('BBVLM_CALA_LIGNES', 'kraken_crit2.json'))
         if not os.path.exists(f): continue
         BIN = os.environ.get('BBVLM_CALA_BIN') == '1'     # W03b : entrée binarisée (Otsu par ligne)
         out = os.path.join(d, 'calamari_bin.json' if BIN else 'calamari.json')
