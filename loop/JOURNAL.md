@@ -1013,3 +1013,6 @@ Constat : 2 fusions de lecteur sur 48 pages (extraudeu, hermhyst) ≈ 41 des 267
 
 ## Segmentation remesurée (30/09, 07h15 Paris)
 TextLine des ALTO régénérés (chaîne actuelle) contre VT, 48 pages : rappel médian 1,000 (38/48 ≥ 0,95), IoU médian 0,973, précision médiane 1,00. Avant les règles de la nuit (44 pages) : 0,968, 27/44, 0,962. Pires : hermhyst 0,78, extraudeu 0,81, durrgeda 0,82.
+
+## K02 — kraken sur image réduite pour les caractères d'apparat — NÉGATIF (30/09, 07h20 Paris)
+durrgeda (page de titre, lignes de 150-400 px) : segmentation blla à l'échelle 1 / 0,5 / 0,35 → 29 lignes et rappel 0,773 (17/22) identiques. blla renormalise la taille en interne : réduire l'entrée ne change rien. Les lignes d'apparat manquées ne se récupèrent pas par l'échelle.
