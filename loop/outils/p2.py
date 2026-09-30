@@ -17,10 +17,10 @@ JETONS = {'{florin}': '\uf2e8', '{groschen}': '\uf2e9'}
 def parenthese(l):
     # R3 : parenthèse ouvrante séparée du mot qui précède (VT SBB : 23 « x ( » contre 0 « x( » ;
     # les lecteurs la collent parfois, ce qui fusionne deux mots : buchdas/24 « ſie(die »)
-    if os.environ.get('BBVLM_R3', '1') != '1': return l
+    if os.environ.get('BBVLM_R3', '0') != '1': return l      # R3/R4 rejetées au 30/09 (critère texte : verdict d'adjudication ancien, audit A02 en cours)
     import re
     l = re.sub(r'(\w)\(', r'\1 (', l)
-    if os.environ.get('BBVLM_R4', '1') == '1':
+    if os.environ.get('BBVLM_R4', '0') == '1':
         # R4 : blanc après un point d'abréviation collé au mot suivant (VT : 795 « x. y » contre 2 sigles
         # minuscules « v.c. ») ; sigle de lettres minuscules isolées gardé tel quel
         l = re.sub(r'(?<!\w)([a-zſ])\.([a-zſ])(?=\.)', lambda m: m.group(1) + '\x00' + m.group(2), l)

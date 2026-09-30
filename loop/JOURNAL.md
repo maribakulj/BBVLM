@@ -1113,3 +1113,6 @@ Re-mesure (critère figé avant calcul) : M01 35 → 36/40 (90 %), M01b 33 → 3
 
 ## 2026-09-30 14h45 — W05 adoptée : alignement forcé CTC, CRITERE 32 → 33/60
 Viterbi CTC du texte lu sur les émissions kraken CATMuS (log des probabilités, correctif du forced_align kraken), frontière entre pics recalée à l'encre. Pire écart médian 1,04 → 0,44 c, pages > 1 c : 31 → 5 ; IoU médiane 0,943 → 0,929. Les échecs restants sont des lignes en échec. Voir w05/RESULTATS.md.
+
+## 2026-09-30 14h58 — R3/R4 : blancs de ponctuation (rejetées au critère, audit à faire)
+CRITERE O07-O17 25 → 26/44 (buchdas/24), lignes en échec en baisse, mais texte 96 → 98 à cause d'un verdict d'adjudication ancien (hackherz, forme collée « 2.Cor.XII.3.4 ») ; contre la VT distribuée hackherz 12 → 9. Rejetées au protocole ; audit aveugle du verdict (A02) avant réévaluation. Voir r34/RESULTATS.md.
