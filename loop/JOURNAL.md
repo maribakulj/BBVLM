@@ -895,3 +895,14 @@ Lignes lues non placées : 26 → **19** sur 1 390 (1,4 %) ; restes : emmeprac 6
 (numéros en marge « 46 », « 47 »…), berirev 3, AphoqvSuS 2, canitrac 2, six
 pages à 1. Les ALTO archivés du dépôt (oNN/alto/) sont remplacés par ces
 versions.
+
+## S06b — 2026-09-30 — bandes de projection comme lignes candidates — rejeté
+
+But : placer les 19 lignes lues sans ligne kraken (numéros en marge
+d'emmeprac, bouts de manchettes). Les bandes d'encre hors lignes kraken
+(`bandes.py`, L11) sont ajoutées comme candidates ; l'ancrage S05 ne leur
+donne du texte que si une ligne lue y correspond. 4 pages à lignes non
+placées (texte+IoU80) : AphoqvSuS 0,788 → 0,780, berirev, emmeprac,
+canitrac inchangées ; somme 3,153 → 3,145. Les bandes ne recouvrent pas les
+petits numéros (seuils de taille de la projection) ou reçoivent une ligne à
+tort. Non adopté (BBVLM_S06 = 0).
