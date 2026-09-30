@@ -31,9 +31,9 @@
   <Layout>
     <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="1512" HEIGHT="2276">
       <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="1512" HEIGHT="2276">
-        <TextBlock ID="B001" TAGREFS="ROLE_page-number" HPOS="319" VPOS="315" WIDTH="18" HEIGHT="32">
-          <TextLine ID="L0001" HPOS="319" VPOS="315" WIDTH="18" HEIGHT="32">
-            <String ID="L0001_W01" CONTENT="6" HPOS="319" VPOS="315" WIDTH="18" HEIGHT="32"/>
+        <TextBlock ID="B001" TAGREFS="ROLE_page-number" HPOS="317" VPOS="315" WIDTH="25" HEIGHT="32">
+          <TextLine ID="L0001" HPOS="317" VPOS="315" WIDTH="25" HEIGHT="32">
+            <String ID="L0001_W01" CONTENT="6" HPOS="317" VPOS="314" WIDTH="25" HEIGHT="33"/>
           </TextLine>
         </TextBlock>
         <TextBlock ID="B002" TAGREFS="ROLE_paragraph" HPOS="322" VPOS="407" WIDTH="994" HEIGHT="893">

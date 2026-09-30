@@ -613,11 +613,11 @@
             <String ID="L0034_W09" CONTENT="Memento" HPOS="1107" VPOS="1861" WIDTH="213" HEIGHT="43"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B003" TAGREFS="ROLE_signature-mark" HPOS="803" VPOS="1911" WIDTH="96" HEIGHT="50">
-          <TextLine ID="L0035" HPOS="803" VPOS="1911" WIDTH="96" HEIGHT="50">
-            <String ID="L0035_W01" CONTENT="B" HPOS="803" VPOS="1911" WIDTH="37" HEIGHT="41"/>
+        <TextBlock ID="B003" TAGREFS="ROLE_signature-mark" HPOS="801" VPOS="1911" WIDTH="100" HEIGHT="50">
+          <TextLine ID="L0035" HPOS="801" VPOS="1911" WIDTH="100" HEIGHT="50">
+            <String ID="L0035_W01" CONTENT="B" HPOS="801" VPOS="1911" WIDTH="39" HEIGHT="41"/>
             <SP HPOS="840" VPOS="1911" WIDTH="35"/>
-            <String ID="L0035_W02" CONTENT="3" HPOS="875" VPOS="1924" WIDTH="24" HEIGHT="37"/>
+            <String ID="L0035_W02" CONTENT="3" HPOS="875" VPOS="1924" WIDTH="26" HEIGHT="37"/>
           </TextLine>
         </TextBlock>
         <TextBlock ID="B004" TAGREFS="ROLE_catch-word" HPOS="1188" VPOS="1909" WIDTH="132" HEIGHT="41">

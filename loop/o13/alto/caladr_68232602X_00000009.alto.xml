@@ -33,12 +33,12 @@
     <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="1796" HEIGHT="2438">
       <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="1796" HEIGHT="2438">
         <TextBlock ID="B001" TAGREFS="ROLE_heading" HPOS="207" VPOS="198" WIDTH="1013" HEIGHT="365">
-          <TextLine ID="L0001" HPOS="428" VPOS="198" WIDTH="601" HEIGHT="103">
-            <String ID="L0001_W01" CONTENT="D." HPOS="428" VPOS="208" WIDTH="97" HEIGHT="82"/>
+          <TextLine ID="L0001" HPOS="424" VPOS="198" WIDTH="613" HEIGHT="103">
+            <String ID="L0001_W01" CONTENT="D." HPOS="424" VPOS="208" WIDTH="101" HEIGHT="82"/>
             <SP HPOS="525" VPOS="208" WIDTH="60"/>
-            <String ID="L0001_W02" CONTENT="Rudolpho" HPOS="585" VPOS="198" WIDTH="367" HEIGHT="103"/>
-            <SP HPOS="952" VPOS="198" WIDTH="1"/>
-            <String ID="L0001_W03" CONTENT="II." HPOS="952" VPOS="231" WIDTH="77" HEIGHT="51"/>
+            <String ID="L0001_W02" CONTENT="Rudolpho" HPOS="585" VPOS="198" WIDTH="393" HEIGHT="103"/>
+            <SP HPOS="978" VPOS="198" WIDTH="7"/>
+            <String ID="L0001_W03" CONTENT="II." HPOS="985" VPOS="231" WIDTH="52" HEIGHT="51"/>
           </TextLine>
           <TextLine ID="L0002" HPOS="207" VPOS="345" WIDTH="998" HEIGHT="111">
             <String ID="L0002_W01" CONTENT="ROM." HPOS="207" VPOS="345" WIDTH="473" HEIGHT="107"/>
@@ -89,8 +89,8 @@
           </TextLine>
         </TextBlock>
         <TextBlock ID="B004" TAGREFS="ROLE_paragraph" HPOS="328" VPOS="91" WIDTH="920" HEIGHT="1226">
-          <TextLine ID="L0009" HPOS="743" VPOS="91" WIDTH="71" HEIGHT="66">
-            <String ID="L0009_W01" CONTENT="à" HPOS="743" VPOS="91" WIDTH="71" HEIGHT="65"/>
+          <TextLine ID="L0009" HPOS="740" VPOS="91" WIDTH="74" HEIGHT="66">
+            <String ID="L0009_W01" CONTENT="à" HPOS="740" VPOS="91" WIDTH="74" HEIGHT="65"/>
           </TextLine>
           <TextLine ID="L0010" HPOS="328" VPOS="1231" WIDTH="920" HEIGHT="86">
             <String ID="L0010_W01" CONTENT="M." HPOS="328" VPOS="1235" WIDTH="94" HEIGHT="65"/>

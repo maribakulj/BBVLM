@@ -36,9 +36,9 @@
   <Layout>
     <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="1275" HEIGHT="2032">
       <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="1275" HEIGHT="2032">
-        <TextBlock ID="B001" TAGREFS="ROLE_page-number" HPOS="378" VPOS="142" WIDTH="18" HEIGHT="49">
-          <TextLine ID="L0001" HPOS="378" VPOS="142" WIDTH="18" HEIGHT="49">
-            <String ID="L0001_W01" CONTENT="81" HPOS="378" VPOS="143" WIDTH="18" HEIGHT="48"/>
+        <TextBlock ID="B001" TAGREFS="ROLE_page-number" HPOS="310" VPOS="142" WIDTH="86" HEIGHT="49">
+          <TextLine ID="L0001" HPOS="310" VPOS="142" WIDTH="86" HEIGHT="49">
+            <String ID="L0001_W01" CONTENT="81" HPOS="310" VPOS="143" WIDTH="86" HEIGHT="48"/>
           </TextLine>
         </TextBlock>
         <TextBlock ID="B002" TAGREFS="ROLE_paragraph" HPOS="80" VPOS="245" WIDTH="873" HEIGHT="364">
@@ -170,9 +170,9 @@
             <String ID="L0008_W08" CONTENT="Jhnen." HPOS="678" VPOS="556" WIDTH="124" HEIGHT="49"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B003" TAGREFS="ROLE_heading" HPOS="123" VPOS="688" WIDTH="820" HEIGHT="827">
-          <TextLine ID="L0009" HPOS="483" VPOS="688" WIDTH="52" HEIGHT="43">
-            <String ID="L0009_W01" CONTENT="77." HPOS="483" VPOS="688" WIDTH="52" HEIGHT="43"/>
+        <TextBlock ID="B003" TAGREFS="ROLE_heading" HPOS="123" VPOS="140" WIDTH="820" HEIGHT="1375">
+          <TextLine ID="L0009" HPOS="473" VPOS="140" WIDTH="90" HEIGHT="51">
+            <String ID="L0009_W01" CONTENT="77." HPOS="473" VPOS="140" WIDTH="90" HEIGHT="50"/>
           </TextLine>
           <TextLine ID="L0010" HPOS="221" VPOS="762" WIDTH="613" HEIGHT="63">
             <String ID="L0010_W01" CONTENT="Der" HPOS="221" VPOS="771" WIDTH="95" HEIGHT="49"/>
@@ -183,8 +183,8 @@
             <SP HPOS="649" VPOS="776" WIDTH="22"/>
             <String ID="L0010_W04" CONTENT="Unzeit." HPOS="671" VPOS="762" WIDTH="163" HEIGHT="59"/>
           </TextLine>
-          <TextLine ID="L0019" HPOS="493" VPOS="1374" WIDTH="81" HEIGHT="47">
-            <String ID="L0019_W01" CONTENT="78." HPOS="493" VPOS="1375" WIDTH="81" HEIGHT="46"/>
+          <TextLine ID="L0019" HPOS="489" VPOS="1374" WIDTH="85" HEIGHT="47">
+            <String ID="L0019_W01" CONTENT="78." HPOS="489" VPOS="1375" WIDTH="85" HEIGHT="46"/>
           </TextLine>
           <TextLine ID="L0020" HPOS="123" VPOS="1446" WIDTH="820" HEIGHT="69">
             <String ID="L0020_W01" CONTENT="Einmal" HPOS="123" VPOS="1447" WIDTH="174" HEIGHT="60"/>
@@ -413,18 +413,18 @@
             <String ID="L0029_W01" CONTENT="chen." HPOS="892" VPOS="1884" WIDTH="84" HEIGHT="48"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B006" TAGREFS="ROLE_other" HPOS="516" VPOS="703" WIDTH="32" HEIGHT="28">
-          <TextLine ID="L0027" HPOS="516" VPOS="703" WIDTH="32" HEIGHT="28">
-            <String ID="L0027_W01" CONTENT="Bk." HPOS="516" VPOS="710" WIDTH="10" HEIGHT="20"/>
-            <SP HPOS="526" VPOS="710" WIDTH="1"/>
-            <String ID="L0027_W02" CONTENT="Achter" HPOS="526" VPOS="703" WIDTH="7" HEIGHT="10"/>
-            <SP HPOS="533" VPOS="703" WIDTH="9"/>
-            <String ID="L0027_W03" CONTENT="Th." HPOS="542" VPOS="712" WIDTH="6" HEIGHT="12"/>
+        <TextBlock ID="B006" TAGREFS="ROLE_other" HPOS="483" VPOS="688" WIDTH="52" HEIGHT="43">
+          <TextLine ID="L0027" HPOS="483" VPOS="688" WIDTH="52" HEIGHT="43">
+            <String ID="L0027_W01" CONTENT="Bk." HPOS="483" VPOS="693" WIDTH="21" HEIGHT="38"/>
+            <SP HPOS="504" VPOS="693" WIDTH="10"/>
+            <String ID="L0027_W02" CONTENT="Achter" HPOS="514" VPOS="688" WIDTH="14" HEIGHT="42"/>
+            <SP HPOS="528" VPOS="688" WIDTH="1"/>
+            <String ID="L0027_W03" CONTENT="Th." HPOS="528" VPOS="692" WIDTH="7" HEIGHT="18"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B007" TAGREFS="ROLE_signature-mark" HPOS="601" VPOS="1887" WIDTH="60" HEIGHT="50">
-          <TextLine ID="L0028" HPOS="601" VPOS="1887" WIDTH="60" HEIGHT="50">
-            <String ID="L0028_W01" CONTENT="(F)" HPOS="601" VPOS="1887" WIDTH="60" HEIGHT="49"/>
+        <TextBlock ID="B007" TAGREFS="ROLE_signature-mark" HPOS="638" VPOS="141" WIDTH="86" HEIGHT="47">
+          <TextLine ID="L0028" HPOS="638" VPOS="141" WIDTH="86" HEIGHT="47">
+            <String ID="L0028_W01" CONTENT="(F)" HPOS="638" VPOS="141" WIDTH="86" HEIGHT="47"/>
           </TextLine>
         </TextBlock>
       </PrintSpace>

@@ -976,3 +976,6 @@ isolé. Pas de correctif.
 - 42 pages adjugées, vue glyphe, 260 éditions. Classes : blancs 25 (15 manquants, 10 en trop) ; « ⸗ »/« - » 18 ; « ii » (VT) ↔ « uͤ » 9 (graphie de la VT, berirev) ; signes monétaires PUA U+F2E8/U+F2E9 lus « fk »/« gK » 12 (herrkurt seul, cas P6 connu) ; ſ/s/ß/f 16 ; points et ponctuation ~12 ; le reste en unités.
 - « ⸗ »/« - » : deux pages, sens opposés — eberbrev (romain) VT 13 « ⸗ », lecture 13 « - » ; heptaldai (Fraktur) VT 3 « - », lecture 3 « ⸗ » ; cingdei 1. Pas de règle par écriture possible sans contredire l'une des deux ; image trop peu nette à la coupure pour trancher. Conventions de transcription propres à chaque œuvre.
 - Conclusion : aucune classe restante n'est à la fois fréquente, homogène et corrigeable par règle ; les blancs (S10) ont été essayés et rejetés.
+
+## ALTO régénérés avec la chaîne gelée (30/09, 05h35 Paris)
+Chaîne : S08 + S08c v4 + S09b + S02/S02c + G05 + H01 + G04b publiée. Lignes lues non placées : 19 → **7** sur 1 390 (DasWeL, AmmoLIBR, durrgeda, emmeprac, herbdulc, AyrmThes, chiamerk : 1 chacune). 40 ALTO archivés (oNN/alto/) remplacés, 40/40 valides XSD 4.4. Retrieval sur 44 pages : rappel médian 0,957, 24 ≥ 0,95 ; pires hermhyst 0,57 (O17, chanson), 852691769 0,79, durrgeda 0,85.

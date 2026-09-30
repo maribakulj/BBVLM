@@ -79,10 +79,10 @@
             <SP HPOS="644" VPOS="360" WIDTH="1"/>
             <String ID="L0004_W03" CONTENT="Krůdern." HPOS="644" VPOS="357" WIDTH="188" HEIGHT="45"/>
           </TextLine>
-          <TextLine ID="L0005" HPOS="247" VPOS="1342" WIDTH="81" HEIGHT="59">
-            <String ID="L0005_W01" CONTENT="i." HPOS="247" VPOS="1342" WIDTH="21" HEIGHT="53"/>
-            <SP HPOS="268" VPOS="1342" WIDTH="1"/>
-            <String ID="L0005_W02" CONTENT="Jſop" HPOS="268" VPOS="1343" WIDTH="60" HEIGHT="57"/>
+          <TextLine ID="L0005" HPOS="247" VPOS="609" WIDTH="72" HEIGHT="65">
+            <String ID="L0005_W01" CONTENT="i." HPOS="247" VPOS="619" WIDTH="33" HEIGHT="49"/>
+            <SP HPOS="280" VPOS="619" WIDTH="1"/>
+            <String ID="L0005_W02" CONTENT="Jſop" HPOS="280" VPOS="617" WIDTH="39" HEIGHT="57"/>
           </TextLine>
           <TextLine ID="L0008" HPOS="493" VPOS="600" WIDTH="327" HEIGHT="75">
             <String ID="L0008_W01" CONTENT="ij." HPOS="493" VPOS="601" WIDTH="51" HEIGHT="63"/>
@@ -104,10 +104,10 @@
             <SP HPOS="494" VPOS="1152" WIDTH="1"/>
             <String ID="L0017_W02" CONTENT="Nachtſchate" HPOS="494" VPOS="1148" WIDTH="347" HEIGHT="76"/>
           </TextLine>
-          <TextLine ID="L0020" HPOS="506" VPOS="1331" WIDTH="219" HEIGHT="76">
+          <TextLine ID="L0020" HPOS="506" VPOS="1331" WIDTH="228" HEIGHT="76">
             <String ID="L0020_W01" CONTENT="vj." HPOS="506" VPOS="1331" WIDTH="66" HEIGHT="72"/>
             <SP HPOS="572" VPOS="1331" WIDTH="1"/>
-            <String ID="L0020_W02" CONTENT="Eppich" HPOS="572" VPOS="1336" WIDTH="153" HEIGHT="71"/>
+            <String ID="L0020_W02" CONTENT="Eppich" HPOS="572" VPOS="1336" WIDTH="162" HEIGHT="71"/>
           </TextLine>
         </TextBlock>
         <TextBlock ID="B003" TAGREFS="ROLE_paragraph" HPOS="246" VPOS="490" WIDTH="789" HEIGHT="111">
@@ -288,9 +288,9 @@
             <String ID="L0022_W06" CONTENT="vorſtan" HPOS="888" VPOS="1461" WIDTH="145" HEIGHT="51"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B009" TAGREFS="ROLE_catch-word" HPOS="564" VPOS="417" WIDTH="66" HEIGHT="70">
-          <TextLine ID="L0023" HPOS="564" VPOS="417" WIDTH="66" HEIGHT="70">
-            <String ID="L0023_W01" CONTENT="Wer⸗" HPOS="564" VPOS="424" WIDTH="66" HEIGHT="63"/>
+        <TextBlock ID="B009" TAGREFS="ROLE_catch-word" HPOS="246" VPOS="1162" WIDTH="57" HEIGHT="51">
+          <TextLine ID="L0023" HPOS="246" VPOS="1162" WIDTH="57" HEIGHT="51">
+            <String ID="L0023_W01" CONTENT="Wer⸗" HPOS="246" VPOS="1163" WIDTH="57" HEIGHT="50"/>
           </TextLine>
         </TextBlock>
       </PrintSpace>

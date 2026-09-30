@@ -345,9 +345,9 @@
             <String ID="L0018_W04" CONTENT="32.." HPOS="560" VPOS="1012" WIDTH="77" HEIGHT="39"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B004" TAGREFS="ROLE_heading" HPOS="1071" VPOS="1049" WIDTH="61" HEIGHT="49">
-          <TextLine ID="L0019" HPOS="1071" VPOS="1049" WIDTH="61" HEIGHT="49">
-            <String ID="L0019_W01" CONTENT="§." HPOS="1071" VPOS="1050" WIDTH="19" HEIGHT="36"/>
+        <TextBlock ID="B004" TAGREFS="ROLE_heading" HPOS="1070" VPOS="1049" WIDTH="62" HEIGHT="49">
+          <TextLine ID="L0019" HPOS="1070" VPOS="1049" WIDTH="62" HEIGHT="49">
+            <String ID="L0019_W01" CONTENT="§." HPOS="1070" VPOS="1050" WIDTH="20" HEIGHT="36"/>
             <SP HPOS="1090" VPOS="1050" WIDTH="1"/>
             <String ID="L0019_W02" CONTENT="VI." HPOS="1090" VPOS="1050" WIDTH="42" HEIGHT="45"/>
           </TextLine>

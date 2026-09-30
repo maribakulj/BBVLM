@@ -27,12 +27,12 @@
     <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="1453" HEIGHT="2546">
       <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="1453" HEIGHT="2546">
         <TextBlock ID="B001" TAGREFS="ROLE_paragraph" HPOS="309" VPOS="250" WIDTH="972" HEIGHT="1841">
-          <TextLine ID="L0001" HPOS="775" VPOS="250" WIDTH="45" HEIGHT="31">
-            <String ID="L0001_W01" CONTENT=")" HPOS="775" VPOS="251" WIDTH="27" HEIGHT="29"/>
-            <SP HPOS="802" VPOS="251" WIDTH="3"/>
-            <String ID="L0001_W02" CONTENT="152" HPOS="805" VPOS="252" WIDTH="9" HEIGHT="20"/>
-            <SP HPOS="814" VPOS="252" WIDTH="1"/>
-            <String ID="L0001_W03" CONTENT="(" HPOS="814" VPOS="251" WIDTH="6" HEIGHT="21"/>
+          <TextLine ID="L0001" HPOS="702" VPOS="250" WIDTH="182" HEIGHT="31">
+            <String ID="L0001_W01" CONTENT=")" HPOS="702" VPOS="250" WIDTH="15" HEIGHT="25"/>
+            <SP HPOS="717" VPOS="250" WIDTH="46"/>
+            <String ID="L0001_W02" CONTENT="152" HPOS="763" VPOS="250" WIDTH="61" HEIGHT="30"/>
+            <SP HPOS="824" VPOS="250" WIDTH="45"/>
+            <String ID="L0001_W03" CONTENT="(" HPOS="869" VPOS="250" WIDTH="14" HEIGHT="31"/>
           </TextLine>
           <TextLine ID="L0002" HPOS="403" VPOS="317" WIDTH="878" HEIGHT="58">
             <String ID="L0002_W01" CONTENT="Auch" HPOS="404" VPOS="317" WIDTH="81" HEIGHT="39"/>

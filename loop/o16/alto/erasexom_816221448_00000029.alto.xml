@@ -534,11 +534,11 @@
             <String ID="L0028_W10" CONTENT="lo⸗" HPOS="879" VPOS="1413" WIDTH="47" HEIGHT="35"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B003" TAGREFS="ROLE_signature-mark" HPOS="706" VPOS="1472" WIDTH="16" HEIGHT="32">
-          <TextLine ID="L0029" HPOS="706" VPOS="1472" WIDTH="16" HEIGHT="32">
-            <String ID="L0029_W01" CONTENT="B" HPOS="706" VPOS="1473" WIDTH="4" HEIGHT="31"/>
-            <SP HPOS="710" VPOS="1473" WIDTH="1"/>
-            <String ID="L0029_W02" CONTENT="5" HPOS="710" VPOS="1473" WIDTH="12" HEIGHT="31"/>
+        <TextBlock ID="B003" TAGREFS="ROLE_signature-mark" HPOS="698" VPOS="1472" WIDTH="82" HEIGHT="32">
+          <TextLine ID="L0029" HPOS="698" VPOS="1472" WIDTH="82" HEIGHT="32">
+            <String ID="L0029_W01" CONTENT="B" HPOS="698" VPOS="1472" WIDTH="24" HEIGHT="32"/>
+            <SP HPOS="722" VPOS="1472" WIDTH="42"/>
+            <String ID="L0029_W02" CONTENT="5" HPOS="764" VPOS="1476" WIDTH="16" HEIGHT="35"/>
           </TextLine>
         </TextBlock>
         <TextBlock ID="B004" TAGREFS="ROLE_catch-word" HPOS="863" VPOS="1462" WIDTH="59" HEIGHT="50">

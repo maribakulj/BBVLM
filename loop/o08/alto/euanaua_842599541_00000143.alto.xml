@@ -237,16 +237,16 @@
             <String ID="L0020_W05" CONTENT="Lazarus/" HPOS="480" VPOS="1433" WIDTH="186" HEIGHT="46"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B004" TAGREFS="ROLE_signature-mark" HPOS="639" VPOS="646" WIDTH="193" HEIGHT="32">
-          <TextLine ID="L0021" HPOS="639" VPOS="646" WIDTH="193" HEIGHT="32">
-            <String ID="L0021_W01" CONTENT="G" HPOS="638" VPOS="646" WIDTH="59" HEIGHT="23"/>
-            <SP HPOS="697" VPOS="646" WIDTH="10"/>
-            <String ID="L0021_W02" CONTENT="iiij" HPOS="707" VPOS="646" WIDTH="125" HEIGHT="25"/>
+        <TextBlock ID="B004" TAGREFS="ROLE_signature-mark" HPOS="501" VPOS="1485" WIDTH="163" HEIGHT="55">
+          <TextLine ID="L0021" HPOS="501" VPOS="1485" WIDTH="163" HEIGHT="55">
+            <String ID="L0021_W01" CONTENT="G" HPOS="501" VPOS="1487" WIDTH="48" HEIGHT="49"/>
+            <SP HPOS="549" VPOS="1487" WIDTH="57"/>
+            <String ID="L0021_W02" CONTENT="iiij" HPOS="606" VPOS="1486" WIDTH="58" HEIGHT="53"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B005" TAGREFS="ROLE_catch-word" HPOS="785" VPOS="1482" WIDTH="90" HEIGHT="51">
-          <TextLine ID="L0022" HPOS="785" VPOS="1482" WIDTH="90" HEIGHT="51">
-            <String ID="L0022_W01" CONTENT="Der" HPOS="785" VPOS="1482" WIDTH="90" HEIGHT="51"/>
+        <TextBlock ID="B005" TAGREFS="ROLE_catch-word" HPOS="785" VPOS="1482" WIDTH="92" HEIGHT="51">
+          <TextLine ID="L0022" HPOS="785" VPOS="1482" WIDTH="92" HEIGHT="51">
+            <String ID="L0022_W01" CONTENT="Der" HPOS="785" VPOS="1482" WIDTH="92" HEIGHT="51"/>
           </TextLine>
         </TextBlock>
       </PrintSpace>

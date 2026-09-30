@@ -44,9 +44,9 @@
             <String ID="L0001_W02" CONTENT="III." HPOS="639" VPOS="213" WIDTH="64" HEIGHT="30"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B002" TAGREFS="ROLE_page-number" HPOS="535" VPOS="1599" WIDTH="11" HEIGHT="34">
-          <TextLine ID="L0002" HPOS="535" VPOS="1599" WIDTH="11" HEIGHT="34">
-            <String ID="L0002_W01" CONTENT="59" HPOS="535" VPOS="1600" WIDTH="11" HEIGHT="33"/>
+        <TextBlock ID="B002" TAGREFS="ROLE_page-number" HPOS="817" VPOS="214" WIDTH="55" HEIGHT="36">
+          <TextLine ID="L0002" HPOS="817" VPOS="214" WIDTH="55" HEIGHT="36">
+            <String ID="L0002_W01" CONTENT="59" HPOS="817" VPOS="214" WIDTH="55" HEIGHT="36"/>
           </TextLine>
         </TextBlock>
         <TextBlock ID="B003" TAGREFS="ROLE_paragraph" HPOS="110" VPOS="246" WIDTH="771" HEIGHT="159">
@@ -421,11 +421,11 @@
             <String ID="L0028_W05" CONTENT="acclamationibus" HPOS="632" VPOS="1540" WIDTH="260" HEIGHT="53"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B007" TAGREFS="ROLE_signature-mark" HPOS="817" VPOS="214" WIDTH="52" HEIGHT="36">
-          <TextLine ID="L0029" HPOS="817" VPOS="214" WIDTH="52" HEIGHT="36">
-            <String ID="L0029_W01" CONTENT="K" HPOS="817" VPOS="214" WIDTH="25" HEIGHT="35"/>
-            <SP HPOS="842" VPOS="214" WIDTH="5"/>
-            <String ID="L0029_W02" CONTENT="2" HPOS="847" VPOS="218" WIDTH="22" HEIGHT="32"/>
+        <TextBlock ID="B007" TAGREFS="ROLE_signature-mark" HPOS="534" VPOS="1599" WIDTH="74" HEIGHT="34">
+          <TextLine ID="L0029" HPOS="534" VPOS="1599" WIDTH="74" HEIGHT="34">
+            <String ID="L0029_W01" CONTENT="K" HPOS="534" VPOS="1597" WIDTH="31" HEIGHT="38"/>
+            <SP HPOS="565" VPOS="1597" WIDTH="19"/>
+            <String ID="L0029_W02" CONTENT="2" HPOS="584" VPOS="1604" WIDTH="24" HEIGHT="26"/>
           </TextLine>
         </TextBlock>
         <TextBlock ID="B008" TAGREFS="ROLE_catch-word" HPOS="551" VPOS="1628" WIDTH="61" HEIGHT="21">

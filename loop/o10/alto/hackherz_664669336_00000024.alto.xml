@@ -410,8 +410,8 @@
           </TextLine>
         </TextBlock>
         <TextBlock ID="B004" TAGREFS="ROLE_marginalia" HPOS="667" VPOS="1544" WIDTH="145" HEIGHT="77">
-          <TextLine ID="L0023" HPOS="762" VPOS="1544" WIDTH="20" HEIGHT="23">
-            <String ID="L0023_W01" CONTENT="II." HPOS="762" VPOS="1544" WIDTH="20" HEIGHT="22"/>
+          <TextLine ID="L0023" HPOS="747" VPOS="1544" WIDTH="35" HEIGHT="23">
+            <String ID="L0023_W01" CONTENT="II." HPOS="747" VPOS="1544" WIDTH="35" HEIGHT="23"/>
           </TextLine>
           <TextLine ID="L0024" HPOS="667" VPOS="1578" WIDTH="145" HEIGHT="43">
             <String ID="L0024_W01" CONTENT="Aplicatio." HPOS="668" VPOS="1578" WIDTH="144" HEIGHT="43"/>
@@ -465,7 +465,7 @@
             <SP HPOS="2014" VPOS="1657" WIDTH="9"/>
             <String ID="L0027_W09" CONTENT="ge⸗" HPOS="2023" VPOS="1669" WIDTH="62" HEIGHT="42"/>
           </TextLine>
-          <TextLine ID="L0028" HPOS="877" VPOS="1723" WIDTH="468" HEIGHT="54">
+          <TextLine ID="L0028" HPOS="876" VPOS="1723" WIDTH="469" HEIGHT="54">
             <String ID="L0028_W01" CONTENT="wuͤndſchet" HPOS="877" VPOS="1725" WIDTH="198" HEIGHT="52"/>
             <SP HPOS="1075" VPOS="1725" WIDTH="8"/>
             <String ID="L0028_W02" CONTENT="und" HPOS="1083" VPOS="1728" WIDTH="75" HEIGHT="39"/>
@@ -588,9 +588,9 @@
             <String ID="L0033_W10" CONTENT="Gott" HPOS="2008" VPOS="1984" WIDTH="78" HEIGHT="60"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B007" TAGREFS="ROLE_catch-word" HPOS="2346" VPOS="806" WIDTH="71" HEIGHT="55">
-          <TextLine ID="L0034" HPOS="2346" VPOS="806" WIDTH="71" HEIGHT="55">
-            <String ID="L0034_W01" CONTENT="ſo" HPOS="2346" VPOS="820" WIDTH="71" HEIGHT="41"/>
+        <TextBlock ID="B007" TAGREFS="ROLE_catch-word" HPOS="2353" VPOS="398" WIDTH="71" HEIGHT="69">
+          <TextLine ID="L0034" HPOS="2353" VPOS="398" WIDTH="71" HEIGHT="69">
+            <String ID="L0034_W01" CONTENT="ſo" HPOS="2353" VPOS="398" WIDTH="71" HEIGHT="69"/>
           </TextLine>
         </TextBlock>
       </PrintSpace>

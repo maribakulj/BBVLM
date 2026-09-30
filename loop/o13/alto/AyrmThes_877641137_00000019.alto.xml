@@ -36,17 +36,17 @@
   <Layout>
     <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="2004" HEIGHT="2589">
       <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="2004" HEIGHT="2589">
-        <TextBlock ID="B001" TAGREFS="ROLE_page-number" HPOS="586" VPOS="241" WIDTH="298" HEIGHT="58">
-          <TextLine ID="L0001" HPOS="586" VPOS="241" WIDTH="298" HEIGHT="58">
-            <String ID="L0001_W01" CONTENT="(11)" HPOS="586" VPOS="242" WIDTH="298" HEIGHT="57"/>
+        <TextBlock ID="B001" TAGREFS="ROLE_page-number" HPOS="579" VPOS="241" WIDTH="305" HEIGHT="58">
+          <TextLine ID="L0001" HPOS="579" VPOS="241" WIDTH="305" HEIGHT="58">
+            <String ID="L0001_W01" CONTENT="(11)" HPOS="580" VPOS="242" WIDTH="304" HEIGHT="57"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B002" TAGREFS="ROLE_heading" HPOS="677" VPOS="822" WIDTH="107" HEIGHT="499">
+        <TextBlock ID="B002" TAGREFS="ROLE_heading" HPOS="671" VPOS="822" WIDTH="113" HEIGHT="499">
           <TextLine ID="L0002" TAGREFS="NON_PLACE">
             <String ID="L0002_W01" CONTENT="V."/>
           </TextLine>
-          <TextLine ID="L0010" HPOS="677" VPOS="822" WIDTH="75" HEIGHT="44">
-            <String ID="L0010_W01" CONTENT="VI." HPOS="677" VPOS="823" WIDTH="75" HEIGHT="43"/>
+          <TextLine ID="L0010" HPOS="671" VPOS="822" WIDTH="81" HEIGHT="44">
+            <String ID="L0010_W01" CONTENT="VI." HPOS="671" VPOS="823" WIDTH="81" HEIGHT="43"/>
           </TextLine>
           <TextLine ID="L0018" HPOS="677" VPOS="1279" WIDTH="107" HEIGHT="42">
             <String ID="L0018_W01" CONTENT="VII." HPOS="677" VPOS="1280" WIDTH="106" HEIGHT="41"/>
@@ -431,9 +431,9 @@
             <String ID="L0029_W01" CONTENT="auctum." HPOS="119" VPOS="1935" WIDTH="166" HEIGHT="52"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B006" TAGREFS="ROLE_signature-mark" HPOS="704" VPOS="1992" WIDTH="81" HEIGHT="42">
-          <TextLine ID="L0030" HPOS="704" VPOS="1992" WIDTH="81" HEIGHT="42">
-            <String ID="L0030_W01" CONTENT="B" HPOS="704" VPOS="1993" WIDTH="31" HEIGHT="41"/>
+        <TextBlock ID="B006" TAGREFS="ROLE_signature-mark" HPOS="703" VPOS="1992" WIDTH="82" HEIGHT="42">
+          <TextLine ID="L0030" HPOS="703" VPOS="1992" WIDTH="82" HEIGHT="42">
+            <String ID="L0030_W01" CONTENT="B" HPOS="703" VPOS="1993" WIDTH="32" HEIGHT="41"/>
             <SP HPOS="735" VPOS="1993" WIDTH="29"/>
             <String ID="L0030_W02" CONTENT="2" HPOS="764" VPOS="2005" WIDTH="21" HEIGHT="27"/>
           </TextLine>
