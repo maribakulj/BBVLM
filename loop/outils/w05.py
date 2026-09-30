@@ -54,30 +54,32 @@ def emissions(gray, box, binarise=False):
 def viterbi(lp, lab):
     """lp (T, C) log-probas, lab liste d'indices (blank = 0) → trame de chaque étiquette : [(début, fin)]"""
     T = lp.shape[0]; L = len(lab); S = 2 * L + 1
-    ext = [0] * S
-    for i, l in enumerate(lab): ext[2 * i + 1] = l
+    ext = np.zeros(S, dtype=np.int64)
+    ext[1::2] = lab
+    saut = np.zeros(S, dtype=bool)          # transition s-2 → s permise (caractère différent du précédent)
+    saut[3::2] = ext[3::2] != ext[1:-2:2]
     NEG = -1e18
-    D = np.full((T, S), NEG); B = np.zeros((T, S), dtype=np.int64)
-    D[0, 0] = lp[0, 0]
-    if S > 1: D[0, 1] = lp[0, ext[1]]
+    D = np.full(S, NEG); B = np.zeros((T, S), dtype=np.int8)
+    D[0] = lp[0, 0]
+    if S > 1: D[1] = lp[0, ext[1]]
+    D[2:] = NEG
     for t in range(1, T):
-        prev = D[t - 1]
-        for s in range(S):
-            best, arg = prev[s], s
-            if s >= 1 and prev[s - 1] > best: best, arg = prev[s - 1], s - 1
-            if s >= 2 and ext[s] != 0 and ext[s] != ext[s - 2] and prev[s - 2] > best: best, arg = prev[s - 2], s - 2
-            D[t, s] = best + lp[t, ext[s]]; B[t, s] = arg
-    s = S - 1 if S == 1 or D[T - 1, S - 1] >= D[T - 1, S - 2] else S - 2
+        c0 = D
+        c1 = np.concatenate(([NEG], D[:-1]))
+        c2 = np.where(saut, np.concatenate(([NEG, NEG], D[:-2])), NEG)
+        m = np.stack([c0, c1, c2]); a = m.argmax(0)
+        D = m[a, np.arange(S)] + lp[t, ext]; B[t] = a
+    s = S - 1 if S == 1 or D[S - 1] >= D[S - 2] else S - 2
     path = [0] * T
     for t in range(T - 1, -1, -1):
-        path[t] = s; s = B[t, s]
+        path[t] = s; s -= int(B[t, s])
     spans = [[None, None] for _ in lab]
     for t, s in enumerate(path):
         if s % 2 == 1:
             k = s // 2
             if spans[k][0] is None: spans[k][0] = t
             spans[k][1] = t
-    return spans, float(D[T - 1, path[-1]])
+    return spans, float(D[path[-1]])
 
 
 def frontieres(gray, box, mots, binarise=False):
