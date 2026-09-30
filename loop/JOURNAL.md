@@ -1256,3 +1256,6 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 - Constat : sur 478 occurrences manquées (60 pages), 262 viennent du texte (dont des fautes de la VT : « sindet »/findet, « fatis »/satis, « fiir »/für) et 216 des boîtes (IoU < 0,5).
 - R02b (mêmes boîtes, texte adjugé audité si même nombre de mots) : 60 pages médiane 0,963 → 0,975, ≥ 0,95 47 → **50** ; 8 pages neuves 0,964 → 0,976, 5 → 6. Pires inchangés (852691769, hermhyst, AyrmThes ; neuves : 852691769/512, backhart/120). outils/recherche_adj.py.
 - Diagnostic des 216 pertes « boîte » de la recherche (hors 852691769) : 78 quasi-réussites surtout verticales, 44 horizontales, 53 boîtes ailleurs (IoU < 0,1). Hypothèse « mots à hauteur de ligne » réfutée : hauteur mot/ligne médiane 0,75 (p10 0,55) dans la VT ET dans nos ALTO — nos mots sont déjà resserrés à leur encre. Pas de correctif systématique ; restes = cas particuliers (backhart/AyrmThes/chridiss).
+
+## 30/09 21h30 — Z02 (zooms sur pages romaines) : rejetée, zooms gardés partout
+- chridiss et emmeprac, 4 lectures par condition : avec zoom 64 éd., sans zoom 85 (+33 %) ; pires cas proches (9/8, 14/15). Le retrait des zooms est clos, même ciblé sur le romain. Détail : z02/RESULTATS.md.
