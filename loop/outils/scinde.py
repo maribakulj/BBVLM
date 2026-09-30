@@ -145,9 +145,26 @@ def fusionne(boites, ocr, textes, gain=None, maxd=None):
             jb = min(voisins, key=lambda j: B[j][0]); b = B[jb]
             if any(k not in (ia, jb) and B[k][0] < b[0] and B[k][2] > a[2] and
                    min(a[3], B[k][3]) - max(a[1], B[k][1]) > 0 for k in range(len(B))): continue
-            if not O[ia] or not O[jb]: continue
-            dc = dm(O[ia] + O[jb])
-            if dc <= maxd and min(dm(O[ia]), dm(O[jb])) - dc >= gain:
+            if not O[ia] and not O[jb]: continue
+            dc = dm(O[ia] + O[jb]) if O[ia] and O[jb] else 1
+            ok = dc <= maxd and min(dm(O[ia]), dm(O[jb])) - dc >= gain
+            if not ok:
+                # le petit morceau est illisible pour Tesseract (« ix. » lu « (6 ») : la grande boîte
+                # doit retrouver une ligne lue privée de son premier (ou dernier) mot, et la petite
+                # avoir une largeur compatible avec ce mot
+                wa, wb = a[2] - a[0], b[2] - b[0]
+                petit, grand, bord = (ia, jb, 0) if wa < wb else (jb, ia, -1)
+                wp, wg = min(wa, wb), max(wa, wb)
+                for t in textes:
+                    m = t.split()
+                    if len(m) < 2: continue
+                    mot = m[bord]; reste = m[1:] if bord == 0 else m[:-1]
+                    rm, rr = reduit(mot), reduit(' '.join(reste))
+                    if not rm or len(rr) < 3: continue
+                    if _d(O[grand], rr) <= .2 and _d(O[grand], rr) < _d(O[grand], reduit(t)) \
+                       and .4 <= (wp / max(1, wg)) / (len(rm) / len(rr)) <= 2.5:
+                        ok = True; break
+            if ok:
                 B[ia] = [min(a[0], b[0]), min(a[1], b[1]), max(a[2], b[2]), max(a[3], b[3])]
                 O[ia] = O[ia] + O[jb]
                 del B[jb]; del O[jb]; fait = True; break
