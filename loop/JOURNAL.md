@@ -971,3 +971,8 @@ isolé. Pas de correctif.
 - Piste listée dans ETAT (« recaler le calcul des mots sur G04b partout ») : G05 choisit la boîte G04b pour toute la page si le haut des lignes descend en médiane de ≥ 0,05 h ; G06 applique le même seuil à chaque ligne (BBVLM_MOTS_G04=ligne).
 - Banc arrêté à 11 pages (texte + IoU80, G05 contre G06) : gains AphoqvSuS +0,009, geomeikud +0,009, backhart +0,007 ; pertes culmsent 0,851 → 0,773, hackherz −0,011, herrleyc −0,011, berirev −0,004. Le choix par page (G05) est plus sûr : une décision ligne à ligne suit le bruit du resserrage.
 - Décision : rejeté, mode laissé en option.
+
+## Inventaire des fautes de texte restantes (30/09, 05h30 Paris) — diagnostic
+- 42 pages adjugées, vue glyphe, 260 éditions. Classes : blancs 25 (15 manquants, 10 en trop) ; « ⸗ »/« - » 18 ; « ii » (VT) ↔ « uͤ » 9 (graphie de la VT, berirev) ; signes monétaires PUA U+F2E8/U+F2E9 lus « fk »/« gK » 12 (herrkurt seul, cas P6 connu) ; ſ/s/ß/f 16 ; points et ponctuation ~12 ; le reste en unités.
+- « ⸗ »/« - » : deux pages, sens opposés — eberbrev (romain) VT 13 « ⸗ », lecture 13 « - » ; heptaldai (Fraktur) VT 3 « - », lecture 3 « ⸗ » ; cingdei 1. Pas de règle par écriture possible sans contredire l'une des deux ; image trop peu nette à la coupure pour trancher. Conventions de transcription propres à chaque œuvre.
+- Conclusion : aucune classe restante n'est à la fois fréquente, homogène et corrigeable par règle ; les blancs (S10) ont été essayés et rejetés.
