@@ -1065,3 +1065,6 @@ Chaîne complète (P6e, T01b, S14, C02b, audit : 2 verdicts annulés sur 20). Te
 
 ## Inventaire après O24/O25 (30/09, ~15h25 Paris, CPU)
 Pages lues en P6e (O23-O25, 12 pages, 369 lignes) : une seule ligne détachée à tort par la règle « deux blocs » (AyrmThes « De ») → pas de changement de consigne. Lignes en échec CRITERE des pages neuves (O24/O25, 6 lignes) : toutes des désaccords de blancs — VT collée (« dẽnachgeenden », « vffkommen », « Oportetid »), lecture collée (« VerboDEI »), tiret (« no— » / « noch — »), « De » détaché. Aucune incohérence interne texte de ligne / éléments Word dans les 82 VT préparées (2 272 lignes). Les blancs restent la frontière commune du texte et des boîtes.
+
+## OLR sur les 12 pages neuves O23-O25 (30/09, ~15h35 Paris, CPU, lecture A, consigne P6e)
+Rôle exact par ligne : 1,00 sur 11 pages ; abdipre 0,10 parce que la VT type son texte courant « other » (région temporaire non typée « tempReg… ») — lacune de la VT, pas de la lecture. F1 « même région » : 1,00 sur 9 pages, AyrmThes 0,904 (12 régions VT, 8 lues), abdipre 0,708, culmsent 0,689 (5 régions VT, 3 lues : paragraphes fusionnés). Ordre des régions : ≥ 0,95 sur 10 pages, branchri 0,90, abdipre 0,33 (même cause). L'OLR des pages ordinaires est donc au niveau des mesures O10-O17 (rôles médiane 1,00) ; restes : découpage des paragraphes (culmsent, AyrmThes).
