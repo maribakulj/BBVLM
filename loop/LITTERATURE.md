@@ -333,3 +333,8 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 - Source : OCR-D Ground-Truth-Richtlinien (dépôt gt-guidelines : level_2_und_3_3.dita, trUmlaute.dita, tableau de codage du Koordinierungsgremium).
 - Apport : niveau 2 : « Umlaute werden entsprechend der Vorlage transkribiert » : ä ö ü distingués de la voyelle à e suscrit, codée par combinaison (u + U+0364) ; le tableau de codage prévoit aussi « ů » (U+016F, u + anneau).
 - Limite : aucune règle pour l'anneau employé par l'imprimeur comme signe d'inflexion (« Sůnde ») ; la VT SBB le transcrit par la fonction (uͤ) sur herrleyc, mais garde uͤ aussi pour des diphtongues « uo » (« bꝛuͤder », « daruͤmme ») : pratique non homogène.
+
+## L39 — Colophon : lieu, imprimeur, date en fin de volume (XVe-XVIe s.)
+- Sources : Wikipédia « Colophon (publishing) » ; guide de catalogage des incunables (Historic Libraries Forum, 2018) ; earlyprintedbooks.com (« colophon ») ; VD 16 (bibliographie nationale 1501-1600, reprend la forme latine du lieu du colophon).
+- Apport : dans les premiers imprimés, date, lieu et nom de l'imprimeur figurent souvent dans le colophon, à la fin du texte ; l'adresse passe au bas de la page de titre au cours du XVIe s. et le colophon disparaît au XVIIe. Nos champs « absents » des œuvres de 1509-1589 (buchdas, ferrepit, herrleyc, AmmoLIBR) sont donc à chercher en fin de volume.
+- Limite : le colophon peut manquer (exemplaire incomplet, pièce d'un recueil) ; le catalogue peut aussi tirer l'information d'une source externe (VD16, [ ]), non vérifiable sur l'image.
