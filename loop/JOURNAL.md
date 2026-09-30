@@ -1251,3 +1251,7 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 - S20 : proposer à part le cœur et la queue d'une bande quand l'extension dépasse 0,6 ligne, resserrés horizontalement. Les queues apparaissent, mais le resserrement horizontal est tiré par les jambages de la ligne du dessus (x 527 au lieu de 928) : IoU ≈ 0,22 < 0,5. Une séparation par composantes connexes serait nécessaire pour un seul cas du dev → abandonné (surajustement), code retiré.
 - État O26 avec R6 appliquée (hors preuve) : CRITERE 852691769 inchangé (2 lignes) ; mesure complète en cours.
 - État O26 avec R6 appliquée (hors preuve, R6 inspirée par O26) : CRITERE 1/4 inchangé ; lignes en échec 9 → 4 (buchdiss 5 → 0) ; buchdiss reste ✗ par un pire écart de frontière de 4,43 c (> 3).
+
+## 30/09 21h15 — R02b : recherche contre la référence adjugée auditée (changement de mesure pré-enregistré)
+- Constat : sur 478 occurrences manquées (60 pages), 262 viennent du texte (dont des fautes de la VT : « sindet »/findet, « fatis »/satis, « fiir »/für) et 216 des boîtes (IoU < 0,5).
+- R02b (mêmes boîtes, texte adjugé audité si même nombre de mots) : 60 pages médiane 0,963 → 0,975, ≥ 0,95 47 → **50** ; 8 pages neuves 0,964 → 0,976, 5 → 6. Pires inchangés (852691769, hermhyst, AyrmThes ; neuves : 852691769/512, backhart/120). outils/recherche_adj.py.
