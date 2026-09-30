@@ -47,8 +47,8 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
                 g = l.get('bbox_g04', l['bbox'])
                 return [min(g[0], e[0]), g[1], max(g[2], e[2]), g[3]]
             kr = [l if list(map(int, l['bbox'])) == e else {**l, 'bbox': e, 'bbox_g04': _g04(l, e)} for l, e in zip(kr, eb)]
-    if not (roles and any(r[0] == 'marginalia' for r in roles)) and os.environ.get('BBVLM_S02C') == '1' and shutil.which('tesseract'):
-        # S02c : sans rôles, coupe S02 gardée seulement si le plus petit morceau, relu, retrouve une ligne lue (L20)
+    if not (roles and any(r[0] == 'marginalia' for r in roles)) and os.environ.get('BBVLM_S02C', '1') == '1' and shutil.which('tesseract'):
+        # S02c (adopté) : sans rôles, coupe S02 gardée seulement si le plus petit morceau, relu, retrouve une ligne lue (L20)
         from coupe import coupe_page
         from ancre import lit_lignes, reduit
         from cer import lev
