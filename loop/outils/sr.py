@@ -188,7 +188,10 @@ def choisit(gray, textes, boites, tau=4.5, dossier=None):
             s = M[i][k]
             # une candidate nouvelle (union, scission, extension) doit expliquer la ligne nettement
             # mieux que la meilleure ligne d'origine : la perte CTC pénalise à peine la surface en trop
-            if s <= tau and (c in orig or s <= base - delta): paires.append((s, i, k))
+            # et un gain absolu minimal sur la ligne : sur un mot seul, la marge par signe ne suffit pas
+            # (réclames « Die », « l. » étendues à l'encre voisine : lignes perdues)
+            gain = (base - s) * (len(textes[i]) + 1)
+            if s <= tau and (c in orig or (s <= base - delta and gain >= float(os.environ.get('BBVLM_SR_GAIN', '5')))): paires.append((s, i, k))
     paires.sort()
     res, pris = {}, []
     for s, i, k in paires:
