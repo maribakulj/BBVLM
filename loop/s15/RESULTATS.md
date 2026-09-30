@@ -23,3 +23,8 @@ Cause de l'échec de S11 sur geomeikud/37 : Tesseract lit « ij. » → « Li. �
 - S17 (sans OCR) : geomeikud/37 3 → 1 ligne en échec, mais buchdas/27 1 → 2 (annotations manuscrites de marge rattachées aux lignes imprimées).
 - S17b (+ encre de même nature : p10 de l'orpheline ≤ p10 de la voisine + 30 ; manuscrit ≈ 107, imprimé 32-39) : petits lots sans recul, mais O07-O17 (23/44 pages mesurées) hackherz 2 → 3, 852691769 6 → 10. Mesure interrompue.
 - Bilan : une règle réglée sur deux pages se casse sur d'autres. Fin des règles géométriques ponctuelles (JOURNAL 30/09 17h10 : changement de paradigme).
+
+## SR — segmentation par reconnaissance guidée par le texte lu (L36) — protocole pré-enregistré (30/09 17h25)
+- Candidates : lignes de la chaîne (après S08…S09) + unions de 2-3 boîtes voisines d'une même bande sans boîte intercalée. Score = perte CTC (W05, CATMuS-Print) de la ligne lue sur la candidate / (nb signes + 1). Affectation hongroise lignes lues × candidates, paires ≤ τ = 4,5 (valeur générique, non réglée), conflits de recouvrement résolus en gardant la meilleure paire ; lignes kraken non recouvertes gardées.
+- Essai de faisabilité : « iij. Mentz » 2,51 sur l'union contre 7,87 / 11,5 sur les morceaux (lecture libre CATMuS : « Dteattg ») ; buchdas/27 : ligne imprimée seule préférée à l'union avec l'annotation manuscrite (1,21 / 1,26 ; 0,38 / 3,52).
+- Jeu tenu à l'écart dès maintenant : O23-O25 (12 pages : crit23/24/25) ; dev : O07-O18 (48 pages : crit2/crit18). Critère d'adoption : CRITERE dev non en recul, aucune page dev +1 ligne en échec ; résultat sur l'écart rapporté tel quel.

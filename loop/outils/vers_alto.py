@@ -145,6 +145,18 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
             kr[j] = {**kr[j], 'bbox': u(a, b), **({'bbox_g04': u(a, kr[j]['bbox_g04'])} if 'bbox_g04' in kr[j] else {})}
             mort.add(k)
         kr = [l for i, l in enumerate(kr) if i not in mort]
+    if os.environ.get('BBVLM_SR', '0') == '1' and lignes:
+        # SR (L36) : segmentation par reconnaissance guidée par le texte lu — chaque ligne lue
+        # reçoit la candidate (ligne, ou union de morceaux voisins d'une même bande) qui
+        # l'explique le mieux (perte CTC W05), affectation globale sans chevauchement ;
+        # les lignes kraken non recouvertes par une boîte choisie sont gardées telles quelles
+        from sr import choisit, _recouvre
+        _gs = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
+        ch = list(choisit(_gs, lignes, [l['bbox'] for l in kr], float(os.environ.get('BBVLM_SR_TAU', '4.5'))).values())
+        garde = {tuple(map(int, l['bbox'])): l for l in kr}
+        nkr = [garde.get(tuple(b), {'bbox': list(b)}) for b in ch]
+        nkr += [l for l in kr if not any(_recouvre(l['bbox'], b) for b in ch)]
+        kr = nkr
     if os.environ.get('BBVLM_S14', '1') == '1':      # S14 : lettrine rattachée à sa ligne (appliquée si le mot lu commence par deux capitales)
         from lettrine import detecte
         g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
