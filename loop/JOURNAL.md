@@ -1153,3 +1153,6 @@ Scissions v3 (bandes d'encre neutre et sombre) : durrgeda 3 → 2, aucun recul, 
 
 ## 30/09 18h25 — T03 (tirets de fin de ligne par planches de vignettes, L37) : négatif
 Erreurs de texte restantes souvent systématiques par page (eberbrev 13/14 = « ⸗ »/« - »). Planches de vignettes des 412 fins de ligne coupées (51 pages), décision simple/double par relecteurs Opus sans notre lecture. T03 (1 relecteur) 221 → 208 mais 2 pages en hausse ; T03b (accord de 2) 221 → 210, extraudeu 1 → 3 ; T03c (vignettes agrandies) 221 → 223. Décisions instables selon l'instrument, convention VT irrégulière : piste close. Voir t03/PROTOCOLE.md.
+
+## 30/09 18h40 — T04 (ů → uͤ par lexique hunspell) : négatif ; bilan des erreurs de texte
+Types d'erreurs restantes (58 pages, 216 signes appariés) : ů/uͤ 26, blancs 22, tirets simples/doubles 17, points 11, ſ/s 8, ß/ſ 6 (DasWeL)… Les deux premières classes « systématiques » (tirets T03, ů/uͤ T04) suivent des conventions de la VT qui varient d'un livre à l'autre : herrleyc écrit « uͤ » pour l'anneau d'inflexion, herbdulc garde « ů » ; les décisions visuelles (T03) sont instables. Ces classes relèvent surtout du bruit de convention de la référence ; le reste est dispersé (≤ 3 signes par type). Voir t04/PROTOCOLE.md.
