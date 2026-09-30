@@ -122,6 +122,13 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         bx = [l['bbox'] for l in kr]
         pris = set(aligne_ancre(lignes, bx, lit_lignes(dossier, bx, ecr)).values())
         def _vr(a, b): return min(a[3], b[3]) - max(a[1], b[1]) >= .5 * min(a[3] - a[1], b[3] - b[1])
+        _g17 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
+        def _p10(b):
+            c = _g17[max(0, int(b[1])):int(b[3]), max(0, int(b[0])):int(b[2])]
+            if c.size == 0: return 255.
+            t = cv2.threshold(c, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[0]
+            m = c[c < t]
+            return float(__import__('numpy').percentile(m, 10)) if m.size else 255.
         mort = set()
         for k in range(len(kr)):
             if k in pris: continue
@@ -131,6 +138,8 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
             if not cand: continue
             j = min(cand, key=lambda j: max(kr[j]['bbox'][0] - a[2], a[0] - kr[j]['bbox'][2]))
             b = kr[j]['bbox']; lo, hi = min(a[2], b[2]), max(a[0], b[0])
+            # S17b : encre de même nature (annotation manuscrite plus claire : p10 ≈ 107 contre 35-39, buchdas/27)
+            if _p10(a) > _p10(b) + float(os.environ.get('BBVLM_S17_ENCRE', '30')): continue
             if any(i not in (j, k) and _vr(a, kr[i]['bbox']) and kr[i]['bbox'][0] < hi and kr[i]['bbox'][2] > lo for i in range(len(kr))): continue
             u = lambda p, q: [min(p[0], q[0]), min(p[1], q[1]), max(p[2], q[2]), max(p[3], q[3])]
             kr[j] = {**kr[j], 'bbox': u(a, b), **({'bbox_g04': u(a, kr[j]['bbox_g04'])} if 'bbox_g04' in kr[j] else {})}
