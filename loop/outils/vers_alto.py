@@ -114,6 +114,28 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         from bandes import bandes
         g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
         kr = kr + [{'bbox': b} for b in bandes(g0, [l['bbox'] for l in kr])]
+    if os.environ.get('BBVLM_S17', '0') == '1' and lignes:
+        # S17 : boîte kraken sans ligne lue (ancrage S05) dans la bande d'une boîte ancrée,
+        # sans boîte entre elles → réunie à celle-ci (« ij.      Treer » : numéro de liste
+        # détaché que ni Tesseract ni CATMuS ne lisent ; S15/S16)
+        from ancre import lit_lignes, aligne_ancre
+        bx = [l['bbox'] for l in kr]
+        pris = set(aligne_ancre(lignes, bx, lit_lignes(dossier, bx, ecr)).values())
+        def _vr(a, b): return min(a[3], b[3]) - max(a[1], b[1]) >= .5 * min(a[3] - a[1], b[3] - b[1])
+        mort = set()
+        for k in range(len(kr)):
+            if k in pris: continue
+            a = kr[k]['bbox']
+            cand = [j for j in pris if j not in mort and _vr(a, kr[j]['bbox'])
+                    and max(kr[j]['bbox'][0] - a[2], a[0] - kr[j]['bbox'][2]) <= float(os.environ.get('BBVLM_S17_ECART', '4')) * (a[3] - a[1])]
+            if not cand: continue
+            j = min(cand, key=lambda j: max(kr[j]['bbox'][0] - a[2], a[0] - kr[j]['bbox'][2]))
+            b = kr[j]['bbox']; lo, hi = min(a[2], b[2]), max(a[0], b[0])
+            if any(i not in (j, k) and _vr(a, kr[i]['bbox']) and kr[i]['bbox'][0] < hi and kr[i]['bbox'][2] > lo for i in range(len(kr))): continue
+            u = lambda p, q: [min(p[0], q[0]), min(p[1], q[1]), max(p[2], q[2]), max(p[3], q[3])]
+            kr[j] = {**kr[j], 'bbox': u(a, b), **({'bbox_g04': u(a, kr[j]['bbox_g04'])} if 'bbox_g04' in kr[j] else {})}
+            mort.add(k)
+        kr = [l for i, l in enumerate(kr) if i not in mort]
     if os.environ.get('BBVLM_S14', '1') == '1':      # S14 : lettrine rattachée à sa ligne (appliquée si le mot lu commence par deux capitales)
         from lettrine import detecte
         g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
