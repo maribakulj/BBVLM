@@ -71,5 +71,8 @@ Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lec
 
 ## Contraintes d'environnement
 
+- **Placeur de mots sans CTC** : `src/boxers/compose.py` retombe toujours sur le DTW (modèle kraken CATMuS-Print absent, chemin macOS). Pour l'activer : autoriser **zenodo.org** dans la politique réseau de l'environnement (DOI 10.5281/zenodo.10592716), puis installer kraken dans venv2.
+
+
 arxiv, HAL, Gallica, Zenodo, HuggingFace bloqués ; GitHub et PyPI accessibles ;
 WebSearch (résumés). kraken 7.1.1 installé (modèle blla livré) ; PERO indisponible.
