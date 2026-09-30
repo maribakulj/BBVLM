@@ -1080,3 +1080,6 @@ ALTO des 60 pages régénérés avec la chaîne actuelle (S14, W02/W02c, T01b ; 
 
 ## Correction — horodatages (30/09, 11h40 Paris réelles)
 Les heures « Paris » écrites dans les entrées et protocoles du 30/09 à partir d'O23 (≈ 08h25) jusqu'à W03 sont fausses : elles avancent de 5 à 6 heures (ex. « ~17h25 » pour W03 = en réalité ≈ 11h25). L'ordre des expériences et les protocoles figés avant mesure restent exacts ; l'heure réelle est celle des commits (UTC+2). Les horodatages suivants sont pris sur l'horloge du conteneur convertie en heure de Paris.
+
+## W03 — coupure de mots par le CTC Calamari (30/09, ≈ 11h50 Paris) — REJETÉE
+Calamari 2.3.1 + modèles GT4HistOCR (git, accessibles) installés ; positions votées des caractères pré-calculées sur 60 pages (cala_page.py, ≈ 6 s/page). Règle : déplacer la coupure vers le seul blanc d'encre voisin contenant une espace Calamari. CRITERE : O18 3/4 → 0/4 (mode « tout »), O25 1/4 → 0/4 (mode « romain »), pires erreurs 5-13c. Calamari place des espaces dans les mots (texte lu imparfait sur nos images non binarisées) → coupures déplacées à tort. Détail : w03/RESULTATS.md.
