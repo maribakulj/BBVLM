@@ -69,10 +69,13 @@ def page_titre(r):
 if __name__ == '__main__':
     ppn, d = sys.argv[1], sys.argv[2]
     os.makedirs(d, exist_ok=True)
-    r = etree.fromstring(get(f'https://content.staatsbibliothek-berlin.de/dc/{ppn}.mets.xml'))
+    # point OAI d'abord (content.staatsbibliothek-berlin.de répond 503 par périodes)
+    x = get(f'https://oai.sbb.berlin/?verb=GetRecord&metadataPrefix=mets&identifier=oai:digital.staatsbibliothek-berlin.de:{ppn}')
+    r = etree.fromstring(x).find(f'.//{M}mets')
     v = mods(r)
     u, marque, ordre = page_titre(r)
     v['page_titre'] = {'url': u, 'marquee_dans_mets': marque, 'ordre': ordre}
     json.dump(v, open(f'{d}/mods.json', 'w'), ensure_ascii=False, indent=1)
-    if u: open(f'{d}/titre.jpg', 'wb').write(get(u))
+    if u and os.environ.get('BBVLM_SANS_IMAGE') != '1':
+        open(f'{d}/titre.jpg', 'wb').write(get(u))
     print(ppn, marque, ordre, v['auteurs'][:1], v['date'], v['lieu'][:1])
