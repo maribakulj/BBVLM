@@ -307,3 +307,8 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 - Sources : « Native vs Non-Native Language Prompting: A Comparative Analysis » (arXiv 2409.07054) ; P-MMEval (arXiv 2411.09116) ; « Cross-Lingual Prompt Steerability » (arXiv 2512.02841).
 - Apport : la langue du prompt change les résultats ; l'anglais est souvent meilleur (prédominance dans les données), mais pas partout : pour certaines tâches le prompt dans la langue des données fait aussi bien ou mieux, et la variance change selon la langue.
 - Limite : aucun de ces travaux ne porte sur la transcription diplomatique d'images ; nos documents sont en allemand/latin anciens, nos consignes en français : l'effet est à mesurer, pas à supposer.
+
+## L34 — Règles OCR-D GT sur les blancs (niveau 2)
+- Source : OCR-D Ground-Truth-Richtlinien, dépôt github.com/OCR-D/gt-guidelines (de/trans/level_2_2.dita, leerzeichen.dita, trSonderzeichen.dita ; ocr-d.de bloqué par le proxy).
+- Apport : niveau 2 : « Die Wiedergabe von Leerzeichen beschränkt sich darauf, dass diese ausschließlich Wörter von einander trennen. Satzzeichen werden immer an das vorangegangene Wort herangezogen. » Un blanc sépare donc des mots, pas des signes typographiques : « 2. Cor. XII. 3. 4 » (abréviations = mots) et « lengſt (darumb » (la parenthèse ouvrante n'est pas rattachée au mot précédent) sont conformes ; les verdicts collés « 2.Cor.XII.3.4 » ne le sont pas. Nombres en blocs : blancs repris de l'imprimé.
+- Limite : la règle ne tranche pas explicitement la frontière de mot dans un imprimé serré (« vff.xxxviij.jar ») ni la parenthèse ouvrante ; appui à A05/R3/R4, pas preuve ; la VT SBB elle-même n'est pas homogène (2 sigles collés sur ~800).
