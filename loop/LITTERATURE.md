@@ -347,3 +347,7 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 ## L41 — Set-of-Mark prompting (Yang et al., 2023, arXiv 2310.11441 ; github microsoft/SoM)
 - Apport : on superpose aux régions candidates des marques « prononçables » (numéros) et le VLM choisit un numéro au lieu de produire des coordonnées ; GPT-4V zéro-coup dépasse un modèle affiné sur RefCOCOg. Justifie l'idée D : transformer le choix de boîte de ligne (où SR hésite) en choix d'étiquette.
 - Limite : scènes naturelles, régions SAM bien séparées ; nos candidates se recouvrent (union ⊃ pièces), marques superposées risquent de se masquer ; transfert inégal selon le modèle. → une image par candidate (même recadrage, une seule boîte dessinée) plutôt que toutes les marques sur une image.
+
+## L42 — Error Patterns in Historical OCR: TrOCR vs a VLM (arXiv 2602.14524, 2026)
+- Apport : les erreurs de frontière de mots (soudures, coupures) sont une classe systématique des VLM ; elles se concentrent autour de la ponctuation, chez les deux systèmes. Concorde avec nos 18 lignes (« Thren.3. », « Exerc.107.diſt.2. », « Krieges⸗und », « nimmt⸗ »).
+- Limite : analyse seule, aucune remédiation (ni consigne ni post-traitement) ; Qwen, pas Claude ; imprimés non Fraktur.
