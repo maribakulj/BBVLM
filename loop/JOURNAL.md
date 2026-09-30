@@ -1156,3 +1156,6 @@ Erreurs de texte restantes souvent systématiques par page (eberbrev 13/14 = « 
 
 ## 30/09 18h40 — T04 (ů → uͤ par lexique hunspell) : négatif ; bilan des erreurs de texte
 Types d'erreurs restantes (58 pages, 216 signes appariés) : ů/uͤ 26, blancs 22, tirets simples/doubles 17, points 11, ſ/s 8, ß/ſ 6 (DasWeL)… Les deux premières classes « systématiques » (tirets T03, ů/uͤ T04) suivent des conventions de la VT qui varient d'un livre à l'autre : herrleyc écrit « uͤ » pour l'anneau d'inflexion, herbdulc garde « ů » ; les décisions visuelles (T03) sont instables. Ces classes relèvent surtout du bruit de convention de la référence ; le reste est dispersé (≤ 3 signes par type). Voir t04/PROTOCOLE.md.
+
+## 30/09 18h50 — SR extensions à l'encre adoptées ; CRITERE 41/60 (dev 34/48, écart 7/12)
+Extensions (prolongement à l'encre dans la bande, arrêt aux colonnes pleines) + marge δ = 0,5 : dev 32 → 34/48 sans recul ; écart 8 → 7/12 (AusdeErb 0 → 1, non diagnostiquée). Adoptées au critère dev ; premier recul observé sur le jeu tenu à l'écart, rapporté tel quel.

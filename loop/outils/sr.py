@@ -175,7 +175,7 @@ def choisit(gray, textes, boites, tau=4.5, dossier=None):
     _im = _cv.imread(f'{dossier}/page.png', _cv.IMREAD_COLOR) if dossier else None
     ex = list(scissions(gray, boites, im=_im)) if os.environ.get('BBVLM_SR_SCINDE', '1') == '1' else []
     if os.environ.get('BBVLM_SR_SERRE', '0') == '1' and dossier: ex += resserre(dossier, boites)
-    if os.environ.get('BBVLM_SR_ETEND', '0') == '1': ex += extensions(gray, boites, _im)
+    if os.environ.get('BBVLM_SR_ETEND', '1') == '1': ex += extensions(gray, boites, _im)
     C = candidates(boites, extra=ex)
     if not textes or not C: return {}
     orig = {tuple(map(int, b)) for b in boites}
