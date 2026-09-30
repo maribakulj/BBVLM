@@ -367,3 +367,7 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 ## L46 — Recadrage/zoom pour les VLM (CropVLM, arXiv 2511.19820 ; ViCrop ; « Pay More Attention To Text in High-Resolution MLLMs », arXiv 2609.23495)
 - Apport : sur images haute résolution, les erreurs fines viennent souvent d'indices visuels perdus à la réduction ; zoomer sur la région utile améliore la reconnaissance de texte de scène et de documents. Motive nos vues zoom (moitiés de bande ×1,6) pour les signes suscrits.
 - Limite : gains mesurés sur VQA/texte de scène avec des modèles ouverts ; nos bandes sont déjà en pleine résolution, le zoom n'ajoute peut-être rien pour un lecteur qui voit la bande entière (observation O26 : 30 contre 26 éd.). À mesurer (Z01).
+
+## L47 — ROVER (Fiscus 1997, IEEE ASRU ; LV-ROVER, arXiv 1707.07432)
+- Apport : combiner plusieurs sorties de reconnaissance par alignement et vote réduit l'erreur (jusqu'à −20 % relatif en parole ; LV-ROVER pour l'écriture manuscrite). Motive V05 : vote de 4 lectures VLM indépendantes (médiane de ligne) contre la chaîne à 2 lectures + arbitre.
+- Limite : suppose des erreurs peu corrélées entre systèmes ; nos 4 lecteurs sont le même modèle (erreurs corrélées : conventions, soudures communes) ; coût ×2 en lectures.

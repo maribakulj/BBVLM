@@ -1259,3 +1259,7 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 
 ## 30/09 21h30 — Z02 (zooms sur pages romaines) : rejetée, zooms gardés partout
 - chridiss et emmeprac, 4 lectures par condition : avec zoom 64 éd., sans zoom 85 (+33 %) ; pires cas proches (9/8, 14/15). Le retrait des zooms est clos, même ciblé sur le romain. Détail : z02/RESULTATS.md.
+
+## 30/09 21h35 — V05 : vote médian de 4 lectures (ROVER simplifié, L47) — négatif
+- Données Z01/Z02 (4 lectures avec zoom par page, 5 pages), sans nouvelle lecture. Vote = ligne médiane (somme des distances d'édition minimale) après alignement sur la 1re lecture.
+- Texte glyphe contre l'adjugée auditée : vote 58 éd. (DasWeL 6, buchdas 38, erobdefoa 0, chridiss 4, emmeprac 10) contre chaîne actuelle 60 (10, 37, 0, 4, 9). Gain nul pour un coût ×2 en lectures : erreurs corrélées entre lecteurs du même modèle. Chaîne à 2 lectures + arbitre gardée.
