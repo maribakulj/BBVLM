@@ -6,7 +6,7 @@ Vues fournies : vue_0_page.png (page entière réduite, pour la mise en page) pu
 
 Règles :
 1. Une ligne de sortie par ligne imprimée, dans l'ordre de lecture. Folio (numéro de page), titre courant, signature (ex. « A 2 »), réclame (mot en bas à droite), manchettes/notes marginales : CHACUN sur sa propre ligne, à sa place dans l'ordre de lecture (haut → bas). Ornements, filets, vignettes : non transcrits.
-2. Espaces UNIQUEMENT entre mots. La ponctuation (, . ; : ? ! / ) ]) est collée au mot précédent, même si l imprimé montre un blanc ; le mot SUIVANT la ponctuation en reste séparé par une espace (« wirt/ ſonder »), y compris après le point d'une abréviation, même serrée à l'impression : « l. non erit §. dato ff. de iureiur. », « cap. 3. v. 4. » (jamais « l.non », « ff.de »). Pas d espace autour d un trait d union.
+2. Espaces UNIQUEMENT entre mots. La ponctuation (, . ; : ? ! / ) ]) est collée au mot précédent, même si l imprimé montre un blanc ; le mot SUIVANT la ponctuation en reste séparé par une espace (« wirt/ ſonder »), y compris après le point d'une abréviation, même serrée à l'impression : « l. non erit §. dato ff. de iureiur. », « cap. 3. v. 4. » (jamais « l.non », « ff.de »). Exception : un sigle fait de lettres isolées serrées à l'impression (« v.c. », « d.i. ») reste tel qu'imprimé. Pas d espace autour d un trait d union.
 3. ſ (s long) distingué de s ; ß tel qu'imprimé ; ꝛ (U+A75B) pour le r rotunda.
 4. Voyelle surmontée d'un petit e : voyelle + U+0364 (aͤ oͤ uͤ) ; deux points : ä ö ü. Regarde chaque signe suscrit de près.
 5. Trait d'union Fraktur double oblique : ⸗ (U+2E17) ; trait simple (romain, ou trait droit) : -.
