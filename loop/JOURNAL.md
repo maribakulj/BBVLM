@@ -1266,3 +1266,11 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 
 ## 30/09 21h45 — S02 (Sonnet lecteur, P6e + zooms) : rejetée
 - 10 lectures Sonnet sur les 5 pages Z01/Z02 : moyennes cumulées 117,5 éd. contre 63,2 pour Opus (×1,9) ; seule emmeprac dans la marge. Sonnet écarté comme lecteur (confirme O16-S). Détail : s02/RESULTATS.md.
+
+## 30/09 22h35 — O28 (4 pages neuves) + audit A01 ; R9 (blanc après le trait d'Ergänzung) : adoptée
+- O28 (protocole figé 21h50) : texte adjugé actevedef 17 / albedm 0 / durrgeda 1 / eberbrev 11 éd. (VT distribuée 42/3/1/18) ; CRITERE 1/4 (albedm) ; lignes 58/68, 33/33, 19/20, 17/25. Audit A01 : 42 verdicts, 20 confirmés, 22 indécis, 0 annulé (indécis : un relecteur écrit « ü » pour « uͤ » ; VT « Ihr » contre « Jhr » lu par les 2 relecteurs et l'arbitre — convention I/J). Détail : o28/RESULTATS.md.
+- Cumul hors réglage O26-O28 (12 pages) : 4 pages parfaites au texte adjugé, CRITERE 2/12.
+- R9 (L49 Duden Ergänzungsstrich ; VT 13/13 « ⸗ und », 0 collé ; nous 8 collés : 1 dev extraudeu relevé avant O28, 7 O28) : p2.parenthese, BBVLM_R9 (défaut 1), appliquée aux textes finaux par r4b.py. Dry-run sur toutes les pages : exactement 8 lignes modifiées, toutes visées, aucun faux positif.
+- Mesure : dev extraudeu VT 6 → 5 éd., CRITERE ✗ → ✓ (échec 1 → 0) → **CRITERE 43 → 44/60** (dev 37/48), aucune autre page touchée. O28 (post hoc, non compté comme preuve) : actevedef 42 → 35 éd. VT, lignes en échec 9 → 2, iou_med 0,750 → 0,742 (reste ✗).
+- Conflit noté : la consigne P6e dit « pas d'espace autour d'un trait d'union » ; les lecteurs l'appliquent à ce cas. R9 corrige en post-traitement (pas de nouvelle lecture).
+- Note : la sauvegarde p3i_final_avantR4b.txt d'extraudeu est désormais l'état avant R9.

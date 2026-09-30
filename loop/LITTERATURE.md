@@ -375,3 +375,7 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 ## L48 — LLM multimodaux pour la reconnaissance d'écriture (« Benchmarking Large Language Models for Handwritten Text Recognition », arXiv 2503.15195)
 - Apport : Claude Sonnet (3.5) en tête des modèles propriétaires pour la reconnaissance de documents entiers, devant les OCR classiques ; l'écart entre tailles de modèles n'est pas documenté pour l'imprimé ancien. Motive S02 : remesurer Sonnet (5.5) comme lecteur, avec la consigne P6e et les zooms (O16-S l'avait rejeté avec une consigne antérieure).
 - Limite : manuscrit moderne français, pas d'imprimé ancien ni de Fraktur ; modèles anciens.
+
+## L49 — Duden, « Ergänzungsstrich » (Bindestrich als Ergänzungszeichen ; duden.de, Rechtschreibregeln D 31 ; consulté par WebSearch)
+- Apport : le trait d'union qui remplace un élément commun (« Grün- und Buntspechte ») porte un blanc du côté de la conjonction ; convention reprise par la VT OCR-D (13/13 « ⸗ und », 0 collé sur 84 pages). Motive R9 : insérer le blanc entre « x⸗ » et und/oder/vnd/noch/als/bis.
+- Limite : règle moderne ; l'imprimé ancien espace irrégulièrement, mais la VT transcrit ce blanc systématiquement. Conflit avec la consigne P6e (« pas d'espace autour d'un trait d'union ») que les lecteurs appliquent à tort à ce cas.

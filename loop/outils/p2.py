@@ -37,6 +37,9 @@ def parenthese(l):
     if os.environ.get('BBVLM_R6', '1') == '1':
         # R6 (L44) : guillemet ouvrant collé au texte qu'il encadre (VT : 36 « „x », 0 « „ x »)
         l = re.sub(r'([„‚]) (?=\w)', r'\1', l)
+    if os.environ.get('BBVLM_R9', '1') == '1':
+        # R9 (L49) : blanc après le trait d'Ergänzung devant la conjonction (« Luͤge⸗ und » ; VT 13/13, 0 collé)
+        l = re.sub(r'(\w⸗)(?=(und|oder|u\.|vnd|noch|als|bis)(\W|$))', r'\1 ', l)
     return l
 
 
