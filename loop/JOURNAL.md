@@ -1101,3 +1101,6 @@ VT de métadonnées enfin accessible (MODS SBB via OAI ; images IIIF après 503 
 
 ## 2026-09-30 13h49 — L01 : langue de la consigne (demande de l'utilisateur)
 48 lectures Opus (4 pages × 3 langues × 4) : somme des médianes glyphe FR 30,5, EN 36,5, DE 38,5 (norm 17 / 22 / 26). Le français n'est battu sur aucune page ; écart net seulement sur buchdas (Fraktur 1530). On garde la consigne française. Voir l01/RESULTATS.md.
+
+## 2026-09-30 14h12 — V01 : vote par médoïde sans arbitre (négatif)
+Sur les lectures L01 : médoïde de 4 FR 28 éd., de 12 lectures 29, contre 17 pour la chaîne actuelle (2 lectures + arbitre) et 30,5 pour une lecture seule. Erreurs corrélées entre lecteurs ; l'arbitre qui revient à l'image fait le gain. Voir v01/RESULTATS.md.
