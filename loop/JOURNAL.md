@@ -1234,3 +1234,7 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 
 ## 30/09 20h40 — Z01 (zooms utiles ?) : H-Z01 rejetée, zooms gardés
 - 24 lectures (3 pages × 2 conditions × 4). Total avec zoom 189 éd., sans zoom 309 (+63 %) ; pire cas buchdas 40 → 68, DasWeL 12 → 25 ; erobdefoa 0/0. Les erreurs sans zoom portent sur les signes suscrits et abréviations des imprimés du XVIe s. Détail : z01/RESULTATS.md.
+
+## 30/09 20h45 — OLR sur 8 pages neuves (O26+O27, lecture A, consigne P6e ; aucune nouvelle lecture)
+- Rôle exact : 1,00 sur 7/8 (852691769/512 : 0,962, tableau) ; ordre des régions ≥ 0,90 partout (1,00 sur 6/8) ; F1 « même région » 1,00 sur 5/8, pires 852691769 0,33 (tableau : 25 régions VT, 14 lues), briedefra 0,62 (6 régions VT, 8 lues), culmsent 0,72 (5 VT, 4 lues : listes de sentences).
+- Même profil que O23-O25 (rôles 1,00 sur 11/12, F1 1,00 sur 9/12) : rôles et ordre tiennent hors réglage ; le découpage en régions dépend des conventions de la VT pour tableaux et listes.
