@@ -102,6 +102,9 @@ def glyphe(t):
     t = ''.join(unicodedata.normalize('NFKD', c) if unicodedata.name(c, '').startswith('VULGAR FRACTION') else c for c in t)
     t = unicodedata.normalize('NFD', t)
     t = ''.join(TYPO.get(c, c) for c in t)
+    if os.environ.get('BBVLM_QPV', '1') == '1':
+        # T01a : la VT code l'abréviation « -que » tantôt qꝫ, tantôt q; (7/76 VT)
+        t = re.sub('q([\u0300-\u036f]*);', 'q\\1\ua76b', t)
     return unicodedata.normalize('NFC', t)
 
 

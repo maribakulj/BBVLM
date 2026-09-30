@@ -29,6 +29,9 @@ def post(lignes):
     if os.environ.get('BBVLM_QUE', '1') == '1':
         # L1 (après O15) : l'abréviation latine « -que » (q + ꝫ final) est codée
         # par la VT OCR-D/SBB en ligature MUFI PUA : U+E8BF, et U+F50D avec accent
+        if os.environ.get('BBVLM_QFIN', '1') == '1':
+            # T01b : « q́ » final de mot est toujours q́ꝫ dans la VT (14 + 1 q́;, aucun seul)
+            t = re.sub('q\u0301(?![\\w;])', 'q\u0301\ua76b', t)
         t = t.replace('q\u0301\ua76b', '\uf50d').replace('q\ua76b', '\ue8bf')
     if os.environ.get('BBVLM_APOS', '1') == '1':
         # L2 : la VT SBB code toute apostrophe en ' droite (29 pages, aucune ’)
