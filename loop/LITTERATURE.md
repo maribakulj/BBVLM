@@ -227,3 +227,8 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 - Source : « Reconstructing the Table of Contents a PDF Forgot to Ship » (Towards Data Science) ; pdf_oxide issue #1605 (listes à points de conduite prises pour des tableaux).
 - Apport : le renvoi aligné à droite est un signal de mise en page propre aux tables ; les moteurs le coupent tantôt trop (cellules), tantôt pas (ligne unique) ; il se traite au niveau des jetons de ligne (texte + position), indépendamment du moteur.
 - Limite : sources grand public, PDF natifs, pas d'évaluation ; rien sur le Fraktur ni sur des renvois sans points de conduite. Confirme seulement le choix S08c : couper par jetons (boîtes de mots Tesseract), pas par blancs d'encre.
+
+## L18 — Texte vertical : détecter l'orientation, tourner, relire
+- Sources : Tesseract, « Combined Script and Page Orientation Estimation » (OSD, angles 0/90/180/270) ; issue tesseract #3836 (rotation sans reconnaissance) ; « Seeing Straight: Document Orientation Detection for Efficient OCR » (arXiv 2511.04161) : la plupart des OCR et VLM se dégradent fortement sous rotation.
+- Apport : la pratique établie est de décider l'orientation (ici par ligne), de tourner le fragment de 90° et de relancer la reconnaissance ; un moteur non orienté produit du bruit sur une ligne debout.
+- Limite : OSD pensé pour la page entière, peu fiable sur une ligne courte ; rien de spécifique aux intitulés verticaux des tableaux imprimés anciens. Pour nous : essayer les deux sens (±90°) et garder la lecture la plus proche du texte lu.
