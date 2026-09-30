@@ -1,0 +1,1914 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v4#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-4.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>actevedef_718448162_00000027.tif</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="OCRP1">
+      <ocrProcessingStep>
+        <processingStepDescription>texte : lecture VLM diplomatique OCR-D niveau 2 ; lignes : kraken blla resserré sur l'encre du polygone ; mots : connexe (BBVLM). Brouillon de vérité terrain : relecture humaine requise.</processingStepDescription>
+        <processingSoftware>
+          <softwareName>BBVLM loop — Claude Opus (2 passes + arbitrage P3) + kraken 7.1.1 + connexe</softwareName>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Tags>
+    <OtherTag ID="NON_PLACE" LABEL="ligne lue non placée" TYPE="provenance"/>
+    <LayoutTag ID="ROLE_catch-word" LABEL="catch-word" TYPE="OCR-D region type"/>
+    <LayoutTag ID="ROLE_header" LABEL="header" TYPE="OCR-D region type"/>
+    <LayoutTag ID="ROLE_page-number" LABEL="page-number" TYPE="OCR-D region type"/>
+    <LayoutTag ID="ROLE_paragraph" LABEL="paragraph" TYPE="OCR-D region type"/>
+    <LayoutTag ID="ROLE_signature-mark" LABEL="signature-mark" TYPE="OCR-D region type"/>
+  </Tags>
+  <ReadingOrder>
+    <OrderedGroup ID="RO1">
+      <ElementRef ID="RO_B001" REF="B001"/>
+      <ElementRef ID="RO_B002" REF="B002"/>
+      <ElementRef ID="RO_B003" REF="B003"/>
+      <ElementRef ID="RO_B004" REF="B004"/>
+      <ElementRef ID="RO_B005" REF="B005"/>
+      <ElementRef ID="RO_B006" REF="B006"/>
+      <ElementRef ID="RO_B007" REF="B007"/>
+      <ElementRef ID="RO_B008" REF="B008"/>
+      <ElementRef ID="RO_B009" REF="B009"/>
+      <ElementRef ID="RO_B010" REF="B010"/>
+      <ElementRef ID="RO_B011" REF="B011"/>
+      <ElementRef ID="RO_B012" REF="B012"/>
+      <ElementRef ID="RO_B013" REF="B013"/>
+      <ElementRef ID="RO_B014" REF="B014"/>
+      <ElementRef ID="RO_B015" REF="B015"/>
+      <ElementRef ID="RO_B016" REF="B016"/>
+    </OrderedGroup>
+  </ReadingOrder>
+  <Layout>
+    <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="2463" HEIGHT="4060">
+      <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="2463" HEIGHT="4060">
+        <TextBlock ID="B001" TAGREFS="ROLE_header" HPOS="965" VPOS="210" WIDTH="537" HEIGHT="82">
+          <TextLine ID="L0001" HPOS="965" VPOS="210" WIDTH="537" HEIGHT="82">
+            <String ID="L0001_W01" CONTENT="(o)" HPOS="965" VPOS="210" WIDTH="536" HEIGHT="82"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B002" TAGREFS="ROLE_page-number" HPOS="2106" VPOS="229" WIDTH="91" HEIGHT="69">
+          <TextLine ID="L0002" HPOS="2106" VPOS="229" WIDTH="91" HEIGHT="69">
+            <String ID="L0002_W01" CONTENT="23" HPOS="2106" VPOS="237" WIDTH="91" HEIGHT="61"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B003" TAGREFS="ROLE_paragraph" HPOS="280" VPOS="325" WIDTH="1910" HEIGHT="210">
+          <TextLine ID="L0003" HPOS="280" VPOS="325" WIDTH="1902" HEIGHT="63">
+            <String ID="L0003_W01" CONTENT="ceſtiret:" HPOS="280" VPOS="334" WIDTH="144" HEIGHT="40"/>
+            <SP HPOS="424" VPOS="334" WIDTH="15"/>
+            <String ID="L0003_W02" CONTENT="Daß" HPOS="439" VPOS="333" WIDTH="89" HEIGHT="50"/>
+            <SP HPOS="528" VPOS="333" WIDTH="8"/>
+            <String ID="L0003_W03" CONTENT="es" HPOS="536" VPOS="336" WIDTH="36" HEIGHT="43"/>
+            <SP HPOS="572" VPOS="336" WIDTH="9"/>
+            <String ID="L0003_W04" CONTENT="falſch," HPOS="581" VPOS="335" WIDTH="111" HEIGHT="52"/>
+            <SP HPOS="692" VPOS="335" WIDTH="18"/>
+            <String ID="L0003_W05" CONTENT="und" HPOS="710" VPOS="336" WIDTH="68" HEIGHT="39"/>
+            <SP HPOS="778" VPOS="336" WIDTH="5"/>
+            <String ID="L0003_W06" CONTENT="ſie" HPOS="783" VPOS="333" WIDTH="43" HEIGHT="48"/>
+            <SP HPOS="826" VPOS="333" WIDTH="11"/>
+            <String ID="L0003_W07" CONTENT="ſich" HPOS="837" VPOS="333" WIDTH="58" HEIGHT="49"/>
+            <SP HPOS="895" VPOS="333" WIDTH="10"/>
+            <String ID="L0003_W08" CONTENT="fromm" HPOS="905" VPOS="333" WIDTH="117" HEIGHT="48"/>
+            <SP HPOS="1022" VPOS="333" WIDTH="1"/>
+            <String ID="L0003_W09" CONTENT="und" HPOS="1023" VPOS="335" WIDTH="88" HEIGHT="38"/>
+            <SP HPOS="1111" VPOS="335" WIDTH="15"/>
+            <String ID="L0003_W10" CONTENT="ehrlich" HPOS="1126" VPOS="333" WIDTH="117" HEIGHT="47"/>
+            <SP HPOS="1243" VPOS="333" WIDTH="11"/>
+            <String ID="L0003_W11" CONTENT="gehalten;" HPOS="1254" VPOS="332" WIDTH="190" HEIGHT="50"/>
+            <SP HPOS="1444" VPOS="332" WIDTH="1"/>
+            <String ID="L0003_W12" CONTENT="Wie" HPOS="1445" VPOS="334" WIDTH="99" HEIGHT="54"/>
+            <SP HPOS="1544" VPOS="334" WIDTH="20"/>
+            <String ID="L0003_W13" CONTENT="dann" HPOS="1564" VPOS="336" WIDTH="18" HEIGHT="37"/>
+            <SP HPOS="1582" VPOS="336" WIDTH="1"/>
+            <String ID="L0003_W14" CONTENT="auch" HPOS="1582" VPOS="344" WIDTH="162" HEIGHT="31"/>
+            <SP HPOS="1744" VPOS="344" WIDTH="12"/>
+            <String ID="L0003_W15" CONTENT="die" HPOS="1756" VPOS="335" WIDTH="51" HEIGHT="43"/>
+            <SP HPOS="1807" VPOS="335" WIDTH="11"/>
+            <String ID="L0003_W16" CONTENT="andere" HPOS="1818" VPOS="339" WIDTH="126" HEIGHT="39"/>
+            <SP HPOS="1944" VPOS="339" WIDTH="1"/>
+            <String ID="L0003_W17" CONTENT="Hrn." HPOS="1945" VPOS="340" WIDTH="96" HEIGHT="47"/>
+            <SP HPOS="2041" VPOS="340" WIDTH="20"/>
+            <String ID="L0003_W18" CONTENT="Kauff⸗" HPOS="2061" VPOS="341" WIDTH="121" HEIGHT="49"/>
+          </TextLine>
+          <TextLine ID="L0004" HPOS="282" VPOS="367" WIDTH="1901" HEIGHT="77">
+            <String ID="L0004_W01" CONTENT="leute" HPOS="282" VPOS="382" WIDTH="82" HEIGHT="57"/>
+            <SP HPOS="364" VPOS="382" WIDTH="1"/>
+            <String ID="L0004_W02" CONTENT="Jhr" HPOS="365" VPOS="383" WIDTH="95" HEIGHT="47"/>
+            <SP HPOS="460" VPOS="383" WIDTH="1"/>
+            <String ID="L0004_W03" CONTENT="in" HPOS="461" VPOS="398" WIDTH="47" HEIGHT="29"/>
+            <SP HPOS="508" VPOS="398" WIDTH="1"/>
+            <String ID="L0004_W04" CONTENT="dem" HPOS="509" VPOS="367" WIDTH="84" HEIGHT="62"/>
+            <SP HPOS="593" VPOS="367" WIDTH="4"/>
+            <String ID="L0004_W05" CONTENT="nemlichen" HPOS="597" VPOS="367" WIDTH="181" HEIGHT="60"/>
+            <SP HPOS="778" VPOS="367" WIDTH="1"/>
+            <String ID="L0004_W06" CONTENT="Protocollo" HPOS="779" VPOS="367" WIDTH="201" HEIGHT="74"/>
+            <SP HPOS="980" VPOS="367" WIDTH="4"/>
+            <String ID="L0004_W07" CONTENT="ein" HPOS="984" VPOS="394" WIDTH="58" HEIGHT="27"/>
+            <SP HPOS="1042" VPOS="394" WIDTH="1"/>
+            <String ID="L0004_W08" CONTENT="gutes" HPOS="1043" VPOS="392" WIDTH="109" HEIGHT="37"/>
+            <SP HPOS="1152" VPOS="392" WIDTH="1"/>
+            <String ID="L0004_W09" CONTENT="Lob" HPOS="1153" VPOS="383" WIDTH="71" HEIGHT="56"/>
+            <SP HPOS="1224" VPOS="383" WIDTH="1"/>
+            <String ID="L0004_W10" CONTENT="gegeben." HPOS="1225" VPOS="367" WIDTH="189" HEIGHT="64"/>
+            <SP HPOS="1414" VPOS="367" WIDTH="1"/>
+            <String ID="L0004_W11" CONTENT="Alſo" HPOS="1415" VPOS="383" WIDTH="105" HEIGHT="43"/>
+            <SP HPOS="1520" VPOS="383" WIDTH="1"/>
+            <String ID="L0004_W12" CONTENT="reſerviret" HPOS="1521" VPOS="391" WIDTH="177" HEIGHT="50"/>
+            <SP HPOS="1698" VPOS="391" WIDTH="3"/>
+            <String ID="L0004_W13" CONTENT="ſie" HPOS="1701" VPOS="389" WIDTH="46" HEIGHT="47"/>
+            <SP HPOS="1747" VPOS="389" WIDTH="9"/>
+            <String ID="L0004_W14" CONTENT="ſich" HPOS="1756" VPOS="389" WIDTH="64" HEIGHT="47"/>
+            <SP HPOS="1820" VPOS="389" WIDTH="1"/>
+            <String ID="L0004_W15" CONTENT="dieſer" HPOS="1821" VPOS="388" WIDTH="109" HEIGHT="49"/>
+            <SP HPOS="1930" VPOS="388" WIDTH="1"/>
+            <String ID="L0004_W16" CONTENT="hoͤchſt⸗Ehren⸗" HPOS="1931" VPOS="367" WIDTH="252" HEIGHT="72"/>
+          </TextLine>
+          <TextLine ID="L0005" HPOS="280" VPOS="410" WIDTH="1910" HEIGHT="100">
+            <String ID="L0005_W01" CONTENT="ruͤhrigen" HPOS="280" VPOS="410" WIDTH="157" HEIGHT="100"/>
+            <SP HPOS="437" VPOS="410" WIDTH="1"/>
+            <String ID="L0005_W02" CONTENT="Bezuͤchtigung" HPOS="438" VPOS="410" WIDTH="272" HEIGHT="100"/>
+            <SP HPOS="710" VPOS="410" WIDTH="1"/>
+            <String ID="L0005_W03" CONTENT="halber," HPOS="711" VPOS="410" WIDTH="151" HEIGHT="100"/>
+            <SP HPOS="862" VPOS="410" WIDTH="4"/>
+            <String ID="L0005_W04" CONTENT="gebuͤhrende" HPOS="866" VPOS="410" WIDTH="207" HEIGHT="72"/>
+            <SP HPOS="1073" VPOS="410" WIDTH="5"/>
+            <String ID="L0005_W05" CONTENT="Satisfaction," HPOS="1078" VPOS="410" WIDTH="247" HEIGHT="64"/>
+            <SP HPOS="1325" VPOS="410" WIDTH="1"/>
+            <String ID="L0005_W06" CONTENT="wie" HPOS="1326" VPOS="413" WIDTH="74" HEIGHT="62"/>
+            <SP HPOS="1400" VPOS="413" WIDTH="9"/>
+            <String ID="L0005_W07" CONTENT="Jhre" HPOS="1409" VPOS="415" WIDTH="100" HEIGHT="68"/>
+            <SP HPOS="1509" VPOS="415" WIDTH="1"/>
+            <String ID="L0005_W08" CONTENT="Rechtliche" HPOS="1510" VPOS="410" WIDTH="208" HEIGHT="74"/>
+            <SP HPOS="1718" VPOS="410" WIDTH="4"/>
+            <String ID="L0005_W09" CONTENT="Defenſions-Schrifft" HPOS="1722" VPOS="410" WIDTH="381" HEIGHT="80"/>
+            <SP HPOS="2103" VPOS="410" WIDTH="1"/>
+            <String ID="L0005_W10" CONTENT="der⸗" HPOS="2104" VPOS="410" WIDTH="79" HEIGHT="73"/>
+          </TextLine>
+          <TextLine ID="L0006" HPOS="280" VPOS="469" WIDTH="482" HEIGHT="66">
+            <String ID="L0006_W01" CONTENT="mahleins" HPOS="280" VPOS="466" WIDTH="174" HEIGHT="63"/>
+            <SP HPOS="454" VPOS="466" WIDTH="1"/>
+            <String ID="L0006_W02" CONTENT="ausweiſen" HPOS="455" VPOS="466" WIDTH="200" HEIGHT="69"/>
+            <SP HPOS="655" VPOS="466" WIDTH="5"/>
+            <String ID="L0006_W03" CONTENT="wird." HPOS="660" VPOS="488" WIDTH="102" HEIGHT="37"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B004" TAGREFS="ROLE_paragraph" HPOS="276" VPOS="548" WIDTH="1915" HEIGHT="208">
+          <TextLine ID="L0007" HPOS="391" VPOS="548" WIDTH="1790" HEIGHT="59">
+            <String ID="L0007_W01" CONTENT="Quoad" HPOS="390" VPOS="558" WIDTH="118" HEIGHT="46"/>
+            <SP HPOS="508" VPOS="558" WIDTH="2"/>
+            <String ID="L0007_W02" CONTENT="§." HPOS="510" VPOS="558" WIDTH="47" HEIGHT="41"/>
+            <SP HPOS="557" VPOS="558" WIDTH="1"/>
+            <String ID="L0007_W03" CONTENT="2." HPOS="558" VPOS="571" WIDTH="64" HEIGHT="24"/>
+            <SP HPOS="622" VPOS="571" WIDTH="4"/>
+            <String ID="L0007_W04" CONTENT="Hat" HPOS="626" VPOS="555" WIDTH="91" HEIGHT="42"/>
+            <SP HPOS="717" VPOS="555" WIDTH="1"/>
+            <String ID="L0007_W05" CONTENT="ſie" HPOS="718" VPOS="550" WIDTH="44" HEIGHT="48"/>
+            <SP HPOS="762" VPOS="550" WIDTH="17"/>
+            <String ID="L0007_W06" CONTENT="ſich" HPOS="779" VPOS="549" WIDTH="64" HEIGHT="48"/>
+            <SP HPOS="843" VPOS="549" WIDTH="8"/>
+            <String ID="L0007_W07" CONTENT="in" HPOS="851" VPOS="550" WIDTH="40" HEIGHT="40"/>
+            <SP HPOS="891" VPOS="550" WIDTH="10"/>
+            <String ID="L0007_W08" CONTENT="Hrn." HPOS="901" VPOS="549" WIDTH="89" HEIGHT="49"/>
+            <SP HPOS="990" VPOS="549" WIDTH="19"/>
+            <String ID="L0007_W09" CONTENT="Gegners" HPOS="1009" VPOS="549" WIDTH="163" HEIGHT="52"/>
+            <SP HPOS="1172" VPOS="549" WIDTH="21"/>
+            <String ID="L0007_W10" CONTENT="Bruders" HPOS="1193" VPOS="552" WIDTH="167" HEIGHT="43"/>
+            <SP HPOS="1360" VPOS="552" WIDTH="14"/>
+            <String ID="L0007_W11" CONTENT="des" HPOS="1374" VPOS="552" WIDTH="58" HEIGHT="40"/>
+            <SP HPOS="1432" VPOS="552" WIDTH="24"/>
+            <String ID="L0007_W12" CONTENT="Hrn." HPOS="1456" VPOS="551" WIDTH="102" HEIGHT="47"/>
+            <SP HPOS="1558" VPOS="551" WIDTH="14"/>
+            <String ID="L0007_W13" CONTENT="Medicinæ" HPOS="1572" VPOS="551" WIDTH="166" HEIGHT="39"/>
+            <SP HPOS="1738" VPOS="551" WIDTH="10"/>
+            <String ID="L0007_W14" CONTENT="Doctoris" HPOS="1748" VPOS="559" WIDTH="161" HEIGHT="37"/>
+            <SP HPOS="1909" VPOS="559" WIDTH="17"/>
+            <String ID="L0007_W15" CONTENT="Senckenbergs" HPOS="1926" VPOS="558" WIDTH="255" HEIGHT="49"/>
+          </TextLine>
+          <TextLine ID="L0008" HPOS="278" VPOS="584" WIDTH="1911" HEIGHT="71">
+            <String ID="L0008_W01" CONTENT="Hauß," HPOS="278" VPOS="597" WIDTH="126" HEIGHT="52"/>
+            <SP HPOS="404" VPOS="597" WIDTH="1"/>
+            <String ID="L0008_W02" CONTENT="eben" HPOS="405" VPOS="584" WIDTH="91" HEIGHT="59"/>
+            <SP HPOS="496" VPOS="584" WIDTH="1"/>
+            <String ID="L0008_W03" CONTENT="ſo" HPOS="497" VPOS="584" WIDTH="46" HEIGHT="63"/>
+            <SP HPOS="543" VPOS="584" WIDTH="1"/>
+            <String ID="L0008_W04" CONTENT="fromm" HPOS="544" VPOS="584" WIDTH="128" HEIGHT="69"/>
+            <SP HPOS="672" VPOS="584" WIDTH="1"/>
+            <String ID="L0008_W05" CONTENT="und" HPOS="673" VPOS="584" WIDTH="86" HEIGHT="56"/>
+            <SP HPOS="759" VPOS="584" WIDTH="18"/>
+            <String ID="L0008_W06" CONTENT="ehrlich" HPOS="777" VPOS="601" WIDTH="114" HEIGHT="46"/>
+            <SP HPOS="891" VPOS="601" WIDTH="12"/>
+            <String ID="L0008_W07" CONTENT="aufgefuͤhret," HPOS="903" VPOS="584" WIDTH="229" HEIGHT="62"/>
+            <SP HPOS="1132" VPOS="584" WIDTH="1"/>
+            <String ID="L0008_W08" CONTENT="ſonſt" HPOS="1133" VPOS="602" WIDTH="93" HEIGHT="49"/>
+            <SP HPOS="1226" VPOS="602" WIDTH="1"/>
+            <String ID="L0008_W09" CONTENT="wuͤrde" HPOS="1227" VPOS="598" WIDTH="123" HEIGHT="43"/>
+            <SP HPOS="1350" VPOS="598" WIDTH="1"/>
+            <String ID="L0008_W10" CONTENT="dieſer" HPOS="1351" VPOS="602" WIDTH="110" HEIGHT="48"/>
+            <SP HPOS="1461" VPOS="602" WIDTH="1"/>
+            <String ID="L0008_W11" CONTENT="ſie" HPOS="1462" VPOS="586" WIDTH="49" HEIGHT="62"/>
+            <SP HPOS="1511" VPOS="586" WIDTH="6"/>
+            <String ID="L0008_W12" CONTENT="nicht" HPOS="1517" VPOS="603" WIDTH="90" HEIGHT="46"/>
+            <SP HPOS="1607" VPOS="603" WIDTH="6"/>
+            <String ID="L0008_W13" CONTENT="ſelbſt" HPOS="1613" VPOS="601" WIDTH="97" HEIGHT="48"/>
+            <SP HPOS="1710" VPOS="601" WIDTH="3"/>
+            <String ID="L0008_W14" CONTENT="ſeinem" HPOS="1713" VPOS="603" WIDTH="117" HEIGHT="49"/>
+            <SP HPOS="1830" VPOS="603" WIDTH="1"/>
+            <String ID="L0008_W15" CONTENT="Bruder" HPOS="1831" VPOS="584" WIDTH="165" HEIGHT="67"/>
+            <SP HPOS="1996" VPOS="584" WIDTH="6"/>
+            <String ID="L0008_W16" CONTENT="dem" HPOS="2002" VPOS="584" WIDTH="68" HEIGHT="68"/>
+            <SP HPOS="2070" VPOS="584" WIDTH="1"/>
+            <String ID="L0008_W17" CONTENT="Geg⸗" HPOS="2071" VPOS="584" WIDTH="118" HEIGHT="71"/>
+          </TextLine>
+          <TextLine ID="L0009" HPOS="278" VPOS="638" WIDTH="1913" HEIGHT="71">
+            <String ID="L0009_W01" CONTENT="neriſchen" HPOS="278" VPOS="638" WIDTH="156" HEIGHT="63"/>
+            <SP HPOS="434" VPOS="638" WIDTH="4"/>
+            <String ID="L0009_W02" CONTENT="Hrn." HPOS="438" VPOS="639" WIDTH="99" HEIGHT="59"/>
+            <SP HPOS="537" VPOS="639" WIDTH="11"/>
+            <String ID="L0009_W03" CONTENT="Hofrath" HPOS="548" VPOS="649" WIDTH="151" HEIGHT="56"/>
+            <SP HPOS="699" VPOS="649" WIDTH="4"/>
+            <String ID="L0009_W04" CONTENT="Senckenberg" HPOS="703" VPOS="650" WIDTH="245" HEIGHT="46"/>
+            <SP HPOS="948" VPOS="650" WIDTH="4"/>
+            <String ID="L0009_W05" CONTENT="auf" HPOS="952" VPOS="649" WIDTH="77" HEIGHT="48"/>
+            <SP HPOS="1029" VPOS="649" WIDTH="5"/>
+            <String ID="L0009_W06" CONTENT="ſein" HPOS="1034" VPOS="650" WIDTH="62" HEIGHT="47"/>
+            <SP HPOS="1096" VPOS="650" WIDTH="5"/>
+            <String ID="L0009_W07" CONTENT="Begehren" HPOS="1101" VPOS="652" WIDTH="185" HEIGHT="50"/>
+            <SP HPOS="1286" VPOS="652" WIDTH="5"/>
+            <String ID="L0009_W08" CONTENT="in" HPOS="1291" VPOS="653" WIDTH="49" HEIGHT="40"/>
+            <SP HPOS="1340" VPOS="653" WIDTH="4"/>
+            <String ID="L0009_W09" CONTENT="Dienſt" HPOS="1344" VPOS="649" WIDTH="124" HEIGHT="51"/>
+            <SP HPOS="1468" VPOS="649" WIDTH="7"/>
+            <String ID="L0009_W10" CONTENT="haben" HPOS="1475" VPOS="651" WIDTH="112" HEIGHT="48"/>
+            <SP HPOS="1587" VPOS="651" WIDTH="4"/>
+            <String ID="L0009_W11" CONTENT="abfolgen" HPOS="1591" VPOS="650" WIDTH="161" HEIGHT="52"/>
+            <SP HPOS="1752" VPOS="650" WIDTH="4"/>
+            <String ID="L0009_W12" CONTENT="laſſen," HPOS="1756" VPOS="656" WIDTH="134" HEIGHT="49"/>
+            <SP HPOS="1890" VPOS="656" WIDTH="4"/>
+            <String ID="L0009_W13" CONTENT="um" HPOS="1894" VPOS="668" WIDTH="59" HEIGHT="31"/>
+            <SP HPOS="1953" VPOS="668" WIDTH="4"/>
+            <String ID="L0009_W14" CONTENT="ſeine" HPOS="1957" VPOS="662" WIDTH="96" HEIGHT="47"/>
+            <SP HPOS="2053" VPOS="662" WIDTH="3"/>
+            <String ID="L0009_W15" CONTENT="confu-" HPOS="2056" VPOS="650" WIDTH="132" HEIGHT="50"/>
+          </TextLine>
+          <TextLine ID="L0010" HPOS="276" VPOS="689" WIDTH="903" HEIGHT="67">
+            <String ID="L0010_W01" CONTENT="ſe" HPOS="276" VPOS="699" WIDTH="37" HEIGHT="36"/>
+            <SP HPOS="313" VPOS="699" WIDTH="8"/>
+            <String ID="L0010_W02" CONTENT="ſchlechte" HPOS="321" VPOS="687" WIDTH="149" HEIGHT="64"/>
+            <SP HPOS="470" VPOS="687" WIDTH="1"/>
+            <String ID="L0010_W03" CONTENT="Haußhaltung" HPOS="471" VPOS="687" WIDTH="249" HEIGHT="69"/>
+            <SP HPOS="720" VPOS="687" WIDTH="2"/>
+            <String ID="L0010_W04" CONTENT="in" HPOS="722" VPOS="712" WIDTH="43" HEIGHT="28"/>
+            <SP HPOS="765" VPOS="712" WIDTH="11"/>
+            <String ID="L0010_W05" CONTENT="Ordnung" HPOS="776" VPOS="700" WIDTH="175" HEIGHT="49"/>
+            <SP HPOS="951" VPOS="700" WIDTH="11"/>
+            <String ID="L0010_W06" CONTENT="zu" HPOS="962" VPOS="709" WIDTH="41" HEIGHT="37"/>
+            <SP HPOS="1003" VPOS="709" WIDTH="8"/>
+            <String ID="L0010_W07" CONTENT="bringen." HPOS="1011" VPOS="692" WIDTH="168" HEIGHT="59"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B005" TAGREFS="ROLE_paragraph" HPOS="273" VPOS="768" WIDTH="1919" HEIGHT="204">
+          <TextLine ID="L0011" HPOS="372" VPOS="768" WIDTH="1820" HEIGHT="62">
+            <String ID="L0011_W01" CONTENT="Quoad" HPOS="372" VPOS="774" WIDTH="124" HEIGHT="45"/>
+            <SP HPOS="496" VPOS="774" WIDTH="1"/>
+            <String ID="L0011_W02" CONTENT="§." HPOS="497" VPOS="737" WIDTH="53" HEIGHT="83"/>
+            <SP HPOS="550" VPOS="737" WIDTH="1"/>
+            <String ID="L0011_W03" CONTENT="3." HPOS="551" VPOS="769" WIDTH="71" HEIGHT="49"/>
+            <SP HPOS="622" VPOS="769" WIDTH="2"/>
+            <String ID="L0011_W04" CONTENT="Jſt" HPOS="624" VPOS="768" WIDTH="71" HEIGHT="40"/>
+            <SP HPOS="695" VPOS="768" WIDTH="1"/>
+            <String ID="L0011_W05" CONTENT="zwar" HPOS="696" VPOS="778" WIDTH="101" HEIGHT="38"/>
+            <SP HPOS="797" VPOS="778" WIDTH="1"/>
+            <String ID="L0011_W06" CONTENT="Agricola" HPOS="798" VPOS="770" WIDTH="154" HEIGHT="47"/>
+            <SP HPOS="952" VPOS="770" WIDTH="14"/>
+            <String ID="L0011_W07" CONTENT="ungefehr" HPOS="966" VPOS="769" WIDTH="164" HEIGHT="47"/>
+            <SP HPOS="1130" VPOS="769" WIDTH="6"/>
+            <String ID="L0011_W08" CONTENT="14." HPOS="1136" VPOS="784" WIDTH="64" HEIGHT="37"/>
+            <SP HPOS="1200" VPOS="784" WIDTH="12"/>
+            <String ID="L0011_W09" CONTENT="Tage" HPOS="1212" VPOS="773" WIDTH="97" HEIGHT="49"/>
+            <SP HPOS="1309" VPOS="773" WIDTH="9"/>
+            <String ID="L0011_W10" CONTENT="bey" HPOS="1318" VPOS="772" WIDTH="61" HEIGHT="42"/>
+            <SP HPOS="1379" VPOS="772" WIDTH="4"/>
+            <String ID="L0011_W11" CONTENT="Hrn." HPOS="1383" VPOS="769" WIDTH="102" HEIGHT="50"/>
+            <SP HPOS="1485" VPOS="769" WIDTH="1"/>
+            <String ID="L0011_W12" CONTENT="Scabino" HPOS="1486" VPOS="770" WIDTH="146" HEIGHT="39"/>
+            <SP HPOS="1632" VPOS="770" WIDTH="4"/>
+            <String ID="L0011_W13" CONTENT="von" HPOS="1636" VPOS="784" WIDTH="65" HEIGHT="25"/>
+            <SP HPOS="1701" VPOS="784" WIDTH="13"/>
+            <String ID="L0011_W14" CONTENT="Fichard" HPOS="1714" VPOS="773" WIDTH="127" HEIGHT="39"/>
+            <SP HPOS="1841" VPOS="773" WIDTH="4"/>
+            <String ID="L0011_W15" CONTENT="in" HPOS="1845" VPOS="788" WIDTH="49" HEIGHT="30"/>
+            <SP HPOS="1894" VPOS="788" WIDTH="8"/>
+            <String ID="L0011_W16" CONTENT="Dienſten" HPOS="1902" VPOS="777" WIDTH="166" HEIGHT="51"/>
+            <SP HPOS="2068" VPOS="777" WIDTH="3"/>
+            <String ID="L0011_W17" CONTENT="gewe⸗" HPOS="2071" VPOS="792" WIDTH="121" HEIGHT="38"/>
+          </TextLine>
+          <TextLine ID="L0012" HPOS="273" VPOS="802" WIDTH="1918" HEIGHT="78">
+            <String ID="L0012_W01" CONTENT="ſen," HPOS="273" VPOS="818" WIDTH="72" HEIGHT="49"/>
+            <SP HPOS="345" VPOS="818" WIDTH="1"/>
+            <String ID="L0012_W02" CONTENT="wegen" HPOS="346" VPOS="800" WIDTH="114" HEIGHT="62"/>
+            <SP HPOS="460" VPOS="800" WIDTH="1"/>
+            <String ID="L0012_W03" CONTENT="zugeſtoßener" HPOS="461" VPOS="800" WIDTH="234" HEIGHT="74"/>
+            <SP HPOS="695" VPOS="800" WIDTH="1"/>
+            <String ID="L0012_W04" CONTENT="Kranckheit" HPOS="696" VPOS="818" WIDTH="209" HEIGHT="50"/>
+            <SP HPOS="905" VPOS="818" WIDTH="1"/>
+            <String ID="L0012_W05" CONTENT="aber," HPOS="906" VPOS="820" WIDTH="108" HEIGHT="44"/>
+            <SP HPOS="1014" VPOS="820" WIDTH="1"/>
+            <String ID="L0012_W06" CONTENT="weggekommen;" HPOS="1015" VPOS="804" WIDTH="306" HEIGHT="82"/>
+            <SP HPOS="1321" VPOS="804" WIDTH="1"/>
+            <String ID="L0012_W07" CONTENT="Und" HPOS="1322" VPOS="822" WIDTH="85" HEIGHT="41"/>
+            <SP HPOS="1407" VPOS="822" WIDTH="1"/>
+            <String ID="L0012_W08" CONTENT="wird" HPOS="1408" VPOS="819" WIDTH="100" HEIGHT="44"/>
+            <SP HPOS="1508" VPOS="819" WIDTH="1"/>
+            <String ID="L0012_W09" CONTENT="Hr." HPOS="1509" VPOS="819" WIDTH="75" HEIGHT="50"/>
+            <SP HPOS="1584" VPOS="819" WIDTH="5"/>
+            <String ID="L0012_W10" CONTENT="Gegner" HPOS="1589" VPOS="823" WIDTH="143" HEIGHT="49"/>
+            <SP HPOS="1732" VPOS="823" WIDTH="2"/>
+            <String ID="L0012_W11" CONTENT="Jhr" HPOS="1734" VPOS="820" WIDTH="81" HEIGHT="58"/>
+            <SP HPOS="1815" VPOS="820" WIDTH="4"/>
+            <String ID="L0012_W12" CONTENT="mit" HPOS="1819" VPOS="827" WIDTH="74" HEIGHT="59"/>
+            <SP HPOS="1893" VPOS="827" WIDTH="5"/>
+            <String ID="L0012_W13" CONTENT="keinem" HPOS="1898" VPOS="811" WIDTH="129" HEIGHT="60"/>
+            <SP HPOS="2027" VPOS="811" WIDTH="3"/>
+            <String ID="L0012_W14" CONTENT="Jota" HPOS="2030" VPOS="812" WIDTH="95" HEIGHT="72"/>
+            <SP HPOS="2125" VPOS="812" WIDTH="1"/>
+            <String ID="L0012_W15" CONTENT="be⸗" HPOS="2126" VPOS="831" WIDTH="65" HEIGHT="42"/>
+          </TextLine>
+          <TextLine ID="L0013" HPOS="274" VPOS="855" WIDTH="1916" HEIGHT="95">
+            <String ID="L0013_W01" CONTENT="weiſen" HPOS="274" VPOS="867" WIDTH="121" HEIGHT="83"/>
+            <SP HPOS="395" VPOS="867" WIDTH="5"/>
+            <String ID="L0013_W02" CONTENT="koͤnnen," HPOS="400" VPOS="869" WIDTH="147" HEIGHT="81"/>
+            <SP HPOS="547" VPOS="869" WIDTH="6"/>
+            <String ID="L0013_W03" CONTENT="daß" HPOS="553" VPOS="869" WIDTH="70" HEIGHT="81"/>
+            <SP HPOS="623" VPOS="869" WIDTH="1"/>
+            <String ID="L0013_W04" CONTENT="ſie" HPOS="624" VPOS="869" WIDTH="57" HEIGHT="81"/>
+            <SP HPOS="681" VPOS="869" WIDTH="1"/>
+            <String ID="L0013_W05" CONTENT="dorten" HPOS="682" VPOS="874" WIDTH="124" HEIGHT="76"/>
+            <SP HPOS="806" VPOS="874" WIDTH="1"/>
+            <String ID="L0013_W06" CONTENT="etwas" HPOS="807" VPOS="875" WIDTH="126" HEIGHT="75"/>
+            <SP HPOS="933" VPOS="875" WIDTH="1"/>
+            <String ID="L0013_W07" CONTENT="veruntreuet" HPOS="934" VPOS="873" WIDTH="215" HEIGHT="40"/>
+            <SP HPOS="1149" VPOS="873" WIDTH="5"/>
+            <String ID="L0013_W08" CONTENT="oder" HPOS="1154" VPOS="875" WIDTH="81" HEIGHT="39"/>
+            <SP HPOS="1235" VPOS="875" WIDTH="2"/>
+            <String ID="L0013_W09" CONTENT="boͤſes" HPOS="1237" VPOS="854" WIDTH="101" HEIGHT="70"/>
+            <SP HPOS="1338" VPOS="854" WIDTH="1"/>
+            <String ID="L0013_W10" CONTENT="begangen;" HPOS="1339" VPOS="874" WIDTH="217" HEIGHT="47"/>
+            <SP HPOS="1556" VPOS="874" WIDTH="1"/>
+            <String ID="L0013_W11" CONTENT="Und" HPOS="1557" VPOS="871" WIDTH="75" HEIGHT="44"/>
+            <SP HPOS="1632" VPOS="871" WIDTH="1"/>
+            <String ID="L0013_W12" CONTENT="eben" HPOS="1633" VPOS="875" WIDTH="90" HEIGHT="41"/>
+            <SP HPOS="1723" VPOS="875" WIDTH="10"/>
+            <String ID="L0013_W13" CONTENT="ſo" HPOS="1733" VPOS="859" WIDTH="34" HEIGHT="65"/>
+            <SP HPOS="1767" VPOS="859" WIDTH="6"/>
+            <String ID="L0013_W14" CONTENT="verhaͤlt" HPOS="1773" VPOS="873" WIDTH="138" HEIGHT="50"/>
+            <SP HPOS="1911" VPOS="873" WIDTH="1"/>
+            <String ID="L0013_W15" CONTENT="es" HPOS="1912" VPOS="884" WIDTH="50" HEIGHT="35"/>
+            <SP HPOS="1962" VPOS="884" WIDTH="1"/>
+            <String ID="L0013_W16" CONTENT="ſich" HPOS="1963" VPOS="879" WIDTH="70" HEIGHT="48"/>
+            <SP HPOS="2033" VPOS="879" WIDTH="1"/>
+            <String ID="L0013_W17" CONTENT="mit" HPOS="2034" VPOS="854" WIDTH="73" HEIGHT="68"/>
+            <SP HPOS="2107" VPOS="854" WIDTH="1"/>
+            <String ID="L0013_W18" CONTENT="Jh⸗" HPOS="2108" VPOS="854" WIDTH="82" HEIGHT="79"/>
+          </TextLine>
+          <TextLine ID="L0014" HPOS="273" VPOS="904" WIDTH="663" HEIGHT="68">
+            <String ID="L0014_W01" CONTENT="rem" HPOS="273" VPOS="926" WIDTH="64" HEIGHT="31"/>
+            <SP HPOS="337" VPOS="926" WIDTH="1"/>
+            <String ID="L0014_W02" CONTENT="Dienſt" HPOS="338" VPOS="920" WIDTH="140" HEIGHT="52"/>
+            <SP HPOS="478" VPOS="920" WIDTH="5"/>
+            <String ID="L0014_W03" CONTENT="bey" HPOS="483" VPOS="904" WIDTH="62" HEIGHT="68"/>
+            <SP HPOS="545" VPOS="904" WIDTH="10"/>
+            <String ID="L0014_W04" CONTENT="Hrn." HPOS="555" VPOS="923" WIDTH="102" HEIGHT="48"/>
+            <SP HPOS="657" VPOS="923" WIDTH="7"/>
+            <String ID="L0014_W05" CONTENT="Syndico" HPOS="664" VPOS="923" WIDTH="141" HEIGHT="44"/>
+            <SP HPOS="805" VPOS="923" WIDTH="10"/>
+            <String ID="L0014_W06" CONTENT="Lucius" HPOS="815" VPOS="922" WIDTH="121" HEIGHT="33"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B006" TAGREFS="ROLE_paragraph" HPOS="268" VPOS="949" WIDTH="1923" HEIGHT="291">
+          <TextLine ID="L0015" HPOS="462" VPOS="949" WIDTH="1729" HEIGHT="96">
+            <String ID="L0015_W01" CONTENT="Wobey" HPOS="453" VPOS="949" WIDTH="151" HEIGHT="87"/>
+            <SP HPOS="604" VPOS="949" WIDTH="6"/>
+            <String ID="L0015_W02" CONTENT="es" HPOS="610" VPOS="995" WIDTH="37" HEIGHT="33"/>
+            <SP HPOS="647" VPOS="995" WIDTH="6"/>
+            <String ID="L0015_W03" CONTENT="wieder" HPOS="653" VPOS="991" WIDTH="140" HEIGHT="37"/>
+            <SP HPOS="793" VPOS="991" WIDTH="1"/>
+            <String ID="L0015_W04" CONTENT="eine" HPOS="794" VPOS="999" WIDTH="82" HEIGHT="28"/>
+            <SP HPOS="876" VPOS="999" WIDTH="3"/>
+            <String ID="L0015_W05" CONTENT="Senckenbergiſche" HPOS="879" VPOS="986" WIDTH="322" HEIGHT="57"/>
+            <SP HPOS="1201" VPOS="986" WIDTH="15"/>
+            <String ID="L0015_W06" CONTENT="hoͤlliſche" HPOS="1216" VPOS="993" WIDTH="158" HEIGHT="41"/>
+            <SP HPOS="1374" VPOS="993" WIDTH="7"/>
+            <String ID="L0015_W07" CONTENT="Luͤgen" HPOS="1381" VPOS="988" WIDTH="129" HEIGHT="55"/>
+            <SP HPOS="1510" VPOS="988" WIDTH="16"/>
+            <String ID="L0015_W08" CONTENT="iſt:" HPOS="1526" VPOS="989" WIDTH="54" HEIGHT="51"/>
+            <SP HPOS="1580" VPOS="989" WIDTH="19"/>
+            <String ID="L0015_W09" CONTENT="Daß" HPOS="1599" VPOS="991" WIDTH="98" HEIGHT="48"/>
+            <SP HPOS="1697" VPOS="991" WIDTH="4"/>
+            <String ID="L0015_W10" CONTENT="Agricola" HPOS="1701" VPOS="993" WIDTH="153" HEIGHT="51"/>
+            <SP HPOS="1854" VPOS="993" WIDTH="10"/>
+            <String ID="L0015_W11" CONTENT="in" HPOS="1864" VPOS="992" WIDTH="35" HEIGHT="41"/>
+            <SP HPOS="1899" VPOS="992" WIDTH="4"/>
+            <String ID="L0015_W12" CONTENT="ſolchem" HPOS="1903" VPOS="993" WIDTH="141" HEIGHT="50"/>
+            <SP HPOS="2044" VPOS="993" WIDTH="1"/>
+            <String ID="L0015_W13" CONTENT="Dienſt" HPOS="2045" VPOS="963" WIDTH="146" HEIGHT="77"/>
+          </TextLine>
+          <TextLine ID="L0016" HPOS="272" VPOS="1025" WIDTH="1912" HEIGHT="67">
+            <String ID="L0016_W01" CONTENT="ſich" HPOS="272" VPOS="1029" WIDTH="59" HEIGHT="49"/>
+            <SP HPOS="331" VPOS="1029" WIDTH="13"/>
+            <String ID="L0016_W02" CONTENT="ſolle" HPOS="344" VPOS="1032" WIDTH="81" HEIGHT="50"/>
+            <SP HPOS="425" VPOS="1032" WIDTH="9"/>
+            <String ID="L0016_W03" CONTENT="beruͤhmet" HPOS="434" VPOS="1020" WIDTH="166" HEIGHT="68"/>
+            <SP HPOS="600" VPOS="1020" WIDTH="9"/>
+            <String ID="L0016_W04" CONTENT="haben," HPOS="609" VPOS="1040" WIDTH="126" HEIGHT="47"/>
+            <SP HPOS="735" VPOS="1040" WIDTH="1"/>
+            <String ID="L0016_W05" CONTENT="als" HPOS="736" VPOS="1040" WIDTH="61" HEIGHT="37"/>
+            <SP HPOS="797" VPOS="1040" WIDTH="10"/>
+            <String ID="L0016_W06" CONTENT="ob" HPOS="807" VPOS="1038" WIDTH="49" HEIGHT="38"/>
+            <SP HPOS="856" VPOS="1038" WIDTH="5"/>
+            <String ID="L0016_W07" CONTENT="der" HPOS="861" VPOS="1042" WIDTH="71" HEIGHT="36"/>
+            <SP HPOS="932" VPOS="1042" WIDTH="5"/>
+            <String ID="L0016_W08" CONTENT="Hr." HPOS="937" VPOS="1039" WIDTH="79" HEIGHT="49"/>
+            <SP HPOS="1016" VPOS="1039" WIDTH="1"/>
+            <String ID="L0016_W09" CONTENT="Schoͤff" HPOS="1017" VPOS="1024" WIDTH="148" HEIGHT="67"/>
+            <SP HPOS="1165" VPOS="1024" WIDTH="1"/>
+            <String ID="L0016_W10" CONTENT="von" HPOS="1166" VPOS="1025" WIDTH="73" HEIGHT="56"/>
+            <SP HPOS="1239" VPOS="1025" WIDTH="3"/>
+            <String ID="L0016_W11" CONTENT="Fichard" HPOS="1242" VPOS="1025" WIDTH="150" HEIGHT="56"/>
+            <SP HPOS="1392" VPOS="1025" WIDTH="1"/>
+            <String ID="L0016_W12" CONTENT="Jhr" HPOS="1393" VPOS="1026" WIDTH="89" HEIGHT="66"/>
+            <SP HPOS="1482" VPOS="1026" WIDTH="5"/>
+            <String ID="L0016_W13" CONTENT="nachgeſtanden," HPOS="1487" VPOS="1027" WIDTH="281" HEIGHT="64"/>
+            <SP HPOS="1768" VPOS="1027" WIDTH="3"/>
+            <String ID="L0016_W14" CONTENT="und" HPOS="1771" VPOS="1048" WIDTH="80" HEIGHT="37"/>
+            <SP HPOS="1851" VPOS="1048" WIDTH="12"/>
+            <String ID="L0016_W15" CONTENT="hat" HPOS="1863" VPOS="1029" WIDTH="65" HEIGHT="65"/>
+            <SP HPOS="1928" VPOS="1029" WIDTH="1"/>
+            <String ID="L0016_W16" CONTENT="Er" HPOS="1929" VPOS="1044" WIDTH="63" HEIGHT="43"/>
+            <SP HPOS="1992" VPOS="1044" WIDTH="3"/>
+            <String ID="L0016_W17" CONTENT="durch" HPOS="1995" VPOS="1048" WIDTH="113" HEIGHT="44"/>
+            <SP HPOS="2108" VPOS="1048" WIDTH="1"/>
+            <String ID="L0016_W18" CONTENT="die⸗" HPOS="2109" VPOS="1049" WIDTH="75" HEIGHT="38"/>
+          </TextLine>
+          <TextLine ID="L0017" HPOS="271" VPOS="1070" WIDTH="1909" HEIGHT="73">
+            <String ID="L0017_W01" CONTENT="ſes" HPOS="271" VPOS="1079" WIDTH="51" HEIGHT="49"/>
+            <SP HPOS="322" VPOS="1079" WIDTH="1"/>
+            <String ID="L0017_W02" CONTENT="putidum" HPOS="323" VPOS="1087" WIDTH="154" HEIGHT="38"/>
+            <SP HPOS="477" VPOS="1087" WIDTH="1"/>
+            <String ID="L0017_W03" CONTENT="Mendacium" HPOS="478" VPOS="1071" WIDTH="212" HEIGHT="58"/>
+            <SP HPOS="690" VPOS="1071" WIDTH="1"/>
+            <String ID="L0017_W04" CONTENT="nur" HPOS="691" VPOS="1098" WIDTH="87" HEIGHT="28"/>
+            <SP HPOS="778" VPOS="1098" WIDTH="1"/>
+            <String ID="L0017_W05" CONTENT="den" HPOS="779" VPOS="1092" WIDTH="71" HEIGHT="49"/>
+            <SP HPOS="850" VPOS="1092" WIDTH="10"/>
+            <String ID="L0017_W06" CONTENT="Hrn." HPOS="860" VPOS="1074" WIDTH="98" HEIGHT="63"/>
+            <SP HPOS="958" VPOS="1074" WIDTH="1"/>
+            <String ID="L0017_W07" CONTENT="Schoͤffen" HPOS="959" VPOS="1075" WIDTH="175" HEIGHT="63"/>
+            <SP HPOS="1134" VPOS="1075" WIDTH="4"/>
+            <String ID="L0017_W08" CONTENT="Jhr" HPOS="1138" VPOS="1076" WIDTH="89" HEIGHT="65"/>
+            <SP HPOS="1227" VPOS="1076" WIDTH="5"/>
+            <String ID="L0017_W09" CONTENT="zum" HPOS="1232" VPOS="1101" WIDTH="70" HEIGHT="39"/>
+            <SP HPOS="1302" VPOS="1101" WIDTH="1"/>
+            <String ID="L0017_W10" CONTENT="Feind" HPOS="1303" VPOS="1079" WIDTH="123" HEIGHT="65"/>
+            <SP HPOS="1426" VPOS="1079" WIDTH="1"/>
+            <String ID="L0017_W11" CONTENT="zu" HPOS="1427" VPOS="1079" WIDTH="51" HEIGHT="60"/>
+            <SP HPOS="1478" VPOS="1079" WIDTH="10"/>
+            <String ID="L0017_W12" CONTENT="machen" HPOS="1488" VPOS="1081" WIDTH="135" HEIGHT="56"/>
+            <SP HPOS="1623" VPOS="1081" WIDTH="2"/>
+            <String ID="L0017_W13" CONTENT="geſucht;" HPOS="1625" VPOS="1090" WIDTH="187" HEIGHT="61"/>
+            <SP HPOS="1812" VPOS="1090" WIDTH="2"/>
+            <String ID="L0017_W14" CONTENT="Gleichermaſſen" HPOS="1814" VPOS="1083" WIDTH="282" HEIGHT="61"/>
+            <SP HPOS="2096" VPOS="1083" WIDTH="1"/>
+            <String ID="L0017_W15" CONTENT="ſind" HPOS="2097" VPOS="1084" WIDTH="83" HEIGHT="58"/>
+          </TextLine>
+          <TextLine ID="L0018" HPOS="269" VPOS="1129" WIDTH="1918" HEIGHT="66">
+            <String ID="L0018_W01" CONTENT="es" HPOS="269" VPOS="1140" WIDTH="37" HEIGHT="29"/>
+            <SP HPOS="306" VPOS="1140" WIDTH="7"/>
+            <String ID="L0018_W02" CONTENT="Sathaniſche" HPOS="313" VPOS="1132" WIDTH="259" HEIGHT="56"/>
+            <SP HPOS="572" VPOS="1132" WIDTH="3"/>
+            <String ID="L0018_W03" CONTENT="Luͤgen:" HPOS="575" VPOS="1134" WIDTH="163" HEIGHT="54"/>
+            <SP HPOS="738" VPOS="1134" WIDTH="1"/>
+            <String ID="L0018_W04" CONTENT="Daß" HPOS="739" VPOS="1133" WIDTH="102" HEIGHT="49"/>
+            <SP HPOS="841" VPOS="1133" WIDTH="2"/>
+            <String ID="L0018_W05" CONTENT="Agricola" HPOS="843" VPOS="1137" WIDTH="161" HEIGHT="48"/>
+            <SP HPOS="1004" VPOS="1137" WIDTH="10"/>
+            <String ID="L0018_W06" CONTENT="in" HPOS="1014" VPOS="1147" WIDTH="41" HEIGHT="30"/>
+            <SP HPOS="1055" VPOS="1147" WIDTH="1"/>
+            <String ID="L0018_W07" CONTENT="Hrn." HPOS="1056" VPOS="1141" WIDTH="104" HEIGHT="47"/>
+            <SP HPOS="1160" VPOS="1141" WIDTH="1"/>
+            <String ID="L0018_W08" CONTENT="Syndici" HPOS="1161" VPOS="1132" WIDTH="134" HEIGHT="55"/>
+            <SP HPOS="1295" VPOS="1132" WIDTH="3"/>
+            <String ID="L0018_W09" CONTENT="Lucius" HPOS="1298" VPOS="1132" WIDTH="118" HEIGHT="49"/>
+            <SP HPOS="1416" VPOS="1132" WIDTH="6"/>
+            <String ID="L0018_W10" CONTENT="Hauß" HPOS="1422" VPOS="1140" WIDTH="112" HEIGHT="54"/>
+            <SP HPOS="1534" VPOS="1140" WIDTH="2"/>
+            <String ID="L0018_W11" CONTENT="den" HPOS="1536" VPOS="1144" WIDTH="73" HEIGHT="38"/>
+            <SP HPOS="1609" VPOS="1144" WIDTH="4"/>
+            <String ID="L0018_W12" CONTENT="Schluͤßel" HPOS="1613" VPOS="1137" WIDTH="179" HEIGHT="51"/>
+            <SP HPOS="1792" VPOS="1137" WIDTH="5"/>
+            <String ID="L0018_W13" CONTENT="zum" HPOS="1797" VPOS="1152" WIDTH="68" HEIGHT="38"/>
+            <SP HPOS="1865" VPOS="1152" WIDTH="1"/>
+            <String ID="L0018_W14" CONTENT="Weinkeller" HPOS="1866" VPOS="1144" WIDTH="215" HEIGHT="47"/>
+            <SP HPOS="2081" VPOS="1144" WIDTH="1"/>
+            <String ID="L0018_W15" CONTENT="nach⸗" HPOS="2082" VPOS="1144" WIDTH="105" HEIGHT="51"/>
+          </TextLine>
+          <TextLine ID="L0019" HPOS="268" VPOS="1168" WIDTH="1517" HEIGHT="72">
+            <String ID="L0019_W01" CONTENT="machen" HPOS="268" VPOS="1184" WIDTH="136" HEIGHT="48"/>
+            <SP HPOS="404" VPOS="1184" WIDTH="1"/>
+            <String ID="L0019_W02" CONTENT="laßen," HPOS="405" VPOS="1167" WIDTH="127" HEIGHT="67"/>
+            <SP HPOS="532" VPOS="1167" WIDTH="1"/>
+            <String ID="L0019_W03" CONTENT="Jhn" HPOS="533" VPOS="1184" WIDTH="93" HEIGHT="50"/>
+            <SP HPOS="626" VPOS="1184" WIDTH="1"/>
+            <String ID="L0019_W04" CONTENT="in" HPOS="627" VPOS="1169" WIDTH="56" HEIGHT="58"/>
+            <SP HPOS="683" VPOS="1169" WIDTH="1"/>
+            <String ID="L0019_W05" CONTENT="ihren" HPOS="684" VPOS="1186" WIDTH="105" HEIGHT="50"/>
+            <SP HPOS="789" VPOS="1186" WIDTH="5"/>
+            <String ID="L0019_W06" CONTENT="Rechnungen" HPOS="794" VPOS="1171" WIDTH="235" HEIGHT="64"/>
+            <SP HPOS="1029" VPOS="1171" WIDTH="3"/>
+            <String ID="L0019_W07" CONTENT="betrogen" HPOS="1032" VPOS="1173" WIDTH="168" HEIGHT="65"/>
+            <SP HPOS="1200" VPOS="1173" WIDTH="8"/>
+            <String ID="L0019_W08" CONTENT="und" HPOS="1208" VPOS="1194" WIDTH="77" HEIGHT="38"/>
+            <SP HPOS="1285" VPOS="1194" WIDTH="1"/>
+            <String ID="L0019_W09" CONTENT="Unordnungen" HPOS="1286" VPOS="1175" WIDTH="260" HEIGHT="65"/>
+            <SP HPOS="1546" VPOS="1175" WIDTH="3"/>
+            <String ID="L0019_W10" CONTENT="angefangen." HPOS="1549" VPOS="1189" WIDTH="236" HEIGHT="51"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B007" TAGREFS="ROLE_paragraph" HPOS="262" VPOS="1233" WIDTH="1928" HEIGHT="216">
+          <TextLine ID="L0020" HPOS="366" VPOS="1233" WIDTH="1824" HEIGHT="77">
+            <String ID="L0020_W01" CONTENT="Quoad" HPOS="366" VPOS="1256" WIDTH="119" HEIGHT="43"/>
+            <SP HPOS="485" VPOS="1256" WIDTH="16"/>
+            <String ID="L0020_W02" CONTENT="§." HPOS="501" VPOS="1256" WIDTH="28" HEIGHT="44"/>
+            <SP HPOS="529" VPOS="1256" WIDTH="16"/>
+            <String ID="L0020_W03" CONTENT="4." HPOS="545" VPOS="1269" WIDTH="49" HEIGHT="30"/>
+            <SP HPOS="594" VPOS="1269" WIDTH="12"/>
+            <String ID="L0020_W04" CONTENT="Wird" HPOS="606" VPOS="1254" WIDTH="120" HEIGHT="44"/>
+            <SP HPOS="726" VPOS="1254" WIDTH="16"/>
+            <String ID="L0020_W05" CONTENT="utiliter" HPOS="742" VPOS="1255" WIDTH="117" HEIGHT="36"/>
+            <SP HPOS="859" VPOS="1255" WIDTH="21"/>
+            <String ID="L0020_W06" CONTENT="acceptiret:" HPOS="880" VPOS="1255" WIDTH="190" HEIGHT="45"/>
+            <SP HPOS="1070" VPOS="1255" WIDTH="32"/>
+            <String ID="L0020_W07" CONTENT="Daß" HPOS="1102" VPOS="1256" WIDTH="89" HEIGHT="47"/>
+            <SP HPOS="1191" VPOS="1256" WIDTH="17"/>
+            <String ID="L0020_W08" CONTENT="Hr." HPOS="1208" VPOS="1257" WIDTH="75" HEIGHT="49"/>
+            <SP HPOS="1283" VPOS="1257" WIDTH="15"/>
+            <String ID="L0020_W09" CONTENT="Doctor" HPOS="1298" VPOS="1262" WIDTH="126" HEIGHT="36"/>
+            <SP HPOS="1424" VPOS="1262" WIDTH="27"/>
+            <String ID="L0020_W10" CONTENT="Senckenberg" HPOS="1451" VPOS="1257" WIDTH="233" HEIGHT="47"/>
+            <SP HPOS="1684" VPOS="1257" WIDTH="7"/>
+            <String ID="L0020_W11" CONTENT="der" HPOS="1691" VPOS="1261" WIDTH="67" HEIGHT="36"/>
+            <SP HPOS="1758" VPOS="1261" WIDTH="20"/>
+            <String ID="L0020_W12" CONTENT="Medicus," HPOS="1778" VPOS="1260" WIDTH="166" HEIGHT="43"/>
+            <SP HPOS="1944" VPOS="1260" WIDTH="8"/>
+            <String ID="L0020_W13" CONTENT="die" HPOS="1952" VPOS="1264" WIDTH="67" HEIGHT="38"/>
+            <SP HPOS="2019" VPOS="1264" WIDTH="15"/>
+            <String ID="L0020_W14" CONTENT="Agricola" HPOS="2034" VPOS="1265" WIDTH="156" HEIGHT="47"/>
+          </TextLine>
+          <TextLine ID="L0021" HPOS="262" VPOS="1280" WIDTH="1925" HEIGHT="87">
+            <String ID="L0021_W01" CONTENT="ſelbſt" HPOS="262" VPOS="1298" WIDTH="96" HEIGHT="48"/>
+            <SP HPOS="358" VPOS="1298" WIDTH="7"/>
+            <String ID="L0021_W02" CONTENT="an" HPOS="365" VPOS="1280" WIDTH="53" HEIGHT="56"/>
+            <SP HPOS="418" VPOS="1280" WIDTH="1"/>
+            <String ID="L0021_W03" CONTENT="ſeinen" HPOS="419" VPOS="1280" WIDTH="122" HEIGHT="79"/>
+            <SP HPOS="541" VPOS="1280" WIDTH="4"/>
+            <String ID="L0021_W04" CONTENT="Bruder" HPOS="545" VPOS="1282" WIDTH="164" HEIGHT="64"/>
+            <SP HPOS="709" VPOS="1282" WIDTH="1"/>
+            <String ID="L0021_W05" CONTENT="den" HPOS="710" VPOS="1307" WIDTH="78" HEIGHT="54"/>
+            <SP HPOS="788" VPOS="1307" WIDTH="1"/>
+            <String ID="L0021_W06" CONTENT="Hrn." HPOS="789" VPOS="1303" WIDTH="120" HEIGHT="55"/>
+            <SP HPOS="909" VPOS="1303" WIDTH="1"/>
+            <String ID="L0021_W07" CONTENT="Hofrath" HPOS="910" VPOS="1287" WIDTH="159" HEIGHT="64"/>
+            <SP HPOS="1069" VPOS="1287" WIDTH="10"/>
+            <String ID="L0021_W08" CONTENT="recommendiret;" HPOS="1079" VPOS="1287" WIDTH="306" HEIGHT="78"/>
+            <SP HPOS="1385" VPOS="1287" WIDTH="1"/>
+            <String ID="L0021_W09" CONTENT="Welches" HPOS="1386" VPOS="1309" WIDTH="177" HEIGHT="44"/>
+            <SP HPOS="1563" VPOS="1309" WIDTH="6"/>
+            <String ID="L0021_W10" CONTENT="ein" HPOS="1569" VPOS="1310" WIDTH="65" HEIGHT="41"/>
+            <SP HPOS="1634" VPOS="1310" WIDTH="1"/>
+            <String ID="L0021_W11" CONTENT="evidenter" HPOS="1635" VPOS="1306" WIDTH="177" HEIGHT="41"/>
+            <SP HPOS="1812" VPOS="1306" WIDTH="3"/>
+            <String ID="L0021_W12" CONTENT="Beweiß," HPOS="1815" VPOS="1307" WIDTH="178" HEIGHT="50"/>
+            <SP HPOS="1993" VPOS="1307" WIDTH="1"/>
+            <String ID="L0021_W13" CONTENT="daß" HPOS="1994" VPOS="1295" WIDTH="73" HEIGHT="64"/>
+            <SP HPOS="2067" VPOS="1295" WIDTH="1"/>
+            <String ID="L0021_W14" CONTENT="ſie" HPOS="2068" VPOS="1296" WIDTH="48" HEIGHT="64"/>
+            <SP HPOS="2116" VPOS="1296" WIDTH="1"/>
+            <String ID="L0021_W15" CONTENT="ſich" HPOS="2117" VPOS="1314" WIDTH="73" HEIGHT="49"/>
+          </TextLine>
+          <TextLine ID="L0022" HPOS="263" VPOS="1345" WIDTH="1925" HEIGHT="64">
+            <String ID="L0022_W01" CONTENT="wohl" HPOS="263" VPOS="1347" WIDTH="92" HEIGHT="39"/>
+            <SP HPOS="355" VPOS="1347" WIDTH="9"/>
+            <String ID="L0022_W02" CONTENT="aufgefuͤhret," HPOS="364" VPOS="1345" WIDTH="233" HEIGHT="49"/>
+            <SP HPOS="597" VPOS="1345" WIDTH="5"/>
+            <String ID="L0022_W03" CONTENT="ſonſt" HPOS="602" VPOS="1351" WIDTH="94" HEIGHT="50"/>
+            <SP HPOS="696" VPOS="1351" WIDTH="1"/>
+            <String ID="L0022_W04" CONTENT="wuͤrde" HPOS="697" VPOS="1347" WIDTH="127" HEIGHT="44"/>
+            <SP HPOS="824" VPOS="1347" WIDTH="1"/>
+            <String ID="L0022_W05" CONTENT="Er" HPOS="825" VPOS="1351" WIDTH="62" HEIGHT="42"/>
+            <SP HPOS="887" VPOS="1351" WIDTH="11"/>
+            <String ID="L0022_W06" CONTENT="unchriſtlich" HPOS="898" VPOS="1352" WIDTH="204" HEIGHT="52"/>
+            <SP HPOS="1102" VPOS="1352" WIDTH="1"/>
+            <String ID="L0022_W07" CONTENT="und" HPOS="1103" VPOS="1359" WIDTH="83" HEIGHT="39"/>
+            <SP HPOS="1186" VPOS="1359" WIDTH="6"/>
+            <String ID="L0022_W08" CONTENT="falſch" HPOS="1192" VPOS="1356" WIDTH="102" HEIGHT="53"/>
+            <SP HPOS="1294" VPOS="1356" WIDTH="2"/>
+            <String ID="L0022_W09" CONTENT="gehandelt" HPOS="1296" VPOS="1359" WIDTH="190" HEIGHT="49"/>
+            <SP HPOS="1486" VPOS="1359" WIDTH="3"/>
+            <String ID="L0022_W10" CONTENT="haben," HPOS="1489" VPOS="1360" WIDTH="127" HEIGHT="50"/>
+            <SP HPOS="1616" VPOS="1360" WIDTH="5"/>
+            <String ID="L0022_W11" CONTENT="ſeinen" HPOS="1621" VPOS="1358" WIDTH="126" HEIGHT="51"/>
+            <SP HPOS="1747" VPOS="1358" WIDTH="4"/>
+            <String ID="L0022_W12" CONTENT="eigenen" HPOS="1751" VPOS="1358" WIDTH="143" HEIGHT="48"/>
+            <SP HPOS="1894" VPOS="1358" WIDTH="1"/>
+            <String ID="L0022_W13" CONTENT="Bruder" HPOS="1895" VPOS="1359" WIDTH="155" HEIGHT="47"/>
+            <SP HPOS="2050" VPOS="1359" WIDTH="1"/>
+            <String ID="L0022_W14" CONTENT="mit" HPOS="2051" VPOS="1363" WIDTH="79" HEIGHT="39"/>
+            <SP HPOS="2130" VPOS="1363" WIDTH="5"/>
+            <String ID="L0022_W15" CONTENT="ei⸗" HPOS="2135" VPOS="1363" WIDTH="53" HEIGHT="41"/>
+          </TextLine>
+          <TextLine ID="L0023" HPOS="263" VPOS="1397" WIDTH="757" HEIGHT="52">
+            <String ID="L0023_W01" CONTENT="ner" HPOS="263" VPOS="1406" WIDTH="59" HEIGHT="30"/>
+            <SP HPOS="322" VPOS="1406" WIDTH="5"/>
+            <String ID="L0023_W02" CONTENT="liederlichen" HPOS="327" VPOS="1397" WIDTH="202" HEIGHT="43"/>
+            <SP HPOS="529" VPOS="1397" WIDTH="8"/>
+            <String ID="L0023_W03" CONTENT="Haußhaͤlterin" HPOS="537" VPOS="1398" WIDTH="250" HEIGHT="49"/>
+            <SP HPOS="787" VPOS="1398" WIDTH="15"/>
+            <String ID="L0023_W04" CONTENT="zu" HPOS="802" VPOS="1409" WIDTH="35" HEIGHT="37"/>
+            <SP HPOS="837" VPOS="1409" WIDTH="7"/>
+            <String ID="L0023_W05" CONTENT="betruͤgen." HPOS="844" VPOS="1399" WIDTH="176" HEIGHT="49"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B008" TAGREFS="ROLE_paragraph" HPOS="258" VPOS="1456" WIDTH="1932" HEIGHT="356">
+          <TextLine ID="L0024" HPOS="365" VPOS="1456" WIDTH="1825" HEIGHT="83">
+            <String ID="L0024_W01" CONTENT="Quoad" HPOS="365" VPOS="1464" WIDTH="117" HEIGHT="48"/>
+            <SP HPOS="482" VPOS="1464" WIDTH="1"/>
+            <String ID="L0024_W02" CONTENT="§." HPOS="483" VPOS="1465" WIDTH="48" HEIGHT="45"/>
+            <SP HPOS="531" VPOS="1465" WIDTH="1"/>
+            <String ID="L0024_W03" CONTENT="5." HPOS="532" VPOS="1476" WIDTH="63" HEIGHT="30"/>
+            <SP HPOS="595" VPOS="1476" WIDTH="1"/>
+            <String ID="L0024_W04" CONTENT="Jſt" HPOS="596" VPOS="1465" WIDTH="91" HEIGHT="49"/>
+            <SP HPOS="687" VPOS="1465" WIDTH="1"/>
+            <String ID="L0024_W05" CONTENT="eine" HPOS="688" VPOS="1478" WIDTH="73" HEIGHT="30"/>
+            <SP HPOS="761" VPOS="1478" WIDTH="2"/>
+            <String ID="L0024_W06" CONTENT="abſcheuliche" HPOS="763" VPOS="1467" WIDTH="225" HEIGHT="51"/>
+            <SP HPOS="988" VPOS="1467" WIDTH="1"/>
+            <String ID="L0024_W07" CONTENT="Luͤge" HPOS="989" VPOS="1469" WIDTH="102" HEIGHT="56"/>
+            <SP HPOS="1091" VPOS="1469" WIDTH="9"/>
+            <String ID="L0024_W08" CONTENT="und" HPOS="1100" VPOS="1476" WIDTH="69" HEIGHT="39"/>
+            <SP HPOS="1169" VPOS="1476" WIDTH="9"/>
+            <String ID="L0024_W09" CONTENT="Calumnie," HPOS="1178" VPOS="1474" WIDTH="213" HEIGHT="43"/>
+            <SP HPOS="1391" VPOS="1474" WIDTH="6"/>
+            <String ID="L0024_W10" CONTENT="daß" HPOS="1397" VPOS="1475" WIDTH="70" HEIGHT="49"/>
+            <SP HPOS="1467" VPOS="1475" WIDTH="5"/>
+            <String ID="L0024_W11" CONTENT="Agricola" HPOS="1472" VPOS="1478" WIDTH="162" HEIGHT="52"/>
+            <SP HPOS="1634" VPOS="1478" WIDTH="1"/>
+            <String ID="L0024_W12" CONTENT="beſchuldiget" HPOS="1635" VPOS="1474" WIDTH="232" HEIGHT="55"/>
+            <SP HPOS="1867" VPOS="1474" WIDTH="6"/>
+            <String ID="L0024_W13" CONTENT="wird:" HPOS="1873" VPOS="1476" WIDTH="117" HEIGHT="43"/>
+            <SP HPOS="1990" VPOS="1476" WIDTH="1"/>
+            <String ID="L0024_W14" CONTENT="Sie" HPOS="1991" VPOS="1476" WIDTH="97" HEIGHT="49"/>
+            <SP HPOS="2088" VPOS="1476" WIDTH="2"/>
+            <String ID="L0024_W15" CONTENT="habe" HPOS="2090" VPOS="1481" WIDTH="100" HEIGHT="50"/>
+          </TextLine>
+          <TextLine ID="L0025" HPOS="264" VPOS="1499" WIDTH="1926" HEIGHT="84">
+            <String ID="L0025_W01" CONTENT="junge" HPOS="264" VPOS="1511" WIDTH="108" HEIGHT="48"/>
+            <SP HPOS="372" VPOS="1511" WIDTH="1"/>
+            <String ID="L0025_W02" CONTENT="und" HPOS="373" VPOS="1497" WIDTH="86" HEIGHT="56"/>
+            <SP HPOS="459" VPOS="1497" WIDTH="4"/>
+            <String ID="L0025_W03" CONTENT="wohlgeſtalte" HPOS="463" VPOS="1498" WIDTH="236" HEIGHT="73"/>
+            <SP HPOS="699" VPOS="1498" WIDTH="1"/>
+            <String ID="L0025_W04" CONTENT="Laquayen" HPOS="700" VPOS="1501" WIDTH="181" HEIGHT="75"/>
+            <SP HPOS="881" VPOS="1501" WIDTH="1"/>
+            <String ID="L0025_W05" CONTENT="mit" HPOS="882" VPOS="1503" WIDTH="84" HEIGHT="57"/>
+            <SP HPOS="966" VPOS="1503" WIDTH="4"/>
+            <String ID="L0025_W06" CONTENT="Wein" HPOS="970" VPOS="1503" WIDTH="116" HEIGHT="62"/>
+            <SP HPOS="1086" VPOS="1503" WIDTH="1"/>
+            <String ID="L0025_W07" CONTENT="aus" HPOS="1087" VPOS="1531" WIDTH="82" HEIGHT="34"/>
+            <SP HPOS="1169" VPOS="1531" WIDTH="10"/>
+            <String ID="L0025_W08" CONTENT="ſeinem" HPOS="1179" VPOS="1524" WIDTH="112" HEIGHT="52"/>
+            <SP HPOS="1291" VPOS="1524" WIDTH="1"/>
+            <String ID="L0025_W09" CONTENT="Keller" HPOS="1292" VPOS="1526" WIDTH="124" HEIGHT="42"/>
+            <SP HPOS="1416" VPOS="1526" WIDTH="1"/>
+            <String ID="L0025_W10" CONTENT="tractiret;" HPOS="1417" VPOS="1508" WIDTH="181" HEIGHT="65"/>
+            <SP HPOS="1598" VPOS="1508" WIDTH="1"/>
+            <String ID="L0025_W11" CONTENT="Und" HPOS="1599" VPOS="1510" WIDTH="94" HEIGHT="60"/>
+            <SP HPOS="1693" VPOS="1510" WIDTH="1"/>
+            <String ID="L0025_W12" CONTENT="was" HPOS="1694" VPOS="1511" WIDTH="91" HEIGHT="72"/>
+            <SP HPOS="1785" VPOS="1511" WIDTH="3"/>
+            <String ID="L0025_W13" CONTENT="das" HPOS="1788" VPOS="1512" WIDTH="68" HEIGHT="56"/>
+            <SP HPOS="1856" VPOS="1512" WIDTH="18"/>
+            <String ID="L0025_W14" CONTENT="dabey" HPOS="1874" VPOS="1530" WIDTH="115" HEIGHT="61"/>
+            <SP HPOS="1989" VPOS="1530" WIDTH="7"/>
+            <String ID="L0025_W15" CONTENT="befindliche" HPOS="1996" VPOS="1514" WIDTH="194" HEIGHT="79"/>
+          </TextLine>
+          <TextLine ID="L0026" HPOS="260" VPOS="1552" WIDTH="1924" HEIGHT="79">
+            <String ID="L0026_W01" CONTENT="Vorgeben" HPOS="260" VPOS="1552" WIDTH="190" HEIGHT="60"/>
+            <SP HPOS="450" VPOS="1552" WIDTH="1"/>
+            <String ID="L0026_W02" CONTENT="betrifft:" HPOS="451" VPOS="1561" WIDTH="161" HEIGHT="66"/>
+            <SP HPOS="612" VPOS="1561" WIDTH="4"/>
+            <String ID="L0026_W03" CONTENT="Ob" HPOS="616" VPOS="1564" WIDTH="69" HEIGHT="43"/>
+            <SP HPOS="685" VPOS="1564" WIDTH="1"/>
+            <String ID="L0026_W04" CONTENT="haͤtte" HPOS="686" VPOS="1562" WIDTH="102" HEIGHT="52"/>
+            <SP HPOS="788" VPOS="1562" WIDTH="1"/>
+            <String ID="L0026_W05" CONTENT="Agricola" HPOS="789" VPOS="1571" WIDTH="157" HEIGHT="48"/>
+            <SP HPOS="946" VPOS="1571" WIDTH="1"/>
+            <String ID="L0026_W06" CONTENT="einen" HPOS="947" VPOS="1572" WIDTH="99" HEIGHT="42"/>
+            <SP HPOS="1046" VPOS="1572" WIDTH="1"/>
+            <String ID="L0026_W07" CONTENT="Laquayen" HPOS="1047" VPOS="1560" WIDTH="172" HEIGHT="73"/>
+            <SP HPOS="1219" VPOS="1560" WIDTH="3"/>
+            <String ID="L0026_W08" CONTENT="bey" HPOS="1222" VPOS="1577" WIDTH="72" HEIGHT="49"/>
+            <SP HPOS="1294" VPOS="1577" WIDTH="9"/>
+            <String ID="L0026_W09" CONTENT="Jhm" HPOS="1303" VPOS="1576" WIDTH="97" HEIGHT="49"/>
+            <SP HPOS="1400" VPOS="1576" WIDTH="1"/>
+            <String ID="L0026_W10" CONTENT="verklagt," HPOS="1401" VPOS="1576" WIDTH="184" HEIGHT="52"/>
+            <SP HPOS="1585" VPOS="1576" WIDTH="10"/>
+            <String ID="L0026_W11" CONTENT="weil" HPOS="1595" VPOS="1578" WIDTH="81" HEIGHT="41"/>
+            <SP HPOS="1676" VPOS="1578" WIDTH="1"/>
+            <String ID="L0026_W12" CONTENT="Er" HPOS="1677" VPOS="1574" WIDTH="57" HEIGHT="45"/>
+            <SP HPOS="1734" VPOS="1574" WIDTH="3"/>
+            <String ID="L0026_W13" CONTENT="ſich" HPOS="1737" VPOS="1577" WIDTH="79" HEIGHT="49"/>
+            <SP HPOS="1816" VPOS="1577" WIDTH="1"/>
+            <String ID="L0026_W14" CONTENT="beruͤhmet:" HPOS="1817" VPOS="1575" WIDTH="215" HEIGHT="69"/>
+            <SP HPOS="2032" VPOS="1575" WIDTH="1"/>
+            <String ID="L0026_W15" CONTENT="Er" HPOS="2033" VPOS="1583" WIDTH="70" HEIGHT="58"/>
+            <SP HPOS="2103" VPOS="1583" WIDTH="4"/>
+            <String ID="L0026_W16" CONTENT="haͤt⸗" HPOS="2107" VPOS="1579" WIDTH="77" HEIGHT="49"/>
+          </TextLine>
+          <TextLine ID="L0027" HPOS="260" VPOS="1613" WIDTH="1923" HEIGHT="66">
+            <String ID="L0027_W01" CONTENT="te" HPOS="260" VPOS="1618" WIDTH="40" HEIGHT="34"/>
+            <SP HPOS="300" VPOS="1618" WIDTH="1"/>
+            <String ID="L0027_W02" CONTENT="Unzucht" HPOS="301" VPOS="1614" WIDTH="153" HEIGHT="50"/>
+            <SP HPOS="454" VPOS="1614" WIDTH="9"/>
+            <String ID="L0027_W03" CONTENT="mit" HPOS="463" VPOS="1625" WIDTH="63" HEIGHT="31"/>
+            <SP HPOS="526" VPOS="1625" WIDTH="6"/>
+            <String ID="L0027_W04" CONTENT="Jhr" HPOS="532" VPOS="1614" WIDTH="80" HEIGHT="51"/>
+            <SP HPOS="612" VPOS="1614" WIDTH="10"/>
+            <String ID="L0027_W05" CONTENT="getrieben,;" HPOS="622" VPOS="1602" WIDTH="218" HEIGHT="62"/>
+            <SP HPOS="840" VPOS="1602" WIDTH="1"/>
+            <String ID="L0027_W06" CONTENT="So" HPOS="841" VPOS="1604" WIDTH="83" HEIGHT="58"/>
+            <SP HPOS="924" VPOS="1604" WIDTH="5"/>
+            <String ID="L0027_W07" CONTENT="hat" HPOS="929" VPOS="1620" WIDTH="76" HEIGHT="52"/>
+            <SP HPOS="1005" VPOS="1620" WIDTH="2"/>
+            <String ID="L0027_W08" CONTENT="ſich" HPOS="1007" VPOS="1624" WIDTH="63" HEIGHT="50"/>
+            <SP HPOS="1070" VPOS="1624" WIDTH="1"/>
+            <String ID="L0027_W09" CONTENT="gefunden" HPOS="1071" VPOS="1607" WIDTH="180" HEIGHT="68"/>
+            <SP HPOS="1251" VPOS="1607" WIDTH="1"/>
+            <String ID="L0027_W10" CONTENT="daß" HPOS="1252" VPOS="1608" WIDTH="84" HEIGHT="67"/>
+            <SP HPOS="1336" VPOS="1608" WIDTH="1"/>
+            <String ID="L0027_W11" CONTENT="dieſer" HPOS="1337" VPOS="1609" WIDTH="115" HEIGHT="67"/>
+            <SP HPOS="1452" VPOS="1609" WIDTH="5"/>
+            <String ID="L0027_W12" CONTENT="Laquay" HPOS="1457" VPOS="1610" WIDTH="143" HEIGHT="68"/>
+            <SP HPOS="1600" VPOS="1610" WIDTH="1"/>
+            <String ID="L0027_W13" CONTENT="Burgmann" HPOS="1601" VPOS="1611" WIDTH="225" HEIGHT="69"/>
+            <SP HPOS="1826" VPOS="1611" WIDTH="6"/>
+            <String ID="L0027_W14" CONTENT="vor" HPOS="1832" VPOS="1640" WIDTH="75" HEIGHT="32"/>
+            <SP HPOS="1907" VPOS="1640" WIDTH="5"/>
+            <String ID="L0027_W15" CONTENT="Hr." HPOS="1912" VPOS="1614" WIDTH="88" HEIGHT="65"/>
+            <SP HPOS="2000" VPOS="1614" WIDTH="5"/>
+            <String ID="L0027_W16" CONTENT="Sencken⸗" HPOS="2005" VPOS="1631" WIDTH="178" HEIGHT="58"/>
+          </TextLine>
+          <TextLine ID="L0028" HPOS="261" VPOS="1649" WIDTH="1926" HEIGHT="76">
+            <String ID="L0028_W01" CONTENT="berg" HPOS="260" VPOS="1662" WIDTH="82" HEIGHT="48"/>
+            <SP HPOS="342" VPOS="1662" WIDTH="1"/>
+            <String ID="L0028_W02" CONTENT="in" HPOS="343" VPOS="1666" WIDTH="45" HEIGHT="39"/>
+            <SP HPOS="388" VPOS="1666" WIDTH="1"/>
+            <String ID="L0028_W03" CONTENT="Gegenwart" HPOS="389" VPOS="1650" WIDTH="221" HEIGHT="61"/>
+            <SP HPOS="610" VPOS="1650" WIDTH="7"/>
+            <String ID="L0028_W04" CONTENT="des" HPOS="617" VPOS="1670" WIDTH="75" HEIGHT="38"/>
+            <SP HPOS="692" VPOS="1670" WIDTH="7"/>
+            <String ID="L0028_W05" CONTENT="Bredekaw" HPOS="699" VPOS="1669" WIDTH="183" HEIGHT="39"/>
+            <SP HPOS="882" VPOS="1669" WIDTH="1"/>
+            <String ID="L0028_W06" CONTENT="und" HPOS="883" VPOS="1655" WIDTH="101" HEIGHT="57"/>
+            <SP HPOS="984" VPOS="1655" WIDTH="5"/>
+            <String ID="L0028_W07" CONTENT="Laquayen" HPOS="989" VPOS="1656" WIDTH="178" HEIGHT="67"/>
+            <SP HPOS="1167" VPOS="1656" WIDTH="5"/>
+            <String ID="L0028_W08" CONTENT="Græfe." HPOS="1172" VPOS="1678" WIDTH="141" HEIGHT="35"/>
+            <SP HPOS="1313" VPOS="1678" WIDTH="1"/>
+            <String ID="L0028_W09" CONTENT="ſelbſt" HPOS="1314" VPOS="1660" WIDTH="97" HEIGHT="65"/>
+            <SP HPOS="1411" VPOS="1660" WIDTH="4"/>
+            <String ID="L0028_W10" CONTENT="bekennet⸗und" HPOS="1415" VPOS="1661" WIDTH="264" HEIGHT="60"/>
+            <SP HPOS="1679" VPOS="1661" WIDTH="3"/>
+            <String ID="L0028_W11" CONTENT="conteſtiret;" HPOS="1682" VPOS="1664" WIDTH="194" HEIGHT="62"/>
+            <SP HPOS="1876" VPOS="1664" WIDTH="1"/>
+            <String ID="L0028_W12" CONTENT="Es" HPOS="1876" VPOS="1690" WIDTH="100" HEIGHT="32"/>
+            <SP HPOS="1976" VPOS="1690" WIDTH="4"/>
+            <String ID="L0028_W13" CONTENT="waͤre" HPOS="1980" VPOS="1667" WIDTH="110" HEIGHT="57"/>
+            <SP HPOS="2090" VPOS="1667" WIDTH="4"/>
+            <String ID="L0028_W14" CONTENT="alles" HPOS="2094" VPOS="1683" WIDTH="93" HEIGHT="40"/>
+          </TextLine>
+          <TextLine ID="L0029" HPOS="259" VPOS="1707" WIDTH="1928" HEIGHT="76">
+            <String ID="L0029_W01" CONTENT="falſch," HPOS="260" VPOS="1709" WIDTH="129" HEIGHT="62"/>
+            <SP HPOS="389" VPOS="1709" WIDTH="7"/>
+            <String ID="L0029_W02" CONTENT="Er" HPOS="396" VPOS="1717" WIDTH="56" HEIGHT="42"/>
+            <SP HPOS="452" VPOS="1717" WIDTH="4"/>
+            <String ID="L0029_W03" CONTENT="wuͤßte" HPOS="456" VPOS="1714" WIDTH="118" HEIGHT="50"/>
+            <SP HPOS="574" VPOS="1714" WIDTH="4"/>
+            <String ID="L0029_W04" CONTENT="nichts" HPOS="578" VPOS="1719" WIDTH="118" HEIGHT="48"/>
+            <SP HPOS="696" VPOS="1719" WIDTH="8"/>
+            <String ID="L0029_W05" CONTENT="als" HPOS="704" VPOS="1720" WIDTH="62" HEIGHT="40"/>
+            <SP HPOS="766" VPOS="1720" WIDTH="1"/>
+            <String ID="L0029_W06" CONTENT="alles" HPOS="767" VPOS="1719" WIDTH="93" HEIGHT="42"/>
+            <SP HPOS="860" VPOS="1719" WIDTH="2"/>
+            <String ID="L0029_W07" CONTENT="gutes" HPOS="862" VPOS="1730" WIDTH="106" HEIGHT="40"/>
+            <SP HPOS="968" VPOS="1730" WIDTH="1"/>
+            <String ID="L0029_W08" CONTENT="von" HPOS="969" VPOS="1714" WIDTH="76" HEIGHT="49"/>
+            <SP HPOS="1045" VPOS="1714" WIDTH="1"/>
+            <String ID="L0029_W09" CONTENT="Jhr," HPOS="1046" VPOS="1709" WIDTH="106" HEIGHT="65"/>
+            <SP HPOS="1152" VPOS="1709" WIDTH="2"/>
+            <String ID="L0029_W10" CONTENT="mithin" HPOS="1154" VPOS="1724" WIDTH="124" HEIGHT="52"/>
+            <SP HPOS="1278" VPOS="1724" WIDTH="1"/>
+            <String ID="L0029_W11" CONTENT="hat" HPOS="1279" VPOS="1726" WIDTH="67" HEIGHT="49"/>
+            <SP HPOS="1346" VPOS="1726" WIDTH="3"/>
+            <String ID="L0029_W12" CONTENT="Er" HPOS="1349" VPOS="1725" WIDTH="58" HEIGHT="44"/>
+            <SP HPOS="1407" VPOS="1725" WIDTH="4"/>
+            <String ID="L0029_W13" CONTENT="Senckenberg" HPOS="1411" VPOS="1727" WIDTH="236" HEIGHT="53"/>
+            <SP HPOS="1647" VPOS="1727" WIDTH="1"/>
+            <String ID="L0029_W14" CONTENT="ſie" HPOS="1648" VPOS="1730" WIDTH="60" HEIGHT="51"/>
+            <SP HPOS="1708" VPOS="1730" WIDTH="1"/>
+            <String ID="L0029_W15" CONTENT="hierdurch" HPOS="1709" VPOS="1730" WIDTH="179" HEIGHT="54"/>
+            <SP HPOS="1888" VPOS="1730" WIDTH="1"/>
+            <String ID="L0029_W16" CONTENT="nur" HPOS="1889" VPOS="1740" WIDTH="84" HEIGHT="33"/>
+            <SP HPOS="1973" VPOS="1740" WIDTH="4"/>
+            <String ID="L0029_W17" CONTENT="zu" HPOS="1977" VPOS="1740" WIDTH="40" HEIGHT="39"/>
+            <SP HPOS="2017" VPOS="1740" WIDTH="1"/>
+            <String ID="L0029_W18" CONTENT="blamiren" HPOS="2018" VPOS="1732" WIDTH="168" HEIGHT="43"/>
+          </TextLine>
+          <TextLine ID="L0030" HPOS="258" VPOS="1764" WIDTH="140" HEIGHT="48">
+            <String ID="L0030_W01" CONTENT="geſucht." HPOS="258" VPOS="1764" WIDTH="140" HEIGHT="48"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B009" TAGREFS="ROLE_paragraph" HPOS="256" VPOS="1826" WIDTH="1933" HEIGHT="153">
+          <TextLine ID="L0031" HPOS="364" VPOS="1826" WIDTH="1822" HEIGHT="78">
+            <String ID="L0031_W01" CONTENT="Quoad" HPOS="364" VPOS="1834" WIDTH="117" HEIGHT="51"/>
+            <SP HPOS="481" VPOS="1834" WIDTH="1"/>
+            <String ID="L0031_W02" CONTENT="§." HPOS="482" VPOS="1838" WIDTH="40" HEIGHT="45"/>
+            <SP HPOS="522" VPOS="1838" WIDTH="12"/>
+            <String ID="L0031_W03" CONTENT="6." HPOS="534" VPOS="1841" WIDTH="58" HEIGHT="35"/>
+            <SP HPOS="592" VPOS="1841" WIDTH="1"/>
+            <String ID="L0031_W04" CONTENT="Hat" HPOS="593" VPOS="1835" WIDTH="86" HEIGHT="53"/>
+            <SP HPOS="679" VPOS="1835" WIDTH="9"/>
+            <String ID="L0031_W05" CONTENT="ſich" HPOS="688" VPOS="1838" WIDTH="58" HEIGHT="52"/>
+            <SP HPOS="746" VPOS="1838" WIDTH="18"/>
+            <String ID="L0031_W06" CONTENT="Agricola" HPOS="764" VPOS="1839" WIDTH="148" HEIGHT="55"/>
+            <SP HPOS="912" VPOS="1839" WIDTH="9"/>
+            <String ID="L0031_W07" CONTENT="um" HPOS="921" VPOS="1853" WIDTH="53" HEIGHT="33"/>
+            <SP HPOS="974" VPOS="1853" WIDTH="1"/>
+            <String ID="L0031_W08" CONTENT="den" HPOS="975" VPOS="1846" WIDTH="78" HEIGHT="41"/>
+            <SP HPOS="1053" VPOS="1846" WIDTH="6"/>
+            <String ID="L0031_W09" CONTENT="angeblichen" HPOS="1059" VPOS="1846" WIDTH="213" HEIGHT="50"/>
+            <SP HPOS="1272" VPOS="1846" WIDTH="14"/>
+            <String ID="L0031_W10" CONTENT="geſpuͤhrten" HPOS="1286" VPOS="1845" WIDTH="193" HEIGHT="55"/>
+            <SP HPOS="1479" VPOS="1845" WIDTH="10"/>
+            <String ID="L0031_W11" CONTENT="Mangel" HPOS="1489" VPOS="1848" WIDTH="151" HEIGHT="48"/>
+            <SP HPOS="1640" VPOS="1848" WIDTH="8"/>
+            <String ID="L0031_W12" CONTENT="der" HPOS="1648" VPOS="1851" WIDTH="55" HEIGHT="36"/>
+            <SP HPOS="1703" VPOS="1851" WIDTH="11"/>
+            <String ID="L0031_W13" CONTENT="Wein⸗Bouteillen" HPOS="1714" VPOS="1847" WIDTH="304" HEIGHT="43"/>
+            <SP HPOS="2018" VPOS="1847" WIDTH="7"/>
+            <String ID="L0031_W14" CONTENT="gar" HPOS="2025" VPOS="1860" WIDTH="61" HEIGHT="37"/>
+            <SP HPOS="2086" VPOS="1860" WIDTH="10"/>
+            <String ID="L0031_W15" CONTENT="nicht" HPOS="2096" VPOS="1849" WIDTH="90" HEIGHT="40"/>
+          </TextLine>
+          <TextLine ID="L0032" HPOS="256" VPOS="1876" WIDTH="1933" HEIGHT="75">
+            <String ID="L0032_W01" CONTENT="zu" HPOS="257" VPOS="1888" WIDTH="40" HEIGHT="40"/>
+            <SP HPOS="297" VPOS="1888" WIDTH="1"/>
+            <String ID="L0032_W02" CONTENT="bekuͤmmern;" HPOS="298" VPOS="1859" WIDTH="257" HEIGHT="74"/>
+            <SP HPOS="555" VPOS="1859" WIDTH="10"/>
+            <String ID="L0032_W03" CONTENT="Dann" HPOS="565" VPOS="1867" WIDTH="116" HEIGHT="66"/>
+            <SP HPOS="681" VPOS="1867" WIDTH="9"/>
+            <String ID="L0032_W04" CONTENT="eines" HPOS="690" VPOS="1867" WIDTH="109" HEIGHT="69"/>
+            <SP HPOS="799" VPOS="1867" WIDTH="1"/>
+            <String ID="L0032_W05" CONTENT="Theils" HPOS="800" VPOS="1870" WIDTH="138" HEIGHT="73"/>
+            <SP HPOS="938" VPOS="1870" WIDTH="1"/>
+            <String ID="L0032_W06" CONTENT="iſt" HPOS="939" VPOS="1873" WIDTH="55" HEIGHT="70"/>
+            <SP HPOS="994" VPOS="1873" WIDTH="1"/>
+            <String ID="L0032_W07" CONTENT="ſolcher" HPOS="995" VPOS="1874" WIDTH="123" HEIGHT="72"/>
+            <SP HPOS="1118" VPOS="1874" WIDTH="1"/>
+            <String ID="L0032_W08" CONTENT="mit" HPOS="1119" VPOS="1875" WIDTH="74" HEIGHT="64"/>
+            <SP HPOS="1193" VPOS="1875" WIDTH="5"/>
+            <String ID="L0032_W09" CONTENT="keinem" HPOS="1198" VPOS="1875" WIDTH="126" HEIGHT="62"/>
+            <SP HPOS="1324" VPOS="1875" WIDTH="1"/>
+            <String ID="L0032_W10" CONTENT="Jota" HPOS="1325" VPOS="1875" WIDTH="105" HEIGHT="65"/>
+            <SP HPOS="1430" VPOS="1875" WIDTH="1"/>
+            <String ID="L0032_W11" CONTENT="erwieſen," HPOS="1431" VPOS="1875" WIDTH="179" HEIGHT="65"/>
+            <SP HPOS="1610" VPOS="1875" WIDTH="2"/>
+            <String ID="L0032_W12" CONTENT="mithin" HPOS="1612" VPOS="1875" WIDTH="136" HEIGHT="68"/>
+            <SP HPOS="1748" VPOS="1875" WIDTH="1"/>
+            <String ID="L0032_W13" CONTENT="eben" HPOS="1749" VPOS="1875" WIDTH="93" HEIGHT="62"/>
+            <SP HPOS="1842" VPOS="1875" WIDTH="1"/>
+            <String ID="L0032_W14" CONTENT="eine" HPOS="1843" VPOS="1900" WIDTH="89" HEIGHT="35"/>
+            <SP HPOS="1932" VPOS="1900" WIDTH="1"/>
+            <String ID="L0032_W15" CONTENT="ſolche" HPOS="1933" VPOS="1875" WIDTH="113" HEIGHT="70"/>
+            <SP HPOS="2046" VPOS="1875" WIDTH="3"/>
+            <String ID="L0032_W16" CONTENT="heilloſe" HPOS="2049" VPOS="1875" WIDTH="139" HEIGHT="72"/>
+          </TextLine>
+          <TextLine ID="L0033" HPOS="257" VPOS="1928" WIDTH="747" HEIGHT="51">
+            <String ID="L0033_W01" CONTENT="Luͤge," HPOS="257" VPOS="1928" WIDTH="114" HEIGHT="46"/>
+            <SP HPOS="371" VPOS="1928" WIDTH="27"/>
+            <String ID="L0033_W02" CONTENT="wie" HPOS="398" VPOS="1938" WIDTH="62" HEIGHT="30"/>
+            <SP HPOS="460" VPOS="1938" WIDTH="18"/>
+            <String ID="L0033_W03" CONTENT="man" HPOS="478" VPOS="1947" WIDTH="80" HEIGHT="20"/>
+            <SP HPOS="558" VPOS="1947" WIDTH="7"/>
+            <String ID="L0033_W04" CONTENT="ex" HPOS="565" VPOS="1953" WIDTH="55" HEIGHT="10"/>
+            <SP HPOS="620" VPOS="1953" WIDTH="5"/>
+            <String ID="L0033_W05" CONTENT="adverſo" HPOS="625" VPOS="1945" WIDTH="143" HEIGHT="23"/>
+            <SP HPOS="768" VPOS="1945" WIDTH="1"/>
+            <String ID="L0033_W06" CONTENT="gewohnt" HPOS="769" VPOS="1928" WIDTH="170" HEIGHT="51"/>
+            <SP HPOS="939" VPOS="1928" WIDTH="15"/>
+            <String ID="L0033_W07" CONTENT="iſt." HPOS="954" VPOS="1928" WIDTH="51" HEIGHT="51"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B010" TAGREFS="ROLE_paragraph" HPOS="247" VPOS="1985" WIDTH="1941" HEIGHT="793">
+          <TextLine ID="L0034" HPOS="450" VPOS="1985" WIDTH="1736" HEIGHT="83">
+            <String ID="L0034_W01" CONTENT="Andern" HPOS="450" VPOS="1961" WIDTH="148" HEIGHT="69"/>
+            <SP HPOS="598" VPOS="1961" WIDTH="1"/>
+            <String ID="L0034_W02" CONTENT="Theils/" HPOS="599" VPOS="1989" WIDTH="159" HEIGHT="50"/>
+            <SP HPOS="758" VPOS="1989" WIDTH="1"/>
+            <String ID="L0034_W03" CONTENT="weis" HPOS="759" VPOS="2001" WIDTH="95" HEIGHT="36"/>
+            <SP HPOS="854" VPOS="2001" WIDTH="1"/>
+            <String ID="L0034_W04" CONTENT="ſie" HPOS="855" VPOS="1971" WIDTH="55" HEIGHT="75"/>
+            <SP HPOS="910" VPOS="1971" WIDTH="1"/>
+            <String ID="L0034_W05" CONTENT="nicht," HPOS="911" VPOS="1997" WIDTH="117" HEIGHT="50"/>
+            <SP HPOS="1028" VPOS="1997" WIDTH="1"/>
+            <String ID="L0034_W06" CONTENT="wann" HPOS="1029" VPOS="2009" WIDTH="111" HEIGHT="32"/>
+            <SP HPOS="1140" VPOS="2009" WIDTH="1"/>
+            <String ID="L0034_W07" CONTENT="und" HPOS="1141" VPOS="2003" WIDTH="79" HEIGHT="38"/>
+            <SP HPOS="1220" VPOS="2003" WIDTH="1"/>
+            <String ID="L0034_W08" CONTENT="wie" HPOS="1221" VPOS="2013" WIDTH="72" HEIGHT="30"/>
+            <SP HPOS="1293" VPOS="2013" WIDTH="8"/>
+            <String ID="L0034_W09" CONTENT="offt" HPOS="1301" VPOS="2002" WIDTH="64" HEIGHT="51"/>
+            <SP HPOS="1365" VPOS="2002" WIDTH="8"/>
+            <String ID="L0034_W10" CONTENT="Bouteillen" HPOS="1373" VPOS="2005" WIDTH="176" HEIGHT="38"/>
+            <SP HPOS="1549" VPOS="2005" WIDTH="2"/>
+            <String ID="L0034_W11" CONTENT="aus" HPOS="1551" VPOS="2013" WIDTH="86" HEIGHT="34"/>
+            <SP HPOS="1637" VPOS="2013" WIDTH="1"/>
+            <String ID="L0034_W12" CONTENT="dem" HPOS="1638" VPOS="2011" WIDTH="80" HEIGHT="38"/>
+            <SP HPOS="1718" VPOS="2011" WIDTH="1"/>
+            <String ID="L0034_W13" CONTENT="Keller" HPOS="1719" VPOS="2010" WIDTH="121" HEIGHT="41"/>
+            <SP HPOS="1840" VPOS="2010" WIDTH="14"/>
+            <String ID="L0034_W14" CONTENT="gehohlet" HPOS="1854" VPOS="2007" WIDTH="150" HEIGHT="75"/>
+            <SP HPOS="2004" VPOS="2007" WIDTH="17"/>
+            <String ID="L0034_W15" CONTENT="worden;" HPOS="2021" VPOS="2014" WIDTH="165" HEIGHT="50"/>
+          </TextLine>
+          <TextLine ID="L0035" HPOS="253" VPOS="2030" WIDTH="1928" HEIGHT="84">
+            <String ID="L0035_W01" CONTENT="Zumahl" HPOS="253" VPOS="2031" WIDTH="154" HEIGHT="54"/>
+            <SP HPOS="407" VPOS="2031" WIDTH="6"/>
+            <String ID="L0035_W02" CONTENT="da" HPOS="413" VPOS="2039" WIDTH="48" HEIGHT="36"/>
+            <SP HPOS="461" VPOS="2039" WIDTH="1"/>
+            <String ID="L0035_W03" CONTENT="dritten" HPOS="462" VPOS="2039" WIDTH="150" HEIGHT="39"/>
+            <SP HPOS="612" VPOS="2039" WIDTH="2"/>
+            <String ID="L0035_W04" CONTENT="Theils" HPOS="614" VPOS="2043" WIDTH="134" HEIGHT="60"/>
+            <SP HPOS="748" VPOS="2043" WIDTH="5"/>
+            <String ID="L0035_W05" CONTENT="der" HPOS="753" VPOS="2051" WIDTH="74" HEIGHT="39"/>
+            <SP HPOS="827" VPOS="2051" WIDTH="2"/>
+            <String ID="L0035_W06" CONTENT="Hr." HPOS="829" VPOS="2033" WIDTH="74" HEIGHT="66"/>
+            <SP HPOS="903" VPOS="2033" WIDTH="4"/>
+            <String ID="L0035_W07" CONTENT="Gegner" HPOS="907" VPOS="2034" WIDTH="145" HEIGHT="63"/>
+            <SP HPOS="1052" VPOS="2034" WIDTH="1"/>
+            <String ID="L0035_W08" CONTENT="ſattſam" HPOS="1053" VPOS="2049" WIDTH="145" HEIGHT="51"/>
+            <SP HPOS="1198" VPOS="2049" WIDTH="2"/>
+            <String ID="L0035_W09" CONTENT="renommirt" HPOS="1200" VPOS="2054" WIDTH="220" HEIGHT="57"/>
+            <SP HPOS="1420" VPOS="2054" WIDTH="1"/>
+            <String ID="L0035_W10" CONTENT="und" HPOS="1421" VPOS="2057" WIDTH="73" HEIGHT="35"/>
+            <SP HPOS="1494" VPOS="2057" WIDTH="1"/>
+            <String ID="L0035_W11" CONTENT="Stadtkuͤndig" HPOS="1495" VPOS="2053" WIDTH="257" HEIGHT="51"/>
+            <SP HPOS="1752" VPOS="2053" WIDTH="1"/>
+            <String ID="L0035_W12" CONTENT="iſt," HPOS="1753" VPOS="2061" WIDTH="70" HEIGHT="46"/>
+            <SP HPOS="1823" VPOS="2061" WIDTH="1"/>
+            <String ID="L0035_W13" CONTENT="daß" HPOS="1824" VPOS="2050" WIDTH="77" HEIGHT="77"/>
+            <SP HPOS="1901" VPOS="2050" WIDTH="1"/>
+            <String ID="L0035_W14" CONTENT="Er" HPOS="1902" VPOS="2057" WIDTH="61" HEIGHT="43"/>
+            <SP HPOS="1963" VPOS="2057" WIDTH="1"/>
+            <String ID="L0035_W15" CONTENT="den" HPOS="1964" VPOS="2064" WIDTH="74" HEIGHT="39"/>
+            <SP HPOS="2038" VPOS="2064" WIDTH="1"/>
+            <String ID="L0035_W16" CONTENT="Bachum" HPOS="2039" VPOS="2066" WIDTH="142" HEIGHT="39"/>
+          </TextLine>
+          <TextLine ID="L0036" HPOS="253" VPOS="2067" WIDTH="1935" HEIGHT="100">
+            <String ID="L0036_W01" CONTENT="(welcher" HPOS="253" VPOS="2067" WIDTH="160" HEIGHT="76"/>
+            <SP HPOS="413" VPOS="2067" WIDTH="1"/>
+            <String ID="L0036_W02" CONTENT="der" HPOS="414" VPOS="2093" WIDTH="73" HEIGHT="59"/>
+            <SP HPOS="487" VPOS="2093" WIDTH="1"/>
+            <String ID="L0036_W03" CONTENT="Veneris" HPOS="488" VPOS="2091" WIDTH="142" HEIGHT="61"/>
+            <SP HPOS="630" VPOS="2091" WIDTH="1"/>
+            <String ID="L0036_W04" CONTENT="ſocius" HPOS="631" VPOS="2094" WIDTH="113" HEIGHT="64"/>
+            <SP HPOS="744" VPOS="2094" WIDTH="1"/>
+            <String ID="L0036_W05" CONTENT="iſt)" HPOS="745" VPOS="2097" WIDTH="65" HEIGHT="48"/>
+            <SP HPOS="810" VPOS="2097" WIDTH="1"/>
+            <String ID="L0036_W06" CONTENT="ungemein" HPOS="811" VPOS="2077" WIDTH="186" HEIGHT="70"/>
+            <SP HPOS="997" VPOS="2077" WIDTH="1"/>
+            <String ID="L0036_W07" CONTENT="liebe," HPOS="998" VPOS="2080" WIDTH="116" HEIGHT="63"/>
+            <SP HPOS="1114" VPOS="2080" WIDTH="1"/>
+            <String ID="L0036_W08" CONTENT="wovon" HPOS="1115" VPOS="2082" WIDTH="134" HEIGHT="59"/>
+            <SP HPOS="1249" VPOS="2082" WIDTH="5"/>
+            <String ID="L0036_W09" CONTENT="in" HPOS="1254" VPOS="2103" WIDTH="47" HEIGHT="33"/>
+            <SP HPOS="1301" VPOS="2103" WIDTH="1"/>
+            <String ID="L0036_W10" CONTENT="ſequentibus" HPOS="1302" VPOS="2102" WIDTH="216" HEIGHT="70"/>
+            <SP HPOS="1518" VPOS="2102" WIDTH="1"/>
+            <String ID="L0036_W11" CONTENT="ein" HPOS="1519" VPOS="2113" WIDTH="55" HEIGHT="30"/>
+            <SP HPOS="1574" VPOS="2113" WIDTH="1"/>
+            <String ID="L0036_W12" CONTENT="mehrers;" HPOS="1575" VPOS="2105" WIDTH="189" HEIGHT="60"/>
+            <SP HPOS="1764" VPOS="2105" WIDTH="1"/>
+            <String ID="L0036_W13" CONTENT="Es" HPOS="1765" VPOS="2105" WIDTH="69" HEIGHT="73"/>
+            <SP HPOS="1834" VPOS="2105" WIDTH="1"/>
+            <String ID="L0036_W14" CONTENT="iſt" HPOS="1835" VPOS="2107" WIDTH="56" HEIGHT="47"/>
+            <SP HPOS="1891" VPOS="2107" WIDTH="1"/>
+            <String ID="L0036_W15" CONTENT="auch" HPOS="1892" VPOS="2108" WIDTH="86" HEIGHT="70"/>
+            <SP HPOS="1978" VPOS="2108" WIDTH="1"/>
+            <String ID="L0036_W16" CONTENT="falſch," HPOS="1979" VPOS="2109" WIDTH="129" HEIGHT="51"/>
+            <SP HPOS="2108" VPOS="2109" WIDTH="1"/>
+            <String ID="L0036_W17" CONTENT="daß" HPOS="2109" VPOS="2117" WIDTH="79" HEIGHT="58"/>
+          </TextLine>
+          <TextLine ID="L0037" HPOS="253" VPOS="2129" WIDTH="1930" HEIGHT="77">
+            <String ID="L0037_W01" CONTENT="Er" HPOS="253" VPOS="2134" WIDTH="51" HEIGHT="42"/>
+            <SP HPOS="304" VPOS="2134" WIDTH="3"/>
+            <String ID="L0037_W02" CONTENT="den" HPOS="307" VPOS="2139" WIDTH="69" HEIGHT="38"/>
+            <SP HPOS="376" VPOS="2139" WIDTH="4"/>
+            <String ID="L0037_W03" CONTENT="Keller⸗Schluͤßel" HPOS="380" VPOS="2136" WIDTH="310" HEIGHT="55"/>
+            <SP HPOS="690" VPOS="2136" WIDTH="3"/>
+            <String ID="L0037_W04" CONTENT="Jhr" HPOS="693" VPOS="2130" WIDTH="79" HEIGHT="64"/>
+            <SP HPOS="772" VPOS="2130" WIDTH="6"/>
+            <String ID="L0037_W05" CONTENT="abgenommen," HPOS="778" VPOS="2132" WIDTH="274" HEIGHT="63"/>
+            <SP HPOS="1052" VPOS="2132" WIDTH="4"/>
+            <String ID="L0037_W06" CONTENT="ſondern" HPOS="1056" VPOS="2148" WIDTH="142" HEIGHT="47"/>
+            <SP HPOS="1198" VPOS="2148" WIDTH="3"/>
+            <String ID="L0037_W07" CONTENT="ſie" HPOS="1201" VPOS="2149" WIDTH="55" HEIGHT="43"/>
+            <SP HPOS="1256" VPOS="2149" WIDTH="6"/>
+            <String ID="L0037_W08" CONTENT="hat" HPOS="1262" VPOS="2149" WIDTH="63" HEIGHT="37"/>
+            <SP HPOS="1325" VPOS="2149" WIDTH="1"/>
+            <String ID="L0037_W09" CONTENT="Jhme" HPOS="1326" VPOS="2149" WIDTH="125" HEIGHT="46"/>
+            <SP HPOS="1451" VPOS="2149" WIDTH="4"/>
+            <String ID="L0037_W10" CONTENT="ſolchen" HPOS="1455" VPOS="2151" WIDTH="133" HEIGHT="45"/>
+            <SP HPOS="1588" VPOS="2151" WIDTH="1"/>
+            <String ID="L0037_W11" CONTENT="ſelbſt" HPOS="1589" VPOS="2144" WIDTH="104" HEIGHT="57"/>
+            <SP HPOS="1693" VPOS="2144" WIDTH="5"/>
+            <String ID="L0037_W12" CONTENT="zuruͤck" HPOS="1698" VPOS="2150" WIDTH="126" HEIGHT="52"/>
+            <SP HPOS="1824" VPOS="2150" WIDTH="1"/>
+            <String ID="L0037_W13" CONTENT="geliefert," HPOS="1825" VPOS="2154" WIDTH="194" HEIGHT="61"/>
+            <SP HPOS="2019" VPOS="2154" WIDTH="5"/>
+            <String ID="L0037_W14" CONTENT="um" HPOS="2024" VPOS="2170" WIDTH="71" HEIGHT="29"/>
+            <SP HPOS="2095" VPOS="2170" WIDTH="8"/>
+            <String ID="L0037_W15" CONTENT="uͤber" HPOS="2103" VPOS="2151" WIDTH="80" HEIGHT="55"/>
+          </TextLine>
+          <TextLine ID="L0038" HPOS="253" VPOS="2171" WIDTH="1929" HEIGHT="84">
+            <String ID="L0038_W01" CONTENT="ſeine" HPOS="253" VPOS="2185" WIDTH="92" HEIGHT="49"/>
+            <SP HPOS="345" VPOS="2185" WIDTH="1"/>
+            <String ID="L0038_W02" CONTENT="unordentliche" HPOS="346" VPOS="2170" WIDTH="258" HEIGHT="70"/>
+            <SP HPOS="604" VPOS="2170" WIDTH="3"/>
+            <String ID="L0038_W03" CONTENT="Debauchen" HPOS="607" VPOS="2173" WIDTH="198" HEIGHT="58"/>
+            <SP HPOS="805" VPOS="2173" WIDTH="5"/>
+            <String ID="L0038_W04" CONTENT="keine" HPOS="810" VPOS="2176" WIDTH="103" HEIGHT="58"/>
+            <SP HPOS="913" VPOS="2176" WIDTH="1"/>
+            <String ID="L0038_W05" CONTENT="Rechnung" HPOS="914" VPOS="2177" WIDTH="199" HEIGHT="66"/>
+            <SP HPOS="1113" VPOS="2177" WIDTH="4"/>
+            <String ID="L0038_W06" CONTENT="zu" HPOS="1117" VPOS="2205" WIDTH="39" HEIGHT="35"/>
+            <SP HPOS="1156" VPOS="2205" WIDTH="2"/>
+            <String ID="L0038_W07" CONTENT="geben;" HPOS="1158" VPOS="2194" WIDTH="146" HEIGHT="45"/>
+            <SP HPOS="1304" VPOS="2194" WIDTH="4"/>
+            <String ID="L0038_W08" CONTENT="Dann" HPOS="1308" VPOS="2184" WIDTH="128" HEIGHT="54"/>
+            <SP HPOS="1436" VPOS="2184" WIDTH="1"/>
+            <String ID="L0038_W09" CONTENT="wann" HPOS="1437" VPOS="2207" WIDTH="119" HEIGHT="32"/>
+            <SP HPOS="1556" VPOS="2207" WIDTH="1"/>
+            <String ID="L0038_W10" CONTENT="Hr." HPOS="1557" VPOS="2185" WIDTH="91" HEIGHT="64"/>
+            <SP HPOS="1648" VPOS="2185" WIDTH="1"/>
+            <String ID="L0038_W11" CONTENT="Gegner" HPOS="1649" VPOS="2187" WIDTH="161" HEIGHT="65"/>
+            <SP HPOS="1810" VPOS="2187" WIDTH="12"/>
+            <String ID="L0038_W12" CONTENT="Gaͤſte" HPOS="1822" VPOS="2189" WIDTH="116" HEIGHT="63"/>
+            <SP HPOS="1938" VPOS="2189" WIDTH="1"/>
+            <String ID="L0038_W13" CONTENT="gehabt," HPOS="1939" VPOS="2206" WIDTH="146" HEIGHT="51"/>
+            <SP HPOS="2085" VPOS="2206" WIDTH="18"/>
+            <String ID="L0038_W14" CONTENT="und" HPOS="2103" VPOS="2192" WIDTH="79" HEIGHT="63"/>
+          </TextLine>
+          <TextLine ID="L0039" HPOS="253" VPOS="2235" WIDTH="1929" HEIGHT="74">
+            <String ID="L0039_W01" CONTENT="der" HPOS="253" VPOS="2239" WIDTH="57" HEIGHT="50"/>
+            <SP HPOS="310" VPOS="2239" WIDTH="1"/>
+            <String ID="L0039_W02" CONTENT="Leithammel" HPOS="311" VPOS="2236" WIDTH="221" HEIGHT="58"/>
+            <SP HPOS="532" VPOS="2236" WIDTH="7"/>
+            <String ID="L0039_W03" CONTENT="erſt" HPOS="539" VPOS="2226" WIDTH="76" HEIGHT="58"/>
+            <SP HPOS="615" VPOS="2226" WIDTH="1"/>
+            <String ID="L0039_W04" CONTENT="im" HPOS="616" VPOS="2241" WIDTH="59" HEIGHT="39"/>
+            <SP HPOS="675" VPOS="2241" WIDTH="1"/>
+            <String ID="L0039_W05" CONTENT="Kopf" HPOS="676" VPOS="2239" WIDTH="120" HEIGHT="49"/>
+            <SP HPOS="796" VPOS="2239" WIDTH="1"/>
+            <String ID="L0039_W06" CONTENT="geweſen," HPOS="797" VPOS="2243" WIDTH="180" HEIGHT="60"/>
+            <SP HPOS="977" VPOS="2243" WIDTH="3"/>
+            <String ID="L0039_W07" CONTENT="ſo" HPOS="980" VPOS="2244" WIDTH="42" HEIGHT="46"/>
+            <SP HPOS="1022" VPOS="2244" WIDTH="1"/>
+            <String ID="L0039_W08" CONTENT="hat" HPOS="1023" VPOS="2244" WIDTH="80" HEIGHT="48"/>
+            <SP HPOS="1103" VPOS="2244" WIDTH="1"/>
+            <String ID="L0039_W09" CONTENT="Er" HPOS="1104" VPOS="2242" WIDTH="59" HEIGHT="43"/>
+            <SP HPOS="1163" VPOS="2242" WIDTH="5"/>
+            <String ID="L0039_W10" CONTENT="des" HPOS="1168" VPOS="2246" WIDTH="75" HEIGHT="38"/>
+            <SP HPOS="1243" VPOS="2246" WIDTH="7"/>
+            <String ID="L0039_W11" CONTENT="Sauffens" HPOS="1250" VPOS="2244" WIDTH="186" HEIGHT="51"/>
+            <SP HPOS="1436" VPOS="2244" WIDTH="6"/>
+            <String ID="L0039_W12" CONTENT="kein" HPOS="1442" VPOS="2247" WIDTH="86" HEIGHT="40"/>
+            <SP HPOS="1528" VPOS="2247" WIDTH="3"/>
+            <String ID="L0039_W13" CONTENT="Ende" HPOS="1531" VPOS="2248" WIDTH="113" HEIGHT="44"/>
+            <SP HPOS="1644" VPOS="2248" WIDTH="11"/>
+            <String ID="L0039_W14" CONTENT="gewußt:" HPOS="1655" VPOS="2250" WIDTH="171" HEIGHT="59"/>
+            <SP HPOS="1826" VPOS="2250" WIDTH="1"/>
+            <String ID="L0039_W15" CONTENT="Mithin" HPOS="1827" VPOS="2245" WIDTH="148" HEIGHT="67"/>
+            <SP HPOS="1975" VPOS="2245" WIDTH="1"/>
+            <String ID="L0039_W16" CONTENT="auch" HPOS="1976" VPOS="2260" WIDTH="103" HEIGHT="46"/>
+            <SP HPOS="2079" VPOS="2260" WIDTH="1"/>
+            <String ID="L0039_W17" CONTENT="nicht" HPOS="2080" VPOS="2263" WIDTH="102" HEIGHT="46"/>
+          </TextLine>
+          <TextLine ID="L0040" HPOS="251" VPOS="2272" WIDTH="1929" HEIGHT="84">
+            <String ID="L0040_W01" CONTENT="wißen" HPOS="251" VPOS="2286" WIDTH="113" HEIGHT="58"/>
+            <SP HPOS="364" VPOS="2286" WIDTH="3"/>
+            <String ID="L0040_W02" CONTENT="koͤnnen," HPOS="367" VPOS="2287" WIDTH="165" HEIGHT="58"/>
+            <SP HPOS="532" VPOS="2287" WIDTH="12"/>
+            <String ID="L0040_W03" CONTENT="wie" HPOS="544" VPOS="2299" WIDTH="63" HEIGHT="28"/>
+            <SP HPOS="607" VPOS="2299" WIDTH="4"/>
+            <String ID="L0040_W04" CONTENT="viel" HPOS="611" VPOS="2290" WIDTH="76" HEIGHT="36"/>
+            <SP HPOS="687" VPOS="2290" WIDTH="5"/>
+            <String ID="L0040_W05" CONTENT="Bouteillen" HPOS="692" VPOS="2292" WIDTH="186" HEIGHT="37"/>
+            <SP HPOS="878" VPOS="2292" WIDTH="1"/>
+            <String ID="L0040_W06" CONTENT="darauf" HPOS="879" VPOS="2291" WIDTH="144" HEIGHT="48"/>
+            <SP HPOS="1023" VPOS="2291" WIDTH="1"/>
+            <String ID="L0040_W07" CONTENT="gegangen;" HPOS="1024" VPOS="2294" WIDTH="214" HEIGHT="49"/>
+            <SP HPOS="1238" VPOS="2294" WIDTH="13"/>
+            <String ID="L0040_W08" CONTENT="Es" HPOS="1251" VPOS="2294" WIDTH="61" HEIGHT="43"/>
+            <SP HPOS="1312" VPOS="2294" WIDTH="3"/>
+            <String ID="L0040_W09" CONTENT="weis" HPOS="1315" VPOS="2297" WIDTH="97" HEIGHT="40"/>
+            <SP HPOS="1412" VPOS="2297" WIDTH="4"/>
+            <String ID="L0040_W10" CONTENT="ja" HPOS="1416" VPOS="2296" WIDTH="48" HEIGHT="46"/>
+            <SP HPOS="1464" VPOS="2296" WIDTH="1"/>
+            <String ID="L0040_W11" CONTENT="das" HPOS="1465" VPOS="2301" WIDTH="76" HEIGHT="61"/>
+            <SP HPOS="1541" VPOS="2301" WIDTH="4"/>
+            <String ID="L0040_W12" CONTENT="gantze" HPOS="1545" VPOS="2303" WIDTH="126" HEIGHT="47"/>
+            <SP HPOS="1671" VPOS="2303" WIDTH="1"/>
+            <String ID="L0040_W13" CONTENT="Buſchiſche" HPOS="1672" VPOS="2301" WIDTH="212" HEIGHT="52"/>
+            <SP HPOS="1884" VPOS="2301" WIDTH="1"/>
+            <String ID="L0040_W14" CONTENT="Hauß" HPOS="1885" VPOS="2303" WIDTH="121" HEIGHT="52"/>
+            <SP HPOS="2006" VPOS="2303" WIDTH="1"/>
+            <String ID="L0040_W15" CONTENT="zum" HPOS="2007" VPOS="2319" WIDTH="80" HEIGHT="39"/>
+            <SP HPOS="2087" VPOS="2319" WIDTH="6"/>
+            <String ID="L0040_W16" CONTENT="Roͤ⸗" HPOS="2093" VPOS="2311" WIDTH="88" HEIGHT="46"/>
+          </TextLine>
+          <TextLine ID="L0041" HPOS="250" VPOS="2333" WIDTH="1933" HEIGHT="72">
+            <String ID="L0041_W01" CONTENT="miſchen" HPOS="250" VPOS="2338" WIDTH="136" HEIGHT="47"/>
+            <SP HPOS="386" VPOS="2338" WIDTH="3"/>
+            <String ID="L0041_W02" CONTENT="Kayſer" HPOS="389" VPOS="2338" WIDTH="134" HEIGHT="55"/>
+            <SP HPOS="523" VPOS="2338" WIDTH="6"/>
+            <String ID="L0041_W03" CONTENT="allhier" HPOS="529" VPOS="2339" WIDTH="130" HEIGHT="60"/>
+            <SP HPOS="659" VPOS="2339" WIDTH="1"/>
+            <String ID="L0041_W04" CONTENT="genannt," HPOS="660" VPOS="2345" WIDTH="183" HEIGHT="53"/>
+            <SP HPOS="843" VPOS="2345" WIDTH="1"/>
+            <String ID="L0041_W05" CONTENT="und" HPOS="844" VPOS="2346" WIDTH="83" HEIGHT="37"/>
+            <SP HPOS="927" VPOS="2346" WIDTH="1"/>
+            <String ID="L0041_W06" CONTENT="alle" HPOS="928" VPOS="2342" WIDTH="76" HEIGHT="38"/>
+            <SP HPOS="1004" VPOS="2342" WIDTH="1"/>
+            <String ID="L0041_W07" CONTENT="auf" HPOS="1005" VPOS="2342" WIDTH="73" HEIGHT="55"/>
+            <SP HPOS="1078" VPOS="2342" WIDTH="1"/>
+            <String ID="L0041_W08" CONTENT="ſeinem" HPOS="1079" VPOS="2343" WIDTH="119" HEIGHT="55"/>
+            <SP HPOS="1198" VPOS="2343" WIDTH="1"/>
+            <String ID="L0041_W09" CONTENT="damahligen" HPOS="1199" VPOS="2344" WIDTH="231" HEIGHT="49"/>
+            <SP HPOS="1430" VPOS="2344" WIDTH="5"/>
+            <String ID="L0041_W10" CONTENT="Raths⸗Wahltag" HPOS="1435" VPOS="2349" WIDTH="336" HEIGHT="64"/>
+            <SP HPOS="1771" VPOS="2349" WIDTH="1"/>
+            <String ID="L0041_W11" CONTENT="(wie" HPOS="1772" VPOS="2358" WIDTH="103" HEIGHT="36"/>
+            <SP HPOS="1875" VPOS="2358" WIDTH="6"/>
+            <String ID="L0041_W12" CONTENT="Er" HPOS="1881" VPOS="2357" WIDTH="62" HEIGHT="42"/>
+            <SP HPOS="1943" VPOS="2357" WIDTH="2"/>
+            <String ID="L0041_W13" CONTENT="Jhn" HPOS="1945" VPOS="2359" WIDTH="96" HEIGHT="48"/>
+            <SP HPOS="2041" VPOS="2359" WIDTH="3"/>
+            <String ID="L0041_W14" CONTENT="ſo" HPOS="2044" VPOS="2361" WIDTH="43" HEIGHT="48"/>
+            <SP HPOS="2087" VPOS="2361" WIDTH="14"/>
+            <String ID="L0041_W15" CONTENT="nen⸗" HPOS="2101" VPOS="2373" WIDTH="82" HEIGHT="34"/>
+          </TextLine>
+          <TextLine ID="L0042" HPOS="252" VPOS="2369" WIDTH="1927" HEIGHT="82">
+            <String ID="L0042_W01" CONTENT="net)" HPOS="252" VPOS="2373" WIDTH="74" HEIGHT="60"/>
+            <SP HPOS="326" VPOS="2373" WIDTH="1"/>
+            <String ID="L0042_W02" CONTENT="anweſende" HPOS="327" VPOS="2367" WIDTH="204" HEIGHT="62"/>
+            <SP HPOS="531" VPOS="2367" WIDTH="1"/>
+            <String ID="L0042_W03" CONTENT="hohe" HPOS="532" VPOS="2384" WIDTH="101" HEIGHT="48"/>
+            <SP HPOS="633" VPOS="2384" WIDTH="1"/>
+            <String ID="L0042_W04" CONTENT="Hrn." HPOS="634" VPOS="2371" WIDTH="98" HEIGHT="64"/>
+            <SP HPOS="732" VPOS="2371" WIDTH="2"/>
+            <String ID="L0042_W05" CONTENT="Gaͤſte," HPOS="734" VPOS="2372" WIDTH="126" HEIGHT="66"/>
+            <SP HPOS="860" VPOS="2372" WIDTH="1"/>
+            <String ID="L0042_W06" CONTENT="wie" HPOS="861" VPOS="2393" WIDTH="70" HEIGHT="39"/>
+            <SP HPOS="931" VPOS="2393" WIDTH="1"/>
+            <String ID="L0042_W07" CONTENT="ſehr" HPOS="932" VPOS="2390" WIDTH="74" HEIGHT="50"/>
+            <SP HPOS="1006" VPOS="2390" WIDTH="9"/>
+            <String ID="L0042_W08" CONTENT="Er" HPOS="1015" VPOS="2377" WIDTH="49" HEIGHT="55"/>
+            <SP HPOS="1064" VPOS="2377" WIDTH="1"/>
+            <String ID="L0042_W09" CONTENT="ſich" HPOS="1065" VPOS="2376" WIDTH="64" HEIGHT="64"/>
+            <SP HPOS="1129" VPOS="2376" WIDTH="1"/>
+            <String ID="L0042_W10" CONTENT="damahls" HPOS="1130" VPOS="2394" WIDTH="174" HEIGHT="50"/>
+            <SP HPOS="1304" VPOS="2394" WIDTH="2"/>
+            <String ID="L0042_W11" CONTENT="im" HPOS="1306" VPOS="2397" WIDTH="48" HEIGHT="38"/>
+            <SP HPOS="1354" VPOS="2397" WIDTH="1"/>
+            <String ID="L0042_W12" CONTENT="Trunck" HPOS="1355" VPOS="2395" WIDTH="148" HEIGHT="46"/>
+            <SP HPOS="1503" VPOS="2395" WIDTH="4"/>
+            <String ID="L0042_W13" CONTENT="uͤbernommen⸗und" HPOS="1507" VPOS="2382" WIDTH="334" HEIGHT="60"/>
+            <SP HPOS="1841" VPOS="2382" WIDTH="1"/>
+            <String ID="L0042_W14" CONTENT="ſich" HPOS="1842" VPOS="2404" WIDTH="84" HEIGHT="47"/>
+            <SP HPOS="1926" VPOS="2404" WIDTH="1"/>
+            <String ID="L0042_W15" CONTENT="dadurch" HPOS="1927" VPOS="2387" WIDTH="158" HEIGHT="60"/>
+            <SP HPOS="2085" VPOS="2387" WIDTH="15"/>
+            <String ID="L0042_W16" CONTENT="pro-" HPOS="2100" VPOS="2411" WIDTH="79" HEIGHT="46"/>
+          </TextLine>
+          <TextLine ID="L0043" HPOS="250" VPOS="2414" WIDTH="1928" HEIGHT="94">
+            <String ID="L0043_W01" CONTENT="ſtituiret;" HPOS="250" VPOS="2413" WIDTH="168" HEIGHT="68"/>
+            <SP HPOS="418" VPOS="2413" WIDTH="1"/>
+            <String ID="L0043_W02" CONTENT="Wie" HPOS="419" VPOS="2415" WIDTH="101" HEIGHT="72"/>
+            <SP HPOS="520" VPOS="2415" WIDTH="1"/>
+            <String ID="L0043_W03" CONTENT="Er" HPOS="521" VPOS="2432" WIDTH="61" HEIGHT="58"/>
+            <SP HPOS="582" VPOS="2432" WIDTH="3"/>
+            <String ID="L0043_W04" CONTENT="Geld" HPOS="585" VPOS="2417" WIDTH="107" HEIGHT="61"/>
+            <SP HPOS="692" VPOS="2417" WIDTH="1"/>
+            <String ID="L0043_W05" CONTENT="an" HPOS="693" VPOS="2448" WIDTH="58" HEIGHT="30"/>
+            <SP HPOS="751" VPOS="2448" WIDTH="1"/>
+            <String ID="L0043_W06" CONTENT="ſeinem" HPOS="752" VPOS="2420" WIDTH="132" HEIGHT="65"/>
+            <SP HPOS="884" VPOS="2420" WIDTH="1"/>
+            <String ID="L0043_W07" CONTENT="Wahltag" HPOS="885" VPOS="2421" WIDTH="225" HEIGHT="70"/>
+            <SP HPOS="1110" VPOS="2421" WIDTH="1"/>
+            <String ID="L0043_W08" CONTENT="ausgeworfen;" HPOS="1111" VPOS="2425" WIDTH="281" HEIGHT="67"/>
+            <SP HPOS="1392" VPOS="2425" WIDTH="1"/>
+            <String ID="L0043_W09" CONTENT="wie" HPOS="1393" VPOS="2448" WIDTH="84" HEIGHT="40"/>
+            <SP HPOS="1477" VPOS="2448" WIDTH="1"/>
+            <String ID="L0043_W10" CONTENT="laͤcherlich" HPOS="1478" VPOS="2448" WIDTH="183" HEIGHT="48"/>
+            <SP HPOS="1661" VPOS="2448" WIDTH="1"/>
+            <String ID="L0043_W11" CONTENT="Er" HPOS="1662" VPOS="2449" WIDTH="71" HEIGHT="42"/>
+            <SP HPOS="1733" VPOS="2449" WIDTH="1"/>
+            <String ID="L0043_W12" CONTENT="ſich" HPOS="1734" VPOS="2450" WIDTH="76" HEIGHT="47"/>
+            <SP HPOS="1810" VPOS="2450" WIDTH="1"/>
+            <String ID="L0043_W13" CONTENT="dadurch" HPOS="1811" VPOS="2434" WIDTH="161" HEIGHT="60"/>
+            <SP HPOS="1972" VPOS="2434" WIDTH="1"/>
+            <String ID="L0043_W14" CONTENT="gemachet;" HPOS="1973" VPOS="2437" WIDTH="205" HEIGHT="81"/>
+          </TextLine>
+          <TextLine ID="L0044" HPOS="252" VPOS="2471" WIDTH="1925" HEIGHT="88">
+            <String ID="L0044_W01" CONTENT="Jtem" HPOS="252" VPOS="2481" WIDTH="97" HEIGHT="50"/>
+            <SP HPOS="349" VPOS="2481" WIDTH="1"/>
+            <String ID="L0044_W02" CONTENT="iſt" HPOS="350" VPOS="2487" WIDTH="54" HEIGHT="45"/>
+            <SP HPOS="404" VPOS="2487" WIDTH="1"/>
+            <String ID="L0044_W03" CONTENT="ja" HPOS="405" VPOS="2487" WIDTH="38" HEIGHT="41"/>
+            <SP HPOS="443" VPOS="2487" WIDTH="1"/>
+            <String ID="L0044_W04" CONTENT="hieſigem" HPOS="444" VPOS="2482" WIDTH="160" HEIGHT="49"/>
+            <SP HPOS="604" VPOS="2482" WIDTH="1"/>
+            <String ID="L0044_W05" CONTENT="Hochedlen" HPOS="605" VPOS="2485" WIDTH="200" HEIGHT="65"/>
+            <SP HPOS="805" VPOS="2485" WIDTH="1"/>
+            <String ID="L0044_W06" CONTENT="und" HPOS="806" VPOS="2495" WIDTH="78" HEIGHT="37"/>
+            <SP HPOS="884" VPOS="2495" WIDTH="1"/>
+            <String ID="L0044_W07" CONTENT="hochweiſen" HPOS="885" VPOS="2488" WIDTH="209" HEIGHT="51"/>
+            <SP HPOS="1094" VPOS="2488" WIDTH="1"/>
+            <String ID="L0044_W08" CONTENT="Magiſtrat" HPOS="1095" VPOS="2491" WIDTH="207" HEIGHT="50"/>
+            <SP HPOS="1302" VPOS="2491" WIDTH="7"/>
+            <String ID="L0044_W09" CONTENT="und" HPOS="1309" VPOS="2497" WIDTH="82" HEIGHT="38"/>
+            <SP HPOS="1391" VPOS="2497" WIDTH="3"/>
+            <String ID="L0044_W10" CONTENT="denen" HPOS="1394" VPOS="2499" WIDTH="116" HEIGHT="39"/>
+            <SP HPOS="1510" VPOS="2499" WIDTH="1"/>
+            <String ID="L0044_W11" CONTENT="benachbahrten" HPOS="1511" VPOS="2496" WIDTH="278" HEIGHT="61"/>
+            <SP HPOS="1789" VPOS="2496" WIDTH="1"/>
+            <String ID="L0044_W12" CONTENT="Chur⸗Mayntziſchen" HPOS="1790" VPOS="2491" WIDTH="387" HEIGHT="72"/>
+          </TextLine>
+          <TextLine ID="L0045" HPOS="251" VPOS="2530" WIDTH="1926" HEIGHT="78">
+            <String ID="L0045_W01" CONTENT="und" HPOS="251" VPOS="2537" WIDTH="79" HEIGHT="38"/>
+            <SP HPOS="330" VPOS="2537" WIDTH="3"/>
+            <String ID="L0045_W02" CONTENT="andern" HPOS="333" VPOS="2542" WIDTH="137" HEIGHT="51"/>
+            <SP HPOS="470" VPOS="2542" WIDTH="3"/>
+            <String ID="L0045_W03" CONTENT="Hrn." HPOS="473" VPOS="2534" WIDTH="114" HEIGHT="48"/>
+            <SP HPOS="587" VPOS="2534" WIDTH="2"/>
+            <String ID="L0045_W04" CONTENT="Beambten" HPOS="589" VPOS="2535" WIDTH="202" HEIGHT="67"/>
+            <SP HPOS="791" VPOS="2535" WIDTH="1"/>
+            <String ID="L0045_W05" CONTENT="in" HPOS="792" VPOS="2540" WIDTH="44" HEIGHT="40"/>
+            <SP HPOS="836" VPOS="2540" WIDTH="1"/>
+            <String ID="L0045_W06" CONTENT="friſchem" HPOS="837" VPOS="2542" WIDTH="153" HEIGHT="49"/>
+            <SP HPOS="990" VPOS="2542" WIDTH="1"/>
+            <String ID="L0045_W07" CONTENT="Andencken," HPOS="991" VPOS="2539" WIDTH="237" HEIGHT="56"/>
+            <SP HPOS="1228" VPOS="2539" WIDTH="6"/>
+            <String ID="L0045_W08" CONTENT="wie" HPOS="1234" VPOS="2543" WIDTH="68" HEIGHT="59"/>
+            <SP HPOS="1302" VPOS="2543" WIDTH="4"/>
+            <String ID="L0045_W09" CONTENT="entſetzlich" HPOS="1306" VPOS="2545" WIDTH="178" HEIGHT="63"/>
+            <SP HPOS="1484" VPOS="2545" WIDTH="1"/>
+            <String ID="L0045_W10" CONTENT="Er" HPOS="1485" VPOS="2546" WIDTH="57" HEIGHT="44"/>
+            <SP HPOS="1542" VPOS="2546" WIDTH="4"/>
+            <String ID="L0045_W11" CONTENT="ſich" HPOS="1546" VPOS="2548" WIDTH="69" HEIGHT="47"/>
+            <SP HPOS="1615" VPOS="2548" WIDTH="1"/>
+            <String ID="L0045_W12" CONTENT="auf" HPOS="1616" VPOS="2547" WIDTH="80" HEIGHT="49"/>
+            <SP HPOS="1696" VPOS="2547" WIDTH="1"/>
+            <String ID="L0045_W13" CONTENT="dem" HPOS="1697" VPOS="2549" WIDTH="73" HEIGHT="39"/>
+            <SP HPOS="1770" VPOS="2549" WIDTH="5"/>
+            <String ID="L0045_W14" CONTENT="Maͤrcker⸗Geding" HPOS="1775" VPOS="2545" WIDTH="351" HEIGHT="71"/>
+            <SP HPOS="2126" VPOS="2545" WIDTH="1"/>
+            <String ID="L0045_W15" CONTENT="zu" HPOS="2127" VPOS="2571" WIDTH="50" HEIGHT="37"/>
+          </TextLine>
+          <TextLine ID="L0046" HPOS="250" VPOS="2584" WIDTH="1927" HEIGHT="70">
+            <String ID="L0046_W01" CONTENT="Ober⸗Urſel" HPOS="250" VPOS="2584" WIDTH="207" HEIGHT="58"/>
+            <SP HPOS="457" VPOS="2584" WIDTH="5"/>
+            <String ID="L0046_W02" CONTENT="betruncken/" HPOS="462" VPOS="2584" WIDTH="222" HEIGHT="46"/>
+            <SP HPOS="684" VPOS="2584" WIDTH="1"/>
+            <String ID="L0046_W03" CONTENT="daß" HPOS="685" VPOS="2587" WIDTH="77" HEIGHT="44"/>
+            <SP HPOS="762" VPOS="2587" WIDTH="1"/>
+            <String ID="L0046_W04" CONTENT="Er" HPOS="763" VPOS="2587" WIDTH="57" HEIGHT="53"/>
+            <SP HPOS="820" VPOS="2587" WIDTH="1"/>
+            <String ID="L0046_W05" CONTENT="gantz" HPOS="821" VPOS="2598" WIDTH="107" HEIGHT="50"/>
+            <SP HPOS="928" VPOS="2598" WIDTH="1"/>
+            <String ID="L0046_W06" CONTENT="ſinnloß⸗und" HPOS="929" VPOS="2589" WIDTH="218" HEIGHT="60"/>
+            <SP HPOS="1147" VPOS="2589" WIDTH="1"/>
+            <String ID="L0046_W07" CONTENT="mit" HPOS="1148" VPOS="2594" WIDTH="82" HEIGHT="38"/>
+            <SP HPOS="1230" VPOS="2594" WIDTH="5"/>
+            <String ID="L0046_W08" CONTENT="boͤſem" HPOS="1235" VPOS="2592" WIDTH="111" HEIGHT="50"/>
+            <SP HPOS="1346" VPOS="2592" WIDTH="1"/>
+            <String ID="L0046_W09" CONTENT="Geruch" HPOS="1347" VPOS="2596" WIDTH="163" HEIGHT="41"/>
+            <SP HPOS="1510" VPOS="2596" WIDTH="1"/>
+            <String ID="L0046_W10" CONTENT="heimgebracht" HPOS="1511" VPOS="2595" WIDTH="259" HEIGHT="65"/>
+            <SP HPOS="1770" VPOS="2595" WIDTH="11"/>
+            <String ID="L0046_W11" CONTENT="werden" HPOS="1781" VPOS="2603" WIDTH="130" HEIGHT="40"/>
+            <SP HPOS="1911" VPOS="2603" WIDTH="5"/>
+            <String ID="L0046_W12" CONTENT="muͤſſen" HPOS="1916" VPOS="2614" WIDTH="142" HEIGHT="41"/>
+            <SP HPOS="2058" VPOS="2614" WIDTH="5"/>
+            <String ID="L0046_W13" CONTENT="ꝛc." HPOS="2063" VPOS="2618" WIDTH="66" HEIGHT="51"/>
+            <SP HPOS="2129" VPOS="2618" WIDTH="4"/>
+            <String ID="L0046_W14" CONTENT="ꝛc." HPOS="2133" VPOS="2622" WIDTH="44" HEIGHT="32"/>
+          </TextLine>
+          <TextLine ID="L0047" HPOS="248" VPOS="2613" WIDTH="1928" HEIGHT="90">
+            <String ID="L0047_W01" CONTENT="Da" HPOS="248" VPOS="2630" WIDTH="73" HEIGHT="69"/>
+            <SP HPOS="321" VPOS="2630" WIDTH="1"/>
+            <String ID="L0047_W02" CONTENT="Er" HPOS="322" VPOS="2632" WIDTH="60" HEIGHT="44"/>
+            <SP HPOS="382" VPOS="2632" WIDTH="1"/>
+            <String ID="L0047_W03" CONTENT="nun" HPOS="383" VPOS="2612" WIDTH="75" HEIGHT="61"/>
+            <SP HPOS="458" VPOS="2612" WIDTH="1"/>
+            <String ID="L0047_W04" CONTENT="den" HPOS="459" VPOS="2614" WIDTH="69" HEIGHT="88"/>
+            <SP HPOS="528" VPOS="2614" WIDTH="1"/>
+            <String ID="L0047_W05" CONTENT="Wein" HPOS="529" VPOS="2615" WIDTH="119" HEIGHT="61"/>
+            <SP HPOS="648" VPOS="2615" WIDTH="1"/>
+            <String ID="L0047_W06" CONTENT="ſo" HPOS="649" VPOS="2638" WIDTH="46" HEIGHT="60"/>
+            <SP HPOS="695" VPOS="2638" WIDTH="1"/>
+            <String ID="L0047_W07" CONTENT="ſehr" HPOS="696" VPOS="2637" WIDTH="76" HEIGHT="48"/>
+            <SP HPOS="772" VPOS="2637" WIDTH="1"/>
+            <String ID="L0047_W08" CONTENT="laͤſſet" HPOS="773" VPOS="2617" WIDTH="99" HEIGHT="90"/>
+            <SP HPOS="872" VPOS="2617" WIDTH="1"/>
+            <String ID="L0047_W09" CONTENT="Meiſter" HPOS="873" VPOS="2619" WIDTH="156" HEIGHT="67"/>
+            <SP HPOS="1029" VPOS="2619" WIDTH="1"/>
+            <String ID="L0047_W10" CONTENT="uͤber" HPOS="1030" VPOS="2635" WIDTH="89" HEIGHT="44"/>
+            <SP HPOS="1119" VPOS="2635" WIDTH="5"/>
+            <String ID="L0047_W11" CONTENT="ſich" HPOS="1124" VPOS="2640" WIDTH="62" HEIGHT="58"/>
+            <SP HPOS="1186" VPOS="2640" WIDTH="1"/>
+            <String ID="L0047_W12" CONTENT="ſeyn:" HPOS="1187" VPOS="2623" WIDTH="119" HEIGHT="78"/>
+            <SP HPOS="1306" VPOS="2623" WIDTH="1"/>
+            <String ID="L0047_W13" CONTENT="Wie" HPOS="1307" VPOS="2644" WIDTH="96" HEIGHT="60"/>
+            <SP HPOS="1403" VPOS="2644" WIDTH="1"/>
+            <String ID="L0047_W14" CONTENT="hat" HPOS="1404" VPOS="2644" WIDTH="65" HEIGHT="47"/>
+            <SP HPOS="1469" VPOS="2644" WIDTH="1"/>
+            <String ID="L0047_W15" CONTENT="Er" HPOS="1470" VPOS="2643" WIDTH="60" HEIGHT="44"/>
+            <SP HPOS="1530" VPOS="2643" WIDTH="1"/>
+            <String ID="L0047_W16" CONTENT="wiſſen" HPOS="1531" VPOS="2627" WIDTH="129" HEIGHT="90"/>
+            <SP HPOS="1660" VPOS="2627" WIDTH="1"/>
+            <String ID="L0047_W17" CONTENT="koͤnnen," HPOS="1661" VPOS="2629" WIDTH="162" HEIGHT="66"/>
+            <SP HPOS="1823" VPOS="2629" WIDTH="1"/>
+            <String ID="L0047_W18" CONTENT="wie" HPOS="1824" VPOS="2661" WIDTH="73" HEIGHT="33"/>
+            <SP HPOS="1897" VPOS="2661" WIDTH="1"/>
+            <String ID="L0047_W19" CONTENT="viele" HPOS="1898" VPOS="2655" WIDTH="87" HEIGHT="40"/>
+            <SP HPOS="1985" VPOS="2655" WIDTH="5"/>
+            <String ID="L0047_W20" CONTENT="Bouteillen" HPOS="1990" VPOS="2633" WIDTH="186" HEIGHT="65"/>
+          </TextLine>
+          <TextLine ID="L0048" HPOS="247" VPOS="2677" WIDTH="1927" HEIGHT="79">
+            <String ID="L0048_W01" CONTENT="Er" HPOS="248" VPOS="2679" WIDTH="56" HEIGHT="40"/>
+            <SP HPOS="304" VPOS="2679" WIDTH="1"/>
+            <String ID="L0048_W02" CONTENT="in" HPOS="305" VPOS="2684" WIDTH="50" HEIGHT="35"/>
+            <SP HPOS="355" VPOS="2684" WIDTH="1"/>
+            <String ID="L0048_W03" CONTENT="ſeiner" HPOS="356" VPOS="2682" WIDTH="117" HEIGHT="46"/>
+            <SP HPOS="473" VPOS="2682" WIDTH="1"/>
+            <String ID="L0048_W04" CONTENT="oͤfftern" HPOS="474" VPOS="2679" WIDTH="138" HEIGHT="53"/>
+            <SP HPOS="612" VPOS="2679" WIDTH="5"/>
+            <String ID="L0048_W05" CONTENT="Betrunckenheit" HPOS="617" VPOS="2671" WIDTH="298" HEIGHT="69"/>
+            <SP HPOS="915" VPOS="2671" WIDTH="4"/>
+            <String ID="L0048_W06" CONTENT="mit" HPOS="919" VPOS="2692" WIDTH="83" HEIGHT="41"/>
+            <SP HPOS="1002" VPOS="2692" WIDTH="4"/>
+            <String ID="L0048_W07" CONTENT="ſeinen" HPOS="1006" VPOS="2689" WIDTH="108" HEIGHT="51"/>
+            <SP HPOS="1114" VPOS="2689" WIDTH="13"/>
+            <String ID="L0048_W08" CONTENT="Gaͤſten," HPOS="1127" VPOS="2680" WIDTH="158" HEIGHT="61"/>
+            <SP HPOS="1285" VPOS="2680" WIDTH="4"/>
+            <String ID="L0048_W09" CONTENT="Maͤnn⸗oder" HPOS="1289" VPOS="2692" WIDTH="232" HEIGHT="51"/>
+            <SP HPOS="1521" VPOS="2692" WIDTH="8"/>
+            <String ID="L0048_W10" CONTENT="Fraͤulichen" HPOS="1529" VPOS="2690" WIDTH="195" HEIGHT="59"/>
+            <SP HPOS="1724" VPOS="2690" WIDTH="4"/>
+            <String ID="L0048_W11" CONTENT="Geſchlechts" HPOS="1728" VPOS="2702" WIDTH="220" HEIGHT="49"/>
+            <SP HPOS="1948" VPOS="2702" WIDTH="1"/>
+            <String ID="L0048_W12" CONTENT="ausgepfiffen" HPOS="1949" VPOS="2707" WIDTH="225" HEIGHT="49"/>
+          </TextLine>
+          <TextLine ID="L0049" HPOS="249" VPOS="2727" WIDTH="84" HEIGHT="51">
+            <String ID="L0049_W01" CONTENT="hat?" HPOS="249" VPOS="2728" WIDTH="84" HEIGHT="49"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B011" TAGREFS="ROLE_paragraph" HPOS="249" VPOS="2798" WIDTH="1926" HEIGHT="201">
+          <TextLine ID="L0050" HPOS="349" VPOS="2798" WIDTH="1826" HEIGHT="71">
+            <String ID="L0050_W01" CONTENT="Quoad" HPOS="349" VPOS="2798" WIDTH="119" HEIGHT="56"/>
+            <SP HPOS="468" VPOS="2798" WIDTH="5"/>
+            <String ID="L0050_W02" CONTENT="§." HPOS="473" VPOS="2806" WIDTH="44" HEIGHT="36"/>
+            <SP HPOS="517" VPOS="2806" WIDTH="1"/>
+            <String ID="L0050_W03" CONTENT="7." HPOS="518" VPOS="2813" WIDTH="63" HEIGHT="36"/>
+            <SP HPOS="581" VPOS="2813" WIDTH="4"/>
+            <String ID="L0050_W04" CONTENT="Jſt" HPOS="585" VPOS="2802" WIDTH="80" HEIGHT="59"/>
+            <SP HPOS="665" VPOS="2802" WIDTH="7"/>
+            <String ID="L0050_W05" CONTENT="falſch:" HPOS="672" VPOS="2802" WIDTH="125" HEIGHT="50"/>
+            <SP HPOS="797" VPOS="2802" WIDTH="29"/>
+            <String ID="L0050_W06" CONTENT="Daß" HPOS="826" VPOS="2804" WIDTH="90" HEIGHT="54"/>
+            <SP HPOS="916" VPOS="2804" WIDTH="1"/>
+            <String ID="L0050_W07" CONTENT="Agricola" HPOS="917" VPOS="2805" WIDTH="155" HEIGHT="58"/>
+            <SP HPOS="1072" VPOS="2805" WIDTH="1"/>
+            <String ID="L0050_W08" CONTENT="die" HPOS="1073" VPOS="2808" WIDTH="61" HEIGHT="54"/>
+            <SP HPOS="1134" VPOS="2808" WIDTH="7"/>
+            <String ID="L0050_W09" CONTENT="Soldaten" HPOS="1141" VPOS="2808" WIDTH="182" HEIGHT="44"/>
+            <SP HPOS="1323" VPOS="2808" WIDTH="8"/>
+            <String ID="L0050_W10" CONTENT="Frau" HPOS="1331" VPOS="2811" WIDTH="90" HEIGHT="47"/>
+            <SP HPOS="1421" VPOS="2811" WIDTH="11"/>
+            <String ID="L0050_W11" CONTENT="Wagnerin" HPOS="1432" VPOS="2812" WIDTH="201" HEIGHT="52"/>
+            <SP HPOS="1633" VPOS="2812" WIDTH="6"/>
+            <String ID="L0050_W12" CONTENT="habe" HPOS="1639" VPOS="2815" WIDTH="94" HEIGHT="46"/>
+            <SP HPOS="1733" VPOS="2815" WIDTH="24"/>
+            <String ID="L0050_W13" CONTENT="NB." HPOS="1757" VPOS="2817" WIDTH="75" HEIGHT="36"/>
+            <SP HPOS="1832" VPOS="2817" WIDTH="11"/>
+            <String ID="L0050_W14" CONTENT="verleiten" HPOS="1843" VPOS="2818" WIDTH="173" HEIGHT="58"/>
+            <SP HPOS="2016" VPOS="2818" WIDTH="8"/>
+            <String ID="L0050_W15" CONTENT="wollen/" HPOS="2024" VPOS="2821" WIDTH="151" HEIGHT="39"/>
+          </TextLine>
+          <TextLine ID="L0051" HPOS="249" VPOS="2831" WIDTH="1924" HEIGHT="83">
+            <String ID="L0051_W01" CONTENT="Jhr" HPOS="249" VPOS="2845" WIDTH="76" HEIGHT="55"/>
+            <SP HPOS="325" VPOS="2845" WIDTH="1"/>
+            <String ID="L0051_W02" CONTENT="falſch" HPOS="326" VPOS="2828" WIDTH="103" HEIGHT="67"/>
+            <SP HPOS="429" VPOS="2828" WIDTH="1"/>
+            <String ID="L0051_W03" CONTENT="Zeugnuͤß" HPOS="430" VPOS="2829" WIDTH="179" HEIGHT="70"/>
+            <SP HPOS="609" VPOS="2829" WIDTH="1"/>
+            <String ID="L0051_W04" CONTENT="zu" HPOS="610" VPOS="2831" WIDTH="49" HEIGHT="70"/>
+            <SP HPOS="659" VPOS="2831" WIDTH="1"/>
+            <String ID="L0051_W05" CONTENT="geben." HPOS="660" VPOS="2832" WIDTH="148" HEIGHT="70"/>
+            <SP HPOS="808" VPOS="2832" WIDTH="3"/>
+            <String ID="L0051_W06" CONTENT="Es" HPOS="811" VPOS="2852" WIDTH="73" HEIGHT="41"/>
+            <SP HPOS="884" VPOS="2852" WIDTH="1"/>
+            <String ID="L0051_W07" CONTENT="wird" HPOS="885" VPOS="2835" WIDTH="93" HEIGHT="59"/>
+            <SP HPOS="978" VPOS="2835" WIDTH="1"/>
+            <String ID="L0051_W08" CONTENT="dieſes" HPOS="979" VPOS="2853" WIDTH="116" HEIGHT="46"/>
+            <SP HPOS="1095" VPOS="2853" WIDTH="1"/>
+            <String ID="L0051_W09" CONTENT="in" HPOS="1096" VPOS="2856" WIDTH="41" HEIGHT="39"/>
+            <SP HPOS="1137" VPOS="2856" WIDTH="5"/>
+            <String ID="L0051_W10" CONTENT="der" HPOS="1142" VPOS="2861" WIDTH="75" HEIGHT="38"/>
+            <SP HPOS="1217" VPOS="2861" WIDTH="1"/>
+            <String ID="L0051_W11" CONTENT="Defenſions" HPOS="1218" VPOS="2839" WIDTH="202" HEIGHT="59"/>
+            <SP HPOS="1420" VPOS="2839" WIDTH="4"/>
+            <String ID="L0051_W12" CONTENT="Schrifft" HPOS="1424" VPOS="2842" WIDTH="168" HEIGHT="69"/>
+            <SP HPOS="1592" VPOS="2842" WIDTH="1"/>
+            <String ID="L0051_W13" CONTENT="ſattſam" HPOS="1593" VPOS="2861" WIDTH="140" HEIGHT="50"/>
+            <SP HPOS="1733" VPOS="2861" WIDTH="17"/>
+            <String ID="L0051_W14" CONTENT="deduciret" HPOS="1750" VPOS="2863" WIDTH="176" HEIGHT="45"/>
+            <SP HPOS="1926" VPOS="2863" WIDTH="1"/>
+            <String ID="L0051_W15" CONTENT="werden," HPOS="1927" VPOS="2873" WIDTH="165" HEIGHT="41"/>
+            <SP HPOS="2092" VPOS="2873" WIDTH="1"/>
+            <String ID="L0051_W16" CONTENT="und" HPOS="2093" VPOS="2871" WIDTH="80" HEIGHT="38"/>
+          </TextLine>
+          <TextLine ID="L0052" HPOS="250" VPOS="2884" WIDTH="1919" HEIGHT="81">
+            <String ID="L0052_W01" CONTENT="daß" HPOS="249" VPOS="2880" WIDTH="68" HEIGHT="58"/>
+            <SP HPOS="317" VPOS="2880" WIDTH="1"/>
+            <String ID="L0052_W02" CONTENT="Er" HPOS="318" VPOS="2894" WIDTH="64" HEIGHT="42"/>
+            <SP HPOS="382" VPOS="2894" WIDTH="1"/>
+            <String ID="L0052_W03" CONTENT="vielmehr" HPOS="383" VPOS="2881" WIDTH="166" HEIGHT="59"/>
+            <SP HPOS="549" VPOS="2881" WIDTH="3"/>
+            <String ID="L0052_W04" CONTENT="dieſe" HPOS="552" VPOS="2884" WIDTH="97" HEIGHT="67"/>
+            <SP HPOS="649" VPOS="2884" WIDTH="2"/>
+            <String ID="L0052_W05" CONTENT="Wagnerin" HPOS="651" VPOS="2885" WIDTH="206" HEIGHT="64"/>
+            <SP HPOS="857" VPOS="2885" WIDTH="1"/>
+            <String ID="L0052_W06" CONTENT="mit" HPOS="858" VPOS="2905" WIDTH="78" HEIGHT="39"/>
+            <SP HPOS="936" VPOS="2905" WIDTH="5"/>
+            <String ID="L0052_W07" CONTENT="Beſtechung" HPOS="941" VPOS="2904" WIDTH="225" HEIGHT="53"/>
+            <SP HPOS="1166" VPOS="2904" WIDTH="1"/>
+            <String ID="L0052_W08" CONTENT="auf" HPOS="1167" VPOS="2914" WIDTH="85" HEIGHT="44"/>
+            <SP HPOS="1252" VPOS="2914" WIDTH="1"/>
+            <String ID="L0052_W09" CONTENT="ſeine" HPOS="1253" VPOS="2909" WIDTH="98" HEIGHT="50"/>
+            <SP HPOS="1351" VPOS="2909" WIDTH="3"/>
+            <String ID="L0052_W10" CONTENT="Seite" HPOS="1354" VPOS="2908" WIDTH="116" HEIGHT="42"/>
+            <SP HPOS="1470" VPOS="2908" WIDTH="1"/>
+            <String ID="L0052_W11" CONTENT="zu" HPOS="1471" VPOS="2895" WIDTH="53" HEIGHT="62"/>
+            <SP HPOS="1524" VPOS="2895" WIDTH="1"/>
+            <String ID="L0052_W12" CONTENT="bringen" HPOS="1525" VPOS="2896" WIDTH="167" HEIGHT="64"/>
+            <SP HPOS="1692" VPOS="2896" WIDTH="1"/>
+            <String ID="L0052_W13" CONTENT="geſucht," HPOS="1693" VPOS="2909" WIDTH="170" HEIGHT="53"/>
+            <SP HPOS="1863" VPOS="2909" WIDTH="4"/>
+            <String ID="L0052_W14" CONTENT="wohin" HPOS="1867" VPOS="2918" WIDTH="129" HEIGHT="48"/>
+            <SP HPOS="1996" VPOS="2918" WIDTH="1"/>
+            <String ID="L0052_W15" CONTENT="man" HPOS="1997" VPOS="2927" WIDTH="92" HEIGHT="29"/>
+            <SP HPOS="2089" VPOS="2927" WIDTH="10"/>
+            <String ID="L0052_W16" CONTENT="ſich" HPOS="2099" VPOS="2918" WIDTH="70" HEIGHT="47"/>
+          </TextLine>
+          <TextLine ID="L0053" HPOS="249" VPOS="2942" WIDTH="411" HEIGHT="57">
+            <String ID="L0053_W01" CONTENT="Kuͤrtze" HPOS="249" VPOS="2942" WIDTH="113" HEIGHT="48"/>
+            <SP HPOS="362" VPOS="2942" WIDTH="18"/>
+            <String ID="L0053_W02" CONTENT="wegen" HPOS="380" VPOS="2955" WIDTH="124" HEIGHT="39"/>
+            <SP HPOS="504" VPOS="2955" WIDTH="4"/>
+            <String ID="L0053_W03" CONTENT="beziehet." HPOS="508" VPOS="2934" WIDTH="152" HEIGHT="65"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B012" TAGREFS="ROLE_paragraph" HPOS="248" VPOS="3002" WIDTH="1920" HEIGHT="122">
+          <TextLine ID="L0054" HPOS="349" VPOS="3002" WIDTH="1819" HEIGHT="77">
+            <String ID="L0054_W01" CONTENT="Quoad" HPOS="349" VPOS="3014" WIDTH="115" HEIGHT="44"/>
+            <SP HPOS="464" VPOS="3014" WIDTH="1"/>
+            <String ID="L0054_W02" CONTENT="§." HPOS="465" VPOS="3018" WIDTH="39" HEIGHT="41"/>
+            <SP HPOS="504" VPOS="3018" WIDTH="16"/>
+            <String ID="L0054_W03" CONTENT="8." HPOS="520" VPOS="3025" WIDTH="38" HEIGHT="35"/>
+            <SP HPOS="558" VPOS="3025" WIDTH="41"/>
+            <String ID="L0054_W04" CONTENT="Jſt" HPOS="599" VPOS="3017" WIDTH="74" HEIGHT="48"/>
+            <SP HPOS="673" VPOS="3017" WIDTH="6"/>
+            <String ID="L0054_W05" CONTENT="eben" HPOS="679" VPOS="3017" WIDTH="77" HEIGHT="40"/>
+            <SP HPOS="756" VPOS="3017" WIDTH="13"/>
+            <String ID="L0054_W06" CONTENT="eine" HPOS="769" VPOS="3015" WIDTH="69" HEIGHT="40"/>
+            <SP HPOS="838" VPOS="3015" WIDTH="8"/>
+            <String ID="L0054_W07" CONTENT="ſolche" HPOS="846" VPOS="3018" WIDTH="107" HEIGHT="50"/>
+            <SP HPOS="953" VPOS="3018" WIDTH="6"/>
+            <String ID="L0054_W08" CONTENT="ſ." HPOS="959" VPOS="3021" WIDTH="30" HEIGHT="36"/>
+            <SP HPOS="989" VPOS="3021" WIDTH="11"/>
+            <String ID="L0054_W09" CONTENT="v." HPOS="1000" VPOS="3036" WIDTH="27" HEIGHT="22"/>
+            <SP HPOS="1027" VPOS="3036" WIDTH="13"/>
+            <String ID="L0054_W10" CONTENT="Luͤge⸗und" HPOS="1040" VPOS="3017" WIDTH="202" HEIGHT="57"/>
+            <SP HPOS="1242" VPOS="3017" WIDTH="20"/>
+            <String ID="L0054_W11" CONTENT="Calumnie:" HPOS="1262" VPOS="3023" WIDTH="189" HEIGHT="40"/>
+            <SP HPOS="1451" VPOS="3023" WIDTH="25"/>
+            <String ID="L0054_W12" CONTENT="Daß" HPOS="1476" VPOS="3020" WIDTH="89" HEIGHT="49"/>
+            <SP HPOS="1565" VPOS="3020" WIDTH="19"/>
+            <String ID="L0054_W13" CONTENT="die" HPOS="1584" VPOS="3024" WIDTH="50" HEIGHT="42"/>
+            <SP HPOS="1634" VPOS="3024" WIDTH="12"/>
+            <String ID="L0054_W14" CONTENT="Agricola" HPOS="1646" VPOS="3029" WIDTH="151" HEIGHT="50"/>
+            <SP HPOS="1797" VPOS="3029" WIDTH="16"/>
+            <String ID="L0054_W15" CONTENT="mit" HPOS="1813" VPOS="3031" WIDTH="62" HEIGHT="45"/>
+            <SP HPOS="1875" VPOS="3031" WIDTH="14"/>
+            <String ID="L0054_W16" CONTENT="Hrn." HPOS="1889" VPOS="3031" WIDTH="92" HEIGHT="49"/>
+            <SP HPOS="1981" VPOS="3031" WIDTH="22"/>
+            <String ID="L0054_W17" CONTENT="Gegners" HPOS="2003" VPOS="3033" WIDTH="165" HEIGHT="44"/>
+          </TextLine>
+          <TextLine ID="L0055" HPOS="248" VPOS="3063" WIDTH="1141" HEIGHT="61">
+            <String ID="L0055_W01" CONTENT="Schreiber" HPOS="248" VPOS="3063" WIDTH="184" HEIGHT="52"/>
+            <SP HPOS="432" VPOS="3063" WIDTH="22"/>
+            <String ID="L0055_W02" CONTENT="Bredekaw," HPOS="454" VPOS="3065" WIDTH="190" HEIGHT="42"/>
+            <SP HPOS="644" VPOS="3065" WIDTH="16"/>
+            <String ID="L0055_W03" CONTENT="einen" HPOS="660" VPOS="3076" WIDTH="91" HEIGHT="29"/>
+            <SP HPOS="751" VPOS="3076" WIDTH="22"/>
+            <String ID="L0055_W04" CONTENT="ohnziemlichen" HPOS="773" VPOS="3066" WIDTH="254" HEIGHT="50"/>
+            <SP HPOS="1027" VPOS="3066" WIDTH="13"/>
+            <String ID="L0055_W05" CONTENT="Umgang" HPOS="1040" VPOS="3055" WIDTH="167" HEIGHT="68"/>
+            <SP HPOS="1207" VPOS="3055" WIDTH="5"/>
+            <String ID="L0055_W06" CONTENT="gefuͤhret:" HPOS="1212" VPOS="3069" WIDTH="177" HEIGHT="54"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B013" TAGREFS="ROLE_paragraph" HPOS="247" VPOS="3122" WIDTH="1917" HEIGHT="321">
+          <TextLine ID="L0056" HPOS="440" VPOS="3122" WIDTH="1724" HEIGHT="73">
+            <String ID="L0056_W01" CONTENT="Allein" HPOS="440" VPOS="3127" WIDTH="106" HEIGHT="46"/>
+            <SP HPOS="546" VPOS="3127" WIDTH="11"/>
+            <String ID="L0056_W02" CONTENT="au" HPOS="557" VPOS="3149" WIDTH="45" HEIGHT="23"/>
+            <SP HPOS="602" VPOS="3149" WIDTH="2"/>
+            <String ID="L0056_W03" CONTENT="contrair," HPOS="604" VPOS="3136" WIDTH="170" HEIGHT="55"/>
+            <SP HPOS="774" VPOS="3136" WIDTH="10"/>
+            <String ID="L0056_W04" CONTENT="das" HPOS="784" VPOS="3136" WIDTH="64" HEIGHT="37"/>
+            <SP HPOS="848" VPOS="3136" WIDTH="4"/>
+            <String ID="L0056_W05" CONTENT="waͤre" HPOS="852" VPOS="3130" WIDTH="104" HEIGHT="44"/>
+            <SP HPOS="956" VPOS="3130" WIDTH="7"/>
+            <String ID="L0056_W06" CONTENT="eben" HPOS="963" VPOS="3138" WIDTH="76" HEIGHT="39"/>
+            <SP HPOS="1039" VPOS="3138" WIDTH="5"/>
+            <String ID="L0056_W07" CONTENT="des" HPOS="1044" VPOS="3142" WIDTH="67" HEIGHT="38"/>
+            <SP HPOS="1111" VPOS="3142" WIDTH="1"/>
+            <String ID="L0056_W08" CONTENT="Hrn." HPOS="1112" VPOS="3141" WIDTH="98" HEIGHT="50"/>
+            <SP HPOS="1210" VPOS="3141" WIDTH="9"/>
+            <String ID="L0056_W09" CONTENT="Gegners" HPOS="1219" VPOS="3143" WIDTH="165" HEIGHT="45"/>
+            <SP HPOS="1384" VPOS="3143" WIDTH="11"/>
+            <String ID="L0056_W10" CONTENT="gefundenes" HPOS="1395" VPOS="3139" WIDTH="211" HEIGHT="52"/>
+            <SP HPOS="1606" VPOS="3139" WIDTH="9"/>
+            <String ID="L0056_W11" CONTENT="Spiel" HPOS="1615" VPOS="3141" WIDTH="127" HEIGHT="53"/>
+            <SP HPOS="1742" VPOS="3141" WIDTH="8"/>
+            <String ID="L0056_W12" CONTENT="geweſen," HPOS="1750" VPOS="3143" WIDTH="158" HEIGHT="53"/>
+            <SP HPOS="1908" VPOS="3143" WIDTH="17"/>
+            <String ID="L0056_W13" CONTENT="damit" HPOS="1925" VPOS="3143" WIDTH="114" HEIGHT="44"/>
+            <SP HPOS="2039" VPOS="3143" WIDTH="15"/>
+            <String ID="L0056_W14" CONTENT="Er" HPOS="2054" VPOS="3145" WIDTH="49" HEIGHT="45"/>
+            <SP HPOS="2103" VPOS="3145" WIDTH="16"/>
+            <String ID="L0056_W15" CONTENT="ei⸗" HPOS="2119" VPOS="3148" WIDTH="45" HEIGHT="43"/>
+          </TextLine>
+          <TextLine ID="L0057" HPOS="248" VPOS="3178" WIDTH="1915" HEIGHT="73">
+            <String ID="L0057_W01" CONTENT="nen" HPOS="248" VPOS="3193" WIDTH="68" HEIGHT="30"/>
+            <SP HPOS="316" VPOS="3193" WIDTH="4"/>
+            <String ID="L0057_W02" CONTENT="Deckmantel" HPOS="320" VPOS="3179" WIDTH="227" HEIGHT="67"/>
+            <SP HPOS="547" VPOS="3179" WIDTH="10"/>
+            <String ID="L0057_W03" CONTENT="der" HPOS="557" VPOS="3187" WIDTH="57" HEIGHT="54"/>
+            <SP HPOS="614" VPOS="3187" WIDTH="7"/>
+            <String ID="L0057_W04" CONTENT="veruͤbten" HPOS="621" VPOS="3181" WIDTH="154" HEIGHT="44"/>
+            <SP HPOS="775" VPOS="3181" WIDTH="5"/>
+            <String ID="L0057_W05" CONTENT="Nothzucht" HPOS="780" VPOS="3183" WIDTH="196" HEIGHT="50"/>
+            <SP HPOS="976" VPOS="3183" WIDTH="8"/>
+            <String ID="L0057_W06" CONTENT="haben" HPOS="984" VPOS="3187" WIDTH="105" HEIGHT="62"/>
+            <SP HPOS="1089" VPOS="3187" WIDTH="4"/>
+            <String ID="L0057_W07" CONTENT="moͤgte." HPOS="1093" VPOS="3189" WIDTH="161" HEIGHT="61"/>
+            <SP HPOS="1254" VPOS="3189" WIDTH="1"/>
+            <String ID="L0057_W08" CONTENT="Wie" HPOS="1255" VPOS="3190" WIDTH="111" HEIGHT="41"/>
+            <SP HPOS="1366" VPOS="3190" WIDTH="1"/>
+            <String ID="L0057_W09" CONTENT="aber" HPOS="1367" VPOS="3193" WIDTH="87" HEIGHT="36"/>
+            <SP HPOS="1454" VPOS="3193" WIDTH="6"/>
+            <String ID="L0057_W10" CONTENT="Bredekavv" HPOS="1460" VPOS="3189" WIDTH="191" HEIGHT="66"/>
+            <SP HPOS="1651" VPOS="3189" WIDTH="1"/>
+            <String ID="L0057_W11" CONTENT="hierinnen" HPOS="1652" VPOS="3195" WIDTH="182" HEIGHT="48"/>
+            <SP HPOS="1834" VPOS="3195" WIDTH="1"/>
+            <String ID="L0057_W12" CONTENT="gantz" HPOS="1835" VPOS="3194" WIDTH="106" HEIGHT="63"/>
+            <SP HPOS="1941" VPOS="3194" WIDTH="12"/>
+            <String ID="L0057_W13" CONTENT="unſchuldig," HPOS="1953" VPOS="3195" WIDTH="210" HEIGHT="60"/>
+          </TextLine>
+          <TextLine ID="L0058" HPOS="248" VPOS="3229" WIDTH="1914" HEIGHT="72">
+            <String ID="L0058_W01" CONTENT="und" HPOS="248" VPOS="3236" WIDTH="72" HEIGHT="36"/>
+            <SP HPOS="320" VPOS="3236" WIDTH="1"/>
+            <String ID="L0058_W02" CONTENT="deßfalls" HPOS="321" VPOS="3228" WIDTH="149" HEIGHT="56"/>
+            <SP HPOS="470" VPOS="3228" WIDTH="3"/>
+            <String ID="L0058_W03" CONTENT="in" HPOS="473" VPOS="3231" WIDTH="43" HEIGHT="55"/>
+            <SP HPOS="516" VPOS="3231" WIDTH="3"/>
+            <String ID="L0058_W04" CONTENT="Actis" HPOS="519" VPOS="3235" WIDTH="106" HEIGHT="35"/>
+            <SP HPOS="625" VPOS="3235" WIDTH="1"/>
+            <String ID="L0058_W05" CONTENT="nicht" HPOS="626" VPOS="3235" WIDTH="104" HEIGHT="47"/>
+            <SP HPOS="730" VPOS="3235" WIDTH="1"/>
+            <String ID="L0058_W06" CONTENT="der" HPOS="731" VPOS="3238" WIDTH="69" HEIGHT="35"/>
+            <SP HPOS="800" VPOS="3238" WIDTH="1"/>
+            <String ID="L0058_W07" CONTENT="geringſte" HPOS="801" VPOS="3234" WIDTH="179" HEIGHT="51"/>
+            <SP HPOS="980" VPOS="3234" WIDTH="4"/>
+            <String ID="L0058_W08" CONTENT="Beweiß" HPOS="984" VPOS="3237" WIDTH="150" HEIGHT="49"/>
+            <SP HPOS="1134" VPOS="3237" WIDTH="5"/>
+            <String ID="L0058_W09" CONTENT="auf" HPOS="1139" VPOS="3228" WIDTH="71" HEIGHT="67"/>
+            <SP HPOS="1210" VPOS="3228" WIDTH="1"/>
+            <String ID="L0058_W10" CONTENT="Jhn" HPOS="1211" VPOS="3238" WIDTH="83" HEIGHT="59"/>
+            <SP HPOS="1294" VPOS="3238" WIDTH="1"/>
+            <String ID="L0058_W11" CONTENT="vorhanden:" HPOS="1295" VPOS="3239" WIDTH="229" HEIGHT="59"/>
+            <SP HPOS="1524" VPOS="3239" WIDTH="1"/>
+            <String ID="L0058_W12" CONTENT="Alſo" HPOS="1525" VPOS="3238" WIDTH="94" HEIGHT="49"/>
+            <SP HPOS="1619" VPOS="3238" WIDTH="8"/>
+            <String ID="L0058_W13" CONTENT="hat" HPOS="1627" VPOS="3242" WIDTH="69" HEIGHT="45"/>
+            <SP HPOS="1696" VPOS="3242" WIDTH="3"/>
+            <String ID="L0058_W14" CONTENT="vielmehr" HPOS="1699" VPOS="3239" WIDTH="166" HEIGHT="70"/>
+            <SP HPOS="1865" VPOS="3239" WIDTH="1"/>
+            <String ID="L0058_W15" CONTENT="Hr." HPOS="1866" VPOS="3240" WIDTH="82" HEIGHT="50"/>
+            <SP HPOS="1948" VPOS="3240" WIDTH="1"/>
+            <String ID="L0058_W16" CONTENT="Gegner" HPOS="1949" VPOS="3245" WIDTH="160" HEIGHT="55"/>
+            <SP HPOS="2109" VPOS="3245" WIDTH="4"/>
+            <String ID="L0058_W17" CONTENT="te-" HPOS="2113" VPOS="3262" WIDTH="49" HEIGHT="23"/>
+          </TextLine>
+          <TextLine ID="L0059" HPOS="248" VPOS="3276" WIDTH="1912" HEIGHT="70">
+            <String ID="L0059_W01" CONTENT="ſtantibus" HPOS="248" VPOS="3263" WIDTH="153" HEIGHT="58"/>
+            <SP HPOS="401" VPOS="3263" WIDTH="5"/>
+            <String ID="L0059_W02" CONTENT="Actis" HPOS="406" VPOS="3280" WIDTH="97" HEIGHT="60"/>
+            <SP HPOS="503" VPOS="3280" WIDTH="1"/>
+            <String ID="L0059_W03" CONTENT="dem" HPOS="504" VPOS="3283" WIDTH="80" HEIGHT="37"/>
+            <SP HPOS="584" VPOS="3283" WIDTH="1"/>
+            <String ID="L0059_W04" CONTENT="Bredekavv" HPOS="585" VPOS="3266" WIDTH="201" HEIGHT="57"/>
+            <SP HPOS="786" VPOS="3266" WIDTH="1"/>
+            <String ID="L0059_W05" CONTENT="vorgeſchlagen," HPOS="787" VPOS="3268" WIDTH="291" HEIGHT="77"/>
+            <SP HPOS="1078" VPOS="3268" WIDTH="3"/>
+            <String ID="L0059_W06" CONTENT="die" HPOS="1081" VPOS="3271" WIDTH="53" HEIGHT="58"/>
+            <SP HPOS="1134" VPOS="3271" WIDTH="11"/>
+            <String ID="L0059_W07" CONTENT="geſchwaͤngerte" HPOS="1145" VPOS="3272" WIDTH="272" HEIGHT="68"/>
+            <SP HPOS="1417" VPOS="3272" WIDTH="1"/>
+            <String ID="L0059_W08" CONTENT="Agricolam" HPOS="1418" VPOS="3288" WIDTH="187" HEIGHT="48"/>
+            <SP HPOS="1605" VPOS="3288" WIDTH="1"/>
+            <String ID="L0059_W09" CONTENT="zu" HPOS="1606" VPOS="3304" WIDTH="64" HEIGHT="36"/>
+            <SP HPOS="1670" VPOS="3304" WIDTH="4"/>
+            <String ID="L0059_W10" CONTENT="heyrathen," HPOS="1674" VPOS="3287" WIDTH="206" HEIGHT="52"/>
+            <SP HPOS="1880" VPOS="3287" WIDTH="1"/>
+            <String ID="L0059_W11" CONTENT="worzu" HPOS="1881" VPOS="3300" WIDTH="113" HEIGHT="38"/>
+            <SP HPOS="1994" VPOS="3300" WIDTH="1"/>
+            <String ID="L0059_W12" CONTENT="Er" HPOS="1995" VPOS="3279" WIDTH="60" HEIGHT="58"/>
+            <SP HPOS="2055" VPOS="3279" WIDTH="3"/>
+            <String ID="L0059_W13" CONTENT="Geld" HPOS="2058" VPOS="3298" WIDTH="102" HEIGHT="41"/>
+          </TextLine>
+          <TextLine ID="L0060" HPOS="247" VPOS="3317" WIDTH="1911" HEIGHT="78">
+            <String ID="L0060_W01" CONTENT="geben⸗und" HPOS="247" VPOS="3332" WIDTH="191" HEIGHT="50"/>
+            <SP HPOS="438" VPOS="3332" WIDTH="5"/>
+            <String ID="L0060_W02" CONTENT="Jhme" HPOS="443" VPOS="3327" WIDTH="119" HEIGHT="53"/>
+            <SP HPOS="562" VPOS="3327" WIDTH="1"/>
+            <String ID="L0060_W03" CONTENT="zu" HPOS="563" VPOS="3340" WIDTH="43" HEIGHT="43"/>
+            <SP HPOS="606" VPOS="3340" WIDTH="1"/>
+            <String ID="L0060_W04" CONTENT="einem" HPOS="607" VPOS="3342" WIDTH="113" HEIGHT="32"/>
+            <SP HPOS="720" VPOS="3342" WIDTH="1"/>
+            <String ID="L0060_W05" CONTENT="Stuͤck" HPOS="721" VPOS="3316" WIDTH="142" HEIGHT="63"/>
+            <SP HPOS="863" VPOS="3316" WIDTH="1"/>
+            <String ID="L0060_W06" CONTENT="Brod" HPOS="864" VPOS="3318" WIDTH="116" HEIGHT="58"/>
+            <SP HPOS="980" VPOS="3318" WIDTH="4"/>
+            <String ID="L0060_W07" CONTENT="helfen" HPOS="984" VPOS="3318" WIDTH="109" HEIGHT="70"/>
+            <SP HPOS="1093" VPOS="3318" WIDTH="1"/>
+            <String ID="L0060_W08" CONTENT="wolte," HPOS="1094" VPOS="3319" WIDTH="130" HEIGHT="63"/>
+            <SP HPOS="1224" VPOS="3319" WIDTH="1"/>
+            <String ID="L0060_W09" CONTENT="wie" HPOS="1225" VPOS="3320" WIDTH="70" HEIGHT="58"/>
+            <SP HPOS="1295" VPOS="3320" WIDTH="5"/>
+            <String ID="L0060_W10" CONTENT="ſolches" HPOS="1300" VPOS="3321" WIDTH="124" HEIGHT="67"/>
+            <SP HPOS="1424" VPOS="3321" WIDTH="1"/>
+            <String ID="L0060_W11" CONTENT="die" HPOS="1425" VPOS="3339" WIDTH="61" HEIGHT="36"/>
+            <SP HPOS="1486" VPOS="3339" WIDTH="5"/>
+            <String ID="L0060_W12" CONTENT="Abhoͤrung" HPOS="1491" VPOS="3322" WIDTH="196" HEIGHT="68"/>
+            <SP HPOS="1687" VPOS="3322" WIDTH="1"/>
+            <String ID="L0060_W13" CONTENT="derer" HPOS="1688" VPOS="3323" WIDTH="112" HEIGHT="56"/>
+            <SP HPOS="1800" VPOS="3323" WIDTH="1"/>
+            <String ID="L0060_W14" CONTENT="Defenſional-Zeugen" HPOS="1801" VPOS="3340" WIDTH="357" HEIGHT="56"/>
+          </TextLine>
+          <TextLine ID="L0061" HPOS="249" VPOS="3374" WIDTH="427" HEIGHT="69">
+            <String ID="L0061_W01" CONTENT="auch" HPOS="247" VPOS="3382" WIDTH="83" HEIGHT="48"/>
+            <SP HPOS="330" VPOS="3382" WIDTH="4"/>
+            <String ID="L0061_W02" CONTENT="ergeben" HPOS="334" VPOS="3385" WIDTH="144" HEIGHT="47"/>
+            <SP HPOS="478" VPOS="3385" WIDTH="12"/>
+            <String ID="L0061_W03" CONTENT="muß" HPOS="490" VPOS="3375" WIDTH="85" HEIGHT="47"/>
+            <SP HPOS="575" VPOS="3375" WIDTH="1"/>
+            <String ID="L0061_W04" CONTENT="ꝛc." HPOS="576" VPOS="3388" WIDTH="46" HEIGHT="29"/>
+            <SP HPOS="622" VPOS="3388" WIDTH="12"/>
+            <String ID="L0061_W05" CONTENT="ꝛc." HPOS="634" VPOS="3390" WIDTH="46" HEIGHT="27"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B014" TAGREFS="ROLE_paragraph" HPOS="246" VPOS="3442" WIDTH="1909" HEIGHT="303">
+          <TextLine ID="L0062" HPOS="442" VPOS="3442" WIDTH="1713" HEIGHT="59">
+            <String ID="L0062_W01" CONTENT="Daß" HPOS="442" VPOS="3442" WIDTH="87" HEIGHT="51"/>
+            <SP HPOS="529" VPOS="3442" WIDTH="18"/>
+            <String ID="L0062_W02" CONTENT="aber" HPOS="547" VPOS="3445" WIDTH="82" HEIGHT="39"/>
+            <SP HPOS="629" VPOS="3445" WIDTH="1"/>
+            <String ID="L0062_W03" CONTENT="Hr." HPOS="630" VPOS="3445" WIDTH="69" HEIGHT="49"/>
+            <SP HPOS="699" VPOS="3445" WIDTH="8"/>
+            <String ID="L0062_W04" CONTENT="Hofrath" HPOS="707" VPOS="3447" WIDTH="151" HEIGHT="53"/>
+            <SP HPOS="858" VPOS="3447" WIDTH="11"/>
+            <String ID="L0062_W05" CONTENT="Senckenberg" HPOS="869" VPOS="3451" WIDTH="239" HEIGHT="50"/>
+            <SP HPOS="1108" VPOS="3451" WIDTH="22"/>
+            <String ID="L0062_W06" CONTENT="mit" HPOS="1130" VPOS="3453" WIDTH="62" HEIGHT="38"/>
+            <SP HPOS="1192" VPOS="3453" WIDTH="18"/>
+            <String ID="L0062_W07" CONTENT="der" HPOS="1210" VPOS="3455" WIDTH="55" HEIGHT="36"/>
+            <SP HPOS="1265" VPOS="3455" WIDTH="19"/>
+            <String ID="L0062_W08" CONTENT="jungen" HPOS="1284" VPOS="3452" WIDTH="126" HEIGHT="49"/>
+            <SP HPOS="1410" VPOS="3452" WIDTH="13"/>
+            <String ID="L0062_W09" CONTENT="Frau" HPOS="1423" VPOS="3445" WIDTH="92" HEIGHT="56"/>
+            <SP HPOS="1515" VPOS="3445" WIDTH="17"/>
+            <String ID="L0062_W10" CONTENT="von" HPOS="1532" VPOS="3461" WIDTH="65" HEIGHT="36"/>
+            <SP HPOS="1597" VPOS="3461" WIDTH="17"/>
+            <String ID="L0062_W11" CONTENT="Rauen," HPOS="1614" VPOS="3455" WIDTH="138" HEIGHT="43"/>
+            <SP HPOS="1752" VPOS="3455" WIDTH="19"/>
+            <String ID="L0062_W12" CONTENT="etliche" HPOS="1771" VPOS="3453" WIDTH="107" HEIGHT="47"/>
+            <SP HPOS="1878" VPOS="3453" WIDTH="30"/>
+            <String ID="L0062_W13" CONTENT="mahl" HPOS="1908" VPOS="3459" WIDTH="90" HEIGHT="42"/>
+            <SP HPOS="1998" VPOS="3459" WIDTH="17"/>
+            <String ID="L0062_W14" CONTENT="Abends" HPOS="2015" VPOS="3456" WIDTH="140" HEIGHT="44"/>
+          </TextLine>
+          <TextLine ID="L0063" HPOS="248" VPOS="3480" WIDTH="1906" HEIGHT="77">
+            <String ID="L0063_W01" CONTENT="durch" HPOS="248" VPOS="3494" WIDTH="97" HEIGHT="48"/>
+            <SP HPOS="345" VPOS="3494" WIDTH="11"/>
+            <String ID="L0063_W02" CONTENT="eine" HPOS="356" VPOS="3500" WIDTH="68" HEIGHT="40"/>
+            <SP HPOS="424" VPOS="3500" WIDTH="18"/>
+            <String ID="L0063_W03" CONTENT="an" HPOS="442" VPOS="3512" WIDTH="45" HEIGHT="28"/>
+            <SP HPOS="487" VPOS="3512" WIDTH="4"/>
+            <String ID="L0063_W04" CONTENT="der" HPOS="491" VPOS="3481" WIDTH="67" HEIGHT="60"/>
+            <SP HPOS="558" VPOS="3481" WIDTH="3"/>
+            <String ID="L0063_W05" CONTENT="Geſind⸗Stube" HPOS="561" VPOS="3482" WIDTH="275" HEIGHT="61"/>
+            <SP HPOS="836" VPOS="3482" WIDTH="4"/>
+            <String ID="L0063_W06" CONTENT="befindliches" HPOS="840" VPOS="3484" WIDTH="208" HEIGHT="65"/>
+            <SP HPOS="1048" VPOS="3484" WIDTH="1"/>
+            <String ID="L0063_W07" CONTENT="Fenſter" HPOS="1049" VPOS="3486" WIDTH="142" HEIGHT="67"/>
+            <SP HPOS="1191" VPOS="3486" WIDTH="11"/>
+            <String ID="L0063_W08" CONTENT="heimlich" HPOS="1202" VPOS="3494" WIDTH="150" HEIGHT="55"/>
+            <SP HPOS="1352" VPOS="3494" WIDTH="1"/>
+            <String ID="L0063_W09" CONTENT="geſehen" HPOS="1353" VPOS="3488" WIDTH="147" HEIGHT="66"/>
+            <SP HPOS="1500" VPOS="3488" WIDTH="1"/>
+            <String ID="L0063_W10" CONTENT="haben" HPOS="1501" VPOS="3501" WIDTH="117" HEIGHT="47"/>
+            <SP HPOS="1618" VPOS="3501" WIDTH="1"/>
+            <String ID="L0063_W11" CONTENT="ſolle:" HPOS="1619" VPOS="3503" WIDTH="111" HEIGHT="55"/>
+            <SP HPOS="1730" VPOS="3503" WIDTH="1"/>
+            <String ID="L0063_W12" CONTENT="Wie" HPOS="1731" VPOS="3500" WIDTH="97" HEIGHT="45"/>
+            <SP HPOS="1828" VPOS="3500" WIDTH="1"/>
+            <String ID="L0063_W13" CONTENT="der" HPOS="1829" VPOS="3509" WIDTH="66" HEIGHT="37"/>
+            <SP HPOS="1895" VPOS="3509" WIDTH="13"/>
+            <String ID="L0063_W14" CONTENT="Bredekaw" HPOS="1908" VPOS="3504" WIDTH="176" HEIGHT="39"/>
+            <SP HPOS="2084" VPOS="3504" WIDTH="1"/>
+            <String ID="L0063_W15" CONTENT="die" HPOS="2085" VPOS="3509" WIDTH="69" HEIGHT="42"/>
+          </TextLine>
+          <TextLine ID="L0064" HPOS="246" VPOS="3533" WIDTH="1906" HEIGHT="78">
+            <String ID="L0064_W01" CONTENT="Agricolam" HPOS="246" VPOS="3544" WIDTH="182" HEIGHT="48"/>
+            <SP HPOS="428" VPOS="3544" WIDTH="6"/>
+            <String ID="L0064_W02" CONTENT="an" HPOS="434" VPOS="3561" WIDTH="55" HEIGHT="28"/>
+            <SP HPOS="489" VPOS="3561" WIDTH="2"/>
+            <String ID="L0064_W03" CONTENT="alle" HPOS="491" VPOS="3547" WIDTH="90" HEIGHT="42"/>
+            <SP HPOS="581" VPOS="3547" WIDTH="1"/>
+            <String ID="L0064_W04" CONTENT="heimliche" HPOS="582" VPOS="3544" WIDTH="174" HEIGHT="57"/>
+            <SP HPOS="756" VPOS="3544" WIDTH="1"/>
+            <String ID="L0064_W05" CONTENT="Orten" HPOS="757" VPOS="3547" WIDTH="118" HEIGHT="44"/>
+            <SP HPOS="875" VPOS="3547" WIDTH="1"/>
+            <String ID="L0064_W06" CONTENT="betaſtet," HPOS="876" VPOS="3534" WIDTH="162" HEIGHT="76"/>
+            <SP HPOS="1038" VPOS="3534" WIDTH="1"/>
+            <String ID="L0064_W07" CONTENT="iſt" HPOS="1039" VPOS="3536" WIDTH="45" HEIGHT="61"/>
+            <SP HPOS="1084" VPOS="3536" WIDTH="4"/>
+            <String ID="L0064_W08" CONTENT="auch" HPOS="1088" VPOS="3536" WIDTH="82" HEIGHT="60"/>
+            <SP HPOS="1170" VPOS="3536" WIDTH="1"/>
+            <String ID="L0064_W09" CONTENT="eine" HPOS="1171" VPOS="3563" WIDTH="81" HEIGHT="27"/>
+            <SP HPOS="1252" VPOS="3563" WIDTH="5"/>
+            <String ID="L0064_W10" CONTENT="hoͤlliſche" HPOS="1257" VPOS="3543" WIDTH="159" HEIGHT="62"/>
+            <SP HPOS="1416" VPOS="3543" WIDTH="6"/>
+            <String ID="L0064_W11" CONTENT="Luͤge/" HPOS="1422" VPOS="3547" WIDTH="131" HEIGHT="54"/>
+            <SP HPOS="1553" VPOS="3547" WIDTH="4"/>
+            <String ID="L0064_W12" CONTENT="die" HPOS="1557" VPOS="3556" WIDTH="55" HEIGHT="38"/>
+            <SP HPOS="1612" VPOS="3556" WIDTH="1"/>
+            <String ID="L0064_W13" CONTENT="Er" HPOS="1613" VPOS="3551" WIDTH="54" HEIGHT="41"/>
+            <SP HPOS="1667" VPOS="3551" WIDTH="1"/>
+            <String ID="L0064_W14" CONTENT="in" HPOS="1668" VPOS="3552" WIDTH="41" HEIGHT="39"/>
+            <SP HPOS="1709" VPOS="3552" WIDTH="1"/>
+            <String ID="L0064_W15" CONTENT="Ewigkeit" HPOS="1710" VPOS="3550" WIDTH="182" HEIGHT="55"/>
+            <SP HPOS="1892" VPOS="3550" WIDTH="6"/>
+            <String ID="L0064_W16" CONTENT="nicht" HPOS="1898" VPOS="3552" WIDTH="89" HEIGHT="45"/>
+            <SP HPOS="1987" VPOS="3552" WIDTH="3"/>
+            <String ID="L0064_W17" CONTENT="erweiſen" HPOS="1990" VPOS="3558" WIDTH="162" HEIGHT="50"/>
+          </TextLine>
+          <TextLine ID="L0065" HPOS="246" VPOS="3593" WIDTH="1906" HEIGHT="59">
+            <String ID="L0065_W01" CONTENT="kan;" HPOS="246" VPOS="3593" WIDTH="85" HEIGHT="42"/>
+            <SP HPOS="331" VPOS="3593" WIDTH="20"/>
+            <String ID="L0065_W02" CONTENT="Und" HPOS="351" VPOS="3594" WIDTH="83" HEIGHT="41"/>
+            <SP HPOS="434" VPOS="3594" WIDTH="1"/>
+            <String ID="L0065_W03" CONTENT="daß" HPOS="435" VPOS="3599" WIDTH="74" HEIGHT="44"/>
+            <SP HPOS="509" VPOS="3599" WIDTH="4"/>
+            <String ID="L0065_W04" CONTENT="hingegen" HPOS="513" VPOS="3600" WIDTH="172" HEIGHT="49"/>
+            <SP HPOS="685" VPOS="3600" WIDTH="5"/>
+            <String ID="L0065_W05" CONTENT="Hr." HPOS="690" VPOS="3597" WIDTH="86" HEIGHT="48"/>
+            <SP HPOS="776" VPOS="3597" WIDTH="1"/>
+            <String ID="L0065_W06" CONTENT="Hofrath" HPOS="777" VPOS="3582" WIDTH="153" HEIGHT="66"/>
+            <SP HPOS="930" VPOS="3582" WIDTH="1"/>
+            <String ID="L0065_W07" CONTENT="Senckenberg" HPOS="931" VPOS="3577" WIDTH="255" HEIGHT="72"/>
+            <SP HPOS="1186" VPOS="3577" WIDTH="1"/>
+            <String ID="L0065_W08" CONTENT="gar" HPOS="1187" VPOS="3589" WIDTH="85" HEIGHT="61"/>
+            <SP HPOS="1272" VPOS="3589" WIDTH="1"/>
+            <String ID="L0065_W09" CONTENT="offt" HPOS="1273" VPOS="3585" WIDTH="70" HEIGHT="61"/>
+            <SP HPOS="1343" VPOS="3585" WIDTH="4"/>
+            <String ID="L0065_W10" CONTENT="mit" HPOS="1347" VPOS="3577" WIDTH="68" HEIGHT="62"/>
+            <SP HPOS="1415" VPOS="3577" WIDTH="8"/>
+            <String ID="L0065_W11" CONTENT="der" HPOS="1423" VPOS="3595" WIDTH="62" HEIGHT="46"/>
+            <SP HPOS="1485" VPOS="3595" WIDTH="1"/>
+            <String ID="L0065_W12" CONTENT="jungen" HPOS="1486" VPOS="3577" WIDTH="127" HEIGHT="74"/>
+            <SP HPOS="1613" VPOS="3577" WIDTH="3"/>
+            <String ID="L0065_W13" CONTENT="Frau" HPOS="1616" VPOS="3577" WIDTH="97" HEIGHT="70"/>
+            <SP HPOS="1713" VPOS="3577" WIDTH="3"/>
+            <String ID="L0065_W14" CONTENT="von" HPOS="1716" VPOS="3577" WIDTH="74" HEIGHT="66"/>
+            <SP HPOS="1790" VPOS="3577" WIDTH="4"/>
+            <String ID="L0065_W15" CONTENT="Rauen" HPOS="1794" VPOS="3577" WIDTH="144" HEIGHT="69"/>
+            <SP HPOS="1938" VPOS="3577" WIDTH="1"/>
+            <String ID="L0065_W16" CONTENT="heimlich" HPOS="1939" VPOS="3577" WIDTH="156" HEIGHT="70"/>
+            <SP HPOS="2095" VPOS="3577" WIDTH="5"/>
+            <String ID="L0065_W17" CONTENT="al⸗" HPOS="2100" VPOS="3577" WIDTH="52" HEIGHT="69"/>
+          </TextLine>
+          <TextLine ID="L0066" HPOS="246" VPOS="3635" WIDTH="1906" HEIGHT="92">
+            <String ID="L0066_W01" CONTENT="lein" HPOS="246" VPOS="3645" WIDTH="70" HEIGHT="82"/>
+            <SP HPOS="316" VPOS="3645" WIDTH="3"/>
+            <String ID="L0066_W02" CONTENT="geſtecket⸗und" HPOS="319" VPOS="3641" WIDTH="241" HEIGHT="86"/>
+            <SP HPOS="560" VPOS="3641" WIDTH="1"/>
+            <String ID="L0066_W03" CONTENT="daß" HPOS="561" VPOS="3636" WIDTH="77" HEIGHT="91"/>
+            <SP HPOS="638" VPOS="3636" WIDTH="1"/>
+            <String ID="L0066_W04" CONTENT="Er" HPOS="639" VPOS="3644" WIDTH="52" HEIGHT="83"/>
+            <SP HPOS="691" VPOS="3644" WIDTH="4"/>
+            <String ID="L0066_W05" CONTENT="ſie" HPOS="695" VPOS="3653" WIDTH="55" HEIGHT="74"/>
+            <SP HPOS="750" VPOS="3653" WIDTH="3"/>
+            <String ID="L0066_W06" CONTENT="nur" HPOS="753" VPOS="3658" WIDTH="71" HEIGHT="69"/>
+            <SP HPOS="824" VPOS="3658" WIDTH="1"/>
+            <String ID="L0066_W07" CONTENT="Gretel" HPOS="825" VPOS="3626" WIDTH="134" HEIGHT="101"/>
+            <SP HPOS="959" VPOS="3626" WIDTH="1"/>
+            <String ID="L0066_W08" CONTENT="geheißen," HPOS="960" VPOS="3650" WIDTH="189" HEIGHT="49"/>
+            <SP HPOS="1149" VPOS="3650" WIDTH="6"/>
+            <String ID="L0066_W09" CONTENT="iſt" HPOS="1155" VPOS="3626" WIDTH="37" HEIGHT="70"/>
+            <SP HPOS="1192" VPOS="3626" WIDTH="8"/>
+            <String ID="L0066_W10" CONTENT="bekannt;" HPOS="1200" VPOS="3626" WIDTH="172" HEIGHT="94"/>
+            <SP HPOS="1372" VPOS="3626" WIDTH="1"/>
+            <String ID="L0066_W11" CONTENT="Und" HPOS="1373" VPOS="3651" WIDTH="90" HEIGHT="76"/>
+            <SP HPOS="1463" VPOS="3651" WIDTH="4"/>
+            <String ID="L0066_W12" CONTENT="Er" HPOS="1467" VPOS="3650" WIDTH="56" HEIGHT="42"/>
+            <SP HPOS="1523" VPOS="3650" WIDTH="3"/>
+            <String ID="L0066_W13" CONTENT="haͤtte" HPOS="1526" VPOS="3626" WIDTH="89" HEIGHT="73"/>
+            <SP HPOS="1615" VPOS="3626" WIDTH="7"/>
+            <String ID="L0066_W14" CONTENT="beſſer" HPOS="1622" VPOS="3626" WIDTH="111" HEIGHT="75"/>
+            <SP HPOS="1733" VPOS="3626" WIDTH="2"/>
+            <String ID="L0066_W15" CONTENT="gethan" HPOS="1735" VPOS="3626" WIDTH="133" HEIGHT="75"/>
+            <SP HPOS="1868" VPOS="3626" WIDTH="5"/>
+            <String ID="L0066_W16" CONTENT="dieſen" HPOS="1873" VPOS="3626" WIDTH="110" HEIGHT="72"/>
+            <SP HPOS="1983" VPOS="3626" WIDTH="4"/>
+            <String ID="L0066_W17" CONTENT="ſchluͤpffe⸗" HPOS="1987" VPOS="3626" WIDTH="165" HEIGHT="101"/>
+          </TextLine>
+          <TextLine ID="L0067" HPOS="246" VPOS="3691" WIDTH="749" HEIGHT="54">
+            <String ID="L0067_W01" CONTENT="rigten" HPOS="246" VPOS="3694" WIDTH="110" HEIGHT="48"/>
+            <SP HPOS="356" VPOS="3694" WIDTH="8"/>
+            <String ID="L0067_W02" CONTENT="Poſten" HPOS="364" VPOS="3691" WIDTH="133" HEIGHT="49"/>
+            <SP HPOS="497" VPOS="3691" WIDTH="1"/>
+            <String ID="L0067_W03" CONTENT="in" HPOS="498" VPOS="3711" WIDTH="46" HEIGHT="23"/>
+            <SP HPOS="544" VPOS="3711" WIDTH="1"/>
+            <String ID="L0067_W04" CONTENT="Actis" HPOS="545" VPOS="3700" WIDTH="96" HEIGHT="34"/>
+            <SP HPOS="641" VPOS="3700" WIDTH="17"/>
+            <String ID="L0067_W05" CONTENT="nicht" HPOS="658" VPOS="3696" WIDTH="86" HEIGHT="48"/>
+            <SP HPOS="744" VPOS="3696" WIDTH="14"/>
+            <String ID="L0067_W06" CONTENT="zu" HPOS="758" VPOS="3707" WIDTH="36" HEIGHT="37"/>
+            <SP HPOS="794" VPOS="3707" WIDTH="10"/>
+            <String ID="L0067_W07" CONTENT="gedencken." HPOS="804" VPOS="3685" WIDTH="191" HEIGHT="60"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B015" TAGREFS="ROLE_signature-mark" HPOS="1360" VPOS="3697" WIDTH="74" HEIGHT="48">
+          <TextLine ID="L0068" HPOS="1360" VPOS="3697" WIDTH="74" HEIGHT="48">
+            <String ID="L0068_W01" CONTENT="F" HPOS="1347" VPOS="3679" WIDTH="46" HEIGHT="66"/>
+            <SP HPOS="1393" VPOS="3679" WIDTH="1"/>
+            <String ID="L0068_W02" CONTENT="2" HPOS="1394" VPOS="3713" WIDTH="40" HEIGHT="23"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="B016" TAGREFS="ROLE_catch-word" HPOS="2072" VPOS="3703" WIDTH="76" HEIGHT="41">
+          <TextLine ID="L0069" HPOS="2072" VPOS="3703" WIDTH="76" HEIGHT="41">
+            <String ID="L0069_W01" CONTENT="Die" HPOS="2065" VPOS="3703" WIDTH="83" HEIGHT="41"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

@@ -1,7 +1,7 @@
 import sys, json, os, collections
 sys.path.insert(0, '/home/user/BBVLM/loop/outils')
 from cer import vue
-A = 'audit2627/'; carte = json.load(open(A + 'carte.json'))
+A = sys.argv[1] if len(sys.argv)>1 and not sys.argv[1].startswith('--') else 'audit2627/'; carte = json.load(open(A + 'carte.json'))
 T = collections.defaultdict(list)
 for f in ('lot0_1', 'lot0_2', 'lot1_1', 'lot1_2'):
     for x in json.load(open(A + f + '.json')): T[x['image'][:-4]].append(x['texte'])

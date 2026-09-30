@@ -1,0 +1,44 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "ren ꝛc. oder in eine ſolche Colic, die ſich dem",
+  "Y": "ren ac. oder in eine ſolche Colic, die ſich dem",
+  "divergences_X_vers_Y": [
+   [
+    "ꝛ",
+    "a"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o28/albedm_837425875_00000034//p3i_final.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "wendigen Theile. conf. Stahlius de Po-",
+  "Y": "wendigen Theile. conf Stahlius de Po-",
+  "divergences_X_vers_Y": [
+   [
+    ".",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o28/albedm_837425875_00000034//p3i_final.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "1370. Aus dem Podagrâ junger Leute er⸗",
+  "Y": "1370. Aus dem Podagra junger Leute er⸗",
+  "divergences_X_vers_Y": [
+   [
+    "â",
+    "a"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o28/albedm_837425875_00000034//p3i_final.txt"
+ }
+]
