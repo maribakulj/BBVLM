@@ -74,6 +74,7 @@ def renvois(gray, boites, ocr, textes, dossier=None, lang='script/Fraktur'):
     Tesseract avec boîtes de mots ; la suite finale de jetons chiffrés (chiffres,
     points, tirets) est détachée si elle commence après la moitié de la ligne :
     le renvoi devient une ligne candidate que l'ancrage S05 peut recevoir.
+    Les deux modèles Tesseract sont essayés (celui de l'écriture d'abord).
     Garde-fou : ses chiffres doivent être ceux d'une ligne chiffrée de la lecture
     (sinon « … Beſatzung aus 500 » serait coupé, briedefra).
     Les blancs d'encre seuls ne suffisent pas : ceux du renvoi (« 1. — 6. »)
@@ -92,13 +93,16 @@ def renvois(gray, boites, ocr, textes, dossier=None, lang='script/Fraktur'):
         x0, y0, x1, y1 = map(int, b); h = y1 - y0
         if not re.search(r'\d[\s.,]*$', o or '') or (x1 - x0) < 6 * h:
             out.append(b); continue
-        mots = mots_ligne(gray, b, lang, cache, f'{lang}|{x0},{y0},{x1},{y1}')
-        k = len(mots)
-        while k > 0 and num.fullmatch(mots[k-1][0]): k -= 1
-        if k == 0 or k == len(mots) or not any(c.isdigit() for m in mots[k:] for c in m[0]) \
-           or mots[k][1] < x0 + 0.5 * (x1 - x0) or chif(''.join(m[0] for m in mots[k:])) not in lus:
+        cut = None
+        for lg in (lang, 'lat' if lang != 'lat' else 'script/Fraktur'):   # « 1. » lu « j. » par lat (852691769)
+            mots = mots_ligne(gray, b, lg, cache, f'{lg}|{x0},{y0},{x1},{y1}')
+            k = len(mots)
+            while k > 0 and num.fullmatch(mots[k-1][0]): k -= 1
+            if 0 < k < len(mots) and mots[k][1] >= x0 + 0.5 * (x1 - x0) \
+               and chif(''.join(m[0] for m in mots[k:])) in lus - {''}:
+                cut = (mots[k-1][2] + mots[k][1]) // 2; break
+        if cut is None:
             out.append(b); continue
-        cut = (mots[k-1][2] + mots[k][1]) // 2
         crop = gray[y0:y1+1, x0:x1+1]
         _, bw = cv2.threshold(crop, 0, 1, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
         parts = []
