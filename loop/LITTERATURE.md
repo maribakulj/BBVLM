@@ -355,3 +355,7 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 ## L43 — Nettoyage des petites composantes (Likforman-Sulem et al., « Text Line Segmentation of Historical Documents: a Survey », arXiv 0704.1267 ; pratique courante despeckle)
 - Apport : les taches issues de la binarisation (composantes connexes petites et isolées) sont retirées par un seuil de taille avant de calculer les boîtes ; le seuil se fixe relativement à la région (ex. < 1 % de la surface). Justifie S18 : taches détachées au-dessus/au-dessous d'une ligne qui gonflent sa boîte (goclprop, manchette « Exerc. 107. diſt. 2. » : haut 1452 au lieu de 1468, IoU 0,49).
 - Limite : seuils génériques ; risque sur signes détachés légitimes (points, trémas, accents d'une ligne courte) → seuil sur la masse totale du groupe détaché, pas par composante.
+
+## L44 — OCR-D GT-Richtlinien, Leerzeichen (ocr-d.de/de/gt-guidelines/trans/leerzeichen.html ; Level 1/2)
+- Apport : « Anführungszeichen und Klammern stehen ohne Leerzeichen direkt am umschlossenen Text » ; ponctuation collée au mot précédent, suivie d'une espace. La VT SBB le suit : 36 « „x », 0 « „ x » sur nos 64 pages. Justifie R6 (espace après guillemet ouvrant „ ‚ retirée), complément de R3 (parenthèse) et R4 (point d'abréviation).
+- Limite : » et « servent d'ouvrant ou de fermant selon la langue (allemand »…«, français « … ») : R6 limitée aux ouvrants non ambigus „ et ‚.

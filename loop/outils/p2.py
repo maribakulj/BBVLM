@@ -34,6 +34,9 @@ def parenthese(l):
         l = re.sub(r'(\w)\.(\w)', r'\1. \2', l)
         l = re.sub(r'(\w)\.(\w)', r'\1. \2', l)
         l = l.replace('\x00', '.')
+    if os.environ.get('BBVLM_R6', '0') == '1':
+        # R6 (L44) : guillemet ouvrant collé au texte qu'il encadre (VT : 36 « „x », 0 « „ x »)
+        l = re.sub(r'([„‚]) (?=\w)', r'\1', l)
     return l
 
 
