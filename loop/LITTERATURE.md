@@ -272,3 +272,8 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 - Sources : revues sur la segmentation de lignes et la mise en page des documents historiques (IJDAR 2025, « Recent advances in text line segmentation and baseline detection… » ; arXiv 0704.1267) ; docExtractor (arXiv 2012.08191) : la mise en page découpe les régions au niveau du paragraphe ; brevets d'analyse d'alignement (variance des retraits gauche/droite, première et dernière ligne exclues).
 - Apport : indices classiques d'un début de paragraphe : retrait de première ligne, dernière ligne courte, blanc interligne accru.
 - Limite : sur culmsent (O25), la VT découpe une liste de sentences en 4 blocs sans retrait ni ligne courte distinctifs ; aucun indice géométrique simple ne reproduit ce découpage — pas d'hypothèse ouverte tant qu'un cas à indice visible n'est pas trouvé.
+
+## L27 — Estimer la qualité d'un OCR sans vérité terrain
+- Sources : « Evaluation of HTR models without Ground Truth Material » (arXiv 2201.06170) ; « Profiling of OCR'ed Historical Texts Revisited » (arXiv 1701.05377) ; travaux sur l'accord entre deux moteurs OCR comme prédicteur du taux d'erreur (R² élevé rapporté sur des documents modernes).
+- Apport : l'accord caractère à caractère entre deux reconnaisseurs indépendants prédit la qualité d'une page ; nous disposons déjà gratuitement d'un second reconnaisseur (Tesseract, lu pour l'ancrage S05).
+- Limite : Tesseract est bien moins bon que le VLM sur nos pages (son désaccord mesure aussi sa propre faiblesse : écriture, mise en page) ; le signal peut refléter la difficulté de la page pour Tesseract plutôt que l'incertitude du VLM.
