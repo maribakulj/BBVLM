@@ -966,3 +966,8 @@ isolé. Pas de correctif.
 - CRITERE 19 → **21/44** : berirev ✓ (1 → 0 ligne en échec), eberbrev ✓ (1 → 0), erasexom 9 → 8 ; aucune page dégradée.
 - CRITERE avec S08c v4 seul (avant S09b) : 19/44, identique à S02c.
 - Frontières (730277879 92,7 %, canitrac 94,5 %) examinées : boîtes prédites contiguës (aucun blanc trouvé, coupe proportionnelle). 730277879 : tiret « — » soudé aux mots voisins (« beſtimmt.—Man ») que la VT sépare en trois mots ; canitrac : croix « † » en tête de ligne, comptée comme mot, absente du masque → tous les mots décalés d'un cran. Cas typographiques isolés, au cœur du boxer (Compose) ; notés, non traités.
+
+## G06 — boîte G04b pour les mots, choisie ligne par ligne — REJETÉ (30/09, 05h22 Paris)
+- Piste listée dans ETAT (« recaler le calcul des mots sur G04b partout ») : G05 choisit la boîte G04b pour toute la page si le haut des lignes descend en médiane de ≥ 0,05 h ; G06 applique le même seuil à chaque ligne (BBVLM_MOTS_G04=ligne).
+- Banc arrêté à 11 pages (texte + IoU80, G05 contre G06) : gains AphoqvSuS +0,009, geomeikud +0,009, backhart +0,007 ; pertes culmsent 0,851 → 0,773, hackherz −0,011, herrleyc −0,011, berirev −0,004. Le choix par page (G05) est plus sûr : une décision ligne à ligne suit le bruit du resserrage.
+- Décision : rejeté, mode laissé en option.
