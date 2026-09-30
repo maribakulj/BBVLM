@@ -10,3 +10,4 @@ Deux relecteurs Opus aveugles, 135 vignettes de lignes (×2).
 - T07b : même glissement sur « angezeygtẽ » / « angezeygten ».
 - T07c : corrige « Glaͤubige tragen », « ihm viel », « diß Leben », « von » (hackherz) ; aucune autre ligne touchée ; les cas avec ponctuation (« vff.xxxviij. ») sont exclus par construction.
 Statut : critère texte tenu sur le pilote, mais les variantes b et c ont été ajustées sur ces 4 pages (procédure mécanique du report, pas de seuil) ; gain faible (−2). À valider sur d'autres pages de développement avant adoption ; coût = 2 passes VLM supplémentaires par page.
+- CRITERE hackherz/24 avec le texte T07c : 2 → **0** ligne en échec, pire écart 8,79 → **0,58 c**, ≤ 0,5 c 98,45 → 99,52 % : la page **passe** (l'erreur de boîte de 8,79 c venait de la soudure « Glaͤubigetragen »). Texte de la page restauré après la mesure.
