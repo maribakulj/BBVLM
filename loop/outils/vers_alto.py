@@ -228,7 +228,7 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
                     for a, b in aligne(mots, eux).items():
                         p, q, r_, s_ = bs[a]
                         bs[a] = (eux[b][1], q, eux[b][2], s_)
-                if ok and os.environ.get('BBVLM_W02', '0') == '1':      # W02 : coupure choisie par Tesseract, bords à l'encre
+                if ok and os.environ.get('BBVLM_W02', '1') == '1':      # W02 : coupure choisie par Tesseract, bords à l'encre
                     from w02 import ajuste
                     lg = 'script/Fraktur' if ecr == 'fraktur' else 'lat'
                     bs = ajuste(g, (x0, y0, x1, y1), mots, bs, lg, _mt, f"{lg}|{x0},{y0},{x1},{y1}")
