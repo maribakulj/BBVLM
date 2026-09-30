@@ -1038,3 +1038,6 @@ Littérature L23 (MUFI : U+F50D = q + aigu + ꝫ ; la VT emploie aussi « q; »)
 
 ## A01b — audit aveugle du reste des verdicts (30/09, ~10h55 Paris) — hypothèse tenue
 90 lignes, 31 pages, même règle qu'A01. Confirmés 54, indécis 32, annulés 4 (4,4 %) : blancs/ponctuation (extraudeu ×2, bankgraf) et canitrac « pleriq; » (accent perdu). Total contre l'adjugée auditée 283 → 281 ; pages à 0 : 11/50 ; pire extraudeu 42. Toutes les références adjugées sont désormais auditées. Détail : a01b/RESULTATS.md.
+
+## Inventaire des 281 éd. restantes (30/09, ~11h05 Paris, CPU)
+Référence adjugée auditée, vue glyphe, par opération d'édition : lettre 109, inflexion 49, lignes manquantes/en trop 42, blancs 26, ponctuation 25, coupure 18, ſ/s 7, J/I 5. Concentrations : extraudeu (lignes fusionnées, lecture antérieure à P6e), buchdas (VT « ii » pour uͤ ×10 lignes — faute de la VT que les deux arbitres rejettent sans s'accorder sur ü/uͤ, donc gardée par A2 ; points médians « ·xvij· » lus « . xvij. », 12 éd., seule page des 76 VT à en avoir), herrkurt (lecture antérieure aux jetons {florin}/{groschen} de P6 : « fk »/« gK » au lieu de U+F2E8/F2E9), eberbrev (⸗/- 13). Pas de nouvelle règle générale justifiée par ces restes : ce sont soit des lectures archivées antérieures aux consignes actuelles, soit des fautes de VT non tranchées (A3), soit des traits propres à une seule page.
