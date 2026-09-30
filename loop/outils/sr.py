@@ -41,10 +41,11 @@ def _recouvre(a, b, f=.5):
     return ix * iy > f * min((a[2] - a[0]) * (a[3] - a[1]), (b[2] - b[0]) * (b[3] - b[1]))
 
 
-def scissions(gray, boites, fh=1.6, creux=.1):
-    """boîtes trop hautes (≥ fh × hauteur médiane) coupées à tous les creux profonds du profil
-    d'encre horizontal (< creux × max) : chaque bande et chaque suite contiguë de bandes
-    (hors la boîte entière), resserrées à l'encre"""
+def scissions(gray, boites, fh=1.6, creux=.1, im=None):
+    """boîtes trop hautes (≥ fh × hauteur médiane) : bandes = suites de rangées encrées
+    (encre sombre < Otsu, neutre si l'image couleur est fournie, ≥ max(1 % de la largeur,
+    creux × pic du profil)) ; candidates = chaque bande et chaque suite contiguë de bandes
+    (hors la boîte entière)"""
     import cv2
     B = [list(map(int, b)) for b in boites]
     if not B: return []
@@ -52,28 +53,56 @@ def scissions(gray, boites, fh=1.6, creux=.1):
     for b in B:
         h = b[3] - b[1]
         if h < fh * hm: continue
-        c = gray[max(0, b[1]):b[3], max(0, b[0]):b[2]]
+        x0, y0, x1, y1 = max(0, b[0]), max(0, b[1]), b[2], b[3]
+        c = gray[y0:y1, x0:x1]
         if c.size == 0: continue
-        t = cv2.threshold(c, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)[1] > 0
-        p = np.convolve(t.sum(1).astype(float), np.ones(5) / 5, mode='same')
-        bas = p < creux * p.max()
-        coupes, y = [], 0
-        while y < h:
-            if bas[y]:
+        m = c < cv2.threshold(c, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[0]
+        if im is not None:
+            rgb = im[y0:y1, x0:x1].astype(int); m &= (rgb.max(2) - rgb.min(2)) < 60
+        p = np.convolve(m.sum(1).astype(float), np.ones(3) / 3, mode='same')
+        haut = p >= max(.01 * (x1 - x0), creux * np.percentile(p, 95))
+        bandes, y = [], 0
+        while y < len(haut):
+            if haut[y]:
                 z = y
-                while z < h and bas[z]: z += 1
-                if 0 < y and z < h: coupes.append((y + z) // 2)
+                while z < len(haut) and haut[z]: z += 1
+                if z - y >= 3:
+                    # jambages et points : la bande s'étend tant que la rangée voisine porte un peu d'encre
+                    ya, yb = y, z
+                    while ya > 0 and m[ya - 1].sum() >= 2: ya -= 1
+                    while yb < len(haut) and m[yb].sum() >= 2: yb += 1
+                    bandes.append((ya, yb))
                 y = z
             else: y += 1
-        bords = [0] + coupes + [h]
-        for a in range(len(bords) - 1):
-            for e in range(a + 1, len(bords)):
-                if a == 0 and e == len(bords) - 1: continue
-                y0, y1 = bords[a], bords[e]
-                r = np.where(t[y0:y1].any(1))[0]
-                if len(r) < 3 or r[-1] - r[0] < .4 * hm: continue
-                out.append((b[0], b[1] + y0 + int(r[0]), b[2], b[1] + y0 + int(r[-1]) + 1))
+        bandes = sorted(set(bandes))
+        for a in range(len(bandes)):
+            for e in range(a, len(bandes)):
+                ya, yb = bandes[a][0], bandes[e][1]
+                if yb - ya < .4 * hm or (ya <= 1 and yb >= h - 1): continue
+                out.append((b[0], y0 + ya, b[2], y0 + yb))
     return list(dict.fromkeys(out))
+
+
+def resserre(dossier, boites, gain=.15):
+    """boîtes resserrées verticalement à l'encre neutre et sombre (exclut tampons et encres
+    colorées : pixel sombre (< Otsu du crop) et peu chromatique (max-min RGB < 60)) ;
+    gardées si la hauteur baisse d'au moins `gain`"""
+    import cv2
+    im = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_COLOR)
+    if im is None: return []
+    g = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY); out = []
+    for b in [list(map(int, b)) for b in boites]:
+        x0, y0, x1, y1 = max(0, b[0]), max(0, b[1]), b[2], b[3]
+        c = g[y0:y1, x0:x1]
+        if c.size == 0: continue
+        t = cv2.threshold(c, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[0]
+        rgb = im[y0:y1, x0:x1].astype(int)
+        m = (c < t) & ((rgb.max(2) - rgb.min(2)) < 60)
+        r = np.where(m.sum(1) >= .01 * (x1 - x0))[0]
+        if len(r) < 3: continue
+        ny0, ny1 = y0 + int(r[0]), y0 + int(r[-1]) + 1
+        if (ny1 - ny0) <= (1 - gain) * (y1 - y0): out.append((b[0], ny0, b[2], ny1))
+    return out
 
 
 def candidates(boites, nmax=3, extra=()):
@@ -92,12 +121,16 @@ def candidates(boites, nmax=3, extra=()):
     return list(dict.fromkeys(C))
 
 
-def choisit(gray, textes, boites, tau=4.5):
+def choisit(gray, textes, boites, tau=4.5, dossier=None):
     """rend {indice texte: boîte choisie} — choix glouton global : paires (ligne lue, candidate)
     triées par score croissant ; une paire est prise si la ligne est libre et la candidate ne
     recouvre aucune candidate déjà prise"""
     import os
-    C = candidates(boites, extra=scissions(gray, boites) if os.environ.get('BBVLM_SR_SCINDE', '0') == '1' else ())
+    import cv2 as _cv
+    _im = _cv.imread(f'{dossier}/page.png', _cv.IMREAD_COLOR) if dossier else None
+    ex = list(scissions(gray, boites, im=_im)) if os.environ.get('BBVLM_SR_SCINDE', '0') == '1' else []
+    if os.environ.get('BBVLM_SR_SERRE', '0') == '1' and dossier: ex += resserre(dossier, boites)
+    C = candidates(boites, extra=ex)
     if not textes or not C: return {}
     paires = sorted((s, i, k) for i, t in enumerate(textes) for k, c in enumerate(C)
                     for s in [score(gray, c, t)] if s <= tau)

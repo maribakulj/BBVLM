@@ -152,7 +152,7 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         # les lignes kraken non recouvertes par une boîte choisie sont gardées telles quelles
         from sr import choisit, _recouvre
         _gs = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
-        ch = list(choisit(_gs, lignes, [l['bbox'] for l in kr], float(os.environ.get('BBVLM_SR_TAU', '4.5'))).values())
+        ch = list(choisit(_gs, lignes, [l['bbox'] for l in kr], float(os.environ.get('BBVLM_SR_TAU', '4.5')), dossier).values())
         garde = {tuple(map(int, l['bbox'])): l for l in kr}
         nkr = [garde.get(tuple(b), {'bbox': list(b)}) for b in ch]
         _neuves = [b for b in ch if tuple(b) not in garde]

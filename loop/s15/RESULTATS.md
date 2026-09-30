@@ -36,3 +36,8 @@ Cause de l'échec de S11 sur geomeikud/37 : Tesseract lit « ij. » → « Li. �
 
 ## T02 — perte CTC (W05) comme arbitre des blancs d'une ligne lue : NÉGATIF (essai, 30/09)
 Lignes de l'audit A04 (relecteurs aveugles = vérité) : ligne kraken appariée à la VT, perte CTC de notre lecture contre la même lecture avec les blancs de la VT (reblanc). Cas nets : « vff.xxxviij. jar » (VT) préféré ✓ ; « Krieges⸗ und » ✓ ; mais « ihmviel » (soudé, faux) préféré à « ihm viel » (1,33 contre 1,45) ✗ ; plusieurs variantes mal construites quand les glyphes VT diffèrent des nôtres (reblanc déporte les blancs). CATMuS distingue mal l'espace du blanc CTC : la perte n'est pas un arbitre fiable des soudures. Abandonné.
+
+## SR + scissions (BBVLM_SR_SCINDE)
+- v1 (coupe au creux le plus profond du tiers central) puis v2 (coupes à tous les creux, milieu du creux) : mesurées sur 5 lots, **aucun effet** (ni gain ni recul). Cause (durrgeda « JENA/ gedruckt… ») : la boîte kraken contient une frise en haut, le tampon rouge de la bibliothèque et le bord sombre de la page en bas ; la coupe au milieu du creux et le resserrement « un pixel d'encre suffit » gardaient le tampon.
+- v3 : bandes = suites de rangées encrées (encre sombre < Otsu ET neutre : max−min RGB < 60, ≥ 1 % de la largeur), étendues aux rangées voisines portant un peu d'encre (jambages) ; candidates = chaque bande ou suite contiguë. durrgeda : bande (707,3414,1697,3494) score 2,31 contre 4,19 pour la boîte kraken, IoU VT ≈ 0,71. Mesure complète lancée.
+- Candidate « resserrée » (BBVLM_SR_SERRE) : les extrêmes de la boîte (frise, bord de page) empêchent le resserrement ; remplacée par la v3 des scissions (non mesurée).
