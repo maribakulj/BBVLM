@@ -1,0 +1,54 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "liche Widerlegung. Fr. A.]",
+  "Y": "liche Widerlegnng. Fr. A.]",
+  "divergences_X_vers_Y": [
+   [
+    "u",
+    "n"
+   ]
+  ]
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "„ſind vier Heinrichs 10 Schilling in Franzoͤſiſchen Kronen",
+  "Y": "„ſind vier Heinrichs 1o Schilling in Franzoͤſiſchen Kronen",
+  "divergences_X_vers_Y": [
+   [
+    "0",
+    "o"
+   ]
+  ]
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "„ich mir nicht ſoviel draus machen.“ Schakespeare.",
+  "Y": "„ich mir nicht ſoviel draus macheu.“ Schakespeare.",
+  "divergences_X_vers_Y": [
+   [
+    "n",
+    "u"
+   ]
+  ]
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "ſchlechtem Geſchmack gemein haben, und mit den Herrn * * *",
+  "Y": "ſchlechtem Geſchmack gemein haben, und mit den Herrn ***",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ],
+   [
+    " ",
+    ""
+   ]
+  ]
+ }
+]

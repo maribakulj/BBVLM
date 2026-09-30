@@ -1,0 +1,62 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "liche Widerlegung. Fr. A.]",
+  "Y": "liche Widerlegnng. Fr. A.]",
+  "divergences_X_vers_Y": [
+   [
+    "u",
+    "n"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o27/briedefra_788606417_00000131//p3i_final.txt"
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "„ſind vier Heinrichs 10 Schilling in Franzoͤſiſchen Kronen",
+  "Y": "„ſind vier Heinrichs 1o Schilling in Franzoͤſiſchen Kronen",
+  "divergences_X_vers_Y": [
+   [
+    "0",
+    "o"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o27/briedefra_788606417_00000131//p3i_final.txt"
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "„ich mir nicht ſoviel draus machen.“ Schakespeare.",
+  "Y": "„ich mir nicht ſoviel draus macheu.“ Schakespeare.",
+  "divergences_X_vers_Y": [
+   [
+    "n",
+    "u"
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o27/briedefra_788606417_00000131//p3i_final.txt"
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "ſchlechtem Geſchmack gemein haben, und mit den Herrn * * *",
+  "Y": "ſchlechtem Geſchmack gemein haben, und mit den Herrn ***",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ],
+   [
+    " ",
+    ""
+   ]
+  ],
+  "_ref": "Y",
+  "_lecture": "/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/o27/briedefra_788606417_00000131//p3i_final.txt"
+ }
+]
