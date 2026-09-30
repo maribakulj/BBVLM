@@ -222,3 +222,8 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
   manchettes, titres, en-têtes ; lignes par masque dense.
 - Limite : TensorFlow, modèles 1,9 Go, lent sur CPU ; pas d'ordre ni de texte ;
   à n'utiliser ici que pour retrouver les lignes que kraken manque.
+
+## L17 — Tables des matières : titres + colonne de renvois (S08c)
+- Source : « Reconstructing the Table of Contents a PDF Forgot to Ship » (Towards Data Science) ; pdf_oxide issue #1605 (listes à points de conduite prises pour des tableaux).
+- Apport : le renvoi aligné à droite est un signal de mise en page propre aux tables ; les moteurs le coupent tantôt trop (cellules), tantôt pas (ligne unique) ; il se traite au niveau des jetons de ligne (texte + position), indépendamment du moteur.
+- Limite : sources grand public, PDF natifs, pas d'évaluation ; rien sur le Fraktur ni sur des renvois sans points de conduite. Confirme seulement le choix S08c : couper par jetons (boîtes de mots Tesseract), pas par blancs d'encre.
