@@ -57,23 +57,15 @@ def candidates(boites, nmax=3):
 
 
 def choisit(gray, textes, boites, tau=4.5):
-    """rend {indice texte: boîte choisie} — affectation globale sans chevauchement"""
-    from scipy.optimize import linear_sum_assignment
+    """rend {indice texte: boîte choisie} — choix glouton global : paires (ligne lue, candidate)
+    triées par score croissant ; une paire est prise si la ligne est libre et la candidate ne
+    recouvre aucune candidate déjà prise"""
     C = candidates(boites)
-    T = [t for t in textes]
-    if not T or not C: return {}
-    M = np.array([[score(gray, c, t) for c in C] for t in T])
-    M = np.where(np.isfinite(M), M, 1e6)
-    interdit = set(); res = {}
-    for _ in range(10):
-        X = M.copy()
-        for (i, k) in interdit: X[i, k] = 1e6
-        ri, ki = linear_sum_assignment(X)
-        paires = sorted([(X[i, k], i, k) for i, k in zip(ri, ki) if X[i, k] <= tau])
-        res, pris, conflit = {}, [], False
-        for s, i, k in paires:
-            if any(_recouvre(C[k], C[k2]) for k2 in pris):
-                interdit.add((i, k)); conflit = True; continue
-            res[i] = C[k]; pris.append(k)
-        if not conflit: break
+    if not textes or not C: return {}
+    paires = sorted((s, i, k) for i, t in enumerate(textes) for k, c in enumerate(C)
+                    for s in [score(gray, c, t)] if s <= tau)
+    res, pris = {}, []
+    for s, i, k in paires:
+        if i in res or any(_recouvre(C[k], C[k2]) for k2 in pris): continue
+        res[i] = C[k]; pris.append(k)
     return res
