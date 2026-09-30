@@ -1086,3 +1086,6 @@ Calamari 2.3.1 + modèles GT4HistOCR (git, accessibles) installés ; positions v
 
 ## 2026-09-30 11h53 — W04 : alignement CTC kraken CATMuS (négatif)
 O18 : CRITERE 2/4 contre 3/4 par défaut, IoU en baisse sur 3 pages (brieetli 0,971 → 0,926), geomeikud pire 0,16 → 3,18 c. Rejeté. Voir w04/RESULTATS.md.
+
+## 2026-09-30 11h59 — R02 : relecture P6e des trois pages périmées
+extraudeu 42 → 2, herrkurt 28 → 20, hermhyst 23 → 24 (chant sous portée : fusion de deux blocs persistante). Total 93 → 46 : hypothèse (≤ 45) manquée de peu, hermhyst empire d'une éd. Les chiffres R02 remplacent les anciens (bilan 58 pages glyphe 304 → 257, norm 260 → 201). Voir r02/RESULTATS.md.
