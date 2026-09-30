@@ -1119,3 +1119,7 @@ CRITERE O07-O17 25 → 26/44 (buchdas/24), lignes en échec en baisse, mais text
 
 ## 2026-09-30 15h00 — A02 : audit aveugle du verdict hackherz (maintenu)
 Deux relecteurs aveugles : « 2. Cor. XII. 3. 4 » (identique à R4), ni la VT ni le verdict ; règle A01 non remplie, verdict maintenu, R3/R4 restent rejetées. Constat : verdicts antérieurs à P6d hétérogènes avec la convention actuelle des blancs. Voir a02/RESULTATS.md.
+
+## 2026-09-30 15h18 — Référence reproductible et R5 adoptée
+- Report des lectures R02 dans les lots (extraudeu 3 → 2 lignes en échec, herrkurt 2 → 4). Cache W05 rendu reproductible (même chemin float32 au premier appel) ; référence complète depuis le cache : CRITERE **33/60** confirmé (etat_1515/).
+- Cause herrkurt : fractions « 1½ » lues soudées, VT « 1 ½ » (3/0). R5 (blanc entre entier et fraction) : texte herrkurt 20 → 17, lignes en échec 4 → 1, autres pages identiques. Adoptée.
