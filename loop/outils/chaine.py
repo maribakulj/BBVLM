@@ -5,7 +5,7 @@ script, sur les fichiers qu'il prépare) :
   prepare DOSSIER      vues (page, bandes, moitiés ×1,6) + segmentation kraken
   [VLM] deux lectures indépendantes → DOSSIER/lu_a.txt, DOSSIER/lu_b.txt
         (mode économe : lu_a seule ; O10-O13 : 126-131 éditions contre 122, −50 % de lecture)
-                        (consigne outils/consigne_P6d.md (P6 + espace après un point d abréviation, O21b))
+                        (consigne outils/consigne_P6e.md (P6 + abréviations O21b + deux blocs = deux lignes O22))
   arbitrage DOSSIER    p2 (OCR-D, R1, R2) sur A et B, lignes resserrées,
                         recadrage des seules lignes en désaccord → DOSSIER/p3/taches.json
   [VLM] arbitre (outils/consigne_arbitre_P3.md) → DOSSIER/p3/verdicts.json

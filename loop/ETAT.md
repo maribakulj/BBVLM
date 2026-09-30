@@ -21,7 +21,7 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 ## Chaîne actuelle (P3 + ALTO)
 
 1. Vues : page réduite + bandes pleine résolution + moitiés ×1,6 (`prep_sbb.py`, `vues_zoom.py`).
-2. Deux passes Opus, consigne `outils/consigne_P6d.md` (P6 + règle des abréviations, O21b) (OCR-D niveau 2, écriture déclarée, rôle par ligne, fractions, jetons {florin}/{groschen}).
+2. Deux passes Opus, consigne `outils/consigne_P6e.md` (P6 + abréviations O21b + deux blocs sur une ligne = deux lignes O22) (OCR-D niveau 2, écriture déclarée, rôle par ligne, fractions, jetons {florin}/{groschen}).
 3. P3b : les lignes portées par une seule lecture sont aussi arbitrées. `p2.py` : jetons → PUA, qꝫ → U+E8BF (L1), ’ → ' (L2), conformité OCR-D des espaces, R1 si Fraktur, R2 (ů/uͤ par lexique).
 4. `p3.py` : lignes en désaccord recadrées via kraken, arbitrées par Opus (`consigne_arbitre_P3.md`, repli sur les bandes).
 5. I01 : signe d'inflexion de l'imprimeur décidé par page (même appel que l'arbitre P3).
