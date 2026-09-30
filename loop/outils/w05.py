@@ -19,13 +19,36 @@ CHEMIN = os.path.expanduser('~/Library/Application Support/htrmopo/d96caf7a-122e
 def modele():
     global _M
     if _M is None:
+        import torch
+        torch.set_num_threads(int(os.environ.get('BBVLM_W05_FILS', '1')))
         from kraken.lib import models
         _M = models.load_any(CHEMIN)
     return _M
 
 
 def emissions(gray, box, binarise=False):
-    """(T, C) log-probabilités et fonction trame → x page"""
+    """(T, C) log-probabilités et fonction trame → x page ; cache .npz si BBVLM_W05_CACHE"""
+    cache = os.environ.get('BBVLM_W05_CACHE')
+    if cache:
+        import hashlib
+        cle = hashlib.sha1(f'{gray.shape}{int(gray[::97, ::89].sum())}{tuple(int(v) for v in box)}{binarise}'.encode()).hexdigest()
+        f = os.path.join(cache, cle + '.npz')
+        if os.path.exists(f):
+            z = np.load(f)
+            xs = z['xs']
+            return z['lp'], (lambda t: float(np.interp(t, np.arange(len(xs)), xs))), _Rec(str(z['pred']))
+        lp, sc, rec = _emissions(gray, box, binarise)
+        os.makedirs(cache, exist_ok=True)
+        np.savez_compressed(f, lp=lp.astype(np.float32), xs=np.array([sc(t) for t in range(lp.shape[0] + 1)]), pred=str(rec.prediction or ''))
+        return lp, sc, rec
+    return _emissions(gray, box, binarise)
+
+
+class _Rec:
+    def __init__(self, p): self.prediction = p
+
+
+def _emissions(gray, box, binarise=False):
     from PIL import Image
     from kraken import rpred
     from kraken.containers import Segmentation, BaselineLine
