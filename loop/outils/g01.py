@@ -42,9 +42,13 @@ def charge(dossier, lecture):
     # adjugée auditée) : ses boîtes de mots VT ne peuvent pas juger une lecture
     # juste → exclue de CRITERE et comptée à part (charge.exclues)
     adj = ref
-    if os.environ.get('BBVLM_C02', '1') == '1' and os.path.exists(f'{dossier}/adj/verdicts.json'):
+    C02 = os.environ.get('BBVLM_C02', '2')
+    if C02 in ('1', '2') and os.path.exists(f'{dossier}/adj/verdicts.json'):
         from bilan_adj import reference_adjugee
         adj = reference_adjugee(dossier)[0]
+    # C02b : l'exclusion exige en plus que les deux relecteurs aveugles de l'audit
+    # (A01/A01b/T01) aient le nombre de mots de la référence adjugée
+    audit = json.load(open(os.path.join(os.path.dirname(__file__), '..', 'c02', 'audit_mots.json'))).get(os.path.basename(dossier.rstrip('/')), {}) if C02 == '2' else None
     charge.exclues = 0
     lignes, echec_compte = [], 0
     for k, i in enumerate(idx):
@@ -55,7 +59,9 @@ def charge(dossier, lecture):
             ws.append(u.text.strip()); bs.append(corpora._box(wc.get('points')))
         if len(ws) < 2: continue
         mots = m.get(k, '').split()
-        if len(adj[i].split()) != len(ws) and len(mots) == len(adj[i].split()): charge.exclues += 1; continue
+        na = len(adj[i].split())
+        if na != len(ws) and len(mots) == na and (audit is None or audit.get(vue(ref[i], 'glyphe')) == [na, na]):
+            charge.exclues += 1; continue
         if len(mots) != len(ws): echec_compte += 1; continue
         lignes.append(corpora.Line(' '.join(mots), mots, corpora._box(tl.find('p:Coords', N).get('points')), bs))
     return corpora.Page(page, ouvrage, f'{dossier}/page.png', lignes), echec_compte
