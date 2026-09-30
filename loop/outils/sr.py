@@ -219,3 +219,28 @@ def choisit(gray, textes, boites, tau=4.5, dossier=None):
                   'res': {str(i): list(map(int, b)) for i, b in res.items()}},
                  open(os.path.join(os.environ['BBVLM_SR_DUMP'], dossier.rstrip('/').split('/')[-1] + '.json'), 'w'))
     return res
+
+
+def detache(gray, b, masse=15):
+    """S18 : retire en haut et en bas de la boîte les groupes de rangées d'encre détachés
+    (séparés du corps par au moins une rangée blanche) dont la masse totale est < `masse` px :
+    taches de binarisation qui gonflent la boîte (L43)"""
+    import cv2
+    x0, y0, x1, y1 = [int(v) for v in b]
+    H, W = gray.shape
+    c = gray[max(0, y0):min(H, y1 + 1), max(0, x0):min(W, x1 + 1)]
+    if c.size < 16: return list(b)
+    t = cv2.threshold(c, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[0]
+    r = (c < t).sum(1)
+    # groupes de rangées non vides
+    g, cur = [], None
+    for y, v in enumerate(r):
+        if v and cur is None: cur = [y, y, int(v)]
+        elif v: cur[1] = y; cur[2] += int(v)
+        elif cur is not None: g.append(cur); cur = None
+    if cur is not None: g.append(cur)
+    if len(g) < 2: return list(b)
+    i, j = 0, len(g) - 1
+    while i < j and g[i][2] < masse: i += 1
+    while j > i and g[j][2] < masse: j -= 1
+    return [x0, max(0, y0) + g[i][0], x1, max(0, y0) + g[j][1]]

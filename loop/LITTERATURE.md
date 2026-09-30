@@ -351,3 +351,7 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 ## L42 — Error Patterns in Historical OCR: TrOCR vs a VLM (arXiv 2602.14524, 2026)
 - Apport : les erreurs de frontière de mots (soudures, coupures) sont une classe systématique des VLM ; elles se concentrent autour de la ponctuation, chez les deux systèmes. Concorde avec nos 18 lignes (« Thren.3. », « Exerc.107.diſt.2. », « Krieges⸗und », « nimmt⸗ »).
 - Limite : analyse seule, aucune remédiation (ni consigne ni post-traitement) ; Qwen, pas Claude ; imprimés non Fraktur.
+
+## L43 — Nettoyage des petites composantes (Likforman-Sulem et al., « Text Line Segmentation of Historical Documents: a Survey », arXiv 0704.1267 ; pratique courante despeckle)
+- Apport : les taches issues de la binarisation (composantes connexes petites et isolées) sont retirées par un seuil de taille avant de calculer les boîtes ; le seuil se fixe relativement à la région (ex. < 1 % de la surface). Justifie S18 : taches détachées au-dessus/au-dessous d'une ligne qui gonflent sa boîte (goclprop, manchette « Exerc. 107. diſt. 2. » : haut 1452 au lieu de 1468, IoU 0,49).
+- Limite : seuils génériques ; risque sur signes détachés légitimes (points, trémas, accents d'une ligne courte) → seuil sur la masse totale du groupe détaché, pas par composante.

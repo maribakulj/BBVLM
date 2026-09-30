@@ -161,6 +161,11 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         nkr += [l for l in kr if tuple(map(int, l['bbox'])) not in _pris and not any(_dans(l['bbox'], b) for b in _neuves)
                 and not any(_dans(b, l['bbox']) for b in _neuves)]      # scission choisie : la ligne d'origine cède la place
         kr = nkr
+    if os.environ.get('BBVLM_S18', '0') == '1':
+        # S18 (L43) : taches détachées en haut/bas de la boîte de ligne retirées
+        from sr import detache
+        _g18 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
+        kr = [{**l, 'bbox': detache(_g18, l['bbox']), **({'bbox_g04': detache(_g18, l['bbox_g04'])} if 'bbox_g04' in l else {})} for l in kr]
     if os.environ.get('BBVLM_S14', '1') == '1':      # S14 : lettrine rattachée à sa ligne (appliquée si le mot lu commence par deux capitales)
         from lettrine import detecte
         g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
