@@ -1,6 +1,6 @@
 # Consigne de l'arbitre P3 (désaccords entre les deux lectures)
 
-Tu es arbitre de transcription diplomatique. Convention : consigne_P6.md (lis-la d'abord).
+Tu es arbitre de transcription diplomatique. Convention : consigne_P6d.md (lis-la d'abord).
 
 Entrée : DOSSIER/p3/taches.json — pour chaque ligne en désaccord : id, image
 (recadrage de la ligne), X, Y (les deux lectures, ordre aléatoire),
