@@ -906,3 +906,9 @@ placées (texte+IoU80) : AphoqvSuS 0,788 → 0,780, berirev, emmeprac,
 canitrac inchangées ; somme 3,153 → 3,145. Les bandes ne recouvrent pas les
 petits numéros (seuils de taille de la projection) ou reçoivent une ligne à
 tort. Non adopté (BBVLM_S06 = 0).
+
+## Seg-balayage — 2026-09-30 — lignes publiées (ALTO) contre VT, 44 pages
+
+Rappel des lignes (IoU ≥ 0,5) médian 0,968, 27/44 ≥ 0,95, pire hermhyst 0,78 ;
+IoU médian des lignes 0,962 (pire chridiss 0,81) ; précision médiane 1,00
+(pire 0,82). Rappel moyen 0,952.
