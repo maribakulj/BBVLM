@@ -1,0 +1,14 @@
+688357687  auteur sans VT | annee juste | lieu sans VT | imprimeur sans VT | titre juste   sources {'lieu': 'titre', 'imprimeur': None, 'annee': 'titre'}
+BiedBern   auteur absent | annee juste | lieu juste | imprimeur juste | titre juste   sources {'lieu': 'titre', 'imprimeur': 'titre', 'annee': 'titre'}
+actevedef  auteur sans VT | annee juste | lieu juste | imprimeur sans VT | titre juste   sources {'lieu': 'titre', 'imprimeur': None, 'annee': 'titre'}
+baltdiss   auteur absent | annee juste | lieu juste | imprimeur juste | titre juste   sources {'lieu': 'titre', 'imprimeur': 'titre', 'annee': 'titre'}
+baurodwe   auteur sans VT | annee juste | lieu absent | imprimeur sans VT | titre juste   sources {'lieu': None, 'imprimeur': None, 'annee': 'titre'}
+branchri   auteur juste | annee absent | lieu juste | imprimeur juste | titre juste   sources {'lieu': 'colophon', 'imprimeur': 'colophon', 'annee': None}
+buchdiss   auteur juste | annee juste | lieu juste | imprimeur juste | titre juste   sources {'lieu': 'titre', 'imprimeur': 'titre', 'annee': 'titre'}
+catapabin  auteur sans VT | annee juste | lieu absent | imprimeur absent | titre faux (0/5)   sources {'lieu': None, 'imprimeur': None, 'annee': 'titre'}
+culmsent   auteur juste | annee juste | lieu juste | imprimeur juste | titre juste   sources {'lieu': 'colophon', 'imprimeur': 'colophon', 'annee': 'colophon'}
+durrgeda   auteur juste | annee absent | lieu juste | imprimeur juste | titre juste   sources {'lieu': 'titre', 'imprimeur': 'titre', 'annee': None}
+emmeprac   auteur faux | annee juste | lieu juste | imprimeur juste | titre juste   sources {'lieu': 'titre', 'imprimeur': 'titre', 'annee': 'titre'}
+fiscfrie   auteur juste | annee juste | lieu juste | imprimeur juste | titre juste   sources {'lieu': 'titre', 'imprimeur': 'titre', 'annee': 'titre'}
+total {'sans': 8, 'juste': 43, 'absent': 7, 'faux': 2}
+justes / présents 43 / 45 = 95.6 %

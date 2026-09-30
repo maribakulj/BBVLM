@@ -1,0 +1,11 @@
+{
+  "transcription": "FRIEDRICH,\nDER SCHUTZ DER FREYHEIT.\nEIN HYMNUS;\nZUR FEYER\nDES SIEBZEHNTEN AUGUSTS\n1788.\nVON\nG. N. FISCHER.\n— — — — Den Flug\ndes Denkers hemme keine Schranke mehr,\nals die Bedingung redlicher Naturen.\nDON CARLOS.\nBERLIN, 1788.\nIN DER KÖNIGL. PREUS. AKADEMISCHEN KUNST-\nUND BUCHHANDLUNG.\n[dernière page, p. 22 :]\nGedruckt bey J. F. UNGER.",
+  "champs": {
+    "auteur": {"lu": "G. N. FISCHER", "norme": "Fischer", "source": "titre"},
+    "titre": {"lu": "FRIEDRICH, DER SCHUTZ DER FREYHEIT", "norme": "FRIEDRICH, DER SCHUTZ DER FREYHEIT", "source": "titre"},
+    "lieu": {"lu": "BERLIN", "norme": "Berlin", "source": "titre"},
+    "imprimeur": {"lu": "IN DER KÖNIGL. PREUS. AKADEMISCHEN KUNST- UND BUCHHANDLUNG", "norme": "Königlich Preußische Akademische Kunst- und Buchhandlung", "source": "titre", "imprimeur_colophon": {"lu": "Gedruckt bey J. F. UNGER", "norme": "Unger", "source": "colophon"}},
+    "annee": {"lu": "1788", "norme": 1788, "source": "titre"}
+  },
+  "page_de_titre": true
+}

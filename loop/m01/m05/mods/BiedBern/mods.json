@@ -1,0 +1,26 @@
+{
+ "auteurs": [
+  {
+   "famille": "Biedermann",
+   "prenom": "Johann Jakob",
+   "forme": "Biedermann, Johann Jakob"
+  }
+ ],
+ "titre": "Bern, was es werden könnte!",
+ "lieu": [
+  "Bern"
+ ],
+ "imprimeur": [
+  {
+   "forme": "Hortin"
+  }
+ ],
+ "date": "1798",
+ "langue": "ger",
+ "vd": "VD18 11891041",
+ "page_titre": {
+  "url": "https://content.staatsbibliothek-berlin.de/dc/PPN873039610-00000005/full/max/0/default.jpg",
+  "marquee_dans_mets": true,
+  "ordre": "5"
+ }
+}

@@ -1,0 +1,11 @@
+{
+  "transcription": "DISSERTATIO EPISTOLICA\nDE\nVESTIMENTO SACERDOTVM SALVTARI\nQVA\nLOCVS Pſalm. CXXXII. comm. 16.\nBREVITER ILLVSTRATVR\nET\nVIRO MAXIME VENERABILI AMPLISSIMO atque DOCTISSIMO\nDOMINO\nIOHANNI ERDMANNO\nROESLERO\nDE\nMVNERE SVPERINTENDENTIS BAIERSDORFENSIS\nA. cIↄ Iↄ cc LXII. d. I. Aug.\nRITE SVSCEPTO\nANIMITVS GRATVLATVR\nIOHANNES GEORGIVS BVCHTA.\nSEREN. a CONSILIIS ECCLES. et SVPERINTENDENS\nin NEVHOF.\nONOLDI,\nTypis CHRISTOPHORI LAVRENTII MESSERERI,\nTypogr. Aul.",
+  "champs": {
+    "auteur": {"lu": "IOHANNES GEORGIVS BVCHTA", "norme": "Buchta", "source": "titre"},
+    "titre": {"lu": "DISSERTATIO EPISTOLICA DE VESTIMENTO SACERDOTVM SALVTARI", "norme": "DISSERTATIO EPISTOLICA DE VESTIMENTO SACERDOTVM SALVTARI", "source": "titre"},
+    "lieu": {"lu": "ONOLDI", "norme": "Ansbach", "source": "titre"},
+    "imprimeur": {"lu": "Typis CHRISTOPHORI LAVRENTII MESSERERI", "norme": "Messerer", "source": "titre"},
+    "annee": {"lu": "A. cIↄ Iↄ cc LXII. d. I. Aug.", "norme": 1762, "source": "titre"}
+  },
+  "page_de_titre": true
+}

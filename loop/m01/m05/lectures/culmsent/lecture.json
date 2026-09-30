@@ -1,0 +1,11 @@
+{
+  "transcription": "SENTEN=\nTIAE PVERILES\nPRO PRIMIS LATI=\nnæ linguæ tyronibus, ex\ndiuerſis ſcriptoribus\ncollectæ per Leon=\nhardum Cul=\nman.\nHis acceſſerunt pleræq; ueterum\nTheologorum ſententiæ de\nuera religione.\n[colophon, dernière page :]\nNorimbergæ apud Ioh. Petreium.\nanno M. D. XL.",
+  "champs": {
+    "auteur": {"lu": "Leonhardum Culman", "norme": "Culmann", "source": "titre"},
+    "titre": {"lu": "SENTENTIAE PVERILES PRO PRIMIS LATInæ linguæ tyronibus", "norme": "SENTENTIAE PVERILES PRO PRIMIS LATInæ linguæ tyronibus", "source": "titre"},
+    "lieu": {"lu": "Norimbergæ", "norme": "Nürnberg", "source": "colophon"},
+    "imprimeur": {"lu": "apud Ioh. Petreium", "norme": "Petreius", "source": "colophon"},
+    "annee": {"lu": "anno M. D. XL.", "norme": 1540, "source": "colophon"}
+  },
+  "page_de_titre": true
+}

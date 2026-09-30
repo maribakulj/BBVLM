@@ -1168,3 +1168,6 @@ Images = gardes, plats, mires ; seul ferrepit montre un colophon par transparenc
 
 ## 30/09 19h35 — M04b (colophon par la structure METS) : 6 justes, 2 faux, 3 absents — non tenu de peu
 Le bloc logique « colophon » du METS SBB désigne la bonne page (AmmoLIBR, ferrepit, herrleyc) ; buchdas n'a pas de colophon. Colophons lus : Frankfurt 1578 (héritiers Egenolph), Wittenberg 1509 (Viridimontanus = Rhau-Grunenberg), Schmalkalden 1589 (Michel Schmück). Les 2 « faux » sont des formes de nom de la même personne (variantes GND) : une règle d'identité imprimeur serait post hoc, non appliquée ; à valider ailleurs.
+
+## 30/09 19h55 — M05 : métadonnées validées sur 12 œuvres neuves — 95,6 %, 0 année fausse
+Œuvres jamais utilisées (1 sur 3 parmi les 43 restantes), page de titre + colophon (structure METS), 1 passe Opus, mesure M03 + identité GND auteur/imprimeur : 43/45 champs présents justes, 0 année fausse (hypothèse ≥ 90 % tenue). Faux : interprétation (Emerico à Rosbach → Rosbach), page de titre française d'un catalogue bilingue. Voir m01/RESULTATS_M05.md.

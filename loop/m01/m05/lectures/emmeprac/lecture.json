@@ -1,0 +1,11 @@
+{
+  "transcription": "PRACTICA CIVILIS.\nSEV\nPROCESSVS\nIVDICIARIVS, AD\nVSVM ET CONSVETVDI-\nnem Iudiciorum in Germania hoc tempo-\nre frequentiorem, maxime vero ad ſtylum\nIudicii Cameræ Imperialis ac-\ncommodatus,\nAVTORE\nIoanne Emerico à Rosbach, I.C.\nCum Indice copioſo rerum & verborum, quæ in hac\nPractica continentur.\n[marque : CAVSA TRIVMPHAT TANDEM BONA]\nFRANCOFVRTI,\nExcudebat Sigiſmundus Latomus.\nM. D. XCIX.",
+  "champs": {
+    "auteur": {"lu": "Ioanne Emerico à Rosbach", "norme": "Rosbach", "source": "titre"},
+    "titre": {"lu": "PRACTICA CIVILIS. SEV PROCESSVS IVDICIARIVS", "norme": "PRACTICA CIVILIS. SEV PROCESSVS IVDICIARIVS", "source": "titre"},
+    "lieu": {"lu": "FRANCOFVRTI", "norme": "Frankfurt, Main", "source": "titre"},
+    "imprimeur": {"lu": "Excudebat Sigiſmundus Latomus", "norme": "Latomus", "source": "titre"},
+    "annee": {"lu": "M. D. XCIX.", "norme": 1599, "source": "titre"}
+  },
+  "page_de_titre": true
+}
