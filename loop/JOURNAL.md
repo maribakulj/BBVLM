@@ -1138,3 +1138,9 @@ Installation d'Orli dans venvk : dépendance kraken~=7.0.2 → kraken 7.1.1 rét
 
 ## 30/09 16h50 — S15a Orli (segmenteur de bout en bout) : rejeté
 Orli sur les 2 premières pages à ligne manquée : rappel VT 15/22 et 19/26 contre 21/22 et 25/26 pour kraken ; 43 et 90 lignes produites (sur-segmentation) ; aucune ligne manquée récupérée ; ~135 s/page CPU. Rejeté. Constat : « Am I. Sontag » (euanaua) est une ligne de titre coupée en deux par kraken et trop basse (capitales ornées) → piste S15b (union + extension verticale). Voir s15/RESULTATS.md.
+
+## 30/09 17h10 — S17/S17b rejetées ; changement de paradigme
+S17b (fusion des boîtes orphelines, contrôle d'encre) : geomeikud/37 3 → 1 mais hackherz 2 → 3 et 852691769 6 → 10 → rejetée. Constat (question de l'utilisatrice : « es-tu sûr d'explorer le bon paradigme ? ») : les règles S02c, S08, S09, S09c, S11, S12, S14, S17 sont des cas particuliers d'un même problème (quelle région d'image explique chaque ligne lue ?), chacune réglée sur 1-2 pages des 60 qui servent aussi à juger → rendement ≈ 1 page par règle et risque de sur-ajustement. Nouveau plan :
+1. jeu tenu à l'écart (O23-O25, 12 pages) : plus aucun développement dessus ; CRITERE rapporté séparément dev / écart ;
+2. segmentation par reconnaissance guidée par le texte connu (SR) : candidates larges (lignes kraken, fusions/scissions de voisines d'une même bande, extensions à l'encre, bandes de projection), score = vraisemblance de l'alignement forcé CTC (W05) de la ligne lue sur chaque candidate, affectation globale sans chevauchement ; une seule règle, sans seuil par page ;
+3. même outil pour le texte : vraisemblance CTC pour départager les désaccords des deux passes Opus (soudures « ihmviel », « VerboDEI »).

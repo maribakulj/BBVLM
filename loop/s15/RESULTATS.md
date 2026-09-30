@@ -18,3 +18,8 @@ Protocole : orli_base (zenodo 10.5281/zenodo.20558179), kraken 7.0.3, torch 2.12
 
 ## S16 — ancre CATMuS au lieu de Tesseract pour S11 : rejetée sans mesure CRITERE
 Cause de l'échec de S11 sur geomeikud/37 : Tesseract lit « ij. » → « Li. », « Treer » → « Îyeey ». CATMuS (lecture W05 déjà en cache) lit plus mal encore ces grands caractères : « ti. », « Crter », « tti. », « Dteattg » (Mentz). Aucune ancre OCR fiable sur ces lignes → piste S17 sans OCR : boîte kraken sans ligne lue appariée, dans la bande d'une boîte appariée → fusion.
+
+## S17 / S17b — fusion des boîtes kraken orphelines de bande : REJETÉES
+- S17 (sans OCR) : geomeikud/37 3 → 1 ligne en échec, mais buchdas/27 1 → 2 (annotations manuscrites de marge rattachées aux lignes imprimées).
+- S17b (+ encre de même nature : p10 de l'orpheline ≤ p10 de la voisine + 30 ; manuscrit ≈ 107, imprimé 32-39) : petits lots sans recul, mais O07-O17 (23/44 pages mesurées) hackherz 2 → 3, 852691769 6 → 10. Mesure interrompue.
+- Bilan : une règle réglée sur deux pages se casse sur d'autres. Fin des règles géométriques ponctuelles (JOURNAL 30/09 17h10 : changement de paradigme).

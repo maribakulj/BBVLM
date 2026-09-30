@@ -114,7 +114,7 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         from bandes import bandes
         g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
         kr = kr + [{'bbox': b} for b in bandes(g0, [l['bbox'] for l in kr])]
-    if os.environ.get('BBVLM_S17', '0') == '1' and lignes:
+    if os.environ.get('BBVLM_S17', '0') == '1' and lignes:      # REJETÉE (s15/RESULTATS.md)
         # S17 : boîte kraken sans ligne lue (ancrage S05) dans la bande d'une boîte ancrée,
         # sans boîte entre elles → réunie à celle-ci (« ij.      Treer » : numéro de liste
         # détaché que ni Tesseract ni CATMuS ne lisent ; S15/S16)
