@@ -1107,3 +1107,6 @@ Sur les lectures L01 : médoïde de 4 FR 28 éd., de 12 lectures 29, contre 17 p
 
 ## 2026-09-30 14h19 — V02 : arbitrage élargi par signal Calamari (négatif)
 80 lignes signalées sur 12 pages, arbitre Opus : 47 → 60 éd. (caladr 3 → 16 : défaut de construction, codes PUA montrés à l'arbitre) ; hors caladr 44 → 44 ; l'arbitre garde la lecture Opus sur 72/80 lignes. Rejeté. Voir v02/RESULTATS.md.
+
+## 2026-09-30 14h21 — M02 : auteurs mesurés par identité GND
+Re-mesure (critère figé avant calcul) : M01 35 → 36/40 (90 %), M01b 33 → 34/38, M01c 33/37 inchangé. Faux restants : rôle, forme vernaculaire absente des autorités, flexion, formes latines du catalogue pour lieu/imprimeur. Voir m01/RESULTATS_M02.md.
