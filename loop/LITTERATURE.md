@@ -237,3 +237,8 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 - Source : Grüning, Leifert, Strauß, Michael, Labahn, « A Two-Stage Method for Text Line Detection in Historical Documents », IJDAR 2019 (arXiv 1802.03345) ; revue « Recent advances in text line segmentation and baseline detection… » (2025).
 - Apport : défauts connus des détecteurs de lignes de base : lignes courtes manquées, lignes trop proches fusionnées, fragments. Le second étage de Grüning regroupe de bas en haut des éléments (superpixels) en lignes : complétion par l'encre, pas par le réseau.
 - Limite : pas de recette pour compléter une ligne courte détectée partiellement ; leur regroupement demande la carte de lignes de base de l'ARU-Net, que kraken n'expose pas. Pour nous (S09) : prolonger la boîte kraken courte vers les composantes d'encre de sa bande qui n'appartiennent à aucune autre ligne.
+
+## L20 — Alignement transcription–image pour corriger la segmentation en lignes
+- Sources : « Automatic Line Segmentation and Ground-Truth Alignment of Handwritten Documents » (ICFHR 2014) ; « End-to-End Transcript Alignment of 17th Century Manuscripts: The Case of Moccia Code » (J. Imaging 2023) ; « OCR-Free Transcript Alignment » (ICDAR 2013).
+- Apport : quand une transcription existe, elle sert à corriger la segmentation : l'alignement texte–image absorbe la sur- et la sous-segmentation (lignes fusionnées ou coupées) ; formalisé en transducteurs pondérés (WFST) sur treillis OCR.
+- Limite : manuscrits, transcription au niveau document ; 92 % de lignes correctes seulement ; pas de règle simple pour valider une coupe. Pour nous (S02c) : une coupe géométrique n'est acceptée que si le morceau détaché, relu, retrouve une ligne lue — la lecture VLM tient lieu de transcription.

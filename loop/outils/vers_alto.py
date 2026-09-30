@@ -47,6 +47,26 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
                 g = l.get('bbox_g04', l['bbox'])
                 return [min(g[0], e[0]), g[1], max(g[2], e[2]), g[3]]
             kr = [l if list(map(int, l['bbox'])) == e else {**l, 'bbox': e, 'bbox_g04': _g04(l, e)} for l, e in zip(kr, eb)]
+    if not (roles and any(r[0] == 'marginalia' for r in roles)) and os.environ.get('BBVLM_S02C') == '1' and shutil.which('tesseract'):
+        # S02c : sans rôles, coupe S02 gardée seulement si le plus petit morceau, relu, retrouve une ligne lue (L20)
+        from coupe import coupe_page
+        from ancre import lit_lignes, reduit
+        from cer import lev
+        g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
+        bb = [list(map(int, l['bbox'])) for l in kr]
+        cp = [list(map(int, p)) for p in coupe_page(g0, bb)]
+        R = [reduit(t) for t in lignes]
+        def _ok(p):
+            o = [reduit(t) for e in ('fraktur', 'romain') for t in lit_lignes(dossier, [p], e)]
+            return any(t and r and lev(t, r) / max(len(t), len(r)) <= float(os.environ.get('BBVLM_S02C_D', '0.5')) for t in o for r in R)
+        nkr = []
+        for l, b in zip(kr, bb):
+            mx = [p for p in cp if p[0] >= b[0] - 1 and p[2] <= b[2] + 1 and p[1] >= b[1] - 1 and p[3] <= b[3] + 1]
+            if len(mx) > 1 and _ok(min(mx, key=lambda p: p[2] - p[0])):
+                nkr += [{'bbox': p} for p in mx]
+            else:
+                nkr.append(l)
+        kr = nkr
     if roles and any(r[0] == 'marginalia' for r in roles):
         # manchettes signalées par le lecteur : détacher celles que kraken a fusionnées (coupe.py)
         from coupe import coupe_page
