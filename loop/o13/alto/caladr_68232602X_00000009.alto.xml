@@ -32,7 +32,7 @@
   <Layout>
     <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="1796" HEIGHT="2438">
       <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="1796" HEIGHT="2438">
-        <TextBlock ID="B001" TAGREFS="ROLE_heading" HPOS="207" VPOS="198" WIDTH="1013" HEIGHT="366">
+        <TextBlock ID="B001" TAGREFS="ROLE_heading" HPOS="207" VPOS="198" WIDTH="1013" HEIGHT="365">
           <TextLine ID="L0001" HPOS="428" VPOS="198" WIDTH="601" HEIGHT="103">
             <String ID="L0001_W01" CONTENT="D." HPOS="428" VPOS="208" WIDTH="97" HEIGHT="82"/>
             <SP HPOS="525" VPOS="208" WIDTH="60"/>
@@ -45,7 +45,7 @@
             <SP HPOS="680" VPOS="345" WIDTH="7"/>
             <String ID="L0002_W02" CONTENT="IMPE⸗" HPOS="687" VPOS="345" WIDTH="518" HEIGHT="108"/>
           </TextLine>
-          <TextLine ID="L0003" HPOS="386" VPOS="496" WIDTH="834" HEIGHT="68">
+          <TextLine ID="L0003" HPOS="386" VPOS="496" WIDTH="834" HEIGHT="67">
             <String ID="L0003_W01" CONTENT="RATORI" HPOS="386" VPOS="497" WIDTH="360" HEIGHT="55"/>
             <SP HPOS="746" VPOS="497" WIDTH="40"/>
             <String ID="L0003_W02" CONTENT="OPT." HPOS="786" VPOS="499" WIDTH="198" HEIGHT="53"/>

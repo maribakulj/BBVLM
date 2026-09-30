@@ -36,8 +36,8 @@
   <Layout>
     <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="1386" HEIGHT="2373">
       <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="1386" HEIGHT="2373">
-        <TextBlock ID="B001" TAGREFS="ROLE_page-number" HPOS="216" VPOS="146" WIDTH="83" HEIGHT="55">
-          <TextLine ID="L0001" HPOS="216" VPOS="146" WIDTH="83" HEIGHT="55">
+        <TextBlock ID="B001" TAGREFS="ROLE_page-number" HPOS="217" VPOS="146" WIDTH="82" HEIGHT="55">
+          <TextLine ID="L0001" HPOS="217" VPOS="146" WIDTH="82" HEIGHT="55">
             <String ID="L0001_W01" CONTENT="114" HPOS="216" VPOS="146" WIDTH="83" HEIGHT="55"/>
           </TextLine>
         </TextBlock>
@@ -140,7 +140,7 @@
             <SP HPOS="602" VPOS="932" WIDTH="26"/>
             <String ID="L0010_W05" CONTENT="blincket," HPOS="628" VPOS="932" WIDTH="124" HEIGHT="41"/>
           </TextLine>
-          <TextLine ID="L0011" HPOS="222" VPOS="975" WIDTH="521" HEIGHT="57">
+          <TextLine ID="L0011" HPOS="222" VPOS="984" WIDTH="521" HEIGHT="48">
             <String ID="L0011_W01" CONTENT="Sich" HPOS="222" VPOS="988" WIDTH="75" HEIGHT="44"/>
             <SP HPOS="297" VPOS="988" WIDTH="16"/>
             <String ID="L0011_W02" CONTENT="ſtets" HPOS="313" VPOS="987" WIDTH="63" HEIGHT="45"/>
@@ -173,7 +173,7 @@
             <SP HPOS="641" VPOS="1219" WIDTH="17"/>
             <String ID="L0014_W04" CONTENT="vorzuziehn." HPOS="658" VPOS="1216" WIDTH="207" HEIGHT="53"/>
           </TextLine>
-          <TextLine ID="L0015" HPOS="389" VPOS="1266" WIDTH="757" HEIGHT="60">
+          <TextLine ID="L0015" HPOS="389" VPOS="1273" WIDTH="757" HEIGHT="53">
             <String ID="L0015_W01" CONTENT="Dieſer" HPOS="389" VPOS="1277" WIDTH="126" HEIGHT="48"/>
             <SP HPOS="515" VPOS="1277" WIDTH="19"/>
             <String ID="L0015_W02" CONTENT="nimmt⸗" HPOS="534" VPOS="1280" WIDTH="145" HEIGHT="37"/>
@@ -186,7 +186,7 @@
             <SP HPOS="963" VPOS="1274" WIDTH="20"/>
             <String ID="L0015_W06" CONTENT="Seegen," HPOS="983" VPOS="1273" WIDTH="163" HEIGHT="53"/>
           </TextLine>
-          <TextLine ID="L0016" HPOS="386" VPOS="1319" WIDTH="673" HEIGHT="62">
+          <TextLine ID="L0016" HPOS="386" VPOS="1328" WIDTH="673" HEIGHT="53">
             <String ID="L0016_W01" CONTENT="Der" HPOS="386" VPOS="1335" WIDTH="89" HEIGHT="42"/>
             <SP HPOS="475" VPOS="1335" WIDTH="16"/>
             <String ID="L0016_W02" CONTENT="nimmt⸗" HPOS="491" VPOS="1335" WIDTH="144" HEIGHT="38"/>
@@ -199,7 +199,7 @@
             <SP HPOS="926" VPOS="1334" WIDTH="15"/>
             <String ID="L0016_W06" CONTENT="Leben." HPOS="941" VPOS="1329" WIDTH="118" HEIGHT="43"/>
           </TextLine>
-          <TextLine ID="L0017" HPOS="386" VPOS="1374" WIDTH="669" HEIGHT="61">
+          <TextLine ID="L0017" HPOS="386" VPOS="1385" WIDTH="669" HEIGHT="50">
             <String ID="L0017_W01" CONTENT="Will" HPOS="386" VPOS="1390" WIDTH="101" HEIGHT="44"/>
             <SP HPOS="487" VPOS="1390" WIDTH="15"/>
             <String ID="L0017_W02" CONTENT="man" HPOS="502" VPOS="1400" WIDTH="82" HEIGHT="31"/>
@@ -257,10 +257,10 @@
             <SP HPOS="1186" VPOS="1596" WIDTH="17"/>
             <String ID="L0020_W11" CONTENT="rauſchend" HPOS="1203" VPOS="1589" WIDTH="135" HEIGHT="52"/>
           </TextLine>
-          <TextLine ID="L0021" HPOS="877" VPOS="1637" WIDTH="147" HEIGHT="54">
+          <TextLine ID="L0021" HPOS="877" VPOS="1649" WIDTH="147" HEIGHT="42">
             <String ID="L0021_W01" CONTENT="Schallen." HPOS="877" VPOS="1649" WIDTH="147" HEIGHT="41"/>
           </TextLine>
-          <TextLine ID="L0022" HPOS="224" VPOS="1687" WIDTH="1115" HEIGHT="61">
+          <TextLine ID="L0022" HPOS="224" VPOS="1698" WIDTH="1115" HEIGHT="50">
             <String ID="L0022_W01" CONTENT="Man" HPOS="224" VPOS="1704" WIDTH="85" HEIGHT="38"/>
             <SP HPOS="309" VPOS="1704" WIDTH="14"/>
             <String ID="L0022_W02" CONTENT="ſieht," HPOS="323" VPOS="1705" WIDTH="78" HEIGHT="43"/>
@@ -359,7 +359,7 @@
             <SP HPOS="1200" VPOS="1914" WIDTH="17"/>
             <String ID="L0026_W11" CONTENT="erhoͤhen," HPOS="1217" VPOS="1915" WIDTH="125" HEIGHT="41"/>
           </TextLine>
-          <TextLine ID="L0027" HPOS="224" VPOS="1952" WIDTH="1118" HEIGHT="64">
+          <TextLine ID="L0027" HPOS="224" VPOS="1962" WIDTH="1118" HEIGHT="54">
             <String ID="L0027_W01" CONTENT="Wodurch" HPOS="224" VPOS="1952" WIDTH="166" HEIGHT="62"/>
             <SP HPOS="390" VPOS="1952" WIDTH="1"/>
             <String ID="L0027_W02" CONTENT="wir," HPOS="390" VPOS="1983" WIDTH="65" HEIGHT="33"/>
@@ -396,8 +396,8 @@
             <String ID="L0028_W08" CONTENT="ſehen." HPOS="1237" VPOS="2022" WIDTH="86" HEIGHT="43"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B007" TAGREFS="ROLE_catch-word" HPOS="1285" VPOS="2069" WIDTH="57" HEIGHT="45">
-          <TextLine ID="L0029" HPOS="1285" VPOS="2069" WIDTH="57" HEIGHT="45">
+        <TextBlock ID="B007" TAGREFS="ROLE_catch-word" HPOS="1285" VPOS="2069" WIDTH="57" HEIGHT="44">
+          <TextLine ID="L0029" HPOS="1285" VPOS="2069" WIDTH="57" HEIGHT="44">
             <String ID="L0029_W01" CONTENT="Die" HPOS="1285" VPOS="2069" WIDTH="57" HEIGHT="43"/>
           </TextLine>
         </TextBlock>

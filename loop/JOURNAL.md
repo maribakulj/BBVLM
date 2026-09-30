@@ -887,3 +887,11 @@ identiques octet pour octet ; tâches P3 et I01 identiques ; texte final
 identique ; ALTO identique (hors nom de fichier et date). Le premier
 `prepare` avait échoué une fois sans message (segmentation kraken hors délai
 de la commande) ; le second a réussi en 27 s.
+
+## ALTO régénérés — 2026-09-30 — chaîne actuelle sur 44 pages
+
+Tous les ALTO refaits avec la chaîne gelée (S08, S02, G05, H01, G04b publiée).
+Lignes lues non placées : 26 → **19** sur 1 390 (1,4 %) ; restes : emmeprac 6
+(numéros en marge « 46 », « 47 »…), berirev 3, AphoqvSuS 2, canitrac 2, six
+pages à 1. Les ALTO archivés du dépôt (oNN/alto/) sont remplacés par ces
+versions.

@@ -35,8 +35,8 @@
   <Layout>
     <Page ID="P1" PHYSICAL_IMG_NR="1" WIDTH="2382" HEIGHT="3732">
       <PrintSpace ID="PS1" HPOS="0" VPOS="0" WIDTH="2382" HEIGHT="3732">
-        <TextBlock ID="B001" TAGREFS="ROLE_heading" HPOS="226" VPOS="231" WIDTH="1646" HEIGHT="1411">
-          <TextLine ID="L0001" HPOS="385" VPOS="280" WIDTH="1487" HEIGHT="246">
+        <TextBlock ID="B001" TAGREFS="ROLE_heading" HPOS="226" VPOS="232" WIDTH="1646" HEIGHT="1410">
+          <TextLine ID="L0001" HPOS="386" VPOS="293" WIDTH="1486" HEIGHT="233">
             <String ID="L0001_W01" CONTENT="Gedaͤchtnis⸗Predigt/" HPOS="385" VPOS="289" WIDTH="1487" HEIGHT="237"/>
           </TextLine>
           <TextLine ID="L0002" HPOS="965" VPOS="520" WIDTH="392" HEIGHT="64">
@@ -44,13 +44,13 @@
             <SP HPOS="1092" VPOS="525" WIDTH="25"/>
             <String ID="L0002_W02" CONTENT="Weyland" HPOS="1117" VPOS="522" WIDTH="240" HEIGHT="62"/>
           </TextLine>
-          <TextLine ID="L0003" HPOS="615" VPOS="571" WIDTH="1118" HEIGHT="165">
+          <TextLine ID="L0003" HPOS="615" VPOS="586" WIDTH="1118" HEIGHT="150">
             <String ID="L0003_W01" CONTENT="Hoch⸗Wohlgebohrnen" HPOS="615" VPOS="591" WIDTH="1118" HEIGHT="145"/>
           </TextLine>
           <TextLine ID="L0004" HPOS="226" VPOS="294" WIDTH="42" HEIGHT="80">
             <String ID="L0004_W01" CONTENT="HERRN/" HPOS="226" VPOS="294" WIDTH="42" HEIGHT="79"/>
           </TextLine>
-          <TextLine ID="L0005" HPOS="838" VPOS="231" WIDTH="84" HEIGHT="64">
+          <TextLine ID="L0005" HPOS="844" VPOS="232" WIDTH="62" HEIGHT="44">
             <String ID="L0005_W01" CONTENT="Hn." HPOS="838" VPOS="232" WIDTH="8" HEIGHT="52"/>
             <SP HPOS="846" VPOS="232" WIDTH="1"/>
             <String ID="L0005_W02" CONTENT="Friedrich" HPOS="846" VPOS="232" WIDTH="76" HEIGHT="62"/>
@@ -73,7 +73,7 @@
             <SP HPOS="1533" VPOS="1823" WIDTH="23"/>
             <String ID="L0007_W05" CONTENT="Burgau/" HPOS="1556" VPOS="1819" WIDTH="426" HEIGHT="123"/>
           </TextLine>
-          <TextLine ID="L0008" HPOS="249" VPOS="1931" WIDTH="1859" HEIGHT="160">
+          <TextLine ID="L0008" HPOS="249" VPOS="1941" WIDTH="1859" HEIGHT="150">
             <String ID="L0008_W01" CONTENT="Seiner" HPOS="249" VPOS="1934" WIDTH="349" HEIGHT="142"/>
             <SP HPOS="598" VPOS="1934" WIDTH="23"/>
             <String ID="L0008_W02" CONTENT="Koͤniglichen" HPOS="621" VPOS="1957" WIDTH="559" HEIGHT="123"/>
@@ -84,7 +84,7 @@
             <SP HPOS="1713" VPOS="1964" WIDTH="19"/>
             <String ID="L0008_W05" CONTENT="Pohlen" HPOS="1732" VPOS="1948" WIDTH="376" HEIGHT="143"/>
           </TextLine>
-          <TextLine ID="L0009" HPOS="252" VPOS="2073" WIDTH="1858" HEIGHT="147">
+          <TextLine ID="L0009" HPOS="252" VPOS="2088" WIDTH="1858" HEIGHT="132">
             <String ID="L0009_W01" CONTENT="und" HPOS="252" VPOS="2112" WIDTH="145" HEIGHT="82"/>
             <SP HPOS="397" VPOS="2112" WIDTH="49"/>
             <String ID="L0009_W02" CONTENT="Chur⸗Fuͤrſtlichen" HPOS="446" VPOS="2093" WIDTH="770" HEIGHT="115"/>
@@ -93,7 +93,7 @@
             <SP HPOS="1983" VPOS="2089" WIDTH="40"/>
             <String ID="L0009_W04" CONTENT="zu" HPOS="2023" VPOS="2134" WIDTH="85" HEIGHT="86"/>
           </TextLine>
-          <TextLine ID="L0010" HPOS="442" VPOS="2189" WIDTH="1499" HEIGHT="118">
+          <TextLine ID="L0010" HPOS="443" VPOS="2189" WIDTH="1496" HEIGHT="118">
             <String ID="L0010_W01" CONTENT="Sachſen" HPOS="442" VPOS="2221" WIDTH="266" HEIGHT="86"/>
             <SP HPOS="708" VPOS="2221" WIDTH="30"/>
             <String ID="L0010_W02" CONTENT="hochbeſtalten" HPOS="738" VPOS="2215" WIDTH="374" HEIGHT="85"/>
@@ -104,7 +104,7 @@
             <SP HPOS="1784" VPOS="2221" WIDTH="28"/>
             <String ID="L0010_W05" CONTENT="und" HPOS="1812" VPOS="2189" WIDTH="127" HEIGHT="113"/>
           </TextLine>
-          <TextLine ID="L0011" HPOS="608" VPOS="2300" WIDTH="1158" HEIGHT="103">
+          <TextLine ID="L0011" HPOS="608" VPOS="2302" WIDTH="1158" HEIGHT="101">
             <String ID="L0011_W01" CONTENT="Ober⸗Aufſeher" HPOS="608" VPOS="2312" WIDTH="508" HEIGHT="91"/>
             <SP HPOS="1116" VPOS="2312" WIDTH="34"/>
             <String ID="L0011_W02" CONTENT="in" HPOS="1150" VPOS="2313" WIDTH="59" HEIGHT="75"/>
@@ -131,7 +131,7 @@
             <SP HPOS="1451" VPOS="2516" WIDTH="34"/>
             <String ID="L0013_W06" CONTENT="1701." HPOS="1485" VPOS="2529" WIDTH="98" HEIGHT="38"/>
           </TextLine>
-          <TextLine ID="L0014" HPOS="382" VPOS="2566" WIDTH="1626" HEIGHT="102">
+          <TextLine ID="L0014" HPOS="382" VPOS="2585" WIDTH="1626" HEIGHT="83">
             <String ID="L0014_W01" CONTENT="zu" HPOS="382" VPOS="2600" WIDTH="53" HEIGHT="61"/>
             <SP HPOS="435" VPOS="2600" WIDTH="29"/>
             <String ID="L0014_W02" CONTENT="Leipzig" HPOS="464" VPOS="2588" WIDTH="182" HEIGHT="71"/>
@@ -178,7 +178,7 @@
             <SP HPOS="1612" VPOS="2826" WIDTH="25"/>
             <String ID="L0016_W07" CONTENT="veranſtaltet" HPOS="1637" VPOS="2835" WIDTH="361" HEIGHT="86"/>
           </TextLine>
-          <TextLine ID="L0017" HPOS="1010" VPOS="2888" WIDTH="381" HEIGHT="95">
+          <TextLine ID="L0017" HPOS="1010" VPOS="2916" WIDTH="344" HEIGHT="67">
             <String ID="L0017_W01" CONTENT="und" HPOS="1010" VPOS="2922" WIDTH="99" HEIGHT="53"/>
             <SP HPOS="1109" VPOS="2922" WIDTH="8"/>
             <String ID="L0017_W02" CONTENT="gehalten/" HPOS="1117" VPOS="2888" WIDTH="237" HEIGHT="95"/>

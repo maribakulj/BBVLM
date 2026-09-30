@@ -69,7 +69,7 @@
             <SP HPOS="436" VPOS="321" WIDTH="1"/>
             <String ID="L0005_W03" CONTENT="gratis." HPOS="436" VPOS="330" WIDTH="100" HEIGHT="37"/>
           </TextLine>
-          <TextLine ID="L0006" HPOS="220" VPOS="364" WIDTH="333" HEIGHT="44">
+          <TextLine ID="L0006" HPOS="220" VPOS="371" WIDTH="333" HEIGHT="37">
             <String ID="L0006_W01" CONTENT="Omnes" HPOS="220" VPOS="380" WIDTH="108" HEIGHT="28"/>
             <SP HPOS="328" VPOS="380" WIDTH="8"/>
             <String ID="L0006_W02" CONTENT="beabit" HPOS="336" VPOS="371" WIDTH="110" HEIGHT="33"/>
@@ -119,7 +119,7 @@
             <SP HPOS="456" VPOS="613" WIDTH="4"/>
             <String ID="L0011_W04" CONTENT="palmites." HPOS="460" VPOS="615" WIDTH="153" HEIGHT="44"/>
           </TextLine>
-          <TextLine ID="L0012" HPOS="267" VPOS="659" WIDTH="312" HEIGHT="43">
+          <TextLine ID="L0012" HPOS="267" VPOS="664" WIDTH="312" HEIGHT="38">
             <String ID="L0012_W01" CONTENT="Halleluia," HPOS="267" VPOS="665" WIDTH="152" HEIGHT="37"/>
             <SP HPOS="419" VPOS="665" WIDTH="4"/>
             <String ID="L0012_W02" CONTENT="Halleluia." HPOS="423" VPOS="664" WIDTH="156" HEIGHT="33"/>
@@ -142,7 +142,7 @@
             <SP HPOS="430" VPOS="774" WIDTH="7"/>
             <String ID="L0014_W05" CONTENT="beauit," HPOS="437" VPOS="761" WIDTH="109" HEIGHT="40"/>
           </TextLine>
-          <TextLine ID="L0015" HPOS="172" VPOS="804" WIDTH="434" HEIGHT="55">
+          <TextLine ID="L0015" HPOS="172" VPOS="810" WIDTH="434" HEIGHT="49">
             <String ID="L0015_W01" CONTENT="Cœlum" HPOS="172" VPOS="812" WIDTH="118" HEIGHT="43"/>
             <SP HPOS="290" VPOS="812" WIDTH="1"/>
             <String ID="L0015_W02" CONTENT="ſolumq́ꝫ" HPOS="290" VPOS="810" WIDTH="121" HEIGHT="49"/>
@@ -151,7 +151,7 @@
             <SP HPOS="469" VPOS="812" WIDTH="8"/>
             <String ID="L0015_W04" CONTENT="creauit," HPOS="477" VPOS="811" WIDTH="129" HEIGHT="38"/>
           </TextLine>
-          <TextLine ID="L0016" HPOS="255" VPOS="852" WIDTH="334" HEIGHT="53">
+          <TextLine ID="L0016" HPOS="255" VPOS="860" WIDTH="334" HEIGHT="45">
             <String ID="L0016_W01" CONTENT="Et" HPOS="255" VPOS="866" WIDTH="41" HEIGHT="27"/>
             <SP HPOS="296" VPOS="866" WIDTH="1"/>
             <String ID="L0016_W02" CONTENT="quicquid" HPOS="296" VPOS="860" WIDTH="141" HEIGHT="45"/>
@@ -169,7 +169,7 @@
             <SP HPOS="454" VPOS="910" WIDTH="8"/>
             <String ID="L0017_W03" CONTENT="beata" HPOS="462" VPOS="909" WIDTH="91" HEIGHT="33"/>
           </TextLine>
-          <TextLine ID="L0018" HPOS="170" VPOS="951" WIDTH="394" HEIGHT="52">
+          <TextLine ID="L0018" HPOS="170" VPOS="955" WIDTH="394" HEIGHT="48">
             <String ID="L0018_W01" CONTENT="Aeui" HPOS="170" VPOS="959" WIDTH="71" HEIGHT="34"/>
             <SP HPOS="241" VPOS="959" WIDTH="5"/>
             <String ID="L0018_W02" CONTENT="ſit" HPOS="246" VPOS="957" WIDTH="38" HEIGHT="41"/>
@@ -203,7 +203,7 @@
             <SP HPOS="515" VPOS="1112" WIDTH="1"/>
             <String ID="L0021_W04" CONTENT="ſplendidas:" HPOS="515" VPOS="1103" WIDTH="175" HEIGHT="45"/>
           </TextLine>
-          <TextLine ID="L0022" HPOS="219" VPOS="1146" WIDTH="343" HEIGHT="53">
+          <TextLine ID="L0022" HPOS="219" VPOS="1151" WIDTH="343" HEIGHT="48">
             <String ID="L0022_W01" CONTENT="Nec" HPOS="219" VPOS="1160" WIDTH="63" HEIGHT="27"/>
             <SP HPOS="282" VPOS="1160" WIDTH="7"/>
             <String ID="L0022_W02" CONTENT="quos" HPOS="289" VPOS="1164" WIDTH="69" HEIGHT="33"/>
@@ -221,7 +221,7 @@
             <SP HPOS="505" VPOS="1201" WIDTH="12"/>
             <String ID="L0023_W04" CONTENT="inferis:" HPOS="517" VPOS="1200" WIDTH="108" HEIGHT="46"/>
           </TextLine>
-          <TextLine ID="L0024" HPOS="222" VPOS="1244" WIDTH="422" HEIGHT="44">
+          <TextLine ID="L0024" HPOS="222" VPOS="1251" WIDTH="422" HEIGHT="37">
             <String ID="L0024_W01" CONTENT="Sed" HPOS="222" VPOS="1252" WIDTH="53" HEIGHT="32"/>
             <SP HPOS="275" VPOS="1252" WIDTH="8"/>
             <String ID="L0024_W02" CONTENT="nos" HPOS="283" VPOS="1262" WIDTH="50" HEIGHT="22"/>
@@ -247,9 +247,9 @@
             <String ID="L0026_W02" CONTENT="Halleluia." HPOS="421" VPOS="1350" WIDTH="156" HEIGHT="33"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B005" TAGREFS="ROLE_catch-word">
-          <TextLine ID="L0027" TAGREFS="NON_PLACE">
-            <String ID="L0027_W01" CONTENT="DE"/>
+        <TextBlock ID="B005" TAGREFS="ROLE_catch-word" HPOS="795" VPOS="1353" WIDTH="52" HEIGHT="34">
+          <TextLine ID="L0027" HPOS="795" VPOS="1353" WIDTH="52" HEIGHT="34">
+            <String ID="L0027_W01" CONTENT="DE" HPOS="795" VPOS="1354" WIDTH="52" HEIGHT="30"/>
           </TextLine>
         </TextBlock>
       </PrintSpace>

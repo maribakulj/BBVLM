@@ -98,7 +98,7 @@
             <SP HPOS="1011" VPOS="573" WIDTH="26"/>
             <String ID="L0009_W04" CONTENT="IX." HPOS="1037" VPOS="572" WIDTH="72" HEIGHT="41"/>
           </TextLine>
-          <TextLine ID="L0010" HPOS="389" VPOS="614" WIDTH="719" HEIGHT="67">
+          <TextLine ID="L0010" HPOS="389" VPOS="620" WIDTH="719" HEIGHT="61">
             <String ID="L0010_W01" CONTENT="&amp;" HPOS="389" VPOS="623" WIDTH="43" HEIGHT="37"/>
             <SP HPOS="432" VPOS="623" WIDTH="19"/>
             <String ID="L0010_W02" CONTENT="Xmo" HPOS="451" VPOS="621" WIDTH="120" HEIGHT="41"/>
@@ -109,7 +109,7 @@
             <SP HPOS="897" VPOS="637" WIDTH="13"/>
             <String ID="L0010_W05" CONTENT="negativo" HPOS="910" VPOS="614" WIDTH="198" HEIGHT="67"/>
           </TextLine>
-          <TextLine ID="L0011" HPOS="390" VPOS="674" WIDTH="715" HEIGHT="53">
+          <TextLine ID="L0011" HPOS="390" VPOS="676" WIDTH="715" HEIGHT="51">
             <String ID="L0011_W01" CONTENT="modo," HPOS="390" VPOS="677" WIDTH="156" HEIGHT="50"/>
             <SP HPOS="546" VPOS="677" WIDTH="10"/>
             <String ID="L0011_W02" CONTENT="contrarium" HPOS="556" VPOS="680" WIDTH="262" HEIGHT="39"/>
@@ -127,7 +127,7 @@
             <SP HPOS="809" VPOS="732" WIDTH="68"/>
             <String ID="L0012_W03" CONTENT="præſcribi-" HPOS="877" VPOS="740" WIDTH="228" HEIGHT="52"/>
           </TextLine>
-          <TextLine ID="L0013" HPOS="386" VPOS="789" WIDTH="721" HEIGHT="57">
+          <TextLine ID="L0013" HPOS="386" VPOS="791" WIDTH="721" HEIGHT="55">
             <String ID="L0013_W01" CONTENT="tur:" HPOS="386" VPOS="797" WIDTH="111" HEIGHT="31"/>
             <SP HPOS="497" VPOS="797" WIDTH="120"/>
             <String ID="L0013_W02" CONTENT="Non" HPOS="617" VPOS="791" WIDTH="103" HEIGHT="40"/>
@@ -147,7 +147,7 @@
             <SP HPOS="896" VPOS="851" WIDTH="24"/>
             <String ID="L0014_W05" CONTENT="radicem" HPOS="920" VPOS="851" WIDTH="186" HEIGHT="43"/>
           </TextLine>
-          <TextLine ID="L0015" HPOS="385" VPOS="894" WIDTH="645" HEIGHT="65">
+          <TextLine ID="L0015" HPOS="385" VPOS="899" WIDTH="645" HEIGHT="60">
             <String ID="L0015_W01" CONTENT="reſpexit" HPOS="385" VPOS="900" WIDTH="195" HEIGHT="55"/>
             <SP HPOS="580" VPOS="900" WIDTH="11"/>
             <String ID="L0015_W02" CONTENT="Paulus" HPOS="591" VPOS="901" WIDTH="151" HEIGHT="42"/>
@@ -158,7 +158,7 @@
             <SP HPOS="986" VPOS="907" WIDTH="11"/>
             <String ID="L0015_W05" CONTENT="8." HPOS="997" VPOS="918" WIDTH="33" HEIGHT="37"/>
           </TextLine>
-          <TextLine ID="L0016" HPOS="416" VPOS="951" WIDTH="688" HEIGHT="69">
+          <TextLine ID="L0016" HPOS="416" VPOS="954" WIDTH="688" HEIGHT="66">
             <String ID="L0016_W01" CONTENT="45." HPOS="416" VPOS="971" WIDTH="60" HEIGHT="38"/>
             <SP HPOS="476" VPOS="971" WIDTH="5"/>
             <String ID="L0016_W02" CONTENT="Ubi" HPOS="481" VPOS="954" WIDTH="83" HEIGHT="42"/>
@@ -183,18 +183,18 @@
             <SP/>
             <String ID="L0018_W02" CONTENT="V."/>
           </TextLine>
-          <TextLine ID="L0019" HPOS="162" VPOS="1073" WIDTH="941" HEIGHT="52">
-            <String ID="L0019_W01" CONTENT="ἐπιθυμία" HPOS="162" VPOS="1074" WIDTH="396" HEIGHT="46"/>
-            <SP HPOS="558" VPOS="1074" WIDTH="22"/>
-            <String ID="L0019_W02" CONTENT="ϗ" HPOS="580" VPOS="1073" WIDTH="30" HEIGHT="52"/>
-            <SP HPOS="610" VPOS="1073" WIDTH="13"/>
-            <String ID="L0019_W03" CONTENT="παθήματα," HPOS="623" VPOS="1073" WIDTH="222" HEIGHT="52"/>
-            <SP HPOS="845" VPOS="1073" WIDTH="41"/>
-            <String ID="L0019_W04" CONTENT="ceu" HPOS="886" VPOS="1088" WIDTH="75" HEIGHT="31"/>
-            <SP HPOS="961" VPOS="1088" WIDTH="24"/>
-            <String ID="L0019_W05" CONTENT="actus" HPOS="985" VPOS="1078" WIDTH="118" HEIGHT="42"/>
+          <TextLine ID="L0019" TAGREFS="NON_PLACE">
+            <String ID="L0019_W01" CONTENT="ἐπιθυμία"/>
+            <SP/>
+            <String ID="L0019_W02" CONTENT="ϗ"/>
+            <SP/>
+            <String ID="L0019_W03" CONTENT="παθήματα,"/>
+            <SP/>
+            <String ID="L0019_W04" CONTENT="ceu"/>
+            <SP/>
+            <String ID="L0019_W05" CONTENT="actus"/>
           </TextLine>
-          <TextLine ID="L0020" HPOS="393" VPOS="1122" WIDTH="710" HEIGHT="67">
+          <TextLine ID="L0020" HPOS="393" VPOS="1128" WIDTH="710" HEIGHT="61">
             <String ID="L0020_W01" CONTENT="&amp;" HPOS="393" VPOS="1129" WIDTH="42" HEIGHT="38"/>
             <SP HPOS="435" VPOS="1129" WIDTH="50"/>
             <String ID="L0020_W02" CONTENT="motus;" HPOS="485" VPOS="1136" WIDTH="181" HEIGHT="41"/>
@@ -203,26 +203,26 @@
             <SP HPOS="922" VPOS="1128" WIDTH="42"/>
             <String ID="L0020_W04" CONTENT="ipſum" HPOS="964" VPOS="1135" WIDTH="139" HEIGHT="54"/>
           </TextLine>
-          <TextLine ID="L0021" TAGREFS="NON_PLACE">
-            <String ID="L0021_W01" CONTENT="Artic."/>
-            <SP/>
-            <String ID="L0021_W02" CONTENT="II."/>
+          <TextLine ID="L0021" HPOS="162" VPOS="1073" WIDTH="941" HEIGHT="52">
+            <String ID="L0021_W01" CONTENT="Artic." HPOS="162" VPOS="1073" WIDTH="683" HEIGHT="52"/>
+            <SP HPOS="845" VPOS="1073" WIDTH="41"/>
+            <String ID="L0021_W02" CONTENT="II." HPOS="886" VPOS="1078" WIDTH="217" HEIGHT="42"/>
           </TextLine>
-          <TextLine ID="L0022" HPOS="165" VPOS="1181" WIDTH="937" HEIGHT="64">
-            <String ID="L0022_W01" CONTENT="peccatum," HPOS="195" VPOS="1189" WIDTH="435" HEIGHT="49"/>
-            <SP HPOS="630" VPOS="1189" WIDTH="8"/>
+          <TextLine ID="L0022" HPOS="323" VPOS="1181" WIDTH="779" HEIGHT="64">
+            <String ID="L0022_W01" CONTENT="peccatum," HPOS="323" VPOS="1192" WIDTH="307" HEIGHT="46"/>
+            <SP HPOS="630" VPOS="1192" WIDTH="8"/>
             <String ID="L0022_W02" CONTENT="ceu" HPOS="638" VPOS="1195" WIDTH="78" HEIGHT="28"/>
             <SP HPOS="716" VPOS="1195" WIDTH="28"/>
             <String ID="L0022_W03" CONTENT="habitus," HPOS="744" VPOS="1182" WIDTH="191" HEIGHT="57"/>
             <SP HPOS="935" VPOS="1182" WIDTH="17"/>
             <String ID="L0022_W04" CONTENT="perpe-" HPOS="952" VPOS="1202" WIDTH="150" HEIGHT="43"/>
           </TextLine>
-          <TextLine ID="L0023" TAGREFS="NON_PLACE">
-            <String ID="L0023_W01" CONTENT="A."/>
-            <SP/>
-            <String ID="L0023_W02" CONTENT="C."/>
+          <TextLine ID="L0023" HPOS="165" VPOS="1189" WIDTH="143" HEIGHT="41">
+            <String ID="L0023_W01" CONTENT="A." HPOS="195" VPOS="1193" WIDTH="67" HEIGHT="33"/>
+            <SP HPOS="262" VPOS="1193" WIDTH="1"/>
+            <String ID="L0023_W02" CONTENT="C." HPOS="263" VPOS="1189" WIDTH="45" HEIGHT="41"/>
           </TextLine>
-          <TextLine ID="L0024" HPOS="195" VPOS="1238" WIDTH="906" HEIGHT="61">
+          <TextLine ID="L0024" HPOS="195" VPOS="1247" WIDTH="906" HEIGHT="52">
             <String ID="L0024_W01" CONTENT="tua" HPOS="195" VPOS="1247" WIDTH="266" HEIGHT="43"/>
             <SP HPOS="461" VPOS="1247" WIDTH="10"/>
             <String ID="L0024_W02" CONTENT="naturæ" HPOS="471" VPOS="1251" WIDTH="160" HEIGHT="32"/>
@@ -240,7 +240,7 @@
             <SP HPOS="879" VPOS="1312" WIDTH="23"/>
             <String ID="L0025_W04" CONTENT="principi-" HPOS="902" VPOS="1305" WIDTH="200" HEIGHT="54"/>
           </TextLine>
-          <TextLine ID="L0026" HPOS="387" VPOS="1348" WIDTH="712" HEIGHT="58">
+          <TextLine ID="L0026" HPOS="387" VPOS="1353" WIDTH="712" HEIGHT="53">
             <String ID="L0026_W01" CONTENT="um" HPOS="387" VPOS="1366" WIDTH="82" HEIGHT="29"/>
             <SP HPOS="469" VPOS="1366" WIDTH="1"/>
             <String ID="L0026_W02" CONTENT="illorum," HPOS="469" VPOS="1354" WIDTH="188" HEIGHT="49"/>
@@ -269,12 +269,12 @@
             <SP HPOS="929" VPOS="1463" WIDTH="38"/>
             <String ID="L0028_W04" CONTENT="quam" HPOS="967" VPOS="1481" WIDTH="131" HEIGHT="45"/>
           </TextLine>
-          <TextLine ID="L0029" HPOS="387" VPOS="1518" WIDTH="711" HEIGHT="65">
+          <TextLine ID="L0029" HPOS="387" VPOS="1521" WIDTH="711" HEIGHT="62">
             <String ID="L0029_W01" CONTENT="concupiſcentiarum" HPOS="387" VPOS="1521" WIDTH="433" HEIGHT="58"/>
             <SP HPOS="820" VPOS="1521" WIDTH="36"/>
             <String ID="L0029_W02" CONTENT="(quarum" HPOS="856" VPOS="1525" WIDTH="242" HEIGHT="58"/>
           </TextLine>
-          <TextLine ID="L0030" HPOS="382" VPOS="1574" WIDTH="715" HEIGHT="59">
+          <TextLine ID="L0030" HPOS="382" VPOS="1576" WIDTH="715" HEIGHT="57">
             <String ID="L0030_W01" CONTENT="quævis" HPOS="382" VPOS="1581" WIDTH="157" HEIGHT="52"/>
             <SP HPOS="539" VPOS="1581" WIDTH="37"/>
             <String ID="L0030_W02" CONTENT="ſingulare" HPOS="576" VPOS="1577" WIDTH="207" HEIGHT="55"/>
@@ -283,7 +283,7 @@
             <SP HPOS="999" VPOS="1581" WIDTH="23"/>
             <String ID="L0030_W04" CONTENT="ha-" HPOS="1022" VPOS="1585" WIDTH="75" HEIGHT="43"/>
           </TextLine>
-          <TextLine ID="L0031" HPOS="386" VPOS="1628" WIDTH="710" HEIGHT="70">
+          <TextLine ID="L0031" HPOS="386" VPOS="1632" WIDTH="710" HEIGHT="66">
             <String ID="L0031_W01" CONTENT="bet)" HPOS="386" VPOS="1634" WIDTH="105" HEIGHT="59"/>
             <SP HPOS="491" VPOS="1634" WIDTH="11"/>
             <String ID="L0031_W02" CONTENT="differentia" HPOS="502" VPOS="1633" WIDTH="237" HEIGHT="47"/>

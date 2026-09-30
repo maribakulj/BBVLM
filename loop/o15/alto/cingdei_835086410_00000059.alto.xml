@@ -63,7 +63,7 @@
             <SP HPOS="804" VPOS="138" WIDTH="9"/>
             <String ID="L0003_W07" CONTENT="hoc" HPOS="813" VPOS="128" WIDTH="74" HEIGHT="39"/>
           </TextLine>
-          <TextLine ID="L0004" HPOS="37" VPOS="174" WIDTH="847" HEIGHT="58">
+          <TextLine ID="L0004" HPOS="37" VPOS="179" WIDTH="847" HEIGHT="53">
             <String ID="L0004_W01" CONTENT="interdictum," HPOS="37" VPOS="179" WIDTH="242" HEIGHT="52"/>
             <SP HPOS="279" VPOS="179" WIDTH="20"/>
             <String ID="L0004_W02" CONTENT="ut" HPOS="299" VPOS="198" WIDTH="36" HEIGHT="25"/>
@@ -77,7 +77,7 @@
           <TextLine ID="L0005" HPOS="40" VPOS="238" WIDTH="844" HEIGHT="48">
             <String ID="L0005_W01" CONTENT="onem." HPOS="40" VPOS="245" WIDTH="122" HEIGHT="32"/>
             <SP HPOS="162" VPOS="245" WIDTH="20"/>
-            <String ID="L0005_W02" CONTENT="Atqꝫ" HPOS="182" VPOS="243" WIDTH="83" HEIGHT="43"/>
+            <String ID="L0005_W02" CONTENT="At" HPOS="182" VPOS="243" WIDTH="83" HEIGHT="43"/>
             <SP HPOS="265" VPOS="243" WIDTH="20"/>
             <String ID="L0005_W03" CONTENT="ſic" HPOS="285" VPOS="239" WIDTH="41" HEIGHT="37"/>
             <SP HPOS="326" VPOS="239" WIDTH="12"/>
@@ -115,7 +115,7 @@
             <SP HPOS="595" VPOS="343" WIDTH="10"/>
             <String ID="L0007_W06" CONTENT="interdictorum," HPOS="605" VPOS="342" WIDTH="280" HEIGHT="45"/>
           </TextLine>
-          <TextLine ID="L0008" HPOS="39" VPOS="389" WIDTH="845" HEIGHT="56">
+          <TextLine ID="L0008" HPOS="39" VPOS="395" WIDTH="845" HEIGHT="50">
             <String ID="L0008_W01" CONTENT="intendit" HPOS="39" VPOS="395" WIDTH="148" HEIGHT="40"/>
             <SP HPOS="187" VPOS="395" WIDTH="13"/>
             <String ID="L0008_W02" CONTENT="adipiſci" HPOS="200" VPOS="398" WIDTH="142" HEIGHT="47"/>
@@ -141,7 +141,7 @@
             <SP HPOS="737" VPOS="448" WIDTH="11"/>
             <String ID="L0009_W07" CONTENT="Saluia-" HPOS="748" VPOS="453" WIDTH="136" HEIGHT="36"/>
           </TextLine>
-          <TextLine ID="L0010" HPOS="40" VPOS="496" WIDTH="844" HEIGHT="47">
+          <TextLine ID="L0010" HPOS="40" VPOS="502" WIDTH="844" HEIGHT="41">
             <String ID="L0010_W01" CONTENT="num" HPOS="40" VPOS="513" WIDTH="85" HEIGHT="30"/>
             <SP HPOS="125" VPOS="513" WIDTH="17"/>
             <String ID="L0010_W02" CONTENT="interdictum" HPOS="142" VPOS="504" WIDTH="220" HEIGHT="37"/>
@@ -238,10 +238,10 @@
             <SP HPOS="783" VPOS="824" WIDTH="19"/>
             <String ID="L0016_W07" CONTENT="per-" HPOS="802" VPOS="836" WIDTH="81" HEIGHT="38"/>
           </TextLine>
-          <TextLine ID="L0017" HPOS="40" VPOS="869" WIDTH="847" HEIGHT="59">
+          <TextLine ID="L0017" HPOS="40" VPOS="875" WIDTH="847" HEIGHT="53">
             <String ID="L0017_W01" CONTENT="didit." HPOS="40" VPOS="875" WIDTH="128" HEIGHT="44"/>
             <SP HPOS="168" VPOS="875" WIDTH="14"/>
-            <String ID="L0017_W02" CONTENT="Eſtq́ꝫ" HPOS="182" VPOS="878" WIDTH="107" HEIGHT="50"/>
+            <String ID="L0017_W02" CONTENT="Eſt" HPOS="182" VPOS="878" WIDTH="107" HEIGHT="50"/>
             <SP HPOS="289" VPOS="878" WIDTH="20"/>
             <String ID="L0017_W03" CONTENT="hoc" HPOS="309" VPOS="877" WIDTH="68" HEIGHT="37"/>
             <SP HPOS="377" VPOS="877" WIDTH="23"/>
@@ -285,7 +285,7 @@
             <SP HPOS="817" VPOS="995" WIDTH="12"/>
             <String ID="L0019_W09" CONTENT="qui" HPOS="829" VPOS="988" WIDTH="59" HEIGHT="45"/>
           </TextLine>
-          <TextLine ID="L0020" HPOS="40" VPOS="1033" WIDTH="849" HEIGHT="58">
+          <TextLine ID="L0020" HPOS="40" VPOS="1033" WIDTH="849" HEIGHT="55">
             <String ID="L0020_W01" CONTENT="de" HPOS="40" VPOS="1033" WIDTH="46" HEIGHT="41"/>
             <SP HPOS="86" VPOS="1033" WIDTH="15"/>
             <String ID="L0020_W02" CONTENT="ſolo" HPOS="101" VPOS="1039" WIDTH="78" HEIGHT="37"/>
@@ -340,7 +340,7 @@
             <SP HPOS="828" VPOS="1144" WIDTH="18"/>
             <String ID="L0022_W09" CONTENT="ff." HPOS="846" VPOS="1144" WIDTH="42" HEIGHT="37"/>
           </TextLine>
-          <TextLine ID="L0023" HPOS="42" VPOS="1188" WIDTH="848" HEIGHT="56">
+          <TextLine ID="L0023" HPOS="42" VPOS="1191" WIDTH="848" HEIGHT="53">
             <String ID="L0023_W01" CONTENT="de" HPOS="42" VPOS="1193" WIDTH="44" HEIGHT="40"/>
             <SP HPOS="86" VPOS="1193" WIDTH="22"/>
             <String ID="L0023_W02" CONTENT="Vi" HPOS="108" VPOS="1201" WIDTH="45" HEIGHT="32"/>
@@ -376,7 +376,7 @@
             <SP HPOS="750" VPOS="1261" WIDTH="1"/>
             <String ID="L0024_W07" CONTENT="fortaſ-" HPOS="750" VPOS="1248" WIDTH="142" HEIGHT="39"/>
           </TextLine>
-          <TextLine ID="L0025" HPOS="42" VPOS="1295" WIDTH="850" HEIGHT="57">
+          <TextLine ID="L0025" HPOS="42" VPOS="1297" WIDTH="850" HEIGHT="55">
             <String ID="L0025_W01" CONTENT="ſis" HPOS="42" VPOS="1297" WIDTH="39" HEIGHT="39"/>
             <SP HPOS="81" VPOS="1297" WIDTH="29"/>
             <String ID="L0025_W02" CONTENT="iſta" HPOS="110" VPOS="1305" WIDTH="68" HEIGHT="34"/>

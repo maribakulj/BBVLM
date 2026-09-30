@@ -45,7 +45,7 @@
             <SP HPOS="643" VPOS="165" WIDTH="10"/>
             <String ID="L0001_W05" CONTENT="werden/" HPOS="653" VPOS="168" WIDTH="170" HEIGHT="43"/>
           </TextLine>
-          <TextLine ID="L0002" HPOS="58" VPOS="221" WIDTH="676" HEIGHT="64">
+          <TextLine ID="L0002" HPOS="58" VPOS="223" WIDTH="676" HEIGHT="62">
             <String ID="L0002_W01" CONTENT="Auff" HPOS="58" VPOS="232" WIDTH="106" HEIGHT="53"/>
             <SP HPOS="164" VPOS="232" WIDTH="17"/>
             <String ID="L0002_W02" CONTENT="daß" HPOS="181" VPOS="231" WIDTH="72" HEIGHT="53"/>
@@ -60,7 +60,7 @@
             <SP HPOS="605" VPOS="221" WIDTH="19"/>
             <String ID="L0002_W07" CONTENT="erden" HPOS="624" VPOS="226" WIDTH="110" HEIGHT="40"/>
           </TextLine>
-          <TextLine ID="L0003" HPOS="59" VPOS="270" WIDTH="591" HEIGHT="68">
+          <TextLine ID="L0003" HPOS="59" VPOS="278" WIDTH="591" HEIGHT="60">
             <String ID="L0003_W01" CONTENT="An" HPOS="59" VPOS="270" WIDTH="81" HEIGHT="65"/>
             <SP HPOS="140" VPOS="270" WIDTH="1"/>
             <String ID="L0003_W02" CONTENT="jn" HPOS="140" VPOS="270" WIDTH="42" HEIGHT="68"/>
@@ -73,7 +73,7 @@
             <SP HPOS="491" VPOS="282" WIDTH="12"/>
             <String ID="L0003_W06" CONTENT="verloꝛn" HPOS="503" VPOS="279" WIDTH="147" HEIGHT="42"/>
           </TextLine>
-          <TextLine ID="L0004" HPOS="59" VPOS="332" WIDTH="698" HEIGHT="60">
+          <TextLine ID="L0004" HPOS="60" VPOS="332" WIDTH="697" HEIGHT="60">
             <String ID="L0004_W01" CONTENT="Nicht" HPOS="60" VPOS="342" WIDTH="121" HEIGHT="50"/>
             <SP HPOS="181" VPOS="342" WIDTH="11"/>
             <String ID="L0004_W02" CONTENT="werden/" HPOS="192" VPOS="343" WIDTH="147" HEIGHT="40"/>
@@ -82,7 +82,7 @@
             <SP HPOS="517" VPOS="335" WIDTH="15"/>
             <String ID="L0004_W04" CONTENT="(außerkoꝛn" HPOS="532" VPOS="332" WIDTH="225" HEIGHT="55"/>
           </TextLine>
-          <TextLine ID="L0005" HPOS="62" VPOS="381" WIDTH="654" HEIGHT="69">
+          <TextLine ID="L0005" HPOS="62" VPOS="387" WIDTH="654" HEIGHT="63">
             <String ID="L0005_W01" CONTENT="Auß" HPOS="62" VPOS="397" WIDTH="100" HEIGHT="53"/>
             <SP HPOS="162" VPOS="397" WIDTH="9"/>
             <String ID="L0005_W02" CONTENT="gnaden/" HPOS="171" VPOS="399" WIDTH="171" HEIGHT="48"/>
@@ -107,13 +107,13 @@
             <String ID="L0006_W05" CONTENT="haben." HPOS="515" VPOS="443" WIDTH="134" HEIGHT="54"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B002" TAGREFS="ROLE_heading" HPOS="91" VPOS="646" WIDTH="741" HEIGHT="186">
-          <TextLine ID="L0007" HPOS="638" VPOS="646" WIDTH="194" HEIGHT="32">
-            <String ID="L0007_W01" CONTENT="Am" HPOS="638" VPOS="646" WIDTH="24" HEIGHT="23"/>
-            <SP HPOS="662" VPOS="646" WIDTH="1"/>
-            <String ID="L0007_W02" CONTENT="I." HPOS="662" VPOS="654" WIDTH="2" HEIGHT="4"/>
-            <SP HPOS="664" VPOS="654" WIDTH="10"/>
-            <String ID="L0007_W03" CONTENT="Sontag" HPOS="674" VPOS="646" WIDTH="158" HEIGHT="25"/>
+        <TextBlock ID="B002" TAGREFS="ROLE_heading" HPOS="80" VPOS="615" WIDTH="749" HEIGHT="217">
+          <TextLine ID="L0007" HPOS="80" VPOS="615" WIDTH="491" HEIGHT="72">
+            <String ID="L0007_W01" CONTENT="Am" HPOS="80" VPOS="615" WIDTH="121" HEIGHT="72"/>
+            <SP HPOS="201" VPOS="615" WIDTH="11"/>
+            <String ID="L0007_W02" CONTENT="I." HPOS="212" VPOS="615" WIDTH="36" HEIGHT="63"/>
+            <SP HPOS="248" VPOS="615" WIDTH="1"/>
+            <String ID="L0007_W03" CONTENT="Sontag" HPOS="248" VPOS="615" WIDTH="323" HEIGHT="72"/>
           </TextLine>
           <TextLine ID="L0008" HPOS="91" VPOS="696" WIDTH="738" HEIGHT="82">
             <String ID="L0008_W01" CONTENT="nach" HPOS="91" VPOS="704" WIDTH="138" HEIGHT="74"/>
@@ -149,7 +149,7 @@
             <SP HPOS="688" VPOS="936" WIDTH="14"/>
             <String ID="L0011_W02" CONTENT="Mañ/" HPOS="702" VPOS="934" WIDTH="134" HEIGHT="47"/>
           </TextLine>
-          <TextLine ID="L0012" HPOS="470" VPOS="981" WIDTH="402" HEIGHT="64">
+          <TextLine ID="L0012" HPOS="470" VPOS="987" WIDTH="402" HEIGHT="58">
             <String ID="L0012_W01" CONTENT="Der" HPOS="470" VPOS="992" WIDTH="94" HEIGHT="49"/>
             <SP HPOS="564" VPOS="992" WIDTH="6"/>
             <String ID="L0012_W02" CONTENT="kleidet/" HPOS="570" VPOS="992" WIDTH="143" HEIGHT="43"/>
@@ -170,12 +170,12 @@
             <SP HPOS="665" VPOS="1102" WIDTH="22"/>
             <String ID="L0014_W03" CONTENT="(welches" HPOS="687" VPOS="1098" WIDTH="186" HEIGHT="52"/>
           </TextLine>
-          <TextLine ID="L0015" HPOS="458" VPOS="1149" WIDTH="329" HEIGHT="64">
+          <TextLine ID="L0015" HPOS="458" VPOS="1155" WIDTH="329" HEIGHT="58">
             <String ID="L0015_W01" CONTENT="thewr" HPOS="458" VPOS="1150" WIDTH="116" HEIGHT="63"/>
             <SP HPOS="574" VPOS="1150" WIDTH="11"/>
             <String ID="L0015_W02" CONTENT="Gewand)" HPOS="585" VPOS="1156" WIDTH="202" HEIGHT="51"/>
           </TextLine>
-          <TextLine ID="L0016" HPOS="69" VPOS="1208" WIDTH="762" HEIGHT="63">
+          <TextLine ID="L0016" HPOS="69" VPOS="1211" WIDTH="762" HEIGHT="60">
             <String ID="L0016_W01" CONTENT="Vnd" HPOS="69" VPOS="1217" WIDTH="81" HEIGHT="45"/>
             <SP HPOS="150" VPOS="1217" WIDTH="1"/>
             <String ID="L0016_W02" CONTENT="koͤſtlichm" HPOS="150" VPOS="1213" WIDTH="211" HEIGHT="53"/>
@@ -199,7 +199,7 @@
             <SP HPOS="521" VPOS="1269" WIDTH="8"/>
             <String ID="L0017_W05" CONTENT="tag/" HPOS="529" VPOS="1276" WIDTH="88" HEIGHT="44"/>
           </TextLine>
-          <TextLine ID="L0018" HPOS="71" VPOS="1315" WIDTH="631" HEIGHT="59">
+          <TextLine ID="L0018" HPOS="71" VPOS="1316" WIDTH="631" HEIGHT="58">
             <String ID="L0018_W01" CONTENT="Vnd" HPOS="71" VPOS="1326" WIDTH="102" HEIGHT="45"/>
             <SP HPOS="173" VPOS="1326" WIDTH="10"/>
             <String ID="L0018_W02" CONTENT="auch" HPOS="183" VPOS="1324" WIDTH="93" HEIGHT="49"/>
@@ -212,7 +212,7 @@
             <SP HPOS="592" VPOS="1332" WIDTH="9"/>
             <String ID="L0018_W06" CONTENT="klag." HPOS="601" VPOS="1320" WIDTH="101" HEIGHT="53"/>
           </TextLine>
-          <TextLine ID="L0019" HPOS="73" VPOS="1369" WIDTH="639" HEIGHT="58">
+          <TextLine ID="L0019" HPOS="73" VPOS="1371" WIDTH="639" HEIGHT="56">
             <String ID="L0019_W01" CONTENT="Es" HPOS="73" VPOS="1381" WIDTH="63" HEIGHT="45"/>
             <SP HPOS="136" VPOS="1381" WIDTH="10"/>
             <String ID="L0019_W02" CONTENT="war" HPOS="146" VPOS="1388" WIDTH="80" HEIGHT="32"/>
@@ -237,16 +237,16 @@
             <String ID="L0020_W05" CONTENT="Lazarus/" HPOS="480" VPOS="1433" WIDTH="186" HEIGHT="46"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B004" TAGREFS="ROLE_signature-mark" HPOS="785" VPOS="1482" WIDTH="90" HEIGHT="51">
-          <TextLine ID="L0021" HPOS="785" VPOS="1482" WIDTH="90" HEIGHT="51">
-            <String ID="L0021_W01" CONTENT="G" HPOS="785" VPOS="1482" WIDTH="25" HEIGHT="51"/>
-            <SP HPOS="810" VPOS="1482" WIDTH="1"/>
-            <String ID="L0021_W02" CONTENT="iiij" HPOS="810" VPOS="1482" WIDTH="65" HEIGHT="51"/>
+        <TextBlock ID="B004" TAGREFS="ROLE_signature-mark" HPOS="639" VPOS="646" WIDTH="193" HEIGHT="32">
+          <TextLine ID="L0021" HPOS="639" VPOS="646" WIDTH="193" HEIGHT="32">
+            <String ID="L0021_W01" CONTENT="G" HPOS="638" VPOS="646" WIDTH="59" HEIGHT="23"/>
+            <SP HPOS="697" VPOS="646" WIDTH="10"/>
+            <String ID="L0021_W02" CONTENT="iiij" HPOS="707" VPOS="646" WIDTH="125" HEIGHT="25"/>
           </TextLine>
         </TextBlock>
-        <TextBlock ID="B005" TAGREFS="ROLE_catch-word" HPOS="528" VPOS="1485" WIDTH="136" HEIGHT="55">
-          <TextLine ID="L0022" HPOS="528" VPOS="1485" WIDTH="136" HEIGHT="55">
-            <String ID="L0022_W01" CONTENT="Der" HPOS="528" VPOS="1486" WIDTH="136" HEIGHT="53"/>
+        <TextBlock ID="B005" TAGREFS="ROLE_catch-word" HPOS="785" VPOS="1482" WIDTH="90" HEIGHT="51">
+          <TextLine ID="L0022" HPOS="785" VPOS="1482" WIDTH="90" HEIGHT="51">
+            <String ID="L0022_W01" CONTENT="Der" HPOS="785" VPOS="1482" WIDTH="90" HEIGHT="51"/>
           </TextLine>
         </TextBlock>
       </PrintSpace>
