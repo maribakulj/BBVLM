@@ -228,9 +228,10 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
                     for a, b in aligne(mots, eux).items():
                         p, q, r_, s_ = bs[a]
                         bs[a] = (eux[b][1], q, eux[b][2], s_)
-                if ok and os.environ.get('BBVLM_W02', '1') == '1' and (ecr == 'fraktur' or os.environ.get('BBVLM_W02C', '1') == '0'):      # W02 : coupure choisie par Tesseract, bords à l'encre ; W02c : Fraktur seulement
+                w02d = os.environ.get('BBVLM_W02D') == '1'     # W02d (en test) : romain avec script/Latin
+                if ok and os.environ.get('BBVLM_W02', '1') == '1' and (ecr == 'fraktur' or w02d or os.environ.get('BBVLM_W02C', '1') == '0'):      # W02 : coupure choisie par Tesseract, bords à l'encre ; W02c : Fraktur seulement
                     from w02 import ajuste
-                    lg = 'script/Fraktur' if ecr == 'fraktur' else 'lat'
+                    lg = 'script/Fraktur' if ecr == 'fraktur' else ('script/Latin' if w02d else 'lat')
                     bs = ajuste(g, (x0, y0, x1, y1), mots, bs, lg, _mt, f"{lg}|{x0},{y0},{x1},{y1}")
                 if ok and os.environ.get('BBVLM_BLANCS') == '1':     # S10 : blancs vérifiés par l'encre
                     from blancs import corrige
