@@ -12,3 +12,4 @@
 - abdipre : la VT elle-même code l'abréviation « -que » tantôt « qꝫ », tantôt « q; » (7 « q; » dans les 76 VT préparées, ferrepit, goclprop, AyrmThes) : équivalence de codage, non faute.
 - Recherche caladr 0,886 : les mêmes « q́ꝫ » (vue recherche : « formamq́ꝫ » ≠ « formamq ») et ß/ſs.
 - Lignes lues non placées : 2 sur 121 (BiedBern).
+- **Correctif T01 (même jour)** : audit aveugle des 7 lignes « q́ » de caladr (2 relecteurs Opus sans candidats : « q́ꝫ » partout) → verdicts annulés ; avec T01b caladr = 10 éd. contre la VT, **3** contre l'adjugée corrigée (et non 1). Voir t01/RESULTATS.md.

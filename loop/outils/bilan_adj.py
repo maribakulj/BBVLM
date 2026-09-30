@@ -33,11 +33,15 @@ def reference_adjugee(dossier):
         ver2 = {v['id']: v for v in json.load(open(f'{dossier}/adj/verdicts2.json'))}
     except FileNotFoundError:
         ver2 = {}
+    # Audit (règle 4) : verdicts annulés quand deux relecteurs aveugles sans
+    # candidats concordent avec la référence distribuée (T01, caladr)
+    try: annules = set(json.load(open(f'{dossier}/adj/annule.json')))
+    except FileNotFoundError: annules = set()
     choix, conflits, indec, contestes = {}, set(), 0, 0
     rejetees = set()   # A3 : les deux arbitres rejettent la référence sans s'accorder sur la correction
     for c in cle:
         v = ver.get(c['id'])
-        if v is None: continue
+        if v is None or c['id'] in annules: continue
         r = c['X'] if c['_ref'] == 'X' else c['Y']
         j = vue(_pua(v['texte_correct']) if VUE == 'diplo' else v['texte_correct'], VUE)
         indec += v['verdict'] == 'indecidable'
