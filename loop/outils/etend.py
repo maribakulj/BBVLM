@@ -21,7 +21,7 @@ def etend(gray, boites):
     _, bw = cv2.threshold(gray, 0, 1, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
     n, lab, st, _ = cv2.connectedComponentsWithStats(bw, 8)
     hm = float(np.median([b[3] - b[1] for b in boites]))
-    cc = [(x, y, x + w - 1, y + h - 1) for x, y, w, h, a in st[1:] if a >= 6 and .25 * hm <= h <= 1.6 * hm and w <= 8 * hm and h <= 4 * w]   # lettres, pas filets ni poussières
+    cc = [(x, y, x + w - 1, y + h - 1) for x, y, w, h, a in st[1:] if a >= 6 and float(os.environ.get('BBVLM_ETEND_HMIN', '0.35')) * hm <= h <= 1.6 * hm and w <= 8 * hm and h <= 4 * w]   # lettres ; ni filets, ni tirets ornementaux (« — 14 — », dalarie), ni poussières
     def touche(c, b, m=2):
         return c[0] <= b[2] + m and c[2] >= b[0] - m and c[1] <= b[3] + m and c[3] >= b[1] - m
     out = [list(map(int, b)) for b in boites]
