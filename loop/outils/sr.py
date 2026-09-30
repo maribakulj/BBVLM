@@ -191,7 +191,9 @@ def choisit(gray, textes, boites, tau=4.5, dossier=None):
             # et un gain absolu minimal sur la ligne : sur un mot seul, la marge par signe ne suffit pas
             # (réclames « Die », « l. » étendues à l'encre voisine : lignes perdues)
             gain = (base - s) * (len(textes[i]) + 1)
-            if s <= tau and (c in orig or (s <= base - delta and gain >= float(os.environ.get('BBVLM_SR_GAIN', '5')))): paires.append((s, i, k))
+            # une ligne lue d'un seul mot ne départage pas de nouvelles géométries (indices CTC trop faibles)
+            multi = len(textes[i].split()) >= int(os.environ.get('BBVLM_SR_MOTS', '2'))
+            if s <= tau and (c in orig or (multi and s <= base - delta and gain >= float(os.environ.get('BBVLM_SR_GAIN', '5')))): paires.append((s, i, k))
     paires.sort()
     res, pris = {}, []
     for s, i, k in paires:
