@@ -40,6 +40,10 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         if len(nb) != len(bb):
             garde = {tuple(l['bbox']): l for l in kr}
             kr = [garde.get(tuple(b), {'bbox': b}) for b in nb]
+        if os.environ.get('BBVLM_ETEND') == '1':         # S09 : lignes courtes complétées par l'encre
+            from etend import etend
+            eb = etend(g0, [l['bbox'] for l in kr])
+            kr = [l if list(map(int, l['bbox'])) == e else {**l, 'bbox': e, 'bbox_g04': e} for l, e in zip(kr, eb)]
     if roles and any(r[0] == 'marginalia' for r in roles):
         # manchettes signalées par le lecteur : détacher celles que kraken a fusionnées (coupe.py)
         from coupe import coupe_page

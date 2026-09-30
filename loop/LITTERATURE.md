@@ -232,3 +232,8 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 - Sources : Tesseract, « Combined Script and Page Orientation Estimation » (OSD, angles 0/90/180/270) ; issue tesseract #3836 (rotation sans reconnaissance) ; « Seeing Straight: Document Orientation Detection for Efficient OCR » (arXiv 2511.04161) : la plupart des OCR et VLM se dégradent fortement sous rotation.
 - Apport : la pratique établie est de décider l'orientation (ici par ligne), de tourner le fragment de 90° et de relancer la reconnaissance ; un moteur non orienté produit du bruit sur une ligne debout.
 - Limite : OSD pensé pour la page entière, peu fiable sur une ligne courte ; rien de spécifique aux intitulés verticaux des tableaux imprimés anciens. Pour nous : essayer les deux sens (±90°) et garder la lecture la plus proche du texte lu.
+
+## L19 — Lignes courtes manquées par la détection de lignes de base
+- Source : Grüning, Leifert, Strauß, Michael, Labahn, « A Two-Stage Method for Text Line Detection in Historical Documents », IJDAR 2019 (arXiv 1802.03345) ; revue « Recent advances in text line segmentation and baseline detection… » (2025).
+- Apport : défauts connus des détecteurs de lignes de base : lignes courtes manquées, lignes trop proches fusionnées, fragments. Le second étage de Grüning regroupe de bas en haut des éléments (superpixels) en lignes : complétion par l'encre, pas par le réseau.
+- Limite : pas de recette pour compléter une ligne courte détectée partiellement ; leur regroupement demande la carte de lignes de base de l'ARU-Net, que kraken n'expose pas. Pour nous (S09) : prolonger la boîte kraken courte vers les composantes d'encre de sa bande qui n'appartiennent à aucune autre ligne.
