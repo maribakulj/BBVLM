@@ -921,3 +921,10 @@ les mots appariés (IoU ≥ 0,3) : écart du bord droit (nous − VT) / hauteur,
 médiane +0,00 (trait, n 317), +0,00 (ponctuation, n 2 005), −0,01 (autres,
 n 6 472) ; IoU ≥ 0,8 pour 91 %, 87 %, 88 %. Aucun biais : le cas canitrac est
 isolé. Pas de correctif.
+
+## S08c — renvois chiffrés alignés à droite (tables) — ADOPTÉ (30/09, 02h50 Paris)
+- Hypothèse : sur 852691769 (pire retrieval, 0,767), kraken colle au texte la colonne de renvois « 1. — 6. » ; la détacher donnerait une ligne candidate à l'ancrage S05. Littérature : L17.
+- v0 (blanc d'encre ≥ 0,6 h dans le quart droit) : aucune coupe — les blancs internes du renvoi (22–31 px) valent celui qui le sépare du texte. Négatif, abandonné.
+- v1 (boîtes de mots Tesseract, psm 7 : suite finale de jetons chiffrés commençant après la moitié de la ligne) : 43 pages, 3 gains, 1 perte (briedefra 0,919 → 0,909 : prose « … Beſatzung aus 500 » coupée).
+- v2 (+ garde-fou : chiffres de la suite = chiffres d'une ligne purement chiffrée de la lecture ; ne peut que retirer des coupes de v1) : rappel texte+IoU80 852691769 0,673 → 0,681, canitrac 0,739 → 0,749, emmeprac 0,762 → 0,769, briedefra 0,919 = ; 39 autres pages inchangées ; pire cas 0,536 inchangé. Retrieval 852691769 : rappel 0,767 → 0,786, précision 0,761 → 0,780.
+- Décision : adopté par défaut (BBVLM_RENVOIS=1). Gain faible : la plupart des renvois de 852691769 restent sans ligne kraken (lignes non trouvées, pas collées).

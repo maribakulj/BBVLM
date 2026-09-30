@@ -74,13 +74,17 @@ def renvois(gray, boites, ocr, textes, dossier=None, lang='script/Fraktur'):
     Tesseract avec boîtes de mots ; la suite finale de jetons chiffrés (chiffres,
     points, tirets) est détachée si elle commence après la moitié de la ligne :
     le renvoi devient une ligne candidate que l'ancrage S05 peut recevoir.
+    Garde-fou : ses chiffres doivent être ceux d'une ligne chiffrée de la lecture
+    (sinon « … Beſatzung aus 500 » serait coupé, briedefra).
     Les blancs d'encre seuls ne suffisent pas : ceux du renvoi (« 1. — 6. »)
     sont aussi larges que celui qui le sépare du texte (mesuré sur 852691769).
     """
     import re, json, os
     from mots_tess import mots_ligne
     num = re.compile(r'[\d\s.,—–\-:;]+')
-    if sum(1 for t in textes if num.fullmatch(t.strip() or 'x')) < 2: return boites
+    chif = lambda t: ''.join(c for c in t if c.isdigit())
+    lus = {chif(t) for t in textes if num.fullmatch(t.strip() or 'x')}
+    if len(lus) < 2: return boites
     cf = f'{dossier}/mots_tesseract.json' if dossier else None
     cache = json.load(open(cf)) if cf and os.path.exists(cf) else {}
     out = []
@@ -92,7 +96,7 @@ def renvois(gray, boites, ocr, textes, dossier=None, lang='script/Fraktur'):
         k = len(mots)
         while k > 0 and num.fullmatch(mots[k-1][0]): k -= 1
         if k == 0 or k == len(mots) or not any(c.isdigit() for m in mots[k:] for c in m[0]) \
-           or mots[k][1] < x0 + 0.5 * (x1 - x0):
+           or mots[k][1] < x0 + 0.5 * (x1 - x0) or chif(''.join(m[0] for m in mots[k:])) not in lus:
             out.append(b); continue
         cut = (mots[k-1][2] + mots[k][1]) // 2
         crop = gray[y0:y1+1, x0:x1+1]

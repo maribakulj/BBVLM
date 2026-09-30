@@ -33,7 +33,7 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
         bb = [l['bbox'] for l in kr]
         nb = scinde(g0, bb, lit_lignes(dossier, bb, ecr), lignes)
-        if os.environ.get('BBVLM_RENVOIS') == '1':      # S08c : renvois chiffrés alignés à droite
+        if os.environ.get('BBVLM_RENVOIS', '1') == '1':      # S08c (adopté) : renvois chiffrés alignés à droite
             from scinde import renvois
             nb = renvois(g0, nb, lit_lignes(dossier, nb, ecr), lignes, dossier,
                          'script/Fraktur' if ecr == 'fraktur' else 'lat')
