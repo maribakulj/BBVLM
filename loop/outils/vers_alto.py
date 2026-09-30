@@ -105,6 +105,10 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         mg = '1' if r and float(_np.median(r)) >= float(os.environ.get('BBVLM_G05_SEUIL', '0.05')) else '0'
     if mg == '1':          # mots calculés sur la boîte de ligne G04b
         boites = [l.get('bbox_g04', l['bbox']) for l in kr]
+    elif mg == 'ligne':    # G06 : même choix que G05, mais ligne par ligne
+        sl = float(os.environ.get('BBVLM_G05_SEUIL', '0.05'))
+        boites = [l['bbox_g04'] if 'bbox_g04' in l and (l['bbox_g04'][1] - l['bbox'][1]) / max(1, l['bbox'][3] - l['bbox'][1]) >= sl
+                  else l['bbox'] for l in kr]
     # géométrie publiée des TextLine : boîte G04b si disponible (lignes scindées/coupées : boîte G03)
     geo = [l.get('bbox_g04', l['bbox']) if os.environ.get('BBVLM_LIGNE_G04', '1') == '1' else l['bbox'] for l in kr]
     return kr, boites, geo
