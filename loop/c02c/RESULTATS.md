@@ -14,3 +14,9 @@ CRITERE (référence reproductible, cache W05, MODE=chaine2) : **35 → 39 / 60*
 - Aucune autre page modifiée (déterminisme vérifié ligne à ligne contre etat_1525/).
 
 Nos erreurs → pistes : 4 soudures sur blancs d'abréviation/parenthèse (R3/R4, cf. A05), 2 soudures de mots (« ihmviel », « VerboDEI »), 1 fusion de lignes (hermhyst, segmentation).
+
+## A05 + R3/R4 (30/09 15h50)
+- A05 (c02c/A05_PROTOCOLE.md, pré-enregistrée) appliquée à hackherz l006 : verdict « 2.Cor.XII.3.4 » → « 2. Cor. XII. 3. 4 » (= les deux relecteurs aveugles A02). Seul verdict révisé (c02c/a05/blancs.json ; dans le dossier de page : adj/blancs.json).
+- R3/R4 réévaluées sous A05 au critère figé : texte adjugé (4 pages modifiées) glyphe 60 → **54**, norm 57 → 51, aucune page en hausse (hackherz 8 → 4, extraudeu 2 → 1, buchdas/24 40 → 39, DasWeL 10 → 10).
+- CRITERE 39 → **40/60** (etat_a05/) : buchdas/24 ✓ ; DasWeL 3 → 1 ligne en échec, hackherz 3 → 2 ; extraudeu « L.S. » → « L. S. » (= VT, ligne jugée au lieu d'être exclue) ; aucune page en recul, petits lots identiques.
+- **R3/R4 adoptées** (défaut BBVLM_R3=BBVLM_R4=1 dans p2.parenthese) ; A05 défaut BBVLM_A05=1.

@@ -1129,3 +1129,6 @@ Trois lignes où adjugée et lecture s'accordent contre la VT sans audit : les d
 
 ## 30/09 15h40 — A04 / C02c : audit aveugle des lignes à compte de mots ≠ VT
 22 lignes, 2 relecteurs aveugles Opus. 7 lignes où les deux relecteurs ont exactement notre compte (≠ VT) → exclues par C02c (règle pré-enregistrée c02c/PROTOCOLE.md, code g01.charge, c02c/audit.json). 13 lignes : relecteurs = VT → erreurs de notre chaîne (4 blancs d'abréviation/parenthèse = forme R3/R4 ; 2 soudures ; 1 fusion de lignes). 2 en désaccord. CRITERE 35 → **39/60** (herrkurt, emmeprac, erasexom, caladr ✓). Voir c02c/RESULTATS.md, etat_c02c/. Suite : A05 (révision des blancs du verdict hackherz l006, pré-enregistrée) puis réévaluation R3/R4.
+
+## 30/09 15h50 — A05 + R3/R4 adoptées
+A05 (révision des seuls blancs du verdict hackherz l006, pré-enregistrée, appuyée par A02/A04 et la règle OCR-D niveau 2 « les blancs séparent uniquement des mots », L34). Sous A05, R3/R4 tiennent le critère figé : texte 60 → 54 sans hausse ; CRITERE 39 → **40/60** (buchdas/24 ✓, aucune page en recul). Adoptées par défaut. Voir c02c/RESULTATS.md, etat_a05/.
