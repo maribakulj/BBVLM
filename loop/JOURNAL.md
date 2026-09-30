@@ -1132,3 +1132,6 @@ Trois lignes où adjugée et lecture s'accordent contre la VT sans audit : les d
 
 ## 30/09 15h50 — A05 + R3/R4 adoptées
 A05 (révision des seuls blancs du verdict hackherz l006, pré-enregistrée, appuyée par A02/A04 et la règle OCR-D niveau 2 « les blancs séparent uniquement des mots », L34). Sous A05, R3/R4 tiennent le critère figé : texte 60 → 54 sans hausse ; CRITERE 39 → **40/60** (buchdas/24 ✓, aucune page en recul). Adoptées par défaut. Voir c02c/RESULTATS.md, etat_a05/.
+
+## 30/09 16h00 — incident d'environnement (Orli) et restauration
+Installation d'Orli dans venvk : dépendance kraken~=7.0.2 → kraken 7.1.1 rétrogradé en 7.0.3 et torch 2.14.0 → 2.12.0. Aucune mesure n'a tourné entre-temps. Restauré (kraken 7.1.1, torch 2.14.0, torchvision 0.29.0, orli désinstallé de venvk) ; reproductibilité vérifiée sur le lot O18 contre etat_a05/. Orli isolé dans un venv à part (venvo, torch CPU). Zenodo désormais joignable (poids Orli 594 Mo).
