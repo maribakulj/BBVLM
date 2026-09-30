@@ -14,6 +14,22 @@ ROLE = re.compile(r'^\s*\[[a-z\-]+\+?\]\s?')   # étiquettes de rôle (consigne 
 JETONS = {'{florin}': '\uf2e8', '{groschen}': '\uf2e9'}
 
 
+def parenthese(l):
+    # R3 : parenthèse ouvrante séparée du mot qui précède (VT SBB : 23 « x ( » contre 0 « x( » ;
+    # les lecteurs la collent parfois, ce qui fusionne deux mots : buchdas/24 « ſie(die »)
+    if os.environ.get('BBVLM_R3', '1') != '1': return l
+    import re
+    l = re.sub(r'(\w)\(', r'\1 (', l)
+    if os.environ.get('BBVLM_R4', '1') == '1':
+        # R4 : blanc après un point d'abréviation collé au mot suivant (VT : 795 « x. y » contre 2 sigles
+        # minuscules « v.c. ») ; sigle de lettres minuscules isolées gardé tel quel
+        l = re.sub(r'(?<!\w)([a-zſ])\.([a-zſ])(?=\.)', lambda m: m.group(1) + '\x00' + m.group(2), l)
+        l = re.sub(r'(\w)\.(\w)', r'\1. \2', l)
+        l = re.sub(r'(\w)\.(\w)', r'\1. \2', l)
+        l = l.replace('\x00', '.')
+    return l
+
+
 def post(lignes):
     ecriture = inflexion = None
     corps = []
@@ -24,7 +40,7 @@ def post(lignes):
             inflexion = l.split(':', 1)[1].strip().lower(); continue
         l = ROLE.sub('', l)
         for j, c in JETONS.items(): l = l.replace(j, c)
-        corps.append(conforme(l))
+        corps.append(parenthese(conforme(l)))
     t = unicodedata.normalize('NFC', '\n'.join(corps))
     if os.environ.get('BBVLM_QUE', '1') == '1':
         # L1 (après O15) : l'abréviation latine « -que » (q + ꝫ final) est codée
