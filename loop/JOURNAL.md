@@ -1180,3 +1180,6 @@ Sur les 22 lignes A04 : 1/12 soudures corrigées, 1/7 lignes justes cassées. Le
 
 ## 30/09 20h35 — T07 (espaces d'une relecture aveugle ligne à ligne) : pilote
 T07 brut 51 → 100 (report des blancs mal aligné autour de la ponctuation) ; T07b (blancs entre lettres seulement) 41 → 40 (un glissement) ; T07c (+ confirmation par le contexte local dans les deux lectures) : hackherz 4 → 2 (« ihm viel », « Glaͤubige tragen », « diß Leben »), aucune autre page touchée. Critère tenu sur le pilote, gain faible, variantes ajustées sur le pilote → validation sur d'autres pages dev nécessaire avant adoption. Voir t07/RESULTATS.md.
+
+## 30/09 21h00 — T07c validation (7 pages dev) : nulle ; non adoptée
+Aucune modification retenue par le garde-fou sur 210 lignes (les accords des relecteurs portent sur les blancs de la ponctuation et sur des glissements d'alignement). T07c ne corrige que hackherz (qui passe alors CRITERE) : coût 2 passes VLM/page pour 1 page sur 11 → non adoptée ; procédure sûre, gardée en réserve pour un mode de correction ciblée.

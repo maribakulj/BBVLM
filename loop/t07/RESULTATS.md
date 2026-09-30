@@ -11,3 +11,8 @@ Deux relecteurs Opus aveugles, 135 vignettes de lignes (×2).
 - T07c : corrige « Glaͤubige tragen », « ihm viel », « diß Leben », « von » (hackherz) ; aucune autre ligne touchée ; les cas avec ponctuation (« vff.xxxviij. ») sont exclus par construction.
 Statut : critère texte tenu sur le pilote, mais les variantes b et c ont été ajustées sur ces 4 pages (procédure mécanique du report, pas de seuil) ; gain faible (−2). À valider sur d'autres pages de développement avant adoption ; coût = 2 passes VLM supplémentaires par page.
 - CRITERE hackherz/24 avec le texte T07c : 2 → **0** ligne en échec, pire écart 8,79 → **0,58 c**, ≤ 0,5 c 98,45 → 99,52 % : la page **passe** (l'erreur de boîte de 8,79 c venait de la soudure « Glaͤubigetragen »). Texte de la page restauré après la mesure.
+
+## Validation T07c (7 pages dev, 1 sur 6, 210 lignes, 4 relecteurs aveugles) — NULLE → non adoptée
+- Les deux relecteurs s'accordent sur un changement de blancs dans 22 lignes (35 lignes où au moins un change) : surtout des blancs autour de « / » et des glissements d'alignement du report (« deu anfang » → « deuanfang », « ꝗ n » → « ꝗno », « zweiſt nicht » → « zweiſtnicht ») ; le garde-fou T07c les écarte tous.
+- Texte des 7 pages : inchangé (0 → 0 modification) ; CRITERE inchangé par construction.
+- Bilan T07 : 2 passes VLM de plus par page pour corriger une page (hackherz, 3 soudures) sur 11 : coût/bénéfice défavorable ; non adoptée. Si le mode qualité admettait ce coût, la procédure T07c est sûre (aucune hausse observée sur 11 pages) : à reconsidérer en mode « correction ciblée » (pages signalées), sans signal de ciblage fiable aujourd'hui (T02, T05, T06 négatifs).
