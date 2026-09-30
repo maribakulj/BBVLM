@@ -47,6 +47,8 @@ Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lec
 
 ## Prochaines étapes
 
+- **A01b (prochaine)** : étendre l'audit aveugle à toutes les lignes changées par l'adjudication sur les 38 autres pages (écart VT/adjugée ≤ 5), pour que tous les chiffres texte reposent sur une référence auditée ; puis reprendre les restes (blancs, signes suscrits).
+
 - T01 (adoptée) : vue glyphe q; ≡ qꝫ, p2 « q́ final → U+F50D » (−12 éd. sur 3 pages, aucune perte). Leçon : l'adjudication A2 peut partager le biais des lecteurs (caladr : 7 verdicts « q́ » annulés par audit aveugle) → auditer aussi toute page où VT distribuée et adjugée divergent de plus de 5 éd.
 
 - Passes VLM : 2 lectures Opus + arbitre = 226 éd. / 38 pages (glyphe) contre
