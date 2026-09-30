@@ -1177,3 +1177,6 @@ Alignement W05 + largeur du blanc à chaque frontière de caractère : blancs in
 
 ## 30/09 20h15 — T06 (vérification des espaces, lecture montrée) : négatif — ancrage sur le candidat
 Sur les 22 lignes A04 : 1/12 soudures corrigées, 1/7 lignes justes cassées. Le même modèle, en aveugle, retrouvait la bonne segmentation (A04). Les relectures de contrôle doivent rester aveugles. Voir t06/RESULTATS.md.
+
+## 30/09 20h35 — T07 (espaces d'une relecture aveugle ligne à ligne) : pilote
+T07 brut 51 → 100 (report des blancs mal aligné autour de la ponctuation) ; T07b (blancs entre lettres seulement) 41 → 40 (un glissement) ; T07c (+ confirmation par le contexte local dans les deux lectures) : hackherz 4 → 2 (« ihm viel », « Glaͤubige tragen », « diß Leben »), aucune autre page touchée. Critère tenu sur le pilote, gain faible, variantes ajustées sur le pilote → validation sur d'autres pages dev nécessaire avant adoption. Voir t07/RESULTATS.md.
