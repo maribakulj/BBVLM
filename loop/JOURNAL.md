@@ -1186,3 +1186,9 @@ Aucune modification retenue par le garde-fou sur 210 lignes (les accords des rel
 
 ## 30/09 21h05 — SR consolidée : lignes 51/60, recherche 45/60, CRITERE 41/60
 Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes ≥ 0,95 50 → 51 (contre 47 avec SR brut), recherche ≥ 0,95 38 → 45 par rapport aux ALTO du matin ; CRITERE 41/60 (dev 34/48, écart 7/12). ALTO sr3 = référence (page.alto.sr3.xml).
+
+## 30/09 18h45 — SR : extensions des unions (adoptée) ; oracle idée D (close)
+- Littérature : L41 Set-of-Mark (marques numérotées, choix d'étiquette par le VLM).
+- BBVLM_SR_UNION_ETEND=1 : CRITERE 41 → **42/60** (dev 35/48 : euanaua ✓ ; écart 7/12 inchangé), aucun recul. Adoptée (défaut '1').
+- Oracle D avant toute passe VLM (sr.py : export BBVLM_SR_DUMP) : sur 1 646 lignes de référence ≥ 2 mots, 11 sans appariement, dont 2 seulement avec une candidate appariable → plafond ≈ 1 ligne : idée D close sans dépense VLM (résultat négatif utile). Les échecs restants viennent des mots (nombre de mots ≠ VT) et de lignes d'apparat absentes de toutes les candidates.
+- ALTO sr4 en cours de régénération, puis mes_alto.

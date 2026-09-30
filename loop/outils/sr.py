@@ -181,7 +181,7 @@ def choisit(gray, textes, boites, tau=4.5, dossier=None):
         # bandes d'encre hors des lignes kraken (S06b) : lignes absentes de la segmentation (« I ĳ », DasWeL)
         from bandes import bandes as _bandes
         ex += [tuple(map(int, b)) for b in _bandes(gray, [list(map(int, b)) for b in boites])]
-    if os.environ.get('BBVLM_SR_UNION_ETEND', '0') == '1':
+    if os.environ.get('BBVLM_SR_UNION_ETEND', '1') == '1':
         # unions de morceaux, puis prolongées à l'encre (titre coupé en deux ET trop bas : « Am I. Sontag »)
         _o = {tuple(map(int, b)) for b in boites}
         U = [c for c in candidates(boites) if c not in _o]

@@ -60,3 +60,12 @@ Lignes de l'audit A04 (relecteurs aveugles = vérité) : ligne kraken appariée 
 ## SR : extensions appliquées aussi aux unions (BBVLM_SR_UNION_ETEND) — pré-enregistré 21h10
 Cas : euanaua « Am I. Sontag » (titre coupé en deux morceaux kraken ET trop bas : capitales ornées) : l'union seule (IoU 0,47) et l'extension seule ne suffisent pas ; union puis extension verticale : (71,559,831,686), IoU ≈ 0,86 avec la VT. Mêmes marges (δ, 5 nats, ≥ 2 mots). Critère : dev non en recul, aucune page dev +1 ligne en échec ; écart rapporté ; lignes/recherche non en recul.
 - Essai BBVLM_SR_BANDES (bandes d'encre hors lignes kraken comme candidates) sur DasWeL « I ĳ » : aucun effet : la signature touche le bas de la dernière ligne kraken (1882-1958 contre VT 1951-2019), donc n'est pas « hors lignes » ; lecture « J ij » ≠ VT « I ĳ » de toute façon. Option laissée désactivée, non mesurée.
+
+## SR : extensions à l'encre des unions (BBVLM_SR_UNION_ETEND, 30/09 18h40) — adoptée
+- Candidates supplémentaires : unions de morceaux d'une même bande, prolongées à l'encre (titre coupé en deux ET trop bas, « Am I. Sontag », euanaua).
+- CRITERE : dev 34 → **35/48** (euanaua 1 → 0 ligne en échec ; 852691769 et caladr : iou_med −0,002/−0,005, statut inchangé), écart 7/12 inchangé (aucune ligne des 12 pages ne change) → **42/60**. Journaux : etat_sru/.
+
+## Oracle de l'idée D (VLM arbitre de candidates numérotées, L41) — close
+- Question : parmi les lignes de référence (≥ 2 mots) sans boîte finale appariée (IoU < 0,5), combien ont une candidate SR appariable ? Si peu, un arbitre (VLM ou autre) ne peut rien gagner.
+- Résultat (60 pages, 1 646 lignes, etat_sru/oracle_d.txt) : **11 lignes sans appariement** ; candidate ≥ 0,5 pour **2** seulement (euanaua « ES war zur zeit ein » 0,66, déjà réglée côté CRITERE par la lettrine ; AusdeErb « rubinrothen » 0,73). Les 9 autres n'ont aucune candidate : DasWeL « J ij », 4 en-têtes/renvois 852691769, grand titre durrgeda (2), extraudeu (0,49), herbdulc « Vita optabi- » (0,33).
+- Conclusion : le goulot n'est pas le choix entre candidates mais (a) la génération de candidates pour quelques lignes d'apparat et (b) le découpage en mots. Idée D close (plafond ≈ 1 ligne).
