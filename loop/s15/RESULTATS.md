@@ -69,3 +69,8 @@ Cas : euanaua « Am I. Sontag » (titre coupé en deux morceaux kraken ET trop b
 - Question : parmi les lignes de référence (≥ 2 mots) sans boîte finale appariée (IoU < 0,5), combien ont une candidate SR appariable ? Si peu, un arbitre (VLM ou autre) ne peut rien gagner.
 - Résultat (60 pages, 1 646 lignes, etat_sru/oracle_d.txt) : **11 lignes sans appariement** ; candidate ≥ 0,5 pour **2** seulement (euanaua « ES war zur zeit ein » 0,66, déjà réglée côté CRITERE par la lettrine ; AusdeErb « rubinrothen » 0,73). Les 9 autres n'ont aucune candidate : DasWeL « J ij », 4 en-têtes/renvois 852691769, grand titre durrgeda (2), extraudeu (0,49), herbdulc « Vita optabi- » (0,33).
 - Conclusion : le goulot n'est pas le choix entre candidates mais (a) la génération de candidates pour quelques lignes d'apparat et (b) le découpage en mots. Idée D close (plafond ≈ 1 ligne).
+
+## S18 — taches détachées retirées en haut/bas des boîtes de ligne (L43, 30/09 19h20) — adoptée
+- sr.detache : groupes de rangées d'encre séparés du corps de la ligne par ≥ 1 rangée blanche et de masse totale < 15 px retirés aux deux extrémités ; appliqué aux boîtes finales (après SR, avant S14), bbox et bbox_g04.
+- Cas moteur : manchette goclprop « Exerc. 107. diſt. 2. » (haut 1452 → 1468, IoU réf. 0,49 → ≈ 0,71).
+- CRITERE (60 pages) : statut inchangé partout (43/60 ; dev 36/48, écart 7/12) ; lignes en échec 27 → **26** (goclprop 2 → 1) ; aucune page en recul ; iou_med : culmsent 0,899 → 0,891, AusdeErb (écart) 0,866 → 0,863, autres ±0,003. Journaux : etat_s18/.

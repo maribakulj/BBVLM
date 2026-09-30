@@ -161,7 +161,7 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         nkr += [l for l in kr if tuple(map(int, l['bbox'])) not in _pris and not any(_dans(l['bbox'], b) for b in _neuves)
                 and not any(_dans(b, l['bbox']) for b in _neuves)]      # scission choisie : la ligne d'origine cède la place
         kr = nkr
-    if os.environ.get('BBVLM_S18', '0') == '1':
+    if os.environ.get('BBVLM_S18', '1') == '1':
         # S18 (L43) : taches détachées en haut/bas de la boîte de ligne retirées
         from sr import detache
         _g18 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)

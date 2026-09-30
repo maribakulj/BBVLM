@@ -1,0 +1,7 @@
+/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/venvk/lib/python3.11/site-packages/kraken/rpred.py:339: UserWarning: Using legacy polygon extractor, as the model was not trained with the new method. Please retrain your model to get speed improvement.
+AusdeErb_100 échec  1 ≤0.5c 100.0 pire   0.25 iou 0.863 ✗ exclues 0
+backhart_768 échec  0 ≤0.5c 99.15 pire   0.53 iou 0.918 ✓ exclues 1
+buchdas_7991 échec  1 ≤0.5c 100.0 pire   0.48 iou 0.899 ✗ exclues 1
+heptaldai_82 échec  0 ≤0.5c 100.0 pire   0.37 iou 0.952 ✓ exclues 0
+CRITERE ✓ 2 / 4
+W03b {'lignes': 0, 'egales': 0, 'deplacees': 0, 'frontieres': 0}

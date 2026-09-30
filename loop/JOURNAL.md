@@ -1201,3 +1201,7 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 - Constat (en cherchant les soudures autour de la ponctuation, L42) : R3/R4/R5 adoptées à 15h50 n'avaient pas été réappliquées aux textes finaux de toutes les pages. outils/r4b.py : 2 lignes seulement changent sur 60 pages (BrenBreu « Thren.3. » → « Thren. 3. » ; goclprop « Exerc.107.diſt.2. » → « Exerc. 107. diſt. 2. »). Sauvegardes *_avantR4b.txt.
 - goclprop : le verdict adjugé l000/l009 collait les blancs ; les deux relecteurs aveugles A01 et la VT ont la segmentation en 4 mots, verdict ≠ seulement par les blancs → règle A05 pré-enregistrée appliquée (c02c/a05/blancs.json). Texte adjugé : BrenBreu 1 → 0, goclprop 8 → 8 (11 → 8 sous le verdict révisé).
 - CRITERE : BrenBreu ✓ (1 → 0 ligne en échec) ; goclprop 2 lignes en échec (la manchette « Exerc. 107. diſt. 2. » échoue désormais faute de boîte, plus au compte de mots ; « eſtque deductio » = lecture juste, VT « eue deduio » sans signe). **43/60** (dev 36/48, écart 7/12). etat_r4b/.
+
+## 30/09 19h20 — S18 (taches détachées aux extrémités des boîtes de ligne) — adoptée
+- Littérature L43 (retrait des petites composantes, survey Likforman-Sulem). Motivation : la perte CTC ne pénalise pas le vide en trop, donc SR ne resserre jamais ; post-traitement des boîtes finales.
+- CRITERE 60 pages : 43/60 inchangé, lignes en échec 27 → 26 (goclprop manchette retrouvée), aucun recul (écart : AusdeErb iou −0,003, statut inchangé). Adoptée (BBVLM_S18=1). ALTO sr4 relancé avec S18.
