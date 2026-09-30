@@ -1231,3 +1231,6 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 ## 30/09 20h30 — Apport des vues zoom (données fortuites O26, 6 lectures sans zoom)
 - Contre la référence adjugée (glyphe) : avec zoom 30 éd., sans zoom 26 (baltdiss 1/2 contre 1/1, buchdiss 16/11 contre 7/17, culmsent 0/0 contre 0/0). Aucun gain détectable ; la variance entre lectures (buchdiss 7 à 17) domine.
 - Portée : 3 pages, 2 lectures par condition, conditions non tirées au hasard (lectures sans zoom lancées par erreur) → observation, pas un résultat. Les zooms doublent environ le nombre d'images par lecture (coût). Piste Z01 (sobriété) : lecture sans zoom contre avec zoom, ≥ 4 lectures par page et par condition (règle O20), pages à signes suscrits incluses (motif initial des zooms : ä/aͤ/ů).
+
+## 30/09 20h40 — Z01 (zooms utiles ?) : H-Z01 rejetée, zooms gardés
+- 24 lectures (3 pages × 2 conditions × 4). Total avec zoom 189 éd., sans zoom 309 (+63 %) ; pire cas buchdas 40 → 68, DasWeL 12 → 25 ; erobdefoa 0/0. Les erreurs sans zoom portent sur les signes suscrits et abréviations des imprimés du XVIe s. Détail : z01/RESULTATS.md.
