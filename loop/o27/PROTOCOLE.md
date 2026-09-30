@@ -11,3 +11,8 @@ Hypothèse H-O27 : sur ces 4 pages, R6 activée (appliquée au texte final par o
 - texte glyphe (VT distribuée et adjugée A2) : total non supérieur, aucune page en hausse ;
 - CRITERE : lignes en échec ≤, aucune page ne perd CRITERE.
 Si tenu : R6 adoptée (défaut '1'). Sinon : rejetée.
+
+## Amendement (19h55, avant toute préparation ou lecture)
+Le tirage « dernière page libre » ne donne que 2 pages avec « „ » sur 67 œuvres (fiscfrie/17, backhart/120). Amendé : même ordre sha256("O27"+œuvre), mais toutes les pages libres de chaque œuvre (ordre décroissant) jusqu'à 4 pages contenant « „ » :
+briedefra_788606417/00000131 (28 « „ »), fiscfrie_742472647/00000017 (28), fiscfrie_742472647/00000015 (48), backhart_768169569_0001/00000120 (80).
+Hypothèse et mesures inchangées.
