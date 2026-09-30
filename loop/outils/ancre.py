@@ -70,11 +70,11 @@ def aligne_ancre(textes, boites, ocr):
         a = aligne([textes[i] for i in libres_t], [boites[k] for k in libres_k])
         import os
         if os.environ.get('BBVLM_S12') == '1' and res:
-            # S12 : le repli par largeur ne pose pas une ligne lue sur une boîte 3 fois trop étroite ou
-            # trop large pour son nombre de signes (référence : lignes ancrées de la page) — sinon non placée
+            # S12 : le repli par largeur ne pose pas une ligne lue sur une boîte 3 fois trop étroite
+            # pour son nombre de signes (référence : lignes ancrées de la page) — sinon non placée
             def _r(i, k):
                 b = boites[k]; return (b[2] - b[0]) / max(1, len(textes[i].replace(' ', ''))) / max(1, b[3] - b[1])
             med = float(np.median([_r(i, k) for i, k in res.items()]))
-            a = {it: ik for it, ik in a.items() if med / 3 <= _r(libres_t[it], libres_k[ik]) <= 3 * med}
+            a = {it: ik for it, ik in a.items() if med / 3 <= _r(libres_t[it], libres_k[ik])}   # borne basse seule : les titres espacés (« ) 152 ( ») sont larges à bon droit
         for it, ik in a.items(): res[libres_t[it]] = libres_k[ik]
     return res
