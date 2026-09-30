@@ -247,3 +247,8 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 - Sources : « An Unsupervised and Robust Line and Word Segmentation Method for Handwritten and Degraded Printed Document » (ACM TALLIP 2021) ; CEDAR, « Word Segmentation of Off-line Handwritten Documents » (SPIE 2008) ; Lipi Gnani (arXiv 1901.00413).
 - Apport : en imprimé, les écarts entre mots sont nettement plus grands qu'entre lettres ; seuil adaptatif proportionnel à la hauteur de ligne, profil de projection vertical ou regroupement de composantes.
 - Limite : rien sur la transcription diplomatique des blancs (espaces imprimés irréguliers, justification) ; seuils empiriques. Pour nous (piste S10) : le blanc lu par le VLM pourrait être vérifié par l'écart d'encre, mais le gain possible est borné (28 lignes / 1265 diffèrent par les blancs seuls, dont la moitié par convention de la VT).
+
+## L22 — Ligne de texte et région (directives OCR-D)
+- Sources : OCR-D, Glossar (« Textzeile : suite de mots à l'intérieur d'une région de texte ») ; Ground Truth Richtlinien (ocr-d.de/de/gt-guidelines/trans/), Structure Ground Truth.
+- Apport : la ligne est subordonnée à la région : deux blocs de texte appartenant à deux régions (fin de paragraphe et date/signature alignée à droite, texte et renvoi, deux colonnes) forment deux lignes même s'ils partagent la ligne de base. C'est la convention de la VT SBB (extraudeu, hermhyst, 852691769).
+- Limite : la page de glossaire ne donne pas de critère géométrique (taille du blanc) ; la décision « deux régions » reste visuelle. Notre consigne P6 dit « une ligne par ligne imprimée », que les lecteurs appliquent à la ligne de base, pas à la région.
