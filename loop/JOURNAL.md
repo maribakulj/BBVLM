@@ -1035,3 +1035,6 @@ Littérature L23 (MUFI : U+F50D = q + aigu + ꝫ ; la VT emploie aussi « q; »)
 
 ## A01 — audit aveugle des verdicts d'adjudication (30/09, ~10h35 Paris) — hypothèse réfutée
 97 lignes où l'adjudication avait changé la VT (12 œuvres à écart > 5 éd.), 2 relecteurs Opus aveugles par ligne, sans candidats. Confirmés 56, indécis 33, **annulés 8 (8,2 % > 5 % prévus)** : surtout des blancs (6), plus ſteis/ſtets, un renvoi de colonne, uͤ/ů. Mesure contre l'adjugée auditée : 274 → 283 éd., pages à 0 : 12 → 10, pire inchangé (extraudeu 43). L'audit devient obligatoire (ETAT, règle 4). Détail : a01/RESULTATS.md.
+
+## A01b — audit aveugle du reste des verdicts (30/09, ~10h55 Paris) — hypothèse tenue
+90 lignes, 31 pages, même règle qu'A01. Confirmés 54, indécis 32, annulés 4 (4,4 %) : blancs/ponctuation (extraudeu ×2, bankgraf) et canitrac « pleriq; » (accent perdu). Total contre l'adjugée auditée 283 → 281 ; pages à 0 : 11/50 ; pire extraudeu 42. Toutes les références adjugées sont désormais auditées. Détail : a01b/RESULTATS.md.
