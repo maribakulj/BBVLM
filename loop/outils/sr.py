@@ -83,7 +83,7 @@ def scissions(gray, boites, fh=1.6, creux=.1, im=None):
     return list(dict.fromkeys(out))
 
 
-def extensions(gray, boites, im=None, saut=3.0, haut=.8):
+def extensions(gray, boites, im=None, saut=3.0, haut=.8, cibles=None):
     """boîtes prolongées à l'encre voisine (encre sombre, neutre si couleur) : à gauche et à
     droite dans la bande de la ligne (sauts de blanc ≤ saut × h, arrêt devant une autre boîte),
     vers le haut et le bas (rangées encrées contiguës, ≤ haut × h) ; toutes combinaisons"""
@@ -91,6 +91,7 @@ def extensions(gray, boites, im=None, saut=3.0, haut=.8):
     B = [list(map(int, b)) for b in boites]; out = []
     H, W = gray.shape
     for n, b in enumerate(B):
+        if cibles is not None and n not in cibles: continue
         x0, y0, x1, y1 = b; h = max(1, y1 - y0)
         # masque d'encre de la bande élargie
         yy0, yy1 = max(0, y0 - int(haut * h)), min(H, y1 + int(haut * h))
@@ -176,6 +177,13 @@ def choisit(gray, textes, boites, tau=4.5, dossier=None):
     ex = list(scissions(gray, boites, im=_im)) if os.environ.get('BBVLM_SR_SCINDE', '1') == '1' else []
     if os.environ.get('BBVLM_SR_SERRE', '0') == '1' and dossier: ex += resserre(dossier, boites)
     if os.environ.get('BBVLM_SR_ETEND', '1') == '1': ex += extensions(gray, boites, _im)
+    if os.environ.get('BBVLM_SR_UNION_ETEND', '0') == '1':
+        # unions de morceaux, puis prolongées à l'encre (titre coupé en deux ET trop bas : « Am I. Sontag »)
+        _o = {tuple(map(int, b)) for b in boites}
+        U = [c for c in candidates(boites) if c not in _o]
+        if U:
+            L = [list(map(int, b)) for b in boites] + [list(u) for u in U]
+            ex += extensions(gray, L, _im, cibles=set(range(len(boites), len(L))))
     C = candidates(boites, extra=ex)
     if not textes or not C: return {}
     orig = {tuple(map(int, b)) for b in boites}
