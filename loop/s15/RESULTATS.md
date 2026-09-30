@@ -9,3 +9,12 @@ Protocole : orli_base (zenodo 10.5281/zenodo.20558179), kraken 7.0.3, torch 2.12
 
 - Orli sur-segmente (lignes coupées aux blancs des vers et des listes), rappel inférieur à kraken, et ne récupère aucune des deux lignes manquées. Rejetée pour cet usage ; pas étendue aux 4 autres pages.
 - Constat utile (euanaua) : la ligne « Am I. Sontag » n'est pas absente mais mal cadrée : titre en grandes capitales ornées (encre de y = 552 à 693) ; kraken la coupe en deux morceaux [80,615,570,686] + [638,646,831,677] qui ne couvrent que le corps des lettres ; leur union aurait IoU ≈ 0,47 avec la VT. Piste S15b : union des morceaux kraken d'une même ligne lue + extension verticale à l'encre connexe.
+
+## Classement des 16 lignes VT sans ligne kraken (IoU < 0,5), après A05
+- morceaux dont l'union suffirait (IoU union ≥ 0,5) : 5 — geomeikud/37 « ij. Treer » (0,95), « iij. Mentz » (0,94), 688357687 « Bk. Ater Ch. (F) » (0,86), 852691769 titres verticaux « Clas I. … », « Cla. II. … » (0,86, 0,81) ;
+- ligne kraken trop haute (deux lignes réunies) : 5 — durrgeda « JENA/ gedrut… » (0,26), 852691769 « 2. — 6. » (0,28), « 4. — 5. » (0,48), herbdulc « Vita optabi- » (0,27), goclprop « Exetc. 107. di. 2. » (0,49) ;
+- numéro de liste à gauche manqué : 2 — geomeikud/34 « j. Jsop », geomeikud/37 « i. Cllen » ;
+- absentes : 2 — DasWeL « I ĳ », durrgeda « Hꝛn. Friedri » (grand titre) ; titre mal cadré : 1 — euanaua « Am I. Sontag ».
+
+## S16 — ancre CATMuS au lieu de Tesseract pour S11 : rejetée sans mesure CRITERE
+Cause de l'échec de S11 sur geomeikud/37 : Tesseract lit « ij. » → « Li. », « Treer » → « Îyeey ». CATMuS (lecture W05 déjà en cache) lit plus mal encore ces grands caractères : « ti. », « Crter », « tti. », « Dteattg » (Mentz). Aucune ancre OCR fiable sur ces lignes → piste S17 sans OCR : boîte kraken sans ligne lue appariée, dans la bande d'une boîte appariée → fusion.
