@@ -145,7 +145,7 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
             kr[j] = {**kr[j], 'bbox': u(a, b), **({'bbox_g04': u(a, kr[j]['bbox_g04'])} if 'bbox_g04' in kr[j] else {})}
             mort.add(k)
         kr = [l for i, l in enumerate(kr) if i not in mort]
-    if os.environ.get('BBVLM_SR', '0') == '1' and lignes:
+    if os.environ.get('BBVLM_SR', '1') == '1' and lignes:      # adoptée le 30/09 (s15/RESULTATS.md)
         # SR (L36) : segmentation par reconnaissance guidée par le texte lu — chaque ligne lue
         # reçoit la candidate (ligne, ou union de morceaux voisins d'une même bande) qui
         # l'explique le mieux (perte CTC W05), affectation globale sans chevauchement ;
