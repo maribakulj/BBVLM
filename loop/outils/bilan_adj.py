@@ -8,6 +8,7 @@ et le nombre de caractères où la référence distribuée se trompait.
 usage : python bilan_adj.py DOSSIER_PAGE LECTURE...
 """
 import json, os, sys
+import os
 from cer import vue, lev, score
 
 
@@ -25,6 +26,27 @@ A1 = os.environ.get('BBVLM_A1') == '1'
 VUE = os.environ.get('BBVLM_VUE_ADJ', 'glyphe')
 
 
+def reblanc(j, r):
+    # A05 : blancs de r (VT) reportés sur les glyphes de j (verdict) ; un blanc
+    # suit la ponctuation de j non appariée qui colle au glyphe apparié
+    import difflib
+    a, b = j.replace(' ', ''), r.replace(' ', '')
+    pos, k = set(), 0
+    for ch in r:
+        if ch == ' ': pos.add(k)
+        else: k += 1
+    m = {}
+    for bl in difflib.SequenceMatcher(None, b, a, autojunk=False).get_matching_blocks():
+        for t in range(bl.size): m[bl.a + t + 1] = bl.b + t + 1
+    coupe = set()
+    for q in pos:
+        if q not in m: continue
+        t = m[q]
+        while t < len(a) and a[t] in '.,;:)' and t + 1 not in m.values(): t += 1
+        coupe.add(t)
+    return ''.join((' ' if i in coupe else '') + c for i, c in enumerate(a)).strip()
+
+
 def reference_adjugee(dossier):
     ref = json.load(open(f'{dossier}/ref.json'))
     cle = json.load(open(f'{dossier}/adj/cle.json'))
@@ -37,6 +59,10 @@ def reference_adjugee(dossier):
     # candidats concordent avec la référence distribuée (T01, caladr)
     try: annules = set(json.load(open(f'{dossier}/adj/annule.json')))
     except FileNotFoundError: annules = set()
+    # A05 : verdicts dont seuls les blancs sont révisés (deux relecteurs aveugles
+    # ont la segmentation en mots de la VT distribuée)
+    try: blancs = set(json.load(open(f'{dossier}/adj/blancs.json'))) if os.environ.get('BBVLM_A05', '1') == '1' else set()
+    except FileNotFoundError: blancs = set()
     choix, conflits, indec, contestes = {}, set(), 0, 0
     rejetees = set()   # A3 : les deux arbitres rejettent la référence sans s'accorder sur la correction
     for c in cle:
@@ -44,6 +70,8 @@ def reference_adjugee(dossier):
         if v is None or c['id'] in annules: continue
         r = c['X'] if c['_ref'] == 'X' else c['Y']
         j = vue(_pua(v['texte_correct']) if VUE == 'diplo' else v['texte_correct'], VUE)
+        rb = (lambda t: reblanc(t, vue(r, VUE))) if c['id'] in blancs else (lambda t: t)
+        j = rb(j)
         indec += v['verdict'] == 'indecidable'
         # Règle A2 (après O10) : tout texte autre que la référence distribuée
         # — texte neuf OU choix de la lecture contre la référence — n'est
@@ -52,9 +80,9 @@ def reference_adjugee(dossier):
         neuf = v['verdict'] in ('aucun', 'partage', 'indecidable') or j not in (vue(c['X'], VUE), vue(c['Y'], VUE))
         if neuf or (not A1 and j != vue(r, VUE)):
             v2 = ver2.get(c['id'])
-            if v2 is None or vue(_pua(v2['texte_correct']) if VUE == 'diplo' else v2['texte_correct'], VUE) != j:
+            if v2 is None or rb(vue(_pua(v2['texte_correct']) if VUE == 'diplo' else v2['texte_correct'], VUE)) != j:
                 contestes += 1
-                if v2 is not None and j != vue(r, VUE) and vue(_pua(v2['texte_correct']) if VUE == 'diplo' else v2['texte_correct'], VUE) != vue(r, VUE):
+                if v2 is not None and j != vue(r, VUE) and rb(vue(_pua(v2['texte_correct']) if VUE == 'diplo' else v2['texte_correct'], VUE)) != vue(r, VUE):
                     rejetees.add(vue(r, VUE))
                 continue
         rk = vue(r, VUE)                 # clé dans la même vue que la recherche ci-dessous
