@@ -10,3 +10,9 @@ Constat : parmi les 240 éd. glyphe restantes, des erreurs systématiques par pa
 
 ## T03b — pré-enregistrée (18h10) : accord de deux relecteurs
 Seconde lecture des mêmes planches, lots croisés (le relecteur neuf lit l'autre moitié). Un signe n'est changé que si les deux relecteurs donnent la même forme. Même critère figé.
+
+## Résultat T03b (accord de deux relecteurs, vignettes 90 px) — REJETÉE
+Accord 404/412 ; 15 signes changés ; 221 → 210 (eberbrev 14 → 2, cingdei 13 → 12) ; écart O23-O25 27 → 27 ; mais extraudeu 1 → 3 (les deux relecteurs lisent « - » là où VT et lecture ont « ⸗ »). Examen : la vignette (hauteur de ligne ramenée à 90 px) écrase un double trait fin en simple trait (« ican= »). Défaut de l'instrument, pas de la règle.
+
+## T03c — pré-enregistrée (18h20) : vignettes resserrées sur le tiret et agrandies
+Vignette = dernier 0,7 h de la ligne + 0,25 h de marge, bande verticale 10-90 % de la ligne, hauteur 200 px (LANCZOS). 4 relecteurs Opus (deux indépendants par lot), changement seulement si les deux concordent. Même critère figé (total en baisse, aucune page en hausse ; écart rapporté).
