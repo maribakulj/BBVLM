@@ -1123,3 +1123,6 @@ Deux relecteurs aveugles : « 2. Cor. XII. 3. 4 » (identique à R4), ni la VT n
 ## 2026-09-30 15h18 — Référence reproductible et R5 adoptée
 - Report des lectures R02 dans les lots (extraudeu 3 → 2 lignes en échec, herrkurt 2 → 4). Cache W05 rendu reproductible (même chemin float32 au premier appel) ; référence complète depuis le cache : CRITERE **33/60** confirmé (etat_1515/).
 - Cause herrkurt : fractions « 1½ » lues soudées, VT « 1 ½ » (3/0). R5 (blanc entre entier et fraction) : texte herrkurt 20 → 17, lignes en échec 4 → 1, autres pages identiques. Adoptée.
+
+## 2026-09-30 15h25 — A03 : audit C02b de 3 lignes restantes → CRITERE 35/60
+Trois lignes où adjugée et lecture s'accordent contre la VT sans audit : les deux relecteurs aveugles confirment le compte de l'adjugée (9/9, 10/10, 6/6 contre VT 7, 9, 5) → exclues par C02b. backhart et culmsent passent ; CRITERE 33 → **35/60**. Voir a03/RESULTATS.md, etat_1525/.
