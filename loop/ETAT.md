@@ -53,7 +53,7 @@ Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lec
   signal a priori des pages qui gagnent à la seconde lecture.
 - Texte : restes = ambiguïtés réelles (uͤ/ü, ſ/f, J/I, ß/ſſ) et conventions
   non homogènes de la VT (blancs, ⸗/-) ; vue glyphe (N01) adoptée.
-- Boîtes : CRITERE 19/44 ; causes d’échec mesurées : lignes courtes sans ligne kraken (fusionnées dans une ligne longue, ou vues en fragment : S09 en complète une partie) et nombre de mots lu ≠ VT (28 lignes / 1265 = blancs seuls, moitié conventions diplomatiques de la VT, moitié nos erreurs : piste S10, blancs vérifiés par l’encre) ; restes =
+- Boîtes : CRITERE 19/44 ; causes d’échec mesurées : lignes courtes sans ligne kraken (fusionnées dans une ligne longue, ou vues en fragment : S09 en complète une partie) et nombre de mots lu ≠ VT (28 lignes / 1265 = blancs seuls, moitié conventions diplomatiques de la VT, moitié nos erreurs : S10, blancs vérifiés par l’encre, rejeté : positions de caractères nécessaires) ; restes =
   pages à frontières hors seuil (herrkurt, hackherz, berirev, 730277879) ;
   recaler le calcul des mots sur G04b partout (G05 le fait par page).
 - Segmentation : lignes non trouvées (titres d'apparat, texte vertical,

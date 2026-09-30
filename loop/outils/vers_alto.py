@@ -178,6 +178,7 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
     _mtf = f'{dossier}/mots_tesseract.json'
     try: _mt = json.load(open(_mtf))
     except (FileNotFoundError, ValueError): _mt = {}
+    corrigees = []
     for i, t in enumerate(lignes):
         mots = t.split()
         if i in loc:
@@ -195,10 +196,14 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
                     for a, b in aligne(mots, eux).items():
                         p, q, r_, s_ = bs[a]
                         bs[a] = (eux[b][1], q, eux[b][2], s_)
+                if ok and os.environ.get('BBVLM_BLANCS') == '1':     # S10 : blancs vérifiés par l'encre
+                    from blancs import corrige
+                    mots, bs = corrige(g, mots, bs)
             except Exception:
                 ok = False
         else:
             tl = E(bloc(i), 'TextLine', ID=f'L{i+1:04d}', TAGREFS='NON_PLACE'); ok = False
+        corrigees.append(' '.join(mots))
         if ok:
             n_place += 1
             for k, (m, (a, b, c, e)) in enumerate(zip(mots, bs)):
@@ -217,6 +222,8 @@ def construit(dossier, texte, sortie, lecteur='Claude Opus (2 passes + arbitrage
             b.set('HPOS', str(min(x[0] for x in bs_))); b.set('VPOS', str(min(x[1] for x in bs_)))
             b.set('WIDTH', str(max(x[2] for x in bs_)-min(x[0] for x in bs_))); b.set('HEIGHT', str(max(x[3] for x in bs_)-min(x[1] for x in bs_)))
     if _mt: json.dump(_mt, open(_mtf, 'w'), ensure_ascii=False)
+    if os.environ.get('BBVLM_BLANCS') == '1':
+        open(f'{dossier}/lecture_blancs.txt', 'w', encoding='utf-8').write('\n'.join(corrigees) + '\n')
     xml = etree.tostring(root, encoding='UTF-8', xml_declaration=True, pretty_print=True)
     open(sortie, 'wb').write(xml)
     return {'lignes': len(lignes), 'placees': n_place, 'non_placees': n_non}
