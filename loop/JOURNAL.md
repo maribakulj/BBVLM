@@ -1077,3 +1077,6 @@ ALTO des 60 pages régénérés avec la chaîne actuelle (S14, W02/W02c, T01b ; 
 
 ## W02d — W02 sur le romain avec script/Latin (30/09, ~17h10 Paris) — REJETÉE
 25 pages en romain : somme txt+IoU80 21,069 (sans W02) contre 21,009 (W02 script/Latin) ; 2 gains, 6 reculs > 0,01. Le modèle d'écriture ne fait pas mieux que le modèle de langue sur l'antiqua ancienne ; W02c reste. Détail : w02d/RESULTATS.md.
+
+## Correction — horodatages (30/09, 11h40 Paris réelles)
+Les heures « Paris » écrites dans les entrées et protocoles du 30/09 à partir d'O23 (≈ 08h25) jusqu'à W03 sont fausses : elles avancent de 5 à 6 heures (ex. « ~17h25 » pour W03 = en réalité ≈ 11h25). L'ordre des expériences et les protocoles figés avant mesure restent exacts ; l'heure réelle est celle des commits (UTC+2). Les horodatages suivants sont pris sur l'horloge du conteneur convertie en heure de Paris.
