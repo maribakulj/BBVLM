@@ -958,3 +958,11 @@ isolé. Pas de correctif.
 - Pourquoi S08c v3 ne les détachait pas (emmeprac) : pré-filtre « l'OCR de ligne finit par un chiffre » raté (« 50 » lu « 5o ») ; jeton « 64^ » refusé ; « 48 » relu « 45 » ≠ ligne lue. v4 : pré-filtre retiré (largeur ≥ 6 h conservée), jeton = aucune lettre (le tiret de « 1. — 6. » reste admis ; une première version exigeant un chiffre par jeton faisait perdre 852691769), chiffres égaux à ceux d'une ligne lue à une substitution près dès 2 chiffres.
 - Banc 44 pages (RENVOIS 0 contre 1, chaîne S09+S02c) : emmeprac 0,762 → 0,802 (0,774 en v3), 852691769 0,673 → 0,685, canitrac 0,739 → 0,749 ; 41 pages identiques (briedefra intact) ; pire cas inchangé.
 - cingdei : les numéros « 64. » « 65. » « 66. » ne sont pas dans la lecture (manuscrits à l'encre, écartés par l'arbitre P3b, cf. P3b 28/09) — convention, cas unique, inchangé. Recherche de toutes les lignes portées par une seule lecture et perdues dans le texte final : 5 sur tout le corpus, dont 3 dans la VT (ces trois-là).
+
+## S09b — lignes courtes : bande élargie, appartenance par le centre — ADOPTÉ (30/09, 05h15 Paris)
+- Fragments restants après S09 : « K 2 », « B 5 » (signatures : boîte kraken minuscule, 20 px, décalée → le centre du « K » hors bande), « §.VI. » (le « § » touche la boîte de la ligne voisine, les boîtes kraken se chevauchant par les jambages → exclu par « ne touche aucune autre ligne »).
+- Règle : bande verticale = centre de la boîte ± max(h, hm)/2 ; une composante appartient à une autre ligne seulement si son centre est dans la boîte de celle-ci.
+- Banc 44 pages (S09 contre S09b) : euanaua 0,837 → 0,859, eberbrev 0,818 → 0,830, berirev 0,885 → 0,897, erasexom 0,778 → 0,786 ; 40 pages identiques ; aucune perte.
+- CRITERE 19 → **21/44** : berirev ✓ (1 → 0 ligne en échec), eberbrev ✓ (1 → 0), erasexom 9 → 8 ; aucune page dégradée.
+- CRITERE avec S08c v4 seul (avant S09b) : 19/44, identique à S02c.
+- Frontières (730277879 92,7 %, canitrac 94,5 %) examinées : boîtes prédites contiguës (aucun blanc trouvé, coupe proportionnelle). 730277879 : tiret « — » soudé aux mots voisins (« beſtimmt.—Man ») que la VT sépare en trois mots ; canitrac : croix « † » en tête de ligne, comptée comme mot, absente du masque → tous les mots décalés d'un cran. Cas typographiques isolés, au cœur du boxer (Compose) ; notés, non traités.

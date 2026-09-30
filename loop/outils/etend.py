@@ -29,7 +29,7 @@ def etend(gray, boites):
         h = b[3] - b[1]
         if b[2] - b[0] >= COURT * h: continue
         autres = [o for j, o in enumerate(out) if j != i]
-        if os.environ.get('BBVLM_ETEND_V2', '0') == '1':
+        if os.environ.get('BBVLM_ETEND_V2', '1') == '1':
             # S09b : bande d'au moins hm (boîte kraken minuscule et décalée : « K 2 ») ; une composante
             # appartient à une autre ligne si son centre y est (les boîtes voisines se chevauchent : « §.VI. »)
             cy, dh = (b[1] + b[3]) / 2, max(h, hm) / 2

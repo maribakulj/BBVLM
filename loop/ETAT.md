@@ -12,7 +12,7 @@ métadonnées, retrieval ; système fiable, automatisable, reproductible, sobre.
 |---|---|---|---|
 | texte | 0 faute par page | `outils/cer.py` vue **glyphe** (mêmes signes quel que soit le codage, N01 ; diplo rapporté aussi), référence adjugée règle A2 | 42 pages adjugées (O07-O17), vue glyphe : **10 à 0**, 18 ≤ 1, 24 ≤ 2, médiane 2 éd./page ; CER global 0,50 % (260/51 896) ; pires : extraudeu 43, buchdas 37, herrkurt 28, hermhyst 23 ; restes : conventions non homogènes de la VT (blancs, ⸗/-, ü/uͤ), ambiguïtés réelles (ſ/f, J/I, ß/ſſ), structure de lignes rare (lignes côte à côte) |
 | lignes | toutes trouvées, serrées | `outils/segeval.py` (TextLine de l'ALTO contre VT) | 44 pages : rappel médian 0,968 (27 ≥ 0,95 ; pire hermhyst 0,78), IoU médian des lignes 0,962 (pire chridiss 0,81), précision médiane 1,00 ; manques : titres d'apparat, texte vertical, colonnes de renvois, lignes côte à côte |
-| boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE ✓ sur 19/44 pages O07-O17 (chaîne actuelle avec S08c + S09 + S02c, lignes de l’ALTO) ; **erobdefoa, caladr, dalarie, chiamerk (O16, neuve) parfaites de bout en bout** ; blocage : lignes non trouvées par kraken (titres d'apparat, courtes manchettes) et blancs du texte |
+| boîtes de mots | CRITERE.md puis 100 % | judge / `outils/eval_alto.py` | CRITERE ✓ sur 21/44 pages O07-O17 (chaîne actuelle avec S08c v4 + S09b + S02c, lignes de l’ALTO) ; **erobdefoa, caladr, dalarie, chiamerk (O16, neuve) parfaites de bout en bout** ; blocage : lignes non trouvées par kraken (titres d'apparat, courtes manchettes) et blancs du texte |
 | ALTO | XSD + provenance + refus | `outils/vers_alto.py` | valide XSD 4.4 ; blocs typés, ReadingOrder (XY-cut S03), lignes non placées marquées |
 | OLR | rôles + régions + ordre | `outils/olr.py` | consigne P6 (O10-O17, 32 pages) : rôles médiane 1,00 (29/32 ≥ 0,9), F1 régions 0,998 (25/32), ordre 1,00 (28/32) ; pires : durrgeda (titre), 852691769 (tableau), hermhyst (chanson) ; presse bloquée |
 | retrieval | rappel/précision avec boîte | `outils/recherche.py` | rappel médian 0,956 sur 40 pages, 20 ≥ 0,95 ; pire 0,79 (852691769, tableau à intitulés verticaux ; 0,77 avant S08c) |
@@ -53,7 +53,7 @@ Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lec
   signal a priori des pages qui gagnent à la seconde lecture.
 - Texte : restes = ambiguïtés réelles (uͤ/ü, ſ/f, J/I, ß/ſſ) et conventions
   non homogènes de la VT (blancs, ⸗/-) ; vue glyphe (N01) adoptée.
-- Boîtes : CRITERE 19/44 ; causes d’échec mesurées : lignes courtes sans ligne kraken (fusionnées dans une ligne longue, ou vues en fragment : S09 en complète une partie) et nombre de mots lu ≠ VT (28 lignes / 1265 = blancs seuls, moitié conventions diplomatiques de la VT, moitié nos erreurs : S10, blancs vérifiés par l’encre, rejeté : positions de caractères nécessaires) ; restes =
+- Boîtes : CRITERE 21/44 ; causes d’échec mesurées : lignes courtes sans ligne kraken (fusionnées dans une ligne longue, ou vues en fragment : S09 en complète une partie) et nombre de mots lu ≠ VT (28 lignes / 1265 = blancs seuls, moitié conventions diplomatiques de la VT, moitié nos erreurs : S10, blancs vérifiés par l’encre, rejeté : positions de caractères nécessaires) ; restes =
   pages à frontières hors seuil (herrkurt, hackherz, berirev, 730277879) ;
   recaler le calcul des mots sur G04b partout (G05 le fait par page).
 - Segmentation : lignes non trouvées (titres d'apparat, texte vertical,
