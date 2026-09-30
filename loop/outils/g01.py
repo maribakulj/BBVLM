@@ -38,6 +38,14 @@ def charge(dossier, lecture):
     lu = [l for l in open(lecture, encoding='utf-8').read().splitlines() if l.strip()]
     idx = [i for i, x in enumerate(ref) if x.strip()]
     m = apparie([vue(ref[i], 'diplo') for i in idx], lu)
+    # C02 : ligne dont la VT est mal découpée en mots (nombre de mots ≠ référence
+    # adjugée auditée) : ses boîtes de mots VT ne peuvent pas juger une lecture
+    # juste → exclue de CRITERE et comptée à part (charge.exclues)
+    adj = ref
+    if os.environ.get('BBVLM_C02', '1') == '1' and os.path.exists(f'{dossier}/adj/verdicts.json'):
+        from bilan_adj import reference_adjugee
+        adj = reference_adjugee(dossier)[0]
+    charge.exclues = 0
     lignes, echec_compte = [], 0
     for k, i in enumerate(idx):
         tl = tls[i]; ws, bs = [], []
@@ -47,6 +55,7 @@ def charge(dossier, lecture):
             ws.append(u.text.strip()); bs.append(corpora._box(wc.get('points')))
         if len(ws) < 2: continue
         mots = m.get(k, '').split()
+        if len(adj[i].split()) != len(ws) and len(mots) == len(adj[i].split()): charge.exclues += 1; continue
         if len(mots) != len(ws): echec_compte += 1; continue
         lignes.append(corpora.Line(' '.join(mots), mots, corpora._box(tl.find('p:Coords', N).get('points')), bs))
     return corpora.Page(page, ouvrage, f'{dossier}/page.png', lignes), echec_compte
