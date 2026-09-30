@@ -1147,3 +1147,6 @@ S17b (fusion des boîtes orphelines, contrôle d'encre) : geomeikud/37 3 → 1 m
 
 ## 30/09 17h35 — SR (segmentation par reconnaissance) adoptée
 Candidates = lignes de la chaîne + unions de morceaux voisins d'une même bande ; score = perte CTC W05 de la ligne lue ; choix glouton global sans recouvrement ; seules les unions choisies remplacent leurs morceaux. v1 (hongrois) et v2 perdaient des lignes (défauts d'algorithme, scores justes) ; v3 : aucun recul sur dev (48 pages) ni écart (12 pages), geomeikud 3 → 1 ligne en échec, gains de précision sur 3 pages ; CRITERE 40/60 inchangé. Adoptée. Suite : D (VLM arbitre de candidates numérotées, message GPT), scissions SR, affinage GPU si jeton Kaggle/Modal.
+
+## 30/09 17h50 — SR : scissions adoptées ; extensions + marge δ en mesure
+Scissions v3 (bandes d'encre neutre et sombre) : durrgeda 3 → 2, aucun recul, adoptées. Extensions à l'encre + marge δ = 0,5 (une candidate nouvelle doit battre nettement la ligne d'origine) : lignes à numéro de liste retrouvées sur geomeikud/34 et /37 ; mesure complète en cours. Voir s15/RESULTATS.md.

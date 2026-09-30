@@ -83,6 +83,51 @@ def scissions(gray, boites, fh=1.6, creux=.1, im=None):
     return list(dict.fromkeys(out))
 
 
+def extensions(gray, boites, im=None, saut=3.0, haut=.8):
+    """boîtes prolongées à l'encre voisine (encre sombre, neutre si couleur) : à gauche et à
+    droite dans la bande de la ligne (sauts de blanc ≤ saut × h, arrêt devant une autre boîte),
+    vers le haut et le bas (rangées encrées contiguës, ≤ haut × h) ; toutes combinaisons"""
+    import cv2
+    B = [list(map(int, b)) for b in boites]; out = []
+    H, W = gray.shape
+    for n, b in enumerate(B):
+        x0, y0, x1, y1 = b; h = max(1, y1 - y0)
+        # masque d'encre de la bande élargie
+        yy0, yy1 = max(0, y0 - int(haut * h)), min(H, y1 + int(haut * h))
+        c = gray[yy0:yy1]
+        m = c < cv2.threshold(gray[y0:y1, max(0, x0):x1], 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[0]
+        if im is not None:
+            rgb = im[yy0:yy1].astype(int); m &= (rgb.max(2) - rgb.min(2)) < 60
+        bande = m[y0 - yy0:y1 - yy0]
+        col = bande.sum(0) >= 2
+        autres = [a for k, a in enumerate(B) if k != n and min(a[3], y1) - max(a[1], y0) > .3 * h]
+        plein = bande.mean(0) > .6          # bord de page, filet vertical : mur
+        def mur_g(x): return plein[x] or any(a[0] <= x <= a[2] for a in autres)
+        # gauche
+        gx, x, blanc = x0, x0 - 1, 0
+        while x >= 0 and blanc <= saut * h and not mur_g(x):
+            if col[x]: gx, blanc = x, 0
+            else: blanc += 1
+            x -= 1
+        dx, x, blanc = x1, x1, 0
+        while x < W and blanc <= saut * h and not mur_g(x):
+            if col[x]: dx, blanc = x + 1, 0
+            else: blanc += 1
+            x += 1
+        # haut / bas : rangées encrées contiguës au-dessus et au-dessous, sur les colonnes de la boîte
+        rows = m[:, max(0, gx):dx].sum(1) >= 2
+        hy, y = y0, y0 - yy0 - 1
+        while y >= 0 and rows[y]: hy = yy0 + y; y -= 1
+        by, y = y1, y1 - yy0
+        while y < len(rows) and rows[y]: by = yy0 + y + 1; y += 1
+        for xa in {x0, gx}:
+            for xb in {x1, dx}:
+                for ya in {y0, hy}:
+                    for yb in {y1, by}:
+                        if (xa, ya, xb, yb) != (x0, y0, x1, y1): out.append((xa, ya, xb, yb))
+    return list(dict.fromkeys(out))
+
+
 def resserre(dossier, boites, gain=.15):
     """boîtes resserrées verticalement à l'encre neutre et sombre (exclut tampons et encres
     colorées : pixel sombre (< Otsu du crop) et peu chromatique (max-min RGB < 60)) ;
@@ -128,12 +173,23 @@ def choisit(gray, textes, boites, tau=4.5, dossier=None):
     import os
     import cv2 as _cv
     _im = _cv.imread(f'{dossier}/page.png', _cv.IMREAD_COLOR) if dossier else None
-    ex = list(scissions(gray, boites, im=_im)) if os.environ.get('BBVLM_SR_SCINDE', '0') == '1' else []
+    ex = list(scissions(gray, boites, im=_im)) if os.environ.get('BBVLM_SR_SCINDE', '1') == '1' else []
     if os.environ.get('BBVLM_SR_SERRE', '0') == '1' and dossier: ex += resserre(dossier, boites)
+    if os.environ.get('BBVLM_SR_ETEND', '0') == '1': ex += extensions(gray, boites, _im)
     C = candidates(boites, extra=ex)
     if not textes or not C: return {}
-    paires = sorted((s, i, k) for i, t in enumerate(textes) for k, c in enumerate(C)
-                    for s in [score(gray, c, t)] if s <= tau)
+    orig = {tuple(map(int, b)) for b in boites}
+    delta = float(os.environ.get('BBVLM_SR_DELTA', '0.5'))
+    M = [[score(gray, c, t) for c in C] for t in textes]
+    paires = []
+    for i in range(len(textes)):
+        base = min([M[i][k] for k, c in enumerate(C) if c in orig] or [float('inf')])
+        for k, c in enumerate(C):
+            s = M[i][k]
+            # une candidate nouvelle (union, scission, extension) doit expliquer la ligne nettement
+            # mieux que la meilleure ligne d'origine : la perte CTC pénalise à peine la surface en trop
+            if s <= tau and (c in orig or s <= base - delta): paires.append((s, i, k))
+    paires.sort()
     res, pris = {}, []
     for s, i, k in paires:
         if i in res or any(_recouvre(C[k], C[k2]) for k2 in pris): continue
