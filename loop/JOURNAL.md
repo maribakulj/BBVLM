@@ -1074,3 +1074,6 @@ ALTO des 60 pages régénérés avec la chaîne actuelle (S14, W02/W02c, T01b ; 
 
 ## P01 — seconde lecture sélective par désaccord A/Tesseract (30/09, ~16h30 Paris) — RÉFUTÉE
 55 pages : A seule 386 éd., complète 299, sélective (tiers au signal le plus haut) 365 → 24 % du gain gardé (< 80 %). Le signal suit un peu les erreurs de A (ρ = 0,31) mais pas le gain de la seconde lecture (ρ = −0,05). Mesure annexe sur les 12 pages neuves O23-O25 : la seconde lecture + arbitre retire 15 éd. sur 45 (−33 %), jamais pire que A. Détail : p01/RESULTATS.md.
+
+## W02d — W02 sur le romain avec script/Latin (30/09, ~17h10 Paris) — REJETÉE
+25 pages en romain : somme txt+IoU80 21,069 (sans W02) contre 21,009 (W02 script/Latin) ; 2 gains, 6 reculs > 0,01. Le modèle d'écriture ne fait pas mieux que le modèle de langue sur l'antiqua ancienne ; W02c reste. Détail : w02d/RESULTATS.md.
