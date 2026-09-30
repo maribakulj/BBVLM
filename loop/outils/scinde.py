@@ -64,3 +64,44 @@ def scinde(gray, boites, ocr, textes):
             parts.append([int(x0+u+xs.min()), int(y0+ys.min()), int(x0+u+xs.max()), int(y0+ys.max())])
         out += parts if len(parts) == 2 else [b]
     return out
+
+
+def renvois(gray, boites, ocr, textes, dossier=None, lang='script/Fraktur'):
+    """S08c — colonnes de renvois chiffrés alignés à droite (tables des matières).
+
+    Si la lecture contient ≥ 2 lignes purement chiffrées (« 1. — 6. »), une ligne
+    kraken large (≥ 6 h) dont l'OCR se termine par des chiffres est relue par
+    Tesseract avec boîtes de mots ; la suite finale de jetons chiffrés (chiffres,
+    points, tirets) est détachée si elle commence après la moitié de la ligne :
+    le renvoi devient une ligne candidate que l'ancrage S05 peut recevoir.
+    Les blancs d'encre seuls ne suffisent pas : ceux du renvoi (« 1. — 6. »)
+    sont aussi larges que celui qui le sépare du texte (mesuré sur 852691769).
+    """
+    import re, json, os
+    from mots_tess import mots_ligne
+    num = re.compile(r'[\d\s.,—–\-:;]+')
+    if sum(1 for t in textes if num.fullmatch(t.strip() or 'x')) < 2: return boites
+    cf = f'{dossier}/mots_tesseract.json' if dossier else None
+    cache = json.load(open(cf)) if cf and os.path.exists(cf) else {}
+    out = []
+    for b, o in zip(boites, ocr):
+        x0, y0, x1, y1 = map(int, b); h = y1 - y0
+        if not re.search(r'\d[\s.,]*$', o or '') or (x1 - x0) < 6 * h:
+            out.append(b); continue
+        mots = mots_ligne(gray, b, lang, cache, f'{lang}|{x0},{y0},{x1},{y1}')
+        k = len(mots)
+        while k > 0 and num.fullmatch(mots[k-1][0]): k -= 1
+        if k == 0 or k == len(mots) or not any(c.isdigit() for m in mots[k:] for c in m[0]) \
+           or mots[k][1] < x0 + 0.5 * (x1 - x0):
+            out.append(b); continue
+        cut = (mots[k-1][2] + mots[k][1]) // 2
+        crop = gray[y0:y1+1, x0:x1+1]
+        _, bw = cv2.threshold(crop, 0, 1, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+        parts = []
+        for u, v in ((0, cut - x0), (cut - x0 + 1, x1 - x0)):
+            ys, xs = np.nonzero(bw[:, u:v+1])
+            if len(xs) < 10: continue
+            parts.append([int(x0+u+xs.min()), int(y0+ys.min()), int(x0+u+xs.max()), int(y0+ys.max())])
+        out += parts if len(parts) == 2 else [b]
+    if cf: json.dump(cache, open(cf, 'w'))
+    return out
