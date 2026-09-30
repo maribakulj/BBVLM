@@ -1165,3 +1165,6 @@ Re-mesure pré-enregistrée : lieu par entité GND (lobid, variantes latines), r
 
 ## 30/09 19h20 — M04 (colophon, 6 dernières images) : négatif, instrument défaillant
 Images = gardes, plats, mires ; seul ferrepit montre un colophon par transparence (1509 juste ; « Wirtzburgij » probablement mal lu pour Wittenberg ; « Viridimontanus » = Grünenberg traduit, non reconnu par la règle de radical). 1 juste, 2 faux sur 11. M04b : pages choisies par la structure METS (bloc « colophon », exclusion des plats/gardes/mire).
+
+## 30/09 19h35 — M04b (colophon par la structure METS) : 6 justes, 2 faux, 3 absents — non tenu de peu
+Le bloc logique « colophon » du METS SBB désigne la bonne page (AmmoLIBR, ferrepit, herrleyc) ; buchdas n'a pas de colophon. Colophons lus : Frankfurt 1578 (héritiers Egenolph), Wittenberg 1509 (Viridimontanus = Rhau-Grunenberg), Schmalkalden 1589 (Michel Schmück). Les 2 « faux » sont des formes de nom de la même personne (variantes GND) : une règle d'identité imprimeur serait post hoc, non appliquée ; à valider ailleurs.

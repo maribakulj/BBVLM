@@ -1,0 +1,26 @@
+{
+  "AmmoLIBR": {
+    "annee": {"lu": "Anno M. D. LXXVIII.", "norme": "1578", "image": "p_o218.jpg"},
+    "lieu": {"lu": "FRANCOFORTI AD Mœnum", "norme": "Frankfurt am Main", "image": "p_o218.jpg"},
+    "imprimeur": {"lu": "ex Officina typographica hæredum Christiani Egenolphi", "norme": "Egenolphus", "image": "p_o218.jpg"},
+    "citation": "IMPRESSVM FRANCOFORTI AD Mœnum, ex Officina typographica hæredum Christiani Egenolphi, impensis Adami Loni-ceri, Ioannis Cnipij Andronici secundi, Doctorum, & Pauli Stein-meyers. Anno M. D. LXXVIII."
+  },
+  "buchdas": {
+    "annee": null,
+    "lieu": null,
+    "imprimeur": null,
+    "citation": null
+  },
+  "ferrepit": {
+    "annee": {"lu": "Anno . M . D . IX .", "norme": "1509", "image": "p_o55.jpg"},
+    "lieu": {"lu": "Wittēburgii", "norme": "Wittenberg", "image": "p_o55.jpg"},
+    "imprimeur": {"lu": "per Ioannē Viridi/montanū", "norme": "Viridimontanus", "image": "p_o55.jpg"},
+    "citation": "Impressum Wittēburgii per Ioannē Viridi/montanū . Anno . M . D . IX ."
+  },
+  "herrleyc": {
+    "annee": {"lu": "1 . 5 8 9.", "norme": "1589", "image": "p_o81.jpg"},
+    "lieu": {"lu": "Schmal/kalden", "norme": "Schmalkalden", "image": "p_o81.jpg"},
+    "imprimeur": {"lu": "Bey Michel Schmück", "norme": "Schmück", "image": "p_o81.jpg"},
+    "citation": "Gedruckt zu Schmal/kalden/ Bey Michel Schmück. 1 . 5 8 9."
+  }
+}

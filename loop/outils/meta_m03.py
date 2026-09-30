@@ -2,7 +2,6 @@ import sys, json, os, re, subprocess, urllib.parse
 sys.path.insert(0,'/home/user/BBVLM/loop/outils')
 from meta_mesure import nz, juge
 S='/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad'
-exec(open(S+'/m02mes.py').read().split("for jeu in")[0].split("def fam")[1].join(["def fam",""]) if False else '')
 def fam(forme): return nz(forme.split(',')[0])
 SUF=('iae','ii','ae','um','us','i','o','a','e')
 def rad(t):
