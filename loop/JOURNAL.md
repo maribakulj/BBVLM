@@ -1016,3 +1016,6 @@ TextLine des ALTO régénérés (chaîne actuelle) contre VT, 48 pages : rappel 
 
 ## K02 — kraken sur image réduite pour les caractères d'apparat — NÉGATIF (30/09, 07h20 Paris)
 durrgeda (page de titre, lignes de 150-400 px) : segmentation blla à l'échelle 1 / 0,5 / 0,35 → 29 lignes et rappel 0,773 (17/22) identiques. blla renormalise la taille en interne : réduire l'entrée ne change rien. Les lignes d'apparat manquées ne se récupèrent pas par l'échelle.
+
+## O20 — variance d'une lecture unique (30/09, 07h35 Paris)
+4 lectures Opus par page sur 852691769, canitrac, emmeprac : 2/5/0/0, 4/4/4/4, **8/10/65/64** éditions (glyphe). Bruit fin ±2-3 éd., nul quand les fautes sont systématiques (canitrac) ; mais dérive d'interprétation bimodale sur emmeprac : 2 lecteurs sur 4 suppriment l'espace après les points d'abréviation (« ff.de iureiur.§.item ») contre la règle 2 de P6. La chaîne 2 lectures + arbitre y est exposée si A et B dérivent ensemble. Détail : o20/RESULTATS.md. Suite : P6d (exemple d'abréviations dans la règle 2), testé par lectures répétées.
