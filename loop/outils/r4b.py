@@ -1,3 +1,4 @@
+import re
 import sys, glob, os, shutil
 sys.path.insert(0, '/home/user/BBVLM/loop/outils')
 from p2 import parenthese, fraction
@@ -10,7 +11,8 @@ for d in sorted(glob.glob(S+'/o*/*/')):
     for l in L:
         if not l.strip() or l.startswith('#'): N.append(l); continue
         pre = ''
-        if l.startswith('['): pre, l = l.split('] ', 1)[0] + '] ', l.split('] ', 1)[1] if '] ' in l else l
+        mm = re.match(r'\[[a-z-]+\+?\] ', l)
+        if mm: pre, l = mm.group(0), l[mm.end():]
         m = fraction(parenthese(l))
         if m != l: n += 1; print(d.rstrip('/').split('/')[-1][:14], '|', l[:60], '→', m[:60])
         N.append(pre + m)
