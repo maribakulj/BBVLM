@@ -1083,3 +1083,6 @@ Les heures « Paris » écrites dans les entrées et protocoles du 30/09 à part
 
 ## W03 — coupure de mots par le CTC Calamari (30/09, ≈ 11h50 Paris) — REJETÉE
 Calamari 2.3.1 + modèles GT4HistOCR (git, accessibles) installés ; positions votées des caractères pré-calculées sur 60 pages (cala_page.py, ≈ 6 s/page). Règle : déplacer la coupure vers le seul blanc d'encre voisin contenant une espace Calamari. CRITERE : O18 3/4 → 0/4 (mode « tout »), O25 1/4 → 0/4 (mode « romain »), pires erreurs 5-13c. Calamari place des espaces dans les mots (texte lu imparfait sur nos images non binarisées) → coupures déplacées à tort. Détail : w03/RESULTATS.md.
+
+## 2026-09-30 11h53 — W04 : alignement CTC kraken CATMuS (négatif)
+O18 : CRITERE 2/4 contre 3/4 par défaut, IoU en baisse sur 3 pages (brieetli 0,971 → 0,926), geomeikud pire 0,16 → 3,18 c. Rejeté. Voir w04/RESULTATS.md.
