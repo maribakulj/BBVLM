@@ -1098,3 +1098,6 @@ VT de métadonnées enfin accessible (MODS SBB via OAI ; images IIIF après 503 
 
 ## 2026-09-30 13h18 — M01b : consigne révisée des rôles d'auteur (rejetée)
 11 œuvres nouvelles : 33/38 justes (86,8 %), 2 auteurs faux ; M01 sur les mêmes pages : 33/37 (89,2 %), 0 auteur faux. La règle praeses/respondant gagne 1 auteur, l'exemple « Aepinus reste Aepinus » en fait perdre 2 (formes latinisées gardées). Rejetée. Voir m01/RESULTATS_M01b.md.
+
+## 2026-09-30 13h49 — L01 : langue de la consigne (demande de l'utilisateur)
+48 lectures Opus (4 pages × 3 langues × 4) : somme des médianes glyphe FR 30,5, EN 36,5, DE 38,5 (norm 17 / 22 / 26). Le français n'est battu sur aucune page ; écart net seulement sur buchdas (Fraktur 1530). On garde la consigne française. Voir l01/RESULTATS.md.
