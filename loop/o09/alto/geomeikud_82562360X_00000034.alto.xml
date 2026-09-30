@@ -46,9 +46,9 @@
             <SP HPOS="572" VPOS="150" WIDTH="12"/>
             <String ID="L0001_W04" CONTENT="ſake" HPOS="584" VPOS="147" WIDTH="71" HEIGHT="52"/>
             <SP HPOS="655" VPOS="147" WIDTH="10"/>
-            <String ID="L0001_W05" CONTENT="wert" HPOS="665" VPOS="151" WIDTH="75" HEIGHT="54"/>
-            <SP HPOS="740" VPOS="151" WIDTH="1"/>
-            <String ID="L0001_W06" CONTENT="wedderhalt/" HPOS="740" VPOS="141" WIDTH="254" HEIGHT="68"/>
+            <String ID="L0001_W05" CONTENT="wert" HPOS="665" VPOS="151" WIDTH="92" HEIGHT="54"/>
+            <SP HPOS="757" VPOS="151" WIDTH="10"/>
+            <String ID="L0001_W06" CONTENT="wedderhalt/" HPOS="767" VPOS="141" WIDTH="227" HEIGHT="68"/>
           </TextLine>
           <TextLine ID="L0002" HPOS="245" VPOS="195" WIDTH="785" HEIGHT="64">
             <String ID="L0002_W01" CONTENT="Den" HPOS="245" VPOS="195" WIDTH="79" HEIGHT="64"/>
@@ -118,9 +118,9 @@
             <SP HPOS="388" VPOS="500" WIDTH="8"/>
             <String ID="L0006_W03" CONTENT="dyn" HPOS="396" VPOS="499" WIDTH="78" HEIGHT="47"/>
             <SP HPOS="474" VPOS="499" WIDTH="1"/>
-            <String ID="L0006_W04" CONTENT="frow" HPOS="474" VPOS="498" WIDTH="99" HEIGHT="49"/>
-            <SP HPOS="573" VPOS="498" WIDTH="14"/>
-            <String ID="L0006_W05" CONTENT="einen" HPOS="587" VPOS="495" WIDTH="102" HEIGHT="43"/>
+            <String ID="L0006_W04" CONTENT="frow" HPOS="474" VPOS="498" WIDTH="94" HEIGHT="49"/>
+            <SP HPOS="568" VPOS="498" WIDTH="1"/>
+            <String ID="L0006_W05" CONTENT="einen" HPOS="568" VPOS="495" WIDTH="121" HEIGHT="43"/>
             <SP HPOS="689" VPOS="495" WIDTH="1"/>
             <String ID="L0006_W06" CONTENT="ſoͤn" HPOS="689" VPOS="491" WIDTH="73" HEIGHT="52"/>
             <SP HPOS="762" VPOS="491" WIDTH="19"/>
@@ -206,9 +206,9 @@
             <SP HPOS="326" VPOS="1048" WIDTH="8"/>
             <String ID="L0015_W02" CONTENT="du" HPOS="334" VPOS="1048" WIDTH="50" HEIGHT="42"/>
             <SP HPOS="384" VPOS="1048" WIDTH="12"/>
-            <String ID="L0015_W03" CONTENT="ock" HPOS="396" VPOS="1047" WIDTH="55" HEIGHT="42"/>
-            <SP HPOS="451" VPOS="1047" WIDTH="10"/>
-            <String ID="L0015_W04" CONTENT="ſchalt" HPOS="461" VPOS="1047" WIDTH="109" HEIGHT="50"/>
+            <String ID="L0015_W03" CONTENT="ock" HPOS="396" VPOS="1047" WIDTH="54" HEIGHT="42"/>
+            <SP HPOS="450" VPOS="1047" WIDTH="1"/>
+            <String ID="L0015_W04" CONTENT="ſchalt" HPOS="450" VPOS="1047" WIDTH="120" HEIGHT="50"/>
             <SP HPOS="570" VPOS="1047" WIDTH="26"/>
             <String ID="L0015_W05" CONTENT="beuelen" HPOS="596" VPOS="1045" WIDTH="142" HEIGHT="43"/>
             <SP HPOS="738" VPOS="1045" WIDTH="9"/>

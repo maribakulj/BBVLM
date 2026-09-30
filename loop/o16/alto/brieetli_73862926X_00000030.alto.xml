@@ -73,9 +73,9 @@
             <SP HPOS="566" VPOS="258" WIDTH="7"/>
             <String ID="L0003_W04" CONTENT="dir" HPOS="573" VPOS="261" WIDTH="52" HEIGHT="36"/>
             <SP HPOS="625" VPOS="261" WIDTH="7"/>
-            <String ID="L0003_W05" CONTENT="ein" HPOS="632" VPOS="259" WIDTH="53" HEIGHT="37"/>
-            <SP HPOS="685" VPOS="259" WIDTH="15"/>
-            <String ID="L0003_W06" CONTENT="ſolchen" HPOS="700" VPOS="257" WIDTH="137" HEIGHT="48"/>
+            <String ID="L0003_W05" CONTENT="ein" HPOS="632" VPOS="259" WIDTH="49" HEIGHT="37"/>
+            <SP HPOS="681" VPOS="259" WIDTH="1"/>
+            <String ID="L0003_W06" CONTENT="ſolchen" HPOS="681" VPOS="257" WIDTH="156" HEIGHT="48"/>
             <SP HPOS="837" VPOS="257" WIDTH="16"/>
             <String ID="L0003_W07" CONTENT="mut/" HPOS="853" VPOS="266" WIDTH="108" HEIGHT="32"/>
             <SP HPOS="961" VPOS="266" WIDTH="9"/>
@@ -182,9 +182,9 @@
           <TextLine ID="L0010" HPOS="264" VPOS="626" WIDTH="839" HEIGHT="54">
             <String ID="L0010_W01" CONTENT="Wenn" HPOS="264" VPOS="633" WIDTH="127" HEIGHT="40"/>
             <SP HPOS="391" VPOS="633" WIDTH="15"/>
-            <String ID="L0010_W02" CONTENT="ich" HPOS="406" VPOS="630" WIDTH="55" HEIGHT="47"/>
-            <SP HPOS="461" VPOS="630" WIDTH="8"/>
-            <String ID="L0010_W03" CONTENT="ſchwach" HPOS="469" VPOS="629" WIDTH="165" HEIGHT="51"/>
+            <String ID="L0010_W02" CONTENT="ich" HPOS="406" VPOS="630" WIDTH="52" HEIGHT="47"/>
+            <SP HPOS="458" VPOS="630" WIDTH="1"/>
+            <String ID="L0010_W03" CONTENT="ſchwach" HPOS="458" VPOS="629" WIDTH="176" HEIGHT="51"/>
             <SP HPOS="634" VPOS="629" WIDTH="10"/>
             <String ID="L0010_W04" CONTENT="bin/" HPOS="644" VPOS="628" WIDTH="73" HEIGHT="41"/>
             <SP HPOS="717" VPOS="628" WIDTH="1"/>
@@ -199,9 +199,9 @@
             <String ID="L0010_W09" CONTENT="dañ" HPOS="1031" VPOS="630" WIDTH="72" HEIGHT="39"/>
           </TextLine>
           <TextLine ID="L0011" HPOS="264" VPOS="680" WIDTH="839" HEIGHT="53">
-            <String ID="L0011_W01" CONTENT="krafft" HPOS="264" VPOS="681" WIDTH="134" HEIGHT="52"/>
-            <SP HPOS="398" VPOS="681" WIDTH="1"/>
-            <String ID="L0011_W02" CONTENT="wirdt" HPOS="398" VPOS="684" WIDTH="95" HEIGHT="37"/>
+            <String ID="L0011_W01" CONTENT="krafft" HPOS="264" VPOS="681" WIDTH="112" HEIGHT="52"/>
+            <SP HPOS="376" VPOS="681" WIDTH="9"/>
+            <String ID="L0011_W02" CONTENT="wirdt" HPOS="385" VPOS="684" WIDTH="108" HEIGHT="37"/>
             <SP HPOS="493" VPOS="684" WIDTH="8"/>
             <String ID="L0011_W03" CONTENT="durch" HPOS="501" VPOS="682" WIDTH="107" HEIGHT="47"/>
             <SP HPOS="608" VPOS="682" WIDTH="9"/>
@@ -212,9 +212,9 @@
             <String ID="L0011_W06" CONTENT="Wer" HPOS="1033" VPOS="683" WIDTH="70" HEIGHT="40"/>
           </TextLine>
           <TextLine ID="L0012" HPOS="264" VPOS="735" WIDTH="840" HEIGHT="51">
-            <String ID="L0012_W01" CONTENT="es" HPOS="264" VPOS="748" WIDTH="58" HEIGHT="27"/>
-            <SP HPOS="322" VPOS="748" WIDTH="1"/>
-            <String ID="L0012_W02" CONTENT="wiſſen" HPOS="322" VPOS="736" WIDTH="111" HEIGHT="50"/>
+            <String ID="L0012_W01" CONTENT="es" HPOS="264" VPOS="748" WIDTH="39" HEIGHT="27"/>
+            <SP HPOS="303" VPOS="748" WIDTH="8"/>
+            <String ID="L0012_W02" CONTENT="wiſſen" HPOS="311" VPOS="736" WIDTH="122" HEIGHT="50"/>
             <SP HPOS="433" VPOS="736" WIDTH="9"/>
             <String ID="L0012_W03" CONTENT="wil/" HPOS="442" VPOS="735" WIDTH="80" HEIGHT="39"/>
             <SP HPOS="522" VPOS="735" WIDTH="3"/>
@@ -326,8 +326,8 @@
             <SP HPOS="535" VPOS="1051" WIDTH="11"/>
             <String ID="L0018_W04" CONTENT="vertrawen" HPOS="546" VPOS="1062" WIDTH="196" HEIGHT="31"/>
             <SP HPOS="742" VPOS="1062" WIDTH="9"/>
-            <String ID="L0018_W05" CONTENT="zu" HPOS="751" VPOS="1063" WIDTH="41" HEIGHT="36"/>
-            <SP HPOS="792" VPOS="1063" WIDTH="8"/>
+            <String ID="L0018_W05" CONTENT="zu" HPOS="751" VPOS="1063" WIDTH="47" HEIGHT="36"/>
+            <SP HPOS="798" VPOS="1063" WIDTH="2"/>
             <String ID="L0018_W06" CONTENT="Got" HPOS="800" VPOS="1055" WIDTH="85" HEIGHT="39"/>
             <SP HPOS="885" VPOS="1055" WIDTH="8"/>
             <String ID="L0018_W07" CONTENT="nicht" HPOS="893" VPOS="1049" WIDTH="99" HEIGHT="49"/>
@@ -371,9 +371,9 @@
           <TextLine ID="L0021" HPOS="263" VPOS="1208" WIDTH="841" HEIGHT="52">
             <String ID="L0021_W01" CONTENT="aber" HPOS="263" VPOS="1211" WIDTH="81" HEIGHT="40"/>
             <SP HPOS="344" VPOS="1211" WIDTH="9"/>
-            <String ID="L0021_W02" CONTENT="bloͤde" HPOS="353" VPOS="1210" WIDTH="120" HEIGHT="45"/>
-            <SP HPOS="473" VPOS="1210" WIDTH="1"/>
-            <String ID="L0021_W03" CONTENT="vnd" HPOS="473" VPOS="1215" WIDTH="62" HEIGHT="34"/>
+            <String ID="L0021_W02" CONTENT="bloͤde" HPOS="353" VPOS="1210" WIDTH="100" HEIGHT="45"/>
+            <SP HPOS="453" VPOS="1210" WIDTH="8"/>
+            <String ID="L0021_W03" CONTENT="vnd" HPOS="461" VPOS="1215" WIDTH="74" HEIGHT="34"/>
             <SP HPOS="535" VPOS="1215" WIDTH="8"/>
             <String ID="L0021_W04" CONTENT="ſchwach/" HPOS="543" VPOS="1211" WIDTH="175" HEIGHT="49"/>
             <SP HPOS="718" VPOS="1211" WIDTH="1"/>
@@ -479,9 +479,9 @@
             <SP HPOS="640" VPOS="1531" WIDTH="1"/>
             <String ID="L0027_W05" CONTENT="das" HPOS="640" VPOS="1532" WIDTH="74" HEIGHT="41"/>
             <SP HPOS="714" VPOS="1532" WIDTH="8"/>
-            <String ID="L0027_W06" CONTENT="ich" HPOS="722" VPOS="1530" WIDTH="60" HEIGHT="51"/>
-            <SP HPOS="782" VPOS="1530" WIDTH="1"/>
-            <String ID="L0027_W07" CONTENT="ſolch" HPOS="782" VPOS="1529" WIDTH="99" HEIGHT="53"/>
+            <String ID="L0027_W06" CONTENT="ich" HPOS="722" VPOS="1530" WIDTH="61" HEIGHT="51"/>
+            <SP HPOS="783" VPOS="1530" WIDTH="3"/>
+            <String ID="L0027_W07" CONTENT="ſolch" HPOS="786" VPOS="1529" WIDTH="95" HEIGHT="53"/>
             <SP HPOS="881" VPOS="1529" WIDTH="8"/>
             <String ID="L0027_W08" CONTENT="anſtoͤß" HPOS="889" VPOS="1525" WIDTH="128" HEIGHT="55"/>
             <SP HPOS="1017" VPOS="1525" WIDTH="7"/>

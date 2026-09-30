@@ -65,9 +65,9 @@
           <TextLine ID="L0007" HPOS="374" VPOS="1819" WIDTH="1608" HEIGHT="132">
             <String ID="L0007_W01" CONTENT="Erb⸗Herr" HPOS="380" VPOS="1824" WIDTH="479" HEIGHT="127"/>
             <SP HPOS="859" VPOS="1824" WIDTH="30"/>
-            <String ID="L0007_W02" CONTENT="auf" HPOS="889" VPOS="1819" WIDTH="154" HEIGHT="126"/>
-            <SP HPOS="1043" VPOS="1819" WIDTH="1"/>
-            <String ID="L0007_W03" CONTENT="Goſſa" HPOS="1043" VPOS="1821" WIDTH="292" HEIGHT="125"/>
+            <String ID="L0007_W02" CONTENT="auf" HPOS="889" VPOS="1819" WIDTH="157" HEIGHT="126"/>
+            <SP HPOS="1046" VPOS="1819" WIDTH="9"/>
+            <String ID="L0007_W03" CONTENT="Goſſa" HPOS="1055" VPOS="1821" WIDTH="280" HEIGHT="125"/>
             <SP HPOS="1335" VPOS="1821" WIDTH="33"/>
             <String ID="L0007_W04" CONTENT="und" HPOS="1368" VPOS="1823" WIDTH="165" HEIGHT="101"/>
             <SP HPOS="1533" VPOS="1823" WIDTH="23"/>
@@ -156,8 +156,8 @@
         <TextBlock ID="B004" TAGREFS="ROLE_heading" HPOS="661" VPOS="2651" WIDTH="1063" HEIGHT="154">
           <TextLine ID="L0015" HPOS="661" VPOS="2651" WIDTH="1063" HEIGHT="154">
             <String ID="L0015_W01" CONTENT="zu" HPOS="661" VPOS="2699" WIDTH="95" HEIGHT="106"/>
-            <SP HPOS="756" VPOS="2699" WIDTH="53"/>
-            <String ID="L0015_W02" CONTENT="gebuͤhrender" HPOS="809" VPOS="2667" WIDTH="553" HEIGHT="137"/>
+            <SP HPOS="756" VPOS="2699" WIDTH="22"/>
+            <String ID="L0015_W02" CONTENT="gebuͤhrender" HPOS="778" VPOS="2667" WIDTH="584" HEIGHT="137"/>
             <SP HPOS="1362" VPOS="2667" WIDTH="49"/>
             <String ID="L0015_W03" CONTENT="Ehre/" HPOS="1411" VPOS="2664" WIDTH="313" HEIGHT="138"/>
           </TextLine>
@@ -179,9 +179,9 @@
             <String ID="L0016_W07" CONTENT="veranſtaltet" HPOS="1637" VPOS="2835" WIDTH="361" HEIGHT="86"/>
           </TextLine>
           <TextLine ID="L0017" HPOS="1010" VPOS="2916" WIDTH="344" HEIGHT="67">
-            <String ID="L0017_W01" CONTENT="und" HPOS="1010" VPOS="2922" WIDTH="99" HEIGHT="53"/>
-            <SP HPOS="1109" VPOS="2922" WIDTH="8"/>
-            <String ID="L0017_W02" CONTENT="gehalten/" HPOS="1117" VPOS="2888" WIDTH="237" HEIGHT="95"/>
+            <String ID="L0017_W01" CONTENT="und" HPOS="1010" VPOS="2922" WIDTH="93" HEIGHT="53"/>
+            <SP HPOS="1103" VPOS="2922" WIDTH="1"/>
+            <String ID="L0017_W02" CONTENT="gehalten/" HPOS="1104" VPOS="2888" WIDTH="250" HEIGHT="95"/>
           </TextLine>
           <TextLine ID="L0018" HPOS="627" VPOS="3000" WIDTH="1159" HEIGHT="68">
             <String ID="L0018_W01" CONTENT="und" HPOS="627" VPOS="3013" WIDTH="74" HEIGHT="39"/>

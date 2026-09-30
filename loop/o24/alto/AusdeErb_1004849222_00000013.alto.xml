@@ -84,9 +84,9 @@
             <SP HPOS="473" VPOS="600" WIDTH="31"/>
             <String ID="L0005_W04" CONTENT="in" HPOS="504" VPOS="603" WIDTH="28" HEIGHT="30"/>
             <SP HPOS="532" VPOS="603" WIDTH="28"/>
-            <String ID="L0005_W05" CONTENT="eine" HPOS="560" VPOS="605" WIDTH="77" HEIGHT="28"/>
-            <SP HPOS="637" VPOS="605" WIDTH="13"/>
-            <String ID="L0005_W06" CONTENT="glaͤſerne" HPOS="650" VPOS="600" WIDTH="131" HEIGHT="43"/>
+            <String ID="L0005_W05" CONTENT="eine" HPOS="560" VPOS="605" WIDTH="59" HEIGHT="28"/>
+            <SP HPOS="619" VPOS="605" WIDTH="12"/>
+            <String ID="L0005_W06" CONTENT="glaͤſerne" HPOS="631" VPOS="600" WIDTH="150" HEIGHT="43"/>
             <SP HPOS="781" VPOS="600" WIDTH="28"/>
             <String ID="L0005_W07" CONTENT="Phiol," HPOS="809" VPOS="602" WIDTH="99" HEIGHT="37"/>
           </TextLine>
@@ -186,9 +186,9 @@
             <SP HPOS="453" VPOS="929" WIDTH="15"/>
             <String ID="L0011_W05" CONTENT="Koͤrper" HPOS="468" VPOS="919" WIDTH="112" HEIGHT="39"/>
             <SP HPOS="580" VPOS="919" WIDTH="16"/>
-            <String ID="L0011_W06" CONTENT="des" HPOS="596" VPOS="919" WIDTH="86" HEIGHT="31"/>
-            <SP HPOS="682" VPOS="919" WIDTH="1"/>
-            <String ID="L0011_W07" CONTENT="Vitriols" HPOS="682" VPOS="917" WIDTH="107" HEIGHT="45"/>
+            <String ID="L0011_W06" CONTENT="des" HPOS="596" VPOS="919" WIDTH="56" HEIGHT="31"/>
+            <SP HPOS="652" VPOS="919" WIDTH="5"/>
+            <String ID="L0011_W07" CONTENT="Vitriols" HPOS="657" VPOS="917" WIDTH="132" HEIGHT="45"/>
             <SP HPOS="789" VPOS="917" WIDTH="19"/>
             <String ID="L0011_W08" CONTENT="durch⸗" HPOS="808" VPOS="910" WIDTH="97" HEIGHT="48"/>
           </TextLine>
@@ -212,9 +212,9 @@
             <SP HPOS="288" VPOS="1106" WIDTH="15"/>
             <String ID="L0013_W02" CONTENT="Art" HPOS="303" VPOS="1107" WIDTH="59" HEIGHT="33"/>
             <SP HPOS="362" VPOS="1107" WIDTH="13"/>
-            <String ID="L0013_W03" CONTENT="der" HPOS="375" VPOS="1108" WIDTH="80" HEIGHT="39"/>
-            <SP HPOS="455" VPOS="1108" WIDTH="2"/>
-            <String ID="L0013_W04" CONTENT="zweyten" HPOS="457" VPOS="1109" WIDTH="113" HEIGHT="35"/>
+            <String ID="L0013_W03" CONTENT="der" HPOS="375" VPOS="1108" WIDTH="58" HEIGHT="39"/>
+            <SP HPOS="433" VPOS="1108" WIDTH="9"/>
+            <String ID="L0013_W04" CONTENT="zweyten" HPOS="442" VPOS="1109" WIDTH="128" HEIGHT="35"/>
             <SP HPOS="570" VPOS="1109" WIDTH="10"/>
             <String ID="L0013_W05" CONTENT="Rektifikazion," HPOS="580" VPOS="1105" WIDTH="215" HEIGHT="41"/>
             <SP HPOS="795" VPOS="1105" WIDTH="16"/>
@@ -235,16 +235,16 @@
           </TextLine>
           <TextLine ID="L0015" HPOS="116" VPOS="1210" WIDTH="789" HEIGHT="45">
             <String ID="L0015_W01" CONTENT="zu" HPOS="116" VPOS="1222" WIDTH="35" HEIGHT="31"/>
-            <SP HPOS="151" VPOS="1222" WIDTH="14"/>
-            <String ID="L0015_W02" CONTENT="andern" HPOS="165" VPOS="1216" WIDTH="107" HEIGHT="31"/>
+            <SP HPOS="151" VPOS="1222" WIDTH="5"/>
+            <String ID="L0015_W02" CONTENT="andern" HPOS="156" VPOS="1216" WIDTH="116" HEIGHT="31"/>
             <SP HPOS="272" VPOS="1216" WIDTH="26"/>
             <String ID="L0015_W03" CONTENT="ein" HPOS="298" VPOS="1217" WIDTH="42" HEIGHT="29"/>
             <SP HPOS="340" VPOS="1217" WIDTH="30"/>
             <String ID="L0015_W04" CONTENT="klares" HPOS="370" VPOS="1214" WIDTH="92" HEIGHT="32"/>
             <SP HPOS="462" VPOS="1214" WIDTH="20"/>
-            <String ID="L0015_W05" CONTENT="gemeines" HPOS="482" VPOS="1213" WIDTH="207" HEIGHT="42"/>
-            <SP HPOS="689" VPOS="1213" WIDTH="5"/>
-            <String ID="L0015_W06" CONTENT="Brunnenwaſſer" HPOS="694" VPOS="1210" WIDTH="211" HEIGHT="39"/>
+            <String ID="L0015_W05" CONTENT="gemeines" HPOS="482" VPOS="1213" WIDTH="145" HEIGHT="42"/>
+            <SP HPOS="627" VPOS="1213" WIDTH="33"/>
+            <String ID="L0015_W06" CONTENT="Brunnenwaſſer" HPOS="660" VPOS="1210" WIDTH="245" HEIGHT="39"/>
           </TextLine>
           <TextLine ID="L0016" HPOS="117" VPOS="1254" WIDTH="785" HEIGHT="52">
             <String ID="L0016_W01" CONTENT="etlichemal" HPOS="117" VPOS="1267" WIDTH="159" HEIGHT="31"/>
@@ -266,9 +266,9 @@
             <SP HPOS="181" VPOS="1319" WIDTH="38"/>
             <String ID="L0017_W02" CONTENT="in" HPOS="219" VPOS="1329" WIDTH="30" HEIGHT="22"/>
             <SP HPOS="249" VPOS="1329" WIDTH="27"/>
-            <String ID="L0017_W03" CONTENT="ein" HPOS="276" VPOS="1318" WIDTH="84" HEIGHT="33"/>
-            <SP HPOS="360" VPOS="1318" WIDTH="1"/>
-            <String ID="L0017_W04" CONTENT="Kolbenglas" HPOS="360" VPOS="1318" WIDTH="178" HEIGHT="40"/>
+            <String ID="L0017_W03" CONTENT="ein" HPOS="276" VPOS="1318" WIDTH="51" HEIGHT="33"/>
+            <SP HPOS="327" VPOS="1318" WIDTH="11"/>
+            <String ID="L0017_W04" CONTENT="Kolbenglas" HPOS="338" VPOS="1318" WIDTH="200" HEIGHT="40"/>
             <SP HPOS="538" VPOS="1318" WIDTH="7"/>
             <String ID="L0017_W05" CONTENT="nach" HPOS="545" VPOS="1322" WIDTH="77" HEIGHT="33"/>
             <SP HPOS="622" VPOS="1322" WIDTH="14"/>
@@ -287,9 +287,9 @@
             <SP HPOS="449" VPOS="1374" WIDTH="35"/>
             <String ID="L0018_W04" CONTENT="Spiritum" HPOS="484" VPOS="1370" WIDTH="161" HEIGHT="39"/>
             <SP HPOS="645" VPOS="1370" WIDTH="21"/>
-            <String ID="L0018_W05" CONTENT="Vini" HPOS="666" VPOS="1370" WIDTH="62" HEIGHT="32"/>
-            <SP HPOS="728" VPOS="1370" WIDTH="1"/>
-            <String ID="L0018_W06" CONTENT="daruͤber," HPOS="728" VPOS="1367" WIDTH="170" HEIGHT="38"/>
+            <String ID="L0018_W05" CONTENT="Vini" HPOS="666" VPOS="1370" WIDTH="74" HEIGHT="32"/>
+            <SP HPOS="740" VPOS="1370" WIDTH="20"/>
+            <String ID="L0018_W06" CONTENT="daruͤber," HPOS="760" VPOS="1367" WIDTH="138" HEIGHT="38"/>
           </TextLine>
           <TextLine ID="L0019" HPOS="115" VPOS="1420" WIDTH="784" HEIGHT="45">
             <String ID="L0019_W01" CONTENT="ließ" HPOS="115" VPOS="1426" WIDTH="58" HEIGHT="38"/>

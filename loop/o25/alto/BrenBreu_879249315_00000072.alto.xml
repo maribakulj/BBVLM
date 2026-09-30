@@ -124,9 +124,9 @@
             <SP HPOS="1010" VPOS="505" WIDTH="13"/>
             <String ID="L0007_W05" CONTENT="ſponte" HPOS="1023" VPOS="505" WIDTH="135" HEIGHT="56"/>
             <SP HPOS="1158" VPOS="505" WIDTH="12"/>
-            <String ID="L0007_W06" CONTENT="ad" HPOS="1170" VPOS="509" WIDTH="48" HEIGHT="38"/>
-            <SP HPOS="1218" VPOS="509" WIDTH="1"/>
-            <String ID="L0007_W07" CONTENT="ſuſpicionem" HPOS="1218" VPOS="506" WIDTH="278" HEIGHT="54"/>
+            <String ID="L0007_W06" CONTENT="ad" HPOS="1170" VPOS="509" WIDTH="49" HEIGHT="38"/>
+            <SP HPOS="1219" VPOS="509" WIDTH="21"/>
+            <String ID="L0007_W07" CONTENT="ſuſpicionem" HPOS="1240" VPOS="506" WIDTH="256" HEIGHT="54"/>
             <SP HPOS="1496" VPOS="506" WIDTH="12"/>
             <String ID="L0007_W08" CONTENT="affe⸗" HPOS="1508" VPOS="505" WIDTH="94" HEIGHT="43"/>
           </TextLine>
@@ -462,9 +462,9 @@
             <String ID="L0028_W10" CONTENT="va⸗" HPOS="1510" VPOS="1729" WIDTH="75" HEIGHT="29"/>
           </TextLine>
           <TextLine ID="L0029" HPOS="480" VPOS="1768" WIDTH="1105" HEIGHT="61">
-            <String ID="L0029_W01" CONTENT="num" HPOS="480" VPOS="1783" WIDTH="88" HEIGHT="27"/>
-            <SP HPOS="568" VPOS="1783" WIDTH="1"/>
-            <String ID="L0029_W02" CONTENT="eſt," HPOS="568" VPOS="1768" WIDTH="89" HEIGHT="47"/>
+            <String ID="L0029_W01" CONTENT="num" HPOS="480" VPOS="1783" WIDTH="97" HEIGHT="27"/>
+            <SP HPOS="577" VPOS="1783" WIDTH="11"/>
+            <String ID="L0029_W02" CONTENT="eſt," HPOS="588" VPOS="1768" WIDTH="69" HEIGHT="47"/>
             <SP HPOS="657" VPOS="1768" WIDTH="10"/>
             <String ID="L0029_W03" CONTENT="guttur" HPOS="667" VPOS="1782" WIDTH="133" HEIGHT="43"/>
             <SP HPOS="800" VPOS="1782" WIDTH="11"/>

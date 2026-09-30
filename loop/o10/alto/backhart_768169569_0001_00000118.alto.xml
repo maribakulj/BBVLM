@@ -40,13 +40,13 @@
         </TextBlock>
         <TextBlock ID="B002" TAGREFS="ROLE_paragraph" HPOS="286" VPOS="247" WIDTH="753" HEIGHT="901">
           <TextLine ID="L0002" HPOS="292" VPOS="247" WIDTH="742" HEIGHT="45">
-            <String ID="L0002_W01" CONTENT="drey" HPOS="292" VPOS="259" WIDTH="82" HEIGHT="32"/>
-            <SP HPOS="374" VPOS="259" WIDTH="1"/>
-            <String ID="L0002_W02" CONTENT="Staͤnden" HPOS="374" VPOS="248" WIDTH="149" HEIGHT="34"/>
+            <String ID="L0002_W01" CONTENT="drey" HPOS="292" VPOS="259" WIDTH="95" HEIGHT="32"/>
+            <SP HPOS="387" VPOS="259" WIDTH="1"/>
+            <String ID="L0002_W02" CONTENT="Staͤnden" HPOS="387" VPOS="248" WIDTH="136" HEIGHT="34"/>
             <SP HPOS="523" VPOS="248" WIDTH="30"/>
-            <String ID="L0002_W03" CONTENT="des" HPOS="553" VPOS="254" WIDTH="47" HEIGHT="28"/>
-            <SP HPOS="600" VPOS="254" WIDTH="16"/>
-            <String ID="L0002_W04" CONTENT="menſchlichen" HPOS="616" VPOS="252" WIDTH="199" HEIGHT="36"/>
+            <String ID="L0002_W03" CONTENT="des" HPOS="553" VPOS="254" WIDTH="66" HEIGHT="28"/>
+            <SP HPOS="619" VPOS="254" WIDTH="13"/>
+            <String ID="L0002_W04" CONTENT="menſchlichen" HPOS="632" VPOS="252" WIDTH="183" HEIGHT="36"/>
             <SP HPOS="815" VPOS="252" WIDTH="27"/>
             <String ID="L0002_W05" CONTENT="Lebens," HPOS="842" VPOS="248" WIDTH="127" HEIGHT="38"/>
             <SP HPOS="969" VPOS="248" WIDTH="18"/>
@@ -70,9 +70,9 @@
             <SP HPOS="390" VPOS="359" WIDTH="30"/>
             <String ID="L0004_W02" CONTENT="—" HPOS="420" VPOS="367" WIDTH="67" HEIGHT="6"/>
             <SP HPOS="487" VPOS="367" WIDTH="18"/>
-            <String ID="L0004_W03" CONTENT="ganz" HPOS="505" VPOS="358" WIDTH="76" HEIGHT="29"/>
-            <SP HPOS="581" VPOS="358" WIDTH="12"/>
-            <String ID="L0004_W04" CONTENT="nahe" HPOS="593" VPOS="349" WIDTH="101" HEIGHT="40"/>
+            <String ID="L0004_W03" CONTENT="ganz" HPOS="505" VPOS="358" WIDTH="94" HEIGHT="29"/>
+            <SP HPOS="599" VPOS="358" WIDTH="13"/>
+            <String ID="L0004_W04" CONTENT="nahe" HPOS="612" VPOS="349" WIDTH="82" HEIGHT="40"/>
             <SP HPOS="694" VPOS="349" WIDTH="18"/>
             <String ID="L0004_W05" CONTENT="zuſammen" HPOS="712" VPOS="353" WIDTH="154" HEIGHT="34"/>
             <SP HPOS="866" VPOS="353" WIDTH="35"/>
@@ -111,9 +111,9 @@
             <SP HPOS="386" VPOS="500" WIDTH="1"/>
             <String ID="L0007_W03" CONTENT="traulich" HPOS="386" VPOS="498" WIDTH="122" HEIGHT="35"/>
             <SP HPOS="508" VPOS="498" WIDTH="13"/>
-            <String ID="L0007_W04" CONTENT="und" HPOS="521" VPOS="497" WIDTH="79" HEIGHT="35"/>
-            <SP HPOS="600" VPOS="497" WIDTH="1"/>
-            <String ID="L0007_W05" CONTENT="freundſchaftlich" HPOS="600" VPOS="497" WIDTH="215" HEIGHT="37"/>
+            <String ID="L0007_W04" CONTENT="und" HPOS="521" VPOS="497" WIDTH="59" HEIGHT="35"/>
+            <SP HPOS="580" VPOS="497" WIDTH="8"/>
+            <String ID="L0007_W05" CONTENT="freundſchaftlich" HPOS="588" VPOS="497" WIDTH="227" HEIGHT="37"/>
             <SP HPOS="815" VPOS="497" WIDTH="17"/>
             <String ID="L0007_W06" CONTENT="mit" HPOS="832" VPOS="501" WIDTH="50" HEIGHT="28"/>
             <SP HPOS="882" VPOS="501" WIDTH="10"/>
@@ -344,8 +344,8 @@
             <String ID="L0023_W01" CONTENT="an" HPOS="299" VPOS="1493" WIDTH="45" HEIGHT="24"/>
             <SP HPOS="344" VPOS="1493" WIDTH="10"/>
             <String ID="L0023_W02" CONTENT="dem" HPOS="354" VPOS="1487" WIDTH="60" HEIGHT="30"/>
-            <SP HPOS="414" VPOS="1487" WIDTH="14"/>
-            <String ID="L0023_W03" CONTENT="Auguſt" HPOS="428" VPOS="1487" WIDTH="110" HEIGHT="39"/>
+            <SP HPOS="414" VPOS="1487" WIDTH="13"/>
+            <String ID="L0023_W03" CONTENT="Auguſt" HPOS="427" VPOS="1487" WIDTH="111" HEIGHT="39"/>
             <SP HPOS="538" VPOS="1487" WIDTH="11"/>
             <String ID="L0023_W04" CONTENT="ins" HPOS="549" VPOS="1488" WIDTH="48" HEIGHT="30"/>
             <SP HPOS="597" VPOS="1488" WIDTH="16"/>

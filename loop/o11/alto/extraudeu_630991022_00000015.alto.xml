@@ -82,9 +82,9 @@
           <TextLine ID="L0005" HPOS="211" VPOS="809" WIDTH="1530" HEIGHT="111">
             <String ID="L0005_W01" CONTENT="dis" HPOS="211" VPOS="829" WIDTH="102" HEIGHT="72"/>
             <SP HPOS="313" VPOS="829" WIDTH="23"/>
-            <String ID="L0005_W02" CONTENT="bey" HPOS="336" VPOS="832" WIDTH="83" HEIGHT="88"/>
-            <SP HPOS="419" VPOS="832" WIDTH="1"/>
-            <String ID="L0005_W03" CONTENT="denen" HPOS="419" VPOS="834" WIDTH="219" HEIGHT="83"/>
+            <String ID="L0005_W02" CONTENT="bey" HPOS="336" VPOS="832" WIDTH="106" HEIGHT="88"/>
+            <SP HPOS="442" VPOS="832" WIDTH="19"/>
+            <String ID="L0005_W03" CONTENT="denen" HPOS="461" VPOS="834" WIDTH="177" HEIGHT="83"/>
             <SP HPOS="638" VPOS="834" WIDTH="22"/>
             <String ID="L0005_W04" CONTENT="Gerichten," HPOS="660" VPOS="828" WIDTH="333" HEIGHT="86"/>
             <SP HPOS="993" VPOS="828" WIDTH="36"/>
@@ -186,8 +186,8 @@
           <TextLine ID="L0011" HPOS="138" VPOS="1818" WIDTH="1711" HEIGHT="94">
             <String ID="L0011_W01" CONTENT="12." HPOS="138" VPOS="1853" WIDTH="64" HEIGHT="44"/>
             <SP HPOS="202" VPOS="1853" WIDTH="18"/>
-            <String ID="L0011_W02" CONTENT="Ggr." HPOS="220" VPOS="1841" WIDTH="126" HEIGHT="71"/>
-            <SP HPOS="346" VPOS="1841" WIDTH="23"/>
+            <String ID="L0011_W02" CONTENT="Ggr." HPOS="220" VPOS="1841" WIDTH="139" HEIGHT="71"/>
+            <SP HPOS="359" VPOS="1841" WIDTH="10"/>
             <String ID="L0011_W03" CONTENT="oder" HPOS="369" VPOS="1843" WIDTH="104" HEIGHT="56"/>
             <SP HPOS="473" VPOS="1843" WIDTH="27"/>
             <String ID="L0011_W04" CONTENT="ſo" HPOS="500" VPOS="1839" WIDTH="43" HEIGHT="66"/>
@@ -200,8 +200,8 @@
             <SP HPOS="1089" VPOS="1829" WIDTH="21"/>
             <String ID="L0011_W08" CONTENT="Termine" HPOS="1110" VPOS="1825" WIDTH="229" HEIGHT="55"/>
             <SP HPOS="1339" VPOS="1825" WIDTH="26"/>
-            <String ID="L0011_W09" CONTENT="darinnen" HPOS="1365" VPOS="1821" WIDTH="219" HEIGHT="64"/>
-            <SP HPOS="1584" VPOS="1821" WIDTH="30"/>
+            <String ID="L0011_W09" CONTENT="darinnen" HPOS="1365" VPOS="1821" WIDTH="237" HEIGHT="64"/>
+            <SP HPOS="1602" VPOS="1821" WIDTH="12"/>
             <String ID="L0011_W10" CONTENT="befindlich," HPOS="1614" VPOS="1818" WIDTH="235" HEIGHT="71"/>
           </TextLine>
           <TextLine ID="L0012" HPOS="136" VPOS="1896" WIDTH="1715" HEIGHT="90">
@@ -249,9 +249,9 @@
             <SP HPOS="225" VPOS="2078" WIDTH="26"/>
             <String ID="L0014_W02" CONTENT="bekannt" HPOS="251" VPOS="2042" WIDTH="191" HEIGHT="94"/>
             <SP HPOS="442" VPOS="2042" WIDTH="29"/>
-            <String ID="L0014_W03" CONTENT="gemacht." HPOS="471" VPOS="2042" WIDTH="329" HEIGHT="104"/>
-            <SP HPOS="800" VPOS="2042" WIDTH="1"/>
-            <String ID="L0014_W04" CONTENT="Signatum" HPOS="800" VPOS="2072" WIDTH="276" HEIGHT="67"/>
+            <String ID="L0014_W03" CONTENT="gemacht." HPOS="471" VPOS="2042" WIDTH="235" HEIGHT="104"/>
+            <SP HPOS="706" VPOS="2042" WIDTH="18"/>
+            <String ID="L0014_W04" CONTENT="Signatum" HPOS="724" VPOS="2072" WIDTH="352" HEIGHT="67"/>
             <SP HPOS="1076" VPOS="2072" WIDTH="20"/>
             <String ID="L0014_W05" CONTENT="Breßlau" HPOS="1096" VPOS="2067" WIDTH="227" HEIGHT="66"/>
             <SP HPOS="1323" VPOS="2067" WIDTH="19"/>
@@ -259,9 +259,9 @@
             <SP HPOS="1427" VPOS="2066" WIDTH="29"/>
             <String ID="L0014_W07" CONTENT="5." HPOS="1456" VPOS="2081" WIDTH="49" HEIGHT="50"/>
             <SP HPOS="1505" VPOS="2081" WIDTH="30"/>
-            <String ID="L0014_W08" CONTENT="Febr." HPOS="1535" VPOS="2058" WIDTH="147" HEIGHT="71"/>
-            <SP HPOS="1682" VPOS="2058" WIDTH="1"/>
-            <String ID="L0014_W09" CONTENT="1753." HPOS="1682" VPOS="2067" WIDTH="171" HEIGHT="59"/>
+            <String ID="L0014_W08" CONTENT="Febr." HPOS="1535" VPOS="2058" WIDTH="168" HEIGHT="71"/>
+            <SP HPOS="1703" VPOS="2058" WIDTH="16"/>
+            <String ID="L0014_W09" CONTENT="1753." HPOS="1719" VPOS="2067" WIDTH="134" HEIGHT="59"/>
           </TextLine>
         </TextBlock>
         <TextBlock ID="B003" TAGREFS="ROLE_other" HPOS="40" VPOS="171" WIDTH="990" HEIGHT="153">
@@ -275,9 +275,9 @@
             <SP HPOS="433" VPOS="3016" WIDTH="43"/>
             <String ID="L0016_W02" CONTENT="Preuß." HPOS="476" VPOS="3012" WIDTH="280" HEIGHT="111"/>
             <SP HPOS="756" VPOS="3012" WIDTH="39"/>
-            <String ID="L0016_W03" CONTENT="Breßlauiſche" HPOS="795" VPOS="3001" WIDTH="494" HEIGHT="123"/>
-            <SP HPOS="1289" VPOS="3001" WIDTH="60"/>
-            <String ID="L0016_W04" CONTENT="Krieges⸗" HPOS="1349" VPOS="2996" WIDTH="334" HEIGHT="118"/>
+            <String ID="L0016_W03" CONTENT="Breßlauiſche" HPOS="795" VPOS="3001" WIDTH="547" HEIGHT="123"/>
+            <SP HPOS="1342" VPOS="3001" WIDTH="1"/>
+            <String ID="L0016_W04" CONTENT="Krieges⸗" HPOS="1342" VPOS="2996" WIDTH="341" HEIGHT="118"/>
             <SP HPOS="1683" VPOS="2996" WIDTH="20"/>
             <String ID="L0016_W05" CONTENT="und" HPOS="1703" VPOS="2991" WIDTH="148" HEIGHT="101"/>
           </TextLine>
@@ -312,15 +312,15 @@
           <TextLine ID="L0019" HPOS="301" VPOS="3373" WIDTH="1559" HEIGHT="80">
             <String ID="L0019_W01" CONTENT="v." HPOS="301" VPOS="3410" WIDTH="39" HEIGHT="38"/>
             <SP HPOS="340" VPOS="3410" WIDTH="18"/>
-            <String ID="L0019_W02" CONTENT="Unfried," HPOS="358" VPOS="3397" WIDTH="188" HEIGHT="55"/>
-            <SP HPOS="546" VPOS="3397" WIDTH="25"/>
-            <String ID="L0019_W03" CONTENT="Oppermann," HPOS="571" VPOS="3393" WIDTH="292" HEIGHT="62"/>
+            <String ID="L0019_W02" CONTENT="Unfried," HPOS="358" VPOS="3397" WIDTH="202" HEIGHT="55"/>
+            <SP HPOS="560" VPOS="3397" WIDTH="8"/>
+            <String ID="L0019_W03" CONTENT="Oppermann," HPOS="568" VPOS="3393" WIDTH="295" HEIGHT="62"/>
             <SP HPOS="863" VPOS="3393" WIDTH="15"/>
-            <String ID="L0019_W04" CONTENT="v." HPOS="878" VPOS="3400" WIDTH="38" HEIGHT="39"/>
-            <SP HPOS="916" VPOS="3400" WIDTH="19"/>
-            <String ID="L0019_W05" CONTENT="Walter," HPOS="935" VPOS="3385" WIDTH="185" HEIGHT="58"/>
-            <SP HPOS="1120" VPOS="3385" WIDTH="19"/>
-            <String ID="L0019_W06" CONTENT="Hoffmann," HPOS="1139" VPOS="3380" WIDTH="263" HEIGHT="64"/>
+            <String ID="L0019_W04" CONTENT="v." HPOS="878" VPOS="3400" WIDTH="68" HEIGHT="39"/>
+            <SP HPOS="946" VPOS="3400" WIDTH="1"/>
+            <String ID="L0019_W05" CONTENT="Walter," HPOS="946" VPOS="3385" WIDTH="190" HEIGHT="58"/>
+            <SP HPOS="1136" VPOS="3385" WIDTH="1"/>
+            <String ID="L0019_W06" CONTENT="Hoffmann," HPOS="1136" VPOS="3380" WIDTH="266" HEIGHT="64"/>
             <SP HPOS="1402" VPOS="3380" WIDTH="27"/>
             <String ID="L0019_W07" CONTENT="v" HPOS="1429" VPOS="3392" WIDTH="26" HEIGHT="37"/>
             <SP HPOS="1455" VPOS="3392" WIDTH="28"/>
@@ -333,9 +333,9 @@
             <SP HPOS="337" VPOS="3465" WIDTH="11"/>
             <String ID="L0020_W02" CONTENT="Pfuhl," HPOS="348" VPOS="3458" WIDTH="162" HEIGHT="56"/>
             <SP HPOS="510" VPOS="3458" WIDTH="1"/>
-            <String ID="L0020_W03" CONTENT="Haͤnel," HPOS="510" VPOS="3453" WIDTH="152" HEIGHT="61"/>
-            <SP HPOS="662" VPOS="3453" WIDTH="9"/>
-            <String ID="L0020_W04" CONTENT="Witte," HPOS="671" VPOS="3452" WIDTH="159" HEIGHT="58"/>
+            <String ID="L0020_W03" CONTENT="Haͤnel," HPOS="510" VPOS="3453" WIDTH="171" HEIGHT="61"/>
+            <SP HPOS="681" VPOS="3453" WIDTH="1"/>
+            <String ID="L0020_W04" CONTENT="Witte," HPOS="681" VPOS="3452" WIDTH="149" HEIGHT="58"/>
             <SP HPOS="830" VPOS="3452" WIDTH="9"/>
             <String ID="L0020_W05" CONTENT="Graf" HPOS="839" VPOS="3448" WIDTH="121" HEIGHT="57"/>
             <SP HPOS="960" VPOS="3448" WIDTH="13"/>

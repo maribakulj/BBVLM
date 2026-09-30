@@ -139,9 +139,9 @@
           <TextLine ID="L0008" HPOS="276" VPOS="739" WIDTH="748" HEIGHT="47">
             <String ID="L0008_W01" CONTENT="Friedens⸗" HPOS="276" VPOS="739" WIDTH="193" HEIGHT="36"/>
             <SP HPOS="469" VPOS="739" WIDTH="4"/>
-            <String ID="L0008_W02" CONTENT="und" HPOS="473" VPOS="741" WIDTH="83" HEIGHT="35"/>
-            <SP HPOS="556" VPOS="741" WIDTH="1"/>
-            <String ID="L0008_W03" CONTENT="Freundſchaftstraktaten" HPOS="556" VPOS="744" WIDTH="306" HEIGHT="38"/>
+            <String ID="L0008_W02" CONTENT="und" HPOS="473" VPOS="741" WIDTH="34" HEIGHT="35"/>
+            <SP HPOS="507" VPOS="741" WIDTH="28"/>
+            <String ID="L0008_W03" CONTENT="Freundſchaftstraktaten" HPOS="535" VPOS="744" WIDTH="327" HEIGHT="38"/>
             <SP HPOS="862" VPOS="744" WIDTH="29"/>
             <String ID="L0008_W04" CONTENT="herablaͤßt." HPOS="891" VPOS="741" WIDTH="133" HEIGHT="45"/>
           </TextLine>
@@ -325,9 +325,9 @@
             <String ID="L0019_W09" CONTENT="meinen" HPOS="915" VPOS="1443" WIDTH="100" HEIGHT="29"/>
           </TextLine>
           <TextLine ID="L0020" HPOS="262" VPOS="1488" WIDTH="712" HEIGHT="53">
-            <String ID="L0020_W01" CONTENT="Muth" HPOS="262" VPOS="1497" WIDTH="76" HEIGHT="32"/>
-            <SP HPOS="338" VPOS="1497" WIDTH="1"/>
-            <String ID="L0020_W02" CONTENT="erſchuͤttern," HPOS="338" VPOS="1496" WIDTH="195" HEIGHT="39"/>
+            <String ID="L0020_W01" CONTENT="Muth" HPOS="262" VPOS="1497" WIDTH="92" HEIGHT="32"/>
+            <SP HPOS="354" VPOS="1497" WIDTH="19"/>
+            <String ID="L0020_W02" CONTENT="erſchuͤttern," HPOS="373" VPOS="1496" WIDTH="160" HEIGHT="39"/>
             <SP HPOS="533" VPOS="1496" WIDTH="22"/>
             <String ID="L0020_W03" CONTENT="als" HPOS="555" VPOS="1499" WIDTH="43" HEIGHT="30"/>
             <SP HPOS="598" VPOS="1499" WIDTH="15"/>
@@ -369,9 +369,9 @@
             <SP HPOS="652" VPOS="1627" WIDTH="8"/>
             <String ID="L0022_W06" CONTENT="—" HPOS="660" VPOS="1627" WIDTH="2" HEIGHT="24"/>
             <SP HPOS="662" VPOS="1627" WIDTH="1"/>
-            <String ID="L0022_W07" CONTENT="Aber" HPOS="662" VPOS="1625" WIDTH="93" HEIGHT="33"/>
-            <SP HPOS="755" VPOS="1625" WIDTH="1"/>
-            <String ID="L0022_W08" CONTENT="wenn" HPOS="755" VPOS="1637" WIDTH="68" HEIGHT="22"/>
+            <String ID="L0022_W07" CONTENT="Aber" HPOS="662" VPOS="1625" WIDTH="68" HEIGHT="33"/>
+            <SP HPOS="730" VPOS="1625" WIDTH="15"/>
+            <String ID="L0022_W08" CONTENT="wenn" HPOS="745" VPOS="1637" WIDTH="78" HEIGHT="22"/>
             <SP HPOS="823" VPOS="1637" WIDTH="13"/>
             <String ID="L0022_W09" CONTENT="wir" HPOS="836" VPOS="1630" WIDTH="51" HEIGHT="31"/>
             <SP HPOS="887" VPOS="1630" WIDTH="15"/>

@@ -114,9 +114,9 @@
             <SP HPOS="186" VPOS="526" WIDTH="16"/>
             <String ID="L0007_W02" CONTENT="ihre" HPOS="202" VPOS="522" WIDTH="58" HEIGHT="40"/>
             <SP HPOS="260" VPOS="522" WIDTH="10"/>
-            <String ID="L0007_W03" CONTENT="Geſichtszuͤge" HPOS="270" VPOS="521" WIDTH="218" HEIGHT="40"/>
-            <SP HPOS="488" VPOS="521" WIDTH="1"/>
-            <String ID="L0007_W04" CONTENT="verzogen" HPOS="488" VPOS="530" WIDTH="120" HEIGHT="29"/>
+            <String ID="L0007_W03" CONTENT="Geſichtszuͤge" HPOS="270" VPOS="521" WIDTH="202" HEIGHT="40"/>
+            <SP HPOS="472" VPOS="521" WIDTH="7"/>
+            <String ID="L0007_W04" CONTENT="verzogen" HPOS="479" VPOS="530" WIDTH="129" HEIGHT="29"/>
             <SP HPOS="608" VPOS="530" WIDTH="17"/>
             <String ID="L0007_W05" CONTENT="ſich" HPOS="625" VPOS="521" WIDTH="45" HEIGHT="35"/>
             <SP HPOS="670" VPOS="521" WIDTH="17"/>
@@ -128,8 +128,8 @@
             <String ID="L0008_W01" CONTENT="und" HPOS="129" VPOS="575" WIDTH="56" HEIGHT="26"/>
             <SP HPOS="185" VPOS="575" WIDTH="46"/>
             <String ID="L0008_W02" CONTENT="mehr" HPOS="231" VPOS="572" WIDTH="77" HEIGHT="40"/>
-            <SP HPOS="308" VPOS="572" WIDTH="41"/>
-            <String ID="L0008_W03" CONTENT="und" HPOS="349" VPOS="576" WIDTH="56" HEIGHT="27"/>
+            <SP HPOS="308" VPOS="572" WIDTH="16"/>
+            <String ID="L0008_W03" CONTENT="und" HPOS="324" VPOS="576" WIDTH="81" HEIGHT="27"/>
             <SP HPOS="405" VPOS="576" WIDTH="34"/>
             <String ID="L0008_W04" CONTENT="die" HPOS="439" VPOS="575" WIDTH="41" HEIGHT="28"/>
             <SP HPOS="480" VPOS="575" WIDTH="39"/>
@@ -344,9 +344,9 @@
           <TextLine ID="L0023" HPOS="145" VPOS="1371" WIDTH="741" HEIGHT="42">
             <String ID="L0023_W01" CONTENT="„Edelmann" HPOS="145" VPOS="1379" WIDTH="233" HEIGHT="34"/>
             <SP HPOS="378" VPOS="1379" WIDTH="25"/>
-            <String ID="L0023_W02" CONTENT="und" HPOS="403" VPOS="1386" WIDTH="38" HEIGHT="23"/>
-            <SP HPOS="441" VPOS="1386" WIDTH="4"/>
-            <String ID="L0023_W03" CONTENT="fuͤr" HPOS="445" VPOS="1377" WIDTH="99" HEIGHT="35"/>
+            <String ID="L0023_W02" CONTENT="und" HPOS="403" VPOS="1386" WIDTH="57" HEIGHT="23"/>
+            <SP HPOS="460" VPOS="1386" WIDTH="25"/>
+            <String ID="L0023_W03" CONTENT="fuͤr" HPOS="485" VPOS="1377" WIDTH="59" HEIGHT="35"/>
             <SP HPOS="544" VPOS="1377" WIDTH="28"/>
             <String ID="L0023_W04" CONTENT="ſeinen" HPOS="572" VPOS="1377" WIDTH="89" HEIGHT="30"/>
             <SP HPOS="661" VPOS="1377" WIDTH="25"/>

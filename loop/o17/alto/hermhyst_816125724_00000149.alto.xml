@@ -47,9 +47,9 @@
             <SP HPOS="315" VPOS="218" WIDTH="4"/>
             <String ID="L0002_W03" CONTENT="In" HPOS="319" VPOS="231" WIDTH="43" HEIGHT="43"/>
             <SP HPOS="362" VPOS="231" WIDTH="1"/>
-            <String ID="L0002_W04" CONTENT="Dorotheæ" HPOS="362" VPOS="221" WIDTH="272" HEIGHT="55"/>
-            <SP HPOS="634" VPOS="221" WIDTH="1"/>
-            <String ID="L0002_W05" CONTENT="Feſto." HPOS="634" VPOS="223" WIDTH="206" HEIGHT="59"/>
+            <String ID="L0002_W04" CONTENT="Dorotheæ" HPOS="362" VPOS="221" WIDTH="368" HEIGHT="55"/>
+            <SP HPOS="730" VPOS="221" WIDTH="3"/>
+            <String ID="L0002_W05" CONTENT="Feſto." HPOS="733" VPOS="223" WIDTH="107" HEIGHT="59"/>
           </TextLine>
         </TextBlock>
         <TextBlock ID="B002" TAGREFS="ROLE_paragraph" HPOS="122" VPOS="1320" WIDTH="716" HEIGHT="343">

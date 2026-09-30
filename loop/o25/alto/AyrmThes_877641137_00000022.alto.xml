@@ -79,13 +79,13 @@
           <TextLine ID="L0004" HPOS="617" VPOS="449" WIDTH="1212" HEIGHT="64">
             <String ID="L0004_W01" CONTENT="runt" HPOS="617" VPOS="465" WIDTH="99" HEIGHT="34"/>
             <SP HPOS="716" VPOS="465" WIDTH="1"/>
-            <String ID="L0004_W02" CONTENT="in" HPOS="716" VPOS="454" WIDTH="80" HEIGHT="44"/>
-            <SP HPOS="796" VPOS="454" WIDTH="1"/>
-            <String ID="L0004_W03" CONTENT="Sarmatia" HPOS="796" VPOS="457" WIDTH="160" HEIGHT="41"/>
-            <SP HPOS="956" VPOS="457" WIDTH="1"/>
-            <String ID="L0004_W04" CONTENT="Baſtarnae," HPOS="956" VPOS="455" WIDTH="216" HEIGHT="44"/>
-            <SP HPOS="1172" VPOS="455" WIDTH="1"/>
-            <String ID="L0004_W05" CONTENT="tum" HPOS="1172" VPOS="464" WIDTH="156" HEIGHT="50"/>
+            <String ID="L0004_W02" CONTENT="in" HPOS="716" VPOS="454" WIDTH="58" HEIGHT="44"/>
+            <SP HPOS="774" VPOS="454" WIDTH="1"/>
+            <String ID="L0004_W03" CONTENT="Sarmatia" HPOS="774" VPOS="457" WIDTH="146" HEIGHT="41"/>
+            <SP HPOS="920" VPOS="457" WIDTH="1"/>
+            <String ID="L0004_W04" CONTENT="Baſtarnae," HPOS="920" VPOS="455" WIDTH="297" HEIGHT="44"/>
+            <SP HPOS="1217" VPOS="455" WIDTH="1"/>
+            <String ID="L0004_W05" CONTENT="tum" HPOS="1217" VPOS="464" WIDTH="111" HEIGHT="50"/>
             <SP HPOS="1328" VPOS="464" WIDTH="1"/>
             <String ID="L0004_W06" CONTENT="Venedi," HPOS="1328" VPOS="449" WIDTH="168" HEIGHT="65"/>
             <SP HPOS="1496" VPOS="449" WIDTH="1"/>
@@ -142,9 +142,9 @@
             <SP HPOS="1386" VPOS="624" WIDTH="1"/>
             <String ID="L0007_W06" CONTENT="quae" HPOS="1386" VPOS="641" WIDTH="147" HEIGHT="33"/>
             <SP HPOS="1533" VPOS="641" WIDTH="1"/>
-            <String ID="L0007_W07" CONTENT="ſequenti" HPOS="1533" VPOS="618" WIDTH="191" HEIGHT="69"/>
-            <SP HPOS="1724" VPOS="618" WIDTH="1"/>
-            <String ID="L0007_W08" CONTENT="æuo" HPOS="1724" VPOS="620" WIDTH="109" HEIGHT="66"/>
+            <String ID="L0007_W07" CONTENT="ſequenti" HPOS="1533" VPOS="618" WIDTH="201" HEIGHT="69"/>
+            <SP HPOS="1734" VPOS="618" WIDTH="1"/>
+            <String ID="L0007_W08" CONTENT="æuo" HPOS="1734" VPOS="620" WIDTH="99" HEIGHT="66"/>
           </TextLine>
           <TextLine ID="L0008" HPOS="611" VPOS="687" WIDTH="1149" HEIGHT="60">
             <String ID="L0008_W01" CONTENT="in" HPOS="611" VPOS="688" WIDTH="59" HEIGHT="58"/>
@@ -157,9 +157,9 @@
             <SP HPOS="1092" VPOS="699" WIDTH="1"/>
             <String ID="L0008_W05" CONTENT="Gothorum" HPOS="1092" VPOS="687" WIDTH="246" HEIGHT="47"/>
             <SP HPOS="1338" VPOS="687" WIDTH="1"/>
-            <String ID="L0008_W06" CONTENT="nomen" HPOS="1338" VPOS="699" WIDTH="142" HEIGHT="37"/>
-            <SP HPOS="1480" VPOS="699" WIDTH="1"/>
-            <String ID="L0008_W07" CONTENT="coaluerunt." HPOS="1480" VPOS="687" WIDTH="280" HEIGHT="51"/>
+            <String ID="L0008_W06" CONTENT="nomen" HPOS="1338" VPOS="699" WIDTH="165" HEIGHT="37"/>
+            <SP HPOS="1503" VPOS="699" WIDTH="1"/>
+            <String ID="L0008_W07" CONTENT="coaluerunt." HPOS="1503" VPOS="687" WIDTH="257" HEIGHT="51"/>
           </TextLine>
         </TextBlock>
         <TextBlock ID="B004" TAGREFS="ROLE_paragraph" HPOS="630" VPOS="846" WIDTH="1209" HEIGHT="228">
@@ -202,9 +202,9 @@
             <SP HPOS="845" VPOS="964" WIDTH="12"/>
             <String ID="L0012_W03" CONTENT="quos" HPOS="857" VPOS="980" WIDTH="100" HEIGHT="39"/>
             <SP HPOS="957" VPOS="980" WIDTH="20"/>
-            <String ID="L0012_W04" CONTENT="tamen" HPOS="977" VPOS="977" WIDTH="125" HEIGHT="32"/>
-            <SP HPOS="1102" VPOS="977" WIDTH="1"/>
-            <String ID="L0012_W05" CONTENT="deſignari" HPOS="1102" VPOS="964" WIDTH="215" HEIGHT="55"/>
+            <String ID="L0012_W04" CONTENT="tamen" HPOS="977" VPOS="977" WIDTH="137" HEIGHT="32"/>
+            <SP HPOS="1114" VPOS="977" WIDTH="1"/>
+            <String ID="L0012_W05" CONTENT="deſignari" HPOS="1114" VPOS="964" WIDTH="203" HEIGHT="55"/>
             <SP HPOS="1317" VPOS="964" WIDTH="9"/>
             <String ID="L0012_W06" CONTENT="putatur" HPOS="1326" VPOS="976" WIDTH="163" HEIGHT="41"/>
             <SP HPOS="1489" VPOS="976" WIDTH="20"/>
@@ -272,14 +272,14 @@
             <SP HPOS="1253" VPOS="1254" WIDTH="16"/>
             <String ID="L0017_W06" CONTENT="eos" HPOS="1269" VPOS="1269" WIDTH="65" HEIGHT="27"/>
             <SP HPOS="1334" VPOS="1269" WIDTH="11"/>
-            <String ID="L0017_W07" CONTENT="Liuius" HPOS="1345" VPOS="1253" WIDTH="151" HEIGHT="64"/>
-            <SP HPOS="1496" VPOS="1253" WIDTH="1"/>
-            <String ID="L0017_W08" CONTENT="Semi-Germanos" HPOS="1496" VPOS="1255" WIDTH="342" HEIGHT="61"/>
+            <String ID="L0017_W07" CONTENT="Liuius" HPOS="1345" VPOS="1253" WIDTH="133" HEIGHT="64"/>
+            <SP HPOS="1478" VPOS="1253" WIDTH="10"/>
+            <String ID="L0017_W08" CONTENT="Semi-Germanos" HPOS="1488" VPOS="1255" WIDTH="350" HEIGHT="61"/>
           </TextLine>
           <TextLine ID="L0018" HPOS="626" VPOS="1309" WIDTH="1214" HEIGHT="71">
-            <String ID="L0018_W01" CONTENT="vocat," HPOS="626" VPOS="1309" WIDTH="131" HEIGHT="71"/>
-            <SP HPOS="757" VPOS="1309" WIDTH="3"/>
-            <String ID="L0018_W02" CONTENT="ſed" HPOS="760" VPOS="1323" WIDTH="80" HEIGHT="46"/>
+            <String ID="L0018_W01" CONTENT="vocat," HPOS="626" VPOS="1309" WIDTH="130" HEIGHT="71"/>
+            <SP HPOS="756" VPOS="1309" WIDTH="1"/>
+            <String ID="L0018_W02" CONTENT="ſed" HPOS="756" VPOS="1323" WIDTH="84" HEIGHT="46"/>
             <SP HPOS="840" VPOS="1323" WIDTH="1"/>
             <String ID="L0018_W03" CONTENT="tamen" HPOS="840" VPOS="1333" WIDTH="142" HEIGHT="51"/>
             <SP HPOS="982" VPOS="1333" WIDTH="12"/>
@@ -313,9 +313,9 @@
             <SP HPOS="1062" VPOS="1503" WIDTH="19"/>
             <String ID="L0021_W04" CONTENT="omnibus" HPOS="1081" VPOS="1486" WIDTH="193" HEIGHT="63"/>
             <SP HPOS="1274" VPOS="1486" WIDTH="12"/>
-            <String ID="L0021_W05" CONTENT="Germaniae" HPOS="1286" VPOS="1480" WIDTH="248" HEIGHT="60"/>
-            <SP HPOS="1534" VPOS="1480" WIDTH="3"/>
-            <String ID="L0021_W06" CONTENT="populis" HPOS="1537" VPOS="1478" WIDTH="170" HEIGHT="57"/>
+            <String ID="L0021_W05" CONTENT="Germaniae" HPOS="1286" VPOS="1480" WIDTH="246" HEIGHT="60"/>
+            <SP HPOS="1532" VPOS="1480" WIDTH="1"/>
+            <String ID="L0021_W06" CONTENT="populis" HPOS="1532" VPOS="1478" WIDTH="175" HEIGHT="57"/>
             <SP HPOS="1707" VPOS="1478" WIDTH="1"/>
             <String ID="L0021_W07" CONTENT="hoc" HPOS="1707" VPOS="1482" WIDTH="88" HEIGHT="39"/>
             <SP HPOS="1795" VPOS="1482" WIDTH="10"/>
@@ -324,9 +324,9 @@
           <TextLine ID="L0022" HPOS="626" VPOS="1535" WIDTH="1220" HEIGHT="83">
             <String ID="L0022_W01" CONTENT="genere" HPOS="626" VPOS="1574" WIDTH="140" HEIGHT="44"/>
             <SP HPOS="766" VPOS="1574" WIDTH="1"/>
-            <String ID="L0022_W02" CONTENT="tenendum" HPOS="766" VPOS="1549" WIDTH="214" HEIGHT="65"/>
-            <SP HPOS="980" VPOS="1549" WIDTH="1"/>
-            <String ID="L0022_W03" CONTENT="eſt," HPOS="980" VPOS="1548" WIDTH="98" HEIGHT="44"/>
+            <String ID="L0022_W02" CONTENT="tenendum" HPOS="766" VPOS="1549" WIDTH="225" HEIGHT="65"/>
+            <SP HPOS="991" VPOS="1549" WIDTH="18"/>
+            <String ID="L0022_W03" CONTENT="eſt," HPOS="1009" VPOS="1548" WIDTH="69" HEIGHT="44"/>
             <SP HPOS="1078" VPOS="1548" WIDTH="11"/>
             <String ID="L0022_W04" CONTENT="tam" HPOS="1089" VPOS="1558" WIDTH="88" HEIGHT="28"/>
             <SP HPOS="1177" VPOS="1558" WIDTH="22"/>
@@ -341,9 +341,9 @@
             <String ID="L0022_W09" CONTENT="Germa-" HPOS="1683" VPOS="1538" WIDTH="163" HEIGHT="80"/>
           </TextLine>
           <TextLine ID="L0023" HPOS="630" VPOS="1593" WIDTH="1216" HEIGHT="74">
-            <String ID="L0023_W01" CONTENT="nicae" HPOS="629" VPOS="1593" WIDTH="111" HEIGHT="69"/>
-            <SP HPOS="740" VPOS="1593" WIDTH="5"/>
-            <String ID="L0023_W02" CONTENT="originis," HPOS="745" VPOS="1608" WIDTH="196" HEIGHT="59"/>
+            <String ID="L0023_W01" CONTENT="nicae" HPOS="629" VPOS="1593" WIDTH="109" HEIGHT="69"/>
+            <SP HPOS="738" VPOS="1593" WIDTH="24"/>
+            <String ID="L0023_W02" CONTENT="originis," HPOS="762" VPOS="1608" WIDTH="179" HEIGHT="59"/>
             <SP HPOS="941" VPOS="1608" WIDTH="10"/>
             <String ID="L0023_W03" CONTENT="donec" HPOS="951" VPOS="1604" WIDTH="130" HEIGHT="43"/>
             <SP HPOS="1081" VPOS="1604" WIDTH="22"/>
@@ -351,9 +351,9 @@
             <SP HPOS="1353" VPOS="1597" WIDTH="20"/>
             <String ID="L0023_W05" CONTENT="ſatis" HPOS="1373" VPOS="1596" WIDTH="86" HEIGHT="64"/>
             <SP HPOS="1459" VPOS="1596" WIDTH="22"/>
-            <String ID="L0023_W06" CONTENT="probatum" HPOS="1481" VPOS="1594" WIDTH="209" HEIGHT="63"/>
-            <SP HPOS="1690" VPOS="1594" WIDTH="1"/>
-            <String ID="L0023_W07" CONTENT="fuerit." HPOS="1690" VPOS="1595" WIDTH="156" HEIGHT="72"/>
+            <String ID="L0023_W06" CONTENT="probatum" HPOS="1481" VPOS="1594" WIDTH="217" HEIGHT="63"/>
+            <SP HPOS="1698" VPOS="1594" WIDTH="18"/>
+            <String ID="L0023_W07" CONTENT="fuerit." HPOS="1716" VPOS="1595" WIDTH="130" HEIGHT="72"/>
           </TextLine>
           <TextLine ID="L0024" HPOS="626" VPOS="1650" WIDTH="1216" HEIGHT="77">
             <String ID="L0024_W01" CONTENT="Idem" HPOS="626" VPOS="1677" WIDTH="116" HEIGHT="44"/>
@@ -412,9 +412,9 @@
             <SP HPOS="828" VPOS="1959" WIDTH="1"/>
             <String ID="L0029_W03" CONTENT="Heluetios" HPOS="828" VPOS="1950" WIDTH="222" HEIGHT="51"/>
             <SP HPOS="1050" VPOS="1950" WIDTH="1"/>
-            <String ID="L0029_W04" CONTENT="inprimis," HPOS="1050" VPOS="1947" WIDTH="234" HEIGHT="45"/>
-            <SP HPOS="1284" VPOS="1947" WIDTH="1"/>
-            <String ID="L0029_W05" CONTENT="Boios," HPOS="1284" VPOS="1946" WIDTH="31" HEIGHT="45"/>
+            <String ID="L0029_W04" CONTENT="inprimis," HPOS="1050" VPOS="1947" WIDTH="88" HEIGHT="45"/>
+            <SP HPOS="1138" VPOS="1947" WIDTH="1"/>
+            <String ID="L0029_W05" CONTENT="Boios," HPOS="1138" VPOS="1946" WIDTH="177" HEIGHT="45"/>
             <SP HPOS="1315" VPOS="1946" WIDTH="1"/>
             <String ID="L0029_W06" CONTENT="&amp;" HPOS="1315" VPOS="1941" WIDTH="171" HEIGHT="44"/>
             <SP HPOS="1486" VPOS="1941" WIDTH="1"/>
