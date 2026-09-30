@@ -46,6 +46,13 @@ Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lec
 5. Résultats négatifs consignés (R1 réfutée en romain, consensus ROVER négatif…).
 
 ## Prochaines étapes
+- **Paradigme (30/09 17h10)** : fin des règles géométriques réglées sur 1-2 pages ; segmentation par reconnaissance guidée par le texte lu (SR, outils/sr.py) : candidates (lignes, unions, scissions, extensions à l'encre) notées par la perte CTC (W05) de la ligne lue, choix glouton global, marges δ = 0,5/signe et gain ≥ 5 nats ; jeu tenu à l'écart O23-O25 (12 pages) rapporté à part (AusdeErb : premier recul observé sur l'écart, 18h50).
+- Boîtes : restes dev = lignes à nombre de mots ≠ VT (soudures de lecture, « ihmviel », « VerboDEI »), quelques lignes absentes (DasWeL « I ĳ », durrgeda grand titre), chant sous portée (hermhyst). Piste non encore testée : VLM arbitre de candidates numérotées (idée D) là où SR hésite.
+- Texte : 240 éd. glyphe / 58 pages ; classes systématiques (tirets ⸗/- T03, ů/uͤ T04) = conventions de la VT variables selon le livre → closes ; le reste est dispersé. Pistes closes aussi : perte CTC comme arbitre des blancs (T02).
+- Métadonnées : M03 97,4 % (identité GND lieu/imprimeur) ; colophons lus via la structure METS (M04b : 6 justes, 2 « faux » qui sont des variantes GND, 3 absents) ; à faire : règle imprimeur par identité GND pré-enregistrée et validée sur de nouvelles œuvres.
+- Calcul : pas de GPU ici ; Kaggle (KAGGLE_USERNAME/KAGGLE_KEY) ou Modal (MODAL_TOKEN_ID/SECRET) si l'utilisatrice ajoute un jeton → affinage d'un aligneur CTC sur OCR-D GT hors jeu d'évaluation, essai Qwen2.5-VL/GutenOCR.
+
+## Historique des prochaines étapes (avant le 30/09 17h)
 - Métadonnées (30/09) : M01 87,5 % (12 œuvres), M01b rejetée ; faux restants = conventions de catalogue (formes latines conservées, noms latinisés rendus en vernaculaire, rôles). Prochaine : M02 = mesure par identité (forme lue ∈ variantes GND de l'entité liée par K10plus, L32) + lecture du colophon quand la page de titre ne porte pas lieu/imprimeur/année.
 
 - **W02 adoptée** (coupure entre deux mots choisie par Tesseract, bords gardés à l'encre) : CRITERE 27 → 28/52, txt+IoU80 +0,078 ; mais Fraktur +0,256 / romain −0,178 (9 reculs) → **W02c adoptée (O25, 4 pages neuves en romain : sans W02 mieux partout) : W02 limitée au Fraktur**. Rappel : le placeur tourne sans CTC (zenodo.org bloqué).
