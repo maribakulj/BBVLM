@@ -1,0 +1,26 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Erweget.",
+  "Y": "Erweget",
+  "divergences_X_vers_Y": [
+   [
+    ".",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Insgemein man Mondſchein nennet,",
+  "Y": "Jnsgemein man Mondſchein nennet,",
+  "divergences_X_vers_Y": [
+   [
+    "I",
+    "J"
+   ]
+  ]
+ }
+]

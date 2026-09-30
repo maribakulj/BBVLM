@@ -1,0 +1,42 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Syrach. 15.",
+  "Y": "Syrach 1S.",
+  "divergences_X_vers_Y": [
+   [
+    ".",
+    ""
+   ],
+   [
+    "5",
+    "S"
+   ]
+  ]
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "denn wil er erſt fromb werden: Jch",
+  "Y": "denn wil er erſt fromb werden: Ich",
+  "divergences_X_vers_Y": [
+   [
+    "J",
+    "I"
+   ]
+  ]
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "mag/ ſo fehet er an ein groſſe klag/",
+  "Y": "mag/ ſo fetzet er an ein groſſe klag/",
+  "divergences_X_vers_Y": [
+   [
+    "h",
+    "tz"
+   ]
+  ]
+ }
+]

@@ -982,3 +982,9 @@ Chaîne : S08 + S08c v4 + S09b + S02/S02c + G05 + H01 + G04b publiée. Lignes lu
 
 ## hermhyst — pire retrieval (0,57) : paroles sous portées (30/09, 05h40 Paris) — diagnostic
 Page de chant (O17) : paroles imprimées sous deux portées, syllabes espacées selon les notes (« din gen/ », « ſin gen/ », « Baby lon »). La VT recolle les syllabes (« dingen/ »), comme la lecture : le texte concorde. L'échec est géométrique : le boxer prend le blanc intersyllabique pour une frontière de mot (le nombre de mots étant connu, il choisit les plus grands blancs) ; « zu Babylon » et « Die zuͤchtige Su⸗ » sont deux lignes de la VT sur la même ligne de base (fusionnées par les deux lecteurs, déjà noté en O17). Genre unique dans le corpus (1 page) → non traité.
+
+## O18 — validation sur pages neuves des règles de la nuit (30/09, 06h00 Paris) — HYPOTHÈSE TENUE
+Protocole figé avant lecture (o18/PROTOCOLE.md, commit caec964) : aucune œuvre inédite ne restant, 4 pages jamais lues d'œuvres déjà vues (tirage sha256("O18"+œuvre) ; humbphys/306, planche, remplacée par herrleyc/44). Chaîne complète : 2 lectures Opus P6, arbitre P3+I01, ALTO ; référence adjugée par 2 arbitres aveugles (A2).
+- Texte (glyphe) : brieetli 0, brochrnx 1, herrleyc 2, geomeikud 4 (lecture A seule : 0, 1, 4, 18).
+- ALTO texte+IoU80 sans → avec les règles de la nuit : brochrnx 0,955 → 0,970, les 3 autres identiques ; CRITERE identique (2/4 : brochrnx, herrleyc) ; pire 0,816 inchangé. Aucune régression sur pages neuves : S02c, S08c v4, S09b confirmés.
+- Recherche : 0,91-0,99 ; 1 ligne lue non placée sur 108. Détail : o18/RESULTATS.md.
