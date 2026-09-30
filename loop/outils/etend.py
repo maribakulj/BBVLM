@@ -16,7 +16,7 @@ COURT = float(os.environ.get('BBVLM_ETEND_COURT', '6'))
 ECART = float(os.environ.get('BBVLM_ETEND_ECART', '2'))
 
 
-def etend(gray, boites):
+def etend(gray, boites, ecart=None):
     if not boites: return boites
     _, bw = cv2.threshold(gray, 0, 1, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
     n, lab, st, _ = cv2.connectedComponentsWithStats(bw, 8)
@@ -43,7 +43,7 @@ def etend(gray, boites):
             for c in cand:
                 if c[0] >= b[0] and c[2] <= b[2]: continue
                 gap = max(c[0] - b[2], b[0] - c[2])
-                if gap > ECART * h: continue
+                if gap > (ecart or ECART) * h: continue
                 nb = [min(b[0], c[0]), min(b[1], c[1]), max(b[2], c[2]), max(b[3], c[3])]
                 # garde-fou (hackherz) : ne pas avancer sous une autre ligne de la même bande
                 if any(min(nb[2], o[2]) > max(nb[0], o[0]) and min(nb[3], o[3]) - max(nb[1], o[1]) > .3 * h for o in autres):

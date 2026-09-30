@@ -43,6 +43,22 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         if os.environ.get('BBVLM_ETEND', '1') == '1':    # S09 (adopté) : lignes courtes complétées par l'encre
             from etend import etend
             eb = etend(g0, [l['bbox'] for l in kr])
+            if os.environ.get('BBVLM_ETEND_LOIN') == '1' and shutil.which('tesseract'):
+                # S09c : second passage jusqu'à 4 h (listes « ix.      Bonen », geomeikud) ; gardé seulement
+                # si la relecture (deux modèles) de la boîte élargie ressemble strictement mieux à une ligne lue
+                from ancre import lit_lignes
+                from cer import lev
+                e2 = etend(g0, eb, ecart=float(os.environ.get('BBVLM_ETEND_LOIN_E', '4')))
+                ch = [i for i in range(len(eb)) if list(map(int, e2[i])) != list(map(int, eb[i]))]
+                if ch:
+                    R = [''.join(t.replace('ſ', 's').lower().split()) for t in lignes]
+                    def _d(t):
+                        t = ''.join(t.replace('ſ', 's').lower().split())
+                        return min((lev(t, r) / max(1, len(t), len(r)) for r in R if r), default=1)
+                    bx = [eb[i] for i in ch] + [e2[i] for i in ch]
+                    O = [lit_lignes(dossier, bx, e) for e in ('fraktur', 'romain')]
+                    for n, i in enumerate(ch):
+                        if min(_d(o[len(ch) + n]) for o in O) < min(_d(o[n]) for o in O): eb[i] = [int(v) for v in e2[i]]
             def _g04(l, e):     # la boîte G04b ne reçoit que l'extension horizontale (sinon G05 se désactive, hackherz)
                 g = l.get('bbox_g04', l['bbox'])
                 return [min(g[0], e[0]), g[1], max(g[2], e[2]), g[3]]
