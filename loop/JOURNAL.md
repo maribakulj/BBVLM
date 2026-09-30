@@ -1116,3 +1116,6 @@ Viterbi CTC du texte lu sur les émissions kraken CATMuS (log des probabilités,
 
 ## 2026-09-30 14h58 — R3/R4 : blancs de ponctuation (rejetées au critère, audit à faire)
 CRITERE O07-O17 25 → 26/44 (buchdas/24), lignes en échec en baisse, mais texte 96 → 98 à cause d'un verdict d'adjudication ancien (hackherz, forme collée « 2.Cor.XII.3.4 ») ; contre la VT distribuée hackherz 12 → 9. Rejetées au protocole ; audit aveugle du verdict (A02) avant réévaluation. Voir r34/RESULTATS.md.
+
+## 2026-09-30 15h00 — A02 : audit aveugle du verdict hackherz (maintenu)
+Deux relecteurs aveugles : « 2. Cor. XII. 3. 4 » (identique à R4), ni la VT ni le verdict ; règle A01 non remplie, verdict maintenu, R3/R4 restent rejetées. Constat : verdicts antérieurs à P6d hétérogènes avec la convention actuelle des blancs. Voir a02/RESULTATS.md.
