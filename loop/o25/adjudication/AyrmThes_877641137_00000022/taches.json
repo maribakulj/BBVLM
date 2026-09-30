@@ -1,0 +1,26 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Scandinauia quoque antiquiſſimis tempóribus a Ger-",
+  "Y": "Scandinauia quoque antiquiſſimis temporibus a Ger-",
+  "divergences_X_vers_Y": [
+   [
+    "ó",
+    "o"
+   ]
+  ]
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "ſtat fuiſſe Heluetios inprimis, Boios, & Gothinos.",
+  "Y": "ſtat fuiſſe Heluetios inprimis, Boios, & Gothinos. De",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " De"
+   ]
+  ]
+ }
+]

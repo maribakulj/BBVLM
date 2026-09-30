@@ -1,0 +1,74 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Nemo ſic diligenter aliena ut ſua curat negocià.",
+  "Y": "Nemo ſic diligenter aliena ut ſua curat negocia.",
+  "divergences_X_vers_Y": [
+   [
+    "à",
+    "a"
+   ]
+  ]
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Omne nimium cunctis in rebus eſt fugiendũ.",
+  "Y": "Omne nimium cunctis in rebns eſt fugiendũ.",
+  "divergences_X_vers_Y": [
+   [
+    "u",
+    "n"
+   ]
+  ]
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "Optima quæcꝫ difficiles habent exitus.",
+  "Y": "Optima quæ difficiles habent exitus.",
+  "divergences_X_vers_Y": [
+   [
+    "cꝫ",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "Oportet id quod adeſt boni conſulere.",
+  "Y": "Oportetid quod adeſt boni conſulere.",
+  "divergences_X_vers_Y": [
+   [
+    " ",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "Nemo ſic diligenter aliena ut ſua curat negocia.",
+  "Y": "Nemo ſic diligenter aliena ut ſua curat negociá.",
+  "divergences_X_vers_Y": [
+   [
+    "a",
+    "á"
+   ]
+  ]
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "Nihil eſt tam durum quod non emolliat aſſi=",
+  "Y": "Nihil eſt tam durum quod non emolliat aſſi⸗",
+  "divergences_X_vers_Y": [
+   [
+    "=",
+    "⸗"
+   ]
+  ]
+ }
+]

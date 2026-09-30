@@ -1,0 +1,122 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "naturæ, (quam Paulus verbo Φανερώσεως",
+  "Y": "naturæ, (quam Paulus verbo ϕανερώσεως",
+  "divergences_X_vers_Y": [
+   [
+    "Φ",
+    "ϕ"
+   ]
+  ]
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "verbo ἀποκαλύψεως utitur: Prior apud",
+  "Y": "verbo α'ποϰαλίψεως utitur: Prior apud",
+  "divergences_X_vers_Y": [
+   [
+    "ἀ",
+    "α'"
+   ],
+   [
+    "κ",
+    "ϰ"
+   ],
+   [
+    "ύ",
+    "ί"
+   ]
+  ]
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "VerboDEI, quod eſt unicum Theologiæ",
+  "Y": "Verbo DEi, quod eſt unicum Theologiæ",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ],
+   [
+    "I",
+    "i"
+   ]
+  ]
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "ordine, qui ex ὑποστάσεως, quẽ & agendi",
+  "Y": "ordine, qui ex ύϖοϛα'σεως, quẽ & agendi",
+  "divergences_X_vers_Y": [
+   [
+    "ὑπ",
+    "ύϖ"
+   ],
+   [
+    "στά",
+    "ϛα'"
+   ]
+  ]
+ },
+ {
+  "id": "l004",
+  "image": "l004.png",
+  "X": "eſſentiâ idem ſunt, ſub variis nominibꝯ",
+  "Y": "eſſentiâ idem ſunt, ſub variis nominibꝰ",
+  "divergences_X_vers_Y": [
+   [
+    "ꝯ",
+    "ꝰ"
+   ]
+  ]
+ },
+ {
+  "id": "l005",
+  "image": "l005.png",
+  "X": "plici fide & practicè ſunt imbibenda, nõ",
+  "Y": "plici fide & practicè ſunt imbibenda ,nõ",
+  "divergences_X_vers_Y": [
+   [
+    "",
+    " "
+   ],
+   [
+    " ",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l006",
+  "image": "l006.png",
+  "X": "naturæ, (quam Paulus verbo φανερώσεως",
+  "Y": "naturæ, (quam Paulus verbo ϕανερώσεως",
+  "divergences_X_vers_Y": [
+   [
+    "φ",
+    "ϕ"
+   ]
+  ]
+ },
+ {
+  "id": "l007",
+  "image": "l007.png",
+  "X": "ordine, qui ex ὑποϛάσεως, quẽ & agendi",
+  "Y": "ordine, qui ex ύϖοϛα'σεως, quẽ & agendi",
+  "divergences_X_vers_Y": [
+   [
+    "ὑπ",
+    "ύϖ"
+   ],
+   [
+    "ά",
+    "α'"
+   ]
+  ]
+ }
+]
