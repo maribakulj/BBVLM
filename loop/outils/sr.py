@@ -211,4 +211,11 @@ def choisit(gray, textes, boites, tau=4.5, dossier=None):
     for s, i, k in paires:
         if i in res or any(_recouvre(C[k], C[k2]) for k2 in pris): continue
         res[i] = C[k]; pris.append(k)
+    if os.environ.get('BBVLM_SR_DUMP') and dossier:
+        # diagnostic (idée D) : candidates, scores et choix, pour un oracle hors ligne
+        import json as _js
+        _js.dump({'C': [list(map(int, c)) for c in C], 'orig': [list(map(int, b)) for b in boites], 'textes': textes,
+                  'M': [[None if v == float('inf') else round(float(v), 3) for v in r] for r in M],
+                  'res': {str(i): list(map(int, b)) for i, b in res.items()}},
+                 open(os.path.join(os.environ['BBVLM_SR_DUMP'], dossier.rstrip('/').split('/')[-1] + '.json'), 'w'))
     return res
