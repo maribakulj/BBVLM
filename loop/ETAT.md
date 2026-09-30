@@ -46,6 +46,7 @@ Point d'entrée : `chaine.py prepare | arbitrage | final`. Mode qualité : 2 lec
 5. Résultats négatifs consignés (R1 réfutée en romain, consensus ROVER négatif…).
 
 ## Prochaines étapes
+- Métadonnées (30/09) : M01 87,5 % (12 œuvres), M01b rejetée ; faux restants = conventions de catalogue (formes latines conservées, noms latinisés rendus en vernaculaire, rôles). Prochaine : M02 = mesure par identité (forme lue ∈ variantes GND de l'entité liée par K10plus, L32) + lecture du colophon quand la page de titre ne porte pas lieu/imprimeur/année.
 
 - **W02 adoptée** (coupure entre deux mots choisie par Tesseract, bords gardés à l'encre) : CRITERE 27 → 28/52, txt+IoU80 +0,078 ; mais Fraktur +0,256 / romain −0,178 (9 reculs) → **W02c adoptée (O25, 4 pages neuves en romain : sans W02 mieux partout) : W02 limitée au Fraktur**. Rappel : le placeur tourne sans CTC (zenodo.org bloqué).
 - O25 (4 pages neuves en romain) : texte 2/5/1/2 contre l'adjugée auditée, CRITERE 1/4, recherche médiane 0,956 ; P6e détache à tort « De » en fin de ligne (AyrmThes).
