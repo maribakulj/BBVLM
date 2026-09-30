@@ -150,6 +150,21 @@ def encode(m, ch):
     return []
 
 
+def occupation(bw):
+    """colonnes encrées ; W06 (L50) : seulement l'encre des composantes qui touchent la bande
+    centrale de la ligne (hampes et jambages des lignes voisines exclus)"""
+    import os
+    if os.environ.get('BBVLM_W06', '0') != '1' or bw.shape[0] < 8: return bw.any(axis=0)
+    import cv2, numpy as np
+    n, lab, st, _ = cv2.connectedComponentsWithStats(bw.astype(np.uint8), connectivity=8)
+    h = bw.shape[0]; a, b = int(.25 * h), int(.8 * h)
+    ok = np.zeros(n, bool)
+    for i in range(1, n):
+        y, hh = st[i, cv2.CC_STAT_TOP], st[i, cv2.CC_STAT_HEIGHT]
+        ok[i] = y <= b and y + hh - 1 >= a
+    return ok[lab].any(axis=0)
+
+
 def recale(gray, box, xs):
     """frontière → milieu du blanc d'encre qui la contient (ou le plus proche à ≤ 3 px)"""
     import cv2
@@ -157,7 +172,7 @@ def recale(gray, box, xs):
     c = gray[max(0, y0):y1 + 1, max(0, x0):x1 + 1]
     if not c.size: return xs
     _, bw = cv2.threshold(c, 0, 1, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
-    occ = bw.any(axis=0); ox = max(0, x0)
+    occ = occupation(bw); ox = max(0, x0)
     B, d = [], None
     for i, v in enumerate(occ):
         if not v and d is None: d = i
@@ -186,7 +201,7 @@ def ajuste(gray, box, mots, bs, binarise=False):
     c = gray[max(0, y0):y1 + 1, max(0, x0):x1 + 1]
     if not c.size: return bs
     _, bw = cv2.threshold(c, 0, 1, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
-    occ = bw.any(axis=0); ox = max(0, x0)
+    occ = occupation(bw); ox = max(0, x0)
     out = [list(b) for b in bs]
     for k, x in enumerate(fr):
         if x is None: continue
