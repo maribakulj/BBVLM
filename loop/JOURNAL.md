@@ -979,3 +979,6 @@ isolé. Pas de correctif.
 
 ## ALTO régénérés avec la chaîne gelée (30/09, 05h35 Paris)
 Chaîne : S08 + S08c v4 + S09b + S02/S02c + G05 + H01 + G04b publiée. Lignes lues non placées : 19 → **7** sur 1 390 (DasWeL, AmmoLIBR, durrgeda, emmeprac, herbdulc, AyrmThes, chiamerk : 1 chacune). 40 ALTO archivés (oNN/alto/) remplacés, 40/40 valides XSD 4.4. Retrieval sur 44 pages : rappel médian 0,957, 24 ≥ 0,95 ; pires hermhyst 0,57 (O17, chanson), 852691769 0,79, durrgeda 0,85.
+
+## hermhyst — pire retrieval (0,57) : paroles sous portées (30/09, 05h40 Paris) — diagnostic
+Page de chant (O17) : paroles imprimées sous deux portées, syllabes espacées selon les notes (« din gen/ », « ſin gen/ », « Baby lon »). La VT recolle les syllabes (« dingen/ »), comme la lecture : le texte concorde. L'échec est géométrique : le boxer prend le blanc intersyllabique pour une frontière de mot (le nombre de mots étant connu, il choisit les plus grands blancs) ; « zu Babylon » et « Die zuͤchtige Su⸗ » sont deux lignes de la VT sur la même ligne de base (fusionnées par les deux lecteurs, déjà noté en O17). Genre unique dans le corpus (1 page) → non traité.
