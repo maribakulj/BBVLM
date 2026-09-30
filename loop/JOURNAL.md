@@ -1126,3 +1126,6 @@ Deux relecteurs aveugles : « 2. Cor. XII. 3. 4 » (identique à R4), ni la VT n
 
 ## 2026-09-30 15h25 — A03 : audit C02b de 3 lignes restantes → CRITERE 35/60
 Trois lignes où adjugée et lecture s'accordent contre la VT sans audit : les deux relecteurs aveugles confirment le compte de l'adjugée (9/9, 10/10, 6/6 contre VT 7, 9, 5) → exclues par C02b. backhart et culmsent passent ; CRITERE 33 → **35/60**. Voir a03/RESULTATS.md, etat_1525/.
+
+## 30/09 15h40 — A04 / C02c : audit aveugle des lignes à compte de mots ≠ VT
+22 lignes, 2 relecteurs aveugles Opus. 7 lignes où les deux relecteurs ont exactement notre compte (≠ VT) → exclues par C02c (règle pré-enregistrée c02c/PROTOCOLE.md, code g01.charge, c02c/audit.json). 13 lignes : relecteurs = VT → erreurs de notre chaîne (4 blancs d'abréviation/parenthèse = forme R3/R4 ; 2 soudures ; 1 fusion de lignes). 2 en désaccord. CRITERE 35 → **39/60** (herrkurt, emmeprac, erasexom, caladr ✓). Voir c02c/RESULTATS.md, etat_c02c/. Suite : A05 (révision des blancs du verdict hackherz l006, pré-enregistrée) puis réévaluation R3/R4.
