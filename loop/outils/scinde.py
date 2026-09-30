@@ -86,20 +86,24 @@ def renvois(gray, boites, ocr, textes, dossier=None, lang='script/Fraktur'):
     chif = lambda t: ''.join(c for c in t if c.isdigit())
     lus = {chif(t) for t in textes if num.fullmatch(t.strip() or 'x')}
     if len(lus) < 2: return boites
+    # jeton de renvoi : aucune lettre (« 64^ », cingdei ; le tiret de « 1. — 6. ») ; la suite a au moins un chiffre (proche)
+    jeton = lambda t: bool(t) and not any(c.isalpha() for c in t)
+    # chiffres d'une ligne lue ; un chiffre d'écart toléré dès 2 chiffres (« 48 » relu « 45 », emmeprac)
+    proche = lambda c: bool(c) and any(c == l or (len(l) >= 2 and len(c) == len(l) and sum(a != b for a, b in zip(c, l)) <= 1) for l in lus if l)
     cf = f'{dossier}/mots_tesseract.json' if dossier else None
     cache = json.load(open(cf)) if cf and os.path.exists(cf) else {}
     out = []
     for b, o in zip(boites, ocr):
         x0, y0, x1, y1 = map(int, b); h = y1 - y0
-        if not re.search(r'\d[\s.,]*$', o or '') or (x1 - x0) < 6 * h:
+        if (x1 - x0) < 6 * h:       # plus de pré-filtre sur l'OCR de ligne : « 50 » y est lu « 5o » (emmeprac)
             out.append(b); continue
         cut = None
         for lg in (lang, 'lat' if lang != 'lat' else 'script/Fraktur'):   # « 1. » lu « j. » par lat (852691769)
             mots = mots_ligne(gray, b, lg, cache, f'{lg}|{x0},{y0},{x1},{y1}')
             k = len(mots)
-            while k > 0 and num.fullmatch(mots[k-1][0]): k -= 1
+            while k > 0 and jeton(mots[k-1][0]): k -= 1
             if 0 < k < len(mots) and mots[k][1] >= x0 + 0.5 * (x1 - x0) \
-               and chif(''.join(m[0] for m in mots[k:])) in lus - {''}:
+               and proche(chif(''.join(m[0] for m in mots[k:]))):
                 cut = (mots[k-1][2] + mots[k][1]) // 2; break
         if cut is None:
             out.append(b); continue
