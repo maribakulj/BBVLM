@@ -40,7 +40,9 @@ def emissions(gray, box, binarise=False):
         lp, sc, rec = _emissions(gray, box, binarise)
         os.makedirs(cache, exist_ok=True)
         np.savez_compressed(f, lp=lp.astype(np.float32), xs=np.array([sc(t) for t in range(lp.shape[0] + 1)]), pred=str(rec.prediction or ''))
-        return lp, sc, rec
+        # même chemin que les appels suivants (reproductibilité : float32 et interpolation identiques)
+        z = np.load(f); xs = z['xs']
+        return z['lp'], (lambda t: float(np.interp(t, np.arange(len(xs)), xs))), rec
     return _emissions(gray, box, binarise)
 
 
