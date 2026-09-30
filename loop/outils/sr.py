@@ -193,6 +193,15 @@ def choisit(gray, textes, boites, tau=4.5, dossier=None):
     orig = {tuple(map(int, b)) for b in boites}
     delta = float(os.environ.get('BBVLM_SR_DELTA', '0.5'))
     M = [[score(gray, c, t) for c in C] for t in textes]
+    # S19 (L45) : largeur par signe plausible pour les candidates nouvelles (médiane de la page
+    # sur les meilleures lignes d'origine) ; écarte les petites boîtes qui « expliquent » un texte court
+    _lp = []
+    if os.environ.get('BBVLM_S19', '0') == '1':
+        for i in range(len(textes)):
+            ks = [k for k, c in enumerate(C) if c in orig and M[i][k] <= tau]
+            if ks and len(textes[i]) >= 3:
+                k = min(ks, key=lambda k: M[i][k]); _lp.append((C[k][2] - C[k][0]) / len(textes[i]))
+    _lpm = sorted(_lp)[len(_lp) // 2] if _lp else None
     paires = []
     for i in range(len(textes)):
         base = min([M[i][k] for k, c in enumerate(C) if c in orig] or [float('inf')])
@@ -205,6 +214,7 @@ def choisit(gray, textes, boites, tau=4.5, dossier=None):
             gain = (base - s) * (len(textes[i]) + 1)
             # une ligne lue d'un seul mot ne départage pas de nouvelles géométries (indices CTC trop faibles)
             multi = len(textes[i].split()) >= int(os.environ.get('BBVLM_SR_MOTS', '2'))
+            if _lpm and c not in orig and not (.5 * _lpm <= (c[2] - c[0]) / max(1, len(textes[i])) <= 2 * _lpm): continue
             if s <= tau and (c in orig or (multi and s <= base - delta and gain >= float(os.environ.get('BBVLM_SR_GAIN', '5')))): paires.append((s, i, k))
     paires.sort()
     res, pris = {}, []

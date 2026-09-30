@@ -359,3 +359,7 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 ## L44 — OCR-D GT-Richtlinien, Leerzeichen (ocr-d.de/de/gt-guidelines/trans/leerzeichen.html ; Level 1/2)
 - Apport : « Anführungszeichen und Klammern stehen ohne Leerzeichen direkt am umschlossenen Text » ; ponctuation collée au mot précédent, suivie d'une espace. La VT SBB le suit : 36 « „x », 0 « „ x » sur nos 64 pages. Justifie R6 (espace après guillemet ouvrant „ ‚ retirée), complément de R3 (parenthèse) et R4 (point d'abréviation).
 - Limite : » et « servent d'ouvrant ou de fermant selon la langue (allemand »…«, français « … ») : R6 limitée aux ouvrants non ambigus „ et ‚.
+
+## L45 — A priori de largeur de caractère en segmentation (Nakagawa et al., TUAT, segmentation ligne/caractère hors ligne ; brevet US 9183636 « candidate character widths »)
+- Apport : la largeur attendue d'un caractère (estimée sur la page) sert à écarter les hypothèses de segmentation incohérentes avec la longueur du texte. Justifie S19 : une candidate nouvelle de SR n'est admise que si sa largeur par signe (largeur / longueur du texte lu) reste dans [0,5 ; 2] × la médiane de la page. Cas moteur : 852691769, « 5. — 7. » (7 signes) placé dans une boîte de 35 px de large (≈ 5 px/signe) par les extensions d'unions.
+- Limite : manuscrits et écritures à chasse variable ; ici imprimés, chasse assez régulière dans une page ; titres en grand corps (largeur par signe ×2 à ×3) → borne haute large ou non appliquée aux candidates plus larges.
