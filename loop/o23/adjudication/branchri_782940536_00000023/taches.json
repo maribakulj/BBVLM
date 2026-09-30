@@ -1,0 +1,54 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "im HErrn ſterben von nu an/ Ja der Geiſt ſagt: Das ſie",
+  "Y": "im HErrn ſterben von nu an/ Ia der Geiſt ſagt: Das ſie",
+  "divergences_X_vers_Y": [
+   [
+    "J",
+    "I"
+   ]
+  ]
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "Precioſa in conſpectu Domini mors ſanctorum eius, Der todt",
+  "Y": "Precioſa in conſpectu Domini mors ſanctorum eius. Der todt",
+  "divergences_X_vers_Y": [
+   [
+    ",",
+    "."
+   ]
+  ]
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "ꝛus Tôm. 8. Germ. fol. 340. So viel vom andern.",
+  "Y": "rus Toͤm. 8. Germ. fol. 340. So viel vom andern.",
+  "divergences_X_vers_Y": [
+   [
+    "ꝛ",
+    "r"
+   ],
+   [
+    "ô",
+    "oͤ"
+   ]
+  ]
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "rus Tôm. 8. Germ. fol. 340. So viel vom andern.",
+  "Y": "rus Toͤm. 8. Germ. fol. 340. So viel vom andern.",
+  "divergences_X_vers_Y": [
+   [
+    "ô",
+    "oͤ"
+   ]
+  ]
+ }
+]

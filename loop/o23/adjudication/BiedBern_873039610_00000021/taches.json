@@ -1,0 +1,38 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "Huͤlfe der Induͤſtrie entzogen werden koͤnnten;",
+  "Y": "Huͤlfe der Jnduͤſtrie entzogen werden koͤnnten;",
+  "divergences_X_vers_Y": [
+   [
+    "I",
+    "J"
+   ]
+  ]
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "ſebeſchreibungen durch die Schweiz, den ſo",
+  "Y": "ſebeſchreibungen durch die Schweiz, den so",
+  "divergences_X_vers_Y": [
+   [
+    "ſ",
+    "s"
+   ]
+  ]
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "und kommen oft e: ſt nach Monden wieder mit",
+  "Y": "und kommen oft erſt nach Monden wieder mit",
+  "divergences_X_vers_Y": [
+   [
+    ": ",
+    "r"
+   ]
+  ]
+ }
+]

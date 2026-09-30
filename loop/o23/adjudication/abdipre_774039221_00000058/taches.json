@@ -1,0 +1,50 @@
+[
+ {
+  "id": "l000",
+  "image": "l000.png",
+  "X": "hoc uerſatur, cum utraq; pars habeat li-",
+  "Y": "hoc uerſatur, cum utra pars habeat li-",
+  "divergences_X_vers_Y": [
+   [
+    "q;",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l001",
+  "image": "l001.png",
+  "X": "risq; Eccleſiæ conſenſum habet & teſti-",
+  "Y": "ris Eccleſiæ conſenſum habet & teſti-",
+  "divergences_X_vers_Y": [
+   [
+    "q;",
+    ""
+   ]
+  ]
+ },
+ {
+  "id": "l002",
+  "image": "l002.png",
+  "X": "Zion, qui ſanctus erit, nimirum à ſuo",
+  "Y": "Zion, qui ſanctus erit, nimirum ã ſuo",
+  "divergences_X_vers_Y": [
+   [
+    "à",
+    "ã"
+   ]
+  ]
+ },
+ {
+  "id": "l003",
+  "image": "l003.png",
+  "X": "cta à",
+  "Y": "cta ã",
+  "divergences_X_vers_Y": [
+   [
+    "à",
+    "ã"
+   ]
+  ]
+ }
+]
