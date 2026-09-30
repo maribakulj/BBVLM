@@ -1227,3 +1227,7 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 ## 30/09 20h25 — Passes VLM sur pages neuves (O26+O27, 8 pages, sans nouvelle lecture)
 - Texte glyphe contre la référence adjugée : lecture A seule 28 éd., lecture B seule 17, chaîne (2 lectures + arbitre + inflexion + R-règles) **11** (−61 % contre A). Par page A → final : 0→0, 1→1, 16→6 (buchdiss), 0→0, 3→0, 4→1, 1→0, 3→3. Aucune page où la chaîne fait pire que A.
 - Confirme hors jeu de réglage que la seconde lecture est rentable (dev : −23 %, O23-O25 : −33 %) ; la variance entre lecteurs reste forte (A 28 contre B 17 sur les mêmes pages). Le mode économe (A seule) n'est pas recommandé.
+
+## 30/09 20h30 — Apport des vues zoom (données fortuites O26, 6 lectures sans zoom)
+- Contre la référence adjugée (glyphe) : avec zoom 30 éd., sans zoom 26 (baltdiss 1/2 contre 1/1, buchdiss 16/11 contre 7/17, culmsent 0/0 contre 0/0). Aucun gain détectable ; la variance entre lectures (buchdiss 7 à 17) domine.
+- Portée : 3 pages, 2 lectures par condition, conditions non tirées au hasard (lectures sans zoom lancées par erreur) → observation, pas un résultat. Les zooms doublent environ le nombre d'images par lecture (coût). Piste Z01 (sobriété) : lecture sans zoom contre avec zoom, ≥ 4 lectures par page et par condition (règle O20), pages à signes suscrits incluses (motif initial des zooms : ä/aͤ/ů).
