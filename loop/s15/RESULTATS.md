@@ -59,3 +59,4 @@ Lignes de l'audit A04 (relecteurs aveugles = vérité) : ligne kraken appariée 
 
 ## SR : extensions appliquées aussi aux unions (BBVLM_SR_UNION_ETEND) — pré-enregistré 21h10
 Cas : euanaua « Am I. Sontag » (titre coupé en deux morceaux kraken ET trop bas : capitales ornées) : l'union seule (IoU 0,47) et l'extension seule ne suffisent pas ; union puis extension verticale : (71,559,831,686), IoU ≈ 0,86 avec la VT. Mêmes marges (δ, 5 nats, ≥ 2 mots). Critère : dev non en recul, aucune page dev +1 ligne en échec ; écart rapporté ; lignes/recherche non en recul.
+- Essai BBVLM_SR_BANDES (bandes d'encre hors lignes kraken comme candidates) sur DasWeL « I ĳ » : aucun effet : la signature touche le bas de la dernière ligne kraken (1882-1958 contre VT 1951-2019), donc n'est pas « hors lignes » ; lecture « J ij » ≠ VT « I ĳ » de toute façon. Option laissée désactivée, non mesurée.
