@@ -242,3 +242,8 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 - Sources : « Automatic Line Segmentation and Ground-Truth Alignment of Handwritten Documents » (ICFHR 2014) ; « End-to-End Transcript Alignment of 17th Century Manuscripts: The Case of Moccia Code » (J. Imaging 2023) ; « OCR-Free Transcript Alignment » (ICDAR 2013).
 - Apport : quand une transcription existe, elle sert à corriger la segmentation : l'alignement texte–image absorbe la sur- et la sous-segmentation (lignes fusionnées ou coupées) ; formalisé en transducteurs pondérés (WFST) sur treillis OCR.
 - Limite : manuscrits, transcription au niveau document ; 92 % de lignes correctes seulement ; pas de règle simple pour valider une coupe. Pour nous (S02c) : une coupe géométrique n'est acceptée que si le morceau détaché, relu, retrouve une ligne lue — la lecture VLM tient lieu de transcription.
+
+## L21 — Blancs de mots : seuil d'écart adapté à la hauteur de ligne
+- Sources : « An Unsupervised and Robust Line and Word Segmentation Method for Handwritten and Degraded Printed Document » (ACM TALLIP 2021) ; CEDAR, « Word Segmentation of Off-line Handwritten Documents » (SPIE 2008) ; Lipi Gnani (arXiv 1901.00413).
+- Apport : en imprimé, les écarts entre mots sont nettement plus grands qu'entre lettres ; seuil adaptatif proportionnel à la hauteur de ligne, profil de projection vertical ou regroupement de composantes.
+- Limite : rien sur la transcription diplomatique des blancs (espaces imprimés irréguliers, justification) ; seuils empiriques. Pour nous (piste S10) : le blanc lu par le VLM pourrait être vérifié par l'écart d'encre, mais le gain possible est borné (28 lignes / 1265 diffèrent par les blancs seuls, dont la moitié par convention de la VT).
