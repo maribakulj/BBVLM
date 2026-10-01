@@ -77,7 +77,8 @@ def main():
     else:
         part = sys.argv[4] if len(sys.argv) > 4 else None
         acp = np.load(out + '/acp.npz'); T = json.load(open(out + '/tetes.json'))['tetes']
-        ordre = sorted(M, key=lambda b: ({'test': 0, 'dev': 1, 'train': 2}[M[b]['partition']], b))
+        import hashlib
+        ordre = sorted(M, key=lambda b: ({'test': 0, 'dev': 1, 'train': 2}[M[b]['partition']], hashlib.sha256(b.encode()).hexdigest()))
         for bid in ordre:
             m = M[bid]
             if part and m['partition'] != part: continue

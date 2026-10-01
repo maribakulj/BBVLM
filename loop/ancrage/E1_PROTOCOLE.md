@@ -21,3 +21,7 @@ Référence : CONTRAT.md v1. Échelle CPU (écart déclaré au plan : Phase A se
 ## Amendement 1 (01/10, avant toute extraction E1)
 - Incident : E0 (fp32, 13 Go RSS) tué par manque de mémoire quand l'entraînement S2 a démarré (16 Go au total). E0 arrêté à 23 blocs en fp32 (17 + 6), tous conformes.
 - Le CPU dispose d'AMX/AVX512-BF16 → **extraction E1 en bf16** (RSS ≈ 6-7 Go, permet le travail parallèle) ; écart bf16/fp32 des logits et des états mesuré sur 4 blocs de debug64 et rapporté avec E0. Rien d'autre ne change.
+
+## Amendement 2 (01/10, après sélection des têtes, avant extraction)
+- Têtes G1a retenues (debug64, 2 477 mots) : (11,2) (6,7) (11,13) (6,6) (14,15) (2,11) (14,14) (2,10) ; masse d'attention dans la boîte VT : 0,69 → 0,48. ACP 256 : 99,96 % de variance.
+- Coût mesuré ≈ 23 s/bloc (bf16, 2 fils) → extraction complète ≈ 12 h. Ordre : test, dev, puis train trié par sha256(id). **Première série de sondes sur les 600 premiers blocs train de cet ordre** (≈ 3 000 lignes, borne basse du plan) ; seconde série sur train complet si l'extraction aboutit, rapportée séparément.
