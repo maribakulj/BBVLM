@@ -25,3 +25,9 @@
 - Résultats (même échantillon ; S1 entre crochets) : propre CER 0,37 → 0,53 % [0,35 %], **dégradation 18 % des lignes** [0 %] ; modéré 6,68 → 3,02 % (−55 %) [−5 %], dégradation 6 % ; lourd 19,1 → 10,9 % (−43 %) [−3 %], dégradation 14 %.
 - Lecture : confirme la prémisse du protocole (le LLM décodeur corrige beaucoup mais dégrade la strate propre : H2 attend S5 > 1 %, observé 18 %) ; montre aussi que S1 est très conservateur (gain faible). La cible de S2 est donc entre les deux : gains d'un LLM, innocuité de S1.
 - Gate B1 (« chiffres S0/S1/S5 reproductibles par une commande ») : S0/S1 oui (prepare.py, s1.py, mesure.py) ; S5 dépend d'appels LLM (sorties archivées, b0/s5_test.jsonl).
+
+## 01/10 — B2 : protocole S2 figé avant entraînement
+- Encodeur CANINE-s (google/canine-s, révision 75d6d0b3), tête linéaire ; étiquettes par caractère source (position 0 = [CLS] pour les insertions en tête) : {K, D, R:c} × ajout « +A:chaîne » ; vocabulaire = K + étiquettes non-K les plus fréquentes de train jusqu'à 95 % des éditions (couverture réelle rapportée) ; étiquettes hors vocabulaire → K à l'entraînement.
+- Aller-retour étiquettes → texte vérifié : 0 erreur sur 17 117 lignes.
+- Entraînement : 3 époques, AdamW lr 5e-5, lots de 32, graine 17, CPU (2 fils, en parallèle d'E0) ; aucun réglage sur test.
+- Inférence : étiquette argmax appliquée si probabilité ≥ seuil, jusqu'à 3 passes itératives ; **seuil choisi sur dev** dans {0,5 ; 0,7 ; 0,9 ; 0,95 ; 0,99} par la même règle que S1 (CER global minimal avec < 1 % de lignes propres dégradées) ; test évalué une fois.
