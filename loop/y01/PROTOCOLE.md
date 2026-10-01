@@ -11,3 +11,6 @@ Mesure gelée : `olr.mesure` (F1 « même région », rôle, ordre) par page.
 Développement : 60 pages dev + écart (O07-O18, O23-O25) ; validation : O26-O28 (12, jamais utilisées pour Y01).
 H-Y01 (adoption de Y01a) : sur dev+écart, nombre de pages à F1 = 1,00 en hausse ET aucune page en baisse de plus de 0,02 ; puis tenue sur O26-O28 (aucune page en baisse > 0,02).
 Rapporté aussi : temps CPU par page ; pire page ; liste des pages changées.
+
+## Amendement Y01c (figé après lecture des résultats Y01a/b, avant toute mesure Y01c)
+Cause observée (fiscfrie/15, O27) : le détecteur emboîte des boîtes d'une ligne dans la boîte d'un poème ; la règle « plus petite zone » coupe le poème. Y01c = Y01a après suppression de toute zone contenue à ≥ 90 % de sa surface dans une zone plus grande. Même règle de décision. Validation O26-O28 **non vierge** pour Y01 (une page vue) : rapportée comme indicative.
