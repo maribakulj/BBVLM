@@ -1,0 +1,204 @@
+# Spécification de recherche à compléter et geler, pas configuration exécutable.
+# Aucun entraîneur ni modèle BBVLM correspondant n'est livré avec ce fichier.
+protocol:
+  id: bbvlm-joint-grounding-v1-draft
+  date: '2026-10-01'
+  status: draft_not_frozen
+  executable_training_config: false
+  objective: >-
+    Réutiliser la perception visuelle et les états du lecteur pour localiser
+    les occurrences, puis tester si ce couplage améliore la lecture libre,
+    sans deuxième reconnaissance indépendante.
+  initial_domain: petits blocs d'imprimé patrimonial, français principal
+  initial_block_lines: [3, 8]
+  out_of_scope:
+    - manuscrits
+    - résumé et NER
+    - extraction éditoriale complète
+    - service web
+    - déploiement de plusieurs moteurs en cascade
+
+required_before_freeze:
+  bbvlm_commit_sha: null
+  model_revision_sha: null
+  processor_revision_sha: null
+  dataset_manifest_sha256: null
+  split_manifest_sha256: null
+  annotation_convention_version: null
+  environment_lock_sha256: null
+  hardware_profile: null
+  calibration_policy: null
+  predefined_improvement_margin: null
+  predefined_noninferiority_margin_text: null
+
+backbone_proposal:
+  model_id: Qwen/Qwen3-VL-2B-Instruct
+  rationale: support ouvert instrumentable, sans revendication de meilleur OCR
+  preserve_native_multilevel_vision: true
+  initial_freeze: all_backbone_parameters
+  later_adaptation: limited_lora_only_if_diagnostic_justifies_it
+  visual_memory:
+    compact: native
+    fine: one_pre_merger_feature_map
+    exact_patch_to_page_mapping_required: true
+  probe:
+    proposed_projection_dimension: 256
+    initial_cross_attention: dense
+    sparse_sampling: only_after_profile_and_dense_utility_demonstration
+    geometry_primary_initial: continuous_rectangle
+    bounded_ablation: discrete_coordinates_same_backbone
+    geometry_shape_limit: approximately_horizontal_printed_blocks
+  causal_coupling:
+    implemented: false
+    consultation_before_next_token_logits: true
+    no_future_target_tokens_in_query: true
+    residual_gate_initialization_proposed: zero
+    separate_spatial_supervision_required: true
+
+occurrence_contract:
+  key: [text_version, start_offset, end_offset, occurrence_id]
+  key_must_not_be_surface_text_only: true
+  transcription_offsets: explicit_mapping_to_immutable_diplomatic_text
+  coordinate_convention: page_pixels_xyxy_half_open
+  proposal_geometry_nullable: true
+  current_document_nodes_geometry_nullable: false
+  unresolved_storage: proposals_not_fake_word_nodes
+  statuses:
+    - matched
+    - partially_compatible
+    - unresolved
+  separate_outputs:
+    - recognition_uncertainty
+    - localization_uncertainty
+    - coverage_diagnostics
+
+supervision:
+  text_verified_only:
+    text_loss: enabled
+    word_geometry_loss: masked
+  line_geometry_verified:
+    line_geometry_loss: enabled
+    unverified_word_geometry_loss: masked
+  automatic_word_boxes:
+    role: optional_weak_supervision
+    weight: null
+    provenance_required: true
+    ablation_without_pseudolabels: true
+  verified_word_geometry:
+    geometry_loss: enabled
+  corrupted_text_request:
+    do_not_train_false_request_as_true_transcription: true
+    support_targets_required: true
+    partial_correspondences_allowed: true
+
+data_envelopes_proposed_not_guarantees:
+  debug_crops: 64
+  real_training_lines: [3000, 6000]
+  synthetic_lines_or_small_blocks: [10000, 30000]
+  development_lines: [500, 1000]
+  calibration: independent_from_development_and_final_test
+  final_test_lines_minimum_proposed: 1000
+  no_claim_of_rare_error_certification: true
+  split_unit: work_or_newspaper_title_and_related_editions
+  synthetic_holdout: fonts_and_text_contents
+  previously_consumed_tests: development_only
+
+experiments:
+  - id: E0
+    title: Instrumentation et parité native
+    outputs: [token_trace, patch_coordinate_roundtrip, native_parity, memory_and_latency]
+    stop_on: any_unexplained_indexing_or_geometry_error
+  - id: E1
+    title: Accessibilité de la géométrie
+    arms:
+      G0: incumbent_geometry_as_offline_comparator_only
+      G1: reader_hidden_states_only
+      G2: same_hidden_states_plus_fine_visual_memory
+    modes: [correct_transcription_supplied]
+    decision: >-
+      Le détail visuel doit apporter un gain hors entraînement. Un surapprentissage
+      des 64 exemples n'est pas un résultat de transfert.
+  - id: E2
+    title: Dépendance visuelle contrôlée
+    interventions:
+      - identical_text_different_layout
+      - known_translation_and_scale
+      - repeated_words
+      - wrong_image
+      - spatially_permuted_features
+      - fine_memory_neutralized
+    decision: >-
+      Suivre les transformations connues et distinguer les occurrences.
+      L'effondrement sur du bruit seul ne prouve pas un ancrage fidèle.
+  - id: E3
+    title: Couplage utile pour la lecture libre
+    arms: [native_reader, post_reading_probe, pre_prediction_visual_consultation]
+    modes: [free_generation, correct_text_supplied, corrupted_text_supplied]
+    prohibit_gold_prefix_replacement_in_free_mode: true
+    decision: >-
+      Gain conjoint ou meilleur compromis qualité/coût ; pas de promotion d'un
+      couplage plus complexe sans bénéfice observé.
+  - id: E4
+    title: Correspondances douteuses et calibration
+    outputs: [risk_coverage_curve, false_support_examples, calibration_report]
+    test_thresholds_selected_without_final_test: true
+  - id: E5
+    title: Blocs sans lignes oracle
+    ground_truth_line_boxes_at_inference: prohibited
+    outputs: [line_coverage, duplicated_occurrences, joint_word_matching, complete_cost]
+    decision: >-
+      La précision des mots émis ne compense pas les lignes omises. Le diagnostic
+      avec lignes fournies reste séparé du résultat de bout en bout.
+  - id: E6
+    title: Révision contrainte et export atomique
+    outputs: [locked_fields_tests, split_merge_tests, proposal_transaction_tests, provenance]
+    model_can_assign_human_verified: false
+
+metrics:
+  textual: [strict_nfc_cer, wer, insertions, deletions, substitutions, digits, omitted_lines]
+  geometry: [boundary_error_char_units, word_iou, median, p95, p99, maximum, unresolved_fraction]
+  joint:
+    one_to_one_occurrence_matching_frozen_before_test: true
+    missing_outputs_in_denominator: true
+    surface_text_dictionary_matching: prohibited
+  human_utility: [review_minutes_per_page, text_edits, box_edits, residual_errors]
+  cost: [source_pixels, visual_forwards, decoder_steps, tiles, retries, peak_vram, wall_time]
+  historical_bbvlm_criterion:
+    scope: every_corpus_separately
+    source: CRITERE.md_frozen_2026-09-25
+    fraction_boundaries_within_half_character_min: 0.95
+    worst_boundary_error_characters_max: 3.0
+    word_iou_median_min: 0.80
+    failed_lines_max: 0
+    worst_case_regression_vs_proportional_allowed: false
+    selective_abstention_does_not_override_this_contract: true
+  uncertainty:
+    paired_comparisons: true
+    resampling_unit: independent_document_group
+    no_independence_assumption_for_words_of_same_page: true
+    no_retrospective_threshold_changes: true
+
+reproducibility:
+  development_seeds_proposed: [17, 43]
+  final_candidate_seeds_proposed: [17, 43, 91]
+  feature_cache_key:
+    - image_sha256
+    - backbone_revision
+    - processor_revision
+    - resolution
+    - augmentation
+  invalidate_cache_when_feature_producing_weights_change: true
+  explicit_grid_sample_align_corners: required_if_used
+  preserve_original_annotations: true
+  adjudications_versioned_separately: true
+  run_failure_logs_required: true
+
+repository_policy:
+  project: BBVLM
+  create_remote_branch_now: false
+  modify_hans_or_saknussemm_now: false
+  neural_dependencies_optional: true
+  public_document_schema_initially_unchanged: true
+  current_nodes_require_valid_bbox: true
+  future_joint_apply_must_be_atomic_and_version_checked: true
+  exports_not_learned: true
