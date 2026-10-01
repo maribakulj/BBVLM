@@ -6,10 +6,13 @@ from PIL import Image
 from transformers import Qwen3VLForConditionalGeneration, AutoProcessor
 Q = '/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratchpad/qwen/Qwen3-VL-2B'
 CONSIGNE = 'Transcribe the printed text in this image exactly, line by line, keeping historical spelling and punctuation.'
-torch.manual_seed(17); torch.set_num_threads(4)
-proc = AutoProcessor.from_pretrained(Q)
-model = Qwen3VLForConditionalGeneration.from_pretrained(Q, dtype=torch.float32).eval()
-vis = model.model.visual
+proc = model = vis = None
+def charge():
+    global proc, model, vis
+    torch.manual_seed(17); torch.set_num_threads(4)
+    proc = AutoProcessor.from_pretrained(Q)
+    model = Qwen3VLForConditionalGeneration.from_pretrained(Q, dtype=torch.float32).eval()
+    vis = model.model.visual
 CAP = {}
 def crochet(mod, args): CAP['pre_merger'] = args[0].detach().clone()
 def complete(img, f=32):
@@ -71,4 +74,4 @@ def main(a1, n, sortie):
              'rss_go': round(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1e6, 2), 'tokens': int(x['input_ids'].shape[1])}
         out.write(json.dumps(r) + '\n'); out.flush(); print(r, flush=True)
 if __name__ == '__main__':
-    main(sys.argv[1], int(sys.argv[2]), sys.argv[3])
+    charge(); main(sys.argv[1], int(sys.argv[2]), sys.argv[3])

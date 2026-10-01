@@ -1301,3 +1301,8 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 - S1 (L56) réglé sur dev (λ = 1, seuil 20) ; test : −2,9 % CER [1,9 ; 3,9], 0,4 % de lignes propres dégradées ; 6,6 s / 1 000 lignes.
 - S5 (Sonnet, 150 lignes stratifiées) : −55 % modéré, −43 % lourd, mais 18 % des lignes propres dégradées. Prémisse du protocole confirmée. Détail postcorr/DECISIONS.md.
 - E0 : plantage au bloc 18 (crop < 65 536 px → le processor agrandit) ; complément blanc jusqu'au minimum, E0 relancé.
+
+## 01/10 — Ancrage E0 (instrumentation) et G0 de référence
+- E0 (Qwen3-VL-2B fp32, 23 blocs de debug64 avant l'arrêt OOM) : ordre des patches établi par reconstruction exacte des pixels (écart 6e-8 après complément blanc à un multiple de 32 et ≥ 65 536 px, sinon le processor ré-échantillonne) ; trace tokens↔offsets exacte (reconstruction 23/23) ; parité des logits avec/sans instrumentation 0,0 ; 2,7 % des mots finissent dans un token « ponctuation + \n » (requête = token contenant le dernier caractère) ; 3-30 s par passe, 13 Go RSS.
+- Incidents : OOM (E0 fp32 + entraînement S2) ; import de e0.py rechargeant le modèle (corrigé). Extraction E1 passée en bf16 (AMX) par amendement avant extraction.
+- G0 (W05+W06, boîte de ligne VT fournie, texte VT) sur les 178 blocs de test : 7/9 œuvres au CRITERE, ≤ 0,5 c 97,25 %, pire 3,4 c, iou_med 0,898, 0 ligne en échec. Barre haute pour G1/G2 (qui, eux, n'ont pas la boîte de ligne).
