@@ -1285,3 +1285,9 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 ## 01/10 — Y01 (pré-segmentation en zones par YOLO DocLayNet, demande du mainteneur) : rejetée
 - Revue : L51 YALTAi (YOLO > kraken pour les régions historiques), L52 LADaS, L53 Doc-UFCN, L54 DocLayout-YOLO/DocLayNet. Aucun YOLO SegmOnto pour imprimés accessible ; HF accessible ce jour (200), GitHub 403.
 - Détecteur YOLO26-L DocLayNet, aucun réglage ; Y01a 32/56 pages F1 régions = 1 (base 31) mais 4 baisses ; Y01b pire ; Y01c (zones emboîtées supprimées, amendement après lecture) 33/56 sans baisse sur dev, mais validation O26-O28 2 baisses (fiscfrie 1,00 → 0,66). Non adoptée. Détail y01/RESULTATS.md.
+
+## 01/10 — Chantier ancrage : A0 (contrat) et A1 (blocs traçables) faits
+- Avis initial sur les trois documents du mainteneur : rapporté en conversation (le problème géométrique est en grande partie résolu chez nous par W05+W06, G0 sera exigeant ; tension lecteur 2B / Opus ; domaine « français » du YAML contre données OCR-D allemandes ; GPU absent → échelle CPU, Phase A seule).
+- A0 : ancrage/CONTRAT.md v1 (occurrence par offsets, boîte = enveloppe Word VT semi-ouverte, partition par œuvre sha256, bras G0/G1a/G1/G2, critères et marges gelés) ; protocol.yaml rempli (révisions, manifestes, environnement, matériel, marges).
+- A1 : ancrage/outils/blocs.py + test_a1.py ; 1 944 blocs, 75 606 occurrences, 0 erreur aux tests (offsets, jonction, crop, aller-retours page↔crop↔entrée modèle) ; test 178 blocs / 9 œuvres (sous la cible, écart déclaré, partition non modifiée) ; debug64.
+- Environnement : venvq séparé (transformers 5.18 exige safetensors ≥ 0,8, kraken ~0,7) ; chaîne venvk revérifiée (extraudeu CRITERE inchangé 0,958 ✓).

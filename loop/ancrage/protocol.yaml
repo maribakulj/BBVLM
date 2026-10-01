@@ -3,7 +3,7 @@
 protocol:
   id: bbvlm-joint-grounding-v1-draft
   date: '2026-10-01'
-  status: draft_not_frozen
+  status: contract_frozen_A0_manifests_pending
   executable_training_config: false
   objective: >-
     Réutiliser la perception visuelle et les états du lecteur pour localiser
@@ -19,17 +19,17 @@ protocol:
     - déploiement de plusieurs moteurs en cascade
 
 required_before_freeze:
-  bbvlm_commit_sha: null
-  model_revision_sha: null
-  processor_revision_sha: null
-  dataset_manifest_sha256: null
-  split_manifest_sha256: null
-  annotation_convention_version: null
-  environment_lock_sha256: null
-  hardware_profile: null
+  bbvlm_commit_sha: '24cdecac451a43130c18c7fe1e04e1cc3d1cbab6'
+  model_revision_sha: '89644892e4d85e24eaac8bacfd4f463576704203'
+  processor_revision_sha: '89644892e4d85e24eaac8bacfd4f463576704203'
+  dataset_manifest_sha256: '112fce0127b7fe5fb9f95a8288cb35ed56de9fe827fa5ea634652f997d338e1d'
+  split_manifest_sha256: 'da59823636b694035662b028d956477867042b143f4d8b31587d635d58cc40be'
+  annotation_convention_version: 'CONTRAT.md v1 (01/10)'
+  environment_lock_sha256: '8f5f6433fc22240408f0688ec597fa8c9b85266a343f9d05b6b84847c9e76671 (pip freeze venvq)'
+  hardware_profile: 'CPU 4 cœurs, 15 Go RAM, sans GPU'
   calibration_policy: null
-  predefined_improvement_margin: null
-  predefined_noninferiority_margin_text: null
+  predefined_improvement_margin: 'G2-G1 >= +0.02 iou_med et +2 pts <=0.5c, IC95 bootstrap par oeuvre'
+  predefined_noninferiority_margin_text: 'pire cas <= G0 + 0.5 c ; oeuvres au CRITERE >= G0'
 
 backbone_proposal:
   model_id: Qwen/Qwen3-VL-2B-Instruct

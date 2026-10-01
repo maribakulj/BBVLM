@@ -400,3 +400,7 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 ## L54 — DocLayout-YOLO (Zhao et al., arXiv 2410.12628, 2024) et modèles YOLO DocLayNet (Pfitzmann et al., KDD 2022)
 - Apport : détecteurs YOLO de mise en page à la granularité du paragraphe (Text, Section-header, Page-header, Footnote, Table, Picture, Caption, List-item), proche des TextRegion de la VT ; poids accessibles sur HF (juliozhao/DocLayout-YOLO-*, Oblix/yolov10*-doclaynet ONNX). Motive Y01.
 - Limite : documents modernes nés numériques ; transfert aux imprimés anciens non démontré (L52).
+
+## L55 — Kang et al., « Your Large Vision-Language Model Only Needs A Few Attention Heads For Visual Grounding », CVPR 2025 (arXiv 2503.06287)
+- Apport : dans un LVLM gelé, quelques têtes d'attention texte→image (« têtes de localisation », 3 sur des milliers) suffisent à localiser l'objet désigné, sans entraînement ; choix des têtes par critères simples (entropie spatiale, attention aux tokens visuels). Motive un bras G1a sans entraînement dans E1 (cartes d'attention des têtes sélectionnées sur le jeu d'entraînement → boîte de mot), plancher bon marché avant toute sonde apprise.
+- Limite : objets de scène et expressions référentielles, pas des mots de 10-40 px dans un bloc dense ; la résolution de la carte (patch 16 × fusion 2 = 32 px) est grossière devant une frontière de mot à 0,5 caractère (≈ 8-12 px) : la précision intra-patch reste à démontrer.

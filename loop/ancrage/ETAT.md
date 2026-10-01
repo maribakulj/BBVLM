@@ -10,8 +10,8 @@ Demande du mainteneur (01/10) : mettre en œuvre en autonomie `ancrage/PLAN.md` 
 ## Objectifs et gates — chantier A (ancrage), dans l'ordre
 | étape | contenu | gate / critère | état |
 |---|---|---|---|
-| A0 | contrat d'expérience : occurrence = (version texte, début, fin, id) ; convention boîte = enveloppe d'encre OCR-D Word ; ponctuation selon VT ; partitions par œuvre (dev = œuvres des pages O07-O25 ; test = œuvres jamais lues par la boucle) ; marges fixées | contrat gelé, `protocol.yaml` required_before_freeze rempli | à faire |
-| A1 | 64 blocs traçables (3-8 lignes) tirés de pages OCR-D : pixels, texte diplomatique, offsets, boîtes, transformation crop→page ; tests aller-retour | tests passent | à faire |
+| A0 ✓ | contrat d'expérience : occurrence = (version texte, début, fin, id) ; convention boîte = enveloppe d'encre OCR-D Word ; ponctuation selon VT ; partitions par œuvre (dev = œuvres des pages O07-O25 ; test = œuvres jamais lues par la boucle) ; marges fixées | contrat gelé, `protocol.yaml` required_before_freeze rempli | **fait 01/10** : ancrage/CONTRAT.md v1 ; L55 (têtes de localisation) → bras G1a |
+| A1 ✓ | 64 blocs traçables (3-8 lignes) tirés de pages OCR-D : pixels, texte diplomatique, offsets, boîtes, transformation crop→page ; tests aller-retour | tests passent | **fait 01/10** : 1 944 blocs (train 1 495 / 45 œuvres ; dev 271 / 12 ; test 178 / 9 œuvres, 858 lignes, 6 059 mots — sous la cible de 400 blocs, écart déclaré), 75 606 occurrences, test_a1 0 erreur ; debug64 (45 œuvres, 56 avec mots répétés) ; ancrage/a1/ |
 | E0 | Qwen3-VL-2B (révision 89644892) sur CPU : trace tokens↔offsets, mapping patch→page exact, parité native avec/ sans instrumentation, coût | 0 erreur d'indexation inexpliquée | à faire |
 | E1 | sonde G1 (états seuls) / G2 (états + carte fine) contre G0 (W05+W06 actuel) sur œuvres de test, transcription fournie | G2 > G1 hors entraînement, et comparaison à G0 au CRITERE (le go vers la suite exige G2 ≥ G0 ou un gain d'économie démontré) | à faire |
 | E2 | contrôles : image fausse, carte permutée, neutralisée, translation/échelle, mots répétés | la géométrie suit les transformations | à faire |
@@ -26,4 +26,7 @@ Demande du mainteneur (01/10) : mettre en œuvre en autonomie `ancrage/PLAN.md` 
 | B3-B4 | S4, S6, rapport | verdicts H1-H4 | — |
 
 ## Prochaine étape
-A0 + téléchargement Qwen3-VL-2B (révision épinglée) en fond ; B0 recherche des données en parallèle.
+E0 : instrumentation Qwen3-VL-2B (venvq, révision 89644892, téléchargée) sur debug64 ; B0 en parallèle.
+
+## Environnement
+- venvk : chaîne BBVLM (kraken, safetensors 0.7) ; venvq : Qwen/transformers 5.18 (torch partagé via .pth). venvc (Calamari) supprimé le 01/10 pour la place disque (W05 couvre toutes les pages ; sorties Calamari en cache) ; w05cache supprimé (régénérable).
