@@ -1291,3 +1291,8 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 - A0 : ancrage/CONTRAT.md v1 (occurrence par offsets, boîte = enveloppe Word VT semi-ouverte, partition par œuvre sha256, bras G0/G1a/G1/G2, critères et marges gelés) ; protocol.yaml rempli (révisions, manifestes, environnement, matériel, marges).
 - A1 : ancrage/outils/blocs.py + test_a1.py ; 1 944 blocs, 75 606 occurrences, 0 erreur aux tests (offsets, jonction, crop, aller-retours page↔crop↔entrée modèle) ; test 178 blocs / 9 œuvres (sous la cible, écart déclaré, partition non modifiée) ; debug64.
 - Environnement : venvq séparé (transformers 5.18 exige safetensors ≥ 0,8, kraken ~0,7) ; chaîne venvk revérifiée (extraudeu CRITERE inchangé 0,958 ✓).
+
+## 01/10 — Post-correction B0 (données, strates, S0, seuils figés)
+- Revue : HIPE-OCRepair-2026 (ICDAR 2026, benchmark harmonisé EN/FR/DE XVIIe-XXe s., GT de test publiée) retenu ; ICDAR 2019 POCR (Zenodo 3515403) : FR1 manuscrits et FR3 tickets hors périmètre, FR2 (IMPACT BnF, 209 k car.) gardé comme test hors distribution ; ICDAR 2017 d'origine inaccessible (repris dans HIPE).
+- Splits HIPE icdar2017 : 21 identifiants de documents communs à train et test → re-découpage par groupe documentaire (aucune fuite possible).
+- Pseudo-lignes de 50-80 car. (unités HIPE sans lignes ; écart déclaré) ; test 3 108 lignes / 49 groupes (propre 1 583, modéré 1 410, lourd 115) ; S0 test : CER 0,47 / 5,90 / 19,2 %, global 3,60 %. Seuils H1-H4 figés (postcorr/DECISIONS.md).
