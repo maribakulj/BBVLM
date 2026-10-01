@@ -384,3 +384,19 @@ Chaque entrée : source, apport, limite, conséquence pour BBVLM.
 - Apport : la ligne se découpe en trois bandes (hampes, corps d'x, jambages) repérées sur le profil de projection ; la segmentation en mots se fait sur l'encre du corps, les hampes/jambages débordant sur les lignes voisines. Motive W06 : dans le recalage à l'encre de W05, ne compter une colonne comme encrée que par les composantes connexes qui touchent la bande centrale de la boîte de ligne (25-80 % de la hauteur).
 - Diagnostic à l'origine (post hoc, pages O28) : actevedef et durrgeda (Fraktur dense) : bord gauche de nos mots −0,15/−0,17 hauteur de ligne, bord droit +0,05/+0,09 (pages réussies : ±0,00) ; sur l'image, nos boîtes s'étendent dans les blancs entre mots — la projection sur toute la hauteur de la boîte voit les jambages/hampes des lignes voisines et ne trouve pas de blanc.
 - Limite : manuscrit cursif ; seuils de bande fixés a priori, non réglés ; ponctuation basse (virgule) ou haute (apostrophe) isolée ignorée pour le recalage.
+
+## L51 — Clérice, « You Actually Look Twice At it (YALTAi): using an object detection approach instead of region segmentation within the Kraken engine », arXiv 2207.11230 (2022), JDMDH 2023
+- Apport : la mise en page traitée comme détection d'objets (YOLOv5, boîtes de zones SegmOnto) dépasse nettement la segmentation de régions de kraken sur petits jeux (≤ 1 110 images) ; jeux YALTAi-Tables et YALTAi-MSS-EPB (manuscrits et premiers imprimés, IXe-XVIIe s.) ; les lignes restent à kraken. Motive Y01/Y03 (zones par détecteur, kraken par zone).
+- Limite : zones SegmOnto (MainZone = colonne entière), pas la granularité paragraphe de la VT OCR-D ; poids non publiés sur un hôte accessible ici (GitHub 403) ; aucun modèle YOLO SegmOnto pour imprimés trouvé sur Hugging Face (recherche du 01/10).
+
+## L52 — Clérice et al., « Diachronic Document Dataset for Semantic Layout Analysis » (LADaS 2.0), arXiv 2411.10068 (2024) ; huggingface.co/datasets/almanach/LADaS
+- Apport : jeu SegmOnto étendu (sous-types), monographies BnF du XVIIe s. à aujourd'hui, entraîné avec YOLO ; montre que les détecteurs YOLO transfèrent mal entre périodes sans données de la période. Jeu accessible (HF 200) : base possible pour affiner un YOLO hors évaluation (GPU requis pour un entraînement raisonnable).
+- Limite : peu de Fraktur allemande ; pas de modèle publié trouvé ; ontologie à faire correspondre aux types PAGE de la VT.
+
+## L53 — Boillet, Kermorvant, Paquet, « Multiple Document Datasets Pre-training Improves Text Line Detection With Deep Neural Networks » (Doc-UFCN), ICPR 2020 ; modèle Teklia/doc-ufcn-generic-historical-line (HF)
+- Apport : réseau entièrement convolutif léger (Doc-UFCN) pré-entraîné sur plusieurs jeux historiques pour la détection de lignes ; modèle générique publié et accessible. Motive Y02 : ses lignes comme candidates supplémentaires de SR (le choix par score CTC garde la meilleure, régression peu probable par construction).
+- Limite : surtout manuscrits ; détecte des polygones de corps de ligne (pas les hampes) ; à recaler comme les lignes kraken (serre).
+
+## L54 — DocLayout-YOLO (Zhao et al., arXiv 2410.12628, 2024) et modèles YOLO DocLayNet (Pfitzmann et al., KDD 2022)
+- Apport : détecteurs YOLO de mise en page à la granularité du paragraphe (Text, Section-header, Page-header, Footnote, Table, Picture, Caption, List-item), proche des TextRegion de la VT ; poids accessibles sur HF (juliozhao/DocLayout-YOLO-*, Oblix/yolov10*-doclaynet ONNX). Motive Y01.
+- Limite : documents modernes nés numériques ; transfert aux imprimés anciens non démontré (L52).
