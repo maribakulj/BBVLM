@@ -15,6 +15,8 @@ def crochet(mod, args): CAP['pre_merger'] = args[0].detach().clone()
 def complete(img, f=32):
     """complément blanc à droite/en bas jusqu'à un multiple de 32 : transformation crop→entrée = identité (aucun ré-échantillonnage)"""
     W, H = img.size; W2, H2 = -(-W // f) * f, -(-H // f) * f
+    if W2 * H2 < 65536: H2 = -(-65536 // W2 // f) * f                       # minimum du processor (sinon agrandissement)
+    while W2 * H2 < 65536: H2 += f
     if (W2, H2) == (W, H): return img
     n = Image.new('RGB', (W2, H2), (255, 255, 255)); n.paste(img, (0, 0)); return n
 def entrees(img, texte):

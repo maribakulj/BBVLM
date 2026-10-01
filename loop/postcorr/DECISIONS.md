@@ -19,3 +19,9 @@
 ## 01/10 — B1 : S1 (canal bruité) réglé sur dev, mesuré une fois sur test
 - Grille sur dev (λ ∈ {0,3 ; 1 ; 2} × seuil ∈ {2, 5, 10, 20}) ; règle : CER global minimal avec dégradation de la strate propre < 1 % → **λ = 1, seuil = 20** (dev : 2,72 → 2,63 %, propre dégradée 0,6 %). Défaut (λ = 1, seuil 0) : 46 % de lignes dégradées.
 - Test (une seule évaluation) : global 3,603 → 3,498 % (réduction 2,9 %, IC95 [1,9 ; 3,9]) ; propre dégradation 0,38 % [0,13 ; 0,77] ; modéré −3,4 % [2,2 ; 4,5], dégradation 1,6 % ; lourd −1,5 %. 283 éditions utiles, 38 fausses. Coût : 6,6 s / 1 000 lignes CPU.
+
+## 01/10 — B1 : S5 (LLM décodeur, baseline non optimisée) sur échantillon stratifié de test
+- Échantillon figé : 150 lignes de test (50 par strate, graine 17, mélangées), 3 sous-agents Sonnet, consigne unique (corriger l'OCR sans moderniser ni reformuler, recopier si correct). Aucun réglage.
+- Résultats (même échantillon ; S1 entre crochets) : propre CER 0,37 → 0,53 % [0,35 %], **dégradation 18 % des lignes** [0 %] ; modéré 6,68 → 3,02 % (−55 %) [−5 %], dégradation 6 % ; lourd 19,1 → 10,9 % (−43 %) [−3 %], dégradation 14 %.
+- Lecture : confirme la prémisse du protocole (le LLM décodeur corrige beaucoup mais dégrade la strate propre : H2 attend S5 > 1 %, observé 18 %) ; montre aussi que S1 est très conservateur (gain faible). La cible de S2 est donc entre les deux : gains d'un LLM, innocuité de S1.
+- Gate B1 (« chiffres S0/S1/S5 reproductibles par une commande ») : S0/S1 oui (prepare.py, s1.py, mesure.py) ; S5 dépend d'appels LLM (sorties archivées, b0/s5_test.jsonl).

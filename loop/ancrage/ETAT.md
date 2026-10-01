@@ -21,8 +21,8 @@ Demande du mainteneur (01/10) : mettre en œuvre en autonomie `ancrage/PLAN.md` 
 | phase | contenu | gate | état |
 |---|---|---|---|
 | B0 ✓ | données (ICDAR 2017/2019 post-OCR FR, licences vérifiées), alignement, strates, S0, tests ; seuils H1-H4 figés dans postcorr/DECISIONS.md | statistiques produites, seuils figés | **fait 01/10** : HIPE-OCRepair FR (icdar2017 + impresso-snippets), re-découpage par groupe (fuite possible dans les splits HIPE), pseudo-lignes 50-80 car. ; test 3 108 lignes / 49 groupes (lourd 115) ; S0 test CER 3,60 % ; contrat + test aller-retour OK ; postcorr/DECISIONS.md |
-| B1 | S1 canal bruité (CPU), S5 LLM sur échantillon (sous-agents Claude) | chiffres reproductibles par une commande | à faire |
-| B2 | S2 étiqueteur, S3 ByT5 (CPU si faisable à petite échelle, sinon GPU) | go/no-go H1/H2 | — |
+| B1 ✓ | S1 canal bruité (CPU), S5 LLM sur échantillon (sous-agents Claude) | chiffres reproductibles par une commande | **fait 01/10** : S1 test −2,9 % CER, 0,4 % propres dégradées ; S5 (Sonnet, 150 lignes) −55 % modéré / −43 % lourd mais 18 % de propres dégradées |
+| B2 | S2 étiqueteur, S3 ByT5 (CPU si faisable à petite échelle, sinon GPU) | go/no-go H1/H2 | prochain (après E1 lancé) |
 | B3-B4 | S4, S6, rapport | verdicts H1-H4 | — |
 
 ## Prochaine étape

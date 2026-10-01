@@ -1296,3 +1296,8 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 - Revue : HIPE-OCRepair-2026 (ICDAR 2026, benchmark harmonisé EN/FR/DE XVIIe-XXe s., GT de test publiée) retenu ; ICDAR 2019 POCR (Zenodo 3515403) : FR1 manuscrits et FR3 tickets hors périmètre, FR2 (IMPACT BnF, 209 k car.) gardé comme test hors distribution ; ICDAR 2017 d'origine inaccessible (repris dans HIPE).
 - Splits HIPE icdar2017 : 21 identifiants de documents communs à train et test → re-découpage par groupe documentaire (aucune fuite possible).
 - Pseudo-lignes de 50-80 car. (unités HIPE sans lignes ; écart déclaré) ; test 3 108 lignes / 49 groupes (propre 1 583, modéré 1 410, lourd 115) ; S0 test : CER 0,47 / 5,90 / 19,2 %, global 3,60 %. Seuils H1-H4 figés (postcorr/DECISIONS.md).
+
+## 01/10 — Post-correction B1 : S1 (canal bruité) et S5 (LLM) mesurés
+- S1 (L56) réglé sur dev (λ = 1, seuil 20) ; test : −2,9 % CER [1,9 ; 3,9], 0,4 % de lignes propres dégradées ; 6,6 s / 1 000 lignes.
+- S5 (Sonnet, 150 lignes stratifiées) : −55 % modéré, −43 % lourd, mais 18 % des lignes propres dégradées. Prémisse du protocole confirmée. Détail postcorr/DECISIONS.md.
+- E0 : plantage au bloc 18 (crop < 65 536 px → le processor agrandit) ; complément blanc jusqu'au minimum, E0 relancé.
