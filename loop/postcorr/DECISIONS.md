@@ -15,3 +15,7 @@
 - **Seuils figés** (repris du protocole, inchangés) : H1 (modéré) S2 ≥ 80 % de la réduction de CER de S3, latence ≥ 5× inférieure, taux de dégradation ≤ celui de S3 ; H2 (propre) S2 et S6 dégradation < 1 %, S3 et S5 au-dessus ; H3 (lourd) S4 réduction > S2 et dégradation ≤ S2 + 2 points ; H4 S6 domine chaque système en CER global, coût/ligne < S3. Verdicts sur test, IC 95 % bootstrap par groupe (1 000 tirages, graine 17).
 - Puissance : strate lourde du test = 115 lignes / 20 groupes → H3 sera au mieux « non concluante » si les IC se chevauchent ; FR2 (ICDAR 2019) gardé comme second test hors distribution.
 - Ressources : pas de GPU → S3/S4 (ByT5) entraînés sur CPU à petite échelle (ByT5-small, budget de pas déclaré) ou reportés ; S5 = sous-agents Claude sur échantillon stratifié.
+
+## 01/10 — B1 : S1 (canal bruité) réglé sur dev, mesuré une fois sur test
+- Grille sur dev (λ ∈ {0,3 ; 1 ; 2} × seuil ∈ {2, 5, 10, 20}) ; règle : CER global minimal avec dégradation de la strate propre < 1 % → **λ = 1, seuil = 20** (dev : 2,72 → 2,63 %, propre dégradée 0,6 %). Défaut (λ = 1, seuil 0) : 46 % de lignes dégradées.
+- Test (une seule évaluation) : global 3,603 → 3,498 % (réduction 2,9 %, IC95 [1,9 ; 3,9]) ; propre dégradation 0,38 % [0,13 ; 0,77] ; modéré −3,4 % [2,2 ; 4,5], dégradation 1,6 % ; lourd −1,5 %. 283 éditions utiles, 38 fausses. Coût : 6,6 s / 1 000 lignes CPU.
