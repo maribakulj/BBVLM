@@ -12,13 +12,21 @@ def lignes_alto(p):
         t = ' '.join(s.get('CONTENT') for s in tl.iter(f'{{{ns}}}String'))
         x, y, w, h = (int(tl.get(k)) for k in ('HPOS', 'VPOS', 'WIDTH', 'HEIGHT')); out.append((t, (x, y, x + w, y + h)))
     return out
+def emboite(Z):
+    import os
+    if os.environ.get('Y01C') != '1': return Z
+    aire = lambda z: max(0, z[2]-z[0])*max(0, z[3]-z[1])
+    def dedans(a, b):
+        i = max(0, min(a[2], b[2])-max(a[0], b[0]))*max(0, min(a[3], b[3])-max(a[1], b[1]))
+        return aire(a) > 0 and i/aire(a) >= .9 and aire(b) > aire(a)
+    return [a for a in Z if not any(dedans(a, b) for b in Z if b is not a)]
 def zone(b, Z):
     cx, cy = (b[0] + b[2]) / 2, (b[1] + b[3]) / 2
     c = [(abs((z[2]-z[0])*(z[3]-z[1])), i) for i, z in enumerate(Z) if z[0] <= cx <= z[2] and z[1] <= cy <= z[3]]
     return min(c)[1] if c else None
 def variantes(d):
     L = [l for l in open(d + 'lu_a.txt', encoding='utf-8').read().splitlines()]
-    A = lignes_alto(d + 'page.alto.xml'); Z = [z['bbox'] for z in json.load(open(d + 'yolo_zones.json'))['zones']]
+    A = lignes_alto(d + 'page.alto.xml'); Z = emboite([z['bbox'] for z in json.load(open(d + 'yolo_zones.json'))['zones']])
     corps = [(k, ROLE.match(l.strip())) for k, l in enumerate(L) if l.strip() and not l.lower().startswith('#') and ROLE.match(l.strip())]
     if not corps: raise ValueError('lecture sans rôles')
     m = apparie([vue(mm.group(3), 'diplo') for _, mm in corps], [vue(t, 'diplo') for t, _ in A])

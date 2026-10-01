@@ -1281,3 +1281,7 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 - Mesure (CRITERE chaine2, série complète, etat_w06/) : dev O07-O17 32 → 33 (+1 = extraudeu, dû à R9 ; ancienne référence etat_s18), O18 4/4, O23 3/4, O24 2/4, O25 2/4 → **CRITERE 44/60 inchangé** ; iou_med : Δ par page ≥ 0 sur les 60 pages (médianes +0,002 à +0,017 par ensemble ; pire page dev 0,811 → 0,862) ; lignes en échec inchangées ; aucune régression.
 - Pages neuves : O28 durrgeda ✗ → ✓ (0,762 → 0,820), actevedef 0,742 → 0,802 (reste ✗ : 2 lignes) ; O27 backhart 0,775 → 0,777 (défaut différent : bord haut +0,13 h) ; O26 buchdiss −0,012 (seule baisse, 0,937 → 0,925).
 - Adoptée : gain sur une composante gelée du CRITERE (iou_med) sans aucune régression sur dev+écart. Reste à régénérer les ALTO finaux (vers_alto) et remesurer R02b.
+
+## 01/10 — Y01 (pré-segmentation en zones par YOLO DocLayNet, demande du mainteneur) : rejetée
+- Revue : L51 YALTAi (YOLO > kraken pour les régions historiques), L52 LADaS, L53 Doc-UFCN, L54 DocLayout-YOLO/DocLayNet. Aucun YOLO SegmOnto pour imprimés accessible ; HF accessible ce jour (200), GitHub 403.
+- Détecteur YOLO26-L DocLayNet, aucun réglage ; Y01a 32/56 pages F1 régions = 1 (base 31) mais 4 baisses ; Y01b pire ; Y01c (zones emboîtées supprimées, amendement après lecture) 33/56 sans baisse sur dev, mais validation O26-O28 2 baisses (fiscfrie 1,00 → 0,66). Non adoptée. Détail y01/RESULTATS.md.
