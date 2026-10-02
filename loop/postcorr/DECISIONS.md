@@ -31,3 +31,8 @@
 - Aller-retour étiquettes → texte vérifié : 0 erreur sur 17 117 lignes.
 - Entraînement : 3 époques, AdamW lr 5e-5, lots de 32, graine 17, CPU (2 fils, en parallèle d'E0) ; aucun réglage sur test.
 - Inférence : étiquette argmax appliquée si probabilité ≥ seuil, jusqu'à 3 passes itératives ; **seuil choisi sur dev** dans {0,5 ; 0,7 ; 0,9 ; 0,95 ; 0,99} par la même règle que S1 (CER global minimal avec < 1 % de lignes propres dégradées) ; test évalué une fois.
+
+## 02/10 — B2 : protocole S3 figé avant entraînement
+- ByT5-small (google/byt5-small, révision 68377bdc), affiné OCR → GT sur les pseudo-lignes train ; **2 époques** (budget CPU déclaré), AdamW 3e-4, lots de 16, troncature 256 octets, graine 17 ; reprise par époque.
+- Décodage glouton (beam 1), max_new_tokens = 1,3 × longueur d'entrée + 8. Pas de seuil à régler pour S3 (système libre) ; test évalué une fois ; coût mesuré.
+- S4 (contraint) : réutilise S3 ; budget d'édition réglé sur dev (protocole S4 figé avant sa mesure).
