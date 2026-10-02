@@ -22,10 +22,13 @@ Demande du mainteneur (01/10) : mettre en œuvre en autonomie `ancrage/PLAN.md` 
 |---|---|---|---|
 | B0 ✓ | données (ICDAR 2017/2019 post-OCR FR, licences vérifiées), alignement, strates, S0, tests ; seuils H1-H4 figés dans postcorr/DECISIONS.md | statistiques produites, seuils figés | **fait 01/10** : HIPE-OCRepair FR (icdar2017 + impresso-snippets), re-découpage par groupe (fuite possible dans les splits HIPE), pseudo-lignes 50-80 car. ; test 3 108 lignes / 49 groupes (lourd 115) ; S0 test CER 3,60 % ; contrat + test aller-retour OK ; postcorr/DECISIONS.md |
 | B1 ✓ | S1 canal bruité (CPU), S5 LLM sur échantillon (sous-agents Claude) | chiffres reproductibles par une commande | **fait 01/10** : S1 test −2,9 % CER, 0,4 % propres dégradées ; S5 (Sonnet, 150 lignes) −55 % modéré / −43 % lourd mais 18 % de propres dégradées |
-| B2 | S2 étiqueteur, S3 ByT5 (CPU si faisable à petite échelle, sinon GPU) | go/no-go H1/H2 | prochain (après E1 lancé) |
-| B3-B4 | S4, S6, rapport | verdicts H1-H4 | — |
+| B2 ✓ | S2 étiqueteur, S3 ByT5 (CPU si faisable à petite échelle, sinon GPU) | go/no-go H1/H2 | **fait** : H1 infirmée (S2 = 35 % du gain de S3), H2 confirmée (S2/S6 0,13 % de propres dégradées) |
+| B3-B4 ✓ | S4, S6, rapport | verdicts H1-H4 | **fait 02/10** : H3 infirmée (S4 dégrade 19 % des lourdes), H4 infirmée (S6 −13,1 % < S4 −23,6 %) ; postcorr/RAPPORT.md |
 
 ## Prochaine étape
+- **Les deux chantiers sont terminés** (02/10) : ancrage arrêté au gate E1 (non-go à l'échelle CPU) ; post-correction menée jusqu'au rapport (H1 infirmée, H2 confirmée, H3 et H4 infirmées). Tout ce qui reste exige un GPU (LoRA/entraînement conjoint pour l'ancrage ; ByT5-base, n-best, bruit synthétique pour la post-correction) ou une décision du mainteneur (contrainte anti-normalisation des césures pour S3/S4 ; seconde série de sondes E1 sur train complet).
+
+## Prochaine étape (avant le 02/10)
 - Chantier A **arrêté** au gate E1 (non-go à l'échelle CPU) ; reprise possible seulement avec GPU (LoRA, sonde initialisée par les têtes de localisation, prédiction de frontières).
 - Chantier B : reprendre S2 (époque 3), régler le seuil sur dev, test ; puis S3 (ByT5-small) si faisable sur CPU.
 

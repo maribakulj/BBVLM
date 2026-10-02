@@ -1323,3 +1323,8 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 
 ## 02/10 — Post-correction : S2 (étiqueteur CANINE) mesuré
 - Seuil 0,9 réglé sur dev ; test : CER −8,6 % [5,9 ; 13,3], 0,13 % de lignes dégradées (4 éditions fausses / 725 utiles), 125 s / 1 000 lignes. H2 côté S2 tenue ; H1 attend S3 (ByT5-small, entraînement CPU en cours).
+
+## 02/10 — Post-correction : S3, S4, S6 mesurés ; verdicts H1-H4 ; rapport
+- Test : S3 −20,2 % (5,1 % de propres dégradées) ; S4 −23,6 % (5,1 %) ; S6 −13,1 % (0,13 %) ; rappel S2 −8,6 % (0,13 %), S1 −2,9 %.
+- H1 infirmée, H2 confirmée, H3 infirmée (dégradation), H4 infirmée. 28 % des dégradations de S3 = suppression de traits d'union de césure (normalisation indue). Rapport postcorr/RAPPORT.md, exemples postcorr/EXEMPLES.md.
+- Les deux chantiers sont clos à ce stade ; la suite exige un GPU ou une décision du mainteneur.
