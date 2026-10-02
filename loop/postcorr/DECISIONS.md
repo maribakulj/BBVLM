@@ -46,3 +46,7 @@
 ## 02/10 — B3 : protocoles S4 et S6 figés (avant toute mesure de S3)
 - **S4 (ByT5 contraint)** : sortie de S3 réalignée sur l'entrée (contrat.editions) ; rejet (retour à l'entrée) si distance d'édition(entrée, sortie) > ⌈β × CER_estimé × longueur⌉ + 1, CER_estimé = sortie du régresseur S6 ; β ∈ {1 ; 1,5 ; 2 ; 3} réglé sur dev (règle : CER global minimal avec dégradation de la strate propre ≤ celle de S2 + 2 points, cf. H3). Variante n-best : non réalisée (coût CPU), déclarée.
 - **S6 (routeur)** : estimateur de CER par ligne = régression (tête linéaire + sigmoïde, perte L1) sur la moyenne des états de l'encodeur CANINE de S2 (gelé), entraînée sur train ; strates prédites avec les seuils 2 % / 15 % ; propre → S0, modéré → S2, lourd → S4. Rapport : Spearman avec le CER réel et matrice de confusion des strates (test). Seuils de routage éventuellement ajustés sur dev (grille ±50 %).
+
+## 02/10 — B3 : estimateur de CER (S6) entraîné
+- Régression linéaire + sigmoïde sur la moyenne des états CANINE de S2 (gelé), L1, 200 époques, meilleur dev retenu.
+- Dev : Spearman 0,696, MAE 0,017 ; test : Spearman 0,748, MAE 0,019. Strates prédites (test, réel → prédit) : propre 1 437 / 145 / 1 ; modéré 488 / 900 / 22 ; lourd 2 / 66 / 47. Lecture : les lignes propres sont bien reconnues (91 %), mais 35 % des modérées sont prises pour propres (elles iront à S0 et perdront la correction de S2) et 57 % des lourdes pour modérées.
