@@ -31,3 +31,6 @@ Référence : CONTRAT.md v1. Échelle CPU (écart déclaré au plan : Phase A se
 
 ## Amendement 4 (02/10, avant toute sonde)
 - OOM fp32 au bloc 529 (attention « eager » de la tour visuelle sur un grand bloc). La tour visuelle passe en sdpa (le décodeur reste « eager » pour les têtes G1a). Contrôle sur un bloc ré-extrait : écarts au niveau de l'arrondi fp16 du stockage (états 0,008 pour des valeurs ≈ 95 ; carte fine 1,0 pour ≈ 2 300), boîtes G1a identiques → caractéristiques homogènes.
+
+## Amendement 5 (02/10, avant toute sonde)
+- Second OOM fp32 sur un bloc de train de ≈ 12 000 patches (page de titre, 192 caractères). Règle : **blocs de train > 6 000 patches exclus de l'extraction** (10 blocs sur 1 944, limite mémoire CPU), comptés ; test et dev déjà entièrement extraits (évaluation inchangée).

@@ -84,6 +84,8 @@ def main():
             if part and m['partition'] != part: continue
             f = f'{out}/{bid}.npz'
             if os.path.exists(f): continue
+            x0, y0, x1, y1 = m['crop']
+            if m['partition'] == 'train' and (x1 - x0) * (y1 - y0) // 256 > 6000: print(bid, 'exclu (>6000 patches)', flush=True); continue
             t0 = time.time(); fine, etats, attn, thw = passe(m, a1); gh, gw = thw[1] // 2, thw[2] // 2
             carte = np.mean([attn[l].numpy()[h] for l, h in T], 0)               # (mots, cellules)
             g1a = np.array([boite_g1a(carte[k], gh, gw) for k in range(len(m['occurrences']))], dtype=np.int32)
