@@ -28,3 +28,6 @@ Référence : CONTRAT.md v1. Échelle CPU (écart déclaré au plan : Phase A se
 
 ## Amendement 3 (02/10, avant toute sonde)
 - Après redémarrage, le conteneur tourne sur un hôte sans AMX/AVX512-BF16 : bf16 émulé ≈ 25-30 s/bloc, fp32 ≈ 8 s/bloc. Pour des caractéristiques homogènes entre train, dev et test, **toutes les caractéristiques E1 sont ré-extraites en fp32** (dossier e1f) ; les 238 blocs bf16 sont écartés ; G1a est re-mesuré sur les caractéristiques fp32 (le résultat bf16 du 02/10 reste au journal, à titre indicatif). Mêmes têtes et même ACP (calculées en bf16 sur debug64, figées).
+
+## Amendement 4 (02/10, avant toute sonde)
+- OOM fp32 au bloc 529 (attention « eager » de la tour visuelle sur un grand bloc). La tour visuelle passe en sdpa (le décodeur reste « eager » pour les têtes G1a). Contrôle sur un bloc ré-extrait : écarts au niveau de l'arrondi fp16 du stockage (états 0,008 pour des valeurs ≈ 95 ; carte fine 1,0 pour ≈ 2 300), boîtes G1a identiques → caractéristiques homogènes.

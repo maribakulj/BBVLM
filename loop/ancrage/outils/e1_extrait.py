@@ -11,7 +11,7 @@ Q = '/tmp/claude-0/-home-user-BBVLM/84210bd8-ec20-5b45-a7f8-f35608b01c8d/scratch
 COUCHES = (14, 28)
 torch.manual_seed(17); torch.set_num_threads(int(os.environ.get('FILS', '4')))
 proc = AutoProcessor.from_pretrained(Q)
-model = Qwen3VLForConditionalGeneration.from_pretrained(Q, dtype=getattr(torch, os.environ.get('DTYPE', 'bfloat16')), attn_implementation='eager').eval()
+model = Qwen3VLForConditionalGeneration.from_pretrained(Q, dtype=getattr(torch, os.environ.get('DTYPE', 'bfloat16')), attn_implementation={'text_config': 'eager', 'vision_config': 'sdpa', '': 'eager'}).eval()
 IMG = model.config.image_token_id
 CAP = {}
 def pre_merger(mod, args): CAP['fine'] = args[0].detach()
