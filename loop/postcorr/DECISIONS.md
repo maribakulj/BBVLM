@@ -50,3 +50,8 @@
 ## 02/10 — B3 : estimateur de CER (S6) entraîné
 - Régression linéaire + sigmoïde sur la moyenne des états CANINE de S2 (gelé), L1, 200 époques, meilleur dev retenu.
 - Dev : Spearman 0,696, MAE 0,017 ; test : Spearman 0,748, MAE 0,019. Strates prédites (test, réel → prédit) : propre 1 437 / 145 / 1 ; modéré 488 / 900 / 22 ; lourd 2 / 66 / 47. Lecture : les lignes propres sont bien reconnues (91 %), mais 35 % des modérées sont prises pour propres (elles iront à S0 et perdront la correction de S2) et 57 % des lourdes pour modérées.
+
+## 02/10 — B3 : réglages sur dev (S4, S6), avant toute mesure test de S3/S4/S6
+- S3 dev (sorties complètes ; une première mesure sur un fichier incomplet a été écartée) : global 2,72 → 2,00 % (−26 %), modéré −27 %, lourd −33 %, **8,2 % de lignes propres dégradées**.
+- S4 dev : β = 1 → 1,99 % (rejet 2,5 %) ; 1,5 → 1,93 % ; **2 → 1,91 %** ; 3 → 1,91 % ; dégradation propre 8,2 % pour tous les β : la contrainte figée (≤ S2 + 2 points = 2,5 %) est **infaisable** — le budget d'édition (estimé × longueur + 1) laisse passer les petites retouches de S3 sur les lignes propres. Retenu β = 2 (CER minimal), infaisabilité déclarée.
+- S6 dev (grille t1 ∈ {1, 2, 3 %} × t2 ∈ {7,5 ; 15 ; 22,5 %}) : **t1 = 1 %, t2 = 7,5 %** → 2,14 %, propre dégradée 0,5 % (CER minimal, < 1 %). Le routeur ne bat pas S3 (2,00 %) ni S4 (1,91 %) en CER global sur dev.
