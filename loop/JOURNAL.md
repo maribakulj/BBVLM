@@ -1320,3 +1320,6 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 ## 02/10 — E1 : G2 mesurée ; gate E1 = non-go à l'échelle CPU (chantier ancrage arrêté)
 - G2 (carte fine, couche 14) test : 0/9, ≤ 0,5 c 33,5 %, iou_med 0,316 ; G2 − G1 = +0,013 d'IoU [0,001 ; 0,020], sous la marge de +0,02.
 - H1 non tenue (0 œuvre à iou ≥ 0,8), H2 non tenue → non-go contre G0 (7/9, 0,898). Rapport ancrage/E1_RESULTATS.md. La suite (LoRA, entraînement conjoint) exige un GPU.
+
+## 02/10 — Post-correction : S2 (étiqueteur CANINE) mesuré
+- Seuil 0,9 réglé sur dev ; test : CER −8,6 % [5,9 ; 13,3], 0,13 % de lignes dégradées (4 éditions fausses / 725 utiles), 125 s / 1 000 lignes. H2 côté S2 tenue ; H1 attend S3 (ByT5-small, entraînement CPU en cours).

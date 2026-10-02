@@ -36,3 +36,9 @@
 - ByT5-small (google/byt5-small, révision 68377bdc), affiné OCR → GT sur les pseudo-lignes train ; **2 époques** (budget CPU déclaré), AdamW 3e-4, lots de 16, troncature 256 octets, graine 17 ; reprise par époque.
 - Décodage glouton (beam 1), max_new_tokens = 1,3 × longueur d'entrée + 8. Pas de seuil à régler pour S3 (système libre) ; test évalué une fois ; coût mesuré.
 - S4 (contraint) : réutilise S3 ; budget d'édition réglé sur dev (protocole S4 figé avant sa mesure).
+
+## 02/10 — B2 : S2 réglé sur dev, mesuré une fois sur test
+- Entraînement : 3 époques (reprise après redémarrages et pause pour E1), vocabulaire 76 étiquettes (couverture 95,05 %).
+- Seuil sur dev : 0,5 → 2,17 % mais 13,8 % de propres dégradées ; 0,7 → 2,10 % / 2,4 % ; **0,9 → 2,30 % / 0,5 %** (retenu) ; 0,95 → 2,42 % ; 0,99 → 2,65 %.
+- Test : global 3,603 → 3,294 % (**−8,6 %**, IC95 [5,9 ; 13,3]) ; propre −10,1 %, dégradation 0,13 % [0 ; 0,42] ; modéré −8,8 %, dégradation 0,14 % ; lourd −7,0 %, 0 dégradation ; 725 éditions utiles, 4 fausses. Coût : 125 s / 1 000 lignes (CPU, 2 fils).
+- Lecture : S2 tient la contrainte H2 (dégradation < 1 % sur la strate propre) avec une marge large ; son gain reste loin de S5 sur le bruit modéré (−8,8 % contre −55 % sur l'échantillon) : la couverture du vocabulaire (95 % des éditions, opérations de 1-2 caractères) et le seuil conservateur limitent la portée.
