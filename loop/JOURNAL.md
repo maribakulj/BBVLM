@@ -1310,3 +1310,9 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 ## 02/10 — E1 : G1a (têtes de localisation, sans entraînement) sur test
 - Redémarrage du conteneur (processus tués) : extraction reprise (212 blocs faits), S2 repris à l'époque 1 (reprise par époque ajoutée ; mélange par époque graine 17+ep — écart déclaré).
 - G1a test (178 blocs, 6 059 mots) : 0/9 œuvres au CRITERE ; ≤ 0,5 c 48,0 % ; erreur de frontière médiane 0,55 c, p90 2,9 c, max 30 c ; iou_med 0,221. Lecture : l'attention de 8 têtes trouve le voisinage du mot (médiane ≈ ½ caractère) mais la boîte par seuil sur des cellules de 32 px est très grossière. G1a n'est pas compétitif ; il sert de plancher pour G1/G2.
+
+## 02/10 — E1 : G1 (sonde sur états du décodeur) mesurée
+- Extraction fp32 : 1 076 blocs (test 178, dev 271, train 627 ; blocs > 6 000 patches exclus) ; incidents : 2 OOM (amendements 4-5), redémarrages du conteneur.
+- G1a re-mesuré en fp32 : identique au bf16 (0/9, ≤ 0,5 c 47,9 %, iou 0,221).
+- G1, 600 blocs train (ordre sha256), choix de couche sur dev : couche 14 iou_med dev 0,323 contre couche 28 0,052 (la dernière couche a perdu la géométrie). G1-14 test : 0/9 œuvres au CRITERE, ≤ 0,5 c 32,8 %, frontière médiane 1,02 c, iou_med 0,303 (dev 0/12, 34,1 %, 0,323).
+- G2 (carte fine) en cours.

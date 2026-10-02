@@ -6,9 +6,13 @@ import numpy as np, torch, torch.nn as nn
 torch.manual_seed(17); random.seed(17); np.random.seed(17); torch.set_num_threads(int(os.environ.get('FILS', '4')))
 a1, fd, bras, couche, out = sys.argv[1], sys.argv[2], sys.argv[3], int(sys.argv[4]), sys.argv[5]; os.makedirs(out, exist_ok=True)
 M = [json.loads(l) for l in open(a1 + '/manifest.jsonl', encoding='utf-8')]
+import hashlib
+NT = int(os.environ.get('N_TRAIN', '600'))
+TRAIN_OK = set(sorted([m['id'] for m in M if m['partition'] == 'train' and os.path.exists(f"{fd}/{m['id']}.npz")], key=lambda b: hashlib.sha256(b.encode()).hexdigest())[:NT])
 def charge(part):
     D = []
     for m in M:
+        if part == 'train' and m['id'] not in TRAIN_OK: continue
         if m['partition'] != part or not os.path.exists(f"{fd}/{m['id']}.npz"): continue
         z = np.load(f"{fd}/{m['id']}.npz"); x0, y0, x1, y1 = m['crop']; W, H = x1 - x0, y1 - y0
         gh, gw = z['grille'].tolist(); Wp, Hp = gw * 16, gh * 16                  # entrée complétée (repère crop, origine commune)
