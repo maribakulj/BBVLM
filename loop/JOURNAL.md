@@ -1316,3 +1316,7 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 - G1a re-mesuré en fp32 : identique au bf16 (0/9, ≤ 0,5 c 47,9 %, iou 0,221).
 - G1, 600 blocs train (ordre sha256), choix de couche sur dev : couche 14 iou_med dev 0,323 contre couche 28 0,052 (la dernière couche a perdu la géométrie). G1-14 test : 0/9 œuvres au CRITERE, ≤ 0,5 c 32,8 %, frontière médiane 1,02 c, iou_med 0,303 (dev 0/12, 34,1 %, 0,323).
 - G2 (carte fine) en cours.
+
+## 02/10 — E1 : G2 mesurée ; gate E1 = non-go à l'échelle CPU (chantier ancrage arrêté)
+- G2 (carte fine, couche 14) test : 0/9, ≤ 0,5 c 33,5 %, iou_med 0,316 ; G2 − G1 = +0,013 d'IoU [0,001 ; 0,020], sous la marge de +0,02.
+- H1 non tenue (0 œuvre à iou ≥ 0,8), H2 non tenue → non-go contre G0 (7/9, 0,898). Rapport ancrage/E1_RESULTATS.md. La suite (LoRA, entraînement conjoint) exige un GPU.
