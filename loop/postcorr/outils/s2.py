@@ -48,10 +48,15 @@ def entraine(lignes, dossier, K_cov=0.95, epoques=3, lr=5e-5, bs=32, graine=17):
     couv = sum(c for l, c in cnt.items() if l in idx) / tot
     os.makedirs(dossier, exist_ok=True); json.dump({'vocabulaire': voc, 'couverture': couv, 'editions_train': tot}, open(dossier + '/voc.json', 'w'), ensure_ascii=False)
     print('vocabulaire', len(voc), 'couverture', round(couv, 4), flush=True)
-    mod = Etiqueteur(len(voc)); opt = torch.optim.AdamW(mod.parameters(), lr=lr)
+    mod = Etiqueteur(len(voc)); debut = 0
+    if os.path.exists(dossier + '/epoques.json'):                     # reprise après redémarrage du conteneur
+        debut = json.load(open(dossier + '/epoques.json'))['faites']
+        mod.enc = CanineModel.from_pretrained(dossier + '/enc'); mod.tete.load_state_dict(torch.load(dossier + '/tete.pt'))
+        print('reprise à l époque', debut, flush=True)
+    opt = torch.optim.AdamW(mod.parameters(), lr=lr)
     ordre = list(range(len(tr))); t0 = time.time(); pas = 0
-    for ep in range(epoques):
-        random.shuffle(ordre); mod.train()
+    for ep in range(debut, epoques):
+        random.Random(graine + ep).shuffle(ordre); mod.train()
         for k in range(0, len(ordre), bs):
             B = ordre[k:k + bs]; ids, m = lot([tr[i]['ocr'] for i in B]); n = ids.shape[1]
             y = torch.full((len(B), n), -100, dtype=torch.long)
@@ -61,6 +66,7 @@ def entraine(lignes, dossier, K_cov=0.95, epoques=3, lr=5e-5, bs=32, graine=17):
             opt.zero_grad(); loss.backward(); opt.step(); pas += 1
             if pas % 50 == 0: print(f'ep {ep} pas {pas} perte {loss.item():.4f} {time.time() - t0:.0f}s', flush=True)
         torch.save(mod.tete.state_dict(), dossier + '/tete.pt'); mod.enc.save_pretrained(dossier + '/enc')
+        json.dump({'faites': ep + 1}, open(dossier + '/epoques.json', 'w'))
     json.dump({'pas': pas, 's_entrainement': round(time.time() - t0)}, open(dossier + '/entrainement.json', 'w'))
 def predit(lignes, dossier, part, seuil, sortie, passes=3, bs=64):
     torch.set_num_threads(int(os.environ.get('FILS', '4')))
