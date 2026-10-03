@@ -1355,3 +1355,6 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 
 ## 03/10 — S21b (serrage vertical des seules boîtes > 1,5 × hauteur médiane) : adoptée
 - CRITERE (etat_s21b/) : dev + écart 44 → **45**/60 (AusdeErb O24 ✗ → ✓, ligne quasi trouvée récupérée), aucune autre page modifiée (✓, lignes en échec, iou à ± 0,01) ; pages neuves 3/12 inchangées (actevedef : ses lignes quasi trouvées ne dépassent pas le seuil de hauteur). BBVLM_S21 par défaut « haut ».
+
+## 03/10 — R02c : recherche sur ALTO régénérés (sr6)
+- ALTO régénérés pour 72 pages avec la chaîne courante (W06, R9, S21b ; cache W05 reconstitué). R02b : dev + écart médiane 0,975 → 0,979, ≥ 0,95 50 → 50 (10 hausses, caladr 0,970 → 0,939) ; 12 pages neuves : médiane 0,972, 8/12 ≥ 0,95. Détail r02c/.
