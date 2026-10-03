@@ -1352,3 +1352,6 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 
 ## 03/10 — S21b : protocole (figé avant mesure)
 - S21b (BBVLM_S21=haut) : serre_v appliqué seulement aux boîtes de ligne plus hautes que 1,5 × la hauteur médiane des lignes de la page (seuil fixé a priori ; la ligne quasi trouvée d'actevedef : 99 px contre ≈ 46). Même règle d'adoption que S21 (aucune page dev+écart qui perd ✓, ✓ en hausse ou égal, iou_med −0,01 au plus par page) ; référence etat_w06.
+
+## 03/10 — S21b (serrage vertical des seules boîtes > 1,5 × hauteur médiane) : adoptée
+- CRITERE (etat_s21b/) : dev + écart 44 → **45**/60 (AusdeErb O24 ✗ → ✓, ligne quasi trouvée récupérée), aucune autre page modifiée (✓, lignes en échec, iou à ± 0,01) ; pages neuves 3/12 inchangées (actevedef : ses lignes quasi trouvées ne dépassent pas le seuil de hauteur). BBVLM_S21 par défaut « haut ».
