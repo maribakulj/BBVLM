@@ -166,6 +166,11 @@ def lignes_page(dossier, lignes, roles=None, ecr='fraktur'):
         from sr import detache
         _g18 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)
         kr = [{**l, 'bbox': detache(_g18, l['bbox']), **({'bbox_g04': detache(_g18, l['bbox_g04'])} if 'bbox_g04' in l else {})} for l in kr]
+    if os.environ.get('BBVLM_S21', '0') == '1':
+        # S21 : borne verticale par les composantes qui touchent le cœur de la ligne (lignes voisines exclues)
+        from sr import serre_v
+        _g21 = _g18 if os.environ.get('BBVLM_S18', '1') == '1' else __import__('cv2').imread(dossier + '/page.png', 0)
+        kr = [{**l, 'bbox': serre_v(_g21, l['bbox']), **({'bbox_g04': serre_v(_g21, l['bbox_g04'])} if 'bbox_g04' in l else {})} for l in kr]
     if os.environ.get('BBVLM_S14', '1') == '1':      # S14 : lettrine rattachée à sa ligne (appliquée si le mot lu commence par deux capitales)
         from lettrine import detecte
         g0 = cv2.imread(f'{dossier}/page.png', cv2.IMREAD_GRAYSCALE)

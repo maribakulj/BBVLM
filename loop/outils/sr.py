@@ -231,6 +231,32 @@ def choisit(gray, textes, boites, tau=4.5, dossier=None):
     return res
 
 
+def serre_v(gray, b):
+    """S21 (L50 au vertical) : borne verticale de la ligne = encre des composantes connexes qui touchent
+    son cœur (suite de rangées la plus dense, ≥ 0,5 × max du profil) ; la boîte ne peut que rétrécir"""
+    import cv2, numpy as np
+    x0, y0, x1, y1 = [int(v) for v in b]
+    H, W = gray.shape
+    Y0, X0 = max(0, y0), max(0, x0)
+    c = gray[Y0:min(H, y1 + 1), X0:min(W, x1 + 1)]
+    if c.shape[0] < 8 or c.shape[1] < 8: return list(b)
+    bw = (c < cv2.threshold(c, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[0]).astype(np.uint8)
+    r = bw.sum(1); m = int(r.argmax())
+    if r[m] == 0: return list(b)
+    a = m
+    while a > 0 and r[a - 1] >= .5 * r[m]: a -= 1
+    z = m
+    while z < len(r) - 1 and r[z + 1] >= .5 * r[m]: z += 1
+    n, lab, st, _ = cv2.connectedComponentsWithStats(bw, connectivity=8)
+    haut, bas = None, None
+    for i in range(1, n):
+        t, h = st[i, cv2.CC_STAT_TOP], st[i, cv2.CC_STAT_HEIGHT]
+        if t <= z and t + h - 1 >= a and st[i, cv2.CC_STAT_AREA] >= 4:
+            haut = t if haut is None else min(haut, t); bas = t + h - 1 if bas is None else max(bas, t + h - 1)
+    if haut is None: return list(b)
+    return [x0, Y0 + int(haut), x1, Y0 + int(bas)]
+
+
 def detache(gray, b, masse=15):
     """S18 : retire en haut et en bas de la boîte les groupes de rangées d'encre détachés
     (séparés du corps par au moins une rangée blanche) dont la masse totale est < `masse` px :

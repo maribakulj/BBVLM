@@ -1341,3 +1341,7 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 ## 03/10 — Lignes manquées : inventaire des 15 lignes VT sans ligne candidate (72 pages, état W06)
 - 5 **quasi trouvées** (IoU 0,41-0,49 avec la meilleure candidate : AusdeErb, 852691769 ×2, actevedef ×2) → défaut de boîte, pas de détection ; 3 **verticales** (titres de classes 852691769) ; 2 **titres d'apparat géants** (durrgeda, h ≈ 430 px) ; 5 **petites lignes isolées** (signature DasWeL, manchette herbdulc, « & inſuper », « 2. — 6. », sentence culmsent).
 - Conséquence : pas de détecteur à entraîner (classes rares, pas de lignes de base dans la VT) ; piste CPU immédiate = les 5 quasi trouvées (examen visuel, puis hypothèse).
+
+## 03/10 — S21 : protocole (figé avant mesure)
+- Diagnostic (actevedef, O28 → post hoc pour cette page) : la boîte de ligne candidate englobe le haut de la ligne voisine (y 410-509 contre VT 432-478, IoU 0,46). S21 (sr.serre_v, BBVLM_S21) : bornes verticales = encre des composantes connexes qui touchent le cœur de la ligne (suite de rangées ≥ 0,5 × max du profil) ; la boîte ne peut que rétrécir ; appliquée après S18 dans vers_alto.lignes_page. Test unitaire : 0,46 → 0,80.
+- H-S21 : sur dev + écart (60 pages), CRITERE ✓ en hausse ou égal **et** aucune page qui perd ✓ **et** iou_med non dégradée de plus de 0,01 sur aucune page ; validation sur O26-O28 (actevedef post hoc, rapporté à part). Référence : etat_w06.
