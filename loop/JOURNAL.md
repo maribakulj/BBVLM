@@ -1331,3 +1331,9 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 
 ## 03/10 — Recentrage : post-correction déplacée vers hans ; retour à la boucle BBVLM
 - Le mainteneur rappelle que la post-correction relève de Hans/Saknussemm et que le but de BBVLM est l'OCR patrimonial de bout en bout (transcription SOTA ≈ 0 % de CER + ALTO). loop/postcorr/ déplacé vers maribakulj/hans (branche experiments/postcorr-v0) ; pointeur loop/POSTCORR_DEPLACE.md.
+
+## 03/10 — Diagnostic : d'où viennent les échecs CRITERE ? (décision « localiseur entraîné sur GPU »)
+- outils/causes_critere.py sur l'état courant (etat_w06, 72 pages) : chaque page en échec classée par cause — **texte** (notre nombre de mots ≠ VT : blancs, conventions), **lignes** (ligne VT sans ligne candidate à IoU ≥ 0,5), **géométrie** (≤ 0,5 c < 95 %, pire > 3 c ou iou_med < 0,8).
+- Dev + écart (60) : 44 ✓ ; échecs = texte 9, lignes 4, texte+lignes 1, texte+géométrie 1, **géométrie seule 1** (branchri, pire 3,48 c). Lignes en échec : 15 texte, 9 sans ligne.
+- Pages neuves O26-O28 (12) : 3 ✓ ; échecs = texte 3, lignes 2, géométrie seule 1 (buchdiss, pire 4,4 c), texte+lignes 1, texte+géométrie 1 (backhart iou 0,777), lignes+géométrie 1 (actevedef). Lignes en échec : 5 texte, 6 sans ligne.
+- Conclusion : un meilleur **aligneur de mots** ne peut récupérer au mieux que 1 page dev et 1-3 pages neuves (les autres causes restant) ; un meilleur **détecteur de lignes** jusqu'à 4-5 pages dev et 2-4 neuves ; la cause dominante (texte : blancs et conventions VT) n'est corrigeable par aucun localiseur. Pas d'achat de GPU pour un aligneur ; détecteur de lignes à tenter d'abord sur CPU (candidates SR, affinage kraken blla sur OCR-D GT hors évaluation).
