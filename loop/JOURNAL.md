@@ -1362,3 +1362,7 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 ## 03/10 — Cause « texte » des échecs CRITERE : inventaire des 24 lignes (nombre de mots lu ≠ VT, 72 pages)
 - ≈ 8 **erreurs ou découpages de la VT** (« a euo » pour aeuo, « adi piſcitur », « exalio », « inar u- », mots absents de la VT chez hermhyst et 688357687) ; ≈ 7 **conventions** (« * * * »/« *** », « macht! *) »/« macht!*) » ×2, « hab 's », « nimmt ⸗ » ×2 dans la VT, « v. c. »/« v.c. ») ; ≈ 5 **vraies fautes de blancs** de la lecture (soudures « Glaͤubigetragen », « ihmviel », « VerboDEI » ; coupure « traher e ») ; le reste = fusions de lignes (852691769, hermhyst).
 - Conséquence : la plupart des échecs « texte » ne sont pas des fautes ; les vraies fautes de blancs (≈ 5 lignes sur 72 pages) ont déjà résisté à S10, T05-T08 (vérification par l'encre, relectures ciblées, signaux Calamari/Tesseract — tous négatifs). Les conventions varient selon le livre (« *) » collé chez fiscfrie, espacé chez BiedBern) : R7/R8 restent non adoptées faute de règle générale.
+
+## 03/10 — OLR sur O28 (lecture A, consigne P6e, aucune nouvelle lecture)
+- actevedef : rôle 1,00, F1 régions 1,00, ordre 0,99 ; albedm : rôle 0,97, F1 1,00, ordre 0,83 ; durrgeda : rôle 1,00, F1 0,88 (une région lue en trop), ordre 1,00 ; eberbrev : 1,00 / 1,00 / 1,00.
+- Cumul pages neuves O26-O28 (12) : rôle ≥ 0,97 sur 12/12 (1,00 sur 10), F1 régions 1,00 sur 8/12.
