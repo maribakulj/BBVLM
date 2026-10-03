@@ -1349,3 +1349,6 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 ## 03/10 — S21 (serrage vertical des lignes) : rejetée
 - CRITERE (etat_s21/) : dev + écart 44 → **39**/60 (gain AusdeErb ; pertes AphoqvSuS?, berirev, herrkurt, chridiss, aepidisp, baurodwe, buchdas ×1 lignes en échec chacune ; hackherz 2 → 5) ; pages neuves 3 → **1**/12 (durrgeda : pire 0,26 → 14,8 c ; actevedef 2 → 4 lignes en échec malgré la ligne quasi trouvée récupérée). H-S21 rejetée, BBVLM_S21 reste à 0.
 - Lecture : le « cœur » (rangées ≥ 0,5 × max) se trompe de ligne sur les boîtes qui couvrent deux lignes de densités voisines, et ampute les capitales/ascendantes isolées ; la correction d'une IoU 0,46 sur une ligne coûte des lignes ailleurs. Les 5 lignes quasi trouvées restent ouvertes (piste : ne serrer que les boîtes > 1,5 × la hauteur médiane de la page — nouvelle hypothèse, à protocoliser séparément).
+
+## 03/10 — S21b : protocole (figé avant mesure)
+- S21b (BBVLM_S21=haut) : serre_v appliqué seulement aux boîtes de ligne plus hautes que 1,5 × la hauteur médiane des lignes de la page (seuil fixé a priori ; la ligne quasi trouvée d'actevedef : 99 px contre ≈ 46). Même règle d'adoption que S21 (aucune page dev+écart qui perd ✓, ✓ en hausse ou égal, iou_med −0,01 au plus par page) ; référence etat_w06.
