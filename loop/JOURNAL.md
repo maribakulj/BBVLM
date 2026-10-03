@@ -1328,3 +1328,6 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 - Test : S3 −20,2 % (5,1 % de propres dégradées) ; S4 −23,6 % (5,1 %) ; S6 −13,1 % (0,13 %) ; rappel S2 −8,6 % (0,13 %), S1 −2,9 %.
 - H1 infirmée, H2 confirmée, H3 infirmée (dégradation), H4 infirmée. 28 % des dégradations de S3 = suppression de traits d'union de césure (normalisation indue). Rapport postcorr/RAPPORT.md, exemples postcorr/EXEMPLES.md.
 - Les deux chantiers sont clos à ce stade ; la suite exige un GPU ou une décision du mainteneur.
+
+## 03/10 — Recentrage : post-correction déplacée vers hans ; retour à la boucle BBVLM
+- Le mainteneur rappelle que la post-correction relève de Hans/Saknussemm et que le but de BBVLM est l'OCR patrimonial de bout en bout (transcription SOTA ≈ 0 % de CER + ALTO). loop/postcorr/ déplacé vers maribakulj/hans (branche experiments/postcorr-v0) ; pointeur loop/POSTCORR_DEPLACE.md.

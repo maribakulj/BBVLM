@@ -1,4 +1,6 @@
-# Chantier ANCRAGE + POST-CORRECTION — état (lire d'abord)
+# Chantier ANCRAGE — état (lire d'abord)
+
+> 03/10 : la partie post-correction (chantier B) a été déplacée vers `maribakulj/hans`, branche `experiments/postcorr-v0` (hors périmètre BBVLM) — voir loop/POSTCORR_DEPLACE.md. Les lignes B ci-dessous restent comme historique.
 
 Demande du mainteneur (01/10) : mettre en œuvre en autonomie `ancrage/PLAN.md` (+ `ancrage/protocol.yaml`) et `postcorr/PROTOCOLE.md`, jusqu'à atteinte des objectifs ou gate négatif. Avis initial consigné dans JOURNAL (01/10).
 
