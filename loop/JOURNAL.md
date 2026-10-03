@@ -1358,3 +1358,7 @@ Gain minimal 5 nats + pas de candidate nouvelle pour une ligne d'un mot : lignes
 
 ## 03/10 — R02c : recherche sur ALTO régénérés (sr6)
 - ALTO régénérés pour 72 pages avec la chaîne courante (W06, R9, S21b ; cache W05 reconstitué). R02b : dev + écart médiane 0,975 → 0,979, ≥ 0,95 50 → 50 (10 hausses, caladr 0,970 → 0,939) ; 12 pages neuves : médiane 0,972, 8/12 ≥ 0,95. Détail r02c/.
+
+## 03/10 — Cause « texte » des échecs CRITERE : inventaire des 24 lignes (nombre de mots lu ≠ VT, 72 pages)
+- ≈ 8 **erreurs ou découpages de la VT** (« a euo » pour aeuo, « adi piſcitur », « exalio », « inar u- », mots absents de la VT chez hermhyst et 688357687) ; ≈ 7 **conventions** (« * * * »/« *** », « macht! *) »/« macht!*) » ×2, « hab 's », « nimmt ⸗ » ×2 dans la VT, « v. c. »/« v.c. ») ; ≈ 5 **vraies fautes de blancs** de la lecture (soudures « Glaͤubigetragen », « ihmviel », « VerboDEI » ; coupure « traher e ») ; le reste = fusions de lignes (852691769, hermhyst).
+- Conséquence : la plupart des échecs « texte » ne sont pas des fautes ; les vraies fautes de blancs (≈ 5 lignes sur 72 pages) ont déjà résisté à S10, T05-T08 (vérification par l'encre, relectures ciblées, signaux Calamari/Tesseract — tous négatifs). Les conventions varient selon le livre (« *) » collé chez fiscfrie, espacé chez BiedBern) : R7/R8 restent non adoptées faute de règle générale.
