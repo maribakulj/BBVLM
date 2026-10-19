@@ -35,6 +35,31 @@ def observed_paths(conversation_id):
     return sorted(found)
 
 
+
+def run_agy(command, cwd, timeout):
+    """Lance ``agy`` dans son propre groupe de processus ; à l'expiration, tout le
+    groupe est tué. (subprocess.run ne tue que le parent puis attend la fermeture
+    des tuyaux, que des sous-processus d'agy gardaient ouverts : attente infinie,
+    passe OLR du Matin 0554721 bloquée 71 min le 20/10.) Renvoie stdout ou ''."""
+    import os
+    import signal
+    process = subprocess.Popen(command, cwd=cwd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                               text=True, start_new_session=True)
+    try:
+        out, _ = process.communicate(timeout=timeout)
+        return out
+    except subprocess.TimeoutExpired:
+        try:
+            os.killpg(process.pid, signal.SIGKILL)
+        except ProcessLookupError:
+            pass
+        try:
+            process.communicate(timeout=30)
+        except subprocess.TimeoutExpired:
+            pass
+        return ''
+
+
 def read_region(directory, image, views, task, model='gemini-3.8-flash-medium', timeout=900, attempts=3):
     directory = Path(directory).resolve()
     image = Path(image).resolve()
@@ -49,11 +74,10 @@ def read_region(directory, image, views, task, model='gemini-3.8-flash-medium', 
     for attempt in range(attempts):
         started = time.time()
         try:
-            run = subprocess.run(['agy', '-p', prompt, '--print-timeout', f'{timeout-60}s',
-                                  '--output-format', 'json', '--model', model],
-                                 cwd=directory, capture_output=True, text=True, timeout=timeout)
-            envelope = json.loads(run.stdout) if run.stdout.strip().startswith('{') else {}
-        except (subprocess.TimeoutExpired, json.JSONDecodeError):
+            out = run_agy(['agy', '-p', prompt, '--print-timeout', f'{timeout-60}s',
+                           '--output-format', 'json', '--model', model], directory, timeout)
+            envelope = json.loads(out) if out.strip().startswith('{') else {}
+        except json.JSONDecodeError:
             envelope = {}
         response = (envelope.get('response') or '').strip()
         cid = envelope.get('conversation_id')

@@ -16,7 +16,7 @@ import subprocess
 import time
 import unicodedata
 
-from region_agy import observed_paths, NO_TOOLS
+from region_agy import observed_paths, NO_TOOLS, run_agy
 
 TYPES = ('titre', 'intertitre', 'texte', 'tableau', 'annonce', 'en-tete', 'legende', 'autre')
 PROMPT = (
@@ -42,11 +42,10 @@ def ask_structure(directory, image, model='gemini-3.8-flash-medium', timeout=900
     for attempt in range(attempts):
         started = time.time()
         try:
-            run = subprocess.run(['agy', '-p', question, '--print-timeout', f'{timeout-60}s', '--output-format',
-                                  'json', '--model', model], cwd=image.parent, capture_output=True, text=True,
-                                 timeout=timeout)
-            envelope = json.loads(run.stdout) if run.stdout.strip().startswith('{') else {}
-        except (subprocess.TimeoutExpired, json.JSONDecodeError):
+            out = run_agy(['agy', '-p', question, '--print-timeout', f'{timeout-60}s', '--output-format',
+                           'json', '--model', model], image.parent, timeout)
+            envelope = json.loads(out) if out.strip().startswith('{') else {}
+        except json.JSONDecodeError:
             envelope = {}
         cid = envelope.get('conversation_id')
         opened = str(image) in (observed_paths(cid) if cid else [])
