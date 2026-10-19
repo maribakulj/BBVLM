@@ -159,3 +159,31 @@ def test_tableaux_cote_a_cote_lus_colonne_par_colonne_si_les_ancres_le_disent():
     rowwise = [titre] + [x for pair in zip(gauche, droite) for x in pair]
     chosen = {r['id']: dict(start=k*10) for k, r in enumerate(rowwise)}
     assert [r['id'] for r in _anchored_reading_order(rows, chosen)] == [r['id'] for r in rowwise]
+
+
+def _page_with_lines(cut_rows, n=8):
+    """Région large (une colonne de plan au milieu) ; chaque ligne est pleine
+    d'encre, sauf les lignes de ``cut_rows`` qui ont un blanc avec un trait fin
+    au milieu (filet ou lettre fine) près du début de colonne."""
+    gray = np.full((60 + 50*n, 1100), 255, np.uint8)
+    lines = []
+    for k in range(n):
+        y0 = 40 + 50*k
+        gray[y0+8:y0+32, 20:1080] = 0
+        if k in cut_rows:
+            gray[y0:y0+40, 470:500] = 255
+            gray[y0+2:y0+38, 484:487] = 0
+        lines.append(dict(id=f'L{k}', bbox=[20, y0, 1080, y0+40]))
+    plan = dict(parameters=dict(line_height=40, column_starts=[515]),
+                regions=[dict(id='R', bbox=[0, 0, 1100, 60 + 50*n])])
+    return gray, lines, plan
+
+
+def test_coupe_en_region_large_gardee_seulement_si_alignee_sur_plusieurs_lignes():
+    gray, lines, plan = _page_with_lines(cut_rows=range(8))
+    out, log = split_crossing_lines(gray, lines, plan)
+    assert sum(e['decision'] == 'split_at_observed_gutter' for e in log) == 8
+    gray, lines, plan = _page_with_lines(cut_rows=[3])
+    out, log = split_crossing_lines(gray, lines, plan)
+    assert [e['decision'] for e in log if e['id'] == 'L3'] == ['kept_isolated_cut']
+    assert [l['id'] for l in out] == [f'L{k}' for k in range(8)]

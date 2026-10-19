@@ -62,6 +62,10 @@ def _white_runs(profile):
     return runs
 
 
+ALIGNED_CUTS = 5
+ALIGNED_TOLERANCE = 8
+
+
 def _internal_rules(gray, regions, line_height):
     """Filets verticaux internes : composantes fines (≤ 0,25 hauteur de ligne) et
     hautes (≥ 4 hauteurs de ligne), à plus de 2 hauteurs des bords de la région.
@@ -92,7 +96,7 @@ def split_crossing_lines(gray, lines, plan):
     import cv2
     line_height = float(plan['parameters']['line_height'])
     regions = plan['regions']
-    out, log = [], []
+    out, log, pending = [], [], []
     internal = _internal_rules(gray, regions, line_height)
     for line in lines:
         x0, y0, x1, y1 = line['detector_bbox'] if 'detector_bbox' in line else line['bbox']
@@ -111,7 +115,8 @@ def split_crossing_lines(gray, lines, plan):
         # côte) qui traverse la ligne : il compte comme une gouttière observée.
         crossing = [rx for r in inside for rx, ry0, ry1 in internal.get(r['id'], [])
                     if x0 + 2*line_height < rx < x1 - 2*line_height and ry0 < cy < ry1]
-        if crossing and inside and not spanning:
+        internal_rule = bool(crossing and inside and not spanning)
+        if internal_rule:
             columns, spanning = sorted(set(columns) | {rx + .4*line_height for rx in crossing}), True
         if (inside and not spanning) or (not inside and len(hit) < 2) or not columns:
             out.append(line); continue
@@ -143,10 +148,26 @@ def split_crossing_lines(gray, lines, plan):
                 target = c-x0-.4*line_height
                 s0, e0 = min(runs, key=lambda r: abs((r[0]+r[1])/2-target))
                 cuts.append((x0+s0, x0+e0))
+        pending.append(dict(line=line, cuts=cuts, spanning=spanning and not internal_rule, ink=ink, box=(x0, y0, x1, y1),
+                            rules=len(rules), regions=[r['id'] for r in (inside or hit)], slot=len(out)))
+        out.append(None)
+    # Deuxième passe. Dans une région large (``spanning``), une lettre fine (l, i, t)
+    # passe pour un filet et la ligne de prose est coupée au milieu d'un mot ; un
+    # vrai filet de tableau coupe au contraire beaucoup de lignes à la même abscisse.
+    # Une coupe de ce type n'est gardée qu'avec ALIGNED_CUTS autres lignes coupées
+    # à ± ALIGNED_TOLERANCE px (Matin 0554721 : 0-4 pour les coupes fautives,
+    # 5-13 pour les gouttières de tableau).
+    centres = [((s+e)/2, k) for k, item in enumerate(pending) for s, e in item['cuts']]
+    for k, item in enumerate(pending):
+        cuts = item['cuts']
+        if item['spanning']:
+            cuts = [(s, e) for s, e in cuts
+                    if sum(1 for c, j in centres if j != k and abs(c-(s+e)/2) <= ALIGNED_TOLERANCE) >= ALIGNED_CUTS]
+        line, ink, (x0, y0, x1, y1) = item['line'], item['ink'], item['box']
         if not cuts:
-            out.append(line)
-            log.append(dict(id=line['id'], decision='kept_no_observed_gutter',
-                            regions=[r['id'] for r in (inside or hit)]))
+            out[item['slot']] = line
+            log.append(dict(id=line['id'], decision='kept_no_observed_gutter' if not item['cuts']
+                            else 'kept_isolated_cut', regions=item['regions']))
             continue
         edges = [x0]+[v for s, e in cuts for v in (s, e)]+[x1]
         parts = []
@@ -170,15 +191,15 @@ def split_crossing_lines(gray, lines, plan):
                 continue
             parts.append(part)
         if len(parts) < 2:
-            out.append(line)
+            out[item['slot']] = line
             log.append(dict(id=line['id'], decision='kept_parts_too_narrow'))
             continue
-        out.extend(parts)
+        out[item['slot']] = parts
         log.append(dict(id=line['id'], decision='split_at_observed_gutter',
                         gutters=[[float(s), float(e)] for s, e in cuts],
-                        parts=[p['id'] for p in parts], regions=[r['id'] for r in (inside or hit)],
-                        observed_rules=len(rules)))
-    return out, log
+                        parts=[p['id'] for p in parts], regions=item['regions'],
+                        observed_rules=item['rules']))
+    return [x for item in out for x in (item if isinstance(item, list) else [item])], log
 
 
 def assign_regions(lines, plan):
