@@ -107,6 +107,63 @@ def cached_reading_anchors(image, directory):
                         str(readings_path): sha256(readings_path)})
 
 
+_ANCHOR_WORKER = {}
+
+
+def _anchor_worker_init(image, model_path):
+    import numpy as np
+    import torch
+    from kraken.lib.models import load_any
+    torch.set_num_threads(1)
+    with Image.open(image) as page:
+        _ANCHOR_WORKER['gray'] = np.asarray(page.convert('L'))
+    _ANCHOR_WORKER['model'] = load_any(model_path)
+
+
+def _anchor_worker_decode(row):
+    import torch
+    from boxers.forcectc import _ligne_tenseur
+    model = _ANCHOR_WORKER['model']
+    line = SimpleNamespace(line_box=tuple(row.get('detector_bbox', row['bbox'])))
+    try:
+        with torch.inference_mode():
+            return 'ok', model.predict_string(_ligne_tenseur(_ANCHOR_WORKER['gray'], line, model))[0]
+    except (ValueError, RuntimeError) as exc:
+        return type(exc).__name__, str(exc)
+
+
+def _parallel_decoder(image, model_path, lines, output, decode_one):
+    """Décodage des lignes réparti sur BBVLM_ANCHOR_WORKERS processus (défaut 3) ;
+    même modèle, mêmes pixels, une ligne à la fois par processus. Les lignes déjà
+    en cache ne sont pas décodées. Repli séquentiel sur ``decode_one``."""
+    import os
+    try:
+        workers = int(os.environ.get('BBVLM_ANCHOR_WORKERS', '3'))
+    except ValueError:
+        workers = 1
+    # parallèle seulement pour un dossier neuf ; une reprise passe par le cache ligne à ligne
+    fresh = not any((Path(output) / 'line-cache').glob('*.json'))
+    todo = list(lines) if workers > 1 and len(lines) >= 40 and fresh else []
+    done = {}
+    if todo:
+        from concurrent.futures import ProcessPoolExecutor
+        import multiprocessing
+        with ProcessPoolExecutor(workers, mp_context=multiprocessing.get_context('spawn'),
+                                 initializer=_anchor_worker_init, initargs=(str(image), str(model_path))) as pool:
+            for line, result in zip(todo, pool.map(_anchor_worker_decode, todo, chunksize=4)):
+                done[json.dumps(line, sort_keys=True)] = result
+
+    def decoder(row):
+        result = done.get(json.dumps(row, sort_keys=True))
+        if result is None:
+            return decode_one(row)
+        kind, value = result
+        if kind == 'ok':
+            return value
+        raise (ValueError if kind == 'ValueError' else RuntimeError)(value)
+    return decoder
+
+
 def ctc_anchors(image, lines, output, model_path=None, decoder=None, model_signature=None):
     """Décodage local reprenable par ligne ; aucun appel Gemini ou référence.
 
@@ -130,10 +187,11 @@ def ctc_anchors(image, lines, output, model_path=None, decoder=None, model_signa
         with Image.open(image) as page:
             gray = np.asarray(page.convert('L'))
 
-        def decoder(row):
+        def decode_one(row):
             line = SimpleNamespace(line_box=tuple(row.get('detector_bbox', row['bbox'])))
             with torch.inference_mode():
                 return model.predict_string(_ligne_tenseur(gray, line, model))[0]
+        decoder = _parallel_decoder(image, model_path, lines, output, decode_one)
     if model_signature is None:
         raise ValueError('Signature du décodeur requise pour un cache fiable')
     signature = dict(version=VERSION, implementation_sha256=IMPLEMENTATION_SHA256,

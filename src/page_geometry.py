@@ -12,6 +12,8 @@ from copy import deepcopy
 import hashlib
 import json
 import math
+import os
+import time
 from pathlib import Path
 from types import SimpleNamespace
 import unicodedata
@@ -29,6 +31,39 @@ from page_text_view import compact_line_text_view
 
 IMPLEMENTATION_SHA256 = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
 MATCHED_STATUSES = frozenset({'matched', 'assigned', 'aligned', 'appariee', 'appariement_resolu'})
+
+
+CHECKPOINT_SECONDS = 30
+
+
+_WORKER = {}
+
+
+def _placement_workers(boxer, pending):
+    """Processus de placement : BBVLM_PLACEMENT_WORKERS (défaut 3), seulement pour
+    ForceCTC (reconstructible dans un autre processus) et assez de lignes."""
+    if type(boxer).__name__ != 'ForceCTC' or pending < 40:
+        return 1
+    try:
+        return max(1, int(os.environ.get('BBVLM_PLACEMENT_WORKERS', '3')))
+    except ValueError:
+        return 1
+
+
+def _worker_init(image, spec):
+    import torch
+    torch.set_num_threads(1)
+    from boxers.forcectc import ForceCTC
+    _WORKER['gray'] = cv2.imread(image, cv2.IMREAD_GRAYSCALE)
+    _WORKER['boxer'] = ForceCTC(**spec)
+
+
+def _worker_place(annotation):
+    try:
+        _place(_WORKER['gray'], annotation, _WORKER['boxer'])
+    except Exception as exc:
+        annotation.update(status='erreur_geometrie', reason=f'{type(exc).__name__}: {exc}')
+    return annotation
 
 
 def _write_json(path, value):
@@ -233,23 +268,51 @@ def place_assignments(image, assignments, boxer=None, output_dir=None, metadata=
                                             correct=hashlib.sha256(Path(correct.__file__).read_bytes()).hexdigest()))
         except (OSError, ValueError) as exc:
             cache_error = str(exc)
+    # Point de reprise périodique : réécrire annotations.json (jusqu'à ~20 Mo)
+    # après chaque ligne coûtait ~90 % du temps de placement ; le cache par
+    # ligne suffit à reprendre une page interrompue.
+    last_checkpoint = time.monotonic()
+    keys, pending = {}, []
     for index, annotation in enumerate(annotations):
-        key = None
         if cache:
             request = SimpleNamespace(id=annotation['id'], bbox=annotation.get('reading_bbox') or [])
-            key = cache.key(request, SimpleNamespace(**annotation), dict(bbox=annotation.get('bbox')))
-            saved = cache.load(key)
+            keys[index] = cache.key(request, SimpleNamespace(**annotation), dict(bbox=annotation.get('bbox')))
+            saved = cache.load(keys[index])
             if saved:
                 annotations[index] = saved['annotation']
                 continue
-        try:
-            _place(gray, annotation, boxer)
-        except Exception as exc:
-            annotation.update(status='erreur_geometrie', reason=f'{type(exc).__name__}: {exc}')
+        pending.append(index)
+
+    def finished(index, annotation):
+        nonlocal last_checkpoint
+        annotations[index] = annotation
         if cache:
-            cache.store(key, annotation, [], [], 0)
-        if directory is not None:
+            cache.store(keys[index], annotation, [], [], 0)
+        if directory is not None and time.monotonic() - last_checkpoint >= CHECKPOINT_SECONDS:
             _write_json(directory / 'annotations.json', annotations)
+            last_checkpoint = time.monotonic()
+
+    workers = _placement_workers(boxer, len(pending))
+    if workers > 1:
+        # Lignes indépendantes : chaque processus charge l'image et son propre
+        # modèle (un fil torch chacun) ; résultats rangés par indice de ligne.
+        from concurrent.futures import ProcessPoolExecutor
+        import multiprocessing
+        spec = dict(model_path=boxer.model_path, fallback_model_path=boxer.fallback_model_path,
+                    boundary_mode=boxer.boundary_mode, char_alignment=boxer.char_alignment)
+        with ProcessPoolExecutor(workers, mp_context=multiprocessing.get_context('spawn'),
+                                 initializer=_worker_init, initargs=(str(image), spec)) as pool:
+            for index, annotation in zip(pending, pool.map(_worker_place, [annotations[i] for i in pending],
+                                                           chunksize=4)):
+                finished(index, annotation)
+    else:
+        for index in pending:
+            annotation = annotations[index]
+            try:
+                _place(gray, annotation, boxer)
+            except Exception as exc:
+                annotation.update(status='erreur_geometrie', reason=f'{type(exc).__name__}: {exc}')
+            finished(index, annotation)
     threshold = _global_checks(annotations)
     for annotation in annotations:
         annotation['geometry_status'] = annotation['status']

@@ -24,29 +24,62 @@ parser.add_argument('image')
 parser.add_argument('annotations', help='annotations.json (id + bbox des lignes)')
 parser.add_argument('output', help='dossier de sortie')
 parser.add_argument('--model', required=True)
-args = parser.parse_args()
+parser.add_argument('--workers', type=int, default=3, help='processus (une ligne à la fois chacun)')
 
 import torch
 from kraken.lib.models import load_any
-model = load_any(args.model)
-gray = np.asarray(Image.open(args.image).convert('L'))
-lines = json.loads(Path(args.annotations).read_text())
-out = Path(args.output); out.mkdir(parents=True, exist_ok=True)
-arrays, meta = {}, {}
-for line in lines:
+STATE = {}
+
+
+def init(image, model_path, threads=None):
+    if threads:
+        torch.set_num_threads(threads)
+    STATE['model'] = load_any(model_path)
+    STATE['gray'] = np.asarray(Image.open(image).convert('L'))
+
+
+def one(line):
+    model, gray = STATE['model'], STATE['gray']
     x0, y0, x1, y1 = (int(round(v)) for v in line['bbox'])
     x0, y0 = max(0, x0), max(0, y0)
     x1, y1 = min(gray.shape[1], x1), min(gray.shape[0], y1)
     if x1 - x0 < 4 or y1 - y0 < 4:
-        continue
+        return None
     t = _ligne_tenseur(gray, SimpleNamespace(line_box=(x0, y0, x1, y1)), model)
     with torch.no_grad():
         logits, _ = model.nn.nn(t, None)
     logp = torch.log_softmax(logits[0, :, 0, :], dim=0).T.float().numpy()
-    arrays[line['id']] = logp.astype(np.float16)
-    meta[line['id']] = dict(box=[x0, y0, x1, y1], input_width=int(t.shape[-1]), frames=int(logp.shape[0]))
-np.savez_compressed(out / 'posteriors.npz', **arrays)
-codec = {k: [int(c) for c in v] for k, v in model.codec.c2l.items()}
-(out / 'posteriors.json').write_text(json.dumps(dict(model=args.model, pad=PAD, codec=codec, lines=meta),
-                                                ensure_ascii=False))
-print(len(arrays), 'lignes')
+    return line['id'], logp.astype(np.float16), dict(box=[x0, y0, x1, y1], input_width=int(t.shape[-1]),
+                                                     frames=int(logp.shape[0]))
+
+
+def main():
+    STATE.clear()
+    args = parser.parse_args()
+    lines = json.loads(Path(args.annotations).read_text())
+    out = Path(args.output); out.mkdir(parents=True, exist_ok=True)
+    if args.workers > 1 and len(lines) >= 40:
+        from concurrent.futures import ProcessPoolExecutor
+        import multiprocessing
+        with ProcessPoolExecutor(args.workers, mp_context=multiprocessing.get_context('spawn'),
+                                 initializer=init, initargs=(args.image, args.model, 1)) as pool:
+            results = list(pool.map(one, lines, chunksize=4))
+    else:
+        init(args.image, args.model)
+        results = [one(line) for line in lines]
+    model = STATE['model'] if 'model' in STATE else load_any(args.model)
+    arrays, meta = {}, {}
+    for result in results:
+        if result is None:
+            continue
+        arrays[result[0]] = result[1]
+        meta[result[0]] = result[2]
+    np.savez_compressed(out / 'posteriors.npz', **arrays)
+    codec = {k: [int(c) for c in v] for k, v in model.codec.c2l.items()}
+    (out / 'posteriors.json').write_text(json.dumps(dict(model=args.model, pad=PAD, codec=codec, lines=meta),
+                                                    ensure_ascii=False))
+    print(len(arrays), 'lignes')
+
+
+if __name__ == '__main__':
+    main()

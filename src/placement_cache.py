@@ -36,7 +36,7 @@ class PlacementCache:
     def store(self,key,annotation,lines,refusals,retries):
         value=dict(key=key,annotation=annotation,lines=lines,refusals=refusals,retries=retries)
         path=self.directory/(key+'.json');temporary=path.with_suffix('.tmp')
-        temporary.write_text(json.dumps(value,ensure_ascii=False,indent=2));temporary.replace(path)
+        temporary.write_text(json.dumps(value,ensure_ascii=False,separators=(',',':')));temporary.replace(path)
         self.saved+=1
         state=self.directory/'state.json';temporary=state.with_suffix('.tmp')
         temporary.write_text(json.dumps(dict(signature=self.signature,hits=self.hits,saved=self.saved),ensure_ascii=False,indent=2));temporary.replace(state)
