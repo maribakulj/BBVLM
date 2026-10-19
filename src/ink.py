@@ -99,3 +99,57 @@ def vertical_extent(mask: np.ndarray, a: int, b: int) -> tuple[int, int]:
     rows = np.where((sub > 0).any(axis=1))[0]
     if not len(rows): return 0, mask.shape[0]-1
     return int(rows.min()), int(rows.max())
+
+
+def alignment_mask(gray, line_box, clean_upper_branches=False, clean_below_baseline=False,local_baseline=False):
+    """Contraste local pour glyphes pâles, avec exclusion des fragments voisins."""
+    x0,y0,x1,y1 = map(int,line_box)
+    crop = gray[y0:y1,x0:x1]
+    if crop.size == 0 or min(crop.shape) < 3:
+        raise ValueError('recadrage trop petit pour le masque d’encre')
+    h = crop.shape[0]
+    window = max(15, int(h*.75) | 1)
+    binary = cv2.adaptiveThreshold(crop,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
+                                   cv2.THRESH_BINARY_INV,window,12)
+    n, labels, stats, _ = cv2.connectedComponentsWithStats(binary,8)
+    table = np.zeros(n,np.uint8)
+    for k in range(1,n):
+        x,y,w,ch,area = stats[k]
+        center = y+ch/2
+        if area >= max(3,int(h*h*.0005)) and w <= 4*h and \
+                abs(center-h/2) <= .37*h:
+            table[k] = 255
+    mask=table[labels]
+    if clean_below_baseline:
+        bodies=[stats[k,1]+stats[k,3]-1 for k in range(1,n) if
+                h*.35<=stats[k,3]<=h*.95 and table[k]]
+        if len(bodies)>=8:
+            baseline=float(np.median(bodies))
+            trend=None
+            if local_baseline:
+                points=np.array([(stats[k,0]+stats[k,2]/2,stats[k,1]+stats[k,3]-1) for k in range(1,n)
+                                 if h*.35<=stats[k,3]<=h*.95 and table[k]],dtype=float)
+                if np.ptp(points[:,0])>h:
+                    active=np.ones(len(points),bool)
+                    for _ in range(3):
+                        if active.sum()<8:break
+                        trend=np.polyfit(points[active,0],points[active,1],1)
+                        residual=points[:,1]-np.polyval(trend,points[:,0])
+                        active=np.abs(residual-np.median(residual))<=max(2,h*.08)
+            for k in range(1,n):
+                x,y,w,ch,_=stats[k]
+                limit=float(np.polyval(trend,x+w/2)) if trend is not None else baseline
+                # Les fragments de la ligne suivante sont entièrement sous
+                # la ligne et larges. Les points/virgules étroits sont gardés.
+                if y>limit+(.8 if local_baseline else 1) and (not local_baseline or ch<h*.35 and w>1.3*ch):table[k]=0
+            mask=table[labels]
+    if clean_upper_branches:
+        # Des traces grises de pli peuvent relier les hauts de deux glyphes.
+        # Le seuil est relatif à CHAQUE composante : un caractère entièrement
+        # pâle conserve son contraste, contrairement à un seuil noir global.
+        minima=np.full(n,255.,dtype=float)
+        np.minimum.at(minima,labels.ravel(),crop.ravel())
+        weak=crop>minima[labels]+.55*(255-minima[labels])
+        weak[int(h*.35):]=False
+        mask=mask.copy();mask[weak]=0
+    return mask, x0, y0

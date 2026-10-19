@@ -8,3 +8,8 @@ __pycache__/
 # jamais de clé
 .env
 *.key
+lecture-jobs/
+.pytest_cache/
+runs/
+# copie locale de pero-ocr (code tiers)
+.cache/

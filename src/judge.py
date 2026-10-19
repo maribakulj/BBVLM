@@ -64,15 +64,25 @@ class Report:
         }
 
 
-def score(boxer: Boxer, pages: list[Page], verbose: bool = False) -> Report:
+def score(boxer: Boxer, pages: list[Page], verbose: bool = False, readings=None) -> Report:
+    if readings is None:
+        raise ValueError('Le banc historique injectait le texte de référence dans le boxer. '
+                         'Fournir des transcriptions de production séparées, ou utiliser evaluation.py sur les sorties figées.')
     rep = Report(boxer.name)
     for p in pages:
         g = p.gray
         if g is None: continue
         sub = Report(boxer.name)
-        for ln in p.lines:
+        for li,ln in enumerate(p.lines):
+            text=readings.get(p.name,{}).get(str(li))
+            if text is None:
+                rep.failed_lines+=1;sub.failed_lines+=1;continue
+            if text.split() != ln.words:
+                # Pas de géométrie oracle : texte différent = couverture perdue.
+                rep.failed_lines+=1;sub.failed_lines+=1;continue
+            production_line=Line(text,text.split(),ln.line_box,[])
             try:
-                pred = boxer.boxes(g, ln)
+                pred = boxer.boxes(g, production_line)
             except Exception:
                 rep.failed_lines += 1; sub.failed_lines += 1; continue
             if len(pred) != len(ln.words):
@@ -86,8 +96,12 @@ def score(boxer: Boxer, pages: list[Page], verbose: bool = False) -> Report:
             for k in range(len(gt)-1):             # frontières internes
                 lo, hi = gt[k][2], gt[k+1][0]
                 if hi < lo: lo, hi = hi, lo
-                x = (pred[k][2] + pred[k+1][0])/2.0
-                d = _interval_distance(x, lo, hi)/cw
+                # Les deux bords, séparément : leur milieu pouvait créditer
+                # deux boîtes superposées ou coupant chacune le mot voisin.
+                d = max(_interval_distance(pred[k][2], lo, hi),
+                        _interval_distance(pred[k+1][0], lo, hi))/cw
+                if pred[k][2] > pred[k+1][0]:
+                    d = max(d, (pred[k][2]-pred[k+1][0])/cw)
                 rep.err.append(d); sub.err.append(d)
                 rep.n_bounds += 1; sub.n_bounds += 1
             for a, b in zip(pred, gt):

@@ -69,13 +69,17 @@ def lire_kraken(pages, n_lignes=40, modele='latin'):
                            script_detection=False, lines=bl, regions={}, line_orders=[])
         t = time.time()
         hyp = [str(r.prediction or '') for r in rpred.rpred(m, im, seg)]
+        if len(hyp) != len(lines):
+            raise ValueError('Kraken a rendu un compte de lignes incohérent')
         out[p.name] = {'hyp': hyp, 'ref': [l.text for l in lines], 's': time.time()-t}
     return out
 
 
 def lire_churro(pages, n_lignes=40):
-    """Le VLM, par blocs — c'est son régime optimal (mesuré : 0 % de CER en bloc
-    de 20 contre 13,5 % ligne à ligne)."""
+    """Diagnostic de lecture sur lignes fournies : un vrai recadrage par ligne.
+
+    Ce diagnostic n'évalue ni segmentation de page, ni ordre, ni OLR.
+    """
     # le client VLM vit dans vlm-alto-fresh, pas ici
     sys.path.insert(0, os.path.expanduser('~/vlm-alto-fresh/src'))
     import vlm as V
@@ -85,28 +89,44 @@ def lire_churro(pages, n_lignes=40):
     for p in pages:
         pil = Image.open(p.image_path)
         lines = p.lines[:n_lignes]
-        x0 = min(l.line_box[0] for l in lines); x1 = max(l.line_box[2] for l in lines)
-        y0 = min(l.line_box[1] for l in lines); y1 = max(l.line_box[3] for l in lines)
         t = time.time()
-        got, q = V.block_robuste(be, lambda d, n, j=0: pil.crop(
-            (x0, max(0, y0+j), x1, y1+j)), 0, len(lines), essais=4)
-        out[p.name] = {'hyp': got, 'ref': [l.text for l in lines], 's': time.time()-t}
+        got = []
+        for line in lines:
+            crop = pil.crop(line.line_box)
+            text, q = V.block_robuste(be, lambda d,n,j=0,crop=crop: crop,
+                                     0, 1, essais=4)
+            if len(text) != 1:
+                raise ValueError('Réponse Churro sans correspondance un-à-un')
+            got.extend(text)
+        out[p.name] = {'hyp': got, 'ref': [l.text for l in lines], 's': time.time()-t,
+                       'provider': 'ollama', 'model': 'churro-3B-Q4_K_M',
+                       'scope': 'reading_on_reference_lines_only'}
     return out
+
+
+def provider(qui):
+    if qui in ('kraken', 'kraken:latin', 'kraken:german'):
+        return 'kraken'
+    if qui == 'churro':
+        return 'churro'
+    raise ValueError(f'Lecteur non implémenté : {qui!r}. Aucun repli vers Churro. '
+                     'Gemini utilise produire.py et evaluation.py.')
 
 
 if __name__ == '__main__':
     corp = sys.argv[1] if len(sys.argv) > 1 else 'Newseye'
     n = int(sys.argv[2]) if len(sys.argv) > 2 else 40
+    qui = sys.argv[3] if len(sys.argv) > 3 else 'kraken'
+    actual = provider(qui)
     # Pour la mesure de TEXTE, la validité géométrique de la VT n'a pas lieu
     # d'être exigée : BNL a un texte juste et des boîtes fausses.
     pages = [p for p in corpora.all_pages(max_lignes=n, only_geometric=False)
              if p.corpus == corp][:3]
     print(f"corpus {corp} — {len(pages)} pages, {n} lignes chacune\n")
-    qui = sys.argv[3] if len(sys.argv) > 3 else 'kraken'
-    if qui.startswith('kraken'):
+    if actual == 'kraken':
         mod = qui.split(':')[1] if ':' in qui else 'latin'
         r = lire_kraken(pages, n, mod)
-    else:
+    elif actual == 'churro':
         r = lire_churro(pages, n)
     tot_c = 0.0; tot_s = 0.0
     print(f"{'page':>22}{'CER':>9}{'lignes':>8}{'secondes':>10}")
@@ -117,5 +137,11 @@ if __name__ == '__main__':
         print(f"{k[:22]:>22}{c:>8.2f}%{len(v['hyp']):>8}{v['s']:>10.0f}")
     print('-'*50)
     print(f"{qui:>22}{tot_c/max(1,len(r)):>8.2f}%{'':>8}{tot_s:>10.0f}")
-    json.dump({k: {'cer': cer(v['ref'], v['hyp']), 's': v['s']} for k, v in r.items()},
+    from evaluation import nfc, convention, lev
+    json.dump({k: {'legacy_cer': cer(v['ref'], v['hyp']),
+                   'cer_strict_NFC': sum(lev(nfc(a),nfc(b)) for a,b in zip(v['ref'],v['hyp']))/max(1,sum(len(nfc(a)) for a in v['ref'])),
+                   'cer_convention_v1': sum(lev(convention(a),convention(b)) for a,b in zip(v['ref'],v['hyp']))/max(1,sum(len(convention(a)) for a in v['ref'])),
+                   'provider': v.get('provider',actual), 'scope': 'reading_on_reference_lines_only',
+                   'segmentation': 'not_evaluated', 'order': 'not_evaluated',
+                   'geometry': 'not_evaluated', 's': v['s']} for k, v in r.items()},
               open(f'state/couple_{corp}_{qui}.json', 'w'), indent=1)

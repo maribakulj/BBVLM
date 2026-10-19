@@ -30,15 +30,17 @@ image de page
    ↓  VLM de frontière         texte au caractère près
    ↓  moteur géométrique       boîtes de mots à 0,47 caractère près
    ↓  contrôles                refuser plutôt qu'inventer
-ALTO 4.4 + overlay de relecture humaine
+ALTO 4.4 + OLR/ordre/articles + export Axel + évaluation indépendante
 ```
 
 ## Ce qui distingue une sortie de VT d'une sortie d'OCR
 
 1. **Elle refuse.** Une ligne douteuse est signalée, jamais comblée. Le compte de
    lignes et le coût d'alignement mot/encre le permettent sans vérité terrain.
-2. **Elle est relue.** Un overlay accompagne chaque page ; sans relecture humaine,
-   ce n'est pas une VT mais une sortie d'OCR de plus.
+2. **Elle est contrôlée automatiquement.** L'utilisateur exclut tout humain
+   dans la boucle. L'overlay sert au diagnostic de la géométrie par l'agent ;
+   les références humaines existantes servent uniquement à la notation
+   indépendante, jamais de transcription injectée dans la production.
 3. **Elle déclare sa provenance.** Quel modèle a lu, quel moteur a placé, quelles
    lignes ont été reprises ou écartées.
 
@@ -47,7 +49,13 @@ ALTO 4.4 + overlay de relecture humaine
 - la dérive du VLM à l'échelle de la page (churro dérivait sur 2 pages sur 5 ;
   un modèle de frontière dérive moins, « moins » n'est pas « jamais ») ;
 - la géométrie sur une écriture sans VT au mot — le banc n'en a pas ;
-- le taux de reprise humaine réellement nécessaire.
+- le taux de reprise automatique, la couverture complète et les refus résiduels ;
+- les types de blocs, l'ordre de lecture, les articles et l'interopérabilité.
 
 Le critère de qualité des boîtes reste celui de `CRITERE.md`, gelé et inchangé :
 il devient plus exigeant, pas moins, puisqu'une VT ne tolère pas l'à-peu-près.
+
+La mission autonome actuelle et les critères de fin sont dans PROTOCOLE.md.
+Les chiffres historiques ci-dessus ne certifient pas la chaîne nouvelle.
+L'objectif persistant créé le 6 octobre 2026 reste actif tant que les seuils
+de la suite indépendante et les contrôles d'export ne sont pas démontrés.

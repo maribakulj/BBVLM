@@ -84,13 +84,22 @@ def load_page_xml_lignes(xml: str, image: str, corpus: str, name: str) -> Page |
     return Page(name, corpus, image, lines) if lines else None
 
 
-def load_alto(xml: str, image: str, corpus: str, name: str) -> Page | None:
+def load_alto(xml: str, image: str, corpus: str, name: str,*,dpi=None) -> Page | None:
     """ALTO avec <String HPOS WIDTH VPOS HEIGHT>."""
     try:
         r = etree.parse(xml).getroot()
     except Exception:
         return None
     ns = r.tag.split('}')[0].strip('{'); N = {'a': ns}
+    import math
+    unit=r.findtext('a:Description/a:MeasurementUnit',namespaces=N)
+    if unit=='pixel':scale=1.
+    elif unit in ('mm10','inch1200') and dpi is not None and math.isfinite(dpi) and dpi>0:
+        scale=dpi/(254 if unit=='mm10' else 1200)
+    else:raise ValueError('Unité ALTO ou DPI documentée absente : ne pas utiliser ces valeurs comme pixels')
+    def native_box(el):
+        x,y,w,h=(float(el.get(k))*scale for k in ('HPOS','VPOS','WIDTH','HEIGHT'))
+        return math.floor(x),math.floor(y),math.ceil(x+w),math.ceil(y+h)
     lines: list[Line] = []
     for tl in r.findall('.//a:TextLine', N):
         words, boxes = [], []
@@ -98,17 +107,15 @@ def load_alto(xml: str, image: str, corpus: str, name: str) -> Page | None:
             t = s.get('CONTENT')
             if not t: continue
             try:
-                x, y = int(s.get('HPOS')), int(s.get('VPOS'))
-                w, h = int(s.get('WIDTH')), int(s.get('HEIGHT'))
+                box=native_box(s)
             except (TypeError, ValueError):
                 continue
-            words.append(t); boxes.append((x, y, x + w, y + h))
+            words.append(t); boxes.append(box)
         if len(words) < 2: continue
         lx0 = min(b[0] for b in boxes); ly0 = min(b[1] for b in boxes)
         lx1 = max(b[2] for b in boxes); ly1 = max(b[3] for b in boxes)
         try:
-            lx0 = int(tl.get('HPOS')); ly0 = int(tl.get('VPOS'))
-            lx1 = lx0 + int(tl.get('WIDTH')); ly1 = ly0 + int(tl.get('HEIGHT'))
+            lx0,ly0,lx1,ly1=native_box(tl)
         except (TypeError, ValueError):
             pass
         lines.append(Line(' '.join(words), words, (lx0, ly0, lx1, ly1), boxes))
@@ -119,11 +126,12 @@ HOME = os.path.expanduser('~')
 
 
 def gt_is_geometric(page: 'Page', thr_gap: float = 0.06, min_empty: float = 0.30) -> bool:
-    """Une VT est utilisable comme vérité GÉOMÉTRIQUE seulement si ses blancs
-    inter-mots sont effectivement vides d'encre. Mesuré : BNL a 0,179 d'encre
-    dans ses blancs contre 0,184 dans ses boîtes, et 7 % de blancs vides — ses
-    boîtes ne délimitent pas les mots. Noter un boxer contre elle revient à le
-    mesurer avec une règle faussée."""
+    """Diagnostic historique des blancs, après conversion des unités physiques.
+
+    Les anciennes mesures BNL utilisaient mm10 comme pixels : elles ne prouvent
+    pas que les boîtes humaines sont erronées. Ce filtre ne doit jamais choisir
+    les pages de la suite indépendante ni effacer ses cas difficiles.
+    """
     import cv2
     g = page.gray
     if g is None: return False
@@ -180,7 +188,7 @@ def all_pages(limit_per_corpus: int | None = None, only_geometric: bool = True,
     for x in sorted(glob.glob(f'{HOME}/Downloads/bnl-ground-truth-newspapers-before-1878-raw/*/*.xml')):
         img = x[:-4] + '.png'
         if not os.path.exists(img): continue
-        p = load_alto(x, img, 'BNLfull', os.path.basename(os.path.dirname(x))+'/'+os.path.basename(x)[:-4])
+        p = load_alto(x, img, 'BNLfull', os.path.basename(os.path.dirname(x))+'/'+os.path.basename(x)[:-4],dpi=300)
         if p: out.append(p); n += 1
         if n >= (limit_per_corpus or 40): break
     # Presse française 1900, VT vérifiée à la main (786 String)
@@ -197,7 +205,7 @@ def all_pages(limit_per_corpus: int | None = None, only_geometric: bool = True,
     for x in sorted(glob.glob(f'{HOME}/cinoc/corpus/37-GT-BNL/*.xml')):
         img = x[:-4] + '.png'
         if not os.path.exists(img): continue
-        p = load_alto(x, img, 'BNL', os.path.basename(x)[:-4])
+        p = load_alto(x, img, 'BNL', os.path.basename(x)[:-4],dpi=300)
         if p: out.append(p); n += 1
         if limit_per_corpus and n >= limit_per_corpus: break
     # Déduplication par CONTENU. Le sous-ensemble cinoc/37-GT-BNL est inclus
