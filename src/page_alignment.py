@@ -380,6 +380,67 @@ def _region_reading_order(rows):
     return rows
 
 
+def _column_reading_order(rows):
+    """Ordre colonne par colonne : la région est coupée en bandes par les lignes
+    qui traversent une gouttière verticale (titres, filets pleine largeur), et
+    dans chaque bande les colonnes se lisent de gauche à droite, chacune de
+    haut en bas. Gouttière = abscisse que ne croise aucune ligne d'au moins
+    trois lignes de chaque côté, hors lignes qui la traversent (≤ 15 %)."""
+    if len(rows) < 6:
+        return list(rows)
+    x0, x1 = min(r['bbox'][0] for r in rows), max(r['bbox'][2] for r in rows)
+    step = max(1, (x1-x0)//200)
+    gaps = []
+    for x in range(x0+step, x1, step):
+        crossing = sum(r['bbox'][0] < x < r['bbox'][2] for r in rows)
+        left = sum(r['bbox'][2] <= x for r in rows)
+        right = sum(r['bbox'][0] >= x for r in rows)
+        if crossing <= .15*len(rows) and left >= 3 and right >= 3:
+            if gaps and x-gaps[-1][-1] <= step:
+                gaps[-1].append(x)
+            else:
+                gaps.append([x])
+    if not gaps:
+        return list(rows)
+    cuts = [min(g, key=lambda x: sum(r['bbox'][0] < x < r['bbox'][2] for r in rows)) for g in gaps]
+    by_y = sorted(rows, key=lambda r: ((r['bbox'][1]+r['bbox'][3])/2, r['bbox'][0]))
+    out, band = [], []
+
+    def flush():
+        columns = [[] for _ in range(len(cuts)+1)]
+        for r in band:
+            centre = (r['bbox'][0]+r['bbox'][2])/2
+            columns[sum(centre > c for c in cuts)].append(r)
+        for column in columns:
+            out.extend(_region_reading_order(column))
+        band.clear()
+
+    for r in by_y:
+        if any(r['bbox'][0] < c < r['bbox'][2] for c in cuts):
+            flush(); out.append(r)
+        else:
+            band.append(r)
+    flush()
+    return out
+
+
+def _anchored_reading_order(rows, chosen):
+    """Ordre de lecture d'une région choisi d'après les lignes déjà ancrées :
+    rangée par rangée (défaut) ou colonne par colonne (tableaux côte à côte que
+    Gemini lit colonne après colonne), selon celui qui garde le plus d'ancres
+    dans l'ordre du texte. Aucun texte n'est lu ici : seules les ancres votent."""
+    row_major = _region_reading_order(rows)
+    column_major = _column_reading_order(rows)
+    if [r['id'] for r in column_major] == [r['id'] for r in row_major]:
+        return row_major
+
+    def kept(order):
+        return len(_increasing([chosen[r['id']]['start'] for r in order if r['id'] in chosen]))
+    # marge : une ou deux ancres de plus peuvent tenir du hasard
+    by_rows, by_columns = kept(row_major), kept(column_major)
+    return column_major if by_columns >= by_rows + max(2, .05*by_rows) else row_major
+
+
 def _increasing(values):
     """Indices d'une plus longue sous-suite strictement croissante."""
     import bisect
@@ -610,7 +671,7 @@ def _ctc_gap_fill(lines, states, proposals, plain, blocks, line_regions, posteri
     chosen = {lid: proposals[lid][0] for lid in states if states[lid] == 'candidate'}
     used = sorted((c['start'], c['end']) for c in chosen.values())
     for rid in sorted(set(line_regions.values())):
-        rows = _region_reading_order([l for l in lines if line_regions.get(l['id']) == rid])
+        rows = _anchored_reading_order([l for l in lines if line_regions.get(l['id']) == rid], chosen)
         anchored = [(k, chosen[r['id']]) for k, r in enumerate(rows) if r['id'] in chosen]
         keep = _increasing([c['start'] for _, c in anchored])
         anchored = [anchored[k] for k in keep]
@@ -674,7 +735,7 @@ def _character_gap_fill(lines, states, proposals, plain, blocks, line_regions):
         return ''.join(ch for ch in text.lower() if not ch.isspace())
 
     for rid in sorted(set(line_regions.values())):
-        rows = _region_reading_order([l for l in lines if line_regions.get(l['id']) == rid])
+        rows = _anchored_reading_order([l for l in lines if line_regions.get(l['id']) == rid], chosen)
         anchored = [(k, chosen[r['id']]) for k, r in enumerate(rows) if r['id'] in chosen]
         keep = _increasing([c['start'] for _, c in anchored])
         anchored = [anchored[k] for k in keep]
@@ -855,7 +916,7 @@ def align_page(markdown, lines, *, image_size, minimum_similarity=.72,
             if not members:
                 continue
             r0, r1 = min(b['start'] for b in members), max(b['end'] for b in members)
-            rows = _region_reading_order([l for l in lines if line_regions.get(l['id']) == rid])
+            rows = _anchored_reading_order([l for l in lines if line_regions.get(l['id']) == rid], chosen)
             anchored = [(k, chosen[r['id']]) for k, r in enumerate(rows)
                         if r['id'] in chosen and r0 <= chosen[r['id']]['start'] < r1]
             keep = _increasing([c['start'] for _, c in anchored])

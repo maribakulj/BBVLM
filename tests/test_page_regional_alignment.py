@@ -143,3 +143,19 @@ def test_table_row_cells_receive_the_rest_of_the_gemini_row_and_repeated_headers
     starts = {a['line_id']: a['start'] for a in result['assignments']}
     assert starts['H1'] < starts['N1'] < starts['H2'] < starts['N2']
     assert ''.join(s['text'] for s in result['segments']) == result['plain_text']
+
+
+def test_tableaux_cote_a_cote_lus_colonne_par_colonne_si_les_ancres_le_disent():
+    from page_alignment import _anchored_reading_order, _column_reading_order
+    titre = dict(id='T', bbox=[0, 0, 400, 20])
+    gauche = [dict(id=f'G{k}', bbox=[0, 30+25*k, 190, 50+25*k]) for k in range(5)]
+    droite = [dict(id=f'D{k}', bbox=[210, 30+25*k, 400, 50+25*k]) for k in range(5)]
+    rows = [titre] + gauche + droite
+    assert [r['id'] for r in _column_reading_order(rows)] == ['T'] + [f'G{k}' for k in range(5)] + [f'D{k}' for k in range(5)]
+    # ancres dans l'ordre colonne par colonne du texte Gemini
+    chosen = {r['id']: dict(start=k*10) for k, r in enumerate([titre] + gauche + droite)}
+    assert [r['id'] for r in _anchored_reading_order(rows, chosen)][1:6] == [f'G{k}' for k in range(5)]
+    # ancres rangée par rangée : l'ordre par défaut est gardé
+    rowwise = [titre] + [x for pair in zip(gauche, droite) for x in pair]
+    chosen = {r['id']: dict(start=k*10) for k, r in enumerate(rowwise)}
+    assert [r['id'] for r in _anchored_reading_order(rows, chosen)] == [r['id'] for r in rowwise]

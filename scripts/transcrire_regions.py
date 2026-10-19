@@ -82,6 +82,9 @@ def region_task(region):
             'même si le mot devient faux. Pour un mot coupé en fin de ligne, garde le trait '
             'd’union et transcris chaque moitié exactement comme imprimée, sans la corriger '
             'd’après le mot entier. '
+            'Une tache, une salissure, un point d’encre isolé ou un défaut du papier n’est pas un '
+            'signe : ne le transcris pas, et n’ajoute jamais d’apostrophe ni de ponctuation à '
+            'l’intérieur d’un mot à cause d’une tache (« émeutes du mois », pas « érneutes d’u mo’is »). '
             'Ne complète pas avec le texte situé hors du crop. Garde les lignes imprimées dans '
             'les paragraphes. Aucun préambule ni conclusion : seulement la transcription. '
             'Note [illisible] pour une partie réellement indéchiffrable. ')
