@@ -58,3 +58,27 @@ def test_fraction_bar_is_optional_when_the_print_has_a_single_glyph():
     with_optional = prefix_loglik(logp, labels)[-1]
     strict = prefix_loglik(logp, [abs(c) for c in labels])[-1]
     assert with_optional > strict + 3
+
+
+def test_leader_dots_match_any_printed_count():
+    from block_ctc import REPEAT, Posteriors
+    # imprimé « a...b » (trois points) ; Gemini écrit huit points
+    codec = {'a': [1], '.': [2], 'b': [3]}
+    printed = [1, 2, 2, 2, 3]
+    C = 4
+    frames = []
+    for lab in printed:
+        for target in (0, lab, 0):
+            row = np.full(C, np.log(.01/(C-1)))
+            row[target] = np.log(.99)
+            frames.append(row)
+    logp = np.array(frames)
+    p = Posteriors.__new__(Posteriors)
+    p.codec, p.keys = codec, sorted(codec, key=len, reverse=True)
+    labels, _ = p.encode('a........b')
+    assert labels == [1, 2 + REPEAT, 3]
+    free = prefix_loglik(logp, labels)[-1]
+    counted = prefix_loglik(logp, [1] + [2]*8 + [3])[-1]
+    exact = prefix_loglik(logp, printed)[-1]
+    assert free > counted + 10
+    assert abs(free - exact) < 1.0

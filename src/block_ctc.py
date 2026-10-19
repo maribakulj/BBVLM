@@ -13,12 +13,18 @@ CTC n'est utilisée comme texte ; le texte source n'est jamais modifié.
 from __future__ import annotations
 import json
 from pathlib import Path
+import re
 import unicodedata
 
 import numpy as np
 
 VISUAL_EQUIVALENTS = {'º': ('°', 'o'), '°': ('º', 'o'), 'ª': ('a',), '′': ("'",), '″': ('"',)}
 NEG = -1e30
+# Étiquette répétable (points de conduite) : code + REPEAT. Gemini ne compte pas
+# les points d'une ligne de tableau (« Suez........ 105 ») ; une suite d'au moins
+# deux points vaut « un point ou plus », chacun séparé du suivant par un blanc.
+REPEAT = 1_000_000
+LEADER = re.compile(r'\.(?: ?\.)+')
 
 
 class Posteriors:
@@ -41,6 +47,10 @@ class Posteriors:
         text = ' '.join(text.split())
         labels, missing, i = [], 0, 0
         while i < len(text):
+            leader = LEADER.match(text, i) if '.' in self.codec else None
+            if leader:
+                labels.extend(c + REPEAT for c in self.codec['.'][:1])
+                i = leader.end(); continue
             key = next((k for k in self.keys if text.startswith(k, i)), None)
             if key is not None:
                 codes = self.codec[key]
@@ -76,9 +86,13 @@ def prefix_loglik(logp, labels):
     T = logp.shape[0]
     L = len(labels)
     optional = np.array([c < 0 for c in labels], dtype=bool)
+    repeat = np.array([abs(c) >= REPEAT for c in labels], dtype=bool)
     S = 2*L+1
     ext = np.zeros(S, dtype=np.int64)
-    ext[1::2] = np.abs(np.asarray(labels, dtype=np.int64)) if L else []
+    ext[1::2] = np.abs(np.asarray(labels, dtype=np.int64)) % REPEAT if L else []
+    # étiquette répétable : retour du blanc qui la suit vers elle-même
+    again = np.zeros(S, dtype=bool)
+    again[1::2] = repeat
     skip = np.zeros(S, dtype=bool)
     if L > 1:
         lab = ext[1::2]
@@ -100,7 +114,9 @@ def prefix_loglik(logp, labels):
         a2 = np.where(skip, _shift(prev, 2), NEG)
         a3 = np.where(jump, _shift(prev, 3), NEG)
         a4 = np.where(jump, _shift(prev, 4), NEG)
-        alpha = np.logaddexp(np.logaddexp(np.logaddexp(prev, a1), a2), np.logaddexp(a3, a4)) + logp[t, ext]
+        a5 = np.where(again, np.concatenate((prev[1:], [NEG])), NEG)
+        alpha = np.logaddexp(np.logaddexp(np.logaddexp(prev, a1), np.logaddexp(a2, a5)),
+                             np.logaddexp(a3, a4)) + logp[t, ext]
     out = np.empty(L+1)
     out[0] = alpha[0]
     if L:
