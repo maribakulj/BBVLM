@@ -49,9 +49,17 @@ def run_agy(command, cwd, timeout):
     import signal
     process = subprocess.Popen(command, cwd=cwd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                                text=True, start_new_session=True)
+    # Délai en heure réelle : l'horloge monotone de macOS s'arrête pendant la
+    # veille, et un appel restait suspendu des heures après le réveil (20/10).
+    deadline = time.time() + timeout
     try:
-        out, _ = process.communicate(timeout=timeout)
-        return out
+        while True:
+            try:
+                out, _ = process.communicate(timeout=min(30, max(1, deadline - time.time())))
+                return out
+            except subprocess.TimeoutExpired:
+                if time.time() >= deadline:
+                    raise
     except subprocess.TimeoutExpired:
         try:
             os.killpg(process.pid, signal.SIGKILL)
