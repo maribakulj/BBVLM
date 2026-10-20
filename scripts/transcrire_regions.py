@@ -7,6 +7,7 @@ aucun mot et conserve les limites des régions dans un manifeste séparé.
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
 import sys
 
@@ -95,7 +96,9 @@ def region_task(region):
     return task
 
 
-def transcribe(manifest, output, pane, timeout=900, workers=3):
+def transcribe(manifest, output, pane, timeout=900, workers=None):
+    # Lectures Gemini simultanées : BBVLM_GEMINI_WORKERS (défaut 3).
+    workers = workers or int(os.environ.get('BBVLM_GEMINI_WORKERS', '3'))
     output = Path(output).resolve()
     if str(pane).startswith('agy') and workers > 1:
         # Lectures indépendantes (session neuve chacune) lancées en parallèle ;
