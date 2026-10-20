@@ -255,3 +255,56 @@ def write_plan(image, auto_plan, lines, structure, output):
     output.mkdir(parents=True, exist_ok=True)
     save_json(output / 'plan.json', plan)
     return plan
+
+
+def hybrid_plan(image, auto_plan, lines, structure, output):
+    """Plan hybride : les régions du plan géométrique (découpes sur les vraies
+    gouttières, sûres pour la lecture) + une région par bloc Gemini qui contient
+    des lignes laissées hors de toute région géométrique (pied de page, petites
+    annonces, bulletins). Les régions ajoutées ne débordent jamais sur une région
+    géométrique ; l'ordre de lecture et l'OLR restent ceux de la structure Gemini."""
+    from PIL import Image
+    with Image.open(image) as page:
+        width, height = page.size
+    line_height = float(auto_plan['parameters']['line_height'])
+    regions = [dict(r) for r in auto_plan['regions']]
+
+    def inside(line, r):
+        cx, cy = (line['bbox'][0] + line['bbox'][2]) / 2, (line['bbox'][1] + line['bbox'][3]) / 2
+        return r['bbox'][0] <= cx < r['bbox'][2] and r['bbox'][1] <= cy < r['bbox'][3]
+    orphans = [l for l in lines if not any(inside(l, r) for r in regions)]
+    blocs = [b for b in structure['blocs'] if isinstance(b.get('n'), int)]
+    owner = anchor_lines(blocs, orphans, width, height, line_height)
+    by_block = {}
+    for line in orphans:
+        if line['id'] in owner:
+            by_block.setdefault(owner[line['id']], []).append(line)
+    added, line_regions = [], dict(auto_plan['line_regions'])
+    order = max([r['order'] for r in regions] or [0])
+    for n in sorted(by_block):
+        rows = by_block[n]
+        box = [min(l['bbox'][0] for l in rows), min(l['bbox'][1] for l in rows),
+               max(l['bbox'][2] for l in rows), max(l['bbox'][3] for l in rows)]
+        # rogner tout recouvrement avec une région existante (géométrique ou ajoutée)
+        for r in regions + added:
+            a = r['bbox']
+            if min(box[2], a[2]) - max(box[0], a[0]) > 0 and min(box[3], a[3]) - max(box[1], a[1]) > 0:
+                if box[1] < a[1] < box[3]:
+                    box[3] = a[1]
+                elif box[1] < a[3] < box[3]:
+                    box[1] = a[3]
+        if box[2] - box[0] < 8 or box[3] - box[1] < 8:
+            continue
+        order += 1
+        rid = f'gem{n:03d}'
+        added.append(dict(id=rid, kind='gemini_orphan_block', order=order, bbox=[int(v) for v in box], blocs=[n]))
+        for line in rows:
+            line_regions[line['id']] = rid
+    plan = dict(auto_plan, regions=regions + added, line_regions=line_regions,
+                version=auto_plan.get('version', '') + '+' + VERSION + '-hybride')
+    plan['audit'] = dict(auto_plan.get('audit', {}), hybrid=dict(orphan_lines=len(orphans), attached=len(owner),
+                                                                 added_regions=[r['id'] for r in added]))
+    output = Path(output)
+    output.mkdir(parents=True, exist_ok=True)
+    save_json(output / 'plan.json', plan)
+    return plan
