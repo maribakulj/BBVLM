@@ -149,6 +149,47 @@ def deduplicate(candidates):
     return kept
 
 
+def _segment_lines(im, model, box, strategy):
+    """Lignes (contour, ligne de base) d'une tuile, coordonnées de la tuile."""
+    from kraken import blla
+    crop=im.crop(box)
+    if strategy == 'regions':
+        # Le réseau conserve ici l'échelle physique du recadrage. Une
+        # courte région n'est pas agrandie artificiellement à 1800 px.
+        if crop.height < 600:
+            canvas=Image.new('L',(crop.width,600),255)
+            canvas.paste(crop,(0,0));crop=canvas
+        model.input=(1,3,min(crop.height,2400),0)
+    seg=blla.segment(crop,model=model)
+    return [(np.asarray(line.boundary,float).tolist(),np.asarray(line.baseline,float).tolist())
+            for line in seg.lines]
+
+
+_SEGMENT_WORKER={}
+
+
+def _segment_workers(pending):
+    import os
+    try:
+        workers=int(os.environ.get('BBVLM_SEGMENT_WORKERS','3'))
+    except ValueError:
+        workers=1
+    return workers if pending>=4 else 1
+
+
+def _segment_worker_init(image,model_path,network_height,strategy,workers):
+    import os
+    import torch
+    torch.set_num_threads(max(1,(os.cpu_count() or 4)//(2*workers)))
+    model=_load_model(model_path)
+    if network_height is not None:model.input=(1,3,network_height,0)
+    _SEGMENT_WORKER.update(im=Image.open(image).convert('L'),model=model,strategy=strategy)
+
+
+def _segment_worker_tile(box):
+    return _segment_lines(_SEGMENT_WORKER['im'],_SEGMENT_WORKER['model'],box,_SEGMENT_WORKER['strategy'])
+
+
 def segment(image, strategy='full', tile_width=2400, tile_height=2000,
             overlap_x=1200, overlap_y=400, layout_candidates=None,cache_directory=None,network_height=None):
     from kraken import blla
@@ -193,6 +234,22 @@ def segment(image, strategy='full', tile_width=2400, tile_height=2000,
         raise ValueError(f'segmenteur inconnu : {strategy}')
     candidates=[]
     completed=[]
+    # Tuiles indépendantes : celles qui ne sont pas en cache sont segmentées en
+    # parallèle (BBVLM_SEGMENT_WORKERS processus, défaut 3) ; l'ordre des lignes
+    # et la suite (filtrage, cache, déduplication) restent ceux du calcul séquentiel.
+    precomputed={}
+    pending=[(ox,oy,ex,ey) for ox,oy,ex,ey in tiles
+             if not (cache and (cache/(hashlib.sha256(json.dumps({**fingerprint,'tile':[ox,oy,ex,ey]},
+                                                                    sort_keys=True).encode()).hexdigest()+'.json')).exists())]
+    workers=_segment_workers(len(pending))
+    if workers>1:
+        from concurrent.futures import ProcessPoolExecutor
+        import multiprocessing
+        with ProcessPoolExecutor(workers,mp_context=multiprocessing.get_context('spawn'),
+                                 initializer=_segment_worker_init,
+                                 initargs=(str(image),str(model_path),network_height,strategy,workers)) as pool:
+            for box,lines in zip(pending,pool.map(_segment_worker_tile,pending)):
+                precomputed[box]=lines
     for ti,(ox,oy,ex,ey) in enumerate(tiles,1):
         key=hashlib.sha256(json.dumps({**fingerprint,'tile':[ox,oy,ex,ey]},sort_keys=True).encode()).hexdigest()
         tile_file=cache/(key+'.json') if cache else None
@@ -208,26 +265,21 @@ def segment(image, strategy='full', tile_width=2400, tile_height=2000,
                 continue
             except (ValueError,KeyError,TypeError):
                 tile_file.rename(tile_file.with_suffix('.corrupt'))
-        if model is None:
-            model=_load_model(model_path)
-            if network_height is not None:model.input=(1,3,network_height,0)
-        crop=im.crop((ox,oy,ex,ey))
-        if strategy == 'regions':
-            # Le réseau conserve ici l'échelle physique du recadrage. Une
-            # courte région n'est pas agrandie artificiellement à 1800 px.
-            if crop.height < 600:
-                canvas=Image.new('L',(crop.width,600),255)
-                canvas.paste(crop,(0,0));crop=canvas
-            model.input=(1,3,min(crop.height,2400),0)
-        try:
-            seg=blla.segment(crop,model=model)
-        except Exception as exc:
-            if cache:atomic_json(cache/'state.json',dict(**fingerprint,completed=completed,
-                                  failed_tile=[ox,oy,ex,ey],error=str(exc),status='interrupted'))
-            raise
+        if (ox,oy,ex,ey) in precomputed:
+            seg_lines=precomputed[(ox,oy,ex,ey)]
+        else:
+            if model is None:
+                model=_load_model(model_path)
+                if network_height is not None:model.input=(1,3,network_height,0)
+            try:
+                seg_lines=_segment_lines(im,model,(ox,oy,ex,ey),strategy)
+            except Exception as exc:
+                if cache:atomic_json(cache/'state.json',dict(**fingerprint,completed=completed,
+                                      failed_tile=[ox,oy,ex,ey],error=str(exc),status='interrupted'))
+                raise
         tile_candidates=[]
-        for line in seg.lines:
-            pts=np.asarray(line.boundary,float)+[ox,oy]
+        for boundary,line_baseline in seg_lines:
+            pts=np.asarray(boundary,float)+[ox,oy]
             if not len(pts):
                 continue
             bbox=[max(0,math.floor(pts[:,0].min())),max(0,math.floor(pts[:,1].min())),
@@ -237,7 +289,7 @@ def segment(image, strategy='full', tile_width=2400, tile_height=2000,
                 continue
             interior=(ox == 0 or x0>ox+10) and (oy == 0 or y0>oy+10) and \
                      (ex == im.width or x1<ex-10) and (ey == im.height or y1<ey-10)
-            baseline=(np.asarray(line.baseline,float)+[ox,oy]).tolist()
+            baseline=(np.asarray(line_baseline,float)+[ox,oy]).tolist()
             if min(p[1] for p in baseline) >= ey:
                 continue
             tile_candidates.append(dict(bbox=bbox,polygon=pts.tolist(),baseline=baseline,
@@ -247,7 +299,7 @@ def segment(image, strategy='full', tile_width=2400, tile_height=2000,
         if cache:
             atomic_json(tile_file,dict(key=key,candidates=tile_candidates))
             atomic_json(cache/'state.json',dict(**fingerprint,completed=completed,total=len(tiles),status='running'))
-        print(f'  segmentation {strategy} : tuile {ti}/{len(tiles)}, {len(seg.lines)} lignes',flush=True)
+        print(f'  segmentation {strategy} : tuile {ti}/{len(tiles)}, {len(seg_lines)} lignes',flush=True)
     if cache:atomic_json(cache/'state.json',dict(**fingerprint,completed=completed,total=len(tiles),status='completed'))
     return deduplicate(candidates)
 
