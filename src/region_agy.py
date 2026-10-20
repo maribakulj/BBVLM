@@ -32,6 +32,10 @@ def observed_paths(conversation_id):
             if payload:
                 text = payload.decode('utf-8', 'ignore') if isinstance(payload, bytes) else str(payload)
                 found.update(re.findall(r'"AbsolutePath":"([^"]+)"', text))
+                # Selon le tour, l'agent ouvre l'image par view_file (AbsolutePath)
+                # ou par read_file (Path) : les deux comptent (20/10, lectures
+                # valides rejetées faute de reconnaître read_file).
+                found.update(re.findall(r'(?:read_file|view_file)[^{]{0,8}\{"Path":"([^"]+)"', text))
     return sorted(found)
 
 
