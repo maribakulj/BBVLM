@@ -34,10 +34,10 @@ PROMPT = (
 )
 
 
-def ask_structure(directory, image, model='gemini-3.8-flash-medium', timeout=900, attempts=3):
+def ask_structure(directory, image, model='gemini-3.8-flash-medium', timeout=900, attempts=3, prompt=None):
     directory, image = Path(directory).resolve(), Path(image).resolve()
     directory.mkdir(parents=True, exist_ok=True)
-    question = PROMPT + f'\n\nImage : @{image.name}\nNe lis aucun autre fichier. ' + NO_TOOLS
+    question = (prompt or PROMPT) + f'\n\nImage : @{image.name}\nNe lis aucun autre fichier. ' + NO_TOOLS
     log, result = [], None
     for attempt in range(attempts):
         started = time.time()
