@@ -105,7 +105,7 @@ def transcribe(manifest, output, pane, timeout=900, workers=None):
         # la boucle ci-dessous reprend ensuite les résultats complets sauvegardés.
         from concurrent.futures import ThreadPoolExecutor
         from region_agy import read_region
-        model = pane.split(':', 1)[1] if ':' in pane else 'gemini-3.8-flash-medium'
+        model = pane.split(':', 1)[1] if ':' in pane else 'gemini-3.8-flash-low'
 
         def pending(region):
             prov = output / region['id'] / 'vt-provenance.json'
@@ -127,7 +127,7 @@ def transcribe(manifest, output, pane, timeout=900, workers=None):
             # Mode non interactif (agy -p), session neuve par région ; « agy:<modèle> ».
             from region_agy import read_region
             from types import SimpleNamespace
-            model = pane.split(':', 1)[1] if ':' in pane else 'gemini-3.8-flash-medium'
+            model = pane.split(':', 1)[1] if ':' in pane else 'gemini-3.8-flash-low'
             saved = (json.loads((directory / 'vt-provenance.json').read_text())
                      if (directory / 'vt-provenance.json').exists() else {})
             if (directory / 'vt.gemini.md').exists() and saved.get('reading_status') == \
