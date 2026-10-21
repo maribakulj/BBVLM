@@ -45,17 +45,12 @@ def verify_transcription(image, markdown, provenance):
     return data
 
 
-def run(image, markdown, provenance, automatic_lines, output, *, anchor_reader='cached',
-        geometry=True, kraken_python=KRAKEN_PYTHON, model_path=None,
-        minimum_similarity=.72, ambiguity_margin=.06, repair_ownership=False, region_plan=None,
-        block_ctc=False):
-    from page_alignment import write_alignment
-    from page_olr import write_structure
-    image, markdown = Path(image).resolve(), Path(markdown).resolve()
-    automatic_lines, output = Path(automatic_lines).resolve(), Path(output).resolve()
-    if not geometry and any((output / name).exists() for name in ('annotations.json', 'page.alto.xml', 'training.jsonl')):
-        raise ValueError('Des placements existent déjà ; choisir un nouveau dossier pour l’appariement seul')
-    metadata = verify_transcription(image, markdown, provenance)
+def prepare_lines(image, automatic_lines, region_plan=None, block_ctc=False):
+    """Lignes que liront le CTC et l'appariement : lignes automatiques, coupées aux
+    gouttières observées, plus les lignes d'encre orpheline. Ne dépend que de
+    l'image et du plan (pas de la transcription) : peut tourner pendant la
+    lecture Gemini (scripts/prechauffer_ctc.py)."""
+    image, automatic_lines = Path(image).resolve(), Path(automatic_lines).resolve()
     lines = load_automatic_lines(image, automatic_lines)
     # Option : contrainte régionale issue du plan automatique figé. Elle ne lit
     # que les sorties source (plan de régions, offsets de la transcription).
@@ -65,10 +60,7 @@ def run(image, markdown, provenance, automatic_lines, output, *, anchor_reader='
         if plan_data.get('image_sha256') != sha256(image):
             raise ValueError('Le plan de régions appartient à une autre image')
         constraint = dict(plan=str(Path(region_plan).resolve()), plan_sha256=sha256(region_plan),
-                          line_regions=plan_data['line_regions'],
-                          region_spans={p['id']: p['span'] for p in metadata.get('parts', [])})
-        if not constraint['region_spans']:
-            raise ValueError('Transcription sans offsets de régions')
+                          line_regions=plan_data['line_regions'])
         # Les lignes BLLA qui traversent une gouttière observée sont coupées
         # avant toute lecture CTC ; chaque morceau reçoit la région de son centre.
         import numpy as np
@@ -91,6 +83,25 @@ def run(image, markdown, provenance, automatic_lines, output, *, anchor_reader='
             constraint['line_regions'].update(assign_regions(orphans, plan_data))
             lines = lines + orphans
             constraint['orphan_lines'] = dict(version=ORPHAN_VERSION, ids=[o['id'] for o in orphans])
+    return lines, constraint
+
+
+def run(image, markdown, provenance, automatic_lines, output, *, anchor_reader='cached',
+        geometry=True, kraken_python=KRAKEN_PYTHON, model_path=None,
+        minimum_similarity=.72, ambiguity_margin=.06, repair_ownership=False, region_plan=None,
+        block_ctc=False):
+    from page_alignment import write_alignment
+    from page_olr import write_structure
+    image, markdown = Path(image).resolve(), Path(markdown).resolve()
+    automatic_lines, output = Path(automatic_lines).resolve(), Path(output).resolve()
+    if not geometry and any((output / name).exists() for name in ('annotations.json', 'page.alto.xml', 'training.jsonl')):
+        raise ValueError('Des placements existent déjà ; choisir un nouveau dossier pour l’appariement seul')
+    metadata = verify_transcription(image, markdown, provenance)
+    lines, constraint = prepare_lines(image, automatic_lines, region_plan, block_ctc)
+    if constraint is not None:
+        constraint['region_spans'] = {p['id']: p['span'] for p in metadata.get('parts', [])}
+        if not constraint['region_spans']:
+            raise ValueError('Transcription sans offsets de régions')
     config = dict(version=VERSION, image_sha256=sha256(image), markdown_sha256=sha256(markdown),
                   provenance_sha256=sha256(provenance),
                   provenance_source=str(Path(provenance).resolve()),

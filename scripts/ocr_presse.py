@@ -57,7 +57,17 @@ def main():
             save_json(saved_plan,plan)
         manifest=prepare(image,plan,output/'transcription')
         state('gemini',layout_audit=plan['audit'])
-        transcribe(manifest,output/'transcription',args.gemini_pane,args.timeout)
+        # Ancres et probabilités CTC pendant la lecture Gemini (indépendantes du texte).
+        warm=[str(KRAKEN_PYTHON),str(ROOT/'scripts/prechauffer_ctc.py'),str(image),str(source),str(output/'inspection')]
+        if not args.no_region_constraint:warm+=['--region-plan',str(output/'layout/plan.json')]
+        if args.no_block_ctc:warm.append('--no-block-ctc')
+        (output/'inspection').mkdir(parents=True,exist_ok=True)
+        with (output/'inspection/prechauffage.log').open('a',encoding='utf-8') as log:
+            warming=subprocess.Popen(warm,stdout=log,stderr=subprocess.STDOUT)
+        try:
+            transcribe(manifest,output/'transcription',args.gemini_pane,args.timeout)
+        finally:
+            if warming.wait():print('Préchauffage CTC en échec : calcul repris par la chaîne',file=sys.stderr)
         state('geometry',layout_audit=plan['audit'])
         text=output/'transcription';inspection=output/'inspection'
         report=run(image,text/'vt.gemini.md',text/'vt-provenance.json',source,inspection,
