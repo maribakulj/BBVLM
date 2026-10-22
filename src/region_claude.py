@@ -21,7 +21,8 @@ LINES = ('IMPORTANT : une ligne imprimée = une ligne de ta réponse ; ne recoll
          'jamais le mot complété (« batail- » reste « batail- », pas « bataill- » ni « bataillon »). '
          'N’ajoute aucune lettre, aucun mot ni aucune ligne qui ne soit pas imprimé, même si le mot '
          'semble incomplet. N’écris jamais de remarque, d’explication ni de phrase sur l’image ou sur ta '
-         'lecture ; une partie indéchiffrable s’écrit [illisible], entre crochets, rien d’autre. '
+         'lecture ; une partie indéchiffrable s’écrit [illisible], entre crochets, rien d’autre ; une région '
+         'sans aucun texte imprimé (ornement, filet, image) se répond exactement VIDE. '
          'Une lettre à demi coupée au bord de l’image se transcrit comme la lettre visible, pas [illisible]. '
          'Utilise uniquement l’alphabet latin (aucune lettre cyrillique ou grecque d’apparence voisine).')
 
@@ -60,7 +61,7 @@ def _enlarge(path, directory, pixels=1.15e6, side=1568):
         return target
 
 
-def read_region(directory, image, views, task, model='claude-haiku-5-5', timeout=900, attempts=3, expected_lines=None):
+def read_region(directory, image, views, task, model='claude-haiku-5-5', timeout=240, attempts=3, expected_lines=None):
     """expected_lines : lignes détectées dans la région ; une réponse qui en rend moins des 3/4
     (lignes recollées en paragraphes) est redemandée en donnant ce nombre."""
     directory = Path(directory).resolve()
@@ -87,7 +88,10 @@ def read_region(directory, image, views, task, model='claude-haiku-5-5', timeout
         response = response.strip()
         saw_image = str(image) in opened and 'IMAGE_ABSENTE' not in response
         lines = sum(bool(l.strip()) for l in response.splitlines())
-        merged = bool(expected_lines) and expected_lines >= 8 and lines < .9 * expected_lines
+        # kraken compte souvent 1-2 lignes de trop (filets, ornements) : relance seulement s'il en manque
+        # au moins 2 et 10 %, et plus du tout si la relance précédente n'a rien apporté
+        merged = (bool(expected_lines) and expected_lines >= 8 and lines < expected_lines - max(2, .1 * expected_lines)
+                  and not (best is not None and attempt and lines <= best[4]))
         log.append(dict(attempt=attempt, seconds=round(time.time()-started, 1), status=status, usage=usage,
                         cost_usd=cost, image_opened=saw_image, views_opened=sum(p in opened for p in paths[1:]),
                         lines=lines, expected_lines=expected_lines, merged_lines=merged))
@@ -101,11 +105,12 @@ def read_region(directory, image, views, task, model='claude-haiku-5-5', timeout
                             f'ta réponse précédente n’en avait que {lines} : tu as recollé ou sauté des lignes. '
                             'Rends chaque ligne imprimée sur sa propre ligne, depuis la toute première en haut de l’image.')
     response, status, opened, saw_image, _ = best or (response, status, opened, saw_image, 0)
-    text = unicodedata.normalize('NFC', re.sub(r'^```(?:markdown)?\s*|\s*```$', '', response).strip()) + '\n'
+    empty = response.strip() == 'VIDE'
+    text = '\n' if empty else unicodedata.normalize('NFC', re.sub(r'^```(?:markdown)?\s*|\s*```$', '', response).strip()) + '\n'
     homoglyphs = sum(c != d for c, d in zip(text, text.translate(HOMOGLYPHS)))
     text = text.translate(HOMOGLYPHS)
     (directory / 'vt.gemini.md').write_text(text, encoding='utf-8')
-    complete = bool(response) and status == 'SUCCESS' and saw_image
+    complete = (empty or bool(response)) and status == 'SUCCESS' and saw_image
     job = uuid.uuid4().hex
     provenance = dict(
         kind='page_markdown', image=str(source), image_sent=str(image), image_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),

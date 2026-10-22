@@ -38,6 +38,21 @@ def prepare(image, plan, output):
             directory = output / name
             directory.mkdir(exist_ok=True)
             crop = page.crop((x0, y0, x1, y1))
+            if region.get('hide_boxes'):
+                # Plan OLR : les lignes des AUTRES régions visibles dans le crop sont effacées
+                # (boîtes du détecteur imbriquées ou chevauchantes : sinon lues deux fois),
+                # puis les lignes de la région recollées par-dessus. Le reste (haut des grands
+                # titres, hors boîte de ligne) reste visible.
+                original, crop = crop, crop.copy()
+                def local(box):
+                    a, b, c, d = box
+                    return (max(a, x0) - x0, max(b, y0) - y0, min(c, x1) - x0, min(d, y1) - y0)
+                for box in map(local, region['hide_boxes']):
+                    if box[0] < box[2] and box[1] < box[3]:
+                        crop.paste('white', box)
+                for box in map(local, region.get('keep_boxes', [])):
+                    if box[0] < box[2] and box[1] < box[3]:
+                        crop.paste(original.crop(box), box[:2])
             target = directory / 'image.png'
             if not target.exists():
                 crop.save(target)
@@ -123,9 +138,11 @@ def transcribe(manifest, output, pane, timeout=900, workers=None):
         detected = Counter(manifest.get('plan', {}).get('line_regions', {}).values())
 
         def one(region):
-            extra = dict(expected_lines=detected.get(region['id'])) if claude else {}
+            # Claude : délai court par appel (un appel normal ~1-2 min ; des appels bloqués 7-14 min)
+            extra = dict(expected_lines=detected.get(region['id']), timeout=min(timeout, 240)) if claude \
+                else dict(timeout=timeout)
             read_region(output / region['id'], region['image'], [v['path'] for v in region['views']],
-                        region_task(region), model=model, timeout=timeout, **extra)
+                        region_task(region), model=model, **extra)
 
         with ThreadPoolExecutor(workers) as pool:
             list(pool.map(one, [r for r in manifest['regions'] if pending(r)]))
