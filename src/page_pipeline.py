@@ -40,8 +40,8 @@ def verify_transcription(image, markdown, provenance):
     data = json.loads(provenance.read_text())
     if data.get('image_sha256') != sha256(image) or data.get('artifact_sha256') != sha256(markdown):
         raise ValueError('Transcription, image et provenance ne correspondent pas')
-    if data.get('provider') != 'gemini' or not data.get('job_id'):
-        raise ValueError('Transcription sans provenance Gemini')
+    if data.get('provider') not in ('gemini', 'anthropic') or not data.get('job_id'):
+        raise ValueError('Transcription sans provenance de lecteur (Gemini ou Claude)')
     return data
 
 

@@ -6,6 +6,7 @@ Les références ne sont ouvertes que par le processus d'évaluation final.
 """
 import argparse
 import json
+import os
 from pathlib import Path
 import subprocess
 import sys
@@ -124,6 +125,15 @@ def main():
             delivery['differences_gemini_vt']=dict(total=differences_summary['differences'],by_category=differences_summary['by_category'])
         save_json(output/'livraison.json',delivery)
         state('exported',delivery=delivery)
+        # Intermédiaires reconstructibles (70-100 Mo par page) effacés une fois la page livrée ;
+        # BBVLM_GARDER_INTERMEDIAIRES=1 pour les garder.
+        if os.environ.get('BBVLM_GARDER_INTERMEDIAIRES')!='1':
+            import shutil
+            for name in ('ctc-posteriors','ctc-anchors','geometry-cache','line-cache','prechauffage',
+                         'inspection-refined-work','segmentation-tiles'):
+                for path in list(output.rglob(name)):
+                    if path.is_dir() and 'transcription' not in path.relative_to(output).parts:
+                        shutil.rmtree(path)
         print(json.dumps(delivery,ensure_ascii=False,indent=2))
     except Exception as exc:
         state('interrupted',error=f'{type(exc).__name__}: {exc}',resume='Relancer la même commande ; ne pas effacer les journaux.')

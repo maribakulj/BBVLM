@@ -7,6 +7,7 @@ aucun mot et conserve les limites des régions dans un manifeste séparé.
 import argparse
 import hashlib
 import json
+from collections import Counter
 import os
 from pathlib import Path
 import sys
@@ -98,23 +99,33 @@ def region_task(region):
 
 def transcribe(manifest, output, pane, timeout=900, workers=None):
     # Lectures Gemini simultanées : BBVLM_GEMINI_WORKERS (défaut 3).
-    workers = workers or int(os.environ.get('BBVLM_GEMINI_WORKERS', '3'))
+    # « claude[:<modèle>] » : lecture par Claude (claude -p), BBVLM_CLAUDE_WORKERS (défaut 8).
+    claude = str(pane).startswith('claude')
+    workers = workers or int(os.environ.get('BBVLM_CLAUDE_WORKERS' if claude else 'BBVLM_GEMINI_WORKERS',
+                                            '8' if claude else '3'))
     output = Path(output).resolve()
-    if str(pane).startswith('agy') and workers > 1:
+    if (str(pane).startswith('agy') or claude) and workers > 1:
         # Lectures indépendantes (session neuve chacune) lancées en parallèle ;
         # la boucle ci-dessous reprend ensuite les résultats complets sauvegardés.
         from concurrent.futures import ThreadPoolExecutor
-        from region_agy import read_region
-        model = pane.split(':', 1)[1] if ':' in pane else 'gemini-3.8-flash-low'
+        if claude:
+            from region_claude import read_region
+            model = pane.split(':', 1)[1] if ':' in pane else 'claude-haiku-5-5'
+        else:
+            from region_agy import read_region
+            model = pane.split(':', 1)[1] if ':' in pane else 'gemini-3.8-flash-low'
 
         def pending(region):
             prov = output / region['id'] / 'vt-provenance.json'
             return not (prov.exists() and json.loads(prov.read_text()).get('reading_status') ==
                         'native_response_saved_pending_independent_evaluation')
 
+        detected = Counter(manifest.get('plan', {}).get('line_regions', {}).values())
+
         def one(region):
+            extra = dict(expected_lines=detected.get(region['id'])) if claude else {}
             read_region(output / region['id'], region['image'], [v['path'] for v in region['views']],
-                        region_task(region), model=model, timeout=timeout)
+                        region_task(region), model=model, timeout=timeout, **extra)
 
         with ThreadPoolExecutor(workers) as pool:
             list(pool.map(one, [r for r in manifest['regions'] if pending(r)]))
@@ -123,11 +134,15 @@ def transcribe(manifest, output, pane, timeout=900, workers=None):
     for region in manifest['regions']:
         directory = output / region['id']
         task = region_task(region)
-        if str(pane).startswith('agy'):
-            # Mode non interactif (agy -p), session neuve par région ; « agy:<modèle> ».
-            from region_agy import read_region
+        if str(pane).startswith('agy') or claude:
+            # Mode non interactif (agy -p / claude -p), session neuve par région ; « agy:<modèle> ».
             from types import SimpleNamespace
-            model = pane.split(':', 1)[1] if ':' in pane else 'gemini-3.8-flash-low'
+            if claude:
+                from region_claude import read_region
+                model = pane.split(':', 1)[1] if ':' in pane else 'claude-haiku-5-5'
+            else:
+                from region_agy import read_region
+                model = pane.split(':', 1)[1] if ':' in pane else 'gemini-3.8-flash-low'
             saved = (json.loads((directory / 'vt-provenance.json').read_text())
                      if (directory / 'vt-provenance.json').exists() else {})
             if (directory / 'vt.gemini.md').exists() and saved.get('reading_status') == \
@@ -167,7 +182,7 @@ def transcribe(manifest, output, pane, timeout=900, workers=None):
     target.write_text(combined)
     save_json(output / 'vt-provenance.json', dict(kind='page_markdown_regions',
               image=manifest['image'], image_sha256=manifest['image_sha256'],
-              artifact_sha256=sha256(target), provider='gemini',
+              artifact_sha256=sha256(target), provider='anthropic' if claude else 'gemini',
               job_id='regions-' + hashlib.sha256(''.join(p['job_id'] for p in parts).encode()).hexdigest()[:24],
               model_native=reading.model, model_claim=None,
               uncertain=any(p['uncertain'] or p['source_pixel_coverage']['fraction']!=1 for p in parts), characters=len(combined),
