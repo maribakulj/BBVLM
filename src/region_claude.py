@@ -113,7 +113,7 @@ def read_region(directory, image, views, task, model='claude-haiku-5-5', timeout
     complete = (empty or bool(response)) and status == 'SUCCESS' and saw_image
     job = uuid.uuid4().hex
     provenance = dict(
-        kind='page_markdown', image=str(source), image_sent=str(image), image_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
+        kind='page_markdown', image=str(source), image_sent=str(image), image_sent_sha256=hashlib.sha256(image.read_bytes()).hexdigest(), image_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
         job_id=job, provider='anthropic', model_claim=None, model_native=model,
         uncertain=(not complete) or '[illisible]' in text, characters=len(text),
         artifact_sha256=hashlib.sha256((directory / 'vt.gemini.md').read_bytes()).hexdigest(),
@@ -126,5 +126,9 @@ def read_region(directory, image, views, task, model='claude-haiku-5-5', timeout
         calls=log, homoglyphs_replaced=homoglyphs, reading_status=('native_response_saved_pending_independent_evaluation' if complete
                                    else 'incomplete_after_retries'))
     (directory / 'prompt.txt').write_text(prompt, encoding='utf-8')
+    # Copies agrandies : reconstructibles depuis le crop (empreinte gardée), effacées après lecture.
+    for p in [image, *views]:
+        if p.name.startswith('claude-') and p.parent == directory:
+            p.unlink(missing_ok=True)
     (directory / 'vt-provenance.json').write_text(json.dumps(provenance, ensure_ascii=False, indent=2))
     return dict(text=text, job_id=job, uncertain=provenance['uncertain'], model=model, provenance=provenance)
