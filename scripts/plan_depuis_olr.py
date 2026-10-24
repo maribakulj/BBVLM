@@ -15,6 +15,10 @@ import json
 from pathlib import Path
 
 
+# Grands titres : kraken n'y trouve souvent aucune ligne ; la boîte du détecteur reste visible.
+TITLES = ('paragraph_title', 'doc_title')
+
+
 def union(boxes):
     return [min(b[0] for b in boxes), min(b[1] for b in boxes), max(b[2] for b in boxes), max(b[3] for b in boxes)]
 
@@ -32,7 +36,7 @@ def segments(article_boxes, gap):
             out[-1].append(box)
         else:
             out.append([box])
-    return [union(s) for s in out]
+    return out
 
 
 def main():
@@ -48,9 +52,11 @@ def main():
     for a, article in enumerate(olr.get('articles', []), 1):
         numbers = [int(n) for n in article.get('boites', []) if 1 <= int(n) <= len(boxes) and int(n) not in used]
         used.update(numbers)
-        for s, bbox in enumerate(segments([boxes[n-1]['bbox'] for n in numbers], 3*height), 1):
+        titles = {tuple(boxes[n-1]['bbox']) for n in numbers if boxes[n-1]['label'] in TITLES}
+        for s, members in enumerate(segments([boxes[n-1]['bbox'] for n in numbers], 3*height), 1):
             regions.append(dict(id=f'a{a:02d}_s{s:02d}', kind='olr_segment', article=a,
-                                article_type=article.get('type'), bbox=[round(v) for v in bbox]))
+                                article_type=article.get('type'), bbox=[round(v) for v in union(members)],
+                                title_boxes=[[round(v) for v in b] for b in members if tuple(b) in titles]))
     # Boîtes de texte que Haiku n'a rangées nulle part : régions à part, en fin de liste.
     for n, box in enumerate(boxes, 1):
         if n not in used and n not in {int(i) for i in olr.get('ignorees', []) if str(i).isdigit()} \
@@ -87,7 +93,7 @@ def main():
         for l in g['lines']:
             line_regions[l['id']] = rid
     kept = {v for v in line_regions.values()}
-    regions = [r for r in regions if r['id'] in kept]
+    regions = [r for r in regions if r['id'] in kept or r.get('title_boxes')]
     # Boîtes du détecteur qui se chevauchent : chaque région est resserrée sur SES lignes
     # (marge d'un tiers de ligne), sinon le crop montre les lignes de la voisine, lues deux fois.
     by_id = {l['id']: l for l in lines}
@@ -102,6 +108,9 @@ def main():
             # ligne kraken à cheval sur deux colonnes : coupée à la largeur de la boîte du détecteur
             bx0, bx1 = r['bbox'][0] - m, r['bbox'][2] + m
             own = [[max(o[0], bx0), o[1], min(o[2], bx1), o[3]] for o in own if min(o[2], bx1) > max(o[0], bx0)]
+        own += r.get('title_boxes', [])
+        if not own:
+            continue
         b = union(own)
         r['bbox'] = [round(max(0, b[0]-m)), round(max(0, b[1]-m)), round(min(width, b[2]+m)), round(min(height_px, b[3]+m))]
         r['keep_boxes'] = [[round(v) for v in o] for o in own]
